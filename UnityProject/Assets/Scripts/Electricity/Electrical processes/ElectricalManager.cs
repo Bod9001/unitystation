@@ -103,7 +103,10 @@ public class ElectricalManager : MonoBehaviour
 	{
 		Instance.electricalSync.SetSpeed((int)Instance.MSSpeed);
 	}
-
+/// <summary>
+/// Used to kickstart electrical since it has trouble on round results for some reason
+/// </summary>
+/// <returns></returns>
 	private IEnumerator KickstartElectrical()
 	{
 		electricalSync.StopSim();
