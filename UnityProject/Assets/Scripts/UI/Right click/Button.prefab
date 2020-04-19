@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 222604586214942940}
   - component: {fileID: 114957084443620552}
   m_Layer: 5
-  m_Name: Icon
+  m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,9 +57,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 15f015b12f2615240bab192aeaa9c18d, type: 2}
+  m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3135903, g: 0.45365626, b: 0.764151, a: 0.6156863}
+  m_Color: {r: 0.3135903, g: 0.45365626, b: 0.764151, a: 0.40392157}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -161,10 +161,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a006b3bb3fe957c4599f7f419744c940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circle: {fileID: 114303947380594414}
-  icon: {fileID: 114957084443620552}
+  Circle: {fileID: 114303947380594414}
+  Icon: {fileID: 114957084443620552}
   title: {fileID: 114413488724221078}
-  childButtons: []
+  Hiddentitle: 
+  DefaultPosition: 0
+  DefaultColour: {r: 0, g: 0, b: 0, a: 0}
+  MenuDepth: 0
+  GlobalAngle: 0
 --- !u!1 &1708477368976064
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,7 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5330188, g: 0.934883, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:

@@ -22,6 +22,8 @@ public class RightClickManager : MonoBehaviour
 	/// saved reference to lighting sytem, for checking FOV occlusion
 	private LightingSystem lightingSystem;
 
+	private static Color UnspecifiedMenuColour = new Color(0.3135903f, 0.4536563f,0.764151f, 0.3f);
+
 	//cached methods attributed with RightClickMethod
 	private List<RightClickAttributedComponent> attributedTypes;
 	private List<RaycastResult> raycastResults = new List<RaycastResult>();
@@ -254,6 +256,6 @@ public class RightClickManager : MonoBehaviour
 			                        " on this object.", Category.UI, forObject.name);
 		}
 
-		return RightClickMenuItem.CreateObjectMenuItem(Color.gray, sprite, null, label, subMenus, palette);
+		return RightClickMenuItem.CreateObjectMenuItem(UnspecifiedMenuColour, sprite, null, label, subMenus, palette);
 	}
 }
