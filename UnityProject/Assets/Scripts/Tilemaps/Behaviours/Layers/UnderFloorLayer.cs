@@ -58,17 +58,17 @@ public class UnderFloorLayer : Layer
 
 	public override LayerTile GetTile(Vector3Int position)
 	{
-		if (TileStore.ContainsKey((Vector2Int) position))
+		if (TileStore.ContainsKey((Vector2Int) position) == false)
 		{
-			foreach (var Tile in TileStore[(Vector2Int) position])
+			SetupNode(position);
+		}
+		foreach (var Tile in TileStore[(Vector2Int) position])
+		{
+			if (Tile != null)
 			{
-				if (Tile != null)
-				{
-					return Tile;
-				}
+				return Tile;
 			}
 		}
-
 		return null;
 	}
 
@@ -102,26 +102,7 @@ public class UnderFloorLayer : Layer
 			Vector2Int position2 = position.To2Int();
 			if (!TileStore.ContainsKey(position2))
 			{
-				for (int i = 0; i < 50; i++)
-				{
-					var localPlace = position;
-					localPlace.z = -i + 1;
-					var getTile = tilemap.GetTile(localPlace) as LayerTile;
-					if (getTile != null)
-					{
-						if (!TileStore.ContainsKey((Vector2Int) localPlace))
-						{
-							TileStore.Add((Vector2Int) localPlace, new List<LayerTile>());
-						}
-
-						TileStore[(Vector2Int) localPlace].Add(getTile);
-					}
-				}
-
-				if (!TileStore.ContainsKey(position2))
-				{
-					TileStore[position2] = new List<LayerTile>();
-				}
+				SetupNode(position);
 			}
 
 			int index = FindFirstEmpty(TileStore[position2]);
@@ -156,6 +137,30 @@ public class UnderFloorLayer : Layer
 		{
 			base.SetTile(position, tile, transformMatrix, color);
 		}
+	}
+
+	public void SetupNode(Vector3Int position){
+		Vector2Int position2 = position.To2Int();
+		for (int i = 0; i < 50; i++)
+		{
+			var localPlace = position;
+			localPlace.z = -i + 1;
+			var getTile = tilemap.GetTile(localPlace) as LayerTile;
+			if (getTile != null)
+			{
+				if (!TileStore.ContainsKey((Vector2Int) localPlace))
+				{
+					TileStore.Add((Vector2Int) localPlace, new List<LayerTile>());
+				}
+
+				TileStore[(Vector2Int) localPlace].Add(getTile);
+			}
+		}
+		if (!TileStore.ContainsKey(position2))
+		{
+			TileStore[position2] = new List<LayerTile>();
+		}
+
 	}
 
 	private int FindFirstEmpty(List<LayerTile> LookThroughList)
