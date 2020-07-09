@@ -15,7 +15,7 @@ using UnityEngine.U2D;
 public class GenerateSpriteSO : EditorWindow
 {
 	public static StopGapScript stopGapScript;
-
+	public static Dictionary<string, List<string>> Checklist = new Dictionary<string, List<string>>();
 	[MenuItem("Tools/GenerateSpriteSO")]
 	public static void Generate()
 	{
@@ -155,9 +155,7 @@ public class ProjectIcons : Editor {
 	public static void GetSprites()
 	{
 		//Loading sprite atlases
-
 		SpriteAtlas[] allSpriteAtlases = Resources.LoadAll<SpriteAtlas>("");
-		Dictionary<string, List<string>> Checklist = new Dictionary<string, List<string>>();
 		foreach (var element in allSpriteAtlases)
 		{
 			Sprite[] sprites = new Sprite[element.spriteCount];
@@ -174,17 +172,17 @@ public class ProjectIcons : Editor {
 			 * so, for instance if the atlas is "hosue"
 			 * Sprite[] houseSprites = table["house"];
 			*/
-			foreach (var sprite in sprites)
-			{
-				foreach (var Check in Checklist)
-				{
-					if (Check.Value.Contains(sprite.name))
-					{
-						Logger.Log(element.name + " Contains  " + sprite.name +  " That repeats in " + Check.Key);
-					}
+			//foreach (var sprite in sprites)
+			//{
+				//foreach (var Check in Checklist)
+				//{
+					//if (Check.Value.Contains(sprite.name))
+					//{
+						//Logger.Log(element.name + " Contains  " + sprite.name +  " That repeats in " + Check.Key);
+					//}
 
-				}
-			}
+				//}
+			//}
 			Checklist[element.name] = (sprites.Select(x=>x.name).ToList());
 		}
 
@@ -228,7 +226,7 @@ public class ProjectIcons : Editor {
 
 
 
-			info.singleSpriteReference = new AssetReferenceAtlasedSprite(stopGapScript.assetReferenceAtlasedSprite.AssetGUID);
+			info.singleSpriteReference = new AssetReferenceAtlasedSprite(stopGapScript.Clothes.AssetGUID);
 			info.singleSpriteReference.SubObjectName = SP.name;
 
 			if (spriteJson.Delays.Count > 0)

@@ -65,4 +65,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AwaySites/Relicta.unity
     guid: 89dc70d5a9db4c34c974824538dc54c4
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 5c50b01a74c61d842901df90a1a0db72,
+      type: 2}
