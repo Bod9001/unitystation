@@ -2,7 +2,9 @@
     "name": "TilemapsEditor",
     "references": [
         "Assets",
-        "Unity.2D.Tilemap.Editor"
+        "Unity.2D.Tilemap.Editor",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor"
     ],
     "includePlatforms": [
         "Editor"

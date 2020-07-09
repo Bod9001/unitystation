@@ -1,12 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using Mirror;
 #if UNITY_EDITOR
 using Unity.EditorCoroutines.Editor;
+using UnityEditor.SceneManagement;
 #endif
 using UnityEngine.UI;
-
+using UnityEngine.AddressableAssets;
 
 ///	<summary>
 ///	for Handling sprite animations
@@ -14,7 +17,8 @@ using UnityEngine.UI;
 [ExecuteInEditMode]
 public class SpriteHandler : MonoBehaviour
 {
-	public SpriteDataSO spriteDataSO = null;
+	public AssetReference spriteDataSOAddressable;
+	private SpriteDataSO spriteDataSO = null;
 	private SpriteDataSO.Frame PresentFrame = null;
 
 	private SpriteRenderer spriteRenderer;
@@ -22,8 +26,7 @@ public class SpriteHandler : MonoBehaviour
 
 	private int animationIndex = 0;
 
-	[SerializeField]
-	private int variantIndex = 0;
+	[SerializeField] private int variantIndex = 0;
 
 	private float timeElapsed = 0;
 
@@ -97,13 +100,14 @@ public class SpriteHandler : MonoBehaviour
 	{
 		ImageComponentStatus(false);
 		Initialised = true;
-		if (spriteDataSO != null)
+		if (spriteDataSOAddressable != null && spriteDataSOAddressable.RuntimeKey as string != "")
 		{
 			if (HasImageComponent())
 			{
-				PushTexture();
+				LoadAddressableReference();
 			}
 		}
+
 		ImageComponentStatus(true);
 	}
 
@@ -121,13 +125,12 @@ public class SpriteHandler : MonoBehaviour
 
 	private void OnEnable()
 	{
+		GetImageComponent();
 		if (Application.isPlaying)
 		{
 			SpriteHandlerManager.RegisterHandler(
 				this.transform.parent.GetComponent<NetworkBehaviour>()?.netIdentity, this);
 		}
-
-		GetImageComponent();
 	}
 
 	private void OnDisable()
@@ -260,9 +263,10 @@ public class SpriteHandler : MonoBehaviour
 		yield return new Unity.EditorCoroutines.Editor.EditorWaitForSeconds(PresentFrame.secondDelay);
 		UpdateMe();
 		EditorAnimating = null;
-		if (isAnimation && !(this == null))
+		if (isAnimation && !(this == null) && Application.isPlaying == false)
 		{
-			EditorAnimating = Unity.EditorCoroutines.Editor.EditorCoroutineUtility.StartCoroutine(EditorAnimations(), this);
+			EditorAnimating =
+				Unity.EditorCoroutines.Editor.EditorCoroutineUtility.StartCoroutine(EditorAnimations(), this);
 		}
 	}
 
@@ -271,30 +275,8 @@ public class SpriteHandler : MonoBehaviour
 	private void TryToggleAnimationState(bool turnOn)
 	{
 #if UNITY_EDITOR
-		if (Application.isEditor && !Application.isPlaying)
-		{
-			if (turnOn && !isAnimation)
-			{
-				if ( this.gameObject.scene.path != null &&  this.gameObject.scene.path.Contains("Scenes") == false && EditorAnimating == null)
-				{
-					Unity.EditorCoroutines.Editor.EditorCoroutineUtility.StartCoroutine(EditorAnimations(), this);
-					isAnimation = true;
-				}
-				else
-				{
-					return;
-				}
-
-			}
-			else if (!turnOn && isAnimation)
-			{
-				isAnimation = false;
-			}
-			return;
-		}
+		if (EditorTryToggleAnimationState(turnOn)){ return;}
 #endif
-
-
 		if (turnOn && !isAnimation)
 		{
 			UpdateManager.Add(CallbackType.UPDATE, UpdateMe);
@@ -328,21 +310,81 @@ public class SpriteHandler : MonoBehaviour
 		}
 	}
 
+	public int GetVariantindex()
+	{
+		return variantIndex;
+	}
+
 #if UNITY_EDITOR
 	private EditorCoroutine EditorAnimating;
-	private void OnValidate()
+
+	[NaughtyAttributes.Button("Force start Sprites")]
+	public void OnValidate()
 	{
 		if (Application.isPlaying) return;
 
-		if (spriteDataSO == null || isAnimation || this == null || this.gameObject == null)
+		if (spriteDataSOAddressable == null || isAnimation || this == null || this.gameObject == null || this.gameObject.scene.name == null) //
 		{
 			return;
 		}
-		Initialised = true;
 		GetImageComponent();
-		PushTexture();
+		Initialised = true;
+
+		if (spriteDataSOAddressable != null && spriteDataSO == null)
+		{
+			LoadAddressableReference();
+		}
+		else if (spriteDataSO != null)
+		{
+			PushTexture();
+		}
+	}
+
+	public bool EditorTryToggleAnimationState(bool turnOn)
+	{
+		if (Application.isEditor && !Application.isPlaying)
+		{
+			if (turnOn && !isAnimation)
+			{
+				if (this.gameObject.scene.path != null && this.gameObject.scene.path.Contains("Scenes") == false &&
+				    EditorAnimating == null)
+				{
+					Unity.EditorCoroutines.Editor.EditorCoroutineUtility.StartCoroutine(EditorAnimations(), this);
+					isAnimation = true;
+				}
+				else
+				{
+					return true;
+				}
+			}
+			else if (!turnOn && isAnimation)
+			{
+				isAnimation = false;
+			}
+			return true;
+		}
+		return false;
 	}
 #endif
+	[NaughtyAttributes.Button("Forced Load")]
+	public void LoadAddressableReference()
+	{
+#if UNITY_EDITOR
+		if (Application.isPlaying == false)
+		{
+			LoadspriteDataSO(spriteDataSOAddressable.editorAsset as SpriteDataSO);
+			return;
+		}
+#endif
+		Addressables.LoadAssetsAsync<SpriteDataSO>(spriteDataSOAddressable, LoadspriteDataSO);
+	}
+
+	private void LoadspriteDataSO(SpriteDataSO obj)
+	{
+		if (obj != null)
+		{
+			spriteDataSO = obj;
+			spriteDataSO.LoadAddressableReference(PushTexture);
+		}
+	}
 }
-
-

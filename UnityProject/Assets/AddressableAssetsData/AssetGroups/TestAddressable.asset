@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TestAddressable
+  m_EditorClassIdentifier: 
+  m_GroupName: TestAddressable
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 15765967cb7237645b4b933b3b4bac8e
+  m_SerializeEntries:
+  - m_GUID: 080fbedacf4fcb942848780bab70bba9
+    m_Address: regular_carp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 12f8dd91a7c71d2439b4014232e2678b
+    m_Address: Assets/UI/tileItemPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1fe06653a7e374643ac71e7c7ae61048
+    m_Address: Assets/spriteTest/New Sprite Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2975075beb116894180e65cf7e2471f0
+    m_Address: Assets/spriteTest/grass.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 850cb98c1b1138b438406ef200eac96b
+    m_Address: Assets/spriteTest/TT/grass.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 934d915ec3e0af8418f78a062f4428d9
+    m_Address: Assets/spriteTest/TT/back_captainpack.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: be53c6a65b80e884a9157a2ecd204dd5
+    m_Address: BlueSpace
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e2bfaba390f427a4faf2b39c98db1f0d
+    m_Address: Assets/spriteTest/TT/back_captainpack.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ff383d371c153bb4abfdf76849627006
+    m_Address: Assets/spriteTest/TT/regular_carp.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4b13e8773dfb5cf479ec532088f9f02a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e50f3652c4ed0414cb7fd0b2bc8f3384, type: 2}
+    - {fileID: 11400000, guid: cc5dda47fafb6ba428e77107f0fdbc13, type: 2}

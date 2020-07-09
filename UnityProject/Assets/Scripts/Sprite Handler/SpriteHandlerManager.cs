@@ -30,6 +30,13 @@ public class SpriteHandlerManager : NetworkBehaviour
 		if (networkIdentity == null)
 		{
 			Logger.LogWarning(" RegisterHandler networkIdentity is null on  > " + spriteHandler.transform.parent.name, Category.SpriteHandler);
+			return;
+		}
+
+		if (Instance == null)
+		{
+			Logger.LogWarning("Instance not set On SpriteHandlerManager", Category.SpriteHandler);
+			return;
 		}
 
 		if (Instance.PresentSprites.ContainsKey(networkIdentity) == false)
