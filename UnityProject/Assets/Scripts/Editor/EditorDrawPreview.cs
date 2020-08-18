@@ -51,7 +51,7 @@ public class MyProjectViewExtentions
 				if (spriteDataSO == null) return;
 				if (spriteDataSO.Variance.Count <= 0 || spriteDataSO.Variance[0].Frames.Count <= 0 || spriteDataSO.Variance[0].Frames[0].sprite == null) return;
 				TextureImporter importer = AssetImporter.GetAtPath (AssetDatabase.GetAssetPath(spriteDataSO.Variance[0].Frames[0].sprite))as TextureImporter;
-				if (importer.isReadable == false)
+				if (importer != null && importer.isReadable == false)
 				{
 					Logger.Log("hey, Texture read and write is not enabled for this Sprite " + spriteDataSO.Variance[0].Frames[0].sprite + "Please update the values on the import settings to make it Read and write");
 					return;

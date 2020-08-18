@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
 using UnityEditor;
+using UnityEngine.AddressableAssets;
 #if UNITY_EDITOR
 using Unity.EditorCoroutines.Editor;
 #endif
@@ -15,6 +16,9 @@ using UnityEngine.UI;
 [ExecuteInEditMode]
 public class SpriteHandler : MonoBehaviour
 {
+
+	public AssetReference spriteDataSOAddressable;
+
 	[SerializeField] private bool NetworkThis = true;
 
 	[SerializeField] private List<SpriteDataSO> SubCatalogue = new List<SpriteDataSO>();
@@ -48,6 +52,7 @@ public class SpriteHandler : MonoBehaviour
 
 	private bool isSubCatalogueChanged = false;
 
+	[HideInInspector]
 	[SerializeField]
 	private List<SerialisationStanding> Sprites =new List<SerialisationStanding>();
 
@@ -527,14 +532,20 @@ public class SpriteHandler : MonoBehaviour
 		GetImageComponent();
 		ImageComponentStatus(false);
 		Initialised = true;
-
-		if (PresentSpriteSet != null)
+		if (spriteDataSOAddressable != null && spriteDataSOAddressable.RuntimeKey as string != "")
 		{
 			if (HasImageComponent() && pushTextureOnStartUp)
 			{
-				PushTexture(false);
+				LoadAddressableReference();
 			}
 		}
+		// if (PresentSpriteSet != null)
+		// {
+			// if (HasImageComponent() && pushTextureOnStartUp)
+			// {
+				// PushTexture(false);
+			// }
+		// }
 
 		ImageComponentStatus(true);
 	}
@@ -654,6 +665,7 @@ public class SpriteHandler : MonoBehaviour
 #if UNITY_EDITOR
 	private EditorCoroutine EditorAnimating;
 
+	[NaughtyAttributes.Button("Force start Sprites")]
 	private void OnValidate()
 	{
 		if (Application.isPlaying) return;
@@ -663,12 +675,22 @@ public class SpriteHandler : MonoBehaviour
 		{
 			return;
 		}
+
+
 		if (this.gameObject.scene.path != null && this.gameObject.scene.path.Contains("Scenes") == false &&
 		    EditorAnimating == null)
 		{
 			Initialised = true;
 			GetImageComponent();
-			PushTexture();
+			if (spriteDataSOAddressable != null && PresentSpriteSet == null)
+			{
+				LoadAddressableReference();
+			}
+			else if (PresentSpriteSet != null)
+			{
+				PushTexture();
+			}
+			//PushTexture();
 		}
 	}
 
@@ -705,5 +727,33 @@ public class SpriteHandler : MonoBehaviour
 	public class SerialisationStanding
 	{
 		public Texture2D Texture;
+	}
+
+
+	[NaughtyAttributes.Button("Forced Load")]
+	public void LoadAddressableReference()
+	{
+#if UNITY_EDITOR
+		if (Application.isPlaying == false)
+		{
+			LoadspriteDataSO(spriteDataSOAddressable.editorAsset as SpriteDataSO);
+			return;
+		}
+#endif
+		Addressables.LoadAssetsAsync<SpriteDataSO>(spriteDataSOAddressable, LoadspriteDataSO);
+	}
+
+	private void LoadspriteDataSO(SpriteDataSO obj)
+	{
+		if (obj != null)
+		{
+			PresentSpriteSet = obj;
+			PresentSpriteSet.LoadAddressableReference(AddressableLoadProxy);
+		}
+	}
+
+	private void AddressableLoadProxy()
+	{
+		PushTexture(false);
 	}
 }

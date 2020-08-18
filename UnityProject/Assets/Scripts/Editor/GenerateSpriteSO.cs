@@ -6,9 +6,167 @@ using UnityEngine;
 using Newtonsoft.Json;
 using System.Linq;
 using System.Reflection;
+using UnityEditor.AddressableAssets;
+using UnityEditor.AddressableAssets.Settings;
+using UnityEngine.AddressableAssets;
 
 public class GenerateSpriteSO : EditorWindow
 {
+	public static Dictionary<string, HashSet<string>> AtlasTable = new Dictionary<string, HashSet<string>>()
+	{
+		{
+			"BigBoss", new HashSet<string>()
+			{
+				"Assets/Textures/mobs/species/demigods",
+				"Assets/Textures/mobs/species/bosses",
+				"Assets/Textures/mobs/species/largeCreatures"
+			}
+		},
+
+		{
+			"Clothes", new HashSet<string>()
+			{
+				"Assets/Textures/clothing",
+			}
+		},
+
+		{
+			"Cutscenes", new HashSet<string>()
+			{
+				"Assets/Textures/interface/cut scenes",
+			}
+		},
+
+		{
+			"InHands", new HashSet<string>()
+			{
+				"Assets/Textures/mobs/races/_shared textures/in hands",
+			}
+		},
+
+		{
+			"Items", new HashSet<string>()
+			{
+				"Assets/Textures/items",
+			}
+		},
+
+		{
+			"Mobs", new HashSet<string>()
+			{
+				"Assets/Textures/mobs/overlay",
+				"Assets/Textures/mobs/races/abductor",
+				"Assets/Textures/mobs/races/ethereal",
+				"Assets/Textures/mobs/races/Felinid",
+				"Assets/Textures/mobs/races/fly person",
+				"Assets/Textures/mobs/races/golem",
+				"Assets/Textures/mobs/races/gorilla",
+				"Assets/Textures/mobs/races/Human",
+				"Assets/Textures/mobs/races/husked body",
+				"Assets/Textures/mobs/races/Jilly",
+				"Assets/Textures/mobs/races/lizard",
+				"Assets/Textures/mobs/races/lum",
+				"Assets/Textures/mobs/races/monkey",
+				"Assets/Textures/mobs/races/Moth",
+				"Assets/Textures/mobs/races/mush",
+				"Assets/Textures/mobs/races/plant",
+				"Assets/Textures/mobs/races/Plasma",
+				"Assets/Textures/mobs/races/pot plants",
+				"Assets/Textures/mobs/races/Shadow",
+				"Assets/Textures/mobs/races/skeleton",
+				"Assets/Textures/mobs/races/slime",
+				"Assets/Textures/mobs/races/snail",
+				"Assets/Textures/mobs/races/Stargazers",
+				"Assets/Textures/mobs/races/synthetics",
+				"Assets/Textures/mobs/races/zombie",
+				"Assets/Textures/mobs/species/animals",
+				"Assets/Textures/mobs/species/BEES",
+				"Assets/Textures/mobs/species/blob",
+				"Assets/Textures/mobs/species/blood cultist",
+				"Assets/Textures/mobs/species/Bob",
+				"Assets/Textures/mobs/species/bots",
+				"Assets/Textures/mobs/species/Carp",
+				"Assets/Textures/mobs/species/clockwork cultist",
+				"Assets/Textures/mobs/species/clown posse",
+				"Assets/Textures/mobs/species/corgi",
+				"Assets/Textures/mobs/species/evilpope",
+				"Assets/Textures/mobs/species/god",
+				"Assets/Textures/mobs/species/gondolas",
+				"Assets/Textures/mobs/species/googly_eyes",
+				"Assets/Textures/mobs/species/hivebot",
+				"Assets/Textures/mobs/species/Holoparasite",
+				"Assets/Textures/mobs/species/laughter Demon",
+				"Assets/Textures/mobs/species/lavaland_monsters",
+				"Assets/Textures/mobs/species/mouse_held",
+				"Assets/Textures/mobs/species/nim",
+				"Assets/Textures/mobs/species/penguins",
+				"Assets/Textures/mobs/species/pets",
+				"Assets/Textures/mobs/species/Rabbits",
+				"Assets/Textures/mobs/species/revenant",
+				"Assets/Textures/mobs/species/sheep",
+				"Assets/Textures/mobs/species/slimes",
+				"Assets/Textures/mobs/species/spacedragon",
+				"Assets/Textures/mobs/species/spider",
+				"Assets/Textures/mobs/species/swarmer",
+				"Assets/Textures/mobs/species/xenomorph",
+			}
+		},
+
+		{
+			"MobsShared", new HashSet<string>()
+			{
+				"Assets/Textures/mobs/races/_shared textures/blood",
+				"Assets/Textures/mobs/races/_shared textures/body part damage",
+				"Assets/Textures/mobs/races/_shared textures/body parts",
+				"Assets/Textures/mobs/races/_shared textures/cryogenics",
+				"Assets/Textures/mobs/races/_shared textures/customisation",
+				"Assets/Textures/mobs/races/_shared textures/digitigrade",
+				"Assets/Textures/mobs/races/_shared textures/generic ghost",
+				"Assets/Textures/mobs/races/_shared textures/on fire",
+				"Assets/Textures/mobs/races/_shared textures/overlay",
+				"Assets/Textures/mobs/races/_shared textures/vomit",
+				"Assets/Textures/mobs/races/_shared textures/wings",
+			}
+		},
+
+		{
+			"Objects", new HashSet<string>()
+			{
+				"Assets/Textures/objects",
+			}
+		},
+
+
+		{
+			"Other", new HashSet<string>()
+			{
+				"Assets/Textures/background",
+				"Assets/Textures/effects",
+				"Assets/Textures/vehicles",
+				"Assets/Textures/interface/UI",
+				"Assets/Textures/paper stamps",
+				"Assets/Textures/interface/camera static",
+				"Assets/Textures/interface/HUD",
+				"Assets/Textures/interface/language",
+				"Assets/Textures/interface/radial",
+				"Assets/Textures/interface/synthetic EMP blast static",
+			}
+		},
+
+
+		{
+			"Station", new HashSet<string>()
+			{
+				"Assets/Textures/floors",
+				"Assets/Textures/base",
+				"Assets/Textures/wall",
+				"Assets/Textures/under floors",
+				"Assets/Textures/Turf",
+			}
+		},
+	};
+
+
 	public static List<string> ToDel = new List<string>();
 	public static Dictionary<string, SpriteDataSO> ToSeve = new Dictionary<string, SpriteDataSO>();
 
@@ -25,7 +183,9 @@ public class GenerateSpriteSO : EditorWindow
 	[MenuItem("Tools/Convert Json Sprites")]
 	public static void ConvertJsonSprites()
 	{
-		spriteCatalogue = AssetDatabase.LoadAssetAtPath<SpriteCatalogue>("Assets/Resources/ScriptableObjects/SOs singletons/SpriteCatalogueSingleton.asset");
+		spriteCatalogue =
+			AssetDatabase.LoadAssetAtPath<SpriteCatalogue>(
+				"Assets/Resources/ScriptableObjects/SOs singletons/SpriteCatalogueSingleton.asset");
 		ToSeve.Clear();
 		ToDel.Clear();
 		DirSearch_ex3(Application.dataPath + "/SpriteJsonToSO");
@@ -40,6 +200,7 @@ public class GenerateSpriteSO : EditorWindow
 			AssetDatabase.CreateAsset(Seve.Value, Seve.Key);
 			Seve.Value.Awake();
 		}
+
 		ToSeve.Clear();
 		ToDel.Clear();
 		AssetDatabase.SaveAssets();
@@ -56,7 +217,43 @@ public class GenerateSpriteSO : EditorWindow
 		//	DirSearch_ex3Prefab(Application.dataPath + "/Resources/Prefabs/Items"); //
 		//
 		AssetDatabase.StartAssetEditing();
-		DirSearch_ex3(Application.dataPath + "/Textures");
+
+		var settings = AddressableAssetSettingsDefaultObject.Settings;
+		var group = settings.DefaultGroup;
+		var entriesAdded = new List<AddressableAssetEntry>();
+		var Sprites = FindAssetsByType<SpriteDataSO>();
+		foreach (var Sprite in Sprites)
+		{
+			var entry = settings.CreateOrMoveEntry(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Sprite)),
+				group, readOnly: false, postEvent: false);
+			entry.address = AssetDatabase.GetAssetPath(Sprite);
+			//entry.labels.Add("MyLabel");
+
+			entriesAdded.Add(entry);
+
+			foreach (var Varianc in Sprite.Variance)
+			{
+				foreach (var Frame in Varianc.Frames)
+				{
+					var path = AssetDatabase.GetAssetPath(Frame.sprite);
+					foreach (var Atlas in AtlasTable)
+					{
+						foreach (var Folder in Atlas.Value)
+						{
+							if (path.Contains(Folder))
+							{
+								var AtlasReference = getAtlasReference(Atlas.Key);
+								Frame.singleSpriteReference = new AssetReferenceAtlasedSprite(AtlasReference.Atlas.AssetGUID);
+								Frame.singleSpriteReference.SetEditorSubObject(Frame.sprite);
+							}
+						}
+					}
+				}
+			}
+		}
+
+		settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true);
+		//DirSearch_ex3(Application.dataPath + "/Textures");
 		AssetDatabase.StopAssetEditing();
 		AssetDatabase.SaveAssets();
 		return;
@@ -66,11 +263,11 @@ public class GenerateSpriteSO : EditorWindow
 		{
 			//foreach (var Sprite in SH.Sprites)
 			//{
-				//var SO = PullOutSO(Sprite.Texture);
-				//if (SH.SubCatalogue.Contains(SO) == false)
-				//{
-					//SH.SubCatalogue.Add(SO);
-				//}
+			//var SO = PullOutSO(Sprite.Texture);
+			//if (SH.SubCatalogue.Contains(SO) == false)
+			//{
+			//SH.SubCatalogue.Add(SO);
+			//}
 			//}
 
 			var SR = SH.GetComponent<SpriteRenderer>();
@@ -91,7 +288,6 @@ public class GenerateSpriteSO : EditorWindow
 				Logger.Log(GetRoot(SH.gameObject).name + "Not root apparently");
 			}
 		}
-
 
 
 		return;
@@ -242,6 +438,20 @@ public class GenerateSpriteSO : EditorWindow
 			spriteCatalogue.Catalogue.Add(Seve.Value);
 		}
 		*/
+	}
+
+	public static AtlasReference getAtlasReference(string Name)
+	{
+		var AtlasReferences = FindAssetsByType<AtlasReference>();
+		foreach (var References in AtlasReferences)
+		{
+			if (References.name == Name)
+			{
+				return References;
+			}
+		}
+
+		return null;
 	}
 
 	public static GameObject FindSeedPacket(DefaultPlantData defaultPlantData)
@@ -448,8 +658,6 @@ public class GenerateSpriteSO : EditorWindow
 
 				foreach (var S in hasTT)
 				{
-
-
 					prefabComponents.Add(S);
 				}
 			}
