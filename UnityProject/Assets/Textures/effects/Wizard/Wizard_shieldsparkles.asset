@@ -14,56 +14,128 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_0
+      sprite: {fileID: 21300000, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_4
+      sprite: {fileID: 21300008, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_8
+      sprite: {fileID: 21300016, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_12
+      sprite: {fileID: 21300024, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_16
+      sprite: {fileID: 21300032, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300002, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300004, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_20
+      sprite: {fileID: 21300040, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_1
+      sprite: {fileID: 21300002, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_5
+      sprite: {fileID: 21300010, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_9
+      sprite: {fileID: 21300018, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_13
+      sprite: {fileID: 21300026, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_17
+      sprite: {fileID: 21300034, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_21
+      sprite: {fileID: 21300042, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_2
+      sprite: {fileID: 21300004, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_6
+      sprite: {fileID: 21300012, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_10
+      sprite: {fileID: 21300020, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_14
+      sprite: {fileID: 21300028, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_18
+      sprite: {fileID: 21300036, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_22
+      sprite: {fileID: 21300044, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_3
+      sprite: {fileID: 21300006, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_7
+      sprite: {fileID: 21300014, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_11
+      sprite: {fileID: 21300022, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_15
+      sprite: {fileID: 21300030, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_19
+      sprite: {fileID: 21300038, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: shieldsparkles_23
+      sprite: {fileID: 21300046, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1477

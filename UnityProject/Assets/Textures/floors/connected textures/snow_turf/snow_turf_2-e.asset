@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 87e312dc5b672ff4ab3b50bd5a7b99ea, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: snow_turf_2-e
+      sprite: {fileID: 21300000, guid: 87e312dc5b672ff4ab3b50bd5a7b99ea, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1932

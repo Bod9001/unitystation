@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: dd822e7d6c24bd249ba582d68186bb72, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: uniforms_geneticswhite_skirt
+      sprite: {fileID: 21300000, guid: dd822e7d6c24bd249ba582d68186bb72, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 21519

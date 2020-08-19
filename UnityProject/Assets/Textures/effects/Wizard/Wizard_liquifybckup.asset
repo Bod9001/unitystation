@@ -14,29 +14,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_0
+      sprite: {fileID: 21300000, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_1
+      sprite: {fileID: 21300002, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_2
+      sprite: {fileID: 21300004, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_3
+      sprite: {fileID: 21300006, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_4
+      sprite: {fileID: 21300008, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_5
+      sprite: {fileID: 21300010, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_6
+      sprite: {fileID: 21300012, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_7
+      sprite: {fileID: 21300014, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_8
+      sprite: {fileID: 21300016, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_9
+      sprite: {fileID: 21300018, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_10
+      sprite: {fileID: 21300020, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: a886964ac904871488beefcc438c3573, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: liquifybckup_11
+      sprite: {fileID: 21300022, guid: a886964ac904871488beefcc438c3573, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1464

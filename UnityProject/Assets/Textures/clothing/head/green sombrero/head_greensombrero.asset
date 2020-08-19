@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6ed0996079bf4dc49bad581020fce4c3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greensombrero_0
+      sprite: {fileID: 21300000, guid: 6ed0996079bf4dc49bad581020fce4c3, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 6ed0996079bf4dc49bad581020fce4c3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greensombrero_1
+      sprite: {fileID: 21300002, guid: 6ed0996079bf4dc49bad581020fce4c3, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 6ed0996079bf4dc49bad581020fce4c3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greensombrero_2
+      sprite: {fileID: 21300004, guid: 6ed0996079bf4dc49bad581020fce4c3, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 6ed0996079bf4dc49bad581020fce4c3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greensombrero_3
+      sprite: {fileID: 21300006, guid: 6ed0996079bf4dc49bad581020fce4c3, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20329

@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1365b25526514fc45b60dd1f88f158ee, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_vir_openOLD_0
+      sprite: {fileID: 21300000, guid: 1365b25526514fc45b60dd1f88f158ee, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 1365b25526514fc45b60dd1f88f158ee, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_vir_openOLD_1
+      sprite: {fileID: 21300002, guid: 1365b25526514fc45b60dd1f88f158ee, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 1365b25526514fc45b60dd1f88f158ee, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_vir_openOLD_2
+      sprite: {fileID: 21300004, guid: 1365b25526514fc45b60dd1f88f158ee, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 1365b25526514fc45b60dd1f88f158ee, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_vir_openOLD_3
+      sprite: {fileID: 21300006, guid: 1365b25526514fc45b60dd1f88f158ee, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 924

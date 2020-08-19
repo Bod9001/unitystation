@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: abductor-suit_0
+      sprite: {fileID: 21300000, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: abductor-suit_1
+      sprite: {fileID: 21300002, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: abductor-suit_2
+      sprite: {fileID: 21300004, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: abductor-suit_3
+      sprite: {fileID: 21300006, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 973

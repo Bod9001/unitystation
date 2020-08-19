@@ -14,41 +14,95 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_0
+      sprite: {fileID: 21300000, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300002, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_1
+      sprite: {fileID: 21300002, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300004, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_2
+      sprite: {fileID: 21300004, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300006, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_3
+      sprite: {fileID: 21300006, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_4
+      sprite: {fileID: 21300008, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300010, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_5
+      sprite: {fileID: 21300010, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300012, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_6
+      sprite: {fileID: 21300012, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300014, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_7
+      sprite: {fileID: 21300014, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300016, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_8
+      sprite: {fileID: 21300016, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300018, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_9
+      sprite: {fileID: 21300018, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300020, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_10
+      sprite: {fileID: 21300020, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300022, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_11
+      sprite: {fileID: 21300022, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300024, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_12
+      sprite: {fileID: 21300024, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300026, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_13
+      sprite: {fileID: 21300026, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.15
-    - sprite: {fileID: 21300028, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_14
+      sprite: {fileID: 21300028, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300030, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_15
+      sprite: {fileID: 21300030, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300032, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_16
+      sprite: {fileID: 21300032, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300034, guid: 32984b868a458944fa4634a308fff52b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: judicial_explosion_17
+      sprite: {fileID: 21300034, guid: 32984b868a458944fa4634a308fff52b, type: 3}
       secondDelay: 0.07
   IsPalette: 0
   setID: 1349

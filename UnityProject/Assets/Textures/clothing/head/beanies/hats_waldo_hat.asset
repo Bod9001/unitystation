@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4b73a3eb0692a5949935b90116793a55, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hats_waldo_hat
+      sprite: {fileID: 21300000, guid: 4b73a3eb0692a5949935b90116793a55, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20163

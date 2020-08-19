@@ -14,39 +14,90 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_0
+      sprite: {fileID: 21300000, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300002, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_1
+      sprite: {fileID: 21300002, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300004, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_2
+      sprite: {fileID: 21300004, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300006, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_3
+      sprite: {fileID: 21300006, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300008, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_4
+      sprite: {fileID: 21300008, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300010, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_5
+      sprite: {fileID: 21300010, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300012, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_6
+      sprite: {fileID: 21300012, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300014, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_7
+      sprite: {fileID: 21300014, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300016, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_8
+      sprite: {fileID: 21300016, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_9
+      sprite: {fileID: 21300018, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_10
+      sprite: {fileID: 21300020, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.075
-    - sprite: {fileID: 21300022, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_11
+      sprite: {fileID: 21300022, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.075
-    - sprite: {fileID: 21300024, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_12
+      sprite: {fileID: 21300024, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300026, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_13
+      sprite: {fileID: 21300026, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300028, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_14
+      sprite: {fileID: 21300028, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300030, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_15
+      sprite: {fileID: 21300030, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300032, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarbrokengrilleglow_16
+      sprite: {fileID: 21300032, guid: e2cc64d56eda09b478952d7780b0bfce, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1260

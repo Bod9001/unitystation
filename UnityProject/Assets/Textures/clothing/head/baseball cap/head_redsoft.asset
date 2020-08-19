@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redsoft_0
+      sprite: {fileID: 21300000, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redsoft_1
+      sprite: {fileID: 21300002, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redsoft_2
+      sprite: {fileID: 21300004, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redsoft_3
+      sprite: {fileID: 21300006, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20149

@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 4922610320495924830, guid: a300e937bb585894ca7a7fc24062e734,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-eng_0
+      sprite: {fileID: 4922610320495924830, guid: a300e937bb585894ca7a7fc24062e734,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 7730180666662572229, guid: a300e937bb585894ca7a7fc24062e734,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-eng_1
+      sprite: {fileID: 7730180666662572229, guid: a300e937bb585894ca7a7fc24062e734,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 3044180724513476753, guid: a300e937bb585894ca7a7fc24062e734,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-eng_2
+      sprite: {fileID: 3044180724513476753, guid: a300e937bb585894ca7a7fc24062e734,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -8145082470981123349, guid: a300e937bb585894ca7a7fc24062e734,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-eng_3
+      sprite: {fileID: -8145082470981123349, guid: a300e937bb585894ca7a7fc24062e734,
         type: 3}
       secondDelay: 0
   IsPalette: 0

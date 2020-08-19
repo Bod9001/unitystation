@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -6739876155392906448, guid: 2be3ca0d74110c140bc895a62130d49b,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cutters_0
+      sprite: {fileID: -6739876155392906448, guid: 2be3ca0d74110c140bc895a62130d49b,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -7054829001907146557, guid: 2be3ca0d74110c140bc895a62130d49b,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cutters_1
+      sprite: {fileID: -7054829001907146557, guid: 2be3ca0d74110c140bc895a62130d49b,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 6191605384233411387, guid: 2be3ca0d74110c140bc895a62130d49b,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cutters_2
+      sprite: {fileID: 6191605384233411387, guid: 2be3ca0d74110c140bc895a62130d49b,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 808310439799271284, guid: 2be3ca0d74110c140bc895a62130d49b,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cutters_3
+      sprite: {fileID: 808310439799271284, guid: 2be3ca0d74110c140bc895a62130d49b,
         type: 3}
       secondDelay: 0
   IsPalette: 0

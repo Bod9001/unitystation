@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c75d1ff8a9689e447af7769346cfe437, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hats_hardsuit1-ert_janitor
+      sprite: {fileID: 21300000, guid: c75d1ff8a9689e447af7769346cfe437, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20279

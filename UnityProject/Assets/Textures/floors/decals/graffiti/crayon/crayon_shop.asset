@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3821db4c325073d4194d50a4bb9b733c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: crayon_shop
+      sprite: {fileID: 21300000, guid: 3821db4c325073d4194d50a4bb9b733c, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2196

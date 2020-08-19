@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -2761387464772835428, guid: cce3a16323895b841a8e6d3577106d30,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wrench_0
+      sprite: {fileID: -2761387464772835428, guid: cce3a16323895b841a8e6d3577106d30,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -6843624127758972061, guid: cce3a16323895b841a8e6d3577106d30,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wrench_1
+      sprite: {fileID: -6843624127758972061, guid: cce3a16323895b841a8e6d3577106d30,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 8646990562807487276, guid: cce3a16323895b841a8e6d3577106d30,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wrench_2
+      sprite: {fileID: 8646990562807487276, guid: cce3a16323895b841a8e6d3577106d30,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -6722577254343177616, guid: cce3a16323895b841a8e6d3577106d30,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wrench_3
+      sprite: {fileID: -6722577254343177616, guid: cce3a16323895b841a8e6d3577106d30,
         type: 3}
       secondDelay: 0
   IsPalette: 0

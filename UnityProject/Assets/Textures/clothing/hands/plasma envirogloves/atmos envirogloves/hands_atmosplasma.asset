@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -3486832764434605850, guid: 3d11289935da5f745bf7039b2edb2c8f,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: atmosplasma_0
+      sprite: {fileID: -3486832764434605850, guid: 3d11289935da5f745bf7039b2edb2c8f,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -3094704330503043261, guid: 3d11289935da5f745bf7039b2edb2c8f,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: atmosplasma_1
+      sprite: {fileID: -3094704330503043261, guid: 3d11289935da5f745bf7039b2edb2c8f,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 1450694061811200295, guid: 3d11289935da5f745bf7039b2edb2c8f,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: atmosplasma_2
+      sprite: {fileID: 1450694061811200295, guid: 3d11289935da5f745bf7039b2edb2c8f,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -1013306982169109748, guid: 3d11289935da5f745bf7039b2edb2c8f,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: atmosplasma_3
+      sprite: {fileID: -1013306982169109748, guid: 3d11289935da5f745bf7039b2edb2c8f,
         type: 3}
       secondDelay: 0
   IsPalette: 0

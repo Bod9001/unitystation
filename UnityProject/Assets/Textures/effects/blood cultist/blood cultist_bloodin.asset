@@ -14,29 +14,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_0
+      sprite: {fileID: 21300000, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_1
+      sprite: {fileID: 21300002, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_2
+      sprite: {fileID: 21300004, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_3
+      sprite: {fileID: 21300006, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_4
+      sprite: {fileID: 21300008, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_5
+      sprite: {fileID: 21300010, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_6
+      sprite: {fileID: 21300012, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_7
+      sprite: {fileID: 21300014, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_8
+      sprite: {fileID: 21300016, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_9
+      sprite: {fileID: 21300018, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_10
+      sprite: {fileID: 21300020, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bloodin_11
+      sprite: {fileID: 21300022, guid: 8e6c2f65aa818f24196880c4a6f549b3, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1187

@@ -14,41 +14,95 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_0
+      sprite: {fileID: 21300000, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_1
+      sprite: {fileID: 21300002, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_2
+      sprite: {fileID: 21300004, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_3
+      sprite: {fileID: 21300006, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_4
+      sprite: {fileID: 21300008, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_5
+      sprite: {fileID: 21300010, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_6
+      sprite: {fileID: 21300012, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_7
+      sprite: {fileID: 21300014, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_8
+      sprite: {fileID: 21300016, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_9
+      sprite: {fileID: 21300018, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_10
+      sprite: {fileID: 21300020, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_11
+      sprite: {fileID: 21300022, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_12
+      sprite: {fileID: 21300024, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_13
+      sprite: {fileID: 21300026, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_14
+      sprite: {fileID: 21300028, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_15
+      sprite: {fileID: 21300030, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_16
+      sprite: {fileID: 21300032, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 275681dbcac53754e995a97241894eb8, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: acid_rain_17
+      sprite: {fileID: 21300034, guid: 275681dbcac53754e995a97241894eb8, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1455

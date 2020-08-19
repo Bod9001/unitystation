@@ -14,28 +14,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkgreen_0
+      sprite: {fileID: 21300000, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkgreen_1
+      sprite: {fileID: 21300002, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkgreen_2
+      sprite: {fileID: 21300004, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkgreen_3
+      sprite: {fileID: 21300006, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300008, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkgreen_4
+      sprite: {fileID: 21300008, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300010, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkgreen_5
+      sprite: {fileID: 21300010, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300012, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkgreen_6
+      sprite: {fileID: 21300012, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300014, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkgreen_7
+      sprite: {fileID: 21300014, guid: fdc58d8aa1998214783e63b100890ce0, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2334

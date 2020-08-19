@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d2ee3ee4f8b33c24a9d13b16a352f25b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hats_virologist_envirohelm-light
+      sprite: {fileID: 21300000, guid: d2ee3ee4f8b33c24a9d13b16a352f25b, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 5799

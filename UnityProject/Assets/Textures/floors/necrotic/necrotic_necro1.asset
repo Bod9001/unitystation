@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f273d40714a6c0943a5e213162a27a92, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: necrotic_necro1
+      sprite: {fileID: 21300000, guid: f273d40714a6c0943a5e213162a27a92, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2404

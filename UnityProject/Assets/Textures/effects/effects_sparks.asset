@@ -14,64 +14,148 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_0
+      sprite: {fileID: 21300000, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_4
+      sprite: {fileID: 21300008, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_8
+      sprite: {fileID: 21300016, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_12
+      sprite: {fileID: 21300024, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_16
+      sprite: {fileID: 21300032, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_20
+      sprite: {fileID: 21300040, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300002, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300004, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_24
+      sprite: {fileID: 21300048, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_1
+      sprite: {fileID: 21300002, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_5
+      sprite: {fileID: 21300010, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_9
+      sprite: {fileID: 21300018, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_13
+      sprite: {fileID: 21300026, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_17
+      sprite: {fileID: 21300034, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_21
+      sprite: {fileID: 21300042, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_25
+      sprite: {fileID: 21300050, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_2
+      sprite: {fileID: 21300004, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_6
+      sprite: {fileID: 21300012, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_10
+      sprite: {fileID: 21300020, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_14
+      sprite: {fileID: 21300028, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_18
+      sprite: {fileID: 21300036, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_22
+      sprite: {fileID: 21300044, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_26
+      sprite: {fileID: 21300052, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_3
+      sprite: {fileID: 21300006, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_7
+      sprite: {fileID: 21300014, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_11
+      sprite: {fileID: 21300022, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_15
+      sprite: {fileID: 21300030, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_19
+      sprite: {fileID: 21300038, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_23
+      sprite: {fileID: 21300046, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: sparks_27
+      sprite: {fileID: 21300054, guid: 2f2b8945238d3d846a5ac735e45255ac, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1301

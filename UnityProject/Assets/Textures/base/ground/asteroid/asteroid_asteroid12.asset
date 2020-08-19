@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fc16ef728b5d5764f9c6415f5cac4b06, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: asteroid_asteroid12
+      sprite: {fileID: 21300000, guid: fc16ef728b5d5764f9c6415f5cac4b06, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 157

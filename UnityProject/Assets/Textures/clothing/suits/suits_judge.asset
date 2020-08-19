@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fb84ebc30b173b143915472896621a9e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: judge_0
+      sprite: {fileID: 21300000, guid: fb84ebc30b173b143915472896621a9e, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: fb84ebc30b173b143915472896621a9e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: judge_1
+      sprite: {fileID: 21300002, guid: fb84ebc30b173b143915472896621a9e, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: fb84ebc30b173b143915472896621a9e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: judge_2
+      sprite: {fileID: 21300004, guid: fb84ebc30b173b143915472896621a9e, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: fb84ebc30b173b143915472896621a9e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: judge_3
+      sprite: {fileID: 21300006, guid: fb84ebc30b173b143915472896621a9e, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 905

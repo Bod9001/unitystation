@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1ce08f2ee485d0641af3b7c33e5255d4, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat0_pumpkin_0
+      sprite: {fileID: 21300000, guid: 1ce08f2ee485d0641af3b7c33e5255d4, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 1ce08f2ee485d0641af3b7c33e5255d4, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat0_pumpkin_1
+      sprite: {fileID: 21300002, guid: 1ce08f2ee485d0641af3b7c33e5255d4, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 1ce08f2ee485d0641af3b7c33e5255d4, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat0_pumpkin_2
+      sprite: {fileID: 21300004, guid: 1ce08f2ee485d0641af3b7c33e5255d4, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 1ce08f2ee485d0641af3b7c33e5255d4, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat0_pumpkin_3
+      sprite: {fileID: 21300006, guid: 1ce08f2ee485d0641af3b7c33e5255d4, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 606

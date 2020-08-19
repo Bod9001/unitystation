@@ -14,10 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -6529693095893096934, guid: 084078af2c9f3a6488a7860ea22ddceb,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_t_0
+      sprite: {fileID: -6529693095893096934, guid: 084078af2c9f3a6488a7860ea22ddceb,
         type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: -2622922455152788760, guid: 084078af2c9f3a6488a7860ea22ddceb,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_t_1
+      sprite: {fileID: -2622922455152788760, guid: 084078af2c9f3a6488a7860ea22ddceb,
         type: 3}
       secondDelay: 0.5
   IsPalette: 0

@@ -224,13 +224,17 @@ public class GenerateSpriteSO : EditorWindow
 		var Sprites = FindAssetsByType<SpriteDataSO>();
 		foreach (var Sprite in Sprites)
 		{
-			var entry = settings.CreateOrMoveEntry(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Sprite)),
-				group, readOnly: false, postEvent: false);
-			entry.address = AssetDatabase.GetAssetPath(Sprite);
+			//var call = AssetDatabase.LoadAssetAtPath<SpriteDataSO>("Assets/Textures/mobs/species/Carp/regular/New folder/regular_carp.asset");
+
+
+
+			//var entry = settings.CreateOrMoveEntry(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Sprite)),
+			//	group, readOnly: false, postEvent: false);
+			//var paths = AssetDatabase.GetAssetPath(Sprite);
+			//entry.address = paths;
 			//entry.labels.Add("MyLabel");
 
-			entriesAdded.Add(entry);
-
+			//entriesAdded.Add(entry);
 			foreach (var Varianc in Sprite.Variance)
 			{
 				foreach (var Frame in Varianc.Frames)
@@ -243,13 +247,14 @@ public class GenerateSpriteSO : EditorWindow
 							if (path.Contains(Folder))
 							{
 								var AtlasReference = getAtlasReference(Atlas.Key);
-								Frame.singleSpriteReference = new AssetReferenceAtlasedSprite(AtlasReference.Atlas.AssetGUID);
+								Frame.singleSpriteReference.SetEditorAsset(AtlasReference.Atlas.editorAsset);
 								Frame.singleSpriteReference.SetEditorSubObject(Frame.sprite);
 							}
 						}
 					}
 				}
 			}
+			EditorUtility.SetDirty(Sprite);
 		}
 
 		settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true);

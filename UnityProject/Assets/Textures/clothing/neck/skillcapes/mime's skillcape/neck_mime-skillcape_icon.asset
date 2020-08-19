@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 985709277128153272, guid: 8ee8f0cadd959524580430f30f60d013,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: 
+      sprite: {fileID: 985709277128153272, guid: 8ee8f0cadd959524580430f30f60d013,
         type: 3}
       secondDelay: 0
   IsPalette: 0

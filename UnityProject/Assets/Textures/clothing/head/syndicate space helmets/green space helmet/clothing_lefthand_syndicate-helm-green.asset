@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e3dfd97b84fc3424da55212af00015b0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate-helm-green_0
+      sprite: {fileID: 21300000, guid: e3dfd97b84fc3424da55212af00015b0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: e3dfd97b84fc3424da55212af00015b0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate-helm-green_1
+      sprite: {fileID: 21300002, guid: e3dfd97b84fc3424da55212af00015b0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: e3dfd97b84fc3424da55212af00015b0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate-helm-green_2
+      sprite: {fileID: 21300004, guid: e3dfd97b84fc3424da55212af00015b0, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: e3dfd97b84fc3424da55212af00015b0, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate-helm-green_3
+      sprite: {fileID: 21300006, guid: e3dfd97b84fc3424da55212af00015b0, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20484

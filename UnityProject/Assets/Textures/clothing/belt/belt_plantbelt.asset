@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -7842048297433553055, guid: dd76630cf5516e94987312147918e9b6,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plantbelt_0
+      sprite: {fileID: -7842048297433553055, guid: dd76630cf5516e94987312147918e9b6,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -2765572625918260048, guid: dd76630cf5516e94987312147918e9b6,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plantbelt_1
+      sprite: {fileID: -2765572625918260048, guid: dd76630cf5516e94987312147918e9b6,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 101385440324550891, guid: dd76630cf5516e94987312147918e9b6,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plantbelt_2
+      sprite: {fileID: 101385440324550891, guid: dd76630cf5516e94987312147918e9b6,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 4089047512657116783, guid: dd76630cf5516e94987312147918e9b6,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plantbelt_3
+      sprite: {fileID: 4089047512657116783, guid: dd76630cf5516e94987312147918e9b6,
         type: 3}
       secondDelay: 0
   IsPalette: 0

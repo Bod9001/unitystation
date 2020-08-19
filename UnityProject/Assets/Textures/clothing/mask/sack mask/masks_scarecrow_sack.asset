@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 33e3accc31c419244871fd6a6856c16d, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: masks_scarecrow_sack
+      sprite: {fileID: 21300000, guid: 33e3accc31c419244871fd6a6856c16d, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20629

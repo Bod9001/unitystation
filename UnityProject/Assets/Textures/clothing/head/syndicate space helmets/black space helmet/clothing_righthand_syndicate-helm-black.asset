@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate-helm-black_0
+      sprite: {fileID: 21300000, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate-helm-black_1
+      sprite: {fileID: 21300002, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate-helm-black_2
+      sprite: {fileID: 21300004, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate-helm-black_3
+      sprite: {fileID: 21300006, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20471

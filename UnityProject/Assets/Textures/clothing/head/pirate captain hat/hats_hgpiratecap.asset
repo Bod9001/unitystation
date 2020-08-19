@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c11c5cca5971a2849ac6bbf3dd1d8252, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hats_hgpiratecap
+      sprite: {fileID: 21300000, guid: c11c5cca5971a2849ac6bbf3dd1d8252, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20391

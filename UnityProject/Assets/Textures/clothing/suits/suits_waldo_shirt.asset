@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3c38ff3b55ad16e43aa2be2308056518, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: waldo_shirt_0
+      sprite: {fileID: 21300000, guid: 3c38ff3b55ad16e43aa2be2308056518, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 3c38ff3b55ad16e43aa2be2308056518, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: waldo_shirt_1
+      sprite: {fileID: 21300002, guid: 3c38ff3b55ad16e43aa2be2308056518, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 3c38ff3b55ad16e43aa2be2308056518, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: waldo_shirt_2
+      sprite: {fileID: 21300004, guid: 3c38ff3b55ad16e43aa2be2308056518, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 3c38ff3b55ad16e43aa2be2308056518, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: waldo_shirt_3
+      sprite: {fileID: 21300006, guid: 3c38ff3b55ad16e43aa2be2308056518, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 961

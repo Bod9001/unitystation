@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -8373667487294691241, guid: c1bbd930c77bb9c428f5a12b5ca377db,
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: carpet_cyan_0
+      sprite: {fileID: -8373667487294691241, guid: c1bbd930c77bb9c428f5a12b5ca377db,
         type: 3}
       secondDelay: 0
   IsPalette: 0

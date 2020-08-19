@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -8209561901130358773, guid: efc716ad69eb7c240a2560d7ca333a96,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bombsuit_sec_head_0
+      sprite: {fileID: -8209561901130358773, guid: efc716ad69eb7c240a2560d7ca333a96,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -3795170390838511193, guid: efc716ad69eb7c240a2560d7ca333a96,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bombsuit_sec_head_1
+      sprite: {fileID: -3795170390838511193, guid: efc716ad69eb7c240a2560d7ca333a96,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -5726677326297260176, guid: efc716ad69eb7c240a2560d7ca333a96,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bombsuit_sec_head_2
+      sprite: {fileID: -5726677326297260176, guid: efc716ad69eb7c240a2560d7ca333a96,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 4066611890519368714, guid: efc716ad69eb7c240a2560d7ca333a96,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bombsuit_sec_head_3
+      sprite: {fileID: 4066611890519368714, guid: efc716ad69eb7c240a2560d7ca333a96,
         type: 3}
       secondDelay: 0
   IsPalette: 0

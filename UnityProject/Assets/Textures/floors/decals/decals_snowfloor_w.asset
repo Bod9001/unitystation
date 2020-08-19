@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 874097807a39d324e9b8d5e01c0b511f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: decals_snowfloor_w
+      sprite: {fileID: 21300000, guid: 874097807a39d324e9b8d5e01c0b511f, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2052

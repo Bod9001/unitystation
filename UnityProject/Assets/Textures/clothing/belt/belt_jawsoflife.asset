@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 7847593862722904749, guid: 9cc25e191bd35bb4c9f3cc02773e8cc7,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jawsoflife_0
+      sprite: {fileID: 7847593862722904749, guid: 9cc25e191bd35bb4c9f3cc02773e8cc7,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -8619558493296950259, guid: 9cc25e191bd35bb4c9f3cc02773e8cc7,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jawsoflife_1
+      sprite: {fileID: -8619558493296950259, guid: 9cc25e191bd35bb4c9f3cc02773e8cc7,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -7698717119041865523, guid: 9cc25e191bd35bb4c9f3cc02773e8cc7,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jawsoflife_2
+      sprite: {fileID: -7698717119041865523, guid: 9cc25e191bd35bb4c9f3cc02773e8cc7,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -8844688937847224692, guid: 9cc25e191bd35bb4c9f3cc02773e8cc7,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jawsoflife_3
+      sprite: {fileID: -8844688937847224692, guid: 9cc25e191bd35bb4c9f3cc02773e8cc7,
         type: 3}
       secondDelay: 0
   IsPalette: 0

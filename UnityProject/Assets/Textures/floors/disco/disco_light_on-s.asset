@@ -14,33 +14,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_0
+      sprite: {fileID: 21300000, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_1
+      sprite: {fileID: 21300002, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_2
+      sprite: {fileID: 21300004, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_3
+      sprite: {fileID: 21300006, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_4
+      sprite: {fileID: 21300008, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_5
+      sprite: {fileID: 21300010, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_6
+      sprite: {fileID: 21300012, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_7
+      sprite: {fileID: 21300014, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_8
+      sprite: {fileID: 21300016, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_9
+      sprite: {fileID: 21300018, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_10
+      sprite: {fileID: 21300020, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_11
+      sprite: {fileID: 21300022, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_12
+      sprite: {fileID: 21300024, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-s_13
+      sprite: {fileID: 21300026, guid: 9135ddd3e244bf04c865e9e87a8299be, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 2237

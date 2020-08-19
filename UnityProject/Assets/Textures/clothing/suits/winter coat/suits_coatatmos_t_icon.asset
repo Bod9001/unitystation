@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 76e2c8836a689de4e8cd5936b4e80a32, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: suits_coatatmos_t_icon
+      sprite: {fileID: 21300000, guid: 76e2c8836a689de4e8cd5936b4e80a32, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 21197

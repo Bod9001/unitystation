@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 2412946957170166535, guid: 342af57e76fd90845b78d7f705802017,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown_smile_0
+      sprite: {fileID: 2412946957170166535, guid: 342af57e76fd90845b78d7f705802017,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -5550852678405910541, guid: 342af57e76fd90845b78d7f705802017,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown_smile_1
+      sprite: {fileID: -5550852678405910541, guid: 342af57e76fd90845b78d7f705802017,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 5217474872006115622, guid: 342af57e76fd90845b78d7f705802017,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown_smile_2
+      sprite: {fileID: 5217474872006115622, guid: 342af57e76fd90845b78d7f705802017,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 6276606290608010355, guid: 342af57e76fd90845b78d7f705802017,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown_smile_3
+      sprite: {fileID: 6276606290608010355, guid: 342af57e76fd90845b78d7f705802017,
         type: 3}
       secondDelay: 0
   IsPalette: 0

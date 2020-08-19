@@ -14,23 +14,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: overcharged_0
+      sprite: {fileID: 21300000, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: overcharged_1
+      sprite: {fileID: 21300002, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: overcharged_2
+      sprite: {fileID: 21300004, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
       secondDelay: 5
-    - sprite: {fileID: 21300006, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: overcharged_3
+      sprite: {fileID: 21300006, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: overcharged_4
+      sprite: {fileID: 21300008, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: overcharged_5
+      sprite: {fileID: 21300010, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: overcharged_6
+      sprite: {fileID: 21300012, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
       secondDelay: 2
-    - sprite: {fileID: 21300014, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: overcharged_7
+      sprite: {fileID: 21300014, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: overcharged_8
+      sprite: {fileID: 21300016, guid: fd9f2810334fa054caae84d2ad434b4a, type: 3}
       secondDelay: 4
   IsPalette: 0
   setID: 1306

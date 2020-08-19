@@ -14,39 +14,90 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_0
+      sprite: {fileID: 21300000, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300002, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_1
+      sprite: {fileID: 21300002, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300004, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_2
+      sprite: {fileID: 21300004, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300006, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_3
+      sprite: {fileID: 21300006, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300008, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_4
+      sprite: {fileID: 21300008, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300010, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_5
+      sprite: {fileID: 21300010, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300012, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_6
+      sprite: {fileID: 21300012, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300014, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_7
+      sprite: {fileID: 21300014, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300016, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_8
+      sprite: {fileID: 21300016, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_9
+      sprite: {fileID: 21300018, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_10
+      sprite: {fileID: 21300020, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.075
-    - sprite: {fileID: 21300022, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_11
+      sprite: {fileID: 21300022, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.075
-    - sprite: {fileID: 21300024, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_12
+      sprite: {fileID: 21300024, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300026, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_13
+      sprite: {fileID: 21300026, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300028, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_14
+      sprite: {fileID: 21300028, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300030, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_15
+      sprite: {fileID: 21300030, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300032, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ratvarwallglow_16
+      sprite: {fileID: 21300032, guid: fd55c2d5897fd1844a00c3b5956fdd2c, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1265

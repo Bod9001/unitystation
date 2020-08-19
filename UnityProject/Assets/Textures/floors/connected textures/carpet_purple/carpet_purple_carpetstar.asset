@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e06e706e77ed9224393c5d0f8cbe6cce, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: carpet_purple_carpetstar
+      sprite: {fileID: 21300000, guid: e06e706e77ed9224393c5d0f8cbe6cce, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1705

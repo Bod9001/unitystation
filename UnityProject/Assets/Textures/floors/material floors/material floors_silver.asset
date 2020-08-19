@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c44b675b3d288d248b7df0325824cc0c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: material floors_silver
+      sprite: {fileID: 21300000, guid: c44b675b3d288d248b7df0325824cc0c, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2293

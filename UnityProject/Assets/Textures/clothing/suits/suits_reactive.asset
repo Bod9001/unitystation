@@ -14,64 +14,148 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_0
+      sprite: {fileID: 21300000, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_4
+      sprite: {fileID: 21300008, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_8
+      sprite: {fileID: 21300016, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_12
+      sprite: {fileID: 21300024, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_16
+      sprite: {fileID: 21300032, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_20
+      sprite: {fileID: 21300040, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300002, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300004, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_24
+      sprite: {fileID: 21300048, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_1
+      sprite: {fileID: 21300002, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_5
+      sprite: {fileID: 21300010, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_9
+      sprite: {fileID: 21300018, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_13
+      sprite: {fileID: 21300026, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_17
+      sprite: {fileID: 21300034, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_21
+      sprite: {fileID: 21300042, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_25
+      sprite: {fileID: 21300050, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_2
+      sprite: {fileID: 21300004, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_6
+      sprite: {fileID: 21300012, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_10
+      sprite: {fileID: 21300020, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_14
+      sprite: {fileID: 21300028, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_18
+      sprite: {fileID: 21300036, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_22
+      sprite: {fileID: 21300044, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_26
+      sprite: {fileID: 21300052, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_3
+      sprite: {fileID: 21300006, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_7
+      sprite: {fileID: 21300014, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_11
+      sprite: {fileID: 21300022, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_15
+      sprite: {fileID: 21300030, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_19
+      sprite: {fileID: 21300038, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_23
+      sprite: {fileID: 21300046, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: reactive_27
+      sprite: {fileID: 21300054, guid: 9194ffbc7809fb94096820bd6ccc0179, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 937

@@ -14,60 +14,132 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_0
+      sprite: {fileID: 21300000, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_8
+      sprite: {fileID: 21300016, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300002, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300004, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_16
+      sprite: {fileID: 21300032, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_1
+      sprite: {fileID: 21300002, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_9
+      sprite: {fileID: 21300018, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300008, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300010, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_17
+      sprite: {fileID: 21300034, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300012, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_2
+      sprite: {fileID: 21300004, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_10
+      sprite: {fileID: 21300020, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_18
+      sprite: {fileID: 21300036, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300014, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_3
+      sprite: {fileID: 21300006, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_11
+      sprite: {fileID: 21300022, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_19
+      sprite: {fileID: 21300038, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_4
+      sprite: {fileID: 21300008, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_12
+      sprite: {fileID: 21300024, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_20
+      sprite: {fileID: 21300040, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_5
+      sprite: {fileID: 21300010, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_13
+      sprite: {fileID: 21300026, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_21
+      sprite: {fileID: 21300042, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_6
+      sprite: {fileID: 21300012, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_14
+      sprite: {fileID: 21300028, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_22
+      sprite: {fileID: 21300044, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_7
+      sprite: {fileID: 21300014, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_15
+      sprite: {fileID: 21300030, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: tailsweep_23
+      sprite: {fileID: 21300046, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1136

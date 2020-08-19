@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0da7c5a23f1cfdc4082b79d871fcca82, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: female_commie_0
+      sprite: {fileID: 21300000, guid: 0da7c5a23f1cfdc4082b79d871fcca82, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 0da7c5a23f1cfdc4082b79d871fcca82, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: female_commie_1
+      sprite: {fileID: 21300002, guid: 0da7c5a23f1cfdc4082b79d871fcca82, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 0da7c5a23f1cfdc4082b79d871fcca82, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: female_commie_2
+      sprite: {fileID: 21300004, guid: 0da7c5a23f1cfdc4082b79d871fcca82, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 0da7c5a23f1cfdc4082b79d871fcca82, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: female_commie_3
+      sprite: {fileID: 21300006, guid: 0da7c5a23f1cfdc4082b79d871fcca82, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 21334

@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -9168335489895877667, guid: d6424953c85afb8f49986bfa007d129a,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ears_sci_headset_alt_0
+      sprite: {fileID: -9168335489895877667, guid: d6424953c85afb8f49986bfa007d129a,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 2489802715415402498, guid: d6424953c85afb8f49986bfa007d129a,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ears_sci_headset_alt_1
+      sprite: {fileID: 2489802715415402498, guid: d6424953c85afb8f49986bfa007d129a,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -2333053096817415598, guid: d6424953c85afb8f49986bfa007d129a,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ears_sci_headset_alt_2
+      sprite: {fileID: -2333053096817415598, guid: d6424953c85afb8f49986bfa007d129a,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -7865366486411320070, guid: d6424953c85afb8f49986bfa007d129a,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ears_sci_headset_alt_3
+      sprite: {fileID: -7865366486411320070, guid: d6424953c85afb8f49986bfa007d129a,
         type: 3}
       secondDelay: 0
   IsPalette: 0

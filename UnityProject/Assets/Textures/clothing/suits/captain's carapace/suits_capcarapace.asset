@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ac5bafbb66fc3e74d8168f8d37a67f93, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: capcarapace_0
+      sprite: {fileID: 21300000, guid: ac5bafbb66fc3e74d8168f8d37a67f93, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: ac5bafbb66fc3e74d8168f8d37a67f93, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: capcarapace_1
+      sprite: {fileID: 21300002, guid: ac5bafbb66fc3e74d8168f8d37a67f93, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: ac5bafbb66fc3e74d8168f8d37a67f93, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: capcarapace_2
+      sprite: {fileID: 21300004, guid: ac5bafbb66fc3e74d8168f8d37a67f93, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: ac5bafbb66fc3e74d8168f8d37a67f93, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: capcarapace_3
+      sprite: {fileID: 21300006, guid: ac5bafbb66fc3e74d8168f8d37a67f93, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20842

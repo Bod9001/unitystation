@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2648602246af81148aea2aca73f79734, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: blood cultist_rune3words
+      sprite: {fileID: 21300000, guid: 2648602246af81148aea2aca73f79734, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1204

@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e7487818b90a3e54199664b4c2e0c5e3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_captain_0
+      sprite: {fileID: 21300000, guid: e7487818b90a3e54199664b4c2e0c5e3, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: e7487818b90a3e54199664b4c2e0c5e3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_captain_1
+      sprite: {fileID: 21300002, guid: e7487818b90a3e54199664b4c2e0c5e3, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: e7487818b90a3e54199664b4c2e0c5e3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_captain_2
+      sprite: {fileID: 21300004, guid: e7487818b90a3e54199664b4c2e0c5e3, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: e7487818b90a3e54199664b4c2e0c5e3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_captain_3
+      sprite: {fileID: 21300006, guid: e7487818b90a3e54199664b4c2e0c5e3, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 717

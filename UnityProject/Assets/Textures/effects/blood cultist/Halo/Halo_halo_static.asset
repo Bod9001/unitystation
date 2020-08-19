@@ -14,137 +14,335 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300064, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300066, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300068, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300070, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300072, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300074, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300076, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300078, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300080, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300082, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300084, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300086, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300088, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300090, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300092, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300094, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300096, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300098, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300100, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300102, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300104, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300106, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300108, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300110, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300112, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300114, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300116, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300118, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300120, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300122, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300124, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300126, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300128, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300130, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_0
+      sprite: {fileID: 21300000, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_1
+      sprite: {fileID: 21300002, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_2
+      sprite: {fileID: 21300004, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_3
+      sprite: {fileID: 21300006, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_4
+      sprite: {fileID: 21300008, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_5
+      sprite: {fileID: 21300010, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_6
+      sprite: {fileID: 21300012, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_7
+      sprite: {fileID: 21300014, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_8
+      sprite: {fileID: 21300016, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_9
+      sprite: {fileID: 21300018, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_10
+      sprite: {fileID: 21300020, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_11
+      sprite: {fileID: 21300022, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_12
+      sprite: {fileID: 21300024, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_13
+      sprite: {fileID: 21300026, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_14
+      sprite: {fileID: 21300028, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_15
+      sprite: {fileID: 21300030, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_16
+      sprite: {fileID: 21300032, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_17
+      sprite: {fileID: 21300034, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_18
+      sprite: {fileID: 21300036, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_19
+      sprite: {fileID: 21300038, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_20
+      sprite: {fileID: 21300040, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_21
+      sprite: {fileID: 21300042, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_22
+      sprite: {fileID: 21300044, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_23
+      sprite: {fileID: 21300046, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_24
+      sprite: {fileID: 21300048, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_25
+      sprite: {fileID: 21300050, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_26
+      sprite: {fileID: 21300052, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_27
+      sprite: {fileID: 21300054, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_28
+      sprite: {fileID: 21300056, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_29
+      sprite: {fileID: 21300058, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_30
+      sprite: {fileID: 21300060, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_31
+      sprite: {fileID: 21300062, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_32
+      sprite: {fileID: 21300064, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_33
+      sprite: {fileID: 21300066, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_34
+      sprite: {fileID: 21300068, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_35
+      sprite: {fileID: 21300070, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_36
+      sprite: {fileID: 21300072, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_37
+      sprite: {fileID: 21300074, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_38
+      sprite: {fileID: 21300076, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_39
+      sprite: {fileID: 21300078, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_40
+      sprite: {fileID: 21300080, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_41
+      sprite: {fileID: 21300082, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_42
+      sprite: {fileID: 21300084, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_43
+      sprite: {fileID: 21300086, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_44
+      sprite: {fileID: 21300088, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_45
+      sprite: {fileID: 21300090, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_46
+      sprite: {fileID: 21300092, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_47
+      sprite: {fileID: 21300094, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_48
+      sprite: {fileID: 21300096, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_49
+      sprite: {fileID: 21300098, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_50
+      sprite: {fileID: 21300100, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_51
+      sprite: {fileID: 21300102, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_52
+      sprite: {fileID: 21300104, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_53
+      sprite: {fileID: 21300106, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_54
+      sprite: {fileID: 21300108, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_55
+      sprite: {fileID: 21300110, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_56
+      sprite: {fileID: 21300112, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_57
+      sprite: {fileID: 21300114, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_58
+      sprite: {fileID: 21300116, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_59
+      sprite: {fileID: 21300118, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_60
+      sprite: {fileID: 21300120, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_61
+      sprite: {fileID: 21300122, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_62
+      sprite: {fileID: 21300124, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_63
+      sprite: {fileID: 21300126, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_64
+      sprite: {fileID: 21300128, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: halo_static_65
+      sprite: {fileID: 21300130, guid: 0c0d1f299c59fc143b4606034333f6eb, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1232

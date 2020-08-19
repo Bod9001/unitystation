@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b7bc9d4f13e11d448a5679f1d0dd9334, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: escapecorner
+      sprite: {fileID: 21300000, guid: b7bc9d4f13e11d448a5679f1d0dd9334, type: 3}
       secondDelay: 0
   - Frames: []
   - Frames: []

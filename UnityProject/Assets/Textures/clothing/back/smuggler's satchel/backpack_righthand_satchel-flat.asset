@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -4692912630742446445, guid: f654a59015673f3428a339724ff297ce,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-flat_0
+      sprite: {fileID: -4692912630742446445, guid: f654a59015673f3428a339724ff297ce,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -7333004056104099017, guid: f654a59015673f3428a339724ff297ce,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-flat_1
+      sprite: {fileID: -7333004056104099017, guid: f654a59015673f3428a339724ff297ce,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 1935337878135966959, guid: f654a59015673f3428a339724ff297ce,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-flat_2
+      sprite: {fileID: 1935337878135966959, guid: f654a59015673f3428a339724ff297ce,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -4492857457695028229, guid: f654a59015673f3428a339724ff297ce,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-flat_3
+      sprite: {fileID: -4492857457695028229, guid: f654a59015673f3428a339724ff297ce,
         type: 3}
       secondDelay: 0
   IsPalette: 0

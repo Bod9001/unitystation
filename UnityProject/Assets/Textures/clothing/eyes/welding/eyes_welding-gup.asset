@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fac60fee810fe074cb62ab9f97540298, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: welding-gup_0
+      sprite: {fileID: 21300000, guid: fac60fee810fe074cb62ab9f97540298, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: fac60fee810fe074cb62ab9f97540298, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: welding-gup_1
+      sprite: {fileID: 21300002, guid: fac60fee810fe074cb62ab9f97540298, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: fac60fee810fe074cb62ab9f97540298, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: welding-gup_2
+      sprite: {fileID: 21300004, guid: fac60fee810fe074cb62ab9f97540298, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: fac60fee810fe074cb62ab9f97540298, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: welding-gup_3
+      sprite: {fileID: 21300006, guid: fac60fee810fe074cb62ab9f97540298, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20046

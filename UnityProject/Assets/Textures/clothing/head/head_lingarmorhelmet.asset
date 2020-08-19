@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lingarmorhelmet_0
+      sprite: {fileID: 21300000, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lingarmorhelmet_1
+      sprite: {fileID: 21300002, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lingarmorhelmet_2
+      sprite: {fileID: 21300004, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lingarmorhelmet_3
+      sprite: {fileID: 21300006, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 647

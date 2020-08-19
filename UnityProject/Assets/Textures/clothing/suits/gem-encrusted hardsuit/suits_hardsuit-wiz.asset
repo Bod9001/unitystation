@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-wiz_0
+      sprite: {fileID: 21300000, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-wiz_1
+      sprite: {fileID: 21300002, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-wiz_2
+      sprite: {fileID: 21300004, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-wiz_3
+      sprite: {fileID: 21300006, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20941

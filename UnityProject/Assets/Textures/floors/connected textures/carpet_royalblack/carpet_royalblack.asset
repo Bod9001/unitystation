@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -1716053776188167358, guid: c31c9e7d33a17b14a88a4f375d9859b1,
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: carpet_royalblack_0
+      sprite: {fileID: -1716053776188167358, guid: c31c9e7d33a17b14a88a4f375d9859b1,
         type: 3}
       secondDelay: 0
   IsPalette: 0

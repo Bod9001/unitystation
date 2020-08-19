@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3df4a91d18b05f64f9d7edd5d13d4bd9, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: uniforms_camopants
+      sprite: {fileID: 21300000, guid: 3df4a91d18b05f64f9d7edd5d13d4bd9, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 21423

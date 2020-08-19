@@ -14,17 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fusion_gas_0
+      sprite: {fileID: 21300000, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fusion_gas_1
+      sprite: {fileID: 21300002, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fusion_gas_2
+      sprite: {fileID: 21300004, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fusion_gas_3
+      sprite: {fileID: 21300006, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fusion_gas_4
+      sprite: {fileID: 21300008, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fusion_gas_5
+      sprite: {fileID: 21300010, guid: 3c429a36d177bae43bbd155bcb393522, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1116

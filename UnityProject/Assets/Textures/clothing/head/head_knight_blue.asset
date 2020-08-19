@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 59438557d4b6feb4d8e553de526c6e8e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: knight_blue_0
+      sprite: {fileID: 21300000, guid: 59438557d4b6feb4d8e553de526c6e8e, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 59438557d4b6feb4d8e553de526c6e8e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: knight_blue_1
+      sprite: {fileID: 21300002, guid: 59438557d4b6feb4d8e553de526c6e8e, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 59438557d4b6feb4d8e553de526c6e8e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: knight_blue_2
+      sprite: {fileID: 21300004, guid: 59438557d4b6feb4d8e553de526c6e8e, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 59438557d4b6feb4d8e553de526c6e8e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: knight_blue_3
+      sprite: {fileID: 21300006, guid: 59438557d4b6feb4d8e553de526c6e8e, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 642

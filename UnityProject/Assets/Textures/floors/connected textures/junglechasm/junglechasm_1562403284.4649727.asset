@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d1ff54970f4e6594b89909677b075a2d, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: junglechasm_1562403284.4649727
+      sprite: {fileID: 21300000, guid: d1ff54970f4e6594b89909677b075a2d, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1854

@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -942891236186450814, guid: 2e4178bc2faf1d54ab7bea58d6e5647e,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cowmask_0
+      sprite: {fileID: -942891236186450814, guid: 2e4178bc2faf1d54ab7bea58d6e5647e,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 5073412161003141151, guid: 2e4178bc2faf1d54ab7bea58d6e5647e,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cowmask_1
+      sprite: {fileID: 5073412161003141151, guid: 2e4178bc2faf1d54ab7bea58d6e5647e,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -5493643739938241570, guid: 2e4178bc2faf1d54ab7bea58d6e5647e,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cowmask_2
+      sprite: {fileID: -5493643739938241570, guid: 2e4178bc2faf1d54ab7bea58d6e5647e,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -2685347228824381482, guid: 2e4178bc2faf1d54ab7bea58d6e5647e,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cowmask_3
+      sprite: {fileID: -2685347228824381482, guid: 2e4178bc2faf1d54ab7bea58d6e5647e,
         type: 3}
       secondDelay: 0
   IsPalette: 0

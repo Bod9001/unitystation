@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 5b9c4c57443c13e4c890897824e9dec5, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hats_golhood
+      sprite: {fileID: 21300000, guid: 5b9c4c57443c13e4c890897824e9dec5, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20324

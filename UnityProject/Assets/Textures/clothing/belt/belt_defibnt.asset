@@ -14,79 +14,151 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 4155342402995718623, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_0
+      sprite: {fileID: 4155342402995718623, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 4516844856121904473, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_4
+      sprite: {fileID: 4516844856121904473, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: -7226929191457049763, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_8
+      sprite: {fileID: -7226929191457049763, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 5596152397273006386, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_12
+      sprite: {fileID: 5596152397273006386, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: -6844252072908982756, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_16
+      sprite: {fileID: -6844252072908982756, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 1464534735685395333, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-  - Frames:
-    - sprite: {fileID: 8456272496992839107, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 5428986397701512824, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: -4746233956912961891, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: -3339458086600818561, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: -52063569820620774, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: -8873656296917162246, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-  - Frames:
-    - sprite: {fileID: 1380788264096861521, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 1831506491383434417, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 2606254948855575889, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 5350805981997448512, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 8316084985045412916, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
-        type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: -5909178731080124999, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_20
+      sprite: {fileID: 1464534735685395333, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
   - Frames:
-    - sprite: {fileID: -5812978474720221943, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_1
+      sprite: {fileID: 8456272496992839107, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 5646684477054673361, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_5
+      sprite: {fileID: 5428986397701512824, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 3631535910474328883, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_9
+      sprite: {fileID: -4746233956912961891, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 2276212176010394577, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_13
+      sprite: {fileID: -3339458086600818561, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: -7006749803974361442, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_17
+      sprite: {fileID: -52063569820620774, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 1373436688067062470, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_21
+      sprite: {fileID: -8873656296917162246, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_2
+      sprite: {fileID: 1380788264096861521, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_6
+      sprite: {fileID: 1831506491383434417, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_10
+      sprite: {fileID: 2606254948855575889, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_14
+      sprite: {fileID: 5350805981997448512, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_18
+      sprite: {fileID: 8316084985045412916, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_22
+      sprite: {fileID: -5909178731080124999, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_3
+      sprite: {fileID: -5812978474720221943, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_7
+      sprite: {fileID: 5646684477054673361, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_11
+      sprite: {fileID: 3631535910474328883, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_15
+      sprite: {fileID: 2276212176010394577, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_19
+      sprite: {fileID: -7006749803974361442, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
+        type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibnt_23
+      sprite: {fileID: 1373436688067062470, guid: f9fde9c47c4bd3b4b8a5a2c50db25cbe,
         type: 3}
       secondDelay: 0.2
   IsPalette: 0

@@ -14,72 +14,168 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_0
+      sprite: {fileID: 21300000, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_4
+      sprite: {fileID: 21300008, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_8
+      sprite: {fileID: 21300016, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_12
+      sprite: {fileID: 21300024, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_16
+      sprite: {fileID: 21300032, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_20
+      sprite: {fileID: 21300040, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_24
+      sprite: {fileID: 21300048, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300002, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300004, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_28
+      sprite: {fileID: 21300056, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_1
+      sprite: {fileID: 21300002, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_5
+      sprite: {fileID: 21300010, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_9
+      sprite: {fileID: 21300018, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_13
+      sprite: {fileID: 21300026, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_17
+      sprite: {fileID: 21300034, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_21
+      sprite: {fileID: 21300042, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_25
+      sprite: {fileID: 21300050, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_29
+      sprite: {fileID: 21300058, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_2
+      sprite: {fileID: 21300004, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_6
+      sprite: {fileID: 21300012, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_10
+      sprite: {fileID: 21300020, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_14
+      sprite: {fileID: 21300028, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_18
+      sprite: {fileID: 21300036, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_22
+      sprite: {fileID: 21300044, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_26
+      sprite: {fileID: 21300052, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_30
+      sprite: {fileID: 21300060, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_3
+      sprite: {fileID: 21300006, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_7
+      sprite: {fileID: 21300014, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_11
+      sprite: {fileID: 21300022, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_15
+      sprite: {fileID: 21300030, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_19
+      sprite: {fileID: 21300038, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_23
+      sprite: {fileID: 21300046, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_27
+      sprite: {fileID: 21300054, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: phaseout_31
+      sprite: {fileID: 21300062, guid: 5cde427002629d6429a8477b5842e2a1, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1109

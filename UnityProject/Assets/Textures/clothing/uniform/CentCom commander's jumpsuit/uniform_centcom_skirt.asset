@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 9174967697595194722, guid: 655722378ee70af4893f0adfb92c6ee3,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: 
+      sprite: {fileID: 9174967697595194722, guid: 655722378ee70af4893f0adfb92c6ee3,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 5778232536867625051, guid: 655722378ee70af4893f0adfb92c6ee3,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: 
+      sprite: {fileID: 5778232536867625051, guid: 655722378ee70af4893f0adfb92c6ee3,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 8725595867618828717, guid: 655722378ee70af4893f0adfb92c6ee3,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: 
+      sprite: {fileID: 8725595867618828717, guid: 655722378ee70af4893f0adfb92c6ee3,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -1639979190861215989, guid: 655722378ee70af4893f0adfb92c6ee3,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: 
+      sprite: {fileID: -1639979190861215989, guid: 655722378ee70af4893f0adfb92c6ee3,
         type: 3}
       secondDelay: 0
   IsPalette: 0

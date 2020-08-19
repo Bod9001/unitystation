@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -1032810911120204554, guid: a7068f6f792acff428a0f90edb0e6f83,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_paramedic_0
+      sprite: {fileID: -1032810911120204554, guid: a7068f6f792acff428a0f90edb0e6f83,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 444221191094312349, guid: a7068f6f792acff428a0f90edb0e6f83,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_paramedic_1
+      sprite: {fileID: 444221191094312349, guid: a7068f6f792acff428a0f90edb0e6f83,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -276018547505187897, guid: a7068f6f792acff428a0f90edb0e6f83,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_paramedic_2
+      sprite: {fileID: -276018547505187897, guid: a7068f6f792acff428a0f90edb0e6f83,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -5124712733119835016, guid: a7068f6f792acff428a0f90edb0e6f83,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_paramedic_3
+      sprite: {fileID: -5124712733119835016, guid: a7068f6f792acff428a0f90edb0e6f83,
         type: 3}
       secondDelay: 0
   IsPalette: 0

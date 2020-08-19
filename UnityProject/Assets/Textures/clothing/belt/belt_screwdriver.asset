@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -6921695967071580514, guid: 7b862d590ccbddf42b2c65b74a1ab45d,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: screwdriver_0
+      sprite: {fileID: -6921695967071580514, guid: 7b862d590ccbddf42b2c65b74a1ab45d,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 8460358850210822302, guid: 7b862d590ccbddf42b2c65b74a1ab45d,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: screwdriver_1
+      sprite: {fileID: 8460358850210822302, guid: 7b862d590ccbddf42b2c65b74a1ab45d,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -5933128388424190324, guid: 7b862d590ccbddf42b2c65b74a1ab45d,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: screwdriver_2
+      sprite: {fileID: -5933128388424190324, guid: 7b862d590ccbddf42b2c65b74a1ab45d,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -1340672197205382234, guid: 7b862d590ccbddf42b2c65b74a1ab45d,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: screwdriver_3
+      sprite: {fileID: -1340672197205382234, guid: 7b862d590ccbddf42b2c65b74a1ab45d,
         type: 3}
       secondDelay: 0
   IsPalette: 0

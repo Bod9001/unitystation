@@ -14,31 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 3439455209659141063, guid: 3161f951d8d0dd3499fa569aa36abb47,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_0
+      sprite: {fileID: 3439455209659141063, guid: 3161f951d8d0dd3499fa569aa36abb47,
         type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: -8495603921139501215, guid: 3161f951d8d0dd3499fa569aa36abb47,
-        type: 3}
-      secondDelay: 0.5
-  - Frames:
-    - sprite: {fileID: -8885038089760734150, guid: 3161f951d8d0dd3499fa569aa36abb47,
-        type: 3}
-      secondDelay: 0.5
-    - sprite: {fileID: 3373184668826348280, guid: 3161f951d8d0dd3499fa569aa36abb47,
-        type: 3}
-      secondDelay: 0.5
-  - Frames:
-    - sprite: {fileID: -6608304276669693891, guid: 3161f951d8d0dd3499fa569aa36abb47,
-        type: 3}
-      secondDelay: 0.5
-    - sprite: {fileID: 2785921676510788815, guid: 3161f951d8d0dd3499fa569aa36abb47,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_4
+      sprite: {fileID: -8495603921139501215, guid: 3161f951d8d0dd3499fa569aa36abb47,
         type: 3}
       secondDelay: 0.5
   - Frames:
-    - sprite: {fileID: 7097116958859515021, guid: 3161f951d8d0dd3499fa569aa36abb47,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_1
+      sprite: {fileID: -8885038089760734150, guid: 3161f951d8d0dd3499fa569aa36abb47,
         type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: -980370848950497714, guid: 3161f951d8d0dd3499fa569aa36abb47,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_5
+      sprite: {fileID: 3373184668826348280, guid: 3161f951d8d0dd3499fa569aa36abb47,
+        type: 3}
+      secondDelay: 0.5
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_2
+      sprite: {fileID: -6608304276669693891, guid: 3161f951d8d0dd3499fa569aa36abb47,
+        type: 3}
+      secondDelay: 0.5
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_6
+      sprite: {fileID: 2785921676510788815, guid: 3161f951d8d0dd3499fa569aa36abb47,
+        type: 3}
+      secondDelay: 0.5
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_3
+      sprite: {fileID: 7097116958859515021, guid: 3161f951d8d0dd3499fa569aa36abb47,
+        type: 3}
+      secondDelay: 0.5
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_7
+      sprite: {fileID: -980370848950497714, guid: 3161f951d8d0dd3499fa569aa36abb47,
         type: 3}
       secondDelay: 0.5
   IsPalette: 0

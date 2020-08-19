@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ae8be8ddac86e62a780da3c9feafdedc, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: radio_med_headset_alt
+      sprite: {fileID: 21300000, guid: ae8be8ddac86e62a780da3c9feafdedc, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 19905

@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: edc266bc3e4449f44871c30d41e39137, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hats_warden_envirohelm-light
+      sprite: {fileID: 21300000, guid: edc266bc3e4449f44871c30d41e39137, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 5802

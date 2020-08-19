@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 57fb93956c4a4104eb246d83368e3a2b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pristine_tile5_0
+      sprite: {fileID: 21300000, guid: 57fb93956c4a4104eb246d83368e3a2b, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 57fb93956c4a4104eb246d83368e3a2b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pristine_tile5_1
+      sprite: {fileID: 21300002, guid: 57fb93956c4a4104eb246d83368e3a2b, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 57fb93956c4a4104eb246d83368e3a2b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pristine_tile5_2
+      sprite: {fileID: 21300004, guid: 57fb93956c4a4104eb246d83368e3a2b, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 57fb93956c4a4104eb246d83368e3a2b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pristine_tile5_3
+      sprite: {fileID: 21300006, guid: 57fb93956c4a4104eb246d83368e3a2b, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1638

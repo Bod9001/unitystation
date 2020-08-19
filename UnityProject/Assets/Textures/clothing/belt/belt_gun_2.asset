@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2156aa352954c5c438b5d6476070d997, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gun_2_0
+      sprite: {fileID: 21300000, guid: 2156aa352954c5c438b5d6476070d997, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 2156aa352954c5c438b5d6476070d997, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gun_2_1
+      sprite: {fileID: 21300002, guid: 2156aa352954c5c438b5d6476070d997, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 2156aa352954c5c438b5d6476070d997, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gun_2_2
+      sprite: {fileID: 21300004, guid: 2156aa352954c5c438b5d6476070d997, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 2156aa352954c5c438b5d6476070d997, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gun_2_3
+      sprite: {fileID: 21300006, guid: 2156aa352954c5c438b5d6476070d997, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 400

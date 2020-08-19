@@ -14,40 +14,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_0
+      sprite: {fileID: 21300000, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_4
+      sprite: {fileID: 21300008, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_8
+      sprite: {fileID: 21300016, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300024, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
-      secondDelay: 0.2
-  - Frames:
-    - sprite: {fileID: 21300002, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 21300010, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 21300018, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 21300026, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
-      secondDelay: 0.2
-  - Frames:
-    - sprite: {fileID: 21300004, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 21300012, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 21300020, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 21300028, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_12
+      sprite: {fileID: 21300024, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
       secondDelay: 0.2
   - Frames:
-    - sprite: {fileID: 21300006, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_1
+      sprite: {fileID: 21300002, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300014, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_5
+      sprite: {fileID: 21300010, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300022, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_9
+      sprite: {fileID: 21300018, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300030, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_13
+      sprite: {fileID: 21300026, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+      secondDelay: 0.2
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_2
+      sprite: {fileID: 21300004, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_6
+      sprite: {fileID: 21300012, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_10
+      sprite: {fileID: 21300020, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_14
+      sprite: {fileID: 21300028, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+      secondDelay: 0.2
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_3
+      sprite: {fileID: 21300006, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_7
+      sprite: {fileID: 21300014, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_11
+      sprite: {fileID: 21300022, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: rcircuitanim_15
+      sprite: {fileID: 21300030, guid: 11cdf206c77815f48b0bb1cbe0c7c63e, type: 3}
       secondDelay: 0.2
   IsPalette: 0
   setID: 1485

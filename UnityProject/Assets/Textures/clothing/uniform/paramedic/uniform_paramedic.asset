@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -1063418894456193897, guid: 41065e6e9c3e8b844b4b9924f521558b,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_0
+      sprite: {fileID: -1063418894456193897, guid: 41065e6e9c3e8b844b4b9924f521558b,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 6546669239034678373, guid: 41065e6e9c3e8b844b4b9924f521558b,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_1
+      sprite: {fileID: 6546669239034678373, guid: 41065e6e9c3e8b844b4b9924f521558b,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -5669330802421126798, guid: 41065e6e9c3e8b844b4b9924f521558b,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_2
+      sprite: {fileID: -5669330802421126798, guid: 41065e6e9c3e8b844b4b9924f521558b,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 9213836489222091755, guid: 41065e6e9c3e8b844b4b9924f521558b,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_3
+      sprite: {fileID: 9213836489222091755, guid: 41065e6e9c3e8b844b4b9924f521558b,
         type: 3}
       secondDelay: 0
   IsPalette: 0

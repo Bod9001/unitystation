@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4cef502668f4b114ca7b51e5e387aa0c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: whitebluecorner_0
+      sprite: {fileID: 21300000, guid: 4cef502668f4b114ca7b51e5e387aa0c, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 4cef502668f4b114ca7b51e5e387aa0c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: whitebluecorner_1
+      sprite: {fileID: 21300002, guid: 4cef502668f4b114ca7b51e5e387aa0c, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 4cef502668f4b114ca7b51e5e387aa0c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: whitebluecorner_2
+      sprite: {fileID: 21300004, guid: 4cef502668f4b114ca7b51e5e387aa0c, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 4cef502668f4b114ca7b51e5e387aa0c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: whitebluecorner_3
+      sprite: {fileID: 21300006, guid: 4cef502668f4b114ca7b51e5e387aa0c, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2315

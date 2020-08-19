@@ -14,37 +14,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_0
+      sprite: {fileID: 21300000, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_1
+      sprite: {fileID: 21300002, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_2
+      sprite: {fileID: 21300004, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_3
+      sprite: {fileID: 21300006, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_4
+      sprite: {fileID: 21300008, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_5
+      sprite: {fileID: 21300010, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_6
+      sprite: {fileID: 21300012, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_7
+      sprite: {fileID: 21300014, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_8
+      sprite: {fileID: 21300016, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_9
+      sprite: {fileID: 21300018, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_10
+      sprite: {fileID: 21300020, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_11
+      sprite: {fileID: 21300022, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_12
+      sprite: {fileID: 21300024, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_13
+      sprite: {fileID: 21300026, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_14
+      sprite: {fileID: 21300028, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: ff01504e75fec7b49bddc43418566506, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: bluespace_15
+      sprite: {fileID: 21300030, guid: ff01504e75fec7b49bddc43418566506, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 2278

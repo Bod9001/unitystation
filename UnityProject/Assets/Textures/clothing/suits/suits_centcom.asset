@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2c5d8d6d67af12e47982bc0d7f0f44fc, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: centcom_0
+      sprite: {fileID: 21300000, guid: 2c5d8d6d67af12e47982bc0d7f0f44fc, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 2c5d8d6d67af12e47982bc0d7f0f44fc, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: centcom_1
+      sprite: {fileID: 21300002, guid: 2c5d8d6d67af12e47982bc0d7f0f44fc, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 2c5d8d6d67af12e47982bc0d7f0f44fc, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: centcom_2
+      sprite: {fileID: 21300004, guid: 2c5d8d6d67af12e47982bc0d7f0f44fc, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 2c5d8d6d67af12e47982bc0d7f0f44fc, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: centcom_3
+      sprite: {fileID: 21300006, guid: 2c5d8d6d67af12e47982bc0d7f0f44fc, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 873

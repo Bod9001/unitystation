@@ -14,96 +14,228 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_0
+      sprite: {fileID: 21300000, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_4
+      sprite: {fileID: 21300008, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_8
+      sprite: {fileID: 21300016, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_12
+      sprite: {fileID: 21300024, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_16
+      sprite: {fileID: 21300032, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_20
+      sprite: {fileID: 21300040, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_24
+      sprite: {fileID: 21300048, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_28
+      sprite: {fileID: 21300056, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300064, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_32
+      sprite: {fileID: 21300064, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300072, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_36
+      sprite: {fileID: 21300072, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300080, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300002, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300066, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300074, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300082, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300004, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300068, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300076, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300084, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_40
+      sprite: {fileID: 21300080, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_1
+      sprite: {fileID: 21300002, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_5
+      sprite: {fileID: 21300010, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_9
+      sprite: {fileID: 21300018, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_13
+      sprite: {fileID: 21300026, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_17
+      sprite: {fileID: 21300034, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_21
+      sprite: {fileID: 21300042, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_25
+      sprite: {fileID: 21300050, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_29
+      sprite: {fileID: 21300058, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300070, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_33
+      sprite: {fileID: 21300066, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300078, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_37
+      sprite: {fileID: 21300074, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300086, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_41
+      sprite: {fileID: 21300082, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_2
+      sprite: {fileID: 21300004, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_6
+      sprite: {fileID: 21300012, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_10
+      sprite: {fileID: 21300020, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_14
+      sprite: {fileID: 21300028, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_18
+      sprite: {fileID: 21300036, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_22
+      sprite: {fileID: 21300044, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_26
+      sprite: {fileID: 21300052, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_30
+      sprite: {fileID: 21300060, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_34
+      sprite: {fileID: 21300068, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_38
+      sprite: {fileID: 21300076, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_42
+      sprite: {fileID: 21300084, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_3
+      sprite: {fileID: 21300006, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_7
+      sprite: {fileID: 21300014, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_11
+      sprite: {fileID: 21300022, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_15
+      sprite: {fileID: 21300030, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_19
+      sprite: {fileID: 21300038, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_23
+      sprite: {fileID: 21300046, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_27
+      sprite: {fileID: 21300054, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_31
+      sprite: {fileID: 21300062, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_35
+      sprite: {fileID: 21300070, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_39
+      sprite: {fileID: 21300078, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: glass_pipe_43
+      sprite: {fileID: 21300086, guid: bf0fda262e5aceb41b4f67f8225b9937, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 765

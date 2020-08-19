@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 5040442135155708814, guid: feeaad8f3c4e49b4083f55192d041044,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackplasma_0
+      sprite: {fileID: 5040442135155708814, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -3978785285439154241, guid: feeaad8f3c4e49b4083f55192d041044,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackplasma_1
+      sprite: {fileID: -3978785285439154241, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 6812573463751213204, guid: feeaad8f3c4e49b4083f55192d041044,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackplasma_2
+      sprite: {fileID: 6812573463751213204, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -3337200772770736780, guid: feeaad8f3c4e49b4083f55192d041044,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackplasma_3
+      sprite: {fileID: -3337200772770736780, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
       secondDelay: 0
   IsPalette: 0

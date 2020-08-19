@@ -14,9 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7b087124536644d4680b5141393bcc92, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: lightning10_0
+      sprite: {fileID: 21300000, guid: 7b087124536644d4680b5141393bcc92, type: 3}
       secondDelay: 0.12
-    - sprite: {fileID: 21300002, guid: 7b087124536644d4680b5141393bcc92, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: lightning10_1
+      sprite: {fileID: 21300002, guid: 7b087124536644d4680b5141393bcc92, type: 3}
       secondDelay: 0.08
   IsPalette: 0
   setID: 1167

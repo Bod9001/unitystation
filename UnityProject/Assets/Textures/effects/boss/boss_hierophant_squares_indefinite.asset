@@ -14,48 +14,108 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_0
+      sprite: {fileID: 21300000, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300008, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_4
+      sprite: {fileID: 21300008, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300016, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_8
+      sprite: {fileID: 21300016, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.075
-    - sprite: {fileID: 21300024, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_12
+      sprite: {fileID: 21300024, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_16
+      sprite: {fileID: 21300032, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300002, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_1
+      sprite: {fileID: 21300002, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300010, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_5
+      sprite: {fileID: 21300010, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300018, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_9
+      sprite: {fileID: 21300018, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.075
-    - sprite: {fileID: 21300026, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_13
+      sprite: {fileID: 21300026, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_17
+      sprite: {fileID: 21300034, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300004, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_2
+      sprite: {fileID: 21300004, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300012, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_6
+      sprite: {fileID: 21300012, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300020, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_10
+      sprite: {fileID: 21300020, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.075
-    - sprite: {fileID: 21300028, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_14
+      sprite: {fileID: 21300028, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_18
+      sprite: {fileID: 21300036, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_3
+      sprite: {fileID: 21300006, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300014, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_7
+      sprite: {fileID: 21300014, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300022, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_11
+      sprite: {fileID: 21300022, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.075
-    - sprite: {fileID: 21300030, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_15
+      sprite: {fileID: 21300030, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hierophant_squares_indefinite_19
+      sprite: {fileID: 21300038, guid: f1d708579504c394f94be8a67e4ec29f, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1236

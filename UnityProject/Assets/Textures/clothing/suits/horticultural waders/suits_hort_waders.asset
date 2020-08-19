@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -3109838437762050199, guid: e994d3e297c776d40b5925443a5de938,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hort_waders_0
+      sprite: {fileID: -3109838437762050199, guid: e994d3e297c776d40b5925443a5de938,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -3893430923206009876, guid: e994d3e297c776d40b5925443a5de938,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hort_waders_1
+      sprite: {fileID: -3893430923206009876, guid: e994d3e297c776d40b5925443a5de938,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 1489058345702103413, guid: e994d3e297c776d40b5925443a5de938,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hort_waders_2
+      sprite: {fileID: 1489058345702103413, guid: e994d3e297c776d40b5925443a5de938,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -300278396813813054, guid: e994d3e297c776d40b5925443a5de938,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hort_waders_3
+      sprite: {fileID: -300278396813813054, guid: e994d3e297c776d40b5925443a5de938,
         type: 3}
       secondDelay: 0
   IsPalette: 0

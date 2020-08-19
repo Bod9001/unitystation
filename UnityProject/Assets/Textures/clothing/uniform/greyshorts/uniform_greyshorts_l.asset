@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greyshorts_l_0
+      sprite: {fileID: 21300000, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greyshorts_l_1
+      sprite: {fileID: 21300002, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greyshorts_l_2
+      sprite: {fileID: 21300004, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greyshorts_l_3
+      sprite: {fileID: 21300006, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1029

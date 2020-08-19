@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e8a0f25b81603f94ba03ff65ee12b323, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: judicial_visor_1_0
+      sprite: {fileID: 21300000, guid: e8a0f25b81603f94ba03ff65ee12b323, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: e8a0f25b81603f94ba03ff65ee12b323, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: judicial_visor_1_1
+      sprite: {fileID: 21300002, guid: e8a0f25b81603f94ba03ff65ee12b323, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: e8a0f25b81603f94ba03ff65ee12b323, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: judicial_visor_1_2
+      sprite: {fileID: 21300004, guid: e8a0f25b81603f94ba03ff65ee12b323, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: e8a0f25b81603f94ba03ff65ee12b323, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: judicial_visor_1_3
+      sprite: {fileID: 21300006, guid: e8a0f25b81603f94ba03ff65ee12b323, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 499

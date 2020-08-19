@@ -14,31 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -6300361198910320135, guid: 4d7644a0f2b428848b691641dc1d2584,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibcombat_0
+      sprite: {fileID: -6300361198910320135, guid: 4d7644a0f2b428848b691641dc1d2584,
         type: 3}
       secondDelay: 0.6
-    - sprite: {fileID: 8237443509067777978, guid: 4d7644a0f2b428848b691641dc1d2584,
-        type: 3}
-      secondDelay: 0.6
-  - Frames:
-    - sprite: {fileID: 2886129901580754712, guid: 4d7644a0f2b428848b691641dc1d2584,
-        type: 3}
-      secondDelay: 0.6
-    - sprite: {fileID: 8040261461548914516, guid: 4d7644a0f2b428848b691641dc1d2584,
-        type: 3}
-      secondDelay: 0.6
-  - Frames:
-    - sprite: {fileID: 3943553058774361153, guid: 4d7644a0f2b428848b691641dc1d2584,
-        type: 3}
-      secondDelay: 0.6
-    - sprite: {fileID: -8130580652843690722, guid: 4d7644a0f2b428848b691641dc1d2584,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibcombat_4
+      sprite: {fileID: 8237443509067777978, guid: 4d7644a0f2b428848b691641dc1d2584,
         type: 3}
       secondDelay: 0.6
   - Frames:
-    - sprite: {fileID: 7824573678471578559, guid: 4d7644a0f2b428848b691641dc1d2584,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibcombat_1
+      sprite: {fileID: 2886129901580754712, guid: 4d7644a0f2b428848b691641dc1d2584,
         type: 3}
       secondDelay: 0.6
-    - sprite: {fileID: -8284933884629638688, guid: 4d7644a0f2b428848b691641dc1d2584,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibcombat_5
+      sprite: {fileID: 8040261461548914516, guid: 4d7644a0f2b428848b691641dc1d2584,
+        type: 3}
+      secondDelay: 0.6
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibcombat_2
+      sprite: {fileID: 3943553058774361153, guid: 4d7644a0f2b428848b691641dc1d2584,
+        type: 3}
+      secondDelay: 0.6
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibcombat_6
+      sprite: {fileID: -8130580652843690722, guid: 4d7644a0f2b428848b691641dc1d2584,
+        type: 3}
+      secondDelay: 0.6
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibcombat_3
+      sprite: {fileID: 7824573678471578559, guid: 4d7644a0f2b428848b691641dc1d2584,
+        type: 3}
+      secondDelay: 0.6
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: defibcombat_7
+      sprite: {fileID: -8284933884629638688, guid: 4d7644a0f2b428848b691641dc1d2584,
         type: 3}
       secondDelay: 0.6
   IsPalette: 0

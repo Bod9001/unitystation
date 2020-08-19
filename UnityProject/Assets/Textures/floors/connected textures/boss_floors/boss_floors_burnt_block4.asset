@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1c034408a0e033c4cbc53eaaf8d386d2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_block4_0
+      sprite: {fileID: 21300000, guid: 1c034408a0e033c4cbc53eaaf8d386d2, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 1c034408a0e033c4cbc53eaaf8d386d2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_block4_1
+      sprite: {fileID: 21300002, guid: 1c034408a0e033c4cbc53eaaf8d386d2, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 1c034408a0e033c4cbc53eaaf8d386d2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_block4_2
+      sprite: {fileID: 21300004, guid: 1c034408a0e033c4cbc53eaaf8d386d2, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 1c034408a0e033c4cbc53eaaf8d386d2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_block4_3
+      sprite: {fileID: 21300006, guid: 1c034408a0e033c4cbc53eaaf8d386d2, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1545

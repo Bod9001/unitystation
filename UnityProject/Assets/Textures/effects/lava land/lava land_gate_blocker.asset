@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a4bd7f57f24c1414b97a8b3ec4e3e857, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: lava land_gate_blocker
+      sprite: {fileID: 21300000, guid: a4bd7f57f24c1414b97a8b3ec4e3e857, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1337

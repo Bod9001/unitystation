@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 86db66dfeb9093c4282bb3dc0c0dd846, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: griffin_wings_t_0
+      sprite: {fileID: 21300000, guid: 86db66dfeb9093c4282bb3dc0c0dd846, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 86db66dfeb9093c4282bb3dc0c0dd846, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: griffin_wings_t_1
+      sprite: {fileID: 21300002, guid: 86db66dfeb9093c4282bb3dc0c0dd846, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 86db66dfeb9093c4282bb3dc0c0dd846, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: griffin_wings_t_2
+      sprite: {fileID: 21300004, guid: 86db66dfeb9093c4282bb3dc0c0dd846, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 86db66dfeb9093c4282bb3dc0c0dd846, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: griffin_wings_t_3
+      sprite: {fileID: 21300006, guid: 86db66dfeb9093c4282bb3dc0c0dd846, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 20953

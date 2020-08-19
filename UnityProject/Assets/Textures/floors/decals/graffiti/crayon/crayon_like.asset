@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: cdbeb8f676b25224d81dd413d22e9bbc, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: crayon_like
+      sprite: {fileID: 21300000, guid: cdbeb8f676b25224d81dd413d22e9bbc, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2164

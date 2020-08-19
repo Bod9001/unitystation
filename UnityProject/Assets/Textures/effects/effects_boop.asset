@@ -14,13 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9083bd3261780f74a90873d0edd9b2eb, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: boop_0
+      sprite: {fileID: 21300000, guid: 9083bd3261780f74a90873d0edd9b2eb, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 9083bd3261780f74a90873d0edd9b2eb, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: boop_1
+      sprite: {fileID: 21300002, guid: 9083bd3261780f74a90873d0edd9b2eb, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 9083bd3261780f74a90873d0edd9b2eb, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: boop_2
+      sprite: {fileID: 21300004, guid: 9083bd3261780f74a90873d0edd9b2eb, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 9083bd3261780f74a90873d0edd9b2eb, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: boop_3
+      sprite: {fileID: 21300006, guid: 9083bd3261780f74a90873d0edd9b2eb, type: 3}
       secondDelay: 0.2
   IsPalette: 0
   setID: 1274

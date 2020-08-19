@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 952176598748202065, guid: 1eaff26520bdd3f469ac870585b90c52,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_cap_0
+      sprite: {fileID: 952176598748202065, guid: 1eaff26520bdd3f469ac870585b90c52,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 7503887927040580455, guid: 1eaff26520bdd3f469ac870585b90c52,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_cap_1
+      sprite: {fileID: 7503887927040580455, guid: 1eaff26520bdd3f469ac870585b90c52,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 266179454313347571, guid: 1eaff26520bdd3f469ac870585b90c52,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_cap_2
+      sprite: {fileID: 266179454313347571, guid: 1eaff26520bdd3f469ac870585b90c52,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -7671301929650146217, guid: 1eaff26520bdd3f469ac870585b90c52,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_cap_3
+      sprite: {fileID: -7671301929650146217, guid: 1eaff26520bdd3f469ac870585b90c52,
         type: 3}
       secondDelay: 0
   IsPalette: 0

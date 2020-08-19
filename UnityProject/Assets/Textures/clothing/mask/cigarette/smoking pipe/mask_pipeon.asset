@@ -14,72 +14,168 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_0
+      sprite: {fileID: 21300000, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_4
+      sprite: {fileID: 21300008, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_8
+      sprite: {fileID: 21300016, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_12
+      sprite: {fileID: 21300024, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_16
+      sprite: {fileID: 21300032, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_20
+      sprite: {fileID: 21300040, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_24
+      sprite: {fileID: 21300048, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300002, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300004, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_28
+      sprite: {fileID: 21300056, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_1
+      sprite: {fileID: 21300002, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_5
+      sprite: {fileID: 21300010, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_9
+      sprite: {fileID: 21300018, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_13
+      sprite: {fileID: 21300026, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_17
+      sprite: {fileID: 21300034, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_21
+      sprite: {fileID: 21300042, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_25
+      sprite: {fileID: 21300050, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_29
+      sprite: {fileID: 21300058, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_2
+      sprite: {fileID: 21300004, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_6
+      sprite: {fileID: 21300012, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_10
+      sprite: {fileID: 21300020, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_14
+      sprite: {fileID: 21300028, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_18
+      sprite: {fileID: 21300036, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_22
+      sprite: {fileID: 21300044, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_26
+      sprite: {fileID: 21300052, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_30
+      sprite: {fileID: 21300060, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_3
+      sprite: {fileID: 21300006, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_7
+      sprite: {fileID: 21300014, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_11
+      sprite: {fileID: 21300022, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_15
+      sprite: {fileID: 21300030, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_19
+      sprite: {fileID: 21300038, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_23
+      sprite: {fileID: 21300046, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_27
+      sprite: {fileID: 21300054, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_31
+      sprite: {fileID: 21300062, guid: fbfcdcca1f12e6d4a80d7901e15f02fa, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 775

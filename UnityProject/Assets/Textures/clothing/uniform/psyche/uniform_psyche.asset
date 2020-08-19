@@ -14,72 +14,168 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_0
+      sprite: {fileID: 21300000, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_4
+      sprite: {fileID: 21300008, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_8
+      sprite: {fileID: 21300016, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_12
+      sprite: {fileID: 21300024, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_16
+      sprite: {fileID: 21300032, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_20
+      sprite: {fileID: 21300040, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_24
+      sprite: {fileID: 21300048, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300002, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300004, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_28
+      sprite: {fileID: 21300056, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_1
+      sprite: {fileID: 21300002, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_5
+      sprite: {fileID: 21300010, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_9
+      sprite: {fileID: 21300018, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_13
+      sprite: {fileID: 21300026, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_17
+      sprite: {fileID: 21300034, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_21
+      sprite: {fileID: 21300042, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_25
+      sprite: {fileID: 21300050, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_29
+      sprite: {fileID: 21300058, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_2
+      sprite: {fileID: 21300004, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_6
+      sprite: {fileID: 21300012, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_10
+      sprite: {fileID: 21300020, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_14
+      sprite: {fileID: 21300028, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_18
+      sprite: {fileID: 21300036, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_22
+      sprite: {fileID: 21300044, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_26
+      sprite: {fileID: 21300052, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_30
+      sprite: {fileID: 21300060, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_3
+      sprite: {fileID: 21300006, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_7
+      sprite: {fileID: 21300014, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_11
+      sprite: {fileID: 21300022, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_15
+      sprite: {fileID: 21300030, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_19
+      sprite: {fileID: 21300038, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_23
+      sprite: {fileID: 21300046, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_27
+      sprite: {fileID: 21300054, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: psyche_31
+      sprite: {fileID: 21300062, guid: d24ea59eb1bf36c43a07ca579c0658d7, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1059

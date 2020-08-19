@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c39b24df1f56d8f47be546c9c117945c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: foreign aliens_weeds_side_e
+      sprite: {fileID: 21300000, guid: c39b24df1f56d8f47be546c9c117945c, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2272

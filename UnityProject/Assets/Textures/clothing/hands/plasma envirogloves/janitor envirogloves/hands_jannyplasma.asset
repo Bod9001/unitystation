@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -897838648281684708, guid: 7e16f470aa719e64bb7858fccef2f3cd,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jannyplasma_0
+      sprite: {fileID: -897838648281684708, guid: 7e16f470aa719e64bb7858fccef2f3cd,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -3397862197548177072, guid: 7e16f470aa719e64bb7858fccef2f3cd,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jannyplasma_1
+      sprite: {fileID: -3397862197548177072, guid: 7e16f470aa719e64bb7858fccef2f3cd,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 4812473797903463309, guid: 7e16f470aa719e64bb7858fccef2f3cd,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jannyplasma_2
+      sprite: {fileID: 4812473797903463309, guid: 7e16f470aa719e64bb7858fccef2f3cd,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -3833506467442687856, guid: 7e16f470aa719e64bb7858fccef2f3cd,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jannyplasma_3
+      sprite: {fileID: -3833506467442687856, guid: 7e16f470aa719e64bb7858fccef2f3cd,
         type: 3}
       secondDelay: 0
   IsPalette: 0

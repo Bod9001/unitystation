@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 8885452019627324548, guid: 92385037483b9404886e371a6ced8b04,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clownpack_0
+      sprite: {fileID: 8885452019627324548, guid: 92385037483b9404886e371a6ced8b04,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -8204409800760270167, guid: 92385037483b9404886e371a6ced8b04,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clownpack_1
+      sprite: {fileID: -8204409800760270167, guid: 92385037483b9404886e371a6ced8b04,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 1757621689342412256, guid: 92385037483b9404886e371a6ced8b04,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clownpack_2
+      sprite: {fileID: 1757621689342412256, guid: 92385037483b9404886e371a6ced8b04,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 7249127823473803361, guid: 92385037483b9404886e371a6ced8b04,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clownpack_3
+      sprite: {fileID: 7249127823473803361, guid: 92385037483b9404886e371a6ced8b04,
         type: 3}
       secondDelay: 0
   IsPalette: 0

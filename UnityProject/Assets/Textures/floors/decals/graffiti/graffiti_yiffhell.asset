@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6b0e767f643ea8e49a405cb5c228fe48, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: graffiti_yiffhell
+      sprite: {fileID: 21300000, guid: 6b0e767f643ea8e49a405cb5c228fe48, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2226

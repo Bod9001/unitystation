@@ -14,56 +14,128 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_0
+      sprite: {fileID: 21300000, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_4
+      sprite: {fileID: 21300008, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_8
+      sprite: {fileID: 21300016, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_12
+      sprite: {fileID: 21300024, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_16
+      sprite: {fileID: 21300032, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300002, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-  - Frames:
-    - sprite: {fileID: 21300004, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_20
+      sprite: {fileID: 21300040, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
   - Frames:
-    - sprite: {fileID: 21300006, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_1
+      sprite: {fileID: 21300002, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_5
+      sprite: {fileID: 21300010, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_9
+      sprite: {fileID: 21300018, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_13
+      sprite: {fileID: 21300026, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_17
+      sprite: {fileID: 21300034, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_21
+      sprite: {fileID: 21300042, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_2
+      sprite: {fileID: 21300004, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_6
+      sprite: {fileID: 21300012, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_10
+      sprite: {fileID: 21300020, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_14
+      sprite: {fileID: 21300028, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_18
+      sprite: {fileID: 21300036, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_22
+      sprite: {fileID: 21300044, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_3
+      sprite: {fileID: 21300006, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_7
+      sprite: {fileID: 21300014, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_11
+      sprite: {fileID: 21300022, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_15
+      sprite: {fileID: 21300030, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_19
+      sprite: {fileID: 21300038, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
+      secondDelay: 0.1
+    - singleSpriteReference:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplesparkles_23
+      sprite: {fileID: 21300046, guid: 786d9ecf13d2a5b41a59e6d254515075, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 1468

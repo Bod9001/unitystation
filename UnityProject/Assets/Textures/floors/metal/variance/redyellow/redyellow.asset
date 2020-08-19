@@ -14,28 +14,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: redyellow_0
+      sprite: {fileID: 21300000, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: redyellow_1
+      sprite: {fileID: 21300002, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: redyellow_2
+      sprite: {fileID: 21300004, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: redyellow_3
+      sprite: {fileID: 21300006, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300008, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: redyellow_4
+      sprite: {fileID: 21300008, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300010, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: redyellow_5
+      sprite: {fileID: 21300010, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300012, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: redyellow_6
+      sprite: {fileID: 21300012, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300014, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: redyellow_7
+      sprite: {fileID: 21300014, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2372

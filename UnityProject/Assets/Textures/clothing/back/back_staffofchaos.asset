@@ -14,40 +14,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_0
+      sprite: {fileID: 21300000, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300008, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_4
+      sprite: {fileID: 21300008, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300016, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_8
+      sprite: {fileID: 21300016, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300024, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
-      secondDelay: 0.5
-  - Frames:
-    - sprite: {fileID: 21300002, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
-      secondDelay: 0.5
-    - sprite: {fileID: 21300010, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
-      secondDelay: 0.5
-    - sprite: {fileID: 21300018, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
-      secondDelay: 0.5
-    - sprite: {fileID: 21300026, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
-      secondDelay: 0.5
-  - Frames:
-    - sprite: {fileID: 21300004, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
-      secondDelay: 0.5
-    - sprite: {fileID: 21300012, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
-      secondDelay: 0.5
-    - sprite: {fileID: 21300020, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
-      secondDelay: 0.5
-    - sprite: {fileID: 21300028, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_12
+      sprite: {fileID: 21300024, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
       secondDelay: 0.5
   - Frames:
-    - sprite: {fileID: 21300006, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_1
+      sprite: {fileID: 21300002, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300014, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_5
+      sprite: {fileID: 21300010, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300022, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_9
+      sprite: {fileID: 21300018, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300030, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_13
+      sprite: {fileID: 21300026, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+      secondDelay: 0.5
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_2
+      sprite: {fileID: 21300004, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+      secondDelay: 0.5
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_6
+      sprite: {fileID: 21300012, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+      secondDelay: 0.5
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_10
+      sprite: {fileID: 21300020, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+      secondDelay: 0.5
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_14
+      sprite: {fileID: 21300028, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+      secondDelay: 0.5
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_3
+      sprite: {fileID: 21300006, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+      secondDelay: 0.5
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_7
+      sprite: {fileID: 21300014, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+      secondDelay: 0.5
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_11
+      sprite: {fileID: 21300022, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
+      secondDelay: 0.5
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofchaos_15
+      sprite: {fileID: 21300030, guid: 0dcadc5eb4f9f6d4984ddd98582587a3, type: 3}
       secondDelay: 0.5
   IsPalette: 0
   setID: 352

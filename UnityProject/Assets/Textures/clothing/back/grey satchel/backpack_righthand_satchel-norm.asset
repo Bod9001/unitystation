@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 3387177844991079343, guid: 8f9bf2135b495954bab02d38ae88dc33,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-norm_0
+      sprite: {fileID: 3387177844991079343, guid: 8f9bf2135b495954bab02d38ae88dc33,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -7226850057697545923, guid: 8f9bf2135b495954bab02d38ae88dc33,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-norm_1
+      sprite: {fileID: -7226850057697545923, guid: 8f9bf2135b495954bab02d38ae88dc33,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -1828235659702962453, guid: 8f9bf2135b495954bab02d38ae88dc33,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-norm_2
+      sprite: {fileID: -1828235659702962453, guid: 8f9bf2135b495954bab02d38ae88dc33,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 285203716006504224, guid: 8f9bf2135b495954bab02d38ae88dc33,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-norm_3
+      sprite: {fileID: 285203716006504224, guid: 8f9bf2135b495954bab02d38ae88dc33,
         type: 3}
       secondDelay: 0
   IsPalette: 0

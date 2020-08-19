@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: orangecorner_0
+      sprite: {fileID: 21300000, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: orangecorner_1
+      sprite: {fileID: 21300002, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: orangecorner_2
+      sprite: {fileID: 21300004, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: orangecorner_3
+      sprite: {fileID: 21300006, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2348

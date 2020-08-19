@@ -14,40 +14,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_0
+      sprite: {fileID: 21300000, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
       secondDelay: 2
-    - sprite: {fileID: 21300008, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_4
+      sprite: {fileID: 21300008, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
       secondDelay: 2
-    - sprite: {fileID: 21300016, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_8
+      sprite: {fileID: 21300016, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
       secondDelay: 2
-    - sprite: {fileID: 21300024, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
-      secondDelay: 2
-  - Frames:
-    - sprite: {fileID: 21300002, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
-      secondDelay: 2
-    - sprite: {fileID: 21300010, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
-      secondDelay: 2
-    - sprite: {fileID: 21300018, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
-      secondDelay: 2
-    - sprite: {fileID: 21300026, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
-      secondDelay: 2
-  - Frames:
-    - sprite: {fileID: 21300004, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
-      secondDelay: 2
-    - sprite: {fileID: 21300012, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
-      secondDelay: 2
-    - sprite: {fileID: 21300020, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
-      secondDelay: 2
-    - sprite: {fileID: 21300028, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_12
+      sprite: {fileID: 21300024, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
       secondDelay: 2
   - Frames:
-    - sprite: {fileID: 21300006, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_1
+      sprite: {fileID: 21300002, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
       secondDelay: 2
-    - sprite: {fileID: 21300014, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_5
+      sprite: {fileID: 21300010, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
       secondDelay: 2
-    - sprite: {fileID: 21300022, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_9
+      sprite: {fileID: 21300018, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
       secondDelay: 2
-    - sprite: {fileID: 21300030, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_13
+      sprite: {fileID: 21300026, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+      secondDelay: 2
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_2
+      sprite: {fileID: 21300004, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+      secondDelay: 2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_6
+      sprite: {fileID: 21300012, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+      secondDelay: 2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_10
+      sprite: {fileID: 21300020, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+      secondDelay: 2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_14
+      sprite: {fileID: 21300028, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+      secondDelay: 2
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_3
+      sprite: {fileID: 21300006, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+      secondDelay: 2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_7
+      sprite: {fileID: 21300014, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+      secondDelay: 2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_11
+      sprite: {fileID: 21300022, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
+      secondDelay: 2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: staffofdoor_15
+      sprite: {fileID: 21300030, guid: 222a50cdca3ae9d48b9221b325a817e2, type: 3}
       secondDelay: 2
   IsPalette: 0
   setID: 353

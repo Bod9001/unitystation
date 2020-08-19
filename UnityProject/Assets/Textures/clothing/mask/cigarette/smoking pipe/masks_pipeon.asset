@@ -14,21 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ba77926328060d940863f0f24e70b99c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_0
+      sprite: {fileID: 21300000, guid: ba77926328060d940863f0f24e70b99c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: ba77926328060d940863f0f24e70b99c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_1
+      sprite: {fileID: 21300002, guid: ba77926328060d940863f0f24e70b99c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: ba77926328060d940863f0f24e70b99c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_2
+      sprite: {fileID: 21300004, guid: ba77926328060d940863f0f24e70b99c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: ba77926328060d940863f0f24e70b99c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_3
+      sprite: {fileID: 21300006, guid: ba77926328060d940863f0f24e70b99c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: ba77926328060d940863f0f24e70b99c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_4
+      sprite: {fileID: 21300008, guid: ba77926328060d940863f0f24e70b99c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: ba77926328060d940863f0f24e70b99c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_5
+      sprite: {fileID: 21300010, guid: ba77926328060d940863f0f24e70b99c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: ba77926328060d940863f0f24e70b99c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_6
+      sprite: {fileID: 21300012, guid: ba77926328060d940863f0f24e70b99c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: ba77926328060d940863f0f24e70b99c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pipeon_7
+      sprite: {fileID: 21300014, guid: ba77926328060d940863f0f24e70b99c, type: 3}
       secondDelay: 0.1
   IsPalette: 0
   setID: 5854

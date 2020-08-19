@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sundress_0
+      sprite: {fileID: 21300000, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sundress_1
+      sprite: {fileID: 21300002, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sundress_2
+      sprite: {fileID: 21300004, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sundress_3
+      sprite: {fileID: 21300006, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 21728

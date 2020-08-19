@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -3068132856366253584, guid: 26563b97fef82cf43bd92776a67a609d,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedicsoft_0
+      sprite: {fileID: -3068132856366253584, guid: 26563b97fef82cf43bd92776a67a609d,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -2519741884037769561, guid: 26563b97fef82cf43bd92776a67a609d,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedicsoft_1
+      sprite: {fileID: -2519741884037769561, guid: 26563b97fef82cf43bd92776a67a609d,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -9181449256079067572, guid: 26563b97fef82cf43bd92776a67a609d,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedicsoft_2
+      sprite: {fileID: -9181449256079067572, guid: 26563b97fef82cf43bd92776a67a609d,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -4197242135553290801, guid: 26563b97fef82cf43bd92776a67a609d,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedicsoft_3
+      sprite: {fileID: -4197242135553290801, guid: 26563b97fef82cf43bd92776a67a609d,
         type: 3}
       secondDelay: 0
   IsPalette: 0

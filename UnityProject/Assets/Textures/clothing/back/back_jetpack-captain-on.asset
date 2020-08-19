@@ -14,24 +14,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bba0325d43425d344949e19cc4862af7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jetpack-captain-on_0
+      sprite: {fileID: 21300000, guid: bba0325d43425d344949e19cc4862af7, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: bba0325d43425d344949e19cc4862af7, type: 3}
-      secondDelay: 0.2
-  - Frames:
-    - sprite: {fileID: 21300002, guid: bba0325d43425d344949e19cc4862af7, type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 21300010, guid: bba0325d43425d344949e19cc4862af7, type: 3}
-      secondDelay: 0.2
-  - Frames:
-    - sprite: {fileID: 21300004, guid: bba0325d43425d344949e19cc4862af7, type: 3}
-      secondDelay: 0.2
-    - sprite: {fileID: 21300012, guid: bba0325d43425d344949e19cc4862af7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jetpack-captain-on_4
+      sprite: {fileID: 21300008, guid: bba0325d43425d344949e19cc4862af7, type: 3}
       secondDelay: 0.2
   - Frames:
-    - sprite: {fileID: 21300006, guid: bba0325d43425d344949e19cc4862af7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jetpack-captain-on_1
+      sprite: {fileID: 21300002, guid: bba0325d43425d344949e19cc4862af7, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300014, guid: bba0325d43425d344949e19cc4862af7, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jetpack-captain-on_5
+      sprite: {fileID: 21300010, guid: bba0325d43425d344949e19cc4862af7, type: 3}
+      secondDelay: 0.2
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jetpack-captain-on_2
+      sprite: {fileID: 21300004, guid: bba0325d43425d344949e19cc4862af7, type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jetpack-captain-on_6
+      sprite: {fileID: 21300012, guid: bba0325d43425d344949e19cc4862af7, type: 3}
+      secondDelay: 0.2
+  - Frames:
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jetpack-captain-on_3
+      sprite: {fileID: 21300006, guid: bba0325d43425d344949e19cc4862af7, type: 3}
+      secondDelay: 0.2
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jetpack-captain-on_7
+      sprite: {fileID: 21300014, guid: bba0325d43425d344949e19cc4862af7, type: 3}
       secondDelay: 0.2
   IsPalette: 0
   setID: 307

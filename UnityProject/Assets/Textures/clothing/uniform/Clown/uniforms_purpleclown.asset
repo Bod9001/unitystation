@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e750174f5987ae047b46d0c6a15dc6f1, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: uniforms_purpleclown
+      sprite: {fileID: 21300000, guid: e750174f5987ae047b46d0c6a15dc6f1, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 21486

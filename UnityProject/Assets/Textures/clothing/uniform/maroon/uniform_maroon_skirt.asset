@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: maroon_skirt_0
+      sprite: {fileID: 21300000, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: maroon_skirt_1
+      sprite: {fileID: 21300002, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: maroon_skirt_2
+      sprite: {fileID: 21300004, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: maroon_skirt_3
+      sprite: {fileID: 21300006, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1044

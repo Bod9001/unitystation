@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 2256526155955739045, guid: 942d2c354cb4c64469d3aadc29f5981e,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: engieplasma_0
+      sprite: {fileID: 2256526155955739045, guid: 942d2c354cb4c64469d3aadc29f5981e,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -480886554125047904, guid: 942d2c354cb4c64469d3aadc29f5981e,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: engieplasma_1
+      sprite: {fileID: -480886554125047904, guid: 942d2c354cb4c64469d3aadc29f5981e,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -3619945195061347741, guid: 942d2c354cb4c64469d3aadc29f5981e,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: engieplasma_2
+      sprite: {fileID: -3619945195061347741, guid: 942d2c354cb4c64469d3aadc29f5981e,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 674977373597546272, guid: 942d2c354cb4c64469d3aadc29f5981e,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: engieplasma_3
+      sprite: {fileID: 674977373597546272, guid: 942d2c354cb4c64469d3aadc29f5981e,
         type: 3}
       secondDelay: 0
   IsPalette: 0

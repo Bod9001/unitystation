@@ -14,16 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a44b93172ffcba041a5311b4e2d9e11c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_tile23_0
+      sprite: {fileID: 21300000, guid: a44b93172ffcba041a5311b4e2d9e11c, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: a44b93172ffcba041a5311b4e2d9e11c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_tile23_1
+      sprite: {fileID: 21300002, guid: a44b93172ffcba041a5311b4e2d9e11c, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: a44b93172ffcba041a5311b4e2d9e11c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_tile23_2
+      sprite: {fileID: 21300004, guid: a44b93172ffcba041a5311b4e2d9e11c, type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: a44b93172ffcba041a5311b4e2d9e11c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_tile23_3
+      sprite: {fileID: 21300006, guid: a44b93172ffcba041a5311b4e2d9e11c, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 1580

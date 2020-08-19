@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a6f07a86b2391dc4c9df37f6d794eb0c, type: 3}
+    - singleSpriteReference:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: overly_salt_pile
+      sprite: {fileID: 21300000, guid: a6f07a86b2391dc4c9df37f6d794eb0c, type: 3}
       secondDelay: 0
   IsPalette: 0
   setID: 2410

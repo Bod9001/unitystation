@@ -14,19 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 6606669789580356650, guid: 416af6326a8f7ad47a93c94752774319,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: techpriesthood_0
+      sprite: {fileID: 6606669789580356650, guid: 416af6326a8f7ad47a93c94752774319,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 5838869503174121063, guid: 416af6326a8f7ad47a93c94752774319,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: techpriesthood_1
+      sprite: {fileID: 5838869503174121063, guid: 416af6326a8f7ad47a93c94752774319,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: -3674531070131346208, guid: 416af6326a8f7ad47a93c94752774319,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: techpriesthood_2
+      sprite: {fileID: -3674531070131346208, guid: 416af6326a8f7ad47a93c94752774319,
         type: 3}
       secondDelay: 0
   - Frames:
-    - sprite: {fileID: 1230410677365787664, guid: 416af6326a8f7ad47a93c94752774319,
+    - singleSpriteReference:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: techpriesthood_3
+      sprite: {fileID: 1230410677365787664, guid: 416af6326a8f7ad47a93c94752774319,
         type: 3}
       secondDelay: 0
   IsPalette: 0
