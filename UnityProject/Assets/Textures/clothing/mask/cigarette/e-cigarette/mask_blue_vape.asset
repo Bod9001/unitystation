@@ -14,168 +14,136 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_0
+    - spriteName: blue_vape_0
       sprite: {fileID: 21300000, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_4
+      AtlasUsing: 0
+    - spriteName: blue_vape_4
       sprite: {fileID: 21300008, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_8
+      AtlasUsing: 0
+    - spriteName: blue_vape_8
       sprite: {fileID: 21300016, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_12
+      AtlasUsing: 0
+    - spriteName: blue_vape_12
       sprite: {fileID: 21300024, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_16
+      AtlasUsing: 0
+    - spriteName: blue_vape_16
       sprite: {fileID: 21300032, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_20
+      AtlasUsing: 0
+    - spriteName: blue_vape_20
       sprite: {fileID: 21300040, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_24
+      AtlasUsing: 0
+    - spriteName: blue_vape_24
       sprite: {fileID: 21300048, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_28
+      AtlasUsing: 0
+    - spriteName: blue_vape_28
       sprite: {fileID: 21300056, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_1
+    - spriteName: blue_vape_1
       sprite: {fileID: 21300002, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_5
+      AtlasUsing: 0
+    - spriteName: blue_vape_5
       sprite: {fileID: 21300010, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_9
+      AtlasUsing: 0
+    - spriteName: blue_vape_9
       sprite: {fileID: 21300018, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_13
+      AtlasUsing: 0
+    - spriteName: blue_vape_13
       sprite: {fileID: 21300026, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_17
+      AtlasUsing: 0
+    - spriteName: blue_vape_17
       sprite: {fileID: 21300034, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_21
+      AtlasUsing: 0
+    - spriteName: blue_vape_21
       sprite: {fileID: 21300042, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_25
+      AtlasUsing: 0
+    - spriteName: blue_vape_25
       sprite: {fileID: 21300050, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_29
+      AtlasUsing: 0
+    - spriteName: blue_vape_29
       sprite: {fileID: 21300058, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_2
+    - spriteName: blue_vape_2
       sprite: {fileID: 21300004, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_6
+      AtlasUsing: 0
+    - spriteName: blue_vape_6
       sprite: {fileID: 21300012, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_10
+      AtlasUsing: 0
+    - spriteName: blue_vape_10
       sprite: {fileID: 21300020, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_14
+      AtlasUsing: 0
+    - spriteName: blue_vape_14
       sprite: {fileID: 21300028, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_18
+      AtlasUsing: 0
+    - spriteName: blue_vape_18
       sprite: {fileID: 21300036, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_22
+      AtlasUsing: 0
+    - spriteName: blue_vape_22
       sprite: {fileID: 21300044, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_26
+      AtlasUsing: 0
+    - spriteName: blue_vape_26
       sprite: {fileID: 21300052, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_30
+      AtlasUsing: 0
+    - spriteName: blue_vape_30
       sprite: {fileID: 21300060, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_3
+    - spriteName: blue_vape_3
       sprite: {fileID: 21300006, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_7
+      AtlasUsing: 0
+    - spriteName: blue_vape_7
       sprite: {fileID: 21300014, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_11
+      AtlasUsing: 0
+    - spriteName: blue_vape_11
       sprite: {fileID: 21300022, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_15
+      AtlasUsing: 0
+    - spriteName: blue_vape_15
       sprite: {fileID: 21300030, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_19
+      AtlasUsing: 0
+    - spriteName: blue_vape_19
       sprite: {fileID: 21300038, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_23
+      AtlasUsing: 0
+    - spriteName: blue_vape_23
       sprite: {fileID: 21300046, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_27
+      AtlasUsing: 0
+    - spriteName: blue_vape_27
       sprite: {fileID: 21300054, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blue_vape_31
+      AtlasUsing: 0
+    - spriteName: blue_vape_31
       sprite: {fileID: 21300062, guid: edb477f5a57a920478762f1d6eb47463, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 750

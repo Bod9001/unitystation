@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c9983be1b7e038c4da8d85d45ad0c539, type: 3}
+    - spriteName: radial_airlock
+      sprite: {fileID: 21300000, guid: c9983be1b7e038c4da8d85d45ad0c539, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2948

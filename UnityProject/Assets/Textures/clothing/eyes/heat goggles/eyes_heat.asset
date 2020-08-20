@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: heat_0
+    - spriteName: heat_0
       sprite: {fileID: 21300000, guid: 9383425ac7b23964c895a106c5333bbe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: heat_1
+    - spriteName: heat_1
       sprite: {fileID: 21300002, guid: 9383425ac7b23964c895a106c5333bbe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: heat_2
+    - spriteName: heat_2
       sprite: {fileID: 21300004, guid: 9383425ac7b23964c895a106c5333bbe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: heat_3
+    - spriteName: heat_3
       sprite: {fileID: 21300006, guid: 9383425ac7b23964c895a106c5333bbe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19981

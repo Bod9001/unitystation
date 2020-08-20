@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: baadf56b6b7d58548989a56152fd2ff1, type: 3}
+    - spriteName: actions_genetic_default
+      sprite: {fileID: 21300000, guid: baadf56b6b7d58548989a56152fd2ff1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4048

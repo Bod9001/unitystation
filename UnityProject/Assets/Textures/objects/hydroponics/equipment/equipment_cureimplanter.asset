@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 229e0fde5b0dbf9468d0404d9d140ea1, type: 3}
+    - spriteName: equipment_cureimplanter
+      sprite: {fileID: 21300000, guid: 229e0fde5b0dbf9468d0404d9d140ea1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15140

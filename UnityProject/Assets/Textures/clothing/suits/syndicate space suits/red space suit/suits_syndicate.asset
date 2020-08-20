@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: syndicate_0
+    - spriteName: syndicate_0
       sprite: {fileID: 21300000, guid: 6cfcf1689488d3d4c9fa9861c361b524, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: syndicate_1
+    - spriteName: syndicate_1
       sprite: {fileID: 21300002, guid: 6cfcf1689488d3d4c9fa9861c361b524, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: syndicate_2
+    - spriteName: syndicate_2
       sprite: {fileID: 21300004, guid: 6cfcf1689488d3d4c9fa9861c361b524, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: syndicate_3
+    - spriteName: syndicate_3
       sprite: {fileID: 21300006, guid: 6cfcf1689488d3d4c9fa9861c361b524, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21147

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: adf960643cd567c4192a78b3bbaeb6f2, type: 3}
+    - spriteName: new_assemblies_voice_left
+      sprite: {fileID: 21300000, guid: adf960643cd567c4192a78b3bbaeb6f2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5102

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lover_0
+    - spriteName: lover_0
       sprite: {fileID: 21300000, guid: 26a140ff24516134e9e54fd234be691a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lover_1
+    - spriteName: lover_1
       sprite: {fileID: 21300002, guid: 26a140ff24516134e9e54fd234be691a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lover_2
+    - spriteName: lover_2
       sprite: {fileID: 21300004, guid: 26a140ff24516134e9e54fd234be691a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lover_3
+    - spriteName: lover_3
       sprite: {fileID: 21300006, guid: 26a140ff24516134e9e54fd234be691a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21287

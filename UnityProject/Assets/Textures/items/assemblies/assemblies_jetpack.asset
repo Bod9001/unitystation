@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d0ec27383ea0897428db8a6cf8a80597, type: 3}
+    - spriteName: assemblies_jetpack
+      sprite: {fileID: 21300000, guid: d0ec27383ea0897428db8a6cf8a80597, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4706

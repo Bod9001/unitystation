@@ -14,348 +14,280 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_0
+    - spriteName: ratvarwindoorglow_0
       sprite: {fileID: 21300000, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_4
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_4
       sprite: {fileID: 21300008, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_8
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_8
       sprite: {fileID: 21300016, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_12
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_12
       sprite: {fileID: 21300024, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_16
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_16
       sprite: {fileID: 21300032, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_20
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_20
       sprite: {fileID: 21300040, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_24
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_24
       sprite: {fileID: 21300048, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_28
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_28
       sprite: {fileID: 21300056, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_32
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_32
       sprite: {fileID: 21300064, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_36
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_36
       sprite: {fileID: 21300072, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_40
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_40
       sprite: {fileID: 21300080, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_44
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_44
       sprite: {fileID: 21300088, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_48
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_48
       sprite: {fileID: 21300096, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_52
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_52
       sprite: {fileID: 21300104, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_56
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_56
       sprite: {fileID: 21300112, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_60
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_60
       sprite: {fileID: 21300120, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_64
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_64
       sprite: {fileID: 21300128, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_1
+    - spriteName: ratvarwindoorglow_1
       sprite: {fileID: 21300002, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_5
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_5
       sprite: {fileID: 21300010, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_9
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_9
       sprite: {fileID: 21300018, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_13
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_13
       sprite: {fileID: 21300026, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_17
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_17
       sprite: {fileID: 21300034, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_21
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_21
       sprite: {fileID: 21300042, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_25
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_25
       sprite: {fileID: 21300050, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_29
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_29
       sprite: {fileID: 21300058, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_33
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_33
       sprite: {fileID: 21300066, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_37
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_37
       sprite: {fileID: 21300074, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_41
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_41
       sprite: {fileID: 21300082, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_45
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_45
       sprite: {fileID: 21300090, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_49
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_49
       sprite: {fileID: 21300098, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_53
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_53
       sprite: {fileID: 21300106, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_57
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_57
       sprite: {fileID: 21300114, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_61
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_61
       sprite: {fileID: 21300122, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_65
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_65
       sprite: {fileID: 21300130, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_2
+    - spriteName: ratvarwindoorglow_2
       sprite: {fileID: 21300004, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_6
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_6
       sprite: {fileID: 21300012, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_10
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_10
       sprite: {fileID: 21300020, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_14
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_14
       sprite: {fileID: 21300028, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_18
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_18
       sprite: {fileID: 21300036, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_22
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_22
       sprite: {fileID: 21300044, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_26
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_26
       sprite: {fileID: 21300052, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_30
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_30
       sprite: {fileID: 21300060, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_34
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_34
       sprite: {fileID: 21300068, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_38
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_38
       sprite: {fileID: 21300076, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_42
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_42
       sprite: {fileID: 21300084, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_46
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_46
       sprite: {fileID: 21300092, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_50
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_50
       sprite: {fileID: 21300100, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_54
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_54
       sprite: {fileID: 21300108, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_58
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_58
       sprite: {fileID: 21300116, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_62
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_62
       sprite: {fileID: 21300124, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_66
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_66
       sprite: {fileID: 21300132, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_3
+    - spriteName: ratvarwindoorglow_3
       sprite: {fileID: 21300006, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_7
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_7
       sprite: {fileID: 21300014, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_11
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_11
       sprite: {fileID: 21300022, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.03
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_15
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_15
       sprite: {fileID: 21300030, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_19
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_19
       sprite: {fileID: 21300038, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_23
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_23
       sprite: {fileID: 21300046, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_27
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_27
       sprite: {fileID: 21300054, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_31
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_31
       sprite: {fileID: 21300062, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_35
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_35
       sprite: {fileID: 21300070, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_39
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_39
       sprite: {fileID: 21300078, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_43
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_43
       sprite: {fileID: 21300086, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_47
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_47
       sprite: {fileID: 21300094, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_51
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_51
       sprite: {fileID: 21300102, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_55
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_55
       sprite: {fileID: 21300110, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_59
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_59
       sprite: {fileID: 21300118, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_63
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_63
       sprite: {fileID: 21300126, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindoorglow_67
+      AtlasUsing: 0
+    - spriteName: ratvarwindoorglow_67
       sprite: {fileID: 21300134, guid: 1835543166b07d845a6cd7e28bfe2942, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1266

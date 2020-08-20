@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
+    - spriteName: s_helmet_0
+      sprite: {fileID: 21300000, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
+    - spriteName: s_helmet_1
+      sprite: {fileID: 21300002, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
+    - spriteName: s_helmet_2
+      sprite: {fileID: 21300004, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
+    - spriteName: s_helmet_3
+      sprite: {fileID: 21300006, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22107

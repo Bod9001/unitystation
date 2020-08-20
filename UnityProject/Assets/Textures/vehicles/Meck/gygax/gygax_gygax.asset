@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 095d7f64ff1eb074e98c1503f8c45ff7, type: 3}
+    - spriteName: gygax_0
+      sprite: {fileID: 21300000, guid: 095d7f64ff1eb074e98c1503f8c45ff7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 095d7f64ff1eb074e98c1503f8c45ff7, type: 3}
+    - spriteName: gygax_1
+      sprite: {fileID: 21300002, guid: 095d7f64ff1eb074e98c1503f8c45ff7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 095d7f64ff1eb074e98c1503f8c45ff7, type: 3}
+    - spriteName: gygax_2
+      sprite: {fileID: 21300004, guid: 095d7f64ff1eb074e98c1503f8c45ff7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 095d7f64ff1eb074e98c1503f8c45ff7, type: 3}
+    - spriteName: gygax_3
+      sprite: {fileID: 21300006, guid: 095d7f64ff1eb074e98c1503f8c45ff7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 18903

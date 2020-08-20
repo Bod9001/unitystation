@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4b908f8f41e67bb48a397f255446b28c, type: 3}
+    - spriteName: overlays_welded
+      sprite: {fileID: 21300000, guid: 4b908f8f41e67bb48a397f255446b28c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13962

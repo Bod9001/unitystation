@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: orange_0
+    - spriteName: orange_0
       sprite: {fileID: 21300000, guid: 70cfd526e9614ca429fb5a83f263e522, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: orange_1
+    - spriteName: orange_1
       sprite: {fileID: 21300002, guid: 70cfd526e9614ca429fb5a83f263e522, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: orange_2
+    - spriteName: orange_2
       sprite: {fileID: 21300004, guid: 70cfd526e9614ca429fb5a83f263e522, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: orange_3
+    - spriteName: orange_3
       sprite: {fileID: 21300006, guid: 70cfd526e9614ca429fb5a83f263e522, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: orange_4
+    - spriteName: orange_4
       sprite: {fileID: 21300008, guid: 70cfd526e9614ca429fb5a83f263e522, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: orange_5
+    - spriteName: orange_5
       sprite: {fileID: 21300010, guid: 70cfd526e9614ca429fb5a83f263e522, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: orange_6
+    - spriteName: orange_6
       sprite: {fileID: 21300012, guid: 70cfd526e9614ca429fb5a83f263e522, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: orange_7
+    - spriteName: orange_7
       sprite: {fileID: 21300014, guid: 70cfd526e9614ca429fb5a83f263e522, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2347

@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dpickaxe_0
+    - spriteName: dpickaxe_0
       sprite: {fileID: 21300000, guid: 3e3e56b5967ae2343a000cccf619f45b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dpickaxe_1
+    - spriteName: dpickaxe_1
       sprite: {fileID: 21300002, guid: 3e3e56b5967ae2343a000cccf619f45b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dpickaxe_2
+    - spriteName: dpickaxe_2
       sprite: {fileID: 21300004, guid: 3e3e56b5967ae2343a000cccf619f45b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dpickaxe_3
+    - spriteName: dpickaxe_3
       sprite: {fileID: 21300006, guid: 3e3e56b5967ae2343a000cccf619f45b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dpickaxe_4
+    - spriteName: dpickaxe_4
       sprite: {fileID: 21300008, guid: 3e3e56b5967ae2343a000cccf619f45b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dpickaxe_5
+    - spriteName: dpickaxe_5
       sprite: {fileID: 21300010, guid: 3e3e56b5967ae2343a000cccf619f45b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dpickaxe_6
+    - spriteName: dpickaxe_6
       sprite: {fileID: 21300012, guid: 3e3e56b5967ae2343a000cccf619f45b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dpickaxe_7
+    - spriteName: dpickaxe_7
       sprite: {fileID: 21300014, guid: 3e3e56b5967ae2343a000cccf619f45b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 268

@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 80099bdcdea4233449de5303987cd156, type: 3}
+    - spriteName: marker-blue_0
+      sprite: {fileID: 21300000, guid: 80099bdcdea4233449de5303987cd156, type: 3}
       secondDelay: 0.6
-    - sprite: {fileID: 21300002, guid: 80099bdcdea4233449de5303987cd156, type: 3}
+      AtlasUsing: 0
+    - spriteName: marker-blue_1
+      sprite: {fileID: 21300002, guid: 80099bdcdea4233449de5303987cd156, type: 3}
       secondDelay: 0.6
-    - sprite: {fileID: 21300004, guid: 80099bdcdea4233449de5303987cd156, type: 3}
+      AtlasUsing: 0
+    - spriteName: marker-blue_2
+      sprite: {fileID: 21300004, guid: 80099bdcdea4233449de5303987cd156, type: 3}
       secondDelay: 0.6
-    - sprite: {fileID: 21300006, guid: 80099bdcdea4233449de5303987cd156, type: 3}
+      AtlasUsing: 0
+    - spriteName: marker-blue_3
+      sprite: {fileID: 21300006, guid: 80099bdcdea4233449de5303987cd156, type: 3}
       secondDelay: 0.6
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4333

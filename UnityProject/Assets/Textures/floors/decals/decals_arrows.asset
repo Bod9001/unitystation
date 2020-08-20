@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: arrows_0
+    - spriteName: arrows_0
       sprite: {fileID: 21300000, guid: 9c480eab172521e448d77fb0250c4e00, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: arrows_1
+    - spriteName: arrows_1
       sprite: {fileID: 21300002, guid: 9c480eab172521e448d77fb0250c4e00, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: arrows_2
+    - spriteName: arrows_2
       sprite: {fileID: 21300004, guid: 9c480eab172521e448d77fb0250c4e00, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: arrows_3
+    - spriteName: arrows_3
       sprite: {fileID: 21300006, guid: 9c480eab172521e448d77fb0250c4e00, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1963

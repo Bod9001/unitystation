@@ -14,17 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ablativecoat_0
+    - spriteName: ablativecoat_0
       sprite: {fileID: 3439455209659141063, guid: c9c4a74a385d2b54ea9bad8ccde30a02,
         type: 3}
       secondDelay: 0.5
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ablativecoat_1
+      AtlasUsing: 0
+    - spriteName: ablativecoat_1
       sprite: {fileID: -8885038089760734150, guid: c9c4a74a385d2b54ea9bad8ccde30a02,
         type: 3}
       secondDelay: 0.5
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20783

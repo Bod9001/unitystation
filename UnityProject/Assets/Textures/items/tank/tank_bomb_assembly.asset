@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1fdd011bcb98c7a4ca751b0d2b01b2c5, type: 3}
+    - spriteName: tank_bomb_assembly
+      sprite: {fileID: 21300000, guid: 1fdd011bcb98c7a4ca751b0d2b01b2c5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9160

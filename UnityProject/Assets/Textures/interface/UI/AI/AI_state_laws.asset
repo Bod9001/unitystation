@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 83491d5affa881a438be7c41e235ba0c, type: 3}
+    - spriteName: AI_state_laws
+      sprite: {fileID: 21300000, guid: 83491d5affa881a438be7c41e235ba0c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3071

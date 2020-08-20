@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ee94d23899eacdc4bae644f0c332d662, type: 3}
+    - spriteName: module_ssd_mini
+      sprite: {fileID: 21300000, guid: ee94d23899eacdc4bae644f0c332d662, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8432

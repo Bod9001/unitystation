@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fbc954134f7604847a43f4ce41de6d27, type: 3}
+    - spriteName: structures_alien_frame
+      sprite: {fileID: 21300000, guid: fbc954134f7604847a43f4ce41de6d27, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17289

@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 97fa7260a659b8a43843b2be6f71ced9, type: 3}
+    - spriteName: neurotoxin_0
+      sprite: {fileID: 21300000, guid: 97fa7260a659b8a43843b2be6f71ced9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 97fa7260a659b8a43843b2be6f71ced9, type: 3}
+      AtlasUsing: 0
+    - spriteName: neurotoxin_1
+      sprite: {fileID: 21300002, guid: 97fa7260a659b8a43843b2be6f71ced9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 97fa7260a659b8a43843b2be6f71ced9, type: 3}
+      AtlasUsing: 0
+    - spriteName: neurotoxin_2
+      sprite: {fileID: 21300004, guid: 97fa7260a659b8a43843b2be6f71ced9, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16634

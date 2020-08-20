@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 42b1d8a246b722341a5a6a9b1db8fd45, type: 3}
+    - spriteName: stock_parts_rom1
+      sprite: {fileID: 21300000, guid: 42b1d8a246b722341a5a6a9b1db8fd45, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17268

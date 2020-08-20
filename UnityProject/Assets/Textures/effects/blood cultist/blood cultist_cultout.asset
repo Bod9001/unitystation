@@ -14,168 +14,136 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_0
+    - spriteName: cultout_0
       sprite: {fileID: 21300000, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_4
+      AtlasUsing: 0
+    - spriteName: cultout_4
       sprite: {fileID: 21300008, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_8
+      AtlasUsing: 0
+    - spriteName: cultout_8
       sprite: {fileID: 21300016, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_12
+      AtlasUsing: 0
+    - spriteName: cultout_12
       sprite: {fileID: 21300024, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_16
+      AtlasUsing: 0
+    - spriteName: cultout_16
       sprite: {fileID: 21300032, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_20
+      AtlasUsing: 0
+    - spriteName: cultout_20
       sprite: {fileID: 21300040, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_24
+      AtlasUsing: 0
+    - spriteName: cultout_24
       sprite: {fileID: 21300048, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_28
+      AtlasUsing: 0
+    - spriteName: cultout_28
       sprite: {fileID: 21300056, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_1
+    - spriteName: cultout_1
       sprite: {fileID: 21300002, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_5
+      AtlasUsing: 0
+    - spriteName: cultout_5
       sprite: {fileID: 21300010, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_9
+      AtlasUsing: 0
+    - spriteName: cultout_9
       sprite: {fileID: 21300018, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_13
+      AtlasUsing: 0
+    - spriteName: cultout_13
       sprite: {fileID: 21300026, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_17
+      AtlasUsing: 0
+    - spriteName: cultout_17
       sprite: {fileID: 21300034, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_21
+      AtlasUsing: 0
+    - spriteName: cultout_21
       sprite: {fileID: 21300042, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_25
+      AtlasUsing: 0
+    - spriteName: cultout_25
       sprite: {fileID: 21300050, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_29
+      AtlasUsing: 0
+    - spriteName: cultout_29
       sprite: {fileID: 21300058, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_2
+    - spriteName: cultout_2
       sprite: {fileID: 21300004, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_6
+      AtlasUsing: 0
+    - spriteName: cultout_6
       sprite: {fileID: 21300012, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_10
+      AtlasUsing: 0
+    - spriteName: cultout_10
       sprite: {fileID: 21300020, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_14
+      AtlasUsing: 0
+    - spriteName: cultout_14
       sprite: {fileID: 21300028, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_18
+      AtlasUsing: 0
+    - spriteName: cultout_18
       sprite: {fileID: 21300036, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_22
+      AtlasUsing: 0
+    - spriteName: cultout_22
       sprite: {fileID: 21300044, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_26
+      AtlasUsing: 0
+    - spriteName: cultout_26
       sprite: {fileID: 21300052, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_30
+      AtlasUsing: 0
+    - spriteName: cultout_30
       sprite: {fileID: 21300060, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_3
+    - spriteName: cultout_3
       sprite: {fileID: 21300006, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_7
+      AtlasUsing: 0
+    - spriteName: cultout_7
       sprite: {fileID: 21300014, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_11
+      AtlasUsing: 0
+    - spriteName: cultout_11
       sprite: {fileID: 21300022, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_15
+      AtlasUsing: 0
+    - spriteName: cultout_15
       sprite: {fileID: 21300030, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_19
+      AtlasUsing: 0
+    - spriteName: cultout_19
       sprite: {fileID: 21300038, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_23
+      AtlasUsing: 0
+    - spriteName: cultout_23
       sprite: {fileID: 21300046, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_27
+      AtlasUsing: 0
+    - spriteName: cultout_27
       sprite: {fileID: 21300054, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultout_31
+      AtlasUsing: 0
+    - spriteName: cultout_31
       sprite: {fileID: 21300062, guid: 25b9fe5bf35cea14aac5f42d0b517b41, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1191

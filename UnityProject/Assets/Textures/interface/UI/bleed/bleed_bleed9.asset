@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: db031b827bbf1084b92a1bb54d81b4f0, type: 3}
+    - spriteName: bleed_bleed9
+      sprite: {fileID: 21300000, guid: db031b827bbf1084b92a1bb54d81b4f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3199

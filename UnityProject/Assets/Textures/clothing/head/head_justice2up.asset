@@ -14,88 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_0
+    - spriteName: justice2up_0
       sprite: {fileID: 21300000, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_4
+      AtlasUsing: 0
+    - spriteName: justice2up_4
       sprite: {fileID: 21300008, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_8
+      AtlasUsing: 0
+    - spriteName: justice2up_8
       sprite: {fileID: 21300016, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_12
+      AtlasUsing: 0
+    - spriteName: justice2up_12
       sprite: {fileID: 21300024, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_1
+    - spriteName: justice2up_1
       sprite: {fileID: 21300002, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_5
+      AtlasUsing: 0
+    - spriteName: justice2up_5
       sprite: {fileID: 21300010, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_9
+      AtlasUsing: 0
+    - spriteName: justice2up_9
       sprite: {fileID: 21300018, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_13
+      AtlasUsing: 0
+    - spriteName: justice2up_13
       sprite: {fileID: 21300026, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_2
+    - spriteName: justice2up_2
       sprite: {fileID: 21300004, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_6
+      AtlasUsing: 0
+    - spriteName: justice2up_6
       sprite: {fileID: 21300012, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_10
+      AtlasUsing: 0
+    - spriteName: justice2up_10
       sprite: {fileID: 21300020, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_14
+      AtlasUsing: 0
+    - spriteName: justice2up_14
       sprite: {fileID: 21300028, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_3
+    - spriteName: justice2up_3
       sprite: {fileID: 21300006, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_7
+      AtlasUsing: 0
+    - spriteName: justice2up_7
       sprite: {fileID: 21300014, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_11
+      AtlasUsing: 0
+    - spriteName: justice2up_11
       sprite: {fileID: 21300022, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: justice2up_15
+      AtlasUsing: 0
+    - spriteName: justice2up_15
       sprite: {fileID: 21300030, guid: 3386d48f2fc1de948bcb70af61b2b6ee, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 635

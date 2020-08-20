@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcentcom_0
+    - spriteName: sheetcentcom_0
       sprite: {fileID: 21300000, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcentcom_1
+    - spriteName: sheetcentcom_1
       sprite: {fileID: 21300002, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcentcom_2
+    - spriteName: sheetcentcom_2
       sprite: {fileID: 21300004, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcentcom_3
+    - spriteName: sheetcentcom_3
       sprite: {fileID: 21300006, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20657

@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: brown_0
+    - spriteName: brown_0
       sprite: {fileID: 21300000, guid: 623b78544a0b6154eb27544c1316f1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: brown_1
+    - spriteName: brown_1
       sprite: {fileID: 21300002, guid: 623b78544a0b6154eb27544c1316f1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: brown_2
+    - spriteName: brown_2
       sprite: {fileID: 21300004, guid: 623b78544a0b6154eb27544c1316f1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: brown_3
+    - spriteName: brown_3
       sprite: {fileID: 21300006, guid: 623b78544a0b6154eb27544c1316f1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: brown_4
+    - spriteName: brown_4
       sprite: {fileID: 21300008, guid: 623b78544a0b6154eb27544c1316f1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: brown_5
+    - spriteName: brown_5
       sprite: {fileID: 21300010, guid: 623b78544a0b6154eb27544c1316f1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: brown_6
+    - spriteName: brown_6
       sprite: {fileID: 21300012, guid: 623b78544a0b6154eb27544c1316f1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: brown_7
+    - spriteName: brown_7
       sprite: {fileID: 21300014, guid: 623b78544a0b6154eb27544c1316f1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2320

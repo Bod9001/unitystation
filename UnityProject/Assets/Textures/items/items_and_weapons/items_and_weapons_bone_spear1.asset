@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2c803321429ec7d43be081ba2a5851bf, type: 3}
+    - spriteName: items_and_weapons_bone_spear1
+      sprite: {fileID: 21300000, guid: 2c803321429ec7d43be081ba2a5851bf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7728

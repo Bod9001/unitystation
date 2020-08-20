@@ -14,132 +14,108 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_0
+    - spriteName: tailsweep_0
       sprite: {fileID: 21300000, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_8
+      AtlasUsing: 0
+    - spriteName: tailsweep_8
       sprite: {fileID: 21300016, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_16
+      AtlasUsing: 0
+    - spriteName: tailsweep_16
       sprite: {fileID: 21300032, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_1
+    - spriteName: tailsweep_1
       sprite: {fileID: 21300002, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_9
+      AtlasUsing: 0
+    - spriteName: tailsweep_9
       sprite: {fileID: 21300018, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_17
+      AtlasUsing: 0
+    - spriteName: tailsweep_17
       sprite: {fileID: 21300034, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_2
+    - spriteName: tailsweep_2
       sprite: {fileID: 21300004, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_10
+      AtlasUsing: 0
+    - spriteName: tailsweep_10
       sprite: {fileID: 21300020, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_18
+      AtlasUsing: 0
+    - spriteName: tailsweep_18
       sprite: {fileID: 21300036, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_3
+    - spriteName: tailsweep_3
       sprite: {fileID: 21300006, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_11
+      AtlasUsing: 0
+    - spriteName: tailsweep_11
       sprite: {fileID: 21300022, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_19
+      AtlasUsing: 0
+    - spriteName: tailsweep_19
       sprite: {fileID: 21300038, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_4
+    - spriteName: tailsweep_4
       sprite: {fileID: 21300008, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_12
+      AtlasUsing: 0
+    - spriteName: tailsweep_12
       sprite: {fileID: 21300024, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_20
+      AtlasUsing: 0
+    - spriteName: tailsweep_20
       sprite: {fileID: 21300040, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_5
+    - spriteName: tailsweep_5
       sprite: {fileID: 21300010, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_13
+      AtlasUsing: 0
+    - spriteName: tailsweep_13
       sprite: {fileID: 21300026, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_21
+      AtlasUsing: 0
+    - spriteName: tailsweep_21
       sprite: {fileID: 21300042, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_6
+    - spriteName: tailsweep_6
       sprite: {fileID: 21300012, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_14
+      AtlasUsing: 0
+    - spriteName: tailsweep_14
       sprite: {fileID: 21300028, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_22
+      AtlasUsing: 0
+    - spriteName: tailsweep_22
       sprite: {fileID: 21300044, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_7
+    - spriteName: tailsweep_7
       sprite: {fileID: 21300014, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_15
+      AtlasUsing: 0
+    - spriteName: tailsweep_15
       sprite: {fileID: 21300030, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_23
+      AtlasUsing: 0
+    - spriteName: tailsweep_23
       sprite: {fileID: 21300046, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1136

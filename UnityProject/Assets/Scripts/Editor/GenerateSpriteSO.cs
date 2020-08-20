@@ -218,38 +218,28 @@ public class GenerateSpriteSO : EditorWindow
 		//
 		AssetDatabase.StartAssetEditing();
 
+		//var At = FindAssetsByType<AtlasReference>().First();
+		//At.
+
+
 		var settings = AddressableAssetSettingsDefaultObject.Settings;
 		var group = settings.DefaultGroup;
+		var call = AssetDatabase.LoadAssetAtPath<AtlasReference>("Assets/SpriteTest/AtlasReferences.asset");
 		var entriesAdded = new List<AddressableAssetEntry>();
 		var Sprites = FindAssetsByType<SpriteDataSO>();
 		foreach (var Sprite in Sprites)
 		{
-			//var call = AssetDatabase.LoadAssetAtPath<SpriteDataSO>("Assets/Textures/mobs/species/Carp/regular/New folder/regular_carp.asset");
-
-
-
-			//var entry = settings.CreateOrMoveEntry(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Sprite)),
-			//	group, readOnly: false, postEvent: false);
-			//var paths = AssetDatabase.GetAssetPath(Sprite);
-			//entry.address = paths;
-			//entry.labels.Add("MyLabel");
-
-			//entriesAdded.Add(entry);
+			if (Sprite == null) continue;
 			foreach (var Varianc in Sprite.Variance)
 			{
 				foreach (var Frame in Varianc.Frames)
 				{
-					var path = AssetDatabase.GetAssetPath(Frame.sprite);
-					foreach (var Atlas in AtlasTable)
+					if (Frame != null)
 					{
-						foreach (var Folder in Atlas.Value)
+						if (Frame.sprite == null == false)
 						{
-							if (path.Contains(Folder))
-							{
-								var AtlasReference = getAtlasReference(Atlas.Key);
-								Frame.singleSpriteReference.SetEditorAsset(AtlasReference.Atlas.editorAsset);
-								Frame.singleSpriteReference.SetEditorSubObject(Frame.sprite);
-							}
+							Frame.spriteName = Frame.sprite.name;
+							Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
 						}
 					}
 				}
@@ -264,6 +254,14 @@ public class GenerateSpriteSO : EditorWindow
 		return;
 		var pathe = Application.dataPath + "/Resources/Prefabs";
 		var aDDll = LoadAllPrefabsOfType<SpriteHandler>(pathe);
+
+		//var entry = settings.CreateOrMoveEntry(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Sprite)),
+		//	group, readOnly: false, postEvent: false);
+		//var paths = AssetDatabase.GetAssetPath(Sprite);
+		//entry.address = paths;
+		//entry.labels.Add("MyLabel");
+
+		//entriesAdded.Add(entry);
 		foreach (var SH in aDDll)
 		{
 			//foreach (var Sprite in SH.Sprites)

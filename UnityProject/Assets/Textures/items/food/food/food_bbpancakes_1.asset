@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3cd81f27492921c4393dfb962a946584, type: 3}
+    - spriteName: food_bbpancakes_1
+      sprite: {fileID: 21300000, guid: 3cd81f27492921c4393dfb962a946584, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6863

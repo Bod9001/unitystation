@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: alienhelmet_0
+    - spriteName: alienhelmet_0
       sprite: {fileID: 21300000, guid: d87cf01ba85d3b544be4ea67348746a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: alienhelmet_1
+    - spriteName: alienhelmet_1
       sprite: {fileID: 21300002, guid: d87cf01ba85d3b544be4ea67348746a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: alienhelmet_2
+    - spriteName: alienhelmet_2
       sprite: {fileID: 21300004, guid: d87cf01ba85d3b544be4ea67348746a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: alienhelmet_3
+    - spriteName: alienhelmet_3
       sprite: {fileID: 21300006, guid: d87cf01ba85d3b544be4ea67348746a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 538

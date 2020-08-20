@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 779ddde1e7f9967429ccdb15a5b66406, type: 3}
+    - spriteName: belts_ebelt
+      sprite: {fileID: 21300000, guid: 779ddde1e7f9967429ccdb15a5b66406, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5606

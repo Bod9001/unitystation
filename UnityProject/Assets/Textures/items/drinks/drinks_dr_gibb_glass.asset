@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9a1b14cbd2d66f142aa96d0aad6e77c0, type: 3}
+    - spriteName: drinks_dr_gibb_glass
+      sprite: {fileID: 21300000, guid: 9a1b14cbd2d66f142aa96d0aad6e77c0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6474

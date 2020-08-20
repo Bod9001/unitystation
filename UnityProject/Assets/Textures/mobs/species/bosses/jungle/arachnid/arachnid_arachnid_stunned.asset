@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 88aa3d3176cf8554096d913a50d2e0a7, type: 3}
+    - spriteName: arachnid_arachnid_stunned
+      sprite: {fileID: 21300000, guid: 88aa3d3176cf8554096d913a50d2e0a7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11997

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d94cab28c019ec242881222c82b0f721, type: 3}
+    - spriteName: electronic_components_deconstr
+      sprite: {fileID: 21300000, guid: d94cab28c019ec242881222c82b0f721, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4781

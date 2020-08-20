@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: be44a135432b2854d9e07bd4fe753598, type: 3}
+    - spriteName: crayons_spraycan_cap_colors
+      sprite: {fileID: 21300000, guid: be44a135432b2854d9e07bd4fe753598, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6143

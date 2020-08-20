@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jetboots_0
+    - spriteName: jetboots_0
       sprite: {fileID: 21300000, guid: 6e7c1301e93e3b54fb8953b2a63b8d19, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jetboots_1
+    - spriteName: jetboots_1
       sprite: {fileID: 21300002, guid: 6e7c1301e93e3b54fb8953b2a63b8d19, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jetboots_2
+    - spriteName: jetboots_2
       sprite: {fileID: 21300004, guid: 6e7c1301e93e3b54fb8953b2a63b8d19, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jetboots_3
+    - spriteName: jetboots_3
       sprite: {fileID: 21300006, guid: 6e7c1301e93e3b54fb8953b2a63b8d19, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 829

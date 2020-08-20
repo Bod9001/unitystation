@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bishoprobe_0
+    - spriteName: bishoprobe_0
       sprite: {fileID: 21300000, guid: 656409ee9051b184f9089a8574703aad, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bishoprobe_1
+    - spriteName: bishoprobe_1
       sprite: {fileID: 21300002, guid: 656409ee9051b184f9089a8574703aad, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bishoprobe_2
+    - spriteName: bishoprobe_2
       sprite: {fileID: 21300004, guid: 656409ee9051b184f9089a8574703aad, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bishoprobe_3
+    - spriteName: bishoprobe_3
       sprite: {fileID: 21300006, guid: 656409ee9051b184f9089a8574703aad, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20827

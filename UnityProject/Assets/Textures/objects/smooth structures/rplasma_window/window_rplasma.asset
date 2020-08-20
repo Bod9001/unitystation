@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -6275341413842982110, guid: 431474e2c0fbfab46b84ea0bb4b9dec3,
+    - spriteName: window_rplasma_0
+      sprite: {fileID: -6275341413842982110, guid: 431474e2c0fbfab46b84ea0bb4b9dec3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16979

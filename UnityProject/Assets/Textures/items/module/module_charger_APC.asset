@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f257460fb919e1f42a70446f6ec45656, type: 3}
+    - spriteName: module_charger_APC
+      sprite: {fileID: 21300000, guid: f257460fb919e1f42a70446f6ec45656, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8373

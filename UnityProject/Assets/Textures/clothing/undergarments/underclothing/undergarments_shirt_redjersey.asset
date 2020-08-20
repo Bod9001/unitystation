@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: shirt_redjersey_0
+    - spriteName: shirt_redjersey_0
       sprite: {fileID: 21300000, guid: 407eb6b0020b8934e8131fb1a404aab8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: shirt_redjersey_1
+    - spriteName: shirt_redjersey_1
       sprite: {fileID: 21300002, guid: 407eb6b0020b8934e8131fb1a404aab8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: shirt_redjersey_2
+    - spriteName: shirt_redjersey_2
       sprite: {fileID: 21300004, guid: 407eb6b0020b8934e8131fb1a404aab8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: shirt_redjersey_3
+    - spriteName: shirt_redjersey_3
       sprite: {fileID: 21300006, guid: 407eb6b0020b8934e8131fb1a404aab8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21308

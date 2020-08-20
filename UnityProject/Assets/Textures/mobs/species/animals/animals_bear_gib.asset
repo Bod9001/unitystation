@@ -14,35 +14,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+    - spriteName: bear_gib_0
+      sprite: {fileID: 21300000, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_1
+      sprite: {fileID: 21300002, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_2
+      sprite: {fileID: 21300004, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_3
+      sprite: {fileID: 21300006, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_4
+      sprite: {fileID: 21300008, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_5
+      sprite: {fileID: 21300010, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_6
+      sprite: {fileID: 21300012, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_7
+      sprite: {fileID: 21300014, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_8
+      sprite: {fileID: 21300016, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_9
+      sprite: {fileID: 21300018, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_10
+      sprite: {fileID: 21300020, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_11
+      sprite: {fileID: 21300022, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_12
+      sprite: {fileID: 21300024, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_13
+      sprite: {fileID: 21300026, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: f1b98062da4579146acdc40ce361f166, type: 3}
+      AtlasUsing: 0
+    - spriteName: bear_gib_14
+      sprite: {fileID: 21300028, guid: f1b98062da4579146acdc40ce361f166, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11804

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: buckler_0
+    - spriteName: buckler_0
       sprite: {fileID: 21300000, guid: e5095ae57b54b5046bae8aa089f0508f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: buckler_1
+    - spriteName: buckler_1
       sprite: {fileID: 21300002, guid: e5095ae57b54b5046bae8aa089f0508f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: buckler_2
+    - spriteName: buckler_2
       sprite: {fileID: 21300004, guid: e5095ae57b54b5046bae8aa089f0508f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: buckler_3
+    - spriteName: buckler_3
       sprite: {fileID: 21300006, guid: e5095ae57b54b5046bae8aa089f0508f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 264

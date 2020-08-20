@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: taqiyahwhite_0
+    - spriteName: taqiyahwhite_0
       sprite: {fileID: 21300000, guid: 3646057bbefca5c4f9d8e0223e20224e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: taqiyahwhite_1
+    - spriteName: taqiyahwhite_1
       sprite: {fileID: 21300002, guid: 3646057bbefca5c4f9d8e0223e20224e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: taqiyahwhite_2
+    - spriteName: taqiyahwhite_2
       sprite: {fileID: 21300004, guid: 3646057bbefca5c4f9d8e0223e20224e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: taqiyahwhite_3
+    - spriteName: taqiyahwhite_3
       sprite: {fileID: 21300006, guid: 3646057bbefca5c4f9d8e0223e20224e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20513

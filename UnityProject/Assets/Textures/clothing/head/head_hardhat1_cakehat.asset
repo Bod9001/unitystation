@@ -14,68 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_0
+    - spriteName: hardhat1_cakehat_0
       sprite: {fileID: 21300000, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_4
+      AtlasUsing: 0
+    - spriteName: hardhat1_cakehat_4
       sprite: {fileID: 21300008, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_8
+      AtlasUsing: 0
+    - spriteName: hardhat1_cakehat_8
       sprite: {fileID: 21300016, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_1
+    - spriteName: hardhat1_cakehat_1
       sprite: {fileID: 21300002, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_5
+      AtlasUsing: 0
+    - spriteName: hardhat1_cakehat_5
       sprite: {fileID: 21300010, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_9
+      AtlasUsing: 0
+    - spriteName: hardhat1_cakehat_9
       sprite: {fileID: 21300018, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_2
+    - spriteName: hardhat1_cakehat_2
       sprite: {fileID: 21300004, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_6
+      AtlasUsing: 0
+    - spriteName: hardhat1_cakehat_6
       sprite: {fileID: 21300012, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_10
+      AtlasUsing: 0
+    - spriteName: hardhat1_cakehat_10
       sprite: {fileID: 21300020, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_3
+    - spriteName: hardhat1_cakehat_3
       sprite: {fileID: 21300006, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_7
+      AtlasUsing: 0
+    - spriteName: hardhat1_cakehat_7
       sprite: {fileID: 21300014, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat1_cakehat_11
+      AtlasUsing: 0
+    - spriteName: hardhat1_cakehat_11
       sprite: {fileID: 21300022, guid: 31400f1988bee6340aec56dda5335632, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 608

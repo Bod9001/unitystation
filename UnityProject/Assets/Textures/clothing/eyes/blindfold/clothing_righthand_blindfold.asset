@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blindfold_0
+    - spriteName: blindfold_0
       sprite: {fileID: 21300000, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blindfold_1
+    - spriteName: blindfold_1
       sprite: {fileID: 21300002, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blindfold_2
+    - spriteName: blindfold_2
       sprite: {fileID: 21300004, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blindfold_3
+    - spriteName: blindfold_3
       sprite: {fileID: 21300006, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19942

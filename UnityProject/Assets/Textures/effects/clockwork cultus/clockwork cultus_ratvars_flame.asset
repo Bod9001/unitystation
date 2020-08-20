@@ -14,15 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvars_flame_0
+    - spriteName: ratvars_flame_0
       sprite: {fileID: 21300000, guid: 30eb4a8a74c541f41865c85a0109535b, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvars_flame_1
+      AtlasUsing: 0
+    - spriteName: ratvars_flame_1
       sprite: {fileID: 21300002, guid: 30eb4a8a74c541f41865c85a0109535b, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1248

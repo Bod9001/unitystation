@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: mime_envirohelm-light_0
+    - spriteName: mime_envirohelm-light_0
       sprite: {fileID: -745750680278304622, guid: 0f8620af6a3f2cb4baad4d3bc85bb0dc,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: mime_envirohelm-light_1
+    - spriteName: mime_envirohelm-light_1
       sprite: {fileID: 8924446413492530109, guid: 0f8620af6a3f2cb4baad4d3bc85bb0dc,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: mime_envirohelm-light_2
+    - spriteName: mime_envirohelm-light_2
       sprite: {fileID: -3108889765840151070, guid: 0f8620af6a3f2cb4baad4d3bc85bb0dc,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: mime_envirohelm-light_3
+    - spriteName: mime_envirohelm-light_3
       sprite: {fileID: 7091309387167509218, guid: 0f8620af6a3f2cb4baad4d3bc85bb0dc,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23048

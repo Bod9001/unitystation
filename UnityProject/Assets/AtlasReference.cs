@@ -1,11 +1,27 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using ScriptableObjects;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.U2D;
 
 [CreateAssetMenu(fileName = "AtlasReference", menuName = "ScriptableObjects/AtlasReference")]
-public class AtlasReference : ScriptableObject
+public class AtlasReference : SingletonScriptableObject<AtlasReference>
 {
-	public UnityEngine.AddressableAssets.AssetReference Atlas;
+	public DictionaryAtlasSpriteAtlas Atlases = new DictionaryAtlasSpriteAtlas();
+
+	[Serializable]
+	public class DictionaryAtlasSpriteAtlas : SerializableDictionary<AddressableSpritesHandler.Atlas, SpriteAtlas>
+	{
+		public DictionaryAtlasSpriteAtlas()
+		{
+		}
+
+		public DictionaryAtlasSpriteAtlas(IDictionary<AddressableSpritesHandler.Atlas, SpriteAtlas> dict) : base(dict)
+		{
+		}
+	}
+
 }

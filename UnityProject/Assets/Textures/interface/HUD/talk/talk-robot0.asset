@@ -14,17 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 1725984033310001232, guid: 88419a9a76ef1a249b5a445f4a997ed7,
+    - spriteName: talk_robot0_0
+      sprite: {fileID: 1725984033310001232, guid: 88419a9a76ef1a249b5a445f4a997ed7,
         type: 3}
       secondDelay: 0.4
-    - sprite: {fileID: -28570300322905347, guid: 88419a9a76ef1a249b5a445f4a997ed7,
+      AtlasUsing: 0
+    - spriteName: talk_robot0_1
+      sprite: {fileID: -28570300322905347, guid: 88419a9a76ef1a249b5a445f4a997ed7,
         type: 3}
       secondDelay: 0.4
-    - sprite: {fileID: -3064312099907747030, guid: 88419a9a76ef1a249b5a445f4a997ed7,
+      AtlasUsing: 0
+    - spriteName: talk_robot0_2
+      sprite: {fileID: -3064312099907747030, guid: 88419a9a76ef1a249b5a445f4a997ed7,
         type: 3}
       secondDelay: 0.4
-    - sprite: {fileID: 1816048676911172279, guid: 88419a9a76ef1a249b5a445f4a997ed7,
+      AtlasUsing: 0
+    - spriteName: talk_robot0_3
+      sprite: {fileID: 1816048676911172279, guid: 88419a9a76ef1a249b5a445f4a997ed7,
         type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2919

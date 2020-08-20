@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: cf4f404dd42e5d3468d9de794f7b8daf, type: 3}
+    - spriteName: doortimer2_0
+      sprite: {fileID: 21300000, guid: cf4f404dd42e5d3468d9de794f7b8daf, type: 3}
       secondDelay: 0.4
-    - sprite: {fileID: 21300002, guid: cf4f404dd42e5d3468d9de794f7b8daf, type: 3}
+      AtlasUsing: 0
+    - spriteName: doortimer2_1
+      sprite: {fileID: 21300002, guid: cf4f404dd42e5d3468d9de794f7b8daf, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17030

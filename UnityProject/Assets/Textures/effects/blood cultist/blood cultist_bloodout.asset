@@ -14,65 +14,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_0
+    - spriteName: bloodout_0
       sprite: {fileID: 21300000, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_1
+      AtlasUsing: 0
+    - spriteName: bloodout_1
       sprite: {fileID: 21300002, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_2
+      AtlasUsing: 0
+    - spriteName: bloodout_2
       sprite: {fileID: 21300004, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_3
+      AtlasUsing: 0
+    - spriteName: bloodout_3
       sprite: {fileID: 21300006, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_4
+      AtlasUsing: 0
+    - spriteName: bloodout_4
       sprite: {fileID: 21300008, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_5
+      AtlasUsing: 0
+    - spriteName: bloodout_5
       sprite: {fileID: 21300010, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_6
+      AtlasUsing: 0
+    - spriteName: bloodout_6
       sprite: {fileID: 21300012, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_7
+      AtlasUsing: 0
+    - spriteName: bloodout_7
       sprite: {fileID: 21300014, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_8
+      AtlasUsing: 0
+    - spriteName: bloodout_8
       sprite: {fileID: 21300016, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_9
+      AtlasUsing: 0
+    - spriteName: bloodout_9
       sprite: {fileID: 21300018, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_10
+      AtlasUsing: 0
+    - spriteName: bloodout_10
       sprite: {fileID: 21300020, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bloodout_11
+      AtlasUsing: 0
+    - spriteName: bloodout_11
       sprite: {fileID: 21300022, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1188

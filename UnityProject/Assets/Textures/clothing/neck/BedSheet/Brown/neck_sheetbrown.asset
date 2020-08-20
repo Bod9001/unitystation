@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetbrown_0
+    - spriteName: sheetbrown_0
       sprite: {fileID: 21300000, guid: 7963fd19914a9c440bddc13c932d5ed5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetbrown_1
+    - spriteName: sheetbrown_1
       sprite: {fileID: 21300002, guid: 7963fd19914a9c440bddc13c932d5ed5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetbrown_2
+    - spriteName: sheetbrown_2
       sprite: {fileID: 21300004, guid: 7963fd19914a9c440bddc13c932d5ed5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetbrown_3
+    - spriteName: sheetbrown_3
       sprite: {fileID: 21300006, guid: 7963fd19914a9c440bddc13c932d5ed5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20651

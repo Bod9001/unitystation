@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e4442b3cf66dc754d86cacafc45f7378, type: 3}
+    - spriteName: electronic_setups_setup_medium_radio-open
+      sprite: {fileID: 21300000, guid: e4442b3cf66dc754d86cacafc45f7378, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5001

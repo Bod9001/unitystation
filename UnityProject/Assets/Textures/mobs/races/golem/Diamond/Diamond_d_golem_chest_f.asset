@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8a6ff4f282473dd4ea205dede9d8b1e7, type: 3}
+    - spriteName: d_golem_chest_f_0
+      sprite: {fileID: 21300000, guid: 8a6ff4f282473dd4ea205dede9d8b1e7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 8a6ff4f282473dd4ea205dede9d8b1e7, type: 3}
+    - spriteName: d_golem_chest_f_1
+      sprite: {fileID: 21300002, guid: 8a6ff4f282473dd4ea205dede9d8b1e7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 8a6ff4f282473dd4ea205dede9d8b1e7, type: 3}
+    - spriteName: d_golem_chest_f_2
+      sprite: {fileID: 21300004, guid: 8a6ff4f282473dd4ea205dede9d8b1e7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 8a6ff4f282473dd4ea205dede9d8b1e7, type: 3}
+    - spriteName: d_golem_chest_f_3
+      sprite: {fileID: 21300006, guid: 8a6ff4f282473dd4ea205dede9d8b1e7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11121

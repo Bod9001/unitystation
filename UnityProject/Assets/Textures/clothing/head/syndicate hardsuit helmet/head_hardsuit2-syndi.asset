@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit2-syndi_0
+    - spriteName: hardsuit2-syndi_0
       sprite: {fileID: 4864903719102676445, guid: 15ea7375e12069e458739ab6d1ccdd94,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit2-syndi_1
+    - spriteName: hardsuit2-syndi_1
       sprite: {fileID: 1045749214347294165, guid: 15ea7375e12069e458739ab6d1ccdd94,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit2-syndi_2
+    - spriteName: hardsuit2-syndi_2
       sprite: {fileID: 8124981761419906832, guid: 15ea7375e12069e458739ab6d1ccdd94,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit2-syndi_3
+    - spriteName: hardsuit2-syndi_3
       sprite: {fileID: 252599781254079571, guid: 15ea7375e12069e458739ab6d1ccdd94,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22960

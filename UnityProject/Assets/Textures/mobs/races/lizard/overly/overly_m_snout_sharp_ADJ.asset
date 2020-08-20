@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b7f2e084983cab446a8f18ea26ada88e, type: 3}
+    - spriteName: m_snout_sharp_ADJ_0
+      sprite: {fileID: 21300000, guid: b7f2e084983cab446a8f18ea26ada88e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: b7f2e084983cab446a8f18ea26ada88e, type: 3}
+    - spriteName: m_snout_sharp_ADJ_1
+      sprite: {fileID: 21300002, guid: b7f2e084983cab446a8f18ea26ada88e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: b7f2e084983cab446a8f18ea26ada88e, type: 3}
+    - spriteName: m_snout_sharp_ADJ_2
+      sprite: {fileID: 21300004, guid: b7f2e084983cab446a8f18ea26ada88e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: b7f2e084983cab446a8f18ea26ada88e, type: 3}
+    - spriteName: m_snout_sharp_ADJ_3
+      sprite: {fileID: 21300006, guid: b7f2e084983cab446a8f18ea26ada88e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11209

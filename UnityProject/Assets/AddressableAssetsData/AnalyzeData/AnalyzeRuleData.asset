@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RuleToResults:
   - RuleName: Check Duplicate Bundle Dependencies
-    Results: []
+    Results:
+    - m_ResultName: Check Duplicate Bundle DependenciesAnalyze build failed. Exception
+      m_Severity: 0
   - RuleName: Check Resources to Addressable Duplicate Dependencies
     Results: []
   - RuleName: Check Scene to Addressable Duplicate Dependencies

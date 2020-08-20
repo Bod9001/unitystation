@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: horribletie_0
+    - spriteName: horribletie_0
       sprite: {fileID: 21300000, guid: de951dabc4a673a418844872c7eb54ce, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: horribletie_1
+    - spriteName: horribletie_1
       sprite: {fileID: 21300002, guid: de951dabc4a673a418844872c7eb54ce, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: horribletie_2
+    - spriteName: horribletie_2
       sprite: {fileID: 21300004, guid: de951dabc4a673a418844872c7eb54ce, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: horribletie_3
+    - spriteName: horribletie_3
       sprite: {fileID: 21300006, guid: de951dabc4a673a418844872c7eb54ce, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20738

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fannypack_yellow_0
+    - spriteName: fannypack_yellow_0
       sprite: {fileID: 21300000, guid: 90d9969e645bb424ab9f9d6164a21105, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fannypack_yellow_1
+    - spriteName: fannypack_yellow_1
       sprite: {fileID: 21300002, guid: 90d9969e645bb424ab9f9d6164a21105, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fannypack_yellow_2
+    - spriteName: fannypack_yellow_2
       sprite: {fileID: 21300004, guid: 90d9969e645bb424ab9f9d6164a21105, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fannypack_yellow_3
+    - spriteName: fannypack_yellow_3
       sprite: {fileID: 21300006, guid: 90d9969e645bb424ab9f9d6164a21105, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19881

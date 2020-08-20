@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a31ddf44846e1ae41b0215d2017b13b1, type: 3}
+    - spriteName: overlay_creampie_ai
+      sprite: {fileID: 21300000, guid: a31ddf44846e1ae41b0215d2017b13b1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11431

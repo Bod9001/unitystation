@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0d285a72c5a14ce49aae0dcc9fc2b8af, type: 3}
+    - spriteName: construction dark_darkgygax3
+      sprite: {fileID: 21300000, guid: 0d285a72c5a14ce49aae0dcc9fc2b8af, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 18878

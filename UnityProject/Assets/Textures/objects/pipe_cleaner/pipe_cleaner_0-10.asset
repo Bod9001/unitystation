@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 13b1b261229567a4da9734a761a61be5, type: 3}
+    - spriteName: pipe_cleaner_0-10
+      sprite: {fileID: 21300000, guid: 13b1b261229567a4da9734a761a61be5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16419

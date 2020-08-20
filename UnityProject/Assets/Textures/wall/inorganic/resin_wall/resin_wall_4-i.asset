@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 053a9c4730d77064d8d53c451238e0a4, type: 3}
+    - spriteName: resin_wall_4-i
+      sprite: {fileID: 21300000, guid: 053a9c4730d77064d8d53c451238e0a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19460

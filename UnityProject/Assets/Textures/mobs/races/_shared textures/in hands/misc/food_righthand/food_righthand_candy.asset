@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b0120c0aaa1c1674f847887fa9de479d, type: 3}
+    - spriteName: candy_0
+      sprite: {fileID: 21300000, guid: b0120c0aaa1c1674f847887fa9de479d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: b0120c0aaa1c1674f847887fa9de479d, type: 3}
+    - spriteName: candy_1
+      sprite: {fileID: 21300002, guid: b0120c0aaa1c1674f847887fa9de479d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: b0120c0aaa1c1674f847887fa9de479d, type: 3}
+    - spriteName: candy_2
+      sprite: {fileID: 21300004, guid: b0120c0aaa1c1674f847887fa9de479d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: b0120c0aaa1c1674f847887fa9de479d, type: 3}
+    - spriteName: candy_3
+      sprite: {fileID: 21300006, guid: b0120c0aaa1c1674f847887fa9de479d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10443

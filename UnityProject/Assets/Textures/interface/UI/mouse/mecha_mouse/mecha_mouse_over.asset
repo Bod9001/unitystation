@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f26a06d6c2ae8bd46b3af5e3e0bac618, type: 3}
+    - spriteName: mecha_mouse_over
+      sprite: {fileID: 21300000, guid: f26a06d6c2ae8bd46b3af5e3e0bac618, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3229

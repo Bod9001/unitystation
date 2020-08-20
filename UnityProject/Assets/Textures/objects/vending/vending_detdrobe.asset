@@ -14,17 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -7186647468132015367, guid: b0e724f2c716c4d48a0060158d97a58b,
+    - spriteName: detdrobe_0
+      sprite: {fileID: -7186647468132015367, guid: b0e724f2c716c4d48a0060158d97a58b,
         type: 3}
       secondDelay: 1
-    - sprite: {fileID: -6306220791294966642, guid: b0e724f2c716c4d48a0060158d97a58b,
+      AtlasUsing: 0
+    - spriteName: detdrobe_1
+      sprite: {fileID: -6306220791294966642, guid: b0e724f2c716c4d48a0060158d97a58b,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -6082626668263232754, guid: b0e724f2c716c4d48a0060158d97a58b,
+      AtlasUsing: 0
+    - spriteName: detdrobe_2
+      sprite: {fileID: -6082626668263232754, guid: b0e724f2c716c4d48a0060158d97a58b,
         type: 3}
       secondDelay: 1
-    - sprite: {fileID: 4024101216503610453, guid: b0e724f2c716c4d48a0060158d97a58b,
+      AtlasUsing: 0
+    - spriteName: detdrobe_3
+      sprite: {fileID: 4024101216503610453, guid: b0e724f2c716c4d48a0060158d97a58b,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17738

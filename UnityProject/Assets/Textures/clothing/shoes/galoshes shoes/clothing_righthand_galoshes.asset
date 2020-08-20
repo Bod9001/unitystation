@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: galoshes_0
+    - spriteName: galoshes_0
       sprite: {fileID: 21300000, guid: e41c64f33cb777946bb0062a859ec05c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: galoshes_1
+    - spriteName: galoshes_1
       sprite: {fileID: 21300002, guid: e41c64f33cb777946bb0062a859ec05c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: galoshes_2
+    - spriteName: galoshes_2
       sprite: {fileID: 21300004, guid: e41c64f33cb777946bb0062a859ec05c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: galoshes_3
+    - spriteName: galoshes_3
       sprite: {fileID: 21300006, guid: e41c64f33cb777946bb0062a859ec05c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20751

@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: uniforms_clown
+    - spriteName: uniforms_clown
       sprite: {fileID: 21300000, guid: abc6ec23d6bf16646866d3e7a4afdc47, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21483

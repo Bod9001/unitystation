@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -2500417918074283638, guid: 035a854935aeef5439ffc7a375ff8111,
+    - spriteName: clown posse_pie_spewer_0
+      sprite: {fileID: -2500417918074283638, guid: 035a854935aeef5439ffc7a375ff8111,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 3193316665427593338, guid: 035a854935aeef5439ffc7a375ff8111,
+    - spriteName: clown posse_pie_spewer_1
+      sprite: {fileID: 3193316665427593338, guid: 035a854935aeef5439ffc7a375ff8111,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 9015662488541821746, guid: 035a854935aeef5439ffc7a375ff8111,
+    - spriteName: clown posse_pie_spewer_2
+      sprite: {fileID: 9015662488541821746, guid: 035a854935aeef5439ffc7a375ff8111,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -8418536754173190743, guid: 035a854935aeef5439ffc7a375ff8111,
+    - spriteName: clown posse_pie_spewer_3
+      sprite: {fileID: -8418536754173190743, guid: 035a854935aeef5439ffc7a375ff8111,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12194

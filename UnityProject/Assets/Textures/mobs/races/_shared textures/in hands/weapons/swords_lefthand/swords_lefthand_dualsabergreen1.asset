@@ -14,24 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
+    - spriteName: dualsabergreen1_0
+      sprite: {fileID: 21300000, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
+      AtlasUsing: 0
+    - spriteName: dualsabergreen1_4
+      sprite: {fileID: 21300008, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
+    - spriteName: dualsabergreen1_1
+      sprite: {fileID: 21300002, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300010, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
+      AtlasUsing: 0
+    - spriteName: dualsabergreen1_5
+      sprite: {fileID: 21300010, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
+    - spriteName: dualsabergreen1_2
+      sprite: {fileID: 21300004, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300012, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
+      AtlasUsing: 0
+    - spriteName: dualsabergreen1_6
+      sprite: {fileID: 21300012, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
+    - spriteName: dualsabergreen1_3
+      sprite: {fileID: 21300006, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300014, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
+      AtlasUsing: 0
+    - spriteName: dualsabergreen1_7
+      sprite: {fileID: 21300014, guid: 9d62d3967a017b4488b325108c2a5483, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10910

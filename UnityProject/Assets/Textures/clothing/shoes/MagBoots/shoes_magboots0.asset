@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: magboots0_0
+    - spriteName: magboots0_0
       sprite: {fileID: 21300000, guid: 0d2b5bd2fc09a37458c8526fc38d3a81, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: magboots0_1
+    - spriteName: magboots0_1
       sprite: {fileID: 21300002, guid: 0d2b5bd2fc09a37458c8526fc38d3a81, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: magboots0_2
+    - spriteName: magboots0_2
       sprite: {fileID: 21300004, guid: 0d2b5bd2fc09a37458c8526fc38d3a81, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: magboots0_3
+    - spriteName: magboots0_3
       sprite: {fileID: 21300006, guid: 0d2b5bd2fc09a37458c8526fc38d3a81, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20770

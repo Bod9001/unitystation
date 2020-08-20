@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 4435252986371116698, guid: 889949eb9d47ffa4cbe8ca2bd90be83e,
+    - spriteName: crates_freezer_0
+      sprite: {fileID: 4435252986371116698, guid: 889949eb9d47ffa4cbe8ca2bd90be83e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13596

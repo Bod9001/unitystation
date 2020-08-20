@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 07c0527667e7a0c44902732a80c16bc6, type: 3}
+    - spriteName: toy_sc_Ace_of_Hearts_syndicate
+      sprite: {fileID: 21300000, guid: 07c0527667e7a0c44902732a80c16bc6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9468

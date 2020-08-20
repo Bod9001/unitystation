@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 731a63c52b3a2474ca8f5760961b4455, type: 3}
+    - spriteName: food_rottenmeat
+      sprite: {fileID: 21300000, guid: 731a63c52b3a2474ca8f5760961b4455, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6999

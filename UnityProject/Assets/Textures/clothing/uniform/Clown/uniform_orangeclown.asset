@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: orangeclown_0
+    - spriteName: orangeclown_0
       sprite: {fileID: 21300000, guid: 210ec685708415a43b51f9876fd590dc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: orangeclown_1
+    - spriteName: orangeclown_1
       sprite: {fileID: 21300002, guid: 210ec685708415a43b51f9876fd590dc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: orangeclown_2
+    - spriteName: orangeclown_2
       sprite: {fileID: 21300004, guid: 210ec685708415a43b51f9876fd590dc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: orangeclown_3
+    - spriteName: orangeclown_3
       sprite: {fileID: 21300006, guid: 210ec685708415a43b51f9876fd590dc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21478

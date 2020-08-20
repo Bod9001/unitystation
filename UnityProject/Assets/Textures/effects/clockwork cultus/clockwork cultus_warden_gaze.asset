@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: clockwork cultus_warden_gaze
+    - spriteName: clockwork cultus_warden_gaze
       sprite: {fileID: 21300000, guid: 5ed88e71cea0a4a489470e8e0cb3ff9c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1259

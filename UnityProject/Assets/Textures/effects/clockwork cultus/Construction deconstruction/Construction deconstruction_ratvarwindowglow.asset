@@ -14,60 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_0
+    - spriteName: ratvarwindowglow_0
       sprite: {fileID: 21300000, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.25
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_1
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_1
       sprite: {fileID: 21300002, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_2
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_2
       sprite: {fileID: 21300004, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_3
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_3
       sprite: {fileID: 21300006, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_4
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_4
       sprite: {fileID: 21300008, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_5
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_5
       sprite: {fileID: 21300010, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_6
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_6
       sprite: {fileID: 21300012, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_7
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_7
       sprite: {fileID: 21300014, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_8
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_8
       sprite: {fileID: 21300016, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_9
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_9
       sprite: {fileID: 21300018, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: ratvarwindowglow_10
+      AtlasUsing: 0
+    - spriteName: ratvarwindowglow_10
       sprite: {fileID: 21300020, guid: 48a82d14a9e0a964b830a71bedb98dfd, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1267

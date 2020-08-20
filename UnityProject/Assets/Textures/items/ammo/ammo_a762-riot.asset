@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6e54f079a68ca214eab125c8ea76c7af, type: 3}
+    - spriteName: ammo_a762-riot
+      sprite: {fileID: 21300000, guid: 6e54f079a68ca214eab125c8ea76c7af, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4540

@@ -14,32 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+    - spriteName: r_secure_windoor_assembly02_0
+      sprite: {fileID: 21300000, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300008, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+      AtlasUsing: 0
+    - spriteName: r_secure_windoor_assembly02_4
+      sprite: {fileID: 21300008, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300016, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+      AtlasUsing: 0
+    - spriteName: r_secure_windoor_assembly02_8
+      sprite: {fileID: 21300016, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+    - spriteName: r_secure_windoor_assembly02_1
+      sprite: {fileID: 21300002, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300010, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+      AtlasUsing: 0
+    - spriteName: r_secure_windoor_assembly02_5
+      sprite: {fileID: 21300010, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300018, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+      AtlasUsing: 0
+    - spriteName: r_secure_windoor_assembly02_9
+      sprite: {fileID: 21300018, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+    - spriteName: r_secure_windoor_assembly02_2
+      sprite: {fileID: 21300004, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300012, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+      AtlasUsing: 0
+    - spriteName: r_secure_windoor_assembly02_6
+      sprite: {fileID: 21300012, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300020, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+      AtlasUsing: 0
+    - spriteName: r_secure_windoor_assembly02_10
+      sprite: {fileID: 21300020, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+    - spriteName: r_secure_windoor_assembly02_3
+      sprite: {fileID: 21300006, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300014, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+      AtlasUsing: 0
+    - spriteName: r_secure_windoor_assembly02_7
+      sprite: {fileID: 21300014, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300022, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
+      AtlasUsing: 0
+    - spriteName: r_secure_windoor_assembly02_11
+      sprite: {fileID: 21300022, guid: 8f8e87b88452af0418d80eba45409f42, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14767

@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0680b102488e9904693d223f44e4955c, type: 3}
+    - spriteName: synth_r_leg_03_0
+      sprite: {fileID: 21300000, guid: 0680b102488e9904693d223f44e4955c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 0680b102488e9904693d223f44e4955c, type: 3}
+    - spriteName: synth_r_leg_03_1
+      sprite: {fileID: 21300002, guid: 0680b102488e9904693d223f44e4955c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 0680b102488e9904693d223f44e4955c, type: 3}
+    - spriteName: synth_r_leg_03_2
+      sprite: {fileID: 21300004, guid: 0680b102488e9904693d223f44e4955c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 0680b102488e9904693d223f44e4955c, type: 3}
+    - spriteName: synth_r_leg_03_3
+      sprite: {fileID: 21300006, guid: 0680b102488e9904693d223f44e4955c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9816

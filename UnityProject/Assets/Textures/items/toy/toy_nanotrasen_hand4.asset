@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ed34e352717b69f49b046b8ed32b9bb9, type: 3}
+    - spriteName: toy_nanotrasen_hand4
+      sprite: {fileID: 21300000, guid: ed34e352717b69f49b046b8ed32b9bb9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9376

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hydroponics_0
+    - spriteName: hydroponics_0
       sprite: {fileID: 21300000, guid: 49bb3394945cf7845a3fb4aa12842af5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hydroponics_1
+    - spriteName: hydroponics_1
       sprite: {fileID: 21300002, guid: 49bb3394945cf7845a3fb4aa12842af5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hydroponics_2
+    - spriteName: hydroponics_2
       sprite: {fileID: 21300004, guid: 49bb3394945cf7845a3fb4aa12842af5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hydroponics_3
+    - spriteName: hydroponics_3
       sprite: {fileID: 21300006, guid: 49bb3394945cf7845a3fb4aa12842af5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21415

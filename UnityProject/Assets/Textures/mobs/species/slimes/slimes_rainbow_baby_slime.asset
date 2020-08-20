@@ -14,17 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
+    - spriteName: rainbow_baby_slime_0
+      sprite: {fileID: 21300000, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
+      AtlasUsing: 0
+    - spriteName: rainbow_baby_slime_1
+      sprite: {fileID: 21300002, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
+      AtlasUsing: 0
+    - spriteName: rainbow_baby_slime_2
+      sprite: {fileID: 21300004, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
+      AtlasUsing: 0
+    - spriteName: rainbow_baby_slime_3
+      sprite: {fileID: 21300006, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
+      AtlasUsing: 0
+    - spriteName: rainbow_baby_slime_4
+      sprite: {fileID: 21300008, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
+      AtlasUsing: 0
+    - spriteName: rainbow_baby_slime_5
+      sprite: {fileID: 21300010, guid: 6ffb758945e03bb4f9ceaf2e9aea4211, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12598

@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 76e50a3028d257243a4d2d0fa6949c42, type: 3}
+    - spriteName: laptop_broken_0
+      sprite: {fileID: 21300000, guid: 76e50a3028d257243a4d2d0fa6949c42, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 76e50a3028d257243a4d2d0fa6949c42, type: 3}
+    - spriteName: laptop_broken_1
+      sprite: {fileID: 21300002, guid: 76e50a3028d257243a4d2d0fa6949c42, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 76e50a3028d257243a4d2d0fa6949c42, type: 3}
+    - spriteName: laptop_broken_2
+      sprite: {fileID: 21300004, guid: 76e50a3028d257243a4d2d0fa6949c42, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 76e50a3028d257243a4d2d0fa6949c42, type: 3}
+    - spriteName: laptop_broken_3
+      sprite: {fileID: 21300006, guid: 76e50a3028d257243a4d2d0fa6949c42, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13415

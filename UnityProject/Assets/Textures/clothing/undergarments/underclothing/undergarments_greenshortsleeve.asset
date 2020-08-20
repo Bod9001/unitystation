@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greenshortsleeve_0
+    - spriteName: greenshortsleeve_0
       sprite: {fileID: 21300000, guid: 34d287cb3bd8e2a46afc2ab707bb8f33, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greenshortsleeve_1
+    - spriteName: greenshortsleeve_1
       sprite: {fileID: 21300002, guid: 34d287cb3bd8e2a46afc2ab707bb8f33, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greenshortsleeve_2
+    - spriteName: greenshortsleeve_2
       sprite: {fileID: 21300004, guid: 34d287cb3bd8e2a46afc2ab707bb8f33, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greenshortsleeve_3
+    - spriteName: greenshortsleeve_3
       sprite: {fileID: 21300006, guid: 34d287cb3bd8e2a46afc2ab707bb8f33, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21284

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e335fefc50030e84f9a67e4f4541b1c9, type: 3}
+    - spriteName: FuelRod
+      sprite: {fileID: 21300000, guid: e335fefc50030e84f9a67e4f4541b1c9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8641

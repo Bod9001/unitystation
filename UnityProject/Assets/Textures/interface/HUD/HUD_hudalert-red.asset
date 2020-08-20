@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 62c65d17310ca0b41825fc885f9feba8, type: 3}
+    - spriteName: HUD_hudalert-red
+      sprite: {fileID: 21300000, guid: 62c65d17310ca0b41825fc885f9feba8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2741

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: cee485fd3e2714743b7f477f9f7a8bfc, type: 3}
+    - spriteName: gondolas_gondola_eyes_dead
+      sprite: {fileID: 21300000, guid: cee485fd3e2714743b7f477f9f7a8bfc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12293

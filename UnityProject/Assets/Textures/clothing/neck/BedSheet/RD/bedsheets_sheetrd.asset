@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bedsheets_sheetrd
+    - spriteName: bedsheets_sheetrd
       sprite: {fileID: 21300000, guid: 70467a18157c8b3478e44bd85f8cb2cc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20690

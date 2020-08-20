@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: lattice_clockwork_large_3-i
+    - spriteName: lattice_clockwork_large_3-i
       sprite: {fileID: 21300000, guid: 82643c71b853c8b419eab76c5bf3fb3b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2606

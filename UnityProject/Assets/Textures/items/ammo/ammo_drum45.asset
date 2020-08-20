@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ccfed9fe58fb4a640a127697b48e56e3, type: 3}
+    - spriteName: ammo_drum45
+      sprite: {fileID: 21300000, guid: ccfed9fe58fb4a640a127697b48e56e3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4569

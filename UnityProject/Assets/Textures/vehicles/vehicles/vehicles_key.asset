@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c80ccbe654c0cff4cb22c9117fe5f8c6, type: 3}
+    - spriteName: vehicles_key
+      sprite: {fileID: 21300000, guid: c80ccbe654c0cff4cb22c9117fe5f8c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19128

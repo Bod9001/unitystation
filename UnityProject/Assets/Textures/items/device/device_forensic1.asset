@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bbc975d7854f5634683049e27e04ebbc, type: 3}
+    - spriteName: device_forensic1
+      sprite: {fileID: 21300000, guid: bbc975d7854f5634683049e27e04ebbc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6193

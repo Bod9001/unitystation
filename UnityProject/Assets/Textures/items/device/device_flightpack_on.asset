@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 56a5ad41924be8f42866c401bc1586ce, type: 3}
+    - spriteName: flightpack_on_0
+      sprite: {fileID: 21300000, guid: 56a5ad41924be8f42866c401bc1586ce, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 56a5ad41924be8f42866c401bc1586ce, type: 3}
+      AtlasUsing: 0
+    - spriteName: flightpack_on_1
+      sprite: {fileID: 21300002, guid: 56a5ad41924be8f42866c401bc1586ce, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 56a5ad41924be8f42866c401bc1586ce, type: 3}
+      AtlasUsing: 0
+    - spriteName: flightpack_on_2
+      sprite: {fileID: 21300004, guid: 56a5ad41924be8f42866c401bc1586ce, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 56a5ad41924be8f42866c401bc1586ce, type: 3}
+      AtlasUsing: 0
+    - spriteName: flightpack_on_3
+      sprite: {fileID: 21300006, guid: 56a5ad41924be8f42866c401bc1586ce, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6191

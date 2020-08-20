@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 16543b3d40a165845bf7a95f46ecb64b, type: 3}
+    - spriteName: drinks_andalusia
+      sprite: {fileID: 21300000, guid: 16543b3d40a165845bf7a95f46ecb64b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6410

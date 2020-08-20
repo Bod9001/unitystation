@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bucket_0
+    - spriteName: bucket_0
       sprite: {fileID: 21300000, guid: 0ca30cb4fe10dd54495368565e3cce0b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bucket_1
+    - spriteName: bucket_1
       sprite: {fileID: 21300002, guid: 0ca30cb4fe10dd54495368565e3cce0b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bucket_2
+    - spriteName: bucket_2
       sprite: {fileID: 21300004, guid: 0ca30cb4fe10dd54495368565e3cce0b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bucket_3
+    - spriteName: bucket_3
       sprite: {fileID: 21300006, guid: 0ca30cb4fe10dd54495368565e3cce0b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 557

@@ -14,29 +14,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+    - spriteName: dominator-orange_0
+      sprite: {fileID: 21300000, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_1
+      sprite: {fileID: 21300002, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_2
+      sprite: {fileID: 21300004, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_3
+      sprite: {fileID: 21300006, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_4
+      sprite: {fileID: 21300008, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_5
+      sprite: {fileID: 21300010, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_6
+      sprite: {fileID: 21300012, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_7
+      sprite: {fileID: 21300014, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_8
+      sprite: {fileID: 21300016, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_9
+      sprite: {fileID: 21300018, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_10
+      sprite: {fileID: 21300020, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
+      AtlasUsing: 0
+    - spriteName: dominator-orange_11
+      sprite: {fileID: 21300022, guid: 2199e0e6fb106a94595a383c6c74964e, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15687

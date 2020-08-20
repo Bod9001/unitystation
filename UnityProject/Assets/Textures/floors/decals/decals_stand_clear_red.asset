@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: stand_clear_red_0
+    - spriteName: stand_clear_red_0
       sprite: {fileID: 21300000, guid: c663773957cd24a468d66c758cdd007a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: stand_clear_red_1
+    - spriteName: stand_clear_red_1
       sprite: {fileID: 21300002, guid: c663773957cd24a468d66c758cdd007a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: stand_clear_red_2
+    - spriteName: stand_clear_red_2
       sprite: {fileID: 21300004, guid: c663773957cd24a468d66c758cdd007a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: stand_clear_red_3
+    - spriteName: stand_clear_red_3
       sprite: {fileID: 21300006, guid: c663773957cd24a468d66c758cdd007a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2054

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8f56b0967232360459b7cf1e17c7fcf7, type: 3}
+    - spriteName: dice_spaced6
+      sprite: {fileID: 21300000, guid: 8f56b0967232360459b7cf1e17c7fcf7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6398

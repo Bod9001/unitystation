@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat0_atmos_0
+    - spriteName: hardhat0_atmos_0
       sprite: {fileID: 21300000, guid: 96ac2b22070e7b04b9a6f0584e3a2a7c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat0_atmos_1
+    - spriteName: hardhat0_atmos_1
       sprite: {fileID: 21300002, guid: 96ac2b22070e7b04b9a6f0584e3a2a7c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat0_atmos_2
+    - spriteName: hardhat0_atmos_2
       sprite: {fileID: 21300004, guid: 96ac2b22070e7b04b9a6f0584e3a2a7c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardhat0_atmos_3
+    - spriteName: hardhat0_atmos_3
       sprite: {fileID: 21300006, guid: 96ac2b22070e7b04b9a6f0584e3a2a7c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20095

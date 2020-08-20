@@ -14,25 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+    - spriteName: fountain-red_0
+      sprite: {fileID: 21300000, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 3
-    - sprite: {fileID: 21300002, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+      AtlasUsing: 0
+    - spriteName: fountain-red_1
+      sprite: {fileID: 21300002, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+      AtlasUsing: 0
+    - spriteName: fountain-red_2
+      sprite: {fileID: 21300004, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+      AtlasUsing: 0
+    - spriteName: fountain-red_3
+      sprite: {fileID: 21300006, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+      AtlasUsing: 0
+    - spriteName: fountain-red_4
+      sprite: {fileID: 21300008, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+      AtlasUsing: 0
+    - spriteName: fountain-red_5
+      sprite: {fileID: 21300010, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+      AtlasUsing: 0
+    - spriteName: fountain-red_6
+      sprite: {fileID: 21300012, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+      AtlasUsing: 0
+    - spriteName: fountain-red_7
+      sprite: {fileID: 21300014, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+      AtlasUsing: 0
+    - spriteName: fountain-red_8
+      sprite: {fileID: 21300016, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
+      AtlasUsing: 0
+    - spriteName: fountain-red_9
+      sprite: {fileID: 21300018, guid: 33ba7cc4f6fbd2b4c92b07e5469d5136, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15087

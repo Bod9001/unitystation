@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whiteyellow_0
+    - spriteName: whiteyellow_0
       sprite: {fileID: 21300000, guid: a836ffbc6bfe7f84681c7ea165d14ca2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whiteyellow_1
+    - spriteName: whiteyellow_1
       sprite: {fileID: 21300002, guid: a836ffbc6bfe7f84681c7ea165d14ca2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whiteyellow_2
+    - spriteName: whiteyellow_2
       sprite: {fileID: 21300004, guid: a836ffbc6bfe7f84681c7ea165d14ca2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whiteyellow_3
+    - spriteName: whiteyellow_3
       sprite: {fileID: 21300006, guid: a836ffbc6bfe7f84681c7ea165d14ca2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whiteyellow_4
+    - spriteName: whiteyellow_4
       sprite: {fileID: 21300008, guid: a836ffbc6bfe7f84681c7ea165d14ca2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whiteyellow_5
+    - spriteName: whiteyellow_5
       sprite: {fileID: 21300010, guid: a836ffbc6bfe7f84681c7ea165d14ca2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whiteyellow_6
+    - spriteName: whiteyellow_6
       sprite: {fileID: 21300012, guid: a836ffbc6bfe7f84681c7ea165d14ca2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whiteyellow_7
+    - spriteName: whiteyellow_7
       sprite: {fileID: 21300014, guid: a836ffbc6bfe7f84681c7ea165d14ca2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2396

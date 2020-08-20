@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: cb91dbed6dd166147a59f8c584fb50db, type: 3}
+    - spriteName: scangate_alarm_light
+      sprite: {fileID: 21300000, guid: cb91dbed6dd166147a59f8c584fb50db, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15974

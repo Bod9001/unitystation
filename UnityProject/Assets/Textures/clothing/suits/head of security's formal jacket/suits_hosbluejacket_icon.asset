@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: suits_hosbluejacket_icon
+    - spriteName: suits_hosbluejacket_icon
       sprite: {fileID: 21300000, guid: c92b74527cc10ba4b856a50e874654d6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20962

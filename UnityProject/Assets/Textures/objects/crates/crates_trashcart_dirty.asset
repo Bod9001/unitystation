@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 7449342806321698287, guid: b3db8bbdd08038647a1ff950010c4a64,
+    - spriteName: crates_trashcart_dirty_0
+      sprite: {fileID: 7449342806321698287, guid: b3db8bbdd08038647a1ff950010c4a64,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13633

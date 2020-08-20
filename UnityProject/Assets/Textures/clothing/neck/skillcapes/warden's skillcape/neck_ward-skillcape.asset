@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: ward-skillcape_0
       sprite: {fileID: 7285447956620196473, guid: 88d59481876b61a4dba9226c9217496d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: ward-skillcape_1
       sprite: {fileID: 2945873466693642958, guid: 88d59481876b61a4dba9226c9217496d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: ward-skillcape_2
       sprite: {fileID: -8510959619847490823, guid: 88d59481876b61a4dba9226c9217496d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: ward-skillcape_3
       sprite: {fileID: -7353696004508359164, guid: 88d59481876b61a4dba9226c9217496d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23256

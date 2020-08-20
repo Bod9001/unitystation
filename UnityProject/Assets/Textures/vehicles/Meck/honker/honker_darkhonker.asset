@@ -14,24 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
+    - spriteName: darkhonker_0
+      sprite: {fileID: 21300000, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
       secondDelay: 1
-    - sprite: {fileID: 21300008, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
+      AtlasUsing: 0
+    - spriteName: darkhonker_4
+      sprite: {fileID: 21300008, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
+    - spriteName: darkhonker_1
+      sprite: {fileID: 21300002, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
       secondDelay: 1
-    - sprite: {fileID: 21300010, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
+      AtlasUsing: 0
+    - spriteName: darkhonker_5
+      sprite: {fileID: 21300010, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
+    - spriteName: darkhonker_2
+      sprite: {fileID: 21300004, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
       secondDelay: 1
-    - sprite: {fileID: 21300012, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
+      AtlasUsing: 0
+    - spriteName: darkhonker_6
+      sprite: {fileID: 21300012, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
+    - spriteName: darkhonker_3
+      sprite: {fileID: 21300006, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
       secondDelay: 1
-    - sprite: {fileID: 21300014, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
+      AtlasUsing: 0
+    - spriteName: darkhonker_7
+      sprite: {fileID: 21300014, guid: 6a05cecb6030e2c49905c782908a7c94, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 18929

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lingspacesuit_0
+    - spriteName: lingspacesuit_0
       sprite: {fileID: 21300000, guid: f9d7efd1d89b0bc408acb2ea2bbe3fef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lingspacesuit_1
+    - spriteName: lingspacesuit_1
       sprite: {fileID: 21300002, guid: f9d7efd1d89b0bc408acb2ea2bbe3fef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lingspacesuit_2
+    - spriteName: lingspacesuit_2
       sprite: {fileID: 21300004, guid: f9d7efd1d89b0bc408acb2ea2bbe3fef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lingspacesuit_3
+    - spriteName: lingspacesuit_3
       sprite: {fileID: 21300006, guid: f9d7efd1d89b0bc408acb2ea2bbe3fef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 928

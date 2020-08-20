@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 614f7651628bacc4c812b14aee7daa8f, type: 3}
+    - spriteName: surgery_liver
+      sprite: {fileID: 21300000, guid: 614f7651628bacc4c812b14aee7daa8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9090

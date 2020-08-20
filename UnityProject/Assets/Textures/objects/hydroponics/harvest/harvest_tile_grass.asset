@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a9601c7366c3f354a85f532325bc36f3, type: 3}
+    - spriteName: harvest_tile_grass
+      sprite: {fileID: 21300000, guid: a9601c7366c3f354a85f532325bc36f3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15354

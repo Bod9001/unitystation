@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 56731dc9f9ffad34693cac8892b24766, type: 3}
+    - spriteName: rock_Gibtonite_active_0
+      sprite: {fileID: 21300000, guid: 56731dc9f9ffad34693cac8892b24766, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 56731dc9f9ffad34693cac8892b24766, type: 3}
+      AtlasUsing: 0
+    - spriteName: rock_Gibtonite_active_1
+      sprite: {fileID: 21300002, guid: 56731dc9f9ffad34693cac8892b24766, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 56731dc9f9ffad34693cac8892b24766, type: 3}
+      AtlasUsing: 0
+    - spriteName: rock_Gibtonite_active_2
+      sprite: {fileID: 21300004, guid: 56731dc9f9ffad34693cac8892b24766, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 56731dc9f9ffad34693cac8892b24766, type: 3}
+      AtlasUsing: 0
+    - spriteName: rock_Gibtonite_active_3
+      sprite: {fileID: 21300006, guid: 56731dc9f9ffad34693cac8892b24766, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19596

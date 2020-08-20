@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 22cd966a93a0e254d902111d5502c698, type: 3}
+    - spriteName: vending_genedrobe-panel
+      sprite: {fileID: 21300000, guid: 22cd966a93a0e254d902111d5502c698, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17772

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7f93e9cd8fcc0ba499baf3324030cc50, type: 3}
+    - spriteName: HUD_hudhealth37_5
+      sprite: {fileID: 21300000, guid: 7f93e9cd8fcc0ba499baf3324030cc50, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2802

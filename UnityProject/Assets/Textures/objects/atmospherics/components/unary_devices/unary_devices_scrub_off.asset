@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 320ec0ebfcc2f234c85188ef36b2de8f, type: 3}
+    - spriteName: scrub_off_0
+      sprite: {fileID: 21300000, guid: 320ec0ebfcc2f234c85188ef36b2de8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 320ec0ebfcc2f234c85188ef36b2de8f, type: 3}
+    - spriteName: scrub_off_1
+      sprite: {fileID: 21300002, guid: 320ec0ebfcc2f234c85188ef36b2de8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 320ec0ebfcc2f234c85188ef36b2de8f, type: 3}
+    - spriteName: scrub_off_2
+      sprite: {fileID: 21300004, guid: 320ec0ebfcc2f234c85188ef36b2de8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 320ec0ebfcc2f234c85188ef36b2de8f, type: 3}
+    - spriteName: scrub_off_3
+      sprite: {fileID: 21300006, guid: 320ec0ebfcc2f234c85188ef36b2de8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13027

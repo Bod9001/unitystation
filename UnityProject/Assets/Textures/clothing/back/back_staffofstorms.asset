@@ -14,48 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: staffofstorms_0
+    - spriteName: staffofstorms_0
       sprite: {fileID: 21300000, guid: 1f75465b6b02dee4a91df71aec413ff7, type: 3}
       secondDelay: 1.6
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: staffofstorms_4
+      AtlasUsing: 0
+    - spriteName: staffofstorms_4
       sprite: {fileID: 21300008, guid: 1f75465b6b02dee4a91df71aec413ff7, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: staffofstorms_1
+    - spriteName: staffofstorms_1
       sprite: {fileID: 21300002, guid: 1f75465b6b02dee4a91df71aec413ff7, type: 3}
       secondDelay: 1.6
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: staffofstorms_5
+      AtlasUsing: 0
+    - spriteName: staffofstorms_5
       sprite: {fileID: 21300010, guid: 1f75465b6b02dee4a91df71aec413ff7, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: staffofstorms_2
+    - spriteName: staffofstorms_2
       sprite: {fileID: 21300004, guid: 1f75465b6b02dee4a91df71aec413ff7, type: 3}
       secondDelay: 1.6
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: staffofstorms_6
+      AtlasUsing: 0
+    - spriteName: staffofstorms_6
       sprite: {fileID: 21300012, guid: 1f75465b6b02dee4a91df71aec413ff7, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: staffofstorms_3
+    - spriteName: staffofstorms_3
       sprite: {fileID: 21300006, guid: 1f75465b6b02dee4a91df71aec413ff7, type: 3}
       secondDelay: 1.6
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: staffofstorms_7
+      AtlasUsing: 0
+    - spriteName: staffofstorms_7
       sprite: {fileID: 21300014, guid: 1f75465b6b02dee4a91df71aec413ff7, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   IsPalette: 0
   setID: 355

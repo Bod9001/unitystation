@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greydet_0
+    - spriteName: greydet_0
       sprite: {fileID: 21300000, guid: 5a3ea2b187dd2494ba29441498c12a68, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greydet_1
+    - spriteName: greydet_1
       sprite: {fileID: 21300002, guid: 5a3ea2b187dd2494ba29441498c12a68, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greydet_2
+    - spriteName: greydet_2
       sprite: {fileID: 21300004, guid: 5a3ea2b187dd2494ba29441498c12a68, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greydet_3
+    - spriteName: greydet_3
       sprite: {fileID: 21300006, guid: 5a3ea2b187dd2494ba29441498c12a68, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21013

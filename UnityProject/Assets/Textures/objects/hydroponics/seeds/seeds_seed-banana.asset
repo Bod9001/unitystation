@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1884447e5ba54144e90415dcaf6888cd, type: 3}
+    - spriteName: seeds_seed-banana
+      sprite: {fileID: 21300000, guid: 1884447e5ba54144e90415dcaf6888cd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15390

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: glasses_thin_0
+    - spriteName: glasses_thin_0
       sprite: {fileID: 21300000, guid: 61d8116d886ada745a68be02759373a7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: glasses_thin_1
+    - spriteName: glasses_thin_1
       sprite: {fileID: 21300002, guid: 61d8116d886ada745a68be02759373a7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: glasses_thin_2
+    - spriteName: glasses_thin_2
       sprite: {fileID: 21300004, guid: 61d8116d886ada745a68be02759373a7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: glasses_thin_3
+    - spriteName: glasses_thin_3
       sprite: {fileID: 21300006, guid: 61d8116d886ada745a68be02759373a7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 496

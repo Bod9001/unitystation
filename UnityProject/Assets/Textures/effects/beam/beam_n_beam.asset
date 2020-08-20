@@ -14,45 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_0
+    - spriteName: n_beam_0
       sprite: {fileID: 21300000, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_1
+      AtlasUsing: 0
+    - spriteName: n_beam_1
       sprite: {fileID: 21300002, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_2
+      AtlasUsing: 0
+    - spriteName: n_beam_2
       sprite: {fileID: 21300004, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_3
+      AtlasUsing: 0
+    - spriteName: n_beam_3
       sprite: {fileID: 21300006, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_4
+      AtlasUsing: 0
+    - spriteName: n_beam_4
       sprite: {fileID: 21300008, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_5
+      AtlasUsing: 0
+    - spriteName: n_beam_5
       sprite: {fileID: 21300010, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_6
+      AtlasUsing: 0
+    - spriteName: n_beam_6
       sprite: {fileID: 21300012, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_7
+      AtlasUsing: 0
+    - spriteName: n_beam_7
       sprite: {fileID: 21300014, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1171

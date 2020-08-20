@@ -14,104 +14,200 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+    - spriteName: parrot_fly_0
+      sprite: {fileID: 21300000, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_4
+      sprite: {fileID: 21300008, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_8
+      sprite: {fileID: 21300016, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_12
+      sprite: {fileID: 21300024, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_16
+      sprite: {fileID: 21300032, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_20
+      sprite: {fileID: 21300040, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_24
+      sprite: {fileID: 21300048, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_28
+      sprite: {fileID: 21300056, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300064, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_32
+      sprite: {fileID: 21300064, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300072, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_36
+      sprite: {fileID: 21300072, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300080, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_40
+      sprite: {fileID: 21300080, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300088, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_44
+      sprite: {fileID: 21300088, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+    - spriteName: parrot_fly_1
+      sprite: {fileID: 21300002, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_5
+      sprite: {fileID: 21300010, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_9
+      sprite: {fileID: 21300018, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_13
+      sprite: {fileID: 21300026, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_17
+      sprite: {fileID: 21300034, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_21
+      sprite: {fileID: 21300042, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_25
+      sprite: {fileID: 21300050, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_29
+      sprite: {fileID: 21300058, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300066, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_33
+      sprite: {fileID: 21300066, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300074, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_37
+      sprite: {fileID: 21300074, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300082, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_41
+      sprite: {fileID: 21300082, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300090, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_45
+      sprite: {fileID: 21300090, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+    - spriteName: parrot_fly_2
+      sprite: {fileID: 21300004, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_6
+      sprite: {fileID: 21300012, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_10
+      sprite: {fileID: 21300020, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_14
+      sprite: {fileID: 21300028, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_18
+      sprite: {fileID: 21300036, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_22
+      sprite: {fileID: 21300044, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_26
+      sprite: {fileID: 21300052, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_30
+      sprite: {fileID: 21300060, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300068, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_34
+      sprite: {fileID: 21300068, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300076, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_38
+      sprite: {fileID: 21300076, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300084, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_42
+      sprite: {fileID: 21300084, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300092, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_46
+      sprite: {fileID: 21300092, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+    - spriteName: parrot_fly_3
+      sprite: {fileID: 21300006, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_7
+      sprite: {fileID: 21300014, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_11
+      sprite: {fileID: 21300022, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_15
+      sprite: {fileID: 21300030, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_19
+      sprite: {fileID: 21300038, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_23
+      sprite: {fileID: 21300046, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_27
+      sprite: {fileID: 21300054, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_31
+      sprite: {fileID: 21300062, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300070, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_35
+      sprite: {fileID: 21300070, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300078, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_39
+      sprite: {fileID: 21300078, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300086, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_43
+      sprite: {fileID: 21300086, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300094, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
+      AtlasUsing: 0
+    - spriteName: parrot_fly_47
+      sprite: {fileID: 21300094, guid: dd9d409ce2befdd4b94599c70a4b471b, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11898

@@ -14,11 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -9146542005036806897, guid: bbd06d95a55f66041b42bfd64c2b6501,
+    - spriteName: cherry_bomb_lit_0
+      sprite: {fileID: -9146542005036806897, guid: bbd06d95a55f66041b42bfd64c2b6501,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 8233221670871251051, guid: bbd06d95a55f66041b42bfd64c2b6501,
+      AtlasUsing: 0
+    - spriteName: cherry_bomb_lit_1
+      sprite: {fileID: 8233221670871251051, guid: bbd06d95a55f66041b42bfd64c2b6501,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15263

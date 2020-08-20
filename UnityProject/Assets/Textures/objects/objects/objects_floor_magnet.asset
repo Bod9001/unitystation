@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fd23202851326bc47bd4124b436b0575, type: 3}
+    - spriteName: floor_magnet_0
+      sprite: {fileID: 21300000, guid: fd23202851326bc47bd4124b436b0575, type: 3}
       secondDelay: 2
-    - sprite: {fileID: 21300002, guid: fd23202851326bc47bd4124b436b0575, type: 3}
+      AtlasUsing: 0
+    - spriteName: floor_magnet_1
+      sprite: {fileID: 21300002, guid: fd23202851326bc47bd4124b436b0575, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300004, guid: fd23202851326bc47bd4124b436b0575, type: 3}
+      AtlasUsing: 0
+    - spriteName: floor_magnet_2
+      sprite: {fileID: 21300004, guid: fd23202851326bc47bd4124b436b0575, type: 3}
       secondDelay: 0.4
-    - sprite: {fileID: 21300006, guid: fd23202851326bc47bd4124b436b0575, type: 3}
+      AtlasUsing: 0
+    - spriteName: floor_magnet_3
+      sprite: {fileID: 21300006, guid: fd23202851326bc47bd4124b436b0575, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16359

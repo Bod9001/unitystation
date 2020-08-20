@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a23789179b7efec4b94acbf81bb8a326, type: 3}
+    - spriteName: HUD_gangster
+      sprite: {fileID: 21300000, guid: a23789179b7efec4b94acbf81bb8a326, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2728

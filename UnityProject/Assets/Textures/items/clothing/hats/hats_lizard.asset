@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b3bbb80be47dc484da57d94f6b2697a4, type: 3}
+    - spriteName: hats_lizard
+      sprite: {fileID: 21300000, guid: b3bbb80be47dc484da57d94f6b2697a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5753

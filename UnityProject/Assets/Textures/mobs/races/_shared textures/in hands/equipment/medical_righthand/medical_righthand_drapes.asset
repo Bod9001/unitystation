@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 1191799964247926900, guid: 81527602f51d1e84aa74ba8248717287,
+    - spriteName: drapes_0
+      sprite: {fileID: 1191799964247926900, guid: 81527602f51d1e84aa74ba8248717287,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -1975109569060315964, guid: 81527602f51d1e84aa74ba8248717287,
+    - spriteName: drapes_1
+      sprite: {fileID: -1975109569060315964, guid: 81527602f51d1e84aa74ba8248717287,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -7610747741873632301, guid: 81527602f51d1e84aa74ba8248717287,
+    - spriteName: drapes_2
+      sprite: {fileID: -7610747741873632301, guid: 81527602f51d1e84aa74ba8248717287,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 9191967208105276900, guid: 81527602f51d1e84aa74ba8248717287,
+    - spriteName: drapes_3
+      sprite: {fileID: 9191967208105276900, guid: 81527602f51d1e84aa74ba8248717287,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23078

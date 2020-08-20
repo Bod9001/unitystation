@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7057ad93cc2d9464e9c2c4c282f15715, type: 3}
+    - spriteName: structures_plasmawindow10
+      sprite: {fileID: 21300000, guid: 7057ad93cc2d9464e9c2c4c282f15715, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17357

@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazmat_0
+    - spriteName: hazmat_0
       sprite: {fileID: 5935265185243774889, guid: 2571005bddfaa8948ac43cc30bfcb653,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazmat_1
+    - spriteName: hazmat_1
       sprite: {fileID: -7520305086653570447, guid: 2571005bddfaa8948ac43cc30bfcb653,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazmat_2
+    - spriteName: hazmat_2
       sprite: {fileID: -3152693758369627947, guid: 2571005bddfaa8948ac43cc30bfcb653,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazmat_3
+    - spriteName: hazmat_3
       sprite: {fileID: 5276868491397550804, guid: 2571005bddfaa8948ac43cc30bfcb653,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20983

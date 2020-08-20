@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 032c891f0cb96ac4fbf91e025ba6fb32, type: 3}
+    - spriteName: ov-openpanel_w_0
+      sprite: {fileID: 21300000, guid: 032c891f0cb96ac4fbf91e025ba6fb32, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 032c891f0cb96ac4fbf91e025ba6fb32, type: 3}
+    - spriteName: ov-openpanel_w_1
+      sprite: {fileID: 21300002, guid: 032c891f0cb96ac4fbf91e025ba6fb32, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 032c891f0cb96ac4fbf91e025ba6fb32, type: 3}
+    - spriteName: ov-openpanel_w_2
+      sprite: {fileID: 21300004, guid: 032c891f0cb96ac4fbf91e025ba6fb32, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 032c891f0cb96ac4fbf91e025ba6fb32, type: 3}
+    - spriteName: ov-openpanel_w_3
+      sprite: {fileID: 21300006, guid: 032c891f0cb96ac4fbf91e025ba6fb32, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12303

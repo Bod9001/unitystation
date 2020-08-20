@@ -14,15 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_0
+    - spriteName: hierophant_0
       sprite: {fileID: 21300000, guid: ce3e3a504c629364daa8a816ccc2d249, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_1
+      AtlasUsing: 0
+    - spriteName: hierophant_1
       sprite: {fileID: 21300002, guid: ce3e3a504c629364daa8a816ccc2d249, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1317

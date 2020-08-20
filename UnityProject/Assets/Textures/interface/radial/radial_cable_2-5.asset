@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1696ce655a4df844dad24518a9960017, type: 3}
+    - spriteName: radial_cable_2-5
+      sprite: {fileID: 21300000, guid: 1696ce655a4df844dad24518a9960017, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2966

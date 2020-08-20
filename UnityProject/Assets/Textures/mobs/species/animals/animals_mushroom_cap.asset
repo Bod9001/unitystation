@@ -14,32 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+    - spriteName: mushroom_cap_0
+      sprite: {fileID: 21300000, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+      AtlasUsing: 0
+    - spriteName: mushroom_cap_4
+      sprite: {fileID: 21300008, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+      AtlasUsing: 0
+    - spriteName: mushroom_cap_8
+      sprite: {fileID: 21300016, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+    - spriteName: mushroom_cap_1
+      sprite: {fileID: 21300002, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+      AtlasUsing: 0
+    - spriteName: mushroom_cap_5
+      sprite: {fileID: 21300010, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+      AtlasUsing: 0
+    - spriteName: mushroom_cap_9
+      sprite: {fileID: 21300018, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+    - spriteName: mushroom_cap_2
+      sprite: {fileID: 21300004, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+      AtlasUsing: 0
+    - spriteName: mushroom_cap_6
+      sprite: {fileID: 21300012, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+      AtlasUsing: 0
+    - spriteName: mushroom_cap_10
+      sprite: {fileID: 21300020, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+    - spriteName: mushroom_cap_3
+      sprite: {fileID: 21300006, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+      AtlasUsing: 0
+    - spriteName: mushroom_cap_7
+      sprite: {fileID: 21300014, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
+      AtlasUsing: 0
+    - spriteName: mushroom_cap_11
+      sprite: {fileID: 21300022, guid: 75099e4ccc50b8b4882d96ccfebab167, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11887

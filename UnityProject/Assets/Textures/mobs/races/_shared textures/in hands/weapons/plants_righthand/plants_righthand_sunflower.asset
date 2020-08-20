@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4bba5277697cdb04c9aa08d75853a70d, type: 3}
+    - spriteName: sunflower_0
+      sprite: {fileID: 21300000, guid: 4bba5277697cdb04c9aa08d75853a70d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 4bba5277697cdb04c9aa08d75853a70d, type: 3}
+    - spriteName: sunflower_1
+      sprite: {fileID: 21300002, guid: 4bba5277697cdb04c9aa08d75853a70d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 4bba5277697cdb04c9aa08d75853a70d, type: 3}
+    - spriteName: sunflower_2
+      sprite: {fileID: 21300004, guid: 4bba5277697cdb04c9aa08d75853a70d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 4bba5277697cdb04c9aa08d75853a70d, type: 3}
+    - spriteName: sunflower_3
+      sprite: {fileID: 21300006, guid: 4bba5277697cdb04c9aa08d75853a70d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22448

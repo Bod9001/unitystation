@@ -14,17 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
+    - spriteName: fill_opening_0
+      sprite: {fileID: 21300000, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
+      AtlasUsing: 0
+    - spriteName: fill_opening_1
+      sprite: {fileID: 21300002, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
+      AtlasUsing: 0
+    - spriteName: fill_opening_2
+      sprite: {fileID: 21300004, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
+      AtlasUsing: 0
+    - spriteName: fill_opening_3
+      sprite: {fileID: 21300006, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
+      AtlasUsing: 0
+    - spriteName: fill_opening_4
+      sprite: {fileID: 21300008, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
+      AtlasUsing: 0
+    - spriteName: fill_opening_5
+      sprite: {fileID: 21300010, guid: 068e483f1341b974bb2e411561bf4282, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14214

@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: paramedic_d_0
+    - spriteName: paramedic_d_0
       sprite: {fileID: 2695806704930062029, guid: e52b263d063c16e458b76b4a7cb87a0e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: paramedic_d_1
+    - spriteName: paramedic_d_1
       sprite: {fileID: 7112400383844410900, guid: e52b263d063c16e458b76b4a7cb87a0e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: paramedic_d_2
+    - spriteName: paramedic_d_2
       sprite: {fileID: 7041666970729562829, guid: e52b263d063c16e458b76b4a7cb87a0e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: paramedic_d_3
+    - spriteName: paramedic_d_3
       sprite: {fileID: -5307878407746938400, guid: e52b263d063c16e458b76b4a7cb87a0e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21636

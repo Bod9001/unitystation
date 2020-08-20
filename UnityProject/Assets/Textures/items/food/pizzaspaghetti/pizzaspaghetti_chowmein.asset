@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ea40288b3d4cecc43a7908a2d192154d, type: 3}
+    - spriteName: pizzaspaghetti_chowmein
+      sprite: {fileID: 21300000, guid: ea40288b3d4cecc43a7908a2d192154d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7096

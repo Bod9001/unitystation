@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 398fd86821da1fb44a76492e33e31dd5, type: 3}
+    - spriteName: growing_amanita-dead
+      sprite: {fileID: 21300000, guid: 398fd86821da1fb44a76492e33e31dd5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22483

@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: qm-trimmed_0
       sprite: {fileID: -9129380138181632492, guid: b3de4a8335dd670499b09af364b43543,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: qm-trimmed_1
       sprite: {fileID: 2332599170095011040, guid: b3de4a8335dd670499b09af364b43543,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: qm-trimmed_2
       sprite: {fileID: -7020485278559056821, guid: b3de4a8335dd670499b09af364b43543,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: qm-trimmed_3
       sprite: {fileID: 7320727805548573057, guid: b3de4a8335dd670499b09af364b43543,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23241

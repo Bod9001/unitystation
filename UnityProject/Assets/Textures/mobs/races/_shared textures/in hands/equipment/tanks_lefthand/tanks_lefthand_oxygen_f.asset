@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bf16e3c585e71e8439fc751a5a6a1e2a, type: 3}
+    - spriteName: oxygen_f_0
+      sprite: {fileID: 21300000, guid: bf16e3c585e71e8439fc751a5a6a1e2a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: bf16e3c585e71e8439fc751a5a6a1e2a, type: 3}
+    - spriteName: oxygen_f_1
+      sprite: {fileID: 21300002, guid: bf16e3c585e71e8439fc751a5a6a1e2a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: bf16e3c585e71e8439fc751a5a6a1e2a, type: 3}
+    - spriteName: oxygen_f_2
+      sprite: {fileID: 21300004, guid: bf16e3c585e71e8439fc751a5a6a1e2a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: bf16e3c585e71e8439fc751a5a6a1e2a, type: 3}
+    - spriteName: oxygen_f_3
+      sprite: {fileID: 21300006, guid: bf16e3c585e71e8439fc751a5a6a1e2a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22244

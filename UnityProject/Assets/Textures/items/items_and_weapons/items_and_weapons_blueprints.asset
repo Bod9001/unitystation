@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1d7eb5f5790f96840b8f9db227ae1c38, type: 3}
+    - spriteName: items_and_weapons_blueprints
+      sprite: {fileID: 21300000, guid: 1d7eb5f5790f96840b8f9db227ae1c38, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7721

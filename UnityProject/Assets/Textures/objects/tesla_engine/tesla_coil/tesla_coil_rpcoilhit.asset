@@ -14,17 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
+    - spriteName: rpcoilhit_0
+      sprite: {fileID: 21300000, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
+      AtlasUsing: 0
+    - spriteName: rpcoilhit_1
+      sprite: {fileID: 21300002, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       secondDelay: 0.08
-    - sprite: {fileID: 21300004, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
+      AtlasUsing: 0
+    - spriteName: rpcoilhit_2
+      sprite: {fileID: 21300004, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       secondDelay: 0.08
-    - sprite: {fileID: 21300006, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
+      AtlasUsing: 0
+    - spriteName: rpcoilhit_3
+      sprite: {fileID: 21300006, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       secondDelay: 0.08
-    - sprite: {fileID: 21300008, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
+      AtlasUsing: 0
+    - spriteName: rpcoilhit_4
+      sprite: {fileID: 21300008, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       secondDelay: 0.12
-    - sprite: {fileID: 21300010, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
+      AtlasUsing: 0
+    - spriteName: rpcoilhit_5
+      sprite: {fileID: 21300010, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17596

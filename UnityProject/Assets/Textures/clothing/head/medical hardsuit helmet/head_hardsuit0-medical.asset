@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-medical_0
+    - spriteName: hardsuit0-medical_0
       sprite: {fileID: 21300000, guid: 6b316887433331544852319d19744b9e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-medical_1
+    - spriteName: hardsuit0-medical_1
       sprite: {fileID: 21300002, guid: 6b316887433331544852319d19744b9e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-medical_2
+    - spriteName: hardsuit0-medical_2
       sprite: {fileID: 21300004, guid: 6b316887433331544852319d19744b9e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-medical_3
+    - spriteName: hardsuit0-medical_3
       sprite: {fileID: 21300006, guid: 6b316887433331544852319d19744b9e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20363

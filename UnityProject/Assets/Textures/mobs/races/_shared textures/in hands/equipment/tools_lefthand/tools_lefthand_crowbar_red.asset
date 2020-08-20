@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 89d6fa83e12c7164f8cd1718644063f6, type: 3}
+    - spriteName: crowbar_red_0
+      sprite: {fileID: 21300000, guid: 89d6fa83e12c7164f8cd1718644063f6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 89d6fa83e12c7164f8cd1718644063f6, type: 3}
+    - spriteName: crowbar_red_1
+      sprite: {fileID: 21300002, guid: 89d6fa83e12c7164f8cd1718644063f6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 89d6fa83e12c7164f8cd1718644063f6, type: 3}
+    - spriteName: crowbar_red_2
+      sprite: {fileID: 21300004, guid: 89d6fa83e12c7164f8cd1718644063f6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 89d6fa83e12c7164f8cd1718644063f6, type: 3}
+    - spriteName: crowbar_red_3
+      sprite: {fileID: 21300006, guid: 89d6fa83e12c7164f8cd1718644063f6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22268

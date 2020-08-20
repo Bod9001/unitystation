@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f2b41da65b605ec43afd265808d4e98b, type: 3}
+    - spriteName: visor_reticule_drop
+      sprite: {fileID: 21300000, guid: f2b41da65b605ec43afd265808d4e98b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3246

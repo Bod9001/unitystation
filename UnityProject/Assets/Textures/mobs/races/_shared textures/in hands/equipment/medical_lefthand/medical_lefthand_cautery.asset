@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -356785051353283984, guid: 3da15300546cbbc43bade71081e40ec0,
+    - spriteName: cautery_0
+      sprite: {fileID: -356785051353283984, guid: 3da15300546cbbc43bade71081e40ec0,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 6471721476850278141, guid: 3da15300546cbbc43bade71081e40ec0,
+    - spriteName: cautery_1
+      sprite: {fileID: 6471721476850278141, guid: 3da15300546cbbc43bade71081e40ec0,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -3813766460341089391, guid: 3da15300546cbbc43bade71081e40ec0,
+    - spriteName: cautery_2
+      sprite: {fileID: -3813766460341089391, guid: 3da15300546cbbc43bade71081e40ec0,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 5535178053465914795, guid: 3da15300546cbbc43bade71081e40ec0,
+    - spriteName: cautery_3
+      sprite: {fileID: 5535178053465914795, guid: 3da15300546cbbc43bade71081e40ec0,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23014

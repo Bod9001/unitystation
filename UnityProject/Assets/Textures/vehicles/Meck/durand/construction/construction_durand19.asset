@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 30ac852622abf5c46a3c5457ad440318, type: 3}
+    - spriteName: durand19_0
+      sprite: {fileID: 21300000, guid: 30ac852622abf5c46a3c5457ad440318, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300002, guid: 30ac852622abf5c46a3c5457ad440318, type: 3}
+      AtlasUsing: 0
+    - spriteName: durand19_1
+      sprite: {fileID: 21300002, guid: 30ac852622abf5c46a3c5457ad440318, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300004, guid: 30ac852622abf5c46a3c5457ad440318, type: 3}
+      AtlasUsing: 0
+    - spriteName: durand19_2
+      sprite: {fileID: 21300004, guid: 30ac852622abf5c46a3c5457ad440318, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300006, guid: 30ac852622abf5c46a3c5457ad440318, type: 3}
+      AtlasUsing: 0
+    - spriteName: durand19_3
+      sprite: {fileID: 21300006, guid: 30ac852622abf5c46a3c5457ad440318, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 18832

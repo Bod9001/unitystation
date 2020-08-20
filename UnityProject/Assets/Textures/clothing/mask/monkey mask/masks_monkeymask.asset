@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: masks_monkeymask
+    - spriteName: masks_monkeymask
       sprite: {fileID: 21300000, guid: 2ed16c5cf2cea9741b85ee2a399104e4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20613

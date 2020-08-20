@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b882b292b9bae474e85f7335e5c09935, type: 3}
+    - spriteName: paperplane_stamp-ce_0
+      sprite: {fileID: 21300000, guid: b882b292b9bae474e85f7335e5c09935, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: b882b292b9bae474e85f7335e5c09935, type: 3}
+    - spriteName: paperplane_stamp-ce_1
+      sprite: {fileID: 21300002, guid: b882b292b9bae474e85f7335e5c09935, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: b882b292b9bae474e85f7335e5c09935, type: 3}
+    - spriteName: paperplane_stamp-ce_2
+      sprite: {fileID: 21300004, guid: b882b292b9bae474e85f7335e5c09935, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: b882b292b9bae474e85f7335e5c09935, type: 3}
+    - spriteName: paperplane_stamp-ce_3
+      sprite: {fileID: 21300006, guid: b882b292b9bae474e85f7335e5c09935, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5161

@@ -14,17 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -6252118021778781312, guid: c0f5cec80c821784ba5407c96cb1eecd,
+    - spriteName: ambrosiadeus-harvest_0
+      sprite: {fileID: -6252118021778781312, guid: c0f5cec80c821784ba5407c96cb1eecd,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -6377104253469619982, guid: c0f5cec80c821784ba5407c96cb1eecd,
+      AtlasUsing: 0
+    - spriteName: ambrosiadeus-harvest_1
+      sprite: {fileID: -6377104253469619982, guid: c0f5cec80c821784ba5407c96cb1eecd,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 6108227276433093225, guid: c0f5cec80c821784ba5407c96cb1eecd,
+      AtlasUsing: 0
+    - spriteName: ambrosiadeus-harvest_2
+      sprite: {fileID: 6108227276433093225, guid: c0f5cec80c821784ba5407c96cb1eecd,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -4523610550349893649, guid: c0f5cec80c821784ba5407c96cb1eecd,
+      AtlasUsing: 0
+    - spriteName: ambrosiadeus-harvest_3
+      sprite: {fileID: -4523610550349893649, guid: c0f5cec80c821784ba5407c96cb1eecd,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22501

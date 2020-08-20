@@ -14,37 +14,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e365d671837953641b0941e8474e9963, type: 3}
+    - spriteName: horror_0
+      sprite: {fileID: 21300000, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_1
+      sprite: {fileID: 21300002, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_2
+      sprite: {fileID: 21300004, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_3
+      sprite: {fileID: 21300006, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_4
+      sprite: {fileID: 21300008, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_5
+      sprite: {fileID: 21300010, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_6
+      sprite: {fileID: 21300012, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_7
+      sprite: {fileID: 21300014, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_8
+      sprite: {fileID: 21300016, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_9
+      sprite: {fileID: 21300018, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_10
+      sprite: {fileID: 21300020, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_11
+      sprite: {fileID: 21300022, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_12
+      sprite: {fileID: 21300024, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_13
+      sprite: {fileID: 21300026, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_14
+      sprite: {fileID: 21300028, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: e365d671837953641b0941e8474e9963, type: 3}
+      AtlasUsing: 0
+    - spriteName: horror_15
+      sprite: {fileID: 21300030, guid: e365d671837953641b0941e8474e9963, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11429

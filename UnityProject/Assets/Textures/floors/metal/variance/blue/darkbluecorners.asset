@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkbluecorners_0
+    - spriteName: darkbluecorners_0
       sprite: {fileID: 21300000, guid: 08b02490db617454599547bd77c07194, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkbluecorners_1
+    - spriteName: darkbluecorners_1
       sprite: {fileID: 21300002, guid: 08b02490db617454599547bd77c07194, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkbluecorners_2
+    - spriteName: darkbluecorners_2
       sprite: {fileID: 21300004, guid: 08b02490db617454599547bd77c07194, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkbluecorners_3
+    - spriteName: darkbluecorners_3
       sprite: {fileID: 21300006, guid: 08b02490db617454599547bd77c07194, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2312

@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blacksuit_skirt_0
+    - spriteName: blacksuit_skirt_0
       sprite: {fileID: 3073293230705895063, guid: ee1d8b84fa6cfa64a9ea9db2e1c69d21,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blacksuit_skirt_1
+    - spriteName: blacksuit_skirt_1
       sprite: {fileID: -3841711042527185506, guid: ee1d8b84fa6cfa64a9ea9db2e1c69d21,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blacksuit_skirt_2
+    - spriteName: blacksuit_skirt_2
       sprite: {fileID: 1075861930680867599, guid: ee1d8b84fa6cfa64a9ea9db2e1c69d21,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blacksuit_skirt_3
+    - spriteName: blacksuit_skirt_3
       sprite: {fileID: 6180214366719374730, guid: ee1d8b84fa6cfa64a9ea9db2e1c69d21,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21392

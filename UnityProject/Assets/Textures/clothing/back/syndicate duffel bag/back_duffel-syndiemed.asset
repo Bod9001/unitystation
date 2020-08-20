@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: duffel-syndiemed_0
+    - spriteName: duffel-syndiemed_0
       sprite: {fileID: 21300000, guid: d96f397a1d7cb0a4d94de91ce709d713, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: duffel-syndiemed_1
+    - spriteName: duffel-syndiemed_1
       sprite: {fileID: 21300002, guid: d96f397a1d7cb0a4d94de91ce709d713, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: duffel-syndiemed_2
+    - spriteName: duffel-syndiemed_2
       sprite: {fileID: 21300004, guid: d96f397a1d7cb0a4d94de91ce709d713, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: duffel-syndiemed_3
+    - spriteName: duffel-syndiemed_3
       sprite: {fileID: 21300006, guid: d96f397a1d7cb0a4d94de91ce709d713, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 368

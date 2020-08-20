@@ -14,50 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bluestream_fade_0
+    - spriteName: bluestream_fade_0
       sprite: {fileID: 21300000, guid: cd34db0dd78f82c4b859d5a48cdcf77c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bluestream_fade_1
+      AtlasUsing: 0
+    - spriteName: bluestream_fade_1
       sprite: {fileID: 21300002, guid: cd34db0dd78f82c4b859d5a48cdcf77c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bluestream_fade_2
+      AtlasUsing: 0
+    - spriteName: bluestream_fade_2
       sprite: {fileID: 21300004, guid: cd34db0dd78f82c4b859d5a48cdcf77c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bluestream_fade_3
+      AtlasUsing: 0
+    - spriteName: bluestream_fade_3
       sprite: {fileID: 21300006, guid: cd34db0dd78f82c4b859d5a48cdcf77c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bluestream_fade_4
+      AtlasUsing: 0
+    - spriteName: bluestream_fade_4
       sprite: {fileID: 21300008, guid: cd34db0dd78f82c4b859d5a48cdcf77c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bluestream_fade_5
+      AtlasUsing: 0
+    - spriteName: bluestream_fade_5
       sprite: {fileID: 21300010, guid: cd34db0dd78f82c4b859d5a48cdcf77c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bluestream_fade_6
+      AtlasUsing: 0
+    - spriteName: bluestream_fade_6
       sprite: {fileID: 21300012, guid: cd34db0dd78f82c4b859d5a48cdcf77c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bluestream_fade_7
+      AtlasUsing: 0
+    - spriteName: bluestream_fade_7
       sprite: {fileID: 21300014, guid: cd34db0dd78f82c4b859d5a48cdcf77c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: bluestream_fade_8
+      AtlasUsing: 0
+    - spriteName: bluestream_fade_8
       sprite: {fileID: 21300016, guid: cd34db0dd78f82c4b859d5a48cdcf77c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1427

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6d63f4c4c7cb66942bd131279e2e935f, type: 3}
+    - spriteName: mecha_equipment_mecha_carbine
+      sprite: {fileID: 21300000, guid: 6d63f4c4c7cb66942bd131279e2e935f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8189

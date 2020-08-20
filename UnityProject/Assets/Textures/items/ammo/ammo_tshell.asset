@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8360e9a0cf974be498c562f4afdcabe2, type: 3}
+    - spriteName: ammo_tshell
+      sprite: {fileID: 21300000, guid: 8360e9a0cf974be498c562f4afdcabe2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4630

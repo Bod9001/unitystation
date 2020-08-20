@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 306086320f93f9a468b7812a7b98e7f4, type: 3}
+    - spriteName: clockwork_objects_judicial_visor_0
+      sprite: {fileID: 21300000, guid: 306086320f93f9a468b7812a7b98e7f4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5493

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blackpants_0
+    - spriteName: blackpants_0
       sprite: {fileID: 21300000, guid: 71a7200de9c7ebe45bde55b15a7a1641, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blackpants_1
+    - spriteName: blackpants_1
       sprite: {fileID: 21300002, guid: 71a7200de9c7ebe45bde55b15a7a1641, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blackpants_2
+    - spriteName: blackpants_2
       sprite: {fileID: 21300004, guid: 71a7200de9c7ebe45bde55b15a7a1641, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blackpants_3
+    - spriteName: blackpants_3
       sprite: {fileID: 21300006, guid: 71a7200de9c7ebe45bde55b15a7a1641, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21384

@@ -14,200 +14,168 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_0
+    - spriteName: candyon_0
       sprite: {fileID: -750583694876826310, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_4
+      AtlasUsing: 0
+    - spriteName: candyon_4
       sprite: {fileID: -8450468858253359429, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_8
+      AtlasUsing: 0
+    - spriteName: candyon_8
       sprite: {fileID: 5323112039790613053, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_12
+      AtlasUsing: 0
+    - spriteName: candyon_12
       sprite: {fileID: 3764347298357209921, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_16
+      AtlasUsing: 0
+    - spriteName: candyon_16
       sprite: {fileID: -5973959001111754243, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_20
+      AtlasUsing: 0
+    - spriteName: candyon_20
       sprite: {fileID: -8724839078210076637, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_24
+      AtlasUsing: 0
+    - spriteName: candyon_24
       sprite: {fileID: 6614511559516292464, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_28
+      AtlasUsing: 0
+    - spriteName: candyon_28
       sprite: {fileID: -3724710993048635343, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_1
+    - spriteName: candyon_1
       sprite: {fileID: -8868853374480848284, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_5
+      AtlasUsing: 0
+    - spriteName: candyon_5
       sprite: {fileID: -1036578993010174390, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_9
+      AtlasUsing: 0
+    - spriteName: candyon_9
       sprite: {fileID: -122606527140537621, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_13
+      AtlasUsing: 0
+    - spriteName: candyon_13
       sprite: {fileID: 7050284692848197739, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_17
+      AtlasUsing: 0
+    - spriteName: candyon_17
       sprite: {fileID: 1400350342503527191, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_21
+      AtlasUsing: 0
+    - spriteName: candyon_21
       sprite: {fileID: 1912107186640086106, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_25
+      AtlasUsing: 0
+    - spriteName: candyon_25
       sprite: {fileID: 4240414606568168229, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_29
+      AtlasUsing: 0
+    - spriteName: candyon_29
       sprite: {fileID: -6792449650507359820, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_2
+    - spriteName: candyon_2
       sprite: {fileID: 2017778225651520738, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_6
+      AtlasUsing: 0
+    - spriteName: candyon_6
       sprite: {fileID: 5392009605959200376, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_10
+      AtlasUsing: 0
+    - spriteName: candyon_10
       sprite: {fileID: 7050834184446720330, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_14
+      AtlasUsing: 0
+    - spriteName: candyon_14
       sprite: {fileID: -8039408101334643881, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_18
+      AtlasUsing: 0
+    - spriteName: candyon_18
       sprite: {fileID: -7322289092541138327, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_22
+      AtlasUsing: 0
+    - spriteName: candyon_22
       sprite: {fileID: 2566520963900314185, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_26
+      AtlasUsing: 0
+    - spriteName: candyon_26
       sprite: {fileID: -4403390943114745908, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_30
+      AtlasUsing: 0
+    - spriteName: candyon_30
       sprite: {fileID: 3917132787883497952, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_3
+    - spriteName: candyon_3
       sprite: {fileID: 6483377790443901095, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_7
+      AtlasUsing: 0
+    - spriteName: candyon_7
       sprite: {fileID: 4472013596362277469, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_11
+      AtlasUsing: 0
+    - spriteName: candyon_11
       sprite: {fileID: 8792613112153128078, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_15
+      AtlasUsing: 0
+    - spriteName: candyon_15
       sprite: {fileID: 2295683037832250449, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_19
+      AtlasUsing: 0
+    - spriteName: candyon_19
       sprite: {fileID: 841527301703712106, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_23
+      AtlasUsing: 0
+    - spriteName: candyon_23
       sprite: {fileID: -8989307304128727495, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_27
+      AtlasUsing: 0
+    - spriteName: candyon_27
       sprite: {fileID: -7213084828594682715, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: candyon_31
+      AtlasUsing: 0
+    - spriteName: candyon_31
       sprite: {fileID: 8417045666698822594, guid: eeb82c287082d944687d89c432d20b44,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22985

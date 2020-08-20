@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: webbing_0
+    - spriteName: webbing_0
       sprite: {fileID: 21300000, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: webbing_1
+    - spriteName: webbing_1
       sprite: {fileID: 21300002, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: webbing_2
+    - spriteName: webbing_2
       sprite: {fileID: 21300004, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: webbing_3
+    - spriteName: webbing_3
       sprite: {fileID: 21300006, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 251

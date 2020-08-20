@@ -14,15 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
+    - spriteName: nucgun_fail_0_0
+      sprite: {fileID: 21300000, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300002, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
+      AtlasUsing: 0
+    - spriteName: nucgun_fail_0_1
+      sprite: {fileID: 21300002, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300004, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
+      AtlasUsing: 0
+    - spriteName: nucgun_fail_0_2
+      sprite: {fileID: 21300004, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300006, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
+      AtlasUsing: 0
+    - spriteName: nucgun_fail_0_3
+      sprite: {fileID: 21300006, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
+      AtlasUsing: 0
+    - spriteName: nucgun_fail_0_4
+      sprite: {fileID: 21300008, guid: b648e011e7690ea4eabfd4e5707fe63e, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7396

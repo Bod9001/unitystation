@@ -14,24 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
+    - spriteName: ocular_warden_unwrenched_0
+      sprite: {fileID: 21300000, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
       secondDelay: 1
-    - sprite: {fileID: 21300008, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
+      AtlasUsing: 0
+    - spriteName: ocular_warden_unwrenched_4
+      sprite: {fileID: 21300008, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
+    - spriteName: ocular_warden_unwrenched_1
+      sprite: {fileID: 21300002, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
       secondDelay: 1
-    - sprite: {fileID: 21300010, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
+      AtlasUsing: 0
+    - spriteName: ocular_warden_unwrenched_5
+      sprite: {fileID: 21300010, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
+    - spriteName: ocular_warden_unwrenched_2
+      sprite: {fileID: 21300004, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
       secondDelay: 1
-    - sprite: {fileID: 21300012, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
+      AtlasUsing: 0
+    - spriteName: ocular_warden_unwrenched_6
+      sprite: {fileID: 21300012, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
+    - spriteName: ocular_warden_unwrenched_3
+      sprite: {fileID: 21300006, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
       secondDelay: 1
-    - sprite: {fileID: 21300014, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
+      AtlasUsing: 0
+    - spriteName: ocular_warden_unwrenched_7
+      sprite: {fileID: 21300014, guid: 32161ed7dc09ad3408b6ea5eec31e2b9, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5507

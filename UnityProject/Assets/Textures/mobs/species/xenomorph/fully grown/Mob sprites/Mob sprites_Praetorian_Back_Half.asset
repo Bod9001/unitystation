@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 40c169ff0d890f1419d4dcc550ed78fb, type: 3}
+    - spriteName: Praetorian_Back_Half_0
+      sprite: {fileID: 21300000, guid: 40c169ff0d890f1419d4dcc550ed78fb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 40c169ff0d890f1419d4dcc550ed78fb, type: 3}
+    - spriteName: Praetorian_Back_Half_1
+      sprite: {fileID: 21300002, guid: 40c169ff0d890f1419d4dcc550ed78fb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 40c169ff0d890f1419d4dcc550ed78fb, type: 3}
+    - spriteName: Praetorian_Back_Half_2
+      sprite: {fileID: 21300004, guid: 40c169ff0d890f1419d4dcc550ed78fb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 40c169ff0d890f1419d4dcc550ed78fb, type: 3}
+    - spriteName: Praetorian_Back_Half_3
+      sprite: {fileID: 21300006, guid: 40c169ff0d890f1419d4dcc550ed78fb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12748

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b23b221dd1e92ff4ead88910f73c10cd, type: 3}
+    - spriteName: vomit_vomit_1
+      sprite: {fileID: 21300000, guid: b23b221dd1e92ff4ead88910f73c10cd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10994

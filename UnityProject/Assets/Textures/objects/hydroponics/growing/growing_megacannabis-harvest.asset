@@ -14,23 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 2271194230493385335, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
+    - spriteName: megacannabis-harvest_0
+      sprite: {fileID: 2271194230493385335, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -2487127142305408914, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
+      AtlasUsing: 0
+    - spriteName: megacannabis-harvest_1
+      sprite: {fileID: -2487127142305408914, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -4401924610618428265, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
+      AtlasUsing: 0
+    - spriteName: megacannabis-harvest_2
+      sprite: {fileID: -4401924610618428265, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -5416178128048673814, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
+      AtlasUsing: 0
+    - spriteName: megacannabis-harvest_3
+      sprite: {fileID: -5416178128048673814, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 8416195929775280776, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
+      AtlasUsing: 0
+    - spriteName: megacannabis-harvest_4
+      sprite: {fileID: 8416195929775280776, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 8581163739486645557, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
+      AtlasUsing: 0
+    - spriteName: megacannabis-harvest_5
+      sprite: {fileID: 8581163739486645557, guid: 5cba3eb70c8be6848b364a847a5b3c6a,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22743

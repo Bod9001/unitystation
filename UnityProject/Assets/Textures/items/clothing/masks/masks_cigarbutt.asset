@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 76f3942be6c5a3c4d85b507c28d8f5fe, type: 3}
+    - spriteName: masks_cigarbutt
+      sprite: {fileID: 21300000, guid: 76f3942be6c5a3c4d85b507c28d8f5fe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5832

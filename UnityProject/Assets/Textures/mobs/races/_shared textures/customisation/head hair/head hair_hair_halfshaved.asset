@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ab0886243a9219b4599fa4f41e9b7ba8, type: 3}
+    - spriteName: hair_halfshaved_0
+      sprite: {fileID: 21300000, guid: ab0886243a9219b4599fa4f41e9b7ba8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: ab0886243a9219b4599fa4f41e9b7ba8, type: 3}
+    - spriteName: hair_halfshaved_1
+      sprite: {fileID: 21300002, guid: ab0886243a9219b4599fa4f41e9b7ba8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: ab0886243a9219b4599fa4f41e9b7ba8, type: 3}
+    - spriteName: hair_halfshaved_2
+      sprite: {fileID: 21300004, guid: ab0886243a9219b4599fa4f41e9b7ba8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: ab0886243a9219b4599fa4f41e9b7ba8, type: 3}
+    - spriteName: hair_halfshaved_3
+      sprite: {fileID: 21300006, guid: ab0886243a9219b4599fa4f41e9b7ba8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21963

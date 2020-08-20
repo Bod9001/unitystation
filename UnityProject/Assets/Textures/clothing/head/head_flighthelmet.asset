@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: flighthelmet_0
+    - spriteName: flighthelmet_0
       sprite: {fileID: 21300000, guid: 7e4d80912355a9e43a6c85ede7db18c8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: flighthelmet_1
+    - spriteName: flighthelmet_1
       sprite: {fileID: 21300002, guid: 7e4d80912355a9e43a6c85ede7db18c8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: flighthelmet_2
+    - spriteName: flighthelmet_2
       sprite: {fileID: 21300004, guid: 7e4d80912355a9e43a6c85ede7db18c8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: flighthelmet_3
+    - spriteName: flighthelmet_3
       sprite: {fileID: 21300006, guid: 7e4d80912355a9e43a6c85ede7db18c8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 597

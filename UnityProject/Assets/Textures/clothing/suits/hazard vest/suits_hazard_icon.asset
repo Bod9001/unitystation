@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: suits_hazard_icon
+    - spriteName: suits_hazard_icon
       sprite: {fileID: 21300000, guid: e3c5e0a6597e58d46a1e339f49feb0a1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20956

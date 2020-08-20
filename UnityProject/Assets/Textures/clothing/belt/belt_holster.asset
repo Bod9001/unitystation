@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holster_0
+    - spriteName: holster_0
       sprite: {fileID: 21300000, guid: 41abe617e1cba164f8a1cd408ac49432, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holster_1
+    - spriteName: holster_1
       sprite: {fileID: 21300002, guid: 41abe617e1cba164f8a1cd408ac49432, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holster_2
+    - spriteName: holster_2
       sprite: {fileID: 21300004, guid: 41abe617e1cba164f8a1cd408ac49432, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holster_3
+    - spriteName: holster_3
       sprite: {fileID: 21300006, guid: 41abe617e1cba164f8a1cd408ac49432, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 414

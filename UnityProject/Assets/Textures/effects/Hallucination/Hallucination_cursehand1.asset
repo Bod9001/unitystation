@@ -14,308 +14,248 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_0
+    - spriteName: cursehand1_0
       sprite: {fileID: 21300000, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_4
+      AtlasUsing: 0
+    - spriteName: cursehand1_4
       sprite: {fileID: 21300008, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_8
+      AtlasUsing: 0
+    - spriteName: cursehand1_8
       sprite: {fileID: 21300016, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_12
+      AtlasUsing: 0
+    - spriteName: cursehand1_12
       sprite: {fileID: 21300024, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_16
+      AtlasUsing: 0
+    - spriteName: cursehand1_16
       sprite: {fileID: 21300032, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_20
+      AtlasUsing: 0
+    - spriteName: cursehand1_20
       sprite: {fileID: 21300040, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_24
+      AtlasUsing: 0
+    - spriteName: cursehand1_24
       sprite: {fileID: 21300048, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_28
+      AtlasUsing: 0
+    - spriteName: cursehand1_28
       sprite: {fileID: 21300056, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_32
+      AtlasUsing: 0
+    - spriteName: cursehand1_32
       sprite: {fileID: 21300064, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_36
+      AtlasUsing: 0
+    - spriteName: cursehand1_36
       sprite: {fileID: 21300072, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_40
+      AtlasUsing: 0
+    - spriteName: cursehand1_40
       sprite: {fileID: 21300080, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_44
+      AtlasUsing: 0
+    - spriteName: cursehand1_44
       sprite: {fileID: 21300088, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_48
+      AtlasUsing: 0
+    - spriteName: cursehand1_48
       sprite: {fileID: 21300096, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_52
+      AtlasUsing: 0
+    - spriteName: cursehand1_52
       sprite: {fileID: 21300104, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_56
+      AtlasUsing: 0
+    - spriteName: cursehand1_56
       sprite: {fileID: 21300112, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_1
+    - spriteName: cursehand1_1
       sprite: {fileID: 21300002, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_5
+      AtlasUsing: 0
+    - spriteName: cursehand1_5
       sprite: {fileID: 21300010, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_9
+      AtlasUsing: 0
+    - spriteName: cursehand1_9
       sprite: {fileID: 21300018, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_13
+      AtlasUsing: 0
+    - spriteName: cursehand1_13
       sprite: {fileID: 21300026, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_17
+      AtlasUsing: 0
+    - spriteName: cursehand1_17
       sprite: {fileID: 21300034, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_21
+      AtlasUsing: 0
+    - spriteName: cursehand1_21
       sprite: {fileID: 21300042, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_25
+      AtlasUsing: 0
+    - spriteName: cursehand1_25
       sprite: {fileID: 21300050, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_29
+      AtlasUsing: 0
+    - spriteName: cursehand1_29
       sprite: {fileID: 21300058, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_33
+      AtlasUsing: 0
+    - spriteName: cursehand1_33
       sprite: {fileID: 21300066, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_37
+      AtlasUsing: 0
+    - spriteName: cursehand1_37
       sprite: {fileID: 21300074, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_41
+      AtlasUsing: 0
+    - spriteName: cursehand1_41
       sprite: {fileID: 21300082, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_45
+      AtlasUsing: 0
+    - spriteName: cursehand1_45
       sprite: {fileID: 21300090, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_49
+      AtlasUsing: 0
+    - spriteName: cursehand1_49
       sprite: {fileID: 21300098, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_53
+      AtlasUsing: 0
+    - spriteName: cursehand1_53
       sprite: {fileID: 21300106, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_57
+      AtlasUsing: 0
+    - spriteName: cursehand1_57
       sprite: {fileID: 21300114, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_2
+    - spriteName: cursehand1_2
       sprite: {fileID: 21300004, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_6
+      AtlasUsing: 0
+    - spriteName: cursehand1_6
       sprite: {fileID: 21300012, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_10
+      AtlasUsing: 0
+    - spriteName: cursehand1_10
       sprite: {fileID: 21300020, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_14
+      AtlasUsing: 0
+    - spriteName: cursehand1_14
       sprite: {fileID: 21300028, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_18
+      AtlasUsing: 0
+    - spriteName: cursehand1_18
       sprite: {fileID: 21300036, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_22
+      AtlasUsing: 0
+    - spriteName: cursehand1_22
       sprite: {fileID: 21300044, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_26
+      AtlasUsing: 0
+    - spriteName: cursehand1_26
       sprite: {fileID: 21300052, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_30
+      AtlasUsing: 0
+    - spriteName: cursehand1_30
       sprite: {fileID: 21300060, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_34
+      AtlasUsing: 0
+    - spriteName: cursehand1_34
       sprite: {fileID: 21300068, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_38
+      AtlasUsing: 0
+    - spriteName: cursehand1_38
       sprite: {fileID: 21300076, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_42
+      AtlasUsing: 0
+    - spriteName: cursehand1_42
       sprite: {fileID: 21300084, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_46
+      AtlasUsing: 0
+    - spriteName: cursehand1_46
       sprite: {fileID: 21300092, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_50
+      AtlasUsing: 0
+    - spriteName: cursehand1_50
       sprite: {fileID: 21300100, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_54
+      AtlasUsing: 0
+    - spriteName: cursehand1_54
       sprite: {fileID: 21300108, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_58
+      AtlasUsing: 0
+    - spriteName: cursehand1_58
       sprite: {fileID: 21300116, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_3
+    - spriteName: cursehand1_3
       sprite: {fileID: 21300006, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_7
+      AtlasUsing: 0
+    - spriteName: cursehand1_7
       sprite: {fileID: 21300014, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_11
+      AtlasUsing: 0
+    - spriteName: cursehand1_11
       sprite: {fileID: 21300022, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_15
+      AtlasUsing: 0
+    - spriteName: cursehand1_15
       sprite: {fileID: 21300030, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_19
+      AtlasUsing: 0
+    - spriteName: cursehand1_19
       sprite: {fileID: 21300038, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_23
+      AtlasUsing: 0
+    - spriteName: cursehand1_23
       sprite: {fileID: 21300046, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_27
+      AtlasUsing: 0
+    - spriteName: cursehand1_27
       sprite: {fileID: 21300054, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_31
+      AtlasUsing: 0
+    - spriteName: cursehand1_31
       sprite: {fileID: 21300062, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_35
+      AtlasUsing: 0
+    - spriteName: cursehand1_35
       sprite: {fileID: 21300070, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_39
+      AtlasUsing: 0
+    - spriteName: cursehand1_39
       sprite: {fileID: 21300078, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_43
+      AtlasUsing: 0
+    - spriteName: cursehand1_43
       sprite: {fileID: 21300086, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_47
+      AtlasUsing: 0
+    - spriteName: cursehand1_47
       sprite: {fileID: 21300094, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_51
+      AtlasUsing: 0
+    - spriteName: cursehand1_51
       sprite: {fileID: 21300102, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_55
+      AtlasUsing: 0
+    - spriteName: cursehand1_55
       sprite: {fileID: 21300110, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cursehand1_59
+      AtlasUsing: 0
+    - spriteName: cursehand1_59
       sprite: {fileID: 21300118, guid: 486bfc394ff012d44b8f7aafc3770232, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1328

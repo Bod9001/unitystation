@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: suits_coathydro_t_icon
+    - spriteName: suits_coathydro_t_icon
       sprite: {fileID: 21300000, guid: 17d5e7b7d9b59f64e9047cbe3b0a5a46, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21213

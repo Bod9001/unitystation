@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 251f7dc5d050a8149a6b7fd6c4cb8188, type: 3}
+    - spriteName: storage_welderpack
+      sprite: {fileID: 21300000, guid: 251f7dc5d050a8149a6b7fd6c4cb8188, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9018

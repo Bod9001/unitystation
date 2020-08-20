@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1645926001aef29409c4dcfc04d8c55d, type: 3}
+    - spriteName: mining_goliath_hide
+      sprite: {fileID: 21300000, guid: 1645926001aef29409c4dcfc04d8c55d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8286

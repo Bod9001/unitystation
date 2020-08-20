@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpet_purple_damaged
+    - spriteName: carpet_purple_damaged
       sprite: {fileID: 21300000, guid: a448ff26d0acfb645ae52af6456342ad, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1707

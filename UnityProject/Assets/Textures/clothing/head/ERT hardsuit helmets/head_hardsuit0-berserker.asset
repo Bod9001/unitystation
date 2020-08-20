@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-berserker_0
+    - spriteName: hardsuit0-berserker_0
       sprite: {fileID: -7654729394147594981, guid: eec66656085402749a33eb68646d8c7c,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-berserker_1
+    - spriteName: hardsuit0-berserker_1
       sprite: {fileID: 308621974527752095, guid: eec66656085402749a33eb68646d8c7c,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-berserker_2
+    - spriteName: hardsuit0-berserker_2
       sprite: {fileID: 9027595769824970751, guid: eec66656085402749a33eb68646d8c7c,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-berserker_3
+    - spriteName: hardsuit0-berserker_3
       sprite: {fileID: 2968897241115968451, guid: eec66656085402749a33eb68646d8c7c,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20283

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7c3a1845046a96a4cac8ab536520ca03, type: 3}
+    - spriteName: 1x4blast_vert_pdoor0
+      sprite: {fileID: 21300000, guid: 7c3a1845046a96a4cac8ab536520ca03, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13741

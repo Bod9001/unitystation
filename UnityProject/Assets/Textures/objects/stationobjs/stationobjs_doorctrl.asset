@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: acf88d35ee6536c4fb4bfe32fd85ab99, type: 3}
+    - spriteName: stationobjs_doorctrl
+      sprite: {fileID: 21300000, guid: acf88d35ee6536c4fb4bfe32fd85ab99, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17024

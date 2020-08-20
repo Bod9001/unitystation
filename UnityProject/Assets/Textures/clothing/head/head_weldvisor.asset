@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: weldvisor_0
+    - spriteName: weldvisor_0
       sprite: {fileID: 21300000, guid: 4d5bfa6005a5df54d807c8e9d34e5b89, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: weldvisor_1
+    - spriteName: weldvisor_1
       sprite: {fileID: 21300002, guid: 4d5bfa6005a5df54d807c8e9d34e5b89, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: weldvisor_2
+    - spriteName: weldvisor_2
       sprite: {fileID: 21300004, guid: 4d5bfa6005a5df54d807c8e9d34e5b89, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: weldvisor_3
+    - spriteName: weldvisor_3
       sprite: {fileID: 21300006, guid: 4d5bfa6005a5df54d807c8e9d34e5b89, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 712

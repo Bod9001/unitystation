@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a73a668fedeb8aa41a76266fcdbcf8f6, type: 3}
+    - spriteName: blazaamglass_0
+      sprite: {fileID: 21300000, guid: a73a668fedeb8aa41a76266fcdbcf8f6, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300002, guid: a73a668fedeb8aa41a76266fcdbcf8f6, type: 3}
+      AtlasUsing: 0
+    - spriteName: blazaamglass_1
+      sprite: {fileID: 21300002, guid: a73a668fedeb8aa41a76266fcdbcf8f6, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: a73a668fedeb8aa41a76266fcdbcf8f6, type: 3}
+      AtlasUsing: 0
+    - spriteName: blazaamglass_2
+      sprite: {fileID: 21300004, guid: a73a668fedeb8aa41a76266fcdbcf8f6, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: a73a668fedeb8aa41a76266fcdbcf8f6, type: 3}
+      AtlasUsing: 0
+    - spriteName: blazaamglass_3
+      sprite: {fileID: 21300006, guid: a73a668fedeb8aa41a76266fcdbcf8f6, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6430

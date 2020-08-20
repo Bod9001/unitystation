@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blueshift_0
+    - spriteName: blueshift_0
       sprite: {fileID: 21300000, guid: f10813b533a64924aae3d6e66e3cc7c0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blueshift_1
+    - spriteName: blueshift_1
       sprite: {fileID: 21300002, guid: f10813b533a64924aae3d6e66e3cc7c0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blueshift_2
+    - spriteName: blueshift_2
       sprite: {fileID: 21300004, guid: f10813b533a64924aae3d6e66e3cc7c0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blueshift_3
+    - spriteName: blueshift_3
       sprite: {fileID: 21300006, guid: f10813b533a64924aae3d6e66e3cc7c0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20800

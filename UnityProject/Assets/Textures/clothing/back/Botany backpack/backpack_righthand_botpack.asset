@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: botpack_0
+    - spriteName: botpack_0
       sprite: {fileID: -797767137846081541, guid: 2f05f69c819ec8246a5b3eaad3f4b95b,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: botpack_1
+    - spriteName: botpack_1
       sprite: {fileID: -2125664072945231307, guid: 2f05f69c819ec8246a5b3eaad3f4b95b,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: botpack_2
+    - spriteName: botpack_2
       sprite: {fileID: -7332594712487980459, guid: 2f05f69c819ec8246a5b3eaad3f4b95b,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: botpack_3
+    - spriteName: botpack_3
       sprite: {fileID: -7846733449988206479, guid: 2f05f69c819ec8246a5b3eaad3f4b95b,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19701

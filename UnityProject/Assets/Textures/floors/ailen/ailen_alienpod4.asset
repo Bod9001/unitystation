@@ -14,35 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: alienpod4_0
+    - spriteName: alienpod4_0
       sprite: {fileID: 21300000, guid: f5f06a78520c6ac4c82ecdd675d1b04c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: alienpod4_1
+      AtlasUsing: 0
+    - spriteName: alienpod4_1
       sprite: {fileID: 21300002, guid: f5f06a78520c6ac4c82ecdd675d1b04c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: alienpod4_2
+      AtlasUsing: 0
+    - spriteName: alienpod4_2
       sprite: {fileID: 21300004, guid: f5f06a78520c6ac4c82ecdd675d1b04c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: alienpod4_3
+      AtlasUsing: 0
+    - spriteName: alienpod4_3
       sprite: {fileID: 21300006, guid: f5f06a78520c6ac4c82ecdd675d1b04c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: alienpod4_4
+      AtlasUsing: 0
+    - spriteName: alienpod4_4
       sprite: {fileID: 21300008, guid: f5f06a78520c6ac4c82ecdd675d1b04c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: alienpod4_5
+      AtlasUsing: 0
+    - spriteName: alienpod4_5
       sprite: {fileID: 21300010, guid: f5f06a78520c6ac4c82ecdd675d1b04c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1491

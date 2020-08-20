@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f1029a915a3abf54691d94c2758fcbc1, type: 3}
+    - spriteName: clockwork_objects_wall_gear
+      sprite: {fileID: 21300000, guid: f1029a915a3abf54691d94c2758fcbc1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5555

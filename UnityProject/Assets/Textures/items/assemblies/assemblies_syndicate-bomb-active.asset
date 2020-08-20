@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b656450742d3ca54e9bdfe8db7a890b6, type: 3}
+    - spriteName: syndicate-bomb-active_0
+      sprite: {fileID: 21300000, guid: b656450742d3ca54e9bdfe8db7a890b6, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300002, guid: b656450742d3ca54e9bdfe8db7a890b6, type: 3}
+      AtlasUsing: 0
+    - spriteName: syndicate-bomb-active_1
+      sprite: {fileID: 21300002, guid: b656450742d3ca54e9bdfe8db7a890b6, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: b656450742d3ca54e9bdfe8db7a890b6, type: 3}
+      AtlasUsing: 0
+    - spriteName: syndicate-bomb-active_2
+      sprite: {fileID: 21300004, guid: b656450742d3ca54e9bdfe8db7a890b6, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4740

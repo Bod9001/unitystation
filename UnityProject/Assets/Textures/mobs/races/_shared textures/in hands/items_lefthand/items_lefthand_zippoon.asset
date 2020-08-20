@@ -14,56 +14,104 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+    - spriteName: zippoon_0
+      sprite: {fileID: 21300000, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_4
+      sprite: {fileID: 21300008, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_8
+      sprite: {fileID: 21300016, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_12
+      sprite: {fileID: 21300024, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_16
+      sprite: {fileID: 21300032, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_20
+      sprite: {fileID: 21300040, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+    - spriteName: zippoon_1
+      sprite: {fileID: 21300002, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_5
+      sprite: {fileID: 21300010, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_9
+      sprite: {fileID: 21300018, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_13
+      sprite: {fileID: 21300026, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_17
+      sprite: {fileID: 21300034, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_21
+      sprite: {fileID: 21300042, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+    - spriteName: zippoon_2
+      sprite: {fileID: 21300004, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_6
+      sprite: {fileID: 21300012, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_10
+      sprite: {fileID: 21300020, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_14
+      sprite: {fileID: 21300028, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_18
+      sprite: {fileID: 21300036, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_22
+      sprite: {fileID: 21300044, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+    - spriteName: zippoon_3
+      sprite: {fileID: 21300006, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_7
+      sprite: {fileID: 21300014, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_11
+      sprite: {fileID: 21300022, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_15
+      sprite: {fileID: 21300030, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_19
+      sprite: {fileID: 21300038, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
+      AtlasUsing: 0
+    - spriteName: zippoon_23
+      sprite: {fileID: 21300046, guid: 0726ac2f708f61245bce203b0127023c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10345

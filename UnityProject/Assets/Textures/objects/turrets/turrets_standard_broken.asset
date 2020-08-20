@@ -14,28 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
+    - spriteName: standard_broken_0
+      sprite: {fileID: 21300000, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
+    - spriteName: standard_broken_1
+      sprite: {fileID: 21300002, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
+    - spriteName: standard_broken_2
+      sprite: {fileID: 21300004, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
+    - spriteName: standard_broken_3
+      sprite: {fileID: 21300006, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300008, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
+    - spriteName: standard_broken_4
+      sprite: {fileID: 21300008, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300010, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
+    - spriteName: standard_broken_5
+      sprite: {fileID: 21300010, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300012, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
+    - spriteName: standard_broken_6
+      sprite: {fileID: 21300012, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300014, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
+    - spriteName: standard_broken_7
+      sprite: {fileID: 21300014, guid: 16bcf38da706bfb4d97135024d62cdc7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17648

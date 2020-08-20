@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-gen_0
+    - spriteName: satchel-gen_0
       sprite: {fileID: -336582166620142405, guid: 7f26066cf1b3142419fdbedb416c8369,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-gen_1
+    - spriteName: satchel-gen_1
       sprite: {fileID: -1841511820623831011, guid: 7f26066cf1b3142419fdbedb416c8369,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-gen_2
+    - spriteName: satchel-gen_2
       sprite: {fileID: 5408296631192977514, guid: 7f26066cf1b3142419fdbedb416c8369,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-gen_3
+    - spriteName: satchel-gen_3
       sprite: {fileID: 3890406501612894294, guid: 7f26066cf1b3142419fdbedb416c8369,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19753

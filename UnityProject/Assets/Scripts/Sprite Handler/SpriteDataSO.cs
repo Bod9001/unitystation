@@ -27,38 +27,42 @@ public class SpriteDataSO : ScriptableObject
 	[System.Serializable]
 	public class Frame
 	{
-		public AssetReferenceAtlasedSprite singleSpriteReference;
+		public string spriteName;
 		public Sprite sprite;
 		public float secondDelay;
+		public AddressableSpritesHandler.Atlas AtlasUsing;
+
+
 
 		private Action CompleteReturn;
 
 		public void LoadAddressableReference(Action OnCompleteAction)
 		{
+			//AtlasReference.Instance.Clothes.CanBindTo()
 			CompleteReturn = OnCompleteAction;
 			if (Application.isPlaying == false)
 			{
 #if UNITY_EDITOR
-				sprite = singleSpriteReference.editorAsset.GetSprite(singleSpriteReference.SubObjectName);
+				//sprite = singleSpriteReference.editorAsset.GetSprite(singleSpriteReference.SubObjectName);
 				CompleteReturn.Invoke();
 				return;
 
 
 				//Finds the The same sprite in the asset database By name, then loads it and then pick the correct one
-				var path = AssetDatabase.GUIDToAssetPath(
-					AssetDatabase.FindAssets(singleSpriteReference.SubObjectName)[0]);
-				var Sprites = AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().ToArray();
-				if (Sprites.Length > 1)
-				{
-					Sprites = Sprites.OrderBy(x => int.Parse(x.name.Substring(x.name.LastIndexOf('_') + 1))).ToArray();
-				}
+			//	var path = AssetDatabase.GUIDToAssetPath(
+			//		AssetDatabase.FindAssets(singleSpriteReference.SubObjectName)[0]);
+			//	var Sprites = AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().ToArray();
+			//	if (Sprites.Length > 1)
+			//	{
+			//		Sprites = Sprites.OrderBy(x => int.Parse(x.name.Substring(x.name.LastIndexOf('_') + 1))).ToArray();
+			//	}
 
-				sprite = Sprites.First(x => x.name == singleSpriteReference.SubObjectName);
+			//	sprite = Sprites.First(x => x.name == singleSpriteReference.SubObjectName);
 #endif
 			}
 			else
 			{
-				singleSpriteReference.LoadAssetAsync<Sprite>().Completed += LoadSprite;
+			//	singleSpriteReference.LoadAssetAsync<Sprite>().Completed += LoadSprite;
 			}
 		}
 

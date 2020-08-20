@@ -14,40 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+    - spriteName: janitor_0
+      sprite: {fileID: 21300000, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_4
+      sprite: {fileID: 21300008, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_8
+      sprite: {fileID: 21300016, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_12
+      sprite: {fileID: 21300024, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+    - spriteName: janitor_1
+      sprite: {fileID: 21300002, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_5
+      sprite: {fileID: 21300010, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_9
+      sprite: {fileID: 21300018, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_13
+      sprite: {fileID: 21300026, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+    - spriteName: janitor_2
+      sprite: {fileID: 21300004, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_6
+      sprite: {fileID: 21300012, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_10
+      sprite: {fileID: 21300020, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_14
+      sprite: {fileID: 21300028, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+    - spriteName: janitor_3
+      sprite: {fileID: 21300006, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_7
+      sprite: {fileID: 21300014, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_11
+      sprite: {fileID: 21300022, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
+      AtlasUsing: 0
+    - spriteName: janitor_15
+      sprite: {fileID: 21300030, guid: 5d2fcd45828b6234591711b3a0352d3c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11594

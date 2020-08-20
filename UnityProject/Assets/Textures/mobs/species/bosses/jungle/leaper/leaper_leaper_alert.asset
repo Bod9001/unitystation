@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
+    - spriteName: leaper_alert_0
+      sprite: {fileID: 21300000, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
+    - spriteName: leaper_alert_1
+      sprite: {fileID: 21300002, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
+    - spriteName: leaper_alert_2
+      sprite: {fileID: 21300004, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
+    - spriteName: leaper_alert_3
+      sprite: {fileID: 21300006, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12001

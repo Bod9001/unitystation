@@ -14,29 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -5735678612994900929, guid: d3bd2eff52d196f468f7973d11c6344a,
+    - spriteName: nt-donk_0
+      sprite: {fileID: -5735678612994900929, guid: d3bd2eff52d196f468f7973d11c6344a,
         type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: -6431184454578801888, guid: d3bd2eff52d196f468f7973d11c6344a,
+      AtlasUsing: 0
+    - spriteName: nt-donk_1
+      sprite: {fileID: -6431184454578801888, guid: d3bd2eff52d196f468f7973d11c6344a,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -9038464573195087099, guid: d3bd2eff52d196f468f7973d11c6344a,
+      AtlasUsing: 0
+    - spriteName: nt-donk_2
+      sprite: {fileID: -9038464573195087099, guid: d3bd2eff52d196f468f7973d11c6344a,
         type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 337500836987132712, guid: d3bd2eff52d196f468f7973d11c6344a,
+      AtlasUsing: 0
+    - spriteName: nt-donk_3
+      sprite: {fileID: 337500836987132712, guid: d3bd2eff52d196f468f7973d11c6344a,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -7284667045233097400, guid: d3bd2eff52d196f468f7973d11c6344a,
+      AtlasUsing: 0
+    - spriteName: nt-donk_4
+      sprite: {fileID: -7284667045233097400, guid: d3bd2eff52d196f468f7973d11c6344a,
         type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 3208453565778128371, guid: d3bd2eff52d196f468f7973d11c6344a,
+      AtlasUsing: 0
+    - spriteName: nt-donk_5
+      sprite: {fileID: 3208453565778128371, guid: d3bd2eff52d196f468f7973d11c6344a,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 8829329491802084809, guid: d3bd2eff52d196f468f7973d11c6344a,
+      AtlasUsing: 0
+    - spriteName: nt-donk_6
+      sprite: {fileID: 8829329491802084809, guid: d3bd2eff52d196f468f7973d11c6344a,
         type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 6103931842333238776, guid: d3bd2eff52d196f468f7973d11c6344a,
+      AtlasUsing: 0
+    - spriteName: nt-donk_7
+      sprite: {fileID: 6103931842333238776, guid: d3bd2eff52d196f468f7973d11c6344a,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17821

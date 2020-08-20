@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b2fb9fd6c80d80c4cba2d1a9f274228d, type: 3}
+    - spriteName: stack_objects_sheet-glass
+      sprite: {fileID: 21300000, guid: b2fb9fd6c80d80c4cba2d1a9f274228d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8778

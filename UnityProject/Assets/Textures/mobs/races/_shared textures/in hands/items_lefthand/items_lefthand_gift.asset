@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 027a887f8f77f92489c206b4be303196, type: 3}
+    - spriteName: gift_0
+      sprite: {fileID: 21300000, guid: 027a887f8f77f92489c206b4be303196, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 027a887f8f77f92489c206b4be303196, type: 3}
+    - spriteName: gift_1
+      sprite: {fileID: 21300002, guid: 027a887f8f77f92489c206b4be303196, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 027a887f8f77f92489c206b4be303196, type: 3}
+    - spriteName: gift_2
+      sprite: {fileID: 21300004, guid: 027a887f8f77f92489c206b4be303196, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 027a887f8f77f92489c206b4be303196, type: 3}
+    - spriteName: gift_3
+      sprite: {fileID: 21300006, guid: 027a887f8f77f92489c206b4be303196, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10320

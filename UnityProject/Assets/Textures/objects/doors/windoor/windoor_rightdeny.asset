@@ -14,32 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+    - spriteName: rightdeny_0
+      sprite: {fileID: 21300000, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightdeny_4
+      sprite: {fileID: 21300008, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightdeny_8
+      sprite: {fileID: 21300016, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+    - spriteName: rightdeny_1
+      sprite: {fileID: 21300002, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightdeny_5
+      sprite: {fileID: 21300010, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300018, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightdeny_9
+      sprite: {fileID: 21300018, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+    - spriteName: rightdeny_2
+      sprite: {fileID: 21300004, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightdeny_6
+      sprite: {fileID: 21300012, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300020, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightdeny_10
+      sprite: {fileID: 21300020, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+    - spriteName: rightdeny_3
+      sprite: {fileID: 21300006, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightdeny_7
+      sprite: {fileID: 21300014, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300022, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightdeny_11
+      sprite: {fileID: 21300022, guid: ae49e97079e90e440af47df8fbdae398, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14772

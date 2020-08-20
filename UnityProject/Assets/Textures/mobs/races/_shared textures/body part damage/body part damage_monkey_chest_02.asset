@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6694072bfa1850640ac138b111ab9ce8, type: 3}
+    - spriteName: monkey_chest_02_0
+      sprite: {fileID: 21300000, guid: 6694072bfa1850640ac138b111ab9ce8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 6694072bfa1850640ac138b111ab9ce8, type: 3}
+    - spriteName: monkey_chest_02_1
+      sprite: {fileID: 21300002, guid: 6694072bfa1850640ac138b111ab9ce8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 6694072bfa1850640ac138b111ab9ce8, type: 3}
+    - spriteName: monkey_chest_02_2
+      sprite: {fileID: 21300004, guid: 6694072bfa1850640ac138b111ab9ce8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 6694072bfa1850640ac138b111ab9ce8, type: 3}
+    - spriteName: monkey_chest_02_3
+      sprite: {fileID: 21300006, guid: 6694072bfa1850640ac138b111ab9ce8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9713

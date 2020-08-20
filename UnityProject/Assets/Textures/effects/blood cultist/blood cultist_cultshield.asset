@@ -14,45 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultshield_0
+    - spriteName: cultshield_0
       sprite: {fileID: 21300000, guid: 6eaee0173cb7d3c4dab56d0c00138a89, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultshield_1
+      AtlasUsing: 0
+    - spriteName: cultshield_1
       sprite: {fileID: 21300002, guid: 6eaee0173cb7d3c4dab56d0c00138a89, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultshield_2
+      AtlasUsing: 0
+    - spriteName: cultshield_2
       sprite: {fileID: 21300004, guid: 6eaee0173cb7d3c4dab56d0c00138a89, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultshield_3
+      AtlasUsing: 0
+    - spriteName: cultshield_3
       sprite: {fileID: 21300006, guid: 6eaee0173cb7d3c4dab56d0c00138a89, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultshield_4
+      AtlasUsing: 0
+    - spriteName: cultshield_4
       sprite: {fileID: 21300008, guid: 6eaee0173cb7d3c4dab56d0c00138a89, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultshield_5
+      AtlasUsing: 0
+    - spriteName: cultshield_5
       sprite: {fileID: 21300010, guid: 6eaee0173cb7d3c4dab56d0c00138a89, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultshield_6
+      AtlasUsing: 0
+    - spriteName: cultshield_6
       sprite: {fileID: 21300012, guid: 6eaee0173cb7d3c4dab56d0c00138a89, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cultshield_7
+      AtlasUsing: 0
+    - spriteName: cultshield_7
       sprite: {fileID: 21300014, guid: 6eaee0173cb7d3c4dab56d0c00138a89, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1192

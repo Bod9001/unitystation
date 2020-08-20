@@ -14,34 +14,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b429756673771c943975ed8b3ccc9a13, type: 3}
+    - spriteName: dice_d10-1
+      sprite: {fileID: 21300000, guid: b429756673771c943975ed8b3ccc9a13, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: 90db576bdbd4c7b4b8e8c658e7630c63, type: 3}
+    - spriteName: dice_d10-2
+      sprite: {fileID: 21300000, guid: 90db576bdbd4c7b4b8e8c658e7630c63, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: 95d2dca98f3d3c04eacb37bc07c74c3b, type: 3}
+    - spriteName: dice_d10-3
+      sprite: {fileID: 21300000, guid: 95d2dca98f3d3c04eacb37bc07c74c3b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: a75a4a0f56395194bac18933eea8fa69, type: 3}
+    - spriteName: dice_d10-4
+      sprite: {fileID: 21300000, guid: a75a4a0f56395194bac18933eea8fa69, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1a31363fe9360634b99cd27efd626717, type: 3}
+    - spriteName: dice_d10-5
+      sprite: {fileID: 21300000, guid: 1a31363fe9360634b99cd27efd626717, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: a4d807fd4374ae940981731ef6f02b6b, type: 3}
+    - spriteName: dice_d10-6
+      sprite: {fileID: 21300000, guid: a4d807fd4374ae940981731ef6f02b6b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1cb894cc16d319b49a188d340ac3ef89, type: 3}
+    - spriteName: dice_d10-7
+      sprite: {fileID: 21300000, guid: 1cb894cc16d319b49a188d340ac3ef89, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: 971fcf2f44e6aea4cb6ef18cdab750ed, type: 3}
+    - spriteName: dice_d10-8
+      sprite: {fileID: 21300000, guid: 971fcf2f44e6aea4cb6ef18cdab750ed, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1a824622ae0376740b9a4352b142dd6b, type: 3}
+    - spriteName: dice_d10-9
+      sprite: {fileID: 21300000, guid: 1a824622ae0376740b9a4352b142dd6b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: 33847d0abf7712044a308e359834ac80, type: 3}
+    - spriteName: dice_d10-10
+      sprite: {fileID: 21300000, guid: 33847d0abf7712044a308e359834ac80, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6340

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4506cedf646563347b5a2192af27ebbf, type: 3}
+    - spriteName: animals_faithless_dead
+      sprite: {fileID: 21300000, guid: 4506cedf646563347b5a2192af27ebbf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11843

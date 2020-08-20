@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ec742e15871412f49b577164fe293f57, type: 3}
+    - spriteName: stack_objects_sheet-adamantine_3
+      sprite: {fileID: 21300000, guid: ec742e15871412f49b577164fe293f57, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8751

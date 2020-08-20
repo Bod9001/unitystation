@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c69648a2a32b5354c91cdf99fe6604a1, type: 3}
+    - spriteName: chemical_potblue
+      sprite: {fileID: 21300000, guid: c69648a2a32b5354c91cdf99fe6604a1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5323

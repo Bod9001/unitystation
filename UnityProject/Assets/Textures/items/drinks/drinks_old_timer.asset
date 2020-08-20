@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 76efc6e2c5fb50346a8b332fcc3ed473, type: 3}
+    - spriteName: drinks_old_timer
+      sprite: {fileID: 21300000, guid: 76efc6e2c5fb50346a8b332fcc3ed473, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6568

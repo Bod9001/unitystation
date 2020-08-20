@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ert_security_0
+    - spriteName: ert_security_0
       sprite: {fileID: 21300000, guid: 0f6d984761c52ee489a11f36b27747f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ert_security_1
+    - spriteName: ert_security_1
       sprite: {fileID: 21300002, guid: 0f6d984761c52ee489a11f36b27747f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ert_security_2
+    - spriteName: ert_security_2
       sprite: {fileID: 21300004, guid: 0f6d984761c52ee489a11f36b27747f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ert_security_3
+    - spriteName: ert_security_3
       sprite: {fileID: 21300006, guid: 0f6d984761c52ee489a11f36b27747f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19736

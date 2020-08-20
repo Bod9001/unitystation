@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit1-ert_clown_0
+    - spriteName: hardsuit1-ert_clown_0
       sprite: {fileID: -5336641818246538432, guid: 0b8615a3b3cf6a24b81cc1fedeb637b1,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit1-ert_clown_1
+    - spriteName: hardsuit1-ert_clown_1
       sprite: {fileID: -5889426217268293356, guid: 0b8615a3b3cf6a24b81cc1fedeb637b1,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit1-ert_clown_2
+    - spriteName: hardsuit1-ert_clown_2
       sprite: {fileID: -6889198700994462508, guid: 0b8615a3b3cf6a24b81cc1fedeb637b1,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit1-ert_clown_3
+    - spriteName: hardsuit1-ert_clown_3
       sprite: {fileID: 4442821305189567543, guid: 0b8615a3b3cf6a24b81cc1fedeb637b1,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20292

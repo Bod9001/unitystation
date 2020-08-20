@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 31cbe8612f01bbd4ca4ebd86664426a4, type: 3}
+    - spriteName: claymore_0
+      sprite: {fileID: 21300000, guid: 31cbe8612f01bbd4ca4ebd86664426a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 31cbe8612f01bbd4ca4ebd86664426a4, type: 3}
+    - spriteName: claymore_1
+      sprite: {fileID: 21300002, guid: 31cbe8612f01bbd4ca4ebd86664426a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 31cbe8612f01bbd4ca4ebd86664426a4, type: 3}
+    - spriteName: claymore_2
+      sprite: {fileID: 21300004, guid: 31cbe8612f01bbd4ca4ebd86664426a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 31cbe8612f01bbd4ca4ebd86664426a4, type: 3}
+    - spriteName: claymore_3
+      sprite: {fileID: 21300006, guid: 31cbe8612f01bbd4ca4ebd86664426a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22457

@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 3754130879787033988, guid: 251f5d984ab64914cb551e2fa1a3191d,
+    - spriteName: syndie_0
+      sprite: {fileID: 3754130879787033988, guid: 251f5d984ab64914cb551e2fa1a3191d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -8966491444617781595, guid: 251f5d984ab64914cb551e2fa1a3191d,
+    - spriteName: syndie_1
+      sprite: {fileID: -8966491444617781595, guid: 251f5d984ab64914cb551e2fa1a3191d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 6420755462799976823, guid: 251f5d984ab64914cb551e2fa1a3191d,
+    - spriteName: syndie_2
+      sprite: {fileID: 6420755462799976823, guid: 251f5d984ab64914cb551e2fa1a3191d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -4328929512318485830, guid: 251f5d984ab64914cb551e2fa1a3191d,
+    - spriteName: syndie_3
+      sprite: {fileID: -4328929512318485830, guid: 251f5d984ab64914cb551e2fa1a3191d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10138

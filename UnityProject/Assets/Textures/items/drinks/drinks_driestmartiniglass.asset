@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 59c2d91c8cc21c04ba69e7a1b93e95b5, type: 3}
+    - spriteName: drinks_driestmartiniglass
+      sprite: {fileID: 21300000, guid: 59c2d91c8cc21c04ba69e7a1b93e95b5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6475

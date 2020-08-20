@@ -14,50 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: shield_0
+    - spriteName: shield_0
       sprite: {fileID: 21300000, guid: a5558f7dadce4e3448b65032be0e21e0, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: shield_1
+      AtlasUsing: 0
+    - spriteName: shield_1
       sprite: {fileID: 21300002, guid: a5558f7dadce4e3448b65032be0e21e0, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: shield_2
+      AtlasUsing: 0
+    - spriteName: shield_2
       sprite: {fileID: 21300004, guid: a5558f7dadce4e3448b65032be0e21e0, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: shield_3
+      AtlasUsing: 0
+    - spriteName: shield_3
       sprite: {fileID: 21300006, guid: a5558f7dadce4e3448b65032be0e21e0, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: shield_4
+      AtlasUsing: 0
+    - spriteName: shield_4
       sprite: {fileID: 21300008, guid: a5558f7dadce4e3448b65032be0e21e0, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: shield_5
+      AtlasUsing: 0
+    - spriteName: shield_5
       sprite: {fileID: 21300010, guid: a5558f7dadce4e3448b65032be0e21e0, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: shield_6
+      AtlasUsing: 0
+    - spriteName: shield_6
       sprite: {fileID: 21300012, guid: a5558f7dadce4e3448b65032be0e21e0, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: shield_7
+      AtlasUsing: 0
+    - spriteName: shield_7
       sprite: {fileID: 21300014, guid: a5558f7dadce4e3448b65032be0e21e0, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: shield_8
+      AtlasUsing: 0
+    - spriteName: shield_8
       sprite: {fileID: 21300016, guid: a5558f7dadce4e3448b65032be0e21e0, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1474

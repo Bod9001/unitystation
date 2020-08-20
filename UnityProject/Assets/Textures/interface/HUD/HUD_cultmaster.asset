@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6af30b7aea4303547912f00f8442d8cf, type: 3}
+    - spriteName: cultmaster_0
+      sprite: {fileID: 21300000, guid: 6af30b7aea4303547912f00f8442d8cf, type: 3}
       secondDelay: 1
-    - sprite: {fileID: 21300002, guid: 6af30b7aea4303547912f00f8442d8cf, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultmaster_1
+      sprite: {fileID: 21300002, guid: 6af30b7aea4303547912f00f8442d8cf, type: 3}
       secondDelay: 1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2723

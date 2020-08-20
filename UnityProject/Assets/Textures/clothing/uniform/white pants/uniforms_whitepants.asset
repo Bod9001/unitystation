@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: uniforms_whitepants
+    - spriteName: uniforms_whitepants
       sprite: {fileID: 21300000, guid: ec24bc5d8c1a71448a488a1a9fc48acb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21761

@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f35417aa1a10e40409437f4b2e5a2bc3, type: 3}
+    - spriteName: unr_girder_0
+      sprite: {fileID: 21300000, guid: f35417aa1a10e40409437f4b2e5a2bc3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: f35417aa1a10e40409437f4b2e5a2bc3, type: 3}
+      AtlasUsing: 0
+    - spriteName: unr_girder_1
+      sprite: {fileID: 21300002, guid: f35417aa1a10e40409437f4b2e5a2bc3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: f35417aa1a10e40409437f4b2e5a2bc3, type: 3}
+      AtlasUsing: 0
+    - spriteName: unr_girder_2
+      sprite: {fileID: 21300004, guid: f35417aa1a10e40409437f4b2e5a2bc3, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17451

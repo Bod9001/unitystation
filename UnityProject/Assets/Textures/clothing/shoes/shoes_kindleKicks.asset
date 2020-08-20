@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: kindleKicks_0
+    - spriteName: kindleKicks_0
       sprite: {fileID: 21300000, guid: 1243b3f5f0f91354e8eee36a04a21447, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: kindleKicks_1
+    - spriteName: kindleKicks_1
       sprite: {fileID: 21300002, guid: 1243b3f5f0f91354e8eee36a04a21447, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: kindleKicks_2
+    - spriteName: kindleKicks_2
       sprite: {fileID: 21300004, guid: 1243b3f5f0f91354e8eee36a04a21447, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: kindleKicks_3
+    - spriteName: kindleKicks_3
       sprite: {fileID: 21300006, guid: 1243b3f5f0f91354e8eee36a04a21447, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 830

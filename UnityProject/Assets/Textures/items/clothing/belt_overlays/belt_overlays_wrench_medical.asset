@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2e2da881b78051e4586b9f5d962865a7, type: 3}
+    - spriteName: belt_overlays_wrench_medical
+      sprite: {fileID: 21300000, guid: 2e2da881b78051e4586b9f5d962865a7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5603

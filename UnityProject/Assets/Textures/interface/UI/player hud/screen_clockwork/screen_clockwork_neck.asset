@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6a3f96bc221ddf9458519225dd2ce9f9, type: 3}
+    - spriteName: screen_clockwork_neck
+      sprite: {fileID: 21300000, guid: 6a3f96bc221ddf9458519225dd2ce9f9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3330

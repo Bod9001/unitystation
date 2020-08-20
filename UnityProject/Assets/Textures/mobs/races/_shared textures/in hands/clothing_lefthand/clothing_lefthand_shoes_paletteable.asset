@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -5817153989918580940, guid: 2a4ed28ece05c7e47b75b237247d0323,
+    - spriteName: clothing_lefthand_shoes_paletteable_0
+      sprite: {fileID: -5817153989918580940, guid: 2a4ed28ece05c7e47b75b237247d0323,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 5357307529486282379, guid: 2a4ed28ece05c7e47b75b237247d0323,
+    - spriteName: clothing_lefthand_shoes_paletteable_1
+      sprite: {fileID: 5357307529486282379, guid: 2a4ed28ece05c7e47b75b237247d0323,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 4832873261703664317, guid: 2a4ed28ece05c7e47b75b237247d0323,
+    - spriteName: clothing_lefthand_shoes_paletteable_2
+      sprite: {fileID: 4832873261703664317, guid: 2a4ed28ece05c7e47b75b237247d0323,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -5615777089997092489, guid: 2a4ed28ece05c7e47b75b237247d0323,
+    - spriteName: clothing_lefthand_shoes_paletteable_3
+      sprite: {fileID: -5615777089997092489, guid: 2a4ed28ece05c7e47b75b237247d0323,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 1
   setID: 22108

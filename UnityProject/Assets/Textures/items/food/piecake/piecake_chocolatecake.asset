@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6b32adbfb683ed342a5909b42caa0f54, type: 3}
+    - spriteName: piecake_chocolatecake
+      sprite: {fileID: 21300000, guid: 6b32adbfb683ed342a5909b42caa0f54, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7064

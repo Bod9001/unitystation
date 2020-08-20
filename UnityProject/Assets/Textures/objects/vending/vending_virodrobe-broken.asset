@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: eee13368a2678634b8c54cba1b8212e6, type: 3}
+    - spriteName: vending_virodrobe-broken
+      sprite: {fileID: 21300000, guid: eee13368a2678634b8c54cba1b8212e6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17942

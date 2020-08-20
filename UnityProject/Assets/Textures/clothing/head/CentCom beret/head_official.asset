@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: official_0
+    - spriteName: official_0
       sprite: {fileID: -3846807707329616377, guid: f258bb7afe0b7c341a238cab7ca5e9d5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: official_1
+    - spriteName: official_1
       sprite: {fileID: -2507965964070672520, guid: f258bb7afe0b7c341a238cab7ca5e9d5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: official_2
+    - spriteName: official_2
       sprite: {fileID: 8747207352312861533, guid: f258bb7afe0b7c341a238cab7ca5e9d5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: official_3
+    - spriteName: official_3
       sprite: {fileID: -3666059838421655719, guid: f258bb7afe0b7c341a238cab7ca5e9d5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10151

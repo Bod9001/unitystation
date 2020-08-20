@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 5a72c3b9fd4c5924fa6ca738066108b1, type: 3}
+    - spriteName: snow compacted_1-f
+      sprite: {fileID: 21300000, guid: 5a72c3b9fd4c5924fa6ca738066108b1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19657

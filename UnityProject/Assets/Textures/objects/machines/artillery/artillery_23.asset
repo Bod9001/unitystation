@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 87f21e4e373623147a6046c3f5067bbe, type: 3}
+    - spriteName: artillery_23
+      sprite: {fileID: 21300000, guid: 87f21e4e373623147a6046c3f5067bbe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15632

@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: robo-trimmed_0
       sprite: {fileID: -4334815923386716035, guid: 7a46dfe4fa75d3442a1d4e62db31ead9,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: robo-trimmed_1
       sprite: {fileID: -4389041901947831967, guid: 7a46dfe4fa75d3442a1d4e62db31ead9,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: robo-trimmed_2
       sprite: {fileID: 3679119637134324608, guid: 7a46dfe4fa75d3442a1d4e62db31ead9,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: robo-trimmed_3
       sprite: {fileID: -2502264615912460453, guid: 7a46dfe4fa75d3442a1d4e62db31ead9,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23245

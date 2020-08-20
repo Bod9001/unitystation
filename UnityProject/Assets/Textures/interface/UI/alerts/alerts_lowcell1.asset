@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bcba6cde93351014ca1c68f9cc687250, type: 3}
+    - spriteName: alerts_lowcell1
+      sprite: {fileID: 21300000, guid: bcba6cde93351014ca1c68f9cc687250, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3145

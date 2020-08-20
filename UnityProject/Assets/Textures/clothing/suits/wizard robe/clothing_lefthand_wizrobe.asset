@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: wizrobe_0
+    - spriteName: wizrobe_0
       sprite: {fileID: 21300000, guid: 0babb25ba8fa40044aadda86667470fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: wizrobe_1
+    - spriteName: wizrobe_1
       sprite: {fileID: 21300002, guid: 0babb25ba8fa40044aadda86667470fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: wizrobe_2
+    - spriteName: wizrobe_2
       sprite: {fileID: 21300004, guid: 0babb25ba8fa40044aadda86667470fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: wizrobe_3
+    - spriteName: wizrobe_3
       sprite: {fileID: 21300006, guid: 0babb25ba8fa40044aadda86667470fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21238

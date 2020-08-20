@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-white_0
+    - spriteName: hardsuit0-white_0
       sprite: {fileID: 21300000, guid: 2bc72d9622f4871479fcc623ede7bf6e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-white_1
+    - spriteName: hardsuit0-white_1
       sprite: {fileID: 21300002, guid: 2bc72d9622f4871479fcc623ede7bf6e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-white_2
+    - spriteName: hardsuit0-white_2
       sprite: {fileID: 21300004, guid: 2bc72d9622f4871479fcc623ede7bf6e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hardsuit0-white_3
+    - spriteName: hardsuit0-white_3
       sprite: {fileID: 21300006, guid: 2bc72d9622f4871479fcc623ede7bf6e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20087

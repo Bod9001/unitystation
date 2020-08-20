@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: projectiles_tracer_stun
+    - spriteName: projectiles_tracer_stun
       sprite: {fileID: 21300000, guid: 4ea3918bcbe1c4344a101c969c92a16e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1393

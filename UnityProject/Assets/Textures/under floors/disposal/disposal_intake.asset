@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f77ee08febe2f384297670906a532d45, type: 3}
+    - spriteName: intake_0
+      sprite: {fileID: 21300000, guid: f77ee08febe2f384297670906a532d45, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: f77ee08febe2f384297670906a532d45, type: 3}
+    - spriteName: intake_1
+      sprite: {fileID: 21300002, guid: f77ee08febe2f384297670906a532d45, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: f77ee08febe2f384297670906a532d45, type: 3}
+    - spriteName: intake_2
+      sprite: {fileID: 21300004, guid: f77ee08febe2f384297670906a532d45, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: f77ee08febe2f384297670906a532d45, type: 3}
+    - spriteName: intake_3
+      sprite: {fileID: 21300006, guid: f77ee08febe2f384297670906a532d45, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 18727

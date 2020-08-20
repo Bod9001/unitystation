@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cigaroff_0
+    - spriteName: cigaroff_0
       sprite: {fileID: 21300000, guid: bd4f34a520d52af43be193ec6c3b4702, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cigaroff_1
+    - spriteName: cigaroff_1
       sprite: {fileID: 21300002, guid: bd4f34a520d52af43be193ec6c3b4702, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cigaroff_2
+    - spriteName: cigaroff_2
       sprite: {fileID: 21300004, guid: bd4f34a520d52af43be193ec6c3b4702, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cigaroff_3
+    - spriteName: cigaroff_3
       sprite: {fileID: 21300006, guid: bd4f34a520d52af43be193ec6c3b4702, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 754

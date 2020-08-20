@@ -14,85 +14,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_0
+    - spriteName: light_on_flicker2_0
       sprite: {fileID: 21300000, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 10
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_1
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_1
       sprite: {fileID: 21300002, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_2
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_2
       sprite: {fileID: 21300004, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_3
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_3
       sprite: {fileID: 21300006, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_4
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_4
       sprite: {fileID: 21300008, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_5
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_5
       sprite: {fileID: 21300010, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_6
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_6
       sprite: {fileID: 21300012, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_7
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_7
       sprite: {fileID: 21300014, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_8
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_8
       sprite: {fileID: 21300016, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_9
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_9
       sprite: {fileID: 21300018, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_10
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_10
       sprite: {fileID: 21300020, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_11
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_11
       sprite: {fileID: 21300022, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_12
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_12
       sprite: {fileID: 21300024, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_13
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_13
       sprite: {fileID: 21300026, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_14
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_14
       sprite: {fileID: 21300028, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on_flicker2_15
+      AtlasUsing: 0
+    - spriteName: light_on_flicker2_15
       sprite: {fileID: 21300030, guid: 7034c8163c43a2041ab0199179f92450, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2243

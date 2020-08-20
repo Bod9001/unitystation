@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -4714307925872528662, guid: ce01dce6e100c7c4aa85c5a0e053b3e5,
+    - spriteName: clamps_0
+      sprite: {fileID: -4714307925872528662, guid: ce01dce6e100c7c4aa85c5a0e053b3e5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 1141974867125203545, guid: ce01dce6e100c7c4aa85c5a0e053b3e5,
+    - spriteName: clamps_1
+      sprite: {fileID: 1141974867125203545, guid: ce01dce6e100c7c4aa85c5a0e053b3e5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 819965804019348086, guid: ce01dce6e100c7c4aa85c5a0e053b3e5,
+    - spriteName: clamps_2
+      sprite: {fileID: 819965804019348086, guid: ce01dce6e100c7c4aa85c5a0e053b3e5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 836963917226273758, guid: ce01dce6e100c7c4aa85c5a0e053b3e5,
+    - spriteName: clamps_3
+      sprite: {fileID: 836963917226273758, guid: ce01dce6e100c7c4aa85c5a0e053b3e5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23015

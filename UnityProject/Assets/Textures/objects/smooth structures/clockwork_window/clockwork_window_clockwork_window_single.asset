@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e715905ea7e1c0d4b8ce1013b20ec1a5, type: 3}
+    - spriteName: clockwork_window_single_0
+      sprite: {fileID: 21300000, guid: e715905ea7e1c0d4b8ce1013b20ec1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: e715905ea7e1c0d4b8ce1013b20ec1a5, type: 3}
+    - spriteName: clockwork_window_single_1
+      sprite: {fileID: 21300002, guid: e715905ea7e1c0d4b8ce1013b20ec1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: e715905ea7e1c0d4b8ce1013b20ec1a5, type: 3}
+    - spriteName: clockwork_window_single_2
+      sprite: {fileID: 21300004, guid: e715905ea7e1c0d4b8ce1013b20ec1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: e715905ea7e1c0d4b8ce1013b20ec1a5, type: 3}
+    - spriteName: clockwork_window_single_3
+      sprite: {fileID: 21300006, guid: e715905ea7e1c0d4b8ce1013b20ec1a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16862

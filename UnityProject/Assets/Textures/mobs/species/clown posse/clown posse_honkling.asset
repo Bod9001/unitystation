@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -411558686750310250, guid: 90eb6e7b43d57654f80fba2c4b101e0e,
+    - spriteName: clown posse_honkling_0
+      sprite: {fileID: -411558686750310250, guid: 90eb6e7b43d57654f80fba2c4b101e0e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 2682079759973979814, guid: 90eb6e7b43d57654f80fba2c4b101e0e,
+    - spriteName: clown posse_honkling_1
+      sprite: {fileID: 2682079759973979814, guid: 90eb6e7b43d57654f80fba2c4b101e0e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -6719906748868742796, guid: 90eb6e7b43d57654f80fba2c4b101e0e,
+    - spriteName: clown posse_honkling_2
+      sprite: {fileID: -6719906748868742796, guid: 90eb6e7b43d57654f80fba2c4b101e0e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -306440541139083132, guid: 90eb6e7b43d57654f80fba2c4b101e0e,
+    - spriteName: clown posse_honkling_3
+      sprite: {fileID: -306440541139083132, guid: 90eb6e7b43d57654f80fba2c4b101e0e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12189

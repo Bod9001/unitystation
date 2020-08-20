@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 58d15a4a3b44d2f4cafd6608ff50d27a, type: 3}
+    - spriteName: chemical_bandaid
+      sprite: {fileID: 21300000, guid: 58d15a4a3b44d2f4cafd6608ff50d27a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5229

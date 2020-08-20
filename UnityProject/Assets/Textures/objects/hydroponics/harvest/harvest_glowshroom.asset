@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b97aa2e5c4b3213488c518255ce1abbc, type: 3}
+    - spriteName: harvest_glowshroom
+      sprite: {fileID: 21300000, guid: b97aa2e5c4b3213488c518255ce1abbc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15290

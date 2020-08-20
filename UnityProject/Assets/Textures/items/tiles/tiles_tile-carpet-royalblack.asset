@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d67dbc0d86bc62042a47d217371851fc, type: 3}
+    - spriteName: tiles_tile-carpet-royalblack
+      sprite: {fileID: 21300000, guid: d67dbc0d86bc62042a47d217371851fc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9197

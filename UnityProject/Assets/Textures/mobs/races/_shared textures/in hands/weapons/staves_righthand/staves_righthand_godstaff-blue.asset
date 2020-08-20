@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3450f26db174a964e9d1e9d4c202cb78, type: 3}
+    - spriteName: godstaff-blue_0
+      sprite: {fileID: 21300000, guid: 3450f26db174a964e9d1e9d4c202cb78, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 3450f26db174a964e9d1e9d4c202cb78, type: 3}
+    - spriteName: godstaff-blue_1
+      sprite: {fileID: 21300002, guid: 3450f26db174a964e9d1e9d4c202cb78, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 3450f26db174a964e9d1e9d4c202cb78, type: 3}
+    - spriteName: godstaff-blue_2
+      sprite: {fileID: 21300004, guid: 3450f26db174a964e9d1e9d4c202cb78, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 3450f26db174a964e9d1e9d4c202cb78, type: 3}
+    - spriteName: godstaff-blue_3
+      sprite: {fileID: 21300006, guid: 3450f26db174a964e9d1e9d4c202cb78, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10887

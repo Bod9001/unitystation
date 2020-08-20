@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 388fbc386759b3e4a873731fe3474e4c, type: 3}
+    - spriteName: slimecrossing_prismcolor
+      sprite: {fileID: 21300000, guid: 388fbc386759b3e4a873731fe3474e4c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16785

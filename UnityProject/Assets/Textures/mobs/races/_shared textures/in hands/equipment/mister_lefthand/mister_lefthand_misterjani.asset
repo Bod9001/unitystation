@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f8cc6c5e74ccab74d90a65b0fdc95c3c, type: 3}
+    - spriteName: misterjani_0
+      sprite: {fileID: 21300000, guid: f8cc6c5e74ccab74d90a65b0fdc95c3c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: f8cc6c5e74ccab74d90a65b0fdc95c3c, type: 3}
+    - spriteName: misterjani_1
+      sprite: {fileID: 21300002, guid: f8cc6c5e74ccab74d90a65b0fdc95c3c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: f8cc6c5e74ccab74d90a65b0fdc95c3c, type: 3}
+    - spriteName: misterjani_2
+      sprite: {fileID: 21300004, guid: f8cc6c5e74ccab74d90a65b0fdc95c3c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: f8cc6c5e74ccab74d90a65b0fdc95c3c, type: 3}
+    - spriteName: misterjani_3
+      sprite: {fileID: 21300006, guid: f8cc6c5e74ccab74d90a65b0fdc95c3c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10173

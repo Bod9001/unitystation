@@ -14,55 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_0
+    - spriteName: floorglow_0
       sprite: {fileID: 21300000, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_1
+      AtlasUsing: 0
+    - spriteName: floorglow_1
       sprite: {fileID: 21300002, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_2
+      AtlasUsing: 0
+    - spriteName: floorglow_2
       sprite: {fileID: 21300004, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_3
+      AtlasUsing: 0
+    - spriteName: floorglow_3
       sprite: {fileID: 21300006, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_4
+      AtlasUsing: 0
+    - spriteName: floorglow_4
       sprite: {fileID: 21300008, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_5
+      AtlasUsing: 0
+    - spriteName: floorglow_5
       sprite: {fileID: 21300010, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_6
+      AtlasUsing: 0
+    - spriteName: floorglow_6
       sprite: {fileID: 21300012, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_7
+      AtlasUsing: 0
+    - spriteName: floorglow_7
       sprite: {fileID: 21300014, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_8
+      AtlasUsing: 0
+    - spriteName: floorglow_8
       sprite: {fileID: 21300016, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: floorglow_9
+      AtlasUsing: 0
+    - spriteName: floorglow_9
       sprite: {fileID: 21300018, guid: 6ccc2d7f60342be4cb68eb51a70be7d6, type: 3}
       secondDelay: 0.05
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1223

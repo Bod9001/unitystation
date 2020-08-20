@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2de5235451f3434469b110411cbeaf45, type: 3}
+    - spriteName: screen_retro_suit_storage
+      sprite: {fileID: 21300000, guid: 2de5235451f3434469b110411cbeaf45, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3775

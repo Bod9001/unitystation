@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: captainpack_0
+    - spriteName: captainpack_0
       sprite: {fileID: 21300000, guid: 3ac74a16281fcb84d921985e8245cd16, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: captainpack_1
+    - spriteName: captainpack_1
       sprite: {fileID: 21300002, guid: 3ac74a16281fcb84d921985e8245cd16, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: captainpack_2
+    - spriteName: captainpack_2
       sprite: {fileID: 21300004, guid: 3ac74a16281fcb84d921985e8245cd16, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: captainpack_3
+    - spriteName: captainpack_3
       sprite: {fileID: 21300006, guid: 3ac74a16281fcb84d921985e8245cd16, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19713

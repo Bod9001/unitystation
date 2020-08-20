@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkred_0
+    - spriteName: darkred_0
       sprite: {fileID: 21300000, guid: 50c663c93ab14e54dab8924925e9c7e2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkred_1
+    - spriteName: darkred_1
       sprite: {fileID: 21300002, guid: 50c663c93ab14e54dab8924925e9c7e2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkred_2
+    - spriteName: darkred_2
       sprite: {fileID: 21300004, guid: 50c663c93ab14e54dab8924925e9c7e2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkred_3
+    - spriteName: darkred_3
       sprite: {fileID: 21300006, guid: 50c663c93ab14e54dab8924925e9c7e2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkred_4
+    - spriteName: darkred_4
       sprite: {fileID: 21300008, guid: 50c663c93ab14e54dab8924925e9c7e2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkred_5
+    - spriteName: darkred_5
       sprite: {fileID: 21300010, guid: 50c663c93ab14e54dab8924925e9c7e2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkred_6
+    - spriteName: darkred_6
       sprite: {fileID: 21300012, guid: 50c663c93ab14e54dab8924925e9c7e2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkred_7
+    - spriteName: darkred_7
       sprite: {fileID: 21300014, guid: 50c663c93ab14e54dab8924925e9c7e2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2359

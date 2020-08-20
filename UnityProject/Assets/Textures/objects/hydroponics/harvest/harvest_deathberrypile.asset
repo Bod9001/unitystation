@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 989db993668f3a5429966ce571b76d41, type: 3}
+    - spriteName: harvest_deathberrypile
+      sprite: {fileID: 21300000, guid: 989db993668f3a5429966ce571b76d41, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15274

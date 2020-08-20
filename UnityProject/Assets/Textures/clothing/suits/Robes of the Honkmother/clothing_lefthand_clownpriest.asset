@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: clownpriest_0
+    - spriteName: clownpriest_0
       sprite: {fileID: 21300000, guid: 25adf9b280eb17d4cb18b51d54bec93e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: clownpriest_1
+    - spriteName: clownpriest_1
       sprite: {fileID: 21300002, guid: 25adf9b280eb17d4cb18b51d54bec93e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: clownpriest_2
+    - spriteName: clownpriest_2
       sprite: {fileID: 21300004, guid: 25adf9b280eb17d4cb18b51d54bec93e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: clownpriest_3
+    - spriteName: clownpriest_3
       sprite: {fileID: 21300006, guid: 25adf9b280eb17d4cb18b51d54bec93e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21065

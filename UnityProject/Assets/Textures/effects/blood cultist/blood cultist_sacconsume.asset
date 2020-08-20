@@ -14,55 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_0
+    - spriteName: sacconsume_0
       sprite: {fileID: 21300000, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_1
+      AtlasUsing: 0
+    - spriteName: sacconsume_1
       sprite: {fileID: 21300002, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_2
+      AtlasUsing: 0
+    - spriteName: sacconsume_2
       sprite: {fileID: 21300004, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_3
+      AtlasUsing: 0
+    - spriteName: sacconsume_3
       sprite: {fileID: 21300006, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_4
+      AtlasUsing: 0
+    - spriteName: sacconsume_4
       sprite: {fileID: 21300008, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_5
+      AtlasUsing: 0
+    - spriteName: sacconsume_5
       sprite: {fileID: 21300010, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_6
+      AtlasUsing: 0
+    - spriteName: sacconsume_6
       sprite: {fileID: 21300012, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_7
+      AtlasUsing: 0
+    - spriteName: sacconsume_7
       sprite: {fileID: 21300014, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_8
+      AtlasUsing: 0
+    - spriteName: sacconsume_8
       sprite: {fileID: 21300016, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sacconsume_9
+      AtlasUsing: 0
+    - spriteName: sacconsume_9
       sprite: {fileID: 21300018, guid: 75b5c2c884b710444a11468758152750, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1219

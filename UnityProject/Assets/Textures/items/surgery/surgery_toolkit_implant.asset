@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bede4cae227a0104898c626f80406d7d, type: 3}
+    - spriteName: surgery_toolkit_implant
+      sprite: {fileID: 21300000, guid: bede4cae227a0104898c626f80406d7d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9135

@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 21b2b4cdf2d9c574f8122f2e4fd29666, type: 3}
+    - spriteName: hair_thinningfront_0
+      sprite: {fileID: 21300000, guid: 21b2b4cdf2d9c574f8122f2e4fd29666, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 21b2b4cdf2d9c574f8122f2e4fd29666, type: 3}
+    - spriteName: hair_thinningfront_1
+      sprite: {fileID: 21300002, guid: 21b2b4cdf2d9c574f8122f2e4fd29666, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 21b2b4cdf2d9c574f8122f2e4fd29666, type: 3}
+    - spriteName: hair_thinningfront_2
+      sprite: {fileID: 21300004, guid: 21b2b4cdf2d9c574f8122f2e4fd29666, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 21b2b4cdf2d9c574f8122f2e4fd29666, type: 3}
+    - spriteName: hair_thinningfront_3
+      sprite: {fileID: 21300006, guid: 21b2b4cdf2d9c574f8122f2e4fd29666, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22048

@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: mime_envirosuit_0
+    - spriteName: mime_envirosuit_0
       sprite: {fileID: 6517672073780644837, guid: f047a9106cac0264db97224e595197f4,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: mime_envirosuit_1
+    - spriteName: mime_envirosuit_1
       sprite: {fileID: -8158948595939003674, guid: f047a9106cac0264db97224e595197f4,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: mime_envirosuit_2
+    - spriteName: mime_envirosuit_2
       sprite: {fileID: -5155764088921546604, guid: f047a9106cac0264db97224e595197f4,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: mime_envirosuit_3
+    - spriteName: mime_envirosuit_3
       sprite: {fileID: 5683841863596454476, guid: f047a9106cac0264db97224e595197f4,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23023

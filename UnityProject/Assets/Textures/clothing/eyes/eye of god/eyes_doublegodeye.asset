@@ -14,328 +14,264 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_0
+    - spriteName: doublegodeye_0
       sprite: {fileID: 21300000, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_4
+      AtlasUsing: 0
+    - spriteName: doublegodeye_4
       sprite: {fileID: 21300008, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_8
+      AtlasUsing: 0
+    - spriteName: doublegodeye_8
       sprite: {fileID: 21300016, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_12
+      AtlasUsing: 0
+    - spriteName: doublegodeye_12
       sprite: {fileID: 21300024, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_16
+      AtlasUsing: 0
+    - spriteName: doublegodeye_16
       sprite: {fileID: 21300032, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_20
+      AtlasUsing: 0
+    - spriteName: doublegodeye_20
       sprite: {fileID: 21300040, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_24
+      AtlasUsing: 0
+    - spriteName: doublegodeye_24
       sprite: {fileID: 21300048, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_28
+      AtlasUsing: 0
+    - spriteName: doublegodeye_28
       sprite: {fileID: 21300056, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_32
+      AtlasUsing: 0
+    - spriteName: doublegodeye_32
       sprite: {fileID: 21300064, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_36
+      AtlasUsing: 0
+    - spriteName: doublegodeye_36
       sprite: {fileID: 21300072, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_40
+      AtlasUsing: 0
+    - spriteName: doublegodeye_40
       sprite: {fileID: 21300080, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_44
+      AtlasUsing: 0
+    - spriteName: doublegodeye_44
       sprite: {fileID: 21300088, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_48
+      AtlasUsing: 0
+    - spriteName: doublegodeye_48
       sprite: {fileID: 21300096, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_52
+      AtlasUsing: 0
+    - spriteName: doublegodeye_52
       sprite: {fileID: 21300104, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_56
+      AtlasUsing: 0
+    - spriteName: doublegodeye_56
       sprite: {fileID: 21300112, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_60
+      AtlasUsing: 0
+    - spriteName: doublegodeye_60
       sprite: {fileID: 21300120, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_1
+    - spriteName: doublegodeye_1
       sprite: {fileID: 21300002, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_5
+      AtlasUsing: 0
+    - spriteName: doublegodeye_5
       sprite: {fileID: 21300010, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_9
+      AtlasUsing: 0
+    - spriteName: doublegodeye_9
       sprite: {fileID: 21300018, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_13
+      AtlasUsing: 0
+    - spriteName: doublegodeye_13
       sprite: {fileID: 21300026, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_17
+      AtlasUsing: 0
+    - spriteName: doublegodeye_17
       sprite: {fileID: 21300034, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_21
+      AtlasUsing: 0
+    - spriteName: doublegodeye_21
       sprite: {fileID: 21300042, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_25
+      AtlasUsing: 0
+    - spriteName: doublegodeye_25
       sprite: {fileID: 21300050, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_29
+      AtlasUsing: 0
+    - spriteName: doublegodeye_29
       sprite: {fileID: 21300058, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_33
+      AtlasUsing: 0
+    - spriteName: doublegodeye_33
       sprite: {fileID: 21300066, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_37
+      AtlasUsing: 0
+    - spriteName: doublegodeye_37
       sprite: {fileID: 21300074, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_41
+      AtlasUsing: 0
+    - spriteName: doublegodeye_41
       sprite: {fileID: 21300082, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_45
+      AtlasUsing: 0
+    - spriteName: doublegodeye_45
       sprite: {fileID: 21300090, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_49
+      AtlasUsing: 0
+    - spriteName: doublegodeye_49
       sprite: {fileID: 21300098, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_53
+      AtlasUsing: 0
+    - spriteName: doublegodeye_53
       sprite: {fileID: 21300106, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_57
+      AtlasUsing: 0
+    - spriteName: doublegodeye_57
       sprite: {fileID: 21300114, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_61
+      AtlasUsing: 0
+    - spriteName: doublegodeye_61
       sprite: {fileID: 21300122, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_2
+    - spriteName: doublegodeye_2
       sprite: {fileID: 21300004, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_6
+      AtlasUsing: 0
+    - spriteName: doublegodeye_6
       sprite: {fileID: 21300012, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_10
+      AtlasUsing: 0
+    - spriteName: doublegodeye_10
       sprite: {fileID: 21300020, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_14
+      AtlasUsing: 0
+    - spriteName: doublegodeye_14
       sprite: {fileID: 21300028, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_18
+      AtlasUsing: 0
+    - spriteName: doublegodeye_18
       sprite: {fileID: 21300036, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_22
+      AtlasUsing: 0
+    - spriteName: doublegodeye_22
       sprite: {fileID: 21300044, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_26
+      AtlasUsing: 0
+    - spriteName: doublegodeye_26
       sprite: {fileID: 21300052, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_30
+      AtlasUsing: 0
+    - spriteName: doublegodeye_30
       sprite: {fileID: 21300060, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_34
+      AtlasUsing: 0
+    - spriteName: doublegodeye_34
       sprite: {fileID: 21300068, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_38
+      AtlasUsing: 0
+    - spriteName: doublegodeye_38
       sprite: {fileID: 21300076, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_42
+      AtlasUsing: 0
+    - spriteName: doublegodeye_42
       sprite: {fileID: 21300084, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_46
+      AtlasUsing: 0
+    - spriteName: doublegodeye_46
       sprite: {fileID: 21300092, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_50
+      AtlasUsing: 0
+    - spriteName: doublegodeye_50
       sprite: {fileID: 21300100, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_54
+      AtlasUsing: 0
+    - spriteName: doublegodeye_54
       sprite: {fileID: 21300108, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_58
+      AtlasUsing: 0
+    - spriteName: doublegodeye_58
       sprite: {fileID: 21300116, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_62
+      AtlasUsing: 0
+    - spriteName: doublegodeye_62
       sprite: {fileID: 21300124, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_3
+    - spriteName: doublegodeye_3
       sprite: {fileID: 21300006, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_7
+      AtlasUsing: 0
+    - spriteName: doublegodeye_7
       sprite: {fileID: 21300014, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_11
+      AtlasUsing: 0
+    - spriteName: doublegodeye_11
       sprite: {fileID: 21300022, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_15
+      AtlasUsing: 0
+    - spriteName: doublegodeye_15
       sprite: {fileID: 21300030, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_19
+      AtlasUsing: 0
+    - spriteName: doublegodeye_19
       sprite: {fileID: 21300038, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_23
+      AtlasUsing: 0
+    - spriteName: doublegodeye_23
       sprite: {fileID: 21300046, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_27
+      AtlasUsing: 0
+    - spriteName: doublegodeye_27
       sprite: {fileID: 21300054, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_31
+      AtlasUsing: 0
+    - spriteName: doublegodeye_31
       sprite: {fileID: 21300062, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_35
+      AtlasUsing: 0
+    - spriteName: doublegodeye_35
       sprite: {fileID: 21300070, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_39
+      AtlasUsing: 0
+    - spriteName: doublegodeye_39
       sprite: {fileID: 21300078, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_43
+      AtlasUsing: 0
+    - spriteName: doublegodeye_43
       sprite: {fileID: 21300086, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_47
+      AtlasUsing: 0
+    - spriteName: doublegodeye_47
       sprite: {fileID: 21300094, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_51
+      AtlasUsing: 0
+    - spriteName: doublegodeye_51
       sprite: {fileID: 21300102, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_55
+      AtlasUsing: 0
+    - spriteName: doublegodeye_55
       sprite: {fileID: 21300110, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_59
+      AtlasUsing: 0
+    - spriteName: doublegodeye_59
       sprite: {fileID: 21300118, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: doublegodeye_63
+      AtlasUsing: 0
+    - spriteName: doublegodeye_63
       sprite: {fileID: 21300126, guid: d17591b9b96a2e141ad9d9c975abe168, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 493

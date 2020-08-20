@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: cab18b84143aec1449106f23e83d3afc, type: 3}
+    - spriteName: atmos_darkblue
+      sprite: {fileID: 21300000, guid: cab18b84143aec1449106f23e83d3afc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12866

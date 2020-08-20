@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitered_0
+    - spriteName: whitered_0
       sprite: {fileID: 21300000, guid: 03303628e1d863f4b8c821d3a51a46fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitered_1
+    - spriteName: whitered_1
       sprite: {fileID: 21300002, guid: 03303628e1d863f4b8c821d3a51a46fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitered_2
+    - spriteName: whitered_2
       sprite: {fileID: 21300004, guid: 03303628e1d863f4b8c821d3a51a46fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitered_3
+    - spriteName: whitered_3
       sprite: {fileID: 21300006, guid: 03303628e1d863f4b8c821d3a51a46fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitered_4
+    - spriteName: whitered_4
       sprite: {fileID: 21300008, guid: 03303628e1d863f4b8c821d3a51a46fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitered_5
+    - spriteName: whitered_5
       sprite: {fileID: 21300010, guid: 03303628e1d863f4b8c821d3a51a46fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitered_6
+    - spriteName: whitered_6
       sprite: {fileID: 21300012, guid: 03303628e1d863f4b8c821d3a51a46fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitered_7
+    - spriteName: whitered_7
       sprite: {fileID: 21300014, guid: 03303628e1d863f4b8c821d3a51a46fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2365

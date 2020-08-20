@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bombsuit_sec_0
+    - spriteName: bombsuit_sec_0
       sprite: {fileID: 21300000, guid: 5b6e6548dcae65c44b8c30a6f934c74d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bombsuit_sec_1
+    - spriteName: bombsuit_sec_1
       sprite: {fileID: 21300002, guid: 5b6e6548dcae65c44b8c30a6f934c74d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bombsuit_sec_2
+    - spriteName: bombsuit_sec_2
       sprite: {fileID: 21300004, guid: 5b6e6548dcae65c44b8c30a6f934c74d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bombsuit_sec_3
+    - spriteName: bombsuit_sec_3
       sprite: {fileID: 21300006, guid: 5b6e6548dcae65c44b8c30a6f934c74d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20207

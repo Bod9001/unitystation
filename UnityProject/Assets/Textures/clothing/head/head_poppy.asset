@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: poppy_0
+    - spriteName: poppy_0
       sprite: {fileID: 21300000, guid: 6fb011284657b8a439700b1d8867e822, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: poppy_1
+    - spriteName: poppy_1
       sprite: {fileID: 21300002, guid: 6fb011284657b8a439700b1d8867e822, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: poppy_2
+    - spriteName: poppy_2
       sprite: {fileID: 21300004, guid: 6fb011284657b8a439700b1d8867e822, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: poppy_3
+    - spriteName: poppy_3
       sprite: {fileID: 21300006, guid: 6fb011284657b8a439700b1d8867e822, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 669

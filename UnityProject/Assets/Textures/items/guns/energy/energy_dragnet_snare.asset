@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4600ea1593a6f024aa5728cfe245d6e1, type: 3}
+    - spriteName: energy_dragnet_snare
+      sprite: {fileID: 21300000, guid: 4600ea1593a6f024aa5728cfe245d6e1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7312

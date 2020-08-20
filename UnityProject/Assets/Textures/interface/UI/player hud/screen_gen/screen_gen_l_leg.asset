@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: eac02391e9c1cb74196d7018af563002, type: 3}
+    - spriteName: screen_gen_l_leg
+      sprite: {fileID: 21300000, guid: eac02391e9c1cb74196d7018af563002, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3499

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 37cb2fcf8e18bfe4c8c83b31c7d1fbc9, type: 3}
+    - spriteName: items_and_weapons_teleprod
+      sprite: {fileID: 21300000, guid: 37cb2fcf8e18bfe4c8c83b31c7d1fbc9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7943

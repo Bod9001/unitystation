@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hosberet_0
+    - spriteName: hosberet_0
       sprite: {fileID: 21300000, guid: 8ba553df432eeda4582e1e1db2bfd875, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hosberet_1
+    - spriteName: hosberet_1
       sprite: {fileID: 21300002, guid: 8ba553df432eeda4582e1e1db2bfd875, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hosberet_2
+    - spriteName: hosberet_2
       sprite: {fileID: 21300004, guid: 8ba553df432eeda4582e1e1db2bfd875, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hosberet_3
+    - spriteName: hosberet_3
       sprite: {fileID: 21300006, guid: 8ba553df432eeda4582e1e1db2bfd875, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20347

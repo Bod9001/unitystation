@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f201531ecbffb97468c97656cb9b80c9, type: 3}
+    - spriteName: harvest_stobacco_leaves
+      sprite: {fileID: 21300000, guid: f201531ecbffb97468c97656cb9b80c9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15347

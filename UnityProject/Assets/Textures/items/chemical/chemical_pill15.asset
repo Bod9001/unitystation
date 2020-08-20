@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 71a39938ce6729941a4c3dd6daf3439f, type: 3}
+    - spriteName: chemical_pill15
+      sprite: {fileID: 21300000, guid: 71a39938ce6729941a4c3dd6daf3439f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5313

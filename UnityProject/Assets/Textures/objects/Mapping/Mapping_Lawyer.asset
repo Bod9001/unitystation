@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f7bb5ee437d10754298a134174e4c0d8, type: 3}
+    - spriteName: Mapping_Lawyer
+      sprite: {fileID: 21300000, guid: f7bb5ee437d10754298a134174e4c0d8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16149

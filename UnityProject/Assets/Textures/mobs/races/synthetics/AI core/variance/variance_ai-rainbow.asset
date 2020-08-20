@@ -14,53 +14,101 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+    - spriteName: ai-rainbow_0
+      sprite: {fileID: 21300000, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300002, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_1
+      sprite: {fileID: 21300002, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300004, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_2
+      sprite: {fileID: 21300004, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_3
+      sprite: {fileID: 21300006, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_4
+      sprite: {fileID: 21300008, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300010, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_5
+      sprite: {fileID: 21300010, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300012, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_6
+      sprite: {fileID: 21300012, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300014, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_7
+      sprite: {fileID: 21300014, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_8
+      sprite: {fileID: 21300016, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300018, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_9
+      sprite: {fileID: 21300018, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300020, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_10
+      sprite: {fileID: 21300020, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300022, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_11
+      sprite: {fileID: 21300022, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300024, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_12
+      sprite: {fileID: 21300024, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300026, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_13
+      sprite: {fileID: 21300026, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300028, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_14
+      sprite: {fileID: 21300028, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_15
+      sprite: {fileID: 21300030, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_16
+      sprite: {fileID: 21300032, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_17
+      sprite: {fileID: 21300034, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_18
+      sprite: {fileID: 21300036, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_19
+      sprite: {fileID: 21300038, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_20
+      sprite: {fileID: 21300040, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_21
+      sprite: {fileID: 21300042, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_22
+      sprite: {fileID: 21300044, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-rainbow_23
+      sprite: {fileID: 21300046, guid: 559b1417fb1bf7b48b4e16be4c50fef4, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11475

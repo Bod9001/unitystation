@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 62d18f690dee16e409bd8bf46bab79f5, type: 3}
+    - spriteName: reagentfillings_largebottle50
+      sprite: {fileID: 21300000, guid: 62d18f690dee16e409bd8bf46bab79f5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8713

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1a88f8bb071f0da4589c327f8738d3b6, type: 3}
+    - spriteName: screen_gen_mood5
+      sprite: {fileID: 21300000, guid: 1a88f8bb071f0da4589c327f8738d3b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3513

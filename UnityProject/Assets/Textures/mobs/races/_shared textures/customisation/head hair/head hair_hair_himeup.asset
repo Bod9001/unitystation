@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 98bf2bf6f590738409acea6693db44e9, type: 3}
+    - spriteName: hair_himeup_0
+      sprite: {fileID: 21300000, guid: 98bf2bf6f590738409acea6693db44e9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 98bf2bf6f590738409acea6693db44e9, type: 3}
+    - spriteName: hair_himeup_1
+      sprite: {fileID: 21300002, guid: 98bf2bf6f590738409acea6693db44e9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 98bf2bf6f590738409acea6693db44e9, type: 3}
+    - spriteName: hair_himeup_2
+      sprite: {fileID: 21300004, guid: 98bf2bf6f590738409acea6693db44e9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 98bf2bf6f590738409acea6693db44e9, type: 3}
+    - spriteName: hair_himeup_3
+      sprite: {fileID: 21300006, guid: 98bf2bf6f590738409acea6693db44e9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21970

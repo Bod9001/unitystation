@@ -14,128 +14,104 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_0
+    - spriteName: nvgmeson_0
       sprite: {fileID: 21300000, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_4
+      AtlasUsing: 0
+    - spriteName: nvgmeson_4
       sprite: {fileID: 21300008, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_8
+      AtlasUsing: 0
+    - spriteName: nvgmeson_8
       sprite: {fileID: 21300016, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_12
+      AtlasUsing: 0
+    - spriteName: nvgmeson_12
       sprite: {fileID: 21300024, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_16
+      AtlasUsing: 0
+    - spriteName: nvgmeson_16
       sprite: {fileID: 21300032, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_20
+      AtlasUsing: 0
+    - spriteName: nvgmeson_20
       sprite: {fileID: 21300040, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_1
+    - spriteName: nvgmeson_1
       sprite: {fileID: 21300002, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_5
+      AtlasUsing: 0
+    - spriteName: nvgmeson_5
       sprite: {fileID: 21300010, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_9
+      AtlasUsing: 0
+    - spriteName: nvgmeson_9
       sprite: {fileID: 21300018, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_13
+      AtlasUsing: 0
+    - spriteName: nvgmeson_13
       sprite: {fileID: 21300026, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_17
+      AtlasUsing: 0
+    - spriteName: nvgmeson_17
       sprite: {fileID: 21300034, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_21
+      AtlasUsing: 0
+    - spriteName: nvgmeson_21
       sprite: {fileID: 21300042, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_2
+    - spriteName: nvgmeson_2
       sprite: {fileID: 21300004, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_6
+      AtlasUsing: 0
+    - spriteName: nvgmeson_6
       sprite: {fileID: 21300012, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_10
+      AtlasUsing: 0
+    - spriteName: nvgmeson_10
       sprite: {fileID: 21300020, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_14
+      AtlasUsing: 0
+    - spriteName: nvgmeson_14
       sprite: {fileID: 21300028, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_18
+      AtlasUsing: 0
+    - spriteName: nvgmeson_18
       sprite: {fileID: 21300036, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_22
+      AtlasUsing: 0
+    - spriteName: nvgmeson_22
       sprite: {fileID: 21300044, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_3
+    - spriteName: nvgmeson_3
       sprite: {fileID: 21300006, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_7
+      AtlasUsing: 0
+    - spriteName: nvgmeson_7
       sprite: {fileID: 21300014, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_11
+      AtlasUsing: 0
+    - spriteName: nvgmeson_11
       sprite: {fileID: 21300022, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_15
+      AtlasUsing: 0
+    - spriteName: nvgmeson_15
       sprite: {fileID: 21300030, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_19
+      AtlasUsing: 0
+    - spriteName: nvgmeson_19
       sprite: {fileID: 21300038, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nvgmeson_23
+      AtlasUsing: 0
+    - spriteName: nvgmeson_23
       sprite: {fileID: 21300046, guid: a24114b7e3185e244bea71ffa9a83a06, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20003

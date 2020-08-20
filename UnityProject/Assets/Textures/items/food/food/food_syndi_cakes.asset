@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c05cf3aa0c8f41f4a968fbcd42199182, type: 3}
+    - spriteName: food_syndi_cakes
+      sprite: {fileID: 21300000, guid: c05cf3aa0c8f41f4a968fbcd42199182, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7025

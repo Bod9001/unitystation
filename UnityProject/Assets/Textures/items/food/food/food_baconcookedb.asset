@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 5238e72f13d341e418c8ec0a3e481c37, type: 3}
+    - spriteName: food_baconcookedb
+      sprite: {fileID: 21300000, guid: 5238e72f13d341e418c8ec0a3e481c37, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6861

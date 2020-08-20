@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c927a28dfac87f74689384053511282c, type: 3}
+    - spriteName: AI_reactivate_cameras
+      sprite: {fileID: 21300000, guid: c927a28dfac87f74689384053511282c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4266

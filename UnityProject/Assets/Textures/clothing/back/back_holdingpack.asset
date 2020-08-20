@@ -14,148 +14,120 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_0
+    - spriteName: holdingpack_0
       sprite: {fileID: 21300000, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_4
+      AtlasUsing: 0
+    - spriteName: holdingpack_4
       sprite: {fileID: 21300008, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_8
+      AtlasUsing: 0
+    - spriteName: holdingpack_8
       sprite: {fileID: 21300016, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_12
+      AtlasUsing: 0
+    - spriteName: holdingpack_12
       sprite: {fileID: 21300024, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_16
+      AtlasUsing: 0
+    - spriteName: holdingpack_16
       sprite: {fileID: 21300032, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_20
+      AtlasUsing: 0
+    - spriteName: holdingpack_20
       sprite: {fileID: 21300040, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_24
+      AtlasUsing: 0
+    - spriteName: holdingpack_24
       sprite: {fileID: 21300048, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_1
+    - spriteName: holdingpack_1
       sprite: {fileID: 21300002, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_5
+      AtlasUsing: 0
+    - spriteName: holdingpack_5
       sprite: {fileID: 21300010, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_9
+      AtlasUsing: 0
+    - spriteName: holdingpack_9
       sprite: {fileID: 21300018, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_13
+      AtlasUsing: 0
+    - spriteName: holdingpack_13
       sprite: {fileID: 21300026, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_17
+      AtlasUsing: 0
+    - spriteName: holdingpack_17
       sprite: {fileID: 21300034, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_21
+      AtlasUsing: 0
+    - spriteName: holdingpack_21
       sprite: {fileID: 21300042, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_25
+      AtlasUsing: 0
+    - spriteName: holdingpack_25
       sprite: {fileID: 21300050, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_2
+    - spriteName: holdingpack_2
       sprite: {fileID: 21300004, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_6
+      AtlasUsing: 0
+    - spriteName: holdingpack_6
       sprite: {fileID: 21300012, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_10
+      AtlasUsing: 0
+    - spriteName: holdingpack_10
       sprite: {fileID: 21300020, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_14
+      AtlasUsing: 0
+    - spriteName: holdingpack_14
       sprite: {fileID: 21300028, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_18
+      AtlasUsing: 0
+    - spriteName: holdingpack_18
       sprite: {fileID: 21300036, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_22
+      AtlasUsing: 0
+    - spriteName: holdingpack_22
       sprite: {fileID: 21300044, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_26
+      AtlasUsing: 0
+    - spriteName: holdingpack_26
       sprite: {fileID: 21300052, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_3
+    - spriteName: holdingpack_3
       sprite: {fileID: 21300006, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_7
+      AtlasUsing: 0
+    - spriteName: holdingpack_7
       sprite: {fileID: 21300014, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_11
+      AtlasUsing: 0
+    - spriteName: holdingpack_11
       sprite: {fileID: 21300022, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_15
+      AtlasUsing: 0
+    - spriteName: holdingpack_15
       sprite: {fileID: 21300030, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_19
+      AtlasUsing: 0
+    - spriteName: holdingpack_19
       sprite: {fileID: 21300038, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_23
+      AtlasUsing: 0
+    - spriteName: holdingpack_23
       sprite: {fileID: 21300046, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: holdingpack_27
+      AtlasUsing: 0
+    - spriteName: holdingpack_27
       sprite: {fileID: 21300054, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 295

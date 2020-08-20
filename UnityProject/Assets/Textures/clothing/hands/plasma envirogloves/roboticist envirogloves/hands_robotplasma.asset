@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: robotplasma_0
+    - spriteName: robotplasma_0
       sprite: {fileID: -4376181148393084652, guid: a7b56d0e1fb057240bee8830d331f666,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: robotplasma_1
+    - spriteName: robotplasma_1
       sprite: {fileID: 6970944966258569671, guid: a7b56d0e1fb057240bee8830d331f666,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: robotplasma_2
+    - spriteName: robotplasma_2
       sprite: {fileID: 3492132262414958846, guid: a7b56d0e1fb057240bee8830d331f666,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: robotplasma_3
+    - spriteName: robotplasma_3
       sprite: {fileID: 6349902048223647110, guid: a7b56d0e1fb057240bee8830d331f666,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23006

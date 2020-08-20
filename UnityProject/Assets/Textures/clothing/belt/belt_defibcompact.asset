@@ -14,108 +14,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_0
+    - spriteName: defibcompact_0
       sprite: {fileID: 21300000, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_4
+      AtlasUsing: 0
+    - spriteName: defibcompact_4
       sprite: {fileID: 21300008, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_8
+      AtlasUsing: 0
+    - spriteName: defibcompact_8
       sprite: {fileID: 21300016, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_12
+      AtlasUsing: 0
+    - spriteName: defibcompact_12
       sprite: {fileID: 21300024, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_16
+      AtlasUsing: 0
+    - spriteName: defibcompact_16
       sprite: {fileID: 21300032, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_1
+    - spriteName: defibcompact_1
       sprite: {fileID: 21300002, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_5
+      AtlasUsing: 0
+    - spriteName: defibcompact_5
       sprite: {fileID: 21300010, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_9
+      AtlasUsing: 0
+    - spriteName: defibcompact_9
       sprite: {fileID: 21300018, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_13
+      AtlasUsing: 0
+    - spriteName: defibcompact_13
       sprite: {fileID: 21300026, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_17
+      AtlasUsing: 0
+    - spriteName: defibcompact_17
       sprite: {fileID: 21300034, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_2
+    - spriteName: defibcompact_2
       sprite: {fileID: 21300004, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_6
+      AtlasUsing: 0
+    - spriteName: defibcompact_6
       sprite: {fileID: 21300012, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_10
+      AtlasUsing: 0
+    - spriteName: defibcompact_10
       sprite: {fileID: 21300020, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_14
+      AtlasUsing: 0
+    - spriteName: defibcompact_14
       sprite: {fileID: 21300028, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_18
+      AtlasUsing: 0
+    - spriteName: defibcompact_18
       sprite: {fileID: 21300036, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_3
+    - spriteName: defibcompact_3
       sprite: {fileID: 21300006, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_7
+      AtlasUsing: 0
+    - spriteName: defibcompact_7
       sprite: {fileID: 21300014, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_11
+      AtlasUsing: 0
+    - spriteName: defibcompact_11
       sprite: {fileID: 21300022, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_15
+      AtlasUsing: 0
+    - spriteName: defibcompact_15
       sprite: {fileID: 21300030, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: defibcompact_19
+      AtlasUsing: 0
+    - spriteName: defibcompact_19
       sprite: {fileID: 21300038, guid: e87cb381100c6fc45bb03ee4c59c7d2f, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 380

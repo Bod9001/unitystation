@@ -14,25 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: kick_0
+    - spriteName: kick_0
       sprite: {fileID: 21300000, guid: cc06ca59a18d1b146ae58ab5928ed49e, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: kick_1
+      AtlasUsing: 0
+    - spriteName: kick_1
       sprite: {fileID: 21300002, guid: cc06ca59a18d1b146ae58ab5928ed49e, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: kick_2
+      AtlasUsing: 0
+    - spriteName: kick_2
       sprite: {fileID: 21300004, guid: cc06ca59a18d1b146ae58ab5928ed49e, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: kick_3
+      AtlasUsing: 0
+    - spriteName: kick_3
       sprite: {fileID: 21300006, guid: cc06ca59a18d1b146ae58ab5928ed49e, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1133

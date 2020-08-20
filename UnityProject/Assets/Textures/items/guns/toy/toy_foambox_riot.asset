@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fb32f770b513ef241a84817020031175, type: 3}
+    - spriteName: toy_foambox_riot
+      sprite: {fileID: 21300000, guid: fb32f770b513ef241a84817020031175, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7664

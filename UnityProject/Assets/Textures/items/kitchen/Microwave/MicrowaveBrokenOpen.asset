@@ -14,10 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ad4ab0cf848ae4744b1702eeedcdd998, type: 3}
+    - spriteName: kitchen_mwb
+      sprite: {fileID: 21300000, guid: ad4ab0cf848ae4744b1702eeedcdd998, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300000, guid: ad4ab0cf848ae4744b1702eeedcdd998, type: 3}
+    - spriteName: kitchen_mwb
+      sprite: {fileID: 21300000, guid: ad4ab0cf848ae4744b1702eeedcdd998, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8095

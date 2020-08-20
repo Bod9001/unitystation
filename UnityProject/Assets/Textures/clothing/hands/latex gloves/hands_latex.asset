@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: latex_0
+    - spriteName: latex_0
       sprite: {fileID: 8570708448157940854, guid: 081c16e2f78af1b4fb588e6631cada93,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: latex_1
+    - spriteName: latex_1
       sprite: {fileID: 6769881558768995044, guid: 081c16e2f78af1b4fb588e6631cada93,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: latex_2
+    - spriteName: latex_2
       sprite: {fileID: 8457211366498706062, guid: 081c16e2f78af1b4fb588e6631cada93,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: latex_3
+    - spriteName: latex_3
       sprite: {fileID: 4449752729803029898, guid: 081c16e2f78af1b4fb588e6631cada93,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20063

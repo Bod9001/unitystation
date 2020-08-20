@@ -14,15 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: colossus_0
+    - spriteName: colossus_0
       sprite: {fileID: 21300000, guid: 0c509ef017bc5914f84b82129254748f, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: colossus_1
+      AtlasUsing: 0
+    - spriteName: colossus_1
       sprite: {fileID: 21300002, guid: 0c509ef017bc5914f84b82129254748f, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1314

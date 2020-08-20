@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d478a608994a16e429bd1804f9071b17, type: 3}
+    - spriteName: gloves_random_gloves
+      sprite: {fileID: 21300000, guid: d478a608994a16e429bd1804f9071b17, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5656

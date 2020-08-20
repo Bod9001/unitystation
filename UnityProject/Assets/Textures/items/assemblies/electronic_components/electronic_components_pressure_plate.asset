@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d7d2a005454a43f49a998bdc60921c59, type: 3}
+    - spriteName: electronic_components_pressure_plate
+      sprite: {fileID: 21300000, guid: d7d2a005454a43f49a998bdc60921c59, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4848

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b5ace853b29c63242b237b02341a0e9a, type: 3}
+    - spriteName: soupsalad_aesirsalad
+      sprite: {fileID: 21300000, guid: b5ace853b29c63242b237b02341a0e9a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7145

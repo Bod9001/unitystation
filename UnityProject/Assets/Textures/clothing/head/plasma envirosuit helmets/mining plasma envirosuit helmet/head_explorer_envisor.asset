@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: explorer_envisor_0
+    - spriteName: explorer_envisor_0
       sprite: {fileID: -6811948321867458150, guid: 608c790fd6462f948b4e2edefce306c3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: explorer_envisor_1
+    - spriteName: explorer_envisor_1
       sprite: {fileID: 6560790323215120597, guid: 608c790fd6462f948b4e2edefce306c3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: explorer_envisor_2
+    - spriteName: explorer_envisor_2
       sprite: {fileID: 6379681385708771414, guid: 608c790fd6462f948b4e2edefce306c3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: explorer_envisor_3
+    - spriteName: explorer_envisor_3
       sprite: {fileID: -7509569292112709214, guid: 608c790fd6462f948b4e2edefce306c3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23060

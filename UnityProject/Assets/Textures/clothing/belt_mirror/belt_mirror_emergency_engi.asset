@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: emergency_engi_0
+    - spriteName: emergency_engi_0
       sprite: {fileID: 21300000, guid: 3cc3de6833937f649a2a836505c61f8a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: emergency_engi_1
+    - spriteName: emergency_engi_1
       sprite: {fileID: 21300002, guid: 3cc3de6833937f649a2a836505c61f8a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: emergency_engi_2
+    - spriteName: emergency_engi_2
       sprite: {fileID: 21300004, guid: 3cc3de6833937f649a2a836505c61f8a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: emergency_engi_3
+    - spriteName: emergency_engi_3
       sprite: {fileID: 21300006, guid: 3cc3de6833937f649a2a836505c61f8a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 450

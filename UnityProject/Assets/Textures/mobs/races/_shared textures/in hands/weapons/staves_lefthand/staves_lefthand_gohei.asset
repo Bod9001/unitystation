@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -8431005381522649139, guid: 38973932d6aa2b04c93912fb30def2f5,
+    - spriteName: gohei_0
+      sprite: {fileID: -8431005381522649139, guid: 38973932d6aa2b04c93912fb30def2f5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -172824130979494020, guid: 38973932d6aa2b04c93912fb30def2f5,
+    - spriteName: gohei_1
+      sprite: {fileID: -172824130979494020, guid: 38973932d6aa2b04c93912fb30def2f5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -9153150535163677874, guid: 38973932d6aa2b04c93912fb30def2f5,
+    - spriteName: gohei_2
+      sprite: {fileID: -9153150535163677874, guid: 38973932d6aa2b04c93912fb30def2f5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 6497164149871742808, guid: 38973932d6aa2b04c93912fb30def2f5,
+    - spriteName: gohei_3
+      sprite: {fileID: 6497164149871742808, guid: 38973932d6aa2b04c93912fb30def2f5,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22452

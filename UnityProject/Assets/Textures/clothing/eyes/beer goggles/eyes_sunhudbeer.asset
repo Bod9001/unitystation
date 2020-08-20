@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sunhudbeer_0
+    - spriteName: sunhudbeer_0
       sprite: {fileID: -4187702517749167721, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sunhudbeer_1
+    - spriteName: sunhudbeer_1
       sprite: {fileID: -4474664430704713142, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sunhudbeer_2
+    - spriteName: sunhudbeer_2
       sprite: {fileID: -7894543157591049939, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sunhudbeer_3
+    - spriteName: sunhudbeer_3
       sprite: {fileID: -383548051846170395, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19929

@@ -14,24 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
+    - spriteName: advtaserdisable0_0
+      sprite: {fileID: 21300000, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
+      AtlasUsing: 0
+    - spriteName: advtaserdisable0_4
+      sprite: {fileID: 21300008, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
+    - spriteName: advtaserdisable0_1
+      sprite: {fileID: 21300002, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
+      AtlasUsing: 0
+    - spriteName: advtaserdisable0_5
+      sprite: {fileID: 21300010, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
+    - spriteName: advtaserdisable0_2
+      sprite: {fileID: 21300004, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
+      AtlasUsing: 0
+    - spriteName: advtaserdisable0_6
+      sprite: {fileID: 21300012, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
+    - spriteName: advtaserdisable0_3
+      sprite: {fileID: 21300006, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
+      AtlasUsing: 0
+    - spriteName: advtaserdisable0_7
+      sprite: {fileID: 21300014, guid: cd6d09330abc66c40ad2fe9a300a9187, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10659

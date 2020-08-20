@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1e9f0ebe7c7564b44a2700b49d79e91c, type: 3}
+    - spriteName: bureaucracy_labeler_refill
+      sprite: {fileID: 21300000, guid: 1e9f0ebe7c7564b44a2700b49d79e91c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5131

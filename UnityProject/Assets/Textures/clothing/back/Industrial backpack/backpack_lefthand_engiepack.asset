@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: engiepack_0
+    - spriteName: engiepack_0
       sprite: {fileID: -7591425557600016849, guid: a470e533319ed6e409645e385bad1e72,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: engiepack_1
+    - spriteName: engiepack_1
       sprite: {fileID: 5314847409291788388, guid: a470e533319ed6e409645e385bad1e72,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: engiepack_2
+    - spriteName: engiepack_2
       sprite: {fileID: 2613310958332676177, guid: a470e533319ed6e409645e385bad1e72,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: engiepack_3
+    - spriteName: engiepack_3
       sprite: {fileID: 9030766954425577040, guid: a470e533319ed6e409645e385bad1e72,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19775

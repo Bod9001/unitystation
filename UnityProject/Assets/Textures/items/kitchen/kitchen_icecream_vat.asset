@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2459917b8ebd32f468ef4e3f52020b83, type: 3}
+    - spriteName: kitchen_icecream_vat
+      sprite: {fileID: 21300000, guid: 2459917b8ebd32f468ef4e3f52020b83, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8090

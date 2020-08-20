@@ -14,25 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 4-f_0
+    - spriteName: 4-f_0
       sprite: {fileID: 21300000, guid: 5bf8269bab76cf84c8edb09523cfa985, type: 3}
       secondDelay: 2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 4-f_1
+      AtlasUsing: 0
+    - spriteName: 4-f_1
       sprite: {fileID: 21300002, guid: 5bf8269bab76cf84c8edb09523cfa985, type: 3}
       secondDelay: 2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 4-f_2
+      AtlasUsing: 0
+    - spriteName: 4-f_2
       sprite: {fileID: 21300004, guid: 5bf8269bab76cf84c8edb09523cfa985, type: 3}
       secondDelay: 2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 4-f_3
+      AtlasUsing: 0
+    - spriteName: 4-f_3
       sprite: {fileID: 21300006, guid: 5bf8269bab76cf84c8edb09523cfa985, type: 3}
       secondDelay: 2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1877

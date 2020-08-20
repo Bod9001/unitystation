@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -6108998491406929081, guid: b98b238fa62a164479430255c5c7ffdd,
+    - spriteName: uplift_0
+      sprite: {fileID: -6108998491406929081, guid: b98b238fa62a164479430255c5c7ffdd,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 5548946955414281447, guid: b98b238fa62a164479430255c5c7ffdd,
+    - spriteName: uplift_1
+      sprite: {fileID: 5548946955414281447, guid: b98b238fa62a164479430255c5c7ffdd,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -2755460094811067481, guid: b98b238fa62a164479430255c5c7ffdd,
+    - spriteName: uplift_2
+      sprite: {fileID: -2755460094811067481, guid: b98b238fa62a164479430255c5c7ffdd,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -7723855361904779205, guid: b98b238fa62a164479430255c5c7ffdd,
+    - spriteName: uplift_3
+      sprite: {fileID: -7723855361904779205, guid: b98b238fa62a164479430255c5c7ffdd,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10139

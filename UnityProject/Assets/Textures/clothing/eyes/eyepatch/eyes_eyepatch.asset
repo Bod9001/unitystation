@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: eyepatch_0
+    - spriteName: eyepatch_0
       sprite: {fileID: 21300000, guid: 83434986de5e6d7489402bf81642043e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: eyepatch_1
+    - spriteName: eyepatch_1
       sprite: {fileID: 21300002, guid: 83434986de5e6d7489402bf81642043e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: eyepatch_2
+    - spriteName: eyepatch_2
       sprite: {fileID: 21300004, guid: 83434986de5e6d7489402bf81642043e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: eyepatch_3
+    - spriteName: eyepatch_3
       sprite: {fileID: 21300006, guid: 83434986de5e6d7489402bf81642043e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19967

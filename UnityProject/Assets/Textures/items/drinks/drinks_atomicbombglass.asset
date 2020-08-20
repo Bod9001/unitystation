@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7c495400d5b2aa94e86e66e805035b2a, type: 3}
+    - spriteName: atomicbombglass_0
+      sprite: {fileID: 21300000, guid: 7c495400d5b2aa94e86e66e805035b2a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 7c495400d5b2aa94e86e66e805035b2a, type: 3}
+      AtlasUsing: 0
+    - spriteName: atomicbombglass_1
+      sprite: {fileID: 21300002, guid: 7c495400d5b2aa94e86e66e805035b2a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 7c495400d5b2aa94e86e66e805035b2a, type: 3}
+      AtlasUsing: 0
+    - spriteName: atomicbombglass_2
+      sprite: {fileID: 21300004, guid: 7c495400d5b2aa94e86e66e805035b2a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 7c495400d5b2aa94e86e66e805035b2a, type: 3}
+      AtlasUsing: 0
+    - spriteName: atomicbombglass_3
+      sprite: {fileID: 21300006, guid: 7c495400d5b2aa94e86e66e805035b2a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6415

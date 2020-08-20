@@ -14,40 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+    - spriteName: bola_0
+      sprite: {fileID: 21300000, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300008, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_4
+      sprite: {fileID: 21300008, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300016, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_8
+      sprite: {fileID: 21300016, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300024, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_12
+      sprite: {fileID: 21300024, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+    - spriteName: bola_1
+      sprite: {fileID: 21300002, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300010, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_5
+      sprite: {fileID: 21300010, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300018, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_9
+      sprite: {fileID: 21300018, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300026, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_13
+      sprite: {fileID: 21300026, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+    - spriteName: bola_2
+      sprite: {fileID: 21300004, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300012, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_6
+      sprite: {fileID: 21300012, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300020, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_10
+      sprite: {fileID: 21300020, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300028, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_14
+      sprite: {fileID: 21300028, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+    - spriteName: bola_3
+      sprite: {fileID: 21300006, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300014, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_7
+      sprite: {fileID: 21300014, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300022, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_11
+      sprite: {fileID: 21300022, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300030, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
+      AtlasUsing: 0
+    - spriteName: bola_15
+      sprite: {fileID: 21300030, guid: 70341b651b8327b4eb3289f682e071ae, type: 3}
       secondDelay: 0.05
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7722

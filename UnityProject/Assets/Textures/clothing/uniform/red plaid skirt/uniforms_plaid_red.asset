@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: uniforms_plaid_red
+    - spriteName: uniforms_plaid_red
       sprite: {fileID: 21300000, guid: fa34be6f8295ab04a84682f92e5cf607, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21670

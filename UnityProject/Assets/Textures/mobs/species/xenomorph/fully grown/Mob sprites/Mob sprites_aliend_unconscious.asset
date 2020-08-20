@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 35128ca3748d6b6448f39bbfa38f26b1, type: 3}
+    - spriteName: Mob sprites_aliend_unconscious
+      sprite: {fileID: 21300000, guid: 35128ca3748d6b6448f39bbfa38f26b1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12723

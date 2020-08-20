@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: dca8df8306dedda4c83228c8bc53df33, type: 3}
+    - spriteName: electronic_setups_setup_device_cylinder
+      sprite: {fileID: 21300000, guid: dca8df8306dedda4c83228c8bc53df33, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4920

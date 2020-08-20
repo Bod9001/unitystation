@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8f376853d082bfe429ae1aa3798d1c87, type: 3}
+    - spriteName: sword0_0
+      sprite: {fileID: 21300000, guid: 8f376853d082bfe429ae1aa3798d1c87, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 8f376853d082bfe429ae1aa3798d1c87, type: 3}
+    - spriteName: sword0_1
+      sprite: {fileID: 21300002, guid: 8f376853d082bfe429ae1aa3798d1c87, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 8f376853d082bfe429ae1aa3798d1c87, type: 3}
+    - spriteName: sword0_2
+      sprite: {fileID: 21300004, guid: 8f376853d082bfe429ae1aa3798d1c87, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 8f376853d082bfe429ae1aa3798d1c87, type: 3}
+    - spriteName: sword0_3
+      sprite: {fileID: 21300006, guid: 8f376853d082bfe429ae1aa3798d1c87, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10965

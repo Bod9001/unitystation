@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 3999151897557321345, guid: 9c93f8e66379af84bbb7fc9e1c25cdf9,
+    - spriteName: crates_hydrocrate_0
+      sprite: {fileID: 3999151897557321345, guid: 9c93f8e66379af84bbb7fc9e1c25cdf9,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13597

@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hats_hardsuit1-owl
+    - spriteName: hats_hardsuit1-owl
       sprite: {fileID: 21300000, guid: fdd0ea44fea1f124eb450fea7b246d53, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20386

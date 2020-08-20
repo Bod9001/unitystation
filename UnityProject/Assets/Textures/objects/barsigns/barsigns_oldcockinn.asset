@@ -14,29 +14,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+    - spriteName: oldcockinn_0
+      sprite: {fileID: 21300000, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 1.8
-    - sprite: {fileID: 21300002, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_1
+      sprite: {fileID: 21300002, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_2
+      sprite: {fileID: 21300004, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_3
+      sprite: {fileID: 21300006, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.6
-    - sprite: {fileID: 21300008, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_4
+      sprite: {fileID: 21300008, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.8
-    - sprite: {fileID: 21300010, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_5
+      sprite: {fileID: 21300010, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.6
-    - sprite: {fileID: 21300012, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_6
+      sprite: {fileID: 21300012, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.8
-    - sprite: {fileID: 21300014, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_7
+      sprite: {fileID: 21300014, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.6
-    - sprite: {fileID: 21300016, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_8
+      sprite: {fileID: 21300016, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 2.4
-    - sprite: {fileID: 21300018, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_9
+      sprite: {fileID: 21300018, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_10
+      sprite: {fileID: 21300020, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
+      AtlasUsing: 0
+    - spriteName: oldcockinn_11
+      sprite: {fileID: 21300022, guid: 337941491e6e5ca4c9476beac43fee15, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13152

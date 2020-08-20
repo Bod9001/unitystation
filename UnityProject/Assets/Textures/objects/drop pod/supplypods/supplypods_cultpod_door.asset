@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 115f379e53ffae349ad98f7c78f3bb8d, type: 3}
+    - spriteName: supplypods_cultpod_door
+      sprite: {fileID: 21300000, guid: 115f379e53ffae349ad98f7c78f3bb8d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14809

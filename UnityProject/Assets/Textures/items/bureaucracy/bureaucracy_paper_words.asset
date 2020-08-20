@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d331ebc6521e1c54b86458d4cd72f322, type: 3}
+    - spriteName: bureaucracy_paper_words
+      sprite: {fileID: 21300000, guid: d331ebc6521e1c54b86458d4cd72f322, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5155

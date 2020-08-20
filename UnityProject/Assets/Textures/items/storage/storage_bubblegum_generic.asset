@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d79790ad736dfde42a11e4338022059e, type: 3}
+    - spriteName: storage_bubblegum_generic
+      sprite: {fileID: 21300000, guid: d79790ad736dfde42a11e4338022059e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22988

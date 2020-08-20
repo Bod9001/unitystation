@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: caution_0
+    - spriteName: caution_0
       sprite: {fileID: 21300000, guid: ccc523b972325954eb385a3d032adbac, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: caution_1
+    - spriteName: caution_1
       sprite: {fileID: 21300002, guid: ccc523b972325954eb385a3d032adbac, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: caution_2
+    - spriteName: caution_2
       sprite: {fileID: 21300004, guid: ccc523b972325954eb385a3d032adbac, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: caution_3
+    - spriteName: caution_3
       sprite: {fileID: 21300006, guid: ccc523b972325954eb385a3d032adbac, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: caution_4
+    - spriteName: caution_4
       sprite: {fileID: 21300008, guid: ccc523b972325954eb385a3d032adbac, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: caution_5
+    - spriteName: caution_5
       sprite: {fileID: 21300010, guid: ccc523b972325954eb385a3d032adbac, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: caution_6
+    - spriteName: caution_6
       sprite: {fileID: 21300012, guid: ccc523b972325954eb385a3d032adbac, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: caution_7
+    - spriteName: caution_7
       sprite: {fileID: 21300014, guid: ccc523b972325954eb385a3d032adbac, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2329

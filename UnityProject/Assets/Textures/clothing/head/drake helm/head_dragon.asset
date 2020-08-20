@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dragon_0
+    - spriteName: dragon_0
       sprite: {fileID: 21300000, guid: 100b83650f0771d4889cc610119366a3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dragon_1
+    - spriteName: dragon_1
       sprite: {fileID: 21300002, guid: 100b83650f0771d4889cc610119366a3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dragon_2
+    - spriteName: dragon_2
       sprite: {fileID: 21300004, guid: 100b83650f0771d4889cc610119366a3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dragon_3
+    - spriteName: dragon_3
       sprite: {fileID: 21300006, guid: 100b83650f0771d4889cc610119366a3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20254

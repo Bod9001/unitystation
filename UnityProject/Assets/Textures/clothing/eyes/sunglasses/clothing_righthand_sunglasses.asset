@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sunglasses_0
+    - spriteName: sunglasses_0
       sprite: {fileID: 21300000, guid: 73e03e69f60366c48874e8d2b826ad77, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sunglasses_1
+    - spriteName: sunglasses_1
       sprite: {fileID: 21300002, guid: 73e03e69f60366c48874e8d2b826ad77, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sunglasses_2
+    - spriteName: sunglasses_2
       sprite: {fileID: 21300004, guid: 73e03e69f60366c48874e8d2b826ad77, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sunglasses_3
+    - spriteName: sunglasses_3
       sprite: {fileID: 21300006, guid: 73e03e69f60366c48874e8d2b826ad77, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20040

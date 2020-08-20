@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7badb35cdac4823488ea5d0f4dbd7bfc, type: 3}
+    - spriteName: lighting_seclite
+      sprite: {fileID: 21300000, guid: 7badb35cdac4823488ea5d0f4dbd7bfc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15586

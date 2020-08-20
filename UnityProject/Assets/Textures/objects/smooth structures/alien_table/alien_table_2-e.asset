@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 48ca96a4b0cbf4c4784c2e6b38a7103f, type: 3}
+    - spriteName: alien_table_2-e
+      sprite: {fileID: 21300000, guid: 48ca96a4b0cbf4c4784c2e6b38a7103f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16804

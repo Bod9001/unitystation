@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e7c5b110b229cbd4ab09444a1001d1de, type: 3}
+    - spriteName: m_moth_wings_poison_BEHIND_0
+      sprite: {fileID: 21300000, guid: e7c5b110b229cbd4ab09444a1001d1de, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: e7c5b110b229cbd4ab09444a1001d1de, type: 3}
+    - spriteName: m_moth_wings_poison_BEHIND_1
+      sprite: {fileID: 21300002, guid: e7c5b110b229cbd4ab09444a1001d1de, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: e7c5b110b229cbd4ab09444a1001d1de, type: 3}
+    - spriteName: m_moth_wings_poison_BEHIND_2
+      sprite: {fileID: 21300004, guid: e7c5b110b229cbd4ab09444a1001d1de, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: e7c5b110b229cbd4ab09444a1001d1de, type: 3}
+    - spriteName: m_moth_wings_poison_BEHIND_3
+      sprite: {fileID: 21300006, guid: e7c5b110b229cbd4ab09444a1001d1de, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11319

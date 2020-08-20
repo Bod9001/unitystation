@@ -14,29 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -8196908270968541667, guid: b5f24a378aa290c428522d8ec92167e2,
+    - spriteName: goldapple_0
+      sprite: {fileID: -8196908270968541667, guid: b5f24a378aa290c428522d8ec92167e2,
         type: 3}
       secondDelay: 1
-    - sprite: {fileID: 9166903383350874885, guid: b5f24a378aa290c428522d8ec92167e2,
+      AtlasUsing: 0
+    - spriteName: goldapple_1
+      sprite: {fileID: 9166903383350874885, guid: b5f24a378aa290c428522d8ec92167e2,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 7528997726865941060, guid: b5f24a378aa290c428522d8ec92167e2,
+      AtlasUsing: 0
+    - spriteName: goldapple_2
+      sprite: {fileID: 7528997726865941060, guid: b5f24a378aa290c428522d8ec92167e2,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 7585001025897769992, guid: b5f24a378aa290c428522d8ec92167e2,
+      AtlasUsing: 0
+    - spriteName: goldapple_3
+      sprite: {fileID: 7585001025897769992, guid: b5f24a378aa290c428522d8ec92167e2,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 9010664353375371765, guid: b5f24a378aa290c428522d8ec92167e2,
+      AtlasUsing: 0
+    - spriteName: goldapple_4
+      sprite: {fileID: 9010664353375371765, guid: b5f24a378aa290c428522d8ec92167e2,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -7983532206474145859, guid: b5f24a378aa290c428522d8ec92167e2,
+      AtlasUsing: 0
+    - spriteName: goldapple_5
+      sprite: {fileID: -7983532206474145859, guid: b5f24a378aa290c428522d8ec92167e2,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 8118519817537441594, guid: b5f24a378aa290c428522d8ec92167e2,
+      AtlasUsing: 0
+    - spriteName: goldapple_6
+      sprite: {fileID: 8118519817537441594, guid: b5f24a378aa290c428522d8ec92167e2,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 8330964889646580386, guid: b5f24a378aa290c428522d8ec92167e2,
+      AtlasUsing: 0
+    - spriteName: goldapple_7
+      sprite: {fileID: 8330964889646580386, guid: b5f24a378aa290c428522d8ec92167e2,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15291

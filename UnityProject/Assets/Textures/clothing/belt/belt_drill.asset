@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: drill_0
+    - spriteName: drill_0
       sprite: {fileID: 254509965974115023, guid: a44ce5102dffdde47809ea9f602ae989,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: drill_1
+    - spriteName: drill_1
       sprite: {fileID: -6691675645143005069, guid: a44ce5102dffdde47809ea9f602ae989,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: drill_2
+    - spriteName: drill_2
       sprite: {fileID: -5204444195791515992, guid: a44ce5102dffdde47809ea9f602ae989,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: drill_3
+    - spriteName: drill_3
       sprite: {fileID: -652723830670757912, guid: a44ce5102dffdde47809ea9f602ae989,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19856

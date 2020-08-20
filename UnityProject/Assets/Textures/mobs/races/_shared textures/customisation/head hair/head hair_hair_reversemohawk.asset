@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 71bea664b1ef70b4da6aca7367a7f3ad, type: 3}
+    - spriteName: hair_reversemohawk_0
+      sprite: {fileID: 21300000, guid: 71bea664b1ef70b4da6aca7367a7f3ad, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 71bea664b1ef70b4da6aca7367a7f3ad, type: 3}
+    - spriteName: hair_reversemohawk_1
+      sprite: {fileID: 21300002, guid: 71bea664b1ef70b4da6aca7367a7f3ad, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 71bea664b1ef70b4da6aca7367a7f3ad, type: 3}
+    - spriteName: hair_reversemohawk_2
+      sprite: {fileID: 21300004, guid: 71bea664b1ef70b4da6aca7367a7f3ad, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 71bea664b1ef70b4da6aca7367a7f3ad, type: 3}
+    - spriteName: hair_reversemohawk_3
+      sprite: {fileID: 21300006, guid: 71bea664b1ef70b4da6aca7367a7f3ad, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22020

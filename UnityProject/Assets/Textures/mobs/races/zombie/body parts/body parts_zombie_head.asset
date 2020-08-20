@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 49c12d3db6d6635428764699e9b865b8, type: 3}
+    - spriteName: zombie_head_0
+      sprite: {fileID: 21300000, guid: 49c12d3db6d6635428764699e9b865b8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 49c12d3db6d6635428764699e9b865b8, type: 3}
+    - spriteName: zombie_head_1
+      sprite: {fileID: 21300002, guid: 49c12d3db6d6635428764699e9b865b8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 49c12d3db6d6635428764699e9b865b8, type: 3}
+    - spriteName: zombie_head_2
+      sprite: {fileID: 21300004, guid: 49c12d3db6d6635428764699e9b865b8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 49c12d3db6d6635428764699e9b865b8, type: 3}
+    - spriteName: zombie_head_3
+      sprite: {fileID: 21300006, guid: 49c12d3db6d6635428764699e9b865b8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11792

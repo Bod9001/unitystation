@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: overly_lavastaff_warn
+    - spriteName: overly_lavastaff_warn
       sprite: {fileID: 21300000, guid: 85a9cb64b16c9884cac25e79a3fcf0e4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2409

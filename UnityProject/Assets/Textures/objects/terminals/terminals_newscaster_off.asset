@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7f1b6b7a5cc42e3448cd48e72367b05d, type: 3}
+    - spriteName: terminals_newscaster_off
+      sprite: {fileID: 21300000, guid: 7f1b6b7a5cc42e3448cd48e72367b05d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17568

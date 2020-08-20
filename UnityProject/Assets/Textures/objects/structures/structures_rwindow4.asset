@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f1e051fca1895c944bc9f3df3b4df81b, type: 3}
+    - spriteName: structures_rwindow4
+      sprite: {fileID: 21300000, guid: f1e051fca1895c944bc9f3df3b4df81b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17390

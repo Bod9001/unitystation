@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2f7faae0cd1e9274ead8170e9dcd6938, type: 3}
+    - spriteName: pod survival_d-sw
+      sprite: {fileID: 21300000, guid: 2f7faae0cd1e9274ead8170e9dcd6938, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19403

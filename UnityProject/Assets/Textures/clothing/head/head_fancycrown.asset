@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fancycrown_0
+    - spriteName: fancycrown_0
       sprite: {fileID: 21300000, guid: 6b5d148e8410e754d98453cc21409fe0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fancycrown_1
+    - spriteName: fancycrown_1
       sprite: {fileID: 21300002, guid: 6b5d148e8410e754d98453cc21409fe0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fancycrown_2
+    - spriteName: fancycrown_2
       sprite: {fileID: 21300004, guid: 6b5d148e8410e754d98453cc21409fe0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fancycrown_3
+    - spriteName: fancycrown_3
       sprite: {fileID: 21300006, guid: 6b5d148e8410e754d98453cc21409fe0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 595

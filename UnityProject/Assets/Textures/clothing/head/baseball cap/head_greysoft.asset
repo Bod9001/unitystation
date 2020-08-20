@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greysoft_0
+    - spriteName: greysoft_0
       sprite: {fileID: 21300000, guid: 4c5b2ba53ef30fa42a7ae2a6b0a0b90c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greysoft_1
+    - spriteName: greysoft_1
       sprite: {fileID: 21300002, guid: 4c5b2ba53ef30fa42a7ae2a6b0a0b90c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greysoft_2
+    - spriteName: greysoft_2
       sprite: {fileID: 21300004, guid: 4c5b2ba53ef30fa42a7ae2a6b0a0b90c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: greysoft_3
+    - spriteName: greysoft_3
       sprite: {fileID: 21300006, guid: 4c5b2ba53ef30fa42a7ae2a6b0a0b90c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20137

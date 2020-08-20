@@ -14,80 +14,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_0
+    - spriteName: speedspace_ew_15_0
       sprite: {fileID: 21300000, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_1
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_1
       sprite: {fileID: 21300002, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_2
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_2
       sprite: {fileID: 21300004, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_3
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_3
       sprite: {fileID: 21300006, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_4
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_4
       sprite: {fileID: 21300008, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_5
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_5
       sprite: {fileID: 21300010, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_6
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_6
       sprite: {fileID: 21300012, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_7
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_7
       sprite: {fileID: 21300014, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_8
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_8
       sprite: {fileID: 21300016, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_9
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_9
       sprite: {fileID: 21300018, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_10
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_10
       sprite: {fileID: 21300020, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_11
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_11
       sprite: {fileID: 21300022, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_12
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_12
       sprite: {fileID: 21300024, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_13
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_13
       sprite: {fileID: 21300026, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: speedspace_ew_15_14
+      AtlasUsing: 0
+    - spriteName: speedspace_ew_15_14
       sprite: {fileID: 21300028, guid: 84bbb115103504443bd14533a15df4c7, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 64

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9291bdf754d8144469a29623af27770c, type: 3}
+    - spriteName: food_loadedbakedpotato
+      sprite: {fileID: 21300000, guid: 9291bdf754d8144469a29623af27770c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6956

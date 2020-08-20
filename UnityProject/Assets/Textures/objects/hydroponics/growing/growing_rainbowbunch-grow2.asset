@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a15f3d48745fdcb4ab0015004164b15d, type: 3}
+    - spriteName: growing_rainbowbunch-grow2
+      sprite: {fileID: 21300000, guid: a15f3d48745fdcb4ab0015004164b15d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22824

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7ef3b847e432b6f4cb7bb1b7a16ac508, type: 3}
+    - spriteName: growing_steelcap-grow2
+      sprite: {fileID: 21300000, guid: 7ef3b847e432b6f4cb7bb1b7a16ac508, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22876

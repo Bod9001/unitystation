@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: deathsquad_0
+    - spriteName: deathsquad_0
       sprite: {fileID: 21300000, guid: 9d94ddfcb54005e458012c1c08d77183, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: deathsquad_1
+    - spriteName: deathsquad_1
       sprite: {fileID: 21300002, guid: 9d94ddfcb54005e458012c1c08d77183, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: deathsquad_2
+    - spriteName: deathsquad_2
       sprite: {fileID: 21300004, guid: 9d94ddfcb54005e458012c1c08d77183, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: deathsquad_3
+    - spriteName: deathsquad_3
       sprite: {fileID: 21300006, guid: 9d94ddfcb54005e458012c1c08d77183, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20376

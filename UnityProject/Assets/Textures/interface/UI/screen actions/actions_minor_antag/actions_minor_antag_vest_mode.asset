@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f718cbde71a5f4b479bdb5fa7fc40db0, type: 3}
+    - spriteName: actions_minor_antag_vest_mode
+      sprite: {fileID: 21300000, guid: f718cbde71a5f4b479bdb5fa7fc40db0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4143

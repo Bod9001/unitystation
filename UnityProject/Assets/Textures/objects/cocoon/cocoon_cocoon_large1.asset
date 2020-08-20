@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8abf51f1e4e15b24981ed676ceda0d64, type: 3}
+    - spriteName: cocoon_cocoon_large1
+      sprite: {fileID: 21300000, guid: 8abf51f1e4e15b24981ed676ceda0d64, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13371

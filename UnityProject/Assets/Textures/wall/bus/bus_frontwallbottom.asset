@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: df2483d6fe574b64cbab82cf94b55321, type: 3}
+    - spriteName: bus_frontwallbottom
+      sprite: {fileID: 21300000, guid: df2483d6fe574b64cbab82cf94b55321, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19148

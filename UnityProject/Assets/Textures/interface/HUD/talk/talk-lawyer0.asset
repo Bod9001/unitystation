@@ -14,17 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -9158831977023676155, guid: d79bded0cde2d444da6b8dec935a566e,
+    - spriteName: talk_lawyer0_0
+      sprite: {fileID: -9158831977023676155, guid: d79bded0cde2d444da6b8dec935a566e,
         type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: -1804914906611251293, guid: d79bded0cde2d444da6b8dec935a566e,
+      AtlasUsing: 0
+    - spriteName: talk_lawyer0_1
+      sprite: {fileID: -1804914906611251293, guid: d79bded0cde2d444da6b8dec935a566e,
         type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 1363031064080143824, guid: d79bded0cde2d444da6b8dec935a566e,
+      AtlasUsing: 0
+    - spriteName: talk_lawyer0_2
+      sprite: {fileID: 1363031064080143824, guid: d79bded0cde2d444da6b8dec935a566e,
         type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: -499940764402660679, guid: d79bded0cde2d444da6b8dec935a566e,
+      AtlasUsing: 0
+    - spriteName: talk_lawyer0_3
+      sprite: {fileID: -499940764402660679, guid: d79bded0cde2d444da6b8dec935a566e,
         type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2913

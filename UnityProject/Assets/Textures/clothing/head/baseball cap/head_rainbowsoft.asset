@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rainbowsoft_0
+    - spriteName: rainbowsoft_0
       sprite: {fileID: 21300000, guid: 43b7eeff7c0997a4dae72a5a3a208917, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rainbowsoft_1
+    - spriteName: rainbowsoft_1
       sprite: {fileID: 21300002, guid: 43b7eeff7c0997a4dae72a5a3a208917, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rainbowsoft_2
+    - spriteName: rainbowsoft_2
       sprite: {fileID: 21300004, guid: 43b7eeff7c0997a4dae72a5a3a208917, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rainbowsoft_3
+    - spriteName: rainbowsoft_3
       sprite: {fileID: 21300006, guid: 43b7eeff7c0997a4dae72a5a3a208917, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20147

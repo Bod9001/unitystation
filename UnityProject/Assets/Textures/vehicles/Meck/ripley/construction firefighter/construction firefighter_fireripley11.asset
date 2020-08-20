@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 308707766889eaf40b8ac8605959972b, type: 3}
+    - spriteName: construction firefighter_fireripley11
+      sprite: {fileID: 21300000, guid: 308707766889eaf40b8ac8605959972b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19067

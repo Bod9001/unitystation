@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fc5860f342767b8469fdd0374633a55f, type: 3}
+    - spriteName: screen_operative_disarm
+      sprite: {fileID: 21300000, guid: fc5860f342767b8469fdd0374633a55f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3656

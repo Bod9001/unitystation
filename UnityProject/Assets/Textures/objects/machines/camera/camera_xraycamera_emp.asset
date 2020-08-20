@@ -14,76 +14,140 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+    - spriteName: xraycamera_emp_0
+      sprite: {fileID: 21300000, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_8
+      sprite: {fileID: 21300016, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300032, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_16
+      sprite: {fileID: 21300032, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_24
+      sprite: {fileID: 21300048, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+    - spriteName: xraycamera_emp_1
+      sprite: {fileID: 21300002, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300018, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_9
+      sprite: {fileID: 21300018, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300034, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_17
+      sprite: {fileID: 21300034, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_25
+      sprite: {fileID: 21300050, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+    - spriteName: xraycamera_emp_2
+      sprite: {fileID: 21300004, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300020, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_10
+      sprite: {fileID: 21300020, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300036, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_18
+      sprite: {fileID: 21300036, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_26
+      sprite: {fileID: 21300052, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+    - spriteName: xraycamera_emp_3
+      sprite: {fileID: 21300006, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300022, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_11
+      sprite: {fileID: 21300022, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300038, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_19
+      sprite: {fileID: 21300038, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_27
+      sprite: {fileID: 21300054, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300008, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+    - spriteName: xraycamera_emp_4
+      sprite: {fileID: 21300008, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300024, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_12
+      sprite: {fileID: 21300024, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300040, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_20
+      sprite: {fileID: 21300040, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_28
+      sprite: {fileID: 21300056, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300010, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+    - spriteName: xraycamera_emp_5
+      sprite: {fileID: 21300010, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300026, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_13
+      sprite: {fileID: 21300026, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300042, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_21
+      sprite: {fileID: 21300042, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_29
+      sprite: {fileID: 21300058, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300012, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+    - spriteName: xraycamera_emp_6
+      sprite: {fileID: 21300012, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300028, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_14
+      sprite: {fileID: 21300028, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300044, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_22
+      sprite: {fileID: 21300044, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_30
+      sprite: {fileID: 21300060, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300014, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+    - spriteName: xraycamera_emp_7
+      sprite: {fileID: 21300014, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300030, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_15
+      sprite: {fileID: 21300030, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300046, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_23
+      sprite: {fileID: 21300046, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
+      AtlasUsing: 0
+    - spriteName: xraycamera_emp_31
+      sprite: {fileID: 21300062, guid: 15c7398d51e6c814b8dfbac4a8c208d1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15657

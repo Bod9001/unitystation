@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
+    - spriteName: pocket_0
+      sprite: {fileID: 21300000, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
+    - spriteName: pocket_1
+      sprite: {fileID: 21300002, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
+    - spriteName: pocket_2
+      sprite: {fileID: 21300004, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
+    - spriteName: pocket_3
+      sprite: {fileID: 21300006, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3770

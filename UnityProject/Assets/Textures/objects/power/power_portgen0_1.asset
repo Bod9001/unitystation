@@ -14,47 +14,89 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+    - spriteName: portgen0_1_0
+      sprite: {fileID: 21300000, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_1
+      sprite: {fileID: 21300002, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_2
+      sprite: {fileID: 21300004, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_3
+      sprite: {fileID: 21300006, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_4
+      sprite: {fileID: 21300008, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_5
+      sprite: {fileID: 21300010, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_6
+      sprite: {fileID: 21300012, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_7
+      sprite: {fileID: 21300014, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_8
+      sprite: {fileID: 21300016, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_9
+      sprite: {fileID: 21300018, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300020, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_10
+      sprite: {fileID: 21300020, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300022, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_11
+      sprite: {fileID: 21300022, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300024, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_12
+      sprite: {fileID: 21300024, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300026, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_13
+      sprite: {fileID: 21300026, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300028, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_14
+      sprite: {fileID: 21300028, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300030, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_15
+      sprite: {fileID: 21300030, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300032, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_16
+      sprite: {fileID: 21300032, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300034, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_17
+      sprite: {fileID: 21300034, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300036, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_18
+      sprite: {fileID: 21300036, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300038, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_19
+      sprite: {fileID: 21300038, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300040, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
+      AtlasUsing: 0
+    - spriteName: portgen0_1_20
+      sprite: {fileID: 21300040, guid: bf10a3decfa80eb4e94c64dd79300563, type: 3}
       secondDelay: 0.05
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16525

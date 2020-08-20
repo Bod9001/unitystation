@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d0e8e710aabd3b34ca3891244c14fa8f, type: 3}
+    - spriteName: library_random_book
+      sprite: {fileID: 21300000, guid: d0e8e710aabd3b34ca3891244c14fa8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8168

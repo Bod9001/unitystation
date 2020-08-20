@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: eea043edaf0a7f947875d2f7d5e1c959, type: 3}
+    - spriteName: hourglass_7_0
+      sprite: {fileID: 21300000, guid: eea043edaf0a7f947875d2f7d5e1c959, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: eea043edaf0a7f947875d2f7d5e1c959, type: 3}
+      AtlasUsing: 0
+    - spriteName: hourglass_7_1
+      sprite: {fileID: 21300002, guid: eea043edaf0a7f947875d2f7d5e1c959, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: eea043edaf0a7f947875d2f7d5e1c959, type: 3}
+      AtlasUsing: 0
+    - spriteName: hourglass_7_2
+      sprite: {fileID: 21300004, guid: eea043edaf0a7f947875d2f7d5e1c959, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7684

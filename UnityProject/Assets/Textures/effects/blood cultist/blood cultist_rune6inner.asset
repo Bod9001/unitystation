@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: blood cultist_rune6inner
+    - spriteName: blood cultist_rune6inner
       sprite: {fileID: 21300000, guid: a8950980b2002ad4993422c89fbd96f7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1212

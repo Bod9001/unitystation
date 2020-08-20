@@ -14,48 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: securityhudnight_0
+    - spriteName: securityhudnight_0
       sprite: {fileID: 21300000, guid: cd0e91a5881a2904fbb87fa0c8060be3, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: securityhudnight_4
+      AtlasUsing: 0
+    - spriteName: securityhudnight_4
       sprite: {fileID: 21300008, guid: cd0e91a5881a2904fbb87fa0c8060be3, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: securityhudnight_1
+    - spriteName: securityhudnight_1
       sprite: {fileID: 21300002, guid: cd0e91a5881a2904fbb87fa0c8060be3, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: securityhudnight_5
+      AtlasUsing: 0
+    - spriteName: securityhudnight_5
       sprite: {fileID: 21300010, guid: cd0e91a5881a2904fbb87fa0c8060be3, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: securityhudnight_2
+    - spriteName: securityhudnight_2
       sprite: {fileID: 21300004, guid: cd0e91a5881a2904fbb87fa0c8060be3, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: securityhudnight_6
+      AtlasUsing: 0
+    - spriteName: securityhudnight_6
       sprite: {fileID: 21300012, guid: cd0e91a5881a2904fbb87fa0c8060be3, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: securityhudnight_3
+    - spriteName: securityhudnight_3
       sprite: {fileID: 21300006, guid: cd0e91a5881a2904fbb87fa0c8060be3, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: securityhudnight_7
+      AtlasUsing: 0
+    - spriteName: securityhudnight_7
       sprite: {fileID: 21300014, guid: cd0e91a5881a2904fbb87fa0c8060be3, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20007

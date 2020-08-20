@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 2887080821195956560, guid: 128967c9acb902e47abb6a8351f0b536,
+    - spriteName: sprayer_med_yellow_0
+      sprite: {fileID: 2887080821195956560, guid: 128967c9acb902e47abb6a8351f0b536,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -4087641307941140029, guid: 128967c9acb902e47abb6a8351f0b536,
+    - spriteName: sprayer_med_yellow_1
+      sprite: {fileID: -4087641307941140029, guid: 128967c9acb902e47abb6a8351f0b536,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 3592512285662796508, guid: 128967c9acb902e47abb6a8351f0b536,
+    - spriteName: sprayer_med_yellow_2
+      sprite: {fileID: 3592512285662796508, guid: 128967c9acb902e47abb6a8351f0b536,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 5376813282227150191, guid: 128967c9acb902e47abb6a8351f0b536,
+    - spriteName: sprayer_med_yellow_3
+      sprite: {fileID: 5376813282227150191, guid: 128967c9acb902e47abb6a8351f0b536,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23051

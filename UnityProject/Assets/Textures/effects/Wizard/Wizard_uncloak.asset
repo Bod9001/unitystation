@@ -14,168 +14,136 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_0
+    - spriteName: uncloak_0
       sprite: {fileID: 21300000, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_4
+      AtlasUsing: 0
+    - spriteName: uncloak_4
       sprite: {fileID: 21300008, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_8
+      AtlasUsing: 0
+    - spriteName: uncloak_8
       sprite: {fileID: 21300016, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_12
+      AtlasUsing: 0
+    - spriteName: uncloak_12
       sprite: {fileID: 21300024, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_16
+      AtlasUsing: 0
+    - spriteName: uncloak_16
       sprite: {fileID: 21300032, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_20
+      AtlasUsing: 0
+    - spriteName: uncloak_20
       sprite: {fileID: 21300040, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_24
+      AtlasUsing: 0
+    - spriteName: uncloak_24
       sprite: {fileID: 21300048, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_28
+      AtlasUsing: 0
+    - spriteName: uncloak_28
       sprite: {fileID: 21300056, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_1
+    - spriteName: uncloak_1
       sprite: {fileID: 21300002, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_5
+      AtlasUsing: 0
+    - spriteName: uncloak_5
       sprite: {fileID: 21300010, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_9
+      AtlasUsing: 0
+    - spriteName: uncloak_9
       sprite: {fileID: 21300018, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_13
+      AtlasUsing: 0
+    - spriteName: uncloak_13
       sprite: {fileID: 21300026, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_17
+      AtlasUsing: 0
+    - spriteName: uncloak_17
       sprite: {fileID: 21300034, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_21
+      AtlasUsing: 0
+    - spriteName: uncloak_21
       sprite: {fileID: 21300042, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_25
+      AtlasUsing: 0
+    - spriteName: uncloak_25
       sprite: {fileID: 21300050, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_29
+      AtlasUsing: 0
+    - spriteName: uncloak_29
       sprite: {fileID: 21300058, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_2
+    - spriteName: uncloak_2
       sprite: {fileID: 21300004, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_6
+      AtlasUsing: 0
+    - spriteName: uncloak_6
       sprite: {fileID: 21300012, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_10
+      AtlasUsing: 0
+    - spriteName: uncloak_10
       sprite: {fileID: 21300020, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_14
+      AtlasUsing: 0
+    - spriteName: uncloak_14
       sprite: {fileID: 21300028, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_18
+      AtlasUsing: 0
+    - spriteName: uncloak_18
       sprite: {fileID: 21300036, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_22
+      AtlasUsing: 0
+    - spriteName: uncloak_22
       sprite: {fileID: 21300044, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_26
+      AtlasUsing: 0
+    - spriteName: uncloak_26
       sprite: {fileID: 21300052, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_30
+      AtlasUsing: 0
+    - spriteName: uncloak_30
       sprite: {fileID: 21300060, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_3
+    - spriteName: uncloak_3
       sprite: {fileID: 21300006, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_7
+      AtlasUsing: 0
+    - spriteName: uncloak_7
       sprite: {fileID: 21300014, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_11
+      AtlasUsing: 0
+    - spriteName: uncloak_11
       sprite: {fileID: 21300022, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_15
+      AtlasUsing: 0
+    - spriteName: uncloak_15
       sprite: {fileID: 21300030, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_19
+      AtlasUsing: 0
+    - spriteName: uncloak_19
       sprite: {fileID: 21300038, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_23
+      AtlasUsing: 0
+    - spriteName: uncloak_23
       sprite: {fileID: 21300046, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_27
+      AtlasUsing: 0
+    - spriteName: uncloak_27
       sprite: {fileID: 21300054, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: uncloak_31
+      AtlasUsing: 0
+    - spriteName: uncloak_31
       sprite: {fileID: 21300062, guid: ec3b20b17239c1c418ede024cec43ed1, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1478

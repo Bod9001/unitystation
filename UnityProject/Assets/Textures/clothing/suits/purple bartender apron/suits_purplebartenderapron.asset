@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: purplebartenderapron_0
+    - spriteName: purplebartenderapron_0
       sprite: {fileID: 21300000, guid: 732f7025b75f06e4c922bdfd19ef04d1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: purplebartenderapron_1
+    - spriteName: purplebartenderapron_1
       sprite: {fileID: 21300002, guid: 732f7025b75f06e4c922bdfd19ef04d1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: purplebartenderapron_2
+    - spriteName: purplebartenderapron_2
       sprite: {fileID: 21300004, guid: 732f7025b75f06e4c922bdfd19ef04d1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: purplebartenderapron_3
+    - spriteName: purplebartenderapron_3
       sprite: {fileID: 21300006, guid: 732f7025b75f06e4c922bdfd19ef04d1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21051

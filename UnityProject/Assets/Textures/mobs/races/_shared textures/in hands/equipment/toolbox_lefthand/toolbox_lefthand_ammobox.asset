@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d3c0734eb7558834faae8d5e0a14dcfe, type: 3}
+    - spriteName: ammobox_0
+      sprite: {fileID: 21300000, guid: d3c0734eb7558834faae8d5e0a14dcfe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: d3c0734eb7558834faae8d5e0a14dcfe, type: 3}
+    - spriteName: ammobox_1
+      sprite: {fileID: 21300002, guid: d3c0734eb7558834faae8d5e0a14dcfe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: d3c0734eb7558834faae8d5e0a14dcfe, type: 3}
+    - spriteName: ammobox_2
+      sprite: {fileID: 21300004, guid: d3c0734eb7558834faae8d5e0a14dcfe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: d3c0734eb7558834faae8d5e0a14dcfe, type: 3}
+    - spriteName: ammobox_3
+      sprite: {fileID: 21300006, guid: d3c0734eb7558834faae8d5e0a14dcfe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10225

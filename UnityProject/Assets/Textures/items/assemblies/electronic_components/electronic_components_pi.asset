@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 095376e78e44908439bf24ddff25f91e, type: 3}
+    - spriteName: electronic_components_pi
+      sprite: {fileID: 21300000, guid: 095376e78e44908439bf24ddff25f91e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4844

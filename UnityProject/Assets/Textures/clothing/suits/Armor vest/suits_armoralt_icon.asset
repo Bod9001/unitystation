@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: suits_armoralt_icon
+    - spriteName: suits_armoralt_icon
       sprite: {fileID: 21300000, guid: cff484d8b4fdc444fa4f85925d57ff37, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20799

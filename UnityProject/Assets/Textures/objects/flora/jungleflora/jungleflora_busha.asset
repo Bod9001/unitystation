@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 02de81f3403f72e4db64774d06805870, type: 3}
+    - spriteName: jungleflora_busha
+      sprite: {fileID: 21300000, guid: 02de81f3403f72e4db64774d06805870, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14927

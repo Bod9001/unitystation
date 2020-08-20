@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b8506ef0323a0fb45ab64fc99c72fbd6, type: 3}
+    - spriteName: tools_crowbar_large
+      sprite: {fileID: 21300000, guid: b8506ef0323a0fb45ab64fc99c72fbd6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9230

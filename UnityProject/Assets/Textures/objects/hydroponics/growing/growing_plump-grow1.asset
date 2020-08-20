@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 34500ad68e505834fa9001bdf0a3e6db, type: 3}
+    - spriteName: growing_plump-grow1
+      sprite: {fileID: 21300000, guid: 34500ad68e505834fa9001bdf0a3e6db, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22794

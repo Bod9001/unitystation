@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 55b67c11018da0044a4660ea83c5e23c, type: 3}
+    - spriteName: projectile_deagle_bolt
+      sprite: {fileID: 21300000, guid: 55b67c11018da0044a4660ea83c5e23c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7546

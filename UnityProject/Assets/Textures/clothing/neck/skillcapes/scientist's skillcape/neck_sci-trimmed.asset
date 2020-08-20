@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: sci-trimmed_0
       sprite: {fileID: 171948094595820777, guid: dcf49328867f5784f80f30e37a0d7365,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: sci-trimmed_1
       sprite: {fileID: -2841107435787080039, guid: dcf49328867f5784f80f30e37a0d7365,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: sci-trimmed_2
       sprite: {fileID: 3976355274670367612, guid: dcf49328867f5784f80f30e37a0d7365,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: sci-trimmed_3
       sprite: {fileID: 6430279165391137712, guid: dcf49328867f5784f80f30e37a0d7365,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23247

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ad54c53036935cb4ebd5c9bcc1478fd6, type: 3}
+    - spriteName: overlay_ice_cube
+      sprite: {fileID: 21300000, guid: ad54c53036935cb4ebd5c9bcc1478fd6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9595

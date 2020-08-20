@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpetsymbol_0
+    - spriteName: carpetsymbol_0
       sprite: {fileID: 21300000, guid: 26276699813e94843bbff0b36cdd62a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpetsymbol_1
+    - spriteName: carpetsymbol_1
       sprite: {fileID: 21300002, guid: 26276699813e94843bbff0b36cdd62a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpetsymbol_2
+    - spriteName: carpetsymbol_2
       sprite: {fileID: 21300004, guid: 26276699813e94843bbff0b36cdd62a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpetsymbol_3
+    - spriteName: carpetsymbol_3
       sprite: {fileID: 21300006, guid: 26276699813e94843bbff0b36cdd62a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpetsymbol_4
+    - spriteName: carpetsymbol_4
       sprite: {fileID: 21300008, guid: 26276699813e94843bbff0b36cdd62a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpetsymbol_5
+    - spriteName: carpetsymbol_5
       sprite: {fileID: 21300010, guid: 26276699813e94843bbff0b36cdd62a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpetsymbol_6
+    - spriteName: carpetsymbol_6
       sprite: {fileID: 21300012, guid: 26276699813e94843bbff0b36cdd62a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpetsymbol_7
+    - spriteName: carpetsymbol_7
       sprite: {fileID: 21300014, guid: 26276699813e94843bbff0b36cdd62a5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1661

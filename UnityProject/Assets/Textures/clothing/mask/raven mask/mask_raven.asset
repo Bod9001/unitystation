@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: raven_0
+    - spriteName: raven_0
       sprite: {fileID: 21300000, guid: d7e970cdffbe7cc4caf21cfd7a9d76f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: raven_1
+    - spriteName: raven_1
       sprite: {fileID: 21300002, guid: d7e970cdffbe7cc4caf21cfd7a9d76f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: raven_2
+    - spriteName: raven_2
       sprite: {fileID: 21300004, guid: d7e970cdffbe7cc4caf21cfd7a9d76f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: raven_3
+    - spriteName: raven_3
       sprite: {fileID: 21300006, guid: d7e970cdffbe7cc4caf21cfd7a9d76f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20626

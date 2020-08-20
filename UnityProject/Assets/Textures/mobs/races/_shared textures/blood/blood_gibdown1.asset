@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: afdfe157efc9ae442ae99e1aa7b3a7d4, type: 3}
+    - spriteName: blood_gibdown1
+      sprite: {fileID: 21300000, guid: afdfe157efc9ae442ae99e1aa7b3a7d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9646

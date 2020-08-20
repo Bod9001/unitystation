@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: centcom-trimmed_0
       sprite: {fileID: 3795244496675711936, guid: a961bf8b51e1bd1478fa70f9e8b0b371,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: centcom-trimmed_1
       sprite: {fileID: -6090794538463514114, guid: a961bf8b51e1bd1478fa70f9e8b0b371,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: centcom-trimmed_2
       sprite: {fileID: 6610694021220294512, guid: a961bf8b51e1bd1478fa70f9e8b0b371,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: centcom-trimmed_3
       sprite: {fileID: -2066113672911894965, guid: a961bf8b51e1bd1478fa70f9e8b0b371,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22216

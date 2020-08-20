@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 48c03f665f9efcd41a6bcc304ad6228a, type: 3}
+    - spriteName: food_tomatomeat
+      sprite: {fileID: 21300000, guid: 48c03f665f9efcd41a6bcc304ad6228a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7031

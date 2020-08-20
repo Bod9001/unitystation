@@ -14,55 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_0
+    - spriteName: wallglow_0
       sprite: {fileID: 21300000, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_1
+      AtlasUsing: 0
+    - spriteName: wallglow_1
       sprite: {fileID: 21300002, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_2
+      AtlasUsing: 0
+    - spriteName: wallglow_2
       sprite: {fileID: 21300004, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_3
+      AtlasUsing: 0
+    - spriteName: wallglow_3
       sprite: {fileID: 21300006, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_4
+      AtlasUsing: 0
+    - spriteName: wallglow_4
       sprite: {fileID: 21300008, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_5
+      AtlasUsing: 0
+    - spriteName: wallglow_5
       sprite: {fileID: 21300010, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_6
+      AtlasUsing: 0
+    - spriteName: wallglow_6
       sprite: {fileID: 21300012, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_7
+      AtlasUsing: 0
+    - spriteName: wallglow_7
       sprite: {fileID: 21300014, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_8
+      AtlasUsing: 0
+    - spriteName: wallglow_8
       sprite: {fileID: 21300016, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: wallglow_9
+      AtlasUsing: 0
+    - spriteName: wallglow_9
       sprite: {fileID: 21300018, guid: 9487247049e4f8141a18b6d413dfe425, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1225

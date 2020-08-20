@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -2474038642349562463, guid: 28d0b4950d7216f43b9dc3672160ec84,
+    - spriteName: clown posse_honkmunculus_0
+      sprite: {fileID: -2474038642349562463, guid: 28d0b4950d7216f43b9dc3672160ec84,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 551211771147217939, guid: 28d0b4950d7216f43b9dc3672160ec84,
+    - spriteName: clown posse_honkmunculus_1
+      sprite: {fileID: 551211771147217939, guid: 28d0b4950d7216f43b9dc3672160ec84,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 2879489969904731076, guid: 28d0b4950d7216f43b9dc3672160ec84,
+    - spriteName: clown posse_honkmunculus_2
+      sprite: {fileID: 2879489969904731076, guid: 28d0b4950d7216f43b9dc3672160ec84,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 4568451723419109623, guid: 28d0b4950d7216f43b9dc3672160ec84,
+    - spriteName: clown posse_honkmunculus_3
+      sprite: {fileID: 4568451723419109623, guid: 28d0b4950d7216f43b9dc3672160ec84,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12190

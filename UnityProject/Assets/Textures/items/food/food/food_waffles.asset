@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9ffccdeee3450a1409d04a963a919a80, type: 3}
+    - spriteName: food_waffles
+      sprite: {fileID: 21300000, guid: 9ffccdeee3450a1409d04a963a919a80, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7032

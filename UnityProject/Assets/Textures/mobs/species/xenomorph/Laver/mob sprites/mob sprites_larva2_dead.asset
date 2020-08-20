@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 73cd0035e6969f043b10caac9f178761, type: 3}
+    - spriteName: mob sprites_larva2_dead
+      sprite: {fileID: 21300000, guid: 73cd0035e6969f043b10caac9f178761, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12784

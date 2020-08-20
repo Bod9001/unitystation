@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2117f39b59bf1be4c827b031933af5af, type: 3}
+    - spriteName: Mapping_Research_Director
+      sprite: {fileID: 21300000, guid: 2117f39b59bf1be4c827b031933af5af, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16157

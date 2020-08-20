@@ -14,452 +14,364 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_0
+    - spriteName: sandwater_b_0
       sprite: {fileID: 21300000, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_8
+      AtlasUsing: 0
+    - spriteName: sandwater_b_8
       sprite: {fileID: 21300016, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_16
+      AtlasUsing: 0
+    - spriteName: sandwater_b_16
       sprite: {fileID: 21300032, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_24
+      AtlasUsing: 0
+    - spriteName: sandwater_b_24
       sprite: {fileID: 21300048, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_32
+      AtlasUsing: 0
+    - spriteName: sandwater_b_32
       sprite: {fileID: 21300064, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_40
+      AtlasUsing: 0
+    - spriteName: sandwater_b_40
       sprite: {fileID: 21300080, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_48
+      AtlasUsing: 0
+    - spriteName: sandwater_b_48
       sprite: {fileID: 21300096, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_56
+      AtlasUsing: 0
+    - spriteName: sandwater_b_56
       sprite: {fileID: 21300112, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_64
+      AtlasUsing: 0
+    - spriteName: sandwater_b_64
       sprite: {fileID: 21300128, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_72
+      AtlasUsing: 0
+    - spriteName: sandwater_b_72
       sprite: {fileID: 21300144, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_80
+      AtlasUsing: 0
+    - spriteName: sandwater_b_80
       sprite: {fileID: 21300160, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_1
+    - spriteName: sandwater_b_1
       sprite: {fileID: 21300002, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_9
+      AtlasUsing: 0
+    - spriteName: sandwater_b_9
       sprite: {fileID: 21300018, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_17
+      AtlasUsing: 0
+    - spriteName: sandwater_b_17
       sprite: {fileID: 21300034, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_25
+      AtlasUsing: 0
+    - spriteName: sandwater_b_25
       sprite: {fileID: 21300050, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_33
+      AtlasUsing: 0
+    - spriteName: sandwater_b_33
       sprite: {fileID: 21300066, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_41
+      AtlasUsing: 0
+    - spriteName: sandwater_b_41
       sprite: {fileID: 21300082, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_49
+      AtlasUsing: 0
+    - spriteName: sandwater_b_49
       sprite: {fileID: 21300098, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_57
+      AtlasUsing: 0
+    - spriteName: sandwater_b_57
       sprite: {fileID: 21300114, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_65
+      AtlasUsing: 0
+    - spriteName: sandwater_b_65
       sprite: {fileID: 21300130, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_73
+      AtlasUsing: 0
+    - spriteName: sandwater_b_73
       sprite: {fileID: 21300146, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_81
+      AtlasUsing: 0
+    - spriteName: sandwater_b_81
       sprite: {fileID: 21300162, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_2
+    - spriteName: sandwater_b_2
       sprite: {fileID: 21300004, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_10
+      AtlasUsing: 0
+    - spriteName: sandwater_b_10
       sprite: {fileID: 21300020, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_18
+      AtlasUsing: 0
+    - spriteName: sandwater_b_18
       sprite: {fileID: 21300036, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_26
+      AtlasUsing: 0
+    - spriteName: sandwater_b_26
       sprite: {fileID: 21300052, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_34
+      AtlasUsing: 0
+    - spriteName: sandwater_b_34
       sprite: {fileID: 21300068, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_42
+      AtlasUsing: 0
+    - spriteName: sandwater_b_42
       sprite: {fileID: 21300084, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_50
+      AtlasUsing: 0
+    - spriteName: sandwater_b_50
       sprite: {fileID: 21300100, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_58
+      AtlasUsing: 0
+    - spriteName: sandwater_b_58
       sprite: {fileID: 21300116, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_66
+      AtlasUsing: 0
+    - spriteName: sandwater_b_66
       sprite: {fileID: 21300132, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_74
+      AtlasUsing: 0
+    - spriteName: sandwater_b_74
       sprite: {fileID: 21300148, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_82
+      AtlasUsing: 0
+    - spriteName: sandwater_b_82
       sprite: {fileID: 21300164, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_3
+    - spriteName: sandwater_b_3
       sprite: {fileID: 21300006, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_11
+      AtlasUsing: 0
+    - spriteName: sandwater_b_11
       sprite: {fileID: 21300022, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_19
+      AtlasUsing: 0
+    - spriteName: sandwater_b_19
       sprite: {fileID: 21300038, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_27
+      AtlasUsing: 0
+    - spriteName: sandwater_b_27
       sprite: {fileID: 21300054, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_35
+      AtlasUsing: 0
+    - spriteName: sandwater_b_35
       sprite: {fileID: 21300070, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_43
+      AtlasUsing: 0
+    - spriteName: sandwater_b_43
       sprite: {fileID: 21300086, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_51
+      AtlasUsing: 0
+    - spriteName: sandwater_b_51
       sprite: {fileID: 21300102, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_59
+      AtlasUsing: 0
+    - spriteName: sandwater_b_59
       sprite: {fileID: 21300118, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_67
+      AtlasUsing: 0
+    - spriteName: sandwater_b_67
       sprite: {fileID: 21300134, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_75
+      AtlasUsing: 0
+    - spriteName: sandwater_b_75
       sprite: {fileID: 21300150, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_83
+      AtlasUsing: 0
+    - spriteName: sandwater_b_83
       sprite: {fileID: 21300166, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_4
+    - spriteName: sandwater_b_4
       sprite: {fileID: 21300008, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_12
+      AtlasUsing: 0
+    - spriteName: sandwater_b_12
       sprite: {fileID: 21300024, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_20
+      AtlasUsing: 0
+    - spriteName: sandwater_b_20
       sprite: {fileID: 21300040, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_28
+      AtlasUsing: 0
+    - spriteName: sandwater_b_28
       sprite: {fileID: 21300056, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_36
+      AtlasUsing: 0
+    - spriteName: sandwater_b_36
       sprite: {fileID: 21300072, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_44
+      AtlasUsing: 0
+    - spriteName: sandwater_b_44
       sprite: {fileID: 21300088, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_52
+      AtlasUsing: 0
+    - spriteName: sandwater_b_52
       sprite: {fileID: 21300104, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_60
+      AtlasUsing: 0
+    - spriteName: sandwater_b_60
       sprite: {fileID: 21300120, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_68
+      AtlasUsing: 0
+    - spriteName: sandwater_b_68
       sprite: {fileID: 21300136, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_76
+      AtlasUsing: 0
+    - spriteName: sandwater_b_76
       sprite: {fileID: 21300152, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_84
+      AtlasUsing: 0
+    - spriteName: sandwater_b_84
       sprite: {fileID: 21300168, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_5
+    - spriteName: sandwater_b_5
       sprite: {fileID: 21300010, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_13
+      AtlasUsing: 0
+    - spriteName: sandwater_b_13
       sprite: {fileID: 21300026, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_21
+      AtlasUsing: 0
+    - spriteName: sandwater_b_21
       sprite: {fileID: 21300042, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_29
+      AtlasUsing: 0
+    - spriteName: sandwater_b_29
       sprite: {fileID: 21300058, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_37
+      AtlasUsing: 0
+    - spriteName: sandwater_b_37
       sprite: {fileID: 21300074, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_45
+      AtlasUsing: 0
+    - spriteName: sandwater_b_45
       sprite: {fileID: 21300090, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_53
+      AtlasUsing: 0
+    - spriteName: sandwater_b_53
       sprite: {fileID: 21300106, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_61
+      AtlasUsing: 0
+    - spriteName: sandwater_b_61
       sprite: {fileID: 21300122, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_69
+      AtlasUsing: 0
+    - spriteName: sandwater_b_69
       sprite: {fileID: 21300138, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_77
+      AtlasUsing: 0
+    - spriteName: sandwater_b_77
       sprite: {fileID: 21300154, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_85
+      AtlasUsing: 0
+    - spriteName: sandwater_b_85
       sprite: {fileID: 21300170, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_6
+    - spriteName: sandwater_b_6
       sprite: {fileID: 21300012, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_14
+      AtlasUsing: 0
+    - spriteName: sandwater_b_14
       sprite: {fileID: 21300028, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_22
+      AtlasUsing: 0
+    - spriteName: sandwater_b_22
       sprite: {fileID: 21300044, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_30
+      AtlasUsing: 0
+    - spriteName: sandwater_b_30
       sprite: {fileID: 21300060, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_38
+      AtlasUsing: 0
+    - spriteName: sandwater_b_38
       sprite: {fileID: 21300076, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_46
+      AtlasUsing: 0
+    - spriteName: sandwater_b_46
       sprite: {fileID: 21300092, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_54
+      AtlasUsing: 0
+    - spriteName: sandwater_b_54
       sprite: {fileID: 21300108, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_62
+      AtlasUsing: 0
+    - spriteName: sandwater_b_62
       sprite: {fileID: 21300124, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_70
+      AtlasUsing: 0
+    - spriteName: sandwater_b_70
       sprite: {fileID: 21300140, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_78
+      AtlasUsing: 0
+    - spriteName: sandwater_b_78
       sprite: {fileID: 21300156, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_86
+      AtlasUsing: 0
+    - spriteName: sandwater_b_86
       sprite: {fileID: 21300172, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_7
+    - spriteName: sandwater_b_7
       sprite: {fileID: 21300014, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_15
+      AtlasUsing: 0
+    - spriteName: sandwater_b_15
       sprite: {fileID: 21300030, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_23
+      AtlasUsing: 0
+    - spriteName: sandwater_b_23
       sprite: {fileID: 21300046, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_31
+      AtlasUsing: 0
+    - spriteName: sandwater_b_31
       sprite: {fileID: 21300062, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_39
+      AtlasUsing: 0
+    - spriteName: sandwater_b_39
       sprite: {fileID: 21300078, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_47
+      AtlasUsing: 0
+    - spriteName: sandwater_b_47
       sprite: {fileID: 21300094, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_55
+      AtlasUsing: 0
+    - spriteName: sandwater_b_55
       sprite: {fileID: 21300110, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_63
+      AtlasUsing: 0
+    - spriteName: sandwater_b_63
       sprite: {fileID: 21300126, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_71
+      AtlasUsing: 0
+    - spriteName: sandwater_b_71
       sprite: {fileID: 21300142, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_79
+      AtlasUsing: 0
+    - spriteName: sandwater_b_79
       sprite: {fileID: 21300158, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: sandwater_b_87
+      AtlasUsing: 0
+    - spriteName: sandwater_b_87
       sprite: {fileID: 21300174, guid: 8f94d3ee2cdc99c4ab0330bc6eb99144, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 222

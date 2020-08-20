@@ -14,39 +14,73 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+    - spriteName: leftpawgrab_0
+      sprite: {fileID: 21300000, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.09
-    - sprite: {fileID: 21300002, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_1
+      sprite: {fileID: 21300002, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.08
-    - sprite: {fileID: 21300004, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_2
+      sprite: {fileID: 21300004, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300006, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_3
+      sprite: {fileID: 21300006, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.06
-    - sprite: {fileID: 21300008, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_4
+      sprite: {fileID: 21300008, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300010, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_5
+      sprite: {fileID: 21300010, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300012, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_6
+      sprite: {fileID: 21300012, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300014, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_7
+      sprite: {fileID: 21300014, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.02
-    - sprite: {fileID: 21300016, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_8
+      sprite: {fileID: 21300016, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.01
-    - sprite: {fileID: 21300018, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_9
+      sprite: {fileID: 21300018, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.15
-    - sprite: {fileID: 21300020, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_10
+      sprite: {fileID: 21300020, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300022, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_11
+      sprite: {fileID: 21300022, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300024, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_12
+      sprite: {fileID: 21300024, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.02
-    - sprite: {fileID: 21300026, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_13
+      sprite: {fileID: 21300026, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.015
-    - sprite: {fileID: 21300028, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_14
+      sprite: {fileID: 21300028, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.01
-    - sprite: {fileID: 21300030, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_15
+      sprite: {fileID: 21300030, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.005
-    - sprite: {fileID: 21300032, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
+      AtlasUsing: 0
+    - spriteName: leftpawgrab_16
+      sprite: {fileID: 21300032, guid: 8f3b23bd9222d224b8db88e87e46a1ac, type: 3}
       secondDelay: 0.5
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11983

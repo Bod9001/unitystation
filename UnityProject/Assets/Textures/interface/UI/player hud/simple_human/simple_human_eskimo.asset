@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7aaa335c48831c142a7a2558623b6475, type: 3}
+    - spriteName: eskimo_0
+      sprite: {fileID: 21300000, guid: 7aaa335c48831c142a7a2558623b6475, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 7aaa335c48831c142a7a2558623b6475, type: 3}
+    - spriteName: eskimo_1
+      sprite: {fileID: 21300002, guid: 7aaa335c48831c142a7a2558623b6475, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 7aaa335c48831c142a7a2558623b6475, type: 3}
+    - spriteName: eskimo_2
+      sprite: {fileID: 21300004, guid: 7aaa335c48831c142a7a2558623b6475, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 7aaa335c48831c142a7a2558623b6475, type: 3}
+    - spriteName: eskimo_3
+      sprite: {fileID: 21300006, guid: 7aaa335c48831c142a7a2558623b6475, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3841

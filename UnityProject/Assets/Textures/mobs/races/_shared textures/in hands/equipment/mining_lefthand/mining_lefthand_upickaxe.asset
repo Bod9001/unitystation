@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4f9c7c9e4c25757488a8fde8f70faad2, type: 3}
+    - spriteName: upickaxe_0
+      sprite: {fileID: 21300000, guid: 4f9c7c9e4c25757488a8fde8f70faad2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 4f9c7c9e4c25757488a8fde8f70faad2, type: 3}
+    - spriteName: upickaxe_1
+      sprite: {fileID: 21300002, guid: 4f9c7c9e4c25757488a8fde8f70faad2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 4f9c7c9e4c25757488a8fde8f70faad2, type: 3}
+    - spriteName: upickaxe_2
+      sprite: {fileID: 21300004, guid: 4f9c7c9e4c25757488a8fde8f70faad2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 4f9c7c9e4c25757488a8fde8f70faad2, type: 3}
+    - spriteName: upickaxe_3
+      sprite: {fileID: 21300006, guid: 4f9c7c9e4c25757488a8fde8f70faad2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10162

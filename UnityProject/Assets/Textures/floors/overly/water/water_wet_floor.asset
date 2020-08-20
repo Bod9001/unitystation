@@ -14,45 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wet_floor_0
+    - spriteName: wet_floor_0
       sprite: {fileID: 21300000, guid: 199d4b701619abd4e8e9e05af31e0d80, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wet_floor_1
+      AtlasUsing: 0
+    - spriteName: wet_floor_1
       sprite: {fileID: 21300002, guid: 199d4b701619abd4e8e9e05af31e0d80, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wet_floor_2
+      AtlasUsing: 0
+    - spriteName: wet_floor_2
       sprite: {fileID: 21300004, guid: 199d4b701619abd4e8e9e05af31e0d80, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wet_floor_3
+      AtlasUsing: 0
+    - spriteName: wet_floor_3
       sprite: {fileID: 21300006, guid: 199d4b701619abd4e8e9e05af31e0d80, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wet_floor_4
+      AtlasUsing: 0
+    - spriteName: wet_floor_4
       sprite: {fileID: 21300008, guid: 199d4b701619abd4e8e9e05af31e0d80, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wet_floor_5
+      AtlasUsing: 0
+    - spriteName: wet_floor_5
       sprite: {fileID: 21300010, guid: 199d4b701619abd4e8e9e05af31e0d80, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wet_floor_6
+      AtlasUsing: 0
+    - spriteName: wet_floor_6
       sprite: {fileID: 21300012, guid: 199d4b701619abd4e8e9e05af31e0d80, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wet_floor_7
+      AtlasUsing: 0
+    - spriteName: wet_floor_7
       sprite: {fileID: 21300014, guid: 199d4b701619abd4e8e9e05af31e0d80, type: 3}
       secondDelay: 5
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2422

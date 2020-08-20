@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c0fd14b2258d9ee42882f274e3f988f0, type: 3}
+    - spriteName: hair_country_0
+      sprite: {fileID: 21300000, guid: c0fd14b2258d9ee42882f274e3f988f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: c0fd14b2258d9ee42882f274e3f988f0, type: 3}
+    - spriteName: hair_country_1
+      sprite: {fileID: 21300002, guid: c0fd14b2258d9ee42882f274e3f988f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: c0fd14b2258d9ee42882f274e3f988f0, type: 3}
+    - spriteName: hair_country_2
+      sprite: {fileID: 21300004, guid: c0fd14b2258d9ee42882f274e3f988f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: c0fd14b2258d9ee42882f274e3f988f0, type: 3}
+    - spriteName: hair_country_3
+      sprite: {fileID: 21300006, guid: c0fd14b2258d9ee42882f274e3f988f0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21938

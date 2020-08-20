@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d7a265ca56198e24eab496e4e680ca83, type: 3}
+    - spriteName: yfloorbot-c_0
+      sprite: {fileID: 21300000, guid: d7a265ca56198e24eab496e4e680ca83, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: d7a265ca56198e24eab496e4e680ca83, type: 3}
+      AtlasUsing: 0
+    - spriteName: yfloorbot-c_1
+      sprite: {fileID: 21300002, guid: d7a265ca56198e24eab496e4e680ca83, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12088

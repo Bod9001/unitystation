@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: intern_0
+    - spriteName: intern_0
       sprite: {fileID: 1458844323844463365, guid: 14e0b91704875334b98ccd2f42db1a71,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: intern_1
+    - spriteName: intern_1
       sprite: {fileID: 8306508238230797686, guid: 14e0b91704875334b98ccd2f42db1a71,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: intern_2
+    - spriteName: intern_2
       sprite: {fileID: -3613586174128558715, guid: 14e0b91704875334b98ccd2f42db1a71,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: intern_3
+    - spriteName: intern_3
       sprite: {fileID: -6558353561074036572, guid: 14e0b91704875334b98ccd2f42db1a71,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21445

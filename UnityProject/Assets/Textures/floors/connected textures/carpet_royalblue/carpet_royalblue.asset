@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpet_royalblue_0
+    - spriteName: carpet_royalblue_0
       sprite: {fileID: 6272117333045172776, guid: c170b62672a72d84b8d5580f0d0161ed,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1716

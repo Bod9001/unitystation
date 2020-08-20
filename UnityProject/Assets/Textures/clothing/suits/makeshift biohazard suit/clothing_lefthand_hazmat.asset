@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazmatinhandleft_0
+    - spriteName: hazmatinhandleft_0
       sprite: {fileID: 7493806640424411629, guid: 7f09d053ee0baa64884fc155d0da1a6a,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazmatinhandleft_1
+    - spriteName: hazmatinhandleft_1
       sprite: {fileID: 6196516672514279903, guid: 7f09d053ee0baa64884fc155d0da1a6a,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazmatinhandleft_2
+    - spriteName: hazmatinhandleft_2
       sprite: {fileID: 4682503808849351613, guid: 7f09d053ee0baa64884fc155d0da1a6a,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazmatinhandleft_3
+    - spriteName: hazmatinhandleft_3
       sprite: {fileID: -6716791564477853427, guid: 7f09d053ee0baa64884fc155d0da1a6a,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20981

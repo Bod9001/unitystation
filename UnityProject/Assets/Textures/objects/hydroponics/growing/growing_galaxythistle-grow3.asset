@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bcf4fc9e537a8df40b46fb48bad334e2, type: 3}
+    - spriteName: growing_galaxythistle-grow3
+      sprite: {fileID: 21300000, guid: bcf4fc9e537a8df40b46fb48bad334e2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22655

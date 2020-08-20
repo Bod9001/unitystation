@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: masks_pipeoff
+    - spriteName: masks_pipeoff
       sprite: {fileID: 21300000, guid: 417b63be40661514aa6e0306d48d666c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5853

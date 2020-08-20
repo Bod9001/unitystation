@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: clockwork_treads_0
+    - spriteName: clockwork_treads_0
       sprite: {fileID: 21300000, guid: cc977a32d5a227d448aa8727eb456031, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: clockwork_treads_1
+    - spriteName: clockwork_treads_1
       sprite: {fileID: 21300002, guid: cc977a32d5a227d448aa8727eb456031, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: clockwork_treads_2
+    - spriteName: clockwork_treads_2
       sprite: {fileID: 21300004, guid: cc977a32d5a227d448aa8727eb456031, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: clockwork_treads_3
+    - spriteName: clockwork_treads_3
       sprite: {fileID: 21300006, guid: cc977a32d5a227d448aa8727eb456031, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 817

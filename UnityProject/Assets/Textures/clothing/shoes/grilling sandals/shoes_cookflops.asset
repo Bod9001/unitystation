@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cookflops_0
+    - spriteName: cookflops_0
       sprite: {fileID: -3716368011073025312, guid: 2bb9a67a69dbac0478d9011621c2e726,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cookflops_1
+    - spriteName: cookflops_1
       sprite: {fileID: -7414740900456514997, guid: 2bb9a67a69dbac0478d9011621c2e726,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cookflops_2
+    - spriteName: cookflops_2
       sprite: {fileID: -8872136805515122288, guid: 2bb9a67a69dbac0478d9011621c2e726,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cookflops_3
+    - spriteName: cookflops_3
       sprite: {fileID: -6687373784703660622, guid: 2bb9a67a69dbac0478d9011621c2e726,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20757

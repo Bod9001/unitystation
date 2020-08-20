@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkredcorners_0
+    - spriteName: darkredcorners_0
       sprite: {fileID: 21300000, guid: 1779be9af20274945b5ebdab1934d5a8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkredcorners_1
+    - spriteName: darkredcorners_1
       sprite: {fileID: 21300002, guid: 1779be9af20274945b5ebdab1934d5a8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkredcorners_2
+    - spriteName: darkredcorners_2
       sprite: {fileID: 21300004, guid: 1779be9af20274945b5ebdab1934d5a8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkredcorners_3
+    - spriteName: darkredcorners_3
       sprite: {fileID: 21300006, guid: 1779be9af20274945b5ebdab1934d5a8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2360

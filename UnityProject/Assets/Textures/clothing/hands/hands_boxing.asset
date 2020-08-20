@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: boxing_0
+    - spriteName: boxing_0
       sprite: {fileID: 21300000, guid: 0dbbf024b8182654890511db4967b054, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: boxing_1
+    - spriteName: boxing_1
       sprite: {fileID: 21300002, guid: 0dbbf024b8182654890511db4967b054, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: boxing_2
+    - spriteName: boxing_2
       sprite: {fileID: 21300004, guid: 0dbbf024b8182654890511db4967b054, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: boxing_3
+    - spriteName: boxing_3
       sprite: {fileID: 21300006, guid: 0dbbf024b8182654890511db4967b054, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 508

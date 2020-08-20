@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: monkeysuit_0
+    - spriteName: monkeysuit_0
       sprite: {fileID: 21300000, guid: 19eb065628d171648a0dde691324a04b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: monkeysuit_1
+    - spriteName: monkeysuit_1
       sprite: {fileID: 21300002, guid: 19eb065628d171648a0dde691324a04b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: monkeysuit_2
+    - spriteName: monkeysuit_2
       sprite: {fileID: 21300004, guid: 19eb065628d171648a0dde691324a04b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: monkeysuit_3
+    - spriteName: monkeysuit_3
       sprite: {fileID: 21300006, guid: 19eb065628d171648a0dde691324a04b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21009

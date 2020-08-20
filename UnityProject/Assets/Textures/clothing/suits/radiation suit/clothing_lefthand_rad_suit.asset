@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rad_suit_0
+    - spriteName: rad_suit_0
       sprite: {fileID: 21300000, guid: 6ee8611fb51f8024cb5bab696c0ef325, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rad_suit_1
+    - spriteName: rad_suit_1
       sprite: {fileID: 21300002, guid: 6ee8611fb51f8024cb5bab696c0ef325, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rad_suit_2
+    - spriteName: rad_suit_2
       sprite: {fileID: 21300004, guid: 6ee8611fb51f8024cb5bab696c0ef325, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rad_suit_3
+    - spriteName: rad_suit_3
       sprite: {fileID: 21300006, guid: 6ee8611fb51f8024cb5bab696c0ef325, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21053

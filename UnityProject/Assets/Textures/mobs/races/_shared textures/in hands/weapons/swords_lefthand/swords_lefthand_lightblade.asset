@@ -14,24 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
+    - spriteName: lightblade_0
+      sprite: {fileID: 21300000, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
+      AtlasUsing: 0
+    - spriteName: lightblade_4
+      sprite: {fileID: 21300008, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
+    - spriteName: lightblade_1
+      sprite: {fileID: 21300002, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300010, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
+      AtlasUsing: 0
+    - spriteName: lightblade_5
+      sprite: {fileID: 21300010, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
+    - spriteName: lightblade_2
+      sprite: {fileID: 21300004, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300012, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
+      AtlasUsing: 0
+    - spriteName: lightblade_6
+      sprite: {fileID: 21300012, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
+    - spriteName: lightblade_3
+      sprite: {fileID: 21300006, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300014, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
+      AtlasUsing: 0
+    - spriteName: lightblade_7
+      sprite: {fileID: 21300014, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10919

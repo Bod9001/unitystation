@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 525f542c9ff80b344a06a8177750f833, type: 3}
+    - spriteName: screen_plasmafire_disarm
+      sprite: {fileID: 21300000, guid: 525f542c9ff80b344a06a8177750f833, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3714

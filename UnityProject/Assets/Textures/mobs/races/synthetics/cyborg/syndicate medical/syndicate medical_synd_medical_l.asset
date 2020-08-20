@@ -14,32 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+    - spriteName: synd_medical_l_0
+      sprite: {fileID: 21300000, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+      AtlasUsing: 0
+    - spriteName: synd_medical_l_4
+      sprite: {fileID: 21300008, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+      AtlasUsing: 0
+    - spriteName: synd_medical_l_8
+      sprite: {fileID: 21300016, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+    - spriteName: synd_medical_l_1
+      sprite: {fileID: 21300002, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+      AtlasUsing: 0
+    - spriteName: synd_medical_l_5
+      sprite: {fileID: 21300010, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300018, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+      AtlasUsing: 0
+    - spriteName: synd_medical_l_9
+      sprite: {fileID: 21300018, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+    - spriteName: synd_medical_l_2
+      sprite: {fileID: 21300004, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+      AtlasUsing: 0
+    - spriteName: synd_medical_l_6
+      sprite: {fileID: 21300012, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300020, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+      AtlasUsing: 0
+    - spriteName: synd_medical_l_10
+      sprite: {fileID: 21300020, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+    - spriteName: synd_medical_l_3
+      sprite: {fileID: 21300006, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+      AtlasUsing: 0
+    - spriteName: synd_medical_l_7
+      sprite: {fileID: 21300014, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300022, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
+      AtlasUsing: 0
+    - spriteName: synd_medical_l_11
+      sprite: {fileID: 21300022, guid: df3d90a34089e494ba99ae4915f21d82, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11691

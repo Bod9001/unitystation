@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pickaxe_0
+    - spriteName: pickaxe_0
       sprite: {fileID: 21300000, guid: 83108489479411749ba86e09210bafe8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pickaxe_1
+    - spriteName: pickaxe_1
       sprite: {fileID: 21300002, guid: 83108489479411749ba86e09210bafe8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pickaxe_2
+    - spriteName: pickaxe_2
       sprite: {fileID: 21300004, guid: 83108489479411749ba86e09210bafe8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pickaxe_3
+    - spriteName: pickaxe_3
       sprite: {fileID: 21300006, guid: 83108489479411749ba86e09210bafe8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 426

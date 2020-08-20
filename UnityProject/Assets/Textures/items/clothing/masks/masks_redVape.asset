@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f877f84f03b510948a0ef618429b7fc1, type: 3}
+    - spriteName: masks_redVape
+      sprite: {fileID: 21300000, guid: f877f84f03b510948a0ef618429b7fc1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5859

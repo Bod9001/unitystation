@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: stripedbluescarf_0
+    - spriteName: stripedbluescarf_0
       sprite: {fileID: 21300000, guid: 8e8c92550d37b9e4cb0384aef6da1bd5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: stripedbluescarf_1
+    - spriteName: stripedbluescarf_1
       sprite: {fileID: 21300002, guid: 8e8c92550d37b9e4cb0384aef6da1bd5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: stripedbluescarf_2
+    - spriteName: stripedbluescarf_2
       sprite: {fileID: 21300004, guid: 8e8c92550d37b9e4cb0384aef6da1bd5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: stripedbluescarf_3
+    - spriteName: stripedbluescarf_3
       sprite: {fileID: 21300006, guid: 8e8c92550d37b9e4cb0384aef6da1bd5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20722

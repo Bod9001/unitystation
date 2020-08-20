@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: catwalk_clockwork_large_1-f
+    - spriteName: catwalk_clockwork_large_1-f
       sprite: {fileID: 21300000, guid: 7a34229f0f442a44b9139349d82b980b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2552

@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hats_security_envirohelm-light
+    - spriteName: hats_security_envirohelm-light
       sprite: {fileID: 21300000, guid: 4857e737a8f9a774980377117ed7140e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5789

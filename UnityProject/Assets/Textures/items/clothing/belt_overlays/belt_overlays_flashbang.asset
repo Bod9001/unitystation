@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8a0cdf2861ff0a847bcc523cf15b56c9, type: 3}
+    - spriteName: belt_overlays_flashbang
+      sprite: {fileID: 21300000, guid: 8a0cdf2861ff0a847bcc523cf15b56c9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5588

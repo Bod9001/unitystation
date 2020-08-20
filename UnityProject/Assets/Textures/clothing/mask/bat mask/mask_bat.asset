@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bat_0
+    - spriteName: bat_0
       sprite: {fileID: 21300000, guid: 07c537c2a9f5a4d459ea11a4fc2d4bcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bat_1
+    - spriteName: bat_1
       sprite: {fileID: 21300002, guid: 07c537c2a9f5a4d459ea11a4fc2d4bcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bat_2
+    - spriteName: bat_2
       sprite: {fileID: 21300004, guid: 07c537c2a9f5a4d459ea11a4fc2d4bcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bat_3
+    - spriteName: bat_3
       sprite: {fileID: 21300006, guid: 07c537c2a9f5a4d459ea11a4fc2d4bcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20558

@@ -14,17 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
+    - spriteName: opening_0
+      sprite: {fileID: 21300000, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
+      AtlasUsing: 0
+    - spriteName: opening_1
+      sprite: {fileID: 21300002, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
+      AtlasUsing: 0
+    - spriteName: opening_2
+      sprite: {fileID: 21300004, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
+      AtlasUsing: 0
+    - spriteName: opening_3
+      sprite: {fileID: 21300006, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
+      AtlasUsing: 0
+    - spriteName: opening_4
+      sprite: {fileID: 21300008, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
+      AtlasUsing: 0
+    - spriteName: opening_5
+      sprite: {fileID: 21300010, guid: c43929e6d8d220e4680866078b82ee7a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13818

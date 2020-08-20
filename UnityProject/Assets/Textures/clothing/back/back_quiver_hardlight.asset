@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: quiver_hardlight_0
+    - spriteName: quiver_hardlight_0
       sprite: {fileID: 21300000, guid: 240b8ec6d31a3ce43b319d9c16f298c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: quiver_hardlight_1
+    - spriteName: quiver_hardlight_1
       sprite: {fileID: 21300002, guid: 240b8ec6d31a3ce43b319d9c16f298c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: quiver_hardlight_2
+    - spriteName: quiver_hardlight_2
       sprite: {fileID: 21300004, guid: 240b8ec6d31a3ce43b319d9c16f298c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: quiver_hardlight_3
+    - spriteName: quiver_hardlight_3
       sprite: {fileID: 21300006, guid: 240b8ec6d31a3ce43b319d9c16f298c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 335

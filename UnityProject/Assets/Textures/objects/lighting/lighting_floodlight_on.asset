@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3dcec9e3f85cb954b90692de20075332, type: 3}
+    - spriteName: lighting_floodlight_on
+      sprite: {fileID: 21300000, guid: 3dcec9e3f85cb954b90692de20075332, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15529

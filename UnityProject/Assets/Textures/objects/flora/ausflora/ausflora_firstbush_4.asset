@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ce71a3db889292544acef85f6aeb2068, type: 3}
+    - spriteName: ausflora_firstbush_4
+      sprite: {fileID: 21300000, guid: ce71a3db889292544acef85f6aeb2068, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14872

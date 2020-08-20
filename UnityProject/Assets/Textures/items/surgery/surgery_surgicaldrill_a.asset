@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 68e1969a904c40e4eb6864edeee17eb8, type: 3}
+    - spriteName: surgery_surgicaldrill_a
+      sprite: {fileID: 21300000, guid: 68e1969a904c40e4eb6864edeee17eb8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9125

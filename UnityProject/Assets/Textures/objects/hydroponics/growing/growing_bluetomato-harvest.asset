@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: df4c4d02c2bcfa14eb716bbce71f4881, type: 3}
+    - spriteName: growing_bluetomato-harvest
+      sprite: {fileID: 21300000, guid: df4c4d02c2bcfa14eb716bbce71f4881, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22553

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: trayson-_0
+    - spriteName: trayson-_0
       sprite: {fileID: 21300000, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: trayson-_1
+    - spriteName: trayson-_1
       sprite: {fileID: 21300002, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: trayson-_2
+    - spriteName: trayson-_2
       sprite: {fileID: 21300004, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: trayson-_3
+    - spriteName: trayson-_3
       sprite: {fileID: 21300006, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 485

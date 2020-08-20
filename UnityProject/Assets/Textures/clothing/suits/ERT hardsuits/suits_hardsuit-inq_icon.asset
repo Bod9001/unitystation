@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: suits_hardsuit-inq_icon
+    - spriteName: suits_hardsuit-inq_icon
       sprite: {fileID: 21300000, guid: 4b74e5a8d4cb89848969d5fa6594e205, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20930

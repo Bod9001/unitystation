@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: s-ninjakf_0
+    - spriteName: s-ninjakf_0
       sprite: {fileID: 21300000, guid: 080d700fafcd37f4b94c480c93fe957f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: s-ninjakf_1
+    - spriteName: s-ninjakf_1
       sprite: {fileID: 21300002, guid: 080d700fafcd37f4b94c480c93fe957f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: s-ninjakf_2
+    - spriteName: s-ninjakf_2
       sprite: {fileID: 21300004, guid: 080d700fafcd37f4b94c480c93fe957f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: s-ninjakf_3
+    - spriteName: s-ninjakf_3
       sprite: {fileID: 21300006, guid: 080d700fafcd37f4b94c480c93fe957f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 945

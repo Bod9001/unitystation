@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: redponcho_0
+    - spriteName: redponcho_0
       sprite: {fileID: 21300000, guid: b5f0729979f2f884f84dcf2a17bd6b8c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: redponcho_1
+    - spriteName: redponcho_1
       sprite: {fileID: 21300002, guid: b5f0729979f2f884f84dcf2a17bd6b8c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: redponcho_2
+    - spriteName: redponcho_2
       sprite: {fileID: 21300004, guid: b5f0729979f2f884f84dcf2a17bd6b8c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: redponcho_3
+    - spriteName: redponcho_3
       sprite: {fileID: 21300006, guid: b5f0729979f2f884f84dcf2a17bd6b8c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21057

@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hats_cargo_envirohelm-light
+    - spriteName: hats_cargo_envirohelm-light
       sprite: {fileID: 21300000, guid: f2e3b281610643f4fb78478c4532abfe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5678

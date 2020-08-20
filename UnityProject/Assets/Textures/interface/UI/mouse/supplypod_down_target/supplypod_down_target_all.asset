@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 17bf7d600e847da42bbac4c8167581a9, type: 3}
+    - spriteName: supplypod_down_target_all
+      sprite: {fileID: 21300000, guid: 17bf7d600e847da42bbac4c8167581a9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3236

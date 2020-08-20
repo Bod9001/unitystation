@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 2851219744113410843, guid: 007349b3970479c438292fd7527a11b0,
+    - spriteName: combat_hypo_0
+      sprite: {fileID: 2851219744113410843, guid: 007349b3970479c438292fd7527a11b0,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -5918914755986530448, guid: 007349b3970479c438292fd7527a11b0,
+    - spriteName: combat_hypo_1
+      sprite: {fileID: -5918914755986530448, guid: 007349b3970479c438292fd7527a11b0,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 2784149934053129972, guid: 007349b3970479c438292fd7527a11b0,
+    - spriteName: combat_hypo_2
+      sprite: {fileID: 2784149934053129972, guid: 007349b3970479c438292fd7527a11b0,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -6788877117404622145, guid: 007349b3970479c438292fd7527a11b0,
+    - spriteName: combat_hypo_3
+      sprite: {fileID: -6788877117404622145, guid: 007349b3970479c438292fd7527a11b0,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23016

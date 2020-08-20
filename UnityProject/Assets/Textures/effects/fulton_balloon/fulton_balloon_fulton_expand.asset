@@ -14,25 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: fulton_expand_0
+    - spriteName: fulton_expand_0
       sprite: {fileID: 21300000, guid: 3951d80c515fe974b9bedf006ce9bb94, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: fulton_expand_1
+      AtlasUsing: 0
+    - spriteName: fulton_expand_1
       sprite: {fileID: 21300002, guid: 3951d80c515fe974b9bedf006ce9bb94, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: fulton_expand_2
+      AtlasUsing: 0
+    - spriteName: fulton_expand_2
       sprite: {fileID: 21300004, guid: 3951d80c515fe974b9bedf006ce9bb94, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: fulton_expand_3
+      AtlasUsing: 0
+    - spriteName: fulton_expand_3
       sprite: {fileID: 21300006, guid: 3951d80c515fe974b9bedf006ce9bb94, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1322

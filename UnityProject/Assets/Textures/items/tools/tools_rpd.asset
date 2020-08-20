@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 411219f10ae1de74c9c6bb689e02c495, type: 3}
+    - spriteName: tools_rpd
+      sprite: {fileID: 21300000, guid: 411219f10ae1de74c9c6bb689e02c495, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9292

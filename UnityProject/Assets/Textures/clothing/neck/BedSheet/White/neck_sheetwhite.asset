@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetwhite_0
+    - spriteName: sheetwhite_0
       sprite: {fileID: 21300000, guid: ef8a23867824a7542866da074a8047d6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetwhite_1
+    - spriteName: sheetwhite_1
       sprite: {fileID: 21300002, guid: ef8a23867824a7542866da074a8047d6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetwhite_2
+    - spriteName: sheetwhite_2
       sprite: {fileID: 21300004, guid: ef8a23867824a7542866da074a8047d6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetwhite_3
+    - spriteName: sheetwhite_3
       sprite: {fileID: 21300006, guid: ef8a23867824a7542866da074a8047d6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20699

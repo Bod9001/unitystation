@@ -14,128 +14,104 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_0
+    - spriteName: sheetcosmos_0
       sprite: {fileID: 21300000, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_4
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_4
       sprite: {fileID: 21300008, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_8
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_8
       sprite: {fileID: 21300016, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_12
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_12
       sprite: {fileID: 21300024, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_16
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_16
       sprite: {fileID: 21300032, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_20
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_20
       sprite: {fileID: 21300040, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_1
+    - spriteName: sheetcosmos_1
       sprite: {fileID: 21300002, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_5
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_5
       sprite: {fileID: 21300010, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_9
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_9
       sprite: {fileID: 21300018, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_13
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_13
       sprite: {fileID: 21300026, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_17
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_17
       sprite: {fileID: 21300034, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_21
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_21
       sprite: {fileID: 21300042, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_2
+    - spriteName: sheetcosmos_2
       sprite: {fileID: 21300004, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_6
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_6
       sprite: {fileID: 21300012, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_10
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_10
       sprite: {fileID: 21300020, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_14
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_14
       sprite: {fileID: 21300028, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_18
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_18
       sprite: {fileID: 21300036, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_22
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_22
       sprite: {fileID: 21300044, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_3
+    - spriteName: sheetcosmos_3
       sprite: {fileID: 21300006, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_7
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_7
       sprite: {fileID: 21300014, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_11
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_11
       sprite: {fileID: 21300022, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_15
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_15
       sprite: {fileID: 21300030, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_19
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_19
       sprite: {fileID: 21300038, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheetcosmos_23
+      AtlasUsing: 0
+    - spriteName: sheetcosmos_23
       sprite: {fileID: 21300046, guid: fdb027c5399bd9e4f912a50eeea799bd, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20663

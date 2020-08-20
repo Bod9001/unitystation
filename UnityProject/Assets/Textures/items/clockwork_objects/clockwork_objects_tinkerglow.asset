@@ -14,51 +14,97 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+    - spriteName: tinkerglow_0
+      sprite: {fileID: 21300000, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_1
+      sprite: {fileID: 21300002, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_2
+      sprite: {fileID: 21300004, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_3
+      sprite: {fileID: 21300006, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_4
+      sprite: {fileID: 21300008, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_5
+      sprite: {fileID: 21300010, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_6
+      sprite: {fileID: 21300012, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_7
+      sprite: {fileID: 21300014, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_8
+      sprite: {fileID: 21300016, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_9
+      sprite: {fileID: 21300018, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_10
+      sprite: {fileID: 21300020, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_11
+      sprite: {fileID: 21300022, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_12
+      sprite: {fileID: 21300024, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_13
+      sprite: {fileID: 21300026, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_14
+      sprite: {fileID: 21300028, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_15
+      sprite: {fileID: 21300030, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_16
+      sprite: {fileID: 21300032, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_17
+      sprite: {fileID: 21300034, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_18
+      sprite: {fileID: 21300036, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_19
+      sprite: {fileID: 21300038, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_20
+      sprite: {fileID: 21300040, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_21
+      sprite: {fileID: 21300042, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
+      AtlasUsing: 0
+    - spriteName: tinkerglow_22
+      sprite: {fileID: 21300044, guid: 15edbaaf717138e4fa687fb41b743ad2, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5550

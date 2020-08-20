@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
+    - spriteName: banana_peel_0
+      sprite: {fileID: 21300000, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
+    - spriteName: banana_peel_1
+      sprite: {fileID: 21300002, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
+    - spriteName: banana_peel_2
+      sprite: {fileID: 21300004, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
+    - spriteName: banana_peel_3
+      sprite: {fileID: 21300006, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22339

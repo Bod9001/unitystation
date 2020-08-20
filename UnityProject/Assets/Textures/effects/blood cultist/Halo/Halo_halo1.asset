@@ -14,310 +14,249 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_0
+    - spriteName: halo1_0
       sprite: {fileID: 21300000, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_1
+      AtlasUsing: 0
+    - spriteName: halo1_1
       sprite: {fileID: 21300002, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_2
+      AtlasUsing: 0
+    - spriteName: halo1_2
       sprite: {fileID: 21300004, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_3
+      AtlasUsing: 0
+    - spriteName: halo1_3
       sprite: {fileID: 21300006, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_4
+      AtlasUsing: 0
+    - spriteName: halo1_4
       sprite: {fileID: 21300008, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_5
+      AtlasUsing: 0
+    - spriteName: halo1_5
       sprite: {fileID: 21300010, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_6
+      AtlasUsing: 0
+    - spriteName: halo1_6
       sprite: {fileID: 21300012, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_7
+      AtlasUsing: 0
+    - spriteName: halo1_7
       sprite: {fileID: 21300014, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_8
+      AtlasUsing: 0
+    - spriteName: halo1_8
       sprite: {fileID: 21300016, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_9
+      AtlasUsing: 0
+    - spriteName: halo1_9
       sprite: {fileID: 21300018, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_10
+      AtlasUsing: 0
+    - spriteName: halo1_10
       sprite: {fileID: 21300020, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_11
+      AtlasUsing: 0
+    - spriteName: halo1_11
       sprite: {fileID: 21300022, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_12
+      AtlasUsing: 0
+    - spriteName: halo1_12
       sprite: {fileID: 21300024, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_13
+      AtlasUsing: 0
+    - spriteName: halo1_13
       sprite: {fileID: 21300026, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_14
+      AtlasUsing: 0
+    - spriteName: halo1_14
       sprite: {fileID: 21300028, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_15
+      AtlasUsing: 0
+    - spriteName: halo1_15
       sprite: {fileID: 21300030, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_16
+      AtlasUsing: 0
+    - spriteName: halo1_16
       sprite: {fileID: 21300032, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_17
+      AtlasUsing: 0
+    - spriteName: halo1_17
       sprite: {fileID: 21300034, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_18
+      AtlasUsing: 0
+    - spriteName: halo1_18
       sprite: {fileID: 21300036, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_19
+      AtlasUsing: 0
+    - spriteName: halo1_19
       sprite: {fileID: 21300038, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_20
+      AtlasUsing: 0
+    - spriteName: halo1_20
       sprite: {fileID: 21300040, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_21
+      AtlasUsing: 0
+    - spriteName: halo1_21
       sprite: {fileID: 21300042, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_22
+      AtlasUsing: 0
+    - spriteName: halo1_22
       sprite: {fileID: 21300044, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_23
+      AtlasUsing: 0
+    - spriteName: halo1_23
       sprite: {fileID: 21300046, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_24
+      AtlasUsing: 0
+    - spriteName: halo1_24
       sprite: {fileID: 21300048, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_25
+      AtlasUsing: 0
+    - spriteName: halo1_25
       sprite: {fileID: 21300050, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_26
+      AtlasUsing: 0
+    - spriteName: halo1_26
       sprite: {fileID: 21300052, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_27
+      AtlasUsing: 0
+    - spriteName: halo1_27
       sprite: {fileID: 21300054, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_28
+      AtlasUsing: 0
+    - spriteName: halo1_28
       sprite: {fileID: 21300056, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_29
+      AtlasUsing: 0
+    - spriteName: halo1_29
       sprite: {fileID: 21300058, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_30
+      AtlasUsing: 0
+    - spriteName: halo1_30
       sprite: {fileID: 21300060, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_31
+      AtlasUsing: 0
+    - spriteName: halo1_31
       sprite: {fileID: 21300062, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_32
+      AtlasUsing: 0
+    - spriteName: halo1_32
       sprite: {fileID: 21300064, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_33
+      AtlasUsing: 0
+    - spriteName: halo1_33
       sprite: {fileID: 21300066, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_34
+      AtlasUsing: 0
+    - spriteName: halo1_34
       sprite: {fileID: 21300068, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_35
+      AtlasUsing: 0
+    - spriteName: halo1_35
       sprite: {fileID: 21300070, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_36
+      AtlasUsing: 0
+    - spriteName: halo1_36
       sprite: {fileID: 21300072, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_37
+      AtlasUsing: 0
+    - spriteName: halo1_37
       sprite: {fileID: 21300074, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_38
+      AtlasUsing: 0
+    - spriteName: halo1_38
       sprite: {fileID: 21300076, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_39
+      AtlasUsing: 0
+    - spriteName: halo1_39
       sprite: {fileID: 21300078, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_40
+      AtlasUsing: 0
+    - spriteName: halo1_40
       sprite: {fileID: 21300080, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_41
+      AtlasUsing: 0
+    - spriteName: halo1_41
       sprite: {fileID: 21300082, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_42
+      AtlasUsing: 0
+    - spriteName: halo1_42
       sprite: {fileID: 21300084, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_43
+      AtlasUsing: 0
+    - spriteName: halo1_43
       sprite: {fileID: 21300086, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_44
+      AtlasUsing: 0
+    - spriteName: halo1_44
       sprite: {fileID: 21300088, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_45
+      AtlasUsing: 0
+    - spriteName: halo1_45
       sprite: {fileID: 21300090, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_46
+      AtlasUsing: 0
+    - spriteName: halo1_46
       sprite: {fileID: 21300092, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_47
+      AtlasUsing: 0
+    - spriteName: halo1_47
       sprite: {fileID: 21300094, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_48
+      AtlasUsing: 0
+    - spriteName: halo1_48
       sprite: {fileID: 21300096, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_49
+      AtlasUsing: 0
+    - spriteName: halo1_49
       sprite: {fileID: 21300098, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_50
+      AtlasUsing: 0
+    - spriteName: halo1_50
       sprite: {fileID: 21300100, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_51
+      AtlasUsing: 0
+    - spriteName: halo1_51
       sprite: {fileID: 21300102, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_52
+      AtlasUsing: 0
+    - spriteName: halo1_52
       sprite: {fileID: 21300104, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_53
+      AtlasUsing: 0
+    - spriteName: halo1_53
       sprite: {fileID: 21300106, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_54
+      AtlasUsing: 0
+    - spriteName: halo1_54
       sprite: {fileID: 21300108, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_55
+      AtlasUsing: 0
+    - spriteName: halo1_55
       sprite: {fileID: 21300110, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_56
+      AtlasUsing: 0
+    - spriteName: halo1_56
       sprite: {fileID: 21300112, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_57
+      AtlasUsing: 0
+    - spriteName: halo1_57
       sprite: {fileID: 21300114, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_58
+      AtlasUsing: 0
+    - spriteName: halo1_58
       sprite: {fileID: 21300116, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_59
+      AtlasUsing: 0
+    - spriteName: halo1_59
       sprite: {fileID: 21300118, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: halo1_60
+      AtlasUsing: 0
+    - spriteName: halo1_60
       sprite: {fileID: 21300120, guid: eae6d73b4e4db2c40a501e34cab2ac46, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1226

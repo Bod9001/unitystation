@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: glasses_trayson-t-ray
+    - spriteName: glasses_trayson-t-ray
       sprite: {fileID: 21300000, guid: da090788a0f1c3d44bc365953e6f6f17, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19964

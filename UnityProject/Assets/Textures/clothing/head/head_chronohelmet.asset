@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chronohelmet_0
+    - spriteName: chronohelmet_0
       sprite: {fileID: 21300000, guid: 104477c245e978449af179cd5bb9c08b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chronohelmet_1
+    - spriteName: chronohelmet_1
       sprite: {fileID: 21300002, guid: 104477c245e978449af179cd5bb9c08b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chronohelmet_2
+    - spriteName: chronohelmet_2
       sprite: {fileID: 21300004, guid: 104477c245e978449af179cd5bb9c08b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chronohelmet_3
+    - spriteName: chronohelmet_3
       sprite: {fileID: 21300006, guid: 104477c245e978449af179cd5bb9c08b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 568

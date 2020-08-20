@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e79a7fd5d7e39574d9c1333ea875f4b7, type: 3}
+    - spriteName: growing_inocybe-dead
+      sprite: {fileID: 21300000, guid: e79a7fd5d7e39574d9c1333ea875f4b7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22702

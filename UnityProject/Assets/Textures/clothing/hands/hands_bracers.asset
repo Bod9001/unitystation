@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bracers_0
+    - spriteName: bracers_0
       sprite: {fileID: 21300000, guid: a8b8bcd4bb1430a4fad09c94f0d06367, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bracers_1
+    - spriteName: bracers_1
       sprite: {fileID: 21300002, guid: a8b8bcd4bb1430a4fad09c94f0d06367, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bracers_2
+    - spriteName: bracers_2
       sprite: {fileID: 21300004, guid: a8b8bcd4bb1430a4fad09c94f0d06367, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bracers_3
+    - spriteName: bracers_3
       sprite: {fileID: 21300006, guid: a8b8bcd4bb1430a4fad09c94f0d06367, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 512

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nursehat_0
+    - spriteName: nursehat_0
       sprite: {fileID: 21300000, guid: 218fe887d069b5d4585e111187ba1446, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nursehat_1
+    - spriteName: nursehat_1
       sprite: {fileID: 21300002, guid: 218fe887d069b5d4585e111187ba1446, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nursehat_2
+    - spriteName: nursehat_2
       sprite: {fileID: 21300004, guid: 218fe887d069b5d4585e111187ba1446, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nursehat_3
+    - spriteName: nursehat_3
       sprite: {fileID: 21300006, guid: 218fe887d069b5d4585e111187ba1446, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20384

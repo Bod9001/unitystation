@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fedora_0
+    - spriteName: fedora_0
       sprite: {fileID: 21300000, guid: 740561d7fba505e48a487bdffbd3c5b2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fedora_1
+    - spriteName: fedora_1
       sprite: {fileID: 21300002, guid: 740561d7fba505e48a487bdffbd3c5b2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fedora_2
+    - spriteName: fedora_2
       sprite: {fileID: 21300004, guid: 740561d7fba505e48a487bdffbd3c5b2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fedora_3
+    - spriteName: fedora_3
       sprite: {fileID: 21300006, guid: 740561d7fba505e48a487bdffbd3c5b2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20302

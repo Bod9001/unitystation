@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nemes_headdress_0
+    - spriteName: nemes_headdress_0
       sprite: {fileID: 21300000, guid: c88399e3dfea991449d3a322eebc3dce, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nemes_headdress_1
+    - spriteName: nemes_headdress_1
       sprite: {fileID: 21300002, guid: c88399e3dfea991449d3a322eebc3dce, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nemes_headdress_2
+    - spriteName: nemes_headdress_2
       sprite: {fileID: 21300004, guid: c88399e3dfea991449d3a322eebc3dce, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nemes_headdress_3
+    - spriteName: nemes_headdress_3
       sprite: {fileID: 21300006, guid: c88399e3dfea991449d3a322eebc3dce, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 656

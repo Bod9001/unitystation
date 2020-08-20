@@ -14,28 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
+    - spriteName: wall_floor_0
+      sprite: {fileID: 21300000, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
+    - spriteName: wall_floor_1
+      sprite: {fileID: 21300002, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
+    - spriteName: wall_floor_2
+      sprite: {fileID: 21300004, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
+    - spriteName: wall_floor_3
+      sprite: {fileID: 21300006, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300008, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
+    - spriteName: wall_floor_4
+      sprite: {fileID: 21300008, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300010, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
+    - spriteName: wall_floor_5
+      sprite: {fileID: 21300010, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300012, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
+    - spriteName: wall_floor_6
+      sprite: {fileID: 21300012, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300014, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
+    - spriteName: wall_floor_7
+      sprite: {fileID: 21300014, guid: 8abf6b77f429be048855c5bf0fa46bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19560

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e76b5423b3bc2e949ab795969822be23, type: 3}
+    - spriteName: slimecrossing_base
+      sprite: {fileID: 21300000, guid: e76b5423b3bc2e949ab795969822be23, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16768

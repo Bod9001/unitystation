@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c2f0c89dc853c974393c03ab9e488ab7, type: 3}
+    - spriteName: harvest_kudzupod
+      sprite: {fileID: 21300000, guid: c2f0c89dc853c974393c03ab9e488ab7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15305

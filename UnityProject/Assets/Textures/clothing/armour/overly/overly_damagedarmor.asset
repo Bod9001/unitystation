@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: damagedarmor_0
+    - spriteName: damagedarmor_0
       sprite: {fileID: 21300000, guid: d16654215dc29434e801311328bd8b4e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: damagedarmor_1
+    - spriteName: damagedarmor_1
       sprite: {fileID: 21300002, guid: d16654215dc29434e801311328bd8b4e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: damagedarmor_2
+    - spriteName: damagedarmor_2
       sprite: {fileID: 21300004, guid: d16654215dc29434e801311328bd8b4e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: damagedarmor_3
+    - spriteName: damagedarmor_3
       sprite: {fileID: 21300006, guid: d16654215dc29434e801311328bd8b4e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 253

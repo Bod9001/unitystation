@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6fce508223f9977448257d580a0bcafa, type: 3}
+    - spriteName: device_hypertool
+      sprite: {fileID: 21300000, guid: 6fce508223f9977448257d580a0bcafa, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6219

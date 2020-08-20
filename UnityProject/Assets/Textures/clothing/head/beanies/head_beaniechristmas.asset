@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: beaniechristmas_0
+    - spriteName: beaniechristmas_0
       sprite: {fileID: 21300000, guid: 93a80edfb484e23438f969c2e39659a8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: beaniechristmas_1
+    - spriteName: beaniechristmas_1
       sprite: {fileID: 21300002, guid: 93a80edfb484e23438f969c2e39659a8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: beaniechristmas_2
+    - spriteName: beaniechristmas_2
       sprite: {fileID: 21300004, guid: 93a80edfb484e23438f969c2e39659a8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: beaniechristmas_3
+    - spriteName: beaniechristmas_3
       sprite: {fileID: 21300006, guid: 93a80edfb484e23438f969c2e39659a8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20165

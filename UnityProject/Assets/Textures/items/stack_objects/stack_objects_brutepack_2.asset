@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 618708a7a69048a43b552a5d0e08072e, type: 3}
+    - spriteName: stack_objects_brutepack_2
+      sprite: {fileID: 21300000, guid: 618708a7a69048a43b552a5d0e08072e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8732

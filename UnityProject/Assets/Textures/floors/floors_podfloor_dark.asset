@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: floors_podfloor_dark
+    - spriteName: floors_podfloor_dark
       sprite: {fileID: 21300000, guid: 8ad3b2abb7b99c447945d7b82e30e12c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2261

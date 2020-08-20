@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-med_0
+    - spriteName: satchel-med_0
       sprite: {fileID: 5909066807894738167, guid: 0b109f4021776b440b91f64fd8cf7fe6,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-med_1
+    - spriteName: satchel-med_1
       sprite: {fileID: 8853275536728933986, guid: 0b109f4021776b440b91f64fd8cf7fe6,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-med_2
+    - spriteName: satchel-med_2
       sprite: {fileID: -5908914256507766963, guid: 0b109f4021776b440b91f64fd8cf7fe6,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-med_3
+    - spriteName: satchel-med_3
       sprite: {fileID: 4431687987766523244, guid: 0b109f4021776b440b91f64fd8cf7fe6,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19800

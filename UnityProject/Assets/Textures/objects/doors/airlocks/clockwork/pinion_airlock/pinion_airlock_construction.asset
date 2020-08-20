@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 5291f7773a9b63249b13efb6b7863dd8, type: 3}
+    - spriteName: pinion_airlock_construction
+      sprite: {fileID: 21300000, guid: 5291f7773a9b63249b13efb6b7863dd8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13811

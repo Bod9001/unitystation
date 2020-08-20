@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8cbd47666fb0dc5418e98287db98f1a4, type: 3}
+    - spriteName: construction_firebot_helmet
+      sprite: {fileID: 21300000, guid: 8cbd47666fb0dc5418e98287db98f1a4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12054

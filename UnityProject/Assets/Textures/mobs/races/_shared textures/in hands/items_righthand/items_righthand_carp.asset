@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -8720549234139205794, guid: bacfb2788f3eaec4bb8a8678aa59a95f,
+    - spriteName: carp_0
+      sprite: {fileID: -8720549234139205794, guid: bacfb2788f3eaec4bb8a8678aa59a95f,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -7831019203310980392, guid: bacfb2788f3eaec4bb8a8678aa59a95f,
+    - spriteName: carp_1
+      sprite: {fileID: -7831019203310980392, guid: bacfb2788f3eaec4bb8a8678aa59a95f,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 8926052538036840028, guid: bacfb2788f3eaec4bb8a8678aa59a95f,
+    - spriteName: carp_2
+      sprite: {fileID: 8926052538036840028, guid: bacfb2788f3eaec4bb8a8678aa59a95f,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 1227128927980828546, guid: bacfb2788f3eaec4bb8a8678aa59a95f,
+    - spriteName: carp_3
+      sprite: {fileID: 1227128927980828546, guid: bacfb2788f3eaec4bb8a8678aa59a95f,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10140

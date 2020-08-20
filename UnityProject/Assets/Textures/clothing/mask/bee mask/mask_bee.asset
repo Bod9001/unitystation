@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bee_0
+    - spriteName: bee_0
       sprite: {fileID: 21300000, guid: db490bfe3bd77924e84c18b636ca3f54, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bee_1
+    - spriteName: bee_1
       sprite: {fileID: 21300002, guid: db490bfe3bd77924e84c18b636ca3f54, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bee_2
+    - spriteName: bee_2
       sprite: {fileID: 21300004, guid: db490bfe3bd77924e84c18b636ca3f54, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bee_3
+    - spriteName: bee_3
       sprite: {fileID: 21300006, guid: db490bfe3bd77924e84c18b636ca3f54, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20562

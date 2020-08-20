@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: aac984ec702b6844c9692edf5278361d, type: 3}
+    - spriteName: stack_objects_sheet-lizard
+      sprite: {fileID: 21300000, guid: aac984ec702b6844c9692edf5278361d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8796

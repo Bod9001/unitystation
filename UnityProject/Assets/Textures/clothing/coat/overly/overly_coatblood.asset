@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: coatblood_0
+    - spriteName: coatblood_0
       sprite: {fileID: 21300000, guid: edf712bccfee8004dad22a7d006270cd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: coatblood_1
+    - spriteName: coatblood_1
       sprite: {fileID: 21300002, guid: edf712bccfee8004dad22a7d006270cd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: coatblood_2
+    - spriteName: coatblood_2
       sprite: {fileID: 21300004, guid: edf712bccfee8004dad22a7d006270cd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: coatblood_3
+    - spriteName: coatblood_3
       sprite: {fileID: 21300006, guid: edf712bccfee8004dad22a7d006270cd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 477

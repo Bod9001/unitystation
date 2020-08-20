@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0ef18ab5f9596e645ada9de2c4bf3181, type: 3}
+    - spriteName: atmos_proto-1
+      sprite: {fileID: 21300000, guid: 0ef18ab5f9596e645ada9de2c4bf3181, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12882

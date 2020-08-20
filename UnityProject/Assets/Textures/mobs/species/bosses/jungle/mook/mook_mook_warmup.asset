@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a5a9c018849f3a54786cf5d2facff781, type: 3}
+    - spriteName: mook_mook_warmup
+      sprite: {fileID: 21300000, guid: a5a9c018849f3a54786cf5d2facff781, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12009

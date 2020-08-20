@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -2540372436740475469, guid: d78bce4cbfcc37c45a413920fd3b522b,
+    - spriteName: salacid_0
+      sprite: {fileID: -2540372436740475469, guid: d78bce4cbfcc37c45a413920fd3b522b,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 2659739562455415075, guid: d78bce4cbfcc37c45a413920fd3b522b,
+    - spriteName: salacid_1
+      sprite: {fileID: 2659739562455415075, guid: d78bce4cbfcc37c45a413920fd3b522b,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 3457555485830289680, guid: d78bce4cbfcc37c45a413920fd3b522b,
+    - spriteName: salacid_2
+      sprite: {fileID: 3457555485830289680, guid: d78bce4cbfcc37c45a413920fd3b522b,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 3988636546704280000, guid: d78bce4cbfcc37c45a413920fd3b522b,
+    - spriteName: salacid_3
+      sprite: {fileID: 3988636546704280000, guid: d78bce4cbfcc37c45a413920fd3b522b,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23044

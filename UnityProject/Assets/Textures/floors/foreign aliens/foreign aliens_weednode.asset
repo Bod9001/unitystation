@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: foreign aliens_weednode
+    - spriteName: foreign aliens_weednode
       sprite: {fileID: 21300000, guid: eacbb44c33bbd4040b564de510576fa3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2268

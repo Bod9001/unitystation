@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: eaa8deffe46d70f47a6c848dc1978e08, type: 3}
+    - spriteName: pets_petcollar-overlay
+      sprite: {fileID: 21300000, guid: eaa8deffe46d70f47a6c848dc1978e08, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12430

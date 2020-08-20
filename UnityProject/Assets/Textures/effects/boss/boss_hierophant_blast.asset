@@ -14,288 +14,232 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_0
+    - spriteName: hierophant_blast_0
       sprite: {fileID: 21300000, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_4
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_4
       sprite: {fileID: 21300008, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.08
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_8
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_8
       sprite: {fileID: 21300016, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.06
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_12
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_12
       sprite: {fileID: 21300024, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_16
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_16
       sprite: {fileID: 21300032, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.02
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_20
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_20
       sprite: {fileID: 21300040, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.125
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_24
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_24
       sprite: {fileID: 21300048, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.175
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_28
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_28
       sprite: {fileID: 21300056, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.15
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_32
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_32
       sprite: {fileID: 21300064, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_36
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_36
       sprite: {fileID: 21300072, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_40
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_40
       sprite: {fileID: 21300080, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_44
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_44
       sprite: {fileID: 21300088, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_48
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_48
       sprite: {fileID: 21300096, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_52
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_52
       sprite: {fileID: 21300104, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_1
+    - spriteName: hierophant_blast_1
       sprite: {fileID: 21300002, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_5
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_5
       sprite: {fileID: 21300010, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.08
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_9
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_9
       sprite: {fileID: 21300018, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.06
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_13
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_13
       sprite: {fileID: 21300026, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_17
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_17
       sprite: {fileID: 21300034, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.02
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_21
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_21
       sprite: {fileID: 21300042, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.125
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_25
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_25
       sprite: {fileID: 21300050, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.175
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_29
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_29
       sprite: {fileID: 21300058, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.15
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_33
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_33
       sprite: {fileID: 21300066, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_37
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_37
       sprite: {fileID: 21300074, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_41
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_41
       sprite: {fileID: 21300082, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_45
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_45
       sprite: {fileID: 21300090, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_49
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_49
       sprite: {fileID: 21300098, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_53
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_53
       sprite: {fileID: 21300106, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_2
+    - spriteName: hierophant_blast_2
       sprite: {fileID: 21300004, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_6
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_6
       sprite: {fileID: 21300012, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.08
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_10
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_10
       sprite: {fileID: 21300020, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.06
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_14
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_14
       sprite: {fileID: 21300028, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_18
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_18
       sprite: {fileID: 21300036, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.02
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_22
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_22
       sprite: {fileID: 21300044, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.125
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_26
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_26
       sprite: {fileID: 21300052, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.175
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_30
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_30
       sprite: {fileID: 21300060, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.15
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_34
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_34
       sprite: {fileID: 21300068, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_38
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_38
       sprite: {fileID: 21300076, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_42
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_42
       sprite: {fileID: 21300084, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_46
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_46
       sprite: {fileID: 21300092, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_50
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_50
       sprite: {fileID: 21300100, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_54
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_54
       sprite: {fileID: 21300108, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_3
+    - spriteName: hierophant_blast_3
       sprite: {fileID: 21300006, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_7
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_7
       sprite: {fileID: 21300014, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.08
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_11
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_11
       sprite: {fileID: 21300022, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.06
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_15
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_15
       sprite: {fileID: 21300030, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.04
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_19
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_19
       sprite: {fileID: 21300038, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.02
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_23
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_23
       sprite: {fileID: 21300046, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.125
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_27
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_27
       sprite: {fileID: 21300054, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.175
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_31
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_31
       sprite: {fileID: 21300062, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.15
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_35
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_35
       sprite: {fileID: 21300070, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_39
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_39
       sprite: {fileID: 21300078, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.025
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_43
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_43
       sprite: {fileID: 21300086, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.05
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_47
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_47
       sprite: {fileID: 21300094, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.075
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_51
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_51
       sprite: {fileID: 21300102, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: hierophant_blast_55
+      AtlasUsing: 0
+    - spriteName: hierophant_blast_55
       sprite: {fileID: 21300110, guid: 18d3079498b121442a9afc162b5a2622, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1233

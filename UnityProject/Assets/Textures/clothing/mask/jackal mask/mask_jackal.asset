@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jackal_0
+    - spriteName: jackal_0
       sprite: {fileID: 21300000, guid: a33a85c96824c304ead5a4d71b81abd1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jackal_1
+    - spriteName: jackal_1
       sprite: {fileID: 21300002, guid: a33a85c96824c304ead5a4d71b81abd1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jackal_2
+    - spriteName: jackal_2
       sprite: {fileID: 21300004, guid: a33a85c96824c304ead5a4d71b81abd1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jackal_3
+    - spriteName: jackal_3
       sprite: {fileID: 21300006, guid: a33a85c96824c304ead5a4d71b81abd1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20600

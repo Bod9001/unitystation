@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1-full_0
+    - spriteName: 1-full_0
       sprite: {fileID: 21300000, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1-full_1
+    - spriteName: 1-full_1
       sprite: {fileID: 21300002, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1-full_2
+    - spriteName: 1-full_2
       sprite: {fileID: 21300004, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1-full_3
+    - spriteName: 1-full_3
       sprite: {fileID: 21300006, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1-full_4
+    - spriteName: 1-full_4
       sprite: {fileID: 21300008, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1-full_5
+    - spriteName: 1-full_5
       sprite: {fileID: 21300010, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1-full_6
+    - spriteName: 1-full_6
       sprite: {fileID: 21300012, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1-full_7
+    - spriteName: 1-full_7
       sprite: {fileID: 21300014, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1138

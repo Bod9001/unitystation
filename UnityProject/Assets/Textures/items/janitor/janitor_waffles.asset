@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b00cf2a8c4ae2b64098a6c430cffff87, type: 3}
+    - spriteName: janitor_waffles
+      sprite: {fileID: 21300000, guid: b00cf2a8c4ae2b64098a6c430cffff87, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8042

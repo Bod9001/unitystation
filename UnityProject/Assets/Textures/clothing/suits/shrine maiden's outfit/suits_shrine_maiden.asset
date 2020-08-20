@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: shrine_maiden_0
+    - spriteName: shrine_maiden_0
       sprite: {fileID: -8901715713436460861, guid: 449e731c2ab05c94d9de4725bb0ad8f6,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: shrine_maiden_1
+    - spriteName: shrine_maiden_1
       sprite: {fileID: -3272502009758769781, guid: 449e731c2ab05c94d9de4725bb0ad8f6,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: shrine_maiden_2
+    - spriteName: shrine_maiden_2
       sprite: {fileID: -24868379221297588, guid: 449e731c2ab05c94d9de4725bb0ad8f6,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: shrine_maiden_3
+    - spriteName: shrine_maiden_3
       sprite: {fileID: -5114365601682176539, guid: 449e731c2ab05c94d9de4725bb0ad8f6,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21077

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8b205051664fa5e43b37117c0ff3da5b, type: 3}
+    - spriteName: surgery_roro_core_2
+      sprite: {fileID: 21300000, guid: 8b205051664fa5e43b37117c0ff3da5b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9106

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: crusader-blue_0
+    - spriteName: crusader-blue_0
       sprite: {fileID: 21300000, guid: 345e741bc9d04e847b71b2c196c9caf0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: crusader-blue_1
+    - spriteName: crusader-blue_1
       sprite: {fileID: 21300002, guid: 345e741bc9d04e847b71b2c196c9caf0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: crusader-blue_2
+    - spriteName: crusader-blue_2
       sprite: {fileID: 21300004, guid: 345e741bc9d04e847b71b2c196c9caf0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: crusader-blue_3
+    - spriteName: crusader-blue_3
       sprite: {fileID: 21300006, guid: 345e741bc9d04e847b71b2c196c9caf0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 514

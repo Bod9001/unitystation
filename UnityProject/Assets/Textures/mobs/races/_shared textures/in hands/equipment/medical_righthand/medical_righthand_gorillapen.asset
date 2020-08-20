@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -2218458768233719067, guid: dd55c1acb9785eb4489205f1a9a37230,
+    - spriteName: gorillapen_0
+      sprite: {fileID: -2218458768233719067, guid: dd55c1acb9785eb4489205f1a9a37230,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -3237400650706769626, guid: dd55c1acb9785eb4489205f1a9a37230,
+    - spriteName: gorillapen_1
+      sprite: {fileID: -3237400650706769626, guid: dd55c1acb9785eb4489205f1a9a37230,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -1647387443661883457, guid: dd55c1acb9785eb4489205f1a9a37230,
+    - spriteName: gorillapen_2
+      sprite: {fileID: -1647387443661883457, guid: dd55c1acb9785eb4489205f1a9a37230,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 538968398353808320, guid: dd55c1acb9785eb4489205f1a9a37230,
+    - spriteName: gorillapen_3
+      sprite: {fileID: 538968398353808320, guid: dd55c1acb9785eb4489205f1a9a37230,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23085

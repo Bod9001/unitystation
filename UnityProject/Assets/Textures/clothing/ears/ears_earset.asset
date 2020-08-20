@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: earset_0
+    - spriteName: earset_0
       sprite: {fileID: 21300000, guid: aa8a215f1761c1e4583b1b2a4a87eaf4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: earset_1
+    - spriteName: earset_1
       sprite: {fileID: 21300002, guid: aa8a215f1761c1e4583b1b2a4a87eaf4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: earset_2
+    - spriteName: earset_2
       sprite: {fileID: 21300004, guid: aa8a215f1761c1e4583b1b2a4a87eaf4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: earset_3
+    - spriteName: earset_3
       sprite: {fileID: 21300006, guid: aa8a215f1761c1e4583b1b2a4a87eaf4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 480

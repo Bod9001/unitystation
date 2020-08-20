@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fedora_white_0
+    - spriteName: fedora_white_0
       sprite: {fileID: -6658226649133602985, guid: 3c5710b3176fcfe4aa991d882182baef,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fedora_white_1
+    - spriteName: fedora_white_1
       sprite: {fileID: 5090110574315399349, guid: 3c5710b3176fcfe4aa991d882182baef,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fedora_white_2
+    - spriteName: fedora_white_2
       sprite: {fileID: -7096566988033103333, guid: 3c5710b3176fcfe4aa991d882182baef,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: fedora_white_3
+    - spriteName: fedora_white_3
       sprite: {fileID: -4978800354060736340, guid: 3c5710b3176fcfe4aa991d882182baef,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20309

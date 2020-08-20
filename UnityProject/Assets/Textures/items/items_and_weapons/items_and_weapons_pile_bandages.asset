@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6e14c8b12ff3f5e44ac54ff1a28c9338, type: 3}
+    - spriteName: items_and_weapons_pile_bandages
+      sprite: {fileID: 21300000, guid: 6e14c8b12ff3f5e44ac54ff1a28c9338, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7870

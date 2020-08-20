@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a774d8daf2483b1429e0e29f579b24fe, type: 3}
+    - spriteName: jungleflora_rock4
+      sprite: {fileID: 21300000, guid: a774d8daf2483b1429e0e29f579b24fe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14955

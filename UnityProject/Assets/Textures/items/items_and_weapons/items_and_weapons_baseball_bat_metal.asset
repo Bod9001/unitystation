@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e48013b21a5bdfd4ebf1984787e54a47, type: 3}
+    - spriteName: items_and_weapons_baseball_bat_metal
+      sprite: {fileID: 21300000, guid: e48013b21a5bdfd4ebf1984787e54a47, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7709

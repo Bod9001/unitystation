@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 8545650848147401432, guid: 343709c2a10daa743bad47f72139bf51,
+    - spriteName: crates_miningcar_0
+      sprite: {fileID: 8545650848147401432, guid: 343709c2a10daa743bad47f72139bf51,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13614

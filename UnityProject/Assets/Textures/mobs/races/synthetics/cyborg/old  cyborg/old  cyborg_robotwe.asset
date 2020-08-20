@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b74308c74a11dc046946b7c223e653b5, type: 3}
+    - spriteName: old  cyborg_robotwe
+      sprite: {fileID: 21300000, guid: b74308c74a11dc046946b7c223e653b5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11634

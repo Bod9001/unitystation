@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: pristine_surrounding_tile1_0
+    - spriteName: pristine_surrounding_tile1_0
       sprite: {fileID: 21300000, guid: a771061686773d04996f06af1cd17e8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: pristine_surrounding_tile1_1
+    - spriteName: pristine_surrounding_tile1_1
       sprite: {fileID: 21300002, guid: a771061686773d04996f06af1cd17e8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: pristine_surrounding_tile1_2
+    - spriteName: pristine_surrounding_tile1_2
       sprite: {fileID: 21300004, guid: a771061686773d04996f06af1cd17e8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: pristine_surrounding_tile1_3
+    - spriteName: pristine_surrounding_tile1_3
       sprite: {fileID: 21300006, guid: a771061686773d04996f06af1cd17e8f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1632

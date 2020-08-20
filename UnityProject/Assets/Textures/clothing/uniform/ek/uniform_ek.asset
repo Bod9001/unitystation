@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ek_0
+    - spriteName: ek_0
       sprite: {fileID: 21300000, guid: 18c936d13f7e6a64eab9bee2f8074723, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ek_1
+    - spriteName: ek_1
       sprite: {fileID: 21300002, guid: 18c936d13f7e6a64eab9bee2f8074723, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ek_2
+    - spriteName: ek_2
       sprite: {fileID: 21300004, guid: 18c936d13f7e6a64eab9bee2f8074723, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ek_3
+    - spriteName: ek_3
       sprite: {fileID: 21300006, guid: 18c936d13f7e6a64eab9bee2f8074723, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1014

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 53ed131c10b71bb449b0ea9c5e585573, type: 3}
+    - spriteName: mining_machines_mining-off
+      sprite: {fileID: 21300000, guid: 53ed131c10b71bb449b0ea9c5e585573, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15821

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: cc4758ff35ee961498c3a8d9f79890cc, type: 3}
+    - spriteName: mining_Green_lump
+      sprite: {fileID: 21300000, guid: cc4758ff35ee961498c3a8d9f79890cc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8291

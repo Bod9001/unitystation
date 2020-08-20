@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: scrubsblue_0
+    - spriteName: scrubsblue_0
       sprite: {fileID: 21300000, guid: aab441a355e3e2e4f831bf21f7fd6720, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: scrubsblue_1
+    - spriteName: scrubsblue_1
       sprite: {fileID: 21300002, guid: aab441a355e3e2e4f831bf21f7fd6720, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: scrubsblue_2
+    - spriteName: scrubsblue_2
       sprite: {fileID: 21300004, guid: aab441a355e3e2e4f831bf21f7fd6720, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: scrubsblue_3
+    - spriteName: scrubsblue_3
       sprite: {fileID: 21300006, guid: aab441a355e3e2e4f831bf21f7fd6720, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21712

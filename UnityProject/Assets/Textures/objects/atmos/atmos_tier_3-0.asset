@@ -14,17 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 4814763420868373404, guid: 6c908e605bdfc3d44b60e6e2bd5a8cd8,
+    - spriteName: tier_3-0_0
+      sprite: {fileID: 4814763420868373404, guid: 6c908e605bdfc3d44b60e6e2bd5a8cd8,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 3149082319393633863, guid: 6c908e605bdfc3d44b60e6e2bd5a8cd8,
+      AtlasUsing: 0
+    - spriteName: tier_3-0_1
+      sprite: {fileID: 3149082319393633863, guid: 6c908e605bdfc3d44b60e6e2bd5a8cd8,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -703082214582923019, guid: 6c908e605bdfc3d44b60e6e2bd5a8cd8,
+      AtlasUsing: 0
+    - spriteName: tier_3-0_2
+      sprite: {fileID: -703082214582923019, guid: 6c908e605bdfc3d44b60e6e2bd5a8cd8,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 5068160650942442090, guid: 6c908e605bdfc3d44b60e6e2bd5a8cd8,
+      AtlasUsing: 0
+    - spriteName: tier_3-0_3
+      sprite: {fileID: 5068160650942442090, guid: 6c908e605bdfc3d44b60e6e2bd5a8cd8,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22963

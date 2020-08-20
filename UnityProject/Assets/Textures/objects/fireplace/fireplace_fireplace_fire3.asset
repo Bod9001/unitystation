@@ -14,32 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+    - spriteName: fireplace_fire3_0
+      sprite: {fileID: 21300000, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+      AtlasUsing: 0
+    - spriteName: fireplace_fire3_4
+      sprite: {fileID: 21300008, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+      AtlasUsing: 0
+    - spriteName: fireplace_fire3_8
+      sprite: {fileID: 21300016, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+    - spriteName: fireplace_fire3_1
+      sprite: {fileID: 21300002, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+      AtlasUsing: 0
+    - spriteName: fireplace_fire3_5
+      sprite: {fileID: 21300010, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+      AtlasUsing: 0
+    - spriteName: fireplace_fire3_9
+      sprite: {fileID: 21300018, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+    - spriteName: fireplace_fire3_2
+      sprite: {fileID: 21300004, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+      AtlasUsing: 0
+    - spriteName: fireplace_fire3_6
+      sprite: {fileID: 21300012, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+      AtlasUsing: 0
+    - spriteName: fireplace_fire3_10
+      sprite: {fileID: 21300020, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+    - spriteName: fireplace_fire3_3
+      sprite: {fileID: 21300006, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+      AtlasUsing: 0
+    - spriteName: fireplace_fire3_7
+      sprite: {fileID: 21300014, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
+      AtlasUsing: 0
+    - spriteName: fireplace_fire3_11
+      sprite: {fileID: 21300022, guid: d8c04c5b6349fa7409fb215d19cbda21, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14859

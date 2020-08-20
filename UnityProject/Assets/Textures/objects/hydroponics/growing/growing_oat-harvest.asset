@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 5213d8ab6c444d24bbe799673f2782c7, type: 3}
+    - spriteName: growing_oat-harvest
+      sprite: {fileID: 21300000, guid: 5213d8ab6c444d24bbe799673f2782c7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22770

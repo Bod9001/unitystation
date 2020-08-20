@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6885f192ba3a1e24fa995aa0e5601743, type: 3}
+    - spriteName: pipe-j2_0
+      sprite: {fileID: 21300000, guid: 6885f192ba3a1e24fa995aa0e5601743, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 6885f192ba3a1e24fa995aa0e5601743, type: 3}
+    - spriteName: pipe-j2_1
+      sprite: {fileID: 21300002, guid: 6885f192ba3a1e24fa995aa0e5601743, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 6885f192ba3a1e24fa995aa0e5601743, type: 3}
+    - spriteName: pipe-j2_2
+      sprite: {fileID: 21300004, guid: 6885f192ba3a1e24fa995aa0e5601743, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 6885f192ba3a1e24fa995aa0e5601743, type: 3}
+    - spriteName: pipe-j2_3
+      sprite: {fileID: 21300006, guid: 6885f192ba3a1e24fa995aa0e5601743, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 18733

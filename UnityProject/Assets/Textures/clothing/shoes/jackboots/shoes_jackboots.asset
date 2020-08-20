@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jackboots_0
+    - spriteName: jackboots_0
       sprite: {fileID: 21300000, guid: 501c40324395ba4468a1b8b114ff3ddb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jackboots_1
+    - spriteName: jackboots_1
       sprite: {fileID: 21300002, guid: 501c40324395ba4468a1b8b114ff3ddb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jackboots_2
+    - spriteName: jackboots_2
       sprite: {fileID: 21300004, guid: 501c40324395ba4468a1b8b114ff3ddb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jackboots_3
+    - spriteName: jackboots_3
       sprite: {fileID: 21300006, guid: 501c40324395ba4468a1b8b114ff3ddb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20761

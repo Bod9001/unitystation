@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0085f708a466b6149a2c97bc14501219, type: 3}
+    - spriteName: stack_objects_sheet-brass_2
+      sprite: {fileID: 21300000, guid: 0085f708a466b6149a2c97bc14501219, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8757

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1f4001ab244bb114fa1cc5eefe724cae, type: 3}
+    - spriteName: door_assembly_door_as_sandstone1
+      sprite: {fileID: 21300000, guid: 1f4001ab244bb114fa1cc5eefe724cae, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14528

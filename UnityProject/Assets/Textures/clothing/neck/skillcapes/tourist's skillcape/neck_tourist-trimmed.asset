@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: tourist-trimmed_0
       sprite: {fileID: 5767993275528444067, guid: e78685cf68bb00948ba66b36ba79f336,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: tourist-trimmed_1
       sprite: {fileID: -8317178089259503953, guid: e78685cf68bb00948ba66b36ba79f336,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: tourist-trimmed_2
       sprite: {fileID: 8972239147898194378, guid: e78685cf68bb00948ba66b36ba79f336,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: tourist-trimmed_3
       sprite: {fileID: 522435648184729715, guid: e78685cf68bb00948ba66b36ba79f336,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23253

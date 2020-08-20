@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 940f8e80db4af5544afc98484a76da84, type: 3}
+    - spriteName: containers_flour
+      sprite: {fileID: 21300000, guid: 940f8e80db4af5544afc98484a76da84, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6833

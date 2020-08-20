@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 77ee955212d631c4a9005af97c76460b, type: 3}
+    - spriteName: bureaucracy_folder
+      sprite: {fileID: 21300000, guid: 77ee955212d631c4a9005af97c76460b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5120

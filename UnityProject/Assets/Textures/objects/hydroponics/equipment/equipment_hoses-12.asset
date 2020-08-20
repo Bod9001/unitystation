@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bbec9d515fc1933489f13d0d2065d9c6, type: 3}
+    - spriteName: equipment_hoses-12
+      sprite: {fileID: 21300000, guid: bbec9d515fc1933489f13d0d2065d9c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15166

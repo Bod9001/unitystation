@@ -14,35 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -5724406844215488599, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+    - spriteName: talk_swarmer0_0
+      sprite: {fileID: -5724406844215488599, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -4062494429032347560, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+      AtlasUsing: 0
+    - spriteName: talk_swarmer0_1
+      sprite: {fileID: -4062494429032347560, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -4663482093924285153, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+      AtlasUsing: 0
+    - spriteName: talk_swarmer0_2
+      sprite: {fileID: -4663482093924285153, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -7338640242327576374, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+      AtlasUsing: 0
+    - spriteName: talk_swarmer0_3
+      sprite: {fileID: -7338640242327576374, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 3960390753762640164, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+      AtlasUsing: 0
+    - spriteName: talk_swarmer0_4
+      sprite: {fileID: 3960390753762640164, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 4965447588984651754, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+      AtlasUsing: 0
+    - spriteName: talk_swarmer0_5
+      sprite: {fileID: 4965447588984651754, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 1646083257338295252, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+      AtlasUsing: 0
+    - spriteName: talk_swarmer0_6
+      sprite: {fileID: 1646083257338295252, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -6338826082877993243, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+      AtlasUsing: 0
+    - spriteName: talk_swarmer0_7
+      sprite: {fileID: -6338826082877993243, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 8140682755941335502, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+      AtlasUsing: 0
+    - spriteName: talk_swarmer0_8
+      sprite: {fileID: 8140682755941335502, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: -8284738799439115412, guid: 6d2066f698fe7a94ca3eb916c4d18796,
+      AtlasUsing: 0
+    - spriteName: talk_swarmer0_9
+      sprite: {fileID: -8284738799439115412, guid: 6d2066f698fe7a94ca3eb916c4d18796,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2925

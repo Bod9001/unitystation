@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 341dceba4b77a8342a3f22b9ef4ef4ec, type: 3}
+    - spriteName: secureb_0
+      sprite: {fileID: 21300000, guid: 341dceba4b77a8342a3f22b9ef4ef4ec, type: 3}
       secondDelay: 1.5
-    - sprite: {fileID: 21300002, guid: 341dceba4b77a8342a3f22b9ef4ef4ec, type: 3}
+      AtlasUsing: 0
+    - spriteName: secureb_1
+      sprite: {fileID: 21300002, guid: 341dceba4b77a8342a3f22b9ef4ef4ec, type: 3}
       secondDelay: 1.5
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13625

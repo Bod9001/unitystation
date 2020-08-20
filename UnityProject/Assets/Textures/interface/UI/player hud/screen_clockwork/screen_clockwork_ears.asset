@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 5594719884396ee419188fd513d54a3f, type: 3}
+    - spriteName: screen_clockwork_ears
+      sprite: {fileID: 21300000, guid: 5594719884396ee419188fd513d54a3f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3318

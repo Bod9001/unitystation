@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 981ef8309ad09d94c9acd83a75d1cec1, type: 3}
+    - spriteName: drone_drone_repair_dead
+      sprite: {fileID: 21300000, guid: 981ef8309ad09d94c9acd83a75d1cec1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11713

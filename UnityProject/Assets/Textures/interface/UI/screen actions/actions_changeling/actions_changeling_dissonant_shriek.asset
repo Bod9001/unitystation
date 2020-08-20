@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 34712450084098f43b501bbdad0161b2, type: 3}
+    - spriteName: actions_changeling_dissonant_shriek
+      sprite: {fileID: 21300000, guid: 34712450084098f43b501bbdad0161b2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3932

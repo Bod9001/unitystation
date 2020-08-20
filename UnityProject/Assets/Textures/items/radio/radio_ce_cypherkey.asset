@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 61b437cdc966ee94e8e6c0f159a7bfc1, type: 3}
+    - spriteName: radio_ce_cypherkey
+      sprite: {fileID: 21300000, guid: 61b437cdc966ee94e8e6c0f159a7bfc1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8613

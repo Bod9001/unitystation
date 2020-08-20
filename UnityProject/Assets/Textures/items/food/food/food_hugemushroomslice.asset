@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8326e1080868f354084c597a1a29a03d, type: 3}
+    - spriteName: food_hugemushroomslice
+      sprite: {fileID: 21300000, guid: 8326e1080868f354084c597a1a29a03d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6948

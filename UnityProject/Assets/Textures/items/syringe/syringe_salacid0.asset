@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c1aad8165628d1e49bed4946b83dae00, type: 3}
+    - spriteName: syringe_salacid0
+      sprite: {fileID: 21300000, guid: c1aad8165628d1e49bed4946b83dae00, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23137

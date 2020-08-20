@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 43f2d67b0be530b4f9c9b15af02d2c3c, type: 3}
+    - spriteName: meatball_0
+      sprite: {fileID: 21300000, guid: 43f2d67b0be530b4f9c9b15af02d2c3c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 43f2d67b0be530b4f9c9b15af02d2c3c, type: 3}
+    - spriteName: meatball_1
+      sprite: {fileID: 21300002, guid: 43f2d67b0be530b4f9c9b15af02d2c3c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 43f2d67b0be530b4f9c9b15af02d2c3c, type: 3}
+    - spriteName: meatball_2
+      sprite: {fileID: 21300004, guid: 43f2d67b0be530b4f9c9b15af02d2c3c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 43f2d67b0be530b4f9c9b15af02d2c3c, type: 3}
+    - spriteName: meatball_3
+      sprite: {fileID: 21300006, guid: 43f2d67b0be530b4f9c9b15af02d2c3c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10439

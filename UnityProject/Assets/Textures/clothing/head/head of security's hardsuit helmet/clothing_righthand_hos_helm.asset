@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hos_helm_0
+    - spriteName: hos_helm_0
       sprite: {fileID: 8132044108265372646, guid: fe55d79da9d3bbe44b0c7e50dd8a9d87,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hos_helm_1
+    - spriteName: hos_helm_1
       sprite: {fileID: -4368411818941074246, guid: fe55d79da9d3bbe44b0c7e50dd8a9d87,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hos_helm_2
+    - spriteName: hos_helm_2
       sprite: {fileID: -4928262823121204297, guid: fe55d79da9d3bbe44b0c7e50dd8a9d87,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hos_helm_3
+    - spriteName: hos_helm_3
       sprite: {fileID: -5426143506563184089, guid: fe55d79da9d3bbe44b0c7e50dd8a9d87,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20341

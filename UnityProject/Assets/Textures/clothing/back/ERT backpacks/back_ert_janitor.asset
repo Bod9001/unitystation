@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ert_janitor_0
+    - spriteName: ert_janitor_0
       sprite: {fileID: -2019208251083299118, guid: 0b08a2e2433074b4fb82d435a381d895,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ert_janitor_1
+    - spriteName: ert_janitor_1
       sprite: {fileID: 7785066121562653146, guid: 0b08a2e2433074b4fb82d435a381d895,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ert_janitor_2
+    - spriteName: ert_janitor_2
       sprite: {fileID: 7362999703341760711, guid: 0b08a2e2433074b4fb82d435a381d895,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ert_janitor_3
+    - spriteName: ert_janitor_3
       sprite: {fileID: 8048148019497650713, guid: 0b08a2e2433074b4fb82d435a381d895,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19734

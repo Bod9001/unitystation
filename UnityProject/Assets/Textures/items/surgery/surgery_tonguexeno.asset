@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3162e3eb16a6c714ab12103a812aef88, type: 3}
+    - spriteName: surgery_tonguexeno
+      sprite: {fileID: 21300000, guid: 3162e3eb16a6c714ab12103a812aef88, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9133

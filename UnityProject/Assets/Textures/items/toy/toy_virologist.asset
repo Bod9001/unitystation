@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f8119466ec315714db062d6e51116441, type: 3}
+    - spriteName: toy_virologist
+      sprite: {fileID: 21300000, guid: f8119466ec315714db062d6e51116441, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9514

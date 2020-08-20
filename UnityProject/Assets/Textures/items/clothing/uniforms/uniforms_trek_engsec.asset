@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b15973e2b03ca264cb2156e2a1bc7d88, type: 3}
+    - spriteName: uniforms_trek_engsec
+      sprite: {fileID: 21300000, guid: b15973e2b03ca264cb2156e2a1bc7d88, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6092

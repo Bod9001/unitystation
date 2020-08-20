@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: loadingarea_red_0
+    - spriteName: loadingarea_red_0
       sprite: {fileID: 21300000, guid: ab626b0cb6dc8384498d6dbddbcd7dcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: loadingarea_red_1
+    - spriteName: loadingarea_red_1
       sprite: {fileID: 21300002, guid: ab626b0cb6dc8384498d6dbddbcd7dcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: loadingarea_red_2
+    - spriteName: loadingarea_red_2
       sprite: {fileID: 21300004, guid: ab626b0cb6dc8384498d6dbddbcd7dcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: loadingarea_red_3
+    - spriteName: loadingarea_red_3
       sprite: {fileID: 21300006, guid: ab626b0cb6dc8384498d6dbddbcd7dcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2024

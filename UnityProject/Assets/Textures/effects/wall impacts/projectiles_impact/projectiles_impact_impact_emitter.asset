@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: projectiles_impact_impact_emitter
+    - spriteName: projectiles_impact_impact_emitter
       sprite: {fileID: 21300000, guid: b93ea81d9aa4e324793420a600b7335f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1442

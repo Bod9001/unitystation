@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 4723790943042963034, guid: 58f27152ab68d724a82d1e85df005235,
+    - spriteName: crates_securecrate_0
+      sprite: {fileID: 4723790943042963034, guid: 58f27152ab68d724a82d1e85df005235,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13626

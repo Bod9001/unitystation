@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ddc9c8932fd4e704ca52a61dde6e7d74, type: 3}
+    - spriteName: door_assembly_door_as_plasma1
+      sprite: {fileID: 21300000, guid: ddc9c8932fd4e704ca52a61dde6e7d74, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14520

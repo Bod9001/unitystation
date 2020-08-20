@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: Sides_0
+    - spriteName: Sides_0
       sprite: {fileID: 21300000, guid: c80ff2a3ef43c0e49aa3246694601e0a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: Sides_1
+    - spriteName: Sides_1
       sprite: {fileID: 21300002, guid: c80ff2a3ef43c0e49aa3246694601e0a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: Sides_2
+    - spriteName: Sides_2
       sprite: {fileID: 21300004, guid: c80ff2a3ef43c0e49aa3246694601e0a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: Sides_3
+    - spriteName: Sides_3
       sprite: {fileID: 21300006, guid: c80ff2a3ef43c0e49aa3246694601e0a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1745

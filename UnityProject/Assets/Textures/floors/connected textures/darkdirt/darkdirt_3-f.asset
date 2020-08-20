@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: darkdirt_3-f
+    - spriteName: darkdirt_3-f
       sprite: {fileID: 21300000, guid: b8730ddf0caea7b40b9e4ac2ba38cc54, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1757

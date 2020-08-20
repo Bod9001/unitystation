@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: storage_botpack
+    - spriteName: storage_botpack
       sprite: {fileID: 21300000, guid: b1dac3ebaf21cfa4f8859ccfe8e50ca3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19702

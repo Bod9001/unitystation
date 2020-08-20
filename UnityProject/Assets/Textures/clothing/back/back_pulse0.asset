@@ -14,48 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pulse0_0
+    - spriteName: pulse0_0
       sprite: {fileID: 21300000, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pulse0_4
+      AtlasUsing: 0
+    - spriteName: pulse0_4
       sprite: {fileID: 21300008, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pulse0_1
+    - spriteName: pulse0_1
       sprite: {fileID: 21300002, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pulse0_5
+      AtlasUsing: 0
+    - spriteName: pulse0_5
       sprite: {fileID: 21300010, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pulse0_2
+    - spriteName: pulse0_2
       sprite: {fileID: 21300004, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pulse0_6
+      AtlasUsing: 0
+    - spriteName: pulse0_6
       sprite: {fileID: 21300012, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pulse0_3
+    - spriteName: pulse0_3
       sprite: {fileID: 21300006, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: pulse0_7
+      AtlasUsing: 0
+    - spriteName: pulse0_7
       sprite: {fileID: 21300014, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   IsPalette: 0
   setID: 330

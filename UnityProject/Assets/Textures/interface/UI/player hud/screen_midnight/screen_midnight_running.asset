@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3392298e39ff6c647af1bc007142d437, type: 3}
+    - spriteName: screen_midnight_running
+      sprite: {fileID: 21300000, guid: 3392298e39ff6c647af1bc007142d437, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3630

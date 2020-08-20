@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 5979c6b9a6a5509479b0f3807f772d6e, type: 3}
+    - spriteName: construction_phazon10
+      sprite: {fileID: 21300000, guid: 5979c6b9a6a5509479b0f3807f772d6e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19002

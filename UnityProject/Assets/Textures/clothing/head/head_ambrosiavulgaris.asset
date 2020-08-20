@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ambrosiavulgaris_0
+    - spriteName: ambrosiavulgaris_0
       sprite: {fileID: 21300000, guid: dfabbee96495bef4287cd801bc268de3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ambrosiavulgaris_1
+    - spriteName: ambrosiavulgaris_1
       sprite: {fileID: 21300002, guid: dfabbee96495bef4287cd801bc268de3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ambrosiavulgaris_2
+    - spriteName: ambrosiavulgaris_2
       sprite: {fileID: 21300004, guid: dfabbee96495bef4287cd801bc268de3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: ambrosiavulgaris_3
+    - spriteName: ambrosiavulgaris_3
       sprite: {fileID: 21300006, guid: dfabbee96495bef4287cd801bc268de3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 541

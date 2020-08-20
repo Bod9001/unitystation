@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6e57e8a2458d1944dad1d89edd63c2f6, type: 3}
+    - spriteName: desynchronizer_0
+      sprite: {fileID: 21300000, guid: 6e57e8a2458d1944dad1d89edd63c2f6, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300002, guid: 6e57e8a2458d1944dad1d89edd63c2f6, type: 3}
+      AtlasUsing: 0
+    - spriteName: desynchronizer_1
+      sprite: {fileID: 21300002, guid: 6e57e8a2458d1944dad1d89edd63c2f6, type: 3}
       secondDelay: 0.5
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6171

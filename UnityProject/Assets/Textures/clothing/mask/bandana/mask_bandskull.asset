@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bandskull_0
+    - spriteName: bandskull_0
       sprite: {fileID: 21300000, guid: ae5d773d1dfd86d47a4346ba910efb9d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bandskull_1
+    - spriteName: bandskull_1
       sprite: {fileID: 21300002, guid: ae5d773d1dfd86d47a4346ba910efb9d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bandskull_2
+    - spriteName: bandskull_2
       sprite: {fileID: 21300004, guid: ae5d773d1dfd86d47a4346ba910efb9d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bandskull_3
+    - spriteName: bandskull_3
       sprite: {fileID: 21300006, guid: ae5d773d1dfd86d47a4346ba910efb9d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20542

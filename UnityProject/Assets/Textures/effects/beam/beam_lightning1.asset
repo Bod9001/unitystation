@@ -14,15 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lightning1_0
+    - spriteName: lightning1_0
       sprite: {fileID: 21300000, guid: f85353aca7e0ab34d912b9b10e737564, type: 3}
       secondDelay: 0.12
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lightning1_1
+      AtlasUsing: 0
+    - spriteName: lightning1_1
       sprite: {fileID: 21300002, guid: f85353aca7e0ab34d912b9b10e737564, type: 3}
       secondDelay: 0.08
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1158

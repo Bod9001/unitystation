@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9dd52888352a92d49980b50aa05a7404, type: 3}
+    - spriteName: vending_snackteal-panel
+      sprite: {fileID: 21300000, guid: 9dd52888352a92d49980b50aa05a7404, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17900

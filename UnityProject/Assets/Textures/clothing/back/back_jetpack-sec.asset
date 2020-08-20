@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jetpack-sec_0
+    - spriteName: jetpack-sec_0
       sprite: {fileID: 21300000, guid: 56fe4ed0e1e97ec4f9181b6a5341054f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jetpack-sec_1
+    - spriteName: jetpack-sec_1
       sprite: {fileID: 21300002, guid: 56fe4ed0e1e97ec4f9181b6a5341054f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jetpack-sec_2
+    - spriteName: jetpack-sec_2
       sprite: {fileID: 21300004, guid: 56fe4ed0e1e97ec4f9181b6a5341054f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: jetpack-sec_3
+    - spriteName: jetpack-sec_3
       sprite: {fileID: 21300006, guid: 56fe4ed0e1e97ec4f9181b6a5341054f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 315

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: trek_next_engsec_0
+    - spriteName: trek_next_engsec_0
       sprite: {fileID: 21300000, guid: c4d43a582ae22ae45a7458b0c7258006, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: trek_next_engsec_1
+    - spriteName: trek_next_engsec_1
       sprite: {fileID: 21300002, guid: c4d43a582ae22ae45a7458b0c7258006, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: trek_next_engsec_2
+    - spriteName: trek_next_engsec_2
       sprite: {fileID: 21300004, guid: c4d43a582ae22ae45a7458b0c7258006, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: trek_next_engsec_3
+    - spriteName: trek_next_engsec_3
       sprite: {fileID: 21300006, guid: c4d43a582ae22ae45a7458b0c7258006, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1093

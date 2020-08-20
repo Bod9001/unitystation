@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e550bb6524769c44ca24b151619750b9, type: 3}
+    - spriteName: mineral_doors_uranium
+      sprite: {fileID: 21300000, guid: e550bb6524769c44ca24b151619750b9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14728

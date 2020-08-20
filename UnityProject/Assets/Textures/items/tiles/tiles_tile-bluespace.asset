@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f62a7197e8ec4264f9b1295b4753074d, type: 3}
+    - spriteName: tiles_tile-bluespace
+      sprite: {fileID: 21300000, guid: f62a7197e8ec4264f9b1295b4753074d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9189

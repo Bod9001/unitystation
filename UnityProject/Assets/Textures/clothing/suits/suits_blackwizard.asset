@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blackwizard_0
+    - spriteName: blackwizard_0
       sprite: {fileID: 21300000, guid: 2fba7ff281111664f9ed4326907a5b01, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blackwizard_1
+    - spriteName: blackwizard_1
       sprite: {fileID: 21300002, guid: 2fba7ff281111664f9ed4326907a5b01, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blackwizard_2
+    - spriteName: blackwizard_2
       sprite: {fileID: 21300004, guid: 2fba7ff281111664f9ed4326907a5b01, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: blackwizard_3
+    - spriteName: blackwizard_3
       sprite: {fileID: 21300006, guid: 2fba7ff281111664f9ed4326907a5b01, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 867

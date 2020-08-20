@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
+    - spriteName: supermatter_sliver_pulse_0
+      sprite: {fileID: 21300000, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300002, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
+      AtlasUsing: 0
+    - spriteName: supermatter_sliver_pulse_1
+      sprite: {fileID: 21300002, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300004, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
+      AtlasUsing: 0
+    - spriteName: supermatter_sliver_pulse_2
+      sprite: {fileID: 21300004, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300006, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
+      AtlasUsing: 0
+    - spriteName: supermatter_sliver_pulse_3
+      sprite: {fileID: 21300006, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9530

@@ -14,15 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
+    - spriteName: setup_large_0
+      sprite: {fileID: 21300000, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300002, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
+      AtlasUsing: 0
+    - spriteName: setup_large_1
+      sprite: {fileID: 21300002, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
       secondDelay: 0.4
-    - sprite: {fileID: 21300004, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
+      AtlasUsing: 0
+    - spriteName: setup_large_2
+      sprite: {fileID: 21300004, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
       secondDelay: 0.3
-    - sprite: {fileID: 21300006, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
+      AtlasUsing: 0
+    - spriteName: setup_large_3
+      sprite: {fileID: 21300006, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
+      AtlasUsing: 0
+    - spriteName: setup_large_4
+      sprite: {fileID: 21300008, guid: e5ec226c32f3dbe45b8c60717bb17b13, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4958

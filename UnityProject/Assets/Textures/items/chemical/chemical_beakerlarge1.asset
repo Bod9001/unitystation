@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: dd06fedcdd21af44dac5a07c5ca7203d, type: 3}
+    - spriteName: chemical_beakerlarge1
+      sprite: {fileID: 21300000, guid: dd06fedcdd21af44dac5a07c5ca7203d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5237

@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 1128076547146861280, guid: 8b7f11a3ef47e0c49826c4c70729369a,
+    - spriteName: atropen_0
+      sprite: {fileID: 1128076547146861280, guid: 8b7f11a3ef47e0c49826c4c70729369a,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -2523573184089259594, guid: 8b7f11a3ef47e0c49826c4c70729369a,
+    - spriteName: atropen_1
+      sprite: {fileID: -2523573184089259594, guid: 8b7f11a3ef47e0c49826c4c70729369a,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 7234757533275188792, guid: 8b7f11a3ef47e0c49826c4c70729369a,
+    - spriteName: atropen_2
+      sprite: {fileID: 7234757533275188792, guid: 8b7f11a3ef47e0c49826c4c70729369a,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -3055441179793407827, guid: 8b7f11a3ef47e0c49826c4c70729369a,
+    - spriteName: atropen_3
+      sprite: {fileID: -3055441179793407827, guid: 8b7f11a3ef47e0c49826c4c70729369a,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23012

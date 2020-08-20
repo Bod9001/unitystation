@@ -14,48 +14,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+    - spriteName: cell-occupied_0
+      sprite: {fileID: 21300000, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_4
+      sprite: {fileID: 21300008, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_8
+      sprite: {fileID: 21300016, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300024, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_12
+      sprite: {fileID: 21300024, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300032, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_16
+      sprite: {fileID: 21300032, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+    - spriteName: cell-occupied_1
+      sprite: {fileID: 21300002, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300010, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_5
+      sprite: {fileID: 21300010, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300018, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_9
+      sprite: {fileID: 21300018, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300026, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_13
+      sprite: {fileID: 21300026, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300034, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_17
+      sprite: {fileID: 21300034, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+    - spriteName: cell-occupied_2
+      sprite: {fileID: 21300004, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300012, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_6
+      sprite: {fileID: 21300012, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300020, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_10
+      sprite: {fileID: 21300020, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300028, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_14
+      sprite: {fileID: 21300028, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300036, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_18
+      sprite: {fileID: 21300036, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+    - spriteName: cell-occupied_3
+      sprite: {fileID: 21300006, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300014, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_7
+      sprite: {fileID: 21300014, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300022, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_11
+      sprite: {fileID: 21300022, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300030, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_15
+      sprite: {fileID: 21300030, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300038, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
+      AtlasUsing: 0
+    - spriteName: cell-occupied_19
+      sprite: {fileID: 21300038, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13639

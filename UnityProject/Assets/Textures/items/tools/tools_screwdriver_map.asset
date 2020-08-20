@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bd4a53ddf6f557542a08571ed362be00, type: 3}
+    - spriteName: tools_screwdriver_map
+      sprite: {fileID: 21300000, guid: bd4a53ddf6f557542a08571ed362be00, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9295

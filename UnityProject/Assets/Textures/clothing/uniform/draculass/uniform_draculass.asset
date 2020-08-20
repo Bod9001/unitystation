@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: draculass_0
+    - spriteName: draculass_0
       sprite: {fileID: 21300000, guid: cec7ac9440ed237448f18b4db435c38f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: draculass_1
+    - spriteName: draculass_1
       sprite: {fileID: 21300002, guid: cec7ac9440ed237448f18b4db435c38f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: draculass_2
+    - spriteName: draculass_2
       sprite: {fileID: 21300004, guid: cec7ac9440ed237448f18b4db435c38f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: draculass_3
+    - spriteName: draculass_3
       sprite: {fileID: 21300006, guid: cec7ac9440ed237448f18b4db435c38f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1011

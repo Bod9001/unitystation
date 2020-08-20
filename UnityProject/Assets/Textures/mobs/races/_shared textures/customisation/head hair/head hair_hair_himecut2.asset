@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 76aa00217e3da364cae5d92e8ccd917d, type: 3}
+    - spriteName: hair_himecut2_0
+      sprite: {fileID: 21300000, guid: 76aa00217e3da364cae5d92e8ccd917d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 76aa00217e3da364cae5d92e8ccd917d, type: 3}
+    - spriteName: hair_himecut2_1
+      sprite: {fileID: 21300002, guid: 76aa00217e3da364cae5d92e8ccd917d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 76aa00217e3da364cae5d92e8ccd917d, type: 3}
+    - spriteName: hair_himecut2_2
+      sprite: {fileID: 21300004, guid: 76aa00217e3da364cae5d92e8ccd917d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 76aa00217e3da364cae5d92e8ccd917d, type: 3}
+    - spriteName: hair_himecut2_3
+      sprite: {fileID: 21300006, guid: 76aa00217e3da364cae5d92e8ccd917d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21969

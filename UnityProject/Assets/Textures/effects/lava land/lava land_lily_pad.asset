@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lava land_lily_pad
+    - spriteName: lava land_lily_pad
       sprite: {fileID: 21300000, guid: 660606c7bbd70d940baeedd15f58ce87, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1353

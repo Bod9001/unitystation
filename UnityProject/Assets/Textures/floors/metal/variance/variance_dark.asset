@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: dark_0
+    - spriteName: dark_0
       sprite: {fileID: 21300000, guid: e6ad2123da29c184c94b8a879445a9b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: dark_1
+    - spriteName: dark_1
       sprite: {fileID: 21300002, guid: e6ad2123da29c184c94b8a879445a9b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: dark_2
+    - spriteName: dark_2
       sprite: {fileID: 21300004, guid: e6ad2123da29c184c94b8a879445a9b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: dark_3
+    - spriteName: dark_3
       sprite: {fileID: 21300006, guid: e6ad2123da29c184c94b8a879445a9b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: dark_4
+    - spriteName: dark_4
       sprite: {fileID: 21300008, guid: e6ad2123da29c184c94b8a879445a9b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: dark_5
+    - spriteName: dark_5
       sprite: {fileID: 21300010, guid: e6ad2123da29c184c94b8a879445a9b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: dark_6
+    - spriteName: dark_6
       sprite: {fileID: 21300012, guid: e6ad2123da29c184c94b8a879445a9b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: dark_7
+    - spriteName: dark_7
       sprite: {fileID: 21300014, guid: e6ad2123da29c184c94b8a879445a9b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2377

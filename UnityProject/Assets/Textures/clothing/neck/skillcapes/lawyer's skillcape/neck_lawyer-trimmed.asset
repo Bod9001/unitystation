@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: lawyer-trimmed_0
       sprite: {fileID: -5814420359799381212, guid: 257902d84bac3754fa7f22f55c74a888,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: lawyer-trimmed_1
       sprite: {fileID: -7748921033064345121, guid: 257902d84bac3754fa7f22f55c74a888,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: lawyer-trimmed_2
       sprite: {fileID: 3490559334621272248, guid: 257902d84bac3754fa7f22f55c74a888,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: lawyer-trimmed_3
       sprite: {fileID: 7585742244628795816, guid: 257902d84bac3754fa7f22f55c74a888,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23229

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 129d4043c8f207244bea8773d0619e9c, type: 3}
+    - spriteName: actions_clockcult_ratvarian_spear
+      sprite: {fileID: 21300000, guid: 129d4043c8f207244bea8773d0619e9c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3983

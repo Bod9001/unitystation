@@ -14,39 +14,73 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+    - spriteName: shard_small2_0
+      sprite: {fileID: 21300000, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 5
-    - sprite: {fileID: 21300002, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_1
+      sprite: {fileID: 21300002, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300004, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_2
+      sprite: {fileID: 21300004, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.06
-    - sprite: {fileID: 21300006, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_3
+      sprite: {fileID: 21300006, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 4
-    - sprite: {fileID: 21300008, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_4
+      sprite: {fileID: 21300008, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.14
-    - sprite: {fileID: 21300010, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_5
+      sprite: {fileID: 21300010, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300012, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_6
+      sprite: {fileID: 21300012, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300014, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_7
+      sprite: {fileID: 21300014, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_8
+      sprite: {fileID: 21300016, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300018, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_9
+      sprite: {fileID: 21300018, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300020, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_10
+      sprite: {fileID: 21300020, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300022, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_11
+      sprite: {fileID: 21300022, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300024, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_12
+      sprite: {fileID: 21300024, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300026, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_13
+      sprite: {fileID: 21300026, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300028, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_14
+      sprite: {fileID: 21300028, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300030, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_15
+      sprite: {fileID: 21300030, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300032, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
+      AtlasUsing: 0
+    - spriteName: shard_small2_16
+      sprite: {fileID: 21300032, guid: d557baa3c7b56c84a9530076d0958474, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5529

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0eab91d11ac424540b7caac7e0673ef6, type: 3}
+    - spriteName: jungleflora_grassb
+      sprite: {fileID: 21300000, guid: 0eab91d11ac424540b7caac7e0673ef6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14945

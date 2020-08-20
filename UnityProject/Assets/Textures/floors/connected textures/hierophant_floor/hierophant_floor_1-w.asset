@@ -14,45 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 1-w_0
+    - spriteName: 1-w_0
       sprite: {fileID: 21300000, guid: 9afd05b277d931d4da86f1ce28154b0a, type: 3}
       secondDelay: 1.9
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 1-w_1
+      AtlasUsing: 0
+    - spriteName: 1-w_1
       sprite: {fileID: 21300002, guid: 9afd05b277d931d4da86f1ce28154b0a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 1-w_2
+      AtlasUsing: 0
+    - spriteName: 1-w_2
       sprite: {fileID: 21300004, guid: 9afd05b277d931d4da86f1ce28154b0a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 1-w_3
+      AtlasUsing: 0
+    - spriteName: 1-w_3
       sprite: {fileID: 21300006, guid: 9afd05b277d931d4da86f1ce28154b0a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 1-w_4
+      AtlasUsing: 0
+    - spriteName: 1-w_4
       sprite: {fileID: 21300008, guid: 9afd05b277d931d4da86f1ce28154b0a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 1-w_5
+      AtlasUsing: 0
+    - spriteName: 1-w_5
       sprite: {fileID: 21300010, guid: 9afd05b277d931d4da86f1ce28154b0a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 1-w_6
+      AtlasUsing: 0
+    - spriteName: 1-w_6
       sprite: {fileID: 21300012, guid: 9afd05b277d931d4da86f1ce28154b0a, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 1-w_7
+      AtlasUsing: 0
+    - spriteName: 1-w_7
       sprite: {fileID: 21300014, guid: 9afd05b277d931d4da86f1ce28154b0a, type: 3}
       secondDelay: 0.5
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1795

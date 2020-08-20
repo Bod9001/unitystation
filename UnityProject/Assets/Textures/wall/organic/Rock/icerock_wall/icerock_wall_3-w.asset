@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e0c32fb1dbe65a04f91e29bc30f7a64f, type: 3}
+    - spriteName: icerock_wall_3-w
+      sprite: {fileID: 21300000, guid: e0c32fb1dbe65a04f91e29bc30f7a64f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19581

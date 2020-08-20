@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 43da0c2b00c600745a8ab9fabf2c32f8, type: 3}
+    - spriteName: creampie_corgi_0
+      sprite: {fileID: 21300000, guid: 43da0c2b00c600745a8ab9fabf2c32f8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 43da0c2b00c600745a8ab9fabf2c32f8, type: 3}
+    - spriteName: creampie_corgi_1
+      sprite: {fileID: 21300002, guid: 43da0c2b00c600745a8ab9fabf2c32f8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 43da0c2b00c600745a8ab9fabf2c32f8, type: 3}
+    - spriteName: creampie_corgi_2
+      sprite: {fileID: 21300004, guid: 43da0c2b00c600745a8ab9fabf2c32f8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 43da0c2b00c600745a8ab9fabf2c32f8, type: 3}
+    - spriteName: creampie_corgi_3
+      sprite: {fileID: 21300006, guid: 43da0c2b00c600745a8ab9fabf2c32f8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12264

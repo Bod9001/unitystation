@@ -14,139 +14,273 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+    - spriteName: ai-text_0
+      sprite: {fileID: 21300000, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_1
+      sprite: {fileID: 21300002, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_2
+      sprite: {fileID: 21300004, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_3
+      sprite: {fileID: 21300006, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_4
+      sprite: {fileID: 21300008, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_5
+      sprite: {fileID: 21300010, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_6
+      sprite: {fileID: 21300012, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_7
+      sprite: {fileID: 21300014, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_8
+      sprite: {fileID: 21300016, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_9
+      sprite: {fileID: 21300018, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_10
+      sprite: {fileID: 21300020, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_11
+      sprite: {fileID: 21300022, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_12
+      sprite: {fileID: 21300024, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_13
+      sprite: {fileID: 21300026, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_14
+      sprite: {fileID: 21300028, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_15
+      sprite: {fileID: 21300030, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_16
+      sprite: {fileID: 21300032, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_17
+      sprite: {fileID: 21300034, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_18
+      sprite: {fileID: 21300036, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_19
+      sprite: {fileID: 21300038, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_20
+      sprite: {fileID: 21300040, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_21
+      sprite: {fileID: 21300042, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_22
+      sprite: {fileID: 21300044, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_23
+      sprite: {fileID: 21300046, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_24
+      sprite: {fileID: 21300048, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_25
+      sprite: {fileID: 21300050, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_26
+      sprite: {fileID: 21300052, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_27
+      sprite: {fileID: 21300054, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_28
+      sprite: {fileID: 21300056, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_29
+      sprite: {fileID: 21300058, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_30
+      sprite: {fileID: 21300060, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_31
+      sprite: {fileID: 21300062, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_32
+      sprite: {fileID: 21300064, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_33
+      sprite: {fileID: 21300066, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_34
+      sprite: {fileID: 21300068, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_35
+      sprite: {fileID: 21300070, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_36
+      sprite: {fileID: 21300072, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_37
+      sprite: {fileID: 21300074, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_38
+      sprite: {fileID: 21300076, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_39
+      sprite: {fileID: 21300078, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_40
+      sprite: {fileID: 21300080, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_41
+      sprite: {fileID: 21300082, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      secondDelay: 0.1
+      AtlasUsing: 0
+    - spriteName: ai-text_42
+      sprite: {fileID: 21300084, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_43
+      sprite: {fileID: 21300086, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_44
+      sprite: {fileID: 21300088, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_45
+      sprite: {fileID: 21300090, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_46
+      sprite: {fileID: 21300092, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_47
+      sprite: {fileID: 21300094, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_48
+      sprite: {fileID: 21300096, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_49
+      sprite: {fileID: 21300098, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_50
+      sprite: {fileID: 21300100, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_51
+      sprite: {fileID: 21300102, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_52
+      sprite: {fileID: 21300104, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_53
+      sprite: {fileID: 21300106, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_54
+      sprite: {fileID: 21300108, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_55
+      sprite: {fileID: 21300110, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_56
+      sprite: {fileID: 21300112, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_57
+      sprite: {fileID: 21300114, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_58
+      sprite: {fileID: 21300116, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_59
+      sprite: {fileID: 21300118, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_60
+      sprite: {fileID: 21300120, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_61
+      sprite: {fileID: 21300122, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_62
+      sprite: {fileID: 21300124, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_63
+      sprite: {fileID: 21300126, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_64
+      sprite: {fileID: 21300128, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_65
+      sprite: {fileID: 21300130, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
+      AtlasUsing: 0
+    - spriteName: ai-text_66
+      sprite: {fileID: 21300132, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300064, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300066, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300068, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300070, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300072, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300074, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300076, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300078, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300080, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300082, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300084, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300086, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300088, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300090, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300092, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300094, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300096, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300098, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300100, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300102, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300104, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300106, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300108, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300110, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300112, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300114, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300116, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300118, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300120, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300122, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300124, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300126, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300128, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300130, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
-    - sprite: {fileID: 21300132, guid: ba558d765cbb1394fb9be61fbf6cb679, type: 3}
-      secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11485

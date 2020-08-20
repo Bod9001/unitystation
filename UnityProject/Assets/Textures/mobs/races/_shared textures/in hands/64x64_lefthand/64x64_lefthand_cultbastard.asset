@@ -14,40 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+    - spriteName: cultbastard_0
+      sprite: {fileID: 21300000, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300008, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_4
+      sprite: {fileID: 21300008, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300016, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_8
+      sprite: {fileID: 21300016, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_12
+      sprite: {fileID: 21300024, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+    - spriteName: cultbastard_1
+      sprite: {fileID: 21300002, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300010, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_5
+      sprite: {fileID: 21300010, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300018, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_9
+      sprite: {fileID: 21300018, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_13
+      sprite: {fileID: 21300026, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+    - spriteName: cultbastard_2
+      sprite: {fileID: 21300004, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300012, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_6
+      sprite: {fileID: 21300012, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300020, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_10
+      sprite: {fileID: 21300020, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_14
+      sprite: {fileID: 21300028, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+    - spriteName: cultbastard_3
+      sprite: {fileID: 21300006, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300014, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_7
+      sprite: {fileID: 21300014, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300022, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_11
+      sprite: {fileID: 21300022, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
+      AtlasUsing: 0
+    - spriteName: cultbastard_15
+      sprite: {fileID: 21300030, guid: 67e863d2cfb59af49bcdd190c7494cf3, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9859

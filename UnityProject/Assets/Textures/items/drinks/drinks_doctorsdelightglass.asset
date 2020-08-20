@@ -14,33 +14,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: db8b57da7319de84cb92892266935880, type: 3}
+    - spriteName: doctorsdelightglass_0
+      sprite: {fileID: 21300000, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300002, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_1
+      sprite: {fileID: 21300002, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300004, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_2
+      sprite: {fileID: 21300004, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300006, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_3
+      sprite: {fileID: 21300006, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_4
+      sprite: {fileID: 21300008, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300010, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_5
+      sprite: {fileID: 21300010, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300012, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_6
+      sprite: {fileID: 21300012, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300014, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_7
+      sprite: {fileID: 21300014, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_8
+      sprite: {fileID: 21300016, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300018, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_9
+      sprite: {fileID: 21300018, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300020, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_10
+      sprite: {fileID: 21300020, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300022, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_11
+      sprite: {fileID: 21300022, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300024, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_12
+      sprite: {fileID: 21300024, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300026, guid: db8b57da7319de84cb92892266935880, type: 3}
+      AtlasUsing: 0
+    - spriteName: doctorsdelightglass_13
+      sprite: {fileID: 21300026, guid: db8b57da7319de84cb92892266935880, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6472

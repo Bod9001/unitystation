@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: blank_0
+    - spriteName: blank_0
       sprite: {fileID: 21300000, guid: 1b188c98e4ab3c5439a63782a834161d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: blank_1
+    - spriteName: blank_1
       sprite: {fileID: 21300002, guid: 1b188c98e4ab3c5439a63782a834161d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: blank_2
+    - spriteName: blank_2
       sprite: {fileID: 21300004, guid: 1b188c98e4ab3c5439a63782a834161d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: blank_3
+    - spriteName: blank_3
       sprite: {fileID: 21300006, guid: 1b188c98e4ab3c5439a63782a834161d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1271

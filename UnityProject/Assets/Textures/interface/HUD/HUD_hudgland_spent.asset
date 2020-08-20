@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 1c6d739e10e52fd498c3e0f7633e6f41, type: 3}
+    - spriteName: HUD_hudgland_spent
+      sprite: {fileID: 21300000, guid: 1c6d739e10e52fd498c3e0f7633e6f41, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2789

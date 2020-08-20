@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bab571434ddfa0e49b5d7a936f41369b, type: 3}
+    - spriteName: engspace_helmet_0
+      sprite: {fileID: 21300000, guid: bab571434ddfa0e49b5d7a936f41369b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: bab571434ddfa0e49b5d7a936f41369b, type: 3}
+    - spriteName: engspace_helmet_1
+      sprite: {fileID: 21300002, guid: bab571434ddfa0e49b5d7a936f41369b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: bab571434ddfa0e49b5d7a936f41369b, type: 3}
+    - spriteName: engspace_helmet_2
+      sprite: {fileID: 21300004, guid: bab571434ddfa0e49b5d7a936f41369b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: bab571434ddfa0e49b5d7a936f41369b, type: 3}
+    - spriteName: engspace_helmet_3
+      sprite: {fileID: 21300006, guid: bab571434ddfa0e49b5d7a936f41369b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9934

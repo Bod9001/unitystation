@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: red_0
+    - spriteName: red_0
       sprite: {fileID: 21300000, guid: 921e7a302157ed1448c9523a79f126ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: red_1
+    - spriteName: red_1
       sprite: {fileID: 21300002, guid: 921e7a302157ed1448c9523a79f126ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: red_2
+    - spriteName: red_2
       sprite: {fileID: 21300004, guid: 921e7a302157ed1448c9523a79f126ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: red_3
+    - spriteName: red_3
       sprite: {fileID: 21300006, guid: 921e7a302157ed1448c9523a79f126ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: red_4
+    - spriteName: red_4
       sprite: {fileID: 21300008, guid: 921e7a302157ed1448c9523a79f126ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: red_5
+    - spriteName: red_5
       sprite: {fileID: 21300010, guid: 921e7a302157ed1448c9523a79f126ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: red_6
+    - spriteName: red_6
       sprite: {fileID: 21300012, guid: 921e7a302157ed1448c9523a79f126ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: red_7
+    - spriteName: red_7
       sprite: {fileID: 21300014, guid: 921e7a302157ed1448c9523a79f126ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2362

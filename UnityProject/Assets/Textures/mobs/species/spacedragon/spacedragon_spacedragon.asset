@@ -14,24 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
+    - spriteName: spacedragon_0
+      sprite: {fileID: 21300000, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300008, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
+      AtlasUsing: 0
+    - spriteName: spacedragon_4
+      sprite: {fileID: 21300008, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
       secondDelay: 0.5
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
+    - spriteName: spacedragon_1
+      sprite: {fileID: 21300002, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300010, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
+      AtlasUsing: 0
+    - spriteName: spacedragon_5
+      sprite: {fileID: 21300010, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
       secondDelay: 0.5
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
+    - spriteName: spacedragon_2
+      sprite: {fileID: 21300004, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300012, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
+      AtlasUsing: 0
+    - spriteName: spacedragon_6
+      sprite: {fileID: 21300012, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
       secondDelay: 0.5
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
+    - spriteName: spacedragon_3
+      sprite: {fileID: 21300006, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300014, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
+      AtlasUsing: 0
+    - spriteName: spacedragon_7
+      sprite: {fileID: 21300014, guid: 41855217ab4649142ac74a9db23f2949, type: 3}
       secondDelay: 0.5
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12631

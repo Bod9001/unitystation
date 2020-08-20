@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3680d730b6d947c45b99e94aafb2ac8c, type: 3}
+    - spriteName: belts_janibelt
+      sprite: {fileID: 21300000, guid: 3680d730b6d947c45b99e94aafb2ac8c, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21776

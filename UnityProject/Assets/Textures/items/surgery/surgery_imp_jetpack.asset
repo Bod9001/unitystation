@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 59cd13593f25a774985b26f5885968ea, type: 3}
+    - spriteName: surgery_imp_jetpack
+      sprite: {fileID: 21300000, guid: 59cd13593f25a774985b26f5885968ea, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9069

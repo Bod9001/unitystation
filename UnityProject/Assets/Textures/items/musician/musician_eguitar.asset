@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 67d875bdbf4a1cb44b7ec8d244b786b6, type: 3}
+    - spriteName: musician_eguitar
+      sprite: {fileID: 21300000, guid: 67d875bdbf4a1cb44b7ec8d244b786b6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8437

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bd99591b11b3e8e46bdd7f30acd1337e, type: 3}
+    - spriteName: device_multitool_yellow
+      sprite: {fileID: 21300000, guid: bd99591b11b3e8e46bdd7f30acd1337e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6241

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a3c4df225c3262348aac51ef16cb8ea2, type: 3}
+    - spriteName: actions_items_sniper_zoom
+      sprite: {fileID: 21300000, guid: a3c4df225c3262348aac51ef16cb8ea2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4082

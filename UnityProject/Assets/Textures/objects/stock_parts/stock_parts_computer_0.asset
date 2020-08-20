@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 5974394723793676371, guid: 0a01f1e352c717245ab0e7b293ddd947,
+    - spriteName: stock_parts_computer_0_0
+      sprite: {fileID: 5974394723793676371, guid: 0a01f1e352c717245ab0e7b293ddd947,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 1673708934050270740, guid: 0a01f1e352c717245ab0e7b293ddd947,
+    - spriteName: stock_parts_computer_0_1
+      sprite: {fileID: 1673708934050270740, guid: 0a01f1e352c717245ab0e7b293ddd947,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -6069394784469113506, guid: 0a01f1e352c717245ab0e7b293ddd947,
+    - spriteName: stock_parts_computer_0_2
+      sprite: {fileID: -6069394784469113506, guid: 0a01f1e352c717245ab0e7b293ddd947,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -679908187167967186, guid: 0a01f1e352c717245ab0e7b293ddd947,
+    - spriteName: stock_parts_computer_0_3
+      sprite: {fileID: -679908187167967186, guid: 0a01f1e352c717245ab0e7b293ddd947,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17235

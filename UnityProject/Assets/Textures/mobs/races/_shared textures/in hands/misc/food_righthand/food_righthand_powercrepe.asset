@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e1860a026ab5475439f6302925270ee9, type: 3}
+    - spriteName: powercrepe_0
+      sprite: {fileID: 21300000, guid: e1860a026ab5475439f6302925270ee9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: e1860a026ab5475439f6302925270ee9, type: 3}
+    - spriteName: powercrepe_1
+      sprite: {fileID: 21300002, guid: e1860a026ab5475439f6302925270ee9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: e1860a026ab5475439f6302925270ee9, type: 3}
+    - spriteName: powercrepe_2
+      sprite: {fileID: 21300004, guid: e1860a026ab5475439f6302925270ee9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: e1860a026ab5475439f6302925270ee9, type: 3}
+    - spriteName: powercrepe_3
+      sprite: {fileID: 21300006, guid: e1860a026ab5475439f6302925270ee9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22373

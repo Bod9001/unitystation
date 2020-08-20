@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sec_headset_alt_0
+    - spriteName: sec_headset_alt_0
       sprite: {fileID: 21300000, guid: 73a1018684ba7ca4795c75f9e3201ae5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sec_headset_alt_1
+    - spriteName: sec_headset_alt_1
       sprite: {fileID: 21300002, guid: 73a1018684ba7ca4795c75f9e3201ae5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sec_headset_alt_2
+    - spriteName: sec_headset_alt_2
       sprite: {fileID: 21300004, guid: 73a1018684ba7ca4795c75f9e3201ae5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sec_headset_alt_3
+    - spriteName: sec_headset_alt_3
       sprite: {fileID: 21300006, guid: 73a1018684ba7ca4795c75f9e3201ae5, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19915

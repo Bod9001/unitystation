@@ -14,17 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 4427737250211697176, guid: f0e5de18dea8e744dbb404fb155a1875,
+    - spriteName: bluespacetomato-harvest_0
+      sprite: {fileID: 4427737250211697176, guid: f0e5de18dea8e744dbb404fb155a1875,
         type: 3}
       secondDelay: 2.5
-    - sprite: {fileID: -5945722618763393129, guid: f0e5de18dea8e744dbb404fb155a1875,
+      AtlasUsing: 0
+    - spriteName: bluespacetomato-harvest_1
+      sprite: {fileID: -5945722618763393129, guid: f0e5de18dea8e744dbb404fb155a1875,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: -3115453318973221687, guid: f0e5de18dea8e744dbb404fb155a1875,
+      AtlasUsing: 0
+    - spriteName: bluespacetomato-harvest_2
+      sprite: {fileID: -3115453318973221687, guid: f0e5de18dea8e744dbb404fb155a1875,
         type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: -7007707135250255135, guid: f0e5de18dea8e744dbb404fb155a1875,
+      AtlasUsing: 0
+    - spriteName: bluespacetomato-harvest_3
+      sprite: {fileID: -7007707135250255135, guid: f0e5de18dea8e744dbb404fb155a1875,
         type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22546

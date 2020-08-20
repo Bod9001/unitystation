@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: damagedshoe_0
+    - spriteName: damagedshoe_0
       sprite: {fileID: 21300000, guid: ef4ac8d12ca432849b143eac3b9a4daa, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: damagedshoe_1
+    - spriteName: damagedshoe_1
       sprite: {fileID: 21300002, guid: ef4ac8d12ca432849b143eac3b9a4daa, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: damagedshoe_2
+    - spriteName: damagedshoe_2
       sprite: {fileID: 21300004, guid: ef4ac8d12ca432849b143eac3b9a4daa, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: damagedshoe_3
+    - spriteName: damagedshoe_3
       sprite: {fileID: 21300006, guid: ef4ac8d12ca432849b143eac3b9a4daa, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 811

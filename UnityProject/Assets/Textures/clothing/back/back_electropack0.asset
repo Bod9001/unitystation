@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: electropack0_0
+    - spriteName: electropack0_0
       sprite: {fileID: 21300000, guid: f1b881bec45db2b44a29e0d0bd2cf840, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: electropack0_1
+    - spriteName: electropack0_1
       sprite: {fileID: 21300002, guid: f1b881bec45db2b44a29e0d0bd2cf840, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: electropack0_2
+    - spriteName: electropack0_2
       sprite: {fileID: 21300004, guid: f1b881bec45db2b44a29e0d0bd2cf840, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: electropack0_3
+    - spriteName: electropack0_3
       sprite: {fileID: 21300006, guid: f1b881bec45db2b44a29e0d0bd2cf840, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 275

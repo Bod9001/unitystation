@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
+    - spriteName: shotgun_0
+      sprite: {fileID: 21300000, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
+    - spriteName: shotgun_1
+      sprite: {fileID: 21300002, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
+    - spriteName: shotgun_2
+      sprite: {fileID: 21300004, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
+    - spriteName: shotgun_3
+      sprite: {fileID: 21300006, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22416

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazard_0
+    - spriteName: hazard_0
       sprite: {fileID: 21300000, guid: 2e7857515d3bd714bb4540484a6b0d2e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazard_1
+    - spriteName: hazard_1
       sprite: {fileID: 21300002, guid: 2e7857515d3bd714bb4540484a6b0d2e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazard_2
+    - spriteName: hazard_2
       sprite: {fileID: 21300004, guid: 2e7857515d3bd714bb4540484a6b0d2e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazard_3
+    - spriteName: hazard_3
       sprite: {fileID: 21300006, guid: 2e7857515d3bd714bb4540484a6b0d2e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21498

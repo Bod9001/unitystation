@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: cb6accbbb52aaeb4bb01f869354d162b, type: 3}
+    - spriteName: growing_lily-harvest
+      sprite: {fileID: 21300000, guid: cb6accbbb52aaeb4bb01f869354d162b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22726

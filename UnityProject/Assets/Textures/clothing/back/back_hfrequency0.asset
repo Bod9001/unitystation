@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hfrequency0_0
+    - spriteName: hfrequency0_0
       sprite: {fileID: 21300000, guid: 00f2ba080b284de44b9f880427c5421e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hfrequency0_1
+    - spriteName: hfrequency0_1
       sprite: {fileID: 21300002, guid: 00f2ba080b284de44b9f880427c5421e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hfrequency0_2
+    - spriteName: hfrequency0_2
       sprite: {fileID: 21300004, guid: 00f2ba080b284de44b9f880427c5421e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hfrequency0_3
+    - spriteName: hfrequency0_3
       sprite: {fileID: 21300006, guid: 00f2ba080b284de44b9f880427c5421e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 290

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: knight_templar_0
+    - spriteName: knight_templar_0
       sprite: {fileID: 21300000, guid: 5a71e1545bbf0ca4abf5d5023b02d847, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: knight_templar_1
+    - spriteName: knight_templar_1
       sprite: {fileID: 21300002, guid: 5a71e1545bbf0ca4abf5d5023b02d847, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: knight_templar_2
+    - spriteName: knight_templar_2
       sprite: {fileID: 21300004, guid: 5a71e1545bbf0ca4abf5d5023b02d847, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: knight_templar_3
+    - spriteName: knight_templar_3
       sprite: {fileID: 21300006, guid: 5a71e1545bbf0ca4abf5d5023b02d847, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20248

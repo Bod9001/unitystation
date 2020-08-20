@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3f5043e66eaa3c442877aeb52bc52334, type: 3}
+    - spriteName: toy_sc_10_of_Diamonds_syndicate
+      sprite: {fileID: 21300000, guid: 3f5043e66eaa3c442877aeb52bc52334, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9458

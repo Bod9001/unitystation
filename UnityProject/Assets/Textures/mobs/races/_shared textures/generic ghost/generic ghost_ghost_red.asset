@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4879079354b8f6649afb9bed8897a9c0, type: 3}
+    - spriteName: generic ghost_ghost_red
+      sprite: {fileID: 21300000, guid: 4879079354b8f6649afb9bed8897a9c0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9851

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nun_hood_0
+    - spriteName: nun_hood_0
       sprite: {fileID: 21300000, guid: 6ed672ab917347c4fb14a90456aa6058, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nun_hood_1
+    - spriteName: nun_hood_1
       sprite: {fileID: 21300002, guid: 6ed672ab917347c4fb14a90456aa6058, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nun_hood_2
+    - spriteName: nun_hood_2
       sprite: {fileID: 21300004, guid: 6ed672ab917347c4fb14a90456aa6058, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nun_hood_3
+    - spriteName: nun_hood_3
       sprite: {fileID: 21300006, guid: 6ed672ab917347c4fb14a90456aa6058, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20382

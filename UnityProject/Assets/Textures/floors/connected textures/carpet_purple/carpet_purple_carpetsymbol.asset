@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: carpet_purple_carpetsymbol
+    - spriteName: carpet_purple_carpetsymbol
       sprite: {fileID: 21300000, guid: 551abeafbacaa7345abd2c7ee9c20b5f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1706

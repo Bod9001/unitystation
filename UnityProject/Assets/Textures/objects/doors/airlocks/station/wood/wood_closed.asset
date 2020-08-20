@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e7b4209e25e367742aa4bdaa05ceb1dc, type: 3}
+    - spriteName: wood_closed
+      sprite: {fileID: 21300000, guid: e7b4209e25e367742aa4bdaa05ceb1dc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14297

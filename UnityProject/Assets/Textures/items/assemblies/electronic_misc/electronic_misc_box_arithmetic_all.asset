@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8554da7689273934a85f655605173853, type: 3}
+    - spriteName: electronic_misc_box_arithmetic_all
+      sprite: {fileID: 21300000, guid: 8554da7689273934a85f655605173853, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4895

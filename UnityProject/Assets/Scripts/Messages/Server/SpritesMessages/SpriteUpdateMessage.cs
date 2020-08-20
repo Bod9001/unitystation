@@ -40,6 +40,7 @@ public class SpriteUpdateMessage : ServerMessage
 			{
 				Scanning = GoToIndexOfCharacter(SerialiseData, '@', Start);
 				uint NetID = uint.Parse(SerialiseData.Substring(Start, Scanning - Start));
+
 				if (!NetworkIdentity.spawned.ContainsKey(NetID) || NetworkIdentity.spawned[NetID] == null) continue;
 
 				Start = Scanning + 1;
@@ -213,7 +214,7 @@ public class SpriteUpdateMessage : ServerMessage
 				ToReturn.Append("default_name");
 			else
 				ToReturn.Append(VARIABLE.Key.name);
-				
+
 			ToReturn.Append("{");
 			GenerateSerialisation(VARIABLE.Value);
 		}

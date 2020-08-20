@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9c5357370479c364ab06d81834615fa8, type: 3}
+    - spriteName: power_apc1
+      sprite: {fileID: 21300000, guid: 9c5357370479c364ab06d81834615fa8, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16476

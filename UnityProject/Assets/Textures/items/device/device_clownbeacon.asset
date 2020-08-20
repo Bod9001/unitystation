@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6a5658bb47954184389020a805cd916b, type: 3}
+    - spriteName: clownbeacon_0
+      sprite: {fileID: 21300000, guid: 6a5658bb47954184389020a805cd916b, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300002, guid: 6a5658bb47954184389020a805cd916b, type: 3}
+      AtlasUsing: 0
+    - spriteName: clownbeacon_1
+      sprite: {fileID: 21300002, guid: 6a5658bb47954184389020a805cd916b, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300004, guid: 6a5658bb47954184389020a805cd916b, type: 3}
+      AtlasUsing: 0
+    - spriteName: clownbeacon_2
+      sprite: {fileID: 21300004, guid: 6a5658bb47954184389020a805cd916b, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300006, guid: 6a5658bb47954184389020a805cd916b, type: 3}
+      AtlasUsing: 0
+    - spriteName: clownbeacon_3
+      sprite: {fileID: 21300006, guid: 6a5658bb47954184389020a805cd916b, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6169

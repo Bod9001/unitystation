@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: gloves_clownplasma
+    - spriteName: gloves_clownplasma
       sprite: {fileID: 21300000, guid: fac8dff3a98c8864396136be3d3e91fa, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23019

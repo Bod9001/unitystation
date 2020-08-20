@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4d1b7f5f68ee77d46a3c16680148ce30, type: 3}
+    - spriteName: alien_experiment-open
+      sprite: {fileID: 21300000, guid: 4d1b7f5f68ee77d46a3c16680148ce30, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4382

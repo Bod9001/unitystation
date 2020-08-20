@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: f27760b056490564eb8f461009c1b3af, type: 3}
+    - spriteName: statue_bust
+      sprite: {fileID: 21300000, guid: f27760b056490564eb8f461009c1b3af, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17132

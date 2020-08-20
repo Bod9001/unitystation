@@ -14,24 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
+    - spriteName: edagger_0
+      sprite: {fileID: 21300000, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300008, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
+      AtlasUsing: 0
+    - spriteName: edagger_4
+      sprite: {fileID: 21300008, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
+    - spriteName: edagger_1
+      sprite: {fileID: 21300002, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300010, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
+      AtlasUsing: 0
+    - spriteName: edagger_5
+      sprite: {fileID: 21300010, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
+    - spriteName: edagger_2
+      sprite: {fileID: 21300004, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300012, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
+      AtlasUsing: 0
+    - spriteName: edagger_6
+      sprite: {fileID: 21300012, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
+    - spriteName: edagger_3
+      sprite: {fileID: 21300006, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300014, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
+      AtlasUsing: 0
+    - spriteName: edagger_7
+      sprite: {fileID: 21300014, guid: ae05b8c3c40f7bb4d87a72962fb6cb65, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10953

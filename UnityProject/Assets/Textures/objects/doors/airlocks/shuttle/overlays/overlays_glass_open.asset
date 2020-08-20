@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 8c9b46072b5f9ff42af8a940a5f1130b, type: 3}
+    - spriteName: overlays_glass_open
+      sprite: {fileID: 21300000, guid: 8c9b46072b5f9ff42af8a940a5f1130b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14031

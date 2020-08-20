@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 39372994dfbf79241a48e76fcd2ea790, type: 3}
+    - spriteName: uniforms_navy_suit
+      sprite: {fileID: 21300000, guid: 39372994dfbf79241a48e76fcd2ea790, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6055

@@ -14,28 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
+    - spriteName: sS-casing_0
+      sprite: {fileID: 21300000, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
+    - spriteName: sS-casing_1
+      sprite: {fileID: 21300002, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
+    - spriteName: sS-casing_2
+      sprite: {fileID: 21300004, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
+    - spriteName: sS-casing_3
+      sprite: {fileID: 21300006, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300008, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
+    - spriteName: sS-casing_4
+      sprite: {fileID: 21300008, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300010, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
+    - spriteName: sS-casing_5
+      sprite: {fileID: 21300010, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300012, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
+    - spriteName: sS-casing_6
+      sprite: {fileID: 21300012, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300014, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
+    - spriteName: sS-casing_7
+      sprite: {fileID: 21300014, guid: 10a4dece4d9c35a4cb028b81175171d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4626

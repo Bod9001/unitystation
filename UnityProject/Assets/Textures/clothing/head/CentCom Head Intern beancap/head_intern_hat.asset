@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: intern_hat_0
+    - spriteName: intern_hat_0
       sprite: {fileID: -9153585002951781977, guid: c07857f08e158af42b3bf1ffa039f46f,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: intern_hat_1
+    - spriteName: intern_hat_1
       sprite: {fileID: -2579737038437453133, guid: c07857f08e158af42b3bf1ffa039f46f,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: intern_hat_2
+    - spriteName: intern_hat_2
       sprite: {fileID: 7131806911334070150, guid: c07857f08e158af42b3bf1ffa039f46f,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: intern_hat_3
+    - spriteName: intern_hat_3
       sprite: {fileID: 2862532489171072288, guid: c07857f08e158af42b3bf1ffa039f46f,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20230

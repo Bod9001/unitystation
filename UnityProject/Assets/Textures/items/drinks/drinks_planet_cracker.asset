@@ -14,19 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
+    - spriteName: planet_cracker_0
+      sprite: {fileID: 21300000, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
+      AtlasUsing: 0
+    - spriteName: planet_cracker_1
+      sprite: {fileID: 21300002, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
+      AtlasUsing: 0
+    - spriteName: planet_cracker_2
+      sprite: {fileID: 21300004, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
+      AtlasUsing: 0
+    - spriteName: planet_cracker_3
+      sprite: {fileID: 21300006, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
+      AtlasUsing: 0
+    - spriteName: planet_cracker_4
+      sprite: {fileID: 21300008, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
+      AtlasUsing: 0
+    - spriteName: planet_cracker_5
+      sprite: {fileID: 21300010, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
+      AtlasUsing: 0
+    - spriteName: planet_cracker_6
+      sprite: {fileID: 21300012, guid: 537bf48d93f94b1438a00e5a67844661, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6579

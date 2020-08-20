@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: breath_0
+    - spriteName: breath_0
       sprite: {fileID: 21300000, guid: 702ab8a6cdaa0bf4fa8facfde92803f4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: breath_1
+    - spriteName: breath_1
       sprite: {fileID: 21300002, guid: 702ab8a6cdaa0bf4fa8facfde92803f4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: breath_2
+    - spriteName: breath_2
       sprite: {fileID: 21300004, guid: 702ab8a6cdaa0bf4fa8facfde92803f4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: breath_3
+    - spriteName: breath_3
       sprite: {fileID: 21300006, guid: 702ab8a6cdaa0bf4fa8facfde92803f4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20564

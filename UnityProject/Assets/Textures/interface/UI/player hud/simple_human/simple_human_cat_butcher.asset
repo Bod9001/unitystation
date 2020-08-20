@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a22dbdd00b8512a4ab8f3d0090155bcd, type: 3}
+    - spriteName: cat_butcher_0
+      sprite: {fileID: 21300000, guid: a22dbdd00b8512a4ab8f3d0090155bcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: a22dbdd00b8512a4ab8f3d0090155bcd, type: 3}
+    - spriteName: cat_butcher_1
+      sprite: {fileID: 21300002, guid: a22dbdd00b8512a4ab8f3d0090155bcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: a22dbdd00b8512a4ab8f3d0090155bcd, type: 3}
+    - spriteName: cat_butcher_2
+      sprite: {fileID: 21300004, guid: a22dbdd00b8512a4ab8f3d0090155bcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: a22dbdd00b8512a4ab8f3d0090155bcd, type: 3}
+    - spriteName: cat_butcher_3
+      sprite: {fileID: 21300006, guid: a22dbdd00b8512a4ab8f3d0090155bcd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3840

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7807225fe4baa734598108544e227aeb, type: 3}
+    - spriteName: stack_objects_sheet-gondola
+      sprite: {fileID: 21300000, guid: 7807225fe4baa734598108544e227aeb, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8784

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b64c74de6982c71a39ae3f870c8a8a9e, type: 3}
+    - spriteName: drinks_colocup1
+      sprite: {fileID: 21300000, guid: b64c74de6982c71a39ae3f870c8a8a9e, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6459

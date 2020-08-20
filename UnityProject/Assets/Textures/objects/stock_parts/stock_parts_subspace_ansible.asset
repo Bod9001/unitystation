@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 6fa3596f1f9cd604d84b5a0d178522b0, type: 3}
+    - spriteName: stock_parts_subspace_ansible
+      sprite: {fileID: 21300000, guid: 6fa3596f1f9cd604d84b5a0d178522b0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17274

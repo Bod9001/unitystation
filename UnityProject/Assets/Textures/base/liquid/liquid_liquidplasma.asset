@@ -14,60 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_0
+    - spriteName: liquidplasma_0
       sprite: {fileID: 21300000, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_1
+      AtlasUsing: 0
+    - spriteName: liquidplasma_1
       sprite: {fileID: 21300002, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_2
+      AtlasUsing: 0
+    - spriteName: liquidplasma_2
       sprite: {fileID: 21300004, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_3
+      AtlasUsing: 0
+    - spriteName: liquidplasma_3
       sprite: {fileID: 21300006, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_4
+      AtlasUsing: 0
+    - spriteName: liquidplasma_4
       sprite: {fileID: 21300008, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_5
+      AtlasUsing: 0
+    - spriteName: liquidplasma_5
       sprite: {fileID: 21300010, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_6
+      AtlasUsing: 0
+    - spriteName: liquidplasma_6
       sprite: {fileID: 21300012, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_7
+      AtlasUsing: 0
+    - spriteName: liquidplasma_7
       sprite: {fileID: 21300014, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_8
+      AtlasUsing: 0
+    - spriteName: liquidplasma_8
       sprite: {fileID: 21300016, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_9
+      AtlasUsing: 0
+    - spriteName: liquidplasma_9
       sprite: {fileID: 21300018, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: liquidplasma_10
+      AtlasUsing: 0
+    - spriteName: liquidplasma_10
       sprite: {fileID: 21300020, guid: de4979815f80ef04995f3f419a96cad6, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   IsPalette: 0
   setID: 219

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: culthood_0
+    - spriteName: culthood_0
       sprite: {fileID: 21300000, guid: 60eacef8b79302a4eaf3e04975c4b568, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: culthood_1
+    - spriteName: culthood_1
       sprite: {fileID: 21300002, guid: 60eacef8b79302a4eaf3e04975c4b568, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: culthood_2
+    - spriteName: culthood_2
       sprite: {fileID: 21300004, guid: 60eacef8b79302a4eaf3e04975c4b568, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: culthood_3
+    - spriteName: culthood_3
       sprite: {fileID: 21300006, guid: 60eacef8b79302a4eaf3e04975c4b568, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 578

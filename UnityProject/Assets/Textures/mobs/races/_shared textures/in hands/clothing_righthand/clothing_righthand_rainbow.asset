@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bf3ae702180daf548a933ef2a90d66cc, type: 3}
+    - spriteName: rainbow_0
+      sprite: {fileID: 21300000, guid: bf3ae702180daf548a933ef2a90d66cc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: bf3ae702180daf548a933ef2a90d66cc, type: 3}
+    - spriteName: rainbow_1
+      sprite: {fileID: 21300002, guid: bf3ae702180daf548a933ef2a90d66cc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: bf3ae702180daf548a933ef2a90d66cc, type: 3}
+    - spriteName: rainbow_2
+      sprite: {fileID: 21300004, guid: bf3ae702180daf548a933ef2a90d66cc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: bf3ae702180daf548a933ef2a90d66cc, type: 3}
+    - spriteName: rainbow_3
+      sprite: {fileID: 21300006, guid: bf3ae702180daf548a933ef2a90d66cc, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10011

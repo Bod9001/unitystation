@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: cargo-trimmed_0
       sprite: {fileID: -2065643907577950959, guid: 3576a7c7444330b4c854609f0fb4b5d3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: cargo-trimmed_1
       sprite: {fileID: 5481218505883704608, guid: 3576a7c7444330b4c854609f0fb4b5d3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: cargo-trimmed_2
       sprite: {fileID: 8148601976327397223, guid: 3576a7c7444330b4c854609f0fb4b5d3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: cargo-trimmed_3
       sprite: {fileID: 6874078663090718925, guid: 3576a7c7444330b4c854609f0fb4b5d3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22212

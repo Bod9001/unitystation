@@ -14,17 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
+    - spriteName: grinder-b1_0
+      sprite: {fileID: 21300000, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
+      AtlasUsing: 0
+    - spriteName: grinder-b1_1
+      sprite: {fileID: 21300002, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
+      AtlasUsing: 0
+    - spriteName: grinder-b1_2
+      sprite: {fileID: 21300004, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
+      AtlasUsing: 0
+    - spriteName: grinder-b1_3
+      sprite: {fileID: 21300006, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
+      AtlasUsing: 0
+    - spriteName: grinder-b1_4
+      sprite: {fileID: 21300008, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
+      AtlasUsing: 0
+    - spriteName: grinder-b1_5
+      sprite: {fileID: 21300010, guid: e86a236cc07ec8d4cb22ea834d14b915, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16675

@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e44eb466d542f304cabddd998324bf30, type: 3}
+    - spriteName: hair_business2_0
+      sprite: {fileID: 21300000, guid: e44eb466d542f304cabddd998324bf30, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: e44eb466d542f304cabddd998324bf30, type: 3}
+    - spriteName: hair_business2_1
+      sprite: {fileID: 21300002, guid: e44eb466d542f304cabddd998324bf30, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: e44eb466d542f304cabddd998324bf30, type: 3}
+    - spriteName: hair_business2_2
+      sprite: {fileID: 21300004, guid: e44eb466d542f304cabddd998324bf30, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: e44eb466d542f304cabddd998324bf30, type: 3}
+    - spriteName: hair_business2_3
+      sprite: {fileID: 21300006, guid: e44eb466d542f304cabddd998324bf30, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21925

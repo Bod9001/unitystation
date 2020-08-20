@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: bbc8f43503b3907439e7ac577c7c1934, type: 3}
+    - spriteName: vending_snack-panel
+      sprite: {fileID: 21300000, guid: bbc8f43503b3907439e7ac577c7c1934, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17885

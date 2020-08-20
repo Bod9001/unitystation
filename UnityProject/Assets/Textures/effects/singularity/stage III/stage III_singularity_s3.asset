@@ -14,45 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: singularity_s3_0
+    - spriteName: singularity_s3_0
       sprite: {fileID: 21300000, guid: e437dbea3d7bbb946bf875d83a531b33, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: singularity_s3_1
+      AtlasUsing: 0
+    - spriteName: singularity_s3_1
       sprite: {fileID: 21300002, guid: e437dbea3d7bbb946bf875d83a531b33, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: singularity_s3_2
+      AtlasUsing: 0
+    - spriteName: singularity_s3_2
       sprite: {fileID: 21300004, guid: e437dbea3d7bbb946bf875d83a531b33, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: singularity_s3_3
+      AtlasUsing: 0
+    - spriteName: singularity_s3_3
       sprite: {fileID: 21300006, guid: e437dbea3d7bbb946bf875d83a531b33, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: singularity_s3_4
+      AtlasUsing: 0
+    - spriteName: singularity_s3_4
       sprite: {fileID: 21300008, guid: e437dbea3d7bbb946bf875d83a531b33, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: singularity_s3_5
+      AtlasUsing: 0
+    - spriteName: singularity_s3_5
       sprite: {fileID: 21300010, guid: e437dbea3d7bbb946bf875d83a531b33, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: singularity_s3_6
+      AtlasUsing: 0
+    - spriteName: singularity_s3_6
       sprite: {fileID: 21300012, guid: e437dbea3d7bbb946bf875d83a531b33, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: singularity_s3_7
+      AtlasUsing: 0
+    - spriteName: singularity_s3_7
       sprite: {fileID: 21300014, guid: e437dbea3d7bbb946bf875d83a531b33, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1399

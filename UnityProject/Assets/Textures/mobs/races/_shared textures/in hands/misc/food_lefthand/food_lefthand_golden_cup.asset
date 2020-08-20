@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
+    - spriteName: golden_cup_0
+      sprite: {fileID: 21300000, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
+    - spriteName: golden_cup_1
+      sprite: {fileID: 21300002, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
+    - spriteName: golden_cup_2
+      sprite: {fileID: 21300004, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
+    - spriteName: golden_cup_3
+      sprite: {fileID: 21300006, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10440

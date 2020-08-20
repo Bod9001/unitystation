@@ -14,80 +14,152 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+    - spriteName: m_waggingtail_ltiger_FRONT_0
+      sprite: {fileID: 21300000, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_4
+      sprite: {fileID: 21300008, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_8
+      sprite: {fileID: 21300016, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_12
+      sprite: {fileID: 21300024, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_16
+      sprite: {fileID: 21300032, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_20
+      sprite: {fileID: 21300040, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_24
+      sprite: {fileID: 21300048, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_28
+      sprite: {fileID: 21300056, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300064, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_32
+      sprite: {fileID: 21300064, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+    - spriteName: m_waggingtail_ltiger_FRONT_1
+      sprite: {fileID: 21300002, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_5
+      sprite: {fileID: 21300010, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_9
+      sprite: {fileID: 21300018, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_13
+      sprite: {fileID: 21300026, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_17
+      sprite: {fileID: 21300034, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_21
+      sprite: {fileID: 21300042, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_25
+      sprite: {fileID: 21300050, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_29
+      sprite: {fileID: 21300058, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300066, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_33
+      sprite: {fileID: 21300066, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+    - spriteName: m_waggingtail_ltiger_FRONT_2
+      sprite: {fileID: 21300004, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_6
+      sprite: {fileID: 21300012, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_10
+      sprite: {fileID: 21300020, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_14
+      sprite: {fileID: 21300028, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_18
+      sprite: {fileID: 21300036, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_22
+      sprite: {fileID: 21300044, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_26
+      sprite: {fileID: 21300052, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_30
+      sprite: {fileID: 21300060, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300068, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_34
+      sprite: {fileID: 21300068, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+    - spriteName: m_waggingtail_ltiger_FRONT_3
+      sprite: {fileID: 21300006, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_7
+      sprite: {fileID: 21300014, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_11
+      sprite: {fileID: 21300022, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_15
+      sprite: {fileID: 21300030, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_19
+      sprite: {fileID: 21300038, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_23
+      sprite: {fileID: 21300046, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_27
+      sprite: {fileID: 21300054, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_31
+      sprite: {fileID: 21300062, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300070, guid: 163588343299d62459ec691a7b4f482a, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingtail_ltiger_FRONT_35
+      sprite: {fileID: 21300070, guid: 163588343299d62459ec691a7b4f482a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11241

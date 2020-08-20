@@ -14,45 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cobpipeon2_0
+    - spriteName: cobpipeon2_0
       sprite: {fileID: 21300000, guid: 7e16a70eb79e8794aa0aa3c47c030fea, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cobpipeon2_1
+      AtlasUsing: 0
+    - spriteName: cobpipeon2_1
       sprite: {fileID: 21300002, guid: 7e16a70eb79e8794aa0aa3c47c030fea, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cobpipeon2_2
+      AtlasUsing: 0
+    - spriteName: cobpipeon2_2
       sprite: {fileID: 21300004, guid: 7e16a70eb79e8794aa0aa3c47c030fea, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cobpipeon2_3
+      AtlasUsing: 0
+    - spriteName: cobpipeon2_3
       sprite: {fileID: 21300006, guid: 7e16a70eb79e8794aa0aa3c47c030fea, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cobpipeon2_4
+      AtlasUsing: 0
+    - spriteName: cobpipeon2_4
       sprite: {fileID: 21300008, guid: 7e16a70eb79e8794aa0aa3c47c030fea, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cobpipeon2_5
+      AtlasUsing: 0
+    - spriteName: cobpipeon2_5
       sprite: {fileID: 21300010, guid: 7e16a70eb79e8794aa0aa3c47c030fea, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cobpipeon2_6
+      AtlasUsing: 0
+    - spriteName: cobpipeon2_6
       sprite: {fileID: 21300012, guid: 7e16a70eb79e8794aa0aa3c47c030fea, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cobpipeon2_7
+      AtlasUsing: 0
+    - spriteName: cobpipeon2_7
       sprite: {fileID: 21300014, guid: 7e16a70eb79e8794aa0aa3c47c030fea, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 760

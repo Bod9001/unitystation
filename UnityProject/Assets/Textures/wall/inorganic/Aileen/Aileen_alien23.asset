@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 9e2106eda0cbd9d459deba2571f29a2f, type: 3}
+    - spriteName: Aileen_alien23
+      sprite: {fileID: 21300000, guid: 9e2106eda0cbd9d459deba2571f29a2f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19179

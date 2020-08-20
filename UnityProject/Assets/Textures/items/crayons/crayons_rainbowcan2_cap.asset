@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 95dc3f52f1d221a40b1614128211a3d4, type: 3}
+    - spriteName: crayons_rainbowcan2_cap
+      sprite: {fileID: 21300000, guid: 95dc3f52f1d221a40b1614128211a3d4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6138

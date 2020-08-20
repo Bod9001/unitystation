@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7a2bed82c1d5e5540890785c53b80858, type: 3}
+    - spriteName: Dial_horizontal_base
+      sprite: {fileID: 21300000, guid: 7a2bed82c1d5e5540890785c53b80858, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3921

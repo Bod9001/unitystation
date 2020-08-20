@@ -14,11 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -445404648326293797, guid: 55b5a43014f7d7541b11739c61ebac6d,
+    - spriteName: potato_active_0
+      sprite: {fileID: -445404648326293797, guid: 55b5a43014f7d7541b11739c61ebac6d,
         type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 6986062881351159167, guid: 55b5a43014f7d7541b11739c61ebac6d,
+      AtlasUsing: 0
+    - spriteName: potato_active_1
+      sprite: {fileID: 6986062881351159167, guid: 55b5a43014f7d7541b11739c61ebac6d,
         type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15330

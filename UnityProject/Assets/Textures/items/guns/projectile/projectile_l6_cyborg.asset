@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3db8c1203d134b647a5e7216d1f48962, type: 3}
+    - spriteName: projectile_l6_cyborg
+      sprite: {fileID: 21300000, guid: 3db8c1203d134b647a5e7216d1f48962, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7585

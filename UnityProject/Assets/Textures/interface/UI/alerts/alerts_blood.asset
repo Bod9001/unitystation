@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 7ab7c9a869e999d44ba49fd0ddd37815, type: 3}
+    - spriteName: alerts_blood
+      sprite: {fileID: 21300000, guid: 7ab7c9a869e999d44ba49fd0ddd37815, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3097

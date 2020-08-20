@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bandgold_0
+    - spriteName: bandgold_0
       sprite: {fileID: 21300000, guid: 7ccc90fc8ebbf334d95511ae6c0b87ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bandgold_1
+    - spriteName: bandgold_1
       sprite: {fileID: 21300002, guid: 7ccc90fc8ebbf334d95511ae6c0b87ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bandgold_2
+    - spriteName: bandgold_2
       sprite: {fileID: 21300004, guid: 7ccc90fc8ebbf334d95511ae6c0b87ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bandgold_3
+    - spriteName: bandgold_3
       sprite: {fileID: 21300006, guid: 7ccc90fc8ebbf334d95511ae6c0b87ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20604

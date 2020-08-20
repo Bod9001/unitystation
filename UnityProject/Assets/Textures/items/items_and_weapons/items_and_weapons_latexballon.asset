@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 626358a0e71076c4d84241145c9310ff, type: 3}
+    - spriteName: items_and_weapons_latexballon
+      sprite: {fileID: 21300000, guid: 626358a0e71076c4d84241145c9310ff, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7835

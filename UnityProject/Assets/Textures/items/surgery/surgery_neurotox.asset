@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 92d8560267bf5774fb0d6266fb4f9f44, type: 3}
+    - spriteName: surgery_neurotox
+      sprite: {fileID: 21300000, guid: 92d8560267bf5774fb0d6266fb4f9f44, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9096

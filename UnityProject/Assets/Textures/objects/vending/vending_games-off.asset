@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b111cac5d03750246a3db57cf50108bd, type: 3}
+    - spriteName: vending_games-off
+      sprite: {fileID: 21300000, guid: b111cac5d03750246a3db57cf50108bd, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17767

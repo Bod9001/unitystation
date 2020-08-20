@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e89c0c4b0b8472949b2ddee4cf02a1f2, type: 3}
+    - spriteName: paper stamps_large_stamp-cmo
+      sprite: {fileID: 21300000, guid: e89c0c4b0b8472949b2ddee4cf02a1f2, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17989

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 88e4a619059191f43ada7f283e8307e3, type: 3}
+    - spriteName: invincible_1-nw
+      sprite: {fileID: 21300000, guid: 88e4a619059191f43ada7f283e8307e3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19271

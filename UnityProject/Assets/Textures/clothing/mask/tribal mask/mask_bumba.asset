@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bumba_0
+    - spriteName: bumba_0
       sprite: {fileID: 21300000, guid: f04b130014ac10f47be2f798a8a891c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bumba_1
+    - spriteName: bumba_1
       sprite: {fileID: 21300002, guid: f04b130014ac10f47be2f798a8a891c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bumba_2
+    - spriteName: bumba_2
       sprite: {fileID: 21300004, guid: f04b130014ac10f47be2f798a8a891c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bumba_3
+    - spriteName: bumba_3
       sprite: {fileID: 21300006, guid: f04b130014ac10f47be2f798a8a891c6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20644

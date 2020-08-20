@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 36e4f9b4c4623d447a4a8f07b79b6e86, type: 3}
+    - spriteName: vending_bardrobe-broken
+      sprite: {fileID: 21300000, guid: 36e4f9b4c4623d447a4a8f07b79b6e86, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 17674

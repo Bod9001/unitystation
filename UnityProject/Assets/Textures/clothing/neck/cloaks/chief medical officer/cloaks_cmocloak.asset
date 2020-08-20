@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cloaks_cmocloak
+    - spriteName: cloaks_cmocloak
       sprite: {fileID: 21300000, guid: 868a514fa94e1f84b9e3fc6223e2fce4, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20708

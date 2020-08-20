@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 68be7f1ccf67601418d7a7cfdb534a67, type: 3}
+    - spriteName: seeds_mycelium-steelcap
+      sprite: {fileID: 21300000, guid: 68be7f1ccf67601418d7a7cfdb534a67, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15379

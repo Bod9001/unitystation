@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e5d5033fd7ccf0f46adf76e959b89193, type: 3}
+    - spriteName: atmos_control_0
+      sprite: {fileID: 21300000, guid: e5d5033fd7ccf0f46adf76e959b89193, type: 3}
       secondDelay: 0.4
-    - sprite: {fileID: 21300002, guid: e5d5033fd7ccf0f46adf76e959b89193, type: 3}
+      AtlasUsing: 0
+    - spriteName: atmos_control_1
+      sprite: {fileID: 21300002, guid: e5d5033fd7ccf0f46adf76e959b89193, type: 3}
       secondDelay: 0.4
-    - sprite: {fileID: 21300004, guid: e5d5033fd7ccf0f46adf76e959b89193, type: 3}
+      AtlasUsing: 0
+    - spriteName: atmos_control_2
+      sprite: {fileID: 21300004, guid: e5d5033fd7ccf0f46adf76e959b89193, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8330

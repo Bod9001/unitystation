@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4c549cd76d4fcfa43b3b62fbad5ca213, type: 3}
+    - spriteName: growing_sunflower-harvest
+      sprite: {fileID: 21300000, guid: 4c549cd76d4fcfa43b3b62fbad5ca213, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22891

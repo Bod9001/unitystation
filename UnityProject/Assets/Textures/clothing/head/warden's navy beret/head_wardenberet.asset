@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: wardenberet_0
+    - spriteName: wardenberet_0
       sprite: {fileID: 21300000, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: wardenberet_1
+    - spriteName: wardenberet_1
       sprite: {fileID: 21300002, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: wardenberet_2
+    - spriteName: wardenberet_2
       sprite: {fileID: 21300004, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: wardenberet_3
+    - spriteName: wardenberet_3
       sprite: {fileID: 21300006, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 20506

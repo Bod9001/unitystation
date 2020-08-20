@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a3b2c00f4e75e744891dd13900034247, type: 3}
+    - spriteName: clockwork_objects_cogscarab_shell
+      sprite: {fileID: 21300000, guid: a3b2c00f4e75e744891dd13900034247, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5473

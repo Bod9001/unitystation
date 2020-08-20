@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e6312bd371d7ab24091944e1c2471cb1, type: 3}
+    - spriteName: medibot_kit_skin_ointment
+      sprite: {fileID: 21300000, guid: e6312bd371d7ab24091944e1c2471cb1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12119

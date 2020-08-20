@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 698e38990bd81004da0bda3f39b22c6c, type: 3}
+    - spriteName: stickmanranged_0
+      sprite: {fileID: 21300000, guid: 698e38990bd81004da0bda3f39b22c6c, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: 698e38990bd81004da0bda3f39b22c6c, type: 3}
+      AtlasUsing: 0
+    - spriteName: stickmanranged_1
+      sprite: {fileID: 21300002, guid: 698e38990bd81004da0bda3f39b22c6c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11910

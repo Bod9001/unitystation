@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4815bcace68597840be2e8ea27b1a1ec, type: 3}
+    - spriteName: screen_gen_head2
+      sprite: {fileID: 21300000, guid: 4815bcace68597840be2e8ea27b1a1ec, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3471

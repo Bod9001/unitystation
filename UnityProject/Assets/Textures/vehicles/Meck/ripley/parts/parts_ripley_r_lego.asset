@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: e399290656c59a24891d0db31ae4f0fe, type: 3}
+    - spriteName: parts_ripley_r_lego
+      sprite: {fileID: 21300000, guid: e399290656c59a24891d0db31ae4f0fe, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19091

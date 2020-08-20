@@ -14,72 +14,136 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+    - spriteName: firelight1_0
+      sprite: {fileID: 21300000, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_4
+      sprite: {fileID: 21300008, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_8
+      sprite: {fileID: 21300016, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_12
+      sprite: {fileID: 21300024, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_16
+      sprite: {fileID: 21300032, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_20
+      sprite: {fileID: 21300040, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_24
+      sprite: {fileID: 21300048, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_28
+      sprite: {fileID: 21300056, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+    - spriteName: firelight1_1
+      sprite: {fileID: 21300002, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_5
+      sprite: {fileID: 21300010, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_9
+      sprite: {fileID: 21300018, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_13
+      sprite: {fileID: 21300026, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_17
+      sprite: {fileID: 21300034, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_21
+      sprite: {fileID: 21300042, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_25
+      sprite: {fileID: 21300050, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_29
+      sprite: {fileID: 21300058, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+    - spriteName: firelight1_2
+      sprite: {fileID: 21300004, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_6
+      sprite: {fileID: 21300012, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_10
+      sprite: {fileID: 21300020, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_14
+      sprite: {fileID: 21300028, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_18
+      sprite: {fileID: 21300036, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_22
+      sprite: {fileID: 21300044, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_26
+      sprite: {fileID: 21300052, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_30
+      sprite: {fileID: 21300060, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+    - spriteName: firelight1_3
+      sprite: {fileID: 21300006, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_7
+      sprite: {fileID: 21300014, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_11
+      sprite: {fileID: 21300022, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_15
+      sprite: {fileID: 21300030, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_19
+      sprite: {fileID: 21300038, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_23
+      sprite: {fileID: 21300046, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_27
+      sprite: {fileID: 21300054, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
+      AtlasUsing: 0
+    - spriteName: firelight1_31
+      sprite: {fileID: 21300062, guid: a6aad0156d07bc748a20fb737e2eb1a5, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15512

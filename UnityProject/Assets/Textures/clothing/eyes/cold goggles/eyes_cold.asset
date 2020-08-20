@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cold_0
+    - spriteName: cold_0
       sprite: {fileID: 21300000, guid: 4c645be52c799dd458864249a8953845, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cold_1
+    - spriteName: cold_1
       sprite: {fileID: 21300002, guid: 4c645be52c799dd458864249a8953845, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cold_2
+    - spriteName: cold_2
       sprite: {fileID: 21300004, guid: 4c645be52c799dd458864249a8953845, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cold_3
+    - spriteName: cold_3
       sprite: {fileID: 21300006, guid: 4c645be52c799dd458864249a8953845, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19949

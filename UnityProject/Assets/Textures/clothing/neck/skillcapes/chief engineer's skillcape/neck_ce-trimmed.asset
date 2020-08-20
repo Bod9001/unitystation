@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: ce-trimmed_0
       sprite: {fileID: 3244948194284087483, guid: f6e494e5e9b74d342ba988081e09f28d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: ce-trimmed_1
       sprite: {fileID: -480124255855452248, guid: f6e494e5e9b74d342ba988081e09f28d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: ce-trimmed_2
       sprite: {fileID: -7360016382682582053, guid: f6e494e5e9b74d342ba988081e09f28d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: 
+    - spriteName: ce-trimmed_3
       sprite: {fileID: 7020648050017561250, guid: f6e494e5e9b74d342ba988081e09f28d,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 22214

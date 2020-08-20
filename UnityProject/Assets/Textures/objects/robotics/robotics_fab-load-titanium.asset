@@ -14,23 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
+    - spriteName: fab-load-titanium_0
+      sprite: {fileID: 21300000, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
+      AtlasUsing: 0
+    - spriteName: fab-load-titanium_1
+      sprite: {fileID: 21300002, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
+      AtlasUsing: 0
+    - spriteName: fab-load-titanium_2
+      sprite: {fileID: 21300004, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
+      AtlasUsing: 0
+    - spriteName: fab-load-titanium_3
+      sprite: {fileID: 21300006, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
+      AtlasUsing: 0
+    - spriteName: fab-load-titanium_4
+      sprite: {fileID: 21300008, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
+      AtlasUsing: 0
+    - spriteName: fab-load-titanium_5
+      sprite: {fileID: 21300010, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
+      AtlasUsing: 0
+    - spriteName: fab-load-titanium_6
+      sprite: {fileID: 21300012, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
+      AtlasUsing: 0
+    - spriteName: fab-load-titanium_7
+      sprite: {fileID: 21300014, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
+      AtlasUsing: 0
+    - spriteName: fab-load-titanium_8
+      sprite: {fileID: 21300016, guid: c24cc3d05b8165142b871445fc6aa362, type: 3}
       secondDelay: 0.3
+      AtlasUsing: 0
   IsPalette: 0
   setID: 16703

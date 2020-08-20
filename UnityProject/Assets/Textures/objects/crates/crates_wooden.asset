@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -4919412325277987323, guid: 6a780383c82fa00499f4cbea84184220,
+    - spriteName: crates_wooden_0
+      sprite: {fileID: -4919412325277987323, guid: 6a780383c82fa00499f4cbea84184220,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 13637

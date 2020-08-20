@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: coil_0
+    - spriteName: coil_0
       sprite: {fileID: -1206501798132951126, guid: c063ed4550d8bc348b3e252e0c84b28c,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: coil_1
+    - spriteName: coil_1
       sprite: {fileID: 4316668487210905212, guid: c063ed4550d8bc348b3e252e0c84b28c,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: coil_2
+    - spriteName: coil_2
       sprite: {fileID: -3478187741408328744, guid: c063ed4550d8bc348b3e252e0c84b28c,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: coil_3
+    - spriteName: coil_3
       sprite: {fileID: -1216120013809506240, guid: c063ed4550d8bc348b3e252e0c84b28c,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19852

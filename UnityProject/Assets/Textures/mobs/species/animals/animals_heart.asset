@@ -14,21 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
+    - spriteName: heart_0
+      sprite: {fileID: 21300000, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
+      AtlasUsing: 0
+    - spriteName: heart_1
+      sprite: {fileID: 21300002, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
+      AtlasUsing: 0
+    - spriteName: heart_2
+      sprite: {fileID: 21300004, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
+      AtlasUsing: 0
+    - spriteName: heart_3
+      sprite: {fileID: 21300006, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
+      AtlasUsing: 0
+    - spriteName: heart_4
+      sprite: {fileID: 21300008, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
+      AtlasUsing: 0
+    - spriteName: heart_5
+      sprite: {fileID: 21300010, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
+      AtlasUsing: 0
+    - spriteName: heart_6
+      sprite: {fileID: 21300012, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
+      AtlasUsing: 0
+    - spriteName: heart_7
+      sprite: {fileID: 21300014, guid: ca33c2b014d4da542abb16d1edd0568a, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11862

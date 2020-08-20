@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 50f7386b05f9e24438cbd6037631392d, type: 3}
+    - spriteName: medibot_na_scanner
+      sprite: {fileID: 21300000, guid: 50f7386b05f9e24438cbd6037631392d, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12143

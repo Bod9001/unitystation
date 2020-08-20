@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 83918b83d3e11de468de24b858f2dde6, type: 3}
+    - spriteName: uniforms_white_skirt
+      sprite: {fileID: 21300000, guid: 83918b83d3e11de468de24b858f2dde6, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21824

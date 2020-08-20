@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: winterhood_atmos_0
+    - spriteName: winterhood_atmos_0
       sprite: {fileID: 21300000, guid: e9ec8c7d582322e4384cb14931101912, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: winterhood_atmos_1
+    - spriteName: winterhood_atmos_1
       sprite: {fileID: 21300002, guid: e9ec8c7d582322e4384cb14931101912, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: winterhood_atmos_2
+    - spriteName: winterhood_atmos_2
       sprite: {fileID: 21300004, guid: e9ec8c7d582322e4384cb14931101912, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: winterhood_atmos_3
+    - spriteName: winterhood_atmos_3
       sprite: {fileID: 21300006, guid: e9ec8c7d582322e4384cb14931101912, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 716

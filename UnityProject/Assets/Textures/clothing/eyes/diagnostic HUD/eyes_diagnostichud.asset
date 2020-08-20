@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: diagnostichud_0
+    - spriteName: diagnostichud_0
       sprite: {fileID: 21300000, guid: f580f8ace3b9bc049add333eaf1b041b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: diagnostichud_1
+    - spriteName: diagnostichud_1
       sprite: {fileID: 21300002, guid: f580f8ace3b9bc049add333eaf1b041b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: diagnostichud_2
+    - spriteName: diagnostichud_2
       sprite: {fileID: 21300004, guid: f580f8ace3b9bc049add333eaf1b041b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: diagnostichud_3
+    - spriteName: diagnostichud_3
       sprite: {fileID: 21300006, guid: f580f8ace3b9bc049add333eaf1b041b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19951

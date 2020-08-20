@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3ebd999c1970b4746a5f801d68e11190, type: 3}
+    - spriteName: gravity_generator_fix0_3
+      sprite: {fileID: 21300000, guid: 3ebd999c1970b4746a5f801d68e11190, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15727

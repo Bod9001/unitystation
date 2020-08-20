@@ -14,44 +14,76 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+    - spriteName: pinonmedium_0
+      sprite: {fileID: 21300000, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300016, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+      AtlasUsing: 0
+    - spriteName: pinonmedium_8
+      sprite: {fileID: 21300016, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+    - spriteName: pinonmedium_1
+      sprite: {fileID: 21300002, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300018, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+      AtlasUsing: 0
+    - spriteName: pinonmedium_9
+      sprite: {fileID: 21300018, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+    - spriteName: pinonmedium_2
+      sprite: {fileID: 21300004, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300020, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+      AtlasUsing: 0
+    - spriteName: pinonmedium_10
+      sprite: {fileID: 21300020, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+    - spriteName: pinonmedium_3
+      sprite: {fileID: 21300006, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300022, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+      AtlasUsing: 0
+    - spriteName: pinonmedium_11
+      sprite: {fileID: 21300022, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300008, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+    - spriteName: pinonmedium_4
+      sprite: {fileID: 21300008, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300024, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+      AtlasUsing: 0
+    - spriteName: pinonmedium_12
+      sprite: {fileID: 21300024, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300010, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+    - spriteName: pinonmedium_5
+      sprite: {fileID: 21300010, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300026, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+      AtlasUsing: 0
+    - spriteName: pinonmedium_13
+      sprite: {fileID: 21300026, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300012, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+    - spriteName: pinonmedium_6
+      sprite: {fileID: 21300012, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300028, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+      AtlasUsing: 0
+    - spriteName: pinonmedium_14
+      sprite: {fileID: 21300028, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300014, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+    - spriteName: pinonmedium_7
+      sprite: {fileID: 21300014, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300030, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
+      AtlasUsing: 0
+    - spriteName: pinonmedium_15
+      sprite: {fileID: 21300030, guid: ebe8719eda9b4984489e8d34b8519b67, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 6254

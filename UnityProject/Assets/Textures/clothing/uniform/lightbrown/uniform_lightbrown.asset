@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lightbrown_0
+    - spriteName: lightbrown_0
       sprite: {fileID: 21300000, guid: 68975a6e29e35a441bac0247a7555969, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lightbrown_1
+    - spriteName: lightbrown_1
       sprite: {fileID: 21300002, guid: 68975a6e29e35a441bac0247a7555969, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lightbrown_2
+    - spriteName: lightbrown_2
       sprite: {fileID: 21300004, guid: 68975a6e29e35a441bac0247a7555969, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lightbrown_3
+    - spriteName: lightbrown_3
       sprite: {fileID: 21300006, guid: 68975a6e29e35a441bac0247a7555969, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1033

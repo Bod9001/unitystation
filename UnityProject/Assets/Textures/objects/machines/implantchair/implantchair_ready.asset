@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0314f84c6dc4dd043901af8b4e2f96ce, type: 3}
+    - spriteName: implantchair_ready
+      sprite: {fileID: 21300000, guid: 0314f84c6dc4dd043901af8b4e2f96ce, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 15800

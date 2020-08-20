@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-norm_0
+    - spriteName: satchel-norm_0
       sprite: {fileID: 3387177844991079343, guid: ddec9327fe927c642a8537bbf90d1145,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-norm_1
+    - spriteName: satchel-norm_1
       sprite: {fileID: -7226850057697545923, guid: ddec9327fe927c642a8537bbf90d1145,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-norm_2
+    - spriteName: satchel-norm_2
       sprite: {fileID: -1828235659702962453, guid: ddec9327fe927c642a8537bbf90d1145,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-norm_3
+    - spriteName: satchel-norm_3
       sprite: {fileID: 285203716006504224, guid: ddec9327fe927c642a8537bbf90d1145,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19771

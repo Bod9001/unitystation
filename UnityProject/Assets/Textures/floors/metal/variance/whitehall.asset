@@ -14,52 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitehall_0
+    - spriteName: whitehall_0
       sprite: {fileID: 21300000, guid: 5333c41021c32ca4fb11b4b7b77a7574, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitehall_1
+    - spriteName: whitehall_1
       sprite: {fileID: 21300002, guid: 5333c41021c32ca4fb11b4b7b77a7574, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitehall_2
+    - spriteName: whitehall_2
       sprite: {fileID: 21300004, guid: 5333c41021c32ca4fb11b4b7b77a7574, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitehall_3
+    - spriteName: whitehall_3
       sprite: {fileID: 21300006, guid: 5333c41021c32ca4fb11b4b7b77a7574, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitehall_4
+    - spriteName: whitehall_4
       sprite: {fileID: 21300008, guid: 5333c41021c32ca4fb11b4b7b77a7574, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitehall_5
+    - spriteName: whitehall_5
       sprite: {fileID: 21300010, guid: 5333c41021c32ca4fb11b4b7b77a7574, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitehall_6
+    - spriteName: whitehall_6
       sprite: {fileID: 21300012, guid: 5333c41021c32ca4fb11b4b7b77a7574, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitehall_7
+    - spriteName: whitehall_7
       sprite: {fileID: 21300014, guid: 5333c41021c32ca4fb11b4b7b77a7574, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2392

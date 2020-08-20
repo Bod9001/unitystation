@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ca99e31129fb7ea4db35b3dcfe8097c1, type: 3}
+    - spriteName: stack_objects_sheet-cloth_2
+      sprite: {fileID: 21300000, guid: ca99e31129fb7ea4db35b3dcfe8097c1, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8765

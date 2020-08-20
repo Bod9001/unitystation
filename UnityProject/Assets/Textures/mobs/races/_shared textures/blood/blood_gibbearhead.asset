@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
+    - spriteName: gibbearhead_0
+      sprite: {fileID: 21300000, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
+    - spriteName: gibbearhead_1
+      sprite: {fileID: 21300002, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
+    - spriteName: gibbearhead_2
+      sprite: {fileID: 21300004, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
+    - spriteName: gibbearhead_3
+      sprite: {fileID: 21300006, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9640

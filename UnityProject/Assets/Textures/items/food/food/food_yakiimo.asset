@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: b3134f6b581f93145863448e2fec69ab, type: 3}
+    - spriteName: food_yakiimo
+      sprite: {fileID: 21300000, guid: b3134f6b581f93145863448e2fec69ab, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7035

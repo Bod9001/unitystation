@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c39d19bba0ae67943a58040a898fdf54, type: 3}
+    - spriteName: storage_triple_latch
+      sprite: {fileID: 21300000, guid: c39d19bba0ae67943a58040a898fdf54, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 9011

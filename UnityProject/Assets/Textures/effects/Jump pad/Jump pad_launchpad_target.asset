@@ -14,40 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: launchpad_target_0
+    - spriteName: launchpad_target_0
       sprite: {fileID: 21300000, guid: 0e848d8faef074d478fbddf1bfb73b2c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: launchpad_target_1
+      AtlasUsing: 0
+    - spriteName: launchpad_target_1
       sprite: {fileID: 21300002, guid: 0e848d8faef074d478fbddf1bfb73b2c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: launchpad_target_2
+      AtlasUsing: 0
+    - spriteName: launchpad_target_2
       sprite: {fileID: 21300004, guid: 0e848d8faef074d478fbddf1bfb73b2c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: launchpad_target_3
+      AtlasUsing: 0
+    - spriteName: launchpad_target_3
       sprite: {fileID: 21300006, guid: 0e848d8faef074d478fbddf1bfb73b2c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: launchpad_target_4
+      AtlasUsing: 0
+    - spriteName: launchpad_target_4
       sprite: {fileID: 21300008, guid: 0e848d8faef074d478fbddf1bfb73b2c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: launchpad_target_5
+      AtlasUsing: 0
+    - spriteName: launchpad_target_5
       sprite: {fileID: 21300010, guid: 0e848d8faef074d478fbddf1bfb73b2c, type: 3}
       secondDelay: 0.1
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: launchpad_target_6
+      AtlasUsing: 0
+    - spriteName: launchpad_target_6
       sprite: {fileID: 21300012, guid: 0e848d8faef074d478fbddf1bfb73b2c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1331

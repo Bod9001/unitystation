@@ -14,57 +14,109 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+    - spriteName: esniper_charged_0
+      sprite: {fileID: 21300000, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300002, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_1
+      sprite: {fileID: 21300002, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300004, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_2
+      sprite: {fileID: 21300004, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300006, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_3
+      sprite: {fileID: 21300006, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_4
+      sprite: {fileID: 21300008, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_5
+      sprite: {fileID: 21300010, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_6
+      sprite: {fileID: 21300012, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_7
+      sprite: {fileID: 21300014, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_8
+      sprite: {fileID: 21300016, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_9
+      sprite: {fileID: 21300018, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_10
+      sprite: {fileID: 21300020, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_11
+      sprite: {fileID: 21300022, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_12
+      sprite: {fileID: 21300024, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_13
+      sprite: {fileID: 21300026, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_14
+      sprite: {fileID: 21300028, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_15
+      sprite: {fileID: 21300030, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_16
+      sprite: {fileID: 21300032, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_17
+      sprite: {fileID: 21300034, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_18
+      sprite: {fileID: 21300036, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_19
+      sprite: {fileID: 21300038, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_20
+      sprite: {fileID: 21300040, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_21
+      sprite: {fileID: 21300042, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_22
+      sprite: {fileID: 21300044, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_23
+      sprite: {fileID: 21300046, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_24
+      sprite: {fileID: 21300048, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
+      AtlasUsing: 0
+    - spriteName: esniper_charged_25
+      sprite: {fileID: 21300050, guid: d73e0a02a02e90741b3fbe8919a9d147, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7334

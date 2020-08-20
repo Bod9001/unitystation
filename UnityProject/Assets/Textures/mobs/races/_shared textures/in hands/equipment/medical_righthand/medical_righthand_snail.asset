@@ -14,20 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -6207193392188836992, guid: c151f8b44f534b94191315bafc44b2a3,
+    - spriteName: snail_0
+      sprite: {fileID: -6207193392188836992, guid: c151f8b44f534b94191315bafc44b2a3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -2892910820977171364, guid: c151f8b44f534b94191315bafc44b2a3,
+    - spriteName: snail_1
+      sprite: {fileID: -2892910820977171364, guid: c151f8b44f534b94191315bafc44b2a3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: -3278524096712110203, guid: c151f8b44f534b94191315bafc44b2a3,
+    - spriteName: snail_2
+      sprite: {fileID: -3278524096712110203, guid: c151f8b44f534b94191315bafc44b2a3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 8991455535210373810, guid: c151f8b44f534b94191315bafc44b2a3,
+    - spriteName: snail_3
+      sprite: {fileID: 8991455535210373810, guid: c151f8b44f534b94191315bafc44b2a3,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 23103

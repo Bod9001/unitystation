@@ -14,64 +14,120 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+    - spriteName: spellblade_0
+      sprite: {fileID: 21300000, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.8
-    - sprite: {fileID: 21300008, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_4
+      sprite: {fileID: 21300008, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_8
+      sprite: {fileID: 21300016, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_12
+      sprite: {fileID: 21300024, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300032, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_16
+      sprite: {fileID: 21300032, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_20
+      sprite: {fileID: 21300040, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_24
+      sprite: {fileID: 21300048, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+    - spriteName: spellblade_1
+      sprite: {fileID: 21300002, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.8
-    - sprite: {fileID: 21300010, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_5
+      sprite: {fileID: 21300010, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_9
+      sprite: {fileID: 21300018, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_13
+      sprite: {fileID: 21300026, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300034, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_17
+      sprite: {fileID: 21300034, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_21
+      sprite: {fileID: 21300042, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_25
+      sprite: {fileID: 21300050, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+    - spriteName: spellblade_2
+      sprite: {fileID: 21300004, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.8
-    - sprite: {fileID: 21300012, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_6
+      sprite: {fileID: 21300012, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_10
+      sprite: {fileID: 21300020, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_14
+      sprite: {fileID: 21300028, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300036, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_18
+      sprite: {fileID: 21300036, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_22
+      sprite: {fileID: 21300044, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_26
+      sprite: {fileID: 21300052, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+    - spriteName: spellblade_3
+      sprite: {fileID: 21300006, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.8
-    - sprite: {fileID: 21300014, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_7
+      sprite: {fileID: 21300014, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_11
+      sprite: {fileID: 21300022, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_15
+      sprite: {fileID: 21300030, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300038, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_19
+      sprite: {fileID: 21300038, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_23
+      sprite: {fileID: 21300046, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
+      AtlasUsing: 0
+    - spriteName: spellblade_27
+      sprite: {fileID: 21300054, guid: 4b73b1227549f5847bc7db94350aa590, type: 3}
       secondDelay: 0.4
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10923

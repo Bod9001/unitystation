@@ -14,80 +14,152 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+    - spriteName: m_waggingspines_aqua_BEHIND_0
+      sprite: {fileID: 21300000, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_4
+      sprite: {fileID: 21300008, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_8
+      sprite: {fileID: 21300016, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300024, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_12
+      sprite: {fileID: 21300024, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300032, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_16
+      sprite: {fileID: 21300032, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300040, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_20
+      sprite: {fileID: 21300040, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300048, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_24
+      sprite: {fileID: 21300048, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300056, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_28
+      sprite: {fileID: 21300056, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300064, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_32
+      sprite: {fileID: 21300064, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+    - spriteName: m_waggingspines_aqua_BEHIND_1
+      sprite: {fileID: 21300002, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_5
+      sprite: {fileID: 21300010, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_9
+      sprite: {fileID: 21300018, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300026, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_13
+      sprite: {fileID: 21300026, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300034, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_17
+      sprite: {fileID: 21300034, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300042, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_21
+      sprite: {fileID: 21300042, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300050, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_25
+      sprite: {fileID: 21300050, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300058, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_29
+      sprite: {fileID: 21300058, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300066, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_33
+      sprite: {fileID: 21300066, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+    - spriteName: m_waggingspines_aqua_BEHIND_2
+      sprite: {fileID: 21300004, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_6
+      sprite: {fileID: 21300012, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_10
+      sprite: {fileID: 21300020, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300028, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_14
+      sprite: {fileID: 21300028, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300036, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_18
+      sprite: {fileID: 21300036, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300044, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_22
+      sprite: {fileID: 21300044, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300052, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_26
+      sprite: {fileID: 21300052, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300060, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_30
+      sprite: {fileID: 21300060, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300068, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_34
+      sprite: {fileID: 21300068, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+    - spriteName: m_waggingspines_aqua_BEHIND_3
+      sprite: {fileID: 21300006, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_7
+      sprite: {fileID: 21300014, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_11
+      sprite: {fileID: 21300022, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300030, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_15
+      sprite: {fileID: 21300030, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300038, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_19
+      sprite: {fileID: 21300038, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300046, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_23
+      sprite: {fileID: 21300046, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300054, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_27
+      sprite: {fileID: 21300054, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300062, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_31
+      sprite: {fileID: 21300062, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300070, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
+      AtlasUsing: 0
+    - spriteName: m_waggingspines_aqua_BEHIND_35
+      sprite: {fileID: 21300070, guid: 40b92a68dce53684f89235a3102999d9, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11230

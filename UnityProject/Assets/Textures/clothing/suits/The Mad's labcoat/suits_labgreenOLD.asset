@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: labgreenOLD_0
+    - spriteName: labgreenOLD_0
       sprite: {fileID: 21300000, guid: 37cd8d5cdd3bad64dbd6df8ab50ada4b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: labgreenOLD_1
+    - spriteName: labgreenOLD_1
       sprite: {fileID: 21300002, guid: 37cd8d5cdd3bad64dbd6df8ab50ada4b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: labgreenOLD_2
+    - spriteName: labgreenOLD_2
       sprite: {fileID: 21300004, guid: 37cd8d5cdd3bad64dbd6df8ab50ada4b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: labgreenOLD_3
+    - spriteName: labgreenOLD_3
       sprite: {fileID: 21300006, guid: 37cd8d5cdd3bad64dbd6df8ab50ada4b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 968

@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 567cc70edc8a3b647a0a0e12f138fd0e, type: 3}
+    - spriteName: prox-igniter-tank2_0
+      sprite: {fileID: 21300000, guid: 567cc70edc8a3b647a0a0e12f138fd0e, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300002, guid: 567cc70edc8a3b647a0a0e12f138fd0e, type: 3}
+      AtlasUsing: 0
+    - spriteName: prox-igniter-tank2_1
+      sprite: {fileID: 21300002, guid: 567cc70edc8a3b647a0a0e12f138fd0e, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4723

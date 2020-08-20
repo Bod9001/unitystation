@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: fdf548d401b1c75429b24ea881c8206c, type: 3}
+    - spriteName: medscan_adv_0
+      sprite: {fileID: 21300000, guid: fdf548d401b1c75429b24ea881c8206c, type: 3}
       secondDelay: 0.5
-    - sprite: {fileID: 21300002, guid: fdf548d401b1c75429b24ea881c8206c, type: 3}
+      AtlasUsing: 0
+    - spriteName: medscan_adv_1
+      sprite: {fileID: 21300002, guid: fdf548d401b1c75429b24ea881c8206c, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 4828

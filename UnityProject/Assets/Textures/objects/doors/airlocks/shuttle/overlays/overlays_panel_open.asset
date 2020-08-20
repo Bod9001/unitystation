@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 542dd594fa12a7d4ba141a5e4780a85b, type: 3}
+    - spriteName: overlays_panel_open
+      sprite: {fileID: 21300000, guid: 542dd594fa12a7d4ba141a5e4780a85b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14045

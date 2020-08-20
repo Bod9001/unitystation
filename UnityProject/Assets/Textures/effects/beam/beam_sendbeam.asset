@@ -14,165 +14,133 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_0
+    - spriteName: sendbeam_0
       sprite: {fileID: 21300000, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_1
+      AtlasUsing: 0
+    - spriteName: sendbeam_1
       sprite: {fileID: 21300002, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_2
+      AtlasUsing: 0
+    - spriteName: sendbeam_2
       sprite: {fileID: 21300004, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_3
+      AtlasUsing: 0
+    - spriteName: sendbeam_3
       sprite: {fileID: 21300006, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_4
+      AtlasUsing: 0
+    - spriteName: sendbeam_4
       sprite: {fileID: 21300008, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_5
+      AtlasUsing: 0
+    - spriteName: sendbeam_5
       sprite: {fileID: 21300010, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_6
+      AtlasUsing: 0
+    - spriteName: sendbeam_6
       sprite: {fileID: 21300012, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_7
+      AtlasUsing: 0
+    - spriteName: sendbeam_7
       sprite: {fileID: 21300014, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_8
+      AtlasUsing: 0
+    - spriteName: sendbeam_8
       sprite: {fileID: 21300016, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_9
+      AtlasUsing: 0
+    - spriteName: sendbeam_9
       sprite: {fileID: 21300018, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_10
+      AtlasUsing: 0
+    - spriteName: sendbeam_10
       sprite: {fileID: 21300020, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_11
+      AtlasUsing: 0
+    - spriteName: sendbeam_11
       sprite: {fileID: 21300022, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_12
+      AtlasUsing: 0
+    - spriteName: sendbeam_12
       sprite: {fileID: 21300024, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_13
+      AtlasUsing: 0
+    - spriteName: sendbeam_13
       sprite: {fileID: 21300026, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_14
+      AtlasUsing: 0
+    - spriteName: sendbeam_14
       sprite: {fileID: 21300028, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_15
+      AtlasUsing: 0
+    - spriteName: sendbeam_15
       sprite: {fileID: 21300030, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_16
+      AtlasUsing: 0
+    - spriteName: sendbeam_16
       sprite: {fileID: 21300032, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_17
+      AtlasUsing: 0
+    - spriteName: sendbeam_17
       sprite: {fileID: 21300034, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_18
+      AtlasUsing: 0
+    - spriteName: sendbeam_18
       sprite: {fileID: 21300036, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_19
+      AtlasUsing: 0
+    - spriteName: sendbeam_19
       sprite: {fileID: 21300038, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_20
+      AtlasUsing: 0
+    - spriteName: sendbeam_20
       sprite: {fileID: 21300040, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_21
+      AtlasUsing: 0
+    - spriteName: sendbeam_21
       sprite: {fileID: 21300042, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_22
+      AtlasUsing: 0
+    - spriteName: sendbeam_22
       sprite: {fileID: 21300044, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_23
+      AtlasUsing: 0
+    - spriteName: sendbeam_23
       sprite: {fileID: 21300046, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_24
+      AtlasUsing: 0
+    - spriteName: sendbeam_24
       sprite: {fileID: 21300048, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_25
+      AtlasUsing: 0
+    - spriteName: sendbeam_25
       sprite: {fileID: 21300050, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_26
+      AtlasUsing: 0
+    - spriteName: sendbeam_26
       sprite: {fileID: 21300052, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_27
+      AtlasUsing: 0
+    - spriteName: sendbeam_27
       sprite: {fileID: 21300054, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_28
+      AtlasUsing: 0
+    - spriteName: sendbeam_28
       sprite: {fileID: 21300056, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_29
+      AtlasUsing: 0
+    - spriteName: sendbeam_29
       sprite: {fileID: 21300058, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_30
+      AtlasUsing: 0
+    - spriteName: sendbeam_30
       sprite: {fileID: 21300060, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
-    - singleSpriteReference:
-        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: sendbeam_31
+      AtlasUsing: 0
+    - spriteName: sendbeam_31
       sprite: {fileID: 21300062, guid: 9f89f069f9299c5428f4eed263ca4df0, type: 3}
       secondDelay: 0.015
+      AtlasUsing: 0
   IsPalette: 0
   setID: 1178

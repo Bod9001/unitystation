@@ -14,16 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ac65e5b520546af429bc89019aee70b7, type: 3}
+    - spriteName: hoslaserdisable0_0
+      sprite: {fileID: 21300000, guid: ac65e5b520546af429bc89019aee70b7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: ac65e5b520546af429bc89019aee70b7, type: 3}
+    - spriteName: hoslaserdisable0_1
+      sprite: {fileID: 21300002, guid: ac65e5b520546af429bc89019aee70b7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: ac65e5b520546af429bc89019aee70b7, type: 3}
+    - spriteName: hoslaserdisable0_2
+      sprite: {fileID: 21300004, guid: ac65e5b520546af429bc89019aee70b7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: ac65e5b520546af429bc89019aee70b7, type: 3}
+    - spriteName: hoslaserdisable0_3
+      sprite: {fileID: 21300006, guid: ac65e5b520546af429bc89019aee70b7, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10728

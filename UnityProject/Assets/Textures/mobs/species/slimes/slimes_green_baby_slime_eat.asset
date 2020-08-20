@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: c7d99b9b38ca72b45a54a18700c0fcab, type: 3}
+    - spriteName: green_baby_slime_eat_0
+      sprite: {fileID: 21300000, guid: c7d99b9b38ca72b45a54a18700c0fcab, type: 3}
       secondDelay: 0.2
-    - sprite: {fileID: 21300002, guid: c7d99b9b38ca72b45a54a18700c0fcab, type: 3}
+      AtlasUsing: 0
+    - spriteName: green_baby_slime_eat_1
+      sprite: {fileID: 21300002, guid: c7d99b9b38ca72b45a54a18700c0fcab, type: 3}
       secondDelay: 0.2
+      AtlasUsing: 0
   IsPalette: 0
   setID: 12537

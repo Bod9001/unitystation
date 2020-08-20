@@ -14,32 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+    - spriteName: arcane_barrage_0
+      sprite: {fileID: 21300000, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300008, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+      AtlasUsing: 0
+    - spriteName: arcane_barrage_4
+      sprite: {fileID: 21300008, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300016, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+      AtlasUsing: 0
+    - spriteName: arcane_barrage_8
+      sprite: {fileID: 21300016, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300002, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+    - spriteName: arcane_barrage_1
+      sprite: {fileID: 21300002, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300010, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+      AtlasUsing: 0
+    - spriteName: arcane_barrage_5
+      sprite: {fileID: 21300010, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300018, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+      AtlasUsing: 0
+    - spriteName: arcane_barrage_9
+      sprite: {fileID: 21300018, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300004, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+    - spriteName: arcane_barrage_2
+      sprite: {fileID: 21300004, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300012, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+      AtlasUsing: 0
+    - spriteName: arcane_barrage_6
+      sprite: {fileID: 21300012, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300020, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+      AtlasUsing: 0
+    - spriteName: arcane_barrage_10
+      sprite: {fileID: 21300020, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   - Frames:
-    - sprite: {fileID: 21300006, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+    - spriteName: arcane_barrage_3
+      sprite: {fileID: 21300006, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300014, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+      AtlasUsing: 0
+    - spriteName: arcane_barrage_7
+      sprite: {fileID: 21300014, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
-    - sprite: {fileID: 21300022, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
+      AtlasUsing: 0
+    - spriteName: arcane_barrage_11
+      sprite: {fileID: 21300022, guid: d8b856b89d1947c4ca4b09b9708bb53d, type: 3}
       secondDelay: 0.1
+      AtlasUsing: 0
   IsPalette: 0
   setID: 10669

@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rdwhimsy_0
+    - spriteName: rdwhimsy_0
       sprite: {fileID: 21300000, guid: 428387cb7db83ae4cae265e1da47fd99, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rdwhimsy_1
+    - spriteName: rdwhimsy_1
       sprite: {fileID: 21300002, guid: 428387cb7db83ae4cae265e1da47fd99, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rdwhimsy_2
+    - spriteName: rdwhimsy_2
       sprite: {fileID: 21300004, guid: 428387cb7db83ae4cae265e1da47fd99, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: rdwhimsy_3
+    - spriteName: rdwhimsy_3
       sprite: {fileID: 21300006, guid: 428387cb7db83ae4cae265e1da47fd99, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 21679

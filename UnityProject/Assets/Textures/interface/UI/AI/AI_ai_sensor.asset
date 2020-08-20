@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: cb7f405b83fbcac409e69b4c2fed99a0, type: 3}
+    - spriteName: AI_ai_sensor
+      sprite: {fileID: 21300000, guid: cb7f405b83fbcac409e69b4c2fed99a0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3057

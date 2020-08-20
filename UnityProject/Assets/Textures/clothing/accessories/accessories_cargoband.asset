@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cargoband_0
+    - spriteName: cargoband_0
       sprite: {fileID: 21300000, guid: 3d5e2ddc2c31f884c8d4de6a503439a0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cargoband_1
+    - spriteName: cargoband_1
       sprite: {fileID: 21300002, guid: 3d5e2ddc2c31f884c8d4de6a503439a0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cargoband_2
+    - spriteName: cargoband_2
       sprite: {fileID: 21300004, guid: 3d5e2ddc2c31f884c8d4de6a503439a0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cargoband_3
+    - spriteName: cargoband_3
       sprite: {fileID: 21300006, guid: 3d5e2ddc2c31f884c8d4de6a503439a0, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 233

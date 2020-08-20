@@ -14,28 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitegreencorner_0
+    - spriteName: whitegreencorner_0
       sprite: {fileID: 21300000, guid: faf08c23bdd2c8b41b92711e9c2f33ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitegreencorner_1
+    - spriteName: whitegreencorner_1
       sprite: {fileID: 21300002, guid: faf08c23bdd2c8b41b92711e9c2f33ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitegreencorner_2
+    - spriteName: whitegreencorner_2
       sprite: {fileID: 21300004, guid: faf08c23bdd2c8b41b92711e9c2f33ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: whitegreencorner_3
+    - spriteName: whitegreencorner_3
       sprite: {fileID: 21300006, guid: faf08c23bdd2c8b41b92711e9c2f33ef, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 2341

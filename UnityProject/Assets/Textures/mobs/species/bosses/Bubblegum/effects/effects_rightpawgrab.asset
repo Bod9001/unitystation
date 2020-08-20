@@ -14,39 +14,73 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - spriteName: rightpawgrab_0
+      sprite: {fileID: 21300000, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.09
-    - sprite: {fileID: 21300002, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_1
+      sprite: {fileID: 21300002, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.08
-    - sprite: {fileID: 21300004, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_2
+      sprite: {fileID: 21300004, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.07
-    - sprite: {fileID: 21300006, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_3
+      sprite: {fileID: 21300006, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.06
-    - sprite: {fileID: 21300008, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_4
+      sprite: {fileID: 21300008, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.05
-    - sprite: {fileID: 21300010, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_5
+      sprite: {fileID: 21300010, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.04
-    - sprite: {fileID: 21300012, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_6
+      sprite: {fileID: 21300012, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300014, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_7
+      sprite: {fileID: 21300014, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.02
-    - sprite: {fileID: 21300016, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_8
+      sprite: {fileID: 21300016, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.01
-    - sprite: {fileID: 21300018, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_9
+      sprite: {fileID: 21300018, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.15
-    - sprite: {fileID: 21300020, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_10
+      sprite: {fileID: 21300020, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.03
-    - sprite: {fileID: 21300022, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_11
+      sprite: {fileID: 21300022, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.025
-    - sprite: {fileID: 21300024, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_12
+      sprite: {fileID: 21300024, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.02
-    - sprite: {fileID: 21300026, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_13
+      sprite: {fileID: 21300026, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.015
-    - sprite: {fileID: 21300028, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_14
+      sprite: {fileID: 21300028, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.01
-    - sprite: {fileID: 21300030, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_15
+      sprite: {fileID: 21300030, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.005
-    - sprite: {fileID: 21300032, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      AtlasUsing: 0
+    - spriteName: rightpawgrab_16
+      sprite: {fileID: 21300032, guid: ece060724133e8f48ab87ce76babb496, type: 3}
       secondDelay: 0.5
+      AtlasUsing: 0
   IsPalette: 0
   setID: 11987

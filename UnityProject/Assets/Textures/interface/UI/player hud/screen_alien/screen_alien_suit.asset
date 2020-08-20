@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: ec3b696eee52a5544bd11514ea58d4e3, type: 3}
+    - spriteName: screen_alien_suit
+      sprite: {fileID: 21300000, guid: ec3b696eee52a5544bd11514ea58d4e3, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 3299

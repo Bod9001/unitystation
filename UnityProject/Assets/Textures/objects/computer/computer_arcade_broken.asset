@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: -3640662369468478641, guid: 60e1bab0a6ded534ba5953371c0b6200,
+    - spriteName: arcade_broken_0
+      sprite: {fileID: -3640662369468478641, guid: 60e1bab0a6ded534ba5953371c0b6200,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames: []
   - Frames: []
   - Frames: []

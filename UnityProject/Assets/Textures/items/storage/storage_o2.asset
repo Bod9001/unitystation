@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 701c5653af493b9468577c085eac7a6a, type: 3}
+    - spriteName: storage_o2
+      sprite: {fileID: 21300000, guid: 701c5653af493b9468577c085eac7a6a, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 8962

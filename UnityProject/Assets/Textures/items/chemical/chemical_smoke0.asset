@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 3172405879f0fda4d9947597ecb4fc41, type: 3}
+    - spriteName: chemical_smoke0
+      sprite: {fileID: 21300000, guid: 3172405879f0fda4d9947597ecb4fc41, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5335

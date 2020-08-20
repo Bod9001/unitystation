@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 2407f7d4fe7c1c44dbd2efd41562514f, type: 3}
+    - spriteName: items_and_weapons_spearglass0
+      sprite: {fileID: 21300000, guid: 2407f7d4fe7c1c44dbd2efd41562514f, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7906

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 15a5a8d55d3134044ba1bea13cab4c98, type: 3}
+    - spriteName: belt_overlays_screwdriver_nuke
+      sprite: {fileID: 21300000, guid: 15a5a8d55d3134044ba1bea13cab4c98, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 5597

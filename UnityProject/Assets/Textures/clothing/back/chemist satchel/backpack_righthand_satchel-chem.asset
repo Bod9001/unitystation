@@ -14,32 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-chem_0
+    - spriteName: satchel-chem_0
       sprite: {fileID: 7959341945674972311, guid: c0e582203c6e41e48b94a9f4b7b5afd1,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-chem_1
+    - spriteName: satchel-chem_1
       sprite: {fileID: -8569665481846010075, guid: c0e582203c6e41e48b94a9f4b7b5afd1,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-chem_2
+    - spriteName: satchel-chem_2
       sprite: {fileID: -2386036670381678294, guid: c0e582203c6e41e48b94a9f4b7b5afd1,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   - Frames:
-    - singleSpriteReference:
-        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: satchel-chem_3
+    - spriteName: satchel-chem_3
       sprite: {fileID: -5072913149032450483, guid: c0e582203c6e41e48b94a9f4b7b5afd1,
         type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19717

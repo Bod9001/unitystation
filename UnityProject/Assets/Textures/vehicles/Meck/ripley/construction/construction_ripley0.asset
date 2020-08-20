@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 98ffaef1f5fe4174dbe9245b0a1aa9a9, type: 3}
+    - spriteName: construction_ripley0
+      sprite: {fileID: 21300000, guid: 98ffaef1f5fe4174dbe9245b0a1aa9a9, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 19037

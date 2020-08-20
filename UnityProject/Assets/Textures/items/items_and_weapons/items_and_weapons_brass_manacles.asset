@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: dbbd569fc40cec143855f56fbfa3e349, type: 3}
+    - spriteName: items_and_weapons_brass_manacles
+      sprite: {fileID: 21300000, guid: dbbd569fc40cec143855f56fbfa3e349, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 7731

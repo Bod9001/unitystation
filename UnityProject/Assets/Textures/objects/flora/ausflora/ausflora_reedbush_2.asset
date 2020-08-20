@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - sprite: {fileID: 21300000, guid: 0074da5f6d9276742bde4e061a31da7b, type: 3}
+    - spriteName: ausflora_reedbush_2
+      sprite: {fileID: 21300000, guid: 0074da5f6d9276742bde4e061a31da7b, type: 3}
       secondDelay: 0
+      AtlasUsing: 0
   IsPalette: 0
   setID: 14904
