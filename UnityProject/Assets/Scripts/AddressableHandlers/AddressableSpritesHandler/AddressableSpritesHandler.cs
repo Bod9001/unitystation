@@ -9,7 +9,8 @@ public class AddressableSpritesHandler : MonoBehaviour
 	{
 		foreach (var Atlase in AtlasReference.Instance.Atlases)
 		{
-			if (Atlase.Value.CanBindTo(inSprite))
+			if (Atlase.Value.GetSprite(inSprite.name) != null)
+			//if (Atlase.Value.CanBindTo(inSprite))
 			{
 				return Atlase.Key;
 			}

@@ -17,14 +17,14 @@ MonoBehaviour:
     - spriteName: base-bomb-active_0
       sprite: {fileID: 21300000, guid: bd5e08329030a954fa3791cd36bdde78, type: 3}
       secondDelay: 0.3
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: base-bomb-active_1
       sprite: {fileID: 21300002, guid: bd5e08329030a954fa3791cd36bdde78, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: base-bomb-active_2
       sprite: {fileID: 21300004, guid: bd5e08329030a954fa3791cd36bdde78, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 4680

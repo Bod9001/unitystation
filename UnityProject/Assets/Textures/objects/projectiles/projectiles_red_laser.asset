@@ -17,10 +17,10 @@ MonoBehaviour:
     - spriteName: red_laser_0
       sprite: {fileID: 21300000, guid: 455f1ee5e6a6fff4da5f7be096c0602d, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: red_laser_1
       sprite: {fileID: 21300002, guid: 455f1ee5e6a6fff4da5f7be096c0602d, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
   IsPalette: 0
   setID: 16645

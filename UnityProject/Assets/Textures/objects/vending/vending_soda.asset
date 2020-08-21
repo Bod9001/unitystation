@@ -17,18 +17,18 @@ MonoBehaviour:
     - spriteName: soda_0
       sprite: {fileID: 21300000, guid: 233b270b95a55ba4d9aa0171d8a677d9, type: 3}
       secondDelay: 4
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: soda_1
       sprite: {fileID: 21300002, guid: 233b270b95a55ba4d9aa0171d8a677d9, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: soda_2
       sprite: {fileID: 21300004, guid: 233b270b95a55ba4d9aa0171d8a677d9, type: 3}
       secondDelay: 0.5
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: soda_3
       sprite: {fileID: 21300006, guid: 233b270b95a55ba4d9aa0171d8a677d9, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
   IsPalette: 0
   setID: 17905

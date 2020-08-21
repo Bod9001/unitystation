@@ -17,10 +17,10 @@ MonoBehaviour:
     - spriteName: prox_timing_l_0
       sprite: {fileID: 21300000, guid: 60b4f40b8b629374d957bdaa39d3e100, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: prox_timing_l_1
       sprite: {fileID: 21300002, guid: 60b4f40b8b629374d957bdaa39d3e100, type: 3}
       secondDelay: 0.9
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 5092

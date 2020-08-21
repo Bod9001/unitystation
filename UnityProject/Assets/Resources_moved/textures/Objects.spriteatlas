@@ -55,7 +55,8 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 30a7a1119ea109a4ea0d228bbb9f5297, type: 3}
-    totalSpriteSurfaceArea: 21851888
+    - {fileID: 102900000, guid: b1ff814622a296541847b619d8652d7e, type: 3}
+    totalSpriteSurfaceArea: 21852912
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -14311,6 +14312,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: dd66729b934084e4496f37d192b5fd93, type: 3}
   - {fileID: 21300000, guid: 263b929ba8bc07e46873b821ae8ae3cb, type: 3}
   - {fileID: 21300000, guid: 2117f39b59bf1be4c827b031933af5af, type: 3}
+  - {fileID: 21300000, guid: b69b359b2f2b0434ba245678a9eb6c2e, type: 3}
   - {fileID: 21300000, guid: 9da4959bb6c5b7f49aa9d31948a9ca98, type: 3}
   - {fileID: 21300000, guid: 9ee3269be18ecd446af571a83c645b29, type: 3}
   - {fileID: 21300000, guid: 9880c69baae4f77468a5c2f3833a9955, type: 3}
@@ -33700,6 +33702,7 @@ SpriteAtlas:
   - deadtrees_tree_6
   - structures_safe-open
   - Mapping_Research_Director
+  - rcs-thruster
   - lighting_seclite-on
   - growing_polypore-dead
   - control_stun_0

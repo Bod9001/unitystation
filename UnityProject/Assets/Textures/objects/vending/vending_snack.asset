@@ -17,18 +17,18 @@ MonoBehaviour:
     - spriteName: snack_0
       sprite: {fileID: 21300000, guid: 6f8612a65d41a3147919c3485b1e4f29, type: 3}
       secondDelay: 1
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: snack_1
       sprite: {fileID: 21300002, guid: 6f8612a65d41a3147919c3485b1e4f29, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: snack_2
       sprite: {fileID: 21300004, guid: 6f8612a65d41a3147919c3485b1e4f29, type: 3}
       secondDelay: 0.4
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: snack_3
       sprite: {fileID: 21300006, guid: 6f8612a65d41a3147919c3485b1e4f29, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
   IsPalette: 0
   setID: 17886

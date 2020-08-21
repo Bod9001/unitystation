@@ -17,10 +17,10 @@ MonoBehaviour:
     - spriteName: caplaser_empty_0
       sprite: {fileID: 21300000, guid: b9931207d110255408f74ef23541de42, type: 3}
       secondDelay: 0.3
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: caplaser_empty_1
       sprite: {fileID: 21300002, guid: b9931207d110255408f74ef23541de42, type: 3}
       secondDelay: 0.3
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 7293

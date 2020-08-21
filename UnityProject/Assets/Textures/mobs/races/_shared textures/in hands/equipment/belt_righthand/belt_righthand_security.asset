@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: security_0
       sprite: {fileID: 21300000, guid: 85b34afbfcb8d6543b875673ff0292b0, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: security_1
       sprite: {fileID: 21300002, guid: 85b34afbfcb8d6543b875673ff0292b0, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: security_2
       sprite: {fileID: 21300004, guid: 85b34afbfcb8d6543b875673ff0292b0, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: security_3
       sprite: {fileID: 21300006, guid: 85b34afbfcb8d6543b875673ff0292b0, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   IsPalette: 0
   setID: 22169

@@ -17,18 +17,18 @@ MonoBehaviour:
     - spriteName: ai-red_dead_0
       sprite: {fileID: 21300000, guid: fd11304891bb11949944d3be03fe4367, type: 3}
       secondDelay: 6
-      AtlasUsing: 0
+      AtlasUsing: 6
     - spriteName: ai-red_dead_1
       sprite: {fileID: 21300002, guid: fd11304891bb11949944d3be03fe4367, type: 3}
       secondDelay: 0.2
-      AtlasUsing: 0
+      AtlasUsing: 6
     - spriteName: ai-red_dead_2
       sprite: {fileID: 21300004, guid: fd11304891bb11949944d3be03fe4367, type: 3}
       secondDelay: 0.2
-      AtlasUsing: 0
+      AtlasUsing: 6
     - spriteName: ai-red_dead_3
       sprite: {fileID: 21300006, guid: fd11304891bb11949944d3be03fe4367, type: 3}
       secondDelay: 0.2
-      AtlasUsing: 0
+      AtlasUsing: 6
   IsPalette: 0
   setID: 11479

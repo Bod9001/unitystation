@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: hazard_0
       sprite: {fileID: 21300000, guid: fc4e90c7083c97849b4bba424d864cfa, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: hazard_1
       sprite: {fileID: 21300002, guid: fc4e90c7083c97849b4bba424d864cfa, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: hazard_2
       sprite: {fileID: 21300004, guid: fc4e90c7083c97849b4bba424d864cfa, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: hazard_3
       sprite: {fileID: 21300006, guid: fc4e90c7083c97849b4bba424d864cfa, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   IsPalette: 0
   setID: 20955

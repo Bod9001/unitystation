@@ -240,6 +240,13 @@ public class GenerateSpriteSO : EditorWindow
 						{
 							Frame.spriteName = Frame.sprite.name;
 							Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
+							if (Frame.AtlasUsing == AddressableSpritesHandler.Atlas.None)
+							{
+								AssetDatabase.StopAssetEditing();
+								AssetDatabase.SaveAssets();
+								Logger.Log( "Frame.spriteName " + Frame.spriteName + " < > " + Sprite );
+								return;
+							}
 						}
 					}
 				}
@@ -247,7 +254,7 @@ public class GenerateSpriteSO : EditorWindow
 			EditorUtility.SetDirty(Sprite);
 		}
 
-		settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true);
+		//settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true);
 		//DirSearch_ex3(Application.dataPath + "/Textures");
 		AssetDatabase.StopAssetEditing();
 		AssetDatabase.SaveAssets();

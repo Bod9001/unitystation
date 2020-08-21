@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: jackal_0
       sprite: {fileID: 21300000, guid: a33a85c96824c304ead5a4d71b81abd1, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: jackal_1
       sprite: {fileID: 21300002, guid: a33a85c96824c304ead5a4d71b81abd1, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: jackal_2
       sprite: {fileID: 21300004, guid: a33a85c96824c304ead5a4d71b81abd1, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: jackal_3
       sprite: {fileID: 21300006, guid: a33a85c96824c304ead5a4d71b81abd1, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   IsPalette: 0
   setID: 20600

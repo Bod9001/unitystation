@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: aliens_0
       sprite: {fileID: 21300000, guid: c58baa9052d3b6e469fcb220a79a7dcd, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 6
   - Frames:
     - spriteName: aliens_1
       sprite: {fileID: 21300002, guid: c58baa9052d3b6e469fcb220a79a7dcd, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 6
   - Frames:
     - spriteName: aliens_2
       sprite: {fileID: 21300004, guid: c58baa9052d3b6e469fcb220a79a7dcd, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 6
   - Frames:
     - spriteName: aliens_3
       sprite: {fileID: 21300006, guid: c58baa9052d3b6e469fcb220a79a7dcd, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 6
   IsPalette: 0
   setID: 12735

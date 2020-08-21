@@ -17,10 +17,10 @@ MonoBehaviour:
     - spriteName: crusher_uncharged_0
       sprite: {fileID: 21300000, guid: 3c11cc6e0fc53344ba7820367636737e, type: 3}
       secondDelay: 0.3
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: crusher_uncharged_1
       sprite: {fileID: 21300002, guid: 3c11cc6e0fc53344ba7820367636737e, type: 3}
       secondDelay: 0.3
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 8269

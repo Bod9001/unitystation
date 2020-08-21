@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: explorer1_0
       sprite: {fileID: 21300000, guid: c2095922f62cd4b4dbb59426f64c303d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: explorer1_1
       sprite: {fileID: 21300002, guid: c2095922f62cd4b4dbb59426f64c303d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: explorer1_2
       sprite: {fileID: 21300004, guid: c2095922f62cd4b4dbb59426f64c303d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: explorer1_3
       sprite: {fileID: 21300006, guid: c2095922f62cd4b4dbb59426f64c303d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   IsPalette: 0
   setID: 10043

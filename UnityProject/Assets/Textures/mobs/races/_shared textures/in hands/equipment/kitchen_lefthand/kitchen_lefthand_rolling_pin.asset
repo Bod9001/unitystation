@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: rolling_pin_0
       sprite: {fileID: 21300000, guid: 65cc7d97dd9133048842a54c81b5213d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   - Frames:
     - spriteName: rolling_pin_1
       sprite: {fileID: 21300002, guid: 65cc7d97dd9133048842a54c81b5213d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   - Frames:
     - spriteName: rolling_pin_2
       sprite: {fileID: 21300004, guid: 65cc7d97dd9133048842a54c81b5213d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   - Frames:
     - spriteName: rolling_pin_3
       sprite: {fileID: 21300006, guid: 65cc7d97dd9133048842a54c81b5213d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   IsPalette: 0
   setID: 10105

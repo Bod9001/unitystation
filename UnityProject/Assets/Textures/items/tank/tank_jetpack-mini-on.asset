@@ -17,14 +17,14 @@ MonoBehaviour:
     - spriteName: jetpack-mini-on_0
       sprite: {fileID: 21300000, guid: 7fee347fc27d13c4ea73ebb71e314ec4, type: 3}
       secondDelay: 0.5
-      AtlasUsing: 0
+      AtlasUsing: 2
     - spriteName: jetpack-mini-on_1
       sprite: {fileID: 21300002, guid: 7fee347fc27d13c4ea73ebb71e314ec4, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 2
     - spriteName: jetpack-mini-on_2
       sprite: {fileID: 21300004, guid: 7fee347fc27d13c4ea73ebb71e314ec4, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 2
   IsPalette: 0
   setID: 9169

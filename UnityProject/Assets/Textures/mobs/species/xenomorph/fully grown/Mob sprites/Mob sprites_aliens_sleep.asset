@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: aliens_sleep_0
       sprite: {fileID: 21300000, guid: 9ee2407a664cdc3418ec8884675c6104, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 6
   - Frames:
     - spriteName: aliens_sleep_1
       sprite: {fileID: 21300002, guid: 9ee2407a664cdc3418ec8884675c6104, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 6
   - Frames:
     - spriteName: aliens_sleep_2
       sprite: {fileID: 21300004, guid: 9ee2407a664cdc3418ec8884675c6104, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 6
   - Frames:
     - spriteName: aliens_sleep_3
       sprite: {fileID: 21300006, guid: 9ee2407a664cdc3418ec8884675c6104, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 6
   IsPalette: 0
   setID: 12739

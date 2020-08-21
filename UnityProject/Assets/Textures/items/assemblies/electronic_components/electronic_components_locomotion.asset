@@ -17,14 +17,14 @@ MonoBehaviour:
     - spriteName: locomotion_0
       sprite: {fileID: 21300000, guid: 7b8bf65d38e3eff40a2a04b9c556c2a4, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: locomotion_1
       sprite: {fileID: 21300002, guid: 7b8bf65d38e3eff40a2a04b9c556c2a4, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: locomotion_2
       sprite: {fileID: 21300004, guid: 7b8bf65d38e3eff40a2a04b9c556c2a4, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 4822

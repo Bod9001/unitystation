@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: flashlight_0
       sprite: {fileID: 21300000, guid: c85c1a453e6616f4aa2db1fdc7322872, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   - Frames:
     - spriteName: flashlight_1
       sprite: {fileID: 21300002, guid: c85c1a453e6616f4aa2db1fdc7322872, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   - Frames:
     - spriteName: flashlight_2
       sprite: {fileID: 21300004, guid: c85c1a453e6616f4aa2db1fdc7322872, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   - Frames:
     - spriteName: flashlight_3
       sprite: {fileID: 21300006, guid: c85c1a453e6616f4aa2db1fdc7322872, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   IsPalette: 0
   setID: 22332

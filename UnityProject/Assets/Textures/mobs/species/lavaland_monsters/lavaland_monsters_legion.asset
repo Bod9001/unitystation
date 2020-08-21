@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: legion_0
       sprite: {fileID: 21300000, guid: 1a64c63233f999b46aadf3abe0ed7907, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 1
   - Frames:
     - spriteName: legion_1
       sprite: {fileID: 21300002, guid: 1a64c63233f999b46aadf3abe0ed7907, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 1
   - Frames:
     - spriteName: legion_2
       sprite: {fileID: 21300004, guid: 1a64c63233f999b46aadf3abe0ed7907, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 1
   - Frames:
     - spriteName: legion_3
       sprite: {fileID: 21300006, guid: 1a64c63233f999b46aadf3abe0ed7907, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 1
   IsPalette: 0
   setID: 12354

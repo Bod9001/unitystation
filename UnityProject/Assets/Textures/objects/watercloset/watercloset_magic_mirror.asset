@@ -17,18 +17,18 @@ MonoBehaviour:
     - spriteName: magic_mirror_0
       sprite: {fileID: 21300000, guid: b7efae2541864dc43a74b5d5e576f9a3, type: 3}
       secondDelay: 0.4
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: magic_mirror_1
       sprite: {fileID: 21300002, guid: b7efae2541864dc43a74b5d5e576f9a3, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: magic_mirror_2
       sprite: {fileID: 21300004, guid: b7efae2541864dc43a74b5d5e576f9a3, type: 3}
       secondDelay: 0.2
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: magic_mirror_3
       sprite: {fileID: 21300006, guid: b7efae2541864dc43a74b5d5e576f9a3, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
   IsPalette: 0
   setID: 17969

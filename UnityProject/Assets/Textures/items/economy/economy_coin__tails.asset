@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1de2691495b304e9843ac3335b626d, type: 3}
-  m_Name: mining_shovel
+  m_Name: economy_coin__tails
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mining_shovel
-      sprite: {fileID: 21300000, guid: 96cbfb25b2d4ed541b347f641fff568c, type: 3}
+    - spriteName: economy_coin__tails
+      sprite: {fileID: 21300000, guid: 96e6c26c48603ba4e8bc8e941eeab34c, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
-  setID: 21840
+  setID: 6672

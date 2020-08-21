@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: laser_0
       sprite: {fileID: 21300000, guid: 5e09b2295b9f33f46ba5056f546288b4, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   - Frames:
     - spriteName: laser_1
       sprite: {fileID: 21300002, guid: 5e09b2295b9f33f46ba5056f546288b4, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   - Frames:
     - spriteName: laser_2
       sprite: {fileID: 21300004, guid: 5e09b2295b9f33f46ba5056f546288b4, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   - Frames:
     - spriteName: laser_3
       sprite: {fileID: 21300006, guid: 5e09b2295b9f33f46ba5056f546288b4, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 4
   IsPalette: 0
   setID: 22431

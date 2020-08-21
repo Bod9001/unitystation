@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: thermal_0
       sprite: {fileID: 21300000, guid: 48aca721a18c32347ab4a1b15c4151a2, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: thermal_1
       sprite: {fileID: 21300002, guid: 48aca721a18c32347ab4a1b15c4151a2, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: thermal_2
       sprite: {fileID: 21300004, guid: 48aca721a18c32347ab4a1b15c4151a2, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: thermal_3
       sprite: {fileID: 21300006, guid: 48aca721a18c32347ab4a1b15c4151a2, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   IsPalette: 0
   setID: 956

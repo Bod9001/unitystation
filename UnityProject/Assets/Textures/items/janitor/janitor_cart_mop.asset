@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: cart_mop_0
       sprite: {fileID: 21300000, guid: ae65b0121a59eec4d85286223eeb313f, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 5
   - Frames:
     - spriteName: cart_mop_1
       sprite: {fileID: 21300002, guid: ae65b0121a59eec4d85286223eeb313f, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 5
   - Frames:
     - spriteName: cart_mop_2
       sprite: {fileID: 21300004, guid: ae65b0121a59eec4d85286223eeb313f, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 5
   - Frames:
     - spriteName: cart_mop_3
       sprite: {fileID: 21300006, guid: ae65b0121a59eec4d85286223eeb313f, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 7998

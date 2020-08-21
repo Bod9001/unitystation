@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: anesthetic_0
       sprite: {fileID: 21300000, guid: 667b89b7f976bc0488b7964426bd6e8d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: anesthetic_1
       sprite: {fileID: 21300002, guid: 667b89b7f976bc0488b7964426bd6e8d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: anesthetic_2
       sprite: {fileID: 21300004, guid: 667b89b7f976bc0488b7964426bd6e8d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: anesthetic_3
       sprite: {fileID: 21300006, guid: 667b89b7f976bc0488b7964426bd6e8d, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   IsPalette: 0
   setID: 255

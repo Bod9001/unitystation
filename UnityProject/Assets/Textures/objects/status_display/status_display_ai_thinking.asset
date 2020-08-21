@@ -17,14 +17,14 @@ MonoBehaviour:
     - spriteName: ai_thinking_0
       sprite: {fileID: 21300000, guid: b77ceed96a70d4e44bb2c747252ebe7c, type: 3}
       secondDelay: 3
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: ai_thinking_1
       sprite: {fileID: 21300002, guid: b77ceed96a70d4e44bb2c747252ebe7c, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
     - spriteName: ai_thinking_2
       sprite: {fileID: 21300004, guid: b77ceed96a70d4e44bb2c747252ebe7c, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 8
   IsPalette: 0
   setID: 17193

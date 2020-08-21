@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: knight_blue_0
       sprite: {fileID: 21300000, guid: 9049c46ea92407e48b81b995cc4d2340, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: knight_blue_1
       sprite: {fileID: 21300002, guid: 9049c46ea92407e48b81b995cc4d2340, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: knight_blue_2
       sprite: {fileID: 21300004, guid: 9049c46ea92407e48b81b995cc4d2340, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: knight_blue_3
       sprite: {fileID: 21300006, guid: 9049c46ea92407e48b81b995cc4d2340, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   IsPalette: 0
   setID: 907

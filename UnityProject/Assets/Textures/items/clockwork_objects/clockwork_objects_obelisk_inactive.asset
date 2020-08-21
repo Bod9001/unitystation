@@ -17,10 +17,10 @@ MonoBehaviour:
     - spriteName: obelisk_inactive_0
       sprite: {fileID: 21300000, guid: 939897ab09079aa4ea417fe2ac124a7c, type: 3}
       secondDelay: 0.6
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: obelisk_inactive_1
       sprite: {fileID: 21300002, guid: 939897ab09079aa4ea417fe2ac124a7c, type: 3}
       secondDelay: 0.6
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 5503

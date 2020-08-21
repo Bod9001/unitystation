@@ -65,7 +65,12 @@ SpriteAtlas:
     - {fileID: 102900000, guid: 55c3dc3bea6234d4cb212afb881921ca, type: 3}
     - {fileID: 102900000, guid: 5be460c56a7cacc4fb8c7126fca7d098, type: 3}
     - {fileID: 102900000, guid: 759eda34bbeec2047b15cfbaa6e00bb7, type: 3}
-    totalSpriteSurfaceArea: 2225008
+    - {fileID: 2800000, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+    - {fileID: 2800000, guid: f826859087cb6394cb1683197fd84efc, type: 3}
+    - {fileID: 2800000, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+    - {fileID: 2800000, guid: 664142de9af88f44bba2ef9ce83620c9, type: 3}
+    - {fileID: 2800000, guid: e86efe7b5af6eb74daef2e3c7a766410, type: 3}
+    totalSpriteSurfaceArea: 2252656
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -128,6 +133,10 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 89fdb780c1c72774ca6d65e127ac45f2, type: 3}
   - {fileID: 21300006, guid: 89fdb780c1c72774ca6d65e127ac45f2, type: 3}
   - {fileID: 21300004, guid: 89fdb780c1c72774ca6d65e127ac45f2, type: 3}
+  - {fileID: 21300006, guid: f826859087cb6394cb1683197fd84efc, type: 3}
+  - {fileID: 21300004, guid: f826859087cb6394cb1683197fd84efc, type: 3}
+  - {fileID: 21300002, guid: f826859087cb6394cb1683197fd84efc, type: 3}
+  - {fileID: 21300000, guid: f826859087cb6394cb1683197fd84efc, type: 3}
   - {fileID: 21300004, guid: a5dbb59061f846c4d9759c81a19421b3, type: 3}
   - {fileID: 21300006, guid: a5dbb59061f846c4d9759c81a19421b3, type: 3}
   - {fileID: 21300000, guid: a5dbb59061f846c4d9759c81a19421b3, type: 3}
@@ -715,6 +724,10 @@ SpriteAtlas:
   - {fileID: 21300004, guid: 44103e84fb7f9184c8c6a21f44ad88df, type: 3}
   - {fileID: 21300002, guid: 44103e84fb7f9184c8c6a21f44ad88df, type: 3}
   - {fileID: 21300000, guid: 44103e84fb7f9184c8c6a21f44ad88df, type: 3}
+  - {fileID: 21300000, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+  - {fileID: 21300002, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+  - {fileID: 21300004, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+  - {fileID: 21300006, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
   - {fileID: 21300000, guid: 5a5e21944378dd94aa7a0e262ce3e0d2, type: 3}
   - {fileID: 21300002, guid: 5a5e21944378dd94aa7a0e262ce3e0d2, type: 3}
   - {fileID: 21300004, guid: 5a5e21944378dd94aa7a0e262ce3e0d2, type: 3}
@@ -1199,6 +1212,20 @@ SpriteAtlas:
   - {fileID: 21300002, guid: eb51ffa873ab1df458d4e31611a147b4, type: 3}
   - {fileID: 21300004, guid: eb51ffa873ab1df458d4e31611a147b4, type: 3}
   - {fileID: 21300006, guid: eb51ffa873ab1df458d4e31611a147b4, type: 3}
+  - {fileID: 21300022, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300020, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300026, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300024, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300004, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300006, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300000, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300002, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300012, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300014, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300008, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300010, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300016, guid: ba9a9ab82456f29439f2051883648893, type: 3}
+  - {fileID: 21300018, guid: ba9a9ab82456f29439f2051883648893, type: 3}
   - {fileID: 21300006, guid: ffa45db8aed674044ba38a71c6764a00, type: 3}
   - {fileID: 21300004, guid: ffa45db8aed674044ba38a71c6764a00, type: 3}
   - {fileID: 21300002, guid: ffa45db8aed674044ba38a71c6764a00, type: 3}
@@ -1495,6 +1522,7 @@ SpriteAtlas:
   - {fileID: 21300002, guid: 3d9c587bf58f85c4bb71e9b4911560ab, type: 3}
   - {fileID: 21300004, guid: 3d9c587bf58f85c4bb71e9b4911560ab, type: 3}
   - {fileID: 21300006, guid: 3d9c587bf58f85c4bb71e9b4911560ab, type: 3}
+  - {fileID: 21300000, guid: e86efe7b5af6eb74daef2e3c7a766410, type: 3}
   - {fileID: 21300008, guid: 22e1029ba085bc54685265d804ae2c0d, type: 3}
   - {fileID: 21300010, guid: 22e1029ba085bc54685265d804ae2c0d, type: 3}
   - {fileID: 21300012, guid: 22e1029ba085bc54685265d804ae2c0d, type: 3}
@@ -1880,6 +1908,10 @@ SpriteAtlas:
   - {fileID: 21300006, guid: ff629cce0a3e11b428cf1138d1c7108c, type: 3}
   - {fileID: 21300000, guid: ff629cce0a3e11b428cf1138d1c7108c, type: 3}
   - {fileID: 21300002, guid: ff629cce0a3e11b428cf1138d1c7108c, type: 3}
+  - {fileID: 21300000, guid: 664142de9af88f44bba2ef9ce83620c9, type: 3}
+  - {fileID: 21300002, guid: 664142de9af88f44bba2ef9ce83620c9, type: 3}
+  - {fileID: 21300004, guid: 664142de9af88f44bba2ef9ce83620c9, type: 3}
+  - {fileID: 21300006, guid: 664142de9af88f44bba2ef9ce83620c9, type: 3}
   - {fileID: 21300000, guid: c918e7dead7fc6f4a8ee4665bd7c7530, type: 3}
   - {fileID: 21300002, guid: c918e7dead7fc6f4a8ee4665bd7c7530, type: 3}
   - {fileID: 21300004, guid: c918e7dead7fc6f4a8ee4665bd7c7530, type: 3}
@@ -2065,6 +2097,10 @@ SpriteAtlas:
   - monkey_r_leg_30_0
   - monkey_r_leg_30_3
   - monkey_r_leg_30_2
+  - legcuff1_3
+  - legcuff1_2
+  - legcuff1_1
+  - legcuff1_0
   - hair_ombre_2
   - hair_ombre_3
   - hair_ombre_0
@@ -2652,6 +2688,10 @@ SpriteAtlas:
   - facial_croppedfullbeard_2
   - facial_croppedfullbeard_1
   - facial_croppedfullbeard_0
+  - lips_lipstick_0
+  - lips_lipstick_1
+  - lips_lipstick_2
+  - lips_lipstick_3
   - hair_dandypompadour_0
   - hair_dandypompadour_1
   - hair_dandypompadour_2
@@ -3136,6 +3176,20 @@ SpriteAtlas:
   - facial_pencilstache_1
   - facial_pencilstache_2
   - facial_pencilstache_3
+  - gibbed-h_11
+  - gibbed-h_10
+  - gibbed-h_13
+  - gibbed-h_12
+  - gibbed-h_2
+  - gibbed-h_3
+  - gibbed-h_0
+  - gibbed-h_1
+  - gibbed-h_6
+  - gibbed-h_7
+  - gibbed-h_4
+  - gibbed-h_5
+  - gibbed-h_8
+  - gibbed-h_9
   - digitigrade_1_r_leg_3
   - digitigrade_1_r_leg_2
   - digitigrade_1_r_leg_1
@@ -3432,6 +3486,7 @@ SpriteAtlas:
   - hair_sidetail_1
   - hair_sidetail_2
   - hair_sidetail_3
+  - _shared textures_remains
   - ltrails_2_4
   - ltrails_2_5
   - ltrails_2_6
@@ -3817,6 +3872,10 @@ SpriteAtlas:
   - hair_curls_3
   - hair_curls_0
   - hair_curls_1
+  - lips_spray_face_0
+  - lips_spray_face_1
+  - lips_spray_face_2
+  - lips_spray_face_3
   - monkey_head_01_0
   - monkey_head_01_1
   - monkey_head_01_2

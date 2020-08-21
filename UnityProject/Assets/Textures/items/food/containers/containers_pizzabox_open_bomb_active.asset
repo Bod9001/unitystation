@@ -17,14 +17,14 @@ MonoBehaviour:
     - spriteName: pizzabox_open_bomb_active_0
       sprite: {fileID: 21300000, guid: c41f530b5830f8348a24d416952afc11, type: 3}
       secondDelay: 0.3
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: pizzabox_open_bomb_active_1
       sprite: {fileID: 21300002, guid: c41f530b5830f8348a24d416952afc11, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: pizzabox_open_bomb_active_2
       sprite: {fileID: 21300004, guid: c41f530b5830f8348a24d416952afc11, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 6846

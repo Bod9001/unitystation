@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: miner_0
       sprite: {fileID: 21300000, guid: 0c3f43992ea9a6a4a8c87927b419d2e9, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 1
   - Frames:
     - spriteName: miner_1
       sprite: {fileID: 21300002, guid: 0c3f43992ea9a6a4a8c87927b419d2e9, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 1
   - Frames:
     - spriteName: miner_2
       sprite: {fileID: 21300004, guid: 0c3f43992ea9a6a4a8c87927b419d2e9, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 1
   - Frames:
     - spriteName: miner_3
       sprite: {fileID: 21300006, guid: 0c3f43992ea9a6a4a8c87927b419d2e9, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 1
   IsPalette: 0
   setID: 11980

@@ -17,21 +17,21 @@ MonoBehaviour:
     - spriteName: trek_next_command_0
       sprite: {fileID: 21300000, guid: ee87fc31b0c120741abdc661e65417cd, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: trek_next_command_1
       sprite: {fileID: 21300002, guid: ee87fc31b0c120741abdc661e65417cd, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: trek_next_command_2
       sprite: {fileID: 21300004, guid: ee87fc31b0c120741abdc661e65417cd, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   - Frames:
     - spriteName: trek_next_command_3
       sprite: {fileID: 21300006, guid: ee87fc31b0c120741abdc661e65417cd, type: 3}
       secondDelay: 0
-      AtlasUsing: 0
+      AtlasUsing: 2
   IsPalette: 0
   setID: 1092

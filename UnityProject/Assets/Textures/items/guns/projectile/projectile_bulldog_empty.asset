@@ -17,10 +17,10 @@ MonoBehaviour:
     - spriteName: bulldog_empty_0
       sprite: {fileID: 21300000, guid: 8a744ce4a899148499067592fdd98461, type: 3}
       secondDelay: 0.1
-      AtlasUsing: 0
+      AtlasUsing: 5
     - spriteName: bulldog_empty_1
       sprite: {fileID: 21300002, guid: 8a744ce4a899148499067592fdd98461, type: 3}
       secondDelay: 0.3
-      AtlasUsing: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 7519
