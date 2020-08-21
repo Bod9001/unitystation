@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: floors_grey
-      sprite: {fileID: 21300000, guid: e607e19c0e1f25245aea085d522fcb19, type: 3}
+    - sprite: {fileID: 21300000, guid: e607e19c0e1f25245aea085d522fcb19, type: 3}
+      spriteName: floors_grey
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

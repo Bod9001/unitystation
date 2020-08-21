@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: zone select_eyes
-      sprite: {fileID: 21300000, guid: d9dec660420b53643bb10c0c51c81da7, type: 3}
+    - sprite: {fileID: 21300000, guid: d9dec660420b53643bb10c0c51c81da7, type: 3}
+      spriteName: zone select_eyes
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

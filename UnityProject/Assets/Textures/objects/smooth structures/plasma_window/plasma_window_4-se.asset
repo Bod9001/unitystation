@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: plasma_window_4-se
-      sprite: {fileID: 21300000, guid: 94ba320fe47470043a1faf8bab573572, type: 3}
+    - sprite: {fileID: 21300000, guid: 94ba320fe47470043a1faf8bab573572, type: 3}
+      spriteName: plasma_window_4-se
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

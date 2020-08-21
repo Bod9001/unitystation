@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_operative_neck
-      sprite: {fileID: 21300000, guid: 2b83e5daa3c544d489061ac55989dbea, type: 3}
+    - sprite: {fileID: 21300000, guid: 2b83e5daa3c544d489061ac55989dbea, type: 3}
+      spriteName: screen_operative_neck
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

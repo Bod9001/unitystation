@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gen-trimmed_0
-      sprite: {fileID: 447166775710244995, guid: 50385e1c0c732c54cb1c90d15d38e14a,
+    - sprite: {fileID: 447166775710244995, guid: 50385e1c0c732c54cb1c90d15d38e14a,
         type: 3}
+      spriteName: gen-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: gen-trimmed_1
-      sprite: {fileID: -1953036368377961542, guid: 50385e1c0c732c54cb1c90d15d38e14a,
+    - sprite: {fileID: -1953036368377961542, guid: 50385e1c0c732c54cb1c90d15d38e14a,
         type: 3}
+      spriteName: gen-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: gen-trimmed_2
-      sprite: {fileID: -4607158725014656164, guid: 50385e1c0c732c54cb1c90d15d38e14a,
+    - sprite: {fileID: -4607158725014656164, guid: 50385e1c0c732c54cb1c90d15d38e14a,
         type: 3}
+      spriteName: gen-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: gen-trimmed_3
-      sprite: {fileID: -8111244147741015363, guid: 50385e1c0c732c54cb1c90d15d38e14a,
+    - sprite: {fileID: -8111244147741015363, guid: 50385e1c0c732c54cb1c90d15d38e14a,
         type: 3}
+      spriteName: gen-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

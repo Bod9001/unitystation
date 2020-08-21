@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: darkbluecorners_0
-      sprite: {fileID: 21300000, guid: 08b02490db617454599547bd77c07194, type: 3}
+    - sprite: {fileID: 21300000, guid: 08b02490db617454599547bd77c07194, type: 3}
+      spriteName: darkbluecorners_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkbluecorners_1
-      sprite: {fileID: 21300002, guid: 08b02490db617454599547bd77c07194, type: 3}
+    - sprite: {fileID: 21300002, guid: 08b02490db617454599547bd77c07194, type: 3}
+      spriteName: darkbluecorners_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkbluecorners_2
-      sprite: {fileID: 21300004, guid: 08b02490db617454599547bd77c07194, type: 3}
+    - sprite: {fileID: 21300004, guid: 08b02490db617454599547bd77c07194, type: 3}
+      spriteName: darkbluecorners_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkbluecorners_3
-      sprite: {fileID: 21300006, guid: 08b02490db617454599547bd77c07194, type: 3}
+    - sprite: {fileID: 21300006, guid: 08b02490db617454599547bd77c07194, type: 3}
+      spriteName: darkbluecorners_3
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Arrow left
-      sprite: {fileID: 21300000, guid: 14e6372fa8171884ebcc2dd0371f9ca0, type: 3}
+    - sprite: {fileID: 21300000, guid: 14e6372fa8171884ebcc2dd0371f9ca0, type: 3}
+      spriteName: Arrow left
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: robotic_head_30_0
-      sprite: {fileID: 21300000, guid: 6e973b57bd39caf42b1c9e982f9a3d7c, type: 3}
+    - sprite: {fileID: 21300000, guid: 6e973b57bd39caf42b1c9e982f9a3d7c, type: 3}
+      spriteName: robotic_head_30_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: robotic_head_30_1
-      sprite: {fileID: 21300002, guid: 6e973b57bd39caf42b1c9e982f9a3d7c, type: 3}
+    - sprite: {fileID: 21300002, guid: 6e973b57bd39caf42b1c9e982f9a3d7c, type: 3}
+      spriteName: robotic_head_30_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: robotic_head_30_2
-      sprite: {fileID: 21300004, guid: 6e973b57bd39caf42b1c9e982f9a3d7c, type: 3}
+    - sprite: {fileID: 21300004, guid: 6e973b57bd39caf42b1c9e982f9a3d7c, type: 3}
+      spriteName: robotic_head_30_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: robotic_head_30_3
-      sprite: {fileID: 21300006, guid: 6e973b57bd39caf42b1c9e982f9a3d7c, type: 3}
+    - sprite: {fileID: 21300006, guid: 6e973b57bd39caf42b1c9e982f9a3d7c, type: 3}
+      spriteName: robotic_head_30_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

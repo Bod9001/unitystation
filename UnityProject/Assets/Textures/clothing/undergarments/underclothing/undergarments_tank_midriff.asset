@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tank_midriff_0
-      sprite: {fileID: 21300000, guid: f89d308089608fb4ba2066b8ec0fc0eb, type: 3}
+    - sprite: {fileID: 21300000, guid: f89d308089608fb4ba2066b8ec0fc0eb, type: 3}
+      spriteName: tank_midriff_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: tank_midriff_1
-      sprite: {fileID: 21300002, guid: f89d308089608fb4ba2066b8ec0fc0eb, type: 3}
+    - sprite: {fileID: 21300002, guid: f89d308089608fb4ba2066b8ec0fc0eb, type: 3}
+      spriteName: tank_midriff_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: tank_midriff_2
-      sprite: {fileID: 21300004, guid: f89d308089608fb4ba2066b8ec0fc0eb, type: 3}
+    - sprite: {fileID: 21300004, guid: f89d308089608fb4ba2066b8ec0fc0eb, type: 3}
+      spriteName: tank_midriff_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: tank_midriff_3
-      sprite: {fileID: 21300006, guid: f89d308089608fb4ba2066b8ec0fc0eb, type: 3}
+    - sprite: {fileID: 21300006, guid: f89d308089608fb4ba2066b8ec0fc0eb, type: 3}
+      spriteName: tank_midriff_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

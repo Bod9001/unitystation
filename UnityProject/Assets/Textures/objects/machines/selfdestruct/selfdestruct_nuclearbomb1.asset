@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: selfdestruct_nuclearbomb1
-      sprite: {fileID: 21300000, guid: 33e0d02b2c4ae3a4cb8492490a485696, type: 3}
+    - sprite: {fileID: 21300000, guid: 33e0d02b2c4ae3a4cb8492490a485696, type: 3}
+      spriteName: selfdestruct_nuclearbomb1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

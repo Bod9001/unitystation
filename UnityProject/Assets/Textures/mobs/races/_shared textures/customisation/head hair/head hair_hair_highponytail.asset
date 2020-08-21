@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hair_highponytail_0
-      sprite: {fileID: 21300000, guid: 494b342f02168404680c6e2eb75011d5, type: 3}
+    - sprite: {fileID: 21300000, guid: 494b342f02168404680c6e2eb75011d5, type: 3}
+      spriteName: hair_highponytail_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_highponytail_1
-      sprite: {fileID: 21300002, guid: 494b342f02168404680c6e2eb75011d5, type: 3}
+    - sprite: {fileID: 21300002, guid: 494b342f02168404680c6e2eb75011d5, type: 3}
+      spriteName: hair_highponytail_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_highponytail_2
-      sprite: {fileID: 21300004, guid: 494b342f02168404680c6e2eb75011d5, type: 3}
+    - sprite: {fileID: 21300004, guid: 494b342f02168404680c6e2eb75011d5, type: 3}
+      spriteName: hair_highponytail_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_highponytail_3
-      sprite: {fileID: 21300006, guid: 494b342f02168404680c6e2eb75011d5, type: 3}
+    - sprite: {fileID: 21300006, guid: 494b342f02168404680c6e2eb75011d5, type: 3}
+      spriteName: hair_highponytail_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

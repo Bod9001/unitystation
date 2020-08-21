@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: filter_0
-      sprite: {fileID: 21300000, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+    - sprite: {fileID: 21300000, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+      spriteName: filter_0
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: filter_1
-      sprite: {fileID: 21300002, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+    - sprite: {fileID: 21300002, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+      spriteName: filter_1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: filter_2
-      sprite: {fileID: 21300004, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+    - sprite: {fileID: 21300004, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+      spriteName: filter_2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: filter_3
-      sprite: {fileID: 21300006, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+    - sprite: {fileID: 21300006, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+      spriteName: filter_3
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: filter_4
-      sprite: {fileID: 21300008, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+    - sprite: {fileID: 21300008, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+      spriteName: filter_4
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: filter_5
-      sprite: {fileID: 21300010, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+    - sprite: {fileID: 21300010, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+      spriteName: filter_5
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: filter_6
-      sprite: {fileID: 21300012, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+    - sprite: {fileID: 21300012, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+      spriteName: filter_6
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: filter_7
-      sprite: {fileID: 21300014, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+    - sprite: {fileID: 21300014, guid: b467e8af0e13d024b805ef3e55ada847, type: 3}
+      spriteName: filter_7
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

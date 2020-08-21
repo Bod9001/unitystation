@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: old_corgi_0
-      sprite: {fileID: 21300000, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+    - sprite: {fileID: 21300000, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+      spriteName: old_corgi_0
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: old_corgi_4
-      sprite: {fileID: 21300008, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-  - Frames:
-    - spriteName: old_corgi_1
-      sprite: {fileID: 21300002, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: old_corgi_5
-      sprite: {fileID: 21300010, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+    - sprite: {fileID: 21300008, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+      spriteName: old_corgi_4
       secondDelay: 0.1
       AtlasUsing: 6
   - Frames:
-    - spriteName: old_corgi_2
-      sprite: {fileID: 21300004, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+    - sprite: {fileID: 21300002, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+      spriteName: old_corgi_1
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: old_corgi_6
-      sprite: {fileID: 21300012, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+    - sprite: {fileID: 21300010, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+      spriteName: old_corgi_5
       secondDelay: 0.1
       AtlasUsing: 6
   - Frames:
-    - spriteName: old_corgi_3
-      sprite: {fileID: 21300006, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+    - sprite: {fileID: 21300004, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+      spriteName: old_corgi_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: old_corgi_7
-      sprite: {fileID: 21300014, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+    - sprite: {fileID: 21300012, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+      spriteName: old_corgi_6
+      secondDelay: 0.1
+      AtlasUsing: 6
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+      spriteName: old_corgi_3
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300014, guid: 98c0a41e153ddc646bfe792e1ab2294b, type: 3}
+      spriteName: old_corgi_7
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

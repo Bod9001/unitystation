@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: candle2_lit_0
-      sprite: {fileID: 21300000, guid: b6168a6c95ea6a946bc19ce980f4f98b, type: 3}
+    - sprite: {fileID: 21300000, guid: b6168a6c95ea6a946bc19ce980f4f98b, type: 3}
+      spriteName: candle2_lit_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: candle2_lit_1
-      sprite: {fileID: 21300002, guid: b6168a6c95ea6a946bc19ce980f4f98b, type: 3}
+    - sprite: {fileID: 21300002, guid: b6168a6c95ea6a946bc19ce980f4f98b, type: 3}
+      spriteName: candle2_lit_1
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

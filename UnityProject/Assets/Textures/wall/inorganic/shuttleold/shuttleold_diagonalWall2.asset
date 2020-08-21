@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shuttleold_diagonalWall2
-      sprite: {fileID: 21300000, guid: e12711c370a382144b755e5afa92425c, type: 3}
+    - sprite: {fileID: 21300000, guid: e12711c370a382144b755e5afa92425c, type: 3}
+      spriteName: shuttleold_diagonalWall2
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

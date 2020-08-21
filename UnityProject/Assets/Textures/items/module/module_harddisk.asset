@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: module_harddisk
-      sprite: {fileID: 21300000, guid: 489013913d730ed40886945a0a79f57e, type: 3}
+    - sprite: {fileID: 21300000, guid: 489013913d730ed40886945a0a79f57e, type: 3}
+      spriteName: module_harddisk
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

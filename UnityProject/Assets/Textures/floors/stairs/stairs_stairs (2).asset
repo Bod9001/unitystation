@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: stairs_stairs (2)
-      sprite: {fileID: 21300000, guid: c16d5e1be18bcd94baf25a099828d73f, type: 3}
+    - sprite: {fileID: 21300000, guid: c16d5e1be18bcd94baf25a099828d73f, type: 3}
+      spriteName: stairs_stairs (2)
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

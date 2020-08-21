@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: passgate_off_0
-      sprite: {fileID: 21300000, guid: d47dc95a737e9254abe0898e8a109062, type: 3}
+    - sprite: {fileID: 21300000, guid: d47dc95a737e9254abe0898e8a109062, type: 3}
+      spriteName: passgate_off_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: passgate_off_1
-      sprite: {fileID: 21300002, guid: d47dc95a737e9254abe0898e8a109062, type: 3}
+    - sprite: {fileID: 21300002, guid: d47dc95a737e9254abe0898e8a109062, type: 3}
+      spriteName: passgate_off_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: passgate_off_2
-      sprite: {fileID: 21300004, guid: d47dc95a737e9254abe0898e8a109062, type: 3}
+    - sprite: {fileID: 21300004, guid: d47dc95a737e9254abe0898e8a109062, type: 3}
+      spriteName: passgate_off_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: passgate_off_3
-      sprite: {fileID: 21300006, guid: d47dc95a737e9254abe0898e8a109062, type: 3}
+    - sprite: {fileID: 21300006, guid: d47dc95a737e9254abe0898e8a109062, type: 3}
+      spriteName: passgate_off_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

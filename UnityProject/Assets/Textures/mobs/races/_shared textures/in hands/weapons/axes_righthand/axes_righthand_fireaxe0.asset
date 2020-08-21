@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: fireaxe0_0
-      sprite: {fileID: 21300000, guid: edaa668fc0e6ab54fba0a3af9cee41e6, type: 3}
+    - sprite: {fileID: 21300000, guid: edaa668fc0e6ab54fba0a3af9cee41e6, type: 3}
+      spriteName: fireaxe0_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: fireaxe0_1
-      sprite: {fileID: 21300002, guid: edaa668fc0e6ab54fba0a3af9cee41e6, type: 3}
+    - sprite: {fileID: 21300002, guid: edaa668fc0e6ab54fba0a3af9cee41e6, type: 3}
+      spriteName: fireaxe0_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: fireaxe0_2
-      sprite: {fileID: 21300004, guid: edaa668fc0e6ab54fba0a3af9cee41e6, type: 3}
+    - sprite: {fileID: 21300004, guid: edaa668fc0e6ab54fba0a3af9cee41e6, type: 3}
+      spriteName: fireaxe0_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: fireaxe0_3
-      sprite: {fileID: 21300006, guid: edaa668fc0e6ab54fba0a3af9cee41e6, type: 3}
+    - sprite: {fileID: 21300006, guid: edaa668fc0e6ab54fba0a3af9cee41e6, type: 3}
+      spriteName: fireaxe0_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 10484

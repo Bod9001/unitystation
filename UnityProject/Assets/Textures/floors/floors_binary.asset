@@ -14,72 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: binary_0
-      sprite: {fileID: 21300000, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300000, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_0
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_1
-      sprite: {fileID: 21300002, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300002, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_1
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_2
-      sprite: {fileID: 21300004, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300004, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_2
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_3
-      sprite: {fileID: 21300006, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300006, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_3
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_4
-      sprite: {fileID: 21300008, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300008, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_4
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_5
-      sprite: {fileID: 21300010, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300010, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_5
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_6
-      sprite: {fileID: 21300012, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300012, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_6
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_7
-      sprite: {fileID: 21300014, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300014, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_7
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_8
-      sprite: {fileID: 21300016, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300016, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_8
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_9
-      sprite: {fileID: 21300018, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300018, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_9
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_10
-      sprite: {fileID: 21300020, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300020, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_10
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_11
-      sprite: {fileID: 21300022, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300022, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_11
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_12
-      sprite: {fileID: 21300024, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300024, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_12
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_13
-      sprite: {fileID: 21300026, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300026, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_13
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_14
-      sprite: {fileID: 21300028, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300028, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_14
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_15
-      sprite: {fileID: 21300030, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300030, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_15
       secondDelay: 0.8
       AtlasUsing: 10
-    - spriteName: binary_16
-      sprite: {fileID: 21300032, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+    - sprite: {fileID: 21300032, guid: b70ef613ddffaac429a533e87b8a07c6, type: 3}
+      spriteName: binary_16
       secondDelay: 0.8
       AtlasUsing: 10
   IsPalette: 0

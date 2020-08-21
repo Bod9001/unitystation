@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: invisible_box
-      sprite: {fileID: 21300000, guid: 8daac7365c0e04d31832f5d5ad3c05c7, type: 3}
+    - sprite: {fileID: 21300000, guid: 8daac7365c0e04d31832f5d5ad3c05c7, type: 3}
+      spriteName: invisible_box
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

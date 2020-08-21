@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_pillbox
-      sprite: {fileID: 21300000, guid: c94fc62e57e50ef488d5ecdbd9d3e8fd, type: 3}
+    - sprite: {fileID: 21300000, guid: c94fc62e57e50ef488d5ecdbd9d3e8fd, type: 3}
+      spriteName: storage_pillbox
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

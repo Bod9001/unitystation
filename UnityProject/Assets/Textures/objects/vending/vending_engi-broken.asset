@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_engi-broken
-      sprite: {fileID: 21300000, guid: eb9feb6f8ee7c8a43aa52b9baad1a947, type: 3}
+    - sprite: {fileID: 21300000, guid: eb9feb6f8ee7c8a43aa52b9baad1a947, type: 3}
+      spriteName: vending_engi-broken
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

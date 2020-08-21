@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: syringe_draw
-      sprite: {fileID: 21300000, guid: c07765f6e4b1bcf4fb08de8ec97bc9cd, type: 3}
+    - sprite: {fileID: 21300000, guid: c07765f6e4b1bcf4fb08de8ec97bc9cd, type: 3}
+      spriteName: syringe_draw
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

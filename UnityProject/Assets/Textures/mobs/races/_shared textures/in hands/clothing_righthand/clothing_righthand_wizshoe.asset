@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: wizshoe_0
-      sprite: {fileID: 21300000, guid: 588d4775618f75a4fa58d47cb38d29c9, type: 3}
+    - sprite: {fileID: 21300000, guid: 588d4775618f75a4fa58d47cb38d29c9, type: 3}
+      spriteName: wizshoe_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: wizshoe_1
-      sprite: {fileID: 21300002, guid: 588d4775618f75a4fa58d47cb38d29c9, type: 3}
+    - sprite: {fileID: 21300002, guid: 588d4775618f75a4fa58d47cb38d29c9, type: 3}
+      spriteName: wizshoe_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: wizshoe_2
-      sprite: {fileID: 21300004, guid: 588d4775618f75a4fa58d47cb38d29c9, type: 3}
+    - sprite: {fileID: 21300004, guid: 588d4775618f75a4fa58d47cb38d29c9, type: 3}
+      spriteName: wizshoe_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: wizshoe_3
-      sprite: {fileID: 21300006, guid: 588d4775618f75a4fa58d47cb38d29c9, type: 3}
+    - sprite: {fileID: 21300006, guid: 588d4775618f75a4fa58d47cb38d29c9, type: 3}
+      spriteName: wizshoe_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

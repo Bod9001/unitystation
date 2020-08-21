@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_construct_behemoth_health2
-      sprite: {fileID: 21300000, guid: 6a33d6672b7684147816fd8498ad5e53, type: 3}
+    - sprite: {fileID: 21300000, guid: 6a33d6672b7684147816fd8498ad5e53, type: 3}
+      spriteName: screen_construct_behemoth_health2
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

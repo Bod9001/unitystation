@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sheetrainbow_0
-      sprite: {fileID: 21300000, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
+    - sprite: {fileID: 21300000, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
+      spriteName: sheetrainbow_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sheetrainbow_1
-      sprite: {fileID: 21300002, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
+    - sprite: {fileID: 21300002, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
+      spriteName: sheetrainbow_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sheetrainbow_2
-      sprite: {fileID: 21300004, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
+    - sprite: {fileID: 21300004, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
+      spriteName: sheetrainbow_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sheetrainbow_3
-      sprite: {fileID: 21300006, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
+    - sprite: {fileID: 21300006, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
+      spriteName: sheetrainbow_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: emagged_0
-      sprite: {fileID: 21300000, guid: b8258d00c70003e4eb4fa9e1e6800342, type: 3}
+    - sprite: {fileID: 21300000, guid: b8258d00c70003e4eb4fa9e1e6800342, type: 3}
+      spriteName: emagged_0
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: emagged_1
-      sprite: {fileID: 21300002, guid: b8258d00c70003e4eb4fa9e1e6800342, type: 3}
+    - sprite: {fileID: 21300002, guid: b8258d00c70003e4eb4fa9e1e6800342, type: 3}
+      spriteName: emagged_1
       secondDelay: 0.3
       AtlasUsing: 8
   IsPalette: 0

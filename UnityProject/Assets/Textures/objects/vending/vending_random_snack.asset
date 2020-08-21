@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_random_snack
-      sprite: {fileID: 21300000, guid: b876f95d3bc6d374b9a46c1b0153d68f, type: 3}
+    - sprite: {fileID: 21300000, guid: b876f95d3bc6d374b9a46c1b0153d68f, type: 3}
+      spriteName: vending_random_snack
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

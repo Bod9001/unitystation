@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_items_storage_gather_switch
-      sprite: {fileID: 21300000, guid: 70b7ef07cde49134b88dbf703f72a794, type: 3}
+    - sprite: {fileID: 21300000, guid: 70b7ef07cde49134b88dbf703f72a794, type: 3}
+      spriteName: actions_items_storage_gather_switch
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

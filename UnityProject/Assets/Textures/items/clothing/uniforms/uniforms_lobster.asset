@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: uniforms_lobster
-      sprite: {fileID: 21300000, guid: a24f34d8401a3b744b398bb062a1f563, type: 3}
+    - sprite: {fileID: 21300000, guid: a24f34d8401a3b744b398bb062a1f563, type: 3}
+      spriteName: uniforms_lobster
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

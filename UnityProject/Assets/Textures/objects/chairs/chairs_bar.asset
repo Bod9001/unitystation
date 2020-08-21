@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chairs_bar
-      sprite: {fileID: 21300000, guid: 4076652198f1e1940865e22f2bde2354, type: 3}
+    - sprite: {fileID: 21300000, guid: 4076652198f1e1940865e22f2bde2354, type: 3}
+      spriteName: chairs_bar
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

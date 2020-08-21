@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: webbing_0
-      sprite: {fileID: 21300000, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
+    - sprite: {fileID: 21300000, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
+      spriteName: webbing_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: webbing_1
-      sprite: {fileID: 21300002, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
+    - sprite: {fileID: 21300002, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
+      spriteName: webbing_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: webbing_2
-      sprite: {fileID: 21300004, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
+    - sprite: {fileID: 21300004, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
+      spriteName: webbing_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: webbing_3
-      sprite: {fileID: 21300006, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
+    - sprite: {fileID: 21300006, guid: 516a375816fccdc47b6f732815e1c488, type: 3}
+      spriteName: webbing_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

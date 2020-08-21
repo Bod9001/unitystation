@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: MagiVend_0
-      sprite: {fileID: 21300000, guid: b6192745077e82a4f8ebf9800523c049, type: 3}
+    - sprite: {fileID: 21300000, guid: b6192745077e82a4f8ebf9800523c049, type: 3}
+      spriteName: MagiVend_0
       secondDelay: 3.9
       AtlasUsing: 8
-    - spriteName: MagiVend_1
-      sprite: {fileID: 21300002, guid: b6192745077e82a4f8ebf9800523c049, type: 3}
+    - sprite: {fileID: 21300002, guid: b6192745077e82a4f8ebf9800523c049, type: 3}
+      spriteName: MagiVend_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: MagiVend_2
-      sprite: {fileID: 21300004, guid: b6192745077e82a4f8ebf9800523c049, type: 3}
+    - sprite: {fileID: 21300004, guid: b6192745077e82a4f8ebf9800523c049, type: 3}
+      spriteName: MagiVend_2
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: MagiVend_3
-      sprite: {fileID: 21300006, guid: b6192745077e82a4f8ebf9800523c049, type: 3}
+    - sprite: {fileID: 21300006, guid: b6192745077e82a4f8ebf9800523c049, type: 3}
+      spriteName: MagiVend_3
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

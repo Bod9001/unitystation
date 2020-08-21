@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: slimecookies_purple
-      sprite: {fileID: 21300000, guid: 8b2b8384970640845af58ba46dab3458, type: 3}
+    - sprite: {fileID: 21300000, guid: 8b2b8384970640845af58ba46dab3458, type: 3}
+      spriteName: slimecookies_purple
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

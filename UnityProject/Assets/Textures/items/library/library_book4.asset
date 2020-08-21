@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: library_book4
-      sprite: {fileID: 21300000, guid: a68bf8c8a306584418f02965e372f832, type: 3}
+    - sprite: {fileID: 21300000, guid: a68bf8c8a306584418f02965e372f832, type: 3}
+      spriteName: library_book4
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: forge-blue_0
-      sprite: {fileID: 21300000, guid: 1314295f1dd955642b82dd885b77a28e, type: 3}
+    - sprite: {fileID: 21300000, guid: 1314295f1dd955642b82dd885b77a28e, type: 3}
+      spriteName: forge-blue_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: forge-blue_1
-      sprite: {fileID: 21300002, guid: 1314295f1dd955642b82dd885b77a28e, type: 3}
+    - sprite: {fileID: 21300002, guid: 1314295f1dd955642b82dd885b77a28e, type: 3}
+      spriteName: forge-blue_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: forge-blue_2
-      sprite: {fileID: 21300004, guid: 1314295f1dd955642b82dd885b77a28e, type: 3}
+    - sprite: {fileID: 21300004, guid: 1314295f1dd955642b82dd885b77a28e, type: 3}
+      spriteName: forge-blue_2
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

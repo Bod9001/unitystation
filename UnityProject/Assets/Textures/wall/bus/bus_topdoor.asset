@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bus_topdoor
-      sprite: {fileID: 21300000, guid: 9f76bef2088e0ae4783512248d8b5f81, type: 3}
+    - sprite: {fileID: 21300000, guid: 9f76bef2088e0ae4783512248d8b5f81, type: 3}
+      spriteName: bus_topdoor
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

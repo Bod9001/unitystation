@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: wheelchair_0
-      sprite: {fileID: 21300000, guid: 27fded7119aa3484bb5a83df564474d7, type: 3}
+    - sprite: {fileID: 21300000, guid: 27fded7119aa3484bb5a83df564474d7, type: 3}
+      spriteName: wheelchair_0
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: wheelchair_1
-      sprite: {fileID: 21300002, guid: 27fded7119aa3484bb5a83df564474d7, type: 3}
+    - sprite: {fileID: 21300002, guid: 27fded7119aa3484bb5a83df564474d7, type: 3}
+      spriteName: wheelchair_1
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: wheelchair_2
-      sprite: {fileID: 21300004, guid: 27fded7119aa3484bb5a83df564474d7, type: 3}
+    - sprite: {fileID: 21300004, guid: 27fded7119aa3484bb5a83df564474d7, type: 3}
+      spriteName: wheelchair_2
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: wheelchair_3
-      sprite: {fileID: 21300006, guid: 27fded7119aa3484bb5a83df564474d7, type: 3}
+    - sprite: {fileID: 21300006, guid: 27fded7119aa3484bb5a83df564474d7, type: 3}
+      spriteName: wheelchair_3
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

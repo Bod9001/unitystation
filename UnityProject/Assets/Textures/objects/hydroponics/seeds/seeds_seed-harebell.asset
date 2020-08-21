@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: seeds_seed-harebell
-      sprite: {fileID: 21300000, guid: fd5cfada8c7a644478aa599670f19369, type: 3}
+    - sprite: {fileID: 21300000, guid: fd5cfada8c7a644478aa599670f19369, type: 3}
+      spriteName: seeds_seed-harebell
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

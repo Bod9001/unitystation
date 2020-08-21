@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blastcannon_empty_0
-      sprite: {fileID: 21300000, guid: 4b828c641bef881489811ffac0ce9b23, type: 3}
+    - sprite: {fileID: 21300000, guid: 4b828c641bef881489811ffac0ce9b23, type: 3}
+      spriteName: blastcannon_empty_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: blastcannon_empty_1
-      sprite: {fileID: 21300002, guid: 4b828c641bef881489811ffac0ce9b23, type: 3}
+    - sprite: {fileID: 21300002, guid: 4b828c641bef881489811ffac0ce9b23, type: 3}
+      spriteName: blastcannon_empty_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: blastcannon_empty_2
-      sprite: {fileID: 21300004, guid: 4b828c641bef881489811ffac0ce9b23, type: 3}
+    - sprite: {fileID: 21300004, guid: 4b828c641bef881489811ffac0ce9b23, type: 3}
+      spriteName: blastcannon_empty_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: blastcannon_empty_3
-      sprite: {fileID: 21300006, guid: 4b828c641bef881489811ffac0ce9b23, type: 3}
+    - sprite: {fileID: 21300006, guid: 4b828c641bef881489811ffac0ce9b23, type: 3}
+      spriteName: blastcannon_empty_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

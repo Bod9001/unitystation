@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: belts_securitywebbing
-      sprite: {fileID: 21300000, guid: 6b120f98071cac448ab8c6e077a1587d, type: 3}
+    - sprite: {fileID: 21300000, guid: 6b120f98071cac448ab8c6e077a1587d, type: 3}
+      spriteName: belts_securitywebbing
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

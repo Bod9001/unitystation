@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_restock_refill_joe
-      sprite: {fileID: 21300000, guid: d322ba4e5e521204f8cdf50d02d96d42, type: 3}
+    - sprite: {fileID: 21300000, guid: d322ba4e5e521204f8cdf50d02d96d42, type: 3}
+      spriteName: vending_restock_refill_joe
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

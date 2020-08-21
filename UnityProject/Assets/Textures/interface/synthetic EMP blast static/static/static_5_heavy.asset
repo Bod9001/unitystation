@@ -14,32 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: 5_heavy_0
-      sprite: {fileID: 21300000, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+    - sprite: {fileID: 21300000, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+      spriteName: 5_heavy_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: 5_heavy_1
-      sprite: {fileID: 21300002, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+    - sprite: {fileID: 21300002, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+      spriteName: 5_heavy_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: 5_heavy_2
-      sprite: {fileID: 21300004, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+    - sprite: {fileID: 21300004, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+      spriteName: 5_heavy_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: 5_heavy_3
-      sprite: {fileID: 21300006, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+    - sprite: {fileID: 21300006, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+      spriteName: 5_heavy_3
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: 5_heavy_4
-      sprite: {fileID: 21300008, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+    - sprite: {fileID: 21300008, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+      spriteName: 5_heavy_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: 5_heavy_5
-      sprite: {fileID: 21300010, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+    - sprite: {fileID: 21300010, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+      spriteName: 5_heavy_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: 5_heavy_6
-      sprite: {fileID: 21300012, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+    - sprite: {fileID: 21300012, guid: b48155166cee12d43b8293012dea1af4, type: 3}
+      spriteName: 5_heavy_6
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: monkey_l_arm_0
-      sprite: {fileID: 21300000, guid: 3c10bc5379f30104aa21a748d253fc76, type: 3}
+    - sprite: {fileID: 21300000, guid: 3c10bc5379f30104aa21a748d253fc76, type: 3}
+      spriteName: monkey_l_arm_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: monkey_l_arm_1
-      sprite: {fileID: 21300002, guid: 3c10bc5379f30104aa21a748d253fc76, type: 3}
+    - sprite: {fileID: 21300002, guid: 3c10bc5379f30104aa21a748d253fc76, type: 3}
+      spriteName: monkey_l_arm_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: monkey_l_arm_2
-      sprite: {fileID: 21300004, guid: 3c10bc5379f30104aa21a748d253fc76, type: 3}
+    - sprite: {fileID: 21300004, guid: 3c10bc5379f30104aa21a748d253fc76, type: 3}
+      spriteName: monkey_l_arm_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: monkey_l_arm_3
-      sprite: {fileID: 21300006, guid: 3c10bc5379f30104aa21a748d253fc76, type: 3}
+    - sprite: {fileID: 21300006, guid: 3c10bc5379f30104aa21a748d253fc76, type: 3}
+      spriteName: monkey_l_arm_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

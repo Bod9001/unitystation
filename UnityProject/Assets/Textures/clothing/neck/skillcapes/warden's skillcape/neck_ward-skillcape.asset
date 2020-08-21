@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ward-skillcape_0
-      sprite: {fileID: 7285447956620196473, guid: 88d59481876b61a4dba9226c9217496d,
+    - sprite: {fileID: 7285447956620196473, guid: 88d59481876b61a4dba9226c9217496d,
         type: 3}
+      spriteName: ward-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ward-skillcape_1
-      sprite: {fileID: 2945873466693642958, guid: 88d59481876b61a4dba9226c9217496d,
+    - sprite: {fileID: 2945873466693642958, guid: 88d59481876b61a4dba9226c9217496d,
         type: 3}
+      spriteName: ward-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ward-skillcape_2
-      sprite: {fileID: -8510959619847490823, guid: 88d59481876b61a4dba9226c9217496d,
+    - sprite: {fileID: -8510959619847490823, guid: 88d59481876b61a4dba9226c9217496d,
         type: 3}
+      spriteName: ward-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ward-skillcape_3
-      sprite: {fileID: -7353696004508359164, guid: 88d59481876b61a4dba9226c9217496d,
+    - sprite: {fileID: -7353696004508359164, guid: 88d59481876b61a4dba9226c9217496d,
         type: 3}
+      spriteName: ward-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

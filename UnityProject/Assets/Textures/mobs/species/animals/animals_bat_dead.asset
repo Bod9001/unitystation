@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: animals_bat_dead
-      sprite: {fileID: 21300000, guid: eda8ade37e9a3604abe83f643d1ac1bb, type: 3}
+    - sprite: {fileID: 21300000, guid: eda8ade37e9a3604abe83f643d1ac1bb, type: 3}
+      spriteName: animals_bat_dead
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

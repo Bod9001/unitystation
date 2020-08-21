@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cigarettes_lighter_overlay_thirteen
-      sprite: {fileID: 21300000, guid: f721ae3e15cbecd4da7b4b016ba19977, type: 3}
+    - sprite: {fileID: 21300000, guid: f721ae3e15cbecd4da7b4b016ba19977, type: 3}
+      spriteName: cigarettes_lighter_overlay_thirteen
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

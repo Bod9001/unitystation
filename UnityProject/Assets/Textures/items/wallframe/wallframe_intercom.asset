@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: wallframe_intercom
-      sprite: {fileID: 21300000, guid: c1d62776e2118f148bf30e45601af515, type: 3}
+    - sprite: {fileID: 21300000, guid: c1d62776e2118f148bf30e45601af515, type: 3}
+      spriteName: wallframe_intercom
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sunhudbeer_0
-      sprite: {fileID: -4187702517749167721, guid: 947b6663609affc4ea90acc423820a6e,
+    - sprite: {fileID: -4187702517749167721, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
+      spriteName: sunhudbeer_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sunhudbeer_1
-      sprite: {fileID: -4474664430704713142, guid: 947b6663609affc4ea90acc423820a6e,
+    - sprite: {fileID: -4474664430704713142, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
+      spriteName: sunhudbeer_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sunhudbeer_2
-      sprite: {fileID: -7894543157591049939, guid: 947b6663609affc4ea90acc423820a6e,
+    - sprite: {fileID: -7894543157591049939, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
+      spriteName: sunhudbeer_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sunhudbeer_3
-      sprite: {fileID: -383548051846170395, guid: 947b6663609affc4ea90acc423820a6e,
+    - sprite: {fileID: -383548051846170395, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
+      spriteName: sunhudbeer_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,52 +14,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: closing_0
-      sprite: {fileID: 21300000, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300000, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_0
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_1
-      sprite: {fileID: 21300002, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300002, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_1
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_2
-      sprite: {fileID: 21300004, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300004, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_2
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_3
-      sprite: {fileID: 21300006, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300006, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_3
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_4
-      sprite: {fileID: 21300008, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300008, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_4
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_5
-      sprite: {fileID: 21300010, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300010, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_5
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_6
-      sprite: {fileID: 21300012, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300012, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_6
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_7
-      sprite: {fileID: 21300014, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300014, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_7
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_8
-      sprite: {fileID: 21300016, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300016, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_8
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_9
-      sprite: {fileID: 21300018, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300018, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_9
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_10
-      sprite: {fileID: 21300020, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300020, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_10
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: closing_11
-      sprite: {fileID: 21300022, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+    - sprite: {fileID: 21300022, guid: 9742f57615e140a4092119b5e7750fe0, type: 3}
+      spriteName: closing_11
       secondDelay: 0.05
       AtlasUsing: 8
   IsPalette: 0

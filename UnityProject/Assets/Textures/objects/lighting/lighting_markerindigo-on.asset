@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lighting_markerindigo-on
-      sprite: {fileID: 21300000, guid: a28257380cf2dfc45bff4a6c6c85663f, type: 3}
+    - sprite: {fileID: 21300000, guid: a28257380cf2dfc45bff4a6c6c85663f, type: 3}
+      spriteName: lighting_markerindigo-on
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: plastitanium_wall_0
-      sprite: {fileID: -28087195391543303, guid: 54b28a2ecf8e2f441b98845ffb593017,
+    - sprite: {fileID: -28087195391543303, guid: 54b28a2ecf8e2f441b98845ffb593017,
         type: 3}
+      spriteName: plastitanium_wall_0
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

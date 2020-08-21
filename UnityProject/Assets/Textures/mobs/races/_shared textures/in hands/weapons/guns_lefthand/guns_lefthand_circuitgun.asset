@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: circuitgun_0
-      sprite: {fileID: 21300000, guid: d126f897e623a494ca6f8aad723adc97, type: 3}
+    - sprite: {fileID: 21300000, guid: d126f897e623a494ca6f8aad723adc97, type: 3}
+      spriteName: circuitgun_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: circuitgun_1
-      sprite: {fileID: 21300002, guid: d126f897e623a494ca6f8aad723adc97, type: 3}
+    - sprite: {fileID: 21300002, guid: d126f897e623a494ca6f8aad723adc97, type: 3}
+      spriteName: circuitgun_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: circuitgun_2
-      sprite: {fileID: 21300004, guid: d126f897e623a494ca6f8aad723adc97, type: 3}
+    - sprite: {fileID: 21300004, guid: d126f897e623a494ca6f8aad723adc97, type: 3}
+      spriteName: circuitgun_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: circuitgun_3
-      sprite: {fileID: 21300006, guid: d126f897e623a494ca6f8aad723adc97, type: 3}
+    - sprite: {fileID: 21300006, guid: d126f897e623a494ca6f8aad723adc97, type: 3}
+      spriteName: circuitgun_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

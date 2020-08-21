@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: computer_ratvar_key4_off
-      sprite: {fileID: 21300000, guid: 91bc1e43750efb249bf59308494f7bf0, type: 3}
+    - sprite: {fileID: 21300000, guid: 91bc1e43750efb249bf59308494f7bf0, type: 3}
+      spriteName: computer_ratvar_key4_off
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_basketball
-      sprite: {fileID: 21300000, guid: 8daafcb4c1dc8c340b88004537b6036a, type: 3}
+    - sprite: {fileID: 21300000, guid: 8daafcb4c1dc8c340b88004537b6036a, type: 3}
+      spriteName: items_and_weapons_basketball
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: brokenpack_0
-      sprite: {fileID: 21300000, guid: c9aefec09e967ce40a1c1938abaac0b8, type: 3}
+    - sprite: {fileID: 21300000, guid: c9aefec09e967ce40a1c1938abaac0b8, type: 3}
+      spriteName: brokenpack_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: brokenpack_1
-      sprite: {fileID: 21300002, guid: c9aefec09e967ce40a1c1938abaac0b8, type: 3}
+    - sprite: {fileID: 21300002, guid: c9aefec09e967ce40a1c1938abaac0b8, type: 3}
+      spriteName: brokenpack_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: brokenpack_2
-      sprite: {fileID: 21300004, guid: c9aefec09e967ce40a1c1938abaac0b8, type: 3}
+    - sprite: {fileID: 21300004, guid: c9aefec09e967ce40a1c1938abaac0b8, type: 3}
+      spriteName: brokenpack_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: brokenpack_3
-      sprite: {fileID: 21300006, guid: c9aefec09e967ce40a1c1938abaac0b8, type: 3}
+    - sprite: {fileID: 21300006, guid: c9aefec09e967ce40a1c1938abaac0b8, type: 3}
+      spriteName: brokenpack_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

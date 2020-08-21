@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: structures_linenbin-empty
-      sprite: {fileID: 21300000, guid: bc07a58c430327e458a55745762340df, type: 3}
+    - sprite: {fileID: 21300000, guid: bc07a58c430327e458a55745762340df, type: 3}
+      spriteName: structures_linenbin-empty
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

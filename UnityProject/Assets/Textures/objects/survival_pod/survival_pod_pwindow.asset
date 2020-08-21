@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pwindow_0
-      sprite: {fileID: 21300000, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+    - sprite: {fileID: 21300000, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+      spriteName: pwindow_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pwindow_1
-      sprite: {fileID: 21300002, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+    - sprite: {fileID: 21300002, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+      spriteName: pwindow_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pwindow_2
-      sprite: {fileID: 21300004, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+    - sprite: {fileID: 21300004, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+      spriteName: pwindow_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pwindow_3
-      sprite: {fileID: 21300006, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+    - sprite: {fileID: 21300006, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+      spriteName: pwindow_3
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pwindow_4
-      sprite: {fileID: 21300008, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+    - sprite: {fileID: 21300008, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+      spriteName: pwindow_4
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pwindow_5
-      sprite: {fileID: 21300010, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+    - sprite: {fileID: 21300010, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+      spriteName: pwindow_5
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pwindow_6
-      sprite: {fileID: 21300012, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+    - sprite: {fileID: 21300012, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+      spriteName: pwindow_6
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pwindow_7
-      sprite: {fileID: 21300014, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+    - sprite: {fileID: 21300014, guid: bf4debabe0966514b9fd36e9c50b3094, type: 3}
+      spriteName: pwindow_7
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: m_wings_angel_FRONT_0
-      sprite: {fileID: 21300000, guid: badf536c8dca142498214b91b51288ca, type: 3}
+    - sprite: {fileID: 21300000, guid: badf536c8dca142498214b91b51288ca, type: 3}
+      spriteName: m_wings_angel_FRONT_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: m_wings_angel_FRONT_1
-      sprite: {fileID: 21300002, guid: badf536c8dca142498214b91b51288ca, type: 3}
+    - sprite: {fileID: 21300002, guid: badf536c8dca142498214b91b51288ca, type: 3}
+      spriteName: m_wings_angel_FRONT_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: m_wings_angel_FRONT_2
-      sprite: {fileID: 21300004, guid: badf536c8dca142498214b91b51288ca, type: 3}
+    - sprite: {fileID: 21300004, guid: badf536c8dca142498214b91b51288ca, type: 3}
+      spriteName: m_wings_angel_FRONT_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: m_wings_angel_FRONT_3
-      sprite: {fileID: 21300006, guid: badf536c8dca142498214b91b51288ca, type: 3}
+    - sprite: {fileID: 21300006, guid: badf536c8dca142498214b91b51288ca, type: 3}
+      spriteName: m_wings_angel_FRONT_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

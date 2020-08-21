@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_grape-dead
-      sprite: {fileID: 21300000, guid: e6d96d010ced4294c860ac7b5f6173f7, type: 3}
+    - sprite: {fileID: 21300000, guid: e6d96d010ced4294c860ac7b5f6173f7, type: 3}
+      spriteName: growing_grape-dead
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

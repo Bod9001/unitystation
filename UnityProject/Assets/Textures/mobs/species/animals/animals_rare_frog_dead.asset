@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: animals_rare_frog_dead
-      sprite: {fileID: 21300000, guid: f4bc7998a6e94dc439a994392536728b, type: 3}
+    - sprite: {fileID: 21300000, guid: f4bc7998a6e94dc439a994392536728b, type: 3}
+      spriteName: animals_rare_frog_dead
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

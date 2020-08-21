@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: supplypods_supplypod_open
-      sprite: {fileID: 21300000, guid: 65c5465b8b324dd4e80cb1737bc5945f, type: 3}
+    - sprite: {fileID: 21300000, guid: 65c5465b8b324dd4e80cb1737bc5945f, type: 3}
+      spriteName: supplypods_supplypod_open
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

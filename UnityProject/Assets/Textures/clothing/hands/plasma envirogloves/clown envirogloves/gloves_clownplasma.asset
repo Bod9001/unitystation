@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gloves_clownplasma
-      sprite: {fileID: 21300000, guid: fac8dff3a98c8864396136be3d3e91fa, type: 3}
+    - sprite: {fileID: 21300000, guid: fac8dff3a98c8864396136be3d3e91fa, type: 3}
+      spriteName: gloves_clownplasma
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

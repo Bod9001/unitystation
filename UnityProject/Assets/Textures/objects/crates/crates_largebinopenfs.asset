@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: crates_largebinopenfs
-      sprite: {fileID: 21300000, guid: dcf2da450fcce8047a9364d6c1fc9aa8, type: 3}
+    - sprite: {fileID: 21300000, guid: dcf2da450fcce8047a9364d6c1fc9aa8, type: 3}
+      spriteName: crates_largebinopenfs
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

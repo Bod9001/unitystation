@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_minor_antag_vest_disguise
-      sprite: {fileID: 21300000, guid: 91db6f9fa121f5f419ddf1a1aeefaf87, type: 3}
+    - sprite: {fileID: 21300000, guid: 91db6f9fa121f5f419ddf1a1aeefaf87, type: 3}
+      spriteName: actions_minor_antag_vest_disguise
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: fluff_gelmound
-      sprite: {fileID: 21300000, guid: 67e1dc0876ef4584f95804d5cb23d156, type: 3}
+    - sprite: {fileID: 21300000, guid: 67e1dc0876ef4584f95804d5cb23d156, type: 3}
+      spriteName: fluff_gelmound
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

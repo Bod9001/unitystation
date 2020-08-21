@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: canada_0
-      sprite: {fileID: 21300000, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
+    - sprite: {fileID: 21300000, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
+      spriteName: canada_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: canada_1
-      sprite: {fileID: 21300002, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
+    - sprite: {fileID: 21300002, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
+      spriteName: canada_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: canada_2
-      sprite: {fileID: 21300004, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
+    - sprite: {fileID: 21300004, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
+      spriteName: canada_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: canada_3
-      sprite: {fileID: 21300006, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
+    - sprite: {fileID: 21300006, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
+      spriteName: canada_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

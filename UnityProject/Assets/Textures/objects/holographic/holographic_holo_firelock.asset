@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: holo_firelock_0
-      sprite: {fileID: 21300000, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+    - sprite: {fileID: 21300000, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+      spriteName: holo_firelock_0
       secondDelay: 2
       AtlasUsing: 8
-    - spriteName: holo_firelock_1
-      sprite: {fileID: 21300002, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+    - sprite: {fileID: 21300002, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+      spriteName: holo_firelock_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holo_firelock_2
-      sprite: {fileID: 21300004, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+    - sprite: {fileID: 21300004, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+      spriteName: holo_firelock_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holo_firelock_3
-      sprite: {fileID: 21300006, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+    - sprite: {fileID: 21300006, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+      spriteName: holo_firelock_3
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holo_firelock_4
-      sprite: {fileID: 21300008, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+    - sprite: {fileID: 21300008, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+      spriteName: holo_firelock_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holo_firelock_5
-      sprite: {fileID: 21300010, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+    - sprite: {fileID: 21300010, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+      spriteName: holo_firelock_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holo_firelock_6
-      sprite: {fileID: 21300012, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+    - sprite: {fileID: 21300012, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+      spriteName: holo_firelock_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holo_firelock_7
-      sprite: {fileID: 21300014, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+    - sprite: {fileID: 21300014, guid: fb467bc888fffad478d06461b21a6e5f, type: 3}
+      spriteName: holo_firelock_7
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

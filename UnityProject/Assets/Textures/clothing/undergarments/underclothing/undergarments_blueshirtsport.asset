@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blueshirtsport_0
-      sprite: {fileID: 21300000, guid: 9d2c09121e4b70e44bfb756ed3c2ae10, type: 3}
+    - sprite: {fileID: 21300000, guid: 9d2c09121e4b70e44bfb756ed3c2ae10, type: 3}
+      spriteName: blueshirtsport_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blueshirtsport_1
-      sprite: {fileID: 21300002, guid: 9d2c09121e4b70e44bfb756ed3c2ae10, type: 3}
+    - sprite: {fileID: 21300002, guid: 9d2c09121e4b70e44bfb756ed3c2ae10, type: 3}
+      spriteName: blueshirtsport_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blueshirtsport_2
-      sprite: {fileID: 21300004, guid: 9d2c09121e4b70e44bfb756ed3c2ae10, type: 3}
+    - sprite: {fileID: 21300004, guid: 9d2c09121e4b70e44bfb756ed3c2ae10, type: 3}
+      spriteName: blueshirtsport_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blueshirtsport_3
-      sprite: {fileID: 21300006, guid: 9d2c09121e4b70e44bfb756ed3c2ae10, type: 3}
+    - sprite: {fileID: 21300006, guid: 9d2c09121e4b70e44bfb756ed3c2ae10, type: 3}
+      spriteName: blueshirtsport_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ripley_ripleymkii-open
-      sprite: {fileID: 21300000, guid: 29af5e315f2594c4eb14e27e062e9d60, type: 3}
+    - sprite: {fileID: 21300000, guid: 29af5e315f2594c4eb14e27e062e9d60, type: 3}
+      spriteName: ripley_ripleymkii-open
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

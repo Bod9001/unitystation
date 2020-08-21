@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ausflora_fullgrass_1
-      sprite: {fileID: 21300000, guid: de351b2392cf05a438ee4b31b939fb21, type: 3}
+    - sprite: {fileID: 21300000, guid: de351b2392cf05a438ee4b31b939fb21, type: 3}
+      spriteName: ausflora_fullgrass_1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: satchel-vir_0
-      sprite: {fileID: -2275535759611154002, guid: 1e9e417698c209649925e63a1457a560,
+    - sprite: {fileID: -2275535759611154002, guid: 1e9e417698c209649925e63a1457a560,
         type: 3}
+      spriteName: satchel-vir_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-vir_1
-      sprite: {fileID: -7959737121835001310, guid: 1e9e417698c209649925e63a1457a560,
+    - sprite: {fileID: -7959737121835001310, guid: 1e9e417698c209649925e63a1457a560,
         type: 3}
+      spriteName: satchel-vir_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-vir_2
-      sprite: {fileID: -3777135066148122689, guid: 1e9e417698c209649925e63a1457a560,
+    - sprite: {fileID: -3777135066148122689, guid: 1e9e417698c209649925e63a1457a560,
         type: 3}
+      spriteName: satchel-vir_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-vir_3
-      sprite: {fileID: -7446186896963764655, guid: 1e9e417698c209649925e63a1457a560,
+    - sprite: {fileID: -7446186896963764655, guid: 1e9e417698c209649925e63a1457a560,
         type: 3}
+      spriteName: satchel-vir_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

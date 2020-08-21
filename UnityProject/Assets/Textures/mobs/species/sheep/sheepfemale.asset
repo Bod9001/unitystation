@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sheepfemale_0
-      sprite: {fileID: 5762826081608939889, guid: 293575e6be357864482aa5a5f0113b59,
+    - sprite: {fileID: 5762826081608939889, guid: 293575e6be357864482aa5a5f0113b59,
         type: 3}
+      spriteName: sheepfemale_0
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

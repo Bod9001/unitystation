@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: stationobjs_pipe_d
-      sprite: {fileID: 21300000, guid: 6c92c0780f3fed44e895eb027c5a2fd7, type: 3}
+    - sprite: {fileID: 21300000, guid: 6c92c0780f3fed44e895eb027c5a2fd7, type: 3}
+      spriteName: stationobjs_pipe_d
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: virology-skillcape_1
-      sprite: {fileID: -6650052361414633112, guid: 081820dde5a2d24498fafe8d28c97df2,
+    - sprite: {fileID: -6650052361414633112, guid: 081820dde5a2d24498fafe8d28c97df2,
         type: 3}
+      spriteName: virology-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

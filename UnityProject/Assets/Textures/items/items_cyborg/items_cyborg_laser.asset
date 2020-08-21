@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_cyborg_laser
-      sprite: {fileID: 21300000, guid: aae0fc44c1638a34cbdbf93a8b9af7ed, type: 3}
+    - sprite: {fileID: 21300000, guid: aae0fc44c1638a34cbdbf93a8b9af7ed, type: 3}
+      spriteName: items_cyborg_laser
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pda_pda-hop
-      sprite: {fileID: 21300000, guid: 9af61756ee5e0b34e969a3b774402a0d, type: 3}
+    - sprite: {fileID: 21300000, guid: 9af61756ee5e0b34e969a3b774402a0d, type: 3}
+      spriteName: pda_pda-hop
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

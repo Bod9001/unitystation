@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gas_atmos_0
-      sprite: {fileID: -6978939755203545248, guid: 5660b3655700c5944b7bca042371e79d,
+    - sprite: {fileID: -6978939755203545248, guid: 5660b3655700c5944b7bca042371e79d,
         type: 3}
+      spriteName: gas_atmos_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: gas_atmos_1
-      sprite: {fileID: -7200276693156684431, guid: 5660b3655700c5944b7bca042371e79d,
+    - sprite: {fileID: -7200276693156684431, guid: 5660b3655700c5944b7bca042371e79d,
         type: 3}
+      spriteName: gas_atmos_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: gas_atmos_2
-      sprite: {fileID: 1210734600396411174, guid: 5660b3655700c5944b7bca042371e79d,
+    - sprite: {fileID: 1210734600396411174, guid: 5660b3655700c5944b7bca042371e79d,
         type: 3}
+      spriteName: gas_atmos_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: gas_atmos_3
-      sprite: {fileID: 4150658767656017402, guid: 5660b3655700c5944b7bca042371e79d,
+    - sprite: {fileID: 4150658767656017402, guid: 5660b3655700c5944b7bca042371e79d,
         type: 3}
+      spriteName: gas_atmos_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

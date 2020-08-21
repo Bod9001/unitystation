@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: uranium_construction
-      sprite: {fileID: 21300000, guid: 419cc63607352a74f9cfd9b039780727, type: 3}
+    - sprite: {fileID: 21300000, guid: 419cc63607352a74f9cfd9b039780727, type: 3}
+      spriteName: uranium_construction
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rail_0
-      sprite: {fileID: 21300000, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+    - sprite: {fileID: 21300000, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+      spriteName: rail_0
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_1
-      sprite: {fileID: 21300002, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+    - sprite: {fileID: 21300002, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+      spriteName: rail_1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_2
-      sprite: {fileID: 21300004, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+    - sprite: {fileID: 21300004, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+      spriteName: rail_2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_3
-      sprite: {fileID: 21300006, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+    - sprite: {fileID: 21300006, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+      spriteName: rail_3
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_4
-      sprite: {fileID: 21300008, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+    - sprite: {fileID: 21300008, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+      spriteName: rail_4
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_5
-      sprite: {fileID: 21300010, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+    - sprite: {fileID: 21300010, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+      spriteName: rail_5
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_6
-      sprite: {fileID: 21300012, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+    - sprite: {fileID: 21300012, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+      spriteName: rail_6
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_7
-      sprite: {fileID: 21300014, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+    - sprite: {fileID: 21300014, guid: 8d649100a3d931149a35bff849c54c97, type: 3}
+      spriteName: rail_7
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

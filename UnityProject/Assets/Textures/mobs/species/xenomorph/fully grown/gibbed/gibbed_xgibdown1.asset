@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gibbed_xgibdown1
-      sprite: {fileID: 21300000, guid: 3391c53cd5cdd36458f749bb2572f3fb, type: 3}
+    - sprite: {fileID: 21300000, guid: 3391c53cd5cdd36458f749bb2572f3fb, type: 3}
+      spriteName: gibbed_xgibdown1
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

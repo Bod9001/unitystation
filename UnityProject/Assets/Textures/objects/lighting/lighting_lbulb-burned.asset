@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lighting_lbulb-burned
-      sprite: {fileID: 21300000, guid: 2565136d86e8eb44e94c8fc9d30a8322, type: 3}
+    - sprite: {fileID: 21300000, guid: 2565136d86e8eb44e94c8fc9d30a8322, type: 3}
+      spriteName: lighting_lbulb-burned
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

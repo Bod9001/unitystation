@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_cult_artificer
-      sprite: {fileID: 21300000, guid: 03fb942525d4e0c46a44307f8a76239e, type: 3}
+    - sprite: {fileID: 21300000, guid: 03fb942525d4e0c46a44307f8a76239e, type: 3}
+      spriteName: actions_cult_artificer
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

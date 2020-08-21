@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mining_resonator
-      sprite: {fileID: 21300000, guid: 4a4c1f4b2bb64934f834891d4da4bbfb, type: 3}
+    - sprite: {fileID: 21300000, guid: 4a4c1f4b2bb64934f834891d4da4bbfb, type: 3}
+      spriteName: mining_resonator
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

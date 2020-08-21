@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: odysseus_odysseus-broken
-      sprite: {fileID: 21300000, guid: 84a78ec6783d9ed449ca2ad6fcaa613e, type: 3}
+    - sprite: {fileID: 21300000, guid: 84a78ec6783d9ed449ca2ad6fcaa613e, type: 3}
+      spriteName: odysseus_odysseus-broken
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

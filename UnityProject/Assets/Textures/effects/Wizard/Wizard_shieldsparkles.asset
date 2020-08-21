@@ -14,103 +14,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shieldsparkles_0
-      sprite: {fileID: 21300000, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300000, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_4
-      sprite: {fileID: 21300008, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300008, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_8
-      sprite: {fileID: 21300016, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300016, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_8
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_12
-      sprite: {fileID: 21300024, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300024, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_12
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_16
-      sprite: {fileID: 21300032, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300032, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_16
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_20
-      sprite: {fileID: 21300040, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-  - Frames:
-    - spriteName: shieldsparkles_1
-      sprite: {fileID: 21300002, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: shieldsparkles_5
-      sprite: {fileID: 21300010, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: shieldsparkles_9
-      sprite: {fileID: 21300018, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: shieldsparkles_13
-      sprite: {fileID: 21300026, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: shieldsparkles_17
-      sprite: {fileID: 21300034, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: shieldsparkles_21
-      sprite: {fileID: 21300042, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300040, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_20
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: shieldsparkles_2
-      sprite: {fileID: 21300004, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300002, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_6
-      sprite: {fileID: 21300012, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300010, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_10
-      sprite: {fileID: 21300020, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300018, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_9
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_14
-      sprite: {fileID: 21300028, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300026, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_13
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_18
-      sprite: {fileID: 21300036, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300034, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_17
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_22
-      sprite: {fileID: 21300044, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300042, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_21
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: shieldsparkles_3
-      sprite: {fileID: 21300006, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300004, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_7
-      sprite: {fileID: 21300014, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300012, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_6
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_11
-      sprite: {fileID: 21300022, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300020, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_10
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_15
-      sprite: {fileID: 21300030, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300028, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_14
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_19
-      sprite: {fileID: 21300038, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300036, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_18
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: shieldsparkles_23
-      sprite: {fileID: 21300046, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+    - sprite: {fileID: 21300044, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_22
+      secondDelay: 0.1
+      AtlasUsing: 9
+  - Frames:
+    - sprite: {fileID: 21300006, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_3
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300014, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_7
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300022, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_11
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300030, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_15
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300038, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_19
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300046, guid: ffa37990ccf3f734f9044ffb7aa8e32a, type: 3}
+      spriteName: shieldsparkles_23
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

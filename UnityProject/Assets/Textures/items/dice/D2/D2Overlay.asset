@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dice_d2-1
-      sprite: {fileID: 21300000, guid: 14993ec360950034cb78cefe163f4097, type: 3}
+    - sprite: {fileID: 21300000, guid: 14993ec360950034cb78cefe163f4097, type: 3}
+      spriteName: dice_d2-1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d2-2
-      sprite: {fileID: 21300000, guid: b17e05f3bd2120943b073b75fee43f1f, type: 3}
+    - sprite: {fileID: 21300000, guid: b17e05f3bd2120943b073b75fee43f1f, type: 3}
+      spriteName: dice_d2-2
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

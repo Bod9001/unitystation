@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: talk-alien2
-      sprite: {fileID: 21300000, guid: efff9b7debd81ad45bf2770c4e0be89d, type: 3}
+    - sprite: {fileID: 21300000, guid: efff9b7debd81ad45bf2770c4e0be89d, type: 3}
+      spriteName: talk-alien2
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

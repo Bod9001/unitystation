@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hair_afro_0
-      sprite: {fileID: 21300000, guid: 93a7015c28bd12949ad1546859ffd917, type: 3}
+    - sprite: {fileID: 21300000, guid: 93a7015c28bd12949ad1546859ffd917, type: 3}
+      spriteName: hair_afro_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_afro_1
-      sprite: {fileID: 21300002, guid: 93a7015c28bd12949ad1546859ffd917, type: 3}
+    - sprite: {fileID: 21300002, guid: 93a7015c28bd12949ad1546859ffd917, type: 3}
+      spriteName: hair_afro_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_afro_2
-      sprite: {fileID: 21300004, guid: 93a7015c28bd12949ad1546859ffd917, type: 3}
+    - sprite: {fileID: 21300004, guid: 93a7015c28bd12949ad1546859ffd917, type: 3}
+      spriteName: hair_afro_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_afro_3
-      sprite: {fileID: 21300006, guid: 93a7015c28bd12949ad1546859ffd917, type: 3}
+    - sprite: {fileID: 21300006, guid: 93a7015c28bd12949ad1546859ffd917, type: 3}
+      spriteName: hair_afro_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

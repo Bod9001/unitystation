@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_midnight_zone_sel
-      sprite: {fileID: 21300000, guid: 01e500bf1477cc14591e41ff96044896, type: 3}
+    - sprite: {fileID: 21300000, guid: 01e500bf1477cc14591e41ff96044896, type: 3}
+      spriteName: screen_midnight_zone_sel
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

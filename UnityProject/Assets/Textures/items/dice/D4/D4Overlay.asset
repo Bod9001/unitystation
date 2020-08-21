@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dice_d4-1
-      sprite: {fileID: 21300000, guid: f3aa00f482d62b44b96a9ffaa931b708, type: 3}
+    - sprite: {fileID: 21300000, guid: f3aa00f482d62b44b96a9ffaa931b708, type: 3}
+      spriteName: dice_d4-1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d4-2
-      sprite: {fileID: 21300000, guid: 50b6a68a7ba74844696857175b2f2caf, type: 3}
+    - sprite: {fileID: 21300000, guid: 50b6a68a7ba74844696857175b2f2caf, type: 3}
+      spriteName: dice_d4-2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d4-3
-      sprite: {fileID: 21300000, guid: 86bebb0c56f545e4580ef3d81eee0d7f, type: 3}
+    - sprite: {fileID: 21300000, guid: 86bebb0c56f545e4580ef3d81eee0d7f, type: 3}
+      spriteName: dice_d4-3
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d4-4
-      sprite: {fileID: 21300000, guid: bd2dc4def1591444389b41315b6d2385, type: 3}
+    - sprite: {fileID: 21300000, guid: bd2dc4def1591444389b41315b6d2385, type: 3}
+      spriteName: dice_d4-4
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

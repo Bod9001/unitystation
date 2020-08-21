@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cockroach_large_0
-      sprite: {fileID: 2290313375226641300, guid: b9d2427783440ee41a36a95e4a27a1b3,
+    - sprite: {fileID: 2290313375226641300, guid: b9d2427783440ee41a36a95e4a27a1b3,
         type: 3}
+      spriteName: cockroach_large_0
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

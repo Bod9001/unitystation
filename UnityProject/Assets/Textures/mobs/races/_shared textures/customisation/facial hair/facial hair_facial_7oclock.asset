@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: facial_7oclock_0
-      sprite: {fileID: 21300000, guid: eb12bc4119cfac24a9cd1da956b3b4ff, type: 3}
+    - sprite: {fileID: 21300000, guid: eb12bc4119cfac24a9cd1da956b3b4ff, type: 3}
+      spriteName: facial_7oclock_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_7oclock_1
-      sprite: {fileID: 21300002, guid: eb12bc4119cfac24a9cd1da956b3b4ff, type: 3}
+    - sprite: {fileID: 21300002, guid: eb12bc4119cfac24a9cd1da956b3b4ff, type: 3}
+      spriteName: facial_7oclock_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_7oclock_2
-      sprite: {fileID: 21300004, guid: eb12bc4119cfac24a9cd1da956b3b4ff, type: 3}
+    - sprite: {fileID: 21300004, guid: eb12bc4119cfac24a9cd1da956b3b4ff, type: 3}
+      spriteName: facial_7oclock_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_7oclock_3
-      sprite: {fileID: 21300006, guid: eb12bc4119cfac24a9cd1da956b3b4ff, type: 3}
+    - sprite: {fileID: 21300006, guid: eb12bc4119cfac24a9cd1da956b3b4ff, type: 3}
+      spriteName: facial_7oclock_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

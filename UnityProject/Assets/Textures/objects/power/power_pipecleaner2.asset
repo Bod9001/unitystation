@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: power_pipecleaner2
-      sprite: {fileID: 21300000, guid: 74eb2991f55c0bc418a5eebc00ddf71a, type: 3}
+    - sprite: {fileID: 21300000, guid: 74eb2991f55c0bc418a5eebc00ddf71a, type: 3}
+      spriteName: power_pipecleaner2
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

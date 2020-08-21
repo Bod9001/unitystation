@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: inventory states_bloodhand_left
-      sprite: {fileID: 21300000, guid: 5b6c524db0ceb58449cb3348feedcdc2, type: 3}
+    - sprite: {fileID: 21300000, guid: 5b6c524db0ceb58449cb3348feedcdc2, type: 3}
+      spriteName: inventory states_bloodhand_left
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: suits_heavy_icon
-      sprite: {fileID: 21300000, guid: ba72b07b3bb62c641923b1ecf83c7303, type: 3}
+    - sprite: {fileID: 21300000, guid: ba72b07b3bb62c641923b1ecf83c7303, type: 3}
+      spriteName: suits_heavy_icon
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

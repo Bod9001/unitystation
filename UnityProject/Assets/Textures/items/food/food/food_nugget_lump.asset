@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_nugget_lump
-      sprite: {fileID: 21300000, guid: d82ee1101a1b4af428021ae883662bcf, type: 3}
+    - sprite: {fileID: 21300000, guid: d82ee1101a1b4af428021ae883662bcf, type: 3}
+      spriteName: food_nugget_lump
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

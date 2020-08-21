@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: winterboots_0
-      sprite: {fileID: 21300000, guid: 24a72d3868bf09e48a23931febda454e, type: 3}
+    - sprite: {fileID: 21300000, guid: 24a72d3868bf09e48a23931febda454e, type: 3}
+      spriteName: winterboots_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: winterboots_1
-      sprite: {fileID: 21300002, guid: 24a72d3868bf09e48a23931febda454e, type: 3}
+    - sprite: {fileID: 21300002, guid: 24a72d3868bf09e48a23931febda454e, type: 3}
+      spriteName: winterboots_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: winterboots_2
-      sprite: {fileID: 21300004, guid: 24a72d3868bf09e48a23931febda454e, type: 3}
+    - sprite: {fileID: 21300004, guid: 24a72d3868bf09e48a23931febda454e, type: 3}
+      spriteName: winterboots_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: winterboots_3
-      sprite: {fileID: 21300006, guid: 24a72d3868bf09e48a23931febda454e, type: 3}
+    - sprite: {fileID: 21300006, guid: 24a72d3868bf09e48a23931febda454e, type: 3}
+      spriteName: winterboots_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

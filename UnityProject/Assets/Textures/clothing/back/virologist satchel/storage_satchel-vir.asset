@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_satchel-vir
-      sprite: {fileID: 21300000, guid: 16f3559eb09c65a49aa6976c9c97551b, type: 3}
+    - sprite: {fileID: 21300000, guid: 16f3559eb09c65a49aa6976c9c97551b, type: 3}
+      spriteName: storage_satchel-vir
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

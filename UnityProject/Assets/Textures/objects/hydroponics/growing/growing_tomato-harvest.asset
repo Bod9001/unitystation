@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_tomato-harvest
-      sprite: {fileID: 21300000, guid: c7dac0ffd92f52f4cb86c357e604444c, type: 3}
+    - sprite: {fileID: 21300000, guid: c7dac0ffd92f52f4cb86c357e604444c, type: 3}
+      spriteName: growing_tomato-harvest
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

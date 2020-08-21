@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_items_vortex_ff_on
-      sprite: {fileID: 21300000, guid: d34969b84567def48838ef279b7e331b, type: 3}
+    - sprite: {fileID: 21300000, guid: d34969b84567def48838ef279b7e331b, type: 3}
+      spriteName: actions_items_vortex_ff_on
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: soapsyndie_0
-      sprite: {fileID: 21300000, guid: 68da8fc1bddbfd34c820dc451923da40, type: 3}
+    - sprite: {fileID: 21300000, guid: 68da8fc1bddbfd34c820dc451923da40, type: 3}
+      spriteName: soapsyndie_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: soapsyndie_1
-      sprite: {fileID: 21300002, guid: 68da8fc1bddbfd34c820dc451923da40, type: 3}
+    - sprite: {fileID: 21300002, guid: 68da8fc1bddbfd34c820dc451923da40, type: 3}
+      spriteName: soapsyndie_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: soapsyndie_2
-      sprite: {fileID: 21300004, guid: 68da8fc1bddbfd34c820dc451923da40, type: 3}
+    - sprite: {fileID: 21300004, guid: 68da8fc1bddbfd34c820dc451923da40, type: 3}
+      spriteName: soapsyndie_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: soapsyndie_3
-      sprite: {fileID: 21300006, guid: 68da8fc1bddbfd34c820dc451923da40, type: 3}
+    - sprite: {fileID: 21300006, guid: 68da8fc1bddbfd34c820dc451923da40, type: 3}
+      spriteName: soapsyndie_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

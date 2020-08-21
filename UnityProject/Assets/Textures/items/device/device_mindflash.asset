@@ -14,28 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mindflash_0
-      sprite: {fileID: 21300000, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+    - sprite: {fileID: 21300000, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+      spriteName: mindflash_0
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: mindflash_1
-      sprite: {fileID: 21300002, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+    - sprite: {fileID: 21300002, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+      spriteName: mindflash_1
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: mindflash_2
-      sprite: {fileID: 21300004, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+    - sprite: {fileID: 21300004, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+      spriteName: mindflash_2
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: mindflash_3
-      sprite: {fileID: 21300006, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+    - sprite: {fileID: 21300006, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+      spriteName: mindflash_3
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: mindflash_4
-      sprite: {fileID: 21300008, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+    - sprite: {fileID: 21300008, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+      spriteName: mindflash_4
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: mindflash_5
-      sprite: {fileID: 21300010, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+    - sprite: {fileID: 21300010, guid: 985bcf36a5364a14d83955e92ced3b72, type: 3}
+      spriteName: mindflash_5
       secondDelay: 0.2
       AtlasUsing: 5
   IsPalette: 0

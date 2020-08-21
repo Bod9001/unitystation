@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_slime_slimeswap
-      sprite: {fileID: 21300000, guid: 454edfb7f752a7342b112c0f73245dcc, type: 3}
+    - sprite: {fileID: 21300000, guid: 454edfb7f752a7342b112c0f73245dcc, type: 3}
+      spriteName: actions_slime_slimeswap
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: firelemon_active_0
-      sprite: {fileID: 1425557891901988961, guid: 335b50d08b29a444d85b8bf8463b8f57,
+    - sprite: {fileID: 1425557891901988961, guid: 335b50d08b29a444d85b8bf8463b8f57,
         type: 3}
+      spriteName: firelemon_active_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: firelemon_active_1
-      sprite: {fileID: 6309590026213393215, guid: 335b50d08b29a444d85b8bf8463b8f57,
+    - sprite: {fileID: 6309590026213393215, guid: 335b50d08b29a444d85b8bf8463b8f57,
         type: 3}
+      spriteName: firelemon_active_1
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

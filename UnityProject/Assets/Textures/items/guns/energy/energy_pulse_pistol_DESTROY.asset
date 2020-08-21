@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: energy_pulse_pistol_DESTROY
-      sprite: {fileID: 21300000, guid: fc9322bc9e368944580ad0bba923ff8a, type: 3}
+    - sprite: {fileID: 21300000, guid: fc9322bc9e368944580ad0bba923ff8a, type: 3}
+      spriteName: energy_pulse_pistol_DESTROY
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

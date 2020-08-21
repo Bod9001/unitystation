@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: plants_plant-05
-      sprite: {fileID: 21300000, guid: 661a32052c964a149ae064fe556b136c, type: 3}
+    - sprite: {fileID: 21300000, guid: 661a32052c964a149ae064fe556b136c, type: 3}
+      spriteName: plants_plant-05
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

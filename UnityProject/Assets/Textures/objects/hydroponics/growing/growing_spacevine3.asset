@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_spacevine3
-      sprite: {fileID: 21300000, guid: a75514e0b4883eb42a709399b5db908a, type: 3}
+    - sprite: {fileID: 21300000, guid: a75514e0b4883eb42a709399b5db908a, type: 3}
+      spriteName: growing_spacevine3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

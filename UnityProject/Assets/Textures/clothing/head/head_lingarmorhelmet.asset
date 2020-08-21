@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lingarmorhelmet_0
-      sprite: {fileID: 21300000, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+    - sprite: {fileID: 21300000, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+      spriteName: lingarmorhelmet_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: lingarmorhelmet_1
-      sprite: {fileID: 21300002, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+    - sprite: {fileID: 21300002, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+      spriteName: lingarmorhelmet_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: lingarmorhelmet_2
-      sprite: {fileID: 21300004, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+    - sprite: {fileID: 21300004, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+      spriteName: lingarmorhelmet_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: lingarmorhelmet_3
-      sprite: {fileID: 21300006, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+    - sprite: {fileID: 21300006, guid: 94a58b4d9af91ff4e9f673f5a7c404c4, type: 3}
+      spriteName: lingarmorhelmet_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

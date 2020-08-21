@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: parallax_planet
-      sprite: {fileID: 21300000, guid: f566b6c2d2c464d47a81116be0d670b7, type: 3}
+    - sprite: {fileID: 21300000, guid: f566b6c2d2c464d47a81116be0d670b7, type: 3}
+      spriteName: parallax_planet
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

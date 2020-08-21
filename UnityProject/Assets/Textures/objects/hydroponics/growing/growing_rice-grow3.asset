@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_rice-grow3
-      sprite: {fileID: 21300000, guid: 3aa30231dfb578143af3d72e9fd5c2ae, type: 3}
+    - sprite: {fileID: 21300000, guid: 3aa30231dfb578143af3d72e9fd5c2ae, type: 3}
+      spriteName: growing_rice-grow3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

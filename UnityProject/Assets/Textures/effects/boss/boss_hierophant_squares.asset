@@ -14,87 +14,87 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hierophant_squares_0
-      sprite: {fileID: 21300000, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300000, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_0
       secondDelay: 0.025
       AtlasUsing: 9
-    - spriteName: hierophant_squares_4
-      sprite: {fileID: 21300008, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300008, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_4
       secondDelay: 0.05
       AtlasUsing: 9
-    - spriteName: hierophant_squares_8
-      sprite: {fileID: 21300016, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300016, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_8
       secondDelay: 0.075
       AtlasUsing: 9
-    - spriteName: hierophant_squares_12
-      sprite: {fileID: 21300024, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300024, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_12
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: hierophant_squares_16
-      sprite: {fileID: 21300032, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300032, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_16
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: hierophant_squares_1
-      sprite: {fileID: 21300002, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300002, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_1
       secondDelay: 0.025
       AtlasUsing: 9
-    - spriteName: hierophant_squares_5
-      sprite: {fileID: 21300010, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300010, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_5
       secondDelay: 0.05
       AtlasUsing: 9
-    - spriteName: hierophant_squares_9
-      sprite: {fileID: 21300018, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300018, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_9
       secondDelay: 0.075
       AtlasUsing: 9
-    - spriteName: hierophant_squares_13
-      sprite: {fileID: 21300026, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300026, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_13
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: hierophant_squares_17
-      sprite: {fileID: 21300034, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300034, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_17
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: hierophant_squares_2
-      sprite: {fileID: 21300004, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300004, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_2
       secondDelay: 0.025
       AtlasUsing: 9
-    - spriteName: hierophant_squares_6
-      sprite: {fileID: 21300012, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300012, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_6
       secondDelay: 0.05
       AtlasUsing: 9
-    - spriteName: hierophant_squares_10
-      sprite: {fileID: 21300020, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300020, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_10
       secondDelay: 0.075
       AtlasUsing: 9
-    - spriteName: hierophant_squares_14
-      sprite: {fileID: 21300028, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300028, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_14
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: hierophant_squares_18
-      sprite: {fileID: 21300036, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300036, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_18
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: hierophant_squares_3
-      sprite: {fileID: 21300006, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300006, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_3
       secondDelay: 0.025
       AtlasUsing: 9
-    - spriteName: hierophant_squares_7
-      sprite: {fileID: 21300014, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300014, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_7
       secondDelay: 0.05
       AtlasUsing: 9
-    - spriteName: hierophant_squares_11
-      sprite: {fileID: 21300022, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300022, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_11
       secondDelay: 0.075
       AtlasUsing: 9
-    - spriteName: hierophant_squares_15
-      sprite: {fileID: 21300030, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300030, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_15
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: hierophant_squares_19
-      sprite: {fileID: 21300038, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+    - sprite: {fileID: 21300038, guid: a6dbb4384a4df434cbca2ae78b437807, type: 3}
+      spriteName: hierophant_squares_19
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

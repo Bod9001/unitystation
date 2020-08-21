@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chasms_2-e
-      sprite: {fileID: 21300000, guid: 29f3d42d0bd7a514caafacf8124cd536, type: 3}
+    - sprite: {fileID: 21300000, guid: 29f3d42d0bd7a514caafacf8124cd536, type: 3}
+      spriteName: chasms_2-e
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clockwork_objects_rare_pepe
-      sprite: {fileID: 21300000, guid: 3b34bdb9350022548b32ad03603020d5, type: 3}
+    - sprite: {fileID: 21300000, guid: 3b34bdb9350022548b32ad03603020d5, type: 3}
+      spriteName: clockwork_objects_rare_pepe
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

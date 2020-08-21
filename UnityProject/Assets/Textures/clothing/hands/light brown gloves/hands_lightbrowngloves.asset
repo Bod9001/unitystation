@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lightbrowngloves_0
-      sprite: {fileID: 21300000, guid: 6b418ef15d670e9438916e97a1c18038, type: 3}
+    - sprite: {fileID: 21300000, guid: 6b418ef15d670e9438916e97a1c18038, type: 3}
+      spriteName: lightbrowngloves_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: lightbrowngloves_1
-      sprite: {fileID: 21300002, guid: 6b418ef15d670e9438916e97a1c18038, type: 3}
+    - sprite: {fileID: 21300002, guid: 6b418ef15d670e9438916e97a1c18038, type: 3}
+      spriteName: lightbrowngloves_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: lightbrowngloves_2
-      sprite: {fileID: 21300004, guid: 6b418ef15d670e9438916e97a1c18038, type: 3}
+    - sprite: {fileID: 21300004, guid: 6b418ef15d670e9438916e97a1c18038, type: 3}
+      spriteName: lightbrowngloves_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: lightbrowngloves_3
-      sprite: {fileID: 21300006, guid: 6b418ef15d670e9438916e97a1c18038, type: 3}
+    - sprite: {fileID: 21300006, guid: 6b418ef15d670e9438916e97a1c18038, type: 3}
+      spriteName: lightbrowngloves_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

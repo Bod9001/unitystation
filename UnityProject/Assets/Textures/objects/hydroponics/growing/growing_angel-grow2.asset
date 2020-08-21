@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_angel-grow2
-      sprite: {fileID: 21300000, guid: 5757bbffc6647ad4aa7e4571de56068e, type: 3}
+    - sprite: {fileID: 21300000, guid: 5757bbffc6647ad4aa7e4571de56068e, type: 3}
+      spriteName: growing_angel-grow2
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

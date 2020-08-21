@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: diverter0_0
-      sprite: {fileID: 21300000, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+    - sprite: {fileID: 21300000, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+      spriteName: diverter0_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diverter0_1
-      sprite: {fileID: 21300002, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+    - sprite: {fileID: 21300002, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+      spriteName: diverter0_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diverter0_2
-      sprite: {fileID: 21300004, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+    - sprite: {fileID: 21300004, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+      spriteName: diverter0_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diverter0_3
-      sprite: {fileID: 21300006, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+    - sprite: {fileID: 21300006, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+      spriteName: diverter0_3
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diverter0_4
-      sprite: {fileID: 21300008, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+    - sprite: {fileID: 21300008, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+      spriteName: diverter0_4
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diverter0_5
-      sprite: {fileID: 21300010, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+    - sprite: {fileID: 21300010, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+      spriteName: diverter0_5
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diverter0_6
-      sprite: {fileID: 21300012, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+    - sprite: {fileID: 21300012, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+      spriteName: diverter0_6
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diverter0_7
-      sprite: {fileID: 21300014, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+    - sprite: {fileID: 21300014, guid: cd79dd7e3d34cf54dac28a91b9887002, type: 3}
+      spriteName: diverter0_7
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rd_helm_0
-      sprite: {fileID: 4809408853769205340, guid: 815640b348d2277498f4b8d04269f82c,
+    - sprite: {fileID: 4809408853769205340, guid: 815640b348d2277498f4b8d04269f82c,
         type: 3}
+      spriteName: rd_helm_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: rd_helm_1
-      sprite: {fileID: -7123290814350480799, guid: 815640b348d2277498f4b8d04269f82c,
+    - sprite: {fileID: -7123290814350480799, guid: 815640b348d2277498f4b8d04269f82c,
         type: 3}
+      spriteName: rd_helm_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: rd_helm_2
-      sprite: {fileID: -8981885213578659611, guid: 815640b348d2277498f4b8d04269f82c,
+    - sprite: {fileID: -8981885213578659611, guid: 815640b348d2277498f4b8d04269f82c,
         type: 3}
+      spriteName: rd_helm_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: rd_helm_3
-      sprite: {fileID: -6135785050917432977, guid: 815640b348d2277498f4b8d04269f82c,
+    - sprite: {fileID: -6135785050917432977, guid: 815640b348d2277498f4b8d04269f82c,
         type: 3}
+      spriteName: rd_helm_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

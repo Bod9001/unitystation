@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_changeling_sting_extract
-      sprite: {fileID: 21300000, guid: ad7d73d2651bef34b917838cc3dd4bb0, type: 3}
+    - sprite: {fileID: 21300000, guid: ad7d73d2651bef34b917838cc3dd4bb0, type: 3}
+      spriteName: actions_changeling_sting_extract
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

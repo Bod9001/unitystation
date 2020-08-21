@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: limbgrower_limbgrower_panelopen
-      sprite: {fileID: 21300000, guid: 07b2987d4c69e094e8774d988fc75317, type: 3}
+    - sprite: {fileID: 21300000, guid: 07b2987d4c69e094e8774d988fc75317, type: 3}
+      spriteName: limbgrower_limbgrower_panelopen
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

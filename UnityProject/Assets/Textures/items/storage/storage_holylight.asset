@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_holylight
-      sprite: {fileID: 21300000, guid: af86864cc1df66c419a536325d89ca15, type: 3}
+    - sprite: {fileID: 21300000, guid: af86864cc1df66c419a536325d89ca15, type: 3}
+      spriteName: storage_holylight
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

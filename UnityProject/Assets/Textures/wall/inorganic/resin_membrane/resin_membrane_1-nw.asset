@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: resin_membrane_1-nw
-      sprite: {fileID: 21300000, guid: a1d64b1c3c87c7748b15a7d79f6496e9, type: 3}
+    - sprite: {fileID: 21300000, guid: a1d64b1c3c87c7748b15a7d79f6496e9, type: 3}
+      spriteName: resin_membrane_1-nw
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

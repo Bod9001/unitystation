@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: decals_warn_full_red
-      sprite: {fileID: 21300000, guid: 1162605f82ce6ac4a9035f3386160eeb, type: 3}
+    - sprite: {fileID: 21300000, guid: 1162605f82ce6ac4a9035f3386160eeb, type: 3}
+      spriteName: decals_warn_full_red
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

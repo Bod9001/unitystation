@@ -14,52 +14,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dominator-overlay_0
-      sprite: {fileID: 21300000, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300000, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_1
-      sprite: {fileID: 21300002, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300002, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_2
-      sprite: {fileID: 21300004, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300004, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_3
-      sprite: {fileID: 21300006, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300006, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_3
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_4
-      sprite: {fileID: 21300008, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300008, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_5
-      sprite: {fileID: 21300010, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300010, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_6
-      sprite: {fileID: 21300012, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300012, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_7
-      sprite: {fileID: 21300014, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300014, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_7
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_8
-      sprite: {fileID: 21300016, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300016, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_8
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_9
-      sprite: {fileID: 21300018, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300018, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_9
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_10
-      sprite: {fileID: 21300020, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300020, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_10
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: dominator-overlay_11
-      sprite: {fileID: 21300022, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+    - sprite: {fileID: 21300022, guid: 26bfc1ae14da51942b26a6220b2ce985, type: 3}
+      spriteName: dominator-overlay_11
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

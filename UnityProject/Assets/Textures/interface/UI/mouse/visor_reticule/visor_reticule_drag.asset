@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: visor_reticule_drag
-      sprite: {fileID: 21300000, guid: 24aacdd3d38f16e4783bdf65e40c6a29, type: 3}
+    - sprite: {fileID: 21300000, guid: 24aacdd3d38f16e4783bdf65e40c6a29, type: 3}
+      spriteName: visor_reticule_drag
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: wood_table_wood_table
-      sprite: {fileID: 21300000, guid: c863f2b317c8c6b46a71b11614c0496e, type: 3}
+    - sprite: {fileID: 21300000, guid: c863f2b317c8c6b46a71b11614c0496e, type: 3}
+      spriteName: wood_table_wood_table
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_cult_armor
-      sprite: {fileID: 21300000, guid: f973151b6c8c32147889dbc2ad6521e8, type: 3}
+    - sprite: {fileID: 21300000, guid: f973151b6c8c32147889dbc2ad6521e8, type: 3}
+      spriteName: actions_cult_armor
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

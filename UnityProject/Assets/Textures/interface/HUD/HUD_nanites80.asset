@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: HUD_nanites80
-      sprite: {fileID: 21300000, guid: c16a649ec4565c740ae0318f7f6e08c5, type: 3}
+    - sprite: {fileID: 21300000, guid: c16a649ec4565c740ae0318f7f6e08c5, type: 3}
+      spriteName: HUD_nanites80
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

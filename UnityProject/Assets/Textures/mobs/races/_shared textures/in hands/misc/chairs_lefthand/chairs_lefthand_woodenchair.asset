@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: woodenchair_0
-      sprite: {fileID: 21300000, guid: d47ab28d1040734438cc9665b9f085f0, type: 3}
+    - sprite: {fileID: 21300000, guid: d47ab28d1040734438cc9665b9f085f0, type: 3}
+      spriteName: woodenchair_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: woodenchair_1
-      sprite: {fileID: 21300002, guid: d47ab28d1040734438cc9665b9f085f0, type: 3}
+    - sprite: {fileID: 21300002, guid: d47ab28d1040734438cc9665b9f085f0, type: 3}
+      spriteName: woodenchair_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: woodenchair_2
-      sprite: {fileID: 21300004, guid: d47ab28d1040734438cc9665b9f085f0, type: 3}
+    - sprite: {fileID: 21300004, guid: d47ab28d1040734438cc9665b9f085f0, type: 3}
+      spriteName: woodenchair_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: woodenchair_3
-      sprite: {fileID: 21300006, guid: d47ab28d1040734438cc9665b9f085f0, type: 3}
+    - sprite: {fileID: 21300006, guid: d47ab28d1040734438cc9665b9f085f0, type: 3}
+      spriteName: woodenchair_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

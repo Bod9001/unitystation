@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: stack_objects_sheet-hide
-      sprite: {fileID: 21300000, guid: 7748ecab181535e42a15ffc95f963853, type: 3}
+    - sprite: {fileID: 21300000, guid: 7748ecab181535e42a15ffc95f963853, type: 3}
+      spriteName: stack_objects_sheet-hide
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

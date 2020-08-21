@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: swordoff_0
-      sprite: {fileID: 21300000, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
+    - sprite: {fileID: 21300000, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
+      spriteName: swordoff_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: swordoff_1
-      sprite: {fileID: 21300002, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
+    - sprite: {fileID: 21300002, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
+      spriteName: swordoff_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: swordoff_2
-      sprite: {fileID: 21300004, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
+    - sprite: {fileID: 21300004, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
+      spriteName: swordoff_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: swordoff_3
-      sprite: {fileID: 21300006, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
+    - sprite: {fileID: 21300006, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
+      spriteName: swordoff_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

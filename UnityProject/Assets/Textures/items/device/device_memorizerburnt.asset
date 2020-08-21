@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: device_memorizerburnt
-      sprite: {fileID: 21300000, guid: 21d48a2f40f28344caec7fc05188af47, type: 3}
+    - sprite: {fileID: 21300000, guid: 21d48a2f40f28344caec7fc05188af47, type: 3}
+      spriteName: device_memorizerburnt
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

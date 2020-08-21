@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: burgerbread_bearger
-      sprite: {fileID: 21300000, guid: ce167f11caea97b47aa57a7a08f4cc5d, type: 3}
+    - sprite: {fileID: 21300000, guid: ce167f11caea97b47aa57a7a08f4cc5d, type: 3}
+      spriteName: burgerbread_bearger
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

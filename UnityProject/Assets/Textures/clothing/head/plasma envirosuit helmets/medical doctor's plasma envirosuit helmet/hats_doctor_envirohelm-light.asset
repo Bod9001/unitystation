@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_doctor_envirohelm-light
-      sprite: {fileID: 21300000, guid: 9c7ffacbfa467d54187d5d17714ffa32, type: 3}
+    - sprite: {fileID: 21300000, guid: 9c7ffacbfa467d54187d5d17714ffa32, type: 3}
+      spriteName: hats_doctor_envirohelm-light
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

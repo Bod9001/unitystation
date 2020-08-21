@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blackplasma_0
-      sprite: {fileID: 5040442135155708814, guid: feeaad8f3c4e49b4083f55192d041044,
+    - sprite: {fileID: 5040442135155708814, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
+      spriteName: blackplasma_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blackplasma_1
-      sprite: {fileID: -3978785285439154241, guid: feeaad8f3c4e49b4083f55192d041044,
+    - sprite: {fileID: -3978785285439154241, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
+      spriteName: blackplasma_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blackplasma_2
-      sprite: {fileID: 6812573463751213204, guid: feeaad8f3c4e49b4083f55192d041044,
+    - sprite: {fileID: 6812573463751213204, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
+      spriteName: blackplasma_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blackplasma_3
-      sprite: {fileID: -3337200772770736780, guid: feeaad8f3c4e49b4083f55192d041044,
+    - sprite: {fileID: -3337200772770736780, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
+      spriteName: blackplasma_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

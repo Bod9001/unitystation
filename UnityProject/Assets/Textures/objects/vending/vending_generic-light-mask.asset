@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_generic-light-mask
-      sprite: {fileID: 21300000, guid: fbe34bcf18fe069478221ec1a14b527b, type: 3}
+    - sprite: {fileID: 21300000, guid: fbe34bcf18fe069478221ec1a14b527b, type: 3}
+      spriteName: vending_generic-light-mask
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

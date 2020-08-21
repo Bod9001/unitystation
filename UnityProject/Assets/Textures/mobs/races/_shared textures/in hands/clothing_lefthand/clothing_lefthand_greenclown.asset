@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: greenclown_0
-      sprite: {fileID: 21300000, guid: f3e24e0422cc2f7468ed96209bd71add, type: 3}
+    - sprite: {fileID: 21300000, guid: f3e24e0422cc2f7468ed96209bd71add, type: 3}
+      spriteName: greenclown_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: greenclown_1
-      sprite: {fileID: 21300002, guid: f3e24e0422cc2f7468ed96209bd71add, type: 3}
+    - sprite: {fileID: 21300002, guid: f3e24e0422cc2f7468ed96209bd71add, type: 3}
+      spriteName: greenclown_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: greenclown_2
-      sprite: {fileID: 21300004, guid: f3e24e0422cc2f7468ed96209bd71add, type: 3}
+    - sprite: {fileID: 21300004, guid: f3e24e0422cc2f7468ed96209bd71add, type: 3}
+      spriteName: greenclown_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: greenclown_3
-      sprite: {fileID: 21300006, guid: f3e24e0422cc2f7468ed96209bd71add, type: 3}
+    - sprite: {fileID: 21300006, guid: f3e24e0422cc2f7468ed96209bd71add, type: 3}
+      spriteName: greenclown_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 22089

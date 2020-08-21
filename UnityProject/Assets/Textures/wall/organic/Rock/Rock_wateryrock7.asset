@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Rock_wateryrock7
-      sprite: {fileID: 21300000, guid: 1f8c3a0dcf36a2b40addb7fe65b64c28, type: 3}
+    - sprite: {fileID: 21300000, guid: 1f8c3a0dcf36a2b40addb7fe65b64c28, type: 3}
+      spriteName: Rock_wateryrock7
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

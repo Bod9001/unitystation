@@ -14,68 +14,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: light_on_broken_0
-      sprite: {fileID: 21300000, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300000, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_0
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_1
-      sprite: {fileID: 21300002, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300002, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_1
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_2
-      sprite: {fileID: 21300004, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300004, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_2
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_3
-      sprite: {fileID: 21300006, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300006, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_3
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_4
-      sprite: {fileID: 21300008, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300008, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_4
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_5
-      sprite: {fileID: 21300010, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300010, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_5
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_6
-      sprite: {fileID: 21300012, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300012, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_6
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_7
-      sprite: {fileID: 21300014, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300014, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_7
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_8
-      sprite: {fileID: 21300016, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300016, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_8
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_9
-      sprite: {fileID: 21300018, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300018, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_9
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_10
-      sprite: {fileID: 21300020, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300020, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_10
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_11
-      sprite: {fileID: 21300022, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300022, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_11
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_12
-      sprite: {fileID: 21300024, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300024, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_12
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_13
-      sprite: {fileID: 21300026, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300026, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_13
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_14
-      sprite: {fileID: 21300028, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300028, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_14
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on_broken_15
-      sprite: {fileID: 21300030, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+    - sprite: {fileID: 21300030, guid: e01f88f8e4d87654bbeb75548442ec51, type: 3}
+      spriteName: light_on_broken_15
       secondDelay: 0.1
       AtlasUsing: 10
   IsPalette: 0

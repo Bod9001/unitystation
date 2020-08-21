@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_cotton-grow2
-      sprite: {fileID: 21300000, guid: 77a56df4b8739e948bef8858f1c6d21e, type: 3}
+    - sprite: {fileID: 21300000, guid: 77a56df4b8739e948bef8858f1c6d21e, type: 3}
+      spriteName: growing_cotton-grow2
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

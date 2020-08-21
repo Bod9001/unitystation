@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hourglass_6_0
-      sprite: {fileID: 21300000, guid: c956fa6902933f740b45f3e58c3c3885, type: 3}
+    - sprite: {fileID: 21300000, guid: c956fa6902933f740b45f3e58c3c3885, type: 3}
+      spriteName: hourglass_6_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: hourglass_6_1
-      sprite: {fileID: 21300002, guid: c956fa6902933f740b45f3e58c3c3885, type: 3}
+    - sprite: {fileID: 21300002, guid: c956fa6902933f740b45f3e58c3c3885, type: 3}
+      spriteName: hourglass_6_1
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: hourglass_6_2
-      sprite: {fileID: 21300004, guid: c956fa6902933f740b45f3e58c3c3885, type: 3}
+    - sprite: {fileID: 21300004, guid: c956fa6902933f740b45f3e58c3c3885, type: 3}
+      spriteName: hourglass_6_2
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

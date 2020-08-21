@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: redwizard_0
-      sprite: {fileID: 21300000, guid: 61fc7eada58b6e94d8ec3fcf18ee7792, type: 3}
+    - sprite: {fileID: 21300000, guid: 61fc7eada58b6e94d8ec3fcf18ee7792, type: 3}
+      spriteName: redwizard_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 6
   - Frames:
-    - spriteName: redwizard_1
-      sprite: {fileID: 21300002, guid: 61fc7eada58b6e94d8ec3fcf18ee7792, type: 3}
+    - sprite: {fileID: 21300002, guid: 61fc7eada58b6e94d8ec3fcf18ee7792, type: 3}
+      spriteName: redwizard_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 6
   - Frames:
-    - spriteName: redwizard_2
-      sprite: {fileID: 21300004, guid: 61fc7eada58b6e94d8ec3fcf18ee7792, type: 3}
+    - sprite: {fileID: 21300004, guid: 61fc7eada58b6e94d8ec3fcf18ee7792, type: 3}
+      spriteName: redwizard_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 6
   - Frames:
-    - spriteName: redwizard_3
-      sprite: {fileID: 21300006, guid: 61fc7eada58b6e94d8ec3fcf18ee7792, type: 3}
+    - sprite: {fileID: 21300006, guid: 61fc7eada58b6e94d8ec3fcf18ee7792, type: 3}
+      spriteName: redwizard_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 6
   IsPalette: 0
   setID: 12249

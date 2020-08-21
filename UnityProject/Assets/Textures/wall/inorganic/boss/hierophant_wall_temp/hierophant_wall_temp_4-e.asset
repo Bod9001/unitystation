@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hierophant_wall_temp_4-e
-      sprite: {fileID: 21300000, guid: 082e375ce802b7a4099c52c5d7ec8f03, type: 3}
+    - sprite: {fileID: 21300000, guid: 082e375ce802b7a4099c52c5d7ec8f03, type: 3}
+      spriteName: hierophant_wall_temp_4-e
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

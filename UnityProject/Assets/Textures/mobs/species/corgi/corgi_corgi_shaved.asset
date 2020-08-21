@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: corgi_shaved_0
-      sprite: {fileID: 21300000, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
+    - sprite: {fileID: 21300000, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
+      spriteName: corgi_shaved_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: corgi_shaved_1
-      sprite: {fileID: 21300002, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
+    - sprite: {fileID: 21300002, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
+      spriteName: corgi_shaved_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: corgi_shaved_2
-      sprite: {fileID: 21300004, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
+    - sprite: {fileID: 21300004, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
+      spriteName: corgi_shaved_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: corgi_shaved_3
-      sprite: {fileID: 21300006, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
+    - sprite: {fileID: 21300006, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
+      spriteName: corgi_shaved_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

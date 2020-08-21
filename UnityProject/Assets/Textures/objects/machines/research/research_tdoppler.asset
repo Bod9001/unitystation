@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tdoppler_0
-      sprite: {fileID: 21300000, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+    - sprite: {fileID: 21300000, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+      spriteName: tdoppler_0
       secondDelay: 0.8
       AtlasUsing: 8
-    - spriteName: tdoppler_4
-      sprite: {fileID: 21300008, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+    - sprite: {fileID: 21300008, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+      spriteName: tdoppler_4
       secondDelay: 0.2
       AtlasUsing: 8
   - Frames:
-    - spriteName: tdoppler_1
-      sprite: {fileID: 21300002, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+    - sprite: {fileID: 21300002, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+      spriteName: tdoppler_1
       secondDelay: 0.8
       AtlasUsing: 8
-    - spriteName: tdoppler_5
-      sprite: {fileID: 21300010, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+    - sprite: {fileID: 21300010, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+      spriteName: tdoppler_5
       secondDelay: 0.2
       AtlasUsing: 8
   - Frames:
-    - spriteName: tdoppler_2
-      sprite: {fileID: 21300004, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+    - sprite: {fileID: 21300004, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+      spriteName: tdoppler_2
       secondDelay: 0.8
       AtlasUsing: 8
-    - spriteName: tdoppler_6
-      sprite: {fileID: 21300012, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+    - sprite: {fileID: 21300012, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+      spriteName: tdoppler_6
       secondDelay: 0.2
       AtlasUsing: 8
   - Frames:
-    - spriteName: tdoppler_3
-      sprite: {fileID: 21300006, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+    - sprite: {fileID: 21300006, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+      spriteName: tdoppler_3
       secondDelay: 0.8
       AtlasUsing: 8
-    - spriteName: tdoppler_7
-      sprite: {fileID: 21300014, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+    - sprite: {fileID: 21300014, guid: 58289b86082a9b645b7743be4044b5d5, type: 3}
+      spriteName: tdoppler_7
       secondDelay: 0.2
       AtlasUsing: 8
   IsPalette: 0

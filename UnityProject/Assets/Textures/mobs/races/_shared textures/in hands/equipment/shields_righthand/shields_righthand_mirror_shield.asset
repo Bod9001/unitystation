@@ -14,71 +14,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mirror_shield_0
-      sprite: {fileID: 21300000, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300000, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_0
       secondDelay: 0.5
       AtlasUsing: 4
-    - spriteName: mirror_shield_4
-      sprite: {fileID: 21300008, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300008, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_4
       secondDelay: 0.05
       AtlasUsing: 4
-    - spriteName: mirror_shield_8
-      sprite: {fileID: 21300016, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300016, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_8
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: mirror_shield_12
-      sprite: {fileID: 21300024, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300024, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_12
       secondDelay: 0.1
       AtlasUsing: 4
   - Frames:
-    - spriteName: mirror_shield_1
-      sprite: {fileID: 21300002, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300002, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_1
       secondDelay: 0.5
       AtlasUsing: 4
-    - spriteName: mirror_shield_5
-      sprite: {fileID: 21300010, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300010, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_5
       secondDelay: 0.05
       AtlasUsing: 4
-    - spriteName: mirror_shield_9
-      sprite: {fileID: 21300018, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300018, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_9
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: mirror_shield_13
-      sprite: {fileID: 21300026, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300026, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_13
       secondDelay: 0.1
       AtlasUsing: 4
   - Frames:
-    - spriteName: mirror_shield_2
-      sprite: {fileID: 21300004, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300004, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_2
       secondDelay: 0.5
       AtlasUsing: 4
-    - spriteName: mirror_shield_6
-      sprite: {fileID: 21300012, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300012, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_6
       secondDelay: 0.05
       AtlasUsing: 4
-    - spriteName: mirror_shield_10
-      sprite: {fileID: 21300020, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300020, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_10
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: mirror_shield_14
-      sprite: {fileID: 21300028, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300028, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_14
       secondDelay: 0.1
       AtlasUsing: 4
   - Frames:
-    - spriteName: mirror_shield_3
-      sprite: {fileID: 21300006, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300006, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_3
       secondDelay: 0.5
       AtlasUsing: 4
-    - spriteName: mirror_shield_7
-      sprite: {fileID: 21300014, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300014, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_7
       secondDelay: 0.05
       AtlasUsing: 4
-    - spriteName: mirror_shield_11
-      sprite: {fileID: 21300022, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300022, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_11
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: mirror_shield_15
-      sprite: {fileID: 21300030, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+    - sprite: {fileID: 21300030, guid: 2658e09a02e8d13458c58d0849f7eda9, type: 3}
+      spriteName: mirror_shield_15
       secondDelay: 0.1
       AtlasUsing: 4
   IsPalette: 0

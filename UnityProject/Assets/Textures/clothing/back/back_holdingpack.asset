@@ -14,119 +14,119 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: holdingpack_0
-      sprite: {fileID: 21300000, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300000, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_0
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_4
-      sprite: {fileID: 21300008, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300008, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_4
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_8
-      sprite: {fileID: 21300016, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300016, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_8
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_12
-      sprite: {fileID: 21300024, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300024, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_12
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_16
-      sprite: {fileID: 21300032, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300032, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_16
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_20
-      sprite: {fileID: 21300040, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300040, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_20
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_24
-      sprite: {fileID: 21300048, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-  - Frames:
-    - spriteName: holdingpack_1
-      sprite: {fileID: 21300002, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: holdingpack_5
-      sprite: {fileID: 21300010, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: holdingpack_9
-      sprite: {fileID: 21300018, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: holdingpack_13
-      sprite: {fileID: 21300026, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: holdingpack_17
-      sprite: {fileID: 21300034, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: holdingpack_21
-      sprite: {fileID: 21300042, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: holdingpack_25
-      sprite: {fileID: 21300050, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300048, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_24
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: holdingpack_2
-      sprite: {fileID: 21300004, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300002, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_1
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_6
-      sprite: {fileID: 21300012, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300010, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_5
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_10
-      sprite: {fileID: 21300020, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300018, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_9
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_14
-      sprite: {fileID: 21300028, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300026, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_13
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_18
-      sprite: {fileID: 21300036, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300034, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_17
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_22
-      sprite: {fileID: 21300044, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300042, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_21
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_26
-      sprite: {fileID: 21300052, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300050, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_25
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: holdingpack_3
-      sprite: {fileID: 21300006, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300004, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_2
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_7
-      sprite: {fileID: 21300014, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300012, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_6
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_11
-      sprite: {fileID: 21300022, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300020, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_10
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_15
-      sprite: {fileID: 21300030, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300028, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_14
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_19
-      sprite: {fileID: 21300038, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300036, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_18
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_23
-      sprite: {fileID: 21300046, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300044, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_22
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: holdingpack_27
-      sprite: {fileID: 21300054, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+    - sprite: {fileID: 21300052, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_26
+      secondDelay: 0.1
+      AtlasUsing: 2
+  - Frames:
+    - sprite: {fileID: 21300006, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_3
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300014, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_7
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300022, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_11
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300030, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_15
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300038, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_19
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300046, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_23
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300054, guid: a37c63be44f42c94c841031add9c17e6, type: 3}
+      spriteName: holdingpack_27
       secondDelay: 0.1
       AtlasUsing: 2
   IsPalette: 0

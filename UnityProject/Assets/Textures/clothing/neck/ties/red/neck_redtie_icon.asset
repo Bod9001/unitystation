@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: neck_redtie_icon
-      sprite: {fileID: 21300000, guid: 2fe11fe7ee92df24581af05d9fec69d7, type: 3}
+    - sprite: {fileID: 21300000, guid: 2fe11fe7ee92df24581af05d9fec69d7, type: 3}
+      spriteName: neck_redtie_icon
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

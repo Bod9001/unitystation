@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lantern_0
-      sprite: {fileID: 21300000, guid: 8883262a51cab9e458c112c75bd0d919, type: 3}
+    - sprite: {fileID: 21300000, guid: 8883262a51cab9e458c112c75bd0d919, type: 3}
+      spriteName: lantern_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: lantern_1
-      sprite: {fileID: 21300002, guid: 8883262a51cab9e458c112c75bd0d919, type: 3}
+    - sprite: {fileID: 21300002, guid: 8883262a51cab9e458c112c75bd0d919, type: 3}
+      spriteName: lantern_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: lantern_2
-      sprite: {fileID: 21300004, guid: 8883262a51cab9e458c112c75bd0d919, type: 3}
+    - sprite: {fileID: 21300004, guid: 8883262a51cab9e458c112c75bd0d919, type: 3}
+      spriteName: lantern_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: lantern_3
-      sprite: {fileID: 21300006, guid: 8883262a51cab9e458c112c75bd0d919, type: 3}
+    - sprite: {fileID: 21300006, guid: 8883262a51cab9e458c112c75bd0d919, type: 3}
+      spriteName: lantern_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

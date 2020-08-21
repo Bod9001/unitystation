@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: straight_jacket_0
-      sprite: {fileID: 21300000, guid: c1e902a8359da934d8fc4dd290afe633, type: 3}
+    - sprite: {fileID: 21300000, guid: c1e902a8359da934d8fc4dd290afe633, type: 3}
+      spriteName: straight_jacket_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: straight_jacket_1
-      sprite: {fileID: 21300002, guid: c1e902a8359da934d8fc4dd290afe633, type: 3}
+    - sprite: {fileID: 21300002, guid: c1e902a8359da934d8fc4dd290afe633, type: 3}
+      spriteName: straight_jacket_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: straight_jacket_2
-      sprite: {fileID: 21300004, guid: c1e902a8359da934d8fc4dd290afe633, type: 3}
+    - sprite: {fileID: 21300004, guid: c1e902a8359da934d8fc4dd290afe633, type: 3}
+      spriteName: straight_jacket_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: straight_jacket_3
-      sprite: {fileID: 21300006, guid: c1e902a8359da934d8fc4dd290afe633, type: 3}
+    - sprite: {fileID: 21300006, guid: c1e902a8359da934d8fc4dd290afe633, type: 3}
+      spriteName: straight_jacket_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

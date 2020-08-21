@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: curator-trimmed_1
-      sprite: {fileID: 2009061661679001621, guid: 6cdf2c911a2515249bccc079a7ffd820,
+    - sprite: {fileID: 2009061661679001621, guid: 6cdf2c911a2515249bccc079a7ffd820,
         type: 3}
+      spriteName: curator-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,64 +14,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cobweb1_0
-      sprite: {fileID: 21300000, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300000, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_0
       secondDelay: 25.5
       AtlasUsing: 10
-    - spriteName: cobweb1_1
-      sprite: {fileID: 21300002, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300002, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_1
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_2
-      sprite: {fileID: 21300004, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300004, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_2
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_3
-      sprite: {fileID: 21300006, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300006, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_3
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_4
-      sprite: {fileID: 21300008, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300008, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_4
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_5
-      sprite: {fileID: 21300010, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300010, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_5
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_6
-      sprite: {fileID: 21300012, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300012, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_6
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_7
-      sprite: {fileID: 21300014, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300014, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_7
       secondDelay: 0.2
       AtlasUsing: 10
-    - spriteName: cobweb1_8
-      sprite: {fileID: 21300016, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300016, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_8
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_9
-      sprite: {fileID: 21300018, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300018, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_9
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_10
-      sprite: {fileID: 21300020, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300020, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_10
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_11
-      sprite: {fileID: 21300022, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300022, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_11
       secondDelay: 0.3
       AtlasUsing: 10
-    - spriteName: cobweb1_12
-      sprite: {fileID: 21300024, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300024, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_12
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_13
-      sprite: {fileID: 21300026, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300026, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_13
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: cobweb1_14
-      sprite: {fileID: 21300028, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+    - sprite: {fileID: 21300028, guid: f9c29b271b4fd274393e15364b70421a, type: 3}
+      spriteName: cobweb1_14
       secondDelay: 0.1
       AtlasUsing: 10
   IsPalette: 0

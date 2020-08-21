@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rice_window_3-i
-      sprite: {fileID: 21300000, guid: 29c32b6a5969a0849951a7bfb2654cec, type: 3}
+    - sprite: {fileID: 21300000, guid: 29c32b6a5969a0849951a7bfb2654cec, type: 3}
+      spriteName: rice_window_3-i
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

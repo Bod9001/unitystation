@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: syndicate-blue_0
-      sprite: {fileID: 21300000, guid: a6adda8a941a7b548a0fc0ffece61c44, type: 3}
+    - sprite: {fileID: 21300000, guid: a6adda8a941a7b548a0fc0ffece61c44, type: 3}
+      spriteName: syndicate-blue_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndicate-blue_1
-      sprite: {fileID: 21300002, guid: a6adda8a941a7b548a0fc0ffece61c44, type: 3}
+    - sprite: {fileID: 21300002, guid: a6adda8a941a7b548a0fc0ffece61c44, type: 3}
+      spriteName: syndicate-blue_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndicate-blue_2
-      sprite: {fileID: 21300004, guid: a6adda8a941a7b548a0fc0ffece61c44, type: 3}
+    - sprite: {fileID: 21300004, guid: a6adda8a941a7b548a0fc0ffece61c44, type: 3}
+      spriteName: syndicate-blue_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndicate-blue_3
-      sprite: {fileID: 21300006, guid: a6adda8a941a7b548a0fc0ffece61c44, type: 3}
+    - sprite: {fileID: 21300006, guid: a6adda8a941a7b548a0fc0ffece61c44, type: 3}
+      spriteName: syndicate-blue_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

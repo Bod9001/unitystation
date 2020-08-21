@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bureaucracy_newspaper
-      sprite: {fileID: 21300000, guid: 776b612942a0a7f4696576e6825c671d, type: 3}
+    - sprite: {fileID: 21300000, guid: 776b612942a0a7f4696576e6825c671d, type: 3}
+      spriteName: bureaucracy_newspaper
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

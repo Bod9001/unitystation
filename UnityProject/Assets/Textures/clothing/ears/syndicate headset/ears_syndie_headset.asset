@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: syndie_headset_0
-      sprite: {fileID: 21300000, guid: c33abe003ef10ef41bd55df9515d893a, type: 3}
+    - sprite: {fileID: 21300000, guid: c33abe003ef10ef41bd55df9515d893a, type: 3}
+      spriteName: syndie_headset_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndie_headset_1
-      sprite: {fileID: 21300002, guid: c33abe003ef10ef41bd55df9515d893a, type: 3}
+    - sprite: {fileID: 21300002, guid: c33abe003ef10ef41bd55df9515d893a, type: 3}
+      spriteName: syndie_headset_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndie_headset_2
-      sprite: {fileID: 21300004, guid: c33abe003ef10ef41bd55df9515d893a, type: 3}
+    - sprite: {fileID: 21300004, guid: c33abe003ef10ef41bd55df9515d893a, type: 3}
+      spriteName: syndie_headset_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndie_headset_3
-      sprite: {fileID: 21300006, guid: c33abe003ef10ef41bd55df9515d893a, type: 3}
+    - sprite: {fileID: 21300006, guid: c33abe003ef10ef41bd55df9515d893a, type: 3}
+      spriteName: syndie_headset_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

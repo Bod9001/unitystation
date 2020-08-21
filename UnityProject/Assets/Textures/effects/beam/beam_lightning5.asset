@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lightning5_0
-      sprite: {fileID: 21300000, guid: cb9392c4d98c31c48ad955db2030054f, type: 3}
+    - sprite: {fileID: 21300000, guid: cb9392c4d98c31c48ad955db2030054f, type: 3}
+      spriteName: lightning5_0
       secondDelay: 0.12
       AtlasUsing: 9
-    - spriteName: lightning5_1
-      sprite: {fileID: 21300002, guid: cb9392c4d98c31c48ad955db2030054f, type: 3}
+    - sprite: {fileID: 21300002, guid: cb9392c4d98c31c48ad955db2030054f, type: 3}
+      spriteName: lightning5_1
       secondDelay: 0.08
       AtlasUsing: 9
   IsPalette: 0

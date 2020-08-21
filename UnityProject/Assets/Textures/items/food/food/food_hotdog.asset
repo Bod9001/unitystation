@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_hotdog
-      sprite: {fileID: 21300000, guid: 0ac83d093d25fd24b97e557d2bdad3a0, type: 3}
+    - sprite: {fileID: 21300000, guid: 0ac83d093d25fd24b97e557d2bdad3a0, type: 3}
+      spriteName: food_hotdog
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vapeshirt_0
-      sprite: {fileID: 21300000, guid: d888a0fcb5fa6cf46b08032feff0d8e2, type: 3}
+    - sprite: {fileID: 21300000, guid: d888a0fcb5fa6cf46b08032feff0d8e2, type: 3}
+      spriteName: vapeshirt_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: vapeshirt_1
-      sprite: {fileID: 21300002, guid: d888a0fcb5fa6cf46b08032feff0d8e2, type: 3}
+    - sprite: {fileID: 21300002, guid: d888a0fcb5fa6cf46b08032feff0d8e2, type: 3}
+      spriteName: vapeshirt_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: vapeshirt_2
-      sprite: {fileID: 21300004, guid: d888a0fcb5fa6cf46b08032feff0d8e2, type: 3}
+    - sprite: {fileID: 21300004, guid: d888a0fcb5fa6cf46b08032feff0d8e2, type: 3}
+      spriteName: vapeshirt_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: vapeshirt_3
-      sprite: {fileID: 21300006, guid: d888a0fcb5fa6cf46b08032feff0d8e2, type: 3}
+    - sprite: {fileID: 21300006, guid: d888a0fcb5fa6cf46b08032feff0d8e2, type: 3}
+      spriteName: vapeshirt_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

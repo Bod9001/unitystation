@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: back_witch
-      sprite: {fileID: 21300000, guid: a2a9a90f5b347014eabcb3bb5210f5ed, type: 3}
+    - sprite: {fileID: 21300000, guid: a2a9a90f5b347014eabcb3bb5210f5ed, type: 3}
+      spriteName: back_witch
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

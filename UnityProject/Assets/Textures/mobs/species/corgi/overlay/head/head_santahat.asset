@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: santahat_0
-      sprite: {fileID: 21300000, guid: d5a0d5c9e7177284aaf08a609222e8a3, type: 3}
+    - sprite: {fileID: 21300000, guid: d5a0d5c9e7177284aaf08a609222e8a3, type: 3}
+      spriteName: santahat_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 6
   - Frames:
-    - spriteName: santahat_1
-      sprite: {fileID: 21300002, guid: d5a0d5c9e7177284aaf08a609222e8a3, type: 3}
+    - sprite: {fileID: 21300002, guid: d5a0d5c9e7177284aaf08a609222e8a3, type: 3}
+      spriteName: santahat_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 6
   - Frames:
-    - spriteName: santahat_2
-      sprite: {fileID: 21300004, guid: d5a0d5c9e7177284aaf08a609222e8a3, type: 3}
+    - sprite: {fileID: 21300004, guid: d5a0d5c9e7177284aaf08a609222e8a3, type: 3}
+      spriteName: santahat_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 6
   - Frames:
-    - spriteName: santahat_3
-      sprite: {fileID: 21300006, guid: d5a0d5c9e7177284aaf08a609222e8a3, type: 3}
+    - sprite: {fileID: 21300006, guid: d5a0d5c9e7177284aaf08a609222e8a3, type: 3}
+      spriteName: santahat_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 6
   IsPalette: 0
   setID: 12250

@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: whitegreen_0
-      sprite: {fileID: 21300000, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+    - sprite: {fileID: 21300000, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+      spriteName: whitegreen_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: whitegreen_1
-      sprite: {fileID: 21300002, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+    - sprite: {fileID: 21300002, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+      spriteName: whitegreen_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: whitegreen_2
-      sprite: {fileID: 21300004, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+    - sprite: {fileID: 21300004, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+      spriteName: whitegreen_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: whitegreen_3
-      sprite: {fileID: 21300006, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+    - sprite: {fileID: 21300006, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+      spriteName: whitegreen_3
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: whitegreen_4
-      sprite: {fileID: 21300008, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+    - sprite: {fileID: 21300008, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+      spriteName: whitegreen_4
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: whitegreen_5
-      sprite: {fileID: 21300010, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+    - sprite: {fileID: 21300010, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+      spriteName: whitegreen_5
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: whitegreen_6
-      sprite: {fileID: 21300012, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+    - sprite: {fileID: 21300012, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+      spriteName: whitegreen_6
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: whitegreen_7
-      sprite: {fileID: 21300014, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+    - sprite: {fileID: 21300014, guid: 0bfff5a1d6670aa46ab1fcc630100c89, type: 3}
+      spriteName: whitegreen_7
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

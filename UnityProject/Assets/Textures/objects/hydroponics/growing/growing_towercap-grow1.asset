@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_towercap-grow1
-      sprite: {fileID: 21300000, guid: dfc18f5db27d6ab4689e11b66c0cc5be, type: 3}
+    - sprite: {fileID: 21300000, guid: dfc18f5db27d6ab4689e11b66c0cc5be, type: 3}
+      spriteName: growing_towercap-grow1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

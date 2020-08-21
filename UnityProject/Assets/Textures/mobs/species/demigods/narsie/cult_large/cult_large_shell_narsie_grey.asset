@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cult_large_shell_narsie_grey
-      sprite: {fileID: 21300000, guid: 80224e0a6f314894cbf3785600a06987, type: 3}
+    - sprite: {fileID: 21300000, guid: 80224e0a6f314894cbf3785600a06987, type: 3}
+      spriteName: cult_large_shell_narsie_grey
       secondDelay: 0
       AtlasUsing: 1
   IsPalette: 0

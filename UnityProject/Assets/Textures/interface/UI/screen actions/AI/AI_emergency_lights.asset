@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: AI_emergency_lights
-      sprite: {fileID: 21300000, guid: 7b639391d0d0a384495dec8360991d94, type: 3}
+    - sprite: {fileID: 21300000, guid: 7b639391d0d0a384495dec8360991d94, type: 3}
+      spriteName: AI_emergency_lights
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

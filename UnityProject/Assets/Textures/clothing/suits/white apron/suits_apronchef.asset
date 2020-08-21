@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: apronchef_0
-      sprite: {fileID: 21300000, guid: 5783f5e52c2ce064ba84898b432ec358, type: 3}
+    - sprite: {fileID: 21300000, guid: 5783f5e52c2ce064ba84898b432ec358, type: 3}
+      spriteName: apronchef_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: apronchef_1
-      sprite: {fileID: 21300002, guid: 5783f5e52c2ce064ba84898b432ec358, type: 3}
+    - sprite: {fileID: 21300002, guid: 5783f5e52c2ce064ba84898b432ec358, type: 3}
+      spriteName: apronchef_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: apronchef_2
-      sprite: {fileID: 21300004, guid: 5783f5e52c2ce064ba84898b432ec358, type: 3}
+    - sprite: {fileID: 21300004, guid: 5783f5e52c2ce064ba84898b432ec358, type: 3}
+      spriteName: apronchef_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: apronchef_3
-      sprite: {fileID: 21300006, guid: 5783f5e52c2ce064ba84898b432ec358, type: 3}
+    - sprite: {fileID: 21300006, guid: 5783f5e52c2ce064ba84898b432ec358, type: 3}
+      spriteName: apronchef_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

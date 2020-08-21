@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_alien_walking
-      sprite: {fileID: 21300000, guid: 040a2375a598f7c44a69cd8ce98059b2, type: 3}
+    - sprite: {fileID: 21300000, guid: 040a2375a598f7c44a69cd8ce98059b2, type: 3}
+      spriteName: screen_alien_walking
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

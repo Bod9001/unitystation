@@ -8,6 +8,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.U2D;
 #if UNITY_EDITOR
 using UnityEditor;
+
 #endif
 
 [CreateAssetMenu(fileName = "SpriteData", menuName = "ScriptableObjects/SpriteData")]
@@ -27,59 +28,39 @@ public class SpriteDataSO : ScriptableObject
 	[System.Serializable]
 	public class Frame
 	{
-		public string spriteName;
+		[System.NonSerialized] public Sprite RuntimeSprite;
+#if UNITY_EDITOR
 		public Sprite sprite;
+#endif
+		public string spriteName;
 		public float secondDelay;
 		public AddressableSpritesHandler.Atlas AtlasUsing;
-
-
 
 		private Action CompleteReturn;
 
 		public void LoadAddressableReference(Action OnCompleteAction)
 		{
-			//AtlasReference.Instance.Clothes.CanBindTo()
 			CompleteReturn = OnCompleteAction;
-			if (Application.isPlaying == false)
-			{
-#if UNITY_EDITOR
-				//sprite = singleSpriteReference.editorAsset.GetSprite(singleSpriteReference.SubObjectName);
-				CompleteReturn.Invoke();
-				return;
-
-
-				//Finds the The same sprite in the asset database By name, then loads it and then pick the correct one
-			//	var path = AssetDatabase.GUIDToAssetPath(
-			//		AssetDatabase.FindAssets(singleSpriteReference.SubObjectName)[0]);
-			//	var Sprites = AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().ToArray();
-			//	if (Sprites.Length > 1)
-			//	{
-			//		Sprites = Sprites.OrderBy(x => int.Parse(x.name.Substring(x.name.LastIndexOf('_') + 1))).ToArray();
-			//	}
-
-			//	sprite = Sprites.First(x => x.name == singleSpriteReference.SubObjectName);
-#endif
-			}
-			else
-			{
-			//	singleSpriteReference.LoadAssetAsync<Sprite>().Completed += LoadSprite;
-			}
+			AddressableSpritesHandler.LoadSprite(this, LoadSprite);
 		}
 
-		private void LoadSprite(AsyncOperationHandle<Sprite> obj)
+		private void LoadSprite(Sprite obj)
 		{
-			sprite = obj.Result;
+			RuntimeSprite = obj;
 			CompleteReturn.Invoke();
 		}
 	}
+
 	private Action FinishLoading;
 	private int CompletedSoFar = 0;
 	private int neededToComplete = 0;
+
 	public void LoadAddressableReference(Action OnComplete)
 	{
 		neededToComplete = 0;
 		CompletedSoFar = 0;
 		FinishLoading = OnComplete;
+
 		foreach (var Varianc in Variance)
 		{
 			foreach (var Frames in Varianc.Frames)
@@ -88,7 +69,6 @@ public class SpriteDataSO : ScriptableObject
 				Frames.LoadAddressableReference(RegisterCompletion);
 			}
 		}
-		Logger.Log("fin");
 	}
 
 	public void RegisterCompletion()
@@ -113,7 +93,6 @@ public class SpriteDataSO : ScriptableObject
 
 				if (!SpriteCatalogue.Instance.Catalogue.Contains(this))
 				{
-
 					SpriteCatalogue.Instance.AddToCatalogue(this);
 				}
 
@@ -127,7 +106,7 @@ public class SpriteDataSO : ScriptableObject
 	{
 		yield return new Unity.EditorCoroutines.Editor.EditorWaitForSeconds(3);
 		EditorUtility.SetDirty(this);
-		EditorUtility.SetDirty( SpriteCatalogue.Instance);
+		EditorUtility.SetDirty(SpriteCatalogue.Instance);
 		AssetDatabase.SaveAssets();
 	}
 #endif

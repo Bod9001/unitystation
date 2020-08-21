@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_bluesoft_flipped
-      sprite: {fileID: 21300000, guid: ab9f4bd7aa9bf9d4fbdfe4419749e51a, type: 3}
+    - sprite: {fileID: 21300000, guid: ab9f4bd7aa9bf9d4fbdfe4419749e51a, type: 3}
+      spriteName: hats_bluesoft_flipped
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: module_medical
-      sprite: {fileID: 21300000, guid: 775dbcb4ab1160e45b07681fd43122f2, type: 3}
+    - sprite: {fileID: 21300000, guid: 775dbcb4ab1160e45b07681fd43122f2, type: 3}
+      spriteName: module_medical
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_smartfridge-broken
-      sprite: {fileID: 21300000, guid: c8078df70ace3494ba25b89b9da122f4, type: 3}
+    - sprite: {fileID: 21300000, guid: c8078df70ace3494ba25b89b9da122f4, type: 3}
+      spriteName: vending_smartfridge-broken
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

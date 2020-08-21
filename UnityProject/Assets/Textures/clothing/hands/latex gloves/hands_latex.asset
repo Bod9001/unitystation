@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: latex_0
-      sprite: {fileID: 8570708448157940854, guid: 081c16e2f78af1b4fb588e6631cada93,
+    - sprite: {fileID: 8570708448157940854, guid: 081c16e2f78af1b4fb588e6631cada93,
         type: 3}
+      spriteName: latex_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: latex_1
-      sprite: {fileID: 6769881558768995044, guid: 081c16e2f78af1b4fb588e6631cada93,
+    - sprite: {fileID: 6769881558768995044, guid: 081c16e2f78af1b4fb588e6631cada93,
         type: 3}
+      spriteName: latex_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: latex_2
-      sprite: {fileID: 8457211366498706062, guid: 081c16e2f78af1b4fb588e6631cada93,
+    - sprite: {fileID: 8457211366498706062, guid: 081c16e2f78af1b4fb588e6631cada93,
         type: 3}
+      spriteName: latex_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: latex_3
-      sprite: {fileID: 4449752729803029898, guid: 081c16e2f78af1b4fb588e6631cada93,
+    - sprite: {fileID: 4449752729803029898, guid: 081c16e2f78af1b4fb588e6631cada93,
         type: 3}
+      spriteName: latex_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

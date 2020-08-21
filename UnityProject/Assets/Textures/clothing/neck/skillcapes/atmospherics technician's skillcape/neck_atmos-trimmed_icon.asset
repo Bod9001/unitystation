@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: atmos-trimmed_1
-      sprite: {fileID: -8723199666853366272, guid: f4da1385e7508a248bb4ad6358f740ce,
+    - sprite: {fileID: -8723199666853366272, guid: f4da1385e7508a248bb4ad6358f740ce,
         type: 3}
+      spriteName: atmos-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

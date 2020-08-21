@@ -14,72 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: staffofanimation_0
-      sprite: {fileID: 21300000, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+    - sprite: {fileID: 21300000, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_0
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_4
-      sprite: {fileID: 21300008, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300008, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_4
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_8
-      sprite: {fileID: 21300016, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300016, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_8
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_12
-      sprite: {fileID: 21300024, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300024, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_12
       secondDelay: 0.5
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: staffofanimation_1
-      sprite: {fileID: 21300002, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+    - sprite: {fileID: 21300002, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_1
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_5
-      sprite: {fileID: 21300010, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300010, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_5
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_9
-      sprite: {fileID: 21300018, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300018, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_9
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_13
-      sprite: {fileID: 21300026, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300026, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_13
       secondDelay: 0.5
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: staffofanimation_2
-      sprite: {fileID: 21300004, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+    - sprite: {fileID: 21300004, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_2
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_6
-      sprite: {fileID: 21300012, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300012, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_6
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_10
-      sprite: {fileID: 21300020, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300020, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_10
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_14
-      sprite: {fileID: 21300028, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300028, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_14
       secondDelay: 0.5
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: staffofanimation_3
-      sprite: {fileID: 21300006, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+    - sprite: {fileID: 21300006, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_3
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_7
-      sprite: {fileID: 21300014, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300014, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_7
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_11
-      sprite: {fileID: 21300022, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300022, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_11
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: staffofanimation_15
-      sprite: {fileID: 21300030, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      AtlasUsing: 4
+    - sprite: {fileID: 21300030, guid: 4804a4e9a4a15fc4e8d06f525db6ca36, type: 3}
+      spriteName: staffofanimation_15
       secondDelay: 0.5
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 10879

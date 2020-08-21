@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: overly_impact1
-      sprite: {fileID: 21300000, guid: a722979480e9b31409b51d6fa7cf362c, type: 3}
+    - sprite: {fileID: 21300000, guid: a722979480e9b31409b51d6fa7cf362c, type: 3}
+      spriteName: overly_impact1
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

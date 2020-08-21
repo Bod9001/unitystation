@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blastdoor_closed
-      sprite: {fileID: 21300000, guid: 00c017b13f8007f4d84de9b0c6a28a70, type: 3}
+    - sprite: {fileID: 21300000, guid: 00c017b13f8007f4d84de9b0c6a28a70, type: 3}
+      spriteName: blastdoor_closed
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

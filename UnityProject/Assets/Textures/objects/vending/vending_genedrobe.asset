@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: genedrobe_0
-      sprite: {fileID: 21300000, guid: 76198fee39e7a9742b0a0bb0f53ee674, type: 3}
+    - sprite: {fileID: 21300000, guid: 76198fee39e7a9742b0a0bb0f53ee674, type: 3}
+      spriteName: genedrobe_0
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: genedrobe_1
-      sprite: {fileID: 21300002, guid: 76198fee39e7a9742b0a0bb0f53ee674, type: 3}
+    - sprite: {fileID: 21300002, guid: 76198fee39e7a9742b0a0bb0f53ee674, type: 3}
+      spriteName: genedrobe_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: genedrobe_2
-      sprite: {fileID: 21300004, guid: 76198fee39e7a9742b0a0bb0f53ee674, type: 3}
+    - sprite: {fileID: 21300004, guid: 76198fee39e7a9742b0a0bb0f53ee674, type: 3}
+      spriteName: genedrobe_2
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: genedrobe_3
-      sprite: {fileID: 21300006, guid: 76198fee39e7a9742b0a0bb0f53ee674, type: 3}
+    - sprite: {fileID: 21300006, guid: 76198fee39e7a9742b0a0bb0f53ee674, type: 3}
+      spriteName: genedrobe_3
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shoes_magboots0_icon
-      sprite: {fileID: 21300000, guid: 90792182c0bf5744a8bb6a98f0fe4dfc, type: 3}
+    - sprite: {fileID: 21300000, guid: 90792182c0bf5744a8bb6a98f0fe4dfc, type: 3}
+      spriteName: shoes_magboots0_icon
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

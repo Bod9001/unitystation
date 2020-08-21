@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: prox-igniter1_0
-      sprite: {fileID: 21300000, guid: 88d070a95048fe4459beff50e055162b, type: 3}
+    - sprite: {fileID: 21300000, guid: 88d070a95048fe4459beff50e055162b, type: 3}
+      spriteName: prox-igniter1_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: prox-igniter1_1
-      sprite: {fileID: 21300002, guid: 88d070a95048fe4459beff50e055162b, type: 3}
+    - sprite: {fileID: 21300002, guid: 88d070a95048fe4459beff50e055162b, type: 3}
+      spriteName: prox-igniter1_1
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

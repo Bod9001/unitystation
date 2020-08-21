@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bookforcewall_0
-      sprite: {fileID: 21300000, guid: ce21400bcb87dcc4a867095332ac4aae, type: 3}
+    - sprite: {fileID: 21300000, guid: ce21400bcb87dcc4a867095332ac4aae, type: 3}
+      spriteName: bookforcewall_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: bookforcewall_1
-      sprite: {fileID: 21300002, guid: ce21400bcb87dcc4a867095332ac4aae, type: 3}
+    - sprite: {fileID: 21300002, guid: ce21400bcb87dcc4a867095332ac4aae, type: 3}
+      spriteName: bookforcewall_1
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

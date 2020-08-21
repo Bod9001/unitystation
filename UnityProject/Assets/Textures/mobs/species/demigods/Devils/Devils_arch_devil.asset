@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: arch_devil_0
-      sprite: {fileID: 21300000, guid: 5d387b323d93e904f86185c538fa0953, type: 3}
+    - sprite: {fileID: 21300000, guid: 5d387b323d93e904f86185c538fa0953, type: 3}
+      spriteName: arch_devil_0
       secondDelay: 0
       AtlasUsing: 1
   - Frames:
-    - spriteName: arch_devil_1
-      sprite: {fileID: 21300002, guid: 5d387b323d93e904f86185c538fa0953, type: 3}
+    - sprite: {fileID: 21300002, guid: 5d387b323d93e904f86185c538fa0953, type: 3}
+      spriteName: arch_devil_1
       secondDelay: 0
       AtlasUsing: 1
   - Frames:
-    - spriteName: arch_devil_2
-      sprite: {fileID: 21300004, guid: 5d387b323d93e904f86185c538fa0953, type: 3}
+    - sprite: {fileID: 21300004, guid: 5d387b323d93e904f86185c538fa0953, type: 3}
+      spriteName: arch_devil_2
       secondDelay: 0
       AtlasUsing: 1
   - Frames:
-    - spriteName: arch_devil_3
-      sprite: {fileID: 21300006, guid: 5d387b323d93e904f86185c538fa0953, type: 3}
+    - sprite: {fileID: 21300006, guid: 5d387b323d93e904f86185c538fa0953, type: 3}
+      spriteName: arch_devil_3
       secondDelay: 0
       AtlasUsing: 1
   IsPalette: 0

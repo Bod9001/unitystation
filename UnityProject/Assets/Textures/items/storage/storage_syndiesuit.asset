@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_syndiesuit
-      sprite: {fileID: 21300000, guid: 61a8bdff56a459048aae0b97a3df2344, type: 3}
+    - sprite: {fileID: 21300000, guid: 61a8bdff56a459048aae0b97a3df2344, type: 3}
+      spriteName: storage_syndiesuit
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

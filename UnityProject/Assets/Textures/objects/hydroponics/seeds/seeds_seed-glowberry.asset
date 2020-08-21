@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: seeds_seed-glowberry
-      sprite: {fileID: 21300000, guid: 15f3dfe771ff15449a3dd267b7166cf8, type: 3}
+    - sprite: {fileID: 21300000, guid: 15f3dfe771ff15449a3dd267b7166cf8, type: 3}
+      spriteName: seeds_seed-glowberry
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

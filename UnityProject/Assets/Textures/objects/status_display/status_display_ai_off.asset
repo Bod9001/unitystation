@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: status_display_ai_off
-      sprite: {fileID: 21300000, guid: 5a178b6ee2b65f34b83b6fedbd81fb86, type: 3}
+    - sprite: {fileID: 21300000, guid: 5a178b6ee2b65f34b83b6fedbd81fb86, type: 3}
+      spriteName: status_display_ai_off
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

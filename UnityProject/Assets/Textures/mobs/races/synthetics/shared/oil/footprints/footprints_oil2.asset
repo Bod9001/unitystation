@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: oil2_0
-      sprite: {fileID: 21300000, guid: bf0e35421ea67c2498dae7e8012ec581, type: 3}
+    - sprite: {fileID: 21300000, guid: bf0e35421ea67c2498dae7e8012ec581, type: 3}
+      spriteName: oil2_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: oil2_1
-      sprite: {fileID: 21300002, guid: bf0e35421ea67c2498dae7e8012ec581, type: 3}
+    - sprite: {fileID: 21300002, guid: bf0e35421ea67c2498dae7e8012ec581, type: 3}
+      spriteName: oil2_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: oil2_2
-      sprite: {fileID: 21300004, guid: bf0e35421ea67c2498dae7e8012ec581, type: 3}
+    - sprite: {fileID: 21300004, guid: bf0e35421ea67c2498dae7e8012ec581, type: 3}
+      spriteName: oil2_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: oil2_3
-      sprite: {fileID: 21300006, guid: bf0e35421ea67c2498dae7e8012ec581, type: 3}
+    - sprite: {fileID: 21300006, guid: bf0e35421ea67c2498dae7e8012ec581, type: 3}
+      spriteName: oil2_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

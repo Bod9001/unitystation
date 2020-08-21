@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: jannyplasma_0
-      sprite: {fileID: -897838648281684708, guid: 7e16f470aa719e64bb7858fccef2f3cd,
+    - sprite: {fileID: -897838648281684708, guid: 7e16f470aa719e64bb7858fccef2f3cd,
         type: 3}
+      spriteName: jannyplasma_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: jannyplasma_1
-      sprite: {fileID: -3397862197548177072, guid: 7e16f470aa719e64bb7858fccef2f3cd,
+    - sprite: {fileID: -3397862197548177072, guid: 7e16f470aa719e64bb7858fccef2f3cd,
         type: 3}
+      spriteName: jannyplasma_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: jannyplasma_2
-      sprite: {fileID: 4812473797903463309, guid: 7e16f470aa719e64bb7858fccef2f3cd,
+    - sprite: {fileID: 4812473797903463309, guid: 7e16f470aa719e64bb7858fccef2f3cd,
         type: 3}
+      spriteName: jannyplasma_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: jannyplasma_3
-      sprite: {fileID: -3833506467442687856, guid: 7e16f470aa719e64bb7858fccef2f3cd,
+    - sprite: {fileID: -3833506467442687856, guid: 7e16f470aa719e64bb7858fccef2f3cd,
         type: 3}
+      spriteName: jannyplasma_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

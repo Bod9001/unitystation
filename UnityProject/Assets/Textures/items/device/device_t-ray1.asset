@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: t-ray1_0
-      sprite: {fileID: 21300000, guid: bd404792c55049645bd5167d8f4f7542, type: 3}
+    - sprite: {fileID: 21300000, guid: bd404792c55049645bd5167d8f4f7542, type: 3}
+      spriteName: t-ray1_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: t-ray1_1
-      sprite: {fileID: 21300002, guid: bd404792c55049645bd5167d8f4f7542, type: 3}
+    - sprite: {fileID: 21300002, guid: bd404792c55049645bd5167d8f4f7542, type: 3}
+      spriteName: t-ray1_1
       secondDelay: 1
       AtlasUsing: 5
   IsPalette: 0

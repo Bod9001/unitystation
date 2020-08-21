@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bloodpaw2_0
-      sprite: {fileID: 21300000, guid: f96550ede9ae1794e8556d440a167463, type: 3}
+    - sprite: {fileID: 21300000, guid: f96550ede9ae1794e8556d440a167463, type: 3}
+      spriteName: bloodpaw2_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: bloodpaw2_1
-      sprite: {fileID: 21300002, guid: f96550ede9ae1794e8556d440a167463, type: 3}
+    - sprite: {fileID: 21300002, guid: f96550ede9ae1794e8556d440a167463, type: 3}
+      spriteName: bloodpaw2_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: bloodpaw2_2
-      sprite: {fileID: 21300004, guid: f96550ede9ae1794e8556d440a167463, type: 3}
+    - sprite: {fileID: 21300004, guid: f96550ede9ae1794e8556d440a167463, type: 3}
+      spriteName: bloodpaw2_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: bloodpaw2_3
-      sprite: {fileID: 21300006, guid: f96550ede9ae1794e8556d440a167463, type: 3}
+    - sprite: {fileID: 21300006, guid: f96550ede9ae1794e8556d440a167463, type: 3}
+      spriteName: bloodpaw2_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

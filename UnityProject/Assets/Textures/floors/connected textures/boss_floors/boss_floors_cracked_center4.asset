@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: boss_floors_cracked_center4
-      sprite: {fileID: 21300000, guid: 69e659ae4a9ea5e4bb1adf6f88d3579d, type: 3}
+    - sprite: {fileID: 21300000, guid: 69e659ae4a9ea5e4bb1adf6f88d3579d, type: 3}
+      spriteName: boss_floors_cracked_center4
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

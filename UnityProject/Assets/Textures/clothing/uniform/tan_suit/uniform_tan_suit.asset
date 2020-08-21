@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tan_suit_0
-      sprite: {fileID: 21300000, guid: 67d4643d874db8a458f76b0019b9a2a3, type: 3}
+    - sprite: {fileID: 21300000, guid: 67d4643d874db8a458f76b0019b9a2a3, type: 3}
+      spriteName: tan_suit_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: tan_suit_1
-      sprite: {fileID: 21300002, guid: 67d4643d874db8a458f76b0019b9a2a3, type: 3}
+    - sprite: {fileID: 21300002, guid: 67d4643d874db8a458f76b0019b9a2a3, type: 3}
+      spriteName: tan_suit_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: tan_suit_2
-      sprite: {fileID: 21300004, guid: 67d4643d874db8a458f76b0019b9a2a3, type: 3}
+    - sprite: {fileID: 21300004, guid: 67d4643d874db8a458f76b0019b9a2a3, type: 3}
+      spriteName: tan_suit_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: tan_suit_3
-      sprite: {fileID: 21300006, guid: 67d4643d874db8a458f76b0019b9a2a3, type: 3}
+    - sprite: {fileID: 21300006, guid: 67d4643d874db8a458f76b0019b9a2a3, type: 3}
+      spriteName: tan_suit_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

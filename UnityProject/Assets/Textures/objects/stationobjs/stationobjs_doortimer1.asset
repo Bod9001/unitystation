@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: doortimer1_0
-      sprite: {fileID: 21300000, guid: 4218f5671eea0bb4694583877d17521c, type: 3}
+    - sprite: {fileID: 21300000, guid: 4218f5671eea0bb4694583877d17521c, type: 3}
+      spriteName: doortimer1_0
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: doortimer1_1
-      sprite: {fileID: 21300002, guid: 4218f5671eea0bb4694583877d17521c, type: 3}
+    - sprite: {fileID: 21300002, guid: 4218f5671eea0bb4694583877d17521c, type: 3}
+      spriteName: doortimer1_1
       secondDelay: 0.4
       AtlasUsing: 8
   IsPalette: 0

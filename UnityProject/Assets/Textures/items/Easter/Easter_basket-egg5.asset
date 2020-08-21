@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Easter_basket-egg5
-      sprite: {fileID: 21300000, guid: fd46b6b9fac81cf4fbc6b08969d9315c, type: 3}
+    - sprite: {fileID: 21300000, guid: fd46b6b9fac81cf4fbc6b08969d9315c, type: 3}
+      spriteName: Easter_basket-egg5
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

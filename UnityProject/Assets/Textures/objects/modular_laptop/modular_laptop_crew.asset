@@ -14,84 +14,84 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: crew_0
-      sprite: {fileID: 21300000, guid: 9862d42c025498447ada85bb043eb227, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: crew_1
-      sprite: {fileID: 21300002, guid: 9862d42c025498447ada85bb043eb227, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: crew_2
-      sprite: {fileID: 21300004, guid: 9862d42c025498447ada85bb043eb227, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: crew_3
-      sprite: {fileID: 21300006, guid: 9862d42c025498447ada85bb043eb227, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: crew_4
-      sprite: {fileID: 21300008, guid: 9862d42c025498447ada85bb043eb227, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: crew_5
-      sprite: {fileID: 21300010, guid: 9862d42c025498447ada85bb043eb227, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: crew_6
-      sprite: {fileID: 21300012, guid: 9862d42c025498447ada85bb043eb227, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: crew_7
-      sprite: {fileID: 21300014, guid: 9862d42c025498447ada85bb043eb227, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: crew_8
-      sprite: {fileID: 21300016, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300000, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_9
-      sprite: {fileID: 21300018, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300002, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_10
-      sprite: {fileID: 21300020, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300004, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_11
-      sprite: {fileID: 21300022, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300006, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_3
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_12
-      sprite: {fileID: 21300024, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300008, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_13
-      sprite: {fileID: 21300026, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300010, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_14
-      sprite: {fileID: 21300028, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300012, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_15
-      sprite: {fileID: 21300030, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300014, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_7
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_16
-      sprite: {fileID: 21300032, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300016, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_8
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_17
-      sprite: {fileID: 21300034, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300018, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_9
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_18
-      sprite: {fileID: 21300036, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300020, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_10
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: crew_19
-      sprite: {fileID: 21300038, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+    - sprite: {fileID: 21300022, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_11
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300024, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_12
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300026, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_13
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300028, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_14
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300030, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_15
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300032, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_16
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300034, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_17
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300036, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_18
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300038, guid: 9862d42c025498447ada85bb043eb227, type: 3}
+      spriteName: crew_19
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

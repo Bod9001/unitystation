@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: objects_modkit
-      sprite: {fileID: 21300000, guid: 46e1ffe3b7ea6b34b8e66c71dbd9f0a0, type: 3}
+    - sprite: {fileID: 21300000, guid: 46e1ffe3b7ea6b34b8e66c71dbd9f0a0, type: 3}
+      spriteName: objects_modkit
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

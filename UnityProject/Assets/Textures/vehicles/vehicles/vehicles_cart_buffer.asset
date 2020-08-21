@@ -14,71 +14,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cart_buffer_0
-      sprite: {fileID: 21300000, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300000, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: cart_buffer_4
-      sprite: {fileID: 21300008, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300008, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: cart_buffer_8
-      sprite: {fileID: 21300016, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300016, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_8
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: cart_buffer_12
-      sprite: {fileID: 21300024, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-  - Frames:
-    - spriteName: cart_buffer_1
-      sprite: {fileID: 21300002, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: cart_buffer_5
-      sprite: {fileID: 21300010, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: cart_buffer_9
-      sprite: {fileID: 21300018, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: cart_buffer_13
-      sprite: {fileID: 21300026, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300024, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_12
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: cart_buffer_2
-      sprite: {fileID: 21300004, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300002, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: cart_buffer_6
-      sprite: {fileID: 21300012, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300010, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: cart_buffer_10
-      sprite: {fileID: 21300020, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300018, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_9
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: cart_buffer_14
-      sprite: {fileID: 21300028, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300026, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_13
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: cart_buffer_3
-      sprite: {fileID: 21300006, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300004, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: cart_buffer_7
-      sprite: {fileID: 21300014, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300012, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_6
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: cart_buffer_11
-      sprite: {fileID: 21300022, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300020, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_10
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: cart_buffer_15
-      sprite: {fileID: 21300030, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+    - sprite: {fileID: 21300028, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_14
+      secondDelay: 0.1
+      AtlasUsing: 9
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_3
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300014, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_7
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300022, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_11
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300030, guid: 5f2a9b8a7919d7d4797e49fe9a0d5667, type: 3}
+      spriteName: cart_buffer_15
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

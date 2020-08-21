@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: firelight0_0
-      sprite: {fileID: 21300000, guid: 597fc2a3da624e2439841571e6a2ad7a, type: 3}
+    - sprite: {fileID: 21300000, guid: 597fc2a3da624e2439841571e6a2ad7a, type: 3}
+      spriteName: firelight0_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: firelight0_1
-      sprite: {fileID: 21300002, guid: 597fc2a3da624e2439841571e6a2ad7a, type: 3}
+    - sprite: {fileID: 21300002, guid: 597fc2a3da624e2439841571e6a2ad7a, type: 3}
+      spriteName: firelight0_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: firelight0_2
-      sprite: {fileID: 21300004, guid: 597fc2a3da624e2439841571e6a2ad7a, type: 3}
+    - sprite: {fileID: 21300004, guid: 597fc2a3da624e2439841571e6a2ad7a, type: 3}
+      spriteName: firelight0_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: firelight0_3
-      sprite: {fileID: 21300006, guid: 597fc2a3da624e2439841571e6a2ad7a, type: 3}
+    - sprite: {fileID: 21300006, guid: 597fc2a3da624e2439841571e6a2ad7a, type: 3}
+      spriteName: firelight0_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

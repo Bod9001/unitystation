@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: zone select_chest
-      sprite: {fileID: 21300000, guid: 9ffe3984d2b63d243ad02c8d3146b9f6, type: 3}
+    - sprite: {fileID: 21300000, guid: 9ffe3984d2b63d243ad02c8d3146b9f6, type: 3}
+      spriteName: zone select_chest
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

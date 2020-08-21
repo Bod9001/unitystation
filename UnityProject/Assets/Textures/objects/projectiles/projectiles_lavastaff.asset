@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lavastaff_0
-      sprite: {fileID: 21300000, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+    - sprite: {fileID: 21300000, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+      spriteName: lavastaff_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lavastaff_1
-      sprite: {fileID: 21300002, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+    - sprite: {fileID: 21300002, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+      spriteName: lavastaff_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lavastaff_2
-      sprite: {fileID: 21300004, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+    - sprite: {fileID: 21300004, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+      spriteName: lavastaff_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lavastaff_3
-      sprite: {fileID: 21300006, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+    - sprite: {fileID: 21300006, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+      spriteName: lavastaff_3
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lavastaff_4
-      sprite: {fileID: 21300008, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+    - sprite: {fileID: 21300008, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+      spriteName: lavastaff_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lavastaff_5
-      sprite: {fileID: 21300010, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+    - sprite: {fileID: 21300010, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+      spriteName: lavastaff_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lavastaff_6
-      sprite: {fileID: 21300012, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+    - sprite: {fileID: 21300012, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+      spriteName: lavastaff_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lavastaff_7
-      sprite: {fileID: 21300014, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+    - sprite: {fileID: 21300014, guid: 603d13f6f06589b48a62dba7173bfc1b, type: 3}
+      spriteName: lavastaff_7
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

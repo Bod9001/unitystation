@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: crayon_Waffle
-      sprite: {fileID: 21300000, guid: ddc61197b48fd4e4f8414750eb34360d, type: 3}
+    - sprite: {fileID: 21300000, guid: ddc61197b48fd4e4f8414750eb34360d, type: 3}
+      spriteName: crayon_Waffle
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

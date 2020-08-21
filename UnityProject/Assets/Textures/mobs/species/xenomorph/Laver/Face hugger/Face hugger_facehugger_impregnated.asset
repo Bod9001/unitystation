@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Face hugger_facehugger_impregnated
-      sprite: {fileID: 21300000, guid: 3f7ecbb8e93b84043827bef6175b8765, type: 3}
+    - sprite: {fileID: 21300000, guid: 3f7ecbb8e93b84043827bef6175b8765, type: 3}
+      spriteName: Face hugger_facehugger_impregnated
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

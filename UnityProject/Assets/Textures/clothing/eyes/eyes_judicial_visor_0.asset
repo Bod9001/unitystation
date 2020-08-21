@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: judicial_visor_0_0
-      sprite: {fileID: 21300000, guid: f00c1a3ad3b87954cbe746d3b864d7c2, type: 3}
+    - sprite: {fileID: 21300000, guid: f00c1a3ad3b87954cbe746d3b864d7c2, type: 3}
+      spriteName: judicial_visor_0_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: judicial_visor_0_1
-      sprite: {fileID: 21300002, guid: f00c1a3ad3b87954cbe746d3b864d7c2, type: 3}
+    - sprite: {fileID: 21300002, guid: f00c1a3ad3b87954cbe746d3b864d7c2, type: 3}
+      spriteName: judicial_visor_0_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: judicial_visor_0_2
-      sprite: {fileID: 21300004, guid: f00c1a3ad3b87954cbe746d3b864d7c2, type: 3}
+    - sprite: {fileID: 21300004, guid: f00c1a3ad3b87954cbe746d3b864d7c2, type: 3}
+      spriteName: judicial_visor_0_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: judicial_visor_0_3
-      sprite: {fileID: 21300006, guid: f00c1a3ad3b87954cbe746d3b864d7c2, type: 3}
+    - sprite: {fileID: 21300006, guid: f00c1a3ad3b87954cbe746d3b864d7c2, type: 3}
+      spriteName: judicial_visor_0_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

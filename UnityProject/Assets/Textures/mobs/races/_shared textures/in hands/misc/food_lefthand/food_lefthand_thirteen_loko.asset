@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: thirteen_loko_0
-      sprite: {fileID: 21300000, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
+    - sprite: {fileID: 21300000, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
+      spriteName: thirteen_loko_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: thirteen_loko_1
-      sprite: {fileID: 21300002, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
+    - sprite: {fileID: 21300002, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
+      spriteName: thirteen_loko_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: thirteen_loko_2
-      sprite: {fileID: 21300004, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
+    - sprite: {fileID: 21300004, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
+      spriteName: thirteen_loko_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: thirteen_loko_3
-      sprite: {fileID: 21300006, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
+    - sprite: {fileID: 21300006, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
+      spriteName: thirteen_loko_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

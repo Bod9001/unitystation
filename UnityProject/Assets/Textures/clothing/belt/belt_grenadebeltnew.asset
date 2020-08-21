@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: grenadebeltnew_0
-      sprite: {fileID: 21300000, guid: b999f87e958def5439ad33e20d1ceaab, type: 3}
+    - sprite: {fileID: 21300000, guid: b999f87e958def5439ad33e20d1ceaab, type: 3}
+      spriteName: grenadebeltnew_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: grenadebeltnew_1
-      sprite: {fileID: 21300002, guid: b999f87e958def5439ad33e20d1ceaab, type: 3}
+    - sprite: {fileID: 21300002, guid: b999f87e958def5439ad33e20d1ceaab, type: 3}
+      spriteName: grenadebeltnew_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: grenadebeltnew_2
-      sprite: {fileID: 21300004, guid: b999f87e958def5439ad33e20d1ceaab, type: 3}
+    - sprite: {fileID: 21300004, guid: b999f87e958def5439ad33e20d1ceaab, type: 3}
+      spriteName: grenadebeltnew_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: grenadebeltnew_3
-      sprite: {fileID: 21300006, guid: b999f87e958def5439ad33e20d1ceaab, type: 3}
+    - sprite: {fileID: 21300006, guid: b999f87e958def5439ad33e20d1ceaab, type: 3}
+      spriteName: grenadebeltnew_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

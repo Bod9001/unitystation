@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: comp-o2_0
-      sprite: {fileID: 21300000, guid: cb34797a61f55ee4b82a00a983dcc5d8, type: 3}
+    - sprite: {fileID: 21300000, guid: cb34797a61f55ee4b82a00a983dcc5d8, type: 3}
+      spriteName: comp-o2_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: comp-o2_1
-      sprite: {fileID: 21300002, guid: cb34797a61f55ee4b82a00a983dcc5d8, type: 3}
+    - sprite: {fileID: 21300002, guid: cb34797a61f55ee4b82a00a983dcc5d8, type: 3}
+      spriteName: comp-o2_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: comp-o2_2
-      sprite: {fileID: 21300004, guid: cb34797a61f55ee4b82a00a983dcc5d8, type: 3}
+    - sprite: {fileID: 21300004, guid: cb34797a61f55ee4b82a00a983dcc5d8, type: 3}
+      spriteName: comp-o2_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: comp-o2_3
-      sprite: {fileID: 21300006, guid: cb34797a61f55ee4b82a00a983dcc5d8, type: 3}
+    - sprite: {fileID: 21300006, guid: cb34797a61f55ee4b82a00a983dcc5d8, type: 3}
+      spriteName: comp-o2_3
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

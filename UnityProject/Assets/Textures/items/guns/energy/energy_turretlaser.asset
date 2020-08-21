@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: energy_turretlaser
-      sprite: {fileID: 21300000, guid: 39037c06a637d6b4abb3e5ec3fac78d4, type: 3}
+    - sprite: {fileID: 21300000, guid: 39037c06a637d6b4abb3e5ec3fac78d4, type: 3}
+      spriteName: energy_turretlaser
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

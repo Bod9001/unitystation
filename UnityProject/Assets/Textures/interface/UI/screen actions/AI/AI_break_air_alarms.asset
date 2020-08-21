@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: AI_break_air_alarms
-      sprite: {fileID: 21300000, guid: 3f835bda38cafb04ab438c820988643f, type: 3}
+    - sprite: {fileID: 21300000, guid: 3f835bda38cafb04ab438c820988643f, type: 3}
+      spriteName: AI_break_air_alarms
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gibbs_gibup
-      sprite: {fileID: 21300000, guid: 951b0054dcd34db47b387d70227c971e, type: 3}
+    - sprite: {fileID: 21300000, guid: 951b0054dcd34db47b387d70227c971e, type: 3}
+      spriteName: gibbs_gibup
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: recharger0_0
-      sprite: {fileID: 21300000, guid: e01b2ff042a47914091952e5e0cd7374, type: 3}
+    - sprite: {fileID: 21300000, guid: e01b2ff042a47914091952e5e0cd7374, type: 3}
+      spriteName: recharger0_0
       secondDelay: 0.5
       AtlasUsing: 8
-    - spriteName: recharger0_1
-      sprite: {fileID: 21300002, guid: e01b2ff042a47914091952e5e0cd7374, type: 3}
+    - sprite: {fileID: 21300002, guid: e01b2ff042a47914091952e5e0cd7374, type: 3}
+      spriteName: recharger0_1
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

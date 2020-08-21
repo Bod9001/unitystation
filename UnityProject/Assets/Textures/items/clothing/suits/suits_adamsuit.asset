@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: adamsuit_0
-      sprite: {fileID: 21300000, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
+    - sprite: {fileID: 21300000, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
+      spriteName: adamsuit_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 5
   - Frames:
-    - spriteName: adamsuit_1
-      sprite: {fileID: 21300002, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
+    - sprite: {fileID: 21300002, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
+      spriteName: adamsuit_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 5
   - Frames:
-    - spriteName: adamsuit_2
-      sprite: {fileID: 21300004, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
+    - sprite: {fileID: 21300004, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
+      spriteName: adamsuit_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 5
   - Frames:
-    - spriteName: adamsuit_3
-      sprite: {fileID: 21300006, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
+    - sprite: {fileID: 21300006, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
+      spriteName: adamsuit_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 5
   IsPalette: 0
   setID: 5920

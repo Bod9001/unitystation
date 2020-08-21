@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_vehicle_car_horn
-      sprite: {fileID: 21300000, guid: 62153b0659c4d6447ba70e48491df4c7, type: 3}
+    - sprite: {fileID: 21300000, guid: 62153b0659c4d6447ba70e48491df4c7, type: 3}
+      spriteName: actions_vehicle_car_horn
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_operative_swap_1
-      sprite: {fileID: 21300000, guid: 519486bd8425bea4195acdfda03400ee, type: 3}
+    - sprite: {fileID: 21300000, guid: 519486bd8425bea4195acdfda03400ee, type: 3}
+      spriteName: screen_operative_swap_1
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

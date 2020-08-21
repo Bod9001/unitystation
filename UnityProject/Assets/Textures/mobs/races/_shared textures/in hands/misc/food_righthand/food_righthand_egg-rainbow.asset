@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: egg-rainbow_0
-      sprite: {fileID: 21300000, guid: 0f64b513a7c02ff4fadba8afe03ca220, type: 3}
+    - sprite: {fileID: 21300000, guid: 0f64b513a7c02ff4fadba8afe03ca220, type: 3}
+      spriteName: egg-rainbow_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: egg-rainbow_1
-      sprite: {fileID: 21300002, guid: 0f64b513a7c02ff4fadba8afe03ca220, type: 3}
+    - sprite: {fileID: 21300002, guid: 0f64b513a7c02ff4fadba8afe03ca220, type: 3}
+      spriteName: egg-rainbow_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: egg-rainbow_2
-      sprite: {fileID: 21300004, guid: 0f64b513a7c02ff4fadba8afe03ca220, type: 3}
+    - sprite: {fileID: 21300004, guid: 0f64b513a7c02ff4fadba8afe03ca220, type: 3}
+      spriteName: egg-rainbow_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: egg-rainbow_3
-      sprite: {fileID: 21300006, guid: 0f64b513a7c02ff4fadba8afe03ca220, type: 3}
+    - sprite: {fileID: 21300006, guid: 0f64b513a7c02ff4fadba8afe03ca220, type: 3}
+      spriteName: egg-rainbow_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

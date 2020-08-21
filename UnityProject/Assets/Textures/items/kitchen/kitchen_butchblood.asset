@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: kitchen_butchblood
-      sprite: {fileID: 21300000, guid: f237f79047fc71642ad10a82df6d2925, type: 3}
+    - sprite: {fileID: 21300000, guid: f237f79047fc71642ad10a82df6d2925, type: 3}
+      spriteName: kitchen_butchblood
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

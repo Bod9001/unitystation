@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ammo_soporific
-      sprite: {fileID: 21300000, guid: 11071ffe51963c34fb51cb4f37e4cbf7, type: 3}
+    - sprite: {fileID: 21300000, guid: 11071ffe51963c34fb51cb4f37e4cbf7, type: 3}
+      spriteName: ammo_soporific
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

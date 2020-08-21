@@ -14,199 +14,199 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vent_out-starting_0
-      sprite: {fileID: 21300000, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300000, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_0
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: vent_out-starting_4
-      sprite: {fileID: 21300008, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300008, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_4
       secondDelay: 0.18
       AtlasUsing: 8
-    - spriteName: vent_out-starting_8
-      sprite: {fileID: 21300016, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300016, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_8
       secondDelay: 0.15
       AtlasUsing: 8
-    - spriteName: vent_out-starting_12
-      sprite: {fileID: 21300024, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300024, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_12
       secondDelay: 0.13
       AtlasUsing: 8
-    - spriteName: vent_out-starting_16
-      sprite: {fileID: 21300032, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300032, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_16
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: vent_out-starting_20
-      sprite: {fileID: 21300040, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300040, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_20
       secondDelay: 0.08
       AtlasUsing: 8
-    - spriteName: vent_out-starting_24
-      sprite: {fileID: 21300048, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300048, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_24
       secondDelay: 0.06
       AtlasUsing: 8
-    - spriteName: vent_out-starting_28
-      sprite: {fileID: 21300056, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300056, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_28
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: vent_out-starting_32
-      sprite: {fileID: 21300064, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300064, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_32
       secondDelay: 0.04
       AtlasUsing: 8
-    - spriteName: vent_out-starting_36
-      sprite: {fileID: 21300072, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300072, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_36
       secondDelay: 0.03
       AtlasUsing: 8
-    - spriteName: vent_out-starting_40
-      sprite: {fileID: 21300080, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300080, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_40
       secondDelay: 0.02
       AtlasUsing: 8
-    - spriteName: vent_out-starting_44
-      sprite: {fileID: 21300088, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300088, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_44
       secondDelay: 0.01
       AtlasUsing: 8
   - Frames:
-    - spriteName: vent_out-starting_1
-      sprite: {fileID: 21300002, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300002, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_1
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: vent_out-starting_5
-      sprite: {fileID: 21300010, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300010, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_5
       secondDelay: 0.18
       AtlasUsing: 8
-    - spriteName: vent_out-starting_9
-      sprite: {fileID: 21300018, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300018, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_9
       secondDelay: 0.15
       AtlasUsing: 8
-    - spriteName: vent_out-starting_13
-      sprite: {fileID: 21300026, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300026, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_13
       secondDelay: 0.13
       AtlasUsing: 8
-    - spriteName: vent_out-starting_17
-      sprite: {fileID: 21300034, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300034, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_17
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: vent_out-starting_21
-      sprite: {fileID: 21300042, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300042, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_21
       secondDelay: 0.08
       AtlasUsing: 8
-    - spriteName: vent_out-starting_25
-      sprite: {fileID: 21300050, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300050, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_25
       secondDelay: 0.06
       AtlasUsing: 8
-    - spriteName: vent_out-starting_29
-      sprite: {fileID: 21300058, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300058, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_29
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: vent_out-starting_33
-      sprite: {fileID: 21300066, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300066, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_33
       secondDelay: 0.04
       AtlasUsing: 8
-    - spriteName: vent_out-starting_37
-      sprite: {fileID: 21300074, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300074, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_37
       secondDelay: 0.03
       AtlasUsing: 8
-    - spriteName: vent_out-starting_41
-      sprite: {fileID: 21300082, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300082, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_41
       secondDelay: 0.02
       AtlasUsing: 8
-    - spriteName: vent_out-starting_45
-      sprite: {fileID: 21300090, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300090, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_45
       secondDelay: 0.01
       AtlasUsing: 8
   - Frames:
-    - spriteName: vent_out-starting_2
-      sprite: {fileID: 21300004, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300004, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_2
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: vent_out-starting_6
-      sprite: {fileID: 21300012, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300012, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_6
       secondDelay: 0.18
       AtlasUsing: 8
-    - spriteName: vent_out-starting_10
-      sprite: {fileID: 21300020, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300020, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_10
       secondDelay: 0.15
       AtlasUsing: 8
-    - spriteName: vent_out-starting_14
-      sprite: {fileID: 21300028, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300028, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_14
       secondDelay: 0.13
       AtlasUsing: 8
-    - spriteName: vent_out-starting_18
-      sprite: {fileID: 21300036, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300036, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_18
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: vent_out-starting_22
-      sprite: {fileID: 21300044, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300044, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_22
       secondDelay: 0.08
       AtlasUsing: 8
-    - spriteName: vent_out-starting_26
-      sprite: {fileID: 21300052, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300052, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_26
       secondDelay: 0.06
       AtlasUsing: 8
-    - spriteName: vent_out-starting_30
-      sprite: {fileID: 21300060, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300060, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_30
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: vent_out-starting_34
-      sprite: {fileID: 21300068, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300068, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_34
       secondDelay: 0.04
       AtlasUsing: 8
-    - spriteName: vent_out-starting_38
-      sprite: {fileID: 21300076, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300076, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_38
       secondDelay: 0.03
       AtlasUsing: 8
-    - spriteName: vent_out-starting_42
-      sprite: {fileID: 21300084, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300084, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_42
       secondDelay: 0.02
       AtlasUsing: 8
-    - spriteName: vent_out-starting_46
-      sprite: {fileID: 21300092, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300092, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_46
       secondDelay: 0.01
       AtlasUsing: 8
   - Frames:
-    - spriteName: vent_out-starting_3
-      sprite: {fileID: 21300006, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300006, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_3
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: vent_out-starting_7
-      sprite: {fileID: 21300014, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300014, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_7
       secondDelay: 0.18
       AtlasUsing: 8
-    - spriteName: vent_out-starting_11
-      sprite: {fileID: 21300022, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300022, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_11
       secondDelay: 0.15
       AtlasUsing: 8
-    - spriteName: vent_out-starting_15
-      sprite: {fileID: 21300030, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300030, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_15
       secondDelay: 0.13
       AtlasUsing: 8
-    - spriteName: vent_out-starting_19
-      sprite: {fileID: 21300038, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300038, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_19
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: vent_out-starting_23
-      sprite: {fileID: 21300046, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300046, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_23
       secondDelay: 0.08
       AtlasUsing: 8
-    - spriteName: vent_out-starting_27
-      sprite: {fileID: 21300054, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300054, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_27
       secondDelay: 0.06
       AtlasUsing: 8
-    - spriteName: vent_out-starting_31
-      sprite: {fileID: 21300062, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300062, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_31
       secondDelay: 0.05
       AtlasUsing: 8
-    - spriteName: vent_out-starting_35
-      sprite: {fileID: 21300070, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300070, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_35
       secondDelay: 0.04
       AtlasUsing: 8
-    - spriteName: vent_out-starting_39
-      sprite: {fileID: 21300078, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300078, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_39
       secondDelay: 0.03
       AtlasUsing: 8
-    - spriteName: vent_out-starting_43
-      sprite: {fileID: 21300086, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300086, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_43
       secondDelay: 0.02
       AtlasUsing: 8
-    - spriteName: vent_out-starting_47
-      sprite: {fileID: 21300094, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+    - sprite: {fileID: 21300094, guid: f24bc741b8d8b3f4db197b567ee8834b, type: 3}
+      spriteName: vent_out-starting_47
       secondDelay: 0.01
       AtlasUsing: 8
   IsPalette: 0

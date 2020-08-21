@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: assemblies_syndicate-bomb-inactive
-      sprite: {fileID: 21300000, guid: 3b7ebfb30b11e13428c1d7e5950775ca, type: 3}
+    - sprite: {fileID: 21300000, guid: 3b7ebfb30b11e13428c1d7e5950775ca, type: 3}
+      spriteName: assemblies_syndicate-bomb-inactive
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

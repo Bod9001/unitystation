@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: syndie_stun_0
-      sprite: {fileID: 21300000, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+    - sprite: {fileID: 21300000, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+      spriteName: syndie_stun_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: syndie_stun_1
-      sprite: {fileID: 21300002, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+    - sprite: {fileID: 21300002, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+      spriteName: syndie_stun_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: syndie_stun_2
-      sprite: {fileID: 21300004, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+    - sprite: {fileID: 21300004, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+      spriteName: syndie_stun_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: syndie_stun_3
-      sprite: {fileID: 21300006, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+    - sprite: {fileID: 21300006, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+      spriteName: syndie_stun_3
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: syndie_stun_4
-      sprite: {fileID: 21300008, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+    - sprite: {fileID: 21300008, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+      spriteName: syndie_stun_4
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: syndie_stun_5
-      sprite: {fileID: 21300010, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+    - sprite: {fileID: 21300010, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+      spriteName: syndie_stun_5
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: syndie_stun_6
-      sprite: {fileID: 21300012, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+    - sprite: {fileID: 21300012, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+      spriteName: syndie_stun_6
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: syndie_stun_7
-      sprite: {fileID: 21300014, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+    - sprite: {fileID: 21300014, guid: 7aaf4e8a17a57f14db6776292da5a9e5, type: 3}
+      spriteName: syndie_stun_7
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

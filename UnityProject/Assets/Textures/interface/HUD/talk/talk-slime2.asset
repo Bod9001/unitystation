@@ -14,34 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: talk_slime2_0
-      sprite: {fileID: 798857646820048933, guid: d5b9dd780e701534f920672d371ff269,
+    - sprite: {fileID: 798857646820048933, guid: d5b9dd780e701534f920672d371ff269,
         type: 3}
+      spriteName: talk_slime2_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_slime2_1
-      sprite: {fileID: -1136200067656912592, guid: d5b9dd780e701534f920672d371ff269,
+    - sprite: {fileID: -1136200067656912592, guid: d5b9dd780e701534f920672d371ff269,
         type: 3}
+      spriteName: talk_slime2_1
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: talk_slime2_2
-      sprite: {fileID: -7708803730363760823, guid: d5b9dd780e701534f920672d371ff269,
+    - sprite: {fileID: -7708803730363760823, guid: d5b9dd780e701534f920672d371ff269,
         type: 3}
+      spriteName: talk_slime2_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_slime2_3
-      sprite: {fileID: 3487579434368678861, guid: d5b9dd780e701534f920672d371ff269,
+    - sprite: {fileID: 3487579434368678861, guid: d5b9dd780e701534f920672d371ff269,
         type: 3}
+      spriteName: talk_slime2_3
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_slime2_4
-      sprite: {fileID: 6096540989339905380, guid: d5b9dd780e701534f920672d371ff269,
+    - sprite: {fileID: 6096540989339905380, guid: d5b9dd780e701534f920672d371ff269,
         type: 3}
+      spriteName: talk_slime2_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_slime2_5
-      sprite: {fileID: -5865298990179412495, guid: d5b9dd780e701534f920672d371ff269,
+    - sprite: {fileID: -5865298990179412495, guid: d5b9dd780e701534f920672d371ff269,
         type: 3}
+      spriteName: talk_slime2_5
       secondDelay: 0.6
       AtlasUsing: 9
   IsPalette: 0

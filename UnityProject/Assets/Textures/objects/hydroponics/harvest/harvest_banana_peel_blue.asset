@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: harvest_banana_peel_blue
-      sprite: {fileID: 21300000, guid: 1cfbefba60b54b843b25cb75b845efcf, type: 3}
+    - sprite: {fileID: 21300000, guid: 1cfbefba60b54b843b25cb75b845efcf, type: 3}
+      spriteName: harvest_banana_peel_blue
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

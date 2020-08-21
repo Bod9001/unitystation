@@ -14,127 +14,127 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: techpriest_0
-      sprite: {fileID: -8153003461406285960, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: -8153003461406285960, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_0
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_4
-      sprite: {fileID: -5014666107340629012, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: -5014666107340629012, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_4
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_8
-      sprite: {fileID: 2899669665127309501, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: 2899669665127309501, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_8
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_12
-      sprite: {fileID: 7145787177462374423, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: 7145787177462374423, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_12
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_16
-      sprite: {fileID: -7101403254530001738, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: -7101403254530001738, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_16
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_20
-      sprite: {fileID: 5405845451882393555, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: 5405845451882393555, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-  - Frames:
-    - spriteName: techpriest_1
-      sprite: {fileID: -6206453959816464360, guid: b02d5b9aa5b023a4593b92e8eb874e84,
-        type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: techpriest_5
-      sprite: {fileID: 5486744924139601626, guid: b02d5b9aa5b023a4593b92e8eb874e84,
-        type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: techpriest_9
-      sprite: {fileID: 8448430314716113467, guid: b02d5b9aa5b023a4593b92e8eb874e84,
-        type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: techpriest_13
-      sprite: {fileID: -4718755668915546339, guid: b02d5b9aa5b023a4593b92e8eb874e84,
-        type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: techpriest_17
-      sprite: {fileID: -1391264993206274444, guid: b02d5b9aa5b023a4593b92e8eb874e84,
-        type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: techpriest_21
-      sprite: {fileID: 8810344821272579594, guid: b02d5b9aa5b023a4593b92e8eb874e84,
-        type: 3}
+      spriteName: techpriest_20
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: techpriest_2
-      sprite: {fileID: 2306531279378811473, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: -6206453959816464360, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_1
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_6
-      sprite: {fileID: 4647958732951709522, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: 5486744924139601626, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_5
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_10
-      sprite: {fileID: -8708501499745560538, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: 8448430314716113467, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_9
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_14
-      sprite: {fileID: -6859586247308576359, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: -4718755668915546339, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_13
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_18
-      sprite: {fileID: -8755883302944526657, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: -1391264993206274444, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_17
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_22
-      sprite: {fileID: 2182988764602094550, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: 8810344821272579594, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_21
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: techpriest_3
-      sprite: {fileID: 5428559364554448020, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: 2306531279378811473, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_2
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_7
-      sprite: {fileID: 807912055730732225, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: 4647958732951709522, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_6
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_11
-      sprite: {fileID: -3919437425658668048, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: -8708501499745560538, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_10
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_15
-      sprite: {fileID: -3904724531864374349, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: -6859586247308576359, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_14
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_19
-      sprite: {fileID: -7277739479719873125, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: -8755883302944526657, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_18
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: techpriest_23
-      sprite: {fileID: -3068762355459263887, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+    - sprite: {fileID: 2182988764602094550, guid: b02d5b9aa5b023a4593b92e8eb874e84,
         type: 3}
+      spriteName: techpriest_22
+      secondDelay: 0.1
+      AtlasUsing: 2
+  - Frames:
+    - sprite: {fileID: 5428559364554448020, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+        type: 3}
+      spriteName: techpriest_3
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 807912055730732225, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+        type: 3}
+      spriteName: techpriest_7
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: -3919437425658668048, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+        type: 3}
+      spriteName: techpriest_11
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: -3904724531864374349, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+        type: 3}
+      spriteName: techpriest_15
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: -7277739479719873125, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+        type: 3}
+      spriteName: techpriest_19
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: -3068762355459263887, guid: b02d5b9aa5b023a4593b92e8eb874e84,
+        type: 3}
+      spriteName: techpriest_23
       secondDelay: 0.1
       AtlasUsing: 2
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: carton_0
-      sprite: {fileID: 21300000, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
+    - sprite: {fileID: 21300000, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
+      spriteName: carton_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: carton_1
-      sprite: {fileID: 21300002, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
+    - sprite: {fileID: 21300002, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
+      spriteName: carton_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: carton_2
-      sprite: {fileID: 21300004, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
+    - sprite: {fileID: 21300004, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
+      spriteName: carton_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: carton_3
-      sprite: {fileID: 21300006, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
+    - sprite: {fileID: 21300006, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
+      spriteName: carton_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

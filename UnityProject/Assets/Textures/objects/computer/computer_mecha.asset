@@ -14,103 +14,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mecha_0
-      sprite: {fileID: 21300000, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300000, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_4
-      sprite: {fileID: 21300008, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300008, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_8
-      sprite: {fileID: 21300016, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300016, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_8
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_12
-      sprite: {fileID: 21300024, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300024, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_12
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_16
-      sprite: {fileID: 21300032, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300032, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_16
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_20
-      sprite: {fileID: 21300040, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-  - Frames:
-    - spriteName: mecha_1
-      sprite: {fileID: 21300002, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: mecha_5
-      sprite: {fileID: 21300010, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: mecha_9
-      sprite: {fileID: 21300018, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: mecha_13
-      sprite: {fileID: 21300026, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: mecha_17
-      sprite: {fileID: 21300034, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: mecha_21
-      sprite: {fileID: 21300042, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300040, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_20
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: mecha_2
-      sprite: {fileID: 21300004, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300002, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_6
-      sprite: {fileID: 21300012, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300010, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_10
-      sprite: {fileID: 21300020, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300018, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_9
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_14
-      sprite: {fileID: 21300028, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300026, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_13
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_18
-      sprite: {fileID: 21300036, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300034, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_17
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_22
-      sprite: {fileID: 21300044, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300042, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_21
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: mecha_3
-      sprite: {fileID: 21300006, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300004, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_7
-      sprite: {fileID: 21300014, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300012, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_11
-      sprite: {fileID: 21300022, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300020, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_10
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_15
-      sprite: {fileID: 21300030, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300028, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_14
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_19
-      sprite: {fileID: 21300038, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300036, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_18
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: mecha_23
-      sprite: {fileID: 21300046, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+    - sprite: {fileID: 21300044, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_22
+      secondDelay: 0.1
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_3
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300014, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_7
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300022, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_11
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300030, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_15
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300038, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_19
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300046, guid: 9345325a5ecc6554982f7daf095ca10d, type: 3}
+      spriteName: mecha_23
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

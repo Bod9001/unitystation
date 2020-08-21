@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clockwork_objects_relay_o
-      sprite: {fileID: 21300000, guid: 25937b2a5a3168442a4a4841bcac7df5, type: 3}
+    - sprite: {fileID: 21300000, guid: 25937b2a5a3168442a4a4841bcac7df5, type: 3}
+      spriteName: clockwork_objects_relay_o
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

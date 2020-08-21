@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: doorc1_0
-      sprite: {fileID: 21300000, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+    - sprite: {fileID: 21300000, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+      spriteName: doorc1_0
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: doorc1_1
-      sprite: {fileID: 21300002, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+    - sprite: {fileID: 21300002, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+      spriteName: doorc1_1
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: doorc1_2
-      sprite: {fileID: 21300004, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+    - sprite: {fileID: 21300004, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+      spriteName: doorc1_2
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: doorc1_3
-      sprite: {fileID: 21300006, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+    - sprite: {fileID: 21300006, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+      spriteName: doorc1_3
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: doorc1_4
-      sprite: {fileID: 21300008, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+    - sprite: {fileID: 21300008, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+      spriteName: doorc1_4
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: doorc1_5
-      sprite: {fileID: 21300010, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+    - sprite: {fileID: 21300010, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+      spriteName: doorc1_5
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: doorc1_6
-      sprite: {fileID: 21300012, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+    - sprite: {fileID: 21300012, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+      spriteName: doorc1_6
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: doorc1_7
-      sprite: {fileID: 21300014, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+    - sprite: {fileID: 21300014, guid: 906a4aa5fb951dc4c828df877dad0a66, type: 3}
+      spriteName: doorc1_7
       secondDelay: 0.2
       AtlasUsing: 8
   IsPalette: 0

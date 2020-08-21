@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: research_protolathe
-      sprite: {fileID: 21300000, guid: d412a9eb810624047827de2f5d9166eb, type: 3}
+    - sprite: {fileID: 21300000, guid: d412a9eb810624047827de2f5d9166eb, type: 3}
+      spriteName: research_protolathe
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

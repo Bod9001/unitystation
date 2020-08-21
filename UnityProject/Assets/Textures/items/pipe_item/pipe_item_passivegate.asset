@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: passivegate_0
-      sprite: {fileID: 21300000, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
+    - sprite: {fileID: 21300000, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
+      spriteName: passivegate_0
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: passivegate_1
-      sprite: {fileID: 21300002, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
+    - sprite: {fileID: 21300002, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
+      spriteName: passivegate_1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: passivegate_2
-      sprite: {fileID: 21300004, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
+    - sprite: {fileID: 21300004, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
+      spriteName: passivegate_2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: passivegate_3
-      sprite: {fileID: 21300006, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
+    - sprite: {fileID: 21300006, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
+      spriteName: passivegate_3
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

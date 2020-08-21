@@ -14,64 +14,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: speedspace_ns_7_0
-      sprite: {fileID: 21300000, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300000, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_1
-      sprite: {fileID: 21300002, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300002, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_2
-      sprite: {fileID: 21300004, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300004, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_3
-      sprite: {fileID: 21300006, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300006, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_3
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_4
-      sprite: {fileID: 21300008, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300008, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_5
-      sprite: {fileID: 21300010, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300010, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_6
-      sprite: {fileID: 21300012, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300012, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_6
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_7
-      sprite: {fileID: 21300014, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300014, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_7
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_8
-      sprite: {fileID: 21300016, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300016, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_8
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_9
-      sprite: {fileID: 21300018, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300018, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_9
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_10
-      sprite: {fileID: 21300020, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300020, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_10
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_11
-      sprite: {fileID: 21300022, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300022, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_11
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_12
-      sprite: {fileID: 21300024, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300024, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_12
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_13
-      sprite: {fileID: 21300026, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300026, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_13
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: speedspace_ns_7_14
-      sprite: {fileID: 21300028, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+    - sprite: {fileID: 21300028, guid: 58ce224cd0b7f5e45b9c2258a925a4c1, type: 3}
+      spriteName: speedspace_ns_7_14
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

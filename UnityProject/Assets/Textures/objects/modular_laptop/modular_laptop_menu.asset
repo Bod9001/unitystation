@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: menu_0
-      sprite: {fileID: 21300000, guid: 145bd383e1a218f44bd1e511d0fdc0dc, type: 3}
+    - sprite: {fileID: 21300000, guid: 145bd383e1a218f44bd1e511d0fdc0dc, type: 3}
+      spriteName: menu_0
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: menu_1
-      sprite: {fileID: 21300002, guid: 145bd383e1a218f44bd1e511d0fdc0dc, type: 3}
+    - sprite: {fileID: 21300002, guid: 145bd383e1a218f44bd1e511d0fdc0dc, type: 3}
+      spriteName: menu_1
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: menu_2
-      sprite: {fileID: 21300004, guid: 145bd383e1a218f44bd1e511d0fdc0dc, type: 3}
+    - sprite: {fileID: 21300004, guid: 145bd383e1a218f44bd1e511d0fdc0dc, type: 3}
+      spriteName: menu_2
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

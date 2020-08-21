@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: large_nzcrentr
-      sprite: {fileID: 21300000, guid: 84a8092f18130d24db81d4a96d3b04a5, type: 3}
+    - sprite: {fileID: 21300000, guid: 84a8092f18130d24db81d4a96d3b04a5, type: 3}
+      spriteName: large_nzcrentr
       secondDelay: 0
       AtlasUsing: 1
   IsPalette: 0

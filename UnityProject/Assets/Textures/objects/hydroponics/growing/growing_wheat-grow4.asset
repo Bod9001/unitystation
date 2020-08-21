@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_wheat-grow4
-      sprite: {fileID: 21300000, guid: 97ad7a02700d2db44960ef84abab9797, type: 3}
+    - sprite: {fileID: 21300000, guid: 97ad7a02700d2db44960ef84abab9797, type: 3}
+      spriteName: growing_wheat-grow4
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

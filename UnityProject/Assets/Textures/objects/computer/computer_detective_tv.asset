@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: computer_detective_tv
-      sprite: {fileID: 21300000, guid: 73ebd2be902b9d74aa92b0eee72a8b2f, type: 3}
+    - sprite: {fileID: 21300000, guid: 73ebd2be902b9d74aa92b0eee72a8b2f, type: 3}
+      spriteName: computer_detective_tv
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

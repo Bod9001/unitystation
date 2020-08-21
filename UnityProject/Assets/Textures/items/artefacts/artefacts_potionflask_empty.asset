@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: artefacts_potionflask_empty
-      sprite: {fileID: 21300000, guid: 066421a5fbd700c4ebbc424dc5a2b0de, type: 3}
+    - sprite: {fileID: 21300000, guid: 066421a5fbd700c4ebbc424dc5a2b0de, type: 3}
+      spriteName: artefacts_potionflask_empty
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

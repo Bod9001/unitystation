@@ -14,64 +14,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ai-inverted_0
-      sprite: {fileID: 21300000, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300000, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_0
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_1
-      sprite: {fileID: 21300002, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300002, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_1
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_2
-      sprite: {fileID: 21300004, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300004, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-inverted_3
-      sprite: {fileID: 21300006, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300006, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_3
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_4
-      sprite: {fileID: 21300008, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300008, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_4
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_5
-      sprite: {fileID: 21300010, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300010, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_5
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_6
-      sprite: {fileID: 21300012, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300012, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_6
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_7
-      sprite: {fileID: 21300014, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300014, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_7
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_8
-      sprite: {fileID: 21300016, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300016, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_8
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_9
-      sprite: {fileID: 21300018, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300018, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_9
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_10
-      sprite: {fileID: 21300020, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300020, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_10
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_11
-      sprite: {fileID: 21300022, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300022, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_11
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_12
-      sprite: {fileID: 21300024, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300024, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_12
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_13
-      sprite: {fileID: 21300026, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300026, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_13
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-inverted_14
-      sprite: {fileID: 21300028, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+    - sprite: {fileID: 21300028, guid: b418922629d98484eb45df995f0ccba8, type: 3}
+      spriteName: ai-inverted_14
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

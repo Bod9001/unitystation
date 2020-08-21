@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: energy_kineticgun_u
-      sprite: {fileID: 21300000, guid: 345c9291685456943baa7dcd0e7afc5a, type: 3}
+    - sprite: {fileID: 21300000, guid: 345c9291685456943baa7dcd0e7afc5a, type: 3}
+      spriteName: energy_kineticgun_u
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

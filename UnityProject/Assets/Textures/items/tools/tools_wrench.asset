@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tools_wrench
-      sprite: {fileID: 21300000, guid: 9e728f184337ecd4e9bf8fc6a17a6124, type: 3}
+    - sprite: {fileID: 21300000, guid: 9e728f184337ecd4e9bf8fc6a17a6124, type: 3}
+      spriteName: tools_wrench
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

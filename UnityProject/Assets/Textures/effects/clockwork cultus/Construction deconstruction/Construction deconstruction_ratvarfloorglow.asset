@@ -14,72 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ratvarfloorglow_0
-      sprite: {fileID: 21300000, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300000, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_0
       secondDelay: 0.03
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_1
-      sprite: {fileID: 21300002, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300002, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_1
       secondDelay: 0.03
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_2
-      sprite: {fileID: 21300004, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300004, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_2
       secondDelay: 0.03
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_3
-      sprite: {fileID: 21300006, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300006, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_3
       secondDelay: 0.04
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_4
-      sprite: {fileID: 21300008, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300008, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_4
       secondDelay: 0.04
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_5
-      sprite: {fileID: 21300010, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300010, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_5
       secondDelay: 0.04
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_6
-      sprite: {fileID: 21300012, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300012, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_6
       secondDelay: 0.04
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_7
-      sprite: {fileID: 21300014, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300014, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_7
       secondDelay: 0.05
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_8
-      sprite: {fileID: 21300016, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300016, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_8
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_9
-      sprite: {fileID: 21300018, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300018, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_9
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_10
-      sprite: {fileID: 21300020, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300020, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_10
       secondDelay: 0.075
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_11
-      sprite: {fileID: 21300022, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300022, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_11
       secondDelay: 0.075
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_12
-      sprite: {fileID: 21300024, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300024, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_12
       secondDelay: 0.05
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_13
-      sprite: {fileID: 21300026, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300026, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_13
       secondDelay: 0.05
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_14
-      sprite: {fileID: 21300028, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300028, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_14
       secondDelay: 0.025
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_15
-      sprite: {fileID: 21300030, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300030, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_15
       secondDelay: 0.025
       AtlasUsing: 9
-    - spriteName: ratvarfloorglow_16
-      sprite: {fileID: 21300032, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+    - sprite: {fileID: 21300032, guid: ef98c1f5fea45194f9a3da404139f85a, type: 3}
+      spriteName: ratvarfloorglow_16
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

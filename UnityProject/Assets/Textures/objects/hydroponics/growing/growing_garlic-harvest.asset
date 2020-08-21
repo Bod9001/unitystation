@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_garlic-harvest
-      sprite: {fileID: 21300000, guid: 63603ce6a6a779c4a82b5818706c3f40, type: 3}
+    - sprite: {fileID: 21300000, guid: 63603ce6a6a779c4a82b5818706c3f40, type: 3}
+      spriteName: growing_garlic-harvest
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: equipment_misteratmos
-      sprite: {fileID: 21300000, guid: 0e903fc42b3786247b99bf23fafada87, type: 3}
+    - sprite: {fileID: 21300000, guid: 0e903fc42b3786247b99bf23fafada87, type: 3}
+      spriteName: equipment_misteratmos
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

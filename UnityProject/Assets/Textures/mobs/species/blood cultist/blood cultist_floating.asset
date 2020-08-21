@@ -14,103 +14,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: floating_0
-      sprite: {fileID: 21300000, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300000, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_0
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_4
-      sprite: {fileID: 21300008, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300008, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_4
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_8
-      sprite: {fileID: 21300016, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300016, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_8
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_12
-      sprite: {fileID: 21300024, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300024, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_12
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_16
-      sprite: {fileID: 21300032, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300032, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_16
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_20
-      sprite: {fileID: 21300040, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-  - Frames:
-    - spriteName: floating_1
-      sprite: {fileID: 21300002, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: floating_5
-      sprite: {fileID: 21300010, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: floating_9
-      sprite: {fileID: 21300018, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: floating_13
-      sprite: {fileID: 21300026, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: floating_17
-      sprite: {fileID: 21300034, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: floating_21
-      sprite: {fileID: 21300042, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300040, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_20
       secondDelay: 0.3
       AtlasUsing: 6
   - Frames:
-    - spriteName: floating_2
-      sprite: {fileID: 21300004, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300002, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_1
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_6
-      sprite: {fileID: 21300012, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300010, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_5
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_10
-      sprite: {fileID: 21300020, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300018, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_9
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_14
-      sprite: {fileID: 21300028, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300026, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_13
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_18
-      sprite: {fileID: 21300036, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300034, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_17
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_22
-      sprite: {fileID: 21300044, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300042, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_21
       secondDelay: 0.3
       AtlasUsing: 6
   - Frames:
-    - spriteName: floating_3
-      sprite: {fileID: 21300006, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300004, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_2
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_7
-      sprite: {fileID: 21300014, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300012, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_6
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_11
-      sprite: {fileID: 21300022, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300020, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_10
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_15
-      sprite: {fileID: 21300030, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300028, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_14
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_19
-      sprite: {fileID: 21300038, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300036, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_18
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: floating_23
-      sprite: {fileID: 21300046, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+    - sprite: {fileID: 21300044, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_22
+      secondDelay: 0.3
+      AtlasUsing: 6
+  - Frames:
+    - sprite: {fileID: 21300006, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_3
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300014, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_7
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300022, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_11
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300030, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_15
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300038, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_19
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300046, guid: e72db99a917001b4bbf543059af6a1c5, type: 3}
+      spriteName: floating_23
       secondDelay: 0.3
       AtlasUsing: 6
   IsPalette: 0

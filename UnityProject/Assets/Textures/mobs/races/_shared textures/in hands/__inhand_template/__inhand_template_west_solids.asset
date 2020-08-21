@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: __inhand_template_west_solids
-      sprite: {fileID: 21300000, guid: a494af4172d803e46ac91c6e55b61f51, type: 3}
+    - sprite: {fileID: 21300000, guid: a494af4172d803e46ac91c6e55b61f51, type: 3}
+      spriteName: __inhand_template_west_solids
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

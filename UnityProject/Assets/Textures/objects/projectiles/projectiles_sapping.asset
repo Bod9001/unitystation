@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sapping_0
-      sprite: {fileID: 21300000, guid: 60930c35da2ac7347aae4d4bfe6151f0, type: 3}
+    - sprite: {fileID: 21300000, guid: 60930c35da2ac7347aae4d4bfe6151f0, type: 3}
+      spriteName: sapping_0
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: sapping_1
-      sprite: {fileID: 21300002, guid: 60930c35da2ac7347aae4d4bfe6151f0, type: 3}
+    - sprite: {fileID: 21300002, guid: 60930c35da2ac7347aae4d4bfe6151f0, type: 3}
+      spriteName: sapping_1
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: sapping_2
-      sprite: {fileID: 21300004, guid: 60930c35da2ac7347aae4d4bfe6151f0, type: 3}
+    - sprite: {fileID: 21300004, guid: 60930c35da2ac7347aae4d4bfe6151f0, type: 3}
+      spriteName: sapping_2
       secondDelay: 0.2
       AtlasUsing: 8
   IsPalette: 0

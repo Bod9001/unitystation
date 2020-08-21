@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blowgun_0
-      sprite: {fileID: 21300000, guid: 1fddfa869acfd7648ae1c52d35add68b, type: 3}
+    - sprite: {fileID: 21300000, guid: 1fddfa869acfd7648ae1c52d35add68b, type: 3}
+      spriteName: blowgun_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: blowgun_1
-      sprite: {fileID: 21300002, guid: 1fddfa869acfd7648ae1c52d35add68b, type: 3}
+    - sprite: {fileID: 21300002, guid: 1fddfa869acfd7648ae1c52d35add68b, type: 3}
+      spriteName: blowgun_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: blowgun_2
-      sprite: {fileID: 21300004, guid: 1fddfa869acfd7648ae1c52d35add68b, type: 3}
+    - sprite: {fileID: 21300004, guid: 1fddfa869acfd7648ae1c52d35add68b, type: 3}
+      spriteName: blowgun_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: blowgun_3
-      sprite: {fileID: 21300006, guid: 1fddfa869acfd7648ae1c52d35add68b, type: 3}
+    - sprite: {fileID: 21300006, guid: 1fddfa869acfd7648ae1c52d35add68b, type: 3}
+      spriteName: blowgun_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

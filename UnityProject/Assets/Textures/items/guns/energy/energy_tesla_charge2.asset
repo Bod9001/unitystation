@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: energy_tesla_charge2
-      sprite: {fileID: 21300000, guid: 510032b4b0bd9d546b4d3c6ba51d5fe4, type: 3}
+    - sprite: {fileID: 21300000, guid: 510032b4b0bd9d546b4d3c6ba51d5fe4, type: 3}
+      spriteName: energy_tesla_charge2
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

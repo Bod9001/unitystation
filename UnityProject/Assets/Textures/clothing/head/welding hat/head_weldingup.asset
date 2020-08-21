@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: weldingup_0
-      sprite: {fileID: 21300000, guid: 987d2016d11f6f54791de4d2fbc8a55c, type: 3}
+    - sprite: {fileID: 21300000, guid: 987d2016d11f6f54791de4d2fbc8a55c, type: 3}
+      spriteName: weldingup_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: weldingup_1
-      sprite: {fileID: 21300002, guid: 987d2016d11f6f54791de4d2fbc8a55c, type: 3}
+    - sprite: {fileID: 21300002, guid: 987d2016d11f6f54791de4d2fbc8a55c, type: 3}
+      spriteName: weldingup_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: weldingup_2
-      sprite: {fileID: 21300004, guid: 987d2016d11f6f54791de4d2fbc8a55c, type: 3}
+    - sprite: {fileID: 21300004, guid: 987d2016d11f6f54791de4d2fbc8a55c, type: 3}
+      spriteName: weldingup_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: weldingup_3
-      sprite: {fileID: 21300006, guid: 987d2016d11f6f54791de4d2fbc8a55c, type: 3}
+    - sprite: {fileID: 21300006, guid: 987d2016d11f6f54791de4d2fbc8a55c, type: 3}
+      spriteName: weldingup_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

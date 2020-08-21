@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: singularity_beacon0
-      sprite: {fileID: 21300000, guid: df2ea0154aa5f654cb4ff390cc0cac88, type: 3}
+    - sprite: {fileID: 21300000, guid: df2ea0154aa5f654cb4ff390cc0cac88, type: 3}
+      spriteName: singularity_beacon0
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

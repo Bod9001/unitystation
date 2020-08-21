@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ammo_uzi9mm-8
-      sprite: {fileID: 21300000, guid: c778e202d2aa45347a088826dcb20147, type: 3}
+    - sprite: {fileID: 21300000, guid: c778e202d2aa45347a088826dcb20147, type: 3}
+      spriteName: ammo_uzi9mm-8
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

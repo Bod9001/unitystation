@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: diagonal_0
-      sprite: {fileID: 21300000, guid: 9c94e18796693f740b8d735183924a6c, type: 3}
+    - sprite: {fileID: 21300000, guid: 9c94e18796693f740b8d735183924a6c, type: 3}
+      spriteName: diagonal_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diagonal_1
-      sprite: {fileID: 21300002, guid: 9c94e18796693f740b8d735183924a6c, type: 3}
+    - sprite: {fileID: 21300002, guid: 9c94e18796693f740b8d735183924a6c, type: 3}
+      spriteName: diagonal_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diagonal_2
-      sprite: {fileID: 21300004, guid: 9c94e18796693f740b8d735183924a6c, type: 3}
+    - sprite: {fileID: 21300004, guid: 9c94e18796693f740b8d735183924a6c, type: 3}
+      spriteName: diagonal_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: diagonal_3
-      sprite: {fileID: 21300006, guid: 9c94e18796693f740b8d735183924a6c, type: 3}
+    - sprite: {fileID: 21300006, guid: 9c94e18796693f740b8d735183924a6c, type: 3}
+      spriteName: diagonal_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

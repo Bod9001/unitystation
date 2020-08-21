@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_baton
-      sprite: {fileID: 21300000, guid: 357b4c10ba04d0e4998c7b3d032229bc, type: 3}
+    - sprite: {fileID: 21300000, guid: 357b4c10ba04d0e4998c7b3d032229bc, type: 3}
+      spriteName: items_and_weapons_baton
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

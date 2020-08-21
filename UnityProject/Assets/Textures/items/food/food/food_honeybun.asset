@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_honeybun
-      sprite: {fileID: 21300000, guid: 9baf0759c25c24b4db8a2b1d2d5ebe07, type: 3}
+    - sprite: {fileID: 21300000, guid: 9baf0759c25c24b4db8a2b1d2d5ebe07, type: 3}
+      spriteName: food_honeybun
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

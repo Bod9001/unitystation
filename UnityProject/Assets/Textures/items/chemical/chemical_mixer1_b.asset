@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chemical_mixer1_b
-      sprite: {fileID: 21300000, guid: c966839e42f0da5478cc824b5b971522, type: 3}
+    - sprite: {fileID: 21300000, guid: c966839e42f0da5478cc824b5b971522, type: 3}
+      spriteName: chemical_mixer1_b
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

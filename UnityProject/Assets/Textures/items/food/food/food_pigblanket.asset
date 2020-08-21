@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_pigblanket
-      sprite: {fileID: 21300000, guid: 3458abcdcf6e8b14082d11b1b8f90487, type: 3}
+    - sprite: {fileID: 21300000, guid: 3458abcdcf6e8b14082d11b1b8f90487, type: 3}
+      spriteName: food_pigblanket
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

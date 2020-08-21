@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bureaucracy_stamp-cmo
-      sprite: {fileID: 21300000, guid: 24214e9fc62714548977fe3020da05a7, type: 3}
+    - sprite: {fileID: 21300000, guid: 24214e9fc62714548977fe3020da05a7, type: 3}
+      spriteName: bureaucracy_stamp-cmo
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

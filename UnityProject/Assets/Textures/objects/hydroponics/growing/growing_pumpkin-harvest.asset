@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_pumpkin-harvest
-      sprite: {fileID: 21300000, guid: e281e6ad8bfde6f4b8834cb05194e018, type: 3}
+    - sprite: {fileID: 21300000, guid: e281e6ad8bfde6f4b8834cb05194e018, type: 3}
+      spriteName: growing_pumpkin-harvest
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

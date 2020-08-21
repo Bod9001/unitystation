@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cook-skillcape_1
-      sprite: {fileID: -8870008906627091772, guid: 732b8cc3665972d49a866a885322f61c,
+    - sprite: {fileID: -8870008906627091772, guid: 732b8cc3665972d49a866a885322f61c,
         type: 3}
+      spriteName: cook-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

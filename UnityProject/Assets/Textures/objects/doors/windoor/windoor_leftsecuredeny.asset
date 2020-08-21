@@ -14,55 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: leftsecuredeny_0
-      sprite: {fileID: 21300000, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+    - sprite: {fileID: 21300000, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: leftsecuredeny_4
-      sprite: {fileID: 21300008, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+    - sprite: {fileID: 21300008, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: leftsecuredeny_8
-      sprite: {fileID: 21300016, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-  - Frames:
-    - spriteName: leftsecuredeny_1
-      sprite: {fileID: 21300002, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: leftsecuredeny_5
-      sprite: {fileID: 21300010, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: leftsecuredeny_9
-      sprite: {fileID: 21300018, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+    - sprite: {fileID: 21300016, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_8
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: leftsecuredeny_2
-      sprite: {fileID: 21300004, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+    - sprite: {fileID: 21300002, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: leftsecuredeny_6
-      sprite: {fileID: 21300012, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+    - sprite: {fileID: 21300010, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: leftsecuredeny_10
-      sprite: {fileID: 21300020, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+    - sprite: {fileID: 21300018, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_9
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: leftsecuredeny_3
-      sprite: {fileID: 21300006, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+    - sprite: {fileID: 21300004, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: leftsecuredeny_7
-      sprite: {fileID: 21300014, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+    - sprite: {fileID: 21300012, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: leftsecuredeny_11
-      sprite: {fileID: 21300022, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+    - sprite: {fileID: 21300020, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_10
+      secondDelay: 0.1
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_3
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300014, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_7
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300022, guid: 5a34900840e4c9b418cd7129e8dc9581, type: 3}
+      spriteName: leftsecuredeny_11
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

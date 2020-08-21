@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hardsuit-atmospherics_0
-      sprite: {fileID: 21300000, guid: 61f593e2cdf8db94bb57414d7ddec90c, type: 3}
+    - sprite: {fileID: 21300000, guid: 61f593e2cdf8db94bb57414d7ddec90c, type: 3}
+      spriteName: hardsuit-atmospherics_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hardsuit-atmospherics_1
-      sprite: {fileID: 21300002, guid: 61f593e2cdf8db94bb57414d7ddec90c, type: 3}
+    - sprite: {fileID: 21300002, guid: 61f593e2cdf8db94bb57414d7ddec90c, type: 3}
+      spriteName: hardsuit-atmospherics_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hardsuit-atmospherics_2
-      sprite: {fileID: 21300004, guid: 61f593e2cdf8db94bb57414d7ddec90c, type: 3}
+    - sprite: {fileID: 21300004, guid: 61f593e2cdf8db94bb57414d7ddec90c, type: 3}
+      spriteName: hardsuit-atmospherics_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hardsuit-atmospherics_3
-      sprite: {fileID: 21300006, guid: 61f593e2cdf8db94bb57414d7ddec90c, type: 3}
+    - sprite: {fileID: 21300006, guid: 61f593e2cdf8db94bb57414d7ddec90c, type: 3}
+      spriteName: hardsuit-atmospherics_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

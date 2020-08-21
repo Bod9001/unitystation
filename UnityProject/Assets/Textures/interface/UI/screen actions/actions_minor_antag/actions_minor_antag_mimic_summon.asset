@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_minor_antag_mimic_summon
-      sprite: {fileID: 21300000, guid: 170db881c191fd146bdee20da17c9159, type: 3}
+    - sprite: {fileID: 21300000, guid: 170db881c191fd146bdee20da17c9159, type: 3}
+      spriteName: actions_minor_antag_mimic_summon
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bandolier_0
-      sprite: {fileID: 21300000, guid: ed611418fc5dfd342a3dd811c7ddba8e, type: 3}
+    - sprite: {fileID: 21300000, guid: ed611418fc5dfd342a3dd811c7ddba8e, type: 3}
+      spriteName: bandolier_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bandolier_1
-      sprite: {fileID: 21300002, guid: ed611418fc5dfd342a3dd811c7ddba8e, type: 3}
+    - sprite: {fileID: 21300002, guid: ed611418fc5dfd342a3dd811c7ddba8e, type: 3}
+      spriteName: bandolier_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bandolier_2
-      sprite: {fileID: 21300004, guid: ed611418fc5dfd342a3dd811c7ddba8e, type: 3}
+    - sprite: {fileID: 21300004, guid: ed611418fc5dfd342a3dd811c7ddba8e, type: 3}
+      spriteName: bandolier_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bandolier_3
-      sprite: {fileID: 21300006, guid: ed611418fc5dfd342a3dd811c7ddba8e, type: 3}
+    - sprite: {fileID: 21300006, guid: ed611418fc5dfd342a3dd811c7ddba8e, type: 3}
+      spriteName: bandolier_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

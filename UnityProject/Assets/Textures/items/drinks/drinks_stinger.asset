@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drinks_stinger
-      sprite: {fileID: 21300000, guid: f96c3eabd98ad304da82138380878444, type: 3}
+    - sprite: {fileID: 21300000, guid: f96c3eabd98ad304da82138380878444, type: 3}
+      spriteName: drinks_stinger
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

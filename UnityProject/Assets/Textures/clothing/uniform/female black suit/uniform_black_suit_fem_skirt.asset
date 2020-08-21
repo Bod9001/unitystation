@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: black_suit_fem_skirt_0
-      sprite: {fileID: 5042781004211058652, guid: 4468ff279aa09e949be13911df004b81,
+    - sprite: {fileID: 5042781004211058652, guid: 4468ff279aa09e949be13911df004b81,
         type: 3}
+      spriteName: black_suit_fem_skirt_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: black_suit_fem_skirt_1
-      sprite: {fileID: 1881901994359724582, guid: 4468ff279aa09e949be13911df004b81,
+    - sprite: {fileID: 1881901994359724582, guid: 4468ff279aa09e949be13911df004b81,
         type: 3}
+      spriteName: black_suit_fem_skirt_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: black_suit_fem_skirt_2
-      sprite: {fileID: -2212415737838668332, guid: 4468ff279aa09e949be13911df004b81,
+    - sprite: {fileID: -2212415737838668332, guid: 4468ff279aa09e949be13911df004b81,
         type: 3}
+      spriteName: black_suit_fem_skirt_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: black_suit_fem_skirt_3
-      sprite: {fileID: -5885937322403275907, guid: 4468ff279aa09e949be13911df004b81,
+    - sprite: {fileID: -5885937322403275907, guid: 4468ff279aa09e949be13911df004b81,
         type: 3}
+      spriteName: black_suit_fem_skirt_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

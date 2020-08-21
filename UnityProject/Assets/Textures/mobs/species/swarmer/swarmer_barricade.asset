@@ -14,40 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: barricade_0
-      sprite: {fileID: 21300000, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+    - sprite: {fileID: 21300000, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+      spriteName: barricade_0
       secondDelay: 1.5
       AtlasUsing: 6
-    - spriteName: barricade_1
-      sprite: {fileID: 21300002, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+    - sprite: {fileID: 21300002, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+      spriteName: barricade_1
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: barricade_2
-      sprite: {fileID: 21300004, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+    - sprite: {fileID: 21300004, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+      spriteName: barricade_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: barricade_3
-      sprite: {fileID: 21300006, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+    - sprite: {fileID: 21300006, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+      spriteName: barricade_3
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: barricade_4
-      sprite: {fileID: 21300008, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+    - sprite: {fileID: 21300008, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+      spriteName: barricade_4
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: barricade_5
-      sprite: {fileID: 21300010, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+    - sprite: {fileID: 21300010, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+      spriteName: barricade_5
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: barricade_6
-      sprite: {fileID: 21300012, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+    - sprite: {fileID: 21300012, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+      spriteName: barricade_6
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: barricade_7
-      sprite: {fileID: 21300014, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+    - sprite: {fileID: 21300014, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+      spriteName: barricade_7
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: barricade_8
-      sprite: {fileID: 21300016, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+    - sprite: {fileID: 21300016, guid: b0b3e0ebe187b0e48a547909d5e3806d, type: 3}
+      spriteName: barricade_8
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

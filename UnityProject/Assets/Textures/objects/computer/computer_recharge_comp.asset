@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: recharge_comp_0
-      sprite: {fileID: 21300000, guid: 384e0a1a8b5f34c4da4c900123986760, type: 3}
+    - sprite: {fileID: 21300000, guid: 384e0a1a8b5f34c4da4c900123986760, type: 3}
+      spriteName: recharge_comp_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: recharge_comp_1
-      sprite: {fileID: 21300002, guid: 384e0a1a8b5f34c4da4c900123986760, type: 3}
+    - sprite: {fileID: 21300002, guid: 384e0a1a8b5f34c4da4c900123986760, type: 3}
+      spriteName: recharge_comp_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: recharge_comp_2
-      sprite: {fileID: 21300004, guid: 384e0a1a8b5f34c4da4c900123986760, type: 3}
+    - sprite: {fileID: 21300004, guid: 384e0a1a8b5f34c4da4c900123986760, type: 3}
+      spriteName: recharge_comp_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: recharge_comp_3
-      sprite: {fileID: 21300006, guid: 384e0a1a8b5f34c4da4c900123986760, type: 3}
+    - sprite: {fileID: 21300006, guid: 384e0a1a8b5f34c4da4c900123986760, type: 3}
+      spriteName: recharge_comp_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: economy_rupee
-      sprite: {fileID: 21300000, guid: 306360215d7606943b88717e07980565, type: 3}
+    - sprite: {fileID: 21300000, guid: 306360215d7606943b88717e07980565, type: 3}
+      spriteName: economy_rupee
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

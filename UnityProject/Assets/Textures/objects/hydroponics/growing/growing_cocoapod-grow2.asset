@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_cocoapod-grow2
-      sprite: {fileID: 21300000, guid: fbd64466be1683b4798f96f4bf326223, type: 3}
+    - sprite: {fileID: 21300000, guid: fbd64466be1683b4798f96f4bf326223, type: 3}
+      spriteName: growing_cocoapod-grow2
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

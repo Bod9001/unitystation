@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: glasses_cold
-      sprite: {fileID: 21300000, guid: 5262f40fc80c63941b86c8c4f2d12ef2, type: 3}
+    - sprite: {fileID: 21300000, guid: 5262f40fc80c63941b86c8c4f2d12ef2, type: 3}
+      spriteName: glasses_cold
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

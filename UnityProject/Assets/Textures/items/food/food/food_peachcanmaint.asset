@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_peachcanmaint
-      sprite: {fileID: 21300000, guid: e3552adcb7ba7074a8debe1b9473a188, type: 3}
+    - sprite: {fileID: 21300000, guid: e3552adcb7ba7074a8debe1b9473a188, type: 3}
+      spriteName: food_peachcanmaint
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

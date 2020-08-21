@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: overlays_lights_bolts
-      sprite: {fileID: 21300000, guid: c85bdd7a54cd6d643bc643bc2e546641, type: 3}
+    - sprite: {fileID: 21300000, guid: c85bdd7a54cd6d643bc643bc2e546641, type: 3}
+      spriteName: overlays_lights_bolts
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

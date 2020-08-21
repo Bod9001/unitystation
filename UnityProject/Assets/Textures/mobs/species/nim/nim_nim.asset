@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: nim_nim
-      sprite: {fileID: 21300000, guid: 26ef66c1a7b213f4e962122ee943d329, type: 3}
+    - sprite: {fileID: 21300000, guid: 26ef66c1a7b213f4e962122ee943d329, type: 3}
+      spriteName: nim_nim
       secondDelay: 0.1
       AtlasUsing: 6
   - Frames: []

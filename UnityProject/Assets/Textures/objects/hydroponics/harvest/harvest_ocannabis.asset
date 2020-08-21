@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ocannabis_0
-      sprite: {fileID: 2920607986219436921, guid: 0fc951f0970d53b458ee63f2076c83ee,
+    - sprite: {fileID: 2920607986219436921, guid: 0fc951f0970d53b458ee63f2076c83ee,
         type: 3}
+      spriteName: ocannabis_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: ocannabis_1
-      sprite: {fileID: -8088533877595528143, guid: 0fc951f0970d53b458ee63f2076c83ee,
+    - sprite: {fileID: -8088533877595528143, guid: 0fc951f0970d53b458ee63f2076c83ee,
         type: 3}
+      spriteName: ocannabis_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: ocannabis_2
-      sprite: {fileID: 8215921311044288498, guid: 0fc951f0970d53b458ee63f2076c83ee,
+    - sprite: {fileID: 8215921311044288498, guid: 0fc951f0970d53b458ee63f2076c83ee,
         type: 3}
+      spriteName: ocannabis_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: ocannabis_3
-      sprite: {fileID: -2327387695651687659, guid: 0fc951f0970d53b458ee63f2076c83ee,
+    - sprite: {fileID: -2327387695651687659, guid: 0fc951f0970d53b458ee63f2076c83ee,
         type: 3}
+      spriteName: ocannabis_3
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

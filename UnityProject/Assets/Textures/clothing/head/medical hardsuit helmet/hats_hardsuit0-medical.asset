@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_hardsuit0-medical
-      sprite: {fileID: 21300000, guid: 717237aaa4404224b805f50ab61fa174, type: 3}
+    - sprite: {fileID: 21300000, guid: 717237aaa4404224b805f50ab61fa174, type: 3}
+      spriteName: hats_hardsuit0-medical
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

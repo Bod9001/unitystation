@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: det-skillcape_0
-      sprite: {fileID: 670978342756745943, guid: d1fe64948d2a1ad4ab1f30e706da587a,
+    - sprite: {fileID: 670978342756745943, guid: d1fe64948d2a1ad4ab1f30e706da587a,
         type: 3}
+      spriteName: det-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: det-skillcape_1
-      sprite: {fileID: -4049595873900652342, guid: d1fe64948d2a1ad4ab1f30e706da587a,
+    - sprite: {fileID: -4049595873900652342, guid: d1fe64948d2a1ad4ab1f30e706da587a,
         type: 3}
+      spriteName: det-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: det-skillcape_2
-      sprite: {fileID: 8571142633830309047, guid: d1fe64948d2a1ad4ab1f30e706da587a,
+    - sprite: {fileID: 8571142633830309047, guid: d1fe64948d2a1ad4ab1f30e706da587a,
         type: 3}
+      spriteName: det-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: det-skillcape_3
-      sprite: {fileID: -202900277580837289, guid: d1fe64948d2a1ad4ab1f30e706da587a,
+    - sprite: {fileID: -202900277580837289, guid: d1fe64948d2a1ad4ab1f30e706da587a,
         type: 3}
+      spriteName: det-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

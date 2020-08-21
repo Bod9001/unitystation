@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_ushankaup
-      sprite: {fileID: 21300000, guid: 5b2baea6e56ef7c4ea627d72df31b464, type: 3}
+    - sprite: {fileID: 21300000, guid: 5b2baea6e56ef7c4ea627d72df31b464, type: 3}
+      spriteName: hats_ushankaup
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

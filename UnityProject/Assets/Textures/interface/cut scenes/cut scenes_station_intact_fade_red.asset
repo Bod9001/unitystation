@@ -14,44 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: station_intact_fade_red_0
-      sprite: {fileID: 21300000, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300000, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_0
       secondDelay: 0.2
       AtlasUsing: 3
-    - spriteName: station_intact_fade_red_1
-      sprite: {fileID: 21300002, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300002, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_1
       secondDelay: 0.2
       AtlasUsing: 3
-    - spriteName: station_intact_fade_red_2
-      sprite: {fileID: 21300004, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300004, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_2
       secondDelay: 0.2
       AtlasUsing: 3
-    - spriteName: station_intact_fade_red_3
-      sprite: {fileID: 21300006, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300006, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_3
       secondDelay: 0.2
       AtlasUsing: 3
-    - spriteName: station_intact_fade_red_4
-      sprite: {fileID: 21300008, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300008, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_4
       secondDelay: 0.2
       AtlasUsing: 3
-    - spriteName: station_intact_fade_red_5
-      sprite: {fileID: 21300010, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300010, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_5
       secondDelay: 0.2
       AtlasUsing: 3
-    - spriteName: station_intact_fade_red_6
-      sprite: {fileID: 21300012, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300012, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_6
       secondDelay: 0.2
       AtlasUsing: 3
-    - spriteName: station_intact_fade_red_7
-      sprite: {fileID: 21300014, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300014, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_7
       secondDelay: 0.2
       AtlasUsing: 3
-    - spriteName: station_intact_fade_red_8
-      sprite: {fileID: 21300016, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300016, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_8
       secondDelay: 0.2
       AtlasUsing: 3
-    - spriteName: station_intact_fade_red_9
-      sprite: {fileID: 21300018, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+    - sprite: {fileID: 21300018, guid: ccece7a3a104df3408d8131b69b0dafe, type: 3}
+      spriteName: station_intact_fade_red_9
       secondDelay: 0.2
       AtlasUsing: 3
   IsPalette: 0

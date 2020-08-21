@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: projectile_revolver
-      sprite: {fileID: 21300000, guid: 36a97a4f3aabe0647990fe22b958d1f5, type: 3}
+    - sprite: {fileID: 21300000, guid: 36a97a4f3aabe0647990fe22b958d1f5, type: 3}
+      spriteName: projectile_revolver
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_cyborg_inv3_a
-      sprite: {fileID: 21300000, guid: 4f723fc3fca67cf43bebee05054936c5, type: 3}
+    - sprite: {fileID: 21300000, guid: 4f723fc3fca67cf43bebee05054936c5, type: 3}
+      spriteName: screen_cyborg_inv3_a
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

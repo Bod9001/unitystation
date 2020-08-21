@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: oar_0
-      sprite: {fileID: 21300000, guid: 57564bda62162e1468a1b1e8c2b0dd54, type: 3}
+    - sprite: {fileID: 21300000, guid: 57564bda62162e1468a1b1e8c2b0dd54, type: 3}
+      spriteName: oar_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: oar_1
-      sprite: {fileID: 21300002, guid: 57564bda62162e1468a1b1e8c2b0dd54, type: 3}
+    - sprite: {fileID: 21300002, guid: 57564bda62162e1468a1b1e8c2b0dd54, type: 3}
+      spriteName: oar_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: oar_2
-      sprite: {fileID: 21300004, guid: 57564bda62162e1468a1b1e8c2b0dd54, type: 3}
+    - sprite: {fileID: 21300004, guid: 57564bda62162e1468a1b1e8c2b0dd54, type: 3}
+      spriteName: oar_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: oar_3
-      sprite: {fileID: 21300006, guid: 57564bda62162e1468a1b1e8c2b0dd54, type: 3}
+    - sprite: {fileID: 21300006, guid: 57564bda62162e1468a1b1e8c2b0dd54, type: 3}
+      spriteName: oar_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

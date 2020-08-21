@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: syringe_holy_hypo
-      sprite: {fileID: 21300000, guid: 224f79f7968eb424aa6f9e62e4dec36b, type: 3}
+    - sprite: {fileID: 21300000, guid: 224f79f7968eb424aa6f9e62e4dec36b, type: 3}
+      spriteName: syringe_holy_hypo
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

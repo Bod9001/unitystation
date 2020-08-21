@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clockwork_objects_pinion_lock
-      sprite: {fileID: 21300000, guid: 08aeb5890991d6f4d890a8493a8c68ce, type: 3}
+    - sprite: {fileID: 21300000, guid: 08aeb5890991d6f4d890a8493a8c68ce, type: 3}
+      spriteName: clockwork_objects_pinion_lock
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_prototype_envisor
-      sprite: {fileID: 21300000, guid: 189a879b09443d245b84394b116fe932, type: 3}
+    - sprite: {fileID: 21300000, guid: 189a879b09443d245b84394b116fe932, type: 3}
+      spriteName: hats_prototype_envisor
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

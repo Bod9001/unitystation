@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mailman_0
-      sprite: {fileID: 21300000, guid: 91af5e49f4455254ea8523f4d6a514c0, type: 3}
+    - sprite: {fileID: 21300000, guid: 91af5e49f4455254ea8523f4d6a514c0, type: 3}
+      spriteName: mailman_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: mailman_1
-      sprite: {fileID: 21300002, guid: 91af5e49f4455254ea8523f4d6a514c0, type: 3}
+    - sprite: {fileID: 21300002, guid: 91af5e49f4455254ea8523f4d6a514c0, type: 3}
+      spriteName: mailman_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: mailman_2
-      sprite: {fileID: 21300004, guid: 91af5e49f4455254ea8523f4d6a514c0, type: 3}
+    - sprite: {fileID: 21300004, guid: 91af5e49f4455254ea8523f4d6a514c0, type: 3}
+      spriteName: mailman_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: mailman_3
-      sprite: {fileID: 21300006, guid: 91af5e49f4455254ea8523f4d6a514c0, type: 3}
+    - sprite: {fileID: 21300006, guid: 91af5e49f4455254ea8523f4d6a514c0, type: 3}
+      spriteName: mailman_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

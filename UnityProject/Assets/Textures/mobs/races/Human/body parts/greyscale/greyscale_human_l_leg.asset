@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: human_l_leg_0
-      sprite: {fileID: 21300000, guid: 8c9e872996b9ee747898aa01a80638e4, type: 3}
+    - sprite: {fileID: 21300000, guid: 8c9e872996b9ee747898aa01a80638e4, type: 3}
+      spriteName: human_l_leg_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: human_l_leg_1
-      sprite: {fileID: 21300002, guid: 8c9e872996b9ee747898aa01a80638e4, type: 3}
+    - sprite: {fileID: 21300002, guid: 8c9e872996b9ee747898aa01a80638e4, type: 3}
+      spriteName: human_l_leg_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: human_l_leg_2
-      sprite: {fileID: 21300004, guid: 8c9e872996b9ee747898aa01a80638e4, type: 3}
+    - sprite: {fileID: 21300004, guid: 8c9e872996b9ee747898aa01a80638e4, type: 3}
+      spriteName: human_l_leg_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: human_l_leg_3
-      sprite: {fileID: 21300006, guid: 8c9e872996b9ee747898aa01a80638e4, type: 3}
+    - sprite: {fileID: 21300006, guid: 8c9e872996b9ee747898aa01a80638e4, type: 3}
+      spriteName: human_l_leg_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

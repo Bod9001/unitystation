@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: box_logic_0
-      sprite: {fileID: 21300000, guid: 35078564430ef674c9bd2df451961275, type: 3}
+    - sprite: {fileID: 21300000, guid: 35078564430ef674c9bd2df451961275, type: 3}
+      spriteName: box_logic_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: box_logic_1
-      sprite: {fileID: 21300002, guid: 35078564430ef674c9bd2df451961275, type: 3}
+    - sprite: {fileID: 21300002, guid: 35078564430ef674c9bd2df451961275, type: 3}
+      spriteName: box_logic_1
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: box_logic_2
-      sprite: {fileID: 21300004, guid: 35078564430ef674c9bd2df451961275, type: 3}
+    - sprite: {fileID: 21300004, guid: 35078564430ef674c9bd2df451961275, type: 3}
+      spriteName: box_logic_2
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: box_logic_3
-      sprite: {fileID: 21300006, guid: 35078564430ef674c9bd2df451961275, type: 3}
+    - sprite: {fileID: 21300006, guid: 35078564430ef674c9bd2df451961275, type: 3}
+      spriteName: box_logic_3
       secondDelay: 0.2
       AtlasUsing: 5
   IsPalette: 0

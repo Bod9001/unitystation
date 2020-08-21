@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drinks_grenadine
-      sprite: {fileID: 21300000, guid: a8c9dc3486828ec41b88b52ceed8ee50, type: 3}
+    - sprite: {fileID: 21300000, guid: a8c9dc3486828ec41b88b52ceed8ee50, type: 3}
+      spriteName: drinks_grenadine
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

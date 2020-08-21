@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: piratemelee_0
-      sprite: {fileID: 21300000, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+    - sprite: {fileID: 21300000, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+      spriteName: piratemelee_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: piratemelee_4
-      sprite: {fileID: 21300008, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-  - Frames:
-    - spriteName: piratemelee_1
-      sprite: {fileID: 21300002, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: piratemelee_5
-      sprite: {fileID: 21300010, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+    - sprite: {fileID: 21300008, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+      spriteName: piratemelee_4
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: piratemelee_2
-      sprite: {fileID: 21300004, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+    - sprite: {fileID: 21300002, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+      spriteName: piratemelee_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: piratemelee_6
-      sprite: {fileID: 21300012, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+    - sprite: {fileID: 21300010, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+      spriteName: piratemelee_5
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: piratemelee_3
-      sprite: {fileID: 21300006, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+    - sprite: {fileID: 21300004, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+      spriteName: piratemelee_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: piratemelee_7
-      sprite: {fileID: 21300014, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+    - sprite: {fileID: 21300012, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+      spriteName: piratemelee_6
+      secondDelay: 0.1
+      AtlasUsing: 9
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+      spriteName: piratemelee_3
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300014, guid: 28e4ee95a88312d4aa7105d6ac9509c6, type: 3}
+      spriteName: piratemelee_7
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

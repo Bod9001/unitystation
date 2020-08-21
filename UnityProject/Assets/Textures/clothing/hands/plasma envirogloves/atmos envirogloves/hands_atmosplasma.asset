@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: atmosplasma_0
-      sprite: {fileID: -3486832764434605850, guid: 3d11289935da5f745bf7039b2edb2c8f,
+    - sprite: {fileID: -3486832764434605850, guid: 3d11289935da5f745bf7039b2edb2c8f,
         type: 3}
+      spriteName: atmosplasma_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: atmosplasma_1
-      sprite: {fileID: -3094704330503043261, guid: 3d11289935da5f745bf7039b2edb2c8f,
+    - sprite: {fileID: -3094704330503043261, guid: 3d11289935da5f745bf7039b2edb2c8f,
         type: 3}
+      spriteName: atmosplasma_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: atmosplasma_2
-      sprite: {fileID: 1450694061811200295, guid: 3d11289935da5f745bf7039b2edb2c8f,
+    - sprite: {fileID: 1450694061811200295, guid: 3d11289935da5f745bf7039b2edb2c8f,
         type: 3}
+      spriteName: atmosplasma_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: atmosplasma_3
-      sprite: {fileID: -1013306982169109748, guid: 3d11289935da5f745bf7039b2edb2c8f,
+    - sprite: {fileID: -1013306982169109748, guid: 3d11289935da5f745bf7039b2edb2c8f,
         type: 3}
+      spriteName: atmosplasma_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

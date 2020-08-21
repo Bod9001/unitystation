@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: exwelder_0
-      sprite: {fileID: 21300000, guid: a1e525df28e0fe0428a6fa08db9aa7a7, type: 3}
+    - sprite: {fileID: 21300000, guid: a1e525df28e0fe0428a6fa08db9aa7a7, type: 3}
+      spriteName: exwelder_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: exwelder_1
-      sprite: {fileID: 21300002, guid: a1e525df28e0fe0428a6fa08db9aa7a7, type: 3}
+    - sprite: {fileID: 21300002, guid: a1e525df28e0fe0428a6fa08db9aa7a7, type: 3}
+      spriteName: exwelder_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: exwelder_2
-      sprite: {fileID: 21300004, guid: a1e525df28e0fe0428a6fa08db9aa7a7, type: 3}
+    - sprite: {fileID: 21300004, guid: a1e525df28e0fe0428a6fa08db9aa7a7, type: 3}
+      spriteName: exwelder_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: exwelder_3
-      sprite: {fileID: 21300006, guid: a1e525df28e0fe0428a6fa08db9aa7a7, type: 3}
+    - sprite: {fileID: 21300006, guid: a1e525df28e0fe0428a6fa08db9aa7a7, type: 3}
+      spriteName: exwelder_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

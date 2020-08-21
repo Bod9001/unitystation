@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: projectiles_lollipop_2
-      sprite: {fileID: 21300000, guid: 30eacd498ebce8a4ca311120321e824e, type: 3}
+    - sprite: {fileID: 21300000, guid: 30eacd498ebce8a4ca311120321e824e, type: 3}
+      spriteName: projectiles_lollipop_2
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

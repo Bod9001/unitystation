@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: m_spines_aqua_ADJ_0
-      sprite: {fileID: 21300000, guid: 7888e410b2ff6aa47912622a3b16d4cd, type: 3}
+    - sprite: {fileID: 21300000, guid: 7888e410b2ff6aa47912622a3b16d4cd, type: 3}
+      spriteName: m_spines_aqua_ADJ_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: m_spines_aqua_ADJ_1
-      sprite: {fileID: 21300002, guid: 7888e410b2ff6aa47912622a3b16d4cd, type: 3}
+    - sprite: {fileID: 21300002, guid: 7888e410b2ff6aa47912622a3b16d4cd, type: 3}
+      spriteName: m_spines_aqua_ADJ_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: m_spines_aqua_ADJ_2
-      sprite: {fileID: 21300004, guid: 7888e410b2ff6aa47912622a3b16d4cd, type: 3}
+    - sprite: {fileID: 21300004, guid: 7888e410b2ff6aa47912622a3b16d4cd, type: 3}
+      spriteName: m_spines_aqua_ADJ_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: m_spines_aqua_ADJ_3
-      sprite: {fileID: 21300006, guid: 7888e410b2ff6aa47912622a3b16d4cd, type: 3}
+    - sprite: {fileID: 21300006, guid: 7888e410b2ff6aa47912622a3b16d4cd, type: 3}
+      spriteName: m_spines_aqua_ADJ_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

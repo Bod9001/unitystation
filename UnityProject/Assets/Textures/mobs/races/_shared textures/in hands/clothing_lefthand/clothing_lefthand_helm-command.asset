@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: helm-command_0
-      sprite: {fileID: 21300000, guid: 2ba073f749406cb44ba690d708973d3b, type: 3}
+    - sprite: {fileID: 21300000, guid: 2ba073f749406cb44ba690d708973d3b, type: 3}
+      spriteName: helm-command_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: helm-command_1
-      sprite: {fileID: 21300002, guid: 2ba073f749406cb44ba690d708973d3b, type: 3}
+    - sprite: {fileID: 21300002, guid: 2ba073f749406cb44ba690d708973d3b, type: 3}
+      spriteName: helm-command_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: helm-command_2
-      sprite: {fileID: 21300004, guid: 2ba073f749406cb44ba690d708973d3b, type: 3}
+    - sprite: {fileID: 21300004, guid: 2ba073f749406cb44ba690d708973d3b, type: 3}
+      spriteName: helm-command_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: helm-command_3
-      sprite: {fileID: 21300006, guid: 2ba073f749406cb44ba690d708973d3b, type: 3}
+    - sprite: {fileID: 21300006, guid: 2ba073f749406cb44ba690d708973d3b, type: 3}
+      spriteName: helm-command_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

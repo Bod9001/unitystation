@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_evidenceobj
-      sprite: {fileID: 21300000, guid: a16f1ffec0b82fc45a23cc0f6b4ca6f1, type: 3}
+    - sprite: {fileID: 21300000, guid: a16f1ffec0b82fc45a23cc0f6b4ca6f1, type: 3}
+      spriteName: storage_evidenceobj
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

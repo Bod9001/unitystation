@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: botany-trimmed_1
-      sprite: {fileID: 126516480341354425, guid: 97dd7b9e76bbef84b898afb92161ac6d,
+    - sprite: {fileID: 126516480341354425, guid: 97dd7b9e76bbef84b898afb92161ac6d,
         type: 3}
+      spriteName: botany-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

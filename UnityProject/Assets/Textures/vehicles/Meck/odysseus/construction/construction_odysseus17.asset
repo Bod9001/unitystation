@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: odysseus17_0
-      sprite: {fileID: 21300000, guid: 777aa3d9cf89ab549a58bd63300402a5, type: 3}
+    - sprite: {fileID: 21300000, guid: 777aa3d9cf89ab549a58bd63300402a5, type: 3}
+      spriteName: odysseus17_0
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: odysseus17_1
-      sprite: {fileID: 21300002, guid: 777aa3d9cf89ab549a58bd63300402a5, type: 3}
+    - sprite: {fileID: 21300002, guid: 777aa3d9cf89ab549a58bd63300402a5, type: 3}
+      spriteName: odysseus17_1
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: odysseus17_2
-      sprite: {fileID: 21300004, guid: 777aa3d9cf89ab549a58bd63300402a5, type: 3}
+    - sprite: {fileID: 21300004, guid: 777aa3d9cf89ab549a58bd63300402a5, type: 3}
+      spriteName: odysseus17_2
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: odysseus17_3
-      sprite: {fileID: 21300006, guid: 777aa3d9cf89ab549a58bd63300402a5, type: 3}
+    - sprite: {fileID: 21300006, guid: 777aa3d9cf89ab549a58bd63300402a5, type: 3}
+      spriteName: odysseus17_3
       secondDelay: 0.2
       AtlasUsing: 9
   IsPalette: 0

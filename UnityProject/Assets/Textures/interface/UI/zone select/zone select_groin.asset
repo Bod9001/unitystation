@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: zone select_groin
-      sprite: {fileID: 21300000, guid: 10db4789ee904a242a9f0ccf58ee3e90, type: 3}
+    - sprite: {fileID: 21300000, guid: 10db4789ee904a242a9f0ccf58ee3e90, type: 3}
+      spriteName: zone select_groin
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

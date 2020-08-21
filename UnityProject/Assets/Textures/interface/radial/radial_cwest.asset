@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: radial_cwest
-      sprite: {fileID: 21300000, guid: 9059f92b2888b404fa1b8ffb8d23e496, type: 3}
+    - sprite: {fileID: 21300000, guid: 9059f92b2888b404fa1b8ffb8d23e496, type: 3}
+      spriteName: radial_cwest
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

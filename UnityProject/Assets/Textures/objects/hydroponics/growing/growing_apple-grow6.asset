@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_apple-grow6
-      sprite: {fileID: 21300000, guid: bc30db9a5eceb5d4ea0e52c3bd053584, type: 3}
+    - sprite: {fileID: 21300000, guid: bc30db9a5eceb5d4ea0e52c3bd053584, type: 3}
+      spriteName: growing_apple-grow6
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

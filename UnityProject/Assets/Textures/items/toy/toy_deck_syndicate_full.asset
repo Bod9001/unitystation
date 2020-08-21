@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: toy_deck_syndicate_full
-      sprite: {fileID: 21300000, guid: 6c778ac270eac394bb00f98f121e8062, type: 3}
+    - sprite: {fileID: 21300000, guid: 6c778ac270eac394bb00f98f121e8062, type: 3}
+      spriteName: toy_deck_syndicate_full
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

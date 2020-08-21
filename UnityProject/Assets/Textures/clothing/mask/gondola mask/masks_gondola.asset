@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: masks_gondola
-      sprite: {fileID: 21300000, guid: e8193bcdff3648742b0bf174409995dc, type: 3}
+    - sprite: {fileID: 21300000, guid: e8193bcdff3648742b0bf174409995dc, type: 3}
+      spriteName: masks_gondola
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

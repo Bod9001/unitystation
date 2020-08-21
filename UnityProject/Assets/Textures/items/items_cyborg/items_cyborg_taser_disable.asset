@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_cyborg_taser_disable
-      sprite: {fileID: 21300000, guid: 7f731d6c20af0b545870f8a3b6002c87, type: 3}
+    - sprite: {fileID: 21300000, guid: 7f731d6c20af0b545870f8a3b6002c87, type: 3}
+      spriteName: items_cyborg_taser_disable
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

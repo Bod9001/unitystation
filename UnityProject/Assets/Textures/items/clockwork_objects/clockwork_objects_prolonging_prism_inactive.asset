@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clockwork_objects_prolonging_prism_inactive
-      sprite: {fileID: 21300000, guid: 1ae33fd00c11cfc43add1cf1ecb199f4, type: 3}
+    - sprite: {fileID: 21300000, guid: 1ae33fd00c11cfc43add1cf1ecb199f4, type: 3}
+      spriteName: clockwork_objects_prolonging_prism_inactive
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

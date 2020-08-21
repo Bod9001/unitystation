@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: satchel-cap_0
-      sprite: {fileID: -2702381824099913839, guid: 8d5858a73f8df3b4394139b1ea84f5c3,
+    - sprite: {fileID: -2702381824099913839, guid: 8d5858a73f8df3b4394139b1ea84f5c3,
         type: 3}
+      spriteName: satchel-cap_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-cap_1
-      sprite: {fileID: -1776325746606663990, guid: 8d5858a73f8df3b4394139b1ea84f5c3,
+    - sprite: {fileID: -1776325746606663990, guid: 8d5858a73f8df3b4394139b1ea84f5c3,
         type: 3}
+      spriteName: satchel-cap_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-cap_2
-      sprite: {fileID: -1133924323899608113, guid: 8d5858a73f8df3b4394139b1ea84f5c3,
+    - sprite: {fileID: -1133924323899608113, guid: 8d5858a73f8df3b4394139b1ea84f5c3,
         type: 3}
+      spriteName: satchel-cap_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-cap_3
-      sprite: {fileID: 8024600390705764173, guid: 8d5858a73f8df3b4394139b1ea84f5c3,
+    - sprite: {fileID: 8024600390705764173, guid: 8d5858a73f8df3b4394139b1ea84f5c3,
         type: 3}
+      spriteName: satchel-cap_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

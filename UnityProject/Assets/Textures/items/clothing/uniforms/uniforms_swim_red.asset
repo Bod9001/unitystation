@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: uniforms_swim_red
-      sprite: {fileID: 21300000, guid: d7408361ba7fe8241937f3abdd87b17f, type: 3}
+    - sprite: {fileID: 21300000, guid: d7408361ba7fe8241937f3abdd87b17f, type: 3}
+      spriteName: uniforms_swim_red
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

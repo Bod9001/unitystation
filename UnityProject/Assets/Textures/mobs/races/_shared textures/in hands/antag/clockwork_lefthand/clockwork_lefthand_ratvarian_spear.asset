@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ratvarian_spear_0
-      sprite: {fileID: 21300000, guid: eb7979643e153434d84bef9799764191, type: 3}
+    - sprite: {fileID: 21300000, guid: eb7979643e153434d84bef9799764191, type: 3}
+      spriteName: ratvarian_spear_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: ratvarian_spear_1
-      sprite: {fileID: 21300002, guid: eb7979643e153434d84bef9799764191, type: 3}
+    - sprite: {fileID: 21300002, guid: eb7979643e153434d84bef9799764191, type: 3}
+      spriteName: ratvarian_spear_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: ratvarian_spear_2
-      sprite: {fileID: 21300004, guid: eb7979643e153434d84bef9799764191, type: 3}
+    - sprite: {fileID: 21300004, guid: eb7979643e153434d84bef9799764191, type: 3}
+      spriteName: ratvarian_spear_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: ratvarian_spear_3
-      sprite: {fileID: 21300006, guid: eb7979643e153434d84bef9799764191, type: 3}
+    - sprite: {fileID: 21300006, guid: eb7979643e153434d84bef9799764191, type: 3}
+      spriteName: ratvarian_spear_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

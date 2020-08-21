@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: advtaserdisable0_0
-      sprite: {fileID: 21300000, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+    - sprite: {fileID: 21300000, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+      spriteName: advtaserdisable0_0
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: advtaserdisable0_4
-      sprite: {fileID: 21300008, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+    - sprite: {fileID: 21300008, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+      spriteName: advtaserdisable0_4
       secondDelay: 0.3
       AtlasUsing: 4
   - Frames:
-    - spriteName: advtaserdisable0_1
-      sprite: {fileID: 21300002, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+    - sprite: {fileID: 21300002, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+      spriteName: advtaserdisable0_1
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: advtaserdisable0_5
-      sprite: {fileID: 21300010, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+    - sprite: {fileID: 21300010, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+      spriteName: advtaserdisable0_5
       secondDelay: 0.3
       AtlasUsing: 4
   - Frames:
-    - spriteName: advtaserdisable0_2
-      sprite: {fileID: 21300004, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+    - sprite: {fileID: 21300004, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+      spriteName: advtaserdisable0_2
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: advtaserdisable0_6
-      sprite: {fileID: 21300012, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+    - sprite: {fileID: 21300012, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+      spriteName: advtaserdisable0_6
       secondDelay: 0.3
       AtlasUsing: 4
   - Frames:
-    - spriteName: advtaserdisable0_3
-      sprite: {fileID: 21300006, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+    - sprite: {fileID: 21300006, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+      spriteName: advtaserdisable0_3
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: advtaserdisable0_7
-      sprite: {fileID: 21300014, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+    - sprite: {fileID: 21300014, guid: a9cc8cca0e3bf084b854c09eeb5d0115, type: 3}
+      spriteName: advtaserdisable0_7
       secondDelay: 0.3
       AtlasUsing: 4
   IsPalette: 0

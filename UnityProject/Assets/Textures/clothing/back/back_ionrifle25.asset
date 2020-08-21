@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ionrifle25_0
-      sprite: {fileID: 21300000, guid: 21720161274cbb141adca44129c13cd0, type: 3}
+    - sprite: {fileID: 21300000, guid: 21720161274cbb141adca44129c13cd0, type: 3}
+      spriteName: ionrifle25_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ionrifle25_1
-      sprite: {fileID: 21300002, guid: 21720161274cbb141adca44129c13cd0, type: 3}
+    - sprite: {fileID: 21300002, guid: 21720161274cbb141adca44129c13cd0, type: 3}
+      spriteName: ionrifle25_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ionrifle25_2
-      sprite: {fileID: 21300004, guid: 21720161274cbb141adca44129c13cd0, type: 3}
+    - sprite: {fileID: 21300004, guid: 21720161274cbb141adca44129c13cd0, type: 3}
+      spriteName: ionrifle25_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ionrifle25_3
-      sprite: {fileID: 21300006, guid: 21720161274cbb141adca44129c13cd0, type: 3}
+    - sprite: {fileID: 21300006, guid: 21720161274cbb141adca44129c13cd0, type: 3}
+      spriteName: ionrifle25_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

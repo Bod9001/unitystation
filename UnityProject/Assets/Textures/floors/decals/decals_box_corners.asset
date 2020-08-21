@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: box_corners_0
-      sprite: {fileID: 21300000, guid: 60135316c79ce9248a6197f9ab567f0c, type: 3}
+    - sprite: {fileID: 21300000, guid: 60135316c79ce9248a6197f9ab567f0c, type: 3}
+      spriteName: box_corners_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: box_corners_1
-      sprite: {fileID: 21300002, guid: 60135316c79ce9248a6197f9ab567f0c, type: 3}
+    - sprite: {fileID: 21300002, guid: 60135316c79ce9248a6197f9ab567f0c, type: 3}
+      spriteName: box_corners_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: box_corners_2
-      sprite: {fileID: 21300004, guid: 60135316c79ce9248a6197f9ab567f0c, type: 3}
+    - sprite: {fileID: 21300004, guid: 60135316c79ce9248a6197f9ab567f0c, type: 3}
+      spriteName: box_corners_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: box_corners_3
-      sprite: {fileID: 21300006, guid: 60135316c79ce9248a6197f9ab567f0c, type: 3}
+    - sprite: {fileID: 21300006, guid: 60135316c79ce9248a6197f9ab567f0c, type: 3}
+      spriteName: box_corners_3
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drinks_hoochbottle
-      sprite: {fileID: 21300000, guid: 5e73bfde9c27fd77d810cdc2c9802995, type: 3}
+    - sprite: {fileID: 21300000, guid: 5e73bfde9c27fd77d810cdc2c9802995, type: 3}
+      spriteName: drinks_hoochbottle
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

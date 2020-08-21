@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: overly_tomato_floor3
-      sprite: {fileID: 21300000, guid: 3e2bc51b43cce8b4c903cc0b6bb99412, type: 3}
+    - sprite: {fileID: 21300000, guid: 3e2bc51b43cce8b4c903cc0b6bb99412, type: 3}
+      spriteName: overly_tomato_floor3
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

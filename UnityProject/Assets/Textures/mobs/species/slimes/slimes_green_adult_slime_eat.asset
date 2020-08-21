@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: green_adult_slime_eat_0
-      sprite: {fileID: 21300000, guid: ac307d8aa907d1c40ae7e3c37773275d, type: 3}
+    - sprite: {fileID: 21300000, guid: ac307d8aa907d1c40ae7e3c37773275d, type: 3}
+      spriteName: green_adult_slime_eat_0
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: green_adult_slime_eat_1
-      sprite: {fileID: 21300002, guid: ac307d8aa907d1c40ae7e3c37773275d, type: 3}
+    - sprite: {fileID: 21300002, guid: ac307d8aa907d1c40ae7e3c37773275d, type: 3}
+      spriteName: green_adult_slime_eat_1
       secondDelay: 0.2
       AtlasUsing: 6
   IsPalette: 0

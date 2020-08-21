@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: belts_fannypack_blue
-      sprite: {fileID: 21300000, guid: 5fbecc687d4c4bd4cb41efe89cdb8af8, type: 3}
+    - sprite: {fileID: 21300000, guid: 5fbecc687d4c4bd4cb41efe89cdb8af8, type: 3}
+      spriteName: belts_fannypack_blue
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

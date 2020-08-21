@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: nuclearbombc_0
-      sprite: {fileID: 21300000, guid: c219f7b52d01fbd47b3b521da8291f67, type: 3}
+    - sprite: {fileID: 21300000, guid: c219f7b52d01fbd47b3b521da8291f67, type: 3}
+      spriteName: nuclearbombc_0
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: nuclearbombc_1
-      sprite: {fileID: 21300002, guid: c219f7b52d01fbd47b3b521da8291f67, type: 3}
+    - sprite: {fileID: 21300002, guid: c219f7b52d01fbd47b3b521da8291f67, type: 3}
+      spriteName: nuclearbombc_1
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: nuclearbombc_2
-      sprite: {fileID: 21300004, guid: c219f7b52d01fbd47b3b521da8291f67, type: 3}
+    - sprite: {fileID: 21300004, guid: c219f7b52d01fbd47b3b521da8291f67, type: 3}
+      spriteName: nuclearbombc_2
       secondDelay: 0.3
       AtlasUsing: 8
   IsPalette: 0

@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: 3-sw_0
-      sprite: {fileID: 21300000, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+    - sprite: {fileID: 21300000, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+      spriteName: 3-sw_0
       secondDelay: 1.9
       AtlasUsing: 10
-    - spriteName: 3-sw_1
-      sprite: {fileID: 21300002, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+    - sprite: {fileID: 21300002, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+      spriteName: 3-sw_1
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: 3-sw_2
-      sprite: {fileID: 21300004, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+    - sprite: {fileID: 21300004, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+      spriteName: 3-sw_2
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: 3-sw_3
-      sprite: {fileID: 21300006, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+    - sprite: {fileID: 21300006, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+      spriteName: 3-sw_3
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: 3-sw_4
-      sprite: {fileID: 21300008, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+    - sprite: {fileID: 21300008, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+      spriteName: 3-sw_4
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: 3-sw_5
-      sprite: {fileID: 21300010, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+    - sprite: {fileID: 21300010, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+      spriteName: 3-sw_5
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: 3-sw_6
-      sprite: {fileID: 21300012, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+    - sprite: {fileID: 21300012, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+      spriteName: 3-sw_6
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: 3-sw_7
-      sprite: {fileID: 21300014, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+    - sprite: {fileID: 21300014, guid: 5f1d9abf6ecfdfd4886cd7b525cb4717, type: 3}
+      spriteName: 3-sw_7
       secondDelay: 0.5
       AtlasUsing: 10
   IsPalette: 0

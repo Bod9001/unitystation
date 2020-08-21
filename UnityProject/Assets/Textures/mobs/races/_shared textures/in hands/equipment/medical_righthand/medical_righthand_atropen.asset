@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: atropen_0
-      sprite: {fileID: 1128076547146861280, guid: 2940f806a9ebd2e40a502d651124978d,
+    - sprite: {fileID: 1128076547146861280, guid: 2940f806a9ebd2e40a502d651124978d,
         type: 3}
+      spriteName: atropen_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: atropen_1
-      sprite: {fileID: -2523573184089259594, guid: 2940f806a9ebd2e40a502d651124978d,
+    - sprite: {fileID: -2523573184089259594, guid: 2940f806a9ebd2e40a502d651124978d,
         type: 3}
+      spriteName: atropen_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: atropen_2
-      sprite: {fileID: 7234757533275188792, guid: 2940f806a9ebd2e40a502d651124978d,
+    - sprite: {fileID: 7234757533275188792, guid: 2940f806a9ebd2e40a502d651124978d,
         type: 3}
+      spriteName: atropen_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: atropen_3
-      sprite: {fileID: -3055441179793407827, guid: 2940f806a9ebd2e40a502d651124978d,
+    - sprite: {fileID: -3055441179793407827, guid: 2940f806a9ebd2e40a502d651124978d,
         type: 3}
+      spriteName: atropen_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

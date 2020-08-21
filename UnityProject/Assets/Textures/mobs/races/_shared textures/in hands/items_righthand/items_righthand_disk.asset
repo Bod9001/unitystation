@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_righthand_disk_0
-      sprite: {fileID: 4734240569840152637, guid: 6bdd4dbd1a682404ca2e409001d67de6,
+    - sprite: {fileID: 4734240569840152637, guid: 6bdd4dbd1a682404ca2e409001d67de6,
         type: 3}
+      spriteName: items_righthand_disk_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: items_righthand_disk_1
-      sprite: {fileID: 6034469386868336950, guid: 6bdd4dbd1a682404ca2e409001d67de6,
+    - sprite: {fileID: 6034469386868336950, guid: 6bdd4dbd1a682404ca2e409001d67de6,
         type: 3}
+      spriteName: items_righthand_disk_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: items_righthand_disk_2
-      sprite: {fileID: -4224595894387126317, guid: 6bdd4dbd1a682404ca2e409001d67de6,
+    - sprite: {fileID: -4224595894387126317, guid: 6bdd4dbd1a682404ca2e409001d67de6,
         type: 3}
+      spriteName: items_righthand_disk_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: items_righthand_disk_3
-      sprite: {fileID: -2078259234986166367, guid: 6bdd4dbd1a682404ca2e409001d67de6,
+    - sprite: {fileID: -2078259234986166367, guid: 6bdd4dbd1a682404ca2e409001d67de6,
         type: 3}
+      spriteName: items_righthand_disk_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

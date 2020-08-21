@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hair_nofade_0
-      sprite: {fileID: 21300000, guid: 253e4837ca53f7b4caa2758b14101e3a, type: 3}
+    - sprite: {fileID: 21300000, guid: 253e4837ca53f7b4caa2758b14101e3a, type: 3}
+      spriteName: hair_nofade_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_nofade_1
-      sprite: {fileID: 21300002, guid: 253e4837ca53f7b4caa2758b14101e3a, type: 3}
+    - sprite: {fileID: 21300002, guid: 253e4837ca53f7b4caa2758b14101e3a, type: 3}
+      spriteName: hair_nofade_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_nofade_2
-      sprite: {fileID: 21300004, guid: 253e4837ca53f7b4caa2758b14101e3a, type: 3}
+    - sprite: {fileID: 21300004, guid: 253e4837ca53f7b4caa2758b14101e3a, type: 3}
+      spriteName: hair_nofade_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_nofade_3
-      sprite: {fileID: 21300006, guid: 253e4837ca53f7b4caa2758b14101e3a, type: 3}
+    - sprite: {fileID: 21300006, guid: 253e4837ca53f7b4caa2758b14101e3a, type: 3}
+      spriteName: hair_nofade_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

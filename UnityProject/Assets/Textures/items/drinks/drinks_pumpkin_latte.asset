@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drinks_pumpkin_latte
-      sprite: {fileID: 21300000, guid: e1a9f2c7c0949cc40a00d6f59efe624f, type: 3}
+    - sprite: {fileID: 21300000, guid: e1a9f2c7c0949cc40a00d6f59efe624f, type: 3}
+      spriteName: drinks_pumpkin_latte
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

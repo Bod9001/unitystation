@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: construct-cult_0
-      sprite: {fileID: 21300000, guid: fdecb86e81b58e14882e03169187f564, type: 3}
+    - sprite: {fileID: 21300000, guid: fdecb86e81b58e14882e03169187f564, type: 3}
+      spriteName: construct-cult_0
       secondDelay: 0.5
       AtlasUsing: 5
-    - spriteName: construct-cult_1
-      sprite: {fileID: 21300002, guid: fdecb86e81b58e14882e03169187f564, type: 3}
+    - sprite: {fileID: 21300002, guid: fdecb86e81b58e14882e03169187f564, type: 3}
+      spriteName: construct-cult_1
       secondDelay: 0.5
       AtlasUsing: 5
-    - spriteName: construct-cult_2
-      sprite: {fileID: 21300004, guid: fdecb86e81b58e14882e03169187f564, type: 3}
+    - sprite: {fileID: 21300004, guid: fdecb86e81b58e14882e03169187f564, type: 3}
+      spriteName: construct-cult_2
       secondDelay: 0.5
       AtlasUsing: 5
-    - spriteName: construct-cult_3
-      sprite: {fileID: 21300006, guid: fdecb86e81b58e14882e03169187f564, type: 3}
+    - sprite: {fileID: 21300006, guid: fdecb86e81b58e14882e03169187f564, type: 3}
+      spriteName: construct-cult_3
       secondDelay: 0.5
       AtlasUsing: 5
   IsPalette: 0

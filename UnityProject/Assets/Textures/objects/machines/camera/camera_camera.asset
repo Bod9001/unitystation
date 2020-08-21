@@ -14,235 +14,235 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: camera_0
-      sprite: {fileID: 21300000, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 2
-    - spriteName: camera_8
-      sprite: {fileID: 21300016, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300000, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_0
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_16
-      sprite: {fileID: 21300032, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300016, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_8
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_24
-      sprite: {fileID: 21300048, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300032, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_16
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_32
-      sprite: {fileID: 21300064, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300048, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_24
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_40
-      sprite: {fileID: 21300080, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300064, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_32
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_48
-      sprite: {fileID: 21300096, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300080, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_40
       secondDelay: 0.3
       AtlasUsing: 8
-  - Frames:
-    - spriteName: camera_1
-      sprite: {fileID: 21300002, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 2
-    - spriteName: camera_9
-      sprite: {fileID: 21300018, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_17
-      sprite: {fileID: 21300034, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_25
-      sprite: {fileID: 21300050, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_33
-      sprite: {fileID: 21300066, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_41
-      sprite: {fileID: 21300082, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_49
-      sprite: {fileID: 21300098, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300096, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_48
       secondDelay: 0.3
       AtlasUsing: 8
   - Frames:
-    - spriteName: camera_2
-      sprite: {fileID: 21300004, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 2
-    - spriteName: camera_10
-      sprite: {fileID: 21300020, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300002, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_1
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_18
-      sprite: {fileID: 21300036, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300018, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_9
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_26
-      sprite: {fileID: 21300052, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300034, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_17
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_34
-      sprite: {fileID: 21300068, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300050, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_25
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_42
-      sprite: {fileID: 21300084, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300066, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_33
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_50
-      sprite: {fileID: 21300100, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300082, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_41
       secondDelay: 0.3
       AtlasUsing: 8
-  - Frames:
-    - spriteName: camera_3
-      sprite: {fileID: 21300006, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 2
-    - spriteName: camera_11
-      sprite: {fileID: 21300022, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_19
-      sprite: {fileID: 21300038, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_27
-      sprite: {fileID: 21300054, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_35
-      sprite: {fileID: 21300070, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_43
-      sprite: {fileID: 21300086, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_51
-      sprite: {fileID: 21300102, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300098, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_49
       secondDelay: 0.3
       AtlasUsing: 8
   - Frames:
-    - spriteName: camera_4
-      sprite: {fileID: 21300008, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300004, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_2
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_12
-      sprite: {fileID: 21300024, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300020, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_10
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_20
-      sprite: {fileID: 21300040, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300036, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_18
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_28
-      sprite: {fileID: 21300056, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300052, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_26
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_36
-      sprite: {fileID: 21300072, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300068, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_34
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_44
-      sprite: {fileID: 21300088, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300084, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_42
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_52
-      sprite: {fileID: 21300104, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-  - Frames:
-    - spriteName: camera_5
-      sprite: {fileID: 21300010, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_13
-      sprite: {fileID: 21300026, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_21
-      sprite: {fileID: 21300042, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_29
-      sprite: {fileID: 21300058, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_37
-      sprite: {fileID: 21300074, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_45
-      sprite: {fileID: 21300090, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: camera_53
-      sprite: {fileID: 21300106, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300100, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_50
       secondDelay: 0.3
       AtlasUsing: 8
   - Frames:
-    - spriteName: camera_6
-      sprite: {fileID: 21300012, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300006, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_3
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_14
-      sprite: {fileID: 21300028, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300022, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_11
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_22
-      sprite: {fileID: 21300044, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300038, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_19
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_30
-      sprite: {fileID: 21300060, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300054, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_27
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_38
-      sprite: {fileID: 21300076, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300070, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_35
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_46
-      sprite: {fileID: 21300092, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300086, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_43
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_54
-      sprite: {fileID: 21300108, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300102, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_51
       secondDelay: 0.3
       AtlasUsing: 8
   - Frames:
-    - spriteName: camera_7
-      sprite: {fileID: 21300014, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300008, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_4
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_15
-      sprite: {fileID: 21300030, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300024, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_12
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_23
-      sprite: {fileID: 21300046, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300040, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_20
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_31
-      sprite: {fileID: 21300062, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300056, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_28
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_39
-      sprite: {fileID: 21300078, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300072, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_36
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_47
-      sprite: {fileID: 21300094, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300088, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_44
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: camera_55
-      sprite: {fileID: 21300110, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+    - sprite: {fileID: 21300104, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_52
+      secondDelay: 0.3
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300010, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_5
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300026, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_13
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300042, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_21
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300058, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_29
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300074, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_37
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300090, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_45
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300106, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_53
+      secondDelay: 0.3
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300012, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_6
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300028, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_14
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300044, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_22
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300060, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_30
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300076, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_38
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300092, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_46
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300108, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_54
+      secondDelay: 0.3
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300014, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_7
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300030, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_15
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300046, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_23
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300062, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_31
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300078, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_39
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300094, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_47
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300110, guid: 9a0b93c92ce12554e976d346f6bd4d48, type: 3}
+      spriteName: camera_55
       secondDelay: 0.3
       AtlasUsing: 8
   IsPalette: 0

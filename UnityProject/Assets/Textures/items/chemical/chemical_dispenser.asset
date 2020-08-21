@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chemical_dispenser
-      sprite: {fileID: 21300000, guid: 9c6adb778c2805849849d51722af9a9e, type: 3}
+    - sprite: {fileID: 21300000, guid: 9c6adb778c2805849849d51722af9a9e, type: 3}
+      spriteName: chemical_dispenser
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

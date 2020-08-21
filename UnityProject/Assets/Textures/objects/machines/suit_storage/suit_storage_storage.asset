@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: suit_storage_storage
-      sprite: {fileID: 21300000, guid: 156594538f45394459d861acc9798f6a, type: 3}
+    - sprite: {fileID: 21300000, guid: 156594538f45394459d861acc9798f6a, type: 3}
+      spriteName: suit_storage_storage
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

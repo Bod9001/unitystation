@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: recycling_grinder-a0
-      sprite: {fileID: 21300000, guid: 6d2e4ca6f1479024a80b05fa5c8a119a, type: 3}
+    - sprite: {fileID: 21300000, guid: 6d2e4ca6f1479024a80b05fa5c8a119a, type: 3}
+      spriteName: recycling_grinder-a0
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

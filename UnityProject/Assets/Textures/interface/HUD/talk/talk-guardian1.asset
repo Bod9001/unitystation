@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: talk-guardian1
-      sprite: {fileID: 21300000, guid: dc89c2d9672d8c7468967ca6d056273c, type: 3}
+    - sprite: {fileID: 21300000, guid: dc89c2d9672d8c7468967ca6d056273c, type: 3}
+      spriteName: talk-guardian1
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

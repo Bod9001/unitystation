@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lightning8_0
-      sprite: {fileID: 21300000, guid: c6b1aa728b326c44d9e5c09ad545c478, type: 3}
+    - sprite: {fileID: 21300000, guid: c6b1aa728b326c44d9e5c09ad545c478, type: 3}
+      spriteName: lightning8_0
       secondDelay: 0.12
       AtlasUsing: 9
-    - spriteName: lightning8_1
-      sprite: {fileID: 21300002, guid: c6b1aa728b326c44d9e5c09ad545c478, type: 3}
+    - sprite: {fileID: 21300002, guid: c6b1aa728b326c44d9e5c09ad545c478, type: 3}
+      spriteName: lightning8_1
       secondDelay: 0.08
       AtlasUsing: 9
   IsPalette: 0

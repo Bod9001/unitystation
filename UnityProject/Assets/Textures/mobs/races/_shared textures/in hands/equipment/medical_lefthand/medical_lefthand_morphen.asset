@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: morphen_0
-      sprite: {fileID: 1523566256795154193, guid: 759a8c46f2175334eb315a4ff288c0aa,
+    - sprite: {fileID: 1523566256795154193, guid: 759a8c46f2175334eb315a4ff288c0aa,
         type: 3}
+      spriteName: morphen_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: morphen_1
-      sprite: {fileID: 7418784855579618936, guid: 759a8c46f2175334eb315a4ff288c0aa,
+    - sprite: {fileID: 7418784855579618936, guid: 759a8c46f2175334eb315a4ff288c0aa,
         type: 3}
+      spriteName: morphen_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: morphen_2
-      sprite: {fileID: -6656082142916623220, guid: 759a8c46f2175334eb315a4ff288c0aa,
+    - sprite: {fileID: -6656082142916623220, guid: 759a8c46f2175334eb315a4ff288c0aa,
         type: 3}
+      spriteName: morphen_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: morphen_3
-      sprite: {fileID: -2322905848114806424, guid: 759a8c46f2175334eb315a4ff288c0aa,
+    - sprite: {fileID: -2322905848114806424, guid: 759a8c46f2175334eb315a4ff288c0aa,
         type: 3}
+      spriteName: morphen_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

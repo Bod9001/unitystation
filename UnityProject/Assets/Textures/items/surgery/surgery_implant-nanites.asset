@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: surgery_implant-nanites
-      sprite: {fileID: 21300000, guid: a201f8c950102a04e98b4530b8d4974e, type: 3}
+    - sprite: {fileID: 21300000, guid: a201f8c950102a04e98b4530b8d4974e, type: 3}
+      spriteName: surgery_implant-nanites
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

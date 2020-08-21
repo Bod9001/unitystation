@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: maroon_skirt_0
-      sprite: {fileID: 21300000, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+    - sprite: {fileID: 21300000, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+      spriteName: maroon_skirt_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: maroon_skirt_1
-      sprite: {fileID: 21300002, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+    - sprite: {fileID: 21300002, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+      spriteName: maroon_skirt_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: maroon_skirt_2
-      sprite: {fileID: 21300004, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+    - sprite: {fileID: 21300004, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+      spriteName: maroon_skirt_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: maroon_skirt_3
-      sprite: {fileID: 21300006, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+    - sprite: {fileID: 21300006, guid: 745660908263b0048b5eea96f6417a7e, type: 3}
+      spriteName: maroon_skirt_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

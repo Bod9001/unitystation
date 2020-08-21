@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_mint
-      sprite: {fileID: 21300000, guid: b50e7ccc5e3cfbd4b964fa8a0f372196, type: 3}
+    - sprite: {fileID: 21300000, guid: b50e7ccc5e3cfbd4b964fa8a0f372196, type: 3}
+      spriteName: food_mint
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

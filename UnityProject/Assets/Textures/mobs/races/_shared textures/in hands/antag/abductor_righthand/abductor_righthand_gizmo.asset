@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gizmo_0
-      sprite: {fileID: 21300000, guid: 436f8d152bab40f44826115578e3ef18, type: 3}
+    - sprite: {fileID: 21300000, guid: 436f8d152bab40f44826115578e3ef18, type: 3}
+      spriteName: gizmo_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: gizmo_1
-      sprite: {fileID: 21300002, guid: 436f8d152bab40f44826115578e3ef18, type: 3}
+    - sprite: {fileID: 21300002, guid: 436f8d152bab40f44826115578e3ef18, type: 3}
+      spriteName: gizmo_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: gizmo_2
-      sprite: {fileID: 21300004, guid: 436f8d152bab40f44826115578e3ef18, type: 3}
+    - sprite: {fileID: 21300004, guid: 436f8d152bab40f44826115578e3ef18, type: 3}
+      spriteName: gizmo_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: gizmo_3
-      sprite: {fileID: 21300006, guid: 436f8d152bab40f44826115578e3ef18, type: 3}
+    - sprite: {fileID: 21300006, guid: 436f8d152bab40f44826115578e3ef18, type: 3}
+      spriteName: gizmo_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

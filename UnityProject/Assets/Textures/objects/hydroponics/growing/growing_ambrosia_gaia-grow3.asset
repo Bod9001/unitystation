@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_ambrosia_gaia-grow3
-      sprite: {fileID: 21300000, guid: 07c08debeb3629c4b93a2a1ff35b3db1, type: 3}
+    - sprite: {fileID: 21300000, guid: 07c08debeb3629c4b93a2a1ff35b3db1, type: 3}
+      spriteName: growing_ambrosia_gaia-grow3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

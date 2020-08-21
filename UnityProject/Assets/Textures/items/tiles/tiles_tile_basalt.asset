@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tiles_tile_basalt
-      sprite: {fileID: 21300000, guid: a2b85240e96ad734d8a766171320d9a4, type: 3}
+    - sprite: {fileID: 21300000, guid: a2b85240e96ad734d8a766171320d9a4, type: 3}
+      spriteName: tiles_tile_basalt
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

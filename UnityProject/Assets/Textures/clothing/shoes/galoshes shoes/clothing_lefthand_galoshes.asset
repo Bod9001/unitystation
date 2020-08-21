@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: galoshes_0
-      sprite: {fileID: 21300000, guid: 44982ff30f8887e4fa94fc1bd9a9160c, type: 3}
+    - sprite: {fileID: 21300000, guid: 44982ff30f8887e4fa94fc1bd9a9160c, type: 3}
+      spriteName: galoshes_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: galoshes_1
-      sprite: {fileID: 21300002, guid: 44982ff30f8887e4fa94fc1bd9a9160c, type: 3}
+    - sprite: {fileID: 21300002, guid: 44982ff30f8887e4fa94fc1bd9a9160c, type: 3}
+      spriteName: galoshes_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: galoshes_2
-      sprite: {fileID: 21300004, guid: 44982ff30f8887e4fa94fc1bd9a9160c, type: 3}
+    - sprite: {fileID: 21300004, guid: 44982ff30f8887e4fa94fc1bd9a9160c, type: 3}
+      spriteName: galoshes_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: galoshes_3
-      sprite: {fileID: 21300006, guid: 44982ff30f8887e4fa94fc1bd9a9160c, type: 3}
+    - sprite: {fileID: 21300006, guid: 44982ff30f8887e4fa94fc1bd9a9160c, type: 3}
+      spriteName: galoshes_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

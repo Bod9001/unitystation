@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: talk_default0_0
-      sprite: {fileID: 7660122581263827943, guid: 2adbceb9cc674484cb9a2c58b41d5493,
+    - sprite: {fileID: 7660122581263827943, guid: 2adbceb9cc674484cb9a2c58b41d5493,
         type: 3}
+      spriteName: talk_default0_0
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: talk_default0_1
-      sprite: {fileID: -1841058614580174146, guid: 2adbceb9cc674484cb9a2c58b41d5493,
+    - sprite: {fileID: -1841058614580174146, guid: 2adbceb9cc674484cb9a2c58b41d5493,
         type: 3}
+      spriteName: talk_default0_1
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: talk_default0_2
-      sprite: {fileID: 8165807964432903219, guid: 2adbceb9cc674484cb9a2c58b41d5493,
+    - sprite: {fileID: 8165807964432903219, guid: 2adbceb9cc674484cb9a2c58b41d5493,
         type: 3}
+      spriteName: talk_default0_2
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: talk_default0_3
-      sprite: {fileID: -4549444404219585148, guid: 2adbceb9cc674484cb9a2c58b41d5493,
+    - sprite: {fileID: -4549444404219585148, guid: 2adbceb9cc674484cb9a2c58b41d5493,
         type: 3}
+      spriteName: talk_default0_3
       secondDelay: 0.5
       AtlasUsing: 9
   IsPalette: 0

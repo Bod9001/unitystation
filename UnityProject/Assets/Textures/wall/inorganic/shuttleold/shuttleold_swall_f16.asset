@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shuttleold_swall_f16
-      sprite: {fileID: 21300000, guid: 738406fbcd630f643a6c3d74b6984709, type: 3}
+    - sprite: {fileID: 21300000, guid: 738406fbcd630f643a6c3d74b6984709, type: 3}
+      spriteName: shuttleold_swall_f16
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

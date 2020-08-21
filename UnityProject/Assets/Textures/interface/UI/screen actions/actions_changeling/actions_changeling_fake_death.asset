@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_changeling_fake_death
-      sprite: {fileID: 21300000, guid: 4bc5199bcd845334bad2603a6aade9ba, type: 3}
+    - sprite: {fileID: 21300000, guid: 4bc5199bcd845334bad2603a6aade9ba, type: 3}
+      spriteName: actions_changeling_fake_death
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

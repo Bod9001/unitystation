@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_switchblade_ext
-      sprite: {fileID: 21300000, guid: a28a143b63cc38f488088c499e0bd2b9, type: 3}
+    - sprite: {fileID: 21300000, guid: a28a143b63cc38f488088c499e0bd2b9, type: 3}
+      spriteName: items_and_weapons_switchblade_ext
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

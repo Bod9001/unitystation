@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sprayer_med_red_0
-      sprite: {fileID: -5562968918504451910, guid: a02f2b637f88d7a44810046042fb8414,
+    - sprite: {fileID: -5562968918504451910, guid: a02f2b637f88d7a44810046042fb8414,
         type: 3}
+      spriteName: sprayer_med_red_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: sprayer_med_red_1
-      sprite: {fileID: -3267257974987041029, guid: a02f2b637f88d7a44810046042fb8414,
+    - sprite: {fileID: -3267257974987041029, guid: a02f2b637f88d7a44810046042fb8414,
         type: 3}
+      spriteName: sprayer_med_red_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: sprayer_med_red_2
-      sprite: {fileID: 857243830223740343, guid: a02f2b637f88d7a44810046042fb8414,
+    - sprite: {fileID: 857243830223740343, guid: a02f2b637f88d7a44810046042fb8414,
         type: 3}
+      spriteName: sprayer_med_red_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: sprayer_med_red_3
-      sprite: {fileID: 171159964568501130, guid: a02f2b637f88d7a44810046042fb8414,
+    - sprite: {fileID: 171159964568501130, guid: a02f2b637f88d7a44810046042fb8414,
         type: 3}
+      spriteName: sprayer_med_red_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

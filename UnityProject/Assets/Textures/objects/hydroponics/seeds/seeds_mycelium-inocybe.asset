@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: seeds_mycelium-inocybe
-      sprite: {fileID: 21300000, guid: 314e0273e6311f94b91e0537054ec43b, type: 3}
+    - sprite: {fileID: 21300000, guid: 314e0273e6311f94b91e0537054ec43b, type: 3}
+      spriteName: seeds_mycelium-inocybe
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

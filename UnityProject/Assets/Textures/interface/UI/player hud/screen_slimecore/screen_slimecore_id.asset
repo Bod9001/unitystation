@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_slimecore_id
-      sprite: {fileID: 21300000, guid: 6eb0c21e6530fd948a86bbb16e2e3ab8, type: 3}
+    - sprite: {fileID: 21300000, guid: 6eb0c21e6530fd948a86bbb16e2e3ab8, type: 3}
+      spriteName: screen_slimecore_id
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

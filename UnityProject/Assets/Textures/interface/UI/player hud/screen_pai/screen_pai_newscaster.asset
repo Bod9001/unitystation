@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_pai_newscaster
-      sprite: {fileID: 21300000, guid: 69f15c37d849ead4198e826f2cce211b, type: 3}
+    - sprite: {fileID: 21300000, guid: 69f15c37d849ead4198e826f2cce211b, type: 3}
+      spriteName: screen_pai_newscaster
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

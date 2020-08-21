@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mining_jackhammer
-      sprite: {fileID: 21300000, guid: 9d8efd8d6b56e7c4da0cc3430dc7f6e7, type: 3}
+    - sprite: {fileID: 21300000, guid: 9d8efd8d6b56e7c4da0cc3430dc7f6e7, type: 3}
+      spriteName: mining_jackhammer
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

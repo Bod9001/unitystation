@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gibbs_gibarm
-      sprite: {fileID: 21300000, guid: 8cfd8ab0e0317684c97d6b3feec986ca, type: 3}
+    - sprite: {fileID: 21300000, guid: 8cfd8ab0e0317684c97d6b3feec986ca, type: 3}
+      spriteName: gibbs_gibarm
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

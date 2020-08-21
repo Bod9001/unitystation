@@ -14,135 +14,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: phasein_0
-      sprite: {fileID: 21300000, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300000, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_4
-      sprite: {fileID: 21300008, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300008, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_8
-      sprite: {fileID: 21300016, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300016, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_8
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_12
-      sprite: {fileID: 21300024, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300024, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_12
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_16
-      sprite: {fileID: 21300032, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300032, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_16
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_20
-      sprite: {fileID: 21300040, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300040, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_20
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_24
-      sprite: {fileID: 21300048, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300048, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_24
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_28
-      sprite: {fileID: 21300056, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-  - Frames:
-    - spriteName: phasein_1
-      sprite: {fileID: 21300002, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: phasein_5
-      sprite: {fileID: 21300010, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: phasein_9
-      sprite: {fileID: 21300018, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: phasein_13
-      sprite: {fileID: 21300026, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: phasein_17
-      sprite: {fileID: 21300034, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: phasein_21
-      sprite: {fileID: 21300042, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: phasein_25
-      sprite: {fileID: 21300050, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: phasein_29
-      sprite: {fileID: 21300058, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300056, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_28
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: phasein_2
-      sprite: {fileID: 21300004, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300002, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_6
-      sprite: {fileID: 21300012, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300010, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_10
-      sprite: {fileID: 21300020, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300018, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_9
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_14
-      sprite: {fileID: 21300028, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300026, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_13
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_18
-      sprite: {fileID: 21300036, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300034, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_17
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_22
-      sprite: {fileID: 21300044, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300042, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_21
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_26
-      sprite: {fileID: 21300052, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300050, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_25
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_30
-      sprite: {fileID: 21300060, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300058, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_29
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: phasein_3
-      sprite: {fileID: 21300006, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300004, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_7
-      sprite: {fileID: 21300014, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300012, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_6
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_11
-      sprite: {fileID: 21300022, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300020, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_10
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_15
-      sprite: {fileID: 21300030, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300028, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_14
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_19
-      sprite: {fileID: 21300038, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300036, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_18
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_23
-      sprite: {fileID: 21300046, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300044, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_22
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_27
-      sprite: {fileID: 21300054, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300052, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_26
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: phasein_31
-      sprite: {fileID: 21300062, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+    - sprite: {fileID: 21300060, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_30
+      secondDelay: 0.1
+      AtlasUsing: 9
+  - Frames:
+    - sprite: {fileID: 21300006, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_3
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300014, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_7
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300022, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_11
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300030, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_15
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300038, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_19
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300046, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_23
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300054, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_27
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300062, guid: bb68f93f26a847e4b838655d40404bff, type: 3}
+      spriteName: phasein_31
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

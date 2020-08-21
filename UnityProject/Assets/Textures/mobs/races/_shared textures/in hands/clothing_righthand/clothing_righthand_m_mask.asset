@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: m_mask_0
-      sprite: {fileID: 21300000, guid: 68f6c600dd25b5b46a8874642730ca0d, type: 3}
+    - sprite: {fileID: 21300000, guid: 68f6c600dd25b5b46a8874642730ca0d, type: 3}
+      spriteName: m_mask_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: m_mask_1
-      sprite: {fileID: 21300002, guid: 68f6c600dd25b5b46a8874642730ca0d, type: 3}
+    - sprite: {fileID: 21300002, guid: 68f6c600dd25b5b46a8874642730ca0d, type: 3}
+      spriteName: m_mask_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: m_mask_2
-      sprite: {fileID: 21300004, guid: 68f6c600dd25b5b46a8874642730ca0d, type: 3}
+    - sprite: {fileID: 21300004, guid: 68f6c600dd25b5b46a8874642730ca0d, type: 3}
+      spriteName: m_mask_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: m_mask_3
-      sprite: {fileID: 21300006, guid: 68f6c600dd25b5b46a8874642730ca0d, type: 3}
+    - sprite: {fileID: 21300006, guid: 68f6c600dd25b5b46a8874642730ca0d, type: 3}
+      spriteName: m_mask_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

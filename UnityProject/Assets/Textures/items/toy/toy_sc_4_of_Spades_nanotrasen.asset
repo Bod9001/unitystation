@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: toy_sc_4_of_Spades_nanotrasen
-      sprite: {fileID: 21300000, guid: 85e82c920a51d6543872defd1e84ddb5, type: 3}
+    - sprite: {fileID: 21300000, guid: 85e82c920a51d6543872defd1e84ddb5, type: 3}
+      spriteName: toy_sc_4_of_Spades_nanotrasen
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

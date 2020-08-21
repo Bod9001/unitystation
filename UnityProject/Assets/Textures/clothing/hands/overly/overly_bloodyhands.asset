@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bloodyhands_0
-      sprite: {fileID: 21300000, guid: a10b2c6b8e3c0684091db9fe260beb02, type: 3}
+    - sprite: {fileID: 21300000, guid: a10b2c6b8e3c0684091db9fe260beb02, type: 3}
+      spriteName: bloodyhands_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bloodyhands_1
-      sprite: {fileID: 21300002, guid: a10b2c6b8e3c0684091db9fe260beb02, type: 3}
+    - sprite: {fileID: 21300002, guid: a10b2c6b8e3c0684091db9fe260beb02, type: 3}
+      spriteName: bloodyhands_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bloodyhands_2
-      sprite: {fileID: 21300004, guid: a10b2c6b8e3c0684091db9fe260beb02, type: 3}
+    - sprite: {fileID: 21300004, guid: a10b2c6b8e3c0684091db9fe260beb02, type: 3}
+      spriteName: bloodyhands_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bloodyhands_3
-      sprite: {fileID: 21300006, guid: a10b2c6b8e3c0684091db9fe260beb02, type: 3}
+    - sprite: {fileID: 21300006, guid: a10b2c6b8e3c0684091db9fe260beb02, type: 3}
+      spriteName: bloodyhands_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

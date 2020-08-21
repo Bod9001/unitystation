@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: stationobjs_gsensor0
-      sprite: {fileID: 21300000, guid: 955b2b77bae99a74e9a3805a9e6b9f0c, type: 3}
+    - sprite: {fileID: 21300000, guid: 955b2b77bae99a74e9a3805a9e6b9f0c, type: 3}
+      spriteName: stationobjs_gsensor0
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

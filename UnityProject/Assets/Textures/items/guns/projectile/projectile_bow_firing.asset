@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: projectile_bow_firing
-      sprite: {fileID: 21300000, guid: 2f9caf0d2b3f60c4ab73cf7db4afd618, type: 3}
+    - sprite: {fileID: 21300000, guid: 2f9caf0d2b3f60c4ab73cf7db4afd618, type: 3}
+      spriteName: projectile_bow_firing
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

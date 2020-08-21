@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gygax_darkgygax-broken
-      sprite: {fileID: 21300000, guid: e0477a41efea5be4184cf19546efaca4, type: 3}
+    - sprite: {fileID: 21300000, guid: e0477a41efea5be4184cf19546efaca4, type: 3}
+      spriteName: gygax_darkgygax-broken
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

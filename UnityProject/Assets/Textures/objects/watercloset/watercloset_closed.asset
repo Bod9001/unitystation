@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: watercloset_closed
-      sprite: {fileID: 21300000, guid: ed4de5e838f051f4fb639b23f3eb3bb5, type: 3}
+    - sprite: {fileID: 21300000, guid: ed4de5e838f051f4fb639b23f3eb3bb5, type: 3}
+      spriteName: watercloset_closed
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

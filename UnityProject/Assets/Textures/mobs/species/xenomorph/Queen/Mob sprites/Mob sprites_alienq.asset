@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Mob sprites_alienq_0
-      sprite: {fileID: 1712390716968457018, guid: 1a2abb432b2c73c4190f5ec4472f922e,
+    - sprite: {fileID: 1712390716968457018, guid: 1a2abb432b2c73c4190f5ec4472f922e,
         type: 3}
+      spriteName: Mob sprites_alienq_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: Mob sprites_alienq_1
-      sprite: {fileID: -916205771387471893, guid: 1a2abb432b2c73c4190f5ec4472f922e,
+    - sprite: {fileID: -916205771387471893, guid: 1a2abb432b2c73c4190f5ec4472f922e,
         type: 3}
+      spriteName: Mob sprites_alienq_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: Mob sprites_alienq_2
-      sprite: {fileID: -7221481357887369191, guid: 1a2abb432b2c73c4190f5ec4472f922e,
+    - sprite: {fileID: -7221481357887369191, guid: 1a2abb432b2c73c4190f5ec4472f922e,
         type: 3}
+      spriteName: Mob sprites_alienq_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: Mob sprites_alienq_3
-      sprite: {fileID: -867655553512052890, guid: 1a2abb432b2c73c4190f5ec4472f922e,
+    - sprite: {fileID: -867655553512052890, guid: 1a2abb432b2c73c4190f5ec4472f922e,
         type: 3}
+      spriteName: Mob sprites_alienq_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: glass_open_0
-      sprite: {fileID: 21300000, guid: 4924d18805aece9449bf971cc6a48750, type: 3}
+    - sprite: {fileID: 21300000, guid: 4924d18805aece9449bf971cc6a48750, type: 3}
+      spriteName: glass_open_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: glass_open_1
-      sprite: {fileID: 21300002, guid: 4924d18805aece9449bf971cc6a48750, type: 3}
+    - sprite: {fileID: 21300002, guid: 4924d18805aece9449bf971cc6a48750, type: 3}
+      spriteName: glass_open_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: glass_open_2
-      sprite: {fileID: 21300004, guid: 4924d18805aece9449bf971cc6a48750, type: 3}
+    - sprite: {fileID: 21300004, guid: 4924d18805aece9449bf971cc6a48750, type: 3}
+      spriteName: glass_open_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: glass_open_3
-      sprite: {fileID: 21300006, guid: 4924d18805aece9449bf971cc6a48750, type: 3}
+    - sprite: {fileID: 21300006, guid: 4924d18805aece9449bf971cc6a48750, type: 3}
+      spriteName: glass_open_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

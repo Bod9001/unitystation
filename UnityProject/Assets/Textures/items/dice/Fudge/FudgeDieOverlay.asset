@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dice_fudge-1
-      sprite: {fileID: 21300000, guid: 44ac03f9c3085b943ad091c397d93872, type: 3}
+    - sprite: {fileID: 21300000, guid: 44ac03f9c3085b943ad091c397d93872, type: 3}
+      spriteName: dice_fudge-1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_fudge-2
-      sprite: {fileID: 21300000, guid: 7259b23f23fe49248bc91616decc30d4, type: 3}
+    - sprite: {fileID: 21300000, guid: 7259b23f23fe49248bc91616decc30d4, type: 3}
+      spriteName: dice_fudge-2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_fudge-3
-      sprite: {fileID: 21300000, guid: 2c7e4087b4a869745a8c3c0cbe4cb50c, type: 3}
+    - sprite: {fileID: 21300000, guid: 2c7e4087b4a869745a8c3c0cbe4cb50c, type: 3}
+      spriteName: dice_fudge-3
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

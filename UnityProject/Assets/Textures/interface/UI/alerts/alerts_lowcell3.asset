@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lowcell3_0
-      sprite: {fileID: 21300000, guid: 62bb32218e607cd48934d6deb0f62949, type: 3}
+    - sprite: {fileID: 21300000, guid: 62bb32218e607cd48934d6deb0f62949, type: 3}
+      spriteName: lowcell3_0
       secondDelay: 0.5
       AtlasUsing: 9
-    - spriteName: lowcell3_1
-      sprite: {fileID: 21300002, guid: 62bb32218e607cd48934d6deb0f62949, type: 3}
+    - sprite: {fileID: 21300002, guid: 62bb32218e607cd48934d6deb0f62949, type: 3}
+      spriteName: lowcell3_1
       secondDelay: 0.5
       AtlasUsing: 9
   IsPalette: 0

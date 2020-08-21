@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: device_ai-slipper0
-      sprite: {fileID: 21300000, guid: d6444d41b1fac464aa7b583fe42fe284, type: 3}
+    - sprite: {fileID: 21300000, guid: d6444d41b1fac464aa7b583fe42fe284, type: 3}
+      spriteName: device_ai-slipper0
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

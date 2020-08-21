@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: purplegloves_0
-      sprite: {fileID: 21300000, guid: 4ad6ecfeb04a3424fb0d8c3c21637393, type: 3}
+    - sprite: {fileID: 21300000, guid: 4ad6ecfeb04a3424fb0d8c3c21637393, type: 3}
+      spriteName: purplegloves_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: purplegloves_1
-      sprite: {fileID: 21300002, guid: 4ad6ecfeb04a3424fb0d8c3c21637393, type: 3}
+    - sprite: {fileID: 21300002, guid: 4ad6ecfeb04a3424fb0d8c3c21637393, type: 3}
+      spriteName: purplegloves_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: purplegloves_2
-      sprite: {fileID: 21300004, guid: 4ad6ecfeb04a3424fb0d8c3c21637393, type: 3}
+    - sprite: {fileID: 21300004, guid: 4ad6ecfeb04a3424fb0d8c3c21637393, type: 3}
+      spriteName: purplegloves_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: purplegloves_3
-      sprite: {fileID: 21300006, guid: 4ad6ecfeb04a3424fb0d8c3c21637393, type: 3}
+    - sprite: {fileID: 21300006, guid: 4ad6ecfeb04a3424fb0d8c3c21637393, type: 3}
+      spriteName: purplegloves_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

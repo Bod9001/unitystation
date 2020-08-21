@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_onion_red-dead
-      sprite: {fileID: 21300000, guid: 4b02b9cd8e3da23459d5a18c45a80942, type: 3}
+    - sprite: {fileID: 21300000, guid: 4b02b9cd8e3da23459d5a18c45a80942, type: 3}
+      spriteName: growing_onion_red-dead
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

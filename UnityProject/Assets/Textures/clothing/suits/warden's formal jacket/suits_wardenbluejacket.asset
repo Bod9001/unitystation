@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: wardenbluejacket_0
-      sprite: {fileID: 21300000, guid: 81374dbfa0f093140a7185203b5dbd30, type: 3}
+    - sprite: {fileID: 21300000, guid: 81374dbfa0f093140a7185203b5dbd30, type: 3}
+      spriteName: wardenbluejacket_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: wardenbluejacket_1
-      sprite: {fileID: 21300002, guid: 81374dbfa0f093140a7185203b5dbd30, type: 3}
+    - sprite: {fileID: 21300002, guid: 81374dbfa0f093140a7185203b5dbd30, type: 3}
+      spriteName: wardenbluejacket_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: wardenbluejacket_2
-      sprite: {fileID: 21300004, guid: 81374dbfa0f093140a7185203b5dbd30, type: 3}
+    - sprite: {fileID: 21300004, guid: 81374dbfa0f093140a7185203b5dbd30, type: 3}
+      spriteName: wardenbluejacket_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: wardenbluejacket_3
-      sprite: {fileID: 21300006, guid: 81374dbfa0f093140a7185203b5dbd30, type: 3}
+    - sprite: {fileID: 21300006, guid: 81374dbfa0f093140a7185203b5dbd30, type: 3}
+      spriteName: wardenbluejacket_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: largejungleflora_rocks1
-      sprite: {fileID: 21300000, guid: 0c38f9252041c5f4f8aa4f6b88909351, type: 3}
+    - sprite: {fileID: 21300000, guid: 0c38f9252041c5f4f8aa4f6b88909351, type: 3}
+      spriteName: largejungleflora_rocks1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

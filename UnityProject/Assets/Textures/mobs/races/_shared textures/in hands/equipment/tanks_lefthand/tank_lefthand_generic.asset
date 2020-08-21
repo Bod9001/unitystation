@@ -14,28 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: generic_0
-      sprite: {fileID: -653418139558628109, guid: ef9ed0ad03419f442a87faf752ca551f,
+    - sprite: {fileID: -653418139558628109, guid: ef9ed0ad03419f442a87faf752ca551f,
         type: 3}
+      spriteName: generic_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: generic_1
-      sprite: {fileID: -3873854512879061305, guid: ef9ed0ad03419f442a87faf752ca551f,
+    - sprite: {fileID: -3873854512879061305, guid: ef9ed0ad03419f442a87faf752ca551f,
         type: 3}
+      spriteName: generic_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: generic_2
-      sprite: {fileID: 7284626770053417711, guid: ef9ed0ad03419f442a87faf752ca551f,
+    - sprite: {fileID: 7284626770053417711, guid: ef9ed0ad03419f442a87faf752ca551f,
         type: 3}
+      spriteName: generic_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: generic_3
-      sprite: {fileID: -9217425475404010826, guid: ef9ed0ad03419f442a87faf752ca551f,
+    - sprite: {fileID: -9217425475404010826, guid: ef9ed0ad03419f442a87faf752ca551f,
         type: 3}
+      spriteName: generic_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 22240

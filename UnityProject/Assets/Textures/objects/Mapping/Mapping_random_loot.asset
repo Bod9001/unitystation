@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Mapping_random_loot
-      sprite: {fileID: 21300000, guid: 762be26fb5a93894b9b33ba5a6d6501a, type: 3}
+    - sprite: {fileID: 21300000, guid: 762be26fb5a93894b9b33ba5a6d6501a, type: 3}
+      spriteName: Mapping_random_loot
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

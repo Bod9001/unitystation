@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mysterybox_giftbox_locked
-      sprite: {fileID: 21300000, guid: 7663711cfcb80f6478c4d57c8e88eacb, type: 3}
+    - sprite: {fileID: 21300000, guid: 7663711cfcb80f6478c4d57c8e88eacb, type: 3}
+      spriteName: mysterybox_giftbox_locked
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

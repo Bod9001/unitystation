@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: damaged_damaged1
-      sprite: {fileID: 21300000, guid: bdf6c630b33cc55409f1d14420a3af72, type: 3}
+    - sprite: {fileID: 21300000, guid: bdf6c630b33cc55409f1d14420a3af72, type: 3}
+      spriteName: damaged_damaged1
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

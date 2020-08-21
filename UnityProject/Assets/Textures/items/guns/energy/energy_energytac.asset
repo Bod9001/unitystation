@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: energy_energytac
-      sprite: {fileID: 21300000, guid: ab68f87a9ba941147a63c3d25f130774, type: 3}
+    - sprite: {fileID: 21300000, guid: ab68f87a9ba941147a63c3d25f130774, type: 3}
+      spriteName: energy_energytac
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

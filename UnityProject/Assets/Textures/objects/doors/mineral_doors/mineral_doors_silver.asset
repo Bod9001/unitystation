@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mineral_doors_silver
-      sprite: {fileID: 21300000, guid: 28b6494b06c1e3640a7cb6e619017714, type: 3}
+    - sprite: {fileID: 21300000, guid: 28b6494b06c1e3640a7cb6e619017714, type: 3}
+      spriteName: mineral_doors_silver
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

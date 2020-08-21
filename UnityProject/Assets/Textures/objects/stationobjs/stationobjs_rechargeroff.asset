@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: stationobjs_rechargeroff
-      sprite: {fileID: 21300000, guid: e9df4be7bb1ed5d42a347d99dbcd4147, type: 3}
+    - sprite: {fileID: 21300000, guid: e9df4be7bb1ed5d42a347d99dbcd4147, type: 3}
+      spriteName: stationobjs_rechargeroff
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

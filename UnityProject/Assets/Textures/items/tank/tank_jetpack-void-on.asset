@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: jetpack-void-on_0
-      sprite: {fileID: 21300000, guid: baf4cc2ccd70dc446bd89501b7ab8ebd, type: 3}
+    - sprite: {fileID: 21300000, guid: baf4cc2ccd70dc446bd89501b7ab8ebd, type: 3}
+      spriteName: jetpack-void-on_0
       secondDelay: 0.5
-      AtlasUsing: 2
-    - spriteName: jetpack-void-on_1
-      sprite: {fileID: 21300002, guid: baf4cc2ccd70dc446bd89501b7ab8ebd, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300002, guid: baf4cc2ccd70dc446bd89501b7ab8ebd, type: 3}
+      spriteName: jetpack-void-on_1
       secondDelay: 0.5
-      AtlasUsing: 2
+      AtlasUsing: 5
   IsPalette: 0
   setID: 9176

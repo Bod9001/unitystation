@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: fedora_beige_0
-      sprite: {fileID: -6115157421886151314, guid: 2372e6f99bcf96548989607c85618cff,
+    - sprite: {fileID: -6115157421886151314, guid: 2372e6f99bcf96548989607c85618cff,
         type: 3}
+      spriteName: fedora_beige_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: fedora_beige_1
-      sprite: {fileID: -7133836381421496212, guid: 2372e6f99bcf96548989607c85618cff,
+    - sprite: {fileID: -7133836381421496212, guid: 2372e6f99bcf96548989607c85618cff,
         type: 3}
+      spriteName: fedora_beige_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: fedora_beige_2
-      sprite: {fileID: 7378984760030098989, guid: 2372e6f99bcf96548989607c85618cff,
+    - sprite: {fileID: 7378984760030098989, guid: 2372e6f99bcf96548989607c85618cff,
         type: 3}
+      spriteName: fedora_beige_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: fedora_beige_3
-      sprite: {fileID: 633626661849230270, guid: 2372e6f99bcf96548989607c85618cff,
+    - sprite: {fileID: 633626661849230270, guid: 2372e6f99bcf96548989607c85618cff,
         type: 3}
+      spriteName: fedora_beige_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

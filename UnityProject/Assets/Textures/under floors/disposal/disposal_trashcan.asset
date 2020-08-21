@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: disposal_trashcan
-      sprite: {fileID: 21300000, guid: 666035370bcc42b44a91468875f6c556, type: 3}
+    - sprite: {fileID: 21300000, guid: 666035370bcc42b44a91468875f6c556, type: 3}
+      spriteName: disposal_trashcan
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

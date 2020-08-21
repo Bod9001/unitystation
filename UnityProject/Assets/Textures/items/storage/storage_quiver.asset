@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_quiver
-      sprite: {fileID: 21300000, guid: c76ad0848065886468f5411286693bfd, type: 3}
+    - sprite: {fileID: 21300000, guid: c76ad0848065886468f5411286693bfd, type: 3}
+      spriteName: storage_quiver
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

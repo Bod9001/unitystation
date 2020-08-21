@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lavaland_monsters_Hivelord_dead
-      sprite: {fileID: 21300000, guid: d5249c7580a7bb34f87cc26bb2277e3b, type: 3}
+    - sprite: {fileID: 21300000, guid: d5249c7580a7bb34f87cc26bb2277e3b, type: 3}
+      spriteName: lavaland_monsters_Hivelord_dead
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hgpirate_0
-      sprite: {fileID: 21300000, guid: c0644f9de57b1e443b46993e96f00159, type: 3}
+    - sprite: {fileID: 21300000, guid: c0644f9de57b1e443b46993e96f00159, type: 3}
+      spriteName: hgpirate_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hgpirate_1
-      sprite: {fileID: 21300002, guid: c0644f9de57b1e443b46993e96f00159, type: 3}
+    - sprite: {fileID: 21300002, guid: c0644f9de57b1e443b46993e96f00159, type: 3}
+      spriteName: hgpirate_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hgpirate_2
-      sprite: {fileID: 21300004, guid: c0644f9de57b1e443b46993e96f00159, type: 3}
+    - sprite: {fileID: 21300004, guid: c0644f9de57b1e443b46993e96f00159, type: 3}
+      spriteName: hgpirate_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hgpirate_3
-      sprite: {fileID: 21300006, guid: c0644f9de57b1e443b46993e96f00159, type: 3}
+    - sprite: {fileID: 21300006, guid: c0644f9de57b1e443b46993e96f00159, type: 3}
+      spriteName: hgpirate_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pow_gen_0
-      sprite: {fileID: 21300000, guid: 0587c91654bc861428c86f533729e20b, type: 3}
+    - sprite: {fileID: 21300000, guid: 0587c91654bc861428c86f533729e20b, type: 3}
+      spriteName: pow_gen_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: pow_gen_1
-      sprite: {fileID: 21300002, guid: 0587c91654bc861428c86f533729e20b, type: 3}
+    - sprite: {fileID: 21300002, guid: 0587c91654bc861428c86f533729e20b, type: 3}
+      spriteName: pow_gen_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: pow_gen_2
-      sprite: {fileID: 21300004, guid: 0587c91654bc861428c86f533729e20b, type: 3}
+    - sprite: {fileID: 21300004, guid: 0587c91654bc861428c86f533729e20b, type: 3}
+      spriteName: pow_gen_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: pow_gen_3
-      sprite: {fileID: 21300006, guid: 0587c91654bc861428c86f533729e20b, type: 3}
+    - sprite: {fileID: 21300006, guid: 0587c91654bc861428c86f533729e20b, type: 3}
+      spriteName: pow_gen_3
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

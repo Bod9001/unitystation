@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cargo-trimmed_1
-      sprite: {fileID: 5481218505883704608, guid: 3576a7c7444330b4c854609f0fb4b5d3,
+    - sprite: {fileID: 5481218505883704608, guid: 3576a7c7444330b4c854609f0fb4b5d3,
         type: 3}
+      spriteName: cargo-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

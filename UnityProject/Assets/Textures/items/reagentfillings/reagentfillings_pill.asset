@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: reagentfillings_pill
-      sprite: {fileID: 21300000, guid: 91eb139000b65d94e804a8abc5a6fa07, type: 3}
+    - sprite: {fileID: 21300000, guid: 91eb139000b65d94e804a8abc5a6fa07, type: 3}
+      spriteName: reagentfillings_pill
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

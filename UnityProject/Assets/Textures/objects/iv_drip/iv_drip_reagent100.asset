@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: iv_drip_reagent100
-      sprite: {fileID: 21300000, guid: 389c4f4719ad12f49bef3a94d534b777, type: 3}
+    - sprite: {fileID: 21300000, guid: 389c4f4719ad12f49bef3a94d534b777, type: 3}
+      spriteName: iv_drip_reagent100
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

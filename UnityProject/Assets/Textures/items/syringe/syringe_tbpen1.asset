@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tbpen1_0
-      sprite: {fileID: 8853269333887403255, guid: 6bd60e47424db454daffa7cc6e56c4de,
+    - sprite: {fileID: 8853269333887403255, guid: 6bd60e47424db454daffa7cc6e56c4de,
         type: 3}
+      spriteName: tbpen1_0
       secondDelay: 0.3
       AtlasUsing: 5
-    - spriteName: tbpen1_1
-      sprite: {fileID: -9044004204565987854, guid: 6bd60e47424db454daffa7cc6e56c4de,
+    - sprite: {fileID: -9044004204565987854, guid: 6bd60e47424db454daffa7cc6e56c4de,
         type: 3}
+      spriteName: tbpen1_1
       secondDelay: 0.3
       AtlasUsing: 5
   IsPalette: 0

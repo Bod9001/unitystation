@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vehicles_pussywagon_destroyed
-      sprite: {fileID: 21300000, guid: b10403352ef95c34ea849a323595e433, type: 3}
+    - sprite: {fileID: 21300000, guid: b10403352ef95c34ea849a323595e433, type: 3}
+      spriteName: vehicles_pussywagon_destroyed
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

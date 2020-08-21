@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: l_windoor_assembly01_0
-      sprite: {fileID: 21300000, guid: e16a55c4f111da24993ef9daa1b17613, type: 3}
+    - sprite: {fileID: 21300000, guid: e16a55c4f111da24993ef9daa1b17613, type: 3}
+      spriteName: l_windoor_assembly01_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: l_windoor_assembly01_1
-      sprite: {fileID: 21300002, guid: e16a55c4f111da24993ef9daa1b17613, type: 3}
+    - sprite: {fileID: 21300002, guid: e16a55c4f111da24993ef9daa1b17613, type: 3}
+      spriteName: l_windoor_assembly01_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: l_windoor_assembly01_2
-      sprite: {fileID: 21300004, guid: e16a55c4f111da24993ef9daa1b17613, type: 3}
+    - sprite: {fileID: 21300004, guid: e16a55c4f111da24993ef9daa1b17613, type: 3}
+      spriteName: l_windoor_assembly01_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: l_windoor_assembly01_3
-      sprite: {fileID: 21300006, guid: e16a55c4f111da24993ef9daa1b17613, type: 3}
+    - sprite: {fileID: 21300006, guid: e16a55c4f111da24993ef9daa1b17613, type: 3}
+      spriteName: l_windoor_assembly01_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

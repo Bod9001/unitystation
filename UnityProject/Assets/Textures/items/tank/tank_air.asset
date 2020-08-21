@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tank_air
-      sprite: {fileID: 21300000, guid: 7022994ae823d034f90275114a1e616f, type: 3}
+    - sprite: {fileID: 21300000, guid: 7022994ae823d034f90275114a1e616f, type: 3}
+      spriteName: tank_air
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

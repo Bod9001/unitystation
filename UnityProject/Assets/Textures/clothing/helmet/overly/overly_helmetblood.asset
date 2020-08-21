@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: helmetblood_0
-      sprite: {fileID: 21300000, guid: 5550fbfa97235234395fea7a057cdae2, type: 3}
+    - sprite: {fileID: 21300000, guid: 5550fbfa97235234395fea7a057cdae2, type: 3}
+      spriteName: helmetblood_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: helmetblood_1
-      sprite: {fileID: 21300002, guid: 5550fbfa97235234395fea7a057cdae2, type: 3}
+    - sprite: {fileID: 21300002, guid: 5550fbfa97235234395fea7a057cdae2, type: 3}
+      spriteName: helmetblood_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: helmetblood_2
-      sprite: {fileID: 21300004, guid: 5550fbfa97235234395fea7a057cdae2, type: 3}
+    - sprite: {fileID: 21300004, guid: 5550fbfa97235234395fea7a057cdae2, type: 3}
+      spriteName: helmetblood_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: helmetblood_3
-      sprite: {fileID: 21300006, guid: 5550fbfa97235234395fea7a057cdae2, type: 3}
+    - sprite: {fileID: 21300006, guid: 5550fbfa97235234395fea7a057cdae2, type: 3}
+      spriteName: helmetblood_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

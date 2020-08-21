@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alerts_etherealcharge3
-      sprite: {fileID: 21300000, guid: 3a3d2a5dc91a5b547bb2e1ba08cfcaa7, type: 3}
+    - sprite: {fileID: 21300000, guid: 3a3d2a5dc91a5b547bb2e1ba08cfcaa7, type: 3}
+      spriteName: alerts_etherealcharge3
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

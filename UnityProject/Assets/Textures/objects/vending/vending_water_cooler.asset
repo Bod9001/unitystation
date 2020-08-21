@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_water_cooler
-      sprite: {fileID: 21300000, guid: e9973598aaf3de04899a1ebfc9ed2928, type: 3}
+    - sprite: {fileID: 21300000, guid: e9973598aaf3de04899a1ebfc9ed2928, type: 3}
+      spriteName: vending_water_cooler
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

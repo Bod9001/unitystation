@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: reagentfillings_syringe1
-      sprite: {fileID: 21300000, guid: 32f49235580b0154db93e7c04c7a3ab3, type: 3}
+    - sprite: {fileID: 21300000, guid: 32f49235580b0154db93e7c04c7a3ab3, type: 3}
+      spriteName: reagentfillings_syringe1
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

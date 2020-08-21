@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: slimes_adamantine_baby_slime_dead-nocore
-      sprite: {fileID: 21300000, guid: 31a48b5671fe3834da2b2acc6a2bb14b, type: 3}
+    - sprite: {fileID: 21300000, guid: 31a48b5671fe3834da2b2acc6a2bb14b, type: 3}
+      spriteName: slimes_adamantine_baby_slime_dead-nocore
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

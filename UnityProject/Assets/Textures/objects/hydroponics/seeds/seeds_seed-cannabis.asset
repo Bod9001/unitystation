@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: seeds_seed-cannabis
-      sprite: {fileID: 21300000, guid: 95827cad2a9bf934e824635d042cdf9f, type: 3}
+    - sprite: {fileID: 21300000, guid: 95827cad2a9bf934e824635d042cdf9f, type: 3}
+      spriteName: seeds_seed-cannabis
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

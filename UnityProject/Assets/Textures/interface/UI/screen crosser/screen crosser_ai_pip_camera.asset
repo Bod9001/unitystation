@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ai_pip_camera_0
-      sprite: {fileID: 21300000, guid: 3a2aa573d305fbb4f859e3aa5ecd4833, type: 3}
+    - sprite: {fileID: 21300000, guid: 3a2aa573d305fbb4f859e3aa5ecd4833, type: 3}
+      spriteName: ai_pip_camera_0
       secondDelay: 1
       AtlasUsing: 9
-    - spriteName: ai_pip_camera_1
-      sprite: {fileID: 21300002, guid: 3a2aa573d305fbb4f859e3aa5ecd4833, type: 3}
+    - sprite: {fileID: 21300002, guid: 3a2aa573d305fbb4f859e3aa5ecd4833, type: 3}
+      spriteName: ai_pip_camera_1
       secondDelay: 1
       AtlasUsing: 9
   IsPalette: 0

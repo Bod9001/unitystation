@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chronofield_0
-      sprite: {fileID: 21300000, guid: db3f0ea7429c7df45b110142fc7dfdb4, type: 3}
+    - sprite: {fileID: 21300000, guid: db3f0ea7429c7df45b110142fc7dfdb4, type: 3}
+      spriteName: chronofield_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: chronofield_1
-      sprite: {fileID: 21300002, guid: db3f0ea7429c7df45b110142fc7dfdb4, type: 3}
+    - sprite: {fileID: 21300002, guid: db3f0ea7429c7df45b110142fc7dfdb4, type: 3}
+      spriteName: chronofield_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: chronofield_2
-      sprite: {fileID: 21300004, guid: db3f0ea7429c7df45b110142fc7dfdb4, type: 3}
+    - sprite: {fileID: 21300004, guid: db3f0ea7429c7df45b110142fc7dfdb4, type: 3}
+      spriteName: chronofield_2
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

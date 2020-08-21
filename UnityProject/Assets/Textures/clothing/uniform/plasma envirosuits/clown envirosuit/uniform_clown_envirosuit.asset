@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clown_envirosuit_0
-      sprite: {fileID: 2369055675668253683, guid: 8a7314e98b319b34995bea86d18de53f,
+    - sprite: {fileID: 2369055675668253683, guid: 8a7314e98b319b34995bea86d18de53f,
         type: 3}
+      spriteName: clown_envirosuit_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: clown_envirosuit_1
-      sprite: {fileID: -8199030452294617134, guid: 8a7314e98b319b34995bea86d18de53f,
+    - sprite: {fileID: -8199030452294617134, guid: 8a7314e98b319b34995bea86d18de53f,
         type: 3}
+      spriteName: clown_envirosuit_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: clown_envirosuit_2
-      sprite: {fileID: 5038402617499669873, guid: 8a7314e98b319b34995bea86d18de53f,
+    - sprite: {fileID: 5038402617499669873, guid: 8a7314e98b319b34995bea86d18de53f,
         type: 3}
+      spriteName: clown_envirosuit_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: clown_envirosuit_3
-      sprite: {fileID: 5382881039733255496, guid: 8a7314e98b319b34995bea86d18de53f,
+    - sprite: {fileID: 5382881039733255496, guid: 8a7314e98b319b34995bea86d18de53f,
         type: 3}
+      spriteName: clown_envirosuit_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

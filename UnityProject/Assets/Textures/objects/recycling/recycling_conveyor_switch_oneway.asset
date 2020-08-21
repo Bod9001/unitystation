@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: conveyor_switch_oneway_0
-      sprite: {fileID: 21300000, guid: 9bd0ff806bb44bc4fbed27bae0d8c840, type: 3}
+    - sprite: {fileID: 21300000, guid: 9bd0ff806bb44bc4fbed27bae0d8c840, type: 3}
+      spriteName: conveyor_switch_oneway_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: conveyor_switch_oneway_1
-      sprite: {fileID: 21300002, guid: 9bd0ff806bb44bc4fbed27bae0d8c840, type: 3}
+    - sprite: {fileID: 21300002, guid: 9bd0ff806bb44bc4fbed27bae0d8c840, type: 3}
+      spriteName: conveyor_switch_oneway_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: conveyor_switch_oneway_2
-      sprite: {fileID: 21300004, guid: 9bd0ff806bb44bc4fbed27bae0d8c840, type: 3}
+    - sprite: {fileID: 21300004, guid: 9bd0ff806bb44bc4fbed27bae0d8c840, type: 3}
+      spriteName: conveyor_switch_oneway_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: conveyor_switch_oneway_3
-      sprite: {fileID: 21300006, guid: 9bd0ff806bb44bc4fbed27bae0d8c840, type: 3}
+    - sprite: {fileID: 21300006, guid: 9bd0ff806bb44bc4fbed27bae0d8c840, type: 3}
+      spriteName: conveyor_switch_oneway_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

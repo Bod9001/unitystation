@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pirate_0
-      sprite: {fileID: 21300000, guid: 0b9a1794e9851694e908f9fc673f7fb5, type: 3}
+    - sprite: {fileID: 21300000, guid: 0b9a1794e9851694e908f9fc673f7fb5, type: 3}
+      spriteName: pirate_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: pirate_1
-      sprite: {fileID: 21300002, guid: 0b9a1794e9851694e908f9fc673f7fb5, type: 3}
+    - sprite: {fileID: 21300002, guid: 0b9a1794e9851694e908f9fc673f7fb5, type: 3}
+      spriteName: pirate_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: pirate_2
-      sprite: {fileID: 21300004, guid: 0b9a1794e9851694e908f9fc673f7fb5, type: 3}
+    - sprite: {fileID: 21300004, guid: 0b9a1794e9851694e908f9fc673f7fb5, type: 3}
+      spriteName: pirate_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: pirate_3
-      sprite: {fileID: 21300006, guid: 0b9a1794e9851694e908f9fc673f7fb5, type: 3}
+    - sprite: {fileID: 21300006, guid: 0b9a1794e9851694e908f9fc673f7fb5, type: 3}
+      spriteName: pirate_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_tofu
-      sprite: {fileID: 21300000, guid: 5876a58512db2054dbd61df023410460, type: 3}
+    - sprite: {fileID: 21300000, guid: 5876a58512db2054dbd61df023410460, type: 3}
+      spriteName: food_tofu
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

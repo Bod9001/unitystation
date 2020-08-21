@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Mapping_tdome_observer
-      sprite: {fileID: 21300000, guid: 07a2472d8a9f83e40ad5adeba3124dd7, type: 3}
+    - sprite: {fileID: 21300000, guid: 07a2472d8a9f83e40ad5adeba3124dd7, type: 3}
+      spriteName: Mapping_tdome_observer
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

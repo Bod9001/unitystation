@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: escape_0
-      sprite: {fileID: 21300000, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+    - sprite: {fileID: 21300000, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+      spriteName: escape_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: escape_1
-      sprite: {fileID: 21300002, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+    - sprite: {fileID: 21300002, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+      spriteName: escape_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: escape_2
-      sprite: {fileID: 21300004, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+    - sprite: {fileID: 21300004, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+      spriteName: escape_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: escape_3
-      sprite: {fileID: 21300006, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+    - sprite: {fileID: 21300006, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+      spriteName: escape_3
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: escape_4
-      sprite: {fileID: 21300008, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+    - sprite: {fileID: 21300008, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+      spriteName: escape_4
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: escape_5
-      sprite: {fileID: 21300010, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+    - sprite: {fileID: 21300010, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+      spriteName: escape_5
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: escape_6
-      sprite: {fileID: 21300012, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+    - sprite: {fileID: 21300012, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+      spriteName: escape_6
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: escape_7
-      sprite: {fileID: 21300014, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+    - sprite: {fileID: 21300014, guid: 3e0d48eef99e70f4388f099f747721bd, type: 3}
+      spriteName: escape_7
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

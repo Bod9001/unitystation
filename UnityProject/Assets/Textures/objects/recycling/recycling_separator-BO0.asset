@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: recycling_separator-BO0
-      sprite: {fileID: 21300000, guid: c3bb0a1777a18324793a36d5a9f908ce, type: 3}
+    - sprite: {fileID: 21300000, guid: c3bb0a1777a18324793a36d5a9f908ce, type: 3}
+      spriteName: recycling_separator-BO0
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

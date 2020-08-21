@@ -14,96 +14,96 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: thenest_0
-      sprite: {fileID: 21300000, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300000, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_0
       secondDelay: 0.6
       AtlasUsing: 8
-    - spriteName: thenest_1
-      sprite: {fileID: 21300002, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300002, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_1
       secondDelay: 0.6
       AtlasUsing: 8
-    - spriteName: thenest_2
-      sprite: {fileID: 21300004, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300004, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_2
       secondDelay: 0.6
       AtlasUsing: 8
-    - spriteName: thenest_3
-      sprite: {fileID: 21300006, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300006, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_3
       secondDelay: 0.6
       AtlasUsing: 8
-    - spriteName: thenest_4
-      sprite: {fileID: 21300008, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300008, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_4
       secondDelay: 0.6
       AtlasUsing: 8
-    - spriteName: thenest_5
-      sprite: {fileID: 21300010, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300010, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_5
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: thenest_6
-      sprite: {fileID: 21300012, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300012, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_6
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: thenest_7
-      sprite: {fileID: 21300014, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300014, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_7
       secondDelay: 0.6
       AtlasUsing: 8
-    - spriteName: thenest_8
-      sprite: {fileID: 21300016, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300016, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_8
       secondDelay: 0.6
       AtlasUsing: 8
-    - spriteName: thenest_9
-      sprite: {fileID: 21300018, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300018, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_9
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_10
-      sprite: {fileID: 21300020, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300020, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_10
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: thenest_11
-      sprite: {fileID: 21300022, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300022, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_11
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_12
-      sprite: {fileID: 21300024, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300024, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_12
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_13
-      sprite: {fileID: 21300026, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300026, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_13
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_14
-      sprite: {fileID: 21300028, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300028, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_14
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_15
-      sprite: {fileID: 21300030, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300030, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_15
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_16
-      sprite: {fileID: 21300032, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300032, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_16
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_17
-      sprite: {fileID: 21300034, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300034, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_17
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_18
-      sprite: {fileID: 21300036, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300036, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_18
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: thenest_19
-      sprite: {fileID: 21300038, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300038, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_19
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_20
-      sprite: {fileID: 21300040, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300040, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_20
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: thenest_21
-      sprite: {fileID: 21300042, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300042, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_21
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thenest_22
-      sprite: {fileID: 21300044, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+    - sprite: {fileID: 21300044, guid: bceeaf332d4a3f14195d72324e106a03, type: 3}
+      spriteName: thenest_22
       secondDelay: 0.4
       AtlasUsing: 8
   IsPalette: 0

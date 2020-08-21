@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: armcannondisable0_0
-      sprite: {fileID: 21300000, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+    - sprite: {fileID: 21300000, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+      spriteName: armcannondisable0_0
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: armcannondisable0_4
-      sprite: {fileID: 21300008, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+    - sprite: {fileID: 21300008, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+      spriteName: armcannondisable0_4
       secondDelay: 0.3
       AtlasUsing: 4
   - Frames:
-    - spriteName: armcannondisable0_1
-      sprite: {fileID: 21300002, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+    - sprite: {fileID: 21300002, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+      spriteName: armcannondisable0_1
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: armcannondisable0_5
-      sprite: {fileID: 21300010, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+    - sprite: {fileID: 21300010, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+      spriteName: armcannondisable0_5
       secondDelay: 0.3
       AtlasUsing: 4
   - Frames:
-    - spriteName: armcannondisable0_2
-      sprite: {fileID: 21300004, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+    - sprite: {fileID: 21300004, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+      spriteName: armcannondisable0_2
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: armcannondisable0_6
-      sprite: {fileID: 21300012, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+    - sprite: {fileID: 21300012, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+      spriteName: armcannondisable0_6
       secondDelay: 0.3
       AtlasUsing: 4
   - Frames:
-    - spriteName: armcannondisable0_3
-      sprite: {fileID: 21300006, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+    - sprite: {fileID: 21300006, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+      spriteName: armcannondisable0_3
       secondDelay: 0.1
       AtlasUsing: 4
-    - spriteName: armcannondisable0_7
-      sprite: {fileID: 21300014, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+    - sprite: {fileID: 21300014, guid: 531323cc74d812c4898e919283a5fbf4, type: 3}
+      spriteName: armcannondisable0_7
       secondDelay: 0.3
       AtlasUsing: 4
   IsPalette: 0

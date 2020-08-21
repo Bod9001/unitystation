@@ -14,33 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dice_de6-1
-      sprite: {fileID: 21300000, guid: 6eee73912d703d847bcc47fdd1f29993, type: 3}
+    - sprite: {fileID: 21300000, guid: 6eee73912d703d847bcc47fdd1f29993, type: 3}
+      spriteName: dice_de6-1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_de6-2
-      sprite: {fileID: 21300000, guid: 6277921516c4c884b81fe995a34c0506, type: 3}
+    - sprite: {fileID: 21300000, guid: 6277921516c4c884b81fe995a34c0506, type: 3}
+      spriteName: dice_de6-2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_de6-3
-      sprite: {fileID: 21300000, guid: e307b04260468184f909dc1cca1ec8a2, type: 3}
+    - sprite: {fileID: 21300000, guid: e307b04260468184f909dc1cca1ec8a2, type: 3}
+      spriteName: dice_de6-3
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_de6-4
-      sprite: {fileID: 21300000, guid: ae156ccc3e6eb5043be947a9746e89e4, type: 3}
+    - sprite: {fileID: 21300000, guid: ae156ccc3e6eb5043be947a9746e89e4, type: 3}
+      spriteName: dice_de6-4
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_de6-5
-      sprite: {fileID: 21300000, guid: 780a20e793f05bf48a651409646c7f04, type: 3}
+    - sprite: {fileID: 21300000, guid: 780a20e793f05bf48a651409646c7f04, type: 3}
+      spriteName: dice_de6-5
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_de6-6
-      sprite: {fileID: 21300000, guid: c741f3dff0183ff4ca7564a3112b5052, type: 3}
+    - sprite: {fileID: 21300000, guid: c741f3dff0183ff4ca7564a3112b5052, type: 3}
+      spriteName: dice_de6-6
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

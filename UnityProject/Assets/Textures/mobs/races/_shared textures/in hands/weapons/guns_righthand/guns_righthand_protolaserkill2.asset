@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: protolaserkill2_0
-      sprite: {fileID: 21300000, guid: bd71c31cc5445e646b5f8bfcfe54e2b4, type: 3}
+    - sprite: {fileID: 21300000, guid: bd71c31cc5445e646b5f8bfcfe54e2b4, type: 3}
+      spriteName: protolaserkill2_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: protolaserkill2_1
-      sprite: {fileID: 21300002, guid: bd71c31cc5445e646b5f8bfcfe54e2b4, type: 3}
+    - sprite: {fileID: 21300002, guid: bd71c31cc5445e646b5f8bfcfe54e2b4, type: 3}
+      spriteName: protolaserkill2_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: protolaserkill2_2
-      sprite: {fileID: 21300004, guid: bd71c31cc5445e646b5f8bfcfe54e2b4, type: 3}
+    - sprite: {fileID: 21300004, guid: bd71c31cc5445e646b5f8bfcfe54e2b4, type: 3}
+      spriteName: protolaserkill2_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: protolaserkill2_3
-      sprite: {fileID: 21300006, guid: bd71c31cc5445e646b5f8bfcfe54e2b4, type: 3}
+    - sprite: {fileID: 21300006, guid: bd71c31cc5445e646b5f8bfcfe54e2b4, type: 3}
+      spriteName: protolaserkill2_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

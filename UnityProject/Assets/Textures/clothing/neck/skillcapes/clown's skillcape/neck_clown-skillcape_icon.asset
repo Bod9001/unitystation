@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clown-skillcape_1
-      sprite: {fileID: -5374679459728446113, guid: e06824a93a7c65b4e8ee58ece7966707,
+    - sprite: {fileID: -5374679459728446113, guid: e06824a93a7c65b4e8ee58ece7966707,
         type: 3}
+      spriteName: clown-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

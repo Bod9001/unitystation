@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: parts_gygax_r_arm
-      sprite: {fileID: 21300000, guid: d7e4fe72e09390648a30c240266abf04, type: 3}
+    - sprite: {fileID: 21300000, guid: d7e4fe72e09390648a30c240266abf04, type: 3}
+      spriteName: parts_gygax_r_arm
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

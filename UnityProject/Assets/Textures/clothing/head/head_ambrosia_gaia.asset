@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ambrosia_gaia_0
-      sprite: {fileID: 21300000, guid: fef58004c84cedb459903a957ce637af, type: 3}
+    - sprite: {fileID: 21300000, guid: fef58004c84cedb459903a957ce637af, type: 3}
+      spriteName: ambrosia_gaia_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ambrosia_gaia_1
-      sprite: {fileID: 21300002, guid: fef58004c84cedb459903a957ce637af, type: 3}
+    - sprite: {fileID: 21300002, guid: fef58004c84cedb459903a957ce637af, type: 3}
+      spriteName: ambrosia_gaia_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ambrosia_gaia_2
-      sprite: {fileID: 21300004, guid: fef58004c84cedb459903a957ce637af, type: 3}
+    - sprite: {fileID: 21300004, guid: fef58004c84cedb459903a957ce637af, type: 3}
+      spriteName: ambrosia_gaia_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ambrosia_gaia_3
-      sprite: {fileID: 21300006, guid: fef58004c84cedb459903a957ce637af, type: 3}
+    - sprite: {fileID: 21300006, guid: fef58004c84cedb459903a957ce637af, type: 3}
+      spriteName: ambrosia_gaia_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

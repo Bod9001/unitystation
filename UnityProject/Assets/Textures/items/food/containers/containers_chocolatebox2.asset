@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: containers_chocolatebox2
-      sprite: {fileID: 21300000, guid: e22c2ae77e18522459bc194c87d19a20, type: 3}
+    - sprite: {fileID: 21300000, guid: e22c2ae77e18522459bc194c87d19a20, type: 3}
+      spriteName: containers_chocolatebox2
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

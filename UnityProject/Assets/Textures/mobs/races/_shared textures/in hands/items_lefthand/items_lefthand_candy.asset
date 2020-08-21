@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: candy_0
-      sprite: {fileID: 4426662905603550225, guid: a8d9d7e9178870949b0df8de239db775,
+    - sprite: {fileID: 4426662905603550225, guid: a8d9d7e9178870949b0df8de239db775,
         type: 3}
+      spriteName: candy_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: candy_1
-      sprite: {fileID: -5699859814593153825, guid: a8d9d7e9178870949b0df8de239db775,
+    - sprite: {fileID: -5699859814593153825, guid: a8d9d7e9178870949b0df8de239db775,
         type: 3}
+      spriteName: candy_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: candy_2
-      sprite: {fileID: -3531859234877362392, guid: a8d9d7e9178870949b0df8de239db775,
+    - sprite: {fileID: -3531859234877362392, guid: a8d9d7e9178870949b0df8de239db775,
         type: 3}
+      spriteName: candy_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: candy_3
-      sprite: {fileID: -5539223568794658269, guid: a8d9d7e9178870949b0df8de239db775,
+    - sprite: {fileID: -5539223568794658269, guid: a8d9d7e9178870949b0df8de239db775,
         type: 3}
+      spriteName: candy_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

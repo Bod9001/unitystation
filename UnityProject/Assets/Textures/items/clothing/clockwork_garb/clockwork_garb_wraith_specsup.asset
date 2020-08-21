@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clockwork_garb_wraith_specsup
-      sprite: {fileID: 21300000, guid: 2792ccbedcd272e43acb8ae5a14c48bd, type: 3}
+    - sprite: {fileID: 21300000, guid: 2792ccbedcd272e43acb8ae5a14c48bd, type: 3}
+      spriteName: clockwork_garb_wraith_specsup
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

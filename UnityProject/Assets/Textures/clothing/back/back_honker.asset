@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: honker_0
-      sprite: {fileID: 21300000, guid: 118ab1e7203415c4fadeba25bf7780c6, type: 3}
+    - sprite: {fileID: 21300000, guid: 118ab1e7203415c4fadeba25bf7780c6, type: 3}
+      spriteName: honker_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: honker_1
-      sprite: {fileID: 21300002, guid: 118ab1e7203415c4fadeba25bf7780c6, type: 3}
+    - sprite: {fileID: 21300002, guid: 118ab1e7203415c4fadeba25bf7780c6, type: 3}
+      spriteName: honker_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: honker_2
-      sprite: {fileID: 21300004, guid: 118ab1e7203415c4fadeba25bf7780c6, type: 3}
+    - sprite: {fileID: 21300004, guid: 118ab1e7203415c4fadeba25bf7780c6, type: 3}
+      spriteName: honker_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: honker_3
-      sprite: {fileID: 21300006, guid: 118ab1e7203415c4fadeba25bf7780c6, type: 3}
+    - sprite: {fileID: 21300006, guid: 118ab1e7203415c4fadeba25bf7780c6, type: 3}
+      spriteName: honker_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

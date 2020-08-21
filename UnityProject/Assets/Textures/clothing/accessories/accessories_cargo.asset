@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: accessories_cargo
-      sprite: {fileID: 21300000, guid: 0874d55635ab49f4ab3511976c7d94cd, type: 3}
+    - sprite: {fileID: 21300000, guid: 0874d55635ab49f4ab3511976c7d94cd, type: 3}
+      spriteName: accessories_cargo
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

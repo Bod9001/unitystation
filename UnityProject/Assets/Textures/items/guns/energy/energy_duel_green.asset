@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: energy_duel_green
-      sprite: {fileID: 21300000, guid: 5080551ea74a78a4bb82e0bbef8c6812, type: 3}
+    - sprite: {fileID: 21300000, guid: 5080551ea74a78a4bb82e0bbef8c6812, type: 3}
+      spriteName: energy_duel_green
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hardhat1_orange_0
-      sprite: {fileID: 21300000, guid: 5c91fc17a58511442ae2e8bba0d47153, type: 3}
+    - sprite: {fileID: 21300000, guid: 5c91fc17a58511442ae2e8bba0d47153, type: 3}
+      spriteName: hardhat1_orange_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hardhat1_orange_1
-      sprite: {fileID: 21300002, guid: 5c91fc17a58511442ae2e8bba0d47153, type: 3}
+    - sprite: {fileID: 21300002, guid: 5c91fc17a58511442ae2e8bba0d47153, type: 3}
+      spriteName: hardhat1_orange_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hardhat1_orange_2
-      sprite: {fileID: 21300004, guid: 5c91fc17a58511442ae2e8bba0d47153, type: 3}
+    - sprite: {fileID: 21300004, guid: 5c91fc17a58511442ae2e8bba0d47153, type: 3}
+      spriteName: hardhat1_orange_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hardhat1_orange_3
-      sprite: {fileID: 21300006, guid: 5c91fc17a58511442ae2e8bba0d47153, type: 3}
+    - sprite: {fileID: 21300006, guid: 5c91fc17a58511442ae2e8bba0d47153, type: 3}
+      spriteName: hardhat1_orange_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

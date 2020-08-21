@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: queen_wings_0
-      sprite: {fileID: 21300000, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+    - sprite: {fileID: 21300000, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+      spriteName: queen_wings_0
       secondDelay: 0.05
       AtlasUsing: 6
-    - spriteName: queen_wings_1
-      sprite: {fileID: 21300002, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+    - sprite: {fileID: 21300002, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+      spriteName: queen_wings_1
       secondDelay: 0.05
       AtlasUsing: 6
-    - spriteName: queen_wings_2
-      sprite: {fileID: 21300004, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+    - sprite: {fileID: 21300004, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+      spriteName: queen_wings_2
       secondDelay: 0.05
       AtlasUsing: 6
-    - spriteName: queen_wings_3
-      sprite: {fileID: 21300006, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+    - sprite: {fileID: 21300006, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+      spriteName: queen_wings_3
       secondDelay: 0.05
       AtlasUsing: 6
-    - spriteName: queen_wings_4
-      sprite: {fileID: 21300008, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+    - sprite: {fileID: 21300008, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+      spriteName: queen_wings_4
       secondDelay: 0.05
       AtlasUsing: 6
-    - spriteName: queen_wings_5
-      sprite: {fileID: 21300010, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+    - sprite: {fileID: 21300010, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+      spriteName: queen_wings_5
       secondDelay: 0.05
       AtlasUsing: 6
-    - spriteName: queen_wings_6
-      sprite: {fileID: 21300012, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+    - sprite: {fileID: 21300012, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+      spriteName: queen_wings_6
       secondDelay: 0.05
       AtlasUsing: 6
-    - spriteName: queen_wings_7
-      sprite: {fileID: 21300014, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+    - sprite: {fileID: 21300014, guid: aedc355a03743fa4d81c8e1984e7759b, type: 3}
+      spriteName: queen_wings_7
       secondDelay: 0.05
       AtlasUsing: 6
   IsPalette: 0

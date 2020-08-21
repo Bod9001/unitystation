@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_carrot-grow1
-      sprite: {fileID: 21300000, guid: fa97030f76971474c9f2522b28e1d244, type: 3}
+    - sprite: {fileID: 21300000, guid: fa97030f76971474c9f2522b28e1d244, type: 3}
+      spriteName: growing_carrot-grow1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

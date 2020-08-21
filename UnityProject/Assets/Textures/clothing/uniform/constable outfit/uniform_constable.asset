@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: constable_0
-      sprite: {fileID: 3731554248906233479, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
+    - sprite: {fileID: 3731554248906233479, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
         type: 3}
+      spriteName: constable_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: constable_1
-      sprite: {fileID: 8025366336252777975, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
+    - sprite: {fileID: 8025366336252777975, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
         type: 3}
+      spriteName: constable_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: constable_2
-      sprite: {fileID: 7922238600884473699, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
+    - sprite: {fileID: 7922238600884473699, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
         type: 3}
+      spriteName: constable_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: constable_3
-      sprite: {fileID: -6647832151427790001, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
+    - sprite: {fileID: -6647832151427790001, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
         type: 3}
+      spriteName: constable_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

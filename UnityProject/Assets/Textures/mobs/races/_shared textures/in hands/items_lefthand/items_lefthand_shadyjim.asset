@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shadyjim_0
-      sprite: {fileID: -8766999589622189453, guid: 3079101bcd34c2648b27573db7ef1663,
+    - sprite: {fileID: -8766999589622189453, guid: 3079101bcd34c2648b27573db7ef1663,
         type: 3}
+      spriteName: shadyjim_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: shadyjim_1
-      sprite: {fileID: 8707923284343004939, guid: 3079101bcd34c2648b27573db7ef1663,
+    - sprite: {fileID: 8707923284343004939, guid: 3079101bcd34c2648b27573db7ef1663,
         type: 3}
+      spriteName: shadyjim_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: shadyjim_2
-      sprite: {fileID: 9202196774269656309, guid: 3079101bcd34c2648b27573db7ef1663,
+    - sprite: {fileID: 9202196774269656309, guid: 3079101bcd34c2648b27573db7ef1663,
         type: 3}
+      spriteName: shadyjim_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: shadyjim_3
-      sprite: {fileID: -4257979703359671726, guid: 3079101bcd34c2648b27573db7ef1663,
+    - sprite: {fileID: -4257979703359671726, guid: 3079101bcd34c2648b27573db7ef1663,
         type: 3}
+      spriteName: shadyjim_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

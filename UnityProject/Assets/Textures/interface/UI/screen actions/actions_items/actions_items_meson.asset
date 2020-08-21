@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_items_meson
-      sprite: {fileID: 21300000, guid: e345884f7847f854f8f92d431340e49a, type: 3}
+    - sprite: {fileID: 21300000, guid: e345884f7847f854f8f92d431340e49a, type: 3}
+      spriteName: actions_items_meson
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: containers_pizzabox_tag
-      sprite: {fileID: 21300000, guid: 3b149f2bd94f5f24eaf32af934c42707, type: 3}
+    - sprite: {fileID: 21300000, guid: 3b149f2bd94f5f24eaf32af934c42707, type: 3}
+      spriteName: containers_pizzabox_tag
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

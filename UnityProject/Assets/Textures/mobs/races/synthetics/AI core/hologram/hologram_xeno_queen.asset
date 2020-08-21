@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: xeno_queen_0
-      sprite: {fileID: 21300000, guid: c24dbd624f3c1064f807d24dadbfd401, type: 3}
+    - sprite: {fileID: 21300000, guid: c24dbd624f3c1064f807d24dadbfd401, type: 3}
+      spriteName: xeno_queen_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: xeno_queen_1
-      sprite: {fileID: 21300002, guid: c24dbd624f3c1064f807d24dadbfd401, type: 3}
+    - sprite: {fileID: 21300002, guid: c24dbd624f3c1064f807d24dadbfd401, type: 3}
+      spriteName: xeno_queen_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: xeno_queen_2
-      sprite: {fileID: 21300004, guid: c24dbd624f3c1064f807d24dadbfd401, type: 3}
+    - sprite: {fileID: 21300004, guid: c24dbd624f3c1064f807d24dadbfd401, type: 3}
+      spriteName: xeno_queen_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: xeno_queen_3
-      sprite: {fileID: 21300006, guid: c24dbd624f3c1064f807d24dadbfd401, type: 3}
+    - sprite: {fileID: 21300006, guid: c24dbd624f3c1064f807d24dadbfd401, type: 3}
+      spriteName: xeno_queen_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dice_d2
-      sprite: {fileID: 21300000, guid: 4bd45d4059b4eb54da2a03988d1773a7, type: 3}
+    - sprite: {fileID: 21300000, guid: 4bd45d4059b4eb54da2a03988d1773a7, type: 3}
+      spriteName: dice_d2
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

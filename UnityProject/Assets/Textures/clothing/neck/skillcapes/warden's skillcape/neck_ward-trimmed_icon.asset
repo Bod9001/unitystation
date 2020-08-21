@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ward-trimmed_1
-      sprite: {fileID: -2303418203568320198, guid: cb71bff059eff6e4091b72a70e79f763,
+    - sprite: {fileID: -2303418203568320198, guid: cb71bff059eff6e4091b72a70e79f763,
         type: 3}
+      spriteName: ward-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

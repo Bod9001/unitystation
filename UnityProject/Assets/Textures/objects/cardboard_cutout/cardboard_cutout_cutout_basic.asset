@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cardboard_cutout_cutout_basic
-      sprite: {fileID: 21300000, guid: 39b4a3696d357da4f96e88d96ee957a5, type: 3}
+    - sprite: {fileID: 21300000, guid: 39b4a3696d357da4f96e88d96ee957a5, type: 3}
+      spriteName: cardboard_cutout_cutout_basic
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

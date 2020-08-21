@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alerts_starving
-      sprite: {fileID: 21300000, guid: 2d8f6c7859bacf646983ba33e8d8a808, type: 3}
+    - sprite: {fileID: 21300000, guid: 2d8f6c7859bacf646983ba33e8d8a808, type: 3}
+      spriteName: alerts_starving
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: harvest_novaflower
-      sprite: {fileID: 21300000, guid: c279891e4c0a0f041b483343caa4e2c3, type: 3}
+    - sprite: {fileID: 21300000, guid: c279891e4c0a0f041b483343caa4e2c3, type: 3}
+      spriteName: harvest_novaflower
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pda_pai_overlay
-      sprite: {fileID: 21300000, guid: 0add6df4733a8924893fde5db85c6922, type: 3}
+    - sprite: {fileID: 21300000, guid: 0add6df4733a8924893fde5db85c6922, type: 3}
+      spriteName: pda_pai_overlay
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

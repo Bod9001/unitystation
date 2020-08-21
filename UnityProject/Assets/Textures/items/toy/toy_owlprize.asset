@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: toy_owlprize
-      sprite: {fileID: 21300000, guid: 806e45e11383e7d46bbf21e9ba5298c4, type: 3}
+    - sprite: {fileID: 21300000, guid: 806e45e11383e7d46bbf21e9ba5298c4, type: 3}
+      spriteName: toy_owlprize
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

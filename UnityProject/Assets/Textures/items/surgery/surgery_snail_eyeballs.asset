@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: surgery_snail_eyeballs
-      sprite: {fileID: 21300000, guid: 7ab548c8b99ddcd408d8241766a42755, type: 3}
+    - sprite: {fileID: 21300000, guid: 7ab548c8b99ddcd408d8241766a42755, type: 3}
+      spriteName: surgery_snail_eyeballs
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

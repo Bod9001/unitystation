@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dromedary_0
-      sprite: {fileID: -753655473055627649, guid: e0fbbbb0e7920864d95b9839459fef0e,
+    - sprite: {fileID: -753655473055627649, guid: e0fbbbb0e7920864d95b9839459fef0e,
         type: 3}
+      spriteName: dromedary_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: dromedary_1
-      sprite: {fileID: 3696725649244214390, guid: e0fbbbb0e7920864d95b9839459fef0e,
+    - sprite: {fileID: 3696725649244214390, guid: e0fbbbb0e7920864d95b9839459fef0e,
         type: 3}
+      spriteName: dromedary_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: dromedary_2
-      sprite: {fileID: 5712389197733535792, guid: e0fbbbb0e7920864d95b9839459fef0e,
+    - sprite: {fileID: 5712389197733535792, guid: e0fbbbb0e7920864d95b9839459fef0e,
         type: 3}
+      spriteName: dromedary_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: dromedary_3
-      sprite: {fileID: -533669937781486503, guid: e0fbbbb0e7920864d95b9839459fef0e,
+    - sprite: {fileID: -533669937781486503, guid: e0fbbbb0e7920864d95b9839459fef0e,
         type: 3}
+      spriteName: dromedary_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

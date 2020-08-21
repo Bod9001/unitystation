@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: crates_medicalcrate_0
-      sprite: {fileID: -8773457292166174621, guid: 229bd1b330eeeda40a4932bc6e5e2e73,
+    - sprite: {fileID: -8773457292166174621, guid: 229bd1b330eeeda40a4932bc6e5e2e73,
         type: 3}
+      spriteName: crates_medicalcrate_0
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

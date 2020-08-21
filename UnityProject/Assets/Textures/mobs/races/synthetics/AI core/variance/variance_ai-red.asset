@@ -14,64 +14,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ai-red_0
-      sprite: {fileID: 21300000, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300000, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_0
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_1
-      sprite: {fileID: 21300002, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300002, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_1
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_2
-      sprite: {fileID: 21300004, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300004, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-red_3
-      sprite: {fileID: 21300006, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300006, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_3
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_4
-      sprite: {fileID: 21300008, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300008, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_4
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_5
-      sprite: {fileID: 21300010, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300010, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_5
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_6
-      sprite: {fileID: 21300012, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300012, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_6
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_7
-      sprite: {fileID: 21300014, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300014, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_7
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_8
-      sprite: {fileID: 21300016, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300016, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_8
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_9
-      sprite: {fileID: 21300018, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300018, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_9
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_10
-      sprite: {fileID: 21300020, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300020, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_10
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_11
-      sprite: {fileID: 21300022, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300022, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_11
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_12
-      sprite: {fileID: 21300024, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300024, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_12
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_13
-      sprite: {fileID: 21300026, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300026, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_13
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-red_14
-      sprite: {fileID: 21300028, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+    - sprite: {fileID: 21300028, guid: fe2391c300a053146a7829949b38e4c5, type: 3}
+      spriteName: ai-red_14
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: electronic_components_medscan
-      sprite: {fileID: 21300000, guid: 19844c717f350ac4aa12c10de3fbbc87, type: 3}
+    - sprite: {fileID: 21300000, guid: 19844c717f350ac4aa12c10de3fbbc87, type: 3}
+      spriteName: electronic_components_medscan
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

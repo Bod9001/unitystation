@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cap-trimmed_1
-      sprite: {fileID: -377962149180938134, guid: 7c752d942afa39645b251c093aa6d139,
+    - sprite: {fileID: -377962149180938134, guid: 7c752d942afa39645b251c093aa6d139,
         type: 3}
+      spriteName: cap-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: stationobjs_autolathe
-      sprite: {fileID: 21300000, guid: cb6cc74aa021d3746aafef8fbf2c6dd7, type: 3}
+    - sprite: {fileID: 21300000, guid: cb6cc74aa021d3746aafef8fbf2c6dd7, type: 3}
+      spriteName: stationobjs_autolathe
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

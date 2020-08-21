@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: burgerbread_xburger
-      sprite: {fileID: 21300000, guid: 016f0ddf5a53be34e97713c172f8ffcd, type: 3}
+    - sprite: {fileID: 21300000, guid: 016f0ddf5a53be34e97713c172f8ffcd, type: 3}
+      spriteName: burgerbread_xburger
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

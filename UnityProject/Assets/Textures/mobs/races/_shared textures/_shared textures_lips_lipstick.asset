@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lips_lipstick_0
-      sprite: {fileID: 21300000, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+    - sprite: {fileID: 21300000, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+      spriteName: lips_lipstick_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: lips_lipstick_1
-      sprite: {fileID: 21300002, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+    - sprite: {fileID: 21300002, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+      spriteName: lips_lipstick_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: lips_lipstick_2
-      sprite: {fileID: 21300004, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+    - sprite: {fileID: 21300004, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+      spriteName: lips_lipstick_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: lips_lipstick_3
-      sprite: {fileID: 21300006, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+    - sprite: {fileID: 21300006, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
+      spriteName: lips_lipstick_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

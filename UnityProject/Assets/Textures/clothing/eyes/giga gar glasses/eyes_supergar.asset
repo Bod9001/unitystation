@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: supergar_0
-      sprite: {fileID: 21300000, guid: 96a6e1a860c684547b1d5669bfd7f067, type: 3}
+    - sprite: {fileID: 21300000, guid: 96a6e1a860c684547b1d5669bfd7f067, type: 3}
+      spriteName: supergar_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: supergar_1
-      sprite: {fileID: 21300002, guid: 96a6e1a860c684547b1d5669bfd7f067, type: 3}
+    - sprite: {fileID: 21300002, guid: 96a6e1a860c684547b1d5669bfd7f067, type: 3}
+      spriteName: supergar_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: supergar_2
-      sprite: {fileID: 21300004, guid: 96a6e1a860c684547b1d5669bfd7f067, type: 3}
+    - sprite: {fileID: 21300004, guid: 96a6e1a860c684547b1d5669bfd7f067, type: 3}
+      spriteName: supergar_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: supergar_3
-      sprite: {fileID: 21300006, guid: 96a6e1a860c684547b1d5669bfd7f067, type: 3}
+    - sprite: {fileID: 21300006, guid: 96a6e1a860c684547b1d5669bfd7f067, type: 3}
+      spriteName: supergar_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: greenclown_0
-      sprite: {fileID: 21300000, guid: 809316159747b274f9854539bc3078ac, type: 3}
+    - sprite: {fileID: 21300000, guid: 809316159747b274f9854539bc3078ac, type: 3}
+      spriteName: greenclown_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: greenclown_1
-      sprite: {fileID: 21300002, guid: 809316159747b274f9854539bc3078ac, type: 3}
+    - sprite: {fileID: 21300002, guid: 809316159747b274f9854539bc3078ac, type: 3}
+      spriteName: greenclown_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: greenclown_2
-      sprite: {fileID: 21300004, guid: 809316159747b274f9854539bc3078ac, type: 3}
+    - sprite: {fileID: 21300004, guid: 809316159747b274f9854539bc3078ac, type: 3}
+      spriteName: greenclown_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: greenclown_3
-      sprite: {fileID: 21300006, guid: 809316159747b274f9854539bc3078ac, type: 3}
+    - sprite: {fileID: 21300006, guid: 809316159747b274f9854539bc3078ac, type: 3}
+      spriteName: greenclown_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

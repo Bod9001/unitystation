@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rd-trimmed_1
-      sprite: {fileID: 3411591686870765190, guid: 3aa3a9e7e4e4f1c4bbea0cec80750efb,
+    - sprite: {fileID: 3411591686870765190, guid: 3aa3a9e7e4e4f1c4bbea0cec80750efb,
         type: 3}
+      spriteName: rd-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

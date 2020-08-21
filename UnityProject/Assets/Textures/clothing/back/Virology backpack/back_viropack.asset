@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: viropack_0
-      sprite: {fileID: 6113946255936744182, guid: 865dae061fe647043a727c34d897790f,
+    - sprite: {fileID: 6113946255936744182, guid: 865dae061fe647043a727c34d897790f,
         type: 3}
+      spriteName: viropack_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: viropack_1
-      sprite: {fileID: 2888032030431348721, guid: 865dae061fe647043a727c34d897790f,
+    - sprite: {fileID: 2888032030431348721, guid: 865dae061fe647043a727c34d897790f,
         type: 3}
+      spriteName: viropack_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: viropack_2
-      sprite: {fileID: -2225688291189469457, guid: 865dae061fe647043a727c34d897790f,
+    - sprite: {fileID: -2225688291189469457, guid: 865dae061fe647043a727c34d897790f,
         type: 3}
+      spriteName: viropack_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: viropack_3
-      sprite: {fileID: 8955896915943693494, guid: 865dae061fe647043a727c34d897790f,
+    - sprite: {fileID: 8955896915943693494, guid: 865dae061fe647043a727c34d897790f,
         type: 3}
+      spriteName: viropack_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

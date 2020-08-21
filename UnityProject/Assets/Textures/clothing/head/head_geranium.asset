@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: geranium_0
-      sprite: {fileID: 21300000, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
+    - sprite: {fileID: 21300000, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
+      spriteName: geranium_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: geranium_1
-      sprite: {fileID: 21300002, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
+    - sprite: {fileID: 21300002, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
+      spriteName: geranium_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: geranium_2
-      sprite: {fileID: 21300004, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
+    - sprite: {fileID: 21300004, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
+      spriteName: geranium_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: geranium_3
-      sprite: {fileID: 21300006, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
+    - sprite: {fileID: 21300006, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
+      spriteName: geranium_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

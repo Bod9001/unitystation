@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sec-trimmed_1
-      sprite: {fileID: -6531356286242175180, guid: f16992801138a434c877fe0660a4ee3a,
+    - sprite: {fileID: -6531356286242175180, guid: f16992801138a434c877fe0660a4ee3a,
         type: 3}
+      spriteName: sec-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

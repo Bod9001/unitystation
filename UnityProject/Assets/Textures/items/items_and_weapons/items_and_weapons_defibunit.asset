@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_defibunit
-      sprite: {fileID: 21300000, guid: 0b9d4a11e300cd44bb0eead0c0c02e26, type: 3}
+    - sprite: {fileID: 21300000, guid: 0b9d4a11e300cd44bb0eead0c0c02e26, type: 3}
+      spriteName: items_and_weapons_defibunit
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

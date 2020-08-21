@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: suits_labcoat_cmo_t_icon
-      sprite: {fileID: 21300000, guid: 1ff66ac8bff32cf4c8daf13f975216e2, type: 3}
+    - sprite: {fileID: 21300000, guid: 1ff66ac8bff32cf4c8daf13f975216e2, type: 3}
+      spriteName: suits_labcoat_cmo_t_icon
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: toy_durandprize
-      sprite: {fileID: 21300000, guid: 1a7a3cb18e53b4642a68614826656b73, type: 3}
+    - sprite: {fileID: 21300000, guid: 1a7a3cb18e53b4642a68614826656b73, type: 3}
+      spriteName: toy_durandprize
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: swarmer_ui_self_repair
-      sprite: {fileID: 21300000, guid: cb53e6c85b2f5ea40b9fe365110cafc6, type: 3}
+    - sprite: {fileID: 21300000, guid: cb53e6c85b2f5ea40b9fe365110cafc6, type: 3}
+      spriteName: swarmer_ui_self_repair
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

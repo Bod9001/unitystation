@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: larva2_stun_0
-      sprite: {fileID: 21300000, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+    - sprite: {fileID: 21300000, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+      spriteName: larva2_stun_0
       secondDelay: 0.7
       AtlasUsing: 6
-    - spriteName: larva2_stun_4
-      sprite: {fileID: 21300008, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
-      secondDelay: 0.7
-      AtlasUsing: 6
-  - Frames:
-    - spriteName: larva2_stun_1
-      sprite: {fileID: 21300002, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
-      secondDelay: 0.7
-      AtlasUsing: 6
-    - spriteName: larva2_stun_5
-      sprite: {fileID: 21300010, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+    - sprite: {fileID: 21300008, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+      spriteName: larva2_stun_4
       secondDelay: 0.7
       AtlasUsing: 6
   - Frames:
-    - spriteName: larva2_stun_2
-      sprite: {fileID: 21300004, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+    - sprite: {fileID: 21300002, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+      spriteName: larva2_stun_1
       secondDelay: 0.7
       AtlasUsing: 6
-    - spriteName: larva2_stun_6
-      sprite: {fileID: 21300012, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+    - sprite: {fileID: 21300010, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+      spriteName: larva2_stun_5
       secondDelay: 0.7
       AtlasUsing: 6
   - Frames:
-    - spriteName: larva2_stun_3
-      sprite: {fileID: 21300006, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+    - sprite: {fileID: 21300004, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+      spriteName: larva2_stun_2
       secondDelay: 0.7
       AtlasUsing: 6
-    - spriteName: larva2_stun_7
-      sprite: {fileID: 21300014, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+    - sprite: {fileID: 21300012, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+      spriteName: larva2_stun_6
+      secondDelay: 0.7
+      AtlasUsing: 6
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+      spriteName: larva2_stun_3
+      secondDelay: 0.7
+      AtlasUsing: 6
+    - sprite: {fileID: 21300014, guid: 1cef1c8928135c54697ac1f57370eb7b, type: 3}
+      spriteName: larva2_stun_7
       secondDelay: 0.7
       AtlasUsing: 6
   IsPalette: 0

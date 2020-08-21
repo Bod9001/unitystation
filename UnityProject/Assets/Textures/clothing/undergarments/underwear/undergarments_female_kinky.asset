@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: female_kinky_0
-      sprite: {fileID: 21300000, guid: ec387ac4f1b3eb046b7b8aa0375a8a81, type: 3}
+    - sprite: {fileID: 21300000, guid: ec387ac4f1b3eb046b7b8aa0375a8a81, type: 3}
+      spriteName: female_kinky_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: female_kinky_1
-      sprite: {fileID: 21300002, guid: ec387ac4f1b3eb046b7b8aa0375a8a81, type: 3}
+    - sprite: {fileID: 21300002, guid: ec387ac4f1b3eb046b7b8aa0375a8a81, type: 3}
+      spriteName: female_kinky_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: female_kinky_2
-      sprite: {fileID: 21300004, guid: ec387ac4f1b3eb046b7b8aa0375a8a81, type: 3}
+    - sprite: {fileID: 21300004, guid: ec387ac4f1b3eb046b7b8aa0375a8a81, type: 3}
+      spriteName: female_kinky_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: female_kinky_3
-      sprite: {fileID: 21300006, guid: ec387ac4f1b3eb046b7b8aa0375a8a81, type: 3}
+    - sprite: {fileID: 21300006, guid: ec387ac4f1b3eb046b7b8aa0375a8a81, type: 3}
+      spriteName: female_kinky_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mime-trimmed_1
-      sprite: {fileID: -221198975699838696, guid: b60599113eadbd84bbbd37bdc2089c66,
+    - sprite: {fileID: -221198975699838696, guid: b60599113eadbd84bbbd37bdc2089c66,
         type: 3}
+      spriteName: mime-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

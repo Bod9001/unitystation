@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: robust_0
-      sprite: {fileID: 3552967744911245712, guid: 295a348d25a61db4b90ebeb8da272727,
+    - sprite: {fileID: 3552967744911245712, guid: 295a348d25a61db4b90ebeb8da272727,
         type: 3}
+      spriteName: robust_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: robust_1
-      sprite: {fileID: -1499724072883328012, guid: 295a348d25a61db4b90ebeb8da272727,
+    - sprite: {fileID: -1499724072883328012, guid: 295a348d25a61db4b90ebeb8da272727,
         type: 3}
+      spriteName: robust_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: robust_2
-      sprite: {fileID: 5052371608949454498, guid: 295a348d25a61db4b90ebeb8da272727,
+    - sprite: {fileID: 5052371608949454498, guid: 295a348d25a61db4b90ebeb8da272727,
         type: 3}
+      spriteName: robust_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: robust_3
-      sprite: {fileID: 841886219841488520, guid: 295a348d25a61db4b90ebeb8da272727,
+    - sprite: {fileID: 841886219841488520, guid: 295a348d25a61db4b90ebeb8da272727,
         type: 3}
+      spriteName: robust_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

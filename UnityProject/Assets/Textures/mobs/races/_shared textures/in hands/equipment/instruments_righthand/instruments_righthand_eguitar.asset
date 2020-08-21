@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: eguitar_0
-      sprite: {fileID: 21300000, guid: cb19b14674ced0242bee470617abad77, type: 3}
+    - sprite: {fileID: 21300000, guid: cb19b14674ced0242bee470617abad77, type: 3}
+      spriteName: eguitar_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: eguitar_1
-      sprite: {fileID: 21300002, guid: cb19b14674ced0242bee470617abad77, type: 3}
+    - sprite: {fileID: 21300002, guid: cb19b14674ced0242bee470617abad77, type: 3}
+      spriteName: eguitar_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: eguitar_2
-      sprite: {fileID: 21300004, guid: cb19b14674ced0242bee470617abad77, type: 3}
+    - sprite: {fileID: 21300004, guid: cb19b14674ced0242bee470617abad77, type: 3}
+      spriteName: eguitar_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: eguitar_3
-      sprite: {fileID: 21300006, guid: cb19b14674ced0242bee470617abad77, type: 3}
+    - sprite: {fileID: 21300006, guid: cb19b14674ced0242bee470617abad77, type: 3}
+      spriteName: eguitar_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

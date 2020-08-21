@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: janitor_rainbowbpack
-      sprite: {fileID: 21300000, guid: afcb6c0103041854dbc3d764dd9a95d5, type: 3}
+    - sprite: {fileID: 21300000, guid: afcb6c0103041854dbc3d764dd9a95d5, type: 3}
+      spriteName: janitor_rainbowbpack
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

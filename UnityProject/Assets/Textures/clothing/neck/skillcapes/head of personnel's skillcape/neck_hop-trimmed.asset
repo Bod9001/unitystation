@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hop-trimmed_0
-      sprite: {fileID: 4424063010402704138, guid: f9a58f83c51cef543ba6c70502bb2176,
+    - sprite: {fileID: 4424063010402704138, guid: f9a58f83c51cef543ba6c70502bb2176,
         type: 3}
+      spriteName: hop-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hop-trimmed_1
-      sprite: {fileID: 7418017764951716151, guid: f9a58f83c51cef543ba6c70502bb2176,
+    - sprite: {fileID: 7418017764951716151, guid: f9a58f83c51cef543ba6c70502bb2176,
         type: 3}
+      spriteName: hop-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hop-trimmed_2
-      sprite: {fileID: 6914445898309983250, guid: f9a58f83c51cef543ba6c70502bb2176,
+    - sprite: {fileID: 6914445898309983250, guid: f9a58f83c51cef543ba6c70502bb2176,
         type: 3}
+      spriteName: hop-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hop-trimmed_3
-      sprite: {fileID: -4999964889683861187, guid: f9a58f83c51cef543ba6c70502bb2176,
+    - sprite: {fileID: -4999964889683861187, guid: f9a58f83c51cef543ba6c70502bb2176,
         type: 3}
+      spriteName: hop-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

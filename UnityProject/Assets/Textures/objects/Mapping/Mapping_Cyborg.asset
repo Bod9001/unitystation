@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Mapping_Cyborg
-      sprite: {fileID: 21300000, guid: aaf63ff1b7f5c2244b233bf2e2b82a05, type: 3}
+    - sprite: {fileID: 21300000, guid: aaf63ff1b7f5c2244b233bf2e2b82a05, type: 3}
+      spriteName: Mapping_Cyborg
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

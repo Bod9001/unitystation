@@ -14,40 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: disposal-flush_0
-      sprite: {fileID: 21300000, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+    - sprite: {fileID: 21300000, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+      spriteName: disposal-flush_0
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: disposal-flush_1
-      sprite: {fileID: 21300002, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+    - sprite: {fileID: 21300002, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+      spriteName: disposal-flush_1
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: disposal-flush_2
-      sprite: {fileID: 21300004, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+    - sprite: {fileID: 21300004, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+      spriteName: disposal-flush_2
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: disposal-flush_3
-      sprite: {fileID: 21300006, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+    - sprite: {fileID: 21300006, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+      spriteName: disposal-flush_3
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: disposal-flush_4
-      sprite: {fileID: 21300008, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+    - sprite: {fileID: 21300008, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+      spriteName: disposal-flush_4
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: disposal-flush_5
-      sprite: {fileID: 21300010, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+    - sprite: {fileID: 21300010, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+      spriteName: disposal-flush_5
       secondDelay: 0.5
       AtlasUsing: 10
-    - spriteName: disposal-flush_6
-      sprite: {fileID: 21300012, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+    - sprite: {fileID: 21300012, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+      spriteName: disposal-flush_6
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: disposal-flush_7
-      sprite: {fileID: 21300014, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+    - sprite: {fileID: 21300014, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+      spriteName: disposal-flush_7
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: disposal-flush_8
-      sprite: {fileID: 21300016, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+    - sprite: {fileID: 21300016, guid: 1bbd0a43a364374429951211a336b9b1, type: 3}
+      spriteName: disposal-flush_8
       secondDelay: 0.1
       AtlasUsing: 10
   IsPalette: 0

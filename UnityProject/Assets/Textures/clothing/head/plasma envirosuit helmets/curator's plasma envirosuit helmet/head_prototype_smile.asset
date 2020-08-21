@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: prototype_smile_0
-      sprite: {fileID: 6894518105730780000, guid: 6f6e5a7e42154e844afd8c5c238946eb,
+    - sprite: {fileID: 6894518105730780000, guid: 6f6e5a7e42154e844afd8c5c238946eb,
         type: 3}
+      spriteName: prototype_smile_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: prototype_smile_1
-      sprite: {fileID: -1408378530607178970, guid: 6f6e5a7e42154e844afd8c5c238946eb,
+    - sprite: {fileID: -1408378530607178970, guid: 6f6e5a7e42154e844afd8c5c238946eb,
         type: 3}
+      spriteName: prototype_smile_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: prototype_smile_2
-      sprite: {fileID: 8030133921606081927, guid: 6f6e5a7e42154e844afd8c5c238946eb,
+    - sprite: {fileID: 8030133921606081927, guid: 6f6e5a7e42154e844afd8c5c238946eb,
         type: 3}
+      spriteName: prototype_smile_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: prototype_smile_3
-      sprite: {fileID: 7818510744958341316, guid: 6f6e5a7e42154e844afd8c5c238946eb,
+    - sprite: {fileID: 7818510744958341316, guid: 6f6e5a7e42154e844afd8c5c238946eb,
         type: 3}
+      spriteName: prototype_smile_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

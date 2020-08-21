@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_tailwhip
-      sprite: {fileID: 21300000, guid: a1cf1d77fb0c289448cb63c0b174c5b4, type: 3}
+    - sprite: {fileID: 21300000, guid: a1cf1d77fb0c289448cb63c0b174c5b4, type: 3}
+      spriteName: items_and_weapons_tailwhip
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

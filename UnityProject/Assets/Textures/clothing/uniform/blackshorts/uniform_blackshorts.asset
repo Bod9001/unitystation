@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blackshorts_0
-      sprite: {fileID: 21300000, guid: cf8c63e5da523584b868e1466fe99723, type: 3}
+    - sprite: {fileID: 21300000, guid: cf8c63e5da523584b868e1466fe99723, type: 3}
+      spriteName: blackshorts_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blackshorts_1
-      sprite: {fileID: 21300002, guid: cf8c63e5da523584b868e1466fe99723, type: 3}
+    - sprite: {fileID: 21300002, guid: cf8c63e5da523584b868e1466fe99723, type: 3}
+      spriteName: blackshorts_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blackshorts_2
-      sprite: {fileID: 21300004, guid: cf8c63e5da523584b868e1466fe99723, type: 3}
+    - sprite: {fileID: 21300004, guid: cf8c63e5da523584b868e1466fe99723, type: 3}
+      spriteName: blackshorts_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blackshorts_3
-      sprite: {fileID: 21300006, guid: cf8c63e5da523584b868e1466fe99723, type: 3}
+    - sprite: {fileID: 21300006, guid: cf8c63e5da523584b868e1466fe99723, type: 3}
+      spriteName: blackshorts_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

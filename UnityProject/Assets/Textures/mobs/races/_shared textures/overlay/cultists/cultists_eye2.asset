@@ -14,71 +14,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: eye2_0
-      sprite: {fileID: 21300000, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300000, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_0
       secondDelay: 0.1
       AtlasUsing: 7
-    - spriteName: eye2_4
-      sprite: {fileID: 21300008, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300008, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_4
       secondDelay: 0.1
       AtlasUsing: 7
-    - spriteName: eye2_8
-      sprite: {fileID: 21300016, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300016, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_8
       secondDelay: 0.1
       AtlasUsing: 7
-    - spriteName: eye2_12
-      sprite: {fileID: 21300024, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 7
-  - Frames:
-    - spriteName: eye2_1
-      sprite: {fileID: 21300002, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 7
-    - spriteName: eye2_5
-      sprite: {fileID: 21300010, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 7
-    - spriteName: eye2_9
-      sprite: {fileID: 21300018, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 7
-    - spriteName: eye2_13
-      sprite: {fileID: 21300026, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300024, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_12
       secondDelay: 0.1
       AtlasUsing: 7
   - Frames:
-    - spriteName: eye2_2
-      sprite: {fileID: 21300004, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300002, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_1
       secondDelay: 0.1
       AtlasUsing: 7
-    - spriteName: eye2_6
-      sprite: {fileID: 21300012, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300010, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_5
       secondDelay: 0.1
       AtlasUsing: 7
-    - spriteName: eye2_10
-      sprite: {fileID: 21300020, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300018, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_9
       secondDelay: 0.1
       AtlasUsing: 7
-    - spriteName: eye2_14
-      sprite: {fileID: 21300028, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300026, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_13
       secondDelay: 0.1
       AtlasUsing: 7
   - Frames:
-    - spriteName: eye2_3
-      sprite: {fileID: 21300006, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300004, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_2
       secondDelay: 0.1
       AtlasUsing: 7
-    - spriteName: eye2_7
-      sprite: {fileID: 21300014, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300012, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_6
       secondDelay: 0.1
       AtlasUsing: 7
-    - spriteName: eye2_11
-      sprite: {fileID: 21300022, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300020, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_10
       secondDelay: 0.1
       AtlasUsing: 7
-    - spriteName: eye2_15
-      sprite: {fileID: 21300030, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+    - sprite: {fileID: 21300028, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_14
+      secondDelay: 0.1
+      AtlasUsing: 7
+  - Frames:
+    - sprite: {fileID: 21300006, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_3
+      secondDelay: 0.1
+      AtlasUsing: 7
+    - sprite: {fileID: 21300014, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_7
+      secondDelay: 0.1
+      AtlasUsing: 7
+    - sprite: {fileID: 21300022, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_11
+      secondDelay: 0.1
+      AtlasUsing: 7
+    - sprite: {fileID: 21300030, guid: ce7e0b90a2f713d4188566296b0b6771, type: 3}
+      spriteName: eye2_15
       secondDelay: 0.1
       AtlasUsing: 7
   IsPalette: 0

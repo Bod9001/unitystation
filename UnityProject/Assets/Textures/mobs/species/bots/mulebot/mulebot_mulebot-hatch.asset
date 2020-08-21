@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mulebot_mulebot-hatch
-      sprite: {fileID: 21300000, guid: 442ad3234bfc1e5479e19b069648e069, type: 3}
+    - sprite: {fileID: 21300000, guid: 442ad3234bfc1e5479e19b069648e069, type: 3}
+      spriteName: mulebot_mulebot-hatch
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

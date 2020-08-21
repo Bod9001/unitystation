@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Mapping_xeno_spawn
-      sprite: {fileID: 21300000, guid: 996004e684a76e14898ac82013cebc2a, type: 3}
+    - sprite: {fileID: 21300000, guid: 996004e684a76e14898ac82013cebc2a, type: 3}
+      spriteName: Mapping_xeno_spawn
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

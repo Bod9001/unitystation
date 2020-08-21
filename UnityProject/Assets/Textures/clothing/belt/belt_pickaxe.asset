@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pickaxe_0
-      sprite: {fileID: 21300000, guid: 83108489479411749ba86e09210bafe8, type: 3}
+    - sprite: {fileID: 21300000, guid: 83108489479411749ba86e09210bafe8, type: 3}
+      spriteName: pickaxe_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: pickaxe_1
-      sprite: {fileID: 21300002, guid: 83108489479411749ba86e09210bafe8, type: 3}
+    - sprite: {fileID: 21300002, guid: 83108489479411749ba86e09210bafe8, type: 3}
+      spriteName: pickaxe_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: pickaxe_2
-      sprite: {fileID: 21300004, guid: 83108489479411749ba86e09210bafe8, type: 3}
+    - sprite: {fileID: 21300004, guid: 83108489479411749ba86e09210bafe8, type: 3}
+      spriteName: pickaxe_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: pickaxe_3
-      sprite: {fileID: 21300006, guid: 83108489479411749ba86e09210bafe8, type: 3}
+    - sprite: {fileID: 21300006, guid: 83108489479411749ba86e09210bafe8, type: 3}
+      spriteName: pickaxe_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

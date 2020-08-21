@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_mecha_mech_internals_off
-      sprite: {fileID: 21300000, guid: c67728630d949184ba7a7ae13b95cba8, type: 3}
+    - sprite: {fileID: 21300000, guid: c67728630d949184ba7a7ae13b95cba8, type: 3}
+      spriteName: actions_mecha_mech_internals_off
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

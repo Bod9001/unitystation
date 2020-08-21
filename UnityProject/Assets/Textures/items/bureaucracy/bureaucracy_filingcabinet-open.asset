@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bureaucracy_filingcabinet-open
-      sprite: {fileID: 21300000, guid: f5f512cbc1537c6499acbafb919ed373, type: 3}
+    - sprite: {fileID: 21300000, guid: f5f512cbc1537c6499acbafb919ed373, type: 3}
+      spriteName: bureaucracy_filingcabinet-open
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

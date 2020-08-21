@@ -14,135 +14,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clockworkopening_0
-      sprite: {fileID: 21300000, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300000, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_4
-      sprite: {fileID: 21300008, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300008, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_8
-      sprite: {fileID: 21300016, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300016, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_8
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_12
-      sprite: {fileID: 21300024, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300024, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_12
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_16
-      sprite: {fileID: 21300032, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300032, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_16
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_20
-      sprite: {fileID: 21300040, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300040, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_20
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_24
-      sprite: {fileID: 21300048, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300048, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_24
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_28
-      sprite: {fileID: 21300056, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-  - Frames:
-    - spriteName: clockworkopening_1
-      sprite: {fileID: 21300002, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: clockworkopening_5
-      sprite: {fileID: 21300010, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: clockworkopening_9
-      sprite: {fileID: 21300018, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: clockworkopening_13
-      sprite: {fileID: 21300026, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: clockworkopening_17
-      sprite: {fileID: 21300034, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: clockworkopening_21
-      sprite: {fileID: 21300042, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: clockworkopening_25
-      sprite: {fileID: 21300050, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: clockworkopening_29
-      sprite: {fileID: 21300058, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300056, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_28
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: clockworkopening_2
-      sprite: {fileID: 21300004, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300002, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_6
-      sprite: {fileID: 21300012, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300010, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_10
-      sprite: {fileID: 21300020, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300018, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_9
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_14
-      sprite: {fileID: 21300028, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300026, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_13
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_18
-      sprite: {fileID: 21300036, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300034, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_17
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_22
-      sprite: {fileID: 21300044, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300042, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_21
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_26
-      sprite: {fileID: 21300052, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300050, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_25
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_30
-      sprite: {fileID: 21300060, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300058, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_29
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: clockworkopening_3
-      sprite: {fileID: 21300006, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300004, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_7
-      sprite: {fileID: 21300014, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300012, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_11
-      sprite: {fileID: 21300022, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300020, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_10
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_15
-      sprite: {fileID: 21300030, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300028, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_14
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_19
-      sprite: {fileID: 21300038, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300036, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_18
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_23
-      sprite: {fileID: 21300046, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300044, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_22
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_27
-      sprite: {fileID: 21300054, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300052, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_26
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: clockworkopening_31
-      sprite: {fileID: 21300062, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+    - sprite: {fileID: 21300060, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_30
+      secondDelay: 0.1
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300006, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_3
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300014, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_7
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300022, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_11
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300030, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_15
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300038, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_19
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300046, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_23
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300054, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_27
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300062, guid: c0329e84dba50aa40bdcea544b7bf010, type: 3}
+      spriteName: clockworkopening_31
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

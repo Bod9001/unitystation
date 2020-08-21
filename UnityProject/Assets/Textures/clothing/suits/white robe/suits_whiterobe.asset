@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: whiterobe_0
-      sprite: {fileID: 21300000, guid: b34947f4ddc34c441b5bd5501c1900ae, type: 3}
+    - sprite: {fileID: 21300000, guid: b34947f4ddc34c441b5bd5501c1900ae, type: 3}
+      spriteName: whiterobe_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: whiterobe_1
-      sprite: {fileID: 21300002, guid: b34947f4ddc34c441b5bd5501c1900ae, type: 3}
+    - sprite: {fileID: 21300002, guid: b34947f4ddc34c441b5bd5501c1900ae, type: 3}
+      spriteName: whiterobe_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: whiterobe_2
-      sprite: {fileID: 21300004, guid: b34947f4ddc34c441b5bd5501c1900ae, type: 3}
+    - sprite: {fileID: 21300004, guid: b34947f4ddc34c441b5bd5501c1900ae, type: 3}
+      spriteName: whiterobe_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: whiterobe_3
-      sprite: {fileID: 21300006, guid: b34947f4ddc34c441b5bd5501c1900ae, type: 3}
+    - sprite: {fileID: 21300006, guid: b34947f4ddc34c441b5bd5501c1900ae, type: 3}
+      spriteName: whiterobe_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: satchel-sec_0
-      sprite: {fileID: -1863317863316864264, guid: 05610e5699101fe49a15d9c3f7c820b7,
+    - sprite: {fileID: -1863317863316864264, guid: 05610e5699101fe49a15d9c3f7c820b7,
         type: 3}
+      spriteName: satchel-sec_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-sec_1
-      sprite: {fileID: -8266332895345289895, guid: 05610e5699101fe49a15d9c3f7c820b7,
+    - sprite: {fileID: -8266332895345289895, guid: 05610e5699101fe49a15d9c3f7c820b7,
         type: 3}
+      spriteName: satchel-sec_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-sec_2
-      sprite: {fileID: 7247929070121791528, guid: 05610e5699101fe49a15d9c3f7c820b7,
+    - sprite: {fileID: 7247929070121791528, guid: 05610e5699101fe49a15d9c3f7c820b7,
         type: 3}
+      spriteName: satchel-sec_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-sec_3
-      sprite: {fileID: 1599773418476956692, guid: 05610e5699101fe49a15d9c3f7c820b7,
+    - sprite: {fileID: 1599773418476956692, guid: 05610e5699101fe49a15d9c3f7c820b7,
         type: 3}
+      spriteName: satchel-sec_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

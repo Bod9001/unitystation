@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: field_generator_p1
-      sprite: {fileID: 21300000, guid: fdf2cd9236b65a547b4aa418168e15fb, type: 3}
+    - sprite: {fileID: 21300000, guid: fdf2cd9236b65a547b4aa418168e15fb, type: 3}
+      spriteName: field_generator_p1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

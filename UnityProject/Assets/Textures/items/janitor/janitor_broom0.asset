@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: janitor_broom0
-      sprite: {fileID: 21300000, guid: 899ceca06ddca64479b19f598eecb9da, type: 3}
+    - sprite: {fileID: 21300000, guid: 899ceca06ddca64479b19f598eecb9da, type: 3}
+      spriteName: janitor_broom0
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

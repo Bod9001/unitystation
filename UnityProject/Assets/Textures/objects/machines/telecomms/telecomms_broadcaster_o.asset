@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: telecomms_broadcaster_o
-      sprite: {fileID: 21300000, guid: 8196233cdc754d345942517dbd1bfb99, type: 3}
+    - sprite: {fileID: 21300000, guid: 8196233cdc754d345942517dbd1bfb99, type: 3}
+      spriteName: telecomms_broadcaster_o
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: generic_0
-      sprite: {fileID: 21300000, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+    - sprite: {fileID: 21300000, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      spriteName: generic_0
       secondDelay: 0.2
-      AtlasUsing: 2
-    - spriteName: generic_4
-      sprite: {fileID: 21300008, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      AtlasUsing: 8
+    - sprite: {fileID: 21300008, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      spriteName: generic_4
       secondDelay: 0.2
       AtlasUsing: 8
   - Frames:
-    - spriteName: generic_1
-      sprite: {fileID: 21300002, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+    - sprite: {fileID: 21300002, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      spriteName: generic_1
       secondDelay: 0.2
-      AtlasUsing: 2
-    - spriteName: generic_5
-      sprite: {fileID: 21300010, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      AtlasUsing: 8
+    - sprite: {fileID: 21300010, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      spriteName: generic_5
       secondDelay: 0.2
       AtlasUsing: 8
   - Frames:
-    - spriteName: generic_2
-      sprite: {fileID: 21300004, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+    - sprite: {fileID: 21300004, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      spriteName: generic_2
       secondDelay: 0.2
-      AtlasUsing: 2
-    - spriteName: generic_6
-      sprite: {fileID: 21300012, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      AtlasUsing: 8
+    - sprite: {fileID: 21300012, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      spriteName: generic_6
       secondDelay: 0.2
       AtlasUsing: 8
   - Frames:
-    - spriteName: generic_3
-      sprite: {fileID: 21300006, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+    - sprite: {fileID: 21300006, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      spriteName: generic_3
       secondDelay: 0.2
-      AtlasUsing: 2
-    - spriteName: generic_7
-      sprite: {fileID: 21300014, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      AtlasUsing: 8
+    - sprite: {fileID: 21300014, guid: 6993defe344573e44bf3411f5c04593a, type: 3}
+      spriteName: generic_7
       secondDelay: 0.2
       AtlasUsing: 8
   IsPalette: 0

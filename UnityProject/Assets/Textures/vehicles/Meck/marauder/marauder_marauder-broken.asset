@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: marauder_marauder-broken
-      sprite: {fileID: 21300000, guid: dcc705039811cce4ea73057e36e1264a, type: 3}
+    - sprite: {fileID: 21300000, guid: dcc705039811cce4ea73057e36e1264a, type: 3}
+      spriteName: marauder_marauder-broken
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

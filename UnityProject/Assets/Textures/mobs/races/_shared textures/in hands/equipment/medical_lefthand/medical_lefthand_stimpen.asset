@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: stimpen_0
-      sprite: {fileID: 538412774838453941, guid: d84c58024edc2ec47b497095c031e074,
+    - sprite: {fileID: 538412774838453941, guid: d84c58024edc2ec47b497095c031e074,
         type: 3}
+      spriteName: stimpen_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: stimpen_1
-      sprite: {fileID: -6326098083027308871, guid: d84c58024edc2ec47b497095c031e074,
+    - sprite: {fileID: -6326098083027308871, guid: d84c58024edc2ec47b497095c031e074,
         type: 3}
+      spriteName: stimpen_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: stimpen_2
-      sprite: {fileID: -8036608375522628285, guid: d84c58024edc2ec47b497095c031e074,
+    - sprite: {fileID: -8036608375522628285, guid: d84c58024edc2ec47b497095c031e074,
         type: 3}
+      spriteName: stimpen_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: stimpen_3
-      sprite: {fileID: 8803578544296354999, guid: d84c58024edc2ec47b497095c031e074,
+    - sprite: {fileID: 8803578544296354999, guid: d84c58024edc2ec47b497095c031e074,
         type: 3}
+      spriteName: stimpen_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

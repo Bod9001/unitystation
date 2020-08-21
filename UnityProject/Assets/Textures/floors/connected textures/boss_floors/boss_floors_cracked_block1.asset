@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cracked_block1_0
-      sprite: {fileID: 21300000, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+    - sprite: {fileID: 21300000, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+      spriteName: cracked_block1_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_block1_1
-      sprite: {fileID: 21300002, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+    - sprite: {fileID: 21300002, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+      spriteName: cracked_block1_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_block1_2
-      sprite: {fileID: 21300004, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+    - sprite: {fileID: 21300004, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+      spriteName: cracked_block1_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_block1_3
-      sprite: {fileID: 21300006, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+    - sprite: {fileID: 21300006, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+      spriteName: cracked_block1_3
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_block1_4
-      sprite: {fileID: 21300008, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+    - sprite: {fileID: 21300008, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+      spriteName: cracked_block1_4
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_block1_5
-      sprite: {fileID: 21300010, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+    - sprite: {fileID: 21300010, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+      spriteName: cracked_block1_5
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_block1_6
-      sprite: {fileID: 21300012, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+    - sprite: {fileID: 21300012, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+      spriteName: cracked_block1_6
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_block1_7
-      sprite: {fileID: 21300014, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+    - sprite: {fileID: 21300014, guid: 5511b2f3178187b4cb5226b11b44ef8a, type: 3}
+      spriteName: cracked_block1_7
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

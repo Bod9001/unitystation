@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bloodcultist_cultdamage5
-      sprite: {fileID: 21300000, guid: 086e438afce11b14087c873ee29de88e, type: 3}
+    - sprite: {fileID: 21300000, guid: 086e438afce11b14087c873ee29de88e, type: 3}
+      spriteName: bloodcultist_cultdamage5
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

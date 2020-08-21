@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chromosomes_1562403371.672746
-      sprite: {fileID: 21300000, guid: 9218ecce279e2734e966df95f324c1c8, type: 3}
+    - sprite: {fileID: 21300000, guid: 9218ecce279e2734e966df95f324c1c8, type: 3}
+      spriteName: chromosomes_1562403371.672746
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

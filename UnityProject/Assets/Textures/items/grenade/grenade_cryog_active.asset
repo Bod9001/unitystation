@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cryog_active_0
-      sprite: {fileID: 21300000, guid: 1f087878494e03843989a9b5afbd7a42, type: 3}
+    - sprite: {fileID: 21300000, guid: 1f087878494e03843989a9b5afbd7a42, type: 3}
+      spriteName: cryog_active_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: cryog_active_1
-      sprite: {fileID: 21300002, guid: 1f087878494e03843989a9b5afbd7a42, type: 3}
+    - sprite: {fileID: 21300002, guid: 1f087878494e03843989a9b5afbd7a42, type: 3}
+      spriteName: cryog_active_1
       secondDelay: 0.2
       AtlasUsing: 5
   IsPalette: 0

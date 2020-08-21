@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: syndiepaddles1_0
-      sprite: {fileID: -3716238159062769922, guid: 8a5cc9d6d0b544d4aba250da0acf1329,
+    - sprite: {fileID: -3716238159062769922, guid: 8a5cc9d6d0b544d4aba250da0acf1329,
         type: 3}
+      spriteName: syndiepaddles1_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: syndiepaddles1_1
-      sprite: {fileID: 3229282007102995113, guid: 8a5cc9d6d0b544d4aba250da0acf1329,
+    - sprite: {fileID: 3229282007102995113, guid: 8a5cc9d6d0b544d4aba250da0acf1329,
         type: 3}
+      spriteName: syndiepaddles1_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: syndiepaddles1_2
-      sprite: {fileID: 4333910451832109285, guid: 8a5cc9d6d0b544d4aba250da0acf1329,
+    - sprite: {fileID: 4333910451832109285, guid: 8a5cc9d6d0b544d4aba250da0acf1329,
         type: 3}
+      spriteName: syndiepaddles1_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: syndiepaddles1_3
-      sprite: {fileID: -5838517938847890438, guid: 8a5cc9d6d0b544d4aba250da0acf1329,
+    - sprite: {fileID: -5838517938847890438, guid: 8a5cc9d6d0b544d4aba250da0acf1329,
         type: 3}
+      spriteName: syndiepaddles1_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cigarettes_cigaroff_5
-      sprite: {fileID: 21300000, guid: cebac1c0adbee68488ba09cfc1fc74b6, type: 3}
+    - sprite: {fileID: 21300000, guid: cebac1c0adbee68488ba09cfc1fc74b6, type: 3}
+      spriteName: cigarettes_cigaroff_5
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

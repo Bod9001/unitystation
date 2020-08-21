@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pets_fox_dead
-      sprite: {fileID: 21300000, guid: 981c51f469ba4764a9b8b4ed36488026, type: 3}
+    - sprite: {fileID: 21300000, guid: 981c51f469ba4764a9b8b4ed36488026, type: 3}
+      spriteName: pets_fox_dead
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

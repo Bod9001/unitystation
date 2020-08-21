@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_hardsuit1-mining
-      sprite: {fileID: 21300000, guid: ca669e27861ba194497ed1034274c806, type: 3}
+    - sprite: {fileID: 21300000, guid: ca669e27861ba194497ed1034274c806, type: 3}
+      spriteName: hats_hardsuit1-mining
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cap-skillcape_0
-      sprite: {fileID: -6694917885894014641, guid: f1962a3d04eaebe418cb28ca0570e59a,
+    - sprite: {fileID: -6694917885894014641, guid: f1962a3d04eaebe418cb28ca0570e59a,
         type: 3}
+      spriteName: cap-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: cap-skillcape_1
-      sprite: {fileID: 2440986499509880372, guid: f1962a3d04eaebe418cb28ca0570e59a,
+    - sprite: {fileID: 2440986499509880372, guid: f1962a3d04eaebe418cb28ca0570e59a,
         type: 3}
+      spriteName: cap-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: cap-skillcape_2
-      sprite: {fileID: -3115201901831729571, guid: f1962a3d04eaebe418cb28ca0570e59a,
+    - sprite: {fileID: -3115201901831729571, guid: f1962a3d04eaebe418cb28ca0570e59a,
         type: 3}
+      spriteName: cap-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: cap-skillcape_3
-      sprite: {fileID: -8331680268919939889, guid: f1962a3d04eaebe418cb28ca0570e59a,
+    - sprite: {fileID: -8331680268919939889, guid: f1962a3d04eaebe418cb28ca0570e59a,
         type: 3}
+      spriteName: cap-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

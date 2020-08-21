@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: closet_ecase
-      sprite: {fileID: 21300000, guid: 73bdfda487a5e294e8108230d72aff36, type: 3}
+    - sprite: {fileID: 21300000, guid: 73bdfda487a5e294e8108230d72aff36, type: 3}
+      spriteName: closet_ecase
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

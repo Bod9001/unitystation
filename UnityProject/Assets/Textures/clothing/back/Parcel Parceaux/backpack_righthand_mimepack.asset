@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mimepack_0
-      sprite: {fileID: -1942491685378283548, guid: 169979c56e035db47999a26ec29860d0,
+    - sprite: {fileID: -1942491685378283548, guid: 169979c56e035db47999a26ec29860d0,
         type: 3}
+      spriteName: mimepack_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: mimepack_1
-      sprite: {fileID: -8290740932377997775, guid: 169979c56e035db47999a26ec29860d0,
+    - sprite: {fileID: -8290740932377997775, guid: 169979c56e035db47999a26ec29860d0,
         type: 3}
+      spriteName: mimepack_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: mimepack_2
-      sprite: {fileID: 6425410011808435163, guid: 169979c56e035db47999a26ec29860d0,
+    - sprite: {fileID: 6425410011808435163, guid: 169979c56e035db47999a26ec29860d0,
         type: 3}
+      spriteName: mimepack_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: mimepack_3
-      sprite: {fileID: -6201785861713491563, guid: 169979c56e035db47999a26ec29860d0,
+    - sprite: {fileID: -6201785861713491563, guid: 169979c56e035db47999a26ec29860d0,
         type: 3}
+      spriteName: mimepack_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_snowman_h
-      sprite: {fileID: 21300000, guid: 3351cc7982d09844a9378ed55a468a44, type: 3}
+    - sprite: {fileID: 21300000, guid: 3351cc7982d09844a9378ed55a468a44, type: 3}
+      spriteName: hats_snowman_h
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: suits_tdgreen
-      sprite: {fileID: 21300000, guid: f1d5ed264b098fb4cbdea6f056cd7810, type: 3}
+    - sprite: {fileID: 21300000, guid: f1d5ed264b098fb4cbdea6f056cd7810, type: 3}
+      spriteName: suits_tdgreen
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

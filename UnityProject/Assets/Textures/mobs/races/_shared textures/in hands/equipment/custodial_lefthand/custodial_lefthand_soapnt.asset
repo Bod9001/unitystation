@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: soapnt_0
-      sprite: {fileID: 21300000, guid: 8ea87d123134e4649a89097a4ce71c6d, type: 3}
+    - sprite: {fileID: 21300000, guid: 8ea87d123134e4649a89097a4ce71c6d, type: 3}
+      spriteName: soapnt_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: soapnt_1
-      sprite: {fileID: 21300002, guid: 8ea87d123134e4649a89097a4ce71c6d, type: 3}
+    - sprite: {fileID: 21300002, guid: 8ea87d123134e4649a89097a4ce71c6d, type: 3}
+      spriteName: soapnt_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: soapnt_2
-      sprite: {fileID: 21300004, guid: 8ea87d123134e4649a89097a4ce71c6d, type: 3}
+    - sprite: {fileID: 21300004, guid: 8ea87d123134e4649a89097a4ce71c6d, type: 3}
+      spriteName: soapnt_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: soapnt_3
-      sprite: {fileID: 21300006, guid: 8ea87d123134e4649a89097a4ce71c6d, type: 3}
+    - sprite: {fileID: 21300006, guid: 8ea87d123134e4649a89097a4ce71c6d, type: 3}
+      spriteName: soapnt_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

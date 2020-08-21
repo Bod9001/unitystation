@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: implants_freedom
-      sprite: {fileID: 21300000, guid: e48b4c90450034a4d9c2d52431ff9b6c, type: 3}
+    - sprite: {fileID: 21300000, guid: e48b4c90450034a4d9c2d52431ff9b6c, type: 3}
+      spriteName: implants_freedom
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

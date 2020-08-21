@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: AI_ai_last_shell
-      sprite: {fileID: 21300000, guid: 261cc6e8e61f40641a6ff8c6fedb01b8, type: 3}
+    - sprite: {fileID: 21300000, guid: 261cc6e8e61f40641a6ff8c6fedb01b8, type: 3}
+      spriteName: AI_ai_last_shell
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

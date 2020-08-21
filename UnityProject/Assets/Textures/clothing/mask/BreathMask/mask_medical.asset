@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: medical_0
-      sprite: {fileID: 21300000, guid: bd951eb19874cdb43954a73156e12550, type: 3}
+    - sprite: {fileID: 21300000, guid: bd951eb19874cdb43954a73156e12550, type: 3}
+      spriteName: medical_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: medical_1
-      sprite: {fileID: 21300002, guid: bd951eb19874cdb43954a73156e12550, type: 3}
+    - sprite: {fileID: 21300002, guid: bd951eb19874cdb43954a73156e12550, type: 3}
+      spriteName: medical_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: medical_2
-      sprite: {fileID: 21300004, guid: bd951eb19874cdb43954a73156e12550, type: 3}
+    - sprite: {fileID: 21300004, guid: bd951eb19874cdb43954a73156e12550, type: 3}
+      spriteName: medical_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: medical_3
-      sprite: {fileID: 21300006, guid: bd951eb19874cdb43954a73156e12550, type: 3}
+    - sprite: {fileID: 21300006, guid: bd951eb19874cdb43954a73156e12550, type: 3}
+      spriteName: medical_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

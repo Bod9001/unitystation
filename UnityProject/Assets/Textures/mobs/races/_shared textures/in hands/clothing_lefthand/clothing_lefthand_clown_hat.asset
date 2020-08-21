@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clown_hat_0
-      sprite: {fileID: 21300000, guid: baf4a6efc45e8a74fb40c70853bd8dea, type: 3}
+    - sprite: {fileID: 21300000, guid: baf4a6efc45e8a74fb40c70853bd8dea, type: 3}
+      spriteName: clown_hat_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: clown_hat_1
-      sprite: {fileID: 21300002, guid: baf4a6efc45e8a74fb40c70853bd8dea, type: 3}
+    - sprite: {fileID: 21300002, guid: baf4a6efc45e8a74fb40c70853bd8dea, type: 3}
+      spriteName: clown_hat_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: clown_hat_2
-      sprite: {fileID: 21300004, guid: baf4a6efc45e8a74fb40c70853bd8dea, type: 3}
+    - sprite: {fileID: 21300004, guid: baf4a6efc45e8a74fb40c70853bd8dea, type: 3}
+      spriteName: clown_hat_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: clown_hat_3
-      sprite: {fileID: 21300006, guid: baf4a6efc45e8a74fb40c70853bd8dea, type: 3}
+    - sprite: {fileID: 21300006, guid: baf4a6efc45e8a74fb40c70853bd8dea, type: 3}
+      spriteName: clown_hat_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

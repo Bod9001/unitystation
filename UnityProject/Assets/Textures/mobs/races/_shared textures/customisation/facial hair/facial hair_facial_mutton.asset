@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: facial_mutton_0
-      sprite: {fileID: 21300000, guid: 91c26eabe7ba4454d9a837db42b43e30, type: 3}
+    - sprite: {fileID: 21300000, guid: 91c26eabe7ba4454d9a837db42b43e30, type: 3}
+      spriteName: facial_mutton_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_mutton_1
-      sprite: {fileID: 21300002, guid: 91c26eabe7ba4454d9a837db42b43e30, type: 3}
+    - sprite: {fileID: 21300002, guid: 91c26eabe7ba4454d9a837db42b43e30, type: 3}
+      spriteName: facial_mutton_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_mutton_2
-      sprite: {fileID: 21300004, guid: 91c26eabe7ba4454d9a837db42b43e30, type: 3}
+    - sprite: {fileID: 21300004, guid: 91c26eabe7ba4454d9a837db42b43e30, type: 3}
+      spriteName: facial_mutton_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_mutton_3
-      sprite: {fileID: 21300006, guid: 91c26eabe7ba4454d9a837db42b43e30, type: 3}
+    - sprite: {fileID: 21300006, guid: 91c26eabe7ba4454d9a837db42b43e30, type: 3}
+      spriteName: facial_mutton_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

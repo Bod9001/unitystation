@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sheetcentcom_0
-      sprite: {fileID: 21300000, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
+    - sprite: {fileID: 21300000, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
+      spriteName: sheetcentcom_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sheetcentcom_1
-      sprite: {fileID: 21300002, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
+    - sprite: {fileID: 21300002, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
+      spriteName: sheetcentcom_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sheetcentcom_2
-      sprite: {fileID: 21300004, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
+    - sprite: {fileID: 21300004, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
+      spriteName: sheetcentcom_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sheetcentcom_3
-      sprite: {fileID: 21300006, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
+    - sprite: {fileID: 21300006, guid: 0abe25fbdd855b645b3078babc4f28c6, type: 3}
+      spriteName: sheetcentcom_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

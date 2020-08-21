@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: seeds_seed-bloodtomato
-      sprite: {fileID: 21300000, guid: 8fc0113e0516f064ea3ed928686a24c2, type: 3}
+    - sprite: {fileID: 21300000, guid: 8fc0113e0516f064ea3ed928686a24c2, type: 3}
+      spriteName: seeds_seed-bloodtomato
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

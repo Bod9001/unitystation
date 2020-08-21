@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alerts_stun
-      sprite: {fileID: 21300000, guid: ba7ba4401fb70fb469827c7c64671f24, type: 3}
+    - sprite: {fileID: 21300000, guid: ba7ba4401fb70fb469827c7c64671f24, type: 3}
+      spriteName: alerts_stun
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,135 +14,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cueball_0
-      sprite: {fileID: 21300000, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300000, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_0
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_4
-      sprite: {fileID: 21300008, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300008, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_4
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_8
-      sprite: {fileID: 21300016, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300016, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_8
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_12
-      sprite: {fileID: 21300024, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300024, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_12
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_16
-      sprite: {fileID: 21300032, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300032, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_16
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_20
-      sprite: {fileID: 21300040, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300040, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_20
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_24
-      sprite: {fileID: 21300048, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300048, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_24
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_28
-      sprite: {fileID: 21300056, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300056, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_28
       secondDelay: 5.6
       AtlasUsing: 2
   - Frames:
-    - spriteName: cueball_1
-      sprite: {fileID: 21300002, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300002, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_1
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_5
-      sprite: {fileID: 21300010, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300010, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_5
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_9
-      sprite: {fileID: 21300018, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300018, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_9
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_13
-      sprite: {fileID: 21300026, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300026, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_13
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_17
-      sprite: {fileID: 21300034, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300034, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_17
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_21
-      sprite: {fileID: 21300042, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300042, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_21
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_25
-      sprite: {fileID: 21300050, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300050, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_25
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_29
-      sprite: {fileID: 21300058, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300058, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_29
       secondDelay: 5.6
       AtlasUsing: 2
   - Frames:
-    - spriteName: cueball_2
-      sprite: {fileID: 21300004, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300004, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_2
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_6
-      sprite: {fileID: 21300012, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300012, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_6
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_10
-      sprite: {fileID: 21300020, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300020, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_10
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_14
-      sprite: {fileID: 21300028, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300028, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_14
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_18
-      sprite: {fileID: 21300036, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300036, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_18
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_22
-      sprite: {fileID: 21300044, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300044, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_22
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_26
-      sprite: {fileID: 21300052, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300052, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_26
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_30
-      sprite: {fileID: 21300060, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300060, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_30
       secondDelay: 5.6
       AtlasUsing: 2
   - Frames:
-    - spriteName: cueball_3
-      sprite: {fileID: 21300006, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300006, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_3
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_7
-      sprite: {fileID: 21300014, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300014, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_7
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_11
-      sprite: {fileID: 21300022, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300022, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_11
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_15
-      sprite: {fileID: 21300030, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300030, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_15
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_19
-      sprite: {fileID: 21300038, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300038, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_19
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_23
-      sprite: {fileID: 21300046, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300046, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_23
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_27
-      sprite: {fileID: 21300054, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300054, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_27
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cueball_31
-      sprite: {fileID: 21300062, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+    - sprite: {fileID: 21300062, guid: cf537497226d093498a1fd85de2a846a, type: 3}
+      spriteName: cueball_31
       secondDelay: 5.6
       AtlasUsing: 2
   IsPalette: 0

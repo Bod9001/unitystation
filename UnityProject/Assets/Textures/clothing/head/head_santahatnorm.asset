@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: santahatnorm_0
-      sprite: {fileID: 21300000, guid: 940753b98f45dda45b09f61e70412622, type: 3}
+    - sprite: {fileID: 21300000, guid: 940753b98f45dda45b09f61e70412622, type: 3}
+      spriteName: santahatnorm_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: santahatnorm_1
-      sprite: {fileID: 21300002, guid: 940753b98f45dda45b09f61e70412622, type: 3}
+    - sprite: {fileID: 21300002, guid: 940753b98f45dda45b09f61e70412622, type: 3}
+      spriteName: santahatnorm_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: santahatnorm_2
-      sprite: {fileID: 21300004, guid: 940753b98f45dda45b09f61e70412622, type: 3}
+    - sprite: {fileID: 21300004, guid: 940753b98f45dda45b09f61e70412622, type: 3}
+      spriteName: santahatnorm_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: santahatnorm_3
-      sprite: {fileID: 21300006, guid: 940753b98f45dda45b09f61e70412622, type: 3}
+    - sprite: {fileID: 21300006, guid: 940753b98f45dda45b09f61e70412622, type: 3}
+      spriteName: santahatnorm_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

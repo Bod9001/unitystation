@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Diamond_fwall_open
-      sprite: {fileID: 21300000, guid: 0c2646e5b17e3c040a1455e7d1d3879a, type: 3}
+    - sprite: {fileID: 21300000, guid: 0c2646e5b17e3c040a1455e7d1d3879a, type: 3}
+      spriteName: Diamond_fwall_open
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

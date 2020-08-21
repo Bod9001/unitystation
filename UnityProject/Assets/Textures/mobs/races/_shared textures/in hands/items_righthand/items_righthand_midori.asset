@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: midori_0
-      sprite: {fileID: -6529805923842362203, guid: 4cd0ff2b877739e4cbf2eb0e7e42ed18,
+    - sprite: {fileID: -6529805923842362203, guid: 4cd0ff2b877739e4cbf2eb0e7e42ed18,
         type: 3}
+      spriteName: midori_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: midori_1
-      sprite: {fileID: 4334090212827201008, guid: 4cd0ff2b877739e4cbf2eb0e7e42ed18,
+    - sprite: {fileID: 4334090212827201008, guid: 4cd0ff2b877739e4cbf2eb0e7e42ed18,
         type: 3}
+      spriteName: midori_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: midori_2
-      sprite: {fileID: -5046163803425636693, guid: 4cd0ff2b877739e4cbf2eb0e7e42ed18,
+    - sprite: {fileID: -5046163803425636693, guid: 4cd0ff2b877739e4cbf2eb0e7e42ed18,
         type: 3}
+      spriteName: midori_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: midori_3
-      sprite: {fileID: 5825223911962543679, guid: 4cd0ff2b877739e4cbf2eb0e7e42ed18,
+    - sprite: {fileID: 5825223911962543679, guid: 4cd0ff2b877739e4cbf2eb0e7e42ed18,
         type: 3}
+      spriteName: midori_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

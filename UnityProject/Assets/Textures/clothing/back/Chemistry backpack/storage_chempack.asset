@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_chempack
-      sprite: {fileID: 21300000, guid: 5a6d1ecba9c21474d8d344e293c81dd9, type: 3}
+    - sprite: {fileID: 21300000, guid: 5a6d1ecba9c21474d8d344e293c81dd9, type: 3}
+      spriteName: storage_chempack
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

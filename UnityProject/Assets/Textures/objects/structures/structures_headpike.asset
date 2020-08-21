@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: structures_headpike
-      sprite: {fileID: 21300000, guid: 6d47ef7b5127b974495d0a96b422cbc2, type: 3}
+    - sprite: {fileID: 21300000, guid: 6d47ef7b5127b974495d0a96b422cbc2, type: 3}
+      spriteName: structures_headpike
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

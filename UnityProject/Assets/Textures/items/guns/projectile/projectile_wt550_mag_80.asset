@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: projectile_wt550_mag_80
-      sprite: {fileID: 21300000, guid: 6c118147811f32c44a481c5b13f57465, type: 3}
+    - sprite: {fileID: 21300000, guid: 6c118147811f32c44a481c5b13f57465, type: 3}
+      spriteName: projectile_wt550_mag_80
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

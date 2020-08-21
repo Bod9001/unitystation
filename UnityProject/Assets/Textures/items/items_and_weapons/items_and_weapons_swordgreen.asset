@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: swordgreen_0
-      sprite: {fileID: 21300000, guid: f849bd53fb06a744099de40145e6ffd5, type: 3}
+    - sprite: {fileID: 21300000, guid: f849bd53fb06a744099de40145e6ffd5, type: 3}
+      spriteName: swordgreen_0
       secondDelay: 0.2
-      AtlasUsing: 4
-    - spriteName: swordgreen_1
-      sprite: {fileID: 21300002, guid: f849bd53fb06a744099de40145e6ffd5, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300002, guid: f849bd53fb06a744099de40145e6ffd5, type: 3}
+      spriteName: swordgreen_1
       secondDelay: 0.2
-      AtlasUsing: 4
+      AtlasUsing: 5
   IsPalette: 0
   setID: 7930

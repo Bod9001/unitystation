@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clockwork_garb_clockwork_treads
-      sprite: {fileID: 21300000, guid: 449536400c4194c4393c7277f84dd75f, type: 3}
+    - sprite: {fileID: 21300000, guid: 449536400c4194c4393c7277f84dd75f, type: 3}
+      spriteName: clockwork_garb_clockwork_treads
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

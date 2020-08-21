@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: visor_reticule_all
-      sprite: {fileID: 21300000, guid: 25799145d190d8b45b662cb75f151a57, type: 3}
+    - sprite: {fileID: 21300000, guid: 25799145d190d8b45b662cb75f151a57, type: 3}
+      spriteName: visor_reticule_all
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

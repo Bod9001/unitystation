@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: power_local_8-9
-      sprite: {fileID: 21300000, guid: f1dd437a65745cb4da2dbc2030f29b1d, type: 3}
+    - sprite: {fileID: 21300000, guid: f1dd437a65745cb4da2dbc2030f29b1d, type: 3}
+      spriteName: power_local_8-9
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

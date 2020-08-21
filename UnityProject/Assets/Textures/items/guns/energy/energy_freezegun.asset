@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: energy_freezegun
-      sprite: {fileID: 21300000, guid: 9997f3aa94c092c438817ebb9ebc53b8, type: 3}
+    - sprite: {fileID: 21300000, guid: 9997f3aa94c092c438817ebb9ebc53b8, type: 3}
+      spriteName: energy_freezegun
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

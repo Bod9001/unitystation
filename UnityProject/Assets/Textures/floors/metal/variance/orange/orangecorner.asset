@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: orangecorner_0
-      sprite: {fileID: 21300000, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+    - sprite: {fileID: 21300000, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+      spriteName: orangecorner_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: orangecorner_1
-      sprite: {fileID: 21300002, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+    - sprite: {fileID: 21300002, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+      spriteName: orangecorner_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: orangecorner_2
-      sprite: {fileID: 21300004, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+    - sprite: {fileID: 21300004, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+      spriteName: orangecorner_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: orangecorner_3
-      sprite: {fileID: 21300006, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+    - sprite: {fileID: 21300006, guid: 468263b7a3fea3a4f8d003fdbc78145b, type: 3}
+      spriteName: orangecorner_3
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

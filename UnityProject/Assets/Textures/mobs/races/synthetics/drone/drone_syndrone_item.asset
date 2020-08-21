@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drone_syndrone_item
-      sprite: {fileID: 21300000, guid: ca22a6b6af64d84429b85ee4f515e111, type: 3}
+    - sprite: {fileID: 21300000, guid: ca22a6b6af64d84429b85ee4f515e111, type: 3}
+      spriteName: drone_syndrone_item
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

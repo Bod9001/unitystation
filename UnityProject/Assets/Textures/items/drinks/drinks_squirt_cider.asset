@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drinks_squirt_cider
-      sprite: {fileID: 21300000, guid: 480e0336fe2a68446be6f89321114928, type: 3}
+    - sprite: {fileID: 21300000, guid: 480e0336fe2a68446be6f89321114928, type: 3}
+      spriteName: drinks_squirt_cider
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: weednode_1-w
-      sprite: {fileID: 21300000, guid: edeb1568452bf564dbad0a3f086cd5d4, type: 3}
+    - sprite: {fileID: 21300000, guid: edeb1568452bf564dbad0a3f086cd5d4, type: 3}
+      spriteName: weednode_1-w
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

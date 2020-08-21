@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: device_gangtool-green
-      sprite: {fileID: 21300000, guid: 825080bb54683904c95cd13d36a242dc, type: 3}
+    - sprite: {fileID: 21300000, guid: 825080bb54683904c95cd13d36a242dc, type: 3}
+      spriteName: device_gangtool-green
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

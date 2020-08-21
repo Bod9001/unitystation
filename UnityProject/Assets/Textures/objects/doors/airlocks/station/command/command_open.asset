@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: command_open
-      sprite: {fileID: 21300000, guid: afe46558bd5b14d45a9d57205721bfaa, type: 3}
+    - sprite: {fileID: 21300000, guid: afe46558bd5b14d45a9d57205721bfaa, type: 3}
+      spriteName: command_open
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

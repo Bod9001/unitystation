@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: economy_spacecash10
-      sprite: {fileID: 21300000, guid: 4705ea37da274cc489812e347a744c52, type: 3}
+    - sprite: {fileID: 21300000, guid: 4705ea37da274cc489812e347a744c52, type: 3}
+      spriteName: economy_spacecash10
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

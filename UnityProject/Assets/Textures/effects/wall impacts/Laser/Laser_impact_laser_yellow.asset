@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: impact_laser_yellow_0
-      sprite: {fileID: 4211307377537245155, guid: 1a9977dc395acf11f988094474e0cf5e,
+    - sprite: {fileID: 4211307377537245155, guid: 1a9977dc395acf11f988094474e0cf5e,
         type: 3}
+      spriteName: impact_laser_yellow_0
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

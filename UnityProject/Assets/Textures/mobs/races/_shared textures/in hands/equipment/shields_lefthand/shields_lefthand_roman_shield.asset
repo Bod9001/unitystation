@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: roman_shield_0
-      sprite: {fileID: 21300000, guid: 4b163004bcca97e4288f063bc83ff93a, type: 3}
+    - sprite: {fileID: 21300000, guid: 4b163004bcca97e4288f063bc83ff93a, type: 3}
+      spriteName: roman_shield_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: roman_shield_1
-      sprite: {fileID: 21300002, guid: 4b163004bcca97e4288f063bc83ff93a, type: 3}
+    - sprite: {fileID: 21300002, guid: 4b163004bcca97e4288f063bc83ff93a, type: 3}
+      spriteName: roman_shield_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: roman_shield_2
-      sprite: {fileID: 21300004, guid: 4b163004bcca97e4288f063bc83ff93a, type: 3}
+    - sprite: {fileID: 21300004, guid: 4b163004bcca97e4288f063bc83ff93a, type: 3}
+      spriteName: roman_shield_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: roman_shield_3
-      sprite: {fileID: 21300006, guid: 4b163004bcca97e4288f063bc83ff93a, type: 3}
+    - sprite: {fileID: 21300006, guid: 4b163004bcca97e4288f063bc83ff93a, type: 3}
+      spriteName: roman_shield_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 10200

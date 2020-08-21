@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: beret_0
-      sprite: {fileID: 21300000, guid: 12f8309869b71ac469b3bdb8c50f973d, type: 3}
+    - sprite: {fileID: 21300000, guid: 12f8309869b71ac469b3bdb8c50f973d, type: 3}
+      spriteName: beret_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: beret_1
-      sprite: {fileID: 21300002, guid: 12f8309869b71ac469b3bdb8c50f973d, type: 3}
+    - sprite: {fileID: 21300002, guid: 12f8309869b71ac469b3bdb8c50f973d, type: 3}
+      spriteName: beret_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: beret_2
-      sprite: {fileID: 21300004, guid: 12f8309869b71ac469b3bdb8c50f973d, type: 3}
+    - sprite: {fileID: 21300004, guid: 12f8309869b71ac469b3bdb8c50f973d, type: 3}
+      spriteName: beret_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: beret_3
-      sprite: {fileID: 21300006, guid: 12f8309869b71ac469b3bdb8c50f973d, type: 3}
+    - sprite: {fileID: 21300006, guid: 12f8309869b71ac469b3bdb8c50f973d, type: 3}
+      spriteName: beret_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alien_wonderprodCuff
-      sprite: {fileID: 21300000, guid: aac46368b3f0e7145944d6f89ff4bc14, type: 3}
+    - sprite: {fileID: 21300000, guid: aac46368b3f0e7145944d6f89ff4bc14, type: 3}
+      spriteName: alien_wonderprodCuff
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

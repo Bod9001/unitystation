@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cig_0
-      sprite: {fileID: 1124719804313518509, guid: fe66bee09be810d4b9a142b52d32d193,
+    - sprite: {fileID: 1124719804313518509, guid: fe66bee09be810d4b9a142b52d32d193,
         type: 3}
+      spriteName: cig_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: cig_1
-      sprite: {fileID: 3185962596747979180, guid: fe66bee09be810d4b9a142b52d32d193,
+    - sprite: {fileID: 3185962596747979180, guid: fe66bee09be810d4b9a142b52d32d193,
         type: 3}
+      spriteName: cig_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: cig_2
-      sprite: {fileID: -468631831035285231, guid: fe66bee09be810d4b9a142b52d32d193,
+    - sprite: {fileID: -468631831035285231, guid: fe66bee09be810d4b9a142b52d32d193,
         type: 3}
+      spriteName: cig_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: cig_3
-      sprite: {fileID: 7922148625377829174, guid: fe66bee09be810d4b9a142b52d32d193,
+    - sprite: {fileID: 7922148625377829174, guid: fe66bee09be810d4b9a142b52d32d193,
         type: 3}
+      spriteName: cig_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

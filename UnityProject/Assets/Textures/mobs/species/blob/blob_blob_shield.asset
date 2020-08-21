@@ -14,199 +14,199 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blob_shield_0
-      sprite: {fileID: 21300000, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300000, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_0
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_4
-      sprite: {fileID: 21300008, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300008, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_4
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_8
-      sprite: {fileID: 21300016, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300016, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_8
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_12
-      sprite: {fileID: 21300024, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300024, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_12
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_16
-      sprite: {fileID: 21300032, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300032, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_16
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_20
-      sprite: {fileID: 21300040, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300040, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_20
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_24
-      sprite: {fileID: 21300048, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300048, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_24
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_28
-      sprite: {fileID: 21300056, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300056, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_28
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_32
-      sprite: {fileID: 21300064, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300064, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_32
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_36
-      sprite: {fileID: 21300072, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300072, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_36
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_40
-      sprite: {fileID: 21300080, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300080, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_40
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_44
-      sprite: {fileID: 21300088, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-  - Frames:
-    - spriteName: blob_shield_1
-      sprite: {fileID: 21300002, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_5
-      sprite: {fileID: 21300010, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_9
-      sprite: {fileID: 21300018, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_13
-      sprite: {fileID: 21300026, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_17
-      sprite: {fileID: 21300034, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_21
-      sprite: {fileID: 21300042, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_25
-      sprite: {fileID: 21300050, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_29
-      sprite: {fileID: 21300058, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_33
-      sprite: {fileID: 21300066, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_37
-      sprite: {fileID: 21300074, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_41
-      sprite: {fileID: 21300082, guid: 813029b21884737488c81db5926d7f3e, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 6
-    - spriteName: blob_shield_45
-      sprite: {fileID: 21300090, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300088, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_44
       secondDelay: 0.3
       AtlasUsing: 6
   - Frames:
-    - spriteName: blob_shield_2
-      sprite: {fileID: 21300004, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300002, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_1
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_6
-      sprite: {fileID: 21300012, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300010, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_5
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_10
-      sprite: {fileID: 21300020, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300018, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_9
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_14
-      sprite: {fileID: 21300028, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300026, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_13
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_18
-      sprite: {fileID: 21300036, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300034, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_17
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_22
-      sprite: {fileID: 21300044, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300042, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_21
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_26
-      sprite: {fileID: 21300052, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300050, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_25
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_30
-      sprite: {fileID: 21300060, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300058, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_29
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_34
-      sprite: {fileID: 21300068, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300066, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_33
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_38
-      sprite: {fileID: 21300076, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300074, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_37
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_42
-      sprite: {fileID: 21300084, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300082, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_41
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_46
-      sprite: {fileID: 21300092, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300090, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_45
       secondDelay: 0.3
       AtlasUsing: 6
   - Frames:
-    - spriteName: blob_shield_3
-      sprite: {fileID: 21300006, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300004, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_2
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_7
-      sprite: {fileID: 21300014, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300012, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_6
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_11
-      sprite: {fileID: 21300022, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300020, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_10
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_15
-      sprite: {fileID: 21300030, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300028, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_14
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_19
-      sprite: {fileID: 21300038, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300036, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_18
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_23
-      sprite: {fileID: 21300046, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300044, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_22
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_27
-      sprite: {fileID: 21300054, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300052, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_26
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_31
-      sprite: {fileID: 21300062, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300060, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_30
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_35
-      sprite: {fileID: 21300070, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300068, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_34
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_39
-      sprite: {fileID: 21300078, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300076, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_38
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_43
-      sprite: {fileID: 21300086, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300084, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_42
       secondDelay: 0.3
       AtlasUsing: 6
-    - spriteName: blob_shield_47
-      sprite: {fileID: 21300094, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+    - sprite: {fileID: 21300092, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_46
+      secondDelay: 0.3
+      AtlasUsing: 6
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_3
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300014, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_7
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300022, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_11
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300030, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_15
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300038, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_19
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300046, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_23
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300054, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_27
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300062, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_31
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300070, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_35
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300078, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_39
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300086, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_43
+      secondDelay: 0.3
+      AtlasUsing: 6
+    - sprite: {fileID: 21300094, guid: 813029b21884737488c81db5926d7f3e, type: 3}
+      spriteName: blob_shield_47
       secondDelay: 0.3
       AtlasUsing: 6
   IsPalette: 0

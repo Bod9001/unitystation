@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: telecomms_relay_o_off
-      sprite: {fileID: 21300000, guid: f81d1b7719d39f248bdea2baa3394729, type: 3}
+    - sprite: {fileID: 21300000, guid: f81d1b7719d39f248bdea2baa3394729, type: 3}
+      spriteName: telecomms_relay_o_off
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gondolapod_0
-      sprite: {fileID: 21300000, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+    - sprite: {fileID: 21300000, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+      spriteName: gondolapod_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: gondolapod_4
-      sprite: {fileID: 21300008, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-  - Frames:
-    - spriteName: gondolapod_1
-      sprite: {fileID: 21300002, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: gondolapod_5
-      sprite: {fileID: 21300010, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+    - sprite: {fileID: 21300008, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+      spriteName: gondolapod_4
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: gondolapod_2
-      sprite: {fileID: 21300004, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+    - sprite: {fileID: 21300002, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+      spriteName: gondolapod_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: gondolapod_6
-      sprite: {fileID: 21300012, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+    - sprite: {fileID: 21300010, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+      spriteName: gondolapod_5
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: gondolapod_3
-      sprite: {fileID: 21300006, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+    - sprite: {fileID: 21300004, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+      spriteName: gondolapod_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: gondolapod_7
-      sprite: {fileID: 21300014, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+    - sprite: {fileID: 21300012, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+      spriteName: gondolapod_6
+      secondDelay: 0.1
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300006, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+      spriteName: gondolapod_3
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300014, guid: ccc840479bdfc5741bbe0e0cfe49cf1d, type: 3}
+      spriteName: gondolapod_7
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_coffeea-grow5
-      sprite: {fileID: 21300000, guid: 523aeaffd27950e428fa8bc1b48afb2c, type: 3}
+    - sprite: {fileID: 21300000, guid: 523aeaffd27950e428fa8bc1b48afb2c, type: 3}
+      spriteName: growing_coffeea-grow5
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

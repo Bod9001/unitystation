@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: nanite_chamber_active_0
-      sprite: {fileID: 21300000, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+    - sprite: {fileID: 21300000, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+      spriteName: nanite_chamber_active_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: nanite_chamber_active_1
-      sprite: {fileID: 21300002, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+    - sprite: {fileID: 21300002, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+      spriteName: nanite_chamber_active_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: nanite_chamber_active_2
-      sprite: {fileID: 21300004, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+    - sprite: {fileID: 21300004, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+      spriteName: nanite_chamber_active_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: nanite_chamber_active_3
-      sprite: {fileID: 21300006, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+    - sprite: {fileID: 21300006, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+      spriteName: nanite_chamber_active_3
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: nanite_chamber_active_4
-      sprite: {fileID: 21300008, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+    - sprite: {fileID: 21300008, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+      spriteName: nanite_chamber_active_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: nanite_chamber_active_5
-      sprite: {fileID: 21300010, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+    - sprite: {fileID: 21300010, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+      spriteName: nanite_chamber_active_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: nanite_chamber_active_6
-      sprite: {fileID: 21300012, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+    - sprite: {fileID: 21300012, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+      spriteName: nanite_chamber_active_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: nanite_chamber_active_7
-      sprite: {fileID: 21300014, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+    - sprite: {fileID: 21300014, guid: ea7290a458f8fdf4b90c82245ceb3675, type: 3}
+      spriteName: nanite_chamber_active_7
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

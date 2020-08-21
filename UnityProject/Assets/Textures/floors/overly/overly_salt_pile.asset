@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: overly_salt_pile
-      sprite: {fileID: 21300000, guid: a6f07a86b2391dc4c9df37f6d794eb0c, type: 3}
+    - sprite: {fileID: 21300000, guid: a6f07a86b2391dc4c9df37f6d794eb0c, type: 3}
+      spriteName: overly_salt_pile
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

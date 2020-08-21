@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_watermelonslice
-      sprite: {fileID: 21300000, guid: 361a9b7dcb57dce4da1e1f888d662684, type: 3}
+    - sprite: {fileID: 21300000, guid: 361a9b7dcb57dce4da1e1f888d662684, type: 3}
+      spriteName: food_watermelonslice
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

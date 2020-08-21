@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tools_rclg-0
-      sprite: {fileID: 21300000, guid: b11831a7013a3234895d7a47277fbd90, type: 3}
+    - sprite: {fileID: 21300000, guid: b11831a7013a3234895d7a47277fbd90, type: 3}
+      spriteName: tools_rclg-0
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

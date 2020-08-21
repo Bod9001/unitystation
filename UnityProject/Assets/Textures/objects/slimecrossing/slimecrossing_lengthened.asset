@@ -14,28 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lengthened_0
-      sprite: {fileID: 21300000, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+    - sprite: {fileID: 21300000, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+      spriteName: lengthened_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lengthened_1
-      sprite: {fileID: 21300002, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+    - sprite: {fileID: 21300002, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+      spriteName: lengthened_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lengthened_2
-      sprite: {fileID: 21300004, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+    - sprite: {fileID: 21300004, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+      spriteName: lengthened_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lengthened_3
-      sprite: {fileID: 21300006, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+    - sprite: {fileID: 21300006, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+      spriteName: lengthened_3
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lengthened_4
-      sprite: {fileID: 21300008, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+    - sprite: {fileID: 21300008, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+      spriteName: lengthened_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: lengthened_5
-      sprite: {fileID: 21300010, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+    - sprite: {fileID: 21300010, guid: 4d4299571fccf2549af5f3249a4f23c0, type: 3}
+      spriteName: lengthened_5
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

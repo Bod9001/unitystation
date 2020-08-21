@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: space_black
-      sprite: {fileID: 21300000, guid: 330f32a37df6f854ea251e3402ce9a8b, type: 3}
+    - sprite: {fileID: 21300000, guid: 330f32a37df6f854ea251e3402ce9a8b, type: 3}
+      spriteName: space_black
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bible_0
-      sprite: {fileID: 21300000, guid: 308119c93bfb0d14b8403d745bfcf77a, type: 3}
+    - sprite: {fileID: 21300000, guid: 308119c93bfb0d14b8403d745bfcf77a, type: 3}
+      spriteName: bible_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: bible_1
-      sprite: {fileID: 21300002, guid: 308119c93bfb0d14b8403d745bfcf77a, type: 3}
+    - sprite: {fileID: 21300002, guid: 308119c93bfb0d14b8403d745bfcf77a, type: 3}
+      spriteName: bible_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: bible_2
-      sprite: {fileID: 21300004, guid: 308119c93bfb0d14b8403d745bfcf77a, type: 3}
+    - sprite: {fileID: 21300004, guid: 308119c93bfb0d14b8403d745bfcf77a, type: 3}
+      spriteName: bible_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: bible_3
-      sprite: {fileID: 21300006, guid: 308119c93bfb0d14b8403d745bfcf77a, type: 3}
+    - sprite: {fileID: 21300006, guid: 308119c93bfb0d14b8403d745bfcf77a, type: 3}
+      spriteName: bible_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

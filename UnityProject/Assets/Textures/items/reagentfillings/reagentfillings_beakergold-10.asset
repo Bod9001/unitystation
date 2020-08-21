@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: reagentfillings_beakergold-10
-      sprite: {fileID: 21300000, guid: fa2f7997b386ac640a5565240c1b6446, type: 3}
+    - sprite: {fileID: 21300000, guid: fa2f7997b386ac640a5565240c1b6446, type: 3}
+      spriteName: reagentfillings_beakergold-10
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

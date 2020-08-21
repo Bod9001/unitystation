@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pizzaspaghetti_sausagepizzaslice
-      sprite: {fileID: 21300000, guid: 42b369afd35e4554a87c625de7d0b1cf, type: 3}
+    - sprite: {fileID: 21300000, guid: 42b369afd35e4554a87c625de7d0b1cf, type: 3}
+      spriteName: pizzaspaghetti_sausagepizzaslice
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

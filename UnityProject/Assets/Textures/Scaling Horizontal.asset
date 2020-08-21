@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Scaling Horizontal
-      sprite: {fileID: 21300000, guid: 102b61085292ebf4f8f7a8768a96d80e, type: 3}
+    - sprite: {fileID: 21300000, guid: 102b61085292ebf4f8f7a8768a96d80e, type: 3}
+      spriteName: Scaling Horizontal
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

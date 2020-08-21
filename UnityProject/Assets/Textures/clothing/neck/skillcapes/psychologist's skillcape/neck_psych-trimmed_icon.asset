@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: psych-trimmed_1
-      sprite: {fileID: -2955304820152951929, guid: f6885863d8a42724fa884ca7cfe98c0e,
+    - sprite: {fileID: -2955304820152951929, guid: f6885863d8a42724fa884ca7cfe98c0e,
         type: 3}
+      spriteName: psych-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: luchar_0
-      sprite: {fileID: 21300000, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
+    - sprite: {fileID: 21300000, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
+      spriteName: luchar_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: luchar_1
-      sprite: {fileID: 21300002, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
+    - sprite: {fileID: 21300002, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
+      spriteName: luchar_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: luchar_2
-      sprite: {fileID: 21300004, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
+    - sprite: {fileID: 21300004, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
+      spriteName: luchar_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: luchar_3
-      sprite: {fileID: 21300006, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
+    - sprite: {fileID: 21300006, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
+      spriteName: luchar_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

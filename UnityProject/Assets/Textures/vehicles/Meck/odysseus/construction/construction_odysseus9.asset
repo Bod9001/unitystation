@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: construction_odysseus9
-      sprite: {fileID: 21300000, guid: 19fc0a9632a2e0d49aa95447f3924715, type: 3}
+    - sprite: {fileID: 21300000, guid: 19fc0a9632a2e0d49aa95447f3924715, type: 3}
+      spriteName: construction_odysseus9
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

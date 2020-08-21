@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Rusty_r_wall-6
-      sprite: {fileID: 21300000, guid: d28d128652e19e04dbb0597105fffdbc, type: 3}
+    - sprite: {fileID: 21300000, guid: d28d128652e19e04dbb0597105fffdbc, type: 3}
+      spriteName: Rusty_r_wall-6
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

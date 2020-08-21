@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_spearplasma0
-      sprite: {fileID: 21300000, guid: 87fcadb84ecdf554ab19829ce7019005, type: 3}
+    - sprite: {fileID: 21300000, guid: 87fcadb84ecdf554ab19829ce7019005, type: 3}
+      spriteName: items_and_weapons_spearplasma0
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

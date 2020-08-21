@@ -14,68 +14,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ai-syndicat_meow_0
-      sprite: {fileID: 21300000, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300000, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_0
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_1
-      sprite: {fileID: 21300002, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300002, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_1
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_2
-      sprite: {fileID: 21300004, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300004, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_3
-      sprite: {fileID: 21300006, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300006, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_3
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_4
-      sprite: {fileID: 21300008, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300008, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_4
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_5
-      sprite: {fileID: 21300010, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300010, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_5
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_6
-      sprite: {fileID: 21300012, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300012, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_6
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_7
-      sprite: {fileID: 21300014, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300014, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_7
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_8
-      sprite: {fileID: 21300016, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300016, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_8
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_9
-      sprite: {fileID: 21300018, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300018, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_9
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_10
-      sprite: {fileID: 21300020, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300020, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_10
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_11
-      sprite: {fileID: 21300022, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300022, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_11
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_12
-      sprite: {fileID: 21300024, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300024, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_12
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_13
-      sprite: {fileID: 21300026, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300026, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_13
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_14
-      sprite: {fileID: 21300028, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300028, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_14
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-syndicat_meow_15
-      sprite: {fileID: 21300030, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+    - sprite: {fileID: 21300030, guid: ac6f4af09ac0af24fa2d14b67c5e7473, type: 3}
+      spriteName: ai-syndicat_meow_15
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

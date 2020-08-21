@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: construction_ed209_shell
-      sprite: {fileID: 21300000, guid: 5bf03ad8b1e1d1148993a759322537bb, type: 3}
+    - sprite: {fileID: 21300000, guid: 5bf03ad8b1e1d1148993a759322537bb, type: 3}
+      spriteName: construction_ed209_shell
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

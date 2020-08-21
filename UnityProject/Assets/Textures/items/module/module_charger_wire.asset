@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: module_charger_wire
-      sprite: {fileID: 21300000, guid: d434fbf938bbdb54a9a0658a79c8e597, type: 3}
+    - sprite: {fileID: 21300000, guid: d434fbf938bbdb54a9a0658a79c8e597, type: 3}
+      spriteName: module_charger_wire
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

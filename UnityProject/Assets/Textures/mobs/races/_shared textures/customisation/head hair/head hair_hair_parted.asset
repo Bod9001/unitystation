@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hair_parted_0
-      sprite: {fileID: 21300000, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
+    - sprite: {fileID: 21300000, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
+      spriteName: hair_parted_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_parted_1
-      sprite: {fileID: 21300002, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
+    - sprite: {fileID: 21300002, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
+      spriteName: hair_parted_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_parted_2
-      sprite: {fileID: 21300004, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
+    - sprite: {fileID: 21300004, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
+      spriteName: hair_parted_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: hair_parted_3
-      sprite: {fileID: 21300006, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
+    - sprite: {fileID: 21300006, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
+      spriteName: hair_parted_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

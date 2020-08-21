@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: harvest_soybeansOld
-      sprite: {fileID: 21300000, guid: f82d49d34cc820d40b45d826a5e7a1aa, type: 3}
+    - sprite: {fileID: 21300000, guid: f82d49d34cc820d40b45d826a5e7a1aa, type: 3}
+      spriteName: harvest_soybeansOld
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

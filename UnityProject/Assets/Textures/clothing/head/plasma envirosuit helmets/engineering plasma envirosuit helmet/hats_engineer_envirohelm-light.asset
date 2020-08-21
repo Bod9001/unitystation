@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_engineer_envirohelm-light
-      sprite: {fileID: 21300000, guid: f544f2b831ba33d42b409448c927c04a, type: 3}
+    - sprite: {fileID: 21300000, guid: f544f2b831ba33d42b409448c927c04a, type: 3}
+      spriteName: hats_engineer_envirohelm-light
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

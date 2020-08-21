@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sci-skillcape_1
-      sprite: {fileID: 147235075145774258, guid: 01944424952fe9346aabf48b31715219,
+    - sprite: {fileID: 147235075145774258, guid: 01944424952fe9346aabf48b31715219,
         type: 3}
+      spriteName: sci-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

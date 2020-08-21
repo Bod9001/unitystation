@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: nuke_plate-removed-static
-      sprite: {fileID: 21300000, guid: 81f0c4c9df379e04d994d335d7b6e29b, type: 3}
+    - sprite: {fileID: 21300000, guid: 81f0c4c9df379e04d994d335d7b6e29b, type: 3}
+      spriteName: nuke_plate-removed-static
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

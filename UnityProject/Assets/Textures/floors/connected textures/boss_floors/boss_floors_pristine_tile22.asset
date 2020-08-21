@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pristine_tile22_0
-      sprite: {fileID: 21300000, guid: b3541d7f7869ddf41a612881f0aceebc, type: 3}
+    - sprite: {fileID: 21300000, guid: b3541d7f7869ddf41a612881f0aceebc, type: 3}
+      spriteName: pristine_tile22_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: pristine_tile22_1
-      sprite: {fileID: 21300002, guid: b3541d7f7869ddf41a612881f0aceebc, type: 3}
+    - sprite: {fileID: 21300002, guid: b3541d7f7869ddf41a612881f0aceebc, type: 3}
+      spriteName: pristine_tile22_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: pristine_tile22_2
-      sprite: {fileID: 21300004, guid: b3541d7f7869ddf41a612881f0aceebc, type: 3}
+    - sprite: {fileID: 21300004, guid: b3541d7f7869ddf41a612881f0aceebc, type: 3}
+      spriteName: pristine_tile22_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: pristine_tile22_3
-      sprite: {fileID: 21300006, guid: b3541d7f7869ddf41a612881f0aceebc, type: 3}
+    - sprite: {fileID: 21300006, guid: b3541d7f7869ddf41a612881f0aceebc, type: 3}
+      spriteName: pristine_tile22_3
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

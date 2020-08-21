@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: curator-skillcape_0
-      sprite: {fileID: 732758526605100292, guid: a072dfc91d917f445beed7a6340090f7,
+    - sprite: {fileID: 732758526605100292, guid: a072dfc91d917f445beed7a6340090f7,
         type: 3}
+      spriteName: curator-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: curator-skillcape_1
-      sprite: {fileID: -7867874267967081269, guid: a072dfc91d917f445beed7a6340090f7,
+    - sprite: {fileID: -7867874267967081269, guid: a072dfc91d917f445beed7a6340090f7,
         type: 3}
+      spriteName: curator-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: curator-skillcape_2
-      sprite: {fileID: 1614232588570215365, guid: a072dfc91d917f445beed7a6340090f7,
+    - sprite: {fileID: 1614232588570215365, guid: a072dfc91d917f445beed7a6340090f7,
         type: 3}
+      spriteName: curator-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: curator-skillcape_3
-      sprite: {fileID: -7866398910768018052, guid: a072dfc91d917f445beed7a6340090f7,
+    - sprite: {fileID: -7866398910768018052, guid: a072dfc91d917f445beed7a6340090f7,
         type: 3}
+      spriteName: curator-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

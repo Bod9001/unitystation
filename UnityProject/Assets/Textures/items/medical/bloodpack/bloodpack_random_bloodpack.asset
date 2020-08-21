@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bloodpack_random_bloodpack
-      sprite: {fileID: 21300000, guid: 9b4a395d6e8993643ada88db9046a2ee, type: 3}
+    - sprite: {fileID: 21300000, guid: 9b4a395d6e8993643ada88db9046a2ee, type: 3}
+      spriteName: bloodpack_random_bloodpack
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

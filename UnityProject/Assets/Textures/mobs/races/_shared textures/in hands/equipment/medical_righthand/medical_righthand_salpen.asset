@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: salpen_0
-      sprite: {fileID: -4560434688825895766, guid: f989ab09a9899dc479af904713f07c77,
+    - sprite: {fileID: -4560434688825895766, guid: f989ab09a9899dc479af904713f07c77,
         type: 3}
+      spriteName: salpen_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: salpen_1
-      sprite: {fileID: 490905236103373594, guid: f989ab09a9899dc479af904713f07c77,
+    - sprite: {fileID: 490905236103373594, guid: f989ab09a9899dc479af904713f07c77,
         type: 3}
+      spriteName: salpen_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: salpen_2
-      sprite: {fileID: 4666502402856673847, guid: f989ab09a9899dc479af904713f07c77,
+    - sprite: {fileID: 4666502402856673847, guid: f989ab09a9899dc479af904713f07c77,
         type: 3}
+      spriteName: salpen_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: salpen_3
-      sprite: {fileID: 2439490296220596894, guid: f989ab09a9899dc479af904713f07c77,
+    - sprite: {fileID: 2439490296220596894, guid: f989ab09a9899dc479af904713f07c77,
         type: 3}
+      spriteName: salpen_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

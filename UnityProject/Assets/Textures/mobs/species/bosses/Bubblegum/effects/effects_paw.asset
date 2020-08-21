@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: effects_paw
-      sprite: {fileID: 21300000, guid: 06909c80b2e66cb4fba31c6b5275c8de, type: 3}
+    - sprite: {fileID: 21300000, guid: 06909c80b2e66cb4fba31c6b5275c8de, type: 3}
+      spriteName: effects_paw
       secondDelay: 0
       AtlasUsing: 1
   IsPalette: 0

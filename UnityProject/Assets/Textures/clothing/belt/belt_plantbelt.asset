@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: plantbelt_0
-      sprite: {fileID: -7842048297433553055, guid: dd76630cf5516e94987312147918e9b6,
+    - sprite: {fileID: -7842048297433553055, guid: dd76630cf5516e94987312147918e9b6,
         type: 3}
+      spriteName: plantbelt_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: plantbelt_1
-      sprite: {fileID: -2765572625918260048, guid: dd76630cf5516e94987312147918e9b6,
+    - sprite: {fileID: -2765572625918260048, guid: dd76630cf5516e94987312147918e9b6,
         type: 3}
+      spriteName: plantbelt_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: plantbelt_2
-      sprite: {fileID: 101385440324550891, guid: dd76630cf5516e94987312147918e9b6,
+    - sprite: {fileID: 101385440324550891, guid: dd76630cf5516e94987312147918e9b6,
         type: 3}
+      spriteName: plantbelt_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: plantbelt_3
-      sprite: {fileID: 4089047512657116783, guid: dd76630cf5516e94987312147918e9b6,
+    - sprite: {fileID: 4089047512657116783, guid: dd76630cf5516e94987312147918e9b6,
         type: 3}
+      spriteName: plantbelt_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

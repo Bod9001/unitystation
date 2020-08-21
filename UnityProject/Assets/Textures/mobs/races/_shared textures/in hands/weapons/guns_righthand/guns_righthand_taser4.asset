@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: taser4_0
-      sprite: {fileID: 21300000, guid: 7aab1b2f9aefd6d4a868673deef0c7d4, type: 3}
+    - sprite: {fileID: 21300000, guid: 7aab1b2f9aefd6d4a868673deef0c7d4, type: 3}
+      spriteName: taser4_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: taser4_1
-      sprite: {fileID: 21300002, guid: 7aab1b2f9aefd6d4a868673deef0c7d4, type: 3}
+    - sprite: {fileID: 21300002, guid: 7aab1b2f9aefd6d4a868673deef0c7d4, type: 3}
+      spriteName: taser4_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: taser4_2
-      sprite: {fileID: 21300004, guid: 7aab1b2f9aefd6d4a868673deef0c7d4, type: 3}
+    - sprite: {fileID: 21300004, guid: 7aab1b2f9aefd6d4a868673deef0c7d4, type: 3}
+      spriteName: taser4_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: taser4_3
-      sprite: {fileID: 21300006, guid: 7aab1b2f9aefd6d4a868673deef0c7d4, type: 3}
+    - sprite: {fileID: 21300006, guid: 7aab1b2f9aefd6d4a868673deef0c7d4, type: 3}
+      spriteName: taser4_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

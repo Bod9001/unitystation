@@ -14,103 +14,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: static_0
-      sprite: {fileID: 21300000, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300000, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_0
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_4
-      sprite: {fileID: 21300008, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300008, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_4
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_8
-      sprite: {fileID: 21300016, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300016, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_8
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_12
-      sprite: {fileID: 21300024, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300024, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_12
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_16
-      sprite: {fileID: 21300032, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300032, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_16
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_20
-      sprite: {fileID: 21300040, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
-      secondDelay: 0.07
-      AtlasUsing: 9
-  - Frames:
-    - spriteName: static_1
-      sprite: {fileID: 21300002, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
-      secondDelay: 0.07
-      AtlasUsing: 9
-    - spriteName: static_5
-      sprite: {fileID: 21300010, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
-      secondDelay: 0.07
-      AtlasUsing: 9
-    - spriteName: static_9
-      sprite: {fileID: 21300018, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
-      secondDelay: 0.07
-      AtlasUsing: 9
-    - spriteName: static_13
-      sprite: {fileID: 21300026, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
-      secondDelay: 0.07
-      AtlasUsing: 9
-    - spriteName: static_17
-      sprite: {fileID: 21300034, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
-      secondDelay: 0.07
-      AtlasUsing: 9
-    - spriteName: static_21
-      sprite: {fileID: 21300042, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300040, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_20
       secondDelay: 0.07
       AtlasUsing: 9
   - Frames:
-    - spriteName: static_2
-      sprite: {fileID: 21300004, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300002, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_1
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_6
-      sprite: {fileID: 21300012, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300010, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_5
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_10
-      sprite: {fileID: 21300020, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300018, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_9
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_14
-      sprite: {fileID: 21300028, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300026, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_13
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_18
-      sprite: {fileID: 21300036, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300034, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_17
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_22
-      sprite: {fileID: 21300044, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300042, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_21
       secondDelay: 0.07
       AtlasUsing: 9
   - Frames:
-    - spriteName: static_3
-      sprite: {fileID: 21300006, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300004, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_2
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_7
-      sprite: {fileID: 21300014, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300012, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_6
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_11
-      sprite: {fileID: 21300022, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300020, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_10
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_15
-      sprite: {fileID: 21300030, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300028, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_14
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_19
-      sprite: {fileID: 21300038, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300036, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_18
       secondDelay: 0.07
       AtlasUsing: 9
-    - spriteName: static_23
-      sprite: {fileID: 21300046, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+    - sprite: {fileID: 21300044, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_22
+      secondDelay: 0.07
+      AtlasUsing: 9
+  - Frames:
+    - sprite: {fileID: 21300006, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_3
+      secondDelay: 0.07
+      AtlasUsing: 9
+    - sprite: {fileID: 21300014, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_7
+      secondDelay: 0.07
+      AtlasUsing: 9
+    - sprite: {fileID: 21300022, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_11
+      secondDelay: 0.07
+      AtlasUsing: 9
+    - sprite: {fileID: 21300030, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_15
+      secondDelay: 0.07
+      AtlasUsing: 9
+    - sprite: {fileID: 21300038, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_19
+      secondDelay: 0.07
+      AtlasUsing: 9
+    - sprite: {fileID: 21300046, guid: aab59a0f07ede8043ad41c425cffe0d8, type: 3}
+      spriteName: static_23
       secondDelay: 0.07
       AtlasUsing: 9
   IsPalette: 0

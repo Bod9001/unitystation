@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drinks_between_the_sheets
-      sprite: {fileID: 21300000, guid: 6f04f8ff614e21c429382911f4a798f4, type: 3}
+    - sprite: {fileID: 21300000, guid: 6f04f8ff614e21c429382911f4a798f4, type: 3}
+      spriteName: drinks_between_the_sheets
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

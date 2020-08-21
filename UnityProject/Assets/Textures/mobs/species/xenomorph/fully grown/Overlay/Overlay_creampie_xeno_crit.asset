@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Overlay_creampie_xeno_crit
-      sprite: {fileID: 21300000, guid: 9210d7707d0ee1345ba54002fb0155ab, type: 3}
+    - sprite: {fileID: 21300000, guid: 9210d7707d0ee1345ba54002fb0155ab, type: 3}
+      spriteName: Overlay_creampie_xeno_crit
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

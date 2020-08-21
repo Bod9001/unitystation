@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: terminals_req_comp_rescrewed
-      sprite: {fileID: 21300000, guid: b1d4e96f4b751934eaf0964b71766805, type: 3}
+    - sprite: {fileID: 21300000, guid: b1d4e96f4b751934eaf0964b71766805, type: 3}
+      spriteName: terminals_req_comp_rescrewed
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

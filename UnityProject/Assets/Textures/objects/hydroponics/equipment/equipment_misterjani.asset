@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: equipment_misterjani
-      sprite: {fileID: 21300000, guid: 083a92dda97d2284c92ee5371450c1e0, type: 3}
+    - sprite: {fileID: 21300000, guid: 083a92dda97d2284c92ee5371450c1e0, type: 3}
+      spriteName: equipment_misterjani
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

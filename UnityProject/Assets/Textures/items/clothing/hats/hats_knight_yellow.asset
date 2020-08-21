@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_knight_yellow
-      sprite: {fileID: 21300000, guid: def1afc116f27074a852f911fa1f555e, type: 3}
+    - sprite: {fileID: 21300000, guid: def1afc116f27074a852f911fa1f555e, type: 3}
+      spriteName: hats_knight_yellow
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

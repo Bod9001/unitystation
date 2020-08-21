@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_wallmed-broken
-      sprite: {fileID: 21300000, guid: 5b87364bdfe74c549a9fa9bf7cbca4d4, type: 3}
+    - sprite: {fileID: 21300000, guid: 5b87364bdfe74c549a9fa9bf7cbca4d4, type: 3}
+      spriteName: vending_wallmed-broken
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

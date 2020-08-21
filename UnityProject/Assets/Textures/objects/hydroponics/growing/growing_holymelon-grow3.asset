@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_holymelon-grow3
-      sprite: {fileID: 21300000, guid: 05a4dcd30cf970b4199ed06e4457dc95, type: 3}
+    - sprite: {fileID: 21300000, guid: 05a4dcd30cf970b4199ed06e4457dc95, type: 3}
+      spriteName: growing_holymelon-grow3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

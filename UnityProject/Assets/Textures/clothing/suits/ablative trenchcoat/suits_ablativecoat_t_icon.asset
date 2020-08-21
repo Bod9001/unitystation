@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ablativecoat_t_0
-      sprite: {fileID: -6529693095893096934, guid: 084078af2c9f3a6488a7860ea22ddceb,
+    - sprite: {fileID: -6529693095893096934, guid: 084078af2c9f3a6488a7860ea22ddceb,
         type: 3}
+      spriteName: ablativecoat_t_0
       secondDelay: 0.5
       AtlasUsing: 2
-    - spriteName: ablativecoat_t_1
-      sprite: {fileID: -2622922455152788760, guid: 084078af2c9f3a6488a7860ea22ddceb,
+    - sprite: {fileID: -2622922455152788760, guid: 084078af2c9f3a6488a7860ea22ddceb,
         type: 3}
+      spriteName: ablativecoat_t_1
       secondDelay: 0.5
       AtlasUsing: 2
   IsPalette: 0

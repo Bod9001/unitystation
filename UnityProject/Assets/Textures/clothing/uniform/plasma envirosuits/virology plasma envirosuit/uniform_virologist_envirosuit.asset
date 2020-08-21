@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: virologist_envirosuit_0
-      sprite: {fileID: 21300000, guid: aadfdfb13ad797e4db329a2042dbfd5e, type: 3}
+    - sprite: {fileID: 21300000, guid: aadfdfb13ad797e4db329a2042dbfd5e, type: 3}
+      spriteName: virologist_envirosuit_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: virologist_envirosuit_1
-      sprite: {fileID: 21300002, guid: aadfdfb13ad797e4db329a2042dbfd5e, type: 3}
+    - sprite: {fileID: 21300002, guid: aadfdfb13ad797e4db329a2042dbfd5e, type: 3}
+      spriteName: virologist_envirosuit_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: virologist_envirosuit_2
-      sprite: {fileID: 21300004, guid: aadfdfb13ad797e4db329a2042dbfd5e, type: 3}
+    - sprite: {fileID: 21300004, guid: aadfdfb13ad797e4db329a2042dbfd5e, type: 3}
+      spriteName: virologist_envirosuit_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: virologist_envirosuit_3
-      sprite: {fileID: 21300006, guid: aadfdfb13ad797e4db329a2042dbfd5e, type: 3}
+    - sprite: {fileID: 21300006, guid: aadfdfb13ad797e4db329a2042dbfd5e, type: 3}
+      spriteName: virologist_envirosuit_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

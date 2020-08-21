@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gondola_moustache_large_0
-      sprite: {fileID: 21300000, guid: f3a7e5308a7d3c34b80f9daac5edc1de, type: 3}
+    - sprite: {fileID: 21300000, guid: f3a7e5308a7d3c34b80f9daac5edc1de, type: 3}
+      spriteName: gondola_moustache_large_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: gondola_moustache_large_1
-      sprite: {fileID: 21300002, guid: f3a7e5308a7d3c34b80f9daac5edc1de, type: 3}
+    - sprite: {fileID: 21300002, guid: f3a7e5308a7d3c34b80f9daac5edc1de, type: 3}
+      spriteName: gondola_moustache_large_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: gondola_moustache_large_2
-      sprite: {fileID: 21300004, guid: f3a7e5308a7d3c34b80f9daac5edc1de, type: 3}
+    - sprite: {fileID: 21300004, guid: f3a7e5308a7d3c34b80f9daac5edc1de, type: 3}
+      spriteName: gondola_moustache_large_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: gondola_moustache_large_3
-      sprite: {fileID: 21300006, guid: f3a7e5308a7d3c34b80f9daac5edc1de, type: 3}
+    - sprite: {fileID: 21300006, guid: f3a7e5308a7d3c34b80f9daac5edc1de, type: 3}
+      spriteName: gondola_moustache_large_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

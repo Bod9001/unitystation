@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: power_apcmaint
-      sprite: {fileID: 21300000, guid: 7dee3aca30ba7064b9e3c6a653e7355f, type: 3}
+    - sprite: {fileID: 21300000, guid: 7dee3aca30ba7064b9e3c6a653e7355f, type: 3}
+      spriteName: power_apcmaint
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

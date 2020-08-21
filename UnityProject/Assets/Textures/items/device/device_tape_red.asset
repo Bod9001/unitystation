@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: device_tape_red
-      sprite: {fileID: 21300000, guid: d25cde915f12fe648b20295694b70c59, type: 3}
+    - sprite: {fileID: 21300000, guid: d25cde915f12fe648b20295694b70c59, type: 3}
+      spriteName: device_tape_red
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

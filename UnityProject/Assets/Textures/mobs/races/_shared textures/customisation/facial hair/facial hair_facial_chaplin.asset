@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: facial_chaplin_0
-      sprite: {fileID: 21300000, guid: f352a0f15c120f248a687b63efb9eba5, type: 3}
+    - sprite: {fileID: 21300000, guid: f352a0f15c120f248a687b63efb9eba5, type: 3}
+      spriteName: facial_chaplin_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_chaplin_1
-      sprite: {fileID: 21300002, guid: f352a0f15c120f248a687b63efb9eba5, type: 3}
+    - sprite: {fileID: 21300002, guid: f352a0f15c120f248a687b63efb9eba5, type: 3}
+      spriteName: facial_chaplin_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_chaplin_2
-      sprite: {fileID: 21300004, guid: f352a0f15c120f248a687b63efb9eba5, type: 3}
+    - sprite: {fileID: 21300004, guid: f352a0f15c120f248a687b63efb9eba5, type: 3}
+      spriteName: facial_chaplin_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_chaplin_3
-      sprite: {fileID: 21300006, guid: f352a0f15c120f248a687b63efb9eba5, type: 3}
+    - sprite: {fileID: 21300006, guid: f352a0f15c120f248a687b63efb9eba5, type: 3}
+      spriteName: facial_chaplin_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

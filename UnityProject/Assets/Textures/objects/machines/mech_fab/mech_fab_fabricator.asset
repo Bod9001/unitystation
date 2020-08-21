@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mech_fab_fabricator
-      sprite: {fileID: 21300000, guid: abe9e4790bfc31f41bd646c95d3ab2a4, type: 3}
+    - sprite: {fileID: 21300000, guid: abe9e4790bfc31f41bd646c95d3ab2a4, type: 3}
+      spriteName: mech_fab_fabricator
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

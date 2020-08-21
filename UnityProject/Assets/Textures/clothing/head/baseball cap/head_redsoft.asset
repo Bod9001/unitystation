@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: redsoft_0
-      sprite: {fileID: 21300000, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+    - sprite: {fileID: 21300000, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+      spriteName: redsoft_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: redsoft_1
-      sprite: {fileID: 21300002, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+    - sprite: {fileID: 21300002, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+      spriteName: redsoft_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: redsoft_2
-      sprite: {fileID: 21300004, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+    - sprite: {fileID: 21300004, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+      spriteName: redsoft_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: redsoft_3
-      sprite: {fileID: 21300006, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+    - sprite: {fileID: 21300006, guid: 538073eb091c0d446a0394b09671dc8a, type: 3}
+      spriteName: redsoft_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

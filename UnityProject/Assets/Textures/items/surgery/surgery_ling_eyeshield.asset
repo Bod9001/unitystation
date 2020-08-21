@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: surgery_ling_eyeshield
-      sprite: {fileID: 21300000, guid: 5529706bcefa7fe4a996f652aab7935b, type: 3}
+    - sprite: {fileID: 21300000, guid: 5529706bcefa7fe4a996f652aab7935b, type: 3}
+      spriteName: surgery_ling_eyeshield
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

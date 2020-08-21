@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: decals_xenobio2
-      sprite: {fileID: 21300000, guid: 1a48da162f6a2d042be26c491801d942, type: 3}
+    - sprite: {fileID: 21300000, guid: 1a48da162f6a2d042be26c491801d942, type: 3}
+      spriteName: decals_xenobio2
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

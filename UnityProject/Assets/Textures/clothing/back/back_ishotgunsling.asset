@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ishotgunsling_0
-      sprite: {fileID: 21300000, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
+    - sprite: {fileID: 21300000, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
+      spriteName: ishotgunsling_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ishotgunsling_1
-      sprite: {fileID: 21300002, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
+    - sprite: {fileID: 21300002, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
+      spriteName: ishotgunsling_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ishotgunsling_2
-      sprite: {fileID: 21300004, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
+    - sprite: {fileID: 21300004, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
+      spriteName: ishotgunsling_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ishotgunsling_3
-      sprite: {fileID: 21300006, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
+    - sprite: {fileID: 21300006, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
+      spriteName: ishotgunsling_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

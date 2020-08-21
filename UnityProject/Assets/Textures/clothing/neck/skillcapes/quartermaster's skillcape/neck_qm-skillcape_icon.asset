@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: qm-skillcape_1
-      sprite: {fileID: 2480115625164449079, guid: 85074dd4a412f924faea35c4530aabaa,
+    - sprite: {fileID: 2480115625164449079, guid: 85074dd4a412f924faea35c4530aabaa,
         type: 3}
+      spriteName: qm-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

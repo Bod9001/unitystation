@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lighting_lamp
-      sprite: {fileID: 21300000, guid: fa5d6bd6559137c4b85c6867eefbb9b8, type: 3}
+    - sprite: {fileID: 21300000, guid: fa5d6bd6559137c4b85c6867eefbb9b8, type: 3}
+      spriteName: lighting_lamp
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

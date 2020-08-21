@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_medalboxopen
-      sprite: {fileID: 21300000, guid: 351403714d578a3499ddba8d0c0eb3d0, type: 3}
+    - sprite: {fileID: 21300000, guid: 351403714d578a3499ddba8d0c0eb3d0, type: 3}
+      spriteName: storage_medalboxopen
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

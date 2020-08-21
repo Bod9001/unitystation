@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: beacon_0
-      sprite: {fileID: 21300000, guid: 21d01c423caffc840acda8c983e2f5ab, type: 3}
+    - sprite: {fileID: 21300000, guid: 21d01c423caffc840acda8c983e2f5ab, type: 3}
+      spriteName: beacon_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: beacon_1
-      sprite: {fileID: 21300002, guid: 21d01c423caffc840acda8c983e2f5ab, type: 3}
+    - sprite: {fileID: 21300002, guid: 21d01c423caffc840acda8c983e2f5ab, type: 3}
+      spriteName: beacon_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: beacon_2
-      sprite: {fileID: 21300004, guid: 21d01c423caffc840acda8c983e2f5ab, type: 3}
+    - sprite: {fileID: 21300004, guid: 21d01c423caffc840acda8c983e2f5ab, type: 3}
+      spriteName: beacon_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: beacon_3
-      sprite: {fileID: 21300006, guid: 21d01c423caffc840acda8c983e2f5ab, type: 3}
+    - sprite: {fileID: 21300006, guid: 21d01c423caffc840acda8c983e2f5ab, type: 3}
+      spriteName: beacon_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

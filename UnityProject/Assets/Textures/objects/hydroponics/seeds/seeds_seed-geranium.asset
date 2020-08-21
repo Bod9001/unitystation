@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: seeds_seed-geranium
-      sprite: {fileID: 21300000, guid: 45eed9e2301746b4da94ee1a7b98117f, type: 3}
+    - sprite: {fileID: 21300000, guid: 45eed9e2301746b4da94ee1a7b98117f, type: 3}
+      spriteName: seeds_seed-geranium
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

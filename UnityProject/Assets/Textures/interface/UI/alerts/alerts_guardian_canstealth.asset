@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alerts_guardian_canstealth
-      sprite: {fileID: 21300000, guid: 0088923fc675ea341b10af41d7f85bb7, type: 3}
+    - sprite: {fileID: 21300000, guid: 0088923fc675ea341b10af41d7f85bb7, type: 3}
+      spriteName: alerts_guardian_canstealth
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

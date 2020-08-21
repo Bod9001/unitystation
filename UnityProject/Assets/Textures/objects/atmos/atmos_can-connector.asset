@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: atmos_can-connector
-      sprite: {fileID: 21300000, guid: a7172f3398019e044a68e8bb2fefbb72, type: 3}
+    - sprite: {fileID: 21300000, guid: a7172f3398019e044a68e8bb2fefbb72, type: 3}
+      spriteName: atmos_can-connector
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

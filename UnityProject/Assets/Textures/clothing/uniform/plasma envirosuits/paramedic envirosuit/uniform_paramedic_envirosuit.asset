@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: paramedic_envirosuit_0
-      sprite: {fileID: -3644310930545100071, guid: 600f75d73624879489031d63b762f823,
+    - sprite: {fileID: -3644310930545100071, guid: 600f75d73624879489031d63b762f823,
         type: 3}
+      spriteName: paramedic_envirosuit_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: paramedic_envirosuit_1
-      sprite: {fileID: 8049287694348331925, guid: 600f75d73624879489031d63b762f823,
+    - sprite: {fileID: 8049287694348331925, guid: 600f75d73624879489031d63b762f823,
         type: 3}
+      spriteName: paramedic_envirosuit_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: paramedic_envirosuit_2
-      sprite: {fileID: -5303064219030946071, guid: 600f75d73624879489031d63b762f823,
+    - sprite: {fileID: -5303064219030946071, guid: 600f75d73624879489031d63b762f823,
         type: 3}
+      spriteName: paramedic_envirosuit_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: paramedic_envirosuit_3
-      sprite: {fileID: 5083665359233144803, guid: 600f75d73624879489031d63b762f823,
+    - sprite: {fileID: 5083665359233144803, guid: 600f75d73624879489031d63b762f823,
         type: 3}
+      spriteName: paramedic_envirosuit_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

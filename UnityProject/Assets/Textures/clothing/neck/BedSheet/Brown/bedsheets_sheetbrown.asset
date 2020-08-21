@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bedsheets_sheetbrown
-      sprite: {fileID: 21300000, guid: f569ae5b2d4f09e4db6aa7725f120671, type: 3}
+    - sprite: {fileID: 21300000, guid: f569ae5b2d4f09e4db6aa7725f120671, type: 3}
+      spriteName: bedsheets_sheetbrown
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

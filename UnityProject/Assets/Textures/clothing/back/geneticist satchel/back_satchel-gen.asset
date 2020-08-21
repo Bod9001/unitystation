@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: satchel-gen_0
-      sprite: {fileID: 21300000, guid: 812243d18d7514e4290f7c830a53edb5, type: 3}
+    - sprite: {fileID: 21300000, guid: 812243d18d7514e4290f7c830a53edb5, type: 3}
+      spriteName: satchel-gen_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-gen_1
-      sprite: {fileID: 21300002, guid: 812243d18d7514e4290f7c830a53edb5, type: 3}
+    - sprite: {fileID: 21300002, guid: 812243d18d7514e4290f7c830a53edb5, type: 3}
+      spriteName: satchel-gen_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-gen_2
-      sprite: {fileID: 21300004, guid: 812243d18d7514e4290f7c830a53edb5, type: 3}
+    - sprite: {fileID: 21300004, guid: 812243d18d7514e4290f7c830a53edb5, type: 3}
+      spriteName: satchel-gen_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: satchel-gen_3
-      sprite: {fileID: 21300006, guid: 812243d18d7514e4290f7c830a53edb5, type: 3}
+    - sprite: {fileID: 21300006, guid: 812243d18d7514e4290f7c830a53edb5, type: 3}
+      spriteName: satchel-gen_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

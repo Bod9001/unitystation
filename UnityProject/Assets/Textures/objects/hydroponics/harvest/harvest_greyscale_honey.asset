@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: harvest_greyscale_honey
-      sprite: {fileID: 21300000, guid: d6473f14a06d77a48aa15bae8f6fabbb, type: 3}
+    - sprite: {fileID: 21300000, guid: d6473f14a06d77a48aa15bae8f6fabbb, type: 3}
+      spriteName: harvest_greyscale_honey
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

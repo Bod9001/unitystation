@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tourist-trimmed_1
-      sprite: {fileID: -8317178089259503953, guid: e78685cf68bb00948ba66b36ba79f336,
+    - sprite: {fileID: -8317178089259503953, guid: e78685cf68bb00948ba66b36ba79f336,
         type: 3}
+      spriteName: tourist-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

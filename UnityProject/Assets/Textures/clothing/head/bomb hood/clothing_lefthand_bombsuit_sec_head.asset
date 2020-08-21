@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bombsuit_sec_head_0
-      sprite: {fileID: -8209561901130358773, guid: 61a53a87564fdcc4b8a6a945369a113b,
+    - sprite: {fileID: -8209561901130358773, guid: 61a53a87564fdcc4b8a6a945369a113b,
         type: 3}
+      spriteName: bombsuit_sec_head_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bombsuit_sec_head_1
-      sprite: {fileID: -3795170390838511193, guid: 61a53a87564fdcc4b8a6a945369a113b,
+    - sprite: {fileID: -3795170390838511193, guid: 61a53a87564fdcc4b8a6a945369a113b,
         type: 3}
+      spriteName: bombsuit_sec_head_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bombsuit_sec_head_2
-      sprite: {fileID: -5726677326297260176, guid: 61a53a87564fdcc4b8a6a945369a113b,
+    - sprite: {fileID: -5726677326297260176, guid: 61a53a87564fdcc4b8a6a945369a113b,
         type: 3}
+      spriteName: bombsuit_sec_head_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bombsuit_sec_head_3
-      sprite: {fileID: 4066611890519368714, guid: 61a53a87564fdcc4b8a6a945369a113b,
+    - sprite: {fileID: 4066611890519368714, guid: 61a53a87564fdcc4b8a6a945369a113b,
         type: 3}
+      spriteName: bombsuit_sec_head_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,32 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mauler-open_0
-      sprite: {fileID: 21300000, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+    - sprite: {fileID: 21300000, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+      spriteName: mauler-open_0
       secondDelay: 0.5
       AtlasUsing: 9
-    - spriteName: mauler-open_1
-      sprite: {fileID: 21300002, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+    - sprite: {fileID: 21300002, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+      spriteName: mauler-open_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler-open_2
-      sprite: {fileID: 21300004, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+    - sprite: {fileID: 21300004, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+      spriteName: mauler-open_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler-open_3
-      sprite: {fileID: 21300006, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+    - sprite: {fileID: 21300006, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+      spriteName: mauler-open_3
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler-open_4
-      sprite: {fileID: 21300008, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+    - sprite: {fileID: 21300008, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+      spriteName: mauler-open_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler-open_5
-      sprite: {fileID: 21300010, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+    - sprite: {fileID: 21300010, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+      spriteName: mauler-open_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler-open_6
-      sprite: {fileID: 21300012, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+    - sprite: {fileID: 21300012, guid: 4d1d754fa3dc2674b835be66751b8f7f, type: 3}
+      spriteName: mauler-open_6
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

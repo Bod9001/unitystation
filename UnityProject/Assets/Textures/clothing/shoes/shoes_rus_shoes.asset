@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rus_shoes_0
-      sprite: {fileID: 21300000, guid: c1e8719229980f94186f7e507a0483e0, type: 3}
+    - sprite: {fileID: 21300000, guid: c1e8719229980f94186f7e507a0483e0, type: 3}
+      spriteName: rus_shoes_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: rus_shoes_1
-      sprite: {fileID: 21300002, guid: c1e8719229980f94186f7e507a0483e0, type: 3}
+    - sprite: {fileID: 21300002, guid: c1e8719229980f94186f7e507a0483e0, type: 3}
+      spriteName: rus_shoes_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: rus_shoes_2
-      sprite: {fileID: 21300004, guid: c1e8719229980f94186f7e507a0483e0, type: 3}
+    - sprite: {fileID: 21300004, guid: c1e8719229980f94186f7e507a0483e0, type: 3}
+      spriteName: rus_shoes_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: rus_shoes_3
-      sprite: {fileID: 21300006, guid: c1e8719229980f94186f7e507a0483e0, type: 3}
+    - sprite: {fileID: 21300006, guid: c1e8719229980f94186f7e507a0483e0, type: 3}
+      spriteName: rus_shoes_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

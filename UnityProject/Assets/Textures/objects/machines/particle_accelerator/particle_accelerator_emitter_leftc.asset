@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: emitter_leftc_0
-      sprite: {fileID: 21300000, guid: da5d7f0e31f6e38458c209c04a7a33f9, type: 3}
+    - sprite: {fileID: 21300000, guid: da5d7f0e31f6e38458c209c04a7a33f9, type: 3}
+      spriteName: emitter_leftc_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: emitter_leftc_1
-      sprite: {fileID: 21300002, guid: da5d7f0e31f6e38458c209c04a7a33f9, type: 3}
+    - sprite: {fileID: 21300002, guid: da5d7f0e31f6e38458c209c04a7a33f9, type: 3}
+      spriteName: emitter_leftc_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: emitter_leftc_2
-      sprite: {fileID: 21300004, guid: da5d7f0e31f6e38458c209c04a7a33f9, type: 3}
+    - sprite: {fileID: 21300004, guid: da5d7f0e31f6e38458c209c04a7a33f9, type: 3}
+      spriteName: emitter_leftc_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: emitter_leftc_3
-      sprite: {fileID: 21300006, guid: da5d7f0e31f6e38458c209c04a7a33f9, type: 3}
+    - sprite: {fileID: 21300006, guid: da5d7f0e31f6e38458c209c04a7a33f9, type: 3}
+      spriteName: emitter_leftc_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

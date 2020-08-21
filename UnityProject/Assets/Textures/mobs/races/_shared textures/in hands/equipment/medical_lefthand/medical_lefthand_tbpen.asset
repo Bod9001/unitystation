@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tbpen_0
-      sprite: {fileID: 2020561718693462440, guid: 14e73f20965e0f54ebfe7b8f1bf80409,
+    - sprite: {fileID: 2020561718693462440, guid: 14e73f20965e0f54ebfe7b8f1bf80409,
         type: 3}
+      spriteName: tbpen_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: tbpen_1
-      sprite: {fileID: 1434946330290675611, guid: 14e73f20965e0f54ebfe7b8f1bf80409,
+    - sprite: {fileID: 1434946330290675611, guid: 14e73f20965e0f54ebfe7b8f1bf80409,
         type: 3}
+      spriteName: tbpen_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: tbpen_2
-      sprite: {fileID: -6331713407278757686, guid: 14e73f20965e0f54ebfe7b8f1bf80409,
+    - sprite: {fileID: -6331713407278757686, guid: 14e73f20965e0f54ebfe7b8f1bf80409,
         type: 3}
+      spriteName: tbpen_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: tbpen_3
-      sprite: {fileID: -4683753692398503580, guid: 14e73f20965e0f54ebfe7b8f1bf80409,
+    - sprite: {fileID: -4683753692398503580, guid: 14e73f20965e0f54ebfe7b8f1bf80409,
         type: 3}
+      spriteName: tbpen_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

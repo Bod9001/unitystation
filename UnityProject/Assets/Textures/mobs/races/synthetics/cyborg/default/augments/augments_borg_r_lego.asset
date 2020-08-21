@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: augments_borg_r_lego
-      sprite: {fileID: 21300000, guid: 047386bf500ad134da4756ba90c46222, type: 3}
+    - sprite: {fileID: 21300000, guid: 047386bf500ad134da4756ba90c46222, type: 3}
+      spriteName: augments_borg_r_lego
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

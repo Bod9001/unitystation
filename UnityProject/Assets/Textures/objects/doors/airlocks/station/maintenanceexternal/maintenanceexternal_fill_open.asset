@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: maintenanceexternal_fill_open
-      sprite: {fileID: 21300000, guid: 1f9c505806e712c409aa5c518d229e8a, type: 3}
+    - sprite: {fileID: 21300000, guid: 1f9c505806e712c409aa5c518d229e8a, type: 3}
+      spriteName: maintenanceexternal_fill_open
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

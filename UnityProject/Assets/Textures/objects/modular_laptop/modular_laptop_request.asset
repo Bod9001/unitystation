@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: modular_laptop_request
-      sprite: {fileID: 21300000, guid: 9d00ea64a8fa4474a881acc33edd704e, type: 3}
+    - sprite: {fileID: 21300000, guid: 9d00ea64a8fa4474a881acc33edd704e, type: 3}
+      spriteName: modular_laptop_request
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

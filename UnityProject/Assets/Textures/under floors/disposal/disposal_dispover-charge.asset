@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dispover-charge_0
-      sprite: {fileID: 21300000, guid: 1fbddb4bb149cd645b465be5c9f607f7, type: 3}
+    - sprite: {fileID: 21300000, guid: 1fbddb4bb149cd645b465be5c9f607f7, type: 3}
+      spriteName: dispover-charge_0
       secondDelay: 0.2
       AtlasUsing: 10
-    - spriteName: dispover-charge_1
-      sprite: {fileID: 21300002, guid: 1fbddb4bb149cd645b465be5c9f607f7, type: 3}
+    - sprite: {fileID: 21300002, guid: 1fbddb4bb149cd645b465be5c9f607f7, type: 3}
+      spriteName: dispover-charge_1
       secondDelay: 0.2
       AtlasUsing: 10
   IsPalette: 0

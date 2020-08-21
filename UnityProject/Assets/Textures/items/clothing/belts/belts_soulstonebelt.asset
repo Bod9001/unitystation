@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: belts_soulstonebelt
-      sprite: {fileID: 21300000, guid: 6c18145d68c1ca54fba35a4a81c75244, type: 3}
+    - sprite: {fileID: 21300000, guid: 6c18145d68c1ca54fba35a4a81c75244, type: 3}
+      spriteName: belts_soulstonebelt
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

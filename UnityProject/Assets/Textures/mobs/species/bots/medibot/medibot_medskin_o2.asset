@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: medibot_medskin_o2
-      sprite: {fileID: 21300000, guid: e67270b088f2d2449a49a6c536d92ec4, type: 3}
+    - sprite: {fileID: 21300000, guid: e67270b088f2d2449a49a6c536d92ec4, type: 3}
+      spriteName: medibot_medskin_o2
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

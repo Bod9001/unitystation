@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pda_pda-bartender
-      sprite: {fileID: 21300000, guid: d267ae1bad5779c47b2ad8338e015735, type: 3}
+    - sprite: {fileID: 21300000, guid: d267ae1bad5779c47b2ad8338e015735, type: 3}
+      spriteName: pda_pda-bartender
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

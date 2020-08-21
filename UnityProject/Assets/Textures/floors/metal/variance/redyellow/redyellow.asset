@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: redyellow_0
-      sprite: {fileID: 21300000, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - sprite: {fileID: 21300000, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+      spriteName: redyellow_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: redyellow_1
-      sprite: {fileID: 21300002, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - sprite: {fileID: 21300002, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+      spriteName: redyellow_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: redyellow_2
-      sprite: {fileID: 21300004, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - sprite: {fileID: 21300004, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+      spriteName: redyellow_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: redyellow_3
-      sprite: {fileID: 21300006, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - sprite: {fileID: 21300006, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+      spriteName: redyellow_3
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: redyellow_4
-      sprite: {fileID: 21300008, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - sprite: {fileID: 21300008, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+      spriteName: redyellow_4
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: redyellow_5
-      sprite: {fileID: 21300010, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - sprite: {fileID: 21300010, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+      spriteName: redyellow_5
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: redyellow_6
-      sprite: {fileID: 21300012, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - sprite: {fileID: 21300012, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+      spriteName: redyellow_6
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: redyellow_7
-      sprite: {fileID: 21300014, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+    - sprite: {fileID: 21300014, guid: 7fce7dff029e22643a6e6e4f09e805d6, type: 3}
+      spriteName: redyellow_7
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

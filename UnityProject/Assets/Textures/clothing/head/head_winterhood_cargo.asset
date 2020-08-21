@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: winterhood_cargo_0
-      sprite: {fileID: 21300000, guid: 1b50d04a0c0f46f41a2ee6c968a80935, type: 3}
+    - sprite: {fileID: 21300000, guid: 1b50d04a0c0f46f41a2ee6c968a80935, type: 3}
+      spriteName: winterhood_cargo_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: winterhood_cargo_1
-      sprite: {fileID: 21300002, guid: 1b50d04a0c0f46f41a2ee6c968a80935, type: 3}
+    - sprite: {fileID: 21300002, guid: 1b50d04a0c0f46f41a2ee6c968a80935, type: 3}
+      spriteName: winterhood_cargo_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: winterhood_cargo_2
-      sprite: {fileID: 21300004, guid: 1b50d04a0c0f46f41a2ee6c968a80935, type: 3}
+    - sprite: {fileID: 21300004, guid: 1b50d04a0c0f46f41a2ee6c968a80935, type: 3}
+      spriteName: winterhood_cargo_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: winterhood_cargo_3
-      sprite: {fileID: 21300006, guid: 1b50d04a0c0f46f41a2ee6c968a80935, type: 3}
+    - sprite: {fileID: 21300006, guid: 1b50d04a0c0f46f41a2ee6c968a80935, type: 3}
+      spriteName: winterhood_cargo_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

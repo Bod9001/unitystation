@@ -14,32 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ratvarbeamglow_0
-      sprite: {fileID: 21300000, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+    - sprite: {fileID: 21300000, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+      spriteName: ratvarbeamglow_0
       secondDelay: 0.18
       AtlasUsing: 9
-    - spriteName: ratvarbeamglow_1
-      sprite: {fileID: 21300002, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+    - sprite: {fileID: 21300002, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+      spriteName: ratvarbeamglow_1
       secondDelay: 0.16
       AtlasUsing: 9
-    - spriteName: ratvarbeamglow_2
-      sprite: {fileID: 21300004, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+    - sprite: {fileID: 21300004, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+      spriteName: ratvarbeamglow_2
       secondDelay: 0.14
       AtlasUsing: 9
-    - spriteName: ratvarbeamglow_3
-      sprite: {fileID: 21300006, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+    - sprite: {fileID: 21300006, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+      spriteName: ratvarbeamglow_3
       secondDelay: 0.12
       AtlasUsing: 9
-    - spriteName: ratvarbeamglow_4
-      sprite: {fileID: 21300008, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+    - sprite: {fileID: 21300008, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+      spriteName: ratvarbeamglow_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: ratvarbeamglow_5
-      sprite: {fileID: 21300010, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+    - sprite: {fileID: 21300010, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+      spriteName: ratvarbeamglow_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: ratvarbeamglow_6
-      sprite: {fileID: 21300012, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+    - sprite: {fileID: 21300012, guid: eba070f1b2be416478b88c2ea2b9f1eb, type: 3}
+      spriteName: ratvarbeamglow_6
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

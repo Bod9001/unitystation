@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: light_on-w_0
-      sprite: {fileID: 21300000, guid: 5a534659725e9cf4d9511b5f223b539f, type: 3}
+    - sprite: {fileID: 21300000, guid: 5a534659725e9cf4d9511b5f223b539f, type: 3}
+      spriteName: light_on-w_0
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: light_on-w_1
-      sprite: {fileID: 21300002, guid: 5a534659725e9cf4d9511b5f223b539f, type: 3}
+    - sprite: {fileID: 21300002, guid: 5a534659725e9cf4d9511b5f223b539f, type: 3}
+      spriteName: light_on-w_1
       secondDelay: 0.1
       AtlasUsing: 10
   IsPalette: 0

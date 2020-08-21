@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: belt_mirror_handcuff_2
-      sprite: {fileID: 21300000, guid: 35f7a77b7f8256d4ab3de6fe816998bb, type: 3}
+    - sprite: {fileID: 21300000, guid: 35f7a77b7f8256d4ab3de6fe816998bb, type: 3}
+      spriteName: belt_mirror_handcuff_2
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: floorbot_ytoolbox_tiles_sensor
-      sprite: {fileID: 21300000, guid: ee72f221536f48b44a259593cbe6dc0d, type: 3}
+    - sprite: {fileID: 21300000, guid: ee72f221536f48b44a259593cbe6dc0d, type: 3}
+      spriteName: floorbot_ytoolbox_tiles_sensor
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

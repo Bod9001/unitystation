@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: solar_0
-      sprite: {fileID: 21300000, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+    - sprite: {fileID: 21300000, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+      spriteName: solar_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: solar_1
-      sprite: {fileID: 21300002, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+    - sprite: {fileID: 21300002, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+      spriteName: solar_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: solar_2
-      sprite: {fileID: 21300004, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+    - sprite: {fileID: 21300004, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+      spriteName: solar_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: solar_3
-      sprite: {fileID: 21300006, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+    - sprite: {fileID: 21300006, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+      spriteName: solar_3
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: solar_4
-      sprite: {fileID: 21300008, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+    - sprite: {fileID: 21300008, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+      spriteName: solar_4
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: solar_5
-      sprite: {fileID: 21300010, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+    - sprite: {fileID: 21300010, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+      spriteName: solar_5
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: solar_6
-      sprite: {fileID: 21300012, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+    - sprite: {fileID: 21300012, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+      spriteName: solar_6
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: solar_7
-      sprite: {fileID: 21300014, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+    - sprite: {fileID: 21300014, guid: 839f850435ae17747b4af71e344c0755, type: 3}
+      spriteName: solar_7
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

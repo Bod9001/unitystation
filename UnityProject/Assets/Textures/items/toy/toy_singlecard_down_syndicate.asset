@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: toy_singlecard_down_syndicate
-      sprite: {fileID: 21300000, guid: a036d31560b92134e85ff5203a5f96fd, type: 3}
+    - sprite: {fileID: 21300000, guid: a036d31560b92134e85ff5203a5f96fd, type: 3}
+      spriteName: toy_singlecard_down_syndicate
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

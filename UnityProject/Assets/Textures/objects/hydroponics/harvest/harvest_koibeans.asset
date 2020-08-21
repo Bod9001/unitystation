@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: harvest_koibeans
-      sprite: {fileID: 21300000, guid: 9c8205e46da780e47a917d17a8ea94ba, type: 3}
+    - sprite: {fileID: 21300000, guid: 9c8205e46da780e47a917d17a8ea94ba, type: 3}
+      spriteName: harvest_koibeans
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

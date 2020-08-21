@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bar-trimmed_1
-      sprite: {fileID: 1313908945890142285, guid: 62b0a9449b3786649abfbe4a9028b5e6,
+    - sprite: {fileID: 1313908945890142285, guid: 62b0a9449b3786649abfbe4a9028b5e6,
         type: 3}
+      spriteName: bar-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

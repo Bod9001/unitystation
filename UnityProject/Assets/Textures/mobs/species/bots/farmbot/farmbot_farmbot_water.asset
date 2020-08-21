@@ -14,28 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: farmbot_water_0
-      sprite: {fileID: 21300000, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+    - sprite: {fileID: 21300000, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+      spriteName: farmbot_water_0
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: farmbot_water_1
-      sprite: {fileID: 21300002, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+    - sprite: {fileID: 21300002, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+      spriteName: farmbot_water_1
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: farmbot_water_2
-      sprite: {fileID: 21300004, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+    - sprite: {fileID: 21300004, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+      spriteName: farmbot_water_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: farmbot_water_3
-      sprite: {fileID: 21300006, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+    - sprite: {fileID: 21300006, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+      spriteName: farmbot_water_3
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: farmbot_water_4
-      sprite: {fileID: 21300008, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+    - sprite: {fileID: 21300008, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+      spriteName: farmbot_water_4
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: farmbot_water_5
-      sprite: {fileID: 21300010, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+    - sprite: {fileID: 21300010, guid: 3a9ee4849c4949941820430d0a43ee4b, type: 3}
+      spriteName: farmbot_water_5
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

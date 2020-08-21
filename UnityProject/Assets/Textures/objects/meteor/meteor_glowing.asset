@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: meteor_glowing
-      sprite: {fileID: 21300000, guid: 62db935bac0312044ab7c7ad23c31185, type: 3}
+    - sprite: {fileID: 21300000, guid: 62db935bac0312044ab7c7ad23c31185, type: 3}
+      spriteName: meteor_glowing
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

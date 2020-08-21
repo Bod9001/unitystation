@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: variance_showroomfloor
-      sprite: {fileID: 21300000, guid: e7168e32676f649428d2dfbdd9e52b71, type: 3}
+    - sprite: {fileID: 21300000, guid: e7168e32676f649428d2dfbdd9e52b71, type: 3}
+      spriteName: variance_showroomfloor
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bubblegumfoot_0
-      sprite: {fileID: 21300000, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+    - sprite: {fileID: 21300000, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+      spriteName: bubblegumfoot_0
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: bubblegumfoot_1
-      sprite: {fileID: 21300002, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+    - sprite: {fileID: 21300002, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+      spriteName: bubblegumfoot_1
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: bubblegumfoot_2
-      sprite: {fileID: 21300004, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+    - sprite: {fileID: 21300004, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+      spriteName: bubblegumfoot_2
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: bubblegumfoot_3
-      sprite: {fileID: 21300006, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+    - sprite: {fileID: 21300006, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+      spriteName: bubblegumfoot_3
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: bubblegumfoot_4
-      sprite: {fileID: 21300008, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+    - sprite: {fileID: 21300008, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+      spriteName: bubblegumfoot_4
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: bubblegumfoot_5
-      sprite: {fileID: 21300010, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+    - sprite: {fileID: 21300010, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+      spriteName: bubblegumfoot_5
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: bubblegumfoot_6
-      sprite: {fileID: 21300012, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+    - sprite: {fileID: 21300012, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+      spriteName: bubblegumfoot_6
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: bubblegumfoot_7
-      sprite: {fileID: 21300014, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+    - sprite: {fileID: 21300014, guid: b0fde02687d742f409b692b37a771d7e, type: 3}
+      spriteName: bubblegumfoot_7
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

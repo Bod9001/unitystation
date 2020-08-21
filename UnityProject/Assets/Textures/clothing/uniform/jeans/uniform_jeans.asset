@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: jeans_0
-      sprite: {fileID: 21300000, guid: 90312d04be013c14dac48c12ad690a6d, type: 3}
+    - sprite: {fileID: 21300000, guid: 90312d04be013c14dac48c12ad690a6d, type: 3}
+      spriteName: jeans_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: jeans_1
-      sprite: {fileID: 21300002, guid: 90312d04be013c14dac48c12ad690a6d, type: 3}
+    - sprite: {fileID: 21300002, guid: 90312d04be013c14dac48c12ad690a6d, type: 3}
+      spriteName: jeans_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: jeans_2
-      sprite: {fileID: 21300004, guid: 90312d04be013c14dac48c12ad690a6d, type: 3}
+    - sprite: {fileID: 21300004, guid: 90312d04be013c14dac48c12ad690a6d, type: 3}
+      spriteName: jeans_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: jeans_3
-      sprite: {fileID: 21300006, guid: 90312d04be013c14dac48c12ad690a6d, type: 3}
+    - sprite: {fileID: 21300006, guid: 90312d04be013c14dac48c12ad690a6d, type: 3}
+      spriteName: jeans_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

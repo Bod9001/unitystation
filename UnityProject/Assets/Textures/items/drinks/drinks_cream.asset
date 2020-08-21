@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drinks_cream
-      sprite: {fileID: 21300000, guid: 6860dd44545dbe0488819acd49414203, type: 3}
+    - sprite: {fileID: 21300000, guid: 6860dd44545dbe0488819acd49414203, type: 3}
+      spriteName: drinks_cream
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

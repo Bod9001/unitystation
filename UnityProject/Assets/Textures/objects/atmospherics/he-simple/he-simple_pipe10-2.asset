@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pipe10-2_0
-      sprite: {fileID: 21300000, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+    - sprite: {fileID: 21300000, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+      spriteName: pipe10-2_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pipe10-2_1
-      sprite: {fileID: 21300002, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+    - sprite: {fileID: 21300002, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+      spriteName: pipe10-2_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pipe10-2_2
-      sprite: {fileID: 21300004, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+    - sprite: {fileID: 21300004, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+      spriteName: pipe10-2_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pipe10-2_3
-      sprite: {fileID: 21300006, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+    - sprite: {fileID: 21300006, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+      spriteName: pipe10-2_3
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pipe10-2_4
-      sprite: {fileID: 21300008, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+    - sprite: {fileID: 21300008, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+      spriteName: pipe10-2_4
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pipe10-2_5
-      sprite: {fileID: 21300010, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+    - sprite: {fileID: 21300010, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+      spriteName: pipe10-2_5
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pipe10-2_6
-      sprite: {fileID: 21300012, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+    - sprite: {fileID: 21300012, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+      spriteName: pipe10-2_6
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: pipe10-2_7
-      sprite: {fileID: 21300014, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+    - sprite: {fileID: 21300014, guid: 042a6622d644b454c98d98fecac8f001, type: 3}
+      spriteName: pipe10-2_7
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

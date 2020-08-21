@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: projectile_deagle
-      sprite: {fileID: 21300000, guid: 013fe2712ccbda146924992ee4e22f32, type: 3}
+    - sprite: {fileID: 21300000, guid: 013fe2712ccbda146924992ee4e22f32, type: 3}
+      spriteName: projectile_deagle
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

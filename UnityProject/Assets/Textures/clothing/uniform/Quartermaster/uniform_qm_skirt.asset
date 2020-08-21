@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: qm_skirt_0
-      sprite: {fileID: 21300000, guid: cb463dbe3ec4d334c81c28cd9ec4ceb6, type: 3}
+    - sprite: {fileID: 21300000, guid: cb463dbe3ec4d334c81c28cd9ec4ceb6, type: 3}
+      spriteName: qm_skirt_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: qm_skirt_1
-      sprite: {fileID: 21300002, guid: cb463dbe3ec4d334c81c28cd9ec4ceb6, type: 3}
+    - sprite: {fileID: 21300002, guid: cb463dbe3ec4d334c81c28cd9ec4ceb6, type: 3}
+      spriteName: qm_skirt_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: qm_skirt_2
-      sprite: {fileID: 21300004, guid: cb463dbe3ec4d334c81c28cd9ec4ceb6, type: 3}
+    - sprite: {fileID: 21300004, guid: cb463dbe3ec4d334c81c28cd9ec4ceb6, type: 3}
+      spriteName: qm_skirt_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: qm_skirt_3
-      sprite: {fileID: 21300006, guid: cb463dbe3ec4d334c81c28cd9ec4ceb6, type: 3}
+    - sprite: {fileID: 21300006, guid: cb463dbe3ec4d334c81c28cd9ec4ceb6, type: 3}
+      spriteName: qm_skirt_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

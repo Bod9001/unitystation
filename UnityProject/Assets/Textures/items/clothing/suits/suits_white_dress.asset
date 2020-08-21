@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: suits_white_dress
-      sprite: {fileID: 21300000, guid: ea2a3c19908c8e34198879090039f15c, type: 3}
+    - sprite: {fileID: 21300000, guid: ea2a3c19908c8e34198879090039f15c, type: 3}
+      spriteName: suits_white_dress
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

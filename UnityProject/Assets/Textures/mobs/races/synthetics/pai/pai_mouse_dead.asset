@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pai_mouse_dead
-      sprite: {fileID: 21300000, guid: 09f0a7f4336aabc498a402524a58a79a, type: 3}
+    - sprite: {fileID: 21300000, guid: 09f0a7f4336aabc498a402524a58a79a, type: 3}
+      spriteName: pai_mouse_dead
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

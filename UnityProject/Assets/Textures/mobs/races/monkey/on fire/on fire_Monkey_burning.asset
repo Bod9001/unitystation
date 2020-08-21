@@ -14,71 +14,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Monkey_burning_0
-      sprite: {fileID: 21300000, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300000, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_0
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: Monkey_burning_4
-      sprite: {fileID: 21300008, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300008, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_4
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: Monkey_burning_8
-      sprite: {fileID: 21300016, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300016, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_8
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: Monkey_burning_12
-      sprite: {fileID: 21300024, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-  - Frames:
-    - spriteName: Monkey_burning_1
-      sprite: {fileID: 21300002, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: Monkey_burning_5
-      sprite: {fileID: 21300010, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: Monkey_burning_9
-      sprite: {fileID: 21300018, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: Monkey_burning_13
-      sprite: {fileID: 21300026, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300024, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_12
       secondDelay: 0.1
       AtlasUsing: 6
   - Frames:
-    - spriteName: Monkey_burning_2
-      sprite: {fileID: 21300004, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300002, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_1
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: Monkey_burning_6
-      sprite: {fileID: 21300012, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300010, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_5
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: Monkey_burning_10
-      sprite: {fileID: 21300020, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300018, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_9
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: Monkey_burning_14
-      sprite: {fileID: 21300028, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300026, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_13
       secondDelay: 0.1
       AtlasUsing: 6
   - Frames:
-    - spriteName: Monkey_burning_3
-      sprite: {fileID: 21300006, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300004, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: Monkey_burning_7
-      sprite: {fileID: 21300014, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300012, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_6
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: Monkey_burning_11
-      sprite: {fileID: 21300022, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300020, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_10
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: Monkey_burning_15
-      sprite: {fileID: 21300030, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+    - sprite: {fileID: 21300028, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_14
+      secondDelay: 0.1
+      AtlasUsing: 6
+  - Frames:
+    - sprite: {fileID: 21300006, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_3
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300014, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_7
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300022, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_11
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300030, guid: c469b3bdd2b45024c97dd2bf82787f37, type: 3}
+      spriteName: Monkey_burning_15
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

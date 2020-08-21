@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: containers_condi_mixed
-      sprite: {fileID: 21300000, guid: dd39514044c88914ab816fb70c610875, type: 3}
+    - sprite: {fileID: 21300000, guid: dd39514044c88914ab816fb70c610875, type: 3}
+      spriteName: containers_condi_mixed
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Mapping_abductor
-      sprite: {fileID: 21300000, guid: 52ce67854f95d1742953d7cbc0723829, type: 3}
+    - sprite: {fileID: 21300000, guid: 52ce67854f95d1742953d7cbc0723829, type: 3}
+      spriteName: Mapping_abductor
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

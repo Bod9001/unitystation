@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: structures_safe
-      sprite: {fileID: 21300000, guid: 1c55f3f9115c76341b5134bc089feb61, type: 3}
+    - sprite: {fileID: 21300000, guid: 1c55f3f9115c76341b5134bc089feb61, type: 3}
+      spriteName: structures_safe
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

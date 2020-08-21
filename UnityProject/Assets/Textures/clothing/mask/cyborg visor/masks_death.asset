@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: masks_death
-      sprite: {fileID: 21300000, guid: 8f2856f0f4899da42b506bc1d375a61d, type: 3}
+    - sprite: {fileID: 21300000, guid: 8f2856f0f4899da42b506bc1d375a61d, type: 3}
+      spriteName: masks_death
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

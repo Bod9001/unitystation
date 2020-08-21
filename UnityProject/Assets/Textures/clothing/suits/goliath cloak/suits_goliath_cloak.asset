@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: goliath_cloak_0
-      sprite: {fileID: 21300000, guid: 3d5ddff810e0e274b8805b07c5d22565, type: 3}
+    - sprite: {fileID: 21300000, guid: 3d5ddff810e0e274b8805b07c5d22565, type: 3}
+      spriteName: goliath_cloak_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: goliath_cloak_1
-      sprite: {fileID: 21300002, guid: 3d5ddff810e0e274b8805b07c5d22565, type: 3}
+    - sprite: {fileID: 21300002, guid: 3d5ddff810e0e274b8805b07c5d22565, type: 3}
+      spriteName: goliath_cloak_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: goliath_cloak_2
-      sprite: {fileID: 21300004, guid: 3d5ddff810e0e274b8805b07c5d22565, type: 3}
+    - sprite: {fileID: 21300004, guid: 3d5ddff810e0e274b8805b07c5d22565, type: 3}
+      spriteName: goliath_cloak_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: goliath_cloak_3
-      sprite: {fileID: 21300006, guid: 3d5ddff810e0e274b8805b07c5d22565, type: 3}
+    - sprite: {fileID: 21300006, guid: 3d5ddff810e0e274b8805b07c5d22565, type: 3}
+      spriteName: goliath_cloak_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: statue_secborg
-      sprite: {fileID: 21300000, guid: 1e6d469c0a41d5f439bfdb6bf25b71ce, type: 3}
+    - sprite: {fileID: 21300000, guid: 1e6d469c0a41d5f439bfdb6bf25b71ce, type: 3}
+      spriteName: statue_secborg
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

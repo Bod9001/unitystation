@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: electronic_setups_setup_drone_secbot-open
-      sprite: {fileID: 21300000, guid: 392e6b38a6c781e4a9b785c40d9d3afe, type: 3}
+    - sprite: {fileID: 21300000, guid: 392e6b38a6c781e4a9b785c40d9d3afe, type: 3}
+      spriteName: electronic_setups_setup_drone_secbot-open
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

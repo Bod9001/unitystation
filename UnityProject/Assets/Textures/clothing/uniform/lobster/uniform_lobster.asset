@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lobster_0
-      sprite: {fileID: 21300000, guid: 189b74f54d379da42b3ef3f1f42b9fd4, type: 3}
+    - sprite: {fileID: 21300000, guid: 189b74f54d379da42b3ef3f1f42b9fd4, type: 3}
+      spriteName: lobster_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: lobster_1
-      sprite: {fileID: 21300002, guid: 189b74f54d379da42b3ef3f1f42b9fd4, type: 3}
+    - sprite: {fileID: 21300002, guid: 189b74f54d379da42b3ef3f1f42b9fd4, type: 3}
+      spriteName: lobster_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: lobster_2
-      sprite: {fileID: 21300004, guid: 189b74f54d379da42b3ef3f1f42b9fd4, type: 3}
+    - sprite: {fileID: 21300004, guid: 189b74f54d379da42b3ef3f1f42b9fd4, type: 3}
+      spriteName: lobster_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: lobster_3
-      sprite: {fileID: 21300006, guid: 189b74f54d379da42b3ef3f1f42b9fd4, type: 3}
+    - sprite: {fileID: 21300006, guid: 189b74f54d379da42b3ef3f1f42b9fd4, type: 3}
+      spriteName: lobster_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

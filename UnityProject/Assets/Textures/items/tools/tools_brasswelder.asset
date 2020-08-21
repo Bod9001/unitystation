@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tools_brasswelder
-      sprite: {fileID: 21300000, guid: baf406dc4f0d1b847871d72d299a2d56, type: 3}
+    - sprite: {fileID: 21300000, guid: baf406dc4f0d1b847871d72d299a2d56, type: 3}
+      spriteName: tools_brasswelder
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

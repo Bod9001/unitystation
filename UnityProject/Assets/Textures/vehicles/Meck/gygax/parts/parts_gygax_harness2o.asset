@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: parts_gygax_harness2o
-      sprite: {fileID: 21300000, guid: dec716c79abace143a4887917ba403b1, type: 3}
+    - sprite: {fileID: 21300000, guid: dec716c79abace143a4887917ba403b1, type: 3}
+      spriteName: parts_gygax_harness2o
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

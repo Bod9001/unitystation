@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: surgery_pheropod
-      sprite: {fileID: 21300000, guid: 76f78a39bb13cc94f881c57f2842d899, type: 3}
+    - sprite: {fileID: 21300000, guid: 76f78a39bb13cc94f881c57f2842d899, type: 3}
+      spriteName: surgery_pheropod
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

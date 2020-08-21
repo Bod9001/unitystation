@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rail_intersection_0
-      sprite: {fileID: 21300000, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+    - sprite: {fileID: 21300000, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+      spriteName: rail_intersection_0
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_intersection_1
-      sprite: {fileID: 21300002, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+    - sprite: {fileID: 21300002, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+      spriteName: rail_intersection_1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_intersection_2
-      sprite: {fileID: 21300004, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+    - sprite: {fileID: 21300004, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+      spriteName: rail_intersection_2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_intersection_3
-      sprite: {fileID: 21300006, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+    - sprite: {fileID: 21300006, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+      spriteName: rail_intersection_3
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_intersection_4
-      sprite: {fileID: 21300008, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+    - sprite: {fileID: 21300008, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+      spriteName: rail_intersection_4
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_intersection_5
-      sprite: {fileID: 21300010, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+    - sprite: {fileID: 21300010, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+      spriteName: rail_intersection_5
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_intersection_6
-      sprite: {fileID: 21300012, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+    - sprite: {fileID: 21300012, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+      spriteName: rail_intersection_6
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: rail_intersection_7
-      sprite: {fileID: 21300014, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+    - sprite: {fileID: 21300014, guid: c3154d2dd6ad190418535d27966f535d, type: 3}
+      spriteName: rail_intersection_7
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

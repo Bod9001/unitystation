@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_handcuffAlien
-      sprite: {fileID: 21300000, guid: d0bc1674113b6b9429976a0b098b8377, type: 3}
+    - sprite: {fileID: 21300000, guid: d0bc1674113b6b9429976a0b098b8377, type: 3}
+      spriteName: items_and_weapons_handcuffAlien
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

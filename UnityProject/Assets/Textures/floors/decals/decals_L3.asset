@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: decals_L3
-      sprite: {fileID: 21300000, guid: ff8f169d5c351b44b8f0a48e3d36bb55, type: 3}
+    - sprite: {fileID: 21300000, guid: ff8f169d5c351b44b8f0a48e3d36bb55, type: 3}
+      spriteName: decals_L3
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

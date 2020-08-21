@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shoes_detective
-      sprite: {fileID: 21300000, guid: c5689f381d1635c44a5b5eed4b4646d5, type: 3}
+    - sprite: {fileID: 21300000, guid: c5689f381d1635c44a5b5eed4b4646d5, type: 3}
+      spriteName: shoes_detective
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

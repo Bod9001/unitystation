@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ert_clown_0
-      sprite: {fileID: 3304109785887485640, guid: 1c7267dc3aac82f4a8eede920437b31d,
+    - sprite: {fileID: 3304109785887485640, guid: 1c7267dc3aac82f4a8eede920437b31d,
         type: 3}
+      spriteName: ert_clown_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ert_clown_1
-      sprite: {fileID: -3652634965042007667, guid: 1c7267dc3aac82f4a8eede920437b31d,
+    - sprite: {fileID: -3652634965042007667, guid: 1c7267dc3aac82f4a8eede920437b31d,
         type: 3}
+      spriteName: ert_clown_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ert_clown_2
-      sprite: {fileID: -7104812242757616395, guid: 1c7267dc3aac82f4a8eede920437b31d,
+    - sprite: {fileID: -7104812242757616395, guid: 1c7267dc3aac82f4a8eede920437b31d,
         type: 3}
+      spriteName: ert_clown_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ert_clown_3
-      sprite: {fileID: -1741405533124959163, guid: 1c7267dc3aac82f4a8eede920437b31d,
+    - sprite: {fileID: -1741405533124959163, guid: 1c7267dc3aac82f4a8eede920437b31d,
         type: 3}
+      spriteName: ert_clown_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: projectiles_tracer_hcult
-      sprite: {fileID: 21300000, guid: 9973516babc32784ea3a340be1c7d4c1, type: 3}
+    - sprite: {fileID: 21300000, guid: 9973516babc32784ea3a340be1c7d4c1, type: 3}
+      spriteName: projectiles_tracer_hcult
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

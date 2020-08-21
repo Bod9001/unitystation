@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: suits_carp_suit_icon
-      sprite: {fileID: 21300000, guid: 5d73c05fb3a349644804c85215a34454, type: 3}
+    - sprite: {fileID: 21300000, guid: 5d73c05fb3a349644804c85215a34454, type: 3}
+      spriteName: suits_carp_suit_icon
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

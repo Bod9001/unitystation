@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tier_3-1_0
-      sprite: {fileID: -1258424442676074072, guid: 8cebc8b33f2bfe34b96a766f0933fd2b,
+    - sprite: {fileID: -1258424442676074072, guid: 8cebc8b33f2bfe34b96a766f0933fd2b,
         type: 3}
+      spriteName: tier_3-1_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: tier_3-1_1
-      sprite: {fileID: -5571458314970878174, guid: 8cebc8b33f2bfe34b96a766f0933fd2b,
+    - sprite: {fileID: -5571458314970878174, guid: 8cebc8b33f2bfe34b96a766f0933fd2b,
         type: 3}
+      spriteName: tier_3-1_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: tier_3-1_2
-      sprite: {fileID: -6658697351262280065, guid: 8cebc8b33f2bfe34b96a766f0933fd2b,
+    - sprite: {fileID: -6658697351262280065, guid: 8cebc8b33f2bfe34b96a766f0933fd2b,
         type: 3}
+      spriteName: tier_3-1_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: tier_3-1_3
-      sprite: {fileID: -4981839778340566379, guid: 8cebc8b33f2bfe34b96a766f0933fd2b,
+    - sprite: {fileID: -4981839778340566379, guid: 8cebc8b33f2bfe34b96a766f0933fd2b,
         type: 3}
+      spriteName: tier_3-1_3
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

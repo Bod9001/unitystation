@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: belt_overlays_stunbaton_active
-      sprite: {fileID: 21300000, guid: d7b5a5d6eca7f954ab077fac052fa0dc, type: 3}
+    - sprite: {fileID: 21300000, guid: d7b5a5d6eca7f954ab077fac052fa0dc, type: 3}
+      spriteName: belt_overlays_stunbaton_active
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

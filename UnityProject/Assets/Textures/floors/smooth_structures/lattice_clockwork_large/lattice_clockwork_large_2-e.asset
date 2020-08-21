@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lattice_clockwork_large_2-e
-      sprite: {fileID: 21300000, guid: 79387a4966fa2c6499a999cf8391dcde, type: 3}
+    - sprite: {fileID: 21300000, guid: 79387a4966fa2c6499a999cf8391dcde, type: 3}
+      spriteName: lattice_clockwork_large_2-e
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

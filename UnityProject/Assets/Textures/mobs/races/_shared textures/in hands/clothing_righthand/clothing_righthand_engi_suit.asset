@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: engi_suit_0
-      sprite: {fileID: 21300000, guid: 64d0f992770475244884ff07cbf4e3d6, type: 3}
+    - sprite: {fileID: 21300000, guid: 64d0f992770475244884ff07cbf4e3d6, type: 3}
+      spriteName: engi_suit_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: engi_suit_1
-      sprite: {fileID: 21300002, guid: 64d0f992770475244884ff07cbf4e3d6, type: 3}
+    - sprite: {fileID: 21300002, guid: 64d0f992770475244884ff07cbf4e3d6, type: 3}
+      spriteName: engi_suit_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: engi_suit_2
-      sprite: {fileID: 21300004, guid: 64d0f992770475244884ff07cbf4e3d6, type: 3}
+    - sprite: {fileID: 21300004, guid: 64d0f992770475244884ff07cbf4e3d6, type: 3}
+      spriteName: engi_suit_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: engi_suit_3
-      sprite: {fileID: 21300006, guid: 64d0f992770475244884ff07cbf4e3d6, type: 3}
+    - sprite: {fileID: 21300006, guid: 64d0f992770475244884ff07cbf4e3d6, type: 3}
+      spriteName: engi_suit_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: seeds_seed-greengrapes
-      sprite: {fileID: 21300000, guid: fa96a021d5272084c9013469f1919da0, type: 3}
+    - sprite: {fileID: 21300000, guid: fa96a021d5272084c9013469f1919da0, type: 3}
+      spriteName: seeds_seed-greengrapes
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

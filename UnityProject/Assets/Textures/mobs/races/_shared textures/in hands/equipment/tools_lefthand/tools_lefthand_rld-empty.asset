@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rld-empty_0
-      sprite: {fileID: 21300000, guid: 2f7cd83b2c81c164fb8c5ba9a2f3923e, type: 3}
+    - sprite: {fileID: 21300000, guid: 2f7cd83b2c81c164fb8c5ba9a2f3923e, type: 3}
+      spriteName: rld-empty_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: rld-empty_1
-      sprite: {fileID: 21300002, guid: 2f7cd83b2c81c164fb8c5ba9a2f3923e, type: 3}
+    - sprite: {fileID: 21300002, guid: 2f7cd83b2c81c164fb8c5ba9a2f3923e, type: 3}
+      spriteName: rld-empty_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: rld-empty_2
-      sprite: {fileID: 21300004, guid: 2f7cd83b2c81c164fb8c5ba9a2f3923e, type: 3}
+    - sprite: {fileID: 21300004, guid: 2f7cd83b2c81c164fb8c5ba9a2f3923e, type: 3}
+      spriteName: rld-empty_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: rld-empty_3
-      sprite: {fileID: 21300006, guid: 2f7cd83b2c81c164fb8c5ba9a2f3923e, type: 3}
+    - sprite: {fileID: 21300006, guid: 2f7cd83b2c81c164fb8c5ba9a2f3923e, type: 3}
+      spriteName: rld-empty_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

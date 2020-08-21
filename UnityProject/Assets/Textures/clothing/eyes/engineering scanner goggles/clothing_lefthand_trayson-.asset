@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: trayson-_0
-      sprite: {fileID: 21300000, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
+    - sprite: {fileID: 21300000, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
+      spriteName: trayson-_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: trayson-_1
-      sprite: {fileID: 21300002, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
+    - sprite: {fileID: 21300002, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
+      spriteName: trayson-_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: trayson-_2
-      sprite: {fileID: 21300004, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
+    - sprite: {fileID: 21300004, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
+      spriteName: trayson-_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: trayson-_3
-      sprite: {fileID: 21300006, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
+    - sprite: {fileID: 21300006, guid: 342fd4b1ae1963640bf029b7670634fd, type: 3}
+      spriteName: trayson-_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

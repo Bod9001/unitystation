@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ethereal_r_hand_0
-      sprite: {fileID: 21300000, guid: fcc549599403ef045827f462360e4882, type: 3}
+    - sprite: {fileID: 21300000, guid: fcc549599403ef045827f462360e4882, type: 3}
+      spriteName: ethereal_r_hand_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: ethereal_r_hand_1
-      sprite: {fileID: 21300002, guid: fcc549599403ef045827f462360e4882, type: 3}
+    - sprite: {fileID: 21300002, guid: fcc549599403ef045827f462360e4882, type: 3}
+      spriteName: ethereal_r_hand_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: ethereal_r_hand_2
-      sprite: {fileID: 21300004, guid: fcc549599403ef045827f462360e4882, type: 3}
+    - sprite: {fileID: 21300004, guid: fcc549599403ef045827f462360e4882, type: 3}
+      spriteName: ethereal_r_hand_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: ethereal_r_hand_3
-      sprite: {fileID: 21300006, guid: fcc549599403ef045827f462360e4882, type: 3}
+    - sprite: {fileID: 21300006, guid: fcc549599403ef045827f462360e4882, type: 3}
+      spriteName: ethereal_r_hand_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

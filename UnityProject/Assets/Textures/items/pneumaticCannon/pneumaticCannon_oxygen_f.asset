@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pneumaticCannon_oxygen_f
-      sprite: {fileID: 21300000, guid: b481412f99f8ffb48b4c5c915660086a, type: 3}
+    - sprite: {fileID: 21300000, guid: b481412f99f8ffb48b4c5c915660086a, type: 3}
+      spriteName: pneumaticCannon_oxygen_f
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

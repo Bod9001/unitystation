@@ -14,28 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: slime_0
-      sprite: {fileID: 368543389579951487, guid: 276f4cb22661bfd4a98ee002979e45ab,
+    - sprite: {fileID: 368543389579951487, guid: 276f4cb22661bfd4a98ee002979e45ab,
         type: 3}
+      spriteName: slime_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: slime_1
-      sprite: {fileID: -458641133534639524, guid: 276f4cb22661bfd4a98ee002979e45ab,
+    - sprite: {fileID: -458641133534639524, guid: 276f4cb22661bfd4a98ee002979e45ab,
         type: 3}
+      spriteName: slime_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: slime_2
-      sprite: {fileID: 2542698315722941828, guid: 276f4cb22661bfd4a98ee002979e45ab,
+    - sprite: {fileID: 2542698315722941828, guid: 276f4cb22661bfd4a98ee002979e45ab,
         type: 3}
+      spriteName: slime_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: slime_3
-      sprite: {fileID: -3711818451352614709, guid: 276f4cb22661bfd4a98ee002979e45ab,
+    - sprite: {fileID: -3711818451352614709, guid: 276f4cb22661bfd4a98ee002979e45ab,
         type: 3}
+      spriteName: slime_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 10137

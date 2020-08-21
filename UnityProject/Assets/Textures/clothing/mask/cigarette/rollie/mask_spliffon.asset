@@ -14,135 +14,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: spliffon_0
-      sprite: {fileID: 21300000, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300000, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_0
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_4
-      sprite: {fileID: 21300008, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300008, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_4
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_8
-      sprite: {fileID: 21300016, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300016, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_8
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_12
-      sprite: {fileID: 21300024, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300024, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_12
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_16
-      sprite: {fileID: 21300032, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300032, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_16
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_20
-      sprite: {fileID: 21300040, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300040, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_20
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_24
-      sprite: {fileID: 21300048, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300048, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_24
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_28
-      sprite: {fileID: 21300056, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-  - Frames:
-    - spriteName: spliffon_1
-      sprite: {fileID: 21300002, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: spliffon_5
-      sprite: {fileID: 21300010, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: spliffon_9
-      sprite: {fileID: 21300018, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: spliffon_13
-      sprite: {fileID: 21300026, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: spliffon_17
-      sprite: {fileID: 21300034, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: spliffon_21
-      sprite: {fileID: 21300042, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: spliffon_25
-      sprite: {fileID: 21300050, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: spliffon_29
-      sprite: {fileID: 21300058, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300056, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_28
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: spliffon_2
-      sprite: {fileID: 21300004, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300002, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_1
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_6
-      sprite: {fileID: 21300012, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300010, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_5
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_10
-      sprite: {fileID: 21300020, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300018, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_9
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_14
-      sprite: {fileID: 21300028, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300026, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_13
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_18
-      sprite: {fileID: 21300036, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300034, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_17
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_22
-      sprite: {fileID: 21300044, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300042, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_21
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_26
-      sprite: {fileID: 21300052, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300050, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_25
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_30
-      sprite: {fileID: 21300060, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300058, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_29
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: spliffon_3
-      sprite: {fileID: 21300006, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300004, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_2
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_7
-      sprite: {fileID: 21300014, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300012, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_6
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_11
-      sprite: {fileID: 21300022, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300020, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_10
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_15
-      sprite: {fileID: 21300030, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300028, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_14
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_19
-      sprite: {fileID: 21300038, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300036, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_18
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_23
-      sprite: {fileID: 21300046, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300044, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_22
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_27
-      sprite: {fileID: 21300054, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300052, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_26
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: spliffon_31
-      sprite: {fileID: 21300062, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+    - sprite: {fileID: 21300060, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_30
+      secondDelay: 0.1
+      AtlasUsing: 2
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_3
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300014, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_7
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300022, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_11
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300030, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_15
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300038, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_19
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300046, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_23
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300054, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_27
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300062, guid: 33bf38bb0fdeced48a6cac4e9658b77c, type: 3}
+      spriteName: spliffon_31
       secondDelay: 0.1
       AtlasUsing: 2
   IsPalette: 0

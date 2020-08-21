@@ -14,44 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sacconsume_0
-      sprite: {fileID: 21300000, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300000, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: sacconsume_1
-      sprite: {fileID: 21300002, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300002, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: sacconsume_2
-      sprite: {fileID: 21300004, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300004, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: sacconsume_3
-      sprite: {fileID: 21300006, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300006, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_3
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: sacconsume_4
-      sprite: {fileID: 21300008, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300008, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: sacconsume_5
-      sprite: {fileID: 21300010, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300010, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: sacconsume_6
-      sprite: {fileID: 21300012, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300012, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_6
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: sacconsume_7
-      sprite: {fileID: 21300014, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300014, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_7
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: sacconsume_8
-      sprite: {fileID: 21300016, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300016, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_8
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: sacconsume_9
-      sprite: {fileID: 21300018, guid: 75b5c2c884b710444a11468758152750, type: 3}
+    - sprite: {fileID: 21300018, guid: 75b5c2c884b710444a11468758152750, type: 3}
+      spriteName: sacconsume_9
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vanguard_target_all
-      sprite: {fileID: 21300000, guid: 6c828aaa2f9472e4d913541d2fb0366d, type: 3}
+    - sprite: {fileID: 21300000, guid: 6c828aaa2f9472e4d913541d2fb0366d, type: 3}
+      spriteName: vanguard_target_all
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

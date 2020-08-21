@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: uniforms_police
-      sprite: {fileID: 21300000, guid: dc65d7278ad58a6408c329bd968e86d2, type: 3}
+    - sprite: {fileID: 21300000, guid: dc65d7278ad58a6408c329bd968e86d2, type: 3}
+      spriteName: uniforms_police
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

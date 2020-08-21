@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: belt_overlays_crowbar_brass
-      sprite: {fileID: 21300000, guid: 90b428ecea1f8a04ab358fe0ba931c77, type: 3}
+    - sprite: {fileID: 21300000, guid: 90b428ecea1f8a04ab358fe0ba931c77, type: 3}
+      spriteName: belt_overlays_crowbar_brass
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

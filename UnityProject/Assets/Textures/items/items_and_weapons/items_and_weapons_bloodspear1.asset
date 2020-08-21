@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_bloodspear1
-      sprite: {fileID: 21300000, guid: 69773e7d41a1c2e459599a0eb09fd93f, type: 3}
+    - sprite: {fileID: 21300000, guid: 69773e7d41a1c2e459599a0eb09fd93f, type: 3}
+      spriteName: items_and_weapons_bloodspear1
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: uniforms_draculass
-      sprite: {fileID: 21300000, guid: 1a55d5f2bd212034a901983fe84db887, type: 3}
+    - sprite: {fileID: 21300000, guid: 1a55d5f2bd212034a901983fe84db887, type: 3}
+      spriteName: uniforms_draculass
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

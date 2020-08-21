@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alien_Crawl
-      sprite: {fileID: 21300000, guid: 4a663cabf7ea65a4d9006727953406fb, type: 3}
+    - sprite: {fileID: 21300000, guid: 4a663cabf7ea65a4d9006727953406fb, type: 3}
+      spriteName: alien_Crawl
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: stasis_stasis_on
-      sprite: {fileID: 21300000, guid: 7c55dc1ce15b0d946ae444f7b60058c2, type: 3}
+    - sprite: {fileID: 21300000, guid: 7c55dc1ce15b0d946ae444f7b60058c2, type: 3}
+      spriteName: stasis_stasis_on
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

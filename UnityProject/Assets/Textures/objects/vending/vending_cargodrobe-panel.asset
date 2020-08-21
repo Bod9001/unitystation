@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_cargodrobe-panel
-      sprite: {fileID: 21300000, guid: ecf4ad6587fdc6c4d976db384439abdd, type: 3}
+    - sprite: {fileID: 21300000, guid: ecf4ad6587fdc6c4d976db384439abdd, type: 3}
+      spriteName: vending_cargodrobe-panel
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

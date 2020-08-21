@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lemon-lime_0
-      sprite: {fileID: 21300000, guid: e9cb15f1c90f1a149aac1740594490d9, type: 3}
+    - sprite: {fileID: 21300000, guid: e9cb15f1c90f1a149aac1740594490d9, type: 3}
+      spriteName: lemon-lime_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: lemon-lime_1
-      sprite: {fileID: 21300002, guid: e9cb15f1c90f1a149aac1740594490d9, type: 3}
+    - sprite: {fileID: 21300002, guid: e9cb15f1c90f1a149aac1740594490d9, type: 3}
+      spriteName: lemon-lime_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: lemon-lime_2
-      sprite: {fileID: 21300004, guid: e9cb15f1c90f1a149aac1740594490d9, type: 3}
+    - sprite: {fileID: 21300004, guid: e9cb15f1c90f1a149aac1740594490d9, type: 3}
+      spriteName: lemon-lime_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: lemon-lime_3
-      sprite: {fileID: 21300006, guid: e9cb15f1c90f1a149aac1740594490d9, type: 3}
+    - sprite: {fileID: 21300006, guid: e9cb15f1c90f1a149aac1740594490d9, type: 3}
+      spriteName: lemon-lime_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

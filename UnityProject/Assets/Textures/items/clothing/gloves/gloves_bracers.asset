@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gloves_bracers
-      sprite: {fileID: 21300000, guid: 07678a24768be8145ae2eabfbc0c1318, type: 3}
+    - sprite: {fileID: 21300000, guid: 07678a24768be8145ae2eabfbc0c1318, type: 3}
+      spriteName: gloves_bracers
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

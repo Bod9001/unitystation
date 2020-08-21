@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: engspace_suit_0
-      sprite: {fileID: 21300000, guid: 23906068264eb8145a7c7d4b3f32231f, type: 3}
+    - sprite: {fileID: 21300000, guid: 23906068264eb8145a7c7d4b3f32231f, type: 3}
+      spriteName: engspace_suit_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: engspace_suit_1
-      sprite: {fileID: 21300002, guid: 23906068264eb8145a7c7d4b3f32231f, type: 3}
+    - sprite: {fileID: 21300002, guid: 23906068264eb8145a7c7d4b3f32231f, type: 3}
+      spriteName: engspace_suit_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: engspace_suit_2
-      sprite: {fileID: 21300004, guid: 23906068264eb8145a7c7d4b3f32231f, type: 3}
+    - sprite: {fileID: 21300004, guid: 23906068264eb8145a7c7d4b3f32231f, type: 3}
+      spriteName: engspace_suit_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: engspace_suit_3
-      sprite: {fileID: 21300006, guid: 23906068264eb8145a7c7d4b3f32231f, type: 3}
+    - sprite: {fileID: 21300006, guid: 23906068264eb8145a7c7d4b3f32231f, type: 3}
+      spriteName: engspace_suit_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 9991

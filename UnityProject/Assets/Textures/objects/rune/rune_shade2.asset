@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rune_shade2
-      sprite: {fileID: 21300000, guid: defebf6bfc8b44e458c7d23d07f032e7, type: 3}
+    - sprite: {fileID: 21300000, guid: defebf6bfc8b44e458c7d23d07f032e7, type: 3}
+      spriteName: rune_shade2
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cultbastard2_0
-      sprite: {fileID: 21300000, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
+    - sprite: {fileID: 21300000, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
+      spriteName: cultbastard2_0
       secondDelay: 0.5
       AtlasUsing: 5
-    - spriteName: cultbastard2_1
-      sprite: {fileID: 21300002, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
+    - sprite: {fileID: 21300002, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
+      spriteName: cultbastard2_1
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: cultbastard2_2
-      sprite: {fileID: 21300004, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
+    - sprite: {fileID: 21300004, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
+      spriteName: cultbastard2_2
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: cultbastard2_3
-      sprite: {fileID: 21300006, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
+    - sprite: {fileID: 21300006, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
+      spriteName: cultbastard2_3
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

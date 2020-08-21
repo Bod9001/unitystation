@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_greysoft_flipped
-      sprite: {fileID: 21300000, guid: b319784f7f45a4c489191b316eec9631, type: 3}
+    - sprite: {fileID: 21300000, guid: b319784f7f45a4c489191b316eec9631, type: 3}
+      spriteName: hats_greysoft_flipped
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

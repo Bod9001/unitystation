@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: toxinsspecialglass_0
-      sprite: {fileID: 21300000, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+    - sprite: {fileID: 21300000, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+      spriteName: toxinsspecialglass_0
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: toxinsspecialglass_1
-      sprite: {fileID: 21300002, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+    - sprite: {fileID: 21300002, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+      spriteName: toxinsspecialglass_1
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: toxinsspecialglass_2
-      sprite: {fileID: 21300004, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+    - sprite: {fileID: 21300004, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+      spriteName: toxinsspecialglass_2
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: toxinsspecialglass_3
-      sprite: {fileID: 21300006, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+    - sprite: {fileID: 21300006, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+      spriteName: toxinsspecialglass_3
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: toxinsspecialglass_4
-      sprite: {fileID: 21300008, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+    - sprite: {fileID: 21300008, guid: 5593c7d99f5cf3c49a48518861b48121, type: 3}
+      spriteName: toxinsspecialglass_4
       secondDelay: 0.2
       AtlasUsing: 5
   IsPalette: 0

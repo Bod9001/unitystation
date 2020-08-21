@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: __inhand_template_east_parts
-      sprite: {fileID: 21300000, guid: d4274139f548f0547a225dd745bd144f, type: 3}
+    - sprite: {fileID: 21300000, guid: d4274139f548f0547a225dd745bd144f, type: 3}
+      spriteName: __inhand_template_east_parts
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

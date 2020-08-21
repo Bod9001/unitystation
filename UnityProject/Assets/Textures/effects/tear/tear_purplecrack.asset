@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: purplecrack_0
-      sprite: {fileID: 21300000, guid: f612642c2aa9af44a8df5ef58f475fb4, type: 3}
+    - sprite: {fileID: 21300000, guid: f612642c2aa9af44a8df5ef58f475fb4, type: 3}
+      spriteName: purplecrack_0
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: purplecrack_1
-      sprite: {fileID: 21300002, guid: f612642c2aa9af44a8df5ef58f475fb4, type: 3}
+    - sprite: {fileID: 21300002, guid: f612642c2aa9af44a8df5ef58f475fb4, type: 3}
+      spriteName: purplecrack_1
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: purplecrack_2
-      sprite: {fileID: 21300004, guid: f612642c2aa9af44a8df5ef58f475fb4, type: 3}
+    - sprite: {fileID: 21300004, guid: f612642c2aa9af44a8df5ef58f475fb4, type: 3}
+      spriteName: purplecrack_2
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

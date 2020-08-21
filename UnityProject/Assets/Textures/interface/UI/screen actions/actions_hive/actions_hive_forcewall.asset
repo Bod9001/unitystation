@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_hive_forcewall
-      sprite: {fileID: 21300000, guid: b91a2dfa821ac274eb7a9c5c4ece7fcf, type: 3}
+    - sprite: {fileID: 21300000, guid: b91a2dfa821ac274eb7a9c5c4ece7fcf, type: 3}
+      spriteName: actions_hive_forcewall
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

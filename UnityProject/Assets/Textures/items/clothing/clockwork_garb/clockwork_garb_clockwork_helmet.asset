@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clockwork_garb_clockwork_helmet
-      sprite: {fileID: 21300000, guid: 579c09a1ca34a9443b7a548d121b4567, type: 3}
+    - sprite: {fileID: 21300000, guid: 579c09a1ca34a9443b7a548d121b4567, type: 3}
+      spriteName: clockwork_garb_clockwork_helmet
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

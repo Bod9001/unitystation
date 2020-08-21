@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_clockcult_warp_cancel
-      sprite: {fileID: 21300000, guid: dc314bcfe89211440b1e719bec54d343, type: 3}
+    - sprite: {fileID: 21300000, guid: dc314bcfe89211440b1e719bec54d343, type: 3}
+      spriteName: actions_clockcult_warp_cancel
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

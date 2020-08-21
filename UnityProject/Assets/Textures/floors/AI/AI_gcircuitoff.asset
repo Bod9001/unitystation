@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: AI_gcircuitoff
-      sprite: {fileID: 21300000, guid: b235aff7e3e3f064f98b0ef1064b24de, type: 3}
+    - sprite: {fileID: 21300000, guid: b235aff7e3e3f064f98b0ef1064b24de, type: 3}
+      spriteName: AI_gcircuitoff
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

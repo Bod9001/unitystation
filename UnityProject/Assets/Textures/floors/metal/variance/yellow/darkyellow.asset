@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: darkyellow_0
-      sprite: {fileID: 21300000, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+    - sprite: {fileID: 21300000, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+      spriteName: darkyellow_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkyellow_1
-      sprite: {fileID: 21300002, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+    - sprite: {fileID: 21300002, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+      spriteName: darkyellow_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkyellow_2
-      sprite: {fileID: 21300004, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+    - sprite: {fileID: 21300004, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+      spriteName: darkyellow_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkyellow_3
-      sprite: {fileID: 21300006, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+    - sprite: {fileID: 21300006, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+      spriteName: darkyellow_3
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkyellow_4
-      sprite: {fileID: 21300008, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+    - sprite: {fileID: 21300008, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+      spriteName: darkyellow_4
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkyellow_5
-      sprite: {fileID: 21300010, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+    - sprite: {fileID: 21300010, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+      spriteName: darkyellow_5
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkyellow_6
-      sprite: {fileID: 21300012, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+    - sprite: {fileID: 21300012, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+      spriteName: darkyellow_6
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: darkyellow_7
-      sprite: {fileID: 21300014, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+    - sprite: {fileID: 21300014, guid: 0c02647dce695c1409173b0ae146fb60, type: 3}
+      spriteName: darkyellow_7
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

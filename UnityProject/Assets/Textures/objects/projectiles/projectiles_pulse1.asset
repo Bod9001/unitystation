@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: projectiles_pulse1
-      sprite: {fileID: 21300000, guid: 914068fe108fa164d9c5224c93b7642a, type: 3}
+    - sprite: {fileID: 21300000, guid: 914068fe108fa164d9c5224c93b7642a, type: 3}
+      spriteName: projectiles_pulse1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: carp_0
-      sprite: {fileID: -8720549234139205794, guid: 456c311d44442db4fa2eba5c060c0c9e,
+    - sprite: {fileID: -8720549234139205794, guid: 456c311d44442db4fa2eba5c060c0c9e,
         type: 3}
+      spriteName: carp_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: carp_1
-      sprite: {fileID: -7831019203310980392, guid: 456c311d44442db4fa2eba5c060c0c9e,
+    - sprite: {fileID: -7831019203310980392, guid: 456c311d44442db4fa2eba5c060c0c9e,
         type: 3}
+      spriteName: carp_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: carp_2
-      sprite: {fileID: 8926052538036840028, guid: 456c311d44442db4fa2eba5c060c0c9e,
+    - sprite: {fileID: 8926052538036840028, guid: 456c311d44442db4fa2eba5c060c0c9e,
         type: 3}
+      spriteName: carp_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: carp_3
-      sprite: {fileID: 1227128927980828546, guid: 456c311d44442db4fa2eba5c060c0c9e,
+    - sprite: {fileID: 1227128927980828546, guid: 456c311d44442db4fa2eba5c060c0c9e,
         type: 3}
+      spriteName: carp_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

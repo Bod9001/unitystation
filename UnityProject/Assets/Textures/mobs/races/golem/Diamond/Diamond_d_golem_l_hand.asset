@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: d_golem_l_hand_0
-      sprite: {fileID: 21300000, guid: aea16fbfb92051047a172cd658254b2f, type: 3}
+    - sprite: {fileID: 21300000, guid: aea16fbfb92051047a172cd658254b2f, type: 3}
+      spriteName: d_golem_l_hand_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: d_golem_l_hand_1
-      sprite: {fileID: 21300002, guid: aea16fbfb92051047a172cd658254b2f, type: 3}
+    - sprite: {fileID: 21300002, guid: aea16fbfb92051047a172cd658254b2f, type: 3}
+      spriteName: d_golem_l_hand_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: d_golem_l_hand_2
-      sprite: {fileID: 21300004, guid: aea16fbfb92051047a172cd658254b2f, type: 3}
+    - sprite: {fileID: 21300004, guid: aea16fbfb92051047a172cd658254b2f, type: 3}
+      spriteName: d_golem_l_hand_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: d_golem_l_hand_3
-      sprite: {fileID: 21300006, guid: aea16fbfb92051047a172cd658254b2f, type: 3}
+    - sprite: {fileID: 21300006, guid: aea16fbfb92051047a172cd658254b2f, type: 3}
+      spriteName: d_golem_l_hand_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

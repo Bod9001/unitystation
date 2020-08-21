@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ripley_firefighter-broken
-      sprite: {fileID: 21300000, guid: 484c352b52b20724c81f27a256111f99, type: 3}
+    - sprite: {fileID: 21300000, guid: 484c352b52b20724c81f27a256111f99, type: 3}
+      spriteName: ripley_firefighter-broken
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

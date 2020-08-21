@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: corgi_corgi_dead
-      sprite: {fileID: 21300000, guid: 359410cfbfeb9b548bfc8e3c69653be4, type: 3}
+    - sprite: {fileID: 21300000, guid: 359410cfbfeb9b548bfc8e3c69653be4, type: 3}
+      spriteName: corgi_corgi_dead
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

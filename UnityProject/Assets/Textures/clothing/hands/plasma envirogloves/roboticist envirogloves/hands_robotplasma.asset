@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: robotplasma_0
-      sprite: {fileID: -4376181148393084652, guid: a7b56d0e1fb057240bee8830d331f666,
+    - sprite: {fileID: -4376181148393084652, guid: a7b56d0e1fb057240bee8830d331f666,
         type: 3}
+      spriteName: robotplasma_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: robotplasma_1
-      sprite: {fileID: 6970944966258569671, guid: a7b56d0e1fb057240bee8830d331f666,
+    - sprite: {fileID: 6970944966258569671, guid: a7b56d0e1fb057240bee8830d331f666,
         type: 3}
+      spriteName: robotplasma_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: robotplasma_2
-      sprite: {fileID: 3492132262414958846, guid: a7b56d0e1fb057240bee8830d331f666,
+    - sprite: {fileID: 3492132262414958846, guid: a7b56d0e1fb057240bee8830d331f666,
         type: 3}
+      spriteName: robotplasma_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: robotplasma_3
-      sprite: {fileID: 6349902048223647110, guid: a7b56d0e1fb057240bee8830d331f666,
+    - sprite: {fileID: 6349902048223647110, guid: a7b56d0e1fb057240bee8830d331f666,
         type: 3}
+      spriteName: robotplasma_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

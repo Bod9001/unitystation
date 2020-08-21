@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: uniforms_barman
-      sprite: {fileID: 21300000, guid: 31f732b7d5a73cf42b58f7eb9590ac89, type: 3}
+    - sprite: {fileID: 21300000, guid: 31f732b7d5a73cf42b58f7eb9590ac89, type: 3}
+      spriteName: uniforms_barman
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

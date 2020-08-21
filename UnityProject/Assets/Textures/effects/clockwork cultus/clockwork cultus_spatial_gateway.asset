@@ -14,100 +14,100 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: spatial_gateway_0
-      sprite: {fileID: 21300000, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300000, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_0
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_1
-      sprite: {fileID: 21300002, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300002, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_1
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_2
-      sprite: {fileID: 21300004, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300004, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_2
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_3
-      sprite: {fileID: 21300006, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300006, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_3
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_4
-      sprite: {fileID: 21300008, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300008, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_4
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_5
-      sprite: {fileID: 21300010, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300010, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_5
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_6
-      sprite: {fileID: 21300012, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300012, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_6
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_7
-      sprite: {fileID: 21300014, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300014, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_7
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_8
-      sprite: {fileID: 21300016, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300016, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_8
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_9
-      sprite: {fileID: 21300018, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300018, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_9
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_10
-      sprite: {fileID: 21300020, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300020, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_10
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_11
-      sprite: {fileID: 21300022, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300022, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_11
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_12
-      sprite: {fileID: 21300024, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300024, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_12
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_13
-      sprite: {fileID: 21300026, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300026, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_13
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_14
-      sprite: {fileID: 21300028, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300028, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_14
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_15
-      sprite: {fileID: 21300030, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300030, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_15
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_16
-      sprite: {fileID: 21300032, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300032, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_16
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_17
-      sprite: {fileID: 21300034, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300034, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_17
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_18
-      sprite: {fileID: 21300036, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300036, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_18
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_19
-      sprite: {fileID: 21300038, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300038, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_19
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_20
-      sprite: {fileID: 21300040, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300040, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_20
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_21
-      sprite: {fileID: 21300042, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300042, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_21
       secondDelay: 0.06
       AtlasUsing: 9
-    - spriteName: spatial_gateway_22
-      sprite: {fileID: 21300044, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300044, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_22
       secondDelay: 0.03
       AtlasUsing: 9
-    - spriteName: spatial_gateway_23
-      sprite: {fileID: 21300046, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+    - sprite: {fileID: 21300046, guid: 62a4bee9b904a8b42909dff7d79ea378, type: 3}
+      spriteName: spatial_gateway_23
       secondDelay: 0.03
       AtlasUsing: 9
   IsPalette: 0

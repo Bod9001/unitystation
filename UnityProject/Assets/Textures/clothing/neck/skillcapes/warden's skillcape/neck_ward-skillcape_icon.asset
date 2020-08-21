@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ward-skillcape_1
-      sprite: {fileID: 2945873466693642958, guid: 88d59481876b61a4dba9226c9217496d,
+    - sprite: {fileID: 2945873466693642958, guid: 88d59481876b61a4dba9226c9217496d,
         type: 3}
+      spriteName: ward-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: syringe_lepopen0
-      sprite: {fileID: 21300000, guid: 02692010e830cbc449d4b372feaedbd3, type: 3}
+    - sprite: {fileID: 21300000, guid: 02692010e830cbc449d4b372feaedbd3, type: 3}
+      spriteName: syringe_lepopen0
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

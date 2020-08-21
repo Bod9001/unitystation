@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bar-skillcape_0
-      sprite: {fileID: 7224921127839064331, guid: d817adfc5b69d50449c26d61bef53015,
+    - sprite: {fileID: 7224921127839064331, guid: d817adfc5b69d50449c26d61bef53015,
         type: 3}
+      spriteName: bar-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bar-skillcape_1
-      sprite: {fileID: 543658904937170168, guid: d817adfc5b69d50449c26d61bef53015,
+    - sprite: {fileID: 543658904937170168, guid: d817adfc5b69d50449c26d61bef53015,
         type: 3}
+      spriteName: bar-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bar-skillcape_2
-      sprite: {fileID: -5450365699952083102, guid: d817adfc5b69d50449c26d61bef53015,
+    - sprite: {fileID: -5450365699952083102, guid: d817adfc5b69d50449c26d61bef53015,
         type: 3}
+      spriteName: bar-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: bar-skillcape_3
-      sprite: {fileID: -1505313072831923517, guid: d817adfc5b69d50449c26d61bef53015,
+    - sprite: {fileID: -1505313072831923517, guid: d817adfc5b69d50449c26d61bef53015,
         type: 3}
+      spriteName: bar-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: containers_donutbox1
-      sprite: {fileID: 21300000, guid: 0716dd09dd7de8748b4ca3ae87db7dda, type: 3}
+    - sprite: {fileID: 21300000, guid: 0716dd09dd7de8748b4ca3ae87db7dda, type: 3}
+      spriteName: containers_donutbox1
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

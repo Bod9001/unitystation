@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cultpack_0
-      sprite: {fileID: 819399290335842192, guid: c01c9abd1b3a7ac4d90970f705c07154,
+    - sprite: {fileID: 819399290335842192, guid: c01c9abd1b3a7ac4d90970f705c07154,
         type: 3}
+      spriteName: cultpack_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: cultpack_1
-      sprite: {fileID: 68212661224309576, guid: c01c9abd1b3a7ac4d90970f705c07154,
+    - sprite: {fileID: 68212661224309576, guid: c01c9abd1b3a7ac4d90970f705c07154,
         type: 3}
+      spriteName: cultpack_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: cultpack_2
-      sprite: {fileID: -3072578733318889211, guid: c01c9abd1b3a7ac4d90970f705c07154,
+    - sprite: {fileID: -3072578733318889211, guid: c01c9abd1b3a7ac4d90970f705c07154,
         type: 3}
+      spriteName: cultpack_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: cultpack_3
-      sprite: {fileID: 658840229766524071, guid: c01c9abd1b3a7ac4d90970f705c07154,
+    - sprite: {fileID: 658840229766524071, guid: c01c9abd1b3a7ac4d90970f705c07154,
         type: 3}
+      spriteName: cultpack_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

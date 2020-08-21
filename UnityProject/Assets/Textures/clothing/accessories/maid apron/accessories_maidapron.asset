@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: maidapron_0
-      sprite: {fileID: 21300000, guid: d8d69ca14e088c64ab1b6d44ecb63f3e, type: 3}
+    - sprite: {fileID: 21300000, guid: d8d69ca14e088c64ab1b6d44ecb63f3e, type: 3}
+      spriteName: maidapron_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: maidapron_1
-      sprite: {fileID: 21300002, guid: d8d69ca14e088c64ab1b6d44ecb63f3e, type: 3}
+    - sprite: {fileID: 21300002, guid: d8d69ca14e088c64ab1b6d44ecb63f3e, type: 3}
+      spriteName: maidapron_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: maidapron_2
-      sprite: {fileID: 21300004, guid: d8d69ca14e088c64ab1b6d44ecb63f3e, type: 3}
+    - sprite: {fileID: 21300004, guid: d8d69ca14e088c64ab1b6d44ecb63f3e, type: 3}
+      spriteName: maidapron_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: maidapron_3
-      sprite: {fileID: 21300006, guid: d8d69ca14e088c64ab1b6d44ecb63f3e, type: 3}
+    - sprite: {fileID: 21300006, guid: d8d69ca14e088c64ab1b6d44ecb63f3e, type: 3}
+      spriteName: maidapron_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

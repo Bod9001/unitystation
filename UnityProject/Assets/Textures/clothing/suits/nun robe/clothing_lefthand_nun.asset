@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: nun_0
-      sprite: {fileID: 21300000, guid: b0078bf1f0225ec42b927d197301826b, type: 3}
+    - sprite: {fileID: 21300000, guid: b0078bf1f0225ec42b927d197301826b, type: 3}
+      spriteName: nun_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: nun_1
-      sprite: {fileID: 21300002, guid: b0078bf1f0225ec42b927d197301826b, type: 3}
+    - sprite: {fileID: 21300002, guid: b0078bf1f0225ec42b927d197301826b, type: 3}
+      spriteName: nun_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: nun_2
-      sprite: {fileID: 21300004, guid: b0078bf1f0225ec42b927d197301826b, type: 3}
+    - sprite: {fileID: 21300004, guid: b0078bf1f0225ec42b927d197301826b, type: 3}
+      spriteName: nun_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: nun_3
-      sprite: {fileID: 21300006, guid: b0078bf1f0225ec42b927d197301826b, type: 3}
+    - sprite: {fileID: 21300006, guid: b0078bf1f0225ec42b927d197301826b, type: 3}
+      spriteName: nun_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: teg-oc11_0
-      sprite: {fileID: 21300000, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+    - sprite: {fileID: 21300000, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+      spriteName: teg-oc11_0
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: teg-oc11_4
-      sprite: {fileID: 21300008, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-  - Frames:
-    - spriteName: teg-oc11_1
-      sprite: {fileID: 21300002, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 8
-    - spriteName: teg-oc11_5
-      sprite: {fileID: 21300010, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+    - sprite: {fileID: 21300008, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+      spriteName: teg-oc11_4
       secondDelay: 0.3
       AtlasUsing: 8
   - Frames:
-    - spriteName: teg-oc11_2
-      sprite: {fileID: 21300004, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+    - sprite: {fileID: 21300002, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+      spriteName: teg-oc11_1
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: teg-oc11_6
-      sprite: {fileID: 21300012, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+    - sprite: {fileID: 21300010, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+      spriteName: teg-oc11_5
       secondDelay: 0.3
       AtlasUsing: 8
   - Frames:
-    - spriteName: teg-oc11_3
-      sprite: {fileID: 21300006, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+    - sprite: {fileID: 21300004, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+      spriteName: teg-oc11_2
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: teg-oc11_7
-      sprite: {fileID: 21300014, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+    - sprite: {fileID: 21300012, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+      spriteName: teg-oc11_6
+      secondDelay: 0.3
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300006, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+      spriteName: teg-oc11_3
+      secondDelay: 0.3
+      AtlasUsing: 8
+    - sprite: {fileID: 21300014, guid: b1c154d36fbb55640afaaabba57f0f2a, type: 3}
+      spriteName: teg-oc11_7
       secondDelay: 0.3
       AtlasUsing: 8
   IsPalette: 0

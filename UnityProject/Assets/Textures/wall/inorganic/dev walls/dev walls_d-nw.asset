@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dev walls_d-nw
-      sprite: {fileID: 21300000, guid: 72cbac14badb48642803c9cc00387bee, type: 3}
+    - sprite: {fileID: 21300000, guid: 72cbac14badb48642803c9cc00387bee, type: 3}
+      spriteName: dev walls_d-nw
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

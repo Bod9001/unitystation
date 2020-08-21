@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: snail_0
-      sprite: {fileID: -6207193392188836992, guid: 9998275d4460993438f796c4f7204f77,
+    - sprite: {fileID: -6207193392188836992, guid: 9998275d4460993438f796c4f7204f77,
         type: 3}
+      spriteName: snail_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: snail_1
-      sprite: {fileID: -2892910820977171364, guid: 9998275d4460993438f796c4f7204f77,
+    - sprite: {fileID: -2892910820977171364, guid: 9998275d4460993438f796c4f7204f77,
         type: 3}
+      spriteName: snail_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: snail_2
-      sprite: {fileID: -3278524096712110203, guid: 9998275d4460993438f796c4f7204f77,
+    - sprite: {fileID: -3278524096712110203, guid: 9998275d4460993438f796c4f7204f77,
         type: 3}
+      spriteName: snail_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: snail_3
-      sprite: {fileID: 8991455535210373810, guid: 9998275d4460993438f796c4f7204f77,
+    - sprite: {fileID: 8991455535210373810, guid: 9998275d4460993438f796c4f7204f77,
         type: 3}
+      spriteName: snail_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

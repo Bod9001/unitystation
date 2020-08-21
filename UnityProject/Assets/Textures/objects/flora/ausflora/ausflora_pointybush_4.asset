@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ausflora_pointybush_4
-      sprite: {fileID: 21300000, guid: f4a81cd7a411c3b47a28f7964934cf94, type: 3}
+    - sprite: {fileID: 21300000, guid: f4a81cd7a411c3b47a28f7964934cf94, type: 3}
+      spriteName: ausflora_pointybush_4
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

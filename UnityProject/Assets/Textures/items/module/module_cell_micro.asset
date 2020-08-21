@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: module_cell_micro
-      sprite: {fileID: 21300000, guid: 29b86e67dd480b348b55cb2c2f646502, type: 3}
+    - sprite: {fileID: 21300000, guid: 29b86e67dd480b348b55cb2c2f646502, type: 3}
+      spriteName: module_cell_micro
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: wardenberet_0
-      sprite: {fileID: 21300000, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
+    - sprite: {fileID: 21300000, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
+      spriteName: wardenberet_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: wardenberet_1
-      sprite: {fileID: 21300002, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
+    - sprite: {fileID: 21300002, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
+      spriteName: wardenberet_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: wardenberet_2
-      sprite: {fileID: 21300004, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
+    - sprite: {fileID: 21300004, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
+      spriteName: wardenberet_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: wardenberet_3
-      sprite: {fileID: 21300006, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
+    - sprite: {fileID: 21300006, guid: e1b7d3c3f396ad9449cf9f77c3742bdf, type: 3}
+      spriteName: wardenberet_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: door_assembly_door_as_min1
-      sprite: {fileID: 21300000, guid: 995cd3fadfaf7be4fbc20dfdd395c9a3, type: 3}
+    - sprite: {fileID: 21300000, guid: 995cd3fadfaf7be4fbc20dfdd395c9a3, type: 3}
+      spriteName: door_assembly_door_as_min1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

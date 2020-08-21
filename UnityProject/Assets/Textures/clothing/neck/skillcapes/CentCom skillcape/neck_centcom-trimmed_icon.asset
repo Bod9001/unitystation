@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: centcom-trimmed_1
-      sprite: {fileID: -6090794538463514114, guid: a961bf8b51e1bd1478fa70f9e8b0b371,
+    - sprite: {fileID: -6090794538463514114, guid: a961bf8b51e1bd1478fa70f9e8b0b371,
         type: 3}
+      spriteName: centcom-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

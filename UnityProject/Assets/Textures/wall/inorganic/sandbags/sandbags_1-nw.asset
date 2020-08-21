@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sandbags_1-nw
-      sprite: {fileID: 21300000, guid: 705ed80508f3cb649bc5a6b67b4e51d0, type: 3}
+    - sprite: {fileID: 21300000, guid: 705ed80508f3cb649bc5a6b67b4e51d0, type: 3}
+      spriteName: sandbags_1-nw
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

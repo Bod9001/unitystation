@@ -14,151 +14,151 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: m_waggingtail_spikes_FRONT_0
-      sprite: {fileID: 21300000, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300000, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_0
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_4
-      sprite: {fileID: 21300008, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300008, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_4
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_8
-      sprite: {fileID: 21300016, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300016, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_8
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_12
-      sprite: {fileID: 21300024, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300024, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_12
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_16
-      sprite: {fileID: 21300032, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300032, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_16
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_20
-      sprite: {fileID: 21300040, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300040, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_20
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_24
-      sprite: {fileID: 21300048, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300048, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_24
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_28
-      sprite: {fileID: 21300056, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300056, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_28
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_32
-      sprite: {fileID: 21300064, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-  - Frames:
-    - spriteName: m_waggingtail_spikes_FRONT_1
-      sprite: {fileID: 21300002, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_5
-      sprite: {fileID: 21300010, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_9
-      sprite: {fileID: 21300018, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_13
-      sprite: {fileID: 21300026, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_17
-      sprite: {fileID: 21300034, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_21
-      sprite: {fileID: 21300042, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_25
-      sprite: {fileID: 21300050, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_29
-      sprite: {fileID: 21300058, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_33
-      sprite: {fileID: 21300066, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300064, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_32
       secondDelay: 0.1
       AtlasUsing: 6
   - Frames:
-    - spriteName: m_waggingtail_spikes_FRONT_2
-      sprite: {fileID: 21300004, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300002, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_1
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_6
-      sprite: {fileID: 21300012, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300010, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_5
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_10
-      sprite: {fileID: 21300020, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300018, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_9
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_14
-      sprite: {fileID: 21300028, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300026, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_13
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_18
-      sprite: {fileID: 21300036, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300034, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_17
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_22
-      sprite: {fileID: 21300044, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300042, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_21
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_26
-      sprite: {fileID: 21300052, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300050, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_25
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_30
-      sprite: {fileID: 21300060, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300058, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_29
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_34
-      sprite: {fileID: 21300068, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300066, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_33
       secondDelay: 0.1
       AtlasUsing: 6
   - Frames:
-    - spriteName: m_waggingtail_spikes_FRONT_3
-      sprite: {fileID: 21300006, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300004, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_7
-      sprite: {fileID: 21300014, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300012, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_6
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_11
-      sprite: {fileID: 21300022, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300020, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_10
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_15
-      sprite: {fileID: 21300030, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300028, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_14
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_19
-      sprite: {fileID: 21300038, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300036, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_18
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_23
-      sprite: {fileID: 21300046, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300044, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_22
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_27
-      sprite: {fileID: 21300054, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300052, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_26
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_31
-      sprite: {fileID: 21300062, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300060, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_30
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: m_waggingtail_spikes_FRONT_35
-      sprite: {fileID: 21300070, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+    - sprite: {fileID: 21300068, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_34
+      secondDelay: 0.1
+      AtlasUsing: 6
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_3
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300014, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_7
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300022, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_11
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300030, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_15
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300038, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_19
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300046, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_23
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300054, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_27
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300062, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_31
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300070, guid: 50350ae14afb34841abf47b09c6cd61e, type: 3}
+      spriteName: m_waggingtail_spikes_FRONT_35
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

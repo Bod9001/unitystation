@@ -14,71 +14,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: flightpack_on_mob_0
-      sprite: {fileID: 21300000, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300000, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: flightpack_on_mob_4
-      sprite: {fileID: 21300008, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300008, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_4
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: flightpack_on_mob_8
-      sprite: {fileID: 21300016, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300016, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_8
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: flightpack_on_mob_12
-      sprite: {fileID: 21300024, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-  - Frames:
-    - spriteName: flightpack_on_mob_1
-      sprite: {fileID: 21300002, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: flightpack_on_mob_5
-      sprite: {fileID: 21300010, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: flightpack_on_mob_9
-      sprite: {fileID: 21300018, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 5
-    - spriteName: flightpack_on_mob_13
-      sprite: {fileID: 21300026, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300024, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_12
       secondDelay: 0.1
       AtlasUsing: 5
   - Frames:
-    - spriteName: flightpack_on_mob_2
-      sprite: {fileID: 21300004, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300002, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_1
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: flightpack_on_mob_6
-      sprite: {fileID: 21300012, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300010, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_5
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: flightpack_on_mob_10
-      sprite: {fileID: 21300020, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300018, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_9
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: flightpack_on_mob_14
-      sprite: {fileID: 21300028, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300026, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_13
       secondDelay: 0.1
       AtlasUsing: 5
   - Frames:
-    - spriteName: flightpack_on_mob_3
-      sprite: {fileID: 21300006, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300004, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_2
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: flightpack_on_mob_7
-      sprite: {fileID: 21300014, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300012, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_6
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: flightpack_on_mob_11
-      sprite: {fileID: 21300022, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300020, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_10
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: flightpack_on_mob_15
-      sprite: {fileID: 21300030, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+    - sprite: {fileID: 21300028, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_14
+      secondDelay: 0.1
+      AtlasUsing: 5
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_3
+      secondDelay: 0.1
+      AtlasUsing: 5
+    - sprite: {fileID: 21300014, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_7
+      secondDelay: 0.1
+      AtlasUsing: 5
+    - sprite: {fileID: 21300022, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_11
+      secondDelay: 0.1
+      AtlasUsing: 5
+    - sprite: {fileID: 21300030, guid: 2e6d80757d0d55f48b3e869d72fca3cd, type: 3}
+      spriteName: flightpack_on_mob_15
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

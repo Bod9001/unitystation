@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: power_hcell
-      sprite: {fileID: 21300000, guid: 784fe06218bb6a4438c447e57538983b, type: 3}
+    - sprite: {fileID: 21300000, guid: 784fe06218bb6a4438c447e57538983b, type: 3}
+      spriteName: power_hcell
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

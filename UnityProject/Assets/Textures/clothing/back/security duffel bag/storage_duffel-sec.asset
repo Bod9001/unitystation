@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_duffel-sec
-      sprite: {fileID: 21300000, guid: 6b7d59ded2c9600458077254c3d51df7, type: 3}
+    - sprite: {fileID: 21300000, guid: 6b7d59ded2c9600458077254c3d51df7, type: 3}
+      spriteName: storage_duffel-sec
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

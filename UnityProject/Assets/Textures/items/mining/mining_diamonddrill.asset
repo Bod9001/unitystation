@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mining_diamonddrill
-      sprite: {fileID: 21300000, guid: bc14c14e4fb4a6c45ae84f441e033732, type: 3}
+    - sprite: {fileID: 21300000, guid: bc14c14e4fb4a6c45ae84f441e033732, type: 3}
+      spriteName: mining_diamonddrill
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

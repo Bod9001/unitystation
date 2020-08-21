@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: coatwinter_0
-      sprite: {fileID: 21300000, guid: 4f1f1ebf051b5b34e927548ce416c0d2, type: 3}
+    - sprite: {fileID: 21300000, guid: 4f1f1ebf051b5b34e927548ce416c0d2, type: 3}
+      spriteName: coatwinter_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: coatwinter_1
-      sprite: {fileID: 21300002, guid: 4f1f1ebf051b5b34e927548ce416c0d2, type: 3}
+    - sprite: {fileID: 21300002, guid: 4f1f1ebf051b5b34e927548ce416c0d2, type: 3}
+      spriteName: coatwinter_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: coatwinter_2
-      sprite: {fileID: 21300004, guid: 4f1f1ebf051b5b34e927548ce416c0d2, type: 3}
+    - sprite: {fileID: 21300004, guid: 4f1f1ebf051b5b34e927548ce416c0d2, type: 3}
+      spriteName: coatwinter_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: coatwinter_3
-      sprite: {fileID: 21300006, guid: 4f1f1ebf051b5b34e927548ce416c0d2, type: 3}
+    - sprite: {fileID: 21300006, guid: 4f1f1ebf051b5b34e927548ce416c0d2, type: 3}
+      spriteName: coatwinter_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

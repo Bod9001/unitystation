@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sandstone_construction
-      sprite: {fileID: 21300000, guid: 35002ef5f7394d5479d8cbebcc30536b, type: 3}
+    - sprite: {fileID: 21300000, guid: 35002ef5f7394d5479d8cbebcc30536b, type: 3}
+      spriteName: sandstone_construction
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

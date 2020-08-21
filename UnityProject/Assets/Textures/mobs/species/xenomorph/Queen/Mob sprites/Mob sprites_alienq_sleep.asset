@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Mob sprites_alienq_sleep
-      sprite: {fileID: 21300000, guid: 742e6dd8d30d0cb469c0361e46b48293, type: 3}
+    - sprite: {fileID: 21300000, guid: 742e6dd8d30d0cb469c0361e46b48293, type: 3}
+      spriteName: Mob sprites_alienq_sleep
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

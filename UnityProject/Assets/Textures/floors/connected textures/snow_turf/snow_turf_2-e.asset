@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: snow_turf_2-e
-      sprite: {fileID: 21300000, guid: 87e312dc5b672ff4ab3b50bd5a7b99ea, type: 3}
+    - sprite: {fileID: 21300000, guid: 87e312dc5b672ff4ab3b50bd5a7b99ea, type: 3}
+      spriteName: snow_turf_2-e
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

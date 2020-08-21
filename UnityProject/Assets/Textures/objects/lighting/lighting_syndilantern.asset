@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lighting_syndilantern
-      sprite: {fileID: 21300000, guid: 6e53006dfab00e14c90ffb49d247af87, type: 3}
+    - sprite: {fileID: 21300000, guid: 6e53006dfab00e14c90ffb49d247af87, type: 3}
+      spriteName: lighting_syndilantern
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: soulstonebelt_0
-      sprite: {fileID: 21300000, guid: a7d0ffc8a636c834fb755e984855a5cf, type: 3}
+    - sprite: {fileID: 21300000, guid: a7d0ffc8a636c834fb755e984855a5cf, type: 3}
+      spriteName: soulstonebelt_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: soulstonebelt_1
-      sprite: {fileID: 21300002, guid: a7d0ffc8a636c834fb755e984855a5cf, type: 3}
+    - sprite: {fileID: 21300002, guid: a7d0ffc8a636c834fb755e984855a5cf, type: 3}
+      spriteName: soulstonebelt_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: soulstonebelt_2
-      sprite: {fileID: 21300004, guid: a7d0ffc8a636c834fb755e984855a5cf, type: 3}
+    - sprite: {fileID: 21300004, guid: a7d0ffc8a636c834fb755e984855a5cf, type: 3}
+      spriteName: soulstonebelt_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: soulstonebelt_3
-      sprite: {fileID: 21300006, guid: a7d0ffc8a636c834fb755e984855a5cf, type: 3}
+    - sprite: {fileID: 21300006, guid: a7d0ffc8a636c834fb755e984855a5cf, type: 3}
+      spriteName: soulstonebelt_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 10047

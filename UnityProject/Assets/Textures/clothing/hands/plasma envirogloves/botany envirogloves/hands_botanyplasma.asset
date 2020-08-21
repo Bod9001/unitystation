@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: botanyplasma_0
-      sprite: {fileID: 1836214251266748804, guid: 115f11a4e93e0454b8e2151a25064207,
+    - sprite: {fileID: 1836214251266748804, guid: 115f11a4e93e0454b8e2151a25064207,
         type: 3}
+      spriteName: botanyplasma_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: botanyplasma_1
-      sprite: {fileID: 333058459526550732, guid: 115f11a4e93e0454b8e2151a25064207,
+    - sprite: {fileID: 333058459526550732, guid: 115f11a4e93e0454b8e2151a25064207,
         type: 3}
+      spriteName: botanyplasma_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: botanyplasma_2
-      sprite: {fileID: 281254178078646925, guid: 115f11a4e93e0454b8e2151a25064207,
+    - sprite: {fileID: 281254178078646925, guid: 115f11a4e93e0454b8e2151a25064207,
         type: 3}
+      spriteName: botanyplasma_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: botanyplasma_3
-      sprite: {fileID: -7590132268746433026, guid: 115f11a4e93e0454b8e2151a25064207,
+    - sprite: {fileID: -7590132268746433026, guid: 115f11a4e93e0454b8e2151a25064207,
         type: 3}
+      spriteName: botanyplasma_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

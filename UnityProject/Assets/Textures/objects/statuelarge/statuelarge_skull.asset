@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: statuelarge_skull
-      sprite: {fileID: 21300000, guid: 72d58d493efa6e34ba781cf371677976, type: 3}
+    - sprite: {fileID: 21300000, guid: 72d58d493efa6e34ba781cf371677976, type: 3}
+      spriteName: statuelarge_skull
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

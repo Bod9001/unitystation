@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: firebot_firebot0
-      sprite: {fileID: 21300000, guid: d896ae98267f9cc4d90326729f56cd6e, type: 3}
+    - sprite: {fileID: 21300000, guid: d896ae98267f9cc4d90326729f56cd6e, type: 3}
+      spriteName: firebot_firebot0
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: infra-igniter1_0
-      sprite: {fileID: 21300000, guid: 8b07a3e2e56acdd4983c0a284298e275, type: 3}
+    - sprite: {fileID: 21300000, guid: 8b07a3e2e56acdd4983c0a284298e275, type: 3}
+      spriteName: infra-igniter1_0
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: infra-igniter1_1
-      sprite: {fileID: 21300002, guid: 8b07a3e2e56acdd4983c0a284298e275, type: 3}
+    - sprite: {fileID: 21300002, guid: 8b07a3e2e56acdd4983c0a284298e275, type: 3}
+      spriteName: infra-igniter1_1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: infra-igniter1_2
-      sprite: {fileID: 21300004, guid: 8b07a3e2e56acdd4983c0a284298e275, type: 3}
+    - sprite: {fileID: 21300004, guid: 8b07a3e2e56acdd4983c0a284298e275, type: 3}
+      spriteName: infra-igniter1_2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: infra-igniter1_3
-      sprite: {fileID: 21300006, guid: 8b07a3e2e56acdd4983c0a284298e275, type: 3}
+    - sprite: {fileID: 21300006, guid: 8b07a3e2e56acdd4983c0a284298e275, type: 3}
+      spriteName: infra-igniter1_3
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

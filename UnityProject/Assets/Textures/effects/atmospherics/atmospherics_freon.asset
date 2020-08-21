@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: freon_0
-      sprite: {fileID: 21300000, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+    - sprite: {fileID: 21300000, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+      spriteName: freon_0
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: freon_1
-      sprite: {fileID: 21300002, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+    - sprite: {fileID: 21300002, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+      spriteName: freon_1
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: freon_2
-      sprite: {fileID: 21300004, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+    - sprite: {fileID: 21300004, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+      spriteName: freon_2
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: freon_3
-      sprite: {fileID: 21300006, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+    - sprite: {fileID: 21300006, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+      spriteName: freon_3
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: freon_4
-      sprite: {fileID: 21300008, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+    - sprite: {fileID: 21300008, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+      spriteName: freon_4
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: freon_5
-      sprite: {fileID: 21300010, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+    - sprite: {fileID: 21300010, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+      spriteName: freon_5
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: freon_6
-      sprite: {fileID: 21300012, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+    - sprite: {fileID: 21300012, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+      spriteName: freon_6
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: freon_7
-      sprite: {fileID: 21300014, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+    - sprite: {fileID: 21300014, guid: d8ce9283a0ccf5f4d935e715b84cf9d3, type: 3}
+      spriteName: freon_7
       secondDelay: 0.2
       AtlasUsing: 9
   IsPalette: 0

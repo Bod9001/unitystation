@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ammo_762-casing-live
-      sprite: {fileID: 21300000, guid: 076264686f879cc43bdac95e81054c8e, type: 3}
+    - sprite: {fileID: 21300000, guid: 076264686f879cc43bdac95e81054c8e, type: 3}
+      spriteName: ammo_762-casing-live
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

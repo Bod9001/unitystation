@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_donkpocket
-      sprite: {fileID: 21300000, guid: 63adcc33620c02740b73c02fd81ebc48, type: 3}
+    - sprite: {fileID: 21300000, guid: 63adcc33620c02740b73c02fd81ebc48, type: 3}
+      spriteName: food_donkpocket
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

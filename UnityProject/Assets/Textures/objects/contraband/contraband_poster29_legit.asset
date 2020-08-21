@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: contraband_poster29_legit
-      sprite: {fileID: 21300000, guid: 898e2293eea96b64b94eb5082a0e9f8e, type: 3}
+    - sprite: {fileID: 21300000, guid: 898e2293eea96b64b94eb5082a0e9f8e, type: 3}
+      spriteName: contraband_poster29_legit
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

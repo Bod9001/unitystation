@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: facial_neckbeard_0
-      sprite: {fileID: 21300000, guid: 7df329a5703619b49a8be87c8658d892, type: 3}
+    - sprite: {fileID: 21300000, guid: 7df329a5703619b49a8be87c8658d892, type: 3}
+      spriteName: facial_neckbeard_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_neckbeard_1
-      sprite: {fileID: 21300002, guid: 7df329a5703619b49a8be87c8658d892, type: 3}
+    - sprite: {fileID: 21300002, guid: 7df329a5703619b49a8be87c8658d892, type: 3}
+      spriteName: facial_neckbeard_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_neckbeard_2
-      sprite: {fileID: 21300004, guid: 7df329a5703619b49a8be87c8658d892, type: 3}
+    - sprite: {fileID: 21300004, guid: 7df329a5703619b49a8be87c8658d892, type: 3}
+      spriteName: facial_neckbeard_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: facial_neckbeard_3
-      sprite: {fileID: 21300006, guid: 7df329a5703619b49a8be87c8658d892, type: 3}
+    - sprite: {fileID: 21300006, guid: 7df329a5703619b49a8be87c8658d892, type: 3}
+      spriteName: facial_neckbeard_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

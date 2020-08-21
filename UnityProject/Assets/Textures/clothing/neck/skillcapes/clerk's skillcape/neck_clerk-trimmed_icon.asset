@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clerk-trimmed_1
-      sprite: {fileID: -4119530309938916290, guid: 0611f946bf2075747a109b8990d3566f,
+    - sprite: {fileID: -4119530309938916290, guid: 0611f946bf2075747a109b8990d3566f,
         type: 3}
+      spriteName: clerk-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

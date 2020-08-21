@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_plasmafire_act_equip
-      sprite: {fileID: 21300000, guid: d23e6e33c0885ad469680784a9453836, type: 3}
+    - sprite: {fileID: 21300000, guid: d23e6e33c0885ad469680784a9453836, type: 3}
+      spriteName: screen_plasmafire_act_equip
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

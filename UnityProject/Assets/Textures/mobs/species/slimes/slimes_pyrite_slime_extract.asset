@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: slimes_pyrite_slime_extract
-      sprite: {fileID: 21300000, guid: fe1c021753e91cd4a8ac45c3fd83bc06, type: 3}
+    - sprite: {fileID: 21300000, guid: fe1c021753e91cd4a8ac45c3fd83bc06, type: 3}
+      spriteName: slimes_pyrite_slime_extract
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

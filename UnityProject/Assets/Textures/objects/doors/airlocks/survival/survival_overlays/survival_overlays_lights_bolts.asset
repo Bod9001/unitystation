@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lights_bolts_0
-      sprite: {fileID: 21300000, guid: 9c6b780c8760f0c41b3572c451276604, type: 3}
+    - sprite: {fileID: 21300000, guid: 9c6b780c8760f0c41b3572c451276604, type: 3}
+      spriteName: lights_bolts_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: lights_bolts_1
-      sprite: {fileID: 21300002, guid: 9c6b780c8760f0c41b3572c451276604, type: 3}
+    - sprite: {fileID: 21300002, guid: 9c6b780c8760f0c41b3572c451276604, type: 3}
+      spriteName: lights_bolts_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: lights_bolts_2
-      sprite: {fileID: 21300004, guid: 9c6b780c8760f0c41b3572c451276604, type: 3}
+    - sprite: {fileID: 21300004, guid: 9c6b780c8760f0c41b3572c451276604, type: 3}
+      spriteName: lights_bolts_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: lights_bolts_3
-      sprite: {fileID: 21300006, guid: 9c6b780c8760f0c41b3572c451276604, type: 3}
+    - sprite: {fileID: 21300006, guid: 9c6b780c8760f0c41b3572c451276604, type: 3}
+      spriteName: lights_bolts_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

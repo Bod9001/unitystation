@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pug_0
-      sprite: {fileID: 21300000, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
+    - sprite: {fileID: 21300000, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
+      spriteName: pug_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: pug_1
-      sprite: {fileID: 21300002, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
+    - sprite: {fileID: 21300002, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
+      spriteName: pug_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: pug_2
-      sprite: {fileID: 21300004, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
+    - sprite: {fileID: 21300004, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
+      spriteName: pug_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: pug_3
-      sprite: {fileID: 21300006, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
+    - sprite: {fileID: 21300006, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
+      spriteName: pug_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

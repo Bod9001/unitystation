@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: space_helmet_syndicate_0
-      sprite: {fileID: 21300000, guid: 8aecf35647fb6d140960d06d8294bae3, type: 3}
+    - sprite: {fileID: 21300000, guid: 8aecf35647fb6d140960d06d8294bae3, type: 3}
+      spriteName: space_helmet_syndicate_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: space_helmet_syndicate_1
-      sprite: {fileID: 21300002, guid: 8aecf35647fb6d140960d06d8294bae3, type: 3}
+    - sprite: {fileID: 21300002, guid: 8aecf35647fb6d140960d06d8294bae3, type: 3}
+      spriteName: space_helmet_syndicate_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: space_helmet_syndicate_2
-      sprite: {fileID: 21300004, guid: 8aecf35647fb6d140960d06d8294bae3, type: 3}
+    - sprite: {fileID: 21300004, guid: 8aecf35647fb6d140960d06d8294bae3, type: 3}
+      spriteName: space_helmet_syndicate_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: space_helmet_syndicate_3
-      sprite: {fileID: 21300006, guid: 8aecf35647fb6d140960d06d8294bae3, type: 3}
+    - sprite: {fileID: 21300006, guid: 8aecf35647fb6d140960d06d8294bae3, type: 3}
+      spriteName: space_helmet_syndicate_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

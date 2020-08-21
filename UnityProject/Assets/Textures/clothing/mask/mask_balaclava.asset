@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: balaclava_0
-      sprite: {fileID: 21300000, guid: 6a16bf6c0b680c342b43ba823460e98d, type: 3}
+    - sprite: {fileID: 21300000, guid: 6a16bf6c0b680c342b43ba823460e98d, type: 3}
+      spriteName: balaclava_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: balaclava_1
-      sprite: {fileID: 21300002, guid: 6a16bf6c0b680c342b43ba823460e98d, type: 3}
+    - sprite: {fileID: 21300002, guid: 6a16bf6c0b680c342b43ba823460e98d, type: 3}
+      spriteName: balaclava_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: balaclava_2
-      sprite: {fileID: 21300004, guid: 6a16bf6c0b680c342b43ba823460e98d, type: 3}
+    - sprite: {fileID: 21300004, guid: 6a16bf6c0b680c342b43ba823460e98d, type: 3}
+      spriteName: balaclava_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: balaclava_3
-      sprite: {fileID: 21300006, guid: 6a16bf6c0b680c342b43ba823460e98d, type: 3}
+    - sprite: {fileID: 21300006, guid: 6a16bf6c0b680c342b43ba823460e98d, type: 3}
+      spriteName: balaclava_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

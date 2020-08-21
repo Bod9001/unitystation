@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: airlock_sensor_cycle_0
-      sprite: {fileID: 21300000, guid: debfdc0f347c38b418068b88c54e7b43, type: 3}
+    - sprite: {fileID: 21300000, guid: debfdc0f347c38b418068b88c54e7b43, type: 3}
+      spriteName: airlock_sensor_cycle_0
       secondDelay: 0.5
       AtlasUsing: 8
-    - spriteName: airlock_sensor_cycle_1
-      sprite: {fileID: 21300002, guid: debfdc0f347c38b418068b88c54e7b43, type: 3}
+    - sprite: {fileID: 21300002, guid: debfdc0f347c38b418068b88c54e7b43, type: 3}
+      spriteName: airlock_sensor_cycle_1
       secondDelay: 0.5
       AtlasUsing: 8
   IsPalette: 0

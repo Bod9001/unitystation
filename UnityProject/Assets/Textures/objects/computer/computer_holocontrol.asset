@@ -14,135 +14,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: holocontrol_0
-      sprite: {fileID: 21300000, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300000, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_0
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_4
-      sprite: {fileID: 21300008, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300008, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holocontrol_8
-      sprite: {fileID: 21300016, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300016, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_8
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_12
-      sprite: {fileID: 21300024, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300024, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_12
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holocontrol_16
-      sprite: {fileID: 21300032, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300032, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_16
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_20
-      sprite: {fileID: 21300040, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300040, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_20
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holocontrol_24
-      sprite: {fileID: 21300048, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300048, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_24
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_28
-      sprite: {fileID: 21300056, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-  - Frames:
-    - spriteName: holocontrol_1
-      sprite: {fileID: 21300002, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
-      secondDelay: 1
-      AtlasUsing: 8
-    - spriteName: holocontrol_5
-      sprite: {fileID: 21300010, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: holocontrol_9
-      sprite: {fileID: 21300018, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
-      secondDelay: 1
-      AtlasUsing: 8
-    - spriteName: holocontrol_13
-      sprite: {fileID: 21300026, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: holocontrol_17
-      sprite: {fileID: 21300034, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
-      secondDelay: 1
-      AtlasUsing: 8
-    - spriteName: holocontrol_21
-      sprite: {fileID: 21300042, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: holocontrol_25
-      sprite: {fileID: 21300050, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
-      secondDelay: 1
-      AtlasUsing: 8
-    - spriteName: holocontrol_29
-      sprite: {fileID: 21300058, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300056, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_28
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: holocontrol_2
-      sprite: {fileID: 21300004, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300002, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_1
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_6
-      sprite: {fileID: 21300012, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300010, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holocontrol_10
-      sprite: {fileID: 21300020, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300018, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_9
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_14
-      sprite: {fileID: 21300028, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300026, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_13
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holocontrol_18
-      sprite: {fileID: 21300036, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300034, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_17
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_22
-      sprite: {fileID: 21300044, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300042, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_21
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holocontrol_26
-      sprite: {fileID: 21300052, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300050, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_25
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_30
-      sprite: {fileID: 21300060, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300058, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_29
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: holocontrol_3
-      sprite: {fileID: 21300006, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300004, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_2
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_7
-      sprite: {fileID: 21300014, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300012, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holocontrol_11
-      sprite: {fileID: 21300022, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300020, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_10
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_15
-      sprite: {fileID: 21300030, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300028, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_14
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holocontrol_19
-      sprite: {fileID: 21300038, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300036, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_18
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_23
-      sprite: {fileID: 21300046, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300044, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_22
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: holocontrol_27
-      sprite: {fileID: 21300054, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300052, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_26
       secondDelay: 1
       AtlasUsing: 8
-    - spriteName: holocontrol_31
-      sprite: {fileID: 21300062, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+    - sprite: {fileID: 21300060, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_30
+      secondDelay: 0.1
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_3
+      secondDelay: 1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300014, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_7
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300022, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_11
+      secondDelay: 1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300030, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_15
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300038, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_19
+      secondDelay: 1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300046, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_23
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300054, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_27
+      secondDelay: 1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300062, guid: 76d8fb1d7c6e24644a561976d3e430e4, type: 3}
+      spriteName: holocontrol_31
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

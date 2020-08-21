@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: waterbackpack_0
-      sprite: {fileID: 21300000, guid: a47ac355055943a40b8bb9725412fe4c, type: 3}
+    - sprite: {fileID: 21300000, guid: a47ac355055943a40b8bb9725412fe4c, type: 3}
+      spriteName: waterbackpack_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: waterbackpack_1
-      sprite: {fileID: 21300002, guid: a47ac355055943a40b8bb9725412fe4c, type: 3}
+    - sprite: {fileID: 21300002, guid: a47ac355055943a40b8bb9725412fe4c, type: 3}
+      spriteName: waterbackpack_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: waterbackpack_2
-      sprite: {fileID: 21300004, guid: a47ac355055943a40b8bb9725412fe4c, type: 3}
+    - sprite: {fileID: 21300004, guid: a47ac355055943a40b8bb9725412fe4c, type: 3}
+      spriteName: waterbackpack_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: waterbackpack_3
-      sprite: {fileID: 21300006, guid: a47ac355055943a40b8bb9725412fe4c, type: 3}
+    - sprite: {fileID: 21300006, guid: a47ac355055943a40b8bb9725412fe4c, type: 3}
+      spriteName: waterbackpack_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

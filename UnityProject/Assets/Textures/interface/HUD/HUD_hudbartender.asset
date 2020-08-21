@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: HUD_hudbartender
-      sprite: {fileID: 21300000, guid: 3f58c921153541f4e875c40ea525d4f9, type: 3}
+    - sprite: {fileID: 21300000, guid: 3f58c921153541f4e875c40ea525d4f9, type: 3}
+      spriteName: HUD_hudbartender
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

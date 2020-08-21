@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: musician_violin
-      sprite: {fileID: 21300000, guid: 77cc8f14df36d954a8be823326293a53, type: 3}
+    - sprite: {fileID: 21300000, guid: 77cc8f14df36d954a8be823326293a53, type: 3}
+      spriteName: musician_violin
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

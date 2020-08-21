@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: overly_rock_Titanium
-      sprite: {fileID: 21300000, guid: 50aa366fdc031af4ba3a0a674b578899, type: 3}
+    - sprite: {fileID: 21300000, guid: 50aa366fdc031af4ba3a0a674b578899, type: 3}
+      spriteName: overly_rock_Titanium
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

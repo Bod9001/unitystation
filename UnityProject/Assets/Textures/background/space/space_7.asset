@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: 7_0
-      sprite: {fileID: 21300000, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+    - sprite: {fileID: 21300000, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+      spriteName: 7_0
       secondDelay: 3.5
       AtlasUsing: 9
-    - spriteName: 7_1
-      sprite: {fileID: 21300002, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+    - sprite: {fileID: 21300002, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+      spriteName: 7_1
       secondDelay: 3.5
       AtlasUsing: 9
-    - spriteName: 7_2
-      sprite: {fileID: 21300004, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+    - sprite: {fileID: 21300004, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+      spriteName: 7_2
       secondDelay: 3.5
       AtlasUsing: 9
-    - spriteName: 7_3
-      sprite: {fileID: 21300006, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+    - sprite: {fileID: 21300006, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+      spriteName: 7_3
       secondDelay: 3.5
       AtlasUsing: 9
-    - spriteName: 7_4
-      sprite: {fileID: 21300008, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+    - sprite: {fileID: 21300008, guid: 7516a9ccb8af61646a78f789ba765bae, type: 3}
+      spriteName: 7_4
       secondDelay: 3.5
       AtlasUsing: 9
   IsPalette: 0

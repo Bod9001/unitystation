@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cult_talismanaltar_off
-      sprite: {fileID: 21300000, guid: 88d15941d6e2e284284f18e032918348, type: 3}
+    - sprite: {fileID: 21300000, guid: 88d15941d6e2e284284f18e032918348, type: 3}
+      spriteName: cult_talismanaltar_off
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

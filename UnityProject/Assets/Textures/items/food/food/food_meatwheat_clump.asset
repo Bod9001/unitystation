@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_meatwheat_clump
-      sprite: {fileID: 21300000, guid: 2d7bc8aabeb43f84e9f71526073a55db, type: 3}
+    - sprite: {fileID: 21300000, guid: 2d7bc8aabeb43f84e9f71526073a55db, type: 3}
+      spriteName: food_meatwheat_clump
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

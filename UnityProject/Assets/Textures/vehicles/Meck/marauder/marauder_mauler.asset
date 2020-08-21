@@ -14,263 +14,263 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mauler_0
-      sprite: {fileID: 21300000, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300000, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_4
-      sprite: {fileID: 21300008, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300008, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_8
-      sprite: {fileID: 21300016, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300016, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_8
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_12
-      sprite: {fileID: 21300024, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300024, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_12
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_16
-      sprite: {fileID: 21300032, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300032, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_16
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_20
-      sprite: {fileID: 21300040, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300040, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_20
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_24
-      sprite: {fileID: 21300048, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300048, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_24
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_28
-      sprite: {fileID: 21300056, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300056, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_28
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_32
-      sprite: {fileID: 21300064, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300064, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_32
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_36
-      sprite: {fileID: 21300072, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300072, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_36
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_40
-      sprite: {fileID: 21300080, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300080, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_40
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_44
-      sprite: {fileID: 21300088, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300088, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_44
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_48
-      sprite: {fileID: 21300096, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300096, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_48
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_52
-      sprite: {fileID: 21300104, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300104, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_52
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_56
-      sprite: {fileID: 21300112, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300112, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_56
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_60
-      sprite: {fileID: 21300120, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-  - Frames:
-    - spriteName: mauler_1
-      sprite: {fileID: 21300002, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_5
-      sprite: {fileID: 21300010, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_9
-      sprite: {fileID: 21300018, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_13
-      sprite: {fileID: 21300026, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_17
-      sprite: {fileID: 21300034, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_21
-      sprite: {fileID: 21300042, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_25
-      sprite: {fileID: 21300050, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_29
-      sprite: {fileID: 21300058, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_33
-      sprite: {fileID: 21300066, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_37
-      sprite: {fileID: 21300074, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_41
-      sprite: {fileID: 21300082, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_45
-      sprite: {fileID: 21300090, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_49
-      sprite: {fileID: 21300098, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_53
-      sprite: {fileID: 21300106, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_57
-      sprite: {fileID: 21300114, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 9
-    - spriteName: mauler_61
-      sprite: {fileID: 21300122, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300120, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_60
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: mauler_2
-      sprite: {fileID: 21300004, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300002, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_6
-      sprite: {fileID: 21300012, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300010, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_10
-      sprite: {fileID: 21300020, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300018, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_9
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_14
-      sprite: {fileID: 21300028, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300026, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_13
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_18
-      sprite: {fileID: 21300036, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300034, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_17
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_22
-      sprite: {fileID: 21300044, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300042, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_21
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_26
-      sprite: {fileID: 21300052, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300050, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_25
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_30
-      sprite: {fileID: 21300060, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300058, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_29
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_34
-      sprite: {fileID: 21300068, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300066, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_33
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_38
-      sprite: {fileID: 21300076, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300074, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_37
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_42
-      sprite: {fileID: 21300084, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300082, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_41
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_46
-      sprite: {fileID: 21300092, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300090, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_45
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_50
-      sprite: {fileID: 21300100, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300098, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_49
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_54
-      sprite: {fileID: 21300108, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300106, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_53
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_58
-      sprite: {fileID: 21300116, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300114, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_57
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_62
-      sprite: {fileID: 21300124, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300122, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_61
       secondDelay: 0.1
       AtlasUsing: 9
   - Frames:
-    - spriteName: mauler_3
-      sprite: {fileID: 21300006, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300004, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_7
-      sprite: {fileID: 21300014, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300012, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_6
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_11
-      sprite: {fileID: 21300022, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300020, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_10
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_15
-      sprite: {fileID: 21300030, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300028, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_14
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_19
-      sprite: {fileID: 21300038, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300036, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_18
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_23
-      sprite: {fileID: 21300046, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300044, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_22
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_27
-      sprite: {fileID: 21300054, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300052, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_26
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_31
-      sprite: {fileID: 21300062, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300060, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_30
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_35
-      sprite: {fileID: 21300070, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300068, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_34
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_39
-      sprite: {fileID: 21300078, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300076, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_38
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_43
-      sprite: {fileID: 21300086, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300084, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_42
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_47
-      sprite: {fileID: 21300094, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300092, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_46
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_51
-      sprite: {fileID: 21300102, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300100, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_50
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_55
-      sprite: {fileID: 21300110, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300108, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_54
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_59
-      sprite: {fileID: 21300118, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300116, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_58
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: mauler_63
-      sprite: {fileID: 21300126, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+    - sprite: {fileID: 21300124, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_62
+      secondDelay: 0.1
+      AtlasUsing: 9
+  - Frames:
+    - sprite: {fileID: 21300006, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_3
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300014, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_7
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300022, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_11
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300030, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_15
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300038, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_19
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300046, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_23
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300054, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_27
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300062, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_31
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300070, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_35
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300078, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_39
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300086, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_43
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300094, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_47
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300102, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_51
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300110, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_55
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300118, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_59
+      secondDelay: 0.1
+      AtlasUsing: 9
+    - sprite: {fileID: 21300126, guid: ebc9d972b849baa4895fa59c2e0f8cd7, type: 3}
+      spriteName: mauler_63
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

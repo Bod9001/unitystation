@@ -14,52 +14,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bloodout_0
-      sprite: {fileID: 21300000, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300000, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_0
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_1
-      sprite: {fileID: 21300002, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300002, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_2
-      sprite: {fileID: 21300004, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300004, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_3
-      sprite: {fileID: 21300006, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300006, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_3
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_4
-      sprite: {fileID: 21300008, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300008, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_5
-      sprite: {fileID: 21300010, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300010, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_6
-      sprite: {fileID: 21300012, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300012, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_6
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_7
-      sprite: {fileID: 21300014, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300014, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_7
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_8
-      sprite: {fileID: 21300016, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300016, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_8
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_9
-      sprite: {fileID: 21300018, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300018, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_9
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_10
-      sprite: {fileID: 21300020, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300020, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_10
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: bloodout_11
-      sprite: {fileID: 21300022, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+    - sprite: {fileID: 21300022, guid: d3631aa6c44a19446a99db496b18b67d, type: 3}
+      spriteName: bloodout_11
       secondDelay: 0.1
       AtlasUsing: 9
   IsPalette: 0

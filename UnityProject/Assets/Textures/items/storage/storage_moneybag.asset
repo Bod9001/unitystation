@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: storage_moneybag
-      sprite: {fileID: 21300000, guid: cb9f62279d912b54f998c38382f9db2a, type: 3}
+    - sprite: {fileID: 21300000, guid: cb9f62279d912b54f998c38382f9db2a, type: 3}
+      spriteName: storage_moneybag
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -621,7 +621,7 @@ public class SpriteHandler : MonoBehaviour
 	{
 		timeElapsed = 0;
 		PresentFrame = Frame;
-		SetImageSprite(Frame.sprite);
+		SetImageSprite(Frame.RuntimeSprite);
 	}
 
 

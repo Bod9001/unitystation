@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pneumaticCannon_anesthetic
-      sprite: {fileID: 21300000, guid: 828d10ae1bba24749a1ab450b4ecb25a, type: 3}
+    - sprite: {fileID: 21300000, guid: 828d10ae1bba24749a1ab450b4ecb25a, type: 3}
+      spriteName: pneumaticCannon_anesthetic
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

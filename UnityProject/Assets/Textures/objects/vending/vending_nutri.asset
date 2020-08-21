@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: nutri_0
-      sprite: {fileID: 21300000, guid: 8ee69c08079eb0c47be95a3f4b197bd4, type: 3}
+    - sprite: {fileID: 21300000, guid: 8ee69c08079eb0c47be95a3f4b197bd4, type: 3}
+      spriteName: nutri_0
       secondDelay: 1.1
       AtlasUsing: 8
-    - spriteName: nutri_1
-      sprite: {fileID: 21300002, guid: 8ee69c08079eb0c47be95a3f4b197bd4, type: 3}
+    - sprite: {fileID: 21300002, guid: 8ee69c08079eb0c47be95a3f4b197bd4, type: 3}
+      spriteName: nutri_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: nutri_2
-      sprite: {fileID: 21300004, guid: 8ee69c08079eb0c47be95a3f4b197bd4, type: 3}
+    - sprite: {fileID: 21300004, guid: 8ee69c08079eb0c47be95a3f4b197bd4, type: 3}
+      spriteName: nutri_2
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: nutri_3
-      sprite: {fileID: 21300006, guid: 8ee69c08079eb0c47be95a3f4b197bd4, type: 3}
+    - sprite: {fileID: 21300006, guid: 8ee69c08079eb0c47be95a3f4b197bd4, type: 3}
+      spriteName: nutri_3
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

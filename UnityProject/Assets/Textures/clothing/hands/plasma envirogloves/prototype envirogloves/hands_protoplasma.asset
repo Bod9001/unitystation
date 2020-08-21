@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: protoplasma_0
-      sprite: {fileID: -3797508735633626469, guid: 2d4883cabe390da4eb380bbd06085409,
+    - sprite: {fileID: -3797508735633626469, guid: 2d4883cabe390da4eb380bbd06085409,
         type: 3}
+      spriteName: protoplasma_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: protoplasma_1
-      sprite: {fileID: 242889392592623370, guid: 2d4883cabe390da4eb380bbd06085409,
+    - sprite: {fileID: 242889392592623370, guid: 2d4883cabe390da4eb380bbd06085409,
         type: 3}
+      spriteName: protoplasma_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: protoplasma_2
-      sprite: {fileID: 500349073539086424, guid: 2d4883cabe390da4eb380bbd06085409,
+    - sprite: {fileID: 500349073539086424, guid: 2d4883cabe390da4eb380bbd06085409,
         type: 3}
+      spriteName: protoplasma_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: protoplasma_3
-      sprite: {fileID: 6300844879451571815, guid: 2d4883cabe390da4eb380bbd06085409,
+    - sprite: {fileID: 6300844879451571815, guid: 2d4883cabe390da4eb380bbd06085409,
         type: 3}
+      spriteName: protoplasma_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

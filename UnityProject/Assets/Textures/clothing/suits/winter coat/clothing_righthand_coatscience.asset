@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: coatscience_0
-      sprite: {fileID: 21300000, guid: ae8e70d1a5deb854ab5dc814e5e87e13, type: 3}
+    - sprite: {fileID: 21300000, guid: ae8e70d1a5deb854ab5dc814e5e87e13, type: 3}
+      spriteName: coatscience_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: coatscience_1
-      sprite: {fileID: 21300002, guid: ae8e70d1a5deb854ab5dc814e5e87e13, type: 3}
+    - sprite: {fileID: 21300002, guid: ae8e70d1a5deb854ab5dc814e5e87e13, type: 3}
+      spriteName: coatscience_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: coatscience_2
-      sprite: {fileID: 21300004, guid: ae8e70d1a5deb854ab5dc814e5e87e13, type: 3}
+    - sprite: {fileID: 21300004, guid: ae8e70d1a5deb854ab5dc814e5e87e13, type: 3}
+      spriteName: coatscience_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: coatscience_3
-      sprite: {fileID: 21300006, guid: ae8e70d1a5deb854ab5dc814e5e87e13, type: 3}
+    - sprite: {fileID: 21300006, guid: ae8e70d1a5deb854ab5dc814e5e87e13, type: 3}
+      spriteName: coatscience_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,55 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ion_fade_0
-      sprite: {fileID: 21300000, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+    - sprite: {fileID: 21300000, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_0
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: ion_fade_4
-      sprite: {fileID: 21300008, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+    - sprite: {fileID: 21300008, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_4
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: ion_fade_8
-      sprite: {fileID: 21300016, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 9
-  - Frames:
-    - spriteName: ion_fade_1
-      sprite: {fileID: 21300002, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 9
-    - spriteName: ion_fade_5
-      sprite: {fileID: 21300010, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
-      secondDelay: 0.3
-      AtlasUsing: 9
-    - spriteName: ion_fade_9
-      sprite: {fileID: 21300018, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+    - sprite: {fileID: 21300016, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_8
       secondDelay: 0.3
       AtlasUsing: 9
   - Frames:
-    - spriteName: ion_fade_2
-      sprite: {fileID: 21300004, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+    - sprite: {fileID: 21300002, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_1
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: ion_fade_6
-      sprite: {fileID: 21300012, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+    - sprite: {fileID: 21300010, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_5
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: ion_fade_10
-      sprite: {fileID: 21300020, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+    - sprite: {fileID: 21300018, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_9
       secondDelay: 0.3
       AtlasUsing: 9
   - Frames:
-    - spriteName: ion_fade_3
-      sprite: {fileID: 21300006, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+    - sprite: {fileID: 21300004, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_2
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: ion_fade_7
-      sprite: {fileID: 21300014, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+    - sprite: {fileID: 21300012, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_6
       secondDelay: 0.3
       AtlasUsing: 9
-    - spriteName: ion_fade_11
-      sprite: {fileID: 21300022, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+    - sprite: {fileID: 21300020, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_10
+      secondDelay: 0.3
+      AtlasUsing: 9
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_3
+      secondDelay: 0.3
+      AtlasUsing: 9
+    - sprite: {fileID: 21300014, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_7
+      secondDelay: 0.3
+      AtlasUsing: 9
+    - sprite: {fileID: 21300022, guid: 5a9adf790df5daf499ce91f174114566, type: 3}
+      spriteName: ion_fade_11
       secondDelay: 0.3
       AtlasUsing: 9
   IsPalette: 0

@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: thegreytide_0
-      sprite: {fileID: 21300000, guid: 2bcdfa5061194984db4653b4e9cda899, type: 3}
+    - sprite: {fileID: 21300000, guid: 2bcdfa5061194984db4653b4e9cda899, type: 3}
+      spriteName: thegreytide_0
       secondDelay: 0.4
       AtlasUsing: 8
-    - spriteName: thegreytide_1
-      sprite: {fileID: 21300002, guid: 2bcdfa5061194984db4653b4e9cda899, type: 3}
+    - sprite: {fileID: 21300002, guid: 2bcdfa5061194984db4653b4e9cda899, type: 3}
+      spriteName: thegreytide_1
       secondDelay: 1
       AtlasUsing: 8
   IsPalette: 0

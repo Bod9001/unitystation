@@ -14,135 +14,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cigon_0
-      sprite: {fileID: 21300000, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300000, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_0
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_4
-      sprite: {fileID: 21300008, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300008, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_4
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_8
-      sprite: {fileID: 21300016, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300016, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_8
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_12
-      sprite: {fileID: 21300024, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300024, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_12
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_16
-      sprite: {fileID: 21300032, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300032, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_16
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_20
-      sprite: {fileID: 21300040, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300040, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_20
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_24
-      sprite: {fileID: 21300048, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300048, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_24
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_28
-      sprite: {fileID: 21300056, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-  - Frames:
-    - spriteName: cigon_1
-      sprite: {fileID: 21300002, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: cigon_5
-      sprite: {fileID: 21300010, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: cigon_9
-      sprite: {fileID: 21300018, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: cigon_13
-      sprite: {fileID: 21300026, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: cigon_17
-      sprite: {fileID: 21300034, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: cigon_21
-      sprite: {fileID: 21300042, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: cigon_25
-      sprite: {fileID: 21300050, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: cigon_29
-      sprite: {fileID: 21300058, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300056, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_28
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: cigon_2
-      sprite: {fileID: 21300004, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300002, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_1
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_6
-      sprite: {fileID: 21300012, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300010, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_5
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_10
-      sprite: {fileID: 21300020, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300018, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_9
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_14
-      sprite: {fileID: 21300028, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300026, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_13
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_18
-      sprite: {fileID: 21300036, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300034, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_17
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_22
-      sprite: {fileID: 21300044, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300042, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_21
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_26
-      sprite: {fileID: 21300052, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300050, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_25
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_30
-      sprite: {fileID: 21300060, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300058, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_29
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: cigon_3
-      sprite: {fileID: 21300006, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300004, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_2
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_7
-      sprite: {fileID: 21300014, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300012, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_6
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_11
-      sprite: {fileID: 21300022, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300020, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_10
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_15
-      sprite: {fileID: 21300030, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300028, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_14
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_19
-      sprite: {fileID: 21300038, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300036, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_18
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_23
-      sprite: {fileID: 21300046, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300044, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_22
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_27
-      sprite: {fileID: 21300054, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300052, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_26
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: cigon_31
-      sprite: {fileID: 21300062, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+    - sprite: {fileID: 21300060, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_30
+      secondDelay: 0.1
+      AtlasUsing: 2
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_3
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300014, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_7
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300022, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_11
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300030, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_15
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300038, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_19
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300046, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_23
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300054, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_27
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300062, guid: 5d2c89fd86e92e048a9b25c70056fd8e, type: 3}
+      spriteName: cigon_31
       secondDelay: 0.1
       AtlasUsing: 2
   IsPalette: 0

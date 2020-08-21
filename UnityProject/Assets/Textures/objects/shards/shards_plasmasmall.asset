@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shards_plasmasmall
-      sprite: {fileID: 21300000, guid: c1385663d9f07704480c104a0e414c4f, type: 3}
+    - sprite: {fileID: 21300000, guid: c1385663d9f07704480c104a0e414c4f, type: 3}
+      spriteName: shards_plasmasmall
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: objects_paint_sprayer
-      sprite: {fileID: 21300000, guid: 4c642ae242cbcb44194602ea0e50989a, type: 3}
+    - sprite: {fileID: 21300000, guid: 4c642ae242cbcb44194602ea0e50989a, type: 3}
+      spriteName: objects_paint_sprayer
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

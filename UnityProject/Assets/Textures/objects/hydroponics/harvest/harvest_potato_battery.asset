@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: harvest_potato_battery
-      sprite: {fileID: 21300000, guid: 2e46489e1fa6c1447b816252a156d0e2, type: 3}
+    - sprite: {fileID: 21300000, guid: 2e46489e1fa6c1447b816252a156d0e2, type: 3}
+      spriteName: harvest_potato_battery
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

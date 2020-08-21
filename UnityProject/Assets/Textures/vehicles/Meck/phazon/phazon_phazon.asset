@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: phazon_0
-      sprite: {fileID: 21300000, guid: 1667df5a157bef24bbe3f84e7db33c20, type: 3}
+    - sprite: {fileID: 21300000, guid: 1667df5a157bef24bbe3f84e7db33c20, type: 3}
+      spriteName: phazon_0
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: phazon_1
-      sprite: {fileID: 21300002, guid: 1667df5a157bef24bbe3f84e7db33c20, type: 3}
+    - sprite: {fileID: 21300002, guid: 1667df5a157bef24bbe3f84e7db33c20, type: 3}
+      spriteName: phazon_1
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: phazon_2
-      sprite: {fileID: 21300004, guid: 1667df5a157bef24bbe3f84e7db33c20, type: 3}
+    - sprite: {fileID: 21300004, guid: 1667df5a157bef24bbe3f84e7db33c20, type: 3}
+      spriteName: phazon_2
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: phazon_3
-      sprite: {fileID: 21300006, guid: 1667df5a157bef24bbe3f84e7db33c20, type: 3}
+    - sprite: {fileID: 21300006, guid: 1667df5a157bef24bbe3f84e7db33c20, type: 3}
+      spriteName: phazon_3
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

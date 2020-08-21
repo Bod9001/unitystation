@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: liquid_water
-      sprite: {fileID: 21300000, guid: 692dc299ad7a3e14a96ccc8bf3e86307, type: 3}
+    - sprite: {fileID: 21300000, guid: 692dc299ad7a3e14a96ccc8bf3e86307, type: 3}
+      spriteName: liquid_water
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

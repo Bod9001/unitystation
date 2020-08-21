@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drinks_teaglass
-      sprite: {fileID: 21300000, guid: c8654e88600c90242a5a8620a853046a, type: 3}
+    - sprite: {fileID: 21300000, guid: c8654e88600c90242a5a8620a853046a, type: 3}
+      spriteName: drinks_teaglass
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

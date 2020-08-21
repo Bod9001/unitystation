@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: overly_rock_Gold
-      sprite: {fileID: 21300000, guid: 00118d159f720b64a91e8306588162fc, type: 3}
+    - sprite: {fileID: 21300000, guid: 00118d159f720b64a91e8306588162fc, type: 3}
+      spriteName: overly_rock_Gold
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_generic-panel
-      sprite: {fileID: 21300000, guid: 6e511b09d2d030f409be3a594fab0780, type: 3}
+    - sprite: {fileID: 21300000, guid: 6e511b09d2d030f409be3a594fab0780, type: 3}
+      spriteName: vending_generic-panel
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rock_Gibtonite_active_0
-      sprite: {fileID: 21300000, guid: 8cef495f77a9b944287a5a15d30024cc, type: 3}
+    - sprite: {fileID: 21300000, guid: 8cef495f77a9b944287a5a15d30024cc, type: 3}
+      spriteName: rock_Gibtonite_active_0
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: rock_Gibtonite_active_1
-      sprite: {fileID: 21300002, guid: 8cef495f77a9b944287a5a15d30024cc, type: 3}
+    - sprite: {fileID: 21300002, guid: 8cef495f77a9b944287a5a15d30024cc, type: 3}
+      spriteName: rock_Gibtonite_active_1
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: rock_Gibtonite_active_2
-      sprite: {fileID: 21300004, guid: 8cef495f77a9b944287a5a15d30024cc, type: 3}
+    - sprite: {fileID: 21300004, guid: 8cef495f77a9b944287a5a15d30024cc, type: 3}
+      spriteName: rock_Gibtonite_active_2
       secondDelay: 0.1
       AtlasUsing: 10
-    - spriteName: rock_Gibtonite_active_3
-      sprite: {fileID: 21300006, guid: 8cef495f77a9b944287a5a15d30024cc, type: 3}
+    - sprite: {fileID: 21300006, guid: 8cef495f77a9b944287a5a15d30024cc, type: 3}
+      spriteName: rock_Gibtonite_active_3
       secondDelay: 0.1
       AtlasUsing: 10
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: holiday_misc_candyheart
-      sprite: {fileID: 21300000, guid: ef9996a41eba0824a8b13143c6ed26a5, type: 3}
+    - sprite: {fileID: 21300000, guid: ef9996a41eba0824a8b13143c6ed26a5, type: 3}
+      spriteName: holiday_misc_candyheart
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

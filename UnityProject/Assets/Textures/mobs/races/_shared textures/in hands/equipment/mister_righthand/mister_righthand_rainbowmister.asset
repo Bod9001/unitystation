@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rainbowmister_0
-      sprite: {fileID: 21300000, guid: 00aa2f50a4d53b84fbfab4011eb9fe08, type: 3}
+    - sprite: {fileID: 21300000, guid: 00aa2f50a4d53b84fbfab4011eb9fe08, type: 3}
+      spriteName: rainbowmister_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: rainbowmister_1
-      sprite: {fileID: 21300002, guid: 00aa2f50a4d53b84fbfab4011eb9fe08, type: 3}
+    - sprite: {fileID: 21300002, guid: 00aa2f50a4d53b84fbfab4011eb9fe08, type: 3}
+      spriteName: rainbowmister_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: rainbowmister_2
-      sprite: {fileID: 21300004, guid: 00aa2f50a4d53b84fbfab4011eb9fe08, type: 3}
+    - sprite: {fileID: 21300004, guid: 00aa2f50a4d53b84fbfab4011eb9fe08, type: 3}
+      spriteName: rainbowmister_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: rainbowmister_3
-      sprite: {fileID: 21300006, guid: 00aa2f50a4d53b84fbfab4011eb9fe08, type: 3}
+    - sprite: {fileID: 21300006, guid: 00aa2f50a4d53b84fbfab4011eb9fe08, type: 3}
+      spriteName: rainbowmister_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

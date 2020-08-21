@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hardsuit-mining_0
-      sprite: {fileID: 21300000, guid: 8b877c5123fe75c4da84d5bd5d28fd1a, type: 3}
+    - sprite: {fileID: 21300000, guid: 8b877c5123fe75c4da84d5bd5d28fd1a, type: 3}
+      spriteName: hardsuit-mining_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hardsuit-mining_1
-      sprite: {fileID: 21300002, guid: 8b877c5123fe75c4da84d5bd5d28fd1a, type: 3}
+    - sprite: {fileID: 21300002, guid: 8b877c5123fe75c4da84d5bd5d28fd1a, type: 3}
+      spriteName: hardsuit-mining_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hardsuit-mining_2
-      sprite: {fileID: 21300004, guid: 8b877c5123fe75c4da84d5bd5d28fd1a, type: 3}
+    - sprite: {fileID: 21300004, guid: 8b877c5123fe75c4da84d5bd5d28fd1a, type: 3}
+      spriteName: hardsuit-mining_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: hardsuit-mining_3
-      sprite: {fileID: 21300006, guid: 8b877c5123fe75c4da84d5bd5d28fd1a, type: 3}
+    - sprite: {fileID: 21300006, guid: 8b877c5123fe75c4da84d5bd5d28fd1a, type: 3}
+      spriteName: hardsuit-mining_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

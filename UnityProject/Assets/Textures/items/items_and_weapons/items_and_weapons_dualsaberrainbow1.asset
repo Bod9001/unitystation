@@ -14,53 +14,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dualsaberrainbow1_0
-      sprite: {fileID: 21300000, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+    - sprite: {fileID: 21300000, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_0
       secondDelay: 0.15
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_1
-      sprite: {fileID: 21300002, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300002, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_1
       secondDelay: 0.05
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_2
-      sprite: {fileID: 21300004, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300004, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_2
       secondDelay: 0.1
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_3
-      sprite: {fileID: 21300006, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300006, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_3
       secondDelay: 0.1
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_4
-      sprite: {fileID: 21300008, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300008, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_4
       secondDelay: 0.05
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_5
-      sprite: {fileID: 21300010, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300010, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_5
       secondDelay: 0.15
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_6
-      sprite: {fileID: 21300012, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300012, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_6
       secondDelay: 0.15
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_7
-      sprite: {fileID: 21300014, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300014, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_7
       secondDelay: 0.05
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_8
-      sprite: {fileID: 21300016, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300016, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_8
       secondDelay: 0.1
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_9
-      sprite: {fileID: 21300018, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300018, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_9
       secondDelay: 0.1
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_10
-      sprite: {fileID: 21300020, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300020, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_10
       secondDelay: 0.05
-      AtlasUsing: 4
-    - spriteName: dualsaberrainbow1_11
-      sprite: {fileID: 21300022, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300022, guid: 164b107022c414c46898cbbc956b0888, type: 3}
+      spriteName: dualsaberrainbow1_11
       secondDelay: 0.15
-      AtlasUsing: 4
+      AtlasUsing: 5
   IsPalette: 0
   setID: 7785

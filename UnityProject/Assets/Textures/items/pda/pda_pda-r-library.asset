@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pda-r-library_0
-      sprite: {fileID: 21300000, guid: 5a3c7f221d113b84b9e71830b773cfe3, type: 3}
+    - sprite: {fileID: 21300000, guid: 5a3c7f221d113b84b9e71830b773cfe3, type: 3}
+      spriteName: pda-r-library_0
       secondDelay: 0.8
       AtlasUsing: 5
-    - spriteName: pda-r-library_1
-      sprite: {fileID: 21300002, guid: 5a3c7f221d113b84b9e71830b773cfe3, type: 3}
+    - sprite: {fileID: 21300002, guid: 5a3c7f221d113b84b9e71830b773cfe3, type: 3}
+      spriteName: pda-r-library_1
       secondDelay: 0.8
       AtlasUsing: 5
   IsPalette: 0

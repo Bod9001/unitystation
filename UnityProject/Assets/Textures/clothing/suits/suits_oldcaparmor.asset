@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: oldcaparmor_0
-      sprite: {fileID: 21300000, guid: cc7d23b9999366f4b9f1322e4d426d6c, type: 3}
+    - sprite: {fileID: 21300000, guid: cc7d23b9999366f4b9f1322e4d426d6c, type: 3}
+      spriteName: oldcaparmor_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: oldcaparmor_1
-      sprite: {fileID: 21300002, guid: cc7d23b9999366f4b9f1322e4d426d6c, type: 3}
+    - sprite: {fileID: 21300002, guid: cc7d23b9999366f4b9f1322e4d426d6c, type: 3}
+      spriteName: oldcaparmor_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: oldcaparmor_2
-      sprite: {fileID: 21300004, guid: cc7d23b9999366f4b9f1322e4d426d6c, type: 3}
+    - sprite: {fileID: 21300004, guid: cc7d23b9999366f4b9f1322e4d426d6c, type: 3}
+      spriteName: oldcaparmor_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: oldcaparmor_3
-      sprite: {fileID: 21300006, guid: cc7d23b9999366f4b9f1322e4d426d6c, type: 3}
+    - sprite: {fileID: 21300006, guid: cc7d23b9999366f4b9f1322e4d426d6c, type: 3}
+      spriteName: oldcaparmor_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

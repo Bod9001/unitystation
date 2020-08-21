@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alien_welder
-      sprite: {fileID: 21300000, guid: 3d1355e9e0f393e4fb7dc608f3a349fb, type: 3}
+    - sprite: {fileID: 21300000, guid: 3d1355e9e0f393e4fb7dc608f3a349fb, type: 3}
+      spriteName: alien_welder
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

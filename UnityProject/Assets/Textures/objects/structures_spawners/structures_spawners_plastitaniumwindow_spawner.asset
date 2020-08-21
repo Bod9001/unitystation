@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: structures_spawners_plastitaniumwindow_spawner
-      sprite: {fileID: 21300000, guid: 76e4adf90ad06e844b3916826c7350da, type: 3}
+    - sprite: {fileID: 21300000, guid: 76e4adf90ad06e844b3916826c7350da, type: 3}
+      spriteName: structures_spawners_plastitaniumwindow_spawner
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

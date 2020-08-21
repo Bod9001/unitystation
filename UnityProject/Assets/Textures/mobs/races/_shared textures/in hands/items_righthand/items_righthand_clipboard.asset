@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clipboard_0
-      sprite: {fileID: 21300000, guid: 0d2eb3ae5410a2442b5436619c76e2ca, type: 3}
+    - sprite: {fileID: 21300000, guid: 0d2eb3ae5410a2442b5436619c76e2ca, type: 3}
+      spriteName: clipboard_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: clipboard_1
-      sprite: {fileID: 21300002, guid: 0d2eb3ae5410a2442b5436619c76e2ca, type: 3}
+    - sprite: {fileID: 21300002, guid: 0d2eb3ae5410a2442b5436619c76e2ca, type: 3}
+      spriteName: clipboard_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: clipboard_2
-      sprite: {fileID: 21300004, guid: 0d2eb3ae5410a2442b5436619c76e2ca, type: 3}
+    - sprite: {fileID: 21300004, guid: 0d2eb3ae5410a2442b5436619c76e2ca, type: 3}
+      spriteName: clipboard_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: clipboard_3
-      sprite: {fileID: 21300006, guid: 0d2eb3ae5410a2442b5436619c76e2ca, type: 3}
+    - sprite: {fileID: 21300006, guid: 0d2eb3ae5410a2442b5436619c76e2ca, type: 3}
+      spriteName: clipboard_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

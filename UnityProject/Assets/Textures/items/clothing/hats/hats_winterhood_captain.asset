@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_winterhood_captain
-      sprite: {fileID: 21300000, guid: 06426e152a2e06647bfdbf6f6b8c75ce, type: 3}
+    - sprite: {fileID: 21300000, guid: 06426e152a2e06647bfdbf6f6b8c75ce, type: 3}
+      spriteName: hats_winterhood_captain
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: botany-skillcape_1
-      sprite: {fileID: 133152023259947276, guid: 24621f089267ea546aa118b7943d02cf,
+    - sprite: {fileID: 133152023259947276, guid: 24621f089267ea546aa118b7943d02cf,
         type: 3}
+      spriteName: botany-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: white
-      sprite: {fileID: 21300000, guid: 95ddb6717bc8758459d9d308470f30d5, type: 3}
+    - sprite: {fileID: 21300000, guid: 95ddb6717bc8758459d9d308470f30d5, type: 3}
+      spriteName: white
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

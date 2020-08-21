@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_retro_toggle
-      sprite: {fileID: 21300000, guid: 1709e8b8cf4760c4a833e343b6b5806a, type: 3}
+    - sprite: {fileID: 21300000, guid: 1709e8b8cf4760c4a833e343b6b5806a, type: 3}
+      spriteName: screen_retro_toggle
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

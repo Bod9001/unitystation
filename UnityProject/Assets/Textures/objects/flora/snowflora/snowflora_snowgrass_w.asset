@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: snowflora_snowgrass_w
-      sprite: {fileID: 21300000, guid: b1dd57308ec0c6044becbb56ad66d58b, type: 3}
+    - sprite: {fileID: 21300000, guid: b1dd57308ec0c6044becbb56ad66d58b, type: 3}
+      spriteName: snowflora_snowgrass_w
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

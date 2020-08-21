@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: catwalk_clockwork_2-i
-      sprite: {fileID: 21300000, guid: ee9138cf8feabbb448362bfd755070ad, type: 3}
+    - sprite: {fileID: 21300000, guid: ee9138cf8feabbb448362bfd755070ad, type: 3}
+      spriteName: catwalk_clockwork_2-i
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

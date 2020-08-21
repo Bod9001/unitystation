@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: jensenshades_0
-      sprite: {fileID: 21300000, guid: ee3ab5e06eaef8d438a3587c0e8e5cab, type: 3}
+    - sprite: {fileID: 21300000, guid: ee3ab5e06eaef8d438a3587c0e8e5cab, type: 3}
+      spriteName: jensenshades_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: jensenshades_1
-      sprite: {fileID: 21300002, guid: ee3ab5e06eaef8d438a3587c0e8e5cab, type: 3}
+    - sprite: {fileID: 21300002, guid: ee3ab5e06eaef8d438a3587c0e8e5cab, type: 3}
+      spriteName: jensenshades_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: jensenshades_2
-      sprite: {fileID: 21300004, guid: ee3ab5e06eaef8d438a3587c0e8e5cab, type: 3}
+    - sprite: {fileID: 21300004, guid: ee3ab5e06eaef8d438a3587c0e8e5cab, type: 3}
+      spriteName: jensenshades_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: jensenshades_3
-      sprite: {fileID: 21300006, guid: ee3ab5e06eaef8d438a3587c0e8e5cab, type: 3}
+    - sprite: {fileID: 21300006, guid: ee3ab5e06eaef8d438a3587c0e8e5cab, type: 3}
+      spriteName: jensenshades_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

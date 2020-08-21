@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: belt_electronic_3
-      sprite: {fileID: 21300000, guid: 9e17b4c178e8fb048a79ef46e8a62521, type: 3}
+    - sprite: {fileID: 21300000, guid: 9e17b4c178e8fb048a79ef46e8a62521, type: 3}
+      spriteName: belt_electronic_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

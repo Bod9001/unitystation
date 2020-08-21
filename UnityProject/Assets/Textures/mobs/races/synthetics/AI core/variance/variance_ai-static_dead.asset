@@ -14,44 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ai-static_dead_0
-      sprite: {fileID: 21300000, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300000, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_0
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-static_dead_1
-      sprite: {fileID: 21300002, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300002, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_1
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-static_dead_2
-      sprite: {fileID: 21300004, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300004, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-static_dead_3
-      sprite: {fileID: 21300006, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300006, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_3
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: ai-static_dead_4
-      sprite: {fileID: 21300008, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300008, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_4
       secondDelay: 0.6
       AtlasUsing: 6
-    - spriteName: ai-static_dead_5
-      sprite: {fileID: 21300010, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300010, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_5
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-static_dead_6
-      sprite: {fileID: 21300012, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300012, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_6
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-static_dead_7
-      sprite: {fileID: 21300014, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300014, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_7
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-static_dead_8
-      sprite: {fileID: 21300016, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300016, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_8
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-static_dead_9
-      sprite: {fileID: 21300018, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+    - sprite: {fileID: 21300018, guid: d608c86a267714e4c812e7fa85e9f882, type: 3}
+      spriteName: ai-static_dead_9
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ground_oldsmoothdirt
-      sprite: {fileID: 21300000, guid: 6f9aeb0b485c87b47bc466982492f2d2, type: 3}
+    - sprite: {fileID: 21300000, guid: 6f9aeb0b485c87b47bc466982492f2d2, type: 3}
+      spriteName: ground_oldsmoothdirt
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

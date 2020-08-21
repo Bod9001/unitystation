@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ash_flora_mushroom_stem
-      sprite: {fileID: 21300000, guid: ff005ee4ae5355949b0db7f9e671bfff, type: 3}
+    - sprite: {fileID: 21300000, guid: ff005ee4ae5355949b0db7f9e671bfff, type: 3}
+      spriteName: ash_flora_mushroom_stem
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

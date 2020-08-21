@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shoes_explorer_icon
-      sprite: {fileID: 21300000, guid: 891f566fc38e08443b8286cca6c0425a, type: 3}
+    - sprite: {fileID: 21300000, guid: 891f566fc38e08443b8286cca6c0425a, type: 3}
+      spriteName: shoes_explorer_icon
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: uplift_0
-      sprite: {fileID: -6108998491406929081, guid: bc6350362b249134bb82d943eafe9f62,
+    - sprite: {fileID: -6108998491406929081, guid: bc6350362b249134bb82d943eafe9f62,
         type: 3}
+      spriteName: uplift_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: uplift_1
-      sprite: {fileID: 5548946955414281447, guid: bc6350362b249134bb82d943eafe9f62,
+    - sprite: {fileID: 5548946955414281447, guid: bc6350362b249134bb82d943eafe9f62,
         type: 3}
+      spriteName: uplift_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: uplift_2
-      sprite: {fileID: -2755460094811067481, guid: bc6350362b249134bb82d943eafe9f62,
+    - sprite: {fileID: -2755460094811067481, guid: bc6350362b249134bb82d943eafe9f62,
         type: 3}
+      spriteName: uplift_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: uplift_3
-      sprite: {fileID: -7723855361904779205, guid: bc6350362b249134bb82d943eafe9f62,
+    - sprite: {fileID: -7723855361904779205, guid: bc6350362b249134bb82d943eafe9f62,
         type: 3}
+      spriteName: uplift_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

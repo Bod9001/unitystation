@@ -14,76 +14,76 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: beakernoreact_0
-      sprite: {fileID: 21300000, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300000, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_0
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_1
-      sprite: {fileID: 21300002, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300002, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_1
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_2
-      sprite: {fileID: 21300004, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300004, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_2
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_3
-      sprite: {fileID: 21300006, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300006, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_3
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_4
-      sprite: {fileID: 21300008, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300008, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_4
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_5
-      sprite: {fileID: 21300010, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300010, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_5
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_6
-      sprite: {fileID: 21300012, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300012, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_6
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_7
-      sprite: {fileID: 21300014, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300014, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_7
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_8
-      sprite: {fileID: 21300016, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300016, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_8
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_9
-      sprite: {fileID: 21300018, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300018, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_9
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_10
-      sprite: {fileID: 21300020, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300020, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_10
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_11
-      sprite: {fileID: 21300022, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300022, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_11
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_12
-      sprite: {fileID: 21300024, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300024, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_12
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_13
-      sprite: {fileID: 21300026, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300026, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_13
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_14
-      sprite: {fileID: 21300028, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300028, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_14
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_15
-      sprite: {fileID: 21300030, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300030, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_15
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_16
-      sprite: {fileID: 21300032, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300032, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_16
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: beakernoreact_17
-      sprite: {fileID: 21300034, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+    - sprite: {fileID: 21300034, guid: f9aaeb5eb21343042937129efd9e9624, type: 3}
+      spriteName: beakernoreact_17
       secondDelay: 0.05
       AtlasUsing: 5
   IsPalette: 0

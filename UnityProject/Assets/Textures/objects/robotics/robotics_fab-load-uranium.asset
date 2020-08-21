@@ -14,40 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: fab-load-uranium_0
-      sprite: {fileID: 21300000, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+    - sprite: {fileID: 21300000, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+      spriteName: fab-load-uranium_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: fab-load-uranium_1
-      sprite: {fileID: 21300002, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+    - sprite: {fileID: 21300002, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+      spriteName: fab-load-uranium_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: fab-load-uranium_2
-      sprite: {fileID: 21300004, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+    - sprite: {fileID: 21300004, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+      spriteName: fab-load-uranium_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: fab-load-uranium_3
-      sprite: {fileID: 21300006, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+    - sprite: {fileID: 21300006, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+      spriteName: fab-load-uranium_3
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: fab-load-uranium_4
-      sprite: {fileID: 21300008, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+    - sprite: {fileID: 21300008, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+      spriteName: fab-load-uranium_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: fab-load-uranium_5
-      sprite: {fileID: 21300010, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+    - sprite: {fileID: 21300010, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+      spriteName: fab-load-uranium_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: fab-load-uranium_6
-      sprite: {fileID: 21300012, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+    - sprite: {fileID: 21300012, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+      spriteName: fab-load-uranium_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: fab-load-uranium_7
-      sprite: {fileID: 21300014, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+    - sprite: {fileID: 21300014, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+      spriteName: fab-load-uranium_7
       secondDelay: 0.2
       AtlasUsing: 8
-    - spriteName: fab-load-uranium_8
-      sprite: {fileID: 21300016, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+    - sprite: {fileID: 21300016, guid: ea16e3177a85b8a4a9fac9d9a68dc800, type: 3}
+      spriteName: fab-load-uranium_8
       secondDelay: 0.3
       AtlasUsing: 8
   IsPalette: 0

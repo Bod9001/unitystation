@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: uglymine_0
-      sprite: {fileID: 21300000, guid: f2261d285653f9a4bb767d285e530c85, type: 3}
+    - sprite: {fileID: 21300000, guid: f2261d285653f9a4bb767d285e530c85, type: 3}
+      spriteName: uglymine_0
       secondDelay: 0.3
       AtlasUsing: 5
-    - spriteName: uglymine_1
-      sprite: {fileID: 21300002, guid: f2261d285653f9a4bb767d285e530c85, type: 3}
+    - sprite: {fileID: 21300002, guid: f2261d285653f9a4bb767d285e530c85, type: 3}
+      spriteName: uglymine_1
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

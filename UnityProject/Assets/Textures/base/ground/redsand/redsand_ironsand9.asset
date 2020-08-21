@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: redsand_ironsand9
-      sprite: {fileID: 21300000, guid: 9e20b2916ac07ce478b2506e98944749, type: 3}
+    - sprite: {fileID: 21300000, guid: 9e20b2916ac07ce478b2506e98944749, type: 3}
+      spriteName: redsand_ironsand9
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

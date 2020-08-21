@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cigarettes_matchbox
-      sprite: {fileID: 21300000, guid: 8682f29ddcac77d4e91c15f94a6650d5, type: 3}
+    - sprite: {fileID: 21300000, guid: 8682f29ddcac77d4e91c15f94a6650d5, type: 3}
+      spriteName: cigarettes_matchbox
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

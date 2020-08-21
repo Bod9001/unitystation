@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_explorer_envirohelm
-      sprite: {fileID: 21300000, guid: 46975bcbac9e44446a88a3105e4c410f, type: 3}
+    - sprite: {fileID: 21300000, guid: 46975bcbac9e44446a88a3105e4c410f, type: 3}
+      spriteName: hats_explorer_envirohelm
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

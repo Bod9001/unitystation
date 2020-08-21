@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: monkey_rathen1
-      sprite: {fileID: 21300000, guid: 5d369a540ba07ca419c6a0e1f6ae23d8, type: 3}
+    - sprite: {fileID: 21300000, guid: 5d369a540ba07ca419c6a0e1f6ae23d8, type: 3}
+      spriteName: monkey_rathen1
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

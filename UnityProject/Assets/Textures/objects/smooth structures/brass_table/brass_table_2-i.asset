@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: brass_table_2-i
-      sprite: {fileID: 21300000, guid: 2773da182b409fb4ebc52241b3bd7856, type: 3}
+    - sprite: {fileID: 21300000, guid: 2773da182b409fb4ebc52241b3bd7856, type: 3}
+      spriteName: brass_table_2-i
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

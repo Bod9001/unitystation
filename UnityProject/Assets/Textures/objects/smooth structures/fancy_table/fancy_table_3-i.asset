@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: fancy_table_3-i
-      sprite: {fileID: 21300000, guid: e45f7916c546cd3478138085a8c6615d, type: 3}
+    - sprite: {fileID: 21300000, guid: e45f7916c546cd3478138085a8c6615d, type: 3}
+      spriteName: fancy_table_3-i
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

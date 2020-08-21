@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: magic_polywand-drained
-      sprite: {fileID: 21300000, guid: 46d0a9a5b9cb9cf4a8ee5036ab1dae7b, type: 3}
+    - sprite: {fileID: 21300000, guid: 46d0a9a5b9cb9cf4a8ee5036ab1dae7b, type: 3}
+      spriteName: magic_polywand-drained
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

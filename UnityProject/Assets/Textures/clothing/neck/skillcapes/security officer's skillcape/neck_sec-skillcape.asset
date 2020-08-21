@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sec-skillcape_0
-      sprite: {fileID: -7825792663204255939, guid: 3441fee0fc82e1540b42f1fed9d89663,
+    - sprite: {fileID: -7825792663204255939, guid: 3441fee0fc82e1540b42f1fed9d89663,
         type: 3}
+      spriteName: sec-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sec-skillcape_1
-      sprite: {fileID: -1011653065720466015, guid: 3441fee0fc82e1540b42f1fed9d89663,
+    - sprite: {fileID: -1011653065720466015, guid: 3441fee0fc82e1540b42f1fed9d89663,
         type: 3}
+      spriteName: sec-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sec-skillcape_2
-      sprite: {fileID: -8513885927942428106, guid: 3441fee0fc82e1540b42f1fed9d89663,
+    - sprite: {fileID: -8513885927942428106, guid: 3441fee0fc82e1540b42f1fed9d89663,
         type: 3}
+      spriteName: sec-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sec-skillcape_3
-      sprite: {fileID: -594016040695995257, guid: 3441fee0fc82e1540b42f1fed9d89663,
+    - sprite: {fileID: -594016040695995257, guid: 3441fee0fc82e1540b42f1fed9d89663,
         type: 3}
+      spriteName: sec-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

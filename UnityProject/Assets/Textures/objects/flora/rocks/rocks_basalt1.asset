@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rocks_basalt1
-      sprite: {fileID: 21300000, guid: 41a2a9a976dfc2343a1237c0b1e71118, type: 3}
+    - sprite: {fileID: 21300000, guid: 41a2a9a976dfc2343a1237c0b1e71118, type: 3}
+      spriteName: rocks_basalt1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

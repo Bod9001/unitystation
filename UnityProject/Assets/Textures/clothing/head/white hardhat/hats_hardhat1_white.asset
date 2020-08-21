@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_hardhat1_white
-      sprite: {fileID: 21300000, guid: 05644881440f194468c66e2b928c197e, type: 3}
+    - sprite: {fileID: 21300000, guid: 05644881440f194468c66e2b928c197e, type: 3}
+      spriteName: hats_hardhat1_white
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

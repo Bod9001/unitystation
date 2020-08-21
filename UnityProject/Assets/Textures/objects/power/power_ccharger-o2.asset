@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ccharger-o2_0
-      sprite: {fileID: 21300000, guid: 4fe00d358e7fb334483a6d330b0cf40e, type: 3}
+    - sprite: {fileID: 21300000, guid: 4fe00d358e7fb334483a6d330b0cf40e, type: 3}
+      spriteName: ccharger-o2_0
       secondDelay: 0.5
       AtlasUsing: 8
-    - spriteName: ccharger-o2_1
-      sprite: {fileID: 21300002, guid: 4fe00d358e7fb334483a6d330b0cf40e, type: 3}
+    - sprite: {fileID: 21300002, guid: 4fe00d358e7fb334483a6d330b0cf40e, type: 3}
+      spriteName: ccharger-o2_1
       secondDelay: 0.5
       AtlasUsing: 8
   IsPalette: 0

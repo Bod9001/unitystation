@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mouse_brown_lh_0
-      sprite: {fileID: 21300000, guid: 58820e544b11918459217e613ff153cd, type: 3}
+    - sprite: {fileID: 21300000, guid: 58820e544b11918459217e613ff153cd, type: 3}
+      spriteName: mouse_brown_lh_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: mouse_brown_lh_1
-      sprite: {fileID: 21300002, guid: 58820e544b11918459217e613ff153cd, type: 3}
+    - sprite: {fileID: 21300002, guid: 58820e544b11918459217e613ff153cd, type: 3}
+      spriteName: mouse_brown_lh_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: mouse_brown_lh_2
-      sprite: {fileID: 21300004, guid: 58820e544b11918459217e613ff153cd, type: 3}
+    - sprite: {fileID: 21300004, guid: 58820e544b11918459217e613ff153cd, type: 3}
+      spriteName: mouse_brown_lh_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: mouse_brown_lh_3
-      sprite: {fileID: 21300006, guid: 58820e544b11918459217e613ff153cd, type: 3}
+    - sprite: {fileID: 21300006, guid: 58820e544b11918459217e613ff153cd, type: 3}
+      spriteName: mouse_brown_lh_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

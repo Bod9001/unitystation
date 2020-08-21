@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: food_xenomeat
-      sprite: {fileID: 21300000, guid: 6e178e4b69064e34aa8fcdf98c90bf9d, type: 3}
+    - sprite: {fileID: 21300000, guid: 6e178e4b69064e34aa8fcdf98c90bf9d, type: 3}
+      spriteName: food_xenomeat
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

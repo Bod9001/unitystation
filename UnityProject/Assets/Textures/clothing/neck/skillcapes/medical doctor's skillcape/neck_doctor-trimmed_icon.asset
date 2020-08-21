@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: doctor-trimmed_1
-      sprite: {fileID: 8638056430263625849, guid: aa7c08a28f652a9479792de9ccc59052,
+    - sprite: {fileID: 8638056430263625849, guid: aa7c08a28f652a9479792de9ccc59052,
         type: 3}
+      spriteName: doctor-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,44 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: talk_clock0_0
-      sprite: {fileID: 6269092668895574985, guid: 58cdf0e541724584d8f81cd1d36f54cd,
+    - sprite: {fileID: 6269092668895574985, guid: 58cdf0e541724584d8f81cd1d36f54cd,
         type: 3}
+      spriteName: talk_clock0_0
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: talk_clock0_1
-      sprite: {fileID: -4927439405403328906, guid: 58cdf0e541724584d8f81cd1d36f54cd,
+    - sprite: {fileID: -4927439405403328906, guid: 58cdf0e541724584d8f81cd1d36f54cd,
         type: 3}
+      spriteName: talk_clock0_1
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_clock0_2
-      sprite: {fileID: 7437180291454180073, guid: 58cdf0e541724584d8f81cd1d36f54cd,
+    - sprite: {fileID: 7437180291454180073, guid: 58cdf0e541724584d8f81cd1d36f54cd,
         type: 3}
+      spriteName: talk_clock0_2
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_clock0_3
-      sprite: {fileID: 3566043541758129491, guid: 58cdf0e541724584d8f81cd1d36f54cd,
+    - sprite: {fileID: 3566043541758129491, guid: 58cdf0e541724584d8f81cd1d36f54cd,
         type: 3}
+      spriteName: talk_clock0_3
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_clock0_4
-      sprite: {fileID: -921474434370979460, guid: 58cdf0e541724584d8f81cd1d36f54cd,
+    - sprite: {fileID: -921474434370979460, guid: 58cdf0e541724584d8f81cd1d36f54cd,
         type: 3}
+      spriteName: talk_clock0_4
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_clock0_5
-      sprite: {fileID: 2707403704386187307, guid: 58cdf0e541724584d8f81cd1d36f54cd,
+    - sprite: {fileID: 2707403704386187307, guid: 58cdf0e541724584d8f81cd1d36f54cd,
         type: 3}
+      spriteName: talk_clock0_5
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_clock0_6
-      sprite: {fileID: -3191486447947257455, guid: 58cdf0e541724584d8f81cd1d36f54cd,
+    - sprite: {fileID: -3191486447947257455, guid: 58cdf0e541724584d8f81cd1d36f54cd,
         type: 3}
+      spriteName: talk_clock0_6
       secondDelay: 0.1
       AtlasUsing: 9
-    - spriteName: talk_clock0_7
-      sprite: {fileID: 8330578688623624819, guid: 58cdf0e541724584d8f81cd1d36f54cd,
+    - sprite: {fileID: 8330578688623624819, guid: 58cdf0e541724584d8f81cd1d36f54cd,
         type: 3}
+      spriteName: talk_clock0_7
       secondDelay: 0.3
       AtlasUsing: 9
   IsPalette: 0

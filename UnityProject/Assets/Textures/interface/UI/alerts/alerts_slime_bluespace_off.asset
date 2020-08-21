@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alerts_slime_bluespace_off
-      sprite: {fileID: 21300000, guid: 9f9c979a7fee4d7498715b35cc4f5da7, type: 3}
+    - sprite: {fileID: 21300000, guid: 9f9c979a7fee4d7498715b35cc4f5da7, type: 3}
+      spriteName: alerts_slime_bluespace_off
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

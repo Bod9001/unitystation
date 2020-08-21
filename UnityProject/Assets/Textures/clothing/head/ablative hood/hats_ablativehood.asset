@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_ablativehood
-      sprite: {fileID: 21300000, guid: 26a508f0f10800a4898540881b8a9fe1, type: 3}
+    - sprite: {fileID: 21300000, guid: 26a508f0f10800a4898540881b8a9fe1, type: 3}
+      spriteName: hats_ablativehood
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

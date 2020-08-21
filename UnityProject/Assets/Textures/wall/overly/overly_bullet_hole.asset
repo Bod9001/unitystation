@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: overly_bullet_hole
-      sprite: {fileID: 21300000, guid: 328ddee2ed1609d489ff4c4c858d6860, type: 3}
+    - sprite: {fileID: 21300000, guid: 328ddee2ed1609d489ff4c4c858d6860, type: 3}
+      spriteName: overly_bullet_hole
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

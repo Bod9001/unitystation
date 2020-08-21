@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lighting_markercerulean
-      sprite: {fileID: 21300000, guid: 3feaa3b2014d67d499c77c02d4548b67, type: 3}
+    - sprite: {fileID: 21300000, guid: 3feaa3b2014d67d499c77c02d4548b67, type: 3}
+      spriteName: lighting_markercerulean
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

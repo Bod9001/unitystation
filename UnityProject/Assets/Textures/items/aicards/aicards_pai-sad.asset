@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pai-sad_0
-      sprite: {fileID: 21300000, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+    - sprite: {fileID: 21300000, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+      spriteName: pai-sad_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: pai-sad_1
-      sprite: {fileID: 21300002, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+    - sprite: {fileID: 21300002, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+      spriteName: pai-sad_1
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: pai-sad_2
-      sprite: {fileID: 21300004, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+    - sprite: {fileID: 21300004, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+      spriteName: pai-sad_2
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: pai-sad_3
-      sprite: {fileID: 21300006, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+    - sprite: {fileID: 21300006, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+      spriteName: pai-sad_3
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: pai-sad_4
-      sprite: {fileID: 21300008, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+    - sprite: {fileID: 21300008, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+      spriteName: pai-sad_4
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: pai-sad_5
-      sprite: {fileID: 21300010, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+    - sprite: {fileID: 21300010, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+      spriteName: pai-sad_5
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: pai-sad_6
-      sprite: {fileID: 21300012, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+    - sprite: {fileID: 21300012, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+      spriteName: pai-sad_6
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: pai-sad_7
-      sprite: {fileID: 21300014, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+    - sprite: {fileID: 21300014, guid: 7ebb5d7f00b169b43b09b5a014352ce3, type: 3}
+      spriteName: pai-sad_7
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

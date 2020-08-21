@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: drill_0
-      sprite: {fileID: 254509965974115023, guid: a44ce5102dffdde47809ea9f602ae989,
+    - sprite: {fileID: 254509965974115023, guid: a44ce5102dffdde47809ea9f602ae989,
         type: 3}
+      spriteName: drill_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: drill_1
-      sprite: {fileID: -6691675645143005069, guid: a44ce5102dffdde47809ea9f602ae989,
+    - sprite: {fileID: -6691675645143005069, guid: a44ce5102dffdde47809ea9f602ae989,
         type: 3}
+      spriteName: drill_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: drill_2
-      sprite: {fileID: -5204444195791515992, guid: a44ce5102dffdde47809ea9f602ae989,
+    - sprite: {fileID: -5204444195791515992, guid: a44ce5102dffdde47809ea9f602ae989,
         type: 3}
+      spriteName: drill_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: drill_3
-      sprite: {fileID: -652723830670757912, guid: a44ce5102dffdde47809ea9f602ae989,
+    - sprite: {fileID: -652723830670757912, guid: a44ce5102dffdde47809ea9f602ae989,
         type: 3}
+      spriteName: drill_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

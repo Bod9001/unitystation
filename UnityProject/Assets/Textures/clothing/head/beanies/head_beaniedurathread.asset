@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: beaniedurathread_0
-      sprite: {fileID: 21300000, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
+    - sprite: {fileID: 21300000, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
+      spriteName: beaniedurathread_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: beaniedurathread_1
-      sprite: {fileID: 21300002, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
+    - sprite: {fileID: 21300002, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
+      spriteName: beaniedurathread_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: beaniedurathread_2
-      sprite: {fileID: 21300004, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
+    - sprite: {fileID: 21300004, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
+      spriteName: beaniedurathread_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: beaniedurathread_3
-      sprite: {fileID: 21300006, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
+    - sprite: {fileID: 21300006, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
+      spriteName: beaniedurathread_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

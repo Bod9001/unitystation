@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chest7_0
-      sprite: {fileID: 21300000, guid: 12814c28c5bc7004e9e261d31721e15d, type: 3}
+    - sprite: {fileID: 21300000, guid: 12814c28c5bc7004e9e261d31721e15d, type: 3}
+      spriteName: chest7_0
       secondDelay: 0.5
       AtlasUsing: 9
-    - spriteName: chest7_1
-      sprite: {fileID: 21300002, guid: 12814c28c5bc7004e9e261d31721e15d, type: 3}
+    - sprite: {fileID: 21300002, guid: 12814c28c5bc7004e9e261d31721e15d, type: 3}
+      spriteName: chest7_1
       secondDelay: 0.5
       AtlasUsing: 9
   IsPalette: 0

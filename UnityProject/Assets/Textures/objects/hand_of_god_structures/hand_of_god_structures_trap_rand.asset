@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hand_of_god_structures_trap_rand
-      sprite: {fileID: 21300000, guid: 1723a027fd182944888dd34a3ba2c784, type: 3}
+    - sprite: {fileID: 21300000, guid: 1723a027fd182944888dd34a3ba2c784, type: 3}
+      spriteName: hand_of_god_structures_trap_rand
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

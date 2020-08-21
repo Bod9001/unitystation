@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: harvest_carrot
-      sprite: {fileID: 21300000, guid: ac04f98dd38e0ce4690245f029e42cc4, type: 3}
+    - sprite: {fileID: 21300000, guid: ac04f98dd38e0ce4690245f029e42cc4, type: 3}
+      spriteName: harvest_carrot
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

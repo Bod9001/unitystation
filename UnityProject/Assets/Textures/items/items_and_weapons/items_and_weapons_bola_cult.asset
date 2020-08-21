@@ -14,71 +14,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bola_cult_0
-      sprite: {fileID: 21300000, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300000, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_0
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: bola_cult_4
-      sprite: {fileID: 21300008, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300008, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_4
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: bola_cult_8
-      sprite: {fileID: 21300016, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300016, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_8
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: bola_cult_12
-      sprite: {fileID: 21300024, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
-      secondDelay: 0.05
-      AtlasUsing: 5
-  - Frames:
-    - spriteName: bola_cult_1
-      sprite: {fileID: 21300002, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
-      secondDelay: 0.05
-      AtlasUsing: 5
-    - spriteName: bola_cult_5
-      sprite: {fileID: 21300010, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
-      secondDelay: 0.05
-      AtlasUsing: 5
-    - spriteName: bola_cult_9
-      sprite: {fileID: 21300018, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
-      secondDelay: 0.05
-      AtlasUsing: 5
-    - spriteName: bola_cult_13
-      sprite: {fileID: 21300026, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300024, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_12
       secondDelay: 0.05
       AtlasUsing: 5
   - Frames:
-    - spriteName: bola_cult_2
-      sprite: {fileID: 21300004, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300002, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_1
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: bola_cult_6
-      sprite: {fileID: 21300012, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300010, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_5
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: bola_cult_10
-      sprite: {fileID: 21300020, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300018, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_9
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: bola_cult_14
-      sprite: {fileID: 21300028, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300026, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_13
       secondDelay: 0.05
       AtlasUsing: 5
   - Frames:
-    - spriteName: bola_cult_3
-      sprite: {fileID: 21300006, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300004, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_2
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: bola_cult_7
-      sprite: {fileID: 21300014, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300012, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_6
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: bola_cult_11
-      sprite: {fileID: 21300022, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300020, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_10
       secondDelay: 0.05
       AtlasUsing: 5
-    - spriteName: bola_cult_15
-      sprite: {fileID: 21300030, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+    - sprite: {fileID: 21300028, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_14
+      secondDelay: 0.05
+      AtlasUsing: 5
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_3
+      secondDelay: 0.05
+      AtlasUsing: 5
+    - sprite: {fileID: 21300014, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_7
+      secondDelay: 0.05
+      AtlasUsing: 5
+    - sprite: {fileID: 21300022, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_11
+      secondDelay: 0.05
+      AtlasUsing: 5
+    - sprite: {fileID: 21300030, guid: 4e0107800f62d954981275d3b63f9a67, type: 3}
+      spriteName: bola_cult_15
       secondDelay: 0.05
       AtlasUsing: 5
   IsPalette: 0

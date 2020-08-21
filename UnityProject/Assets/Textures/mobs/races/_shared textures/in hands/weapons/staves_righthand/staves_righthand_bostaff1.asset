@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bostaff1_0
-      sprite: {fileID: 21300000, guid: bad54be67d7fa544698e0a6d42b79b90, type: 3}
+    - sprite: {fileID: 21300000, guid: bad54be67d7fa544698e0a6d42b79b90, type: 3}
+      spriteName: bostaff1_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: bostaff1_1
-      sprite: {fileID: 21300002, guid: bad54be67d7fa544698e0a6d42b79b90, type: 3}
+    - sprite: {fileID: 21300002, guid: bad54be67d7fa544698e0a6d42b79b90, type: 3}
+      spriteName: bostaff1_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: bostaff1_2
-      sprite: {fileID: 21300004, guid: bad54be67d7fa544698e0a6d42b79b90, type: 3}
+    - sprite: {fileID: 21300004, guid: bad54be67d7fa544698e0a6d42b79b90, type: 3}
+      spriteName: bostaff1_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: bostaff1_3
-      sprite: {fileID: 21300006, guid: bad54be67d7fa544698e0a6d42b79b90, type: 3}
+    - sprite: {fileID: 21300006, guid: bad54be67d7fa544698e0a6d42b79b90, type: 3}
+      spriteName: bostaff1_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

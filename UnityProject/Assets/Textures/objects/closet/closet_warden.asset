@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: closet_warden
-      sprite: {fileID: 21300000, guid: aa40a4cded2d5564ea5032ee017b4291, type: 3}
+    - sprite: {fileID: 21300000, guid: aa40a4cded2d5564ea5032ee017b4291, type: 3}
+      spriteName: closet_warden
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

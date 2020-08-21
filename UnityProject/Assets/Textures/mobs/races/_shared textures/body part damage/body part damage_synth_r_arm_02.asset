@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: synth_r_arm_02_0
-      sprite: {fileID: 21300000, guid: 7c49624aa61bbee4db874ee7401c1fc3, type: 3}
+    - sprite: {fileID: 21300000, guid: 7c49624aa61bbee4db874ee7401c1fc3, type: 3}
+      spriteName: synth_r_arm_02_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: synth_r_arm_02_1
-      sprite: {fileID: 21300002, guid: 7c49624aa61bbee4db874ee7401c1fc3, type: 3}
+    - sprite: {fileID: 21300002, guid: 7c49624aa61bbee4db874ee7401c1fc3, type: 3}
+      spriteName: synth_r_arm_02_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: synth_r_arm_02_2
-      sprite: {fileID: 21300004, guid: 7c49624aa61bbee4db874ee7401c1fc3, type: 3}
+    - sprite: {fileID: 21300004, guid: 7c49624aa61bbee4db874ee7401c1fc3, type: 3}
+      spriteName: synth_r_arm_02_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: synth_r_arm_02_3
-      sprite: {fileID: 21300006, guid: 7c49624aa61bbee4db874ee7401c1fc3, type: 3}
+    - sprite: {fileID: 21300006, guid: 7c49624aa61bbee4db874ee7401c1fc3, type: 3}
+      spriteName: synth_r_arm_02_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

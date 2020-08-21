@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: vending_atmosdrobe-off
-      sprite: {fileID: 21300000, guid: 7be0752263eca7341b2e5a498c2a7ef2, type: 3}
+    - sprite: {fileID: 21300000, guid: 7be0752263eca7341b2e5a498c2a7ef2, type: 3}
+      spriteName: vending_atmosdrobe-off
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

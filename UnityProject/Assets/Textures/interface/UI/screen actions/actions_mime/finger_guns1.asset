@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: finger_guns1
-      sprite: {fileID: 21300000, guid: ad843e2cea3894db19745d78d1af38e5, type: 3}
+    - sprite: {fileID: 21300000, guid: ad843e2cea3894db19745d78d1af38e5, type: 3}
+      spriteName: finger_guns1
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: officertanclothes_0
-      sprite: {fileID: 21300000, guid: e5de822ff85f9ee4fb96316f05c97d8e, type: 3}
+    - sprite: {fileID: 21300000, guid: e5de822ff85f9ee4fb96316f05c97d8e, type: 3}
+      spriteName: officertanclothes_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: officertanclothes_1
-      sprite: {fileID: 21300002, guid: e5de822ff85f9ee4fb96316f05c97d8e, type: 3}
+    - sprite: {fileID: 21300002, guid: e5de822ff85f9ee4fb96316f05c97d8e, type: 3}
+      spriteName: officertanclothes_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: officertanclothes_2
-      sprite: {fileID: 21300004, guid: e5de822ff85f9ee4fb96316f05c97d8e, type: 3}
+    - sprite: {fileID: 21300004, guid: e5de822ff85f9ee4fb96316f05c97d8e, type: 3}
+      spriteName: officertanclothes_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: officertanclothes_3
-      sprite: {fileID: 21300006, guid: e5de822ff85f9ee4fb96316f05c97d8e, type: 3}
+    - sprite: {fileID: 21300006, guid: e5de822ff85f9ee4fb96316f05c97d8e, type: 3}
+      spriteName: officertanclothes_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

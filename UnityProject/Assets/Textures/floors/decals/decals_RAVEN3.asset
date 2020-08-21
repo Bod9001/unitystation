@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: RAVEN3_0
-      sprite: {fileID: 21300000, guid: 1f11598e28f5d4149b5bb81c1da5f988, type: 3}
+    - sprite: {fileID: 21300000, guid: 1f11598e28f5d4149b5bb81c1da5f988, type: 3}
+      spriteName: RAVEN3_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: RAVEN3_1
-      sprite: {fileID: 21300002, guid: 1f11598e28f5d4149b5bb81c1da5f988, type: 3}
+    - sprite: {fileID: 21300002, guid: 1f11598e28f5d4149b5bb81c1da5f988, type: 3}
+      spriteName: RAVEN3_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: RAVEN3_2
-      sprite: {fileID: 21300004, guid: 1f11598e28f5d4149b5bb81c1da5f988, type: 3}
+    - sprite: {fileID: 21300004, guid: 1f11598e28f5d4149b5bb81c1da5f988, type: 3}
+      spriteName: RAVEN3_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: RAVEN3_3
-      sprite: {fileID: 21300006, guid: 1f11598e28f5d4149b5bb81c1da5f988, type: 3}
+    - sprite: {fileID: 21300006, guid: 1f11598e28f5d4149b5bb81c1da5f988, type: 3}
+      spriteName: RAVEN3_3
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

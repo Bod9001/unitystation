@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: overlays_lights_opening
-      sprite: {fileID: 21300000, guid: 4d3f6ab789e7c7648b93926607c871a7, type: 3}
+    - sprite: {fileID: 21300000, guid: 4d3f6ab789e7c7648b93926607c871a7, type: 3}
+      spriteName: overlays_lights_opening
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

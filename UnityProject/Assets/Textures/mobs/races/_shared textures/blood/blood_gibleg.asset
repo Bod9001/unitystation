@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gibleg_0
-      sprite: {fileID: 21300000, guid: c9012031da80f304ab80aa611ca41022, type: 3}
+    - sprite: {fileID: 21300000, guid: c9012031da80f304ab80aa611ca41022, type: 3}
+      spriteName: gibleg_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: gibleg_1
-      sprite: {fileID: 21300002, guid: c9012031da80f304ab80aa611ca41022, type: 3}
+    - sprite: {fileID: 21300002, guid: c9012031da80f304ab80aa611ca41022, type: 3}
+      spriteName: gibleg_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: gibleg_2
-      sprite: {fileID: 21300004, guid: c9012031da80f304ab80aa611ca41022, type: 3}
+    - sprite: {fileID: 21300004, guid: c9012031da80f304ab80aa611ca41022, type: 3}
+      spriteName: gibleg_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: gibleg_3
-      sprite: {fileID: 21300006, guid: c9012031da80f304ab80aa611ca41022, type: 3}
+    - sprite: {fileID: 21300006, guid: c9012031da80f304ab80aa611ca41022, type: 3}
+      spriteName: gibleg_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

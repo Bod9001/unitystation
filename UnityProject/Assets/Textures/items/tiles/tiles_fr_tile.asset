@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tiles_fr_tile
-      sprite: {fileID: 21300000, guid: 2f2fcd754e8ad894c863123c05a1e9a0, type: 3}
+    - sprite: {fileID: 21300000, guid: 2f2fcd754e8ad894c863123c05a1e9a0, type: 3}
+      spriteName: tiles_fr_tile
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

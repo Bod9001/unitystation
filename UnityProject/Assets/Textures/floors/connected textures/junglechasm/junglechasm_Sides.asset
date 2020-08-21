@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Sides_0
-      sprite: {fileID: 21300000, guid: 1da06798c2d45d349bac124a2db8f7e9, type: 3}
+    - sprite: {fileID: 21300000, guid: 1da06798c2d45d349bac124a2db8f7e9, type: 3}
+      spriteName: Sides_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: Sides_1
-      sprite: {fileID: 21300002, guid: 1da06798c2d45d349bac124a2db8f7e9, type: 3}
+    - sprite: {fileID: 21300002, guid: 1da06798c2d45d349bac124a2db8f7e9, type: 3}
+      spriteName: Sides_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: Sides_2
-      sprite: {fileID: 21300004, guid: 1da06798c2d45d349bac124a2db8f7e9, type: 3}
+    - sprite: {fileID: 21300004, guid: 1da06798c2d45d349bac124a2db8f7e9, type: 3}
+      spriteName: Sides_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: Sides_3
-      sprite: {fileID: 21300006, guid: 1da06798c2d45d349bac124a2db8f7e9, type: 3}
+    - sprite: {fileID: 21300006, guid: 1da06798c2d45d349bac124a2db8f7e9, type: 3}
+      spriteName: Sides_3
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

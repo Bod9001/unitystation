@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lighting_flashdark
-      sprite: {fileID: 21300000, guid: befd66aeaef09374b936ca79eedd9956, type: 3}
+    - sprite: {fileID: 21300000, guid: befd66aeaef09374b936ca79eedd9956, type: 3}
+      spriteName: lighting_flashdark
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

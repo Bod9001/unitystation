@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clerk-skillcape_1
-      sprite: {fileID: 4693754336645402742, guid: f9668ea70635c544380e3da612478662,
+    - sprite: {fileID: 4693754336645402742, guid: f9668ea70635c544380e3da612478662,
         type: 3}
+      spriteName: clerk-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dirt_1-i
-      sprite: {fileID: 21300000, guid: 912a2ba3c09ca67438073f6972bfb034, type: 3}
+    - sprite: {fileID: 21300000, guid: 912a2ba3c09ca67438073f6972bfb034, type: 3}
+      spriteName: dirt_1-i
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

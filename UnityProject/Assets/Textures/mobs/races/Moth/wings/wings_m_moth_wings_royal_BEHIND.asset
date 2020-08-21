@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: m_moth_wings_royal_BEHIND_0
-      sprite: {fileID: 21300000, guid: a3367386a3af5c644ad1fff7b9bba4d2, type: 3}
+    - sprite: {fileID: 21300000, guid: a3367386a3af5c644ad1fff7b9bba4d2, type: 3}
+      spriteName: m_moth_wings_royal_BEHIND_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: m_moth_wings_royal_BEHIND_1
-      sprite: {fileID: 21300002, guid: a3367386a3af5c644ad1fff7b9bba4d2, type: 3}
+    - sprite: {fileID: 21300002, guid: a3367386a3af5c644ad1fff7b9bba4d2, type: 3}
+      spriteName: m_moth_wings_royal_BEHIND_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: m_moth_wings_royal_BEHIND_2
-      sprite: {fileID: 21300004, guid: a3367386a3af5c644ad1fff7b9bba4d2, type: 3}
+    - sprite: {fileID: 21300004, guid: a3367386a3af5c644ad1fff7b9bba4d2, type: 3}
+      spriteName: m_moth_wings_royal_BEHIND_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: m_moth_wings_royal_BEHIND_3
-      sprite: {fileID: 21300006, guid: a3367386a3af5c644ad1fff7b9bba4d2, type: 3}
+    - sprite: {fileID: 21300006, guid: a3367386a3af5c644ad1fff7b9bba4d2, type: 3}
+      spriteName: m_moth_wings_royal_BEHIND_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

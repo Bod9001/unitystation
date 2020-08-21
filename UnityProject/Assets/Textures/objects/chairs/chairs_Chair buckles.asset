@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chairs_Chair buckles
-      sprite: {fileID: 21300000, guid: ca42a62169bf6fd4e83c91253c44cdcc, type: 3}
+    - sprite: {fileID: 21300000, guid: ca42a62169bf6fd4e83c91253c44cdcc, type: 3}
+      spriteName: chairs_Chair buckles
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

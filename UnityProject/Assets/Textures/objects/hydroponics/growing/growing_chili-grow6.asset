@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_chili-grow6
-      sprite: {fileID: 21300000, guid: b1a17520485975f4d8ef73ff0dc68c29, type: 3}
+    - sprite: {fileID: 21300000, guid: b1a17520485975f4d8ef73ff0dc68c29, type: 3}
+      spriteName: growing_chili-grow6
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

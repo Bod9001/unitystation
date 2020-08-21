@@ -14,72 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: rightpawgrab_0
-      sprite: {fileID: 21300000, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300000, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_0
       secondDelay: 0.09
       AtlasUsing: 1
-    - spriteName: rightpawgrab_1
-      sprite: {fileID: 21300002, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300002, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_1
       secondDelay: 0.08
       AtlasUsing: 1
-    - spriteName: rightpawgrab_2
-      sprite: {fileID: 21300004, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300004, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_2
       secondDelay: 0.07
       AtlasUsing: 1
-    - spriteName: rightpawgrab_3
-      sprite: {fileID: 21300006, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300006, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_3
       secondDelay: 0.06
       AtlasUsing: 1
-    - spriteName: rightpawgrab_4
-      sprite: {fileID: 21300008, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300008, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_4
       secondDelay: 0.05
       AtlasUsing: 1
-    - spriteName: rightpawgrab_5
-      sprite: {fileID: 21300010, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300010, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_5
       secondDelay: 0.04
       AtlasUsing: 1
-    - spriteName: rightpawgrab_6
-      sprite: {fileID: 21300012, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300012, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_6
       secondDelay: 0.03
       AtlasUsing: 1
-    - spriteName: rightpawgrab_7
-      sprite: {fileID: 21300014, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300014, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_7
       secondDelay: 0.02
       AtlasUsing: 1
-    - spriteName: rightpawgrab_8
-      sprite: {fileID: 21300016, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300016, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_8
       secondDelay: 0.01
       AtlasUsing: 1
-    - spriteName: rightpawgrab_9
-      sprite: {fileID: 21300018, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300018, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_9
       secondDelay: 0.15
       AtlasUsing: 1
-    - spriteName: rightpawgrab_10
-      sprite: {fileID: 21300020, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300020, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_10
       secondDelay: 0.03
       AtlasUsing: 1
-    - spriteName: rightpawgrab_11
-      sprite: {fileID: 21300022, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300022, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_11
       secondDelay: 0.025
       AtlasUsing: 1
-    - spriteName: rightpawgrab_12
-      sprite: {fileID: 21300024, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300024, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_12
       secondDelay: 0.02
       AtlasUsing: 1
-    - spriteName: rightpawgrab_13
-      sprite: {fileID: 21300026, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300026, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_13
       secondDelay: 0.015
       AtlasUsing: 1
-    - spriteName: rightpawgrab_14
-      sprite: {fileID: 21300028, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300028, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_14
       secondDelay: 0.01
       AtlasUsing: 1
-    - spriteName: rightpawgrab_15
-      sprite: {fileID: 21300030, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300030, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_15
       secondDelay: 0.005
       AtlasUsing: 1
-    - spriteName: rightpawgrab_16
-      sprite: {fileID: 21300032, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+    - sprite: {fileID: 21300032, guid: ece060724133e8f48ab87ce76babb496, type: 3}
+      spriteName: rightpawgrab_16
       secondDelay: 0.5
       AtlasUsing: 1
   IsPalette: 0

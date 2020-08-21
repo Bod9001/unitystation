@@ -14,119 +14,119 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mook_slash_combo_0
-      sprite: {fileID: 21300000, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300000, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_0
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_4
-      sprite: {fileID: 21300008, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300008, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_4
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_8
-      sprite: {fileID: 21300016, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300016, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_8
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_12
-      sprite: {fileID: 21300024, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300024, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_12
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_16
-      sprite: {fileID: 21300032, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300032, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_16
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_20
-      sprite: {fileID: 21300040, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300040, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_20
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_24
-      sprite: {fileID: 21300048, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300048, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_24
       secondDelay: 2
       AtlasUsing: 1
   - Frames:
-    - spriteName: mook_slash_combo_1
-      sprite: {fileID: 21300002, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300002, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_1
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_5
-      sprite: {fileID: 21300010, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300010, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_5
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_9
-      sprite: {fileID: 21300018, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300018, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_9
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_13
-      sprite: {fileID: 21300026, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300026, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_13
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_17
-      sprite: {fileID: 21300034, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300034, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_17
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_21
-      sprite: {fileID: 21300042, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300042, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_21
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_25
-      sprite: {fileID: 21300050, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300050, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_25
       secondDelay: 2
       AtlasUsing: 1
   - Frames:
-    - spriteName: mook_slash_combo_2
-      sprite: {fileID: 21300004, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300004, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_2
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_6
-      sprite: {fileID: 21300012, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300012, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_6
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_10
-      sprite: {fileID: 21300020, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300020, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_10
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_14
-      sprite: {fileID: 21300028, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300028, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_14
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_18
-      sprite: {fileID: 21300036, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300036, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_18
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_22
-      sprite: {fileID: 21300044, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300044, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_22
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_26
-      sprite: {fileID: 21300052, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300052, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_26
       secondDelay: 2
       AtlasUsing: 1
   - Frames:
-    - spriteName: mook_slash_combo_3
-      sprite: {fileID: 21300006, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300006, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_3
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_7
-      sprite: {fileID: 21300014, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300014, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_7
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_11
-      sprite: {fileID: 21300022, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300022, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_11
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_15
-      sprite: {fileID: 21300030, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300030, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_15
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_19
-      sprite: {fileID: 21300038, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300038, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_19
       secondDelay: 0.1
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_23
-      sprite: {fileID: 21300046, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300046, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_23
       secondDelay: 0.2
       AtlasUsing: 1
-    - spriteName: mook_slash_combo_27
-      sprite: {fileID: 21300054, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+    - sprite: {fileID: 21300054, guid: c872af5de1a1f894db7817185bc7206d, type: 3}
+      spriteName: mook_slash_combo_27
       secondDelay: 2
       AtlasUsing: 1
   IsPalette: 0

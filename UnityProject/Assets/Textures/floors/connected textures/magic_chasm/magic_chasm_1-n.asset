@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: magic_chasm_1-n
-      sprite: {fileID: 21300000, guid: 7d109cf0eee891f489144e3f3644a900, type: 3}
+    - sprite: {fileID: 21300000, guid: 7d109cf0eee891f489144e3f3644a900, type: 3}
+      spriteName: magic_chasm_1-n
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

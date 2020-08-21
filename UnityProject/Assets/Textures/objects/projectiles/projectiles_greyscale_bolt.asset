@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: projectiles_greyscale_bolt
-      sprite: {fileID: 21300000, guid: 700b99cb75136bc42839d13ba5f854b0, type: 3}
+    - sprite: {fileID: 21300000, guid: 700b99cb75136bc42839d13ba5f854b0, type: 3}
+      spriteName: projectiles_greyscale_bolt
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

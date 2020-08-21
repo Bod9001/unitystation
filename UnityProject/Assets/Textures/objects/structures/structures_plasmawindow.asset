@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: plasmawindow_0
-      sprite: {fileID: 21300000, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+    - sprite: {fileID: 21300000, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+      spriteName: plasmawindow_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: plasmawindow_1
-      sprite: {fileID: 21300002, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+    - sprite: {fileID: 21300002, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+      spriteName: plasmawindow_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: plasmawindow_2
-      sprite: {fileID: 21300004, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+    - sprite: {fileID: 21300004, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+      spriteName: plasmawindow_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: plasmawindow_3
-      sprite: {fileID: 21300006, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+    - sprite: {fileID: 21300006, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+      spriteName: plasmawindow_3
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: plasmawindow_4
-      sprite: {fileID: 21300008, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+    - sprite: {fileID: 21300008, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+      spriteName: plasmawindow_4
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: plasmawindow_5
-      sprite: {fileID: 21300010, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+    - sprite: {fileID: 21300010, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+      spriteName: plasmawindow_5
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: plasmawindow_6
-      sprite: {fileID: 21300012, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+    - sprite: {fileID: 21300012, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+      spriteName: plasmawindow_6
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: plasmawindow_7
-      sprite: {fileID: 21300014, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+    - sprite: {fileID: 21300014, guid: 87cd356cd81a3ec449b8b4e4e2161ab9, type: 3}
+      spriteName: plasmawindow_7
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: syndicate-contract-helm_0
-      sprite: {fileID: 21300000, guid: c45ef4dcc79b29743a2b18363e0919ba, type: 3}
+    - sprite: {fileID: 21300000, guid: c45ef4dcc79b29743a2b18363e0919ba, type: 3}
+      spriteName: syndicate-contract-helm_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndicate-contract-helm_1
-      sprite: {fileID: 21300002, guid: c45ef4dcc79b29743a2b18363e0919ba, type: 3}
+    - sprite: {fileID: 21300002, guid: c45ef4dcc79b29743a2b18363e0919ba, type: 3}
+      spriteName: syndicate-contract-helm_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndicate-contract-helm_2
-      sprite: {fileID: 21300004, guid: c45ef4dcc79b29743a2b18363e0919ba, type: 3}
+    - sprite: {fileID: 21300004, guid: c45ef4dcc79b29743a2b18363e0919ba, type: 3}
+      spriteName: syndicate-contract-helm_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndicate-contract-helm_3
-      sprite: {fileID: 21300006, guid: c45ef4dcc79b29743a2b18363e0919ba, type: 3}
+    - sprite: {fileID: 21300006, guid: c45ef4dcc79b29743a2b18363e0919ba, type: 3}
+      spriteName: syndicate-contract-helm_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

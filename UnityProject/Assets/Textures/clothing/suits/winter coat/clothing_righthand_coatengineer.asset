@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: coatengineer_0
-      sprite: {fileID: 21300000, guid: e31aa2e7f69471644a0ddc9b90d43dc7, type: 3}
+    - sprite: {fileID: 21300000, guid: e31aa2e7f69471644a0ddc9b90d43dc7, type: 3}
+      spriteName: coatengineer_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: coatengineer_1
-      sprite: {fileID: 21300002, guid: e31aa2e7f69471644a0ddc9b90d43dc7, type: 3}
+    - sprite: {fileID: 21300002, guid: e31aa2e7f69471644a0ddc9b90d43dc7, type: 3}
+      spriteName: coatengineer_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: coatengineer_2
-      sprite: {fileID: 21300004, guid: e31aa2e7f69471644a0ddc9b90d43dc7, type: 3}
+    - sprite: {fileID: 21300004, guid: e31aa2e7f69471644a0ddc9b90d43dc7, type: 3}
+      spriteName: coatengineer_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: coatengineer_3
-      sprite: {fileID: 21300006, guid: e31aa2e7f69471644a0ddc9b90d43dc7, type: 3}
+    - sprite: {fileID: 21300006, guid: e31aa2e7f69471644a0ddc9b90d43dc7, type: 3}
+      spriteName: coatengineer_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

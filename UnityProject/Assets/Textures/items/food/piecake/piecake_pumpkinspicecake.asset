@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: piecake_pumpkinspicecake
-      sprite: {fileID: 21300000, guid: 0e7464549a6346c4ba78b0a528d7c317, type: 3}
+    - sprite: {fileID: 21300000, guid: 0e7464549a6346c4ba78b0a528d7c317, type: 3}
+      spriteName: piecake_pumpkinspicecake
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

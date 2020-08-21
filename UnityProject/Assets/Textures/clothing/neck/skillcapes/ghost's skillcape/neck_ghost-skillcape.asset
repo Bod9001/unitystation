@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ghost-skillcape_0
-      sprite: {fileID: -113518916129797613, guid: 7626e38fe2eae4e4fb36dad5441aa1b6,
+    - sprite: {fileID: -113518916129797613, guid: 7626e38fe2eae4e4fb36dad5441aa1b6,
         type: 3}
+      spriteName: ghost-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ghost-skillcape_1
-      sprite: {fileID: -5005268673339066451, guid: 7626e38fe2eae4e4fb36dad5441aa1b6,
+    - sprite: {fileID: -5005268673339066451, guid: 7626e38fe2eae4e4fb36dad5441aa1b6,
         type: 3}
+      spriteName: ghost-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ghost-skillcape_2
-      sprite: {fileID: -636516617030599427, guid: 7626e38fe2eae4e4fb36dad5441aa1b6,
+    - sprite: {fileID: -636516617030599427, guid: 7626e38fe2eae4e4fb36dad5441aa1b6,
         type: 3}
+      spriteName: ghost-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ghost-skillcape_3
-      sprite: {fileID: 8549151486791208579, guid: 7626e38fe2eae4e4fb36dad5441aa1b6,
+    - sprite: {fileID: 8549151486791208579, guid: 7626e38fe2eae4e4fb36dad5441aa1b6,
         type: 3}
+      spriteName: ghost-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

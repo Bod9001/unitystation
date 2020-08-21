@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: janitor_lightreplacer1
-      sprite: {fileID: 21300000, guid: 5416ebd467dcf194788b3d4ad72f9b88, type: 3}
+    - sprite: {fileID: 21300000, guid: 5416ebd467dcf194788b3d4ad72f9b88, type: 3}
+      spriteName: janitor_lightreplacer1
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

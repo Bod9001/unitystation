@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: onyx_prism_0
-      sprite: {fileID: 21300000, guid: 0f458a988e15a3f4490d3fad072f8997, type: 3}
+    - sprite: {fileID: 21300000, guid: 0f458a988e15a3f4490d3fad072f8997, type: 3}
+      spriteName: onyx_prism_0
       secondDelay: 2.5
       AtlasUsing: 5
-    - spriteName: onyx_prism_1
-      sprite: {fileID: 21300002, guid: 0f458a988e15a3f4490d3fad072f8997, type: 3}
+    - sprite: {fileID: 21300002, guid: 0f458a988e15a3f4490d3fad072f8997, type: 3}
+      spriteName: onyx_prism_1
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: onyx_prism_2
-      sprite: {fileID: 21300004, guid: 0f458a988e15a3f4490d3fad072f8997, type: 3}
+    - sprite: {fileID: 21300004, guid: 0f458a988e15a3f4490d3fad072f8997, type: 3}
+      spriteName: onyx_prism_2
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: onyx_prism_3
-      sprite: {fileID: 21300006, guid: 0f458a988e15a3f4490d3fad072f8997, type: 3}
+    - sprite: {fileID: 21300006, guid: 0f458a988e15a3f4490d3fad072f8997, type: 3}
+      spriteName: onyx_prism_3
       secondDelay: 0.3
       AtlasUsing: 5
   IsPalette: 0

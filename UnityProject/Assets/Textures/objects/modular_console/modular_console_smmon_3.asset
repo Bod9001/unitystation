@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: smmon_3_0
-      sprite: {fileID: 21300000, guid: 1ea7fc00839357640ae48cae765d970e, type: 3}
+    - sprite: {fileID: 21300000, guid: 1ea7fc00839357640ae48cae765d970e, type: 3}
+      spriteName: smmon_3_0
       secondDelay: 0
-      AtlasUsing: 5
+      AtlasUsing: 8
   - Frames:
-    - spriteName: smmon_3_1
-      sprite: {fileID: 21300002, guid: 1ea7fc00839357640ae48cae765d970e, type: 3}
+    - sprite: {fileID: 21300002, guid: 1ea7fc00839357640ae48cae765d970e, type: 3}
+      spriteName: smmon_3_1
       secondDelay: 0
-      AtlasUsing: 5
+      AtlasUsing: 8
   - Frames:
-    - spriteName: smmon_3_2
-      sprite: {fileID: 21300004, guid: 1ea7fc00839357640ae48cae765d970e, type: 3}
+    - sprite: {fileID: 21300004, guid: 1ea7fc00839357640ae48cae765d970e, type: 3}
+      spriteName: smmon_3_2
       secondDelay: 0
-      AtlasUsing: 5
+      AtlasUsing: 8
   - Frames:
-    - spriteName: smmon_3_3
-      sprite: {fileID: 21300006, guid: 1ea7fc00839357640ae48cae765d970e, type: 3}
+    - sprite: {fileID: 21300006, guid: 1ea7fc00839357640ae48cae765d970e, type: 3}
+      spriteName: smmon_3_3
       secondDelay: 0
-      AtlasUsing: 5
+      AtlasUsing: 8
   IsPalette: 0
   setID: 16230

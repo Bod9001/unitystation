@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: darkdirt_4-e
-      sprite: {fileID: 21300000, guid: e5f3034106b327a48857a958fa0cb2c1, type: 3}
+    - sprite: {fileID: 21300000, guid: e5f3034106b327a48857a958fa0cb2c1, type: 3}
+      spriteName: darkdirt_4-e
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

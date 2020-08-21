@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: circuit_printer_0
-      sprite: {fileID: 21300000, guid: cb4aff8adfdb88149a0bfbe63f40932d, type: 3}
+    - sprite: {fileID: 21300000, guid: cb4aff8adfdb88149a0bfbe63f40932d, type: 3}
+      spriteName: circuit_printer_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: circuit_printer_1
-      sprite: {fileID: 21300002, guid: cb4aff8adfdb88149a0bfbe63f40932d, type: 3}
+    - sprite: {fileID: 21300002, guid: cb4aff8adfdb88149a0bfbe63f40932d, type: 3}
+      spriteName: circuit_printer_1
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: circuit_printer_2
-      sprite: {fileID: 21300004, guid: cb4aff8adfdb88149a0bfbe63f40932d, type: 3}
+    - sprite: {fileID: 21300004, guid: cb4aff8adfdb88149a0bfbe63f40932d, type: 3}
+      spriteName: circuit_printer_2
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

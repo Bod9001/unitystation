@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: large1_0
-      sprite: {fileID: 21300000, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+    - sprite: {fileID: 21300000, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+      spriteName: large1_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: large1_1
-      sprite: {fileID: 21300002, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+    - sprite: {fileID: 21300002, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+      spriteName: large1_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: large1_2
-      sprite: {fileID: 21300004, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+    - sprite: {fileID: 21300004, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+      spriteName: large1_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: large1_3
-      sprite: {fileID: 21300006, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+    - sprite: {fileID: 21300006, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+      spriteName: large1_3
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: large1_4
-      sprite: {fileID: 21300008, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+    - sprite: {fileID: 21300008, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+      spriteName: large1_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: large1_5
-      sprite: {fileID: 21300010, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+    - sprite: {fileID: 21300010, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+      spriteName: large1_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: large1_6
-      sprite: {fileID: 21300012, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+    - sprite: {fileID: 21300012, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+      spriteName: large1_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: large1_7
-      sprite: {fileID: 21300014, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+    - sprite: {fileID: 21300014, guid: f2660796d8f872e40980aa8a901c46ae, type: 3}
+      spriteName: large1_7
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

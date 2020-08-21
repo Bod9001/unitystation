@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gigadrill_0
-      sprite: {fileID: 21300000, guid: f4e91d80bfd35814ab2625873ba095a1, type: 3}
+    - sprite: {fileID: 21300000, guid: f4e91d80bfd35814ab2625873ba095a1, type: 3}
+      spriteName: gigadrill_0
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: gigadrill_1
-      sprite: {fileID: 21300002, guid: f4e91d80bfd35814ab2625873ba095a1, type: 3}
+    - sprite: {fileID: 21300002, guid: f4e91d80bfd35814ab2625873ba095a1, type: 3}
+      spriteName: gigadrill_1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: gigadrill_2
-      sprite: {fileID: 21300004, guid: f4e91d80bfd35814ab2625873ba095a1, type: 3}
+    - sprite: {fileID: 21300004, guid: f4e91d80bfd35814ab2625873ba095a1, type: 3}
+      spriteName: gigadrill_2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: gigadrill_3
-      sprite: {fileID: 21300006, guid: f4e91d80bfd35814ab2625873ba095a1, type: 3}
+    - sprite: {fileID: 21300006, guid: f4e91d80bfd35814ab2625873ba095a1, type: 3}
+      spriteName: gigadrill_3
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

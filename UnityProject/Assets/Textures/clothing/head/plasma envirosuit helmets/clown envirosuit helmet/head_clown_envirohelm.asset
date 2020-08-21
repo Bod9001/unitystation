@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clown_envirohelm_0
-      sprite: {fileID: 5248434229886404968, guid: 4eac7cc9f89b61c47961fe267dfe9c05,
+    - sprite: {fileID: 5248434229886404968, guid: 4eac7cc9f89b61c47961fe267dfe9c05,
         type: 3}
+      spriteName: clown_envirohelm_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: clown_envirohelm_1
-      sprite: {fileID: -4838134009734833237, guid: 4eac7cc9f89b61c47961fe267dfe9c05,
+    - sprite: {fileID: -4838134009734833237, guid: 4eac7cc9f89b61c47961fe267dfe9c05,
         type: 3}
+      spriteName: clown_envirohelm_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: clown_envirohelm_2
-      sprite: {fileID: -3937208716288040057, guid: 4eac7cc9f89b61c47961fe267dfe9c05,
+    - sprite: {fileID: -3937208716288040057, guid: 4eac7cc9f89b61c47961fe267dfe9c05,
         type: 3}
+      spriteName: clown_envirohelm_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: clown_envirohelm_3
-      sprite: {fileID: -6977912290436142528, guid: 4eac7cc9f89b61c47961fe267dfe9c05,
+    - sprite: {fileID: -6977912290436142528, guid: 4eac7cc9f89b61c47961fe267dfe9c05,
         type: 3}
+      spriteName: clown_envirohelm_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

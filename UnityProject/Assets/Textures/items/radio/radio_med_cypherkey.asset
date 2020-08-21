@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: radio_med_cypherkey
-      sprite: {fileID: 21300000, guid: 295d679090788634fb93185589f4e6c4, type: 3}
+    - sprite: {fileID: 21300000, guid: 295d679090788634fb93185589f4e6c4, type: 3}
+      spriteName: radio_med_cypherkey
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

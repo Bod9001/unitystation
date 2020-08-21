@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: advtaserstun3_0
-      sprite: {fileID: 21300000, guid: 0083a0ef2fea01a4689371efb3201af6, type: 3}
+    - sprite: {fileID: 21300000, guid: 0083a0ef2fea01a4689371efb3201af6, type: 3}
+      spriteName: advtaserstun3_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: advtaserstun3_1
-      sprite: {fileID: 21300002, guid: 0083a0ef2fea01a4689371efb3201af6, type: 3}
+    - sprite: {fileID: 21300002, guid: 0083a0ef2fea01a4689371efb3201af6, type: 3}
+      spriteName: advtaserstun3_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: advtaserstun3_2
-      sprite: {fileID: 21300004, guid: 0083a0ef2fea01a4689371efb3201af6, type: 3}
+    - sprite: {fileID: 21300004, guid: 0083a0ef2fea01a4689371efb3201af6, type: 3}
+      spriteName: advtaserstun3_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: advtaserstun3_3
-      sprite: {fileID: 21300006, guid: 0083a0ef2fea01a4689371efb3201af6, type: 3}
+    - sprite: {fileID: 21300006, guid: 0083a0ef2fea01a4689371efb3201af6, type: 3}
+      spriteName: advtaserstun3_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

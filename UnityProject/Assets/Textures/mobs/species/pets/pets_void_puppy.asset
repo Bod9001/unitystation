@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: void_puppy_0
-      sprite: {fileID: 21300000, guid: 09a134d6921ed76498059144c69f432b, type: 3}
+    - sprite: {fileID: 21300000, guid: 09a134d6921ed76498059144c69f432b, type: 3}
+      spriteName: void_puppy_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: void_puppy_1
-      sprite: {fileID: 21300002, guid: 09a134d6921ed76498059144c69f432b, type: 3}
+    - sprite: {fileID: 21300002, guid: 09a134d6921ed76498059144c69f432b, type: 3}
+      spriteName: void_puppy_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: void_puppy_2
-      sprite: {fileID: 21300004, guid: 09a134d6921ed76498059144c69f432b, type: 3}
+    - sprite: {fileID: 21300004, guid: 09a134d6921ed76498059144c69f432b, type: 3}
+      spriteName: void_puppy_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: void_puppy_3
-      sprite: {fileID: 21300006, guid: 09a134d6921ed76498059144c69f432b, type: 3}
+    - sprite: {fileID: 21300006, guid: 09a134d6921ed76498059144c69f432b, type: 3}
+      spriteName: void_puppy_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

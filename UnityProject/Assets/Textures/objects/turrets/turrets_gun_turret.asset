@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: gun_turret_0
-      sprite: {fileID: 21300000, guid: ff2d295c18132d047b33731fac995fda, type: 3}
+    - sprite: {fileID: 21300000, guid: ff2d295c18132d047b33731fac995fda, type: 3}
+      spriteName: gun_turret_0
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: gun_turret_1
-      sprite: {fileID: 21300002, guid: ff2d295c18132d047b33731fac995fda, type: 3}
+    - sprite: {fileID: 21300002, guid: ff2d295c18132d047b33731fac995fda, type: 3}
+      spriteName: gun_turret_1
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: gun_turret_2
-      sprite: {fileID: 21300004, guid: ff2d295c18132d047b33731fac995fda, type: 3}
+    - sprite: {fileID: 21300004, guid: ff2d295c18132d047b33731fac995fda, type: 3}
+      spriteName: gun_turret_2
       secondDelay: 0
       AtlasUsing: 8
   - Frames:
-    - spriteName: gun_turret_3
-      sprite: {fileID: 21300006, guid: ff2d295c18132d047b33731fac995fda, type: 3}
+    - sprite: {fileID: 21300006, guid: ff2d295c18132d047b33731fac995fda, type: 3}
+      spriteName: gun_turret_3
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

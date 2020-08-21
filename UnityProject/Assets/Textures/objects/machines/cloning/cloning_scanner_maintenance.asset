@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cloning_scanner_maintenance
-      sprite: {fileID: 21300000, guid: 0c001c28fc3f6bb49829a948f5ec139b, type: 3}
+    - sprite: {fileID: 21300000, guid: 0c001c28fc3f6bb49829a948f5ec139b, type: 3}
+      spriteName: cloning_scanner_maintenance
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

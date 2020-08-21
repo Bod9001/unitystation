@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pinetrees_pine_2
-      sprite: {fileID: 21300000, guid: b21fc090812433549b40ff409a66ecdc, type: 3}
+    - sprite: {fileID: 21300000, guid: b21fc090812433549b40ff409a66ecdc, type: 3}
+      spriteName: pinetrees_pine_2
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

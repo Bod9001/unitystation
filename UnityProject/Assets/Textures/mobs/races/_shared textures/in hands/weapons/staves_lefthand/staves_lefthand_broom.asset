@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: broom_0
-      sprite: {fileID: 21300000, guid: aa0491cacdadd2a439935c9bf9209ee2, type: 3}
+    - sprite: {fileID: 21300000, guid: aa0491cacdadd2a439935c9bf9209ee2, type: 3}
+      spriteName: broom_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: broom_1
-      sprite: {fileID: 21300002, guid: aa0491cacdadd2a439935c9bf9209ee2, type: 3}
+    - sprite: {fileID: 21300002, guid: aa0491cacdadd2a439935c9bf9209ee2, type: 3}
+      spriteName: broom_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: broom_2
-      sprite: {fileID: 21300004, guid: aa0491cacdadd2a439935c9bf9209ee2, type: 3}
+    - sprite: {fileID: 21300004, guid: aa0491cacdadd2a439935c9bf9209ee2, type: 3}
+      spriteName: broom_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: broom_3
-      sprite: {fileID: 21300006, guid: aa0491cacdadd2a439935c9bf9209ee2, type: 3}
+    - sprite: {fileID: 21300006, guid: aa0491cacdadd2a439935c9bf9209ee2, type: 3}
+      spriteName: broom_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

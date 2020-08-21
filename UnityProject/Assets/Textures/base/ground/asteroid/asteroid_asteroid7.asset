@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: asteroid_asteroid7
-      sprite: {fileID: 21300000, guid: dc5343405cb50d94daad420d93be868c, type: 3}
+    - sprite: {fileID: 21300000, guid: dc5343405cb50d94daad420d93be868c, type: 3}
+      spriteName: asteroid_asteroid7
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

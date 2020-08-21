@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: stack_objects_sheet-wetleather_3
-      sprite: {fileID: 21300000, guid: 6503054819bd0ea43826e16027ec46dd, type: 3}
+    - sprite: {fileID: 21300000, guid: 6503054819bd0ea43826e16027ec46dd, type: 3}
+      spriteName: stack_objects_sheet-wetleather_3
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

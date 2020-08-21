@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: projectiles_tracer_stun
-      sprite: {fileID: 21300000, guid: 4ea3918bcbe1c4344a101c969c92a16e, type: 3}
+    - sprite: {fileID: 21300000, guid: 4ea3918bcbe1c4344a101c969c92a16e, type: 3}
+      spriteName: projectiles_tracer_stun
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

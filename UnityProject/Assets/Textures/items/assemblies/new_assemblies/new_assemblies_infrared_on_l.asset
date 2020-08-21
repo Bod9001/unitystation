@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: new_assemblies_infrared_on_l
-      sprite: {fileID: 21300000, guid: 848780e942c90d644ab5745dca7a38c8, type: 3}
+    - sprite: {fileID: 21300000, guid: 848780e942c90d644ab5745dca7a38c8, type: 3}
+      spriteName: new_assemblies_infrared_on_l
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

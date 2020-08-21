@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cracked_surrounding1_0
-      sprite: {fileID: 21300000, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+    - sprite: {fileID: 21300000, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+      spriteName: cracked_surrounding1_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_surrounding1_1
-      sprite: {fileID: 21300002, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+    - sprite: {fileID: 21300002, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+      spriteName: cracked_surrounding1_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_surrounding1_2
-      sprite: {fileID: 21300004, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+    - sprite: {fileID: 21300004, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+      spriteName: cracked_surrounding1_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_surrounding1_3
-      sprite: {fileID: 21300006, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+    - sprite: {fileID: 21300006, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+      spriteName: cracked_surrounding1_3
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_surrounding1_4
-      sprite: {fileID: 21300008, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+    - sprite: {fileID: 21300008, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+      spriteName: cracked_surrounding1_4
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_surrounding1_5
-      sprite: {fileID: 21300010, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+    - sprite: {fileID: 21300010, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+      spriteName: cracked_surrounding1_5
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_surrounding1_6
-      sprite: {fileID: 21300012, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+    - sprite: {fileID: 21300012, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+      spriteName: cracked_surrounding1_6
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: cracked_surrounding1_7
-      sprite: {fileID: 21300014, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+    - sprite: {fileID: 21300014, guid: 18ce6d983c9452a40b771066f5f01cd0, type: 3}
+      spriteName: cracked_surrounding1_7
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

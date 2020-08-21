@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: timer-igniter-tank2_0
-      sprite: {fileID: 21300000, guid: aa5e921f8aed0754c8329f5c8d9181df, type: 3}
+    - sprite: {fileID: 21300000, guid: aa5e921f8aed0754c8329f5c8d9181df, type: 3}
+      spriteName: timer-igniter-tank2_0
       secondDelay: 0.1
       AtlasUsing: 5
-    - spriteName: timer-igniter-tank2_1
-      sprite: {fileID: 21300002, guid: aa5e921f8aed0754c8329f5c8d9181df, type: 3}
+    - sprite: {fileID: 21300002, guid: aa5e921f8aed0754c8329f5c8d9181df, type: 3}
+      spriteName: timer-igniter-tank2_1
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

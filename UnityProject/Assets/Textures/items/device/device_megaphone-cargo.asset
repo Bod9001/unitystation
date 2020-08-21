@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: device_megaphone-cargo
-      sprite: {fileID: 21300000, guid: 10f01026f9b705b40b78f9c4187c08bd, type: 3}
+    - sprite: {fileID: 21300000, guid: 10f01026f9b705b40b78f9c4187c08bd, type: 3}
+      spriteName: device_megaphone-cargo
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

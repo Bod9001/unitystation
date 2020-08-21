@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: hats_blacksoft
-      sprite: {fileID: 21300000, guid: 82de3e13a54b8534983ed6b053fc874c, type: 3}
+    - sprite: {fileID: 21300000, guid: 82de3e13a54b8534983ed6b053fc874c, type: 3}
+      spriteName: hats_blacksoft
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

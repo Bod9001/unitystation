@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: magusred_0
-      sprite: {fileID: 21300000, guid: 0099def27bc8e4e4bac9473ed00742be, type: 3}
+    - sprite: {fileID: 21300000, guid: 0099def27bc8e4e4bac9473ed00742be, type: 3}
+      spriteName: magusred_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: magusred_1
-      sprite: {fileID: 21300002, guid: 0099def27bc8e4e4bac9473ed00742be, type: 3}
+    - sprite: {fileID: 21300002, guid: 0099def27bc8e4e4bac9473ed00742be, type: 3}
+      spriteName: magusred_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: magusred_2
-      sprite: {fileID: 21300004, guid: 0099def27bc8e4e4bac9473ed00742be, type: 3}
+    - sprite: {fileID: 21300004, guid: 0099def27bc8e4e4bac9473ed00742be, type: 3}
+      spriteName: magusred_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: magusred_3
-      sprite: {fileID: 21300006, guid: 0099def27bc8e4e4bac9473ed00742be, type: 3}
+    - sprite: {fileID: 21300006, guid: 0099def27bc8e4e4bac9473ed00742be, type: 3}
+      spriteName: magusred_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

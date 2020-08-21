@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_clockcult_Vitality_Matrix
-      sprite: {fileID: 21300000, guid: 8b4772dc9277a5748b6ca31a0614ef05, type: 3}
+    - sprite: {fileID: 21300000, guid: 8b4772dc9277a5748b6ca31a0614ef05, type: 3}
+      spriteName: actions_clockcult_Vitality_Matrix
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

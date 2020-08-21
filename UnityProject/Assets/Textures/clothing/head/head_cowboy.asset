@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: head_cowboy
-      sprite: {fileID: 21300000, guid: 5cb71ae1f42b3b14791806aa45150fd1, type: 3}
+    - sprite: {fileID: 21300000, guid: 5cb71ae1f42b3b14791806aa45150fd1, type: 3}
+      spriteName: head_cowboy
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

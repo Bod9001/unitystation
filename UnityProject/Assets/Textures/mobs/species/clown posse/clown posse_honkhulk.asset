@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clown posse_honkhulk_0
-      sprite: {fileID: 173645998616554980, guid: 4a8b02f5dfacbae4d8f3315230f60630,
+    - sprite: {fileID: 173645998616554980, guid: 4a8b02f5dfacbae4d8f3315230f60630,
         type: 3}
+      spriteName: clown posse_honkhulk_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: clown posse_honkhulk_1
-      sprite: {fileID: 5433927420748403271, guid: 4a8b02f5dfacbae4d8f3315230f60630,
+    - sprite: {fileID: 5433927420748403271, guid: 4a8b02f5dfacbae4d8f3315230f60630,
         type: 3}
+      spriteName: clown posse_honkhulk_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: clown posse_honkhulk_2
-      sprite: {fileID: 2384978058494772108, guid: 4a8b02f5dfacbae4d8f3315230f60630,
+    - sprite: {fileID: 2384978058494772108, guid: 4a8b02f5dfacbae4d8f3315230f60630,
         type: 3}
+      spriteName: clown posse_honkhulk_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: clown posse_honkhulk_3
-      sprite: {fileID: 1877408224219178423, guid: 4a8b02f5dfacbae4d8f3315230f60630,
+    - sprite: {fileID: 1877408224219178423, guid: 4a8b02f5dfacbae4d8f3315230f60630,
         type: 3}
+      spriteName: clown posse_honkhulk_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

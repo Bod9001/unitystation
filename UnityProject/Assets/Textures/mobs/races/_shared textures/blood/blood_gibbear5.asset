@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blood_gibbear5
-      sprite: {fileID: 21300000, guid: 10490e09dcce01049853cb0d5ea5ed01, type: 3}
+    - sprite: {fileID: 21300000, guid: 10490e09dcce01049853cb0d5ea5ed01, type: 3}
+      spriteName: blood_gibbear5
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

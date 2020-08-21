@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: syndicate-helm-black_0
-      sprite: {fileID: 21300000, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+    - sprite: {fileID: 21300000, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+      spriteName: syndicate-helm-black_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndicate-helm-black_1
-      sprite: {fileID: 21300002, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+    - sprite: {fileID: 21300002, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+      spriteName: syndicate-helm-black_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndicate-helm-black_2
-      sprite: {fileID: 21300004, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+    - sprite: {fileID: 21300004, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+      spriteName: syndicate-helm-black_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: syndicate-helm-black_3
-      sprite: {fileID: 21300006, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+    - sprite: {fileID: 21300006, guid: e5a8d348212b33546b6abb6232a674e9, type: 3}
+      spriteName: syndicate-helm-black_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sec-trimmed_0
-      sprite: {fileID: -7225107186117841987, guid: f16992801138a434c877fe0660a4ee3a,
+    - sprite: {fileID: -7225107186117841987, guid: f16992801138a434c877fe0660a4ee3a,
         type: 3}
+      spriteName: sec-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sec-trimmed_1
-      sprite: {fileID: -6531356286242175180, guid: f16992801138a434c877fe0660a4ee3a,
+    - sprite: {fileID: -6531356286242175180, guid: f16992801138a434c877fe0660a4ee3a,
         type: 3}
+      spriteName: sec-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sec-trimmed_2
-      sprite: {fileID: -1285223922920810432, guid: f16992801138a434c877fe0660a4ee3a,
+    - sprite: {fileID: -1285223922920810432, guid: f16992801138a434c877fe0660a4ee3a,
         type: 3}
+      spriteName: sec-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sec-trimmed_3
-      sprite: {fileID: -5884820674432683948, guid: f16992801138a434c877fe0660a4ee3a,
+    - sprite: {fileID: -5884820674432683948, guid: f16992801138a434c877fe0660a4ee3a,
         type: 3}
+      spriteName: sec-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

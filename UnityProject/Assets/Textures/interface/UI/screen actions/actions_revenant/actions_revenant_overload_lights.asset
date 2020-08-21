@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_revenant_overload_lights
-      sprite: {fileID: 21300000, guid: 21ffd15d98fcf164baf9bce757dd1981, type: 3}
+    - sprite: {fileID: 21300000, guid: 21ffd15d98fcf164baf9bce757dd1981, type: 3}
+      spriteName: actions_revenant_overload_lights
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

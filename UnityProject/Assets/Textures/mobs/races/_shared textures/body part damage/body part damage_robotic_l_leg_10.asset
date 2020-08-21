@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: robotic_l_leg_10_0
-      sprite: {fileID: 21300000, guid: 928f047f071b8fa4699a4cdf9599497b, type: 3}
+    - sprite: {fileID: 21300000, guid: 928f047f071b8fa4699a4cdf9599497b, type: 3}
+      spriteName: robotic_l_leg_10_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: robotic_l_leg_10_1
-      sprite: {fileID: 21300002, guid: 928f047f071b8fa4699a4cdf9599497b, type: 3}
+    - sprite: {fileID: 21300002, guid: 928f047f071b8fa4699a4cdf9599497b, type: 3}
+      spriteName: robotic_l_leg_10_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: robotic_l_leg_10_2
-      sprite: {fileID: 21300004, guid: 928f047f071b8fa4699a4cdf9599497b, type: 3}
+    - sprite: {fileID: 21300004, guid: 928f047f071b8fa4699a4cdf9599497b, type: 3}
+      spriteName: robotic_l_leg_10_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: robotic_l_leg_10_3
-      sprite: {fileID: 21300006, guid: 928f047f071b8fa4699a4cdf9599497b, type: 3}
+    - sprite: {fileID: 21300006, guid: 928f047f071b8fa4699a4cdf9599497b, type: 3}
+      spriteName: robotic_l_leg_10_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

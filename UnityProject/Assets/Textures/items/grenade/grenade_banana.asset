@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: grenade_banana
-      sprite: {fileID: 21300000, guid: 092f74bb6e8d454448cc180e29196080, type: 3}
+    - sprite: {fileID: 21300000, guid: 092f74bb6e8d454448cc180e29196080, type: 3}
+      spriteName: grenade_banana
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

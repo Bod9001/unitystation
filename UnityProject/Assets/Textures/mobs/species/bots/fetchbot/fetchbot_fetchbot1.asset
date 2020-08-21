@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: fetchbot_fetchbot1
-      sprite: {fileID: 21300000, guid: a92bd993418c9734d80c949787c82c0b, type: 3}
+    - sprite: {fileID: 21300000, guid: a92bd993418c9734d80c949787c82c0b, type: 3}
+      spriteName: fetchbot_fetchbot1
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

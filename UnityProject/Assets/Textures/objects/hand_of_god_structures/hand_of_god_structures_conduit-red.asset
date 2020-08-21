@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: conduit-red_0
-      sprite: {fileID: 21300000, guid: e65b4446c60fc0045b628b95d3e4c8db, type: 3}
+    - sprite: {fileID: 21300000, guid: e65b4446c60fc0045b628b95d3e4c8db, type: 3}
+      spriteName: conduit-red_0
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: conduit-red_1
-      sprite: {fileID: 21300002, guid: e65b4446c60fc0045b628b95d3e4c8db, type: 3}
+    - sprite: {fileID: 21300002, guid: e65b4446c60fc0045b628b95d3e4c8db, type: 3}
+      spriteName: conduit-red_1
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: conduit-red_2
-      sprite: {fileID: 21300004, guid: e65b4446c60fc0045b628b95d3e4c8db, type: 3}
+    - sprite: {fileID: 21300004, guid: e65b4446c60fc0045b628b95d3e4c8db, type: 3}
+      spriteName: conduit-red_2
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: conduit-red_3
-      sprite: {fileID: 21300006, guid: e65b4446c60fc0045b628b95d3e4c8db, type: 3}
+    - sprite: {fileID: 21300006, guid: e65b4446c60fc0045b628b95d3e4c8db, type: 3}
+      spriteName: conduit-red_3
       secondDelay: 0.3
       AtlasUsing: 8
   IsPalette: 0

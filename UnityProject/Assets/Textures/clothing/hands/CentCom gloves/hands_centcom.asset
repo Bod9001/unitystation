@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: centcom_0
-      sprite: {fileID: 6742638394437564787, guid: e163901bf5b46554fb3e9c9a4b554468,
+    - sprite: {fileID: 6742638394437564787, guid: e163901bf5b46554fb3e9c9a4b554468,
         type: 3}
+      spriteName: centcom_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: centcom_1
-      sprite: {fileID: -8653103722340005684, guid: e163901bf5b46554fb3e9c9a4b554468,
+    - sprite: {fileID: -8653103722340005684, guid: e163901bf5b46554fb3e9c9a4b554468,
         type: 3}
+      spriteName: centcom_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: centcom_2
-      sprite: {fileID: -6167923272552487752, guid: e163901bf5b46554fb3e9c9a4b554468,
+    - sprite: {fileID: -6167923272552487752, guid: e163901bf5b46554fb3e9c9a4b554468,
         type: 3}
+      spriteName: centcom_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: centcom_3
-      sprite: {fileID: -5433726589153456700, guid: e163901bf5b46554fb3e9c9a4b554468,
+    - sprite: {fileID: -5433726589153456700, guid: e163901bf5b46554fb3e9c9a4b554468,
         type: 3}
+      spriteName: centcom_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: 1-full_0
-      sprite: {fileID: 21300000, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+    - sprite: {fileID: 21300000, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+      spriteName: 1-full_0
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: 1-full_1
-      sprite: {fileID: 21300002, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+    - sprite: {fileID: 21300002, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+      spriteName: 1-full_1
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: 1-full_2
-      sprite: {fileID: 21300004, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+    - sprite: {fileID: 21300004, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+      spriteName: 1-full_2
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: 1-full_3
-      sprite: {fileID: 21300006, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+    - sprite: {fileID: 21300006, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+      spriteName: 1-full_3
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: 1-full_4
-      sprite: {fileID: 21300008, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+    - sprite: {fileID: 21300008, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+      spriteName: 1-full_4
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: 1-full_5
-      sprite: {fileID: 21300010, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+    - sprite: {fileID: 21300010, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+      spriteName: 1-full_5
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: 1-full_6
-      sprite: {fileID: 21300012, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+    - sprite: {fileID: 21300012, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+      spriteName: 1-full_6
       secondDelay: 0
       AtlasUsing: 9
   - Frames:
-    - spriteName: 1-full_7
-      sprite: {fileID: 21300014, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+    - sprite: {fileID: 21300014, guid: aa5f173e9080f3945b4eaf6d9f8cdbd7, type: 3}
+      spriteName: 1-full_7
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

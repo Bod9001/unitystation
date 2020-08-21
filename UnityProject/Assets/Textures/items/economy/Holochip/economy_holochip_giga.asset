@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: economy_holochip_giga
-      sprite: {fileID: 21300000, guid: e55fe5efa3ef97f419eb6204e4894faa, type: 3}
+    - sprite: {fileID: 21300000, guid: e55fe5efa3ef97f419eb6204e4894faa, type: 3}
+      spriteName: economy_holochip_giga
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

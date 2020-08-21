@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: xgibtorso_0
-      sprite: {fileID: 21300000, guid: 1897d5c4d1705c745b7168ae7c789a64, type: 3}
+    - sprite: {fileID: 21300000, guid: 1897d5c4d1705c745b7168ae7c789a64, type: 3}
+      spriteName: xgibtorso_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: xgibtorso_1
-      sprite: {fileID: 21300002, guid: 1897d5c4d1705c745b7168ae7c789a64, type: 3}
+    - sprite: {fileID: 21300002, guid: 1897d5c4d1705c745b7168ae7c789a64, type: 3}
+      spriteName: xgibtorso_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: xgibtorso_2
-      sprite: {fileID: 21300004, guid: 1897d5c4d1705c745b7168ae7c789a64, type: 3}
+    - sprite: {fileID: 21300004, guid: 1897d5c4d1705c745b7168ae7c789a64, type: 3}
+      spriteName: xgibtorso_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: xgibtorso_3
-      sprite: {fileID: 21300006, guid: 1897d5c4d1705c745b7168ae7c789a64, type: 3}
+    - sprite: {fileID: 21300006, guid: 1897d5c4d1705c745b7168ae7c789a64, type: 3}
+      spriteName: xgibtorso_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

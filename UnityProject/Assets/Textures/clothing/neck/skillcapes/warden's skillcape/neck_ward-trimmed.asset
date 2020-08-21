@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ward-trimmed_0
-      sprite: {fileID: 2955954655019138130, guid: cb71bff059eff6e4091b72a70e79f763,
+    - sprite: {fileID: 2955954655019138130, guid: cb71bff059eff6e4091b72a70e79f763,
         type: 3}
+      spriteName: ward-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ward-trimmed_1
-      sprite: {fileID: -2303418203568320198, guid: cb71bff059eff6e4091b72a70e79f763,
+    - sprite: {fileID: -2303418203568320198, guid: cb71bff059eff6e4091b72a70e79f763,
         type: 3}
+      spriteName: ward-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ward-trimmed_2
-      sprite: {fileID: -1975081046892963037, guid: cb71bff059eff6e4091b72a70e79f763,
+    - sprite: {fileID: -1975081046892963037, guid: cb71bff059eff6e4091b72a70e79f763,
         type: 3}
+      spriteName: ward-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: ward-trimmed_3
-      sprite: {fileID: -2327306531158492313, guid: cb71bff059eff6e4091b72a70e79f763,
+    - sprite: {fileID: -2327306531158492313, guid: cb71bff059eff6e4091b72a70e79f763,
         type: 3}
+      spriteName: ward-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

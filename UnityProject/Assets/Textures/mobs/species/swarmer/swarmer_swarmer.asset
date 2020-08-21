@@ -14,103 +14,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: swarmer_0
-      sprite: {fileID: 21300000, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300000, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_0
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_4
-      sprite: {fileID: 21300008, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300008, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_4
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_8
-      sprite: {fileID: 21300016, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300016, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_8
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_12
-      sprite: {fileID: 21300024, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300024, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_12
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_16
-      sprite: {fileID: 21300032, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300032, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_16
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_20
-      sprite: {fileID: 21300040, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-  - Frames:
-    - spriteName: swarmer_1
-      sprite: {fileID: 21300002, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: swarmer_5
-      sprite: {fileID: 21300010, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: swarmer_9
-      sprite: {fileID: 21300018, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: swarmer_13
-      sprite: {fileID: 21300026, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: swarmer_17
-      sprite: {fileID: 21300034, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 6
-    - spriteName: swarmer_21
-      sprite: {fileID: 21300042, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300040, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_20
       secondDelay: 0.1
       AtlasUsing: 6
   - Frames:
-    - spriteName: swarmer_2
-      sprite: {fileID: 21300004, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300002, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_1
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_6
-      sprite: {fileID: 21300012, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300010, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_5
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_10
-      sprite: {fileID: 21300020, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300018, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_9
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_14
-      sprite: {fileID: 21300028, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300026, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_13
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_18
-      sprite: {fileID: 21300036, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300034, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_17
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_22
-      sprite: {fileID: 21300044, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300042, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_21
       secondDelay: 0.1
       AtlasUsing: 6
   - Frames:
-    - spriteName: swarmer_3
-      sprite: {fileID: 21300006, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300004, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_7
-      sprite: {fileID: 21300014, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300012, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_6
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_11
-      sprite: {fileID: 21300022, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300020, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_10
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_15
-      sprite: {fileID: 21300030, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300028, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_14
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_19
-      sprite: {fileID: 21300038, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300036, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_18
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: swarmer_23
-      sprite: {fileID: 21300046, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+    - sprite: {fileID: 21300044, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_22
+      secondDelay: 0.1
+      AtlasUsing: 6
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_3
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300014, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_7
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300022, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_11
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300030, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_15
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300038, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_19
+      secondDelay: 0.1
+      AtlasUsing: 6
+    - sprite: {fileID: 21300046, guid: 6d6aaa983d1b7304786a6920e0fdf244, type: 3}
+      spriteName: swarmer_23
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

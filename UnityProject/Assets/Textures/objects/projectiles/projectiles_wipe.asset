@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: wipe_0
-      sprite: {fileID: 21300000, guid: 341ad8e944894cc40914600f6ce8e5e1, type: 3}
+    - sprite: {fileID: 21300000, guid: 341ad8e944894cc40914600f6ce8e5e1, type: 3}
+      spriteName: wipe_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: wipe_1
-      sprite: {fileID: 21300002, guid: 341ad8e944894cc40914600f6ce8e5e1, type: 3}
+    - sprite: {fileID: 21300002, guid: 341ad8e944894cc40914600f6ce8e5e1, type: 3}
+      spriteName: wipe_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: wipe_2
-      sprite: {fileID: 21300004, guid: 341ad8e944894cc40914600f6ce8e5e1, type: 3}
+    - sprite: {fileID: 21300004, guid: 341ad8e944894cc40914600f6ce8e5e1, type: 3}
+      spriteName: wipe_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: wipe_3
-      sprite: {fileID: 21300006, guid: 341ad8e944894cc40914600f6ce8e5e1, type: 3}
+    - sprite: {fileID: 21300006, guid: 341ad8e944894cc40914600f6ce8e5e1, type: 3}
+      spriteName: wipe_3
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

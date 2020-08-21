@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: power_switch-down
-      sprite: {fileID: 21300000, guid: 8cce910dddc22c242a1119b121f7e629, type: 3}
+    - sprite: {fileID: 21300000, guid: 8cce910dddc22c242a1119b121f7e629, type: 3}
+      spriteName: power_switch-down
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

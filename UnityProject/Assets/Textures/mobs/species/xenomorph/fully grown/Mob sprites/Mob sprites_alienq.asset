@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alienq_0
-      sprite: {fileID: 21300000, guid: 87a923c1073f59c41b56a49a1b2e247c, type: 3}
+    - sprite: {fileID: 21300000, guid: 87a923c1073f59c41b56a49a1b2e247c, type: 3}
+      spriteName: alienq_0
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: alienq_1
-      sprite: {fileID: 21300002, guid: 87a923c1073f59c41b56a49a1b2e247c, type: 3}
+    - sprite: {fileID: 21300002, guid: 87a923c1073f59c41b56a49a1b2e247c, type: 3}
+      spriteName: alienq_1
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: alienq_2
-      sprite: {fileID: 21300004, guid: 87a923c1073f59c41b56a49a1b2e247c, type: 3}
+    - sprite: {fileID: 21300004, guid: 87a923c1073f59c41b56a49a1b2e247c, type: 3}
+      spriteName: alienq_2
       secondDelay: 0
       AtlasUsing: 6
   - Frames:
-    - spriteName: alienq_3
-      sprite: {fileID: 21300006, guid: 87a923c1073f59c41b56a49a1b2e247c, type: 3}
+    - sprite: {fileID: 21300006, guid: 87a923c1073f59c41b56a49a1b2e247c, type: 3}
+      spriteName: alienq_3
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

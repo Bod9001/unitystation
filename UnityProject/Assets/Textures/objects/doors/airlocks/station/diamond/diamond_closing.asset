@@ -14,28 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: closing_0
-      sprite: {fileID: 21300000, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+    - sprite: {fileID: 21300000, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+      spriteName: closing_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_1
-      sprite: {fileID: 21300002, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+    - sprite: {fileID: 21300002, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+      spriteName: closing_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_2
-      sprite: {fileID: 21300004, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+    - sprite: {fileID: 21300004, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+      spriteName: closing_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_3
-      sprite: {fileID: 21300006, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+    - sprite: {fileID: 21300006, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+      spriteName: closing_3
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_4
-      sprite: {fileID: 21300008, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+    - sprite: {fileID: 21300008, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+      spriteName: closing_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_5
-      sprite: {fileID: 21300010, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+    - sprite: {fileID: 21300010, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
+      spriteName: closing_5
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

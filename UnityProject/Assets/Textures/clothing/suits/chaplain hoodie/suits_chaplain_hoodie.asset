@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chaplain_hoodie_0
-      sprite: {fileID: 21300000, guid: d00a87d6d7a1345458c4e0b89969fca5, type: 3}
+    - sprite: {fileID: 21300000, guid: d00a87d6d7a1345458c4e0b89969fca5, type: 3}
+      spriteName: chaplain_hoodie_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: chaplain_hoodie_1
-      sprite: {fileID: 21300002, guid: d00a87d6d7a1345458c4e0b89969fca5, type: 3}
+    - sprite: {fileID: 21300002, guid: d00a87d6d7a1345458c4e0b89969fca5, type: 3}
+      spriteName: chaplain_hoodie_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: chaplain_hoodie_2
-      sprite: {fileID: 21300004, guid: d00a87d6d7a1345458c4e0b89969fca5, type: 3}
+    - sprite: {fileID: 21300004, guid: d00a87d6d7a1345458c4e0b89969fca5, type: 3}
+      spriteName: chaplain_hoodie_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: chaplain_hoodie_3
-      sprite: {fileID: 21300006, guid: d00a87d6d7a1345458c4e0b89969fca5, type: 3}
+    - sprite: {fileID: 21300006, guid: d00a87d6d7a1345458c4e0b89969fca5, type: 3}
+      spriteName: chaplain_hoodie_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

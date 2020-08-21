@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: seeds_seed-chilighost
-      sprite: {fileID: 21300000, guid: c0f4dc18f17d70f469a26a42485ff373, type: 3}
+    - sprite: {fileID: 21300000, guid: c0f4dc18f17d70f469a26a42485ff373, type: 3}
+      spriteName: seeds_seed-chilighost
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

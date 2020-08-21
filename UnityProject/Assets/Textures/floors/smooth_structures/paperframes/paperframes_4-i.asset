@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: paperframes_4-i
-      sprite: {fileID: 21300000, guid: c0194efe72a3e6b43a0ae9bb71ca2ce6, type: 3}
+    - sprite: {fileID: 21300000, guid: c0194efe72a3e6b43a0ae9bb71ca2ce6, type: 3}
+      spriteName: paperframes_4-i
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_hive_reclaim
-      sprite: {fileID: 21300000, guid: 656294f9b2032cd42913e327f6ec126d, type: 3}
+    - sprite: {fileID: 21300000, guid: 656294f9b2032cd42913e327f6ec126d, type: 3}
+      spriteName: actions_hive_reclaim
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

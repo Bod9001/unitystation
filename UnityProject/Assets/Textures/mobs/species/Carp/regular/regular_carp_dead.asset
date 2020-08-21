@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: regular_carp_dead
-      sprite: {fileID: 21300000, guid: b576d68ac124ac746a60bf0c35fd44b2, type: 3}
+    - sprite: {fileID: 21300000, guid: b576d68ac124ac746a60bf0c35fd44b2, type: 3}
+      spriteName: regular_carp_dead
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

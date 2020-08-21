@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: magic_honker
-      sprite: {fileID: 21300000, guid: 34787a344c8746d48965e11a0661189d, type: 3}
+    - sprite: {fileID: 21300000, guid: 34787a344c8746d48965e11a0661189d, type: 3}
+      spriteName: magic_honker
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

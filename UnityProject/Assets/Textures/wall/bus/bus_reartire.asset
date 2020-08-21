@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: bus_reartire
-      sprite: {fileID: 21300000, guid: ec4757c985e61fa45a698b309cef0a94, type: 3}
+    - sprite: {fileID: 21300000, guid: ec4757c985e61fa45a698b309cef0a94, type: 3}
+      spriteName: bus_reartire
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: closet_agentbox
-      sprite: {fileID: 21300000, guid: 8e8fc592b347348429939af2509eb70e, type: 3}
+    - sprite: {fileID: 21300000, guid: 8e8fc592b347348429939af2509eb70e, type: 3}
+      spriteName: closet_agentbox
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

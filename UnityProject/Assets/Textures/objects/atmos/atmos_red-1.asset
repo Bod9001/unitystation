@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: atmos_red-1
-      sprite: {fileID: 21300000, guid: e9ba7dfcfd393a34385b1fc84f3f59aa, type: 3}
+    - sprite: {fileID: 21300000, guid: e9ba7dfcfd393a34385b1fc84f3f59aa, type: 3}
+      spriteName: atmos_red-1
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

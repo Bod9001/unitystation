@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: paper stamps_large_stamp-deny
-      sprite: {fileID: 21300000, guid: 8e57b82d16077394393abd82f554c945, type: 3}
+    - sprite: {fileID: 21300000, guid: 8e57b82d16077394393abd82f554c945, type: 3}
+      spriteName: paper stamps_large_stamp-deny
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

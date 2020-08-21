@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mineral_doors_sandstoneopen
-      sprite: {fileID: 21300000, guid: 957b0f1e82a16e74097d5317b57576ce, type: 3}
+    - sprite: {fileID: 21300000, guid: 957b0f1e82a16e74097d5317b57576ce, type: 3}
+      spriteName: mineral_doors_sandstoneopen
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: defib_mount_charge75
-      sprite: {fileID: 21300000, guid: a45b7515b98db124d8604f6702e67b19, type: 3}
+    - sprite: {fileID: 21300000, guid: a45b7515b98db124d8604f6702e67b19, type: 3}
+      spriteName: defib_mount_charge75
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

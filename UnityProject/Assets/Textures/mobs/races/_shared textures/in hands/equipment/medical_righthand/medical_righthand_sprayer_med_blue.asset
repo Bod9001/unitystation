@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sprayer_med_blue_0
-      sprite: {fileID: 1730840232621488678, guid: a605b94cb28a4524c84b413d98f529b5,
+    - sprite: {fileID: 1730840232621488678, guid: a605b94cb28a4524c84b413d98f529b5,
         type: 3}
+      spriteName: sprayer_med_blue_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: sprayer_med_blue_1
-      sprite: {fileID: 2991609141559455083, guid: a605b94cb28a4524c84b413d98f529b5,
+    - sprite: {fileID: 2991609141559455083, guid: a605b94cb28a4524c84b413d98f529b5,
         type: 3}
+      spriteName: sprayer_med_blue_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: sprayer_med_blue_2
-      sprite: {fileID: -5132325807117949726, guid: a605b94cb28a4524c84b413d98f529b5,
+    - sprite: {fileID: -5132325807117949726, guid: a605b94cb28a4524c84b413d98f529b5,
         type: 3}
+      spriteName: sprayer_med_blue_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: sprayer_med_blue_3
-      sprite: {fileID: 7497486852242382584, guid: a605b94cb28a4524c84b413d98f529b5,
+    - sprite: {fileID: 7497486852242382584, guid: a605b94cb28a4524c84b413d98f529b5,
         type: 3}
+      spriteName: sprayer_med_blue_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

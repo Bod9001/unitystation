@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: geiger_on_5_0
-      sprite: {fileID: 21300000, guid: 9939052489d2e3345a9bcc942c7a6d89, type: 3}
+    - sprite: {fileID: 21300000, guid: 9939052489d2e3345a9bcc942c7a6d89, type: 3}
+      spriteName: geiger_on_5_0
       secondDelay: 0.2
       AtlasUsing: 5
-    - spriteName: geiger_on_5_1
-      sprite: {fileID: 21300002, guid: 9939052489d2e3345a9bcc942c7a6d89, type: 3}
+    - sprite: {fileID: 21300002, guid: 9939052489d2e3345a9bcc942c7a6d89, type: 3}
+      spriteName: geiger_on_5_1
       secondDelay: 0.1
       AtlasUsing: 5
   IsPalette: 0

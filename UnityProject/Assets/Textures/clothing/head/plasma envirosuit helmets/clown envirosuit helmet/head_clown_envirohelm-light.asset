@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: clown_envirohelm-light_0
-      sprite: {fileID: -3223540450582281986, guid: 5f8db6a269b032c419a966c4b7b9f2ea,
+    - sprite: {fileID: -3223540450582281986, guid: 5f8db6a269b032c419a966c4b7b9f2ea,
         type: 3}
+      spriteName: clown_envirohelm-light_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: clown_envirohelm-light_1
-      sprite: {fileID: -7630323770677246659, guid: 5f8db6a269b032c419a966c4b7b9f2ea,
+    - sprite: {fileID: -7630323770677246659, guid: 5f8db6a269b032c419a966c4b7b9f2ea,
         type: 3}
+      spriteName: clown_envirohelm-light_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: clown_envirohelm-light_2
-      sprite: {fileID: 2205249309583137337, guid: 5f8db6a269b032c419a966c4b7b9f2ea,
+    - sprite: {fileID: 2205249309583137337, guid: 5f8db6a269b032c419a966c4b7b9f2ea,
         type: 3}
+      spriteName: clown_envirohelm-light_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: clown_envirohelm-light_3
-      sprite: {fileID: -7912182216671237392, guid: 5f8db6a269b032c419a966c4b7b9f2ea,
+    - sprite: {fileID: -7912182216671237392, guid: 5f8db6a269b032c419a966c4b7b9f2ea,
         type: 3}
+      spriteName: clown_envirohelm-light_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

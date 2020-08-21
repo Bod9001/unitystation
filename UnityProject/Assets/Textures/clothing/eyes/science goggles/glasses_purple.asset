@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: glasses_purple
-      sprite: {fileID: 21300000, guid: a1892710bcbb394498bc2873ccbd357b, type: 3}
+    - sprite: {fileID: 21300000, guid: a1892710bcbb394498bc2873ccbd357b, type: 3}
+      spriteName: glasses_purple
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

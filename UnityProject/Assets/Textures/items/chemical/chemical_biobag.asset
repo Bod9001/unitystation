@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chemical_biobag
-      sprite: {fileID: 21300000, guid: 55b0e80c7364d5742bbf8fc10912a97f, type: 3}
+    - sprite: {fileID: 21300000, guid: 55b0e80c7364d5742bbf8fc10912a97f, type: 3}
+      spriteName: chemical_biobag
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

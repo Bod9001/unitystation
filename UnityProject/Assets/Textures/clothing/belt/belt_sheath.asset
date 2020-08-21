@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sheath_0
-      sprite: {fileID: 21300000, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
+    - sprite: {fileID: 21300000, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
+      spriteName: sheath_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sheath_1
-      sprite: {fileID: 21300002, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
+    - sprite: {fileID: 21300002, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
+      spriteName: sheath_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sheath_2
-      sprite: {fileID: 21300004, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
+    - sprite: {fileID: 21300004, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
+      spriteName: sheath_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sheath_3
-      sprite: {fileID: 21300006, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
+    - sprite: {fileID: 21300006, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
+      spriteName: sheath_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

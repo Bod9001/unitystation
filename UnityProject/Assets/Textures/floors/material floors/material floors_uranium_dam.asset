@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: material floors_uranium_dam
-      sprite: {fileID: 21300000, guid: 01c605701ec7981459166bb18c791507, type: 3}
+    - sprite: {fileID: 21300000, guid: 01c605701ec7981459166bb18c791507, type: 3}
+      spriteName: material floors_uranium_dam
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

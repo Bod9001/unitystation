@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chaplain-skillcape_1
-      sprite: {fileID: -858150824655543435, guid: 6bbdf8e21da7a9a4ca995b60437bc6b2,
+    - sprite: {fileID: -858150824655543435, guid: 6bbdf8e21da7a9a4ca995b60437bc6b2,
         type: 3}
+      spriteName: chaplain-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

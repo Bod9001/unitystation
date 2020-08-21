@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: server-on_0
-      sprite: {fileID: 21300000, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+    - sprite: {fileID: 21300000, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+      spriteName: server-on_0
       secondDelay: 0.075
       AtlasUsing: 8
-    - spriteName: server-on_1
-      sprite: {fileID: 21300002, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+    - sprite: {fileID: 21300002, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+      spriteName: server-on_1
       secondDelay: 0.075
       AtlasUsing: 8
-    - spriteName: server-on_2
-      sprite: {fileID: 21300004, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+    - sprite: {fileID: 21300004, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+      spriteName: server-on_2
       secondDelay: 0.075
       AtlasUsing: 8
-    - spriteName: server-on_3
-      sprite: {fileID: 21300006, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+    - sprite: {fileID: 21300006, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+      spriteName: server-on_3
       secondDelay: 0.075
       AtlasUsing: 8
-    - spriteName: server-on_4
-      sprite: {fileID: 21300008, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+    - sprite: {fileID: 21300008, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+      spriteName: server-on_4
       secondDelay: 0.075
       AtlasUsing: 8
-    - spriteName: server-on_5
-      sprite: {fileID: 21300010, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+    - sprite: {fileID: 21300010, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+      spriteName: server-on_5
       secondDelay: 0.075
       AtlasUsing: 8
-    - spriteName: server-on_6
-      sprite: {fileID: 21300012, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+    - sprite: {fileID: 21300012, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+      spriteName: server-on_6
       secondDelay: 0.075
       AtlasUsing: 8
-    - spriteName: server-on_7
-      sprite: {fileID: 21300014, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+    - sprite: {fileID: 21300014, guid: 36bec678c13c64942afa968cb9a93425, type: 3}
+      spriteName: server-on_7
       secondDelay: 0.8
       AtlasUsing: 8
   IsPalette: 0

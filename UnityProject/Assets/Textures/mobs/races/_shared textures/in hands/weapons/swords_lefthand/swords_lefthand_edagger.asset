@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: edagger_0
-      sprite: {fileID: 21300000, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+    - sprite: {fileID: 21300000, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+      spriteName: edagger_0
       secondDelay: 0.2
       AtlasUsing: 4
-    - spriteName: edagger_4
-      sprite: {fileID: 21300008, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
-      secondDelay: 0.2
-      AtlasUsing: 4
-  - Frames:
-    - spriteName: edagger_1
-      sprite: {fileID: 21300002, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
-      secondDelay: 0.2
-      AtlasUsing: 4
-    - spriteName: edagger_5
-      sprite: {fileID: 21300010, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+    - sprite: {fileID: 21300008, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+      spriteName: edagger_4
       secondDelay: 0.2
       AtlasUsing: 4
   - Frames:
-    - spriteName: edagger_2
-      sprite: {fileID: 21300004, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+    - sprite: {fileID: 21300002, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+      spriteName: edagger_1
       secondDelay: 0.2
       AtlasUsing: 4
-    - spriteName: edagger_6
-      sprite: {fileID: 21300012, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+    - sprite: {fileID: 21300010, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+      spriteName: edagger_5
       secondDelay: 0.2
       AtlasUsing: 4
   - Frames:
-    - spriteName: edagger_3
-      sprite: {fileID: 21300006, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+    - sprite: {fileID: 21300004, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+      spriteName: edagger_2
       secondDelay: 0.2
       AtlasUsing: 4
-    - spriteName: edagger_7
-      sprite: {fileID: 21300014, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+    - sprite: {fileID: 21300012, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+      spriteName: edagger_6
+      secondDelay: 0.2
+      AtlasUsing: 4
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+      spriteName: edagger_3
+      secondDelay: 0.2
+      AtlasUsing: 4
+    - sprite: {fileID: 21300014, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
+      spriteName: edagger_7
       secondDelay: 0.2
       AtlasUsing: 4
   IsPalette: 0

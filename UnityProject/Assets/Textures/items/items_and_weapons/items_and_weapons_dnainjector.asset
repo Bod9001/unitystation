@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_dnainjector
-      sprite: {fileID: 21300000, guid: 6067352d6b8bf7742a88d1048c55a015, type: 3}
+    - sprite: {fileID: 21300000, guid: 6067352d6b8bf7742a88d1048c55a015, type: 3}
+      spriteName: items_and_weapons_dnainjector
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

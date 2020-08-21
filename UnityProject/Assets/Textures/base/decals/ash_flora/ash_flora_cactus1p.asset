@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ash_flora_cactus1p
-      sprite: {fileID: 21300000, guid: c9e39c4dc01a7824895c01d24ddf9e0b, type: 3}
+    - sprite: {fileID: 21300000, guid: c9e39c4dc01a7824895c01d24ddf9e0b, type: 3}
+      spriteName: ash_flora_cactus1p
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

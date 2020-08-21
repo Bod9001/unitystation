@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: welding-g_0
-      sprite: {fileID: 21300000, guid: 21dea1c6171450f42b7a264b849faac5, type: 3}
+    - sprite: {fileID: 21300000, guid: 21dea1c6171450f42b7a264b849faac5, type: 3}
+      spriteName: welding-g_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: welding-g_1
-      sprite: {fileID: 21300002, guid: 21dea1c6171450f42b7a264b849faac5, type: 3}
+    - sprite: {fileID: 21300002, guid: 21dea1c6171450f42b7a264b849faac5, type: 3}
+      spriteName: welding-g_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: welding-g_2
-      sprite: {fileID: 21300004, guid: 21dea1c6171450f42b7a264b849faac5, type: 3}
+    - sprite: {fileID: 21300004, guid: 21dea1c6171450f42b7a264b849faac5, type: 3}
+      spriteName: welding-g_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: welding-g_3
-      sprite: {fileID: 21300006, guid: 21dea1c6171450f42b7a264b849faac5, type: 3}
+    - sprite: {fileID: 21300006, guid: 21dea1c6171450f42b7a264b849faac5, type: 3}
+      spriteName: welding-g_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 22157

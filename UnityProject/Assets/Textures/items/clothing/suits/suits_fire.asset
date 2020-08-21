@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: suits_fire
-      sprite: {fileID: 21300000, guid: 7652b402b0ceac34e92b219c5ea858ee, type: 3}
+    - sprite: {fileID: 21300000, guid: 7652b402b0ceac34e92b219c5ea858ee, type: 3}
+      spriteName: suits_fire
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

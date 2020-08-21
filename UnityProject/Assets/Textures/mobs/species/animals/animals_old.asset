@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: animals_old
-      sprite: {fileID: 21300000, guid: f0813fca250a85c469680b8beea25979, type: 3}
+    - sprite: {fileID: 21300000, guid: f0813fca250a85c469680b8beea25979, type: 3}
+      spriteName: animals_old
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

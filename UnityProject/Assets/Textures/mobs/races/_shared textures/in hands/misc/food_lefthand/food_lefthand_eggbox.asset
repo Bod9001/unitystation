@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: eggbox_0
-      sprite: {fileID: 21300000, guid: 2729f30a96a9e98449ed83968ba6b645, type: 3}
+    - sprite: {fileID: 21300000, guid: 2729f30a96a9e98449ed83968ba6b645, type: 3}
+      spriteName: eggbox_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: eggbox_1
-      sprite: {fileID: 21300002, guid: 2729f30a96a9e98449ed83968ba6b645, type: 3}
+    - sprite: {fileID: 21300002, guid: 2729f30a96a9e98449ed83968ba6b645, type: 3}
+      spriteName: eggbox_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: eggbox_2
-      sprite: {fileID: 21300004, guid: 2729f30a96a9e98449ed83968ba6b645, type: 3}
+    - sprite: {fileID: 21300004, guid: 2729f30a96a9e98449ed83968ba6b645, type: 3}
+      spriteName: eggbox_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: eggbox_3
-      sprite: {fileID: 21300006, guid: 2729f30a96a9e98449ed83968ba6b645, type: 3}
+    - sprite: {fileID: 21300006, guid: 2729f30a96a9e98449ed83968ba6b645, type: 3}
+      spriteName: eggbox_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

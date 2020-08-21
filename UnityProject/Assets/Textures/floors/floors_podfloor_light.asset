@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: floors_podfloor_light
-      sprite: {fileID: 21300000, guid: 60399d5aab9a0534d879e4eb31e0bc6d, type: 3}
+    - sprite: {fileID: 21300000, guid: 60399d5aab9a0534d879e4eb31e0bc6d, type: 3}
+      spriteName: floors_podfloor_light
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

@@ -14,89 +14,89 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: glass_pipe_0
-      sprite: {fileID: 21300000, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+    - sprite: {fileID: 21300000, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_0
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_1
-      sprite: {fileID: 21300002, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300002, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_1
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_2
-      sprite: {fileID: 21300004, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300004, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_2
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_3
-      sprite: {fileID: 21300006, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300006, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_3
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_4
-      sprite: {fileID: 21300008, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300008, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_4
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_5
-      sprite: {fileID: 21300010, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300010, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_5
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_6
-      sprite: {fileID: 21300012, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300012, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_6
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_7
-      sprite: {fileID: 21300014, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300014, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_7
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_8
-      sprite: {fileID: 21300016, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300016, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_8
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_9
-      sprite: {fileID: 21300018, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300018, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_9
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_10
-      sprite: {fileID: 21300020, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300020, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_10
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_11
-      sprite: {fileID: 21300022, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300022, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_11
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_12
-      sprite: {fileID: 21300024, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300024, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_12
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_13
-      sprite: {fileID: 21300026, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300026, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_13
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_14
-      sprite: {fileID: 21300028, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300028, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_14
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_15
-      sprite: {fileID: 21300030, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300030, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_15
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_16
-      sprite: {fileID: 21300032, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300032, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_16
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_17
-      sprite: {fileID: 21300034, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300034, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_17
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_18
-      sprite: {fileID: 21300036, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300036, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_18
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_19
-      sprite: {fileID: 21300038, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300038, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_19
       secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: glass_pipe_20
-      sprite: {fileID: 21300040, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      AtlasUsing: 5
+    - sprite: {fileID: 21300040, guid: acf51eb597edfe149bf3f55b8f72cc14, type: 3}
+      spriteName: glass_pipe_20
       secondDelay: 0.1
-      AtlasUsing: 2
+      AtlasUsing: 5
   IsPalette: 0
   setID: 5841

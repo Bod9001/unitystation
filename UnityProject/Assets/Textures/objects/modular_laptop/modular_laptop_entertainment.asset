@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: entertainment_0
-      sprite: {fileID: 21300000, guid: fbf21242da169ed41b6915d0e3e6d327, type: 3}
+    - sprite: {fileID: 21300000, guid: fbf21242da169ed41b6915d0e3e6d327, type: 3}
+      spriteName: entertainment_0
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: entertainment_1
-      sprite: {fileID: 21300002, guid: fbf21242da169ed41b6915d0e3e6d327, type: 3}
+    - sprite: {fileID: 21300002, guid: fbf21242da169ed41b6915d0e3e6d327, type: 3}
+      spriteName: entertainment_1
       secondDelay: 0.3
       AtlasUsing: 8
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: accessories_bronze
-      sprite: {fileID: 21300000, guid: b257505b465990140b411f29496110e5, type: 3}
+    - sprite: {fileID: 21300000, guid: b257505b465990140b411f29496110e5, type: 3}
+      spriteName: accessories_bronze
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

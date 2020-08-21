@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: old  cyborg_robotoc
-      sprite: {fileID: 21300000, guid: 6ab221a215b6dcf479434348ceafeadc, type: 3}
+    - sprite: {fileID: 21300000, guid: 6ab221a215b6dcf479434348ceafeadc, type: 3}
+      spriteName: old  cyborg_robotoc
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

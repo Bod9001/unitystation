@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: sombrero_0
-      sprite: {fileID: 21300000, guid: da0cbb66574f9984aa06c66f50704747, type: 3}
+    - sprite: {fileID: 21300000, guid: da0cbb66574f9984aa06c66f50704747, type: 3}
+      spriteName: sombrero_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sombrero_1
-      sprite: {fileID: 21300002, guid: da0cbb66574f9984aa06c66f50704747, type: 3}
+    - sprite: {fileID: 21300002, guid: da0cbb66574f9984aa06c66f50704747, type: 3}
+      spriteName: sombrero_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sombrero_2
-      sprite: {fileID: 21300004, guid: da0cbb66574f9984aa06c66f50704747, type: 3}
+    - sprite: {fileID: 21300004, guid: da0cbb66574f9984aa06c66f50704747, type: 3}
+      spriteName: sombrero_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: sombrero_3
-      sprite: {fileID: 21300006, guid: da0cbb66574f9984aa06c66f50704747, type: 3}
+    - sprite: {fileID: 21300006, guid: da0cbb66574f9984aa06c66f50704747, type: 3}
+      spriteName: sombrero_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

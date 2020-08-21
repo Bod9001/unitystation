@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: militarywebbing_0
-      sprite: {fileID: 21300000, guid: b830043d31f62834d9ef62eefb6630e8, type: 3}
+    - sprite: {fileID: 21300000, guid: b830043d31f62834d9ef62eefb6630e8, type: 3}
+      spriteName: militarywebbing_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: militarywebbing_1
-      sprite: {fileID: 21300002, guid: b830043d31f62834d9ef62eefb6630e8, type: 3}
+    - sprite: {fileID: 21300002, guid: b830043d31f62834d9ef62eefb6630e8, type: 3}
+      spriteName: militarywebbing_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: militarywebbing_2
-      sprite: {fileID: 21300004, guid: b830043d31f62834d9ef62eefb6630e8, type: 3}
+    - sprite: {fileID: 21300004, guid: b830043d31f62834d9ef62eefb6630e8, type: 3}
+      spriteName: militarywebbing_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: militarywebbing_3
-      sprite: {fileID: 21300006, guid: b830043d31f62834d9ef62eefb6630e8, type: 3}
+    - sprite: {fileID: 21300006, guid: b830043d31f62834d9ef62eefb6630e8, type: 3}
+      spriteName: militarywebbing_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

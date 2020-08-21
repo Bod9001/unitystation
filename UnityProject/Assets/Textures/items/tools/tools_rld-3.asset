@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: tools_rld-3
-      sprite: {fileID: 21300000, guid: 099825aacce62c5488c69752ef89b015, type: 3}
+    - sprite: {fileID: 21300000, guid: 099825aacce62c5488c69752ef89b015, type: 3}
+      spriteName: tools_rld-3
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

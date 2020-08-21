@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shoes_cookflops_icon
-      sprite: {fileID: 21300000, guid: edc42ec07f5f10a4f9a7484f73e259bc, type: 3}
+    - sprite: {fileID: 21300000, guid: edc42ec07f5f10a4f9a7484f73e259bc, type: 3}
+      spriteName: shoes_cookflops_icon
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

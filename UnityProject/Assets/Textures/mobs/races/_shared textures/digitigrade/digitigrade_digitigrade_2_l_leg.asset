@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: digitigrade_2_l_leg_0
-      sprite: {fileID: 21300000, guid: efe53871fc3a6f4459199b063d1198f9, type: 3}
+    - sprite: {fileID: 21300000, guid: efe53871fc3a6f4459199b063d1198f9, type: 3}
+      spriteName: digitigrade_2_l_leg_0
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: digitigrade_2_l_leg_1
-      sprite: {fileID: 21300002, guid: efe53871fc3a6f4459199b063d1198f9, type: 3}
+    - sprite: {fileID: 21300002, guid: efe53871fc3a6f4459199b063d1198f9, type: 3}
+      spriteName: digitigrade_2_l_leg_1
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: digitigrade_2_l_leg_2
-      sprite: {fileID: 21300004, guid: efe53871fc3a6f4459199b063d1198f9, type: 3}
+    - sprite: {fileID: 21300004, guid: efe53871fc3a6f4459199b063d1198f9, type: 3}
+      spriteName: digitigrade_2_l_leg_2
       secondDelay: 0
       AtlasUsing: 7
   - Frames:
-    - spriteName: digitigrade_2_l_leg_3
-      sprite: {fileID: 21300006, guid: efe53871fc3a6f4459199b063d1198f9, type: 3}
+    - sprite: {fileID: 21300006, guid: efe53871fc3a6f4459199b063d1198f9, type: 3}
+      spriteName: digitigrade_2_l_leg_3
       secondDelay: 0
       AtlasUsing: 7
   IsPalette: 0

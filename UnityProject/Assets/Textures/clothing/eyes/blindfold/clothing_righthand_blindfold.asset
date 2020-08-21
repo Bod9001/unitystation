@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blindfold_0
-      sprite: {fileID: 21300000, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
+    - sprite: {fileID: 21300000, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
+      spriteName: blindfold_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blindfold_1
-      sprite: {fileID: 21300002, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
+    - sprite: {fileID: 21300002, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
+      spriteName: blindfold_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blindfold_2
-      sprite: {fileID: 21300004, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
+    - sprite: {fileID: 21300004, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
+      spriteName: blindfold_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: blindfold_3
-      sprite: {fileID: 21300006, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
+    - sprite: {fileID: 21300006, guid: 7e90a3b3f0cc44040bd5676c2f4f8381, type: 3}
+      spriteName: blindfold_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: spectrometer_s_0
-      sprite: {fileID: 21300000, guid: 17f83140e8833f54587f18e38e2e103f, type: 3}
+    - sprite: {fileID: 21300000, guid: 17f83140e8833f54587f18e38e2e103f, type: 3}
+      spriteName: spectrometer_s_0
       secondDelay: 0.4
       AtlasUsing: 5
-    - spriteName: spectrometer_s_1
-      sprite: {fileID: 21300002, guid: 17f83140e8833f54587f18e38e2e103f, type: 3}
+    - sprite: {fileID: 21300002, guid: 17f83140e8833f54587f18e38e2e103f, type: 3}
+      spriteName: spectrometer_s_1
       secondDelay: 0.4
       AtlasUsing: 5
-    - spriteName: spectrometer_s_2
-      sprite: {fileID: 21300004, guid: 17f83140e8833f54587f18e38e2e103f, type: 3}
+    - sprite: {fileID: 21300004, guid: 17f83140e8833f54587f18e38e2e103f, type: 3}
+      spriteName: spectrometer_s_2
       secondDelay: 0.4
       AtlasUsing: 5
   IsPalette: 0

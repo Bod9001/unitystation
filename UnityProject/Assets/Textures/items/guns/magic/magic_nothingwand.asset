@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: magic_nothingwand
-      sprite: {fileID: 21300000, guid: e560316288130fc4592f0ee97819d2cb, type: 3}
+    - sprite: {fileID: 21300000, guid: e560316288130fc4592f0ee97819d2cb, type: 3}
+      spriteName: magic_nothingwand
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

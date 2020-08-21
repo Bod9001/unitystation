@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: power_rtg-open
-      sprite: {fileID: 21300000, guid: 5e5cc8f51612262468a953dff0157106, type: 3}
+    - sprite: {fileID: 21300000, guid: 5e5cc8f51612262468a953dff0157106, type: 3}
+      spriteName: power_rtg-open
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

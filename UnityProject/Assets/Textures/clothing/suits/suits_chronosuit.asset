@@ -14,55 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chronosuit_0
-      sprite: {fileID: 21300000, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+    - sprite: {fileID: 21300000, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_0
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: chronosuit_4
-      sprite: {fileID: 21300008, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+    - sprite: {fileID: 21300008, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_4
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: chronosuit_8
-      sprite: {fileID: 21300016, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-  - Frames:
-    - spriteName: chronosuit_1
-      sprite: {fileID: 21300002, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: chronosuit_5
-      sprite: {fileID: 21300010, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 2
-    - spriteName: chronosuit_9
-      sprite: {fileID: 21300018, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+    - sprite: {fileID: 21300016, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_8
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: chronosuit_2
-      sprite: {fileID: 21300004, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+    - sprite: {fileID: 21300002, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_1
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: chronosuit_6
-      sprite: {fileID: 21300012, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+    - sprite: {fileID: 21300010, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_5
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: chronosuit_10
-      sprite: {fileID: 21300020, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+    - sprite: {fileID: 21300018, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_9
       secondDelay: 0.1
       AtlasUsing: 2
   - Frames:
-    - spriteName: chronosuit_3
-      sprite: {fileID: 21300006, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+    - sprite: {fileID: 21300004, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_2
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: chronosuit_7
-      sprite: {fileID: 21300014, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+    - sprite: {fileID: 21300012, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_6
       secondDelay: 0.1
       AtlasUsing: 2
-    - spriteName: chronosuit_11
-      sprite: {fileID: 21300022, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+    - sprite: {fileID: 21300020, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_10
+      secondDelay: 0.1
+      AtlasUsing: 2
+  - Frames:
+    - sprite: {fileID: 21300006, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_3
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300014, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_7
+      secondDelay: 0.1
+      AtlasUsing: 2
+    - sprite: {fileID: 21300022, guid: 1b33023d7fd8baa44bba8c7c78aae3c5, type: 3}
+      spriteName: chronosuit_11
       secondDelay: 0.1
       AtlasUsing: 2
   IsPalette: 0

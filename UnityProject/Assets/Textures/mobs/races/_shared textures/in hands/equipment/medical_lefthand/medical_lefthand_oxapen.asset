@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: oxapen_0
-      sprite: {fileID: 1220001564247008755, guid: ec39b211e7bf7d541a1c030bef1ddf9a,
+    - sprite: {fileID: 1220001564247008755, guid: ec39b211e7bf7d541a1c030bef1ddf9a,
         type: 3}
+      spriteName: oxapen_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: oxapen_1
-      sprite: {fileID: -7368899396047419497, guid: ec39b211e7bf7d541a1c030bef1ddf9a,
+    - sprite: {fileID: -7368899396047419497, guid: ec39b211e7bf7d541a1c030bef1ddf9a,
         type: 3}
+      spriteName: oxapen_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: oxapen_2
-      sprite: {fileID: -7608726692463480056, guid: ec39b211e7bf7d541a1c030bef1ddf9a,
+    - sprite: {fileID: -7608726692463480056, guid: ec39b211e7bf7d541a1c030bef1ddf9a,
         type: 3}
+      spriteName: oxapen_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: oxapen_3
-      sprite: {fileID: -7518945370657993254, guid: ec39b211e7bf7d541a1c030bef1ddf9a,
+    - sprite: {fileID: -7518945370657993254, guid: ec39b211e7bf7d541a1c030bef1ddf9a,
         type: 3}
+      spriteName: oxapen_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

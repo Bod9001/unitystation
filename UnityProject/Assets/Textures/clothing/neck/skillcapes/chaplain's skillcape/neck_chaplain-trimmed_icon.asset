@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chaplain-trimmed_1
-      sprite: {fileID: -505450360759941765, guid: d0d447fa2f88d934a844f4d4feb543a5,
+    - sprite: {fileID: -505450360759941765, guid: d0d447fa2f88d934a844f4d4feb543a5,
         type: 3}
+      spriteName: chaplain-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

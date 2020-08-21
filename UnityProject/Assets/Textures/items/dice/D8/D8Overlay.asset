@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: dice_d8-1
-      sprite: {fileID: 21300000, guid: 8ce1957dd058db54cb9b49d043bc7359, type: 3}
+    - sprite: {fileID: 21300000, guid: 8ce1957dd058db54cb9b49d043bc7359, type: 3}
+      spriteName: dice_d8-1
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d8-2
-      sprite: {fileID: 21300000, guid: 656654c6044c6c240a5197132fbee50f, type: 3}
+    - sprite: {fileID: 21300000, guid: 656654c6044c6c240a5197132fbee50f, type: 3}
+      spriteName: dice_d8-2
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d8-3
-      sprite: {fileID: 21300000, guid: 8ac798862ccb8654986d12ec1dcefe3d, type: 3}
+    - sprite: {fileID: 21300000, guid: 8ac798862ccb8654986d12ec1dcefe3d, type: 3}
+      spriteName: dice_d8-3
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d8-4
-      sprite: {fileID: 21300000, guid: 0e5f3b8043726764bb31c31d2f639e7d, type: 3}
+    - sprite: {fileID: 21300000, guid: 0e5f3b8043726764bb31c31d2f639e7d, type: 3}
+      spriteName: dice_d8-4
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d8-5
-      sprite: {fileID: 21300000, guid: e2c19521e6beb724aab4248c50546d24, type: 3}
+    - sprite: {fileID: 21300000, guid: e2c19521e6beb724aab4248c50546d24, type: 3}
+      spriteName: dice_d8-5
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d8-6
-      sprite: {fileID: 21300000, guid: 0a90a2c64a756674b81cc39830965d68, type: 3}
+    - sprite: {fileID: 21300000, guid: 0a90a2c64a756674b81cc39830965d68, type: 3}
+      spriteName: dice_d8-6
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d8-7
-      sprite: {fileID: 21300000, guid: b808ec4208f2cee4eac8b1d351de7c93, type: 3}
+    - sprite: {fileID: 21300000, guid: b808ec4208f2cee4eac8b1d351de7c93, type: 3}
+      spriteName: dice_d8-7
       secondDelay: 0
       AtlasUsing: 5
   - Frames:
-    - spriteName: dice_d8-8
-      sprite: {fileID: 21300000, guid: 1ed5ac076a062bb42ab6b14acd9d4d14, type: 3}
+    - sprite: {fileID: 21300000, guid: 1ed5ac076a062bb42ab6b14acd9d4d14, type: 3}
+      spriteName: dice_d8-8
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

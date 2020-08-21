@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: device_health1
-      sprite: {fileID: 21300000, guid: 969a40a778a0273468566585ce9ea6db, type: 3}
+    - sprite: {fileID: 21300000, guid: 969a40a778a0273468566585ce9ea6db, type: 3}
+      spriteName: device_health1
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: construction_gygax18
-      sprite: {fileID: 21300000, guid: 1b3d246161af14747ba7c0f7078ec35e, type: 3}
+    - sprite: {fileID: 21300000, guid: 1b3d246161af14747ba7c0f7078ec35e, type: 3}
+      spriteName: construction_gygax18
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

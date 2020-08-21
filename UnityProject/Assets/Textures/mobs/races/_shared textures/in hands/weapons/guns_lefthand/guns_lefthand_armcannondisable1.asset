@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: armcannondisable1_0
-      sprite: {fileID: 21300000, guid: 9a6d08d9ad373e54087d360c04b12091, type: 3}
+    - sprite: {fileID: 21300000, guid: 9a6d08d9ad373e54087d360c04b12091, type: 3}
+      spriteName: armcannondisable1_0
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: armcannondisable1_1
-      sprite: {fileID: 21300002, guid: 9a6d08d9ad373e54087d360c04b12091, type: 3}
+    - sprite: {fileID: 21300002, guid: 9a6d08d9ad373e54087d360c04b12091, type: 3}
+      spriteName: armcannondisable1_1
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: armcannondisable1_2
-      sprite: {fileID: 21300004, guid: 9a6d08d9ad373e54087d360c04b12091, type: 3}
+    - sprite: {fileID: 21300004, guid: 9a6d08d9ad373e54087d360c04b12091, type: 3}
+      spriteName: armcannondisable1_2
       secondDelay: 0
       AtlasUsing: 4
   - Frames:
-    - spriteName: armcannondisable1_3
-      sprite: {fileID: 21300006, guid: 9a6d08d9ad373e54087d360c04b12091, type: 3}
+    - sprite: {fileID: 21300006, guid: 9a6d08d9ad373e54087d360c04b12091, type: 3}
+      spriteName: armcannondisable1_3
       secondDelay: 0
       AtlasUsing: 4
   IsPalette: 0

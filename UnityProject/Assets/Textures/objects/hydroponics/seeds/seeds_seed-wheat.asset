@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: seeds_seed-wheat
-      sprite: {fileID: 21300000, guid: 3634b411352abd24da52203ab3d8e195, type: 3}
+    - sprite: {fileID: 21300000, guid: 3634b411352abd24da52203ab3d8e195, type: 3}
+      spriteName: seeds_seed-wheat
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

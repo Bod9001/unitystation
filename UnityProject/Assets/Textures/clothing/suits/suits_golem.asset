@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: suits_golem
-      sprite: {fileID: 21300000, guid: 942375f3344960345aafd710adeb4ecb, type: 3}
+    - sprite: {fileID: 21300000, guid: 942375f3344960345aafd710adeb4ecb, type: 3}
+      spriteName: suits_golem
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

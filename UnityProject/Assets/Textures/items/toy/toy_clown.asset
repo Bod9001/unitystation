@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: toy_clown
-      sprite: {fileID: 21300000, guid: 0741d4c20b824e74dbd039f61ffa22c4, type: 3}
+    - sprite: {fileID: 21300000, guid: 0741d4c20b824e74dbd039f61ffa22c4, type: 3}
+      spriteName: toy_clown
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

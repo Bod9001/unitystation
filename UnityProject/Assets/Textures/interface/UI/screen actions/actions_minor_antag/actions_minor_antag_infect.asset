@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_minor_antag_infect
-      sprite: {fileID: 21300000, guid: cd128d0b933b25e48927acfca826b5a0, type: 3}
+    - sprite: {fileID: 21300000, guid: cd128d0b933b25e48927acfca826b5a0, type: 3}
+      spriteName: actions_minor_antag_infect
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

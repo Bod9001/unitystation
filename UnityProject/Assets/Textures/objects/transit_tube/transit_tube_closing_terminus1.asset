@@ -14,87 +14,87 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: closing_terminus1_0
-      sprite: {fileID: 21300000, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300000, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_0
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_4
-      sprite: {fileID: 21300008, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300008, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_4
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_8
-      sprite: {fileID: 21300016, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300016, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_8
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_12
-      sprite: {fileID: 21300024, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300024, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_12
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_16
-      sprite: {fileID: 21300032, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-  - Frames:
-    - spriteName: closing_terminus1_1
-      sprite: {fileID: 21300002, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: closing_terminus1_5
-      sprite: {fileID: 21300010, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: closing_terminus1_9
-      sprite: {fileID: 21300018, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: closing_terminus1_13
-      sprite: {fileID: 21300026, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
-      secondDelay: 0.1
-      AtlasUsing: 8
-    - spriteName: closing_terminus1_17
-      sprite: {fileID: 21300034, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300032, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_16
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: closing_terminus1_2
-      sprite: {fileID: 21300004, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300002, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_1
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_6
-      sprite: {fileID: 21300012, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300010, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_5
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_10
-      sprite: {fileID: 21300020, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300018, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_9
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_14
-      sprite: {fileID: 21300028, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300026, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_13
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_18
-      sprite: {fileID: 21300036, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300034, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_17
       secondDelay: 0.1
       AtlasUsing: 8
   - Frames:
-    - spriteName: closing_terminus1_3
-      sprite: {fileID: 21300006, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300004, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_2
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_7
-      sprite: {fileID: 21300014, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300012, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_6
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_11
-      sprite: {fileID: 21300022, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300020, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_10
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_15
-      sprite: {fileID: 21300030, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300028, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_14
       secondDelay: 0.1
       AtlasUsing: 8
-    - spriteName: closing_terminus1_19
-      sprite: {fileID: 21300038, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+    - sprite: {fileID: 21300036, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_18
+      secondDelay: 0.1
+      AtlasUsing: 8
+  - Frames:
+    - sprite: {fileID: 21300006, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_3
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300014, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_7
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300022, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_11
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300030, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_15
+      secondDelay: 0.1
+      AtlasUsing: 8
+    - sprite: {fileID: 21300038, guid: db88c43bb8bb8534b966bb7d4ad23b02, type: 3}
+      spriteName: closing_terminus1_19
       secondDelay: 0.1
       AtlasUsing: 8
   IsPalette: 0

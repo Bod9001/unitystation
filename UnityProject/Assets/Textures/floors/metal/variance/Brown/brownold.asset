@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: brownold_0
-      sprite: {fileID: 21300000, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+    - sprite: {fileID: 21300000, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+      spriteName: brownold_0
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: brownold_1
-      sprite: {fileID: 21300002, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+    - sprite: {fileID: 21300002, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+      spriteName: brownold_1
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: brownold_2
-      sprite: {fileID: 21300004, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+    - sprite: {fileID: 21300004, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+      spriteName: brownold_2
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: brownold_3
-      sprite: {fileID: 21300006, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+    - sprite: {fileID: 21300006, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+      spriteName: brownold_3
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: brownold_4
-      sprite: {fileID: 21300008, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+    - sprite: {fileID: 21300008, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+      spriteName: brownold_4
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: brownold_5
-      sprite: {fileID: 21300010, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+    - sprite: {fileID: 21300010, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+      spriteName: brownold_5
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: brownold_6
-      sprite: {fileID: 21300012, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+    - sprite: {fileID: 21300012, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+      spriteName: brownold_6
       secondDelay: 0
       AtlasUsing: 10
   - Frames:
-    - spriteName: brownold_7
-      sprite: {fileID: 21300014, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+    - sprite: {fileID: 21300014, guid: 0fb650c337d25204495564a7ebb148a6, type: 3}
+      spriteName: brownold_7
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

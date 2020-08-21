@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: screen_gen_blurry
-      sprite: {fileID: 21300000, guid: b8887e0f73e6afe488a2096af97293b3, type: 3}
+    - sprite: {fileID: 21300000, guid: b8887e0f73e6afe488a2096af97293b3, type: 3}
+      spriteName: screen_gen_blurry
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

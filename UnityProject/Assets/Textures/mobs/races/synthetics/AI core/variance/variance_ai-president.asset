@@ -14,72 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: ai-president_0
-      sprite: {fileID: 21300000, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300000, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_0
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_1
-      sprite: {fileID: 21300002, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300002, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_1
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_2
-      sprite: {fileID: 21300004, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300004, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_2
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_3
-      sprite: {fileID: 21300006, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300006, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_3
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_4
-      sprite: {fileID: 21300008, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300008, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_4
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_5
-      sprite: {fileID: 21300010, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300010, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_5
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_6
-      sprite: {fileID: 21300012, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300012, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_6
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_7
-      sprite: {fileID: 21300014, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300014, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_7
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_8
-      sprite: {fileID: 21300016, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300016, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_8
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_9
-      sprite: {fileID: 21300018, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300018, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_9
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_10
-      sprite: {fileID: 21300020, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300020, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_10
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_11
-      sprite: {fileID: 21300022, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300022, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_11
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_12
-      sprite: {fileID: 21300024, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300024, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_12
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_13
-      sprite: {fileID: 21300026, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300026, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_13
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_14
-      sprite: {fileID: 21300028, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300028, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_14
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_15
-      sprite: {fileID: 21300030, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300030, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_15
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: ai-president_16
-      sprite: {fileID: 21300032, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+    - sprite: {fileID: 21300032, guid: 7ec81bbbf79b47d4ba106a14fae5deaf, type: 3}
+      spriteName: ai-president_16
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

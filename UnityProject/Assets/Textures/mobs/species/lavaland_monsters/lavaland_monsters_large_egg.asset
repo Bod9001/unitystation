@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: lavaland_monsters_large_egg
-      sprite: {fileID: 21300000, guid: 8d41a175af4daa44b8c6cbbb41525733, type: 3}
+    - sprite: {fileID: 21300000, guid: 8d41a175af4daa44b8c6cbbb41525733, type: 3}
+      spriteName: lavaland_monsters_large_egg
       secondDelay: 0
       AtlasUsing: 6
   IsPalette: 0

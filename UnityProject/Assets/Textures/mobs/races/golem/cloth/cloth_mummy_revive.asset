@@ -14,44 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: mummy_revive_0
-      sprite: {fileID: 21300000, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300000, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_0
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: mummy_revive_1
-      sprite: {fileID: 21300002, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300002, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_1
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: mummy_revive_2
-      sprite: {fileID: 21300004, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300004, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_2
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: mummy_revive_3
-      sprite: {fileID: 21300006, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300006, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_3
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: mummy_revive_4
-      sprite: {fileID: 21300008, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300008, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_4
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: mummy_revive_5
-      sprite: {fileID: 21300010, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300010, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_5
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: mummy_revive_6
-      sprite: {fileID: 21300012, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300012, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_6
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: mummy_revive_7
-      sprite: {fileID: 21300014, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300014, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_7
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: mummy_revive_8
-      sprite: {fileID: 21300016, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300016, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_8
       secondDelay: 0.2
       AtlasUsing: 6
-    - spriteName: mummy_revive_9
-      sprite: {fileID: 21300018, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+    - sprite: {fileID: 21300018, guid: f635a18cdca10cb44b21def009f205c4, type: 3}
+      spriteName: mummy_revive_9
       secondDelay: 0.2
       AtlasUsing: 6
   IsPalette: 0

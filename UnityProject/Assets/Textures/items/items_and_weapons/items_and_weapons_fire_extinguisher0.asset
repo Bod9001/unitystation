@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: items_and_weapons_fire_extinguisher0
-      sprite: {fileID: 21300000, guid: 65bae883a79671342ba887b2c584674c, type: 3}
+    - sprite: {fileID: 21300000, guid: 65bae883a79671342ba887b2c584674c, type: 3}
+      spriteName: items_and_weapons_fire_extinguisher0
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

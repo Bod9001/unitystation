@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: signal-trimmed_1
-      sprite: {fileID: 2136652531083396540, guid: 4cadab16b4b994148a1d77db90cc8cd0,
+    - sprite: {fileID: 2136652531083396540, guid: 4cadab16b4b994148a1d77db90cc8cd0,
         type: 3}
+      spriteName: signal-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

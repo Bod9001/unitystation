@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: alerts_arrow0
-      sprite: {fileID: 21300000, guid: d203a0893203fe74ea58650d53b9cd73, type: 3}
+    - sprite: {fileID: 21300000, guid: d203a0893203fe74ea58650d53b9cd73, type: 3}
+      spriteName: alerts_arrow0
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

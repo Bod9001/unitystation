@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: contraband_1562403219.8406818
-      sprite: {fileID: 21300000, guid: 112e5b1389f239f4f98937653f364ddc, type: 3}
+    - sprite: {fileID: 21300000, guid: 112e5b1389f239f4f98937653f364ddc, type: 3}
+      spriteName: contraband_1562403219.8406818
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

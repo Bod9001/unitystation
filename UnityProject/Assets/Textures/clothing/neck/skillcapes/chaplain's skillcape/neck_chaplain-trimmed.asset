@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: chaplain-trimmed_0
-      sprite: {fileID: -627241603750868929, guid: d0d447fa2f88d934a844f4d4feb543a5,
+    - sprite: {fileID: -627241603750868929, guid: d0d447fa2f88d934a844f4d4feb543a5,
         type: 3}
+      spriteName: chaplain-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: chaplain-trimmed_1
-      sprite: {fileID: -505450360759941765, guid: d0d447fa2f88d934a844f4d4feb543a5,
+    - sprite: {fileID: -505450360759941765, guid: d0d447fa2f88d934a844f4d4feb543a5,
         type: 3}
+      spriteName: chaplain-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: chaplain-trimmed_2
-      sprite: {fileID: 876258427795241107, guid: d0d447fa2f88d934a844f4d4feb543a5,
+    - sprite: {fileID: 876258427795241107, guid: d0d447fa2f88d934a844f4d4feb543a5,
         type: 3}
+      spriteName: chaplain-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: chaplain-trimmed_3
-      sprite: {fileID: 878759731024247322, guid: d0d447fa2f88d934a844f4d4feb543a5,
+    - sprite: {fileID: 878759731024247322, guid: d0d447fa2f88d934a844f4d4feb543a5,
         type: 3}
+      spriteName: chaplain-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: objects_shards
-      sprite: {fileID: 21300000, guid: ef6787f17cc6e8f4d8c56620036891a1, type: 3}
+    - sprite: {fileID: 21300000, guid: ef6787f17cc6e8f4d8c56620036891a1, type: 3}
+      spriteName: objects_shards
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

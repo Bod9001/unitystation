@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: pda_pda-miner
-      sprite: {fileID: 21300000, guid: f711db4ae44c4384493391d4cfa60efd, type: 3}
+    - sprite: {fileID: 21300000, guid: f711db4ae44c4384493391d4cfa60efd, type: 3}
+      spriteName: pda_pda-miner
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

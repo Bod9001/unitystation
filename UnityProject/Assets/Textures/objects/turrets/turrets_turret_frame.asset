@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: turrets_turret_frame
-      sprite: {fileID: 21300000, guid: 6acb148c639ecb240b440c618482bf21, type: 3}
+    - sprite: {fileID: 21300000, guid: 6acb148c639ecb240b440c618482bf21, type: 3}
+      spriteName: turrets_turret_frame
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

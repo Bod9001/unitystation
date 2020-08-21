@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: miner_0
-      sprite: {fileID: 21300000, guid: 075cd3ec9661dcf47984bb0c7795f690, type: 3}
+    - sprite: {fileID: 21300000, guid: 075cd3ec9661dcf47984bb0c7795f690, type: 3}
+      spriteName: miner_0
       secondDelay: 0
-      AtlasUsing: 1
+      AtlasUsing: 2
   - Frames:
-    - spriteName: miner_1
-      sprite: {fileID: 21300002, guid: 075cd3ec9661dcf47984bb0c7795f690, type: 3}
+    - sprite: {fileID: 21300002, guid: 075cd3ec9661dcf47984bb0c7795f690, type: 3}
+      spriteName: miner_1
       secondDelay: 0
-      AtlasUsing: 1
+      AtlasUsing: 2
   - Frames:
-    - spriteName: miner_2
-      sprite: {fileID: 21300004, guid: 075cd3ec9661dcf47984bb0c7795f690, type: 3}
+    - sprite: {fileID: 21300004, guid: 075cd3ec9661dcf47984bb0c7795f690, type: 3}
+      spriteName: miner_2
       secondDelay: 0
-      AtlasUsing: 1
+      AtlasUsing: 2
   - Frames:
-    - spriteName: miner_3
-      sprite: {fileID: 21300006, guid: 075cd3ec9661dcf47984bb0c7795f690, type: 3}
+    - sprite: {fileID: 21300006, guid: 075cd3ec9661dcf47984bb0c7795f690, type: 3}
+      spriteName: miner_3
       secondDelay: 0
-      AtlasUsing: 1
+      AtlasUsing: 2
   IsPalette: 0
   setID: 21618

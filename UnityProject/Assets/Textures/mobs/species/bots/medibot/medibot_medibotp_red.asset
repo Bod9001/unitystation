@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: medibotp_red_0
-      sprite: {fileID: 21300000, guid: 7d02a7edcf69e2a4291b8b9b97eafab7, type: 3}
+    - sprite: {fileID: 21300000, guid: 7d02a7edcf69e2a4291b8b9b97eafab7, type: 3}
+      spriteName: medibotp_red_0
       secondDelay: 0.1
       AtlasUsing: 6
-    - spriteName: medibotp_red_1
-      sprite: {fileID: 21300002, guid: 7d02a7edcf69e2a4291b8b9b97eafab7, type: 3}
+    - sprite: {fileID: 21300002, guid: 7d02a7edcf69e2a4291b8b9b97eafab7, type: 3}
+      spriteName: medibotp_red_1
       secondDelay: 0.1
       AtlasUsing: 6
   IsPalette: 0

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: signal-skillcape_1
-      sprite: {fileID: 7619687155428255732, guid: 1db582d35505f404b8ceeb04547b373d,
+    - sprite: {fileID: 7619687155428255732, guid: 1db582d35505f404b8ceeb04547b373d,
         type: 3}
+      spriteName: signal-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_vehicle_car_removekey
-      sprite: {fileID: 21300000, guid: e23e1da783b11544ca15f7e78daab24c, type: 3}
+    - sprite: {fileID: 21300000, guid: e23e1da783b11544ca15f7e78daab24c, type: 3}
+      spriteName: actions_vehicle_car_removekey
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

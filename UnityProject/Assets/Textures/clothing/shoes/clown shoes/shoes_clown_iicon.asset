@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: shoes_clown_iicon
-      sprite: {fileID: 21300000, guid: c9971e3bcaf77174e8222687f685734d, type: 3}
+    - sprite: {fileID: 21300000, guid: c9971e3bcaf77174e8222687f685734d, type: 3}
+      spriteName: shoes_clown_iicon
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

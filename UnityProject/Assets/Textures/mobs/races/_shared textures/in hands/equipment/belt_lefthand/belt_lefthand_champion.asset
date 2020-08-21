@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: champion_0
-      sprite: {fileID: 21300000, guid: 5dfae9718f29ca647b345ffa5aa0ec96, type: 3}
+    - sprite: {fileID: 21300000, guid: 5dfae9718f29ca647b345ffa5aa0ec96, type: 3}
+      spriteName: champion_0
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: champion_1
-      sprite: {fileID: 21300002, guid: 5dfae9718f29ca647b345ffa5aa0ec96, type: 3}
+    - sprite: {fileID: 21300002, guid: 5dfae9718f29ca647b345ffa5aa0ec96, type: 3}
+      spriteName: champion_1
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: champion_2
-      sprite: {fileID: 21300004, guid: 5dfae9718f29ca647b345ffa5aa0ec96, type: 3}
+    - sprite: {fileID: 21300004, guid: 5dfae9718f29ca647b345ffa5aa0ec96, type: 3}
+      spriteName: champion_2
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   - Frames:
-    - spriteName: champion_3
-      sprite: {fileID: 21300006, guid: 5dfae9718f29ca647b345ffa5aa0ec96, type: 3}
+    - sprite: {fileID: 21300006, guid: 5dfae9718f29ca647b345ffa5aa0ec96, type: 3}
+      spriteName: champion_3
       secondDelay: 0
-      AtlasUsing: 2
+      AtlasUsing: 4
   IsPalette: 0
   setID: 10041

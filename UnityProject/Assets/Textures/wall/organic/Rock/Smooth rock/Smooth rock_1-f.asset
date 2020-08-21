@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: Smooth rock_1-f
-      sprite: {fileID: 21300000, guid: 9ff36ec60479b8446b41dd558d9f5a12, type: 3}
+    - sprite: {fileID: 21300000, guid: 9ff36ec60479b8446b41dd558d9f5a12, type: 3}
+      spriteName: Smooth rock_1-f
       secondDelay: 0
       AtlasUsing: 10
   IsPalette: 0

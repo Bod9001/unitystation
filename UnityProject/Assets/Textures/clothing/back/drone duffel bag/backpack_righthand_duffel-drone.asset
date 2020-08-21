@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: duffel-drone_0
-      sprite: {fileID: 21300000, guid: 26b82eff5c94fd5498cd3f9c4c02103b, type: 3}
+    - sprite: {fileID: 21300000, guid: 26b82eff5c94fd5498cd3f9c4c02103b, type: 3}
+      spriteName: duffel-drone_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: duffel-drone_1
-      sprite: {fileID: 21300002, guid: 26b82eff5c94fd5498cd3f9c4c02103b, type: 3}
+    - sprite: {fileID: 21300002, guid: 26b82eff5c94fd5498cd3f9c4c02103b, type: 3}
+      spriteName: duffel-drone_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: duffel-drone_2
-      sprite: {fileID: 21300004, guid: 26b82eff5c94fd5498cd3f9c4c02103b, type: 3}
+    - sprite: {fileID: 21300004, guid: 26b82eff5c94fd5498cd3f9c4c02103b, type: 3}
+      spriteName: duffel-drone_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: duffel-drone_3
-      sprite: {fileID: 21300006, guid: 26b82eff5c94fd5498cd3f9c4c02103b, type: 3}
+    - sprite: {fileID: 21300006, guid: 26b82eff5c94fd5498cd3f9c4c02103b, type: 3}
+      spriteName: duffel-drone_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

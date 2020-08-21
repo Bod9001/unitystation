@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_changeling_tentacle
-      sprite: {fileID: 21300000, guid: 2966a7ce592681240a7cab0a51c3b05f, type: 3}
+    - sprite: {fileID: 21300000, guid: 2966a7ce592681240a7cab0a51c3b05f, type: 3}
+      spriteName: actions_changeling_tentacle
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

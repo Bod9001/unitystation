@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: cut scenes_station_intact
-      sprite: {fileID: 21300000, guid: 2f758593fca0e9946a12725d20745ba7, type: 3}
+    - sprite: {fileID: 21300000, guid: 2f758593fca0e9946a12725d20745ba7, type: 3}
+      spriteName: cut scenes_station_intact
       secondDelay: 0
       AtlasUsing: 3
   IsPalette: 0

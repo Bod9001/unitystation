@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: blueshatter2_0
-      sprite: {fileID: 21300000, guid: 2321b1120aa4d3143bb200e7812aa9b9, type: 3}
+    - sprite: {fileID: 21300000, guid: 2321b1120aa4d3143bb200e7812aa9b9, type: 3}
+      spriteName: blueshatter2_0
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: blueshatter2_1
-      sprite: {fileID: 21300002, guid: 2321b1120aa4d3143bb200e7812aa9b9, type: 3}
+    - sprite: {fileID: 21300002, guid: 2321b1120aa4d3143bb200e7812aa9b9, type: 3}
+      spriteName: blueshatter2_1
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: blueshatter2_2
-      sprite: {fileID: 21300004, guid: 2321b1120aa4d3143bb200e7812aa9b9, type: 3}
+    - sprite: {fileID: 21300004, guid: 2321b1120aa4d3143bb200e7812aa9b9, type: 3}
+      spriteName: blueshatter2_2
       secondDelay: 0.2
       AtlasUsing: 9
-    - spriteName: blueshatter2_3
-      sprite: {fileID: 21300006, guid: 2321b1120aa4d3143bb200e7812aa9b9, type: 3}
+    - sprite: {fileID: 21300006, guid: 2321b1120aa4d3143bb200e7812aa9b9, type: 3}
+      spriteName: blueshatter2_3
       secondDelay: 0.2
       AtlasUsing: 9
   IsPalette: 0

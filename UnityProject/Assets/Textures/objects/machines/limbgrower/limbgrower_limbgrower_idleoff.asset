@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: limbgrower_idleoff_0
-      sprite: {fileID: 21300000, guid: 42c422a75f8d75f47958d8cc3baf3b2b, type: 3}
+    - sprite: {fileID: 21300000, guid: 42c422a75f8d75f47958d8cc3baf3b2b, type: 3}
+      spriteName: limbgrower_idleoff_0
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: limbgrower_idleoff_1
-      sprite: {fileID: 21300002, guid: 42c422a75f8d75f47958d8cc3baf3b2b, type: 3}
+    - sprite: {fileID: 21300002, guid: 42c422a75f8d75f47958d8cc3baf3b2b, type: 3}
+      spriteName: limbgrower_idleoff_1
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: limbgrower_idleoff_2
-      sprite: {fileID: 21300004, guid: 42c422a75f8d75f47958d8cc3baf3b2b, type: 3}
+    - sprite: {fileID: 21300004, guid: 42c422a75f8d75f47958d8cc3baf3b2b, type: 3}
+      spriteName: limbgrower_idleoff_2
       secondDelay: 0.3
       AtlasUsing: 8
-    - spriteName: limbgrower_idleoff_3
-      sprite: {fileID: 21300006, guid: 42c422a75f8d75f47958d8cc3baf3b2b, type: 3}
+    - sprite: {fileID: 21300006, guid: 42c422a75f8d75f47958d8cc3baf3b2b, type: 3}
+      spriteName: limbgrower_idleoff_3
       secondDelay: 0.3
       AtlasUsing: 8
   IsPalette: 0

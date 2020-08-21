@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: wallframe_extinguisher
-      sprite: {fileID: 21300000, guid: c9f302720d46aeb459eb1eb62379dd1f, type: 3}
+    - sprite: {fileID: 21300000, guid: c9f302720d46aeb459eb1eb62379dd1f, type: 3}
+      spriteName: wallframe_extinguisher
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: growing_cherry-grow4
-      sprite: {fileID: 21300000, guid: 53c31221b24b47d4587ac5a4b7c6de7e, type: 3}
+    - sprite: {fileID: 21300000, guid: 53c31221b24b47d4587ac5a4b7c6de7e, type: 3}
+      spriteName: growing_cherry-grow4
       secondDelay: 0
       AtlasUsing: 8
   IsPalette: 0

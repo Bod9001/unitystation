@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: katana_0
-      sprite: {fileID: 21300000, guid: bcae75f3e3785894b96e67b3d60d6cee, type: 3}
+    - sprite: {fileID: 21300000, guid: bcae75f3e3785894b96e67b3d60d6cee, type: 3}
+      spriteName: katana_0
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: katana_1
-      sprite: {fileID: 21300002, guid: bcae75f3e3785894b96e67b3d60d6cee, type: 3}
+    - sprite: {fileID: 21300002, guid: bcae75f3e3785894b96e67b3d60d6cee, type: 3}
+      spriteName: katana_1
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: katana_2
-      sprite: {fileID: 21300004, guid: bcae75f3e3785894b96e67b3d60d6cee, type: 3}
+    - sprite: {fileID: 21300004, guid: bcae75f3e3785894b96e67b3d60d6cee, type: 3}
+      spriteName: katana_2
       secondDelay: 0
       AtlasUsing: 2
   - Frames:
-    - spriteName: katana_3
-      sprite: {fileID: 21300006, guid: bcae75f3e3785894b96e67b3d60d6cee, type: 3}
+    - sprite: {fileID: 21300006, guid: bcae75f3e3785894b96e67b3d60d6cee, type: 3}
+      spriteName: katana_3
       secondDelay: 0
       AtlasUsing: 2
   IsPalette: 0

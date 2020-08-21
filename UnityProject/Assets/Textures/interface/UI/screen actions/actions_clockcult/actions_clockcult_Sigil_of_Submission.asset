@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: actions_clockcult_Sigil_of_Submission
-      sprite: {fileID: 21300000, guid: 1293d67e420fa7c4088eb0372668ae9d, type: 3}
+    - sprite: {fileID: 21300000, guid: 1293d67e420fa7c4088eb0372668ae9d, type: 3}
+      spriteName: actions_clockcult_Sigil_of_Submission
       secondDelay: 0
       AtlasUsing: 9
   IsPalette: 0

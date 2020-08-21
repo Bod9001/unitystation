@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Variance:
   - Frames:
-    - spriteName: toy_minimeteor
-      sprite: {fileID: 21300000, guid: d6bff46bedc27b24aab86725ad6e57ef, type: 3}
+    - sprite: {fileID: 21300000, guid: d6bff46bedc27b24aab86725ad6e57ef, type: 3}
+      spriteName: toy_minimeteor
       secondDelay: 0
       AtlasUsing: 5
   IsPalette: 0
