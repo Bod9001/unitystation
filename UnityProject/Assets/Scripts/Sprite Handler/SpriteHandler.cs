@@ -17,13 +17,14 @@ using UnityEngine.UI;
 public class SpriteHandler : MonoBehaviour
 {
 
-	public AssetReference spriteDataSOAddressable;
+	[SerializeField] public AssetReference PresentSpriteSetAddress;
+	[SerializeField] public List<AssetReference> SubCatalogueAddresses = new List<AssetReference>();
 
 	[SerializeField] private bool NetworkThis = true;
 
-	[SerializeField] private List<SpriteDataSO> SubCatalogue = new List<SpriteDataSO>();
+	[SerializeField] public List<SpriteDataSO> SubCatalogue = new List<SpriteDataSO>();
 
-	[SerializeField] private SpriteDataSO PresentSpriteSet;
+	[SerializeField] public SpriteDataSO PresentSpriteSet;
 	private SpriteDataSO.Frame PresentFrame = null;
 
 	private SpriteRenderer spriteRenderer;
@@ -532,7 +533,7 @@ public class SpriteHandler : MonoBehaviour
 		GetImageComponent();
 		ImageComponentStatus(false);
 		Initialised = true;
-		if (spriteDataSOAddressable != null && spriteDataSOAddressable.RuntimeKey as string != "")
+		if (PresentSpriteSetAddress != null && PresentSpriteSetAddress.RuntimeKey as string != "")
 		{
 			if (HasImageComponent() && pushTextureOnStartUp)
 			{
@@ -682,7 +683,7 @@ public class SpriteHandler : MonoBehaviour
 		{
 			Initialised = true;
 			GetImageComponent();
-			if (spriteDataSOAddressable != null && PresentSpriteSet == null)
+			if (PresentSpriteSetAddress != null && PresentSpriteSet == null)
 			{
 				LoadAddressableReference();
 			}
@@ -736,11 +737,11 @@ public class SpriteHandler : MonoBehaviour
 #if UNITY_EDITOR
 		if (Application.isPlaying == false)
 		{
-			LoadspriteDataSO(spriteDataSOAddressable.editorAsset as SpriteDataSO);
+			LoadspriteDataSO(PresentSpriteSetAddress.editorAsset as SpriteDataSO);
 			return;
 		}
 #endif
-		Addressables.LoadAssetsAsync<SpriteDataSO>(spriteDataSOAddressable, LoadspriteDataSO);
+		Addressables.LoadAssetsAsync<SpriteDataSO>(PresentSpriteSetAddress, LoadspriteDataSO);
 	}
 
 	private void LoadspriteDataSO(SpriteDataSO obj)

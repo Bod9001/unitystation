@@ -210,17 +210,43 @@ public class GenerateSpriteSO : EditorWindow
 	[MenuItem("Tools/GenerateSpriteSO")]
 	public static void Generate()
 	{
+		AssetDatabase.StartAssetEditing();
+		var allthem =  LoadAllPrefabsOfType<SpriteHandler>("");
+		foreach (var SH in allthem)
+		{
+			if (SH.PresentSpriteSet != null)
+			{
+				var path = AssetDatabase.GetAssetPath(SH.PresentSpriteSet);
+				SH.PresentSpriteSetAddress.SetEditorAsset(SH.PresentSpriteSet);
+				EditorUtility.SetDirty(SH);
+			}
+
+			if (SH.SubCatalogue.Count > 0)
+			{
+				SH.SubCatalogueAddresses.Clear();
+				foreach (var Catalogue in SH.SubCatalogue)
+				{
+					var toadd = new AssetReference();
+					toadd.SetEditorAsset(Catalogue);
+					SH.SubCatalogueAddresses.Add(toadd);
+					EditorUtility.SetDirty(SH);
+				}
+			}
+		}
 		//AssetDatabase.StopAssetEditing();
 		//spriteCatalogue = AssetDatabase.LoadAssetAtPath<SpriteCatalogue>(
 		//	"Assets/Resources/ScriptableObjects/SOs singletons/SpriteCatalogueSingleton.asset");
 		//
 		//	DirSearch_ex3Prefab(Application.dataPath + "/Resources/Prefabs/Items"); //
 		//
-		AssetDatabase.StartAssetEditing();
+
 
 		//var At = FindAssetsByType<AtlasReference>().First();
 		//At.
 
+		AssetDatabase.StopAssetEditing();
+		AssetDatabase.SaveAssets();
+		return;
 
 		var settings = AddressableAssetSettingsDefaultObject.Settings;
 		var group = settings.DefaultGroup;
@@ -230,45 +256,44 @@ public class GenerateSpriteSO : EditorWindow
 		foreach (var Sprite in Sprites)
 		{
 			if (Sprite == null) continue;
-			foreach (var Varianc in Sprite.Variance)
-			{
-				foreach (var Frame in Varianc.Frames)
-				{
-					if (Frame != null)
-					{
-						if (Frame.sprite == null == false)
-						{
-							Frame.spriteName = Frame.sprite.name;
-							Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
-							if (Frame.AtlasUsing == AddressableSpritesHandler.Atlas.None)
-							{
-								AssetDatabase.StopAssetEditing();
-								AssetDatabase.SaveAssets();
-								Logger.Log( "Frame.spriteName " + Frame.spriteName + " < > " + Sprite );
-								return;
-							}
-						}
-					}
-				}
-			}
-			EditorUtility.SetDirty(Sprite);
+			var entry = settings.CreateOrMoveEntry(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Sprite)),
+				group, readOnly: false, postEvent: false);
+			var paths = AssetDatabase.GetAssetPath(Sprite);
+			entry.address = paths;
+
+			entriesAdded.Add(entry);
+
+			// foreach (var Varianc in Sprite.Variance)
+			// {
+				// foreach (var Frame in Varianc.Frames)
+				// {
+					// if (Frame != null)
+					// {
+						// if (Frame.sprite == null == false)
+						// {
+							// Frame.spriteName = Frame.sprite.name;
+							// Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
+							// if (Frame.AtlasUsing == AddressableSpritesHandler.Atlas.None)
+							// {
+								// AssetDatabase.StopAssetEditing();
+								// AssetDatabase.SaveAssets();
+								// Logger.Log( "Frame.spriteName " + Frame.spriteName + " < > " + Sprite );
+								// return;
+							// }
+						// }
+					// }
+				// }
+			//}
+			//EditorUtility.SetDirty(Sprite);
 		}
 
-		//settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true);
+		settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true);
 		//DirSearch_ex3(Application.dataPath + "/Textures");
-		AssetDatabase.StopAssetEditing();
-		AssetDatabase.SaveAssets();
-		return;
+
 		var pathe = Application.dataPath + "/Resources/Prefabs";
 		var aDDll = LoadAllPrefabsOfType<SpriteHandler>(pathe);
 
-		//var entry = settings.CreateOrMoveEntry(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Sprite)),
-		//	group, readOnly: false, postEvent: false);
-		//var paths = AssetDatabase.GetAssetPath(Sprite);
-		//entry.address = paths;
-		//entry.labels.Add("MyLabel");
 
-		//entriesAdded.Add(entry);
 		foreach (var SH in aDDll)
 		{
 			//foreach (var Sprite in SH.Sprites)
