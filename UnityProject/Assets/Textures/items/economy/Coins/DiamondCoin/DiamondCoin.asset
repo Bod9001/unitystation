@@ -15,9 +15,13 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 9d3cea36e41e00c49b84e08c9d90819f, type: 3}
+      spriteName: economy_coin_diamond_heads
       secondDelay: 0
+      AtlasUsing: 5
   - Frames:
     - sprite: {fileID: 21300000, guid: eef19447063c8d34aa64f4ac3e249e03, type: 3}
+      spriteName: economy_coin_diamond_tails
       secondDelay: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 6680

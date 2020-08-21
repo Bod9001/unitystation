@@ -15,9 +15,13 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: a8fe144109236584a894b0c8e31555e2, type: 3}
+      spriteName: economy_coin_plasma_heads
       secondDelay: 0
+      AtlasUsing: 5
   - Frames:
     - sprite: {fileID: 21300000, guid: e135524543291dd4a989bcb81728c6ed, type: 3}
+      spriteName: economy_coin_plasma_tails
       secondDelay: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 6692

@@ -211,28 +211,28 @@ public class GenerateSpriteSO : EditorWindow
 	public static void Generate()
 	{
 		AssetDatabase.StartAssetEditing();
-		var allthem =  LoadAllPrefabsOfType<SpriteHandler>("");
-		foreach (var SH in allthem)
-		{
-			if (SH.PresentSpriteSet != null)
-			{
-				var path = AssetDatabase.GetAssetPath(SH.PresentSpriteSet);
-				SH.PresentSpriteSetAddress.SetEditorAsset(SH.PresentSpriteSet);
-				EditorUtility.SetDirty(SH);
-			}
+		// var allthem =  LoadAllPrefabsOfType<SpriteHandler>("");
+		// foreach (var SH in allthem)
+		// {
+			// if (SH.PresentSpriteSet != null)
+			// {
+				// var path = AssetDatabase.GetAssetPath(SH.PresentSpriteSet);
+				// SH.PresentSpriteSetAddress.SetEditorAsset(SH.PresentSpriteSet);
+				// EditorUtility.SetDirty(SH);
+			// }
 
-			if (SH.SubCatalogue.Count > 0)
-			{
-				SH.SubCatalogueAddresses.Clear();
-				foreach (var Catalogue in SH.SubCatalogue)
-				{
-					var toadd = new AssetReference();
-					toadd.SetEditorAsset(Catalogue);
-					SH.SubCatalogueAddresses.Add(toadd);
-					EditorUtility.SetDirty(SH);
-				}
-			}
-		}
+			// if (SH.SubCatalogue.Count > 0)
+			// {
+				// SH.SubCatalogueAddresses.Clear();
+				// foreach (var Catalogue in SH.SubCatalogue)
+				// {
+					// var toadd = new AssetReference();
+					// toadd.SetEditorAsset(Catalogue);
+					// SH.SubCatalogueAddresses.Add(toadd);
+					// EditorUtility.SetDirty(SH);
+				// }
+			// }
+		// }
 		//AssetDatabase.StopAssetEditing();
 		//spriteCatalogue = AssetDatabase.LoadAssetAtPath<SpriteCatalogue>(
 		//	"Assets/Resources/ScriptableObjects/SOs singletons/SpriteCatalogueSingleton.asset");
@@ -244,9 +244,9 @@ public class GenerateSpriteSO : EditorWindow
 		//var At = FindAssetsByType<AtlasReference>().First();
 		//At.
 
-		AssetDatabase.StopAssetEditing();
-		AssetDatabase.SaveAssets();
-		return;
+		// AssetDatabase.StopAssetEditing();
+		// AssetDatabase.SaveAssets();
+		// return;
 
 		var settings = AddressableAssetSettingsDefaultObject.Settings;
 		var group = settings.DefaultGroup;
@@ -263,32 +263,36 @@ public class GenerateSpriteSO : EditorWindow
 
 			entriesAdded.Add(entry);
 
-			// foreach (var Varianc in Sprite.Variance)
-			// {
-				// foreach (var Frame in Varianc.Frames)
-				// {
-					// if (Frame != null)
-					// {
-						// if (Frame.sprite == null == false)
-						// {
-							// Frame.spriteName = Frame.sprite.name;
-							// Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
-							// if (Frame.AtlasUsing == AddressableSpritesHandler.Atlas.None)
-							// {
-								// AssetDatabase.StopAssetEditing();
-								// AssetDatabase.SaveAssets();
-								// Logger.Log( "Frame.spriteName " + Frame.spriteName + " < > " + Sprite );
-								// return;
-							// }
-						// }
-					// }
-				// }
-			//}
-			//EditorUtility.SetDirty(Sprite);
+			foreach (var Varianc in Sprite.Variance)
+			{
+				foreach (var Frame in Varianc.Frames)
+				{
+					if (Frame != null)
+					{
+						if (Frame.sprite == null == false)
+						{
+							Frame.spriteName = Frame.sprite.name;
+							Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
+							if (Frame.AtlasUsing == AddressableSpritesHandler.Atlas.None)
+							{
+								AssetDatabase.StopAssetEditing();
+								AssetDatabase.SaveAssets();
+								Logger.Log( "Frame.spriteName " + Frame.spriteName + " < > " + Sprite );
+								return;
+							}
+						}
+					}
+				}
+			}
+			EditorUtility.SetDirty(Sprite);
 		}
 
 		settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true);
 		//DirSearch_ex3(Application.dataPath + "/Textures");
+
+		AssetDatabase.StopAssetEditing();
+		AssetDatabase.SaveAssets();
+		return;
 
 		var pathe = Application.dataPath + "/Resources/Prefabs";
 		var aDDll = LoadAllPrefabsOfType<SpriteHandler>(pathe);

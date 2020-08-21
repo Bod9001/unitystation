@@ -15,9 +15,13 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: becdeccab0da3d54d90277370561ef9e, type: 3}
+      spriteName: economy_coin_mythril_heads
       secondDelay: 0
+      AtlasUsing: 5
   - Frames:
     - sprite: {fileID: 21300000, guid: 173a8ae1d85fb264d8cca8508f61028e, type: 3}
+      spriteName: economy_coin_mythril_tails
       secondDelay: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 6689

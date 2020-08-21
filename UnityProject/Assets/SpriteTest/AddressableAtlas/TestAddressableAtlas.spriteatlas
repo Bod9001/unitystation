@@ -43,36 +43,10 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 3c578b3e7669432429789b2a6b8fbf25, type: 3}
-    totalSpriteSurfaceArea: 13312
+    totalSpriteSurfaceArea: 0
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: 96cbfb25b2d4ed541b347f641fff568c, type: 3}
-  - {fileID: 21300008, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300010, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300012, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300014, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300000, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300002, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300004, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300006, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300016, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300018, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300022, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  - {fileID: 21300020, guid: b0cb68de94e78c641b773bd264bb62cf, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - mining_shovel
-  - carp_4
-  - carp_5
-  - carp_6
-  - carp_7
-  - carp_0
-  - carp_1
-  - carp_2
-  - carp_3
-  - carp_8
-  - carp_9
-  - carp_11
-  - carp_10
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_Tag: TestAddressableAtlas
   m_IsVariant: 0

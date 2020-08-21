@@ -15,6 +15,8 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 567726fd081a97c46a2c93edc3a99825, type: 3}
+      spriteName: card_id_gold
       secondDelay: 0
+      AtlasUsing: 5
   IsPalette: 0
   setID: 5223

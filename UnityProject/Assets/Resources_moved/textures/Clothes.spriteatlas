@@ -55,7 +55,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 08354a96c6fcb4b46ac49b822b62a686, type: 3}
-    totalSpriteSurfaceArea: 11737088
+    totalSpriteSurfaceArea: 11749376
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -208,6 +208,10 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b2619d2018e0dbf4ea84683b76284bfb, type: 3}
   - {fileID: 21300006, guid: b2619d2018e0dbf4ea84683b76284bfb, type: 3}
   - {fileID: 21300004, guid: b2619d2018e0dbf4ea84683b76284bfb, type: 3}
+  - {fileID: -2185518959494784054, guid: f2b30030a14b73e4aaf546406dd0d1ae, type: 3}
+  - {fileID: -2764690499318964261, guid: f2b30030a14b73e4aaf546406dd0d1ae, type: 3}
+  - {fileID: 2185655130498776669, guid: f2b30030a14b73e4aaf546406dd0d1ae, type: 3}
+  - {fileID: -644400480217614300, guid: f2b30030a14b73e4aaf546406dd0d1ae, type: 3}
   - {fileID: 21300000, guid: 2baa203037805ff4a812a4824485075f, type: 3}
   - {fileID: 21300002, guid: 2baa203037805ff4a812a4824485075f, type: 3}
   - {fileID: 21300004, guid: 2baa203037805ff4a812a4824485075f, type: 3}
@@ -720,6 +724,10 @@ SpriteAtlas:
   - {fileID: -2327306531158492313, guid: cb71bff059eff6e4091b72a70e79f763, type: 3}
   - {fileID: -1975081046892963037, guid: cb71bff059eff6e4091b72a70e79f763, type: 3}
   - {fileID: 21300000, guid: 9d8b21013a8aab6438e82f2b0f57b5ff, type: 3}
+  - {fileID: 3493421336183975610, guid: 8854510131bc76c4694b98e47188ba96, type: 3}
+  - {fileID: -24136015554598691, guid: 8854510131bc76c4694b98e47188ba96, type: 3}
+  - {fileID: -3744030458020389184, guid: 8854510131bc76c4694b98e47188ba96, type: 3}
+  - {fileID: 4926557015497490417, guid: 8854510131bc76c4694b98e47188ba96, type: 3}
   - {fileID: 21300000, guid: 4652d101bbed28b4faca55a04682ceba, type: 3}
   - {fileID: 21300004, guid: 6e7c1301e93e3b54fb8953b2a63b8d19, type: 3}
   - {fileID: 21300006, guid: 6e7c1301e93e3b54fb8953b2a63b8d19, type: 3}
@@ -2934,6 +2942,10 @@ SpriteAtlas:
   - {fileID: 21300002, guid: 1cde8834b48d80140a68efb132bf2a62, type: 3}
   - {fileID: 21300004, guid: 1cde8834b48d80140a68efb132bf2a62, type: 3}
   - {fileID: 21300006, guid: 1cde8834b48d80140a68efb132bf2a62, type: 3}
+  - {fileID: 6062394162861328101, guid: 59dd4c34d608cf748808f3ea8c0ef363, type: 3}
+  - {fileID: 2952266039233977071, guid: 59dd4c34d608cf748808f3ea8c0ef363, type: 3}
+  - {fileID: 1244313985353065380, guid: 59dd4c34d608cf748808f3ea8c0ef363, type: 3}
+  - {fileID: -6437405851222417680, guid: 59dd4c34d608cf748808f3ea8c0ef363, type: 3}
   - {fileID: 21300002, guid: 9f97ac349a2541a40aa38115c8917efe, type: 3}
   - {fileID: 21300000, guid: 9f97ac349a2541a40aa38115c8917efe, type: 3}
   - {fileID: 21300006, guid: 9f97ac349a2541a40aa38115c8917efe, type: 3}
@@ -11803,6 +11815,10 @@ SpriteAtlas:
   - damagedmask_0
   - damagedmask_3
   - damagedmask_2
+  - mentor-skillcape_0
+  - mentor-skillcape_1
+  - mentor-skillcape_2
+  - mentor-skillcape_3
   - fightgloves_0
   - fightgloves_1
   - fightgloves_2
@@ -12315,6 +12331,10 @@ SpriteAtlas:
   - ward-trimmed_3
   - ward-trimmed_2
   - gloves_yellow
+  - admin-skillcape_0
+  - admin-skillcape_1
+  - admin-skillcape_2
+  - admin-skillcape_3
   - uniforms_greydet_skirt
   - jetboots_2
   - jetboots_3
@@ -14529,6 +14549,10 @@ SpriteAtlas:
   - sheetred_1
   - sheetred_2
   - sheetred_3
+  - admin-trimmed_0
+  - admin-trimmed_1
+  - admin-trimmed_2
+  - admin-trimmed_3
   - hopcap_1
   - hopcap_0
   - hopcap_3

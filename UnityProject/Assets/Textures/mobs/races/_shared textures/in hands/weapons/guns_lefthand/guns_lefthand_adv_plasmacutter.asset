@@ -16,18 +16,26 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: 8283379684239136088, guid: ba121fd4921ed924897784326a090181,
         type: 3}
+      spriteName: adv_plasmacutter_0
       secondDelay: 0
+      AtlasUsing: 4
   - Frames:
     - sprite: {fileID: 4045134063843009805, guid: ba121fd4921ed924897784326a090181,
         type: 3}
+      spriteName: adv_plasmacutter_1
       secondDelay: 0
+      AtlasUsing: 4
   - Frames:
     - sprite: {fileID: 8182808936205391900, guid: ba121fd4921ed924897784326a090181,
         type: 3}
+      spriteName: adv_plasmacutter_2
       secondDelay: 0
+      AtlasUsing: 4
   - Frames:
     - sprite: {fileID: 8097598814434932499, guid: ba121fd4921ed924897784326a090181,
         type: 3}
+      spriteName: adv_plasmacutter_3
       secondDelay: 0
+      AtlasUsing: 4
   IsPalette: 0
   setID: 10

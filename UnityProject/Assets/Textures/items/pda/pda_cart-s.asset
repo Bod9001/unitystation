@@ -16,9 +16,13 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: 6383139504820886086, guid: 69630820c3bbd334baafbf6ee69e052c,
         type: 3}
+      spriteName: pda_cart-s_0
       secondDelay: 0.1
+      AtlasUsing: 5
     - sprite: {fileID: 2288977990245713937, guid: 69630820c3bbd334baafbf6ee69e052c,
         type: 3}
+      spriteName: pda_cart-s_1
       secondDelay: 0.1
+      AtlasUsing: 5
   IsPalette: 0
   setID: 8505
