@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: championbelt_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: championbelt_0
   - Frames:
     - sprite: {fileID: 8850847601262719080, guid: 78bcd5c0ccf566c4a98fec66df3c5915,
         type: 3}
       spriteName: championbelt_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: championbelt_1
   - Frames:
     - sprite: {fileID: -761688756324952560, guid: 78bcd5c0ccf566c4a98fec66df3c5915,
         type: 3}
       spriteName: championbelt_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: championbelt_2
   - Frames:
     - sprite: {fileID: 5269659173932237950, guid: 78bcd5c0ccf566c4a98fec66df3c5915,
         type: 3}
       spriteName: championbelt_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: championbelt_3
   IsPalette: 0
   setID: 377

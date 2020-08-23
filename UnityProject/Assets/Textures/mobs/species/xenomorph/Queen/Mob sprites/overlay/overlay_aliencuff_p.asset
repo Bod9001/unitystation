@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: aliencuff_p_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aliencuff_p_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 95a15c7620c721843a709271edaeca9c, type: 3}
       spriteName: aliencuff_p_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aliencuff_p_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 95a15c7620c721843a709271edaeca9c, type: 3}
       spriteName: aliencuff_p_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aliencuff_p_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 95a15c7620c721843a709271edaeca9c, type: 3}
       spriteName: aliencuff_p_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aliencuff_p_3
   IsPalette: 0
   setID: 12800

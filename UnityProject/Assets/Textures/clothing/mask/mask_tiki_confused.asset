@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tiki_confused_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_confused_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5904c3aaba30d884795272fa694072aa, type: 3}
       spriteName: tiki_confused_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_confused_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5904c3aaba30d884795272fa694072aa, type: 3}
       spriteName: tiki_confused_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_confused_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5904c3aaba30d884795272fa694072aa, type: 3}
       spriteName: tiki_confused_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_confused_3
   IsPalette: 0
   setID: 785

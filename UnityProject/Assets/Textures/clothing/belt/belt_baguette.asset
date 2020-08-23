@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: baguette_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: baguette_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8732c89b039b3b94498c4045741fb7db, type: 3}
       spriteName: baguette_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: baguette_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8732c89b039b3b94498c4045741fb7db, type: 3}
       spriteName: baguette_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: baguette_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8732c89b039b3b94498c4045741fb7db, type: 3}
       spriteName: baguette_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: baguette_3
   IsPalette: 0
   setID: 374

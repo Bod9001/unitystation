@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: speedwagon_cover_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: speedwagon_cover_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e702f4b3f1164234f9d6e3c7c9d04680, type: 3}
       spriteName: speedwagon_cover_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: speedwagon_cover_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e702f4b3f1164234f9d6e3c7c9d04680, type: 3}
       spriteName: speedwagon_cover_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: speedwagon_cover_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e702f4b3f1164234f9d6e3c7c9d04680, type: 3}
       spriteName: speedwagon_cover_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: speedwagon_cover_3
   IsPalette: 0
   setID: 18810

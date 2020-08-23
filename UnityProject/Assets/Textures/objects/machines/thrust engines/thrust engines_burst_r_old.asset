@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: burst_r_old_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: burst_r_old_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 33f25817896cd10478027170caa1c537, type: 3}
       spriteName: burst_r_old_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: burst_r_old_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 33f25817896cd10478027170caa1c537, type: 3}
       spriteName: burst_r_old_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: burst_r_old_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 33f25817896cd10478027170caa1c537, type: 3}
       spriteName: burst_r_old_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: burst_r_old_3
   IsPalette: 0
   setID: 16081

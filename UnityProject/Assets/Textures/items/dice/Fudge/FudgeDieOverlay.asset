@@ -18,15 +18,24 @@ MonoBehaviour:
       spriteName: dice_fudge-1
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: dice_fudge-1
   - Frames:
     - sprite: {fileID: 21300000, guid: 7259b23f23fe49248bc91616decc30d4, type: 3}
       spriteName: dice_fudge-2
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: dice_fudge-2
   - Frames:
     - sprite: {fileID: 21300000, guid: 2c7e4087b4a869745a8c3c0cbe4cb50c, type: 3}
       spriteName: dice_fudge-3
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: dice_fudge-3
   IsPalette: 0
   setID: 6387

@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: mindflash2_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: mindflash2_0
     - sprite: {fileID: 21300002, guid: 0488c822cb362a84198489e48f48f0f5, type: 3}
       spriteName: mindflash2_1
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: mindflash2_1
     - sprite: {fileID: 21300004, guid: 0488c822cb362a84198489e48f48f0f5, type: 3}
       spriteName: mindflash2_2
       secondDelay: 0.5
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: mindflash2_2
   IsPalette: 0
   setID: 6231

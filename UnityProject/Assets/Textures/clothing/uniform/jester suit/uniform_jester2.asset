@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: jester_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jester_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 72b46a695c1066d4b9ba17ee46cc768c, type: 3}
       spriteName: jester_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jester_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 72b46a695c1066d4b9ba17ee46cc768c, type: 3}
       spriteName: jester_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jester_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 72b46a695c1066d4b9ba17ee46cc768c, type: 3}
       spriteName: jester_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jester_3
   IsPalette: 0
   setID: 21581

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_baldfade_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_baldfade_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 04daca79706f0dd46b299e06f21d4c49, type: 3}
       spriteName: hair_baldfade_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_baldfade_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 04daca79706f0dd46b299e06f21d4c49, type: 3}
       spriteName: hair_baldfade_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_baldfade_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 04daca79706f0dd46b299e06f21d4c49, type: 3}
       spriteName: hair_baldfade_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_baldfade_3
   IsPalette: 0
   setID: 21899

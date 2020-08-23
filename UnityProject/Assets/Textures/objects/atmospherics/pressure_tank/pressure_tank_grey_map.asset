@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: grey_map_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: grey_map_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 176c42eb26c891947b02a6e0dc0c0d93, type: 3}
       spriteName: grey_map_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: grey_map_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 176c42eb26c891947b02a6e0dc0c0d93, type: 3}
       spriteName: grey_map_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: grey_map_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 176c42eb26c891947b02a6e0dc0c0d93, type: 3}
       spriteName: grey_map_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: grey_map_3
   IsPalette: 0
   setID: 13115

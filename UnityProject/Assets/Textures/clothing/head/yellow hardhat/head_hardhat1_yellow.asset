@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hardhat1_yellow_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat1_yellow_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 592a1e5cb7246ca4c923fed8e2913e0f, type: 3}
       spriteName: hardhat1_yellow_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat1_yellow_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 592a1e5cb7246ca4c923fed8e2913e0f, type: 3}
       spriteName: hardhat1_yellow_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat1_yellow_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 592a1e5cb7246ca4c923fed8e2913e0f, type: 3}
       spriteName: hardhat1_yellow_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat1_yellow_3
   IsPalette: 0
   setID: 20529

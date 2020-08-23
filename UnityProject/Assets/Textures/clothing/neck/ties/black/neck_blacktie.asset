@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: blacktie_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blacktie_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6d083b213395e784fb90c97c0f04fd91, type: 3}
       spriteName: blacktie_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blacktie_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6d083b213395e784fb90c97c0f04fd91, type: 3}
       spriteName: blacktie_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blacktie_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6d083b213395e784fb90c97c0f04fd91, type: 3}
       spriteName: blacktie_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blacktie_3
   IsPalette: 0
   setID: 20734

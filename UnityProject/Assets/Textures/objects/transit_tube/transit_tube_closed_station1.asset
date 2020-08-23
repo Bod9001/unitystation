@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: closed_station1_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: closed_station1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1d32142a6336800459edfed0a6d67f0b, type: 3}
       spriteName: closed_station1_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: closed_station1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1d32142a6336800459edfed0a6d67f0b, type: 3}
       spriteName: closed_station1_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: closed_station1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1d32142a6336800459edfed0a6d67f0b, type: 3}
       spriteName: closed_station1_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: closed_station1_3
   IsPalette: 0
   setID: 17600

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: coatatmos_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatatmos_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1ffc0181157031844bc8acd725e51299, type: 3}
       spriteName: coatatmos_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatatmos_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1ffc0181157031844bc8acd725e51299, type: 3}
       spriteName: coatatmos_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatatmos_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1ffc0181157031844bc8acd725e51299, type: 3}
       spriteName: coatatmos_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatatmos_3
   IsPalette: 0
   setID: 21194

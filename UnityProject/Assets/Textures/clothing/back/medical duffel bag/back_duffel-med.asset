@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: duffel-med_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: duffel-med_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 72915d127822bb54dbdf6ba9a1ac72ca, type: 3}
       spriteName: duffel-med_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: duffel-med_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 72915d127822bb54dbdf6ba9a1ac72ca, type: 3}
       spriteName: duffel-med_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: duffel-med_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 72915d127822bb54dbdf6ba9a1ac72ca, type: 3}
       spriteName: duffel-med_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: duffel-med_3
   IsPalette: 0
   setID: 19794

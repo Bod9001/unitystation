@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: greenclown_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: greenclown_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a969ba36574117c49aebdc193f831c61, type: 3}
       spriteName: greenclown_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: greenclown_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a969ba36574117c49aebdc193f831c61, type: 3}
       spriteName: greenclown_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: greenclown_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a969ba36574117c49aebdc193f831c61, type: 3}
       spriteName: greenclown_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: greenclown_3
   IsPalette: 0
   setID: 22134

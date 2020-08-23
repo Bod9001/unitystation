@@ -19,20 +19,32 @@ MonoBehaviour:
       spriteName: talk_robot0_0
       secondDelay: 0.4
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: talk_robot0_0
     - sprite: {fileID: -28570300322905347, guid: 88419a9a76ef1a249b5a445f4a997ed7,
         type: 3}
       spriteName: talk_robot0_1
       secondDelay: 0.4
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: talk_robot0_1
     - sprite: {fileID: -3064312099907747030, guid: 88419a9a76ef1a249b5a445f4a997ed7,
         type: 3}
       spriteName: talk_robot0_2
       secondDelay: 0.4
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: talk_robot0_2
     - sprite: {fileID: 1816048676911172279, guid: 88419a9a76ef1a249b5a445f4a997ed7,
         type: 3}
       spriteName: talk_robot0_3
       secondDelay: 0.4
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: talk_robot0_3
   IsPalette: 0
   setID: 2919

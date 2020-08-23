@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: rolling_pin_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rolling_pin_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 65cc7d97dd9133048842a54c81b5213d, type: 3}
       spriteName: rolling_pin_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rolling_pin_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 65cc7d97dd9133048842a54c81b5213d, type: 3}
       spriteName: rolling_pin_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rolling_pin_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 65cc7d97dd9133048842a54c81b5213d, type: 3}
       spriteName: rolling_pin_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rolling_pin_3
   IsPalette: 0
   setID: 10105

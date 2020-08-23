@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: spectral_0
       secondDelay: 0.1
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spectral_0
     - sprite: {fileID: 21300008, guid: 5020f5bc9f1078d46973e7d95685cb68, type: 3}
       spriteName: spectral_4
       secondDelay: 0.1
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spectral_4
   - Frames:
     - sprite: {fileID: 21300002, guid: 5020f5bc9f1078d46973e7d95685cb68, type: 3}
       spriteName: spectral_1
       secondDelay: 0.1
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spectral_1
     - sprite: {fileID: 21300010, guid: 5020f5bc9f1078d46973e7d95685cb68, type: 3}
       spriteName: spectral_5
       secondDelay: 0.1
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spectral_5
   - Frames:
     - sprite: {fileID: 21300004, guid: 5020f5bc9f1078d46973e7d95685cb68, type: 3}
       spriteName: spectral_2
       secondDelay: 0.1
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spectral_2
     - sprite: {fileID: 21300012, guid: 5020f5bc9f1078d46973e7d95685cb68, type: 3}
       spriteName: spectral_6
       secondDelay: 0.1
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spectral_6
   - Frames:
     - sprite: {fileID: 21300006, guid: 5020f5bc9f1078d46973e7d95685cb68, type: 3}
       spriteName: spectral_3
       secondDelay: 0.1
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spectral_3
     - sprite: {fileID: 21300014, guid: 5020f5bc9f1078d46973e7d95685cb68, type: 3}
       spriteName: spectral_7
       secondDelay: 0.1
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spectral_7
   IsPalette: 0
   setID: 10922

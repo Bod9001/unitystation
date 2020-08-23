@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: stickman_0
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: stickman_0
     - sprite: {fileID: 21300002, guid: d73b4a4bda6ef534b9fdf2bd4f5c3fd1, type: 3}
       spriteName: stickman_1
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: stickman_1
   IsPalette: 0
   setID: 11908

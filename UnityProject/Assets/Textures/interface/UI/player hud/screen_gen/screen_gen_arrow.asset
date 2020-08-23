@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: arrow_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: arrow_0
     - sprite: {fileID: 21300002, guid: 17ad462c7d95db54aab529369354e2bb, type: 3}
       spriteName: arrow_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: arrow_1
     - sprite: {fileID: 21300004, guid: 17ad462c7d95db54aab529369354e2bb, type: 3}
       spriteName: arrow_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: arrow_2
     - sprite: {fileID: 21300006, guid: 17ad462c7d95db54aab529369354e2bb, type: 3}
       spriteName: arrow_3
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: arrow_3
     - sprite: {fileID: 21300008, guid: 17ad462c7d95db54aab529369354e2bb, type: 3}
       spriteName: arrow_4
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: arrow_4
   IsPalette: 0
   setID: 3430

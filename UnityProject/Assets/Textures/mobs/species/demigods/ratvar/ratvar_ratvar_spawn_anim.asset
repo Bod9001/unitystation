@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: ratvar_spawn_anim_0
       secondDelay: 0.1
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: ratvar_spawn_anim_0
     - sprite: {fileID: 21300002, guid: 7f9d1ccc4858171409eac4e019dec575, type: 3}
       spriteName: ratvar_spawn_anim_1
       secondDelay: 0.1
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: ratvar_spawn_anim_1
     - sprite: {fileID: 21300004, guid: 7f9d1ccc4858171409eac4e019dec575, type: 3}
       spriteName: ratvar_spawn_anim_2
       secondDelay: 0.1
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: ratvar_spawn_anim_2
   IsPalette: 0
   setID: 12283

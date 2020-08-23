@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pwig_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pwig_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bce780ac55f30644f86d2bda3e8a41fa, type: 3}
       spriteName: pwig_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pwig_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bce780ac55f30644f86d2bda3e8a41fa, type: 3}
       spriteName: pwig_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pwig_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bce780ac55f30644f86d2bda3e8a41fa, type: 3}
       spriteName: pwig_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pwig_3
   IsPalette: 0
   setID: 673

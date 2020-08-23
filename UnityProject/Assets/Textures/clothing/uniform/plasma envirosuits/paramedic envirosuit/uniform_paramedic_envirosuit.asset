@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: paramedic_envirosuit_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirosuit_0
   - Frames:
     - sprite: {fileID: 8049287694348331925, guid: 600f75d73624879489031d63b762f823,
         type: 3}
       spriteName: paramedic_envirosuit_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirosuit_1
   - Frames:
     - sprite: {fileID: -5303064219030946071, guid: 600f75d73624879489031d63b762f823,
         type: 3}
       spriteName: paramedic_envirosuit_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirosuit_2
   - Frames:
     - sprite: {fileID: 5083665359233144803, guid: 600f75d73624879489031d63b762f823,
         type: 3}
       spriteName: paramedic_envirosuit_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirosuit_3
   IsPalette: 0
   setID: 23029

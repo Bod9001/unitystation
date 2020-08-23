@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: desynchronizer_0
       secondDelay: 0.5
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: desynchronizer_0
     - sprite: {fileID: 21300002, guid: 6e57e8a2458d1944dad1d89edd63c2f6, type: 3}
       spriteName: desynchronizer_1
       secondDelay: 0.5
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: desynchronizer_1
   IsPalette: 0
   setID: 6171

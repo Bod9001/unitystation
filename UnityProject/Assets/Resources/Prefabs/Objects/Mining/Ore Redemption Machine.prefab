@@ -68,14 +68,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: e417ffb4aabe13546b3bfdf8bcabdd56
+    m_SubObjectName: 
+  SubCatalogueAddresses:
+  - m_AssetGUID: e417ffb4aabe13546b3bfdf8bcabdd56
+    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: e417ffb4aabe13546b3bfdf8bcabdd56, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: e417ffb4aabe13546b3bfdf8bcabdd56, type: 2}
-  Sprites:
-  - Texture: {fileID: 2800000, guid: 7cd232d70698e2d4b856d70b22d3f223, type: 3}
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
+  Sprites:
+  - Texture: {fileID: 2800000, guid: 7cd232d70698e2d4b856d70b22d3f223, type: 3}
 --- !u!1001 &2473681083921268590
 PrefabInstance:
   m_ObjectHideFlags: 0

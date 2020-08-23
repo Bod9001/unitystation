@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: lightblade_0
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lightblade_0
     - sprite: {fileID: 21300008, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       spriteName: lightblade_4
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lightblade_4
   - Frames:
     - sprite: {fileID: 21300002, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       spriteName: lightblade_1
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lightblade_1
     - sprite: {fileID: 21300010, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       spriteName: lightblade_5
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lightblade_5
   - Frames:
     - sprite: {fileID: 21300004, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       spriteName: lightblade_2
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lightblade_2
     - sprite: {fileID: 21300012, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       spriteName: lightblade_6
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lightblade_6
   - Frames:
     - sprite: {fileID: 21300006, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       spriteName: lightblade_3
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lightblade_3
     - sprite: {fileID: 21300014, guid: d6fd16b9ca44b49428f0dec135139263, type: 3}
       spriteName: lightblade_7
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lightblade_7
   IsPalette: 0
   setID: 10919

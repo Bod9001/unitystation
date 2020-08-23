@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: scrub_map_on-2_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: scrub_map_on-2_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 63c8ba67c26cdd746abffc10e1546233, type: 3}
       spriteName: scrub_map_on-2_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: scrub_map_on-2_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 63c8ba67c26cdd746abffc10e1546233, type: 3}
       spriteName: scrub_map_on-2_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: scrub_map_on-2_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 63c8ba67c26cdd746abffc10e1546233, type: 3}
       spriteName: scrub_map_on-2_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: scrub_map_on-2_3
   IsPalette: 0
   setID: 13025

@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: glow_0
       secondDelay: 0.4
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: glow_0
     - sprite: {fileID: 21300002, guid: 6f1e6add8e9248d4c950cb00c0697567, type: 3}
       spriteName: glow_1
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: glow_1
     - sprite: {fileID: 21300004, guid: 6f1e6add8e9248d4c950cb00c0697567, type: 3}
       spriteName: glow_2
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: glow_2
     - sprite: {fileID: 21300006, guid: 6f1e6add8e9248d4c950cb00c0697567, type: 3}
       spriteName: glow_3
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: glow_3
     - sprite: {fileID: 21300008, guid: 6f1e6add8e9248d4c950cb00c0697567, type: 3}
       spriteName: glow_4
       secondDelay: 0.4
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: glow_4
   IsPalette: 0
   setID: 2714

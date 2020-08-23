@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: armcannonlase_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: armcannonlase_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 99da3f23656bf8649a9eba3248217479, type: 3}
       spriteName: armcannonlase_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: armcannonlase_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 99da3f23656bf8649a9eba3248217479, type: 3}
       spriteName: armcannonlase_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: armcannonlase_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 99da3f23656bf8649a9eba3248217479, type: 3}
       spriteName: armcannonlase_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: armcannonlase_3
   IsPalette: 0
   setID: 10519

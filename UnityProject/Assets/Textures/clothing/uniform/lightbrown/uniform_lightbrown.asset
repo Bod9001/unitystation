@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: lightbrown_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lightbrown_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 68975a6e29e35a441bac0247a7555969, type: 3}
       spriteName: lightbrown_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lightbrown_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 68975a6e29e35a441bac0247a7555969, type: 3}
       spriteName: lightbrown_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lightbrown_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 68975a6e29e35a441bac0247a7555969, type: 3}
       spriteName: lightbrown_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lightbrown_3
   IsPalette: 0
   setID: 1033

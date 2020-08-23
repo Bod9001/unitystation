@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: curator-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: curator-trimmed_0
   - Frames:
     - sprite: {fileID: 2009061661679001621, guid: 6cdf2c911a2515249bccc079a7ffd820,
         type: 3}
       spriteName: curator-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: curator-trimmed_1
   - Frames:
     - sprite: {fileID: 7990587712437775924, guid: 6cdf2c911a2515249bccc079a7ffd820,
         type: 3}
       spriteName: curator-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: curator-trimmed_2
   - Frames:
     - sprite: {fileID: 2650542501746297559, guid: 6cdf2c911a2515249bccc079a7ffd820,
         type: 3}
       spriteName: curator-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: curator-trimmed_3
   IsPalette: 0
   setID: 23212

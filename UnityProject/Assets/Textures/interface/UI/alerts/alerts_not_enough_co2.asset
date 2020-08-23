@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: not_enough_co2_0
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: not_enough_co2_0
     - sprite: {fileID: 21300002, guid: a9d8a800e3e42de4594b560a4d764518, type: 3}
       spriteName: not_enough_co2_1
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: not_enough_co2_1
   IsPalette: 0
   setID: 3153

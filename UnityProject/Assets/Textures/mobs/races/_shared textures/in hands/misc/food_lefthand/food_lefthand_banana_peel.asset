@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: banana_peel_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: banana_peel_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
       spriteName: banana_peel_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: banana_peel_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
       spriteName: banana_peel_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: banana_peel_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f80df1a4b6b785f4999fa6d8e1510172, type: 3}
       spriteName: banana_peel_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: banana_peel_3
   IsPalette: 0
   setID: 22339

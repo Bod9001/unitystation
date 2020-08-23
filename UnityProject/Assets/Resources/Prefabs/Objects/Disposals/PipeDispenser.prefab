@@ -169,6 +169,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5212070883374448474, guid: b06b702714bab49b9ad949eab1ca4534,
         type: 3}
+      propertyPath: SubCatalogueAddresses.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5212070883374448474, guid: b06b702714bab49b9ad949eab1ca4534,
+        type: 3}
       propertyPath: SubCatalogue.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 65ee6c100b8171f4fae0a93847696958,
@@ -195,6 +200,21 @@ PrefabInstance:
       propertyPath: Sprites.Array.data[1].Texture
       value: 
       objectReference: {fileID: 2800000, guid: 87b6b4fc64a9f1243b25998ee5dfe997, type: 3}
+    - target: {fileID: 5212070883374448474, guid: b06b702714bab49b9ad949eab1ca4534,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: 65ee6c100b8171f4fae0a93847696958
+      objectReference: {fileID: 0}
+    - target: {fileID: 5212070883374448474, guid: b06b702714bab49b9ad949eab1ca4534,
+        type: 3}
+      propertyPath: SubCatalogueAddresses.Array.data[0].m_AssetGUID
+      value: 65ee6c100b8171f4fae0a93847696958
+      objectReference: {fileID: 0}
+    - target: {fileID: 5212070883374448474, guid: b06b702714bab49b9ad949eab1ca4534,
+        type: 3}
+      propertyPath: SubCatalogueAddresses.Array.data[1].m_AssetGUID
+      value: 6319883c18fdc95448cc3590695fa12f
+      objectReference: {fileID: 0}
     - target: {fileID: 7971921043980192432, guid: b06b702714bab49b9ad949eab1ca4534,
         type: 3}
       propertyPath: initialName

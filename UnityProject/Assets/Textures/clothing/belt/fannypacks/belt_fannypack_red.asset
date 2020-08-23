@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: fannypack_red_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fannypack_red_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9188e34928d13f44a93214a549cd0646, type: 3}
       spriteName: fannypack_red_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fannypack_red_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9188e34928d13f44a93214a549cd0646, type: 3}
       spriteName: fannypack_red_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fannypack_red_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9188e34928d13f44a93214a549cd0646, type: 3}
       spriteName: fannypack_red_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fannypack_red_3
   IsPalette: 0
   setID: 19879

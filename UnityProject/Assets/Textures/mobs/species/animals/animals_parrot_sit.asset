@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: parrot_sit_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parrot_sit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cbbf3d2ae0137584b88c69c92549be3e, type: 3}
       spriteName: parrot_sit_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parrot_sit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cbbf3d2ae0137584b88c69c92549be3e, type: 3}
       spriteName: parrot_sit_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parrot_sit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cbbf3d2ae0137584b88c69c92549be3e, type: 3}
       spriteName: parrot_sit_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parrot_sit_3
   IsPalette: 0
   setID: 11899

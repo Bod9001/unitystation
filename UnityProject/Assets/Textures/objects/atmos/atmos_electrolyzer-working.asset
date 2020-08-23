@@ -19,10 +19,16 @@ MonoBehaviour:
       spriteName: electrolyzer-working_0
       secondDelay: 0.09
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: electrolyzer-working_0
     - sprite: {fileID: -2499289099792370735, guid: 9a504ad83048fac4daadb39847a7dacc,
         type: 3}
       spriteName: electrolyzer-working_1
       secondDelay: 0.09
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: electrolyzer-working_1
   IsPalette: 0
   setID: 22970

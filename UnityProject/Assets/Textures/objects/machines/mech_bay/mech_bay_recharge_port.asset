@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: recharge_port_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: recharge_port_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e4d024cc7ceed0f47b4f3e5b9dc59e11, type: 3}
       spriteName: recharge_port_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: recharge_port_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e4d024cc7ceed0f47b4f3e5b9dc59e11, type: 3}
       spriteName: recharge_port_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: recharge_port_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e4d024cc7ceed0f47b4f3e5b9dc59e11, type: 3}
       spriteName: recharge_port_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: recharge_port_3
   IsPalette: 0
   setID: 15813

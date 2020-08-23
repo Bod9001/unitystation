@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: redshorts_l_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redshorts_l_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 48582752a0e9a7942ae86e1a13e9c42e, type: 3}
       spriteName: redshorts_l_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redshorts_l_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 48582752a0e9a7942ae86e1a13e9c42e, type: 3}
       spriteName: redshorts_l_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redshorts_l_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 48582752a0e9a7942ae86e1a13e9c42e, type: 3}
       spriteName: redshorts_l_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redshorts_l_3
   IsPalette: 0
   setID: 1069

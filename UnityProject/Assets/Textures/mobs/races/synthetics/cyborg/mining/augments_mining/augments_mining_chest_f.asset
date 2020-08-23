@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: chest_f_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: chest_f_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c592b79ac12c18248b41f121ff890dc7, type: 3}
       spriteName: chest_f_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: chest_f_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c592b79ac12c18248b41f121ff890dc7, type: 3}
       spriteName: chest_f_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: chest_f_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c592b79ac12c18248b41f121ff890dc7, type: 3}
       spriteName: chest_f_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: chest_f_3
   IsPalette: 0
   setID: 11614

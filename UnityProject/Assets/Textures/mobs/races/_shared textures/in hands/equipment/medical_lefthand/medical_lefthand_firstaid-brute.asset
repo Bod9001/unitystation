@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: firstaid-brute_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: firstaid-brute_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 828e78f57aa5c6f468c973c0764ea2f8, type: 3}
       spriteName: firstaid-brute_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: firstaid-brute_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 828e78f57aa5c6f468c973c0764ea2f8, type: 3}
       spriteName: firstaid-brute_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: firstaid-brute_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 828e78f57aa5c6f468c973c0764ea2f8, type: 3}
       spriteName: firstaid-brute_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: firstaid-brute_3
   IsPalette: 0
   setID: 10119

@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: pyrite_adult_slime_eat_0
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pyrite_adult_slime_eat_0
     - sprite: {fileID: 21300002, guid: c8d7e89a340bbed4597d80b554dad3eb, type: 3}
       spriteName: pyrite_adult_slime_eat_1
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pyrite_adult_slime_eat_1
   IsPalette: 0
   setID: 12590

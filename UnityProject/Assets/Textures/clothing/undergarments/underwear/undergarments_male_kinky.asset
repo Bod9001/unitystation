@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: male_kinky_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: male_kinky_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9bd31a94a758f254ebfde8504144f4a1, type: 3}
       spriteName: male_kinky_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: male_kinky_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9bd31a94a758f254ebfde8504144f4a1, type: 3}
       spriteName: male_kinky_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: male_kinky_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9bd31a94a758f254ebfde8504144f4a1, type: 3}
       spriteName: male_kinky_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: male_kinky_3
   IsPalette: 0
   setID: 21355

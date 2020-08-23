@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: welder_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: welder_0
   - Frames:
     - sprite: {fileID: -3585385515552422766, guid: 1d0add539f8a07f4fb2c049cd86290ae,
         type: 3}
       spriteName: welder_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: welder_1
   - Frames:
     - sprite: {fileID: 7915196725369760582, guid: 1d0add539f8a07f4fb2c049cd86290ae,
         type: 3}
       spriteName: welder_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: welder_2
   - Frames:
     - sprite: {fileID: 8512646223633612820, guid: 1d0add539f8a07f4fb2c049cd86290ae,
         type: 3}
       spriteName: welder_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: welder_3
   IsPalette: 0
   setID: 19864

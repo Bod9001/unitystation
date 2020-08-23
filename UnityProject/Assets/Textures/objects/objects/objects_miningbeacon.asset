@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: miningbeacon_0
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: miningbeacon_0
     - sprite: {fileID: 21300008, guid: 79d1d6e56617939438767f524c481ea2, type: 3}
       spriteName: miningbeacon_4
       secondDelay: 0.5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: miningbeacon_4
   - Frames:
     - sprite: {fileID: 21300002, guid: 79d1d6e56617939438767f524c481ea2, type: 3}
       spriteName: miningbeacon_1
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: miningbeacon_1
     - sprite: {fileID: 21300010, guid: 79d1d6e56617939438767f524c481ea2, type: 3}
       spriteName: miningbeacon_5
       secondDelay: 0.5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: miningbeacon_5
   - Frames:
     - sprite: {fileID: 21300004, guid: 79d1d6e56617939438767f524c481ea2, type: 3}
       spriteName: miningbeacon_2
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: miningbeacon_2
     - sprite: {fileID: 21300012, guid: 79d1d6e56617939438767f524c481ea2, type: 3}
       spriteName: miningbeacon_6
       secondDelay: 0.5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: miningbeacon_6
   - Frames:
     - sprite: {fileID: 21300006, guid: 79d1d6e56617939438767f524c481ea2, type: 3}
       spriteName: miningbeacon_3
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: miningbeacon_3
     - sprite: {fileID: 21300014, guid: 79d1d6e56617939438767f524c481ea2, type: 3}
       spriteName: miningbeacon_7
       secondDelay: 0.5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: miningbeacon_7
   IsPalette: 0
   setID: 16369

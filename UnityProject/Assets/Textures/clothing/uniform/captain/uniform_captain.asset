@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: uniform_captain-paletteable_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: uniform_captain-paletteable_0
   - Frames:
     - sprite: {fileID: 323247951320977951, guid: 70d34d075bcede24c98e2cce11c868a3,
         type: 3}
       spriteName: uniform_captain-paletteable_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: uniform_captain-paletteable_1
   - Frames:
     - sprite: {fileID: -8807245538188108581, guid: 70d34d075bcede24c98e2cce11c868a3,
         type: 3}
       spriteName: uniform_captain-paletteable_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: uniform_captain-paletteable_2
   - Frames:
     - sprite: {fileID: -3834220320233712012, guid: 70d34d075bcede24c98e2cce11c868a3,
         type: 3}
       spriteName: uniform_captain-paletteable_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: uniform_captain-paletteable_3
   IsPalette: 0
   setID: 21426

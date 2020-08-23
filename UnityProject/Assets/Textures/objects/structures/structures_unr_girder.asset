@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: unr_girder_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: unr_girder_0
     - sprite: {fileID: 21300002, guid: f35417aa1a10e40409437f4b2e5a2bc3, type: 3}
       spriteName: unr_girder_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: unr_girder_1
     - sprite: {fileID: 21300004, guid: f35417aa1a10e40409437f4b2e5a2bc3, type: 3}
       spriteName: unr_girder_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: unr_girder_2
   IsPalette: 0
   setID: 17451

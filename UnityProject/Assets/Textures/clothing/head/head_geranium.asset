@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: geranium_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: geranium_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
       spriteName: geranium_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: geranium_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
       spriteName: geranium_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: geranium_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f84e6bbb4e845824a858349e3c0a6c2a, type: 3}
       spriteName: geranium_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: geranium_3
   IsPalette: 0
   setID: 601

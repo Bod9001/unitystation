@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pig_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pig_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 89046bc4c842311478013e3e3136d624, type: 3}
       spriteName: pig_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pig_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 89046bc4c842311478013e3e3136d624, type: 3}
       spriteName: pig_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pig_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 89046bc4c842311478013e3e3136d624, type: 3}
       spriteName: pig_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pig_3
   IsPalette: 0
   setID: 20620

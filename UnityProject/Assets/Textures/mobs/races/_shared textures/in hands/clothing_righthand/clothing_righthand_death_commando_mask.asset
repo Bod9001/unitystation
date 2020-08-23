@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: death_commando_mask_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: death_commando_mask_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 281025cc62538084e9e9a9655e4da0de, type: 3}
       spriteName: death_commando_mask_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: death_commando_mask_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 281025cc62538084e9e9a9655e4da0de, type: 3}
       spriteName: death_commando_mask_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: death_commando_mask_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 281025cc62538084e9e9a9655e4da0de, type: 3}
       spriteName: death_commando_mask_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: death_commando_mask_3
   IsPalette: 0
   setID: 9988

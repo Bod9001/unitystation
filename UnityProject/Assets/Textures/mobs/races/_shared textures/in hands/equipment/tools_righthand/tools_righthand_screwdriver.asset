@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: screwdriver_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: screwdriver_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f4b66facac5b5bf46b58fbf77bfbf7c8, type: 3}
       spriteName: screwdriver_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: screwdriver_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f4b66facac5b5bf46b58fbf77bfbf7c8, type: 3}
       spriteName: screwdriver_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: screwdriver_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f4b66facac5b5bf46b58fbf77bfbf7c8, type: 3}
       spriteName: screwdriver_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: screwdriver_3
   IsPalette: 0
   setID: 22291

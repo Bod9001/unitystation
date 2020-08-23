@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: robustg_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: robustg_0
   - Frames:
     - sprite: {fileID: 3296184086494811912, guid: 25b423d99d3dbca4cacb9e81f0193336,
         type: 3}
       spriteName: robustg_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: robustg_1
   - Frames:
     - sprite: {fileID: 8029947572608037242, guid: 25b423d99d3dbca4cacb9e81f0193336,
         type: 3}
       spriteName: robustg_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: robustg_2
   - Frames:
     - sprite: {fileID: -6824189150518134696, guid: 25b423d99d3dbca4cacb9e81f0193336,
         type: 3}
       spriteName: robustg_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: robustg_3
   IsPalette: 0
   setID: 10145

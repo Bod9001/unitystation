@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: ai-hades_dead_0
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: ai-hades_dead_0
     - sprite: {fileID: 21300002, guid: 15da854b98e9e794ba1e25334e23493d, type: 3}
       spriteName: ai-hades_dead_1
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: ai-hades_dead_1
   IsPalette: 0
   setID: 11457

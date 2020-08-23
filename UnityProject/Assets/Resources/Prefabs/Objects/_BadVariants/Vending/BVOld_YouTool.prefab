@@ -94,14 +94,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: 2f17e6d60d6f2d6439e634bb3f113f52
+    m_SubObjectName: 
+  SubCatalogueAddresses:
+  - m_AssetGUID: 2f17e6d60d6f2d6439e634bb3f113f52
+    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: 2f17e6d60d6f2d6439e634bb3f113f52, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: 2f17e6d60d6f2d6439e634bb3f113f52, type: 2}
-  Sprites:
-  - Texture: {fileID: 2800000, guid: 068bb0f893717c945af9d637344c914c, type: 3}
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
+  Sprites:
+  - Texture: {fileID: 2800000, guid: 068bb0f893717c945af9d637344c914c, type: 3}
 --- !u!1 &1771454506785624
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,7 +131,7 @@ GameObject:
   - component: {fileID: -4754010924819303601}
   - component: {fileID: 8471499164680309566}
   m_Layer: 11
-  m_Name: YouTool
+  m_Name: BVOld_YouTool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -391,7 +398,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  initialIntegrity: 100
   soundOnHit: 
+  damageDeflection: 0
   Armor:
     Melee: 100
     Bullet: 100
@@ -412,7 +421,6 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
-  initialIntegrity: 100
 --- !u!114 &114775338284287122
 MonoBehaviour:
   m_ObjectHideFlags: 0

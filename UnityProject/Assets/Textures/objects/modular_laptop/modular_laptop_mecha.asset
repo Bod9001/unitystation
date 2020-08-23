@@ -18,25 +18,43 @@ MonoBehaviour:
       spriteName: mecha_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mecha_0
     - sprite: {fileID: 21300002, guid: d3fd76db0e4bd824ead8720e7856e33d, type: 3}
       spriteName: mecha_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mecha_1
     - sprite: {fileID: 21300004, guid: d3fd76db0e4bd824ead8720e7856e33d, type: 3}
       spriteName: mecha_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mecha_2
     - sprite: {fileID: 21300006, guid: d3fd76db0e4bd824ead8720e7856e33d, type: 3}
       spriteName: mecha_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mecha_3
     - sprite: {fileID: 21300008, guid: d3fd76db0e4bd824ead8720e7856e33d, type: 3}
       spriteName: mecha_4
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mecha_4
     - sprite: {fileID: 21300010, guid: d3fd76db0e4bd824ead8720e7856e33d, type: 3}
       spriteName: mecha_5
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mecha_5
   IsPalette: 0
   setID: 16269

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_shortbraid_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_shortbraid_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 37da7aa3dabfbce4a93a1442a44163f8, type: 3}
       spriteName: hair_shortbraid_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_shortbraid_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 37da7aa3dabfbce4a93a1442a44163f8, type: 3}
       spriteName: hair_shortbraid_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_shortbraid_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 37da7aa3dabfbce4a93a1442a44163f8, type: 3}
       spriteName: hair_shortbraid_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_shortbraid_3
   IsPalette: 0
   setID: 22028

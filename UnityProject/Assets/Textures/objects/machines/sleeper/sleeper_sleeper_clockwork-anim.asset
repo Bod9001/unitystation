@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: sleeper_clockwork-anim_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: sleeper_clockwork-anim_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2c106e4f7b275be48a3ef3a76cd6316f, type: 3}
       spriteName: sleeper_clockwork-anim_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: sleeper_clockwork-anim_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2c106e4f7b275be48a3ef3a76cd6316f, type: 3}
       spriteName: sleeper_clockwork-anim_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: sleeper_clockwork-anim_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2c106e4f7b275be48a3ef3a76cd6316f, type: 3}
       spriteName: sleeper_clockwork-anim_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: sleeper_clockwork-anim_3
   IsPalette: 0
   setID: 16002

@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: energynet_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: energynet_0
     - sprite: {fileID: 21300002, guid: 42276dce51fb5f34c9b37bf59b03cd1f, type: 3}
       spriteName: energynet_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: energynet_1
     - sprite: {fileID: 21300004, guid: 42276dce51fb5f34c9b37bf59b03cd1f, type: 3}
       spriteName: energynet_2
       secondDelay: 0.3
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: energynet_2
     - sprite: {fileID: 21300006, guid: 42276dce51fb5f34c9b37bf59b03cd1f, type: 3}
       spriteName: energynet_3
       secondDelay: 0.3
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: energynet_3
   IsPalette: 0
   setID: 1283

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: compressor_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: compressor_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8f777803dfdd00c4fab74635df9aad1d, type: 3}
       spriteName: compressor_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: compressor_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8f777803dfdd00c4fab74635df9aad1d, type: 3}
       spriteName: compressor_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: compressor_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8f777803dfdd00c4fab74635df9aad1d, type: 3}
       spriteName: compressor_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: compressor_3
   IsPalette: 0
   setID: 13128

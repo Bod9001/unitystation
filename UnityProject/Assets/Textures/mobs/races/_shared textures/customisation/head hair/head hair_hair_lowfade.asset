@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_lowfade_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_lowfade_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c9d40d94941b4ef41b1f4bde8e27856c, type: 3}
       spriteName: hair_lowfade_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_lowfade_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c9d40d94941b4ef41b1f4bde8e27856c, type: 3}
       spriteName: hair_lowfade_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_lowfade_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c9d40d94941b4ef41b1f4bde8e27856c, type: 3}
       spriteName: hair_lowfade_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_lowfade_3
   IsPalette: 0
   setID: 21991

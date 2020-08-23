@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: spade_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spade_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 02aeb40e5d6e9c547b5cdb6c274d7d5d, type: 3}
       spriteName: spade_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spade_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 02aeb40e5d6e9c547b5cdb6c274d7d5d, type: 3}
       spriteName: spade_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spade_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 02aeb40e5d6e9c547b5cdb6c274d7d5d, type: 3}
       spriteName: spade_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: spade_3
   IsPalette: 0
   setID: 22203

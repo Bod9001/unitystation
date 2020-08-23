@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: gen-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gen-trimmed_0
   - Frames:
     - sprite: {fileID: -1953036368377961542, guid: 50385e1c0c732c54cb1c90d15d38e14a,
         type: 3}
       spriteName: gen-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gen-trimmed_1
   - Frames:
     - sprite: {fileID: -4607158725014656164, guid: 50385e1c0c732c54cb1c90d15d38e14a,
         type: 3}
       spriteName: gen-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gen-trimmed_2
   - Frames:
     - sprite: {fileID: -8111244147741015363, guid: 50385e1c0c732c54cb1c90d15d38e14a,
         type: 3}
       spriteName: gen-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gen-trimmed_3
   IsPalette: 0
   setID: 23220

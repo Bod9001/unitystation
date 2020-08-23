@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: labcoat_tox_t_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_tox_t_0
   - Frames:
     - sprite: {fileID: 21300002, guid: efe4f05ce8e756a4fb9b8d481c1028f5, type: 3}
       spriteName: labcoat_tox_t_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_tox_t_1
   - Frames:
     - sprite: {fileID: 21300004, guid: efe4f05ce8e756a4fb9b8d481c1028f5, type: 3}
       spriteName: labcoat_tox_t_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_tox_t_2
   - Frames:
     - sprite: {fileID: 21300006, guid: efe4f05ce8e756a4fb9b8d481c1028f5, type: 3}
       spriteName: labcoat_tox_t_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_tox_t_3
   IsPalette: 0
   setID: 922

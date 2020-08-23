@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: penguin_baby_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: penguin_baby_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2e84acbf525977d46a7be17327b3933c, type: 3}
       spriteName: penguin_baby_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: penguin_baby_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2e84acbf525977d46a7be17327b3933c, type: 3}
       spriteName: penguin_baby_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: penguin_baby_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2e84acbf525977d46a7be17327b3933c, type: 3}
       spriteName: penguin_baby_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: penguin_baby_3
   IsPalette: 0
   setID: 12376

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: plastic-explosive_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: plastic-explosive_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 50cc59308b79cb344b899758c4c14e62, type: 3}
       spriteName: plastic-explosive_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: plastic-explosive_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 50cc59308b79cb344b899758c4c14e62, type: 3}
       spriteName: plastic-explosive_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: plastic-explosive_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 50cc59308b79cb344b899758c4c14e62, type: 3}
       spriteName: plastic-explosive_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: plastic-explosive_3
   IsPalette: 0
   setID: 10491

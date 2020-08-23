@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: crusader_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: crusader_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b7b1126e9861c9b49bcf04b21464c5ed, type: 3}
       spriteName: crusader_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: crusader_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b7b1126e9861c9b49bcf04b21464c5ed, type: 3}
       spriteName: crusader_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: crusader_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b7b1126e9861c9b49bcf04b21464c5ed, type: 3}
       spriteName: crusader_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: crusader_3
   IsPalette: 0
   setID: 823

@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: sprayer_sus_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sprayer_sus_0
   - Frames:
     - sprite: {fileID: 3071778656899083440, guid: 4a12e27b58b1a714da4b1065d6dc86fc,
         type: 3}
       spriteName: sprayer_sus_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sprayer_sus_1
   - Frames:
     - sprite: {fileID: 3122316686781621705, guid: 4a12e27b58b1a714da4b1065d6dc86fc,
         type: 3}
       spriteName: sprayer_sus_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sprayer_sus_2
   - Frames:
     - sprite: {fileID: -4339024311357812089, guid: 4a12e27b58b1a714da4b1065d6dc86fc,
         type: 3}
       spriteName: sprayer_sus_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sprayer_sus_3
   IsPalette: 0
   setID: 23107

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: kindleKicks_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: kindleKicks_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1243b3f5f0f91354e8eee36a04a21447, type: 3}
       spriteName: kindleKicks_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: kindleKicks_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1243b3f5f0f91354e8eee36a04a21447, type: 3}
       spriteName: kindleKicks_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: kindleKicks_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1243b3f5f0f91354e8eee36a04a21447, type: 3}
       spriteName: kindleKicks_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: kindleKicks_3
   IsPalette: 0
   setID: 830

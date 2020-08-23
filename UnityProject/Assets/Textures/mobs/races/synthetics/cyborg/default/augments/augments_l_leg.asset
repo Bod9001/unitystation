@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: l_leg_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: l_leg_0
   - Frames:
     - sprite: {fileID: 21300002, guid: de72419f3a6a916449d70b33eb849d93, type: 3}
       spriteName: l_leg_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: l_leg_1
   - Frames:
     - sprite: {fileID: 21300004, guid: de72419f3a6a916449d70b33eb849d93, type: 3}
       spriteName: l_leg_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: l_leg_2
   - Frames:
     - sprite: {fileID: 21300006, guid: de72419f3a6a916449d70b33eb849d93, type: 3}
       spriteName: l_leg_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: l_leg_3
   IsPalette: 0
   setID: 11555

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hardhat0_reindeer_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat0_reindeer_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e73331f0bea3bd9468f20087449f4492, type: 3}
       spriteName: hardhat0_reindeer_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat0_reindeer_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e73331f0bea3bd9468f20087449f4492, type: 3}
       spriteName: hardhat0_reindeer_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat0_reindeer_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e73331f0bea3bd9468f20087449f4492, type: 3}
       spriteName: hardhat0_reindeer_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardhat0_reindeer_3
   IsPalette: 0
   setID: 607

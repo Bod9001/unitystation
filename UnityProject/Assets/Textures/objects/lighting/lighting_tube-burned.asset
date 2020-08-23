@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tube-burned_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: tube-burned_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3aaf910c6ed45914d9770d64265bbc99, type: 3}
       spriteName: tube-burned_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: tube-burned_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3aaf910c6ed45914d9770d64265bbc99, type: 3}
       spriteName: tube-burned_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: tube-burned_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3aaf910c6ed45914d9770d64265bbc99, type: 3}
       spriteName: tube-burned_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: tube-burned_3
   IsPalette: 0
   setID: 15599

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tesla_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: tesla_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f4ec7adabc032ea43ad2ee96cbef104b, type: 3}
       spriteName: tesla_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: tesla_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f4ec7adabc032ea43ad2ee96cbef104b, type: 3}
       spriteName: tesla_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: tesla_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f4ec7adabc032ea43ad2ee96cbef104b, type: 3}
       spriteName: tesla_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: tesla_3
   IsPalette: 0
   setID: 10650

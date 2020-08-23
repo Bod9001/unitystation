@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cattag_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: cattag_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e59c4c351cd9ff246b66393e0e6d371d, type: 3}
       spriteName: cattag_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: cattag_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e59c4c351cd9ff246b66393e0e6d371d, type: 3}
       spriteName: cattag_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: cattag_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e59c4c351cd9ff246b66393e0e6d371d, type: 3}
       spriteName: cattag_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: cattag_3
   IsPalette: 0
   setID: 12401

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: nboard05_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: nboard05_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bef881baa9d50b243895d3a0a52337eb, type: 3}
       spriteName: nboard05_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: nboard05_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bef881baa9d50b243895d3a0a52337eb, type: 3}
       spriteName: nboard05_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: nboard05_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bef881baa9d50b243895d3a0a52337eb, type: 3}
       spriteName: nboard05_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: nboard05_3
   IsPalette: 0
   setID: 17094

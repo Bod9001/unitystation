@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: jeansclassic_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jeansclassic_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 09f4b5996818be1439bc4f6b3323590f, type: 3}
       spriteName: jeansclassic_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jeansclassic_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 09f4b5996818be1439bc4f6b3323590f, type: 3}
       spriteName: jeansclassic_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jeansclassic_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 09f4b5996818be1439bc4f6b3323590f, type: 3}
       spriteName: jeansclassic_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: jeansclassic_3
   IsPalette: 0
   setID: 21473

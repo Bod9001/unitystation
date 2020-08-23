@@ -210,8 +210,10 @@ public class GenerateSpriteSO : EditorWindow
 	[MenuItem("Tools/GenerateSpriteSO")]
 	public static void Generate()
 	{
-		AssetDatabase.StartAssetEditing();
-		// var allthem =  LoadAllPrefabsOfType<SpriteHandler>("");
+		// spriteCatalogue = AssetDatabase.LoadAssetAtPath<SpriteCatalogue>(
+			// "Assets/Resources/ScriptableObjects/SOs singletons/SpriteCatalogueSingleton.asset");
+
+		// var allthem =  LoadAllPrefabsOfType<SpriteHandler>("Assets");
 		// foreach (var SH in allthem)
 		// {
 			// if (SH.PresentSpriteSet != null)
@@ -233,12 +235,11 @@ public class GenerateSpriteSO : EditorWindow
 				// }
 			// }
 		// }
-		//AssetDatabase.StopAssetEditing();
-		//spriteCatalogue = AssetDatabase.LoadAssetAtPath<SpriteCatalogue>(
-		//	"Assets/Resources/ScriptableObjects/SOs singletons/SpriteCatalogueSingleton.asset");
-		//
-		//	DirSearch_ex3Prefab(Application.dataPath + "/Resources/Prefabs/Items"); //
-		//
+		// AssetDatabase.StopAssetEditing();
+
+
+			//DirSearch_ex3Prefab(Application.dataPath + "/Resources/Prefabs/Items"); //
+
 
 
 		//var At = FindAssetsByType<AtlasReference>().First();
@@ -247,21 +248,21 @@ public class GenerateSpriteSO : EditorWindow
 		// AssetDatabase.StopAssetEditing();
 		// AssetDatabase.SaveAssets();
 		// return;
-
-		var settings = AddressableAssetSettingsDefaultObject.Settings;
-		var group = settings.DefaultGroup;
-		var call = AssetDatabase.LoadAssetAtPath<AtlasReference>("Assets/SpriteTest/AtlasReferences.asset");
-		var entriesAdded = new List<AddressableAssetEntry>();
+		AssetDatabase.StartAssetEditing();
+		// var settings = AddressableAssetSettingsDefaultObject.Settings;
+		// var group = settings.DefaultGroup;
+		// var call = AssetDatabase.LoadAssetAtPath<AtlasReference>("Assets/SpriteTest/AtlasReferences.asset");
+		// var entriesAdded = new List<AddressableAssetEntry>();
 		var Sprites = FindAssetsByType<SpriteDataSO>();
 		foreach (var Sprite in Sprites)
 		{
 			if (Sprite == null) continue;
-			var entry = settings.CreateOrMoveEntry(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Sprite)),
-				group, readOnly: false, postEvent: false);
-			var paths = AssetDatabase.GetAssetPath(Sprite);
-			entry.address = paths;
-
-			entriesAdded.Add(entry);
+			// var entry = settings.CreateOrMoveEntry(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Sprite)),
+				// group, readOnly: false, postEvent: false);
+			// var paths = AssetDatabase.GetAssetPath(Sprite);
+			// entry.address = paths;
+			// Sprite.SetSpriteAtlas();
+			// entriesAdded.Add(entry);
 
 			foreach (var Varianc in Sprite.Variance)
 			{
@@ -271,15 +272,18 @@ public class GenerateSpriteSO : EditorWindow
 					{
 						if (Frame.sprite == null == false)
 						{
-							Frame.spriteName = Frame.sprite.name;
-							Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
-							if (Frame.AtlasUsing == AddressableSpritesHandler.Atlas.None)
-							{
-								AssetDatabase.StopAssetEditing();
-								AssetDatabase.SaveAssets();
-								Logger.Log( "Frame.spriteName " + Frame.spriteName + " < > " + Sprite );
-								return;
-							}
+							var Stall = AddressableSpritesHandler.FindAtlasContainingSpriteAtlas(Frame.sprite);
+							Frame.TestAddress.SetEditorAsset(Stall);
+							Frame.TestAddress.SetEditorSubObject(Frame.sprite);
+							// Frame.spriteName = Frame.sprite.name;
+							// Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
+							// if (Frame.AtlasUsing == AddressableSpritesHandler.Atlas.None)
+							// {
+								// AssetDatabase.StopAssetEditing();
+								// AssetDatabase.SaveAssets();
+								// Logger.Log( "Frame.spriteName " + Frame.spriteName + " < > " + Sprite );
+								// return;
+							// }
 						}
 					}
 				}
@@ -287,7 +291,7 @@ public class GenerateSpriteSO : EditorWindow
 			EditorUtility.SetDirty(Sprite);
 		}
 
-		settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true);
+		//settings.SetDirty(AddressableAssetSettings.ModificationEvent.EntryMoved, entriesAdded, true);
 		//DirSearch_ex3(Application.dataPath + "/Textures");
 
 		AssetDatabase.StopAssetEditing();

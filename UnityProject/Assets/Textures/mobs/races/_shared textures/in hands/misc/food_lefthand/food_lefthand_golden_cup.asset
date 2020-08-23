@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: golden_cup_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: golden_cup_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
       spriteName: golden_cup_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: golden_cup_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
       spriteName: golden_cup_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: golden_cup_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a6bb1ececafaf4d4f883fa8776130e32, type: 3}
       spriteName: golden_cup_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: golden_cup_3
   IsPalette: 0
   setID: 10440

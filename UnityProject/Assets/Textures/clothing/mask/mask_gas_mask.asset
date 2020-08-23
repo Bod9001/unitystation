@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: gas_mask_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_mask_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6e4dc49cf3d827444bbdf2def5eb6d7f, type: 3}
       spriteName: gas_mask_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_mask_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6e4dc49cf3d827444bbdf2def5eb6d7f, type: 3}
       spriteName: gas_mask_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_mask_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6e4dc49cf3d827444bbdf2def5eb6d7f, type: 3}
       spriteName: gas_mask_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_mask_3
   IsPalette: 0
   setID: 764

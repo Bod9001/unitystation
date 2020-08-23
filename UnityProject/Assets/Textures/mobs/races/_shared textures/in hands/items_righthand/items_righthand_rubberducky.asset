@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: rubberducky_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rubberducky_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 530bb2b9250f22740bb501d33210c9d9, type: 3}
       spriteName: rubberducky_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rubberducky_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 530bb2b9250f22740bb501d33210c9d9, type: 3}
       spriteName: rubberducky_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rubberducky_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 530bb2b9250f22740bb501d33210c9d9, type: 3}
       spriteName: rubberducky_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rubberducky_3
   IsPalette: 0
   setID: 10382

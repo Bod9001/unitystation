@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: satchel-explorer_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-explorer_0
   - Frames:
     - sprite: {fileID: -1707390065885074455, guid: a6582e7ac768ed24d9db6a356e57bcb5,
         type: 3}
       spriteName: satchel-explorer_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-explorer_1
   - Frames:
     - sprite: {fileID: 4316568212788246320, guid: a6582e7ac768ed24d9db6a356e57bcb5,
         type: 3}
       spriteName: satchel-explorer_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-explorer_2
   - Frames:
     - sprite: {fileID: 5388958960673923554, guid: a6582e7ac768ed24d9db6a356e57bcb5,
         type: 3}
       spriteName: satchel-explorer_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-explorer_3
   IsPalette: 0
   setID: 19749

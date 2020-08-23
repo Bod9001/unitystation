@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: synth_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: synth_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9afe00232090a7c4e93d82072b204470, type: 3}
       spriteName: synth_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: synth_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9afe00232090a7c4e93d82072b204470, type: 3}
       spriteName: synth_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: synth_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9afe00232090a7c4e93d82072b204470, type: 3}
       spriteName: synth_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: synth_3
   IsPalette: 0
   setID: 10089

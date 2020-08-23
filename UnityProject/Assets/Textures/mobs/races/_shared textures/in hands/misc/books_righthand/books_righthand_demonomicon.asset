@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: demonomicon_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: demonomicon_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d6be1a4d3277a764193f4925123c4648, type: 3}
       spriteName: demonomicon_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: demonomicon_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d6be1a4d3277a764193f4925123c4648, type: 3}
       spriteName: demonomicon_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: demonomicon_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d6be1a4d3277a764193f4925123c4648, type: 3}
       spriteName: demonomicon_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: demonomicon_3
   IsPalette: 0
   setID: 10402

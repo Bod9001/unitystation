@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: nuclearbomb_active_0
       secondDelay: 0.5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: nuclearbomb_active_0
     - sprite: {fileID: 21300002, guid: bc243830a533e524f9089787ee25afa4, type: 3}
       spriteName: nuclearbomb_active_1
       secondDelay: 0.5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: nuclearbomb_active_1
   IsPalette: 0
   setID: 17095

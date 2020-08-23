@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: parasiteorange_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasiteorange_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6000af7a6ecc8844fa03038f7425b2f2, type: 3}
       spriteName: parasiteorange_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasiteorange_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6000af7a6ecc8844fa03038f7425b2f2, type: 3}
       spriteName: parasiteorange_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasiteorange_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6000af7a6ecc8844fa03038f7425b2f2, type: 3}
       spriteName: parasiteorange_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasiteorange_3
   IsPalette: 0
   setID: 12311

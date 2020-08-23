@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tube-construct-stage2_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: tube-construct-stage2_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d15cfb21b54f5ed45b4d1c86a284a51d, type: 3}
       spriteName: tube-construct-stage2_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: tube-construct-stage2_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d15cfb21b54f5ed45b4d1c86a284a51d, type: 3}
       spriteName: tube-construct-stage2_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: tube-construct-stage2_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d15cfb21b54f5ed45b4d1c86a284a51d, type: 3}
       spriteName: tube-construct-stage2_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: tube-construct-stage2_3
   IsPalette: 0
   setID: 15602

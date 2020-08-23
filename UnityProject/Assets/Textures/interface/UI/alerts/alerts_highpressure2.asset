@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: highpressure2_0
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: highpressure2_0
     - sprite: {fileID: 21300002, guid: 5bd5fe226397d284eb9d938b39b4257f, type: 3}
       spriteName: highpressure2_1
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: highpressure2_1
   IsPalette: 0
   setID: 3131

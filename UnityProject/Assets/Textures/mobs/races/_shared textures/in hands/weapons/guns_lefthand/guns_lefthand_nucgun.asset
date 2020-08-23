@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: nucgun_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: nucgun_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9a26a5f8c2c991d45a21d0bbafe2b4d3, type: 3}
       spriteName: nucgun_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: nucgun_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9a26a5f8c2c991d45a21d0bbafe2b4d3, type: 3}
       spriteName: nucgun_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: nucgun_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9a26a5f8c2c991d45a21d0bbafe2b4d3, type: 3}
       spriteName: nucgun_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: nucgun_3
   IsPalette: 0
   setID: 10602

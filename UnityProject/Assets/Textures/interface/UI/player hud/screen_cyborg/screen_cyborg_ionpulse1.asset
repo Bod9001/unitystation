@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: ionpulse1_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ionpulse1_0
     - sprite: {fileID: 21300002, guid: a93eb4b068a77f44494943d9d1a689b0, type: 3}
       spriteName: ionpulse1_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ionpulse1_1
     - sprite: {fileID: 21300004, guid: a93eb4b068a77f44494943d9d1a689b0, type: 3}
       spriteName: ionpulse1_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: ionpulse1_2
   IsPalette: 0
   setID: 3408

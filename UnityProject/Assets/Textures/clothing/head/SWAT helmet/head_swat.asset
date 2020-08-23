@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: swat_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 319c51e554d055742a32891a8ebe2b97, type: 3}
       spriteName: swat_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 319c51e554d055742a32891a8ebe2b97, type: 3}
       spriteName: swat_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 319c51e554d055742a32891a8ebe2b97, type: 3}
       spriteName: swat_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swat_3
   IsPalette: 0
   setID: 20444

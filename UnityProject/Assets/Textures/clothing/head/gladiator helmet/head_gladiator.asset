@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: gladiator_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gladiator_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8fb5281ee34b3094798e68f6bd984659, type: 3}
       spriteName: gladiator_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gladiator_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8fb5281ee34b3094798e68f6bd984659, type: 3}
       spriteName: gladiator_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gladiator_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8fb5281ee34b3094798e68f6bd984659, type: 3}
       spriteName: gladiator_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gladiator_3
   IsPalette: 0
   setID: 20323

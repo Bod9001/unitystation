@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: trombone_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: trombone_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ce2ae085e7c7d714593abfb9cb315e75, type: 3}
       spriteName: trombone_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: trombone_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ce2ae085e7c7d714593abfb9cb315e75, type: 3}
       spriteName: trombone_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: trombone_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ce2ae085e7c7d714593abfb9cb315e75, type: 3}
       spriteName: trombone_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: trombone_3
   IsPalette: 0
   setID: 22207

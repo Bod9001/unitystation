@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bursted_stand_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: bursted_stand_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 472aa82a1fa5108438c1e7599307d03d, type: 3}
       spriteName: bursted_stand_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: bursted_stand_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 472aa82a1fa5108438c1e7599307d03d, type: 3}
       spriteName: bursted_stand_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: bursted_stand_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 472aa82a1fa5108438c1e7599307d03d, type: 3}
       spriteName: bursted_stand_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: bursted_stand_3
   IsPalette: 0
   setID: 9583

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: sec-tread_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: sec-tread_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4c4dee8fd758b9d42886e3592f734a89, type: 3}
       spriteName: sec-tread_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: sec-tread_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4c4dee8fd758b9d42886e3592f734a89, type: 3}
       spriteName: sec-tread_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: sec-tread_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4c4dee8fd758b9d42886e3592f734a89, type: 3}
       spriteName: sec-tread_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: sec-tread_3
   IsPalette: 0
   setID: 11658

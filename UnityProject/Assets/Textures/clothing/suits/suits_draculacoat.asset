@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: draculacoat_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: draculacoat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: eb47815507286a644bf712477376c89b, type: 3}
       spriteName: draculacoat_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: draculacoat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: eb47815507286a644bf712477376c89b, type: 3}
       spriteName: draculacoat_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: draculacoat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: eb47815507286a644bf712477376c89b, type: 3}
       spriteName: draculacoat_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: draculacoat_3
   IsPalette: 0
   setID: 883

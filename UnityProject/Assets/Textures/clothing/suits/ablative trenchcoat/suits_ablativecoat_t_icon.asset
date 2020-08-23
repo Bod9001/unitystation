@@ -19,10 +19,16 @@ MonoBehaviour:
       spriteName: ablativecoat_t_0
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_t_0
     - sprite: {fileID: -2622922455152788760, guid: 084078af2c9f3a6488a7860ea22ddceb,
         type: 3}
       spriteName: ablativecoat_t_1
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativecoat_t_1
   IsPalette: 0
   setID: 20785

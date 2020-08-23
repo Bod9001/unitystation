@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: clown_shoes_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: clown_shoes_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 31e854dda1146884c830a7d22f19db40, type: 3}
       spriteName: clown_shoes_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: clown_shoes_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 31e854dda1146884c830a7d22f19db40, type: 3}
       spriteName: clown_shoes_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: clown_shoes_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 31e854dda1146884c830a7d22f19db40, type: 3}
       spriteName: clown_shoes_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: clown_shoes_3
   IsPalette: 0
   setID: 22081

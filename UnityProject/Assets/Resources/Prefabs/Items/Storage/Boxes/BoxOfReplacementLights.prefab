@@ -19,6 +19,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: e56eb9e4981e79a4bbc1d1d70da13693,
         type: 2}
+    - target: {fileID: 5939332488413283618, guid: 3e5919f639f566c4590d07d54ef256dd,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: e56eb9e4981e79a4bbc1d1d70da13693
+      objectReference: {fileID: 0}
     - target: {fileID: 8159390639885615672, guid: 3e5919f639f566c4590d07d54ef256dd,
         type: 3}
       propertyPath: attackVerbs.Array.size

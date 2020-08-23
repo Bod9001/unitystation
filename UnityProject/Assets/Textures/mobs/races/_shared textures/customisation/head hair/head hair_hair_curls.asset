@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_curls_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_curls_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ff629cce0a3e11b428cf1138d1c7108c, type: 3}
       spriteName: hair_curls_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_curls_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ff629cce0a3e11b428cf1138d1c7108c, type: 3}
       spriteName: hair_curls_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_curls_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ff629cce0a3e11b428cf1138d1c7108c, type: 3}
       spriteName: hair_curls_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_curls_3
   IsPalette: 0
   setID: 21940

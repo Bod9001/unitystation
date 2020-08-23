@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: ai-gentoo_dead_0
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: ai-gentoo_dead_0
     - sprite: {fileID: 21300002, guid: 3824a5d6ae796ef4c96baa38087168f4, type: 3}
       spriteName: ai-gentoo_dead_1
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: ai-gentoo_dead_1
     - sprite: {fileID: 21300004, guid: 3824a5d6ae796ef4c96baa38087168f4, type: 3}
       spriteName: ai-gentoo_dead_2
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: ai-gentoo_dead_2
     - sprite: {fileID: 21300006, guid: 3824a5d6ae796ef4c96baa38087168f4, type: 3}
       spriteName: ai-gentoo_dead_3
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: ai-gentoo_dead_3
   IsPalette: 0
   setID: 11450

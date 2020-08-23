@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bomb_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bomb_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c6cf69466458d704a84f2cd53a4a0a0e, type: 3}
       spriteName: bomb_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bomb_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c6cf69466458d704a84f2cd53a4a0a0e, type: 3}
       spriteName: bomb_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bomb_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c6cf69466458d704a84f2cd53a4a0a0e, type: 3}
       spriteName: bomb_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bomb_3
   IsPalette: 0
   setID: 10486

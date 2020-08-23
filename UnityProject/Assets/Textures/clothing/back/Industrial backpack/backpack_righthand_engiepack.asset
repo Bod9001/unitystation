@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: engiepack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: engiepack_0
   - Frames:
     - sprite: {fileID: 5314847409291788388, guid: fa5be8ed8bc242f4abac48a7c77effcd,
         type: 3}
       spriteName: engiepack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: engiepack_1
   - Frames:
     - sprite: {fileID: 2613310958332676177, guid: fa5be8ed8bc242f4abac48a7c77effcd,
         type: 3}
       spriteName: engiepack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: engiepack_2
   - Frames:
     - sprite: {fileID: 9030766954425577040, guid: fa5be8ed8bc242f4abac48a7c77effcd,
         type: 3}
       spriteName: engiepack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: engiepack_3
   IsPalette: 0
   setID: 19776

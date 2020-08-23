@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: gold_adult_slime_eat_0
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: gold_adult_slime_eat_0
     - sprite: {fileID: 21300002, guid: dc2db4ae09fc302419195c4a14f48197, type: 3}
       spriteName: gold_adult_slime_eat_1
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: gold_adult_slime_eat_1
   IsPalette: 0
   setID: 12526

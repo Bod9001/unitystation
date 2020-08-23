@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: vest_brown_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: vest_brown_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1b98a6a1bbdfb964fbd8aeb5bc8aa40f, type: 3}
       spriteName: vest_brown_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: vest_brown_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1b98a6a1bbdfb964fbd8aeb5bc8aa40f, type: 3}
       spriteName: vest_brown_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: vest_brown_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1b98a6a1bbdfb964fbd8aeb5bc8aa40f, type: 3}
       spriteName: vest_brown_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: vest_brown_3
   IsPalette: 0
   setID: 250

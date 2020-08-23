@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: baseball_bat_metal_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: baseball_bat_metal_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1ae7b6351564ef541bc2817c3a55d496, type: 3}
       spriteName: baseball_bat_metal_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: baseball_bat_metal_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1ae7b6351564ef541bc2817c3a55d496, type: 3}
       spriteName: baseball_bat_metal_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: baseball_bat_metal_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1ae7b6351564ef541bc2817c3a55d496, type: 3}
       spriteName: baseball_bat_metal_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: baseball_bat_metal_3
   IsPalette: 0
   setID: 10834

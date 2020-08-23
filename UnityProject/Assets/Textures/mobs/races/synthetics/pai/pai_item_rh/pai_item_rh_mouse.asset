@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: mouse_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: mouse_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7757929e4a69a7d4ea9cee3132c72e44, type: 3}
       spriteName: mouse_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: mouse_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7757929e4a69a7d4ea9cee3132c72e44, type: 3}
       spriteName: mouse_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: mouse_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7757929e4a69a7d4ea9cee3132c72e44, type: 3}
       spriteName: mouse_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: mouse_3
   IsPalette: 0
   setID: 11750

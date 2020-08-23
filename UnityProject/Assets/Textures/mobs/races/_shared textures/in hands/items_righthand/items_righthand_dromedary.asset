@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: dromedary_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dromedary_0
   - Frames:
     - sprite: {fileID: 3696725649244214390, guid: e0fbbbb0e7920864d95b9839459fef0e,
         type: 3}
       spriteName: dromedary_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dromedary_1
   - Frames:
     - sprite: {fileID: 5712389197733535792, guid: e0fbbbb0e7920864d95b9839459fef0e,
         type: 3}
       spriteName: dromedary_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dromedary_2
   - Frames:
     - sprite: {fileID: -533669937781486503, guid: e0fbbbb0e7920864d95b9839459fef0e,
         type: 3}
       spriteName: dromedary_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dromedary_3
   IsPalette: 0
   setID: 10142

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: mailman_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mailman_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cf86101b7095d6c4ca2097935e59901f, type: 3}
       spriteName: mailman_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mailman_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cf86101b7095d6c4ca2097935e59901f, type: 3}
       spriteName: mailman_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mailman_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cf86101b7095d6c4ca2097935e59901f, type: 3}
       spriteName: mailman_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mailman_3
   IsPalette: 0
   setID: 1040

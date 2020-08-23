@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: zombie_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: zombie_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 293611cc095e95d42b363d15bd7109c5, type: 3}
       spriteName: zombie_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: zombie_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 293611cc095e95d42b363d15bd7109c5, type: 3}
       spriteName: zombie_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: zombie_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 293611cc095e95d42b363d15bd7109c5, type: 3}
       spriteName: zombie_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: zombie_3
   IsPalette: 0
   setID: 3879

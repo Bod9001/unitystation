@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: borgcharger1_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: borgcharger1_0
     - sprite: {fileID: 21300002, guid: bc281315a08c3244c872ff558d66a70e, type: 3}
       spriteName: borgcharger1_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: borgcharger1_1
     - sprite: {fileID: 21300004, guid: bc281315a08c3244c872ff558d66a70e, type: 3}
       spriteName: borgcharger1_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: borgcharger1_2
     - sprite: {fileID: 21300006, guid: bc281315a08c3244c872ff558d66a70e, type: 3}
       spriteName: borgcharger1_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: borgcharger1_3
   IsPalette: 0
   setID: 16347

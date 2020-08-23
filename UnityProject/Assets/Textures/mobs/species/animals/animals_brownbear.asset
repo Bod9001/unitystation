@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: brownbear_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: brownbear_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7c714b7ad413bf8418e7e5c30d615842, type: 3}
       spriteName: brownbear_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: brownbear_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7c714b7ad413bf8418e7e5c30d615842, type: 3}
       spriteName: brownbear_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: brownbear_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7c714b7ad413bf8418e7e5c30d615842, type: 3}
       spriteName: brownbear_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: brownbear_3
   IsPalette: 0
   setID: 11812

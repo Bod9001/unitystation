@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: robotic_l_leg_02_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: robotic_l_leg_02_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e0aca999a6c69cf4f990b591ccad8018, type: 3}
       spriteName: robotic_l_leg_02_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: robotic_l_leg_02_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e0aca999a6c69cf4f990b591ccad8018, type: 3}
       spriteName: robotic_l_leg_02_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: robotic_l_leg_02_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e0aca999a6c69cf4f990b591ccad8018, type: 3}
       spriteName: robotic_l_leg_02_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: robotic_l_leg_02_3
   IsPalette: 0
   setID: 9767

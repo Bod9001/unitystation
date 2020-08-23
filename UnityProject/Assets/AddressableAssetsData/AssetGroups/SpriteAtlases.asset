@@ -16,71 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: f20fdc65122b2a346b8ff472196d93a6
-  m_SerializeEntries:
-  - m_GUID: 129d2474b0c61ef4c979afbf9b401ca4
-    m_Address: Items
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 4343727234628468602, guid: 129d2474b0c61ef4c979afbf9b401ca4,
-      type: 2}
-    m_TargetAsset: {fileID: 4343727234628468602, guid: 129d2474b0c61ef4c979afbf9b401ca4,
-      type: 2}
-  - m_GUID: 8cbf3838f58992c4e90c698d86734040
-    m_Address: BigBoss
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 4343727234628468602, guid: 8cbf3838f58992c4e90c698d86734040,
-      type: 2}
-    m_TargetAsset: {fileID: 4343727234628468602, guid: 8cbf3838f58992c4e90c698d86734040,
-      type: 2}
-  - m_GUID: 921ad04407047e04cbd38e5e0ca94400
-    m_Address: Cutscenes
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 4343727234628468602, guid: 921ad04407047e04cbd38e5e0ca94400,
-      type: 2}
-    m_TargetAsset: {fileID: 4343727234628468602, guid: 921ad04407047e04cbd38e5e0ca94400,
-      type: 2}
-  - m_GUID: a04fb04be22ad75448ee4c058cc24fae
-    m_Address: Mobs
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 4343727234628468602, guid: a04fb04be22ad75448ee4c058cc24fae,
-      type: 2}
-    m_TargetAsset: {fileID: 4343727234628468602, guid: a04fb04be22ad75448ee4c058cc24fae,
-      type: 2}
-  - m_GUID: e57b68614f4caf3429127307ae20dd5a
-    m_Address: Clothes
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 4343727234628468602, guid: e57b68614f4caf3429127307ae20dd5a,
-      type: 2}
-    m_TargetAsset: {fileID: 4343727234628468602, guid: e57b68614f4caf3429127307ae20dd5a,
-      type: 2}
-  - m_GUID: ea8f58c5642b6ea49a1e80f046c78d82
-    m_Address: Other
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 4343727234628468602, guid: ea8f58c5642b6ea49a1e80f046c78d82,
-      type: 2}
-    m_TargetAsset: {fileID: 4343727234628468602, guid: ea8f58c5642b6ea49a1e80f046c78d82,
-      type: 2}
-  - m_GUID: ed2e64bc7dc571a4590cc51067d2f97e
-    m_Address: Station
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 4343727234628468602, guid: ed2e64bc7dc571a4590cc51067d2f97e,
-      type: 2}
-    m_TargetAsset: {fileID: 4343727234628468602, guid: ed2e64bc7dc571a4590cc51067d2f97e,
-      type: 2}
-  - m_GUID: f0537beedf952c54586ab37252e12f88
-    m_Address: MobsShared
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 4343727234628468602, guid: f0537beedf952c54586ab37252e12f88,
-      type: 2}
-    m_TargetAsset: {fileID: 4343727234628468602, guid: f0537beedf952c54586ab37252e12f88,
-      type: 2}
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 5b2d7ae0480bd8f4cb77d255816264d4, type: 2}
   m_SchemaSet:

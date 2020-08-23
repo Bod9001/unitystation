@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: blackskirt_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackskirt_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 52d00dad26721a04f9d3d85addf0d97c, type: 3}
       spriteName: blackskirt_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackskirt_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 52d00dad26721a04f9d3d85addf0d97c, type: 3}
       spriteName: blackskirt_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackskirt_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 52d00dad26721a04f9d3d85addf0d97c, type: 3}
       spriteName: blackskirt_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackskirt_3
   IsPalette: 0
   setID: 21388

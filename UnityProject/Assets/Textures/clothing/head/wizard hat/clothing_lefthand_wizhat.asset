@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: wizhat_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wizhat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d2fe353a54ee75d4f978ab298cc2e6b8, type: 3}
       spriteName: wizhat_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wizhat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d2fe353a54ee75d4f978ab298cc2e6b8, type: 3}
       spriteName: wizhat_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wizhat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d2fe353a54ee75d4f978ab298cc2e6b8, type: 3}
       spriteName: wizhat_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wizhat_3
   IsPalette: 0
   setID: 20520

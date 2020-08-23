@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: marker_0
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: marker_0
     - sprite: {fileID: 21300002, guid: 0de80df21af389f4e845601e4b08e4cd, type: 3}
       spriteName: marker_1
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: marker_1
   IsPalette: 0
   setID: 4335

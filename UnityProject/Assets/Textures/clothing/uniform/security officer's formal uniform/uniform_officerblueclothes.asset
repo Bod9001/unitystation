@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: officerblueclothes_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: officerblueclothes_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b9167f2d4a53e25459e120bd53004083, type: 3}
       spriteName: officerblueclothes_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: officerblueclothes_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b9167f2d4a53e25459e120bd53004083, type: 3}
       spriteName: officerblueclothes_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: officerblueclothes_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b9167f2d4a53e25459e120bd53004083, type: 3}
       spriteName: officerblueclothes_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: officerblueclothes_3
   IsPalette: 0
   setID: 21719

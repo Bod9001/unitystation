@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: starkist_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: starkist_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1bc74996b1a483e44893ae721e2fbd10, type: 3}
       spriteName: starkist_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: starkist_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1bc74996b1a483e44893ae721e2fbd10, type: 3}
       spriteName: starkist_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: starkist_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1bc74996b1a483e44893ae721e2fbd10, type: 3}
       spriteName: starkist_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: starkist_3
   IsPalette: 0
   setID: 22357

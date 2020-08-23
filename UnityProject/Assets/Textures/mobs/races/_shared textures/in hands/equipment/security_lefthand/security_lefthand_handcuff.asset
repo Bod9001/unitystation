@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: handcuff_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: handcuff_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b46375aa6a5264e42bb0e27eb2c11c61, type: 3}
       spriteName: handcuff_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: handcuff_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b46375aa6a5264e42bb0e27eb2c11c61, type: 3}
       spriteName: handcuff_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: handcuff_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b46375aa6a5264e42bb0e27eb2c11c61, type: 3}
       spriteName: handcuff_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: handcuff_3
   IsPalette: 0
   setID: 22232

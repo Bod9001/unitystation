@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: clockwork_cuirass_old_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clockwork_cuirass_old_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 495e381635124134287b8a4760ddbca0, type: 3}
       spriteName: clockwork_cuirass_old_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clockwork_cuirass_old_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 495e381635124134287b8a4760ddbca0, type: 3}
       spriteName: clockwork_cuirass_old_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clockwork_cuirass_old_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 495e381635124134287b8a4760ddbca0, type: 3}
       spriteName: clockwork_cuirass_old_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clockwork_cuirass_old_3
   IsPalette: 0
   setID: 877

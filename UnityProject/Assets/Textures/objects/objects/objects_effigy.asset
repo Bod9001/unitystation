@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: effigy_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: effigy_0
     - sprite: {fileID: 21300002, guid: 6c5ae6878d9faae4693708ecde313d0a, type: 3}
       spriteName: effigy_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: effigy_1
     - sprite: {fileID: 21300004, guid: 6c5ae6878d9faae4693708ecde313d0a, type: 3}
       spriteName: effigy_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: effigy_2
     - sprite: {fileID: 21300006, guid: 6c5ae6878d9faae4693708ecde313d0a, type: 3}
       spriteName: effigy_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: effigy_3
     - sprite: {fileID: 21300008, guid: 6c5ae6878d9faae4693708ecde313d0a, type: 3}
       spriteName: effigy_4
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: effigy_4
   IsPalette: 0
   setID: 16355

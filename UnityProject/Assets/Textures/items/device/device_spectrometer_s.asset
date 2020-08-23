@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: spectrometer_s_0
       secondDelay: 0.4
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spectrometer_s_0
     - sprite: {fileID: 21300002, guid: 17f83140e8833f54587f18e38e2e103f, type: 3}
       spriteName: spectrometer_s_1
       secondDelay: 0.4
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spectrometer_s_1
     - sprite: {fileID: 21300004, guid: 17f83140e8833f54587f18e38e2e103f, type: 3}
       spriteName: spectrometer_s_2
       secondDelay: 0.4
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spectrometer_s_2
   IsPalette: 0
   setID: 6286

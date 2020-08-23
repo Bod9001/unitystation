@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pocket_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pocket_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
       spriteName: pocket_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pocket_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
       spriteName: pocket_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pocket_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 95d04ebfd5dd6174c95fbf0ef60e3682, type: 3}
       spriteName: pocket_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pocket_3
   IsPalette: 0
   setID: 3770

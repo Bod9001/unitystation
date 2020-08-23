@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: purpleshorts_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purpleshorts_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 83cb25e3ed5d09a49b7b5f663663a7d9, type: 3}
       spriteName: purpleshorts_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purpleshorts_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 83cb25e3ed5d09a49b7b5f663663a7d9, type: 3}
       spriteName: purpleshorts_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purpleshorts_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 83cb25e3ed5d09a49b7b5f663663a7d9, type: 3}
       spriteName: purpleshorts_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purpleshorts_3
   IsPalette: 0
   setID: 1061

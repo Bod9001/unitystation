@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: eyepatch_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: eyepatch_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 83434986de5e6d7489402bf81642043e, type: 3}
       spriteName: eyepatch_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: eyepatch_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 83434986de5e6d7489402bf81642043e, type: 3}
       spriteName: eyepatch_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: eyepatch_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 83434986de5e6d7489402bf81642043e, type: 3}
       spriteName: eyepatch_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: eyepatch_3
   IsPalette: 0
   setID: 19967

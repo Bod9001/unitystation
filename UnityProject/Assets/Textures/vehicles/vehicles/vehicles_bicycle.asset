@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bicycle_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bicycle_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 303dfcd71fd46304dbc5ec4a9b7e066d, type: 3}
       spriteName: bicycle_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bicycle_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 303dfcd71fd46304dbc5ec4a9b7e066d, type: 3}
       spriteName: bicycle_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bicycle_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 303dfcd71fd46304dbc5ec4a9b7e066d, type: 3}
       spriteName: bicycle_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bicycle_3
   IsPalette: 0
   setID: 19119

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: justicegreen_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: justicegreen_0
   - Frames:
     - sprite: {fileID: 21300002, guid: adb5cfc6878f77a4ab88c557a6708ba1, type: 3}
       spriteName: justicegreen_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: justicegreen_1
   - Frames:
     - sprite: {fileID: 21300004, guid: adb5cfc6878f77a4ab88c557a6708ba1, type: 3}
       spriteName: justicegreen_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: justicegreen_2
   - Frames:
     - sprite: {fileID: 21300006, guid: adb5cfc6878f77a4ab88c557a6708ba1, type: 3}
       spriteName: justicegreen_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: justicegreen_3
   IsPalette: 0
   setID: 637

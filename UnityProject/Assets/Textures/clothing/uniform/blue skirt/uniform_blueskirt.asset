@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: blueskirt_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blueskirt_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 415c5df62446ccd4487ce8e4a60e6ecb, type: 3}
       spriteName: blueskirt_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blueskirt_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 415c5df62446ccd4487ce8e4a60e6ecb, type: 3}
       spriteName: blueskirt_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blueskirt_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 415c5df62446ccd4487ce8e4a60e6ecb, type: 3}
       spriteName: blueskirt_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blueskirt_3
   IsPalette: 0
   setID: 21406

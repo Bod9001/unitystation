@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: janitor_l_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: janitor_l_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 79abad3ff5af58a4e896f30873141a50, type: 3}
       spriteName: janitor_l_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: janitor_l_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 79abad3ff5af58a4e896f30873141a50, type: 3}
       spriteName: janitor_l_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: janitor_l_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 79abad3ff5af58a4e896f30873141a50, type: 3}
       spriteName: janitor_l_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: janitor_l_3
   IsPalette: 0
   setID: 11597

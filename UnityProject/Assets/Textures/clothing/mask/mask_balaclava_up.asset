@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: balaclava_up_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: balaclava_up_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 10a5ba978227ad54a82d9e3e6c340e9a, type: 3}
       spriteName: balaclava_up_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: balaclava_up_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 10a5ba978227ad54a82d9e3e6c340e9a, type: 3}
       spriteName: balaclava_up_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: balaclava_up_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 10a5ba978227ad54a82d9e3e6c340e9a, type: 3}
       spriteName: balaclava_up_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: balaclava_up_3
   IsPalette: 0
   setID: 748

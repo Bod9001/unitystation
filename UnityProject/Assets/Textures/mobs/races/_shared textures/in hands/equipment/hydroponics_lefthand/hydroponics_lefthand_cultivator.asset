@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cultivator_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cultivator_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ad319b8dbcd55d74682e442f7b7119ca, type: 3}
       spriteName: cultivator_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cultivator_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ad319b8dbcd55d74682e442f7b7119ca, type: 3}
       spriteName: cultivator_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cultivator_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ad319b8dbcd55d74682e442f7b7119ca, type: 3}
       spriteName: cultivator_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cultivator_3
   IsPalette: 0
   setID: 22196

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: wrench_brass_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: wrench_brass_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1c0d657d8091f184ca8b13af4a5f5eef, type: 3}
       spriteName: wrench_brass_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: wrench_brass_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1c0d657d8091f184ca8b13af4a5f5eef, type: 3}
       spriteName: wrench_brass_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: wrench_brass_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1c0d657d8091f184ca8b13af4a5f5eef, type: 3}
       spriteName: wrench_brass_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: wrench_brass_3
   IsPalette: 0
   setID: 10298

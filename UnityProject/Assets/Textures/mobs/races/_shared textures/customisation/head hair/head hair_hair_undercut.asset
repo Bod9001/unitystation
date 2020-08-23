@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_undercut_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_undercut_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0baa96be47fe68e4da4ea321f645e569, type: 3}
       spriteName: hair_undercut_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_undercut_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0baa96be47fe68e4da4ea321f645e569, type: 3}
       spriteName: hair_undercut_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_undercut_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0baa96be47fe68e4da4ea321f645e569, type: 3}
       spriteName: hair_undercut_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_undercut_3
   IsPalette: 0
   setID: 22056

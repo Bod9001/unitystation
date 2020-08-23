@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: aispook-full_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: aispook-full_0
     - sprite: {fileID: 21300002, guid: 348b75d94a7f7e841836997973d8959d, type: 3}
       spriteName: aispook-full_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: aispook-full_1
     - sprite: {fileID: 21300004, guid: 348b75d94a7f7e841836997973d8959d, type: 3}
       spriteName: aispook-full_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: aispook-full_2
     - sprite: {fileID: 21300006, guid: 348b75d94a7f7e841836997973d8959d, type: 3}
       spriteName: aispook-full_3
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: aispook-full_3
     - sprite: {fileID: 21300008, guid: 348b75d94a7f7e841836997973d8959d, type: 3}
       spriteName: aispook-full_4
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: aispook-full_4
   IsPalette: 0
   setID: 4351

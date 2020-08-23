@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: flymeat_0
       secondDelay: 0.5
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: flymeat_0
     - sprite: {fileID: 21300002, guid: c2c866c68e5183145a0d83f08ea26227, type: 3}
       spriteName: flymeat_1
       secondDelay: 0.5
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: flymeat_1
   IsPalette: 0
   setID: 6935

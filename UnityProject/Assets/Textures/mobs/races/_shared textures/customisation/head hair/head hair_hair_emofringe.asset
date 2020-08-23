@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_emofringe_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_emofringe_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9f865e627318e044f944f01c5c7c52e7, type: 3}
       spriteName: hair_emofringe_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_emofringe_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9f865e627318e044f944f01c5c7c52e7, type: 3}
       spriteName: hair_emofringe_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_emofringe_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9f865e627318e044f944f01c5c7c52e7, type: 3}
       spriteName: hair_emofringe_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_emofringe_3
   IsPalette: 0
   setID: 21952

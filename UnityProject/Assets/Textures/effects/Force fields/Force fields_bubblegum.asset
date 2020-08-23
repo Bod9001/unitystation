@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: bubblegum_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bubblegum_0
     - sprite: {fileID: 21300002, guid: 514483b7b4964684599b9d55ee266c17, type: 3}
       spriteName: bubblegum_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bubblegum_1
   IsPalette: 0
   setID: 1313

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: carp_plushie_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: carp_plushie_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d960cb59586ce814c848b9da34cc3118, type: 3}
       spriteName: carp_plushie_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: carp_plushie_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d960cb59586ce814c848b9da34cc3118, type: 3}
       spriteName: carp_plushie_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: carp_plushie_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d960cb59586ce814c848b9da34cc3118, type: 3}
       spriteName: carp_plushie_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: carp_plushie_3
   IsPalette: 0
   setID: 10311

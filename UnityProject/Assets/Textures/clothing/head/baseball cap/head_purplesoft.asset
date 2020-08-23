@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: purplesoft_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purplesoft_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f36565f1afdd863458d3c2a34f21c63d, type: 3}
       spriteName: purplesoft_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purplesoft_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f36565f1afdd863458d3c2a34f21c63d, type: 3}
       spriteName: purplesoft_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purplesoft_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f36565f1afdd863458d3c2a34f21c63d, type: 3}
       spriteName: purplesoft_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purplesoft_3
   IsPalette: 0
   setID: 20145

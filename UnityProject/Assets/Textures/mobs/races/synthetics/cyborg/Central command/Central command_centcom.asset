@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: centcom_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: centcom_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 29825a457b2ba924f937fd808ea338de, type: 3}
       spriteName: centcom_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: centcom_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 29825a457b2ba924f937fd808ea338de, type: 3}
       spriteName: centcom_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: centcom_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 29825a457b2ba924f937fd808ea338de, type: 3}
       spriteName: centcom_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: centcom_3
   IsPalette: 0
   setID: 11528

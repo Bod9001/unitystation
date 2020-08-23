@@ -94,12 +94,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: b4679363c2ed0fe42baa5a02f20cc240
+    m_SubObjectName: 
+  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: b4679363c2ed0fe42baa5a02f20cc240, type: 2}
-  Sprites: []
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
+  Sprites: []
 --- !u!1 &1519710982558066
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +289,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  initialIntegrity: 100
   soundOnHit: 
+  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -305,7 +312,6 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
-  initialIntegrity: 100
 --- !u!114 &114171556259583268
 MonoBehaviour:
   m_ObjectHideFlags: 0

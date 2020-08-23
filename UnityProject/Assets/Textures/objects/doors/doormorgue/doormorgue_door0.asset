@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: door0_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: door0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dd2aec8678b117b449c080b8e49117c2, type: 3}
       spriteName: door0_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: door0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dd2aec8678b117b449c080b8e49117c2, type: 3}
       spriteName: door0_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: door0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dd2aec8678b117b449c080b8e49117c2, type: 3}
       spriteName: door0_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: door0_3
   IsPalette: 0
   setID: 14613

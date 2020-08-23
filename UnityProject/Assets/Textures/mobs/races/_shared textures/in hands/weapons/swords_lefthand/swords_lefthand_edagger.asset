@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: edagger_0
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: edagger_0
     - sprite: {fileID: 21300008, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
       spriteName: edagger_4
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: edagger_4
   - Frames:
     - sprite: {fileID: 21300002, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
       spriteName: edagger_1
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: edagger_1
     - sprite: {fileID: 21300010, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
       spriteName: edagger_5
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: edagger_5
   - Frames:
     - sprite: {fileID: 21300004, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
       spriteName: edagger_2
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: edagger_2
     - sprite: {fileID: 21300012, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
       spriteName: edagger_6
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: edagger_6
   - Frames:
     - sprite: {fileID: 21300006, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
       spriteName: edagger_3
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: edagger_3
     - sprite: {fileID: 21300014, guid: 130793ae924d6b44b8a086f3da4d62dc, type: 3}
       spriteName: edagger_7
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: edagger_7
   IsPalette: 0
   setID: 10914

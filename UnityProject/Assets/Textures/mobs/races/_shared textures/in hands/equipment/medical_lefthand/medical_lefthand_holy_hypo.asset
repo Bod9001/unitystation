@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: holy_hypo_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: holy_hypo_0
   - Frames:
     - sprite: {fileID: 4340485673505049212, guid: 50ee1ef86a772ed4d93bb46a44c5afbe,
         type: 3}
       spriteName: holy_hypo_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: holy_hypo_1
   - Frames:
     - sprite: {fileID: 2930266136948939495, guid: 50ee1ef86a772ed4d93bb46a44c5afbe,
         type: 3}
       spriteName: holy_hypo_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: holy_hypo_2
   - Frames:
     - sprite: {fileID: -4153922364740174506, guid: 50ee1ef86a772ed4d93bb46a44c5afbe,
         type: 3}
       spriteName: holy_hypo_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: holy_hypo_3
   IsPalette: 0
   setID: 23032

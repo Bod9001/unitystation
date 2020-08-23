@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: facehugger_inactivep_r_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: facehugger_inactivep_r_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9f1d7b2525faf044c9bef3ab526fce40, type: 3}
       spriteName: facehugger_inactivep_r_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: facehugger_inactivep_r_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9f1d7b2525faf044c9bef3ab526fce40, type: 3}
       spriteName: facehugger_inactivep_r_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: facehugger_inactivep_r_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9f1d7b2525faf044c9bef3ab526fce40, type: 3}
       spriteName: facehugger_inactivep_r_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: facehugger_inactivep_r_3
   IsPalette: 0
   setID: 12805

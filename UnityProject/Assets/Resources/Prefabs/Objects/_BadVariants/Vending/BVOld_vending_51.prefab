@@ -94,14 +94,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: 3d3670c62d7f16e4199b7ab87d6fa8ca
+    m_SubObjectName: 
+  SubCatalogueAddresses:
+  - m_AssetGUID: 3d3670c62d7f16e4199b7ab87d6fa8ca
+    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: 3d3670c62d7f16e4199b7ab87d6fa8ca, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: 3d3670c62d7f16e4199b7ab87d6fa8ca, type: 2}
-  Sprites:
-  - Texture: {fileID: 2800000, guid: 76ef79b6f37d11b4b8eba5078afb90a7, type: 3}
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
+  Sprites:
+  - Texture: {fileID: 2800000, guid: 76ef79b6f37d11b4b8eba5078afb90a7, type: 3}
 --- !u!1 &1699312583147682
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +132,7 @@ GameObject:
   - component: {fileID: 6730574539565738311}
   - component: {fileID: 3457690808742924177}
   m_Layer: 11
-  m_Name: vending_51
+  m_Name: BVOld_vending_51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -302,7 +309,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  initialIntegrity: 100
   soundOnHit: 
+  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -323,7 +332,6 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
-  initialIntegrity: 100
 --- !u!114 &114343594154895826
 MonoBehaviour:
   m_ObjectHideFlags: 0

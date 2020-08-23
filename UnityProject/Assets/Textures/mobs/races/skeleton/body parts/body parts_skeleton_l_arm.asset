@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: skeleton_l_arm_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: skeleton_l_arm_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4874b12069efb2d4f8a44e5c4348fe00, type: 3}
       spriteName: skeleton_l_arm_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: skeleton_l_arm_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4874b12069efb2d4f8a44e5c4348fe00, type: 3}
       spriteName: skeleton_l_arm_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: skeleton_l_arm_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4874b12069efb2d4f8a44e5c4348fe00, type: 3}
       spriteName: skeleton_l_arm_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: skeleton_l_arm_3
   IsPalette: 0
   setID: 11384

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: monkey_l_leg_30_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: monkey_l_leg_30_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b2b1ad32e0c43964b8c386362eddd4cb, type: 3}
       spriteName: monkey_l_leg_30_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: monkey_l_leg_30_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b2b1ad32e0c43964b8c386362eddd4cb, type: 3}
       spriteName: monkey_l_leg_30_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: monkey_l_leg_30_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b2b1ad32e0c43964b8c386362eddd4cb, type: 3}
       spriteName: monkey_l_leg_30_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: monkey_l_leg_30_3
   IsPalette: 0
   setID: 9735

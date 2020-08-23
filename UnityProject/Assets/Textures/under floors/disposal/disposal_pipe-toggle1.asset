@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pipe-toggle1_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pipe-toggle1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2213cf6beb73f314ca12b0fa52af2af4, type: 3}
       spriteName: pipe-toggle1_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pipe-toggle1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2213cf6beb73f314ca12b0fa52af2af4, type: 3}
       spriteName: pipe-toggle1_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pipe-toggle1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2213cf6beb73f314ca12b0fa52af2af4, type: 3}
       spriteName: pipe-toggle1_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pipe-toggle1_3
   IsPalette: 0
   setID: 18738

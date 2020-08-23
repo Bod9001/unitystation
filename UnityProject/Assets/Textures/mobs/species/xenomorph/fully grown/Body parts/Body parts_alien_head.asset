@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: alien_head_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: alien_head_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7128edb1fd719bd4ba6499a54366403c, type: 3}
       spriteName: alien_head_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: alien_head_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7128edb1fd719bd4ba6499a54366403c, type: 3}
       spriteName: alien_head_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: alien_head_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7128edb1fd719bd4ba6499a54366403c, type: 3}
       spriteName: alien_head_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: alien_head_3
   IsPalette: 0
   setID: 12690

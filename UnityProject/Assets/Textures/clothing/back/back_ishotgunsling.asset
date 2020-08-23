@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: ishotgunsling_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ishotgunsling_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
       spriteName: ishotgunsling_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ishotgunsling_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
       spriteName: ishotgunsling_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ishotgunsling_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a4ca4eefd6d50b64194345a9cff02498, type: 3}
       spriteName: ishotgunsling_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ishotgunsling_3
   IsPalette: 0
   setID: 304

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: miner_transformed_0
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: miner_transformed_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ed89710f3ce3729499a67de867d2c889, type: 3}
       spriteName: miner_transformed_1
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: miner_transformed_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ed89710f3ce3729499a67de867d2c889, type: 3}
       spriteName: miner_transformed_2
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: miner_transformed_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ed89710f3ce3729499a67de867d2c889, type: 3}
       spriteName: miner_transformed_3
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: miner_transformed_3
   IsPalette: 0
   setID: 11982

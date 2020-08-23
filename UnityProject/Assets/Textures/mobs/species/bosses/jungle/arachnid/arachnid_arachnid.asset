@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: arachnid_0
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: arachnid_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 387ae9782c42e024281826b74b73b5fc, type: 3}
       spriteName: arachnid_1
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: arachnid_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 387ae9782c42e024281826b74b73b5fc, type: 3}
       spriteName: arachnid_2
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: arachnid_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 387ae9782c42e024281826b74b73b5fc, type: 3}
       spriteName: arachnid_3
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: arachnid_3
   IsPalette: 0
   setID: 11994

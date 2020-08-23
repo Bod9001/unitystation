@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: sword0_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sword0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4831d7b11e2fbbe41a314d1939b2402c, type: 3}
       spriteName: sword0_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sword0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4831d7b11e2fbbe41a314d1939b2402c, type: 3}
       spriteName: sword0_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sword0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4831d7b11e2fbbe41a314d1939b2402c, type: 3}
       spriteName: sword0_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sword0_3
   IsPalette: 0
   setID: 10926

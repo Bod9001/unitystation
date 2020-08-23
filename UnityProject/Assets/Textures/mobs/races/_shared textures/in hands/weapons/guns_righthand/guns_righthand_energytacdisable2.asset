@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: energytacdisable2_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: energytacdisable2_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b0a3e62dbc4905545afbed9ee005f91c, type: 3}
       spriteName: energytacdisable2_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: energytacdisable2_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b0a3e62dbc4905545afbed9ee005f91c, type: 3}
       spriteName: energytacdisable2_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: energytacdisable2_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b0a3e62dbc4905545afbed9ee005f91c, type: 3}
       spriteName: energytacdisable2_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: energytacdisable2_3
   IsPalette: 0
   setID: 10714

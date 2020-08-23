@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: fireaxe0_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fireaxe0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2e8ec6feff4e32e40bbb532ab8063cd5, type: 3}
       spriteName: fireaxe0_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fireaxe0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2e8ec6feff4e32e40bbb532ab8063cd5, type: 3}
       spriteName: fireaxe0_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fireaxe0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2e8ec6feff4e32e40bbb532ab8063cd5, type: 3}
       spriteName: fireaxe0_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fireaxe0_3
   IsPalette: 0
   setID: 279

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: dropper_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dropper_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 19576e86c6a4ab247ab250e866483cc7, type: 3}
       spriteName: dropper_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dropper_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 19576e86c6a4ab247ab250e866483cc7, type: 3}
       spriteName: dropper_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dropper_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 19576e86c6a4ab247ab250e866483cc7, type: 3}
       spriteName: dropper_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dropper_3
   IsPalette: 0
   setID: 22301

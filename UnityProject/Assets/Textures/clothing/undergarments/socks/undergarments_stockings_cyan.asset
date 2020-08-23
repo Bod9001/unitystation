@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: stockings_cyan_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: stockings_cyan_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6b7ffe7c562ed464a9e942f607eac838, type: 3}
       spriteName: stockings_cyan_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: stockings_cyan_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6b7ffe7c562ed464a9e942f607eac838, type: 3}
       spriteName: stockings_cyan_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: stockings_cyan_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6b7ffe7c562ed464a9e942f607eac838, type: 3}
       spriteName: stockings_cyan_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: stockings_cyan_3
   IsPalette: 0
   setID: 21258

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: minigun_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: minigun_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 614b9449e5870a4468b90f63d3564467, type: 3}
       spriteName: minigun_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: minigun_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 614b9449e5870a4468b90f63d3564467, type: 3}
       spriteName: minigun_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: minigun_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 614b9449e5870a4468b90f63d3564467, type: 3}
       spriteName: minigun_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: minigun_3
   IsPalette: 0
   setID: 10601

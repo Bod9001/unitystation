@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: b_rabbit_white_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: b_rabbit_white_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3c5a9f65ab495444ba8adfdbbd797782, type: 3}
       spriteName: b_rabbit_white_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: b_rabbit_white_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3c5a9f65ab495444ba8adfdbbd797782, type: 3}
       spriteName: b_rabbit_white_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: b_rabbit_white_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3c5a9f65ab495444ba8adfdbbd797782, type: 3}
       spriteName: b_rabbit_white_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: b_rabbit_white_3
   IsPalette: 0
   setID: 12450

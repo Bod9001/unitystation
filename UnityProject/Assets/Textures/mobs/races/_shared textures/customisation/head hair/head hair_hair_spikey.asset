@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_spikey_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_spikey_0
   - Frames:
     - sprite: {fileID: 21300002, guid: fa42d52b891637c4091e69619a036265, type: 3}
       spriteName: hair_spikey_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_spikey_1
   - Frames:
     - sprite: {fileID: 21300004, guid: fa42d52b891637c4091e69619a036265, type: 3}
       spriteName: hair_spikey_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_spikey_2
   - Frames:
     - sprite: {fileID: 21300006, guid: fa42d52b891637c4091e69619a036265, type: 3}
       spriteName: hair_spikey_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_spikey_3
   IsPalette: 0
   setID: 22040

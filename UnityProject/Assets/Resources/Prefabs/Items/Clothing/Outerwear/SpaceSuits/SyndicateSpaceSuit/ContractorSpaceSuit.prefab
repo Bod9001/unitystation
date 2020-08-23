@@ -20,16 +20,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3016861121889290160, guid: a0464cf17ad00fc4fb536118710d6ab6,
         type: 3}
+      propertyPath: SubCatalogueAddresses.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016861121889290160, guid: a0464cf17ad00fc4fb536118710d6ab6,
+        type: 3}
       propertyPath: SubCatalogue.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 13e81b2e364d87446ba06f578421a987,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3016861121889290160, guid: a0464cf17ad00fc4fb536118710d6ab6,
         type: 3}
       propertyPath: PresentSpriteSet
       value: 
-      objectReference: {fileID: 11400000, guid: 13e81b2e364d87446ba06f578421a987,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4427808407637942839, guid: a0464cf17ad00fc4fb536118710d6ab6,
         type: 3}
       propertyPath: runningSpeedDebuff

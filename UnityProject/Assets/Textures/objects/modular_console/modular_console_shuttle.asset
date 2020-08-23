@@ -18,52 +18,88 @@ MonoBehaviour:
       spriteName: shuttle_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_0
     - sprite: {fileID: 21300008, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_4
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_4
     - sprite: {fileID: 21300016, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_8
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_8
   - Frames:
     - sprite: {fileID: 21300002, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_1
     - sprite: {fileID: 21300010, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_5
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_5
     - sprite: {fileID: 21300018, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_9
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_9
   - Frames:
     - sprite: {fileID: 21300004, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_2
     - sprite: {fileID: 21300012, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_6
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_6
     - sprite: {fileID: 21300020, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_10
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_10
   - Frames:
     - sprite: {fileID: 21300006, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_3
     - sprite: {fileID: 21300014, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_7
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_7
     - sprite: {fileID: 21300022, guid: 3c2ae2d97c6e3b24b9703d14710f92e8, type: 3}
       spriteName: shuttle_11
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_11
   IsPalette: 0
   setID: 16226

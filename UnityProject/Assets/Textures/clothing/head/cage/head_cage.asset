@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cage_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cage_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a7a4c0a886471664eb3da896c8b57ec5, type: 3}
       spriteName: cage_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cage_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a7a4c0a886471664eb3da896c8b57ec5, type: 3}
       spriteName: cage_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cage_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a7a4c0a886471664eb3da896c8b57ec5, type: 3}
       spriteName: cage_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cage_3
   IsPalette: 0
   setID: 20212

@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: health6_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: health6_0
     - sprite: {fileID: 21300002, guid: 13b16eea2cbc34646b68f195a937b8d1, type: 3}
       spriteName: health6_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: health6_1
     - sprite: {fileID: 21300004, guid: 13b16eea2cbc34646b68f195a937b8d1, type: 3}
       spriteName: health6_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: health6_2
   IsPalette: 0
   setID: 3397

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bananaeshield0_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bananaeshield0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d26da3dc417c3e64797324cdcac47170, type: 3}
       spriteName: bananaeshield0_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bananaeshield0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d26da3dc417c3e64797324cdcac47170, type: 3}
       spriteName: bananaeshield0_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bananaeshield0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d26da3dc417c3e64797324cdcac47170, type: 3}
       spriteName: bananaeshield0_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bananaeshield0_3
   IsPalette: 0
   setID: 10191

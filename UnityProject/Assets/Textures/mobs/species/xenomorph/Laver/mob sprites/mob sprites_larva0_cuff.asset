@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: larva0_cuff_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva0_cuff_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ca64f4b6c875f094b93dc1ab291416d5, type: 3}
       spriteName: larva0_cuff_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva0_cuff_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ca64f4b6c875f094b93dc1ab291416d5, type: 3}
       spriteName: larva0_cuff_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva0_cuff_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ca64f4b6c875f094b93dc1ab291416d5, type: 3}
       spriteName: larva0_cuff_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva0_cuff_3
   IsPalette: 0
   setID: 12773

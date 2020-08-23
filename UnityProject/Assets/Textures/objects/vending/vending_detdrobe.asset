@@ -19,20 +19,32 @@ MonoBehaviour:
       spriteName: detdrobe_0
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: detdrobe_0
     - sprite: {fileID: -6306220791294966642, guid: b0e724f2c716c4d48a0060158d97a58b,
         type: 3}
       spriteName: detdrobe_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: detdrobe_1
     - sprite: {fileID: -6082626668263232754, guid: b0e724f2c716c4d48a0060158d97a58b,
         type: 3}
       spriteName: detdrobe_2
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: detdrobe_2
     - sprite: {fileID: 4024101216503610453, guid: b0e724f2c716c4d48a0060158d97a58b,
         type: 3}
       spriteName: detdrobe_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: detdrobe_3
   IsPalette: 0
   setID: 17738

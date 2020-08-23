@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: doctor-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: doctor-skillcape_0
   - Frames:
     - sprite: {fileID: -5859707292485960643, guid: e9a5c48f841871d409ff2595e663801d,
         type: 3}
       spriteName: doctor-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: doctor-skillcape_1
   - Frames:
     - sprite: {fileID: 2138411593763036630, guid: e9a5c48f841871d409ff2595e663801d,
         type: 3}
       spriteName: doctor-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: doctor-skillcape_2
   - Frames:
     - sprite: {fileID: 6938413046335206127, guid: e9a5c48f841871d409ff2595e663801d,
         type: 3}
       spriteName: doctor-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: doctor-skillcape_3
   IsPalette: 0
   setID: 23215

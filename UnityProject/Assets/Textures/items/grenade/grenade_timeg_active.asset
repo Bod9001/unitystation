@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: timeg_active_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: timeg_active_0
     - sprite: {fileID: 21300002, guid: c977e74f78609db469de5557b9c30bbe, type: 3}
       spriteName: timeg_active_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: timeg_active_1
   IsPalette: 0
   setID: 7266

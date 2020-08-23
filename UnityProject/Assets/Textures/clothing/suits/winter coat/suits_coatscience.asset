@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: coatscience_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatscience_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 583e9b6a87dabd345b907f330e4d0cc1, type: 3}
       spriteName: coatscience_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatscience_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 583e9b6a87dabd345b907f330e4d0cc1, type: 3}
       spriteName: coatscience_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatscience_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 583e9b6a87dabd345b907f330e4d0cc1, type: 3}
       spriteName: coatscience_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatscience_3
   IsPalette: 0
   setID: 21222

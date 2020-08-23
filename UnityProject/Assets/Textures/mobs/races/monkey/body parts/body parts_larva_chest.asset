@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: larva_chest_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva_chest_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f8f726d654555ca45bc9527ec9379c70, type: 3}
       spriteName: larva_chest_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva_chest_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f8f726d654555ca45bc9527ec9379c70, type: 3}
       spriteName: larva_chest_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva_chest_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f8f726d654555ca45bc9527ec9379c70, type: 3}
       spriteName: larva_chest_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva_chest_3
   IsPalette: 0
   setID: 11262

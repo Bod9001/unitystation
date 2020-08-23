@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pulse_carbinekill1_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: pulse_carbinekill1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c5969db079d025748980e070427a85d4, type: 3}
       spriteName: pulse_carbinekill1_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: pulse_carbinekill1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c5969db079d025748980e070427a85d4, type: 3}
       spriteName: pulse_carbinekill1_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: pulse_carbinekill1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c5969db079d025748980e070427a85d4, type: 3}
       spriteName: pulse_carbinekill1_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: pulse_carbinekill1_3
   IsPalette: 0
   setID: 10777

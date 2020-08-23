@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: mjollnir0_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: mjollnir0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7437b0359a99d8e478f6bd0d2e49e48a, type: 3}
       spriteName: mjollnir0_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: mjollnir0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7437b0359a99d8e478f6bd0d2e49e48a, type: 3}
       spriteName: mjollnir0_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: mjollnir0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7437b0359a99d8e478f6bd0d2e49e48a, type: 3}
       spriteName: mjollnir0_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: mjollnir0_3
   IsPalette: 0
   setID: 10822

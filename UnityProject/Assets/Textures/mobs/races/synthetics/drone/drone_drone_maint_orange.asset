@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: drone_maint_orange_0
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_orange_0
     - sprite: {fileID: 21300008, guid: a480e32442f295d43a75adb8d934fbec, type: 3}
       spriteName: drone_maint_orange_4
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_orange_4
   - Frames:
     - sprite: {fileID: 21300002, guid: a480e32442f295d43a75adb8d934fbec, type: 3}
       spriteName: drone_maint_orange_1
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_orange_1
     - sprite: {fileID: 21300010, guid: a480e32442f295d43a75adb8d934fbec, type: 3}
       spriteName: drone_maint_orange_5
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_orange_5
   - Frames:
     - sprite: {fileID: 21300004, guid: a480e32442f295d43a75adb8d934fbec, type: 3}
       spriteName: drone_maint_orange_2
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_orange_2
     - sprite: {fileID: 21300012, guid: a480e32442f295d43a75adb8d934fbec, type: 3}
       spriteName: drone_maint_orange_6
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_orange_6
   - Frames:
     - sprite: {fileID: 21300006, guid: a480e32442f295d43a75adb8d934fbec, type: 3}
       spriteName: drone_maint_orange_3
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_orange_3
     - sprite: {fileID: 21300014, guid: a480e32442f295d43a75adb8d934fbec, type: 3}
       spriteName: drone_maint_orange_7
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_orange_7
   IsPalette: 0
   setID: 11709

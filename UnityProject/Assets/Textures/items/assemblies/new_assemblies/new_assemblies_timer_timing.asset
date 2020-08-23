@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: timer_timing_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: timer_timing_0
     - sprite: {fileID: 21300002, guid: fa007b9f06b3f3949998d4d82818db2b, type: 3}
       spriteName: timer_timing_1
       secondDelay: 0.9
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: timer_timing_1
   IsPalette: 0
   setID: 5099

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: daemon_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: daemon_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dc9489c9ebecfb7419c5eddfcfccb6d3, type: 3}
       spriteName: daemon_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: daemon_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dc9489c9ebecfb7419c5eddfcfccb6d3, type: 3}
       spriteName: daemon_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: daemon_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dc9489c9ebecfb7419c5eddfcfccb6d3, type: 3}
       spriteName: daemon_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: daemon_3
   IsPalette: 0
   setID: 12319

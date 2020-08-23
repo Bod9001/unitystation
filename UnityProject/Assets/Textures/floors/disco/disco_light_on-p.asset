@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: light_on-p_0
       secondDelay: 0.1
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-p_0
     - sprite: {fileID: 21300002, guid: 6220adebd12f4c940924fde419d5cb62, type: 3}
       spriteName: light_on-p_1
       secondDelay: 0.1
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: light_on-p_1
   IsPalette: 0
   setID: 2235

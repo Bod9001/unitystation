@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: dnainjector_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dnainjector_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 46728ed6972e0b4419a2095f17a212fd, type: 3}
       spriteName: dnainjector_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dnainjector_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 46728ed6972e0b4419a2095f17a212fd, type: 3}
       spriteName: dnainjector_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dnainjector_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 46728ed6972e0b4419a2095f17a212fd, type: 3}
       spriteName: dnainjector_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: dnainjector_3
   IsPalette: 0
   setID: 10118

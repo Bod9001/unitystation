@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: disarm_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: disarm_0
     - sprite: {fileID: 21300002, guid: 59a24e1a2f5e9874d8b1974844915bc6, type: 3}
       spriteName: disarm_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: disarm_1
     - sprite: {fileID: 21300004, guid: 59a24e1a2f5e9874d8b1974844915bc6, type: 3}
       spriteName: disarm_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: disarm_2
     - sprite: {fileID: 21300006, guid: 59a24e1a2f5e9874d8b1974844915bc6, type: 3}
       spriteName: disarm_3
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: disarm_3
     - sprite: {fileID: 21300008, guid: 59a24e1a2f5e9874d8b1974844915bc6, type: 3}
       spriteName: disarm_4
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: disarm_4
   IsPalette: 0
   setID: 1132

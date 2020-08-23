@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: facial_elvis_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: facial_elvis_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f7674781ea86ff6498880b470309fa48, type: 3}
       spriteName: facial_elvis_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: facial_elvis_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f7674781ea86ff6498880b470309fa48, type: 3}
       spriteName: facial_elvis_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: facial_elvis_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f7674781ea86ff6498880b470309fa48, type: 3}
       spriteName: facial_elvis_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: facial_elvis_3
   IsPalette: 0
   setID: 21869

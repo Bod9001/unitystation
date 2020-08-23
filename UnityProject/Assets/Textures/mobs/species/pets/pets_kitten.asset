@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: kitten_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: kitten_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f2170f55c6053a4458204464bc7e0673, type: 3}
       spriteName: kitten_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: kitten_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f2170f55c6053a4458204464bc7e0673, type: 3}
       spriteName: kitten_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: kitten_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f2170f55c6053a4458204464bc7e0673, type: 3}
       spriteName: kitten_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: kitten_3
   IsPalette: 0
   setID: 12416

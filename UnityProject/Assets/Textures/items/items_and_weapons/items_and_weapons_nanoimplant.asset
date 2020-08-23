@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: nanoimplant_0
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: nanoimplant_0
     - sprite: {fileID: 21300002, guid: 761c073cdf3fac94c80659e7a96b9c90, type: 3}
       spriteName: nanoimplant_1
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: nanoimplant_1
     - sprite: {fileID: 21300004, guid: 761c073cdf3fac94c80659e7a96b9c90, type: 3}
       spriteName: nanoimplant_2
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: nanoimplant_2
     - sprite: {fileID: 21300006, guid: 761c073cdf3fac94c80659e7a96b9c90, type: 3}
       spriteName: nanoimplant_3
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: nanoimplant_3
     - sprite: {fileID: 21300008, guid: 761c073cdf3fac94c80659e7a96b9c90, type: 3}
       spriteName: nanoimplant_4
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: nanoimplant_4
   IsPalette: 0
   setID: 7851

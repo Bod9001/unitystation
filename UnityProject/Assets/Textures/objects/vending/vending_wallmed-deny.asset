@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: wallmed-deny_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: wallmed-deny_0
     - sprite: {fileID: 21300002, guid: a98fb7668df500843bc943a22acea220, type: 3}
       spriteName: wallmed-deny_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: wallmed-deny_1
   IsPalette: 0
   setID: 17947

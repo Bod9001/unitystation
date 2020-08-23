@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: helmetalt-flight-on_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: helmetalt-flight-on_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b1f367f319cb80948a101f47461462a9, type: 3}
       spriteName: helmetalt-flight-on_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: helmetalt-flight-on_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b1f367f319cb80948a101f47461462a9, type: 3}
       spriteName: helmetalt-flight-on_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: helmetalt-flight-on_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b1f367f319cb80948a101f47461462a9, type: 3}
       spriteName: helmetalt-flight-on_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: helmetalt-flight-on_3
   IsPalette: 0
   setID: 627

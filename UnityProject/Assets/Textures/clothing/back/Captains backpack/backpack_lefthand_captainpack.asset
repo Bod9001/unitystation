@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: captainpack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: captainpack_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7079911b1c67661468f700a4ad1acdc6, type: 3}
       spriteName: captainpack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: captainpack_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7079911b1c67661468f700a4ad1acdc6, type: 3}
       spriteName: captainpack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: captainpack_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7079911b1c67661468f700a4ad1acdc6, type: 3}
       spriteName: captainpack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: captainpack_3
   IsPalette: 0
   setID: 19712

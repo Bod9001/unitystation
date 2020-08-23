@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: monocle_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monocle_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b72ec97dba563a44fb648bde14a58422, type: 3}
       spriteName: monocle_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monocle_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b72ec97dba563a44fb648bde14a58422, type: 3}
       spriteName: monocle_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monocle_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b72ec97dba563a44fb648bde14a58422, type: 3}
       spriteName: monocle_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monocle_3
   IsPalette: 0
   setID: 19995

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bedsheet_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bedsheet_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a8e0e4dd1590ddc4dab6c0f799425e45, type: 3}
       spriteName: bedsheet_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bedsheet_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a8e0e4dd1590ddc4dab6c0f799425e45, type: 3}
       spriteName: bedsheet_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bedsheet_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a8e0e4dd1590ddc4dab6c0f799425e45, type: 3}
       spriteName: bedsheet_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: bedsheet_3
   IsPalette: 0
   setID: 22299

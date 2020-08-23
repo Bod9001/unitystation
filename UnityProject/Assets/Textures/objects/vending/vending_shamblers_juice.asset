@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: shamblers_juice_0
       secondDelay: 5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shamblers_juice_0
     - sprite: {fileID: 21300002, guid: e62bd5f3584b6be44832927cf3a6f528, type: 3}
       spriteName: shamblers_juice_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shamblers_juice_1
     - sprite: {fileID: 21300004, guid: e62bd5f3584b6be44832927cf3a6f528, type: 3}
       spriteName: shamblers_juice_2
       secondDelay: 0.5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shamblers_juice_2
     - sprite: {fileID: 21300006, guid: e62bd5f3584b6be44832927cf3a6f528, type: 3}
       spriteName: shamblers_juice_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shamblers_juice_3
   IsPalette: 0
   setID: 17873

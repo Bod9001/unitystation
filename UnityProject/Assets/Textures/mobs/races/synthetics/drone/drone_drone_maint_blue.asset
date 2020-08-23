@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: drone_maint_blue_0
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_blue_0
     - sprite: {fileID: 21300008, guid: 023181a28575c2641a966f1892913e1e, type: 3}
       spriteName: drone_maint_blue_4
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_blue_4
   - Frames:
     - sprite: {fileID: 21300002, guid: 023181a28575c2641a966f1892913e1e, type: 3}
       spriteName: drone_maint_blue_1
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_blue_1
     - sprite: {fileID: 21300010, guid: 023181a28575c2641a966f1892913e1e, type: 3}
       spriteName: drone_maint_blue_5
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_blue_5
   - Frames:
     - sprite: {fileID: 21300004, guid: 023181a28575c2641a966f1892913e1e, type: 3}
       spriteName: drone_maint_blue_2
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_blue_2
     - sprite: {fileID: 21300012, guid: 023181a28575c2641a966f1892913e1e, type: 3}
       spriteName: drone_maint_blue_6
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_blue_6
   - Frames:
     - sprite: {fileID: 21300006, guid: 023181a28575c2641a966f1892913e1e, type: 3}
       spriteName: drone_maint_blue_3
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_blue_3
     - sprite: {fileID: 21300014, guid: 023181a28575c2641a966f1892913e1e, type: 3}
       spriteName: drone_maint_blue_7
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_maint_blue_7
   IsPalette: 0
   setID: 11704

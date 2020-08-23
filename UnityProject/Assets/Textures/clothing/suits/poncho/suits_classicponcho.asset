@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: classicponcho_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: classicponcho_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 384b0e5c8b7857645bdb12985afac28b, type: 3}
       spriteName: classicponcho_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: classicponcho_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 384b0e5c8b7857645bdb12985afac28b, type: 3}
       spriteName: classicponcho_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: classicponcho_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 384b0e5c8b7857645bdb12985afac28b, type: 3}
       spriteName: classicponcho_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: classicponcho_3
   IsPalette: 0
   setID: 21037

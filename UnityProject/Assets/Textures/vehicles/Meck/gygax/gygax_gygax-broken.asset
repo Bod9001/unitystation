@@ -18,33 +18,57 @@ MonoBehaviour:
       spriteName: gygax-broken_0
       secondDelay: 5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: gygax-broken_0
     - sprite: {fileID: 21300002, guid: 26b76d44d0f40694ba56227a6efcea14, type: 3}
       spriteName: gygax-broken_1
       secondDelay: 0.05
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: gygax-broken_1
     - sprite: {fileID: 21300004, guid: 26b76d44d0f40694ba56227a6efcea14, type: 3}
       spriteName: gygax-broken_2
       secondDelay: 0.05
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: gygax-broken_2
     - sprite: {fileID: 21300006, guid: 26b76d44d0f40694ba56227a6efcea14, type: 3}
       spriteName: gygax-broken_3
       secondDelay: 0.05
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: gygax-broken_3
     - sprite: {fileID: 21300008, guid: 26b76d44d0f40694ba56227a6efcea14, type: 3}
       spriteName: gygax-broken_4
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: gygax-broken_4
     - sprite: {fileID: 21300010, guid: 26b76d44d0f40694ba56227a6efcea14, type: 3}
       spriteName: gygax-broken_5
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: gygax-broken_5
     - sprite: {fileID: 21300012, guid: 26b76d44d0f40694ba56227a6efcea14, type: 3}
       spriteName: gygax-broken_6
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: gygax-broken_6
     - sprite: {fileID: 21300014, guid: 26b76d44d0f40694ba56227a6efcea14, type: 3}
       spriteName: gygax-broken_7
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: gygax-broken_7
   IsPalette: 0
   setID: 18901

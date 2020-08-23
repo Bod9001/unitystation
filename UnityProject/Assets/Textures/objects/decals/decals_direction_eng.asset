@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: direction_eng_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: direction_eng_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5f5752a20f8ba924e9eb93657a19325a, type: 3}
       spriteName: direction_eng_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: direction_eng_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5f5752a20f8ba924e9eb93657a19325a, type: 3}
       spriteName: direction_eng_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: direction_eng_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5f5752a20f8ba924e9eb93657a19325a, type: 3}
       spriteName: direction_eng_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: direction_eng_3
   IsPalette: 0
   setID: 13677

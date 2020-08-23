@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: stinger_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: stinger_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e66dd3784ff00844cb3c344114a29754, type: 3}
       spriteName: stinger_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: stinger_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e66dd3784ff00844cb3c344114a29754, type: 3}
       spriteName: stinger_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: stinger_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e66dd3784ff00844cb3c344114a29754, type: 3}
       spriteName: stinger_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: stinger_3
   IsPalette: 0
   setID: 10840

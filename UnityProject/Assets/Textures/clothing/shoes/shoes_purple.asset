@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: purple_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purple_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b2a5ef5e766a49a42a5bf92924cd784a, type: 3}
       spriteName: purple_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purple_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b2a5ef5e766a49a42a5bf92924cd784a, type: 3}
       spriteName: purple_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purple_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b2a5ef5e766a49a42a5bf92924cd784a, type: 3}
       spriteName: purple_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purple_3
   IsPalette: 0
   setID: 836

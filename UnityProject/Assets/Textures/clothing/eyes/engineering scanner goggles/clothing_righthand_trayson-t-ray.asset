@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: trayson-t-ray_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trayson-t-ray_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c9f24254e0ad64c41b402a7056225dd2, type: 3}
       spriteName: trayson-t-ray_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trayson-t-ray_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c9f24254e0ad64c41b402a7056225dd2, type: 3}
       spriteName: trayson-t-ray_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trayson-t-ray_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c9f24254e0ad64c41b402a7056225dd2, type: 3}
       spriteName: trayson-t-ray_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trayson-t-ray_3
   IsPalette: 0
   setID: 19958

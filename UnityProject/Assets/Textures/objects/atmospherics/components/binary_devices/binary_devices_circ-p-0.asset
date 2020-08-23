@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: circ-p-0_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: circ-p-0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c72abf350b783ff4f9ff262a8a17c35b, type: 3}
       spriteName: circ-p-0_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: circ-p-0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c72abf350b783ff4f9ff262a8a17c35b, type: 3}
       spriteName: circ-p-0_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: circ-p-0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c72abf350b783ff4f9ff262a8a17c35b, type: 3}
       spriteName: circ-p-0_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: circ-p-0_3
   IsPalette: 0
   setID: 12919

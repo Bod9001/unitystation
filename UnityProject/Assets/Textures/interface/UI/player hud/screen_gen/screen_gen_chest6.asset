@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: chest6_0
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: chest6_0
     - sprite: {fileID: 21300002, guid: a261914c60576104798db8967dc3b56d, type: 3}
       spriteName: chest6_1
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: chest6_1
   IsPalette: 0
   setID: 3445

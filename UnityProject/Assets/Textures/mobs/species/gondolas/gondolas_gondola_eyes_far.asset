@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: gondola_eyes_far_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: gondola_eyes_far_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3b4382bd3ebced24bb642e6af635ee5b, type: 3}
       spriteName: gondola_eyes_far_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: gondola_eyes_far_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3b4382bd3ebced24bb642e6af635ee5b, type: 3}
       spriteName: gondola_eyes_far_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: gondola_eyes_far_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3b4382bd3ebced24bb642e6af635ee5b, type: 3}
       spriteName: gondola_eyes_far_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: gondola_eyes_far_3
   IsPalette: 0
   setID: 12294

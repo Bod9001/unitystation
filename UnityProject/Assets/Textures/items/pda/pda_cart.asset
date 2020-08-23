@@ -19,10 +19,16 @@ MonoBehaviour:
       spriteName: pda_cart_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: pda_cart_0
     - sprite: {fileID: 4148041780191477397, guid: 9e2447d3e329a3c48b9758f322b1256e,
         type: 3}
       spriteName: pda_cart_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: pda_cart_1
   IsPalette: 0
   setID: 8508

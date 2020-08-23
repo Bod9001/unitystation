@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: engineering_pod_0
       secondDelay: 2.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: engineering_pod_0
     - sprite: {fileID: 21300008, guid: 548d34aae36771b4bb06e67c31b0bd3b, type: 3}
       spriteName: engineering_pod_4
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: engineering_pod_4
   - Frames:
     - sprite: {fileID: 21300002, guid: 548d34aae36771b4bb06e67c31b0bd3b, type: 3}
       spriteName: engineering_pod_1
       secondDelay: 2.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: engineering_pod_1
     - sprite: {fileID: 21300010, guid: 548d34aae36771b4bb06e67c31b0bd3b, type: 3}
       spriteName: engineering_pod_5
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: engineering_pod_5
   - Frames:
     - sprite: {fileID: 21300004, guid: 548d34aae36771b4bb06e67c31b0bd3b, type: 3}
       spriteName: engineering_pod_2
       secondDelay: 2.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: engineering_pod_2
     - sprite: {fileID: 21300012, guid: 548d34aae36771b4bb06e67c31b0bd3b, type: 3}
       spriteName: engineering_pod_6
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: engineering_pod_6
   - Frames:
     - sprite: {fileID: 21300006, guid: 548d34aae36771b4bb06e67c31b0bd3b, type: 3}
       spriteName: engineering_pod_3
       secondDelay: 2.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: engineering_pod_3
     - sprite: {fileID: 21300014, guid: 548d34aae36771b4bb06e67c31b0bd3b, type: 3}
       spriteName: engineering_pod_7
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: engineering_pod_7
   IsPalette: 0
   setID: 19127

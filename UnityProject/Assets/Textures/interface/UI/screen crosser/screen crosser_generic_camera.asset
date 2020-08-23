@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: generic_camera_0
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: generic_camera_0
     - sprite: {fileID: 21300002, guid: 9924bb6a497a5ca42910fe6ccf96eba5, type: 3}
       spriteName: generic_camera_1
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: generic_camera_1
   IsPalette: 0
   setID: 4331

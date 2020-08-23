@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: multitool_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: multitool_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 63a5a5de281f17d45b502834972dfce7, type: 3}
       spriteName: multitool_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: multitool_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 63a5a5de281f17d45b502834972dfce7, type: 3}
       spriteName: multitool_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: multitool_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 63a5a5de281f17d45b502834972dfce7, type: 3}
       spriteName: multitool_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: multitool_3
   IsPalette: 0
   setID: 22290

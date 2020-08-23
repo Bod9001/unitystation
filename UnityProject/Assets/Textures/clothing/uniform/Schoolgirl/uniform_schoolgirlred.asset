@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: schoolgirlred_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: schoolgirlred_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e7d94d301eba4c44fae36e08ad32780d, type: 3}
       spriteName: schoolgirlred_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: schoolgirlred_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e7d94d301eba4c44fae36e08ad32780d, type: 3}
       spriteName: schoolgirlred_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: schoolgirlred_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e7d94d301eba4c44fae36e08ad32780d, type: 3}
       spriteName: schoolgirlred_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: schoolgirlred_3
   IsPalette: 0
   setID: 21703

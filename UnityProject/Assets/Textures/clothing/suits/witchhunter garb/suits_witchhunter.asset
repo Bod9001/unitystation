@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: witchhunter_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: witchhunter_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d5535607a707cee438c9f318879deb7e, type: 3}
       spriteName: witchhunter_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: witchhunter_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d5535607a707cee438c9f318879deb7e, type: 3}
       spriteName: witchhunter_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: witchhunter_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d5535607a707cee438c9f318879deb7e, type: 3}
       spriteName: witchhunter_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: witchhunter_3
   IsPalette: 0
   setID: 21236

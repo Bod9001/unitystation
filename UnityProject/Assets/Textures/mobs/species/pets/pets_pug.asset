@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pug_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pug_0
   - Frames:
     - sprite: {fileID: 21300002, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
       spriteName: pug_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pug_1
   - Frames:
     - sprite: {fileID: 21300004, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
       spriteName: pug_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pug_2
   - Frames:
     - sprite: {fileID: 21300006, guid: facd580c2ac338249bab2a326e26ba6c, type: 3}
       spriteName: pug_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pug_3
   IsPalette: 0
   setID: 12432

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: labcoat_emt_t_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_emt_t_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c69b6ed2ec8494341908d0f65972cab4, type: 3}
       spriteName: labcoat_emt_t_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_emt_t_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c69b6ed2ec8494341908d0f65972cab4, type: 3}
       spriteName: labcoat_emt_t_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_emt_t_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c69b6ed2ec8494341908d0f65972cab4, type: 3}
       spriteName: labcoat_emt_t_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_emt_t_3
   IsPalette: 0
   setID: 916

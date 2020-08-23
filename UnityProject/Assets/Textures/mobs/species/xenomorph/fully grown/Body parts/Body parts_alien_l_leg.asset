@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: alien_l_leg_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: alien_l_leg_0
   - Frames:
     - sprite: {fileID: 21300002, guid: beedb4523a4e0824f8803cf972267be9, type: 3}
       spriteName: alien_l_leg_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: alien_l_leg_1
   - Frames:
     - sprite: {fileID: 21300004, guid: beedb4523a4e0824f8803cf972267be9, type: 3}
       spriteName: alien_l_leg_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: alien_l_leg_2
   - Frames:
     - sprite: {fileID: 21300006, guid: beedb4523a4e0824f8803cf972267be9, type: 3}
       spriteName: alien_l_leg_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: alien_l_leg_3
   IsPalette: 0
   setID: 12692

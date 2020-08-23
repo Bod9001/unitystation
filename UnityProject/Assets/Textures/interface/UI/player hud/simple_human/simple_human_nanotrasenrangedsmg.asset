@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: nanotrasenrangedsmg_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: nanotrasenrangedsmg_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c8cf25c475e8c0d4c8c64ae1b43fd80a, type: 3}
       spriteName: nanotrasenrangedsmg_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: nanotrasenrangedsmg_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c8cf25c475e8c0d4c8c64ae1b43fd80a, type: 3}
       spriteName: nanotrasenrangedsmg_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: nanotrasenrangedsmg_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c8cf25c475e8c0d4c8c64ae1b43fd80a, type: 3}
       spriteName: nanotrasenrangedsmg_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: nanotrasenrangedsmg_3
   IsPalette: 0
   setID: 3845

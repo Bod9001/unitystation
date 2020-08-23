@@ -5,13 +5,16 @@ using System.Reflection;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 
 [CustomPropertyDrawer(typeof(SpriteDataSO.Frame))]
 public class SpriteSOPropertyDrawer : PropertyDrawer
 {
 	private int ElementSpacing = 25;
+
 	public static Type TupleTypeReference = Type.GetType("System.ITuple, mscorlib");
+
 	// Draw the property inside the given rect
 	public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
 	{
@@ -37,9 +40,12 @@ public class SpriteSOPropertyDrawer : PropertyDrawer
 		var AtlasUsing = property.FindPropertyRelative("AtlasUsing");
 
 
-		EditorGUI.PropertyField(new Rect(20, position.y+ElementSpacing*1, 300, ElementSpacing), sprite, GUIContent.none);
-		EditorGUI.PropertyField(new Rect(20, position.y+ElementSpacing*2, 300, ElementSpacing), property.FindPropertyRelative("secondDelay"), GUIContent.none);
-		EditorGUI.PropertyField(new Rect(20, position.y+ElementSpacing*3, 300, ElementSpacing), AtlasUsing, GUIContent.none);
+		EditorGUI.PropertyField(new Rect(20, position.y + ElementSpacing * 1, 300, ElementSpacing), sprite,
+			GUIContent.none);
+		EditorGUI.PropertyField(new Rect(20, position.y + ElementSpacing * 2, 300, ElementSpacing),
+			property.FindPropertyRelative("secondDelay"), GUIContent.none);
+		EditorGUI.PropertyField(new Rect(20, position.y + ElementSpacing * 3, 300, ElementSpacing), AtlasUsing,
+			GUIContent.none);
 
 		if (EditorGUI.EndChangeCheck())
 		{
@@ -47,7 +53,15 @@ public class SpriteSOPropertyDrawer : PropertyDrawer
 			AtlasUsing.intValue = (int) AddressableSpritesHandler.FindAtlasContaining(COOL);
 			Logger.Log("ARR update");
 			texProp.stringValue = COOL.name;
+			var TestAddress = property.FindPropertyRelative("TestAddress");
+			//var Stall = AddressableSpritesHandler.FindAtlasContainingSpriteAtlas(COOL);
+			//var NewAssetReferenceAtlasedSprite = new AssetReferenceAtlasedSprite(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Stall)));
+			//NewAssetReferenceAtlasedSprite.SetEditorSubObject(COOL);
+			//var cool = TestAddress.propertyType;
+			//TestAddress.managedReferenceValue = NewAssetReferenceAtlasedSprite;
+			(TestAddress.serializedObject.targetObject as SpriteDataSO).StartSetSpriteAtlas();
 		}
+
 		property.serializedObject.ApplyModifiedProperties();
 		EditorGUI.indentLevel = indent;
 
@@ -56,7 +70,8 @@ public class SpriteSOPropertyDrawer : PropertyDrawer
 
 	public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
 	{
-		float totalHeight = EditorGUI.GetPropertyHeight(property.FindPropertyRelative("spriteName") )+ ElementSpacing*3;
+		float totalHeight = EditorGUI.GetPropertyHeight(property.FindPropertyRelative("spriteName")) +
+		                    ElementSpacing * 3;
 
 		return totalHeight;
 	}

@@ -19,10 +19,16 @@ MonoBehaviour:
       spriteName: pda_cart-eye_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: pda_cart-eye_0
     - sprite: {fileID: 2565843609025551945, guid: f32e8859368ff6b43bdc360bb563553f,
         type: 3}
       spriteName: pda_cart-eye_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: pda_cart-eye_1
   IsPalette: 0
   setID: 8496

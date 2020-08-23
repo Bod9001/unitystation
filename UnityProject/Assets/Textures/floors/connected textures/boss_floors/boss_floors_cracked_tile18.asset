@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cracked_tile18_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: cracked_tile18_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 778f8de9b0dcb3549bd85f881c427264, type: 3}
       spriteName: cracked_tile18_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: cracked_tile18_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 778f8de9b0dcb3549bd85f881c427264, type: 3}
       spriteName: cracked_tile18_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: cracked_tile18_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 778f8de9b0dcb3549bd85f881c427264, type: 3}
       spriteName: cracked_tile18_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: cracked_tile18_3
   IsPalette: 0
   setID: 1611

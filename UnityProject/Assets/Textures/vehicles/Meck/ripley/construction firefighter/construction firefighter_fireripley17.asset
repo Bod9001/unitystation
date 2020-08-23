@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: fireripley17_0
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fireripley17_0
     - sprite: {fileID: 21300002, guid: 3b6832a12483e2d469b08e05dbcff21e, type: 3}
       spriteName: fireripley17_1
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fireripley17_1
     - sprite: {fileID: 21300004, guid: 3b6832a12483e2d469b08e05dbcff21e, type: 3}
       spriteName: fireripley17_2
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fireripley17_2
     - sprite: {fileID: 21300006, guid: 3b6832a12483e2d469b08e05dbcff21e, type: 3}
       spriteName: fireripley17_3
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: fireripley17_3
   IsPalette: 0
   setID: 19073

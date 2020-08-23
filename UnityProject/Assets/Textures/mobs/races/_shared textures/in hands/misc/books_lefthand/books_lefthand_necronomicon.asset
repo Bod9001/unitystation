@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: necronomicon_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: necronomicon_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7bcf97e9fd2a0a549aa2ddc991a5cb2d, type: 3}
       spriteName: necronomicon_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: necronomicon_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7bcf97e9fd2a0a549aa2ddc991a5cb2d, type: 3}
       spriteName: necronomicon_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: necronomicon_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7bcf97e9fd2a0a549aa2ddc991a5cb2d, type: 3}
       spriteName: necronomicon_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: necronomicon_3
   IsPalette: 0
   setID: 10398

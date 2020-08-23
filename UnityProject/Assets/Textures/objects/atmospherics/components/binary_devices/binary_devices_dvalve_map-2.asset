@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: dvalve_map-2_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: dvalve_map-2_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 39300a118f0eb6a4dbecb3b6c7eb6495, type: 3}
       spriteName: dvalve_map-2_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: dvalve_map-2_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 39300a118f0eb6a4dbecb3b6c7eb6495, type: 3}
       spriteName: dvalve_map-2_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: dvalve_map-2_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 39300a118f0eb6a4dbecb3b6c7eb6495, type: 3}
       spriteName: dvalve_map-2_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: dvalve_map-2_3
   IsPalette: 0
   setID: 12928

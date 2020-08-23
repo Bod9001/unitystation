@@ -19,20 +19,32 @@ MonoBehaviour:
       spriteName: spaceworms_0
       secondDelay: 0.4
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: spaceworms_0
     - sprite: {fileID: 5560065603429704712, guid: 940e6b24d1131fd4799748e8dce07c30,
         type: 3}
       spriteName: spaceworms_1
       secondDelay: 0.4
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: spaceworms_1
     - sprite: {fileID: -4696444531686902983, guid: 940e6b24d1131fd4799748e8dce07c30,
         type: 3}
       spriteName: spaceworms_2
       secondDelay: 0.4
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: spaceworms_2
     - sprite: {fileID: 657900880756513936, guid: 940e6b24d1131fd4799748e8dce07c30,
         type: 3}
       spriteName: spaceworms_3
       secondDelay: 0.4
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: spaceworms_3
   IsPalette: 0
   setID: 15227

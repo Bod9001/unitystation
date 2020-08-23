@@ -18,25 +18,43 @@ MonoBehaviour:
       spriteName: rpcoilhit_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: rpcoilhit_0
     - sprite: {fileID: 21300002, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       spriteName: rpcoilhit_1
       secondDelay: 0.08
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: rpcoilhit_1
     - sprite: {fileID: 21300004, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       spriteName: rpcoilhit_2
       secondDelay: 0.08
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: rpcoilhit_2
     - sprite: {fileID: 21300006, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       spriteName: rpcoilhit_3
       secondDelay: 0.08
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: rpcoilhit_3
     - sprite: {fileID: 21300008, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       spriteName: rpcoilhit_4
       secondDelay: 0.12
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: rpcoilhit_4
     - sprite: {fileID: 21300010, guid: 69f8a2462729c3a49bf4c51cff03d627, type: 3}
       spriteName: rpcoilhit_5
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: rpcoilhit_5
   IsPalette: 0
   setID: 17596

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: setup_drone-open_0
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: setup_drone-open_0
   - Frames:
     - sprite: {fileID: 21300002, guid: fa25d816fe32b974e9f6b122aefede9a, type: 3}
       spriteName: setup_drone-open_1
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: setup_drone-open_1
   - Frames:
     - sprite: {fileID: 21300004, guid: fa25d816fe32b974e9f6b122aefede9a, type: 3}
       spriteName: setup_drone-open_2
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: setup_drone-open_2
   - Frames:
     - sprite: {fileID: 21300006, guid: fa25d816fe32b974e9f6b122aefede9a, type: 3}
       spriteName: setup_drone-open_3
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: setup_drone-open_3
   IsPalette: 0
   setID: 4931

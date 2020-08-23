@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: aslime-sad_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aslime-sad_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b25a0a1cfc20db845bd4558ea1bcf413, type: 3}
       spriteName: aslime-sad_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aslime-sad_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b25a0a1cfc20db845bd4558ea1bcf413, type: 3}
       spriteName: aslime-sad_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aslime-sad_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b25a0a1cfc20db845bd4558ea1bcf413, type: 3}
       spriteName: aslime-sad_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aslime-sad_3
   IsPalette: 0
   setID: 12482

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: claymore_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: claymore_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 067b62297a54b6548b7a554a0f1963ce, type: 3}
       spriteName: claymore_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: claymore_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 067b62297a54b6548b7a554a0f1963ce, type: 3}
       spriteName: claymore_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: claymore_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 067b62297a54b6548b7a554a0f1963ce, type: 3}
       spriteName: claymore_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: claymore_3
   IsPalette: 0
   setID: 22459

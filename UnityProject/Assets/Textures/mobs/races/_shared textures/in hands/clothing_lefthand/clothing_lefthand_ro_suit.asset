@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: ro_suit_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ro_suit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1b311425aacf10242802f71716c285bb, type: 3}
       spriteName: ro_suit_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ro_suit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1b311425aacf10242802f71716c285bb, type: 3}
       spriteName: ro_suit_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ro_suit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1b311425aacf10242802f71716c285bb, type: 3}
       spriteName: ro_suit_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ro_suit_3
   IsPalette: 0
   setID: 22106

@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 2455933423952571632}
   - component: {fileID: -9215615733617514307}
   m_Layer: 11
-  m_Name: ChapDrobe
+  m_Name: BVOld_ChapDrobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -338,7 +338,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  initialIntegrity: 100
   soundOnHit: 
+  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -359,7 +361,6 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
-  initialIntegrity: 100
 --- !u!114 &114472266138859352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -543,11 +544,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: 9523914b5d1340149b2c9c1270f98b48
+    m_SubObjectName: 
+  SubCatalogueAddresses:
+  - m_AssetGUID: 9523914b5d1340149b2c9c1270f98b48
+    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: 9523914b5d1340149b2c9c1270f98b48, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: 9523914b5d1340149b2c9c1270f98b48, type: 2}
-  Sprites:
-  - Texture: {fileID: 2800000, guid: ed33a9e0e34fc5a46bd0eba45ca3bffb, type: 3}
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
+  Sprites:
+  - Texture: {fileID: 2800000, guid: ed33a9e0e34fc5a46bd0eba45ca3bffb, type: 3}

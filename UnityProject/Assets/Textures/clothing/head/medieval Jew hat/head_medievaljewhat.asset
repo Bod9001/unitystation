@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: medievaljewhat_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: medievaljewhat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3051103cac592ff43be83dfe91a13769, type: 3}
       spriteName: medievaljewhat_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: medievaljewhat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3051103cac592ff43be83dfe91a13769, type: 3}
       spriteName: medievaljewhat_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: medievaljewhat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3051103cac592ff43be83dfe91a13769, type: 3}
       spriteName: medievaljewhat_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: medievaljewhat_3
   IsPalette: 0
   setID: 20366

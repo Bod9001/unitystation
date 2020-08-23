@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: holy_grenade_active_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: holy_grenade_active_0
     - sprite: {fileID: 21300002, guid: 60212f9f92612de48946d579361b7230, type: 3}
       spriteName: holy_grenade_active_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: holy_grenade_active_1
   IsPalette: 0
   setID: 7220

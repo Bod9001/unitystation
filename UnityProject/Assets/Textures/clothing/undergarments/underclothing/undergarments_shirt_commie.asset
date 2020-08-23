@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: shirt_commie_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_commie_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1bc4b230f079d59449ea12955a0ddf7e, type: 3}
       spriteName: shirt_commie_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_commie_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1bc4b230f079d59449ea12955a0ddf7e, type: 3}
       spriteName: shirt_commie_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_commie_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1bc4b230f079d59449ea12955a0ddf7e, type: 3}
       spriteName: shirt_commie_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_commie_3
   IsPalette: 0
   setID: 21301

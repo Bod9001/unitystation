@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: chapblack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chapblack_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 576b03cb83cfbf1448bc31a26e5ea47d, type: 3}
       spriteName: chapblack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chapblack_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 576b03cb83cfbf1448bc31a26e5ea47d, type: 3}
       spriteName: chapblack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chapblack_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 576b03cb83cfbf1448bc31a26e5ea47d, type: 3}
       spriteName: chapblack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chapblack_3
   IsPalette: 0
   setID: 21450

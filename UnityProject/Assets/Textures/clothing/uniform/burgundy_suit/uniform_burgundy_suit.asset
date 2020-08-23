@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: burgundy_suit_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: burgundy_suit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: db8883eb2c844b7489ffbb9ba4560468, type: 3}
       spriteName: burgundy_suit_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: burgundy_suit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: db8883eb2c844b7489ffbb9ba4560468, type: 3}
       spriteName: burgundy_suit_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: burgundy_suit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: db8883eb2c844b7489ffbb9ba4560468, type: 3}
       spriteName: burgundy_suit_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: burgundy_suit_3
   IsPalette: 0
   setID: 991

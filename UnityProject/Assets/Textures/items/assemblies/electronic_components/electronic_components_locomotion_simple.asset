@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: locomotion_simple_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: locomotion_simple_0
     - sprite: {fileID: 21300002, guid: 092234c596d7fb14b85b89908f0f679c, type: 3}
       spriteName: locomotion_simple_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: locomotion_simple_1
     - sprite: {fileID: 21300004, guid: 092234c596d7fb14b85b89908f0f679c, type: 3}
       spriteName: locomotion_simple_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: locomotion_simple_2
   IsPalette: 0
   setID: 4823

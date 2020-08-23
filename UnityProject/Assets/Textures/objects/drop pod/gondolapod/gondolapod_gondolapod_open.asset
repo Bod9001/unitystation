@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: gondolapod_open_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: gondolapod_open_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1e054f313ba73c241af1191814dc3052, type: 3}
       spriteName: gondolapod_open_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: gondolapod_open_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1e054f313ba73c241af1191814dc3052, type: 3}
       spriteName: gondolapod_open_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: gondolapod_open_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1e054f313ba73c241af1191814dc3052, type: 3}
       spriteName: gondolapod_open_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: gondolapod_open_3
   IsPalette: 0
   setID: 14795

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: wrap_paper_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: wrap_paper_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6d18cdcaf37080c41b9e412588b0c243, type: 3}
       spriteName: wrap_paper_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: wrap_paper_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6d18cdcaf37080c41b9e412588b0c243, type: 3}
       spriteName: wrap_paper_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: wrap_paper_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6d18cdcaf37080c41b9e412588b0c243, type: 3}
       spriteName: wrap_paper_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: wrap_paper_3
   IsPalette: 0
   setID: 10390

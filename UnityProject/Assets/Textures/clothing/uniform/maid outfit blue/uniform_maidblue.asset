@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: maid_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: maid_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c8a695e7a2bae4b49a8fdc74bf327a6c, type: 3}
       spriteName: maid_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: maid_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c8a695e7a2bae4b49a8fdc74bf327a6c, type: 3}
       spriteName: maid_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: maid_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c8a695e7a2bae4b49a8fdc74bf327a6c, type: 3}
       spriteName: maid_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: maid_3
   IsPalette: 0
   setID: 21604

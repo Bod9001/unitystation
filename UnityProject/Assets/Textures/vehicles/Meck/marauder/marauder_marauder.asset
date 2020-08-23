@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: marauder_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: marauder_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 93e9f53372c1f694ca399cb0df0cc9fc, type: 3}
       spriteName: marauder_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: marauder_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 93e9f53372c1f694ca399cb0df0cc9fc, type: 3}
       spriteName: marauder_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: marauder_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 93e9f53372c1f694ca399cb0df0cc9fc, type: 3}
       spriteName: marauder_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: marauder_3
   IsPalette: 0
   setID: 18951

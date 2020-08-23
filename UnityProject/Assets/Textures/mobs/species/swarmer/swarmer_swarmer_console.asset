@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: swarmer_console_0
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: swarmer_console_0
     - sprite: {fileID: 21300002, guid: 01785a645dbeb1540a2b8ea8c63de7a0, type: 3}
       spriteName: swarmer_console_1
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: swarmer_console_1
     - sprite: {fileID: 21300004, guid: 01785a645dbeb1540a2b8ea8c63de7a0, type: 3}
       spriteName: swarmer_console_2
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: swarmer_console_2
     - sprite: {fileID: 21300006, guid: 01785a645dbeb1540a2b8ea8c63de7a0, type: 3}
       spriteName: swarmer_console_3
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: swarmer_console_3
   IsPalette: 0
   setID: 12639

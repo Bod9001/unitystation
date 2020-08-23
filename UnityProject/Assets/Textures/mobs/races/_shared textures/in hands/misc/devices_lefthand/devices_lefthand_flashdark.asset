@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: flashdark_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: flashdark_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a003c47ffb3201c41ae2fbce46b2cd41, type: 3}
       spriteName: flashdark_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: flashdark_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a003c47ffb3201c41ae2fbce46b2cd41, type: 3}
       spriteName: flashdark_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: flashdark_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a003c47ffb3201c41ae2fbce46b2cd41, type: 3}
       spriteName: flashdark_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: flashdark_3
   IsPalette: 0
   setID: 10415

@@ -18,29 +18,50 @@ MonoBehaviour:
       spriteName: explosion_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: explosion_0
     - sprite: {fileID: 21300002, guid: 4d2516a71bba7fc4f9880a2d78dc5b0e, type: 3}
       spriteName: explosion_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: explosion_1
     - sprite: {fileID: 21300004, guid: 4d2516a71bba7fc4f9880a2d78dc5b0e, type: 3}
       spriteName: explosion_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: explosion_2
     - sprite: {fileID: 21300006, guid: 4d2516a71bba7fc4f9880a2d78dc5b0e, type: 3}
       spriteName: explosion_3
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: explosion_3
     - sprite: {fileID: 21300008, guid: 4d2516a71bba7fc4f9880a2d78dc5b0e, type: 3}
       spriteName: explosion_4
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: explosion_4
     - sprite: {fileID: 21300010, guid: 4d2516a71bba7fc4f9880a2d78dc5b0e, type: 3}
       spriteName: explosion_5
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: explosion_5
     - sprite: {fileID: 21300012, guid: 4d2516a71bba7fc4f9880a2d78dc5b0e, type: 3}
       spriteName: explosion_6
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: explosion_6
   IsPalette: 0
   setID: 1335

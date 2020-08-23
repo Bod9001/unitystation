@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bomberjacket_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bomberjacket_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 88673a16d7052034eb267dd5fb91239d, type: 3}
       spriteName: bomberjacket_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bomberjacket_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 88673a16d7052034eb267dd5fb91239d, type: 3}
       spriteName: bomberjacket_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bomberjacket_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 88673a16d7052034eb267dd5fb91239d, type: 3}
       spriteName: bomberjacket_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bomberjacket_3
   IsPalette: 0
   setID: 20838

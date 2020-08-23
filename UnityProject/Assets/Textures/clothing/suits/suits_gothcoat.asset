@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: gothcoat_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gothcoat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f0fbcdc062f2cf7449605e3be036f7b2, type: 3}
       spriteName: gothcoat_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gothcoat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f0fbcdc062f2cf7449605e3be036f7b2, type: 3}
       spriteName: gothcoat_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gothcoat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f0fbcdc062f2cf7449605e3be036f7b2, type: 3}
       spriteName: gothcoat_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gothcoat_3
   IsPalette: 0
   setID: 898

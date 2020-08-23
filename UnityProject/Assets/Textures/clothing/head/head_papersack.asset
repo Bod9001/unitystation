@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: papersack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: papersack_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 845ff76934e9db0419081fcc836088fb, type: 3}
       spriteName: papersack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: papersack_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 845ff76934e9db0419081fcc836088fb, type: 3}
       spriteName: papersack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: papersack_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 845ff76934e9db0419081fcc836088fb, type: 3}
       spriteName: papersack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: papersack_3
   IsPalette: 0
   setID: 660

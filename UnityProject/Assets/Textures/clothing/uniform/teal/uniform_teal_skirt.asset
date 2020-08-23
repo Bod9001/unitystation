@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: teal_skirt_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: teal_skirt_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 86fc8315c90b8b14cbae024db5919080, type: 3}
       spriteName: teal_skirt_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: teal_skirt_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 86fc8315c90b8b14cbae024db5919080, type: 3}
       spriteName: teal_skirt_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: teal_skirt_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 86fc8315c90b8b14cbae024db5919080, type: 3}
       spriteName: teal_skirt_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: teal_skirt_3
   IsPalette: 0
   setID: 1084

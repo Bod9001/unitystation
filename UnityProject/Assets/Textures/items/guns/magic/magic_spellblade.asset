@@ -18,29 +18,50 @@ MonoBehaviour:
       spriteName: spellblade_0
       secondDelay: 0.8
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spellblade_0
     - sprite: {fileID: 21300002, guid: 46a56cfae6e1b0841a84978ab2eff6d5, type: 3}
       spriteName: spellblade_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spellblade_1
     - sprite: {fileID: 21300004, guid: 46a56cfae6e1b0841a84978ab2eff6d5, type: 3}
       spriteName: spellblade_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spellblade_2
     - sprite: {fileID: 21300006, guid: 46a56cfae6e1b0841a84978ab2eff6d5, type: 3}
       spriteName: spellblade_3
       secondDelay: 0.5
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spellblade_3
     - sprite: {fileID: 21300008, guid: 46a56cfae6e1b0841a84978ab2eff6d5, type: 3}
       spriteName: spellblade_4
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spellblade_4
     - sprite: {fileID: 21300010, guid: 46a56cfae6e1b0841a84978ab2eff6d5, type: 3}
       spriteName: spellblade_5
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spellblade_5
     - sprite: {fileID: 21300012, guid: 46a56cfae6e1b0841a84978ab2eff6d5, type: 3}
       spriteName: spellblade_6
       secondDelay: 0.4
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: spellblade_6
   IsPalette: 0
   setID: 7488

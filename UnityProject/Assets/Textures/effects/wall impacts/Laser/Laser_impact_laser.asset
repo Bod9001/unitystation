@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: impact_laser_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: impact_laser_0
     - sprite: {fileID: 21300002, guid: cb193bce23a4294498b097785cf89869, type: 3}
       spriteName: impact_laser_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: impact_laser_1
     - sprite: {fileID: 21300004, guid: cb193bce23a4294498b097785cf89869, type: 3}
       spriteName: impact_laser_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: impact_laser_2
     - sprite: {fileID: 21300006, guid: cb193bce23a4294498b097785cf89869, type: 3}
       spriteName: impact_laser_3
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: impact_laser_3
   IsPalette: 0
   setID: 1432

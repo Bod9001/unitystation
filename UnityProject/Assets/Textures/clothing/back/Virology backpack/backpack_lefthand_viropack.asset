@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: viropack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: viropack_0
   - Frames:
     - sprite: {fileID: 2888032030431348721, guid: 00205e9f277f0d549ad3c0847bd7836f,
         type: 3}
       spriteName: viropack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: viropack_1
   - Frames:
     - sprite: {fileID: -2225688291189469457, guid: 00205e9f277f0d549ad3c0847bd7836f,
         type: 3}
       spriteName: viropack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: viropack_2
   - Frames:
     - sprite: {fileID: 8955896915943693494, guid: 00205e9f277f0d549ad3c0847bd7836f,
         type: 3}
       spriteName: viropack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: viropack_3
   IsPalette: 0
   setID: 19844

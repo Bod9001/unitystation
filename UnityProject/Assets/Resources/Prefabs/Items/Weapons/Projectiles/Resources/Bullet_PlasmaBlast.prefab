@@ -221,6 +221,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 5c0d17a3ccf06ed4aa4d4889610d541c,
         type: 2}
+    - target: {fileID: 2164135355554094252, guid: 5858b89c4790c084bb1915952309853d,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: 5c0d17a3ccf06ed4aa4d4889610d541c
+      objectReference: {fileID: 0}
     - target: {fileID: 8142109516355469475, guid: 5858b89c4790c084bb1915952309853d,
         type: 3}
       propertyPath: decal

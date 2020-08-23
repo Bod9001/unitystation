@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tiki_yalp_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_yalp_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7ba4e80e7fddb8c4a8319a87070bdb8f, type: 3}
       spriteName: tiki_yalp_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_yalp_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7ba4e80e7fddb8c4a8319a87070bdb8f, type: 3}
       spriteName: tiki_yalp_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_yalp_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7ba4e80e7fddb8c4a8319a87070bdb8f, type: 3}
       spriteName: tiki_yalp_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_yalp_3
   IsPalette: 0
   setID: 788

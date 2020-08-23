@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: defensepylonattack_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: defensepylonattack_0
     - sprite: {fileID: 21300002, guid: a21cef795d855b84c9819de59edf4e01, type: 3}
       spriteName: defensepylonattack_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: defensepylonattack_1
     - sprite: {fileID: 21300004, guid: a21cef795d855b84c9819de59edf4e01, type: 3}
       spriteName: defensepylonattack_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: defensepylonattack_2
     - sprite: {fileID: 21300006, guid: a21cef795d855b84c9819de59edf4e01, type: 3}
       spriteName: defensepylonattack_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: defensepylonattack_3
   IsPalette: 0
   setID: 15082

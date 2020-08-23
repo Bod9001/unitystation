@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: sunhudsec_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sunhudsec_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c81683ab4b10feb45a3a1efe3081cc8c, type: 3}
       spriteName: sunhudsec_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sunhudsec_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c81683ab4b10feb45a3a1efe3081cc8c, type: 3}
       spriteName: sunhudsec_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sunhudsec_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c81683ab4b10feb45a3a1efe3081cc8c, type: 3}
       spriteName: sunhudsec_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sunhudsec_3
   IsPalette: 0
   setID: 20037

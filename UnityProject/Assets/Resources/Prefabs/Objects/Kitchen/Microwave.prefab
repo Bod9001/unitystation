@@ -204,7 +204,6 @@ MonoBehaviour:
   RunningAudio: {fileID: 82554502596860898}
   ScreenGlow: {fileID: 2324396478013233987}
   OvenGlow: {fileID: 4124619900872816426}
-  MicrowaveTimer: 0
 --- !u!114 &114643057465573826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,6 +518,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: a9d9bf1a77c00d44f8434a8bd3be24c7
+    m_SubObjectName: 
+  SubCatalogueAddresses:
+  - m_AssetGUID: a9d9bf1a77c00d44f8434a8bd3be24c7
+    m_SubObjectName: 
+  - m_AssetGUID: a2f1419071296b047abb53de8e18d99e
+    m_SubObjectName: 
+  - m_AssetGUID: df89dabc30e44864d8c13c2fe00c5025
+    m_SubObjectName: 
+  - m_AssetGUID: c2b5b10ee8c47e0458c142d31bcf2542
+    m_SubObjectName: 
+  - m_AssetGUID: 95891e5e8da9d564ebfddcda736739bd
+    m_SubObjectName: 
+  - m_AssetGUID: 53b4b3268f209eb49a64a3bf7bf02393
+    m_SubObjectName: 
+  - m_AssetGUID: d61e2ef2c736262499b80a36a26c91ab
+    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: a9d9bf1a77c00d44f8434a8bd3be24c7, type: 2}
@@ -529,6 +546,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 53b4b3268f209eb49a64a3bf7bf02393, type: 2}
   - {fileID: 11400000, guid: d61e2ef2c736262499b80a36a26c91ab, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: a9d9bf1a77c00d44f8434a8bd3be24c7, type: 2}
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
   Sprites: []

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: wizard-paper_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wizard-paper_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d84d7ffe7a5b1f048aec58d10bed0a43, type: 3}
       spriteName: wizard-paper_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wizard-paper_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d84d7ffe7a5b1f048aec58d10bed0a43, type: 3}
       spriteName: wizard-paper_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wizard-paper_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d84d7ffe7a5b1f048aec58d10bed0a43, type: 3}
       spriteName: wizard-paper_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wizard-paper_3
   IsPalette: 0
   setID: 964

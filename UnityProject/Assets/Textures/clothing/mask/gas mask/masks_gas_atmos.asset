@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: gas_atmos_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_atmos_0
   - Frames:
     - sprite: {fileID: -7200276693156684431, guid: 5660b3655700c5944b7bca042371e79d,
         type: 3}
       spriteName: gas_atmos_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_atmos_1
   - Frames:
     - sprite: {fileID: 1210734600396411174, guid: 5660b3655700c5944b7bca042371e79d,
         type: 3}
       spriteName: gas_atmos_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_atmos_2
   - Frames:
     - sprite: {fileID: 4150658767656017402, guid: 5660b3655700c5944b7bca042371e79d,
         type: 3}
       spriteName: gas_atmos_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_atmos_3
   IsPalette: 0
   setID: 20594

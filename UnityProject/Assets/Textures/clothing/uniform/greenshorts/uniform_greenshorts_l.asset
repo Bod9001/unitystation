@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: greenshorts_l_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greenshorts_l_0
   - Frames:
     - sprite: {fileID: 21300002, guid: db6a02e09dcbce9468697c70261aab54, type: 3}
       spriteName: greenshorts_l_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greenshorts_l_1
   - Frames:
     - sprite: {fileID: 21300004, guid: db6a02e09dcbce9468697c70261aab54, type: 3}
       spriteName: greenshorts_l_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greenshorts_l_2
   - Frames:
     - sprite: {fileID: 21300006, guid: db6a02e09dcbce9468697c70261aab54, type: 3}
       spriteName: greenshorts_l_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greenshorts_l_3
   IsPalette: 0
   setID: 1027

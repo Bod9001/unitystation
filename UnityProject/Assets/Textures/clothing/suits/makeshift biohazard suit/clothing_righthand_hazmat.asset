@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: hazmatinhandright_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hazmatinhandright_0
   - Frames:
     - sprite: {fileID: 5906184730364201466, guid: 40ee529f94b41ec47a7455a85da702b1,
         type: 3}
       spriteName: hazmatinhandright_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hazmatinhandright_1
   - Frames:
     - sprite: {fileID: 4450061811634603505, guid: 40ee529f94b41ec47a7455a85da702b1,
         type: 3}
       spriteName: hazmatinhandright_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hazmatinhandright_2
   - Frames:
     - sprite: {fileID: -2602592741637219714, guid: 40ee529f94b41ec47a7455a85da702b1,
         type: 3}
       spriteName: hazmatinhandright_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hazmatinhandright_3
   IsPalette: 0
   setID: 20982

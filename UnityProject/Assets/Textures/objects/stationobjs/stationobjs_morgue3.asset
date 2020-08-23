@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: morgue3_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: morgue3_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cdbd5b3827991f24bbc4f9da877490b7, type: 3}
       spriteName: morgue3_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: morgue3_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cdbd5b3827991f24bbc4f9da877490b7, type: 3}
       spriteName: morgue3_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: morgue3_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cdbd5b3827991f24bbc4f9da877490b7, type: 3}
       spriteName: morgue3_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: morgue3_3
   IsPalette: 0
   setID: 17086

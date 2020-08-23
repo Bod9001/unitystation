@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bloodyhands_left_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bloodyhands_left_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b6149126c3fc3ad4eb9f0495245d8e10, type: 3}
       spriteName: bloodyhands_left_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bloodyhands_left_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b6149126c3fc3ad4eb9f0495245d8e10, type: 3}
       spriteName: bloodyhands_left_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bloodyhands_left_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b6149126c3fc3ad4eb9f0495245d8e10, type: 3}
       spriteName: bloodyhands_left_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bloodyhands_left_3
   IsPalette: 0
   setID: 526

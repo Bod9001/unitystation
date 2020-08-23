@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: smmon_3_0
       secondDelay: 0.2
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: smmon_3_0
     - sprite: {fileID: 21300002, guid: 304af769e1b01554fbb3e4d9ada4d49f, type: 3}
       spriteName: smmon_3_1
       secondDelay: 0.2
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: smmon_3_1
     - sprite: {fileID: 21300004, guid: 304af769e1b01554fbb3e4d9ada4d49f, type: 3}
       spriteName: smmon_3_2
       secondDelay: 0.2
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: smmon_3_2
     - sprite: {fileID: 21300006, guid: 304af769e1b01554fbb3e4d9ada4d49f, type: 3}
       spriteName: smmon_3_3
       secondDelay: 0.2
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: smmon_3_3
   IsPalette: 0
   setID: 16284

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: human_l_arm_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: human_l_arm_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 222c24fb2cec6c44fbcdedd812f8b7c5, type: 3}
       spriteName: human_l_arm_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: human_l_arm_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 222c24fb2cec6c44fbcdedd812f8b7c5, type: 3}
       spriteName: human_l_arm_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: human_l_arm_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 222c24fb2cec6c44fbcdedd812f8b7c5, type: 3}
       spriteName: human_l_arm_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: human_l_arm_3
   IsPalette: 0
   setID: 22465

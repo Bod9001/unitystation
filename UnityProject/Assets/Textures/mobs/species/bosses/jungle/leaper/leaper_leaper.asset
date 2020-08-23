@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: leaper_0
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: leaper_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6f1a7dd20b7d3b64bb0ed22c4e2169e8, type: 3}
       spriteName: leaper_1
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: leaper_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6f1a7dd20b7d3b64bb0ed22c4e2169e8, type: 3}
       spriteName: leaper_2
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: leaper_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6f1a7dd20b7d3b64bb0ed22c4e2169e8, type: 3}
       spriteName: leaper_3
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: leaper_3
   IsPalette: 0
   setID: 12000

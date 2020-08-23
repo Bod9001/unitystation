@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: trek_ent_medsci_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trek_ent_medsci_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 61e8619a74c141946b5e29640be5673d, type: 3}
       spriteName: trek_ent_medsci_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trek_ent_medsci_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 61e8619a74c141946b5e29640be5673d, type: 3}
       spriteName: trek_ent_medsci_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trek_ent_medsci_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 61e8619a74c141946b5e29640be5673d, type: 3}
       spriteName: trek_ent_medsci_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trek_ent_medsci_3
   IsPalette: 0
   setID: 1090

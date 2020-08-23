@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: intern_hat_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: intern_hat_0
   - Frames:
     - sprite: {fileID: -2579737038437453133, guid: c07857f08e158af42b3bf1ffa039f46f,
         type: 3}
       spriteName: intern_hat_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: intern_hat_1
   - Frames:
     - sprite: {fileID: 7131806911334070150, guid: c07857f08e158af42b3bf1ffa039f46f,
         type: 3}
       spriteName: intern_hat_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: intern_hat_2
   - Frames:
     - sprite: {fileID: 2862532489171072288, guid: c07857f08e158af42b3bf1ffa039f46f,
         type: 3}
       spriteName: intern_hat_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: intern_hat_3
   IsPalette: 0
   setID: 20230

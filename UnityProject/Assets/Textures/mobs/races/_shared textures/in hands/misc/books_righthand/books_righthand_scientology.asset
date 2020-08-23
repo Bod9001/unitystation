@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: scientology_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: scientology_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b59ff021fc0638b4bad0afed80a82051, type: 3}
       spriteName: scientology_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: scientology_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b59ff021fc0638b4bad0afed80a82051, type: 3}
       spriteName: scientology_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: scientology_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b59ff021fc0638b4bad0afed80a82051, type: 3}
       spriteName: scientology_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: scientology_3
   IsPalette: 0
   setID: 10409

@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: floor_beacon_0
       secondDelay: 0.2
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: floor_beacon_0
     - sprite: {fileID: 21300002, guid: 3eb14b08f312370439bc7c97d317af61, type: 3}
       spriteName: floor_beacon_1
       secondDelay: 0.2
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: floor_beacon_1
     - sprite: {fileID: 21300004, guid: 3eb14b08f312370439bc7c97d317af61, type: 3}
       spriteName: floor_beacon_2
       secondDelay: 0.2
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: floor_beacon_2
     - sprite: {fileID: 21300006, guid: 3eb14b08f312370439bc7c97d317af61, type: 3}
       spriteName: floor_beacon_3
       secondDelay: 0.2
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: floor_beacon_3
     - sprite: {fileID: 21300008, guid: 3eb14b08f312370439bc7c97d317af61, type: 3}
       spriteName: floor_beacon_4
       secondDelay: 0.5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: floor_beacon_4
   IsPalette: 0
   setID: 16356

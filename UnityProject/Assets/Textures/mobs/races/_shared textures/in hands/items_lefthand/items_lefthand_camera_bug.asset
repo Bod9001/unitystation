@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: camera_bug_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: camera_bug_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b0e60bca312755d4aa37b1cd78d8a482, type: 3}
       spriteName: camera_bug_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: camera_bug_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b0e60bca312755d4aa37b1cd78d8a482, type: 3}
       spriteName: camera_bug_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: camera_bug_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b0e60bca312755d4aa37b1cd78d8a482, type: 3}
       spriteName: camera_bug_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: camera_bug_3
   IsPalette: 0
   setID: 10310

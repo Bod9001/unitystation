@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: orangeclown_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: orangeclown_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 841e4fad2ce3ea341baef97c52b7b01e, type: 3}
       spriteName: orangeclown_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: orangeclown_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 841e4fad2ce3ea341baef97c52b7b01e, type: 3}
       spriteName: orangeclown_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: orangeclown_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 841e4fad2ce3ea341baef97c52b7b01e, type: 3}
       spriteName: orangeclown_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: orangeclown_3
   IsPalette: 0
   setID: 22145

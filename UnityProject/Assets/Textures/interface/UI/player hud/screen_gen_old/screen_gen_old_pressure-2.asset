@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: pressure-2_0
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pressure-2_0
     - sprite: {fileID: 21300002, guid: d9342445e08ae124885a38b94f86dc35, type: 3}
       spriteName: pressure-2_1
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pressure-2_1
   IsPalette: 0
   setID: 3587

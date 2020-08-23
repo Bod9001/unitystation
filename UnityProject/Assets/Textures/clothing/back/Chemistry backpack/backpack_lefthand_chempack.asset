@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: chempack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chempack_0
   - Frames:
     - sprite: {fileID: 6625552890754939371, guid: 7dd3b45448e00df42a2070aac942c240,
         type: 3}
       spriteName: chempack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chempack_1
   - Frames:
     - sprite: {fileID: -3111609793182167727, guid: 7dd3b45448e00df42a2070aac942c240,
         type: 3}
       spriteName: chempack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chempack_2
   - Frames:
     - sprite: {fileID: -3778812975740662564, guid: 7dd3b45448e00df42a2070aac942c240,
         type: 3}
       spriteName: chempack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chempack_3
   IsPalette: 0
   setID: 19720

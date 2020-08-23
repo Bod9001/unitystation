@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: fightgloves_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fightgloves_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2baa203037805ff4a812a4824485075f, type: 3}
       spriteName: fightgloves_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fightgloves_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2baa203037805ff4a812a4824485075f, type: 3}
       spriteName: fightgloves_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fightgloves_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2baa203037805ff4a812a4824485075f, type: 3}
       spriteName: fightgloves_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: fightgloves_3
   IsPalette: 0
   setID: 518

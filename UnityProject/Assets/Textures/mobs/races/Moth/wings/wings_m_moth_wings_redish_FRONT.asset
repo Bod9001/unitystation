@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: m_moth_wings_redish_FRONT_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_redish_FRONT_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d70a0000e5bcad54c8dcada2607cad09, type: 3}
       spriteName: m_moth_wings_redish_FRONT_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_redish_FRONT_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d70a0000e5bcad54c8dcada2607cad09, type: 3}
       spriteName: m_moth_wings_redish_FRONT_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_redish_FRONT_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d70a0000e5bcad54c8dcada2607cad09, type: 3}
       spriteName: m_moth_wings_redish_FRONT_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_redish_FRONT_3
   IsPalette: 0
   setID: 11326

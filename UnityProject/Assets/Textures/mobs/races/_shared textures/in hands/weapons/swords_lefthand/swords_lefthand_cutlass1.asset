@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: cutlass1_0
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass1_0
     - sprite: {fileID: 21300008, guid: 6bc7b9dcfb6582147859eff6736e1085, type: 3}
       spriteName: cutlass1_4
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass1_4
   - Frames:
     - sprite: {fileID: 21300002, guid: 6bc7b9dcfb6582147859eff6736e1085, type: 3}
       spriteName: cutlass1_1
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass1_1
     - sprite: {fileID: 21300010, guid: 6bc7b9dcfb6582147859eff6736e1085, type: 3}
       spriteName: cutlass1_5
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass1_5
   - Frames:
     - sprite: {fileID: 21300004, guid: 6bc7b9dcfb6582147859eff6736e1085, type: 3}
       spriteName: cutlass1_2
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass1_2
     - sprite: {fileID: 21300012, guid: 6bc7b9dcfb6582147859eff6736e1085, type: 3}
       spriteName: cutlass1_6
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass1_6
   - Frames:
     - sprite: {fileID: 21300006, guid: 6bc7b9dcfb6582147859eff6736e1085, type: 3}
       spriteName: cutlass1_3
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass1_3
     - sprite: {fileID: 21300014, guid: 6bc7b9dcfb6582147859eff6736e1085, type: 3}
       spriteName: cutlass1_7
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass1_7
   IsPalette: 0
   setID: 10907

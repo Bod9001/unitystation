@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_devilock_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_devilock_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4837740fd4f52e0428b748bce643a021, type: 3}
       spriteName: hair_devilock_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_devilock_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4837740fd4f52e0428b748bce643a021, type: 3}
       spriteName: hair_devilock_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_devilock_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4837740fd4f52e0428b748bce643a021, type: 3}
       spriteName: hair_devilock_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_devilock_3
   IsPalette: 0
   setID: 21943

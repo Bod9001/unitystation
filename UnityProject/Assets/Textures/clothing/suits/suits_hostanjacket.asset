@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hostanjacket_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostanjacket_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a600fb69afbf6ea4a94684fa7521e890, type: 3}
       spriteName: hostanjacket_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostanjacket_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a600fb69afbf6ea4a94684fa7521e890, type: 3}
       spriteName: hostanjacket_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostanjacket_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a600fb69afbf6ea4a94684fa7521e890, type: 3}
       spriteName: hostanjacket_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostanjacket_3
   IsPalette: 0
   setID: 901

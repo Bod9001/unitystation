@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: stock_parts_computer_4_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: stock_parts_computer_4_0
   - Frames:
     - sprite: {fileID: 4122597108679187228, guid: e678d79c50c4c2e4faa2103592185141,
         type: 3}
       spriteName: stock_parts_computer_4_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: stock_parts_computer_4_1
   - Frames:
     - sprite: {fileID: 268523174552085102, guid: e678d79c50c4c2e4faa2103592185141,
         type: 3}
       spriteName: stock_parts_computer_4_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: stock_parts_computer_4_2
   - Frames:
     - sprite: {fileID: -2775659756828637297, guid: e678d79c50c4c2e4faa2103592185141,
         type: 3}
       spriteName: stock_parts_computer_4_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: stock_parts_computer_4_3
   IsPalette: 0
   setID: 17239

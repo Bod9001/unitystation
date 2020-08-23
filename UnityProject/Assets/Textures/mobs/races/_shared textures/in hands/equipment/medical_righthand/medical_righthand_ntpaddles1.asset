@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: ntpaddles1_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ntpaddles1_0
   - Frames:
     - sprite: {fileID: 372305379065489682, guid: 9d6ee9e28e0bcef4eb961953ac957afb,
         type: 3}
       spriteName: ntpaddles1_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ntpaddles1_1
   - Frames:
     - sprite: {fileID: 5496896898594881183, guid: 9d6ee9e28e0bcef4eb961953ac957afb,
         type: 3}
       spriteName: ntpaddles1_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ntpaddles1_2
   - Frames:
     - sprite: {fileID: -2492863344823552153, guid: 9d6ee9e28e0bcef4eb961953ac957afb,
         type: 3}
       spriteName: ntpaddles1_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ntpaddles1_3
   IsPalette: 0
   setID: 23094

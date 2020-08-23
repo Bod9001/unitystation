@@ -18,10 +18,16 @@ MonoBehaviour:
       spriteName: economy_coin_uranium_heads
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: economy_coin_uranium_heads
   - Frames:
     - sprite: {fileID: 21300000, guid: b4b6914d12f58584fbbc1c65ebf19264, type: 3}
       spriteName: economy_coin_uranium_tails
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: economy_coin_uranium_tails
   IsPalette: 0
   setID: 6699

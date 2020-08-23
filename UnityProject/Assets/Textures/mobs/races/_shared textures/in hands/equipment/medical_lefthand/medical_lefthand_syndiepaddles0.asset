@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: syndiepaddles0_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: syndiepaddles0_0
   - Frames:
     - sprite: {fileID: -4755906379059729850, guid: f4bfd2c15e3eedc46ad4657a166254ec,
         type: 3}
       spriteName: syndiepaddles0_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: syndiepaddles0_1
   - Frames:
     - sprite: {fileID: 6142890665067566861, guid: f4bfd2c15e3eedc46ad4657a166254ec,
         type: 3}
       spriteName: syndiepaddles0_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: syndiepaddles0_2
   - Frames:
     - sprite: {fileID: -7799013906866191903, guid: f4bfd2c15e3eedc46ad4657a166254ec,
         type: 3}
       spriteName: syndiepaddles0_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: syndiepaddles0_3
   IsPalette: 0
   setID: 23054

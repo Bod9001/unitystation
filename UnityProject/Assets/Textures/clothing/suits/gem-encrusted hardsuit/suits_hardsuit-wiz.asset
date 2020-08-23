@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hardsuit-wiz_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-wiz_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
       spriteName: hardsuit-wiz_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-wiz_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
       spriteName: hardsuit-wiz_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-wiz_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a2d0b7889e1a4ba41a0f0cb82117080d, type: 3}
       spriteName: hardsuit-wiz_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-wiz_3
   IsPalette: 0
   setID: 20941

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tank_stripes_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tank_stripes_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8fb1cdea6983d234f9da7d1c0fbe1ac1, type: 3}
       spriteName: tank_stripes_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tank_stripes_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8fb1cdea6983d234f9da7d1c0fbe1ac1, type: 3}
       spriteName: tank_stripes_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tank_stripes_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8fb1cdea6983d234f9da7d1c0fbe1ac1, type: 3}
       spriteName: tank_stripes_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tank_stripes_3
   IsPalette: 0
   setID: 21321

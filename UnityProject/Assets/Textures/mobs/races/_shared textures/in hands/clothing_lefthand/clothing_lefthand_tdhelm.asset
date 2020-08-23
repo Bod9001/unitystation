@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tdhelm_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: tdhelm_0
   - Frames:
     - sprite: {fileID: 21300002, guid: efa5db43d69a0524f8d0bf1a749c8481, type: 3}
       spriteName: tdhelm_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: tdhelm_1
   - Frames:
     - sprite: {fileID: 21300004, guid: efa5db43d69a0524f8d0bf1a749c8481, type: 3}
       spriteName: tdhelm_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: tdhelm_2
   - Frames:
     - sprite: {fileID: 21300006, guid: efa5db43d69a0524f8d0bf1a749c8481, type: 3}
       spriteName: tdhelm_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: tdhelm_3
   IsPalette: 0
   setID: 9968

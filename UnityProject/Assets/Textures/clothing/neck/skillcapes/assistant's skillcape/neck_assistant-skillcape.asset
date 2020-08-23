@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: assistant-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: assistant-skillcape_0
   - Frames:
     - sprite: {fileID: -4023146072070386861, guid: 8e6dadacf618d5e46a24ca0fd8aad3e6,
         type: 3}
       spriteName: assistant-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: assistant-skillcape_1
   - Frames:
     - sprite: {fileID: -3391894306538090326, guid: 8e6dadacf618d5e46a24ca0fd8aad3e6,
         type: 3}
       spriteName: assistant-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: assistant-skillcape_2
   - Frames:
     - sprite: {fileID: 8252127476358956760, guid: 8e6dadacf618d5e46a24ca0fd8aad3e6,
         type: 3}
       spriteName: assistant-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: assistant-skillcape_3
   IsPalette: 0
   setID: 8096

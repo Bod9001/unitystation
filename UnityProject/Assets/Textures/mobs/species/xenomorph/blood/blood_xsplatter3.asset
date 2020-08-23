@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: xsplatter3_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: xsplatter3_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 92f2ef1367d507647a0817d8655ba3e1, type: 3}
       spriteName: xsplatter3_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: xsplatter3_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 92f2ef1367d507647a0817d8655ba3e1, type: 3}
       spriteName: xsplatter3_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: xsplatter3_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 92f2ef1367d507647a0817d8655ba3e1, type: 3}
       spriteName: xsplatter3_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: xsplatter3_3
   IsPalette: 0
   setID: 12670

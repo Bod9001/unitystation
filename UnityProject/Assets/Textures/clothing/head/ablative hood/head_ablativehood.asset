@@ -19,43 +19,67 @@ MonoBehaviour:
       spriteName: ablativehood_0
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativehood_0
     - sprite: {fileID: 4921556290802162384, guid: c67b6bc5283cd8447a5fc5d64bbd37fc,
         type: 3}
       spriteName: ablativehood_4
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativehood_4
   - Frames:
     - sprite: {fileID: -3112523821419763556, guid: c67b6bc5283cd8447a5fc5d64bbd37fc,
         type: 3}
       spriteName: ablativehood_1
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativehood_1
     - sprite: {fileID: 2246717058827271313, guid: c67b6bc5283cd8447a5fc5d64bbd37fc,
         type: 3}
       spriteName: ablativehood_5
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativehood_5
   - Frames:
     - sprite: {fileID: -8051981705798685130, guid: c67b6bc5283cd8447a5fc5d64bbd37fc,
         type: 3}
       spriteName: ablativehood_2
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativehood_2
     - sprite: {fileID: 894704891137492770, guid: c67b6bc5283cd8447a5fc5d64bbd37fc,
         type: 3}
       spriteName: ablativehood_6
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativehood_6
   - Frames:
     - sprite: {fileID: -827254528887304591, guid: c67b6bc5283cd8447a5fc5d64bbd37fc,
         type: 3}
       spriteName: ablativehood_3
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativehood_3
     - sprite: {fileID: 5279755711990175134, guid: c67b6bc5283cd8447a5fc5d64bbd37fc,
         type: 3}
       spriteName: ablativehood_7
       secondDelay: 0.5
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ablativehood_7
   IsPalette: 0
   setID: 20080

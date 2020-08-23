@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: clown_smile_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown_smile_0
   - Frames:
     - sprite: {fileID: -5550852678405910541, guid: 342af57e76fd90845b78d7f705802017,
         type: 3}
       spriteName: clown_smile_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown_smile_1
   - Frames:
     - sprite: {fileID: 5217474872006115622, guid: 342af57e76fd90845b78d7f705802017,
         type: 3}
       spriteName: clown_smile_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown_smile_2
   - Frames:
     - sprite: {fileID: 6276606290608010355, guid: 342af57e76fd90845b78d7f705802017,
         type: 3}
       spriteName: clown_smile_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown_smile_3
   IsPalette: 0
   setID: 23058

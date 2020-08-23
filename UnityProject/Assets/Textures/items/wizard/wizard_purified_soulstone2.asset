@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: purified_soulstone2_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: purified_soulstone2_0
     - sprite: {fileID: 21300002, guid: 94e323ddbe8eb9a4c9fd62999cdddffc, type: 3}
       spriteName: purified_soulstone2_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: purified_soulstone2_1
     - sprite: {fileID: 21300004, guid: 94e323ddbe8eb9a4c9fd62999cdddffc, type: 3}
       spriteName: purified_soulstone2_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: purified_soulstone2_2
   IsPalette: 0
   setID: 9569

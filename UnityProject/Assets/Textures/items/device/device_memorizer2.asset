@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: memorizer2_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: memorizer2_0
     - sprite: {fileID: 21300002, guid: bbd53ac316d999d4c96e2c746a1484e3, type: 3}
       spriteName: memorizer2_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: memorizer2_1
     - sprite: {fileID: 21300004, guid: bbd53ac316d999d4c96e2c746a1484e3, type: 3}
       spriteName: memorizer2_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: memorizer2_2
     - sprite: {fileID: 21300006, guid: bbd53ac316d999d4c96e2c746a1484e3, type: 3}
       spriteName: memorizer2_3
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: memorizer2_3
   IsPalette: 0
   setID: 6228

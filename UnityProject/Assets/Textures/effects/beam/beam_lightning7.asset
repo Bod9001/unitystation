@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: lightning7_0
       secondDelay: 0.12
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: lightning7_0
     - sprite: {fileID: 21300002, guid: 38bcf698e2b0caf4db3128121d2e289c, type: 3}
       spriteName: lightning7_1
       secondDelay: 0.08
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: lightning7_1
   IsPalette: 0
   setID: 1164

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bulb_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: bulb_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 16f408214667adc469ad08e1f9ceacab, type: 3}
       spriteName: bulb_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: bulb_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 16f408214667adc469ad08e1f9ceacab, type: 3}
       spriteName: bulb_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: bulb_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 16f408214667adc469ad08e1f9ceacab, type: 3}
       spriteName: bulb_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: bulb_3
   IsPalette: 0
   setID: 15607

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: corgi_shaved_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: corgi_shaved_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
       spriteName: corgi_shaved_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: corgi_shaved_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
       spriteName: corgi_shaved_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: corgi_shaved_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9ad21b20920e6bb40b0055f24277a4b9, type: 3}
       spriteName: corgi_shaved_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: corgi_shaved_3
   IsPalette: 0
   setID: 12200

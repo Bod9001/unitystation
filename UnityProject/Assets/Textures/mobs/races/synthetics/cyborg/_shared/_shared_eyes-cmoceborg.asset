@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: eyes-cmoceborg_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: eyes-cmoceborg_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b151c692a80e45349ac1c86bf15d1ab1, type: 3}
       spriteName: eyes-cmoceborg_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: eyes-cmoceborg_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b151c692a80e45349ac1c86bf15d1ab1, type: 3}
       spriteName: eyes-cmoceborg_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: eyes-cmoceborg_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b151c692a80e45349ac1c86bf15d1ab1, type: 3}
       spriteName: eyes-cmoceborg_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: eyes-cmoceborg_3
   IsPalette: 0
   setID: 11494

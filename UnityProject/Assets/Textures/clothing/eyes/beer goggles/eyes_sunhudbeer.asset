@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: sunhudbeer_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sunhudbeer_0
   - Frames:
     - sprite: {fileID: -4474664430704713142, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
       spriteName: sunhudbeer_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sunhudbeer_1
   - Frames:
     - sprite: {fileID: -7894543157591049939, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
       spriteName: sunhudbeer_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sunhudbeer_2
   - Frames:
     - sprite: {fileID: -383548051846170395, guid: 947b6663609affc4ea90acc423820a6e,
         type: 3}
       spriteName: sunhudbeer_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sunhudbeer_3
   IsPalette: 0
   setID: 19929

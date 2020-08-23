@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: r_secure_windoor_assembly01_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: r_secure_windoor_assembly01_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dfb3029a44e77a942af2c704826a45a3, type: 3}
       spriteName: r_secure_windoor_assembly01_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: r_secure_windoor_assembly01_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dfb3029a44e77a942af2c704826a45a3, type: 3}
       spriteName: r_secure_windoor_assembly01_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: r_secure_windoor_assembly01_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dfb3029a44e77a942af2c704826a45a3, type: 3}
       spriteName: r_secure_windoor_assembly01_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: r_secure_windoor_assembly01_3
   IsPalette: 0
   setID: 14766

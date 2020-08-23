@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: hot3_0
       secondDelay: 0.3
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hot3_0
     - sprite: {fileID: 21300002, guid: 60607623af25f5c40a94bcda4357f49a, type: 3}
       spriteName: hot3_1
       secondDelay: 0.3
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hot3_1
   IsPalette: 0
   setID: 3135

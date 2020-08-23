@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: clown posse_giggles_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clown posse_giggles_0
   - Frames:
     - sprite: {fileID: 2726965473214037176, guid: 72fbd852cf27fb846adf8bcc45494f41,
         type: 3}
       spriteName: clown posse_giggles_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clown posse_giggles_1
   - Frames:
     - sprite: {fileID: 1812061970996062034, guid: 72fbd852cf27fb846adf8bcc45494f41,
         type: 3}
       spriteName: clown posse_giggles_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clown posse_giggles_2
   - Frames:
     - sprite: {fileID: 5810255858646297261, guid: 72fbd852cf27fb846adf8bcc45494f41,
         type: 3}
       spriteName: clown posse_giggles_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clown posse_giggles_3
   IsPalette: 0
   setID: 12187

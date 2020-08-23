@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: red_cola_0
       secondDelay: 1.6
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: red_cola_0
     - sprite: {fileID: 21300002, guid: 9c28a4d47e68ef842bcb0655f49fbb3c, type: 3}
       spriteName: red_cola_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: red_cola_1
     - sprite: {fileID: 21300004, guid: 9c28a4d47e68ef842bcb0655f49fbb3c, type: 3}
       spriteName: red_cola_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: red_cola_2
     - sprite: {fileID: 21300006, guid: 9c28a4d47e68ef842bcb0655f49fbb3c, type: 3}
       spriteName: red_cola_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: red_cola_3
   IsPalette: 0
   setID: 17839

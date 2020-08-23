@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: redtag_empty_0
       secondDelay: 0.3
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: redtag_empty_0
     - sprite: {fileID: 21300002, guid: ceda3f691804991498d003b3f2fac71f, type: 3}
       spriteName: redtag_empty_1
       secondDelay: 0.3
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: redtag_empty_1
   IsPalette: 0
   setID: 7438

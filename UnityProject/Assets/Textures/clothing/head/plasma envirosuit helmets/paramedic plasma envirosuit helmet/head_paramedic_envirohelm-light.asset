@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: paramedic_envirohelm-light_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirohelm-light_0
   - Frames:
     - sprite: {fileID: 5222546753813699409, guid: a1c720badbb135349803ffde04df4018,
         type: 3}
       spriteName: paramedic_envirohelm-light_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirohelm-light_1
   - Frames:
     - sprite: {fileID: -303615469296019734, guid: a1c720badbb135349803ffde04df4018,
         type: 3}
       spriteName: paramedic_envirohelm-light_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirohelm-light_2
   - Frames:
     - sprite: {fileID: -5251151268719381313, guid: a1c720badbb135349803ffde04df4018,
         type: 3}
       spriteName: paramedic_envirohelm-light_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirohelm-light_3
   IsPalette: 0
   setID: 23039

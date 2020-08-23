@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: sheetrainbow_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sheetrainbow_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
       spriteName: sheetrainbow_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sheetrainbow_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
       spriteName: sheetrainbow_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sheetrainbow_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6dddff746af68f749ba57f03ec8efb4c, type: 3}
       spriteName: sheetrainbow_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sheetrainbow_3
   IsPalette: 0
   setID: 20689

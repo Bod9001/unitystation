@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: ambrosiadeus_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ambrosiadeus_0
   - Frames:
     - sprite: {fileID: 21300002, guid: daeb0bf338345d849b57a7cb270980a8, type: 3}
       spriteName: ambrosiadeus_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ambrosiadeus_1
   - Frames:
     - sprite: {fileID: 21300004, guid: daeb0bf338345d849b57a7cb270980a8, type: 3}
       spriteName: ambrosiadeus_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ambrosiadeus_2
   - Frames:
     - sprite: {fileID: 21300006, guid: daeb0bf338345d849b57a7cb270980a8, type: 3}
       spriteName: ambrosiadeus_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ambrosiadeus_3
   IsPalette: 0
   setID: 540

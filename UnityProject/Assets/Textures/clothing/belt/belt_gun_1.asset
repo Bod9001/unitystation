@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: gun_1_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gun_1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9175fb8b83582954894429b3f7f01395, type: 3}
       spriteName: gun_1_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gun_1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9175fb8b83582954894429b3f7f01395, type: 3}
       spriteName: gun_1_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gun_1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9175fb8b83582954894429b3f7f01395, type: 3}
       spriteName: gun_1_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gun_1_3
   IsPalette: 0
   setID: 399

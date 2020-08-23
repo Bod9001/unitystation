@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: syndicate_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 321bd12424b34ed43a2ec6e6f55a189b, type: 3}
       spriteName: syndicate_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 321bd12424b34ed43a2ec6e6f55a189b, type: 3}
       spriteName: syndicate_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 321bd12424b34ed43a2ec6e6f55a189b, type: 3}
       spriteName: syndicate_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: syndicate_3
   IsPalette: 0
   setID: 20495

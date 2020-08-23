@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: larva0_sleep_0
       secondDelay: 1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva0_sleep_0
     - sprite: {fileID: 21300002, guid: f6499c4bdd5587a4eb72398eebc59958, type: 3}
       spriteName: larva0_sleep_1
       secondDelay: 1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: larva0_sleep_1
   IsPalette: 0
   setID: 12775

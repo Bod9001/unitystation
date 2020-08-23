@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: Goliath_tentacle_wiggle_0
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_tentacle_wiggle_0
     - sprite: {fileID: 21300002, guid: ece0590195f5990468143bec9cc134de, type: 3}
       spriteName: Goliath_tentacle_wiggle_1
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_tentacle_wiggle_1
     - sprite: {fileID: 21300004, guid: ece0590195f5990468143bec9cc134de, type: 3}
       spriteName: Goliath_tentacle_wiggle_2
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_tentacle_wiggle_2
     - sprite: {fileID: 21300006, guid: ece0590195f5990468143bec9cc134de, type: 3}
       spriteName: Goliath_tentacle_wiggle_3
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_tentacle_wiggle_3
   IsPalette: 0
   setID: 12346

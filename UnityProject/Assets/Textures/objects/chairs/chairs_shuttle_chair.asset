@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: shuttle_chair_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_chair_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2e738cfa4e8eeb146b0170ed8a823162, type: 3}
       spriteName: shuttle_chair_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_chair_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2e738cfa4e8eeb146b0170ed8a823162, type: 3}
       spriteName: shuttle_chair_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_chair_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2e738cfa4e8eeb146b0170ed8a823162, type: 3}
       spriteName: shuttle_chair_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: shuttle_chair_3
   IsPalette: 0
   setID: 13214

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hazard_d_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hazard_d_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dcc7689bdfacce44d8d62d5d7ad3ec94, type: 3}
       spriteName: hazard_d_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hazard_d_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dcc7689bdfacce44d8d62d5d7ad3ec94, type: 3}
       spriteName: hazard_d_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hazard_d_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dcc7689bdfacce44d8d62d5d7ad3ec94, type: 3}
       spriteName: hazard_d_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hazard_d_3
   IsPalette: 0
   setID: 21499

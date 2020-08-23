@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: shadyjim_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: shadyjim_0
   - Frames:
     - sprite: {fileID: 8707923284343004939, guid: 3079101bcd34c2648b27573db7ef1663,
         type: 3}
       spriteName: shadyjim_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: shadyjim_1
   - Frames:
     - sprite: {fileID: 9202196774269656309, guid: 3079101bcd34c2648b27573db7ef1663,
         type: 3}
       spriteName: shadyjim_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: shadyjim_2
   - Frames:
     - sprite: {fileID: -4257979703359671726, guid: 3079101bcd34c2648b27573db7ef1663,
         type: 3}
       spriteName: shadyjim_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: shadyjim_3
   IsPalette: 0
   setID: 10136

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: gibhead_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: gibhead_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0d547165126a0624da41e781ccb7d970, type: 3}
       spriteName: gibhead_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: gibhead_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0d547165126a0624da41e781ccb7d970, type: 3}
       spriteName: gibhead_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: gibhead_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0d547165126a0624da41e781ccb7d970, type: 3}
       spriteName: gibhead_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: gibhead_3
   IsPalette: 0
   setID: 9647

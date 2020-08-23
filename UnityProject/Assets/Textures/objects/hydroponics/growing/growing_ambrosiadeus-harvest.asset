@@ -19,20 +19,32 @@ MonoBehaviour:
       spriteName: ambrosiadeus-harvest_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ambrosiadeus-harvest_0
     - sprite: {fileID: -6377104253469619982, guid: c0f5cec80c821784ba5407c96cb1eecd,
         type: 3}
       spriteName: ambrosiadeus-harvest_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ambrosiadeus-harvest_1
     - sprite: {fileID: 6108227276433093225, guid: c0f5cec80c821784ba5407c96cb1eecd,
         type: 3}
       spriteName: ambrosiadeus-harvest_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ambrosiadeus-harvest_2
     - sprite: {fileID: -4523610550349893649, guid: c0f5cec80c821784ba5407c96cb1eecd,
         type: 3}
       spriteName: ambrosiadeus-harvest_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ambrosiadeus-harvest_3
   IsPalette: 0
   setID: 22501

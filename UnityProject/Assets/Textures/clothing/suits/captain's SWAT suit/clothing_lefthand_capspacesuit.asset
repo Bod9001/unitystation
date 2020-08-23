@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: capspacesuit_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: capspacesuit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 419906f9acaabdc4a86d6ea10d7cb032, type: 3}
       spriteName: capspacesuit_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: capspacesuit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 419906f9acaabdc4a86d6ea10d7cb032, type: 3}
       spriteName: capspacesuit_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: capspacesuit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 419906f9acaabdc4a86d6ea10d7cb032, type: 3}
       spriteName: capspacesuit_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: capspacesuit_3
   IsPalette: 0
   setID: 20848

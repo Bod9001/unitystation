@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: prototype_envisor_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: prototype_envisor_0
   - Frames:
     - sprite: {fileID: -5589364134108478948, guid: 88df03c153ab5234c9e539a6b6a2bd77,
         type: 3}
       spriteName: prototype_envisor_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: prototype_envisor_1
   - Frames:
     - sprite: {fileID: -5162788276318458759, guid: 88df03c153ab5234c9e539a6b6a2bd77,
         type: 3}
       spriteName: prototype_envisor_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: prototype_envisor_2
   - Frames:
     - sprite: {fileID: 9030941194009924826, guid: 88df03c153ab5234c9e539a6b6a2bd77,
         type: 3}
       spriteName: prototype_envisor_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: prototype_envisor_3
   IsPalette: 0
   setID: 23043

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: Goliath_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ee8a624d5518f5b428c86f2f90c8b1b0, type: 3}
       spriteName: Goliath_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ee8a624d5518f5b428c86f2f90c8b1b0, type: 3}
       spriteName: Goliath_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ee8a624d5518f5b428c86f2f90c8b1b0, type: 3}
       spriteName: Goliath_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_3
   IsPalette: 0
   setID: 12335

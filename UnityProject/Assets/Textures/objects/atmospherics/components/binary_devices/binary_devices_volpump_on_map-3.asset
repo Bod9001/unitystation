@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: volpump_on_map-3_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: volpump_on_map-3_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bb816de99e9b7c646a6d3e3564ecb540, type: 3}
       spriteName: volpump_on_map-3_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: volpump_on_map-3_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bb816de99e9b7c646a6d3e3564ecb540, type: 3}
       spriteName: volpump_on_map-3_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: volpump_on_map-3_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bb816de99e9b7c646a6d3e3564ecb540, type: 3}
       spriteName: volpump_on_map-3_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: volpump_on_map-3_3
   IsPalette: 0
   setID: 12962

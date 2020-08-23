@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: darkmatter_glow_0
       secondDelay: 0.8
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: darkmatter_glow_0
     - sprite: {fileID: 21300002, guid: 20dccd1b66446dc4ba8a5ae13d74ee12, type: 3}
       spriteName: darkmatter_glow_1
       secondDelay: 0.4
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: darkmatter_glow_1
     - sprite: {fileID: 21300004, guid: 20dccd1b66446dc4ba8a5ae13d74ee12, type: 3}
       spriteName: darkmatter_glow_2
       secondDelay: 0.8
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: darkmatter_glow_2
     - sprite: {fileID: 21300006, guid: 20dccd1b66446dc4ba8a5ae13d74ee12, type: 3}
       spriteName: darkmatter_glow_3
       secondDelay: 0.4
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: darkmatter_glow_3
   IsPalette: 0
   setID: 17513

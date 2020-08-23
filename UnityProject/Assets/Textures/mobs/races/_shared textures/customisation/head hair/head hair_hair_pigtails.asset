@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_pigtails_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_pigtails_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 120f85747b886224bbae40c9fdef50e4, type: 3}
       spriteName: hair_pigtails_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_pigtails_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 120f85747b886224bbae40c9fdef50e4, type: 3}
       spriteName: hair_pigtails_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_pigtails_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 120f85747b886224bbae40c9fdef50e4, type: 3}
       spriteName: hair_pigtails_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_pigtails_3
   IsPalette: 0
   setID: 22006

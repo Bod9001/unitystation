@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: burning_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: burning_0
     - sprite: {fileID: 21300002, guid: 4b2290e2eef61dc4ba957524e974d33c, type: 3}
       spriteName: burning_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: burning_1
     - sprite: {fileID: 21300004, guid: 4b2290e2eef61dc4ba957524e974d33c, type: 3}
       spriteName: burning_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: burning_2
     - sprite: {fileID: 21300006, guid: 4b2290e2eef61dc4ba957524e974d33c, type: 3}
       spriteName: burning_3
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: burning_3
     - sprite: {fileID: 21300008, guid: 4b2290e2eef61dc4ba957524e974d33c, type: 3}
       spriteName: burning_4
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: burning_4
   IsPalette: 0
   setID: 8879

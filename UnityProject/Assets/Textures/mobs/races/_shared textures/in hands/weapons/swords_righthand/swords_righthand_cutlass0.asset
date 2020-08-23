@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cutlass0_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1d0d6f1f33203484e964c9a0f4ca006c, type: 3}
       spriteName: cutlass0_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1d0d6f1f33203484e964c9a0f4ca006c, type: 3}
       spriteName: cutlass0_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1d0d6f1f33203484e964c9a0f4ca006c, type: 3}
       spriteName: cutlass0_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutlass0_3
   IsPalette: 0
   setID: 10945

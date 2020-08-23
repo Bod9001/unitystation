@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: redtag_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redtag_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 63cc452882b4ec74585559b980da6a64, type: 3}
       spriteName: redtag_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redtag_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 63cc452882b4ec74585559b980da6a64, type: 3}
       spriteName: redtag_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redtag_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 63cc452882b4ec74585559b980da6a64, type: 3}
       spriteName: redtag_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redtag_3
   IsPalette: 0
   setID: 939

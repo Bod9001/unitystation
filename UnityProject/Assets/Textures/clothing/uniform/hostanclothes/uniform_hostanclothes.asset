@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hostanclothes_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostanclothes_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bcbb999d3102fe64083a0ce78c143e4a, type: 3}
       spriteName: hostanclothes_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostanclothes_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bcbb999d3102fe64083a0ce78c143e4a, type: 3}
       spriteName: hostanclothes_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostanclothes_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bcbb999d3102fe64083a0ce78c143e4a, type: 3}
       spriteName: hostanclothes_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostanclothes_3
   IsPalette: 0
   setID: 1030

@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: bluespace_0
       secondDelay: 1.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bluespace_0
     - sprite: {fileID: 21300002, guid: 63668ec65758b4148826aea3625b3572, type: 3}
       spriteName: bluespace_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bluespace_1
     - sprite: {fileID: 21300004, guid: 63668ec65758b4148826aea3625b3572, type: 3}
       spriteName: bluespace_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bluespace_2
     - sprite: {fileID: 21300006, guid: 63668ec65758b4148826aea3625b3572, type: 3}
       spriteName: bluespace_3
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bluespace_3
     - sprite: {fileID: 21300008, guid: 63668ec65758b4148826aea3625b3572, type: 3}
       spriteName: bluespace_4
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bluespace_4
   IsPalette: 0
   setID: 48

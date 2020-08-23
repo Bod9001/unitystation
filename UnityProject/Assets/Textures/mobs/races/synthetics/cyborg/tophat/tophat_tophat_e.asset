@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tophat_e_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: tophat_e_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c09e99df11e4b6140a81a3d1cc5b6481, type: 3}
       spriteName: tophat_e_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: tophat_e_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c09e99df11e4b6140a81a3d1cc5b6481, type: 3}
       spriteName: tophat_e_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: tophat_e_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c09e99df11e4b6140a81a3d1cc5b6481, type: 3}
       spriteName: tophat_e_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: tophat_e_3
   IsPalette: 0
   setID: 11693

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_braid_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_braid_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4b574e0ae297b4543b809da28307992c, type: 3}
       spriteName: hair_braid_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_braid_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4b574e0ae297b4543b809da28307992c, type: 3}
       spriteName: hair_braid_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_braid_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4b574e0ae297b4543b809da28307992c, type: 3}
       spriteName: hair_braid_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_braid_3
   IsPalette: 0
   setID: 21916

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: rejuvbottle_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rejuvbottle_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 623611db3157c224e9517146184fd6f6, type: 3}
       spriteName: rejuvbottle_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rejuvbottle_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 623611db3157c224e9517146184fd6f6, type: 3}
       spriteName: rejuvbottle_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rejuvbottle_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 623611db3157c224e9517146184fd6f6, type: 3}
       spriteName: rejuvbottle_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rejuvbottle_3
   IsPalette: 0
   setID: 10334

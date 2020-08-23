@@ -18,10 +18,16 @@ MonoBehaviour:
       spriteName: economy_coin_mythril_heads
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: economy_coin_mythril_heads
   - Frames:
     - sprite: {fileID: 21300000, guid: 173a8ae1d85fb264d8cca8508f61028e, type: 3}
       spriteName: economy_coin_mythril_tails
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: economy_coin_mythril_tails
   IsPalette: 0
   setID: 6689

@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: minemed-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: minemed-trimmed_0
   - Frames:
     - sprite: {fileID: 4147359243742894827, guid: 5665c5917af51e14aa7e2b3136d2a794,
         type: 3}
       spriteName: minemed-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: minemed-trimmed_1
   - Frames:
     - sprite: {fileID: -803051877815414151, guid: 5665c5917af51e14aa7e2b3136d2a794,
         type: 3}
       spriteName: minemed-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: minemed-trimmed_2
   - Frames:
     - sprite: {fileID: 7176235775108344408, guid: 5665c5917af51e14aa7e2b3136d2a794,
         type: 3}
       spriteName: minemed-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: minemed-trimmed_3
   IsPalette: 0
   setID: 23233

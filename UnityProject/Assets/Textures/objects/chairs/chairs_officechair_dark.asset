@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: officechair_dark_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: officechair_dark_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7d8d57f855b05d04aa1bfce4148d9f9b, type: 3}
       spriteName: officechair_dark_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: officechair_dark_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7d8d57f855b05d04aa1bfce4148d9f9b, type: 3}
       spriteName: officechair_dark_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: officechair_dark_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7d8d57f855b05d04aa1bfce4148d9f9b, type: 3}
       spriteName: officechair_dark_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: officechair_dark_3
   IsPalette: 0
   setID: 13212

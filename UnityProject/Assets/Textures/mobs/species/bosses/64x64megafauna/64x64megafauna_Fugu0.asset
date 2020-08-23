@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: Fugu0_0
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: Fugu0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 75ce968ff433949418384c97616c9918, type: 3}
       spriteName: Fugu0_1
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: Fugu0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 75ce968ff433949418384c97616c9918, type: 3}
       spriteName: Fugu0_2
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: Fugu0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 75ce968ff433949418384c97616c9918, type: 3}
       spriteName: Fugu0_3
       secondDelay: 0
       AtlasUsing: 1
+      TestAddress:
+        m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
+        m_SubObjectName: Fugu0_3
   IsPalette: 0
   setID: 11972

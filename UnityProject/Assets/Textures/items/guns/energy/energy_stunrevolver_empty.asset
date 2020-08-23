@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: stunrevolver_empty_0
       secondDelay: 0.3
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: stunrevolver_empty_0
     - sprite: {fileID: 21300002, guid: 88b898fd26e7fb0479b4229b0e9b6a09, type: 3}
       spriteName: stunrevolver_empty_1
       secondDelay: 0.3
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: stunrevolver_empty_1
   IsPalette: 0
   setID: 7447

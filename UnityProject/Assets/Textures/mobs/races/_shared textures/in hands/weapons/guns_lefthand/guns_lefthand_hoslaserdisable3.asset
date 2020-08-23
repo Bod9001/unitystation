@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hoslaserdisable3_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hoslaserdisable3_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bd3469cbad7f04640b1e8ac3d3abc2cb, type: 3}
       spriteName: hoslaserdisable3_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hoslaserdisable3_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bd3469cbad7f04640b1e8ac3d3abc2cb, type: 3}
       spriteName: hoslaserdisable3_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hoslaserdisable3_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bd3469cbad7f04640b1e8ac3d3abc2cb, type: 3}
       spriteName: hoslaserdisable3_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hoslaserdisable3_3
   IsPalette: 0
   setID: 10574

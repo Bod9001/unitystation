@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: creampie_xenomorph_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: creampie_xenomorph_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e5f7e5349c3b24141ab7bb8f4e912181, type: 3}
       spriteName: creampie_xenomorph_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: creampie_xenomorph_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e5f7e5349c3b24141ab7bb8f4e912181, type: 3}
       spriteName: creampie_xenomorph_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: creampie_xenomorph_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e5f7e5349c3b24141ab7bb8f4e912181, type: 3}
       spriteName: creampie_xenomorph_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: creampie_xenomorph_3
   IsPalette: 0
   setID: 12758

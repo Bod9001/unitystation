@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bandblack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bandblack_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 867882b4f1a0ca74aa9fe9a5e06edb31, type: 3}
       spriteName: bandblack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bandblack_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 867882b4f1a0ca74aa9fe9a5e06edb31, type: 3}
       spriteName: bandblack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bandblack_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 867882b4f1a0ca74aa9fe9a5e06edb31, type: 3}
       spriteName: bandblack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bandblack_3
   IsPalette: 0
   setID: 20530

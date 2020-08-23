@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: prog_bar_95_fail_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: prog_bar_95_fail_0
     - sprite: {fileID: 21300002, guid: dc19ead83d399524595d4e3a357094d4, type: 3}
       spriteName: prog_bar_95_fail_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: prog_bar_95_fail_1
   IsPalette: 0
   setID: 3918

@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: solar_beam_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: solar_beam_0
     - sprite: {fileID: 21300002, guid: 2bb6119a8b8c5a64e821f4e1622b8821, type: 3}
       spriteName: solar_beam_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: solar_beam_1
     - sprite: {fileID: 21300004, guid: 2bb6119a8b8c5a64e821f4e1622b8821, type: 3}
       spriteName: solar_beam_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: solar_beam_2
   IsPalette: 0
   setID: 1179

@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: cap-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cap-skillcape_0
   - Frames:
     - sprite: {fileID: 2440986499509880372, guid: f1962a3d04eaebe418cb28ca0570e59a,
         type: 3}
       spriteName: cap-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cap-skillcape_1
   - Frames:
     - sprite: {fileID: -3115201901831729571, guid: f1962a3d04eaebe418cb28ca0570e59a,
         type: 3}
       spriteName: cap-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cap-skillcape_2
   - Frames:
     - sprite: {fileID: -8331680268919939889, guid: f1962a3d04eaebe418cb28ca0570e59a,
         type: 3}
       spriteName: cap-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cap-skillcape_3
   IsPalette: 0
   setID: 13412

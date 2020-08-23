@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: yellowsoft_flipped_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: yellowsoft_flipped_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 642f5d5a55391c042946e47280edc97e, type: 3}
       spriteName: yellowsoft_flipped_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: yellowsoft_flipped_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 642f5d5a55391c042946e47280edc97e, type: 3}
       spriteName: yellowsoft_flipped_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: yellowsoft_flipped_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 642f5d5a55391c042946e47280edc97e, type: 3}
       spriteName: yellowsoft_flipped_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: yellowsoft_flipped_3
   IsPalette: 0
   setID: 20154

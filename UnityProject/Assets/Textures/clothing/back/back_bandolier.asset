@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bandolier_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bandolier_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 22e5b3000426de94a8c9aeb8d1f55a9f, type: 3}
       spriteName: bandolier_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bandolier_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 22e5b3000426de94a8c9aeb8d1f55a9f, type: 3}
       spriteName: bandolier_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bandolier_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 22e5b3000426de94a8c9aeb8d1f55a9f, type: 3}
       spriteName: bandolier_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bandolier_3
   IsPalette: 0
   setID: 256

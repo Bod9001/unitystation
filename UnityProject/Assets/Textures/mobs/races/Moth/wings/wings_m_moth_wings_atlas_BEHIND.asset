@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: m_moth_wings_atlas_BEHIND_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_atlas_BEHIND_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 02acbefb5e2f61241a8488801aa0979c, type: 3}
       spriteName: m_moth_wings_atlas_BEHIND_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_atlas_BEHIND_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 02acbefb5e2f61241a8488801aa0979c, type: 3}
       spriteName: m_moth_wings_atlas_BEHIND_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_atlas_BEHIND_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 02acbefb5e2f61241a8488801aa0979c, type: 3}
       spriteName: m_moth_wings_atlas_BEHIND_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_atlas_BEHIND_3
   IsPalette: 0
   setID: 11301

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_business_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_business_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ee20bfc0bba9d6a40b9192bb8640a2f8, type: 3}
       spriteName: hair_business_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_business_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ee20bfc0bba9d6a40b9192bb8640a2f8, type: 3}
       spriteName: hair_business_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_business_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ee20bfc0bba9d6a40b9192bb8640a2f8, type: 3}
       spriteName: hair_business_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_business_3
   IsPalette: 0
   setID: 21924

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: yellowcornersiding_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: yellowcornersiding_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9fc52cefaa4652e4cbd040bcebe2673a, type: 3}
       spriteName: yellowcornersiding_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: yellowcornersiding_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9fc52cefaa4652e4cbd040bcebe2673a, type: 3}
       spriteName: yellowcornersiding_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: yellowcornersiding_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9fc52cefaa4652e4cbd040bcebe2673a, type: 3}
       spriteName: yellowcornersiding_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: yellowcornersiding_3
   IsPalette: 0
   setID: 2401

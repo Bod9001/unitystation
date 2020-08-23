@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: qm_d_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: qm_d_0
   - Frames:
     - sprite: {fileID: 21300002, guid: db651337d091694458f4114610a40560, type: 3}
       spriteName: qm_d_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: qm_d_1
   - Frames:
     - sprite: {fileID: 21300004, guid: db651337d091694458f4114610a40560, type: 3}
       spriteName: qm_d_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: qm_d_2
   - Frames:
     - sprite: {fileID: 21300006, guid: db651337d091694458f4114610a40560, type: 3}
       spriteName: qm_d_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: qm_d_3
   IsPalette: 0
   setID: 21658

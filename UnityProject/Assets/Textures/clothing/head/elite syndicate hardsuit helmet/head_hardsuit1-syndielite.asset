@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hardsuit1-syndielite_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit1-syndielite_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d682597c1ef67454288572b076eb9cce, type: 3}
       spriteName: hardsuit1-syndielite_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit1-syndielite_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d682597c1ef67454288572b076eb9cce, type: 3}
       spriteName: hardsuit1-syndielite_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit1-syndielite_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d682597c1ef67454288572b076eb9cce, type: 3}
       spriteName: hardsuit1-syndielite_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit1-syndielite_3
   IsPalette: 0
   setID: 20259

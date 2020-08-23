@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: curator-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: curator-skillcape_0
   - Frames:
     - sprite: {fileID: -7867874267967081269, guid: a072dfc91d917f445beed7a6340090f7,
         type: 3}
       spriteName: curator-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: curator-skillcape_1
   - Frames:
     - sprite: {fileID: 1614232588570215365, guid: a072dfc91d917f445beed7a6340090f7,
         type: 3}
       spriteName: curator-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: curator-skillcape_2
   - Frames:
     - sprite: {fileID: -7866398910768018052, guid: a072dfc91d917f445beed7a6340090f7,
         type: 3}
       spriteName: curator-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: curator-skillcape_3
   IsPalette: 0
   setID: 23211

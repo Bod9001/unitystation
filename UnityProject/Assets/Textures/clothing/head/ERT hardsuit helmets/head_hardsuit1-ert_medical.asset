@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hardsuit1-ert_medical_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit1-ert_medical_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3199cdedde663ee41ac7aa5f66126c1d, type: 3}
       spriteName: hardsuit1-ert_medical_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit1-ert_medical_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3199cdedde663ee41ac7aa5f66126c1d, type: 3}
       spriteName: hardsuit1-ert_medical_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit1-ert_medical_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3199cdedde663ee41ac7aa5f66126c1d, type: 3}
       spriteName: hardsuit1-ert_medical_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit1-ert_medical_3
   IsPalette: 0
   setID: 20296

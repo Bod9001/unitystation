@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: adamantine_adult_slime_0
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: adamantine_adult_slime_0
     - sprite: {fileID: 21300002, guid: fe28e85cb98a2954f8bb5bc9df526a89, type: 3}
       spriteName: adamantine_adult_slime_1
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: adamantine_adult_slime_1
   IsPalette: 0
   setID: 12470

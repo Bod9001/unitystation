@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: power_box_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: power_box_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4b3009be1f4fc8141a4d6ff452084bb4, type: 3}
       spriteName: power_box_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: power_box_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4b3009be1f4fc8141a4d6ff452084bb4, type: 3}
       spriteName: power_box_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: power_box_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4b3009be1f4fc8141a4d6ff452084bb4, type: 3}
       spriteName: power_box_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: power_box_3
   IsPalette: 0
   setID: 15925

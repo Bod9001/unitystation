@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: chainswordon_0
       secondDelay: 0.01
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: chainswordon_0
     - sprite: {fileID: 21300002, guid: 80b47ff9d9de5464f8021e0966f21f36, type: 3}
       spriteName: chainswordon_1
       secondDelay: 0.01
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: chainswordon_1
   IsPalette: 0
   setID: 7742

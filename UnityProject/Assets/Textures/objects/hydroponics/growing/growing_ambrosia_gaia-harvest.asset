@@ -19,20 +19,32 @@ MonoBehaviour:
       spriteName: ambrosia_gaia-harvest_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ambrosia_gaia-harvest_0
     - sprite: {fileID: -831736467012320166, guid: 95ba766146d650b45b0c162ef74d9374,
         type: 3}
       spriteName: ambrosia_gaia-harvest_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ambrosia_gaia-harvest_1
     - sprite: {fileID: -785500156464608863, guid: 95ba766146d650b45b0c162ef74d9374,
         type: 3}
       spriteName: ambrosia_gaia-harvest_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ambrosia_gaia-harvest_2
     - sprite: {fileID: -5876727616270119395, guid: 95ba766146d650b45b0c162ef74d9374,
         type: 3}
       spriteName: ambrosia_gaia-harvest_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ambrosia_gaia-harvest_3
   IsPalette: 0
   setID: 22494

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: laser_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: laser_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2f85300042afa5e4a8d6b89de3cf00dc, type: 3}
       spriteName: laser_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: laser_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2f85300042afa5e4a8d6b89de3cf00dc, type: 3}
       spriteName: laser_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: laser_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2f85300042afa5e4a8d6b89de3cf00dc, type: 3}
       spriteName: laser_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: laser_3
   IsPalette: 0
   setID: 22411

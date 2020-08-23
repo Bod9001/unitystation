@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: sepia_baby_slime_eat_0
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: sepia_baby_slime_eat_0
     - sprite: {fileID: 21300002, guid: 34725640e2571b64381ebe10a1b9ce51, type: 3}
       spriteName: sepia_baby_slime_eat_1
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: sepia_baby_slime_eat_1
   IsPalette: 0
   setID: 12615

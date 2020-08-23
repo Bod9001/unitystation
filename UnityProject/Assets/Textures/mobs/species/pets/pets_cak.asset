@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cak_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: cak_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f7bfc8a73b032334480074209bf3965a, type: 3}
       spriteName: cak_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: cak_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f7bfc8a73b032334480074209bf3965a, type: 3}
       spriteName: cak_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: cak_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f7bfc8a73b032334480074209bf3965a, type: 3}
       spriteName: cak_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: cak_3
   IsPalette: 0
   setID: 12384

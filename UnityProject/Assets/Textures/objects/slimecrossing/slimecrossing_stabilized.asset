@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: stabilized_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: stabilized_0
     - sprite: {fileID: 21300002, guid: 1fb21694b94986641b8c86a0a8880d56, type: 3}
       spriteName: stabilized_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: stabilized_1
   IsPalette: 0
   setID: 16796

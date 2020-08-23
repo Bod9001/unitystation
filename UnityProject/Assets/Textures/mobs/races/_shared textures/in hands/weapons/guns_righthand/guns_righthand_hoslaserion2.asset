@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hoslaserion2_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hoslaserion2_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e272e5f4bb0fdfc47b8e367b373c0649, type: 3}
       spriteName: hoslaserion2_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hoslaserion2_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e272e5f4bb0fdfc47b8e367b373c0649, type: 3}
       spriteName: hoslaserion2_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hoslaserion2_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e272e5f4bb0fdfc47b8e367b373c0649, type: 3}
       spriteName: hoslaserion2_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hoslaserion2_3
   IsPalette: 0
   setID: 10735

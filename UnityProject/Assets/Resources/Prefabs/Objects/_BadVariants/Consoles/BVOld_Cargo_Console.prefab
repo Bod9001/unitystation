@@ -94,11 +94,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: ce3b529746b461e4aa92e1298b9b6921
+    m_SubObjectName: 
+  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: ce3b529746b461e4aa92e1298b9b6921, type: 2}
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
+  Sprites: []
 --- !u!1 &3365708065215268791
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,9 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8cac74219314e4e8ba276ffc22f95b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenFrames: 0.2
   spriteHandler: {fileID: 0}
-  screenGlow: {fileID: 3366091159237444427}
+  ScreenGlow: {fileID: 0}
 --- !u!114 &5210483117512304919
 MonoBehaviour:
   m_ObjectHideFlags: 0

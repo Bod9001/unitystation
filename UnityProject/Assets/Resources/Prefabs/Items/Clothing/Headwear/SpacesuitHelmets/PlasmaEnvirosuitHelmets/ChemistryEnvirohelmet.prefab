@@ -21,7 +21,7 @@ PrefabInstance:
     - target: {fileID: 911725522681720307, guid: 2c46f309a45d8714f9c5db5361e854e6,
         type: 3}
       propertyPath: m_Name
-      value: ChemistryPlasmaEnvirosuitHelmet
+      value: ChemistryEnvirohelmet
       objectReference: {fileID: 0}
     - target: {fileID: 915527771566739591, guid: 2c46f309a45d8714f9c5db5361e854e6,
         type: 3}
@@ -101,5 +101,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 689278b49e48fe749be4a03176d797d4,
         type: 2}
+    - target: {fileID: 6476465160503121524, guid: 2c46f309a45d8714f9c5db5361e854e6,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: 689278b49e48fe749be4a03176d797d4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c46f309a45d8714f9c5db5361e854e6, type: 3}

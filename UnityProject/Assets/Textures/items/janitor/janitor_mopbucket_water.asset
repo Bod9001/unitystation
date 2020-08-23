@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: mopbucket_water_0
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: mopbucket_water_0
     - sprite: {fileID: 21300002, guid: efb98a0630da584468139dbe88dd8a78, type: 3}
       spriteName: mopbucket_water_1
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: mopbucket_water_1
     - sprite: {fileID: 21300004, guid: efb98a0630da584468139dbe88dd8a78, type: 3}
       spriteName: mopbucket_water_2
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: mopbucket_water_2
   IsPalette: 0
   setID: 8020

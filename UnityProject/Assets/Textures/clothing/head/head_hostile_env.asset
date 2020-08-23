@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hostile_env_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostile_env_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d3c4a0dd3246df94b8a1d2c81bdff320, type: 3}
       spriteName: hostile_env_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostile_env_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d3c4a0dd3246df94b8a1d2c81bdff320, type: 3}
       spriteName: hostile_env_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostile_env_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d3c4a0dd3246df94b8a1d2c81bdff320, type: 3}
       spriteName: hostile_env_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hostile_env_3
   IsPalette: 0
   setID: 629

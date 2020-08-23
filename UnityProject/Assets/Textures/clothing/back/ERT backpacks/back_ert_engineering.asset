@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: ert_engineering_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ert_engineering_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cfe3f95042a763d4e96d07c27104e096, type: 3}
       spriteName: ert_engineering_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ert_engineering_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cfe3f95042a763d4e96d07c27104e096, type: 3}
       spriteName: ert_engineering_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ert_engineering_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cfe3f95042a763d4e96d07c27104e096, type: 3}
       spriteName: ert_engineering_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ert_engineering_3
   IsPalette: 0
   setID: 19733

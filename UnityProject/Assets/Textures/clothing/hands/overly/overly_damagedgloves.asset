@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: damagedgloves_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: damagedgloves_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8b5996ed0b79be84ea5f271583c3e9b3, type: 3}
       spriteName: damagedgloves_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: damagedgloves_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8b5996ed0b79be84ea5f271583c3e9b3, type: 3}
       spriteName: damagedgloves_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: damagedgloves_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8b5996ed0b79be84ea5f271583c3e9b3, type: 3}
       spriteName: damagedgloves_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: damagedgloves_3
   IsPalette: 0
   setID: 528

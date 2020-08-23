@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: scrubspurple_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scrubspurple_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7bdca195447c4f547a0ad8cd87349fe0, type: 3}
       spriteName: scrubspurple_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scrubspurple_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7bdca195447c4f547a0ad8cd87349fe0, type: 3}
       spriteName: scrubspurple_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scrubspurple_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7bdca195447c4f547a0ad8cd87349fe0, type: 3}
       spriteName: scrubspurple_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scrubspurple_3
   IsPalette: 0
   setID: 21714

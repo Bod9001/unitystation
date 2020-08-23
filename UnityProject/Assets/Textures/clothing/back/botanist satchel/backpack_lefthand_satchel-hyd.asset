@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: satchel-hyd_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-hyd_0
   - Frames:
     - sprite: {fileID: -1559048608886145583, guid: 950d9c511292c2e4183763c243c7996d,
         type: 3}
       spriteName: satchel-hyd_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-hyd_1
   - Frames:
     - sprite: {fileID: 732764566721328609, guid: 950d9c511292c2e4183763c243c7996d,
         type: 3}
       spriteName: satchel-hyd_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-hyd_2
   - Frames:
     - sprite: {fileID: -5535346000671217059, guid: 950d9c511292c2e4183763c243c7996d,
         type: 3}
       spriteName: satchel-hyd_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-hyd_3
   IsPalette: 0
   setID: 19696

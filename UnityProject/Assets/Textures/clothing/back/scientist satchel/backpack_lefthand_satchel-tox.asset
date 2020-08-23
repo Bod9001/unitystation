@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: satchel-tox_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-tox_0
   - Frames:
     - sprite: {fileID: -6952683151568123881, guid: 9d5d1e2da243f3f4ca2f46632980b6a7,
         type: 3}
       spriteName: satchel-tox_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-tox_1
   - Frames:
     - sprite: {fileID: -5330364385534545045, guid: 9d5d1e2da243f3f4ca2f46632980b6a7,
         type: 3}
       spriteName: satchel-tox_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-tox_2
   - Frames:
     - sprite: {fileID: -5164542134606920279, guid: 9d5d1e2da243f3f4ca2f46632980b6a7,
         type: 3}
       spriteName: satchel-tox_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: satchel-tox_3
   IsPalette: 0
   setID: 19814

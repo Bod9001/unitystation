@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: trek_engsec_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trek_engsec_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c35c0ae5fea83eb44aae37ae989a35b4, type: 3}
       spriteName: trek_engsec_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trek_engsec_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c35c0ae5fea83eb44aae37ae989a35b4, type: 3}
       spriteName: trek_engsec_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trek_engsec_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c35c0ae5fea83eb44aae37ae989a35b4, type: 3}
       spriteName: trek_engsec_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: trek_engsec_3
   IsPalette: 0
   setID: 1087

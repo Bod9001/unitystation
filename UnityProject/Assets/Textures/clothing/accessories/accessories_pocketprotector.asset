@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pocketprotector_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pocketprotector_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3ba02a0286021cf448161fc21a833f47, type: 3}
       spriteName: pocketprotector_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pocketprotector_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3ba02a0286021cf448161fc21a833f47, type: 3}
       spriteName: pocketprotector_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pocketprotector_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3ba02a0286021cf448161fc21a833f47, type: 3}
       spriteName: pocketprotector_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pocketprotector_3
   IsPalette: 0
   setID: 243

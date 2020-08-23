@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: sky_bulge0_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sky_bulge0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1ac605808a69c3f4daf8badd04059c40, type: 3}
       spriteName: sky_bulge0_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sky_bulge0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1ac605808a69c3f4daf8badd04059c40, type: 3}
       spriteName: sky_bulge0_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sky_bulge0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1ac605808a69c3f4daf8badd04059c40, type: 3}
       spriteName: sky_bulge0_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: sky_bulge0_3
   IsPalette: 0
   setID: 10337

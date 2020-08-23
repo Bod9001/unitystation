@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: knife_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: knife_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6a366f9da25f6ba48847f79a104c9ca0, type: 3}
       spriteName: knife_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: knife_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6a366f9da25f6ba48847f79a104c9ca0, type: 3}
       spriteName: knife_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: knife_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6a366f9da25f6ba48847f79a104c9ca0, type: 3}
       spriteName: knife_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: knife_3
   IsPalette: 0
   setID: 10103

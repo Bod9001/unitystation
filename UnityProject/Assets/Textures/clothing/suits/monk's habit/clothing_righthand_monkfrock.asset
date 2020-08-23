@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: monkfrock_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monkfrock_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6fee4e031e1b86d4ba9b7e2dff4004e1, type: 3}
       spriteName: monkfrock_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monkfrock_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6fee4e031e1b86d4ba9b7e2dff4004e1, type: 3}
       spriteName: monkfrock_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monkfrock_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6fee4e031e1b86d4ba9b7e2dff4004e1, type: 3}
       spriteName: monkfrock_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monkfrock_3
   IsPalette: 0
   setID: 21006

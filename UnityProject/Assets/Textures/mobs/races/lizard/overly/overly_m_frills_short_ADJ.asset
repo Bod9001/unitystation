@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: m_frills_short_ADJ_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_frills_short_ADJ_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a8d8d5783c5d56d4eb0ae9252fd656ab, type: 3}
       spriteName: m_frills_short_ADJ_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_frills_short_ADJ_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a8d8d5783c5d56d4eb0ae9252fd656ab, type: 3}
       spriteName: m_frills_short_ADJ_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_frills_short_ADJ_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a8d8d5783c5d56d4eb0ae9252fd656ab, type: 3}
       spriteName: m_frills_short_ADJ_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_frills_short_ADJ_3
   IsPalette: 0
   setID: 11199

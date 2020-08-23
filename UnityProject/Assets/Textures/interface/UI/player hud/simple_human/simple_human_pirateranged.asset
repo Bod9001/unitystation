@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pirateranged_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pirateranged_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dfde37ebcc7f0aa4e8b589fb0e4e3430, type: 3}
       spriteName: pirateranged_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pirateranged_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dfde37ebcc7f0aa4e8b589fb0e4e3430, type: 3}
       spriteName: pirateranged_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pirateranged_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dfde37ebcc7f0aa4e8b589fb0e4e3430, type: 3}
       spriteName: pirateranged_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: pirateranged_3
   IsPalette: 0
   setID: 3849

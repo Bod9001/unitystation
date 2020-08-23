@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: alarm_b1_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: alarm_b1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e639a62ea1a66be44b8b3da53d16f48d, type: 3}
       spriteName: alarm_b1_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: alarm_b1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e639a62ea1a66be44b8b3da53d16f48d, type: 3}
       spriteName: alarm_b1_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: alarm_b1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e639a62ea1a66be44b8b3da53d16f48d, type: 3}
       spriteName: alarm_b1_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: alarm_b1_3
   IsPalette: 0
   setID: 16310

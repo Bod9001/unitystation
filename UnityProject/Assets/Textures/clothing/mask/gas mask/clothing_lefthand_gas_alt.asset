@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: gas_alt_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_alt_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 67dc2bd7dfb839b44951eb95b70617ab, type: 3}
       spriteName: gas_alt_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_alt_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 67dc2bd7dfb839b44951eb95b70617ab, type: 3}
       spriteName: gas_alt_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_alt_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 67dc2bd7dfb839b44951eb95b70617ab, type: 3}
       spriteName: gas_alt_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gas_alt_3
   IsPalette: 0
   setID: 20588

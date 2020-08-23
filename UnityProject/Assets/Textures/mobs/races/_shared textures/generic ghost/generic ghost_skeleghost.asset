@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: skeleghost_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: skeleghost_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9dd5c89f647289b4486b34fdef2324ec, type: 3}
       spriteName: skeleghost_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: skeleghost_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9dd5c89f647289b4486b34fdef2324ec, type: 3}
       spriteName: skeleghost_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: skeleghost_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9dd5c89f647289b4486b34fdef2324ec, type: 3}
       spriteName: skeleghost_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: skeleghost_3
   IsPalette: 0
   setID: 9856

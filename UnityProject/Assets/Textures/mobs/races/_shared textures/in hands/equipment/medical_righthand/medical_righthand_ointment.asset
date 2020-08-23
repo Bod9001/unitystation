@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: ointment_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ointment_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 36c3fefce3ea90948882b0e5cce67f10, type: 3}
       spriteName: ointment_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ointment_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 36c3fefce3ea90948882b0e5cce67f10, type: 3}
       spriteName: ointment_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ointment_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 36c3fefce3ea90948882b0e5cce67f10, type: 3}
       spriteName: ointment_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ointment_3
   IsPalette: 0
   setID: 10147

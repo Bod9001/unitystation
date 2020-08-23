@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: faceless_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: faceless_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a5d47292cb5e0e147b632ebf982ad996, type: 3}
       spriteName: faceless_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: faceless_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a5d47292cb5e0e147b632ebf982ad996, type: 3}
       spriteName: faceless_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: faceless_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a5d47292cb5e0e147b632ebf982ad996, type: 3}
       spriteName: faceless_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: faceless_3
   IsPalette: 0
   setID: 3842

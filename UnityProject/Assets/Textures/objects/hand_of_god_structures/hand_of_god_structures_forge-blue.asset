@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: forge-blue_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: forge-blue_0
     - sprite: {fileID: 21300002, guid: 1314295f1dd955642b82dd885b77a28e, type: 3}
       spriteName: forge-blue_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: forge-blue_1
     - sprite: {fileID: 21300004, guid: 1314295f1dd955642b82dd885b77a28e, type: 3}
       spriteName: forge-blue_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: forge-blue_2
   IsPalette: 0
   setID: 15083

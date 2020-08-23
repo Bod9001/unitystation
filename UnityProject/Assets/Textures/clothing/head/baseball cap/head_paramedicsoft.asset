@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: paramedicsoft_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedicsoft_0
   - Frames:
     - sprite: {fileID: -2519741884037769561, guid: 26563b97fef82cf43bd92776a67a609d,
         type: 3}
       spriteName: paramedicsoft_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedicsoft_1
   - Frames:
     - sprite: {fileID: -9181449256079067572, guid: 26563b97fef82cf43bd92776a67a609d,
         type: 3}
       spriteName: paramedicsoft_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedicsoft_2
   - Frames:
     - sprite: {fileID: -4197242135553290801, guid: 26563b97fef82cf43bd92776a67a609d,
         type: 3}
       spriteName: paramedicsoft_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedicsoft_3
   IsPalette: 0
   setID: 20143

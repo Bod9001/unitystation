@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: coatwinter_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatwinter_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8c9d624a04741d44ba3037605413f0aa, type: 3}
       spriteName: coatwinter_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatwinter_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8c9d624a04741d44ba3037605413f0aa, type: 3}
       spriteName: coatwinter_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatwinter_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8c9d624a04741d44ba3037605413f0aa, type: 3}
       spriteName: coatwinter_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatwinter_3
   IsPalette: 0
   setID: 21230

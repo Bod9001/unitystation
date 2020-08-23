@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bunnyhead_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bunnyhead_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b8a180345c1750b4f919829ebedd795c, type: 3}
       spriteName: bunnyhead_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bunnyhead_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b8a180345c1750b4f919829ebedd795c, type: 3}
       spriteName: bunnyhead_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bunnyhead_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b8a180345c1750b4f919829ebedd795c, type: 3}
       spriteName: bunnyhead_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bunnyhead_3
   IsPalette: 0
   setID: 558

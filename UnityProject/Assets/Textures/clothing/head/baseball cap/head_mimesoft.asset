@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: mimesoft_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mimesoft_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f844c3b46c6bfc94f995c464caf0aa9b, type: 3}
       spriteName: mimesoft_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mimesoft_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f844c3b46c6bfc94f995c464caf0aa9b, type: 3}
       spriteName: mimesoft_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mimesoft_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f844c3b46c6bfc94f995c464caf0aa9b, type: 3}
       spriteName: mimesoft_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mimesoft_3
   IsPalette: 0
   setID: 20139

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: vest_combat_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: vest_combat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 57518170a9268cf49a4821352dca149c, type: 3}
       spriteName: vest_combat_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: vest_combat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 57518170a9268cf49a4821352dca149c, type: 3}
       spriteName: vest_combat_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: vest_combat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 57518170a9268cf49a4821352dca149c, type: 3}
       spriteName: vest_combat_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: vest_combat_3
   IsPalette: 0
   setID: 958

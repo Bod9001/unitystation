@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: volt_ray_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: volt_ray_0
     - sprite: {fileID: 21300002, guid: 5b24f504b5d7fdf478a39a38e269ffcf, type: 3}
       spriteName: volt_ray_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: volt_ray_1
     - sprite: {fileID: 21300004, guid: 5b24f504b5d7fdf478a39a38e269ffcf, type: 3}
       spriteName: volt_ray_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: volt_ray_2
   IsPalette: 0
   setID: 1183

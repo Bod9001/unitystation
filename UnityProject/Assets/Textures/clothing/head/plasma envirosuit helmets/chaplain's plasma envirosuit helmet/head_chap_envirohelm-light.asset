@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: chap_envirohelm-light_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chap_envirohelm-light_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dd31b0f1080da1b4b85c0ef7055d9146, type: 3}
       spriteName: chap_envirohelm-light_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chap_envirohelm-light_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dd31b0f1080da1b4b85c0ef7055d9146, type: 3}
       spriteName: chap_envirohelm-light_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chap_envirohelm-light_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dd31b0f1080da1b4b85c0ef7055d9146, type: 3}
       spriteName: chap_envirohelm-light_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chap_envirohelm-light_3
   IsPalette: 0
   setID: 564

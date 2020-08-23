@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: clowncar_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clowncar_0
     - sprite: {fileID: 21300008, guid: b99a4b36ef5be3a44877608a03ca056d, type: 3}
       spriteName: clowncar_4
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clowncar_4
   - Frames:
     - sprite: {fileID: 21300002, guid: b99a4b36ef5be3a44877608a03ca056d, type: 3}
       spriteName: clowncar_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clowncar_1
     - sprite: {fileID: 21300010, guid: b99a4b36ef5be3a44877608a03ca056d, type: 3}
       spriteName: clowncar_5
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clowncar_5
   - Frames:
     - sprite: {fileID: 21300004, guid: b99a4b36ef5be3a44877608a03ca056d, type: 3}
       spriteName: clowncar_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clowncar_2
     - sprite: {fileID: 21300012, guid: b99a4b36ef5be3a44877608a03ca056d, type: 3}
       spriteName: clowncar_6
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clowncar_6
   - Frames:
     - sprite: {fileID: 21300006, guid: b99a4b36ef5be3a44877608a03ca056d, type: 3}
       spriteName: clowncar_3
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clowncar_3
     - sprite: {fileID: 21300014, guid: b99a4b36ef5be3a44877608a03ca056d, type: 3}
       spriteName: clowncar_7
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clowncar_7
   IsPalette: 0
   setID: 19122

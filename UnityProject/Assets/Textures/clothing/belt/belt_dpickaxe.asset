@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: dpickaxe_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: dpickaxe_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c87c40b3977cf214bb19964a9a5745e7, type: 3}
       spriteName: dpickaxe_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: dpickaxe_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c87c40b3977cf214bb19964a9a5745e7, type: 3}
       spriteName: dpickaxe_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: dpickaxe_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c87c40b3977cf214bb19964a9a5745e7, type: 3}
       spriteName: dpickaxe_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: dpickaxe_3
   IsPalette: 0
   setID: 382

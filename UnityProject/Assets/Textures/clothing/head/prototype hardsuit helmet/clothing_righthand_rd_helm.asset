@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: rd_helm_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rd_helm_0
   - Frames:
     - sprite: {fileID: -7123290814350480799, guid: 815640b348d2277498f4b8d04269f82c,
         type: 3}
       spriteName: rd_helm_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rd_helm_1
   - Frames:
     - sprite: {fileID: -8981885213578659611, guid: 815640b348d2277498f4b8d04269f82c,
         type: 3}
       spriteName: rd_helm_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rd_helm_2
   - Frames:
     - sprite: {fileID: -6135785050917432977, guid: 815640b348d2277498f4b8d04269f82c,
         type: 3}
       spriteName: rd_helm_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rd_helm_3
   IsPalette: 0
   setID: 20398

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: christmasscarf_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: christmasscarf_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ced1d057600d62e478c8514e0050bed6, type: 3}
       spriteName: christmasscarf_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: christmasscarf_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ced1d057600d62e478c8514e0050bed6, type: 3}
       spriteName: christmasscarf_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: christmasscarf_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ced1d057600d62e478c8514e0050bed6, type: 3}
       spriteName: christmasscarf_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: christmasscarf_3
   IsPalette: 0
   setID: 12233

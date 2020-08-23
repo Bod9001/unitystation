@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: plaid_green_d_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plaid_green_d_0
   - Frames:
     - sprite: {fileID: 21300002, guid: df8e03aae49beff4e917c87cb6abe1cc, type: 3}
       spriteName: plaid_green_d_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plaid_green_d_1
   - Frames:
     - sprite: {fileID: 21300004, guid: df8e03aae49beff4e917c87cb6abe1cc, type: 3}
       spriteName: plaid_green_d_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plaid_green_d_2
   - Frames:
     - sprite: {fileID: 21300006, guid: df8e03aae49beff4e917c87cb6abe1cc, type: 3}
       spriteName: plaid_green_d_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plaid_green_d_3
   IsPalette: 0
   setID: 21525

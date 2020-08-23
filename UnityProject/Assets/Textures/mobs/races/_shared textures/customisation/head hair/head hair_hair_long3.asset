@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_long3_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_long3_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bfd08aacd25513d4b8687a9f969db06f, type: 3}
       spriteName: hair_long3_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_long3_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bfd08aacd25513d4b8687a9f969db06f, type: 3}
       spriteName: hair_long3_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_long3_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bfd08aacd25513d4b8687a9f969db06f, type: 3}
       spriteName: hair_long3_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_long3_3
   IsPalette: 0
   setID: 21982

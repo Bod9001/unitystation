@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: rped_upgrade_0
       secondDelay: 0.03
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: rped_upgrade_0
     - sprite: {fileID: 21300002, guid: f8c97a8d6364e2544b13b1f8daaba26a, type: 3}
       spriteName: rped_upgrade_1
       secondDelay: 0.03
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: rped_upgrade_1
     - sprite: {fileID: 21300004, guid: f8c97a8d6364e2544b13b1f8daaba26a, type: 3}
       spriteName: rped_upgrade_2
       secondDelay: 0.03
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: rped_upgrade_2
     - sprite: {fileID: 21300006, guid: f8c97a8d6364e2544b13b1f8daaba26a, type: 3}
       spriteName: rped_upgrade_3
       secondDelay: 0.03
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: rped_upgrade_3
   IsPalette: 0
   setID: 1176

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: gondola_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gondola_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 99ccfd7064d4700428c1352cb231d466, type: 3}
       spriteName: gondola_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gondola_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 99ccfd7064d4700428c1352cb231d466, type: 3}
       spriteName: gondola_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gondola_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 99ccfd7064d4700428c1352cb231d466, type: 3}
       spriteName: gondola_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: gondola_3
   IsPalette: 0
   setID: 21522

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_keanu_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_keanu_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 96b3d26e983450143ae8756c919bfe46, type: 3}
       spriteName: hair_keanu_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_keanu_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 96b3d26e983450143ae8756c919bfe46, type: 3}
       spriteName: hair_keanu_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_keanu_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 96b3d26e983450143ae8756c919bfe46, type: 3}
       spriteName: hair_keanu_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_keanu_3
   IsPalette: 0
   setID: 21976

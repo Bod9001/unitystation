@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: medipen_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: medipen_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9e08f690777dfcc4b97db0b2fcfb96fa, type: 3}
       spriteName: medipen_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: medipen_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9e08f690777dfcc4b97db0b2fcfb96fa, type: 3}
       spriteName: medipen_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: medipen_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9e08f690777dfcc4b97db0b2fcfb96fa, type: 3}
       spriteName: medipen_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: medipen_3
   IsPalette: 0
   setID: 22221

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: beanierasta_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: beanierasta_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bac563846cf4d05488fdc9f2b716202a, type: 3}
       spriteName: beanierasta_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: beanierasta_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bac563846cf4d05488fdc9f2b716202a, type: 3}
       spriteName: beanierasta_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: beanierasta_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bac563846cf4d05488fdc9f2b716202a, type: 3}
       spriteName: beanierasta_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: beanierasta_3
   IsPalette: 0
   setID: 20167

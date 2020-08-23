@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: helmet_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: helmet_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b2cbe53f4a2709f4faa5354cbbbe2b0d, type: 3}
       spriteName: helmet_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: helmet_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b2cbe53f4a2709f4faa5354cbbbe2b0d, type: 3}
       spriteName: helmet_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: helmet_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b2cbe53f4a2709f4faa5354cbbbe2b0d, type: 3}
       spriteName: helmet_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: helmet_3
   IsPalette: 0
   setID: 20349

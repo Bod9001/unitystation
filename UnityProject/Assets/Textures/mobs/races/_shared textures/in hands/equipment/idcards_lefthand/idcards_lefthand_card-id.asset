@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: card-id_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: card-id_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e398857a754d23b43b2d4f8a18d2682d, type: 3}
       spriteName: card-id_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: card-id_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e398857a754d23b43b2d4f8a18d2682d, type: 3}
       spriteName: card-id_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: card-id_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e398857a754d23b43b2d4f8a18d2682d, type: 3}
       spriteName: card-id_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: card-id_3
   IsPalette: 0
   setID: 22204

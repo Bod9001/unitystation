@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: kingyellow_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: kingyellow_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dfd86e17c10a8ab42aafa5b20ca407c8, type: 3}
       spriteName: kingyellow_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: kingyellow_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dfd86e17c10a8ab42aafa5b20ca407c8, type: 3}
       spriteName: kingyellow_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: kingyellow_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dfd86e17c10a8ab42aafa5b20ca407c8, type: 3}
       spriteName: kingyellow_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: kingyellow_3
   IsPalette: 0
   setID: 10404

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: coil_blue_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: coil_blue_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b631ce147d9787c46871b9ba9c41d743, type: 3}
       spriteName: coil_blue_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: coil_blue_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b631ce147d9787c46871b9ba9c41d743, type: 3}
       spriteName: coil_blue_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: coil_blue_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b631ce147d9787c46871b9ba9c41d743, type: 3}
       spriteName: coil_blue_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: coil_blue_3
   IsPalette: 0
   setID: 22280

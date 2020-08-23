@@ -59,7 +59,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 920c286f89116144f9dc93553e3c8282, type: 2}
   - {fileID: 11400000, guid: 70b5962f5e3ee5040b09428420050f19, type: 2}
   - {fileID: 11400000, guid: 32f7d89934e37324497a5fc40ea23abb, type: 2}
-  - {fileID: 11400000, guid: 2c89deeb0117b0f429dc2b0bcec9c770, type: 2}
+  - {fileID: 0}
 --- !u!114 &5316147545403001103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,9 +329,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: 920c286f89116144f9dc93553e3c8282
+    m_SubObjectName: 
+  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 920c286f89116144f9dc93553e3c8282, type: 2}
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
   Sprites: []

@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: Goliath_tentacle_retract_0
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_tentacle_retract_0
     - sprite: {fileID: 21300002, guid: 724efd0ee2ea2c9408d325786011d9b4, type: 3}
       spriteName: Goliath_tentacle_retract_1
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_tentacle_retract_1
     - sprite: {fileID: 21300004, guid: 724efd0ee2ea2c9408d325786011d9b4, type: 3}
       spriteName: Goliath_tentacle_retract_2
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_tentacle_retract_2
     - sprite: {fileID: 21300006, guid: 724efd0ee2ea2c9408d325786011d9b4, type: 3}
       spriteName: Goliath_tentacle_retract_3
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: Goliath_tentacle_retract_3
   IsPalette: 0
   setID: 12344

@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: hud_imp_chem_0
       secondDelay: 0.3
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hud_imp_chem_0
     - sprite: {fileID: 21300002, guid: ea47ef830cda56e4f834b7dfa1ade2f4, type: 3}
       spriteName: hud_imp_chem_1
       secondDelay: 0.3
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: hud_imp_chem_1
   IsPalette: 0
   setID: 2737

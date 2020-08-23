@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: rainbow_thigh_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rainbow_thigh_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 46675b3e1d7bc954e98b23b905b57112, type: 3}
       spriteName: rainbow_thigh_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rainbow_thigh_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 46675b3e1d7bc954e98b23b905b57112, type: 3}
       spriteName: rainbow_thigh_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rainbow_thigh_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 46675b3e1d7bc954e98b23b905b57112, type: 3}
       spriteName: rainbow_thigh_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rainbow_thigh_3
   IsPalette: 0
   setID: 21256

@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: skull-half_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: skull-half_0
   - Frames:
     - sprite: {fileID: -3465074350597913015, guid: 04a50e1463b61a840a3b40f7f3b735fe,
         type: 3}
       spriteName: skull-half_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: skull-half_1
   - Frames:
     - sprite: {fileID: 2184369231605102292, guid: 04a50e1463b61a840a3b40f7f3b735fe,
         type: 3}
       spriteName: skull-half_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: skull-half_2
   - Frames:
     - sprite: {fileID: -4015839718948130319, guid: 04a50e1463b61a840a3b40f7f3b735fe,
         type: 3}
       spriteName: skull-half_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: skull-half_3
   IsPalette: 0
   setID: 17159

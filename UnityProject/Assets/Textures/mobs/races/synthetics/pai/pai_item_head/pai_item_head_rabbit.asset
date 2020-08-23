@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: rabbit_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: rabbit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cd315ea0d28adc44b88c98eb849c2a44, type: 3}
       spriteName: rabbit_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: rabbit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cd315ea0d28adc44b88c98eb849c2a44, type: 3}
       spriteName: rabbit_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: rabbit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cd315ea0d28adc44b88c98eb849c2a44, type: 3}
       spriteName: rabbit_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: rabbit_3
   IsPalette: 0
   setID: 11741

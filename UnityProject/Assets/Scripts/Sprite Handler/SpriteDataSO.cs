@@ -35,6 +35,8 @@ public class SpriteDataSO : ScriptableObject
 		public string spriteName;
 		public float secondDelay;
 		public AddressableSpritesHandler.Atlas AtlasUsing;
+		public UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite TestAddress;
+
 
 		private Action CompleteReturn;
 
@@ -108,6 +110,33 @@ public class SpriteDataSO : ScriptableObject
 		EditorUtility.SetDirty(this);
 		EditorUtility.SetDirty(SpriteCatalogue.Instance);
 		AssetDatabase.SaveAssets();
+	}
+
+
+	public void StartSetSpriteAtlas()
+	{
+		Unity.EditorCoroutines.Editor.EditorCoroutineUtility.StartCoroutine(EditorSaveSpriteAtlas(), this);
+	}
+
+	IEnumerator EditorSaveSpriteAtlas()
+	{
+		yield return null;
+		SetSpriteAtlas();
+		EditorUtility.SetDirty(this);
+		AssetDatabase.SaveAssets();
+	}
+
+	public void SetSpriteAtlas()
+	{
+		foreach (var Varianc in Variance)
+		{
+			foreach (var Frame in Varianc.Frames)
+			{
+				var Stall = AddressableSpritesHandler.FindAtlasContainingSpriteAtlas(Frame.sprite);
+				Frame.TestAddress.SetEditorAsset(Stall);
+				Frame.TestAddress.SetEditorSubObject(Frame.sprite);
+			}
+		}
 	}
 #endif
 }

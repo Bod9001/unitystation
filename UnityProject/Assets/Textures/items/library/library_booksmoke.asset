@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: booksmoke_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: booksmoke_0
     - sprite: {fileID: 21300002, guid: 5ca8e789a0964fe4ab10fe78babc5d61, type: 3}
       spriteName: booksmoke_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: booksmoke_1
     - sprite: {fileID: 21300004, guid: 5ca8e789a0964fe4ab10fe78babc5d61, type: 3}
       spriteName: booksmoke_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: booksmoke_2
     - sprite: {fileID: 21300006, guid: 5ca8e789a0964fe4ab10fe78babc5d61, type: 3}
       spriteName: booksmoke_3
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: booksmoke_3
   IsPalette: 0
   setID: 8157

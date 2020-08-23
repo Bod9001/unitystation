@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: volumepump_0
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: volumepump_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b008ef1a7bff062418b087db3f1b82d5, type: 3}
       spriteName: volumepump_1
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: volumepump_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b008ef1a7bff062418b087db3f1b82d5, type: 3}
       spriteName: volumepump_2
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: volumepump_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b008ef1a7bff062418b087db3f1b82d5, type: 3}
       spriteName: volumepump_3
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: volumepump_3
   IsPalette: 0
   setID: 8579

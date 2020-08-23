@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: botany-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: botany-trimmed_0
   - Frames:
     - sprite: {fileID: 126516480341354425, guid: 97dd7b9e76bbef84b898afb92161ac6d,
         type: 3}
       spriteName: botany-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: botany-trimmed_1
   - Frames:
     - sprite: {fileID: -599485691027701417, guid: 97dd7b9e76bbef84b898afb92161ac6d,
         type: 3}
       spriteName: botany-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: botany-trimmed_2
   - Frames:
     - sprite: {fileID: 8777147451325467554, guid: 97dd7b9e76bbef84b898afb92161ac6d,
         type: 3}
       spriteName: botany-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: botany-trimmed_3
   IsPalette: 0
   setID: 8103

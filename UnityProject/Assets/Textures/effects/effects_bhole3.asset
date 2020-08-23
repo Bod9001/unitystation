@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: bhole3_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bhole3_0
     - sprite: {fileID: 21300002, guid: ac791c3f3027fb144b5e5b92aedf344a, type: 3}
       spriteName: bhole3_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bhole3_1
     - sprite: {fileID: 21300004, guid: ac791c3f3027fb144b5e5b92aedf344a, type: 3}
       spriteName: bhole3_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bhole3_2
     - sprite: {fileID: 21300006, guid: ac791c3f3027fb144b5e5b92aedf344a, type: 3}
       spriteName: bhole3_3
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: bhole3_3
   IsPalette: 0
   setID: 1270

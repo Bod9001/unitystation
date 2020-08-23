@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_parted_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_parted_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
       spriteName: hair_parted_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_parted_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
       spriteName: hair_parted_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_parted_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e62a3e2349d31bd42b102cbffe3912a7, type: 3}
       spriteName: hair_parted_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_parted_3
   IsPalette: 0
   setID: 22005

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: shirt_redjersey_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_redjersey_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 407eb6b0020b8934e8131fb1a404aab8, type: 3}
       spriteName: shirt_redjersey_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_redjersey_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 407eb6b0020b8934e8131fb1a404aab8, type: 3}
       spriteName: shirt_redjersey_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_redjersey_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 407eb6b0020b8934e8131fb1a404aab8, type: 3}
       spriteName: shirt_redjersey_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_redjersey_3
   IsPalette: 0
   setID: 21308

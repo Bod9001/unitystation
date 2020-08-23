@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: blackplasma_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackplasma_0
   - Frames:
     - sprite: {fileID: -3978785285439154241, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
       spriteName: blackplasma_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackplasma_1
   - Frames:
     - sprite: {fileID: 6812573463751213204, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
       spriteName: blackplasma_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackplasma_2
   - Frames:
     - sprite: {fileID: -3337200772770736780, guid: feeaad8f3c4e49b4083f55192d041044,
         type: 3}
       spriteName: blackplasma_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: blackplasma_3
   IsPalette: 0
   setID: 23003

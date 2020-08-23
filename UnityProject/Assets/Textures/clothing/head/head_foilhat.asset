@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: foilhat_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: foilhat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 065e9ea23d25b8742a5568c481b727c4, type: 3}
       spriteName: foilhat_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: foilhat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 065e9ea23d25b8742a5568c481b727c4, type: 3}
       spriteName: foilhat_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: foilhat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 065e9ea23d25b8742a5568c481b727c4, type: 3}
       spriteName: foilhat_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: foilhat_3
   IsPalette: 0
   setID: 598

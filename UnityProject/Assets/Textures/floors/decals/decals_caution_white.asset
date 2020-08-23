@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: caution_white_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: caution_white_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ff31f8fcd0d25ce45a67a6b7e6bfcf93, type: 3}
       spriteName: caution_white_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: caution_white_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ff31f8fcd0d25ce45a67a6b7e6bfcf93, type: 3}
       spriteName: caution_white_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: caution_white_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ff31f8fcd0d25ce45a67a6b7e6bfcf93, type: 3}
       spriteName: caution_white_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: caution_white_3
   IsPalette: 0
   setID: 1988

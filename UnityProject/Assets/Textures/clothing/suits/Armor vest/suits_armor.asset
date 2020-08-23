@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: armor_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armor_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8f922aa0d96500d4c8fd837a85f26cf3, type: 3}
       spriteName: armor_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armor_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8f922aa0d96500d4c8fd837a85f26cf3, type: 3}
       spriteName: armor_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armor_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8f922aa0d96500d4c8fd837a85f26cf3, type: 3}
       spriteName: armor_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armor_3
   IsPalette: 0
   setID: 20796

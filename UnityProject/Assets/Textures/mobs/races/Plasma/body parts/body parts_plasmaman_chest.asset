@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: plasmaman_chest_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: plasmaman_chest_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dfdf396afdb3ee04882fe6860976ffc1, type: 3}
       spriteName: plasmaman_chest_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: plasmaman_chest_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dfdf396afdb3ee04882fe6860976ffc1, type: 3}
       spriteName: plasmaman_chest_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: plasmaman_chest_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dfdf396afdb3ee04882fe6860976ffc1, type: 3}
       spriteName: plasmaman_chest_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: plasmaman_chest_3
   IsPalette: 0
   setID: 11351

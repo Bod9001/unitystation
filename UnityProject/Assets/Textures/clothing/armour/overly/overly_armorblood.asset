@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: armorblood_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armorblood_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 24a85653fdb1b154aa61fe717cb41dae, type: 3}
       spriteName: armorblood_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armorblood_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 24a85653fdb1b154aa61fe717cb41dae, type: 3}
       spriteName: armorblood_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armorblood_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 24a85653fdb1b154aa61fe717cb41dae, type: 3}
       spriteName: armorblood_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armorblood_3
   IsPalette: 0
   setID: 252

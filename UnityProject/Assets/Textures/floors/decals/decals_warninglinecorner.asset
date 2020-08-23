@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: warninglinecorner_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: warninglinecorner_0
   - Frames:
     - sprite: {fileID: 21300002, guid: eda5b2c1881143d49a3c79150745e3a2, type: 3}
       spriteName: warninglinecorner_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: warninglinecorner_1
   - Frames:
     - sprite: {fileID: 21300004, guid: eda5b2c1881143d49a3c79150745e3a2, type: 3}
       spriteName: warninglinecorner_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: warninglinecorner_2
   - Frames:
     - sprite: {fileID: 21300006, guid: eda5b2c1881143d49a3c79150745e3a2, type: 3}
       spriteName: warninglinecorner_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: warninglinecorner_3
   IsPalette: 0
   setID: 2071

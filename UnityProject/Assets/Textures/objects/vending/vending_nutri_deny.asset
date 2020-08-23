@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: nutri_deny_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: nutri_deny_0
     - sprite: {fileID: 21300002, guid: 1f51b0bc41db5834eb911596320e0003, type: 3}
       spriteName: nutri_deny_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: nutri_deny_1
   IsPalette: 0
   setID: 17827

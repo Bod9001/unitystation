@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cutters_brass_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutters_brass_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b1d1d283246bf6946bb61bf500509368, type: 3}
       spriteName: cutters_brass_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutters_brass_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b1d1d283246bf6946bb61bf500509368, type: 3}
       spriteName: cutters_brass_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutters_brass_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b1d1d283246bf6946bb61bf500509368, type: 3}
       spriteName: cutters_brass_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: cutters_brass_3
   IsPalette: 0
   setID: 10273

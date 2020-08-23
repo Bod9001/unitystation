@@ -94,12 +94,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: 629838426e75c1047be7985e566681d3
+    m_SubObjectName: 
+  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 629838426e75c1047be7985e566681d3, type: 2}
-  Sprites: []
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
+  Sprites: []
 --- !u!114 &4699351480206158359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,6 +321,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 5ea8558db487ae74b8bb8789ee193232,
         type: 2}
+    - target: {fileID: 7482199438493803764, guid: e46ba34aab52d654787ef10d896b0874,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: 5ea8558db487ae74b8bb8789ee193232
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46ba34aab52d654787ef10d896b0874, type: 3}
 --- !u!1 &8568672687853555390 stripped

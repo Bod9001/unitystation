@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: sleeper_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: sleeper_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 816e5851d1c70aa48b88be8f64982e99, type: 3}
       spriteName: sleeper_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: sleeper_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 816e5851d1c70aa48b88be8f64982e99, type: 3}
       spriteName: sleeper_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: sleeper_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 816e5851d1c70aa48b88be8f64982e99, type: 3}
       spriteName: sleeper_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: sleeper_3
   IsPalette: 0
   setID: 16001

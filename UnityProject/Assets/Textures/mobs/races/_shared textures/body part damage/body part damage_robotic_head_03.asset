@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: robotic_head_03_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: robotic_head_03_0
   - Frames:
     - sprite: {fileID: 21300002, guid: fbbf779bfff1eb246abc3b23d6cc430a, type: 3}
       spriteName: robotic_head_03_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: robotic_head_03_1
   - Frames:
     - sprite: {fileID: 21300004, guid: fbbf779bfff1eb246abc3b23d6cc430a, type: 3}
       spriteName: robotic_head_03_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: robotic_head_03_2
   - Frames:
     - sprite: {fileID: 21300006, guid: fbbf779bfff1eb246abc3b23d6cc430a, type: 3}
       spriteName: robotic_head_03_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: robotic_head_03_3
   IsPalette: 0
   setID: 9756

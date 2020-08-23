@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: nuka_colaglass_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: nuka_colaglass_0
     - sprite: {fileID: 21300002, guid: 082c63edb37a5c7439415d1fcc252049, type: 3}
       spriteName: nuka_colaglass_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: nuka_colaglass_1
     - sprite: {fileID: 21300004, guid: 082c63edb37a5c7439415d1fcc252049, type: 3}
       spriteName: nuka_colaglass_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: nuka_colaglass_2
     - sprite: {fileID: 21300006, guid: 082c63edb37a5c7439415d1fcc252049, type: 3}
       spriteName: nuka_colaglass_3
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: nuka_colaglass_3
   IsPalette: 0
   setID: 6567

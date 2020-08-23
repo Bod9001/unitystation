@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: hort_waders_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hort_waders_0
   - Frames:
     - sprite: {fileID: -3893430923206009876, guid: e994d3e297c776d40b5925443a5de938,
         type: 3}
       spriteName: hort_waders_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hort_waders_1
   - Frames:
     - sprite: {fileID: 1489058345702103413, guid: e994d3e297c776d40b5925443a5de938,
         type: 3}
       spriteName: hort_waders_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hort_waders_2
   - Frames:
     - sprite: {fileID: -300278396813813054, guid: e994d3e297c776d40b5925443a5de938,
         type: 3}
       spriteName: hort_waders_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hort_waders_3
   IsPalette: 0
   setID: 20967

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: eggbox_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: eggbox_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 294ccae714d9bb444809d1aef2f95b93, type: 3}
       spriteName: eggbox_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: eggbox_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 294ccae714d9bb444809d1aef2f95b93, type: 3}
       spriteName: eggbox_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: eggbox_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 294ccae714d9bb444809d1aef2f95b93, type: 3}
       spriteName: eggbox_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: eggbox_3
   IsPalette: 0
   setID: 22369

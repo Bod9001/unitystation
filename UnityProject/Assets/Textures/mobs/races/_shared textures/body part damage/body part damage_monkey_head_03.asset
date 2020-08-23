@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: monkey_head_03_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: monkey_head_03_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 37749592f62548747bc5a444b6a4bfbe, type: 3}
       spriteName: monkey_head_03_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: monkey_head_03_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 37749592f62548747bc5a444b6a4bfbe, type: 3}
       spriteName: monkey_head_03_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: monkey_head_03_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 37749592f62548747bc5a444b6a4bfbe, type: 3}
       spriteName: monkey_head_03_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: monkey_head_03_3
   IsPalette: 0
   setID: 9720

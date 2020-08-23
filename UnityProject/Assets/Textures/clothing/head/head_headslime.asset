@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: headslime_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: headslime_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6816b804f6ac63e42bf942cabd15bf0f, type: 3}
       spriteName: headslime_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: headslime_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6816b804f6ac63e42bf942cabd15bf0f, type: 3}
       spriteName: headslime_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: headslime_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6816b804f6ac63e42bf942cabd15bf0f, type: 3}
       spriteName: headslime_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: headslime_3
   IsPalette: 0
   setID: 621

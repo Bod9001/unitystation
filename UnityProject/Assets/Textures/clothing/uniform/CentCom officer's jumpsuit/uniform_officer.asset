@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: officer_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: officer_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 97c40d84392a6d949bca5cbef626a30e, type: 3}
       spriteName: officer_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: officer_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 97c40d84392a6d949bca5cbef626a30e, type: 3}
       spriteName: officer_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: officer_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 97c40d84392a6d949bca5cbef626a30e, type: 3}
       spriteName: officer_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: officer_3
   IsPalette: 0
   setID: 21447

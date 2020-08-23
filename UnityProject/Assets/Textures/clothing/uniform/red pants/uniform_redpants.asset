@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: redpants_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redpants_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 63719b1b8c40085408a45264f3e5c985, type: 3}
       spriteName: redpants_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redpants_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 63719b1b8c40085408a45264f3e5c985, type: 3}
       spriteName: redpants_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redpants_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 63719b1b8c40085408a45264f3e5c985, type: 3}
       spriteName: redpants_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redpants_3
   IsPalette: 0
   setID: 21666

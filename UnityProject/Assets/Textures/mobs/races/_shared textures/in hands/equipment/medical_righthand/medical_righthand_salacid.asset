@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: salacid_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: salacid_0
   - Frames:
     - sprite: {fileID: 2659739562455415075, guid: 06b537a0fb67270478169cfc5480b75d,
         type: 3}
       spriteName: salacid_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: salacid_1
   - Frames:
     - sprite: {fileID: 3457555485830289680, guid: 06b537a0fb67270478169cfc5480b75d,
         type: 3}
       spriteName: salacid_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: salacid_2
   - Frames:
     - sprite: {fileID: 3988636546704280000, guid: 06b537a0fb67270478169cfc5480b75d,
         type: 3}
       spriteName: salacid_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: salacid_3
   IsPalette: 0
   setID: 23099

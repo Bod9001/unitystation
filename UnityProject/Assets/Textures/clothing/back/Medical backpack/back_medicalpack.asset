@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: medicalpack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: medicalpack_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 18dd5d3670334d4408894ad2f696ccc1, type: 3}
       spriteName: medicalpack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: medicalpack_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 18dd5d3670334d4408894ad2f696ccc1, type: 3}
       spriteName: medicalpack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: medicalpack_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 18dd5d3670334d4408894ad2f696ccc1, type: 3}
       spriteName: medicalpack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: medicalpack_3
   IsPalette: 0
   setID: 19790

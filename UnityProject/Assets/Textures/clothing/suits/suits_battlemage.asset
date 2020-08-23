@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: battlemage_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: battlemage_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d4d89f18c809a894191206b4a1659ee0, type: 3}
       spriteName: battlemage_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: battlemage_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d4d89f18c809a894191206b4a1659ee0, type: 3}
       spriteName: battlemage_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: battlemage_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d4d89f18c809a894191206b4a1659ee0, type: 3}
       spriteName: battlemage_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: battlemage_3
   IsPalette: 0
   setID: 864

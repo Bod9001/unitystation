@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: shirt_tiedye_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_tiedye_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cc1d973939d3b524aa39b3641fba284c, type: 3}
       spriteName: shirt_tiedye_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_tiedye_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cc1d973939d3b524aa39b3641fba284c, type: 3}
       spriteName: shirt_tiedye_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_tiedye_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cc1d973939d3b524aa39b3641fba284c, type: 3}
       spriteName: shirt_tiedye_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shirt_tiedye_3
   IsPalette: 0
   setID: 21312

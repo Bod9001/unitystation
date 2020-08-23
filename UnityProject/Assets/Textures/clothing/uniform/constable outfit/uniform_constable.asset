@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: constable_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: constable_0
   - Frames:
     - sprite: {fileID: 8025366336252777975, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
         type: 3}
       spriteName: constable_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: constable_1
   - Frames:
     - sprite: {fileID: 7922238600884473699, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
         type: 3}
       spriteName: constable_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: constable_2
   - Frames:
     - sprite: {fileID: -6647832151427790001, guid: 82ed22ed4c5cb8b42b9d06938fe296d0,
         type: 3}
       spriteName: constable_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: constable_3
   IsPalette: 0
   setID: 21489

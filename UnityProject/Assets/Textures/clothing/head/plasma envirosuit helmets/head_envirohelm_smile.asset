@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: envirohelm_smile_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: envirohelm_smile_0
   - Frames:
     - sprite: {fileID: -3906740534587563464, guid: 6967be48ca05e064e849bec1b1c57096,
         type: 3}
       spriteName: envirohelm_smile_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: envirohelm_smile_1
   - Frames:
     - sprite: {fileID: 5379818983705260668, guid: 6967be48ca05e064e849bec1b1c57096,
         type: 3}
       spriteName: envirohelm_smile_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: envirohelm_smile_2
   - Frames:
     - sprite: {fileID: 474886011029280505, guid: 6967be48ca05e064e849bec1b1c57096,
         type: 3}
       spriteName: envirohelm_smile_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: envirohelm_smile_3
   IsPalette: 0
   setID: 23032

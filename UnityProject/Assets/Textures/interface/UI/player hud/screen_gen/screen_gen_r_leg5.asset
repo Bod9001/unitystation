@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: r_leg5_0
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: r_leg5_0
     - sprite: {fileID: 21300002, guid: 92500adc2c023a045a9f241eaa014f6a, type: 3}
       spriteName: r_leg5_1
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: r_leg5_1
   IsPalette: 0
   setID: 3539

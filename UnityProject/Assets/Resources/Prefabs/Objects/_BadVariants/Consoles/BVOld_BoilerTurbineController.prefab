@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 2896c1e0775f3a94c8ef494bfe1a076e,
         type: 2}
+    - target: {fileID: 234034479120620068, guid: 1a85cead3efc3d047b2f84c197e26eff,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: 2896c1e0775f3a94c8ef494bfe1a076e
+      objectReference: {fileID: 0}
     - target: {fileID: 1128924040738795512, guid: 1a85cead3efc3d047b2f84c197e26eff,
         type: 3}
       propertyPath: circuitBoardPrefab

@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: blobpod_0
       secondDelay: 1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: blobpod_0
     - sprite: {fileID: 21300002, guid: baf8e67f379720d4e897d2054879ff95, type: 3}
       spriteName: blobpod_1
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: blobpod_1
     - sprite: {fileID: 21300004, guid: baf8e67f379720d4e897d2054879ff95, type: 3}
       spriteName: blobpod_2
       secondDelay: 0.5
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: blobpod_2
     - sprite: {fileID: 21300006, guid: baf8e67f379720d4e897d2054879ff95, type: 3}
       spriteName: blobpod_3
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: blobpod_3
   IsPalette: 0
   setID: 11954

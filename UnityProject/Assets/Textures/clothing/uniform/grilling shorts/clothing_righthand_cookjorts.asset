@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: cookjorts_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cookjorts_0
   - Frames:
     - sprite: {fileID: -2708140436865246929, guid: 7ad164855b9bbc14fbc03f0fb1d4cb78,
         type: 3}
       spriteName: cookjorts_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cookjorts_1
   - Frames:
     - sprite: {fileID: -2687422092578437925, guid: 7ad164855b9bbc14fbc03f0fb1d4cb78,
         type: 3}
       spriteName: cookjorts_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cookjorts_2
   - Frames:
     - sprite: {fileID: -1409238658845093541, guid: 7ad164855b9bbc14fbc03f0fb1d4cb78,
         type: 3}
       spriteName: cookjorts_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cookjorts_3
   IsPalette: 0
   setID: 21541

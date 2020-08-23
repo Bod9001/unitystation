@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: greengloves_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greengloves_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cd18eeb0dfc49ba4f80ccdb61f241e54, type: 3}
       spriteName: greengloves_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greengloves_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cd18eeb0dfc49ba4f80ccdb61f241e54, type: 3}
       spriteName: greengloves_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greengloves_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cd18eeb0dfc49ba4f80ccdb61f241e54, type: 3}
       spriteName: greengloves_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greengloves_3
   IsPalette: 0
   setID: 20059

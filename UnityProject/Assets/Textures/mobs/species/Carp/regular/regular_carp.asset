@@ -18,52 +18,88 @@ MonoBehaviour:
       spriteName: carp_0
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_0
     - sprite: {fileID: 21300008, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_4
       secondDelay: 0.4
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_4
     - sprite: {fileID: 21300016, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_8
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_8
   - Frames:
     - sprite: {fileID: 21300002, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_1
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_1
     - sprite: {fileID: 21300010, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_5
       secondDelay: 0.4
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_5
     - sprite: {fileID: 21300018, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_9
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_9
   - Frames:
     - sprite: {fileID: 21300004, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_2
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_2
     - sprite: {fileID: 21300012, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_6
       secondDelay: 0.4
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_6
     - sprite: {fileID: 21300020, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_10
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_10
   - Frames:
     - sprite: {fileID: 21300006, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_3
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_3
     - sprite: {fileID: 21300014, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_7
       secondDelay: 0.4
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_7
     - sprite: {fileID: 21300022, guid: e94eb933faed0c347bdf108a2b6066bf, type: 3}
       spriteName: carp_11
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: carp_11
   IsPalette: 0
   setID: 12170

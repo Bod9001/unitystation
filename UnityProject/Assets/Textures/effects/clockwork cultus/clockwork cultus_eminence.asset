@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: eminence_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: eminence_0
     - sprite: {fileID: 21300002, guid: 58d9b7f34d0c52d49a3154e990a8dec3, type: 3}
       spriteName: eminence_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: eminence_1
     - sprite: {fileID: 21300004, guid: 58d9b7f34d0c52d49a3154e990a8dec3, type: 3}
       spriteName: eminence_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: eminence_2
   IsPalette: 0
   setID: 1245

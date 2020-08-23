@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hypertool_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hypertool_0
   - Frames:
     - sprite: {fileID: 21300002, guid: df4161a6368003a4cb16ec81ec61664d, type: 3}
       spriteName: hypertool_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hypertool_1
   - Frames:
     - sprite: {fileID: 21300004, guid: df4161a6368003a4cb16ec81ec61664d, type: 3}
       spriteName: hypertool_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hypertool_2
   - Frames:
     - sprite: {fileID: 21300006, guid: df4161a6368003a4cb16ec81ec61664d, type: 3}
       spriteName: hypertool_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hypertool_3
   IsPalette: 0
   setID: 10276

@@ -18,6 +18,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 27697864ac679564ab5b54f57f63f3bf,
         type: 2}
+    - target: {fileID: 2881683467392410259, guid: 09d98d684f3dbe544a3f54331019cba1,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: 27697864ac679564ab5b54f57f63f3bf
+      objectReference: {fileID: 0}
     - target: {fileID: 7174761012728533436, guid: 09d98d684f3dbe544a3f54331019cba1,
         type: 3}
       propertyPath: initialReagentMix.reagents.m_values.Array.data[0]

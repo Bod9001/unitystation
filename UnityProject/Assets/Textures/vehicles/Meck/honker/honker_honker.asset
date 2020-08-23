@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: honker_0
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: honker_0
     - sprite: {fileID: 21300008, guid: 909604f3cba708546b7cc30af1d64704, type: 3}
       spriteName: honker_4
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: honker_4
   - Frames:
     - sprite: {fileID: 21300002, guid: 909604f3cba708546b7cc30af1d64704, type: 3}
       spriteName: honker_1
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: honker_1
     - sprite: {fileID: 21300010, guid: 909604f3cba708546b7cc30af1d64704, type: 3}
       spriteName: honker_5
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: honker_5
   - Frames:
     - sprite: {fileID: 21300004, guid: 909604f3cba708546b7cc30af1d64704, type: 3}
       spriteName: honker_2
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: honker_2
     - sprite: {fileID: 21300012, guid: 909604f3cba708546b7cc30af1d64704, type: 3}
       spriteName: honker_6
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: honker_6
   - Frames:
     - sprite: {fileID: 21300006, guid: 909604f3cba708546b7cc30af1d64704, type: 3}
       spriteName: honker_3
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: honker_3
     - sprite: {fileID: 21300014, guid: 909604f3cba708546b7cc30af1d64704, type: 3}
       spriteName: honker_7
       secondDelay: 1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: honker_7
   IsPalette: 0
   setID: 18932

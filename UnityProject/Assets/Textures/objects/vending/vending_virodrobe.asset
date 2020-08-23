@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: virodrobe_0
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: virodrobe_0
     - sprite: {fileID: 21300002, guid: cb795f7d425097141adec3e6428a0e11, type: 3}
       spriteName: virodrobe_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: virodrobe_1
     - sprite: {fileID: 21300004, guid: cb795f7d425097141adec3e6428a0e11, type: 3}
       spriteName: virodrobe_2
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: virodrobe_2
     - sprite: {fileID: 21300006, guid: cb795f7d425097141adec3e6428a0e11, type: 3}
       spriteName: virodrobe_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: virodrobe_3
   IsPalette: 0
   setID: 17945

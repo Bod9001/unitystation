@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: death_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: death_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 778dc95f88915b947a52845a6b772bec, type: 3}
       spriteName: death_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: death_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 778dc95f88915b947a52845a6b772bec, type: 3}
       spriteName: death_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: death_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 778dc95f88915b947a52845a6b772bec, type: 3}
       spriteName: death_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: death_3
   IsPalette: 0
   setID: 20576

@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: ipickaxe_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ipickaxe_0
   - Frames:
     - sprite: {fileID: -3267331437972851337, guid: 081352a96280f564cba1a9512ca54dfb,
         type: 3}
       spriteName: ipickaxe_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ipickaxe_1
   - Frames:
     - sprite: {fileID: 7751658260708250152, guid: 081352a96280f564cba1a9512ca54dfb,
         type: 3}
       spriteName: ipickaxe_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ipickaxe_2
   - Frames:
     - sprite: {fileID: -7715821533061799885, guid: 081352a96280f564cba1a9512ca54dfb,
         type: 3}
       spriteName: ipickaxe_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: ipickaxe_3
   IsPalette: 0
   setID: 6306

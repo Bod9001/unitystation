@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: woodbucket_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: woodbucket_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9671f2020dc18b641946fd238b8f72d8, type: 3}
       spriteName: woodbucket_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: woodbucket_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9671f2020dc18b641946fd238b8f72d8, type: 3}
       spriteName: woodbucket_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: woodbucket_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9671f2020dc18b641946fd238b8f72d8, type: 3}
       spriteName: woodbucket_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: woodbucket_3
   IsPalette: 0
   setID: 22191

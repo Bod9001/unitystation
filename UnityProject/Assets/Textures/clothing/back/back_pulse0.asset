@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: pulse0_0
       secondDelay: 0.3
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pulse0_0
     - sprite: {fileID: 21300008, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       spriteName: pulse0_4
       secondDelay: 0.3
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pulse0_4
   - Frames:
     - sprite: {fileID: 21300002, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       spriteName: pulse0_1
       secondDelay: 0.3
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pulse0_1
     - sprite: {fileID: 21300010, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       spriteName: pulse0_5
       secondDelay: 0.3
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pulse0_5
   - Frames:
     - sprite: {fileID: 21300004, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       spriteName: pulse0_2
       secondDelay: 0.3
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pulse0_2
     - sprite: {fileID: 21300012, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       spriteName: pulse0_6
       secondDelay: 0.3
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pulse0_6
   - Frames:
     - sprite: {fileID: 21300006, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       spriteName: pulse0_3
       secondDelay: 0.3
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pulse0_3
     - sprite: {fileID: 21300014, guid: cb7cc76a32c7fcc4f81a614658979ec5, type: 3}
       spriteName: pulse0_7
       secondDelay: 0.3
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: pulse0_7
   IsPalette: 0
   setID: 330

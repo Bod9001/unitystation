@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: parasitered_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasitered_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2c953e59b37bc4b49866eaa1df5a417b, type: 3}
       spriteName: parasitered_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasitered_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2c953e59b37bc4b49866eaa1df5a417b, type: 3}
       spriteName: parasitered_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasitered_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2c953e59b37bc4b49866eaa1df5a417b, type: 3}
       spriteName: parasitered_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasitered_3
   IsPalette: 0
   setID: 12313

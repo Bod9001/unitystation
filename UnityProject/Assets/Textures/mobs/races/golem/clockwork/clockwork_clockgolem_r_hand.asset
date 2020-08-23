@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: clockgolem_r_hand_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clockgolem_r_hand_0
   - Frames:
     - sprite: {fileID: 21300002, guid: af9b613b0d8ce5242b56cc0180e5fe1b, type: 3}
       spriteName: clockgolem_r_hand_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clockgolem_r_hand_1
   - Frames:
     - sprite: {fileID: 21300004, guid: af9b613b0d8ce5242b56cc0180e5fe1b, type: 3}
       spriteName: clockgolem_r_hand_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clockgolem_r_hand_2
   - Frames:
     - sprite: {fileID: 21300006, guid: af9b613b0d8ce5242b56cc0180e5fe1b, type: 3}
       spriteName: clockgolem_r_hand_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clockgolem_r_hand_3
   IsPalette: 0
   setID: 11100

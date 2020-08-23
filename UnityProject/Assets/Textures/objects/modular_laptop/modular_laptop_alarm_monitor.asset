@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: alarm_monitor_0
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: alarm_monitor_0
     - sprite: {fileID: 21300002, guid: 55381c2d6d58feb4fae7df973c66765f, type: 3}
       spriteName: alarm_monitor_1
       secondDelay: 1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: alarm_monitor_1
   IsPalette: 0
   setID: 16242

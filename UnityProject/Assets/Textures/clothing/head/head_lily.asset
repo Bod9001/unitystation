@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: lily_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lily_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 391b38630de6c0344a347e7c6b7de6a9, type: 3}
       spriteName: lily_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lily_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 391b38630de6c0344a347e7c6b7de6a9, type: 3}
       spriteName: lily_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lily_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 391b38630de6c0344a347e7c6b7de6a9, type: 3}
       spriteName: lily_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: lily_3
   IsPalette: 0
   setID: 646

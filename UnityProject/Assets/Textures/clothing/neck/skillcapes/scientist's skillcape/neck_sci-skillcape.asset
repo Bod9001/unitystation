@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: sci-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sci-skillcape_0
   - Frames:
     - sprite: {fileID: 147235075145774258, guid: 01944424952fe9346aabf48b31715219,
         type: 3}
       spriteName: sci-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sci-skillcape_1
   - Frames:
     - sprite: {fileID: 3942106829902872528, guid: 01944424952fe9346aabf48b31715219,
         type: 3}
       spriteName: sci-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sci-skillcape_2
   - Frames:
     - sprite: {fileID: -439551844759862819, guid: 01944424952fe9346aabf48b31715219,
         type: 3}
       spriteName: sci-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sci-skillcape_3
   IsPalette: 0
   setID: 23246

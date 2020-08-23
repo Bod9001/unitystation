@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: coil_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coil_0
   - Frames:
     - sprite: {fileID: 4316668487210905212, guid: c063ed4550d8bc348b3e252e0c84b28c,
         type: 3}
       spriteName: coil_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coil_1
   - Frames:
     - sprite: {fileID: -3478187741408328744, guid: c063ed4550d8bc348b3e252e0c84b28c,
         type: 3}
       spriteName: coil_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coil_2
   - Frames:
     - sprite: {fileID: -1216120013809506240, guid: c063ed4550d8bc348b3e252e0c84b28c,
         type: 3}
       spriteName: coil_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coil_3
   IsPalette: 0
   setID: 19852

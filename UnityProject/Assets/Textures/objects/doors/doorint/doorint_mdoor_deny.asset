@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: mdoor_deny_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mdoor_deny_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ddc1c6f1ad0c85c4ea756d0a2114dae1, type: 3}
       spriteName: mdoor_deny_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mdoor_deny_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ddc1c6f1ad0c85c4ea756d0a2114dae1, type: 3}
       spriteName: mdoor_deny_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mdoor_deny_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ddc1c6f1ad0c85c4ea756d0a2114dae1, type: 3}
       spriteName: mdoor_deny_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: mdoor_deny_3
   IsPalette: 0
   setID: 14601

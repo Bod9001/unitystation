@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: mime-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mime-trimmed_0
   - Frames:
     - sprite: {fileID: -221198975699838696, guid: b60599113eadbd84bbbd37bdc2089c66,
         type: 3}
       spriteName: mime-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mime-trimmed_1
   - Frames:
     - sprite: {fileID: 4466438929972585775, guid: b60599113eadbd84bbbd37bdc2089c66,
         type: 3}
       spriteName: mime-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mime-trimmed_2
   - Frames:
     - sprite: {fileID: 8445009634357319279, guid: b60599113eadbd84bbbd37bdc2089c66,
         type: 3}
       spriteName: mime-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: mime-trimmed_3
   IsPalette: 0
   setID: 23231

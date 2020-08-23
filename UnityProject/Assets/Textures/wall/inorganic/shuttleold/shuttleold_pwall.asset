@@ -18,40 +18,64 @@ MonoBehaviour:
       spriteName: pwall_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pwall_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 16a11c66ca21bc843ac24f01e9f52972, type: 3}
       spriteName: pwall_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pwall_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 16a11c66ca21bc843ac24f01e9f52972, type: 3}
       spriteName: pwall_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pwall_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 16a11c66ca21bc843ac24f01e9f52972, type: 3}
       spriteName: pwall_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pwall_3
   - Frames:
     - sprite: {fileID: 21300008, guid: 16a11c66ca21bc843ac24f01e9f52972, type: 3}
       spriteName: pwall_4
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pwall_4
   - Frames:
     - sprite: {fileID: 21300010, guid: 16a11c66ca21bc843ac24f01e9f52972, type: 3}
       spriteName: pwall_5
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pwall_5
   - Frames:
     - sprite: {fileID: 21300012, guid: 16a11c66ca21bc843ac24f01e9f52972, type: 3}
       spriteName: pwall_6
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pwall_6
   - Frames:
     - sprite: {fileID: 21300014, guid: 16a11c66ca21bc843ac24f01e9f52972, type: 3}
       spriteName: pwall_7
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pwall_7
   IsPalette: 0
   setID: 19523

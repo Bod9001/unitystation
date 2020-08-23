@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: burnt_tile12_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_tile12_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d2fdd0329870b894ebac3ffa2650dbd9, type: 3}
       spriteName: burnt_tile12_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_tile12_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d2fdd0329870b894ebac3ffa2650dbd9, type: 3}
       spriteName: burnt_tile12_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_tile12_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d2fdd0329870b894ebac3ffa2650dbd9, type: 3}
       spriteName: burnt_tile12_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: burnt_tile12_3
   IsPalette: 0
   setID: 1569

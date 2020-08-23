@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: labcoat_gen_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_gen_0
   - Frames:
     - sprite: {fileID: 21300002, guid: fa4ac39c9f290054ba96b00e5d9cd9e1, type: 3}
       spriteName: labcoat_gen_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_gen_1
   - Frames:
     - sprite: {fileID: 21300004, guid: fa4ac39c9f290054ba96b00e5d9cd9e1, type: 3}
       spriteName: labcoat_gen_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_gen_2
   - Frames:
     - sprite: {fileID: 21300006, guid: fa4ac39c9f290054ba96b00e5d9cd9e1, type: 3}
       spriteName: labcoat_gen_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_gen_3
   IsPalette: 0
   setID: 20943

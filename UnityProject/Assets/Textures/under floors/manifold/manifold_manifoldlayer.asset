@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: manifoldlayer_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: manifoldlayer_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 26b1d969a6dfe0340a2e06b7994cf264, type: 3}
       spriteName: manifoldlayer_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: manifoldlayer_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 26b1d969a6dfe0340a2e06b7994cf264, type: 3}
       spriteName: manifoldlayer_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: manifoldlayer_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 26b1d969a6dfe0340a2e06b7994cf264, type: 3}
       spriteName: manifoldlayer_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: manifoldlayer_3
   IsPalette: 0
   setID: 18751

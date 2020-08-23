@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: coatminer_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatminer_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 83a1238dd4d0adf4094f5eaa9f52af8c, type: 3}
       spriteName: coatminer_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatminer_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 83a1238dd4d0adf4094f5eaa9f52af8c, type: 3}
       spriteName: coatminer_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatminer_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 83a1238dd4d0adf4094f5eaa9f52af8c, type: 3}
       spriteName: coatminer_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: coatminer_3
   IsPalette: 0
   setID: 21180

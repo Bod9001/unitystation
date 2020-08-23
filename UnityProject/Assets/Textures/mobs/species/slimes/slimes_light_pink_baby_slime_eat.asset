@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: light_pink_baby_slime_eat_0
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: light_pink_baby_slime_eat_0
     - sprite: {fileID: 21300002, guid: 0607b34cad382914a854674b8bef466d, type: 3}
       spriteName: light_pink_baby_slime_eat_1
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: light_pink_baby_slime_eat_1
   IsPalette: 0
   setID: 12551

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: lips_lipstick_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: lips_lipstick_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
       spriteName: lips_lipstick_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: lips_lipstick_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
       spriteName: lips_lipstick_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: lips_lipstick_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 120e909491b01da4cafb6e0396e11d67, type: 3}
       spriteName: lips_lipstick_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: lips_lipstick_3
   IsPalette: 0
   setID: 9599

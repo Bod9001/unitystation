@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: m_snout_round_ADJ_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_snout_round_ADJ_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d4d3535e92e6e664ca0fc0a58b9e1632, type: 3}
       spriteName: m_snout_round_ADJ_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_snout_round_ADJ_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d4d3535e92e6e664ca0fc0a58b9e1632, type: 3}
       spriteName: m_snout_round_ADJ_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_snout_round_ADJ_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d4d3535e92e6e664ca0fc0a58b9e1632, type: 3}
       spriteName: m_snout_round_ADJ_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_snout_round_ADJ_3
   IsPalette: 0
   setID: 11206

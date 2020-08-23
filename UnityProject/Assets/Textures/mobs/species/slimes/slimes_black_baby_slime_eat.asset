@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: black_baby_slime_eat_0
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: black_baby_slime_eat_0
     - sprite: {fileID: 21300002, guid: a01e1bd6a9f0b9a4aacd406ce38049d2, type: 3}
       spriteName: black_baby_slime_eat_1
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: black_baby_slime_eat_1
   IsPalette: 0
   setID: 12488

@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: barrier1_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: barrier1_0
     - sprite: {fileID: 21300002, guid: 1713f5ab87046054cbfd4f3c0ca6b65b, type: 3}
       spriteName: barrier1_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: barrier1_1
     - sprite: {fileID: 21300004, guid: 1713f5ab87046054cbfd4f3c0ca6b65b, type: 3}
       spriteName: barrier1_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: barrier1_2
     - sprite: {fileID: 21300006, guid: 1713f5ab87046054cbfd4f3c0ca6b65b, type: 3}
       spriteName: barrier1_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: barrier1_3
     - sprite: {fileID: 21300008, guid: 1713f5ab87046054cbfd4f3c0ca6b65b, type: 3}
       spriteName: barrier1_4
       secondDelay: 0.5
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: barrier1_4
   IsPalette: 0
   setID: 16337

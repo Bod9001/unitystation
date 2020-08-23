@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: nerdshirt_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: nerdshirt_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f2535b13b14c9f24ba3f92658242f458, type: 3}
       spriteName: nerdshirt_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: nerdshirt_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f2535b13b14c9f24ba3f92658242f458, type: 3}
       spriteName: nerdshirt_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: nerdshirt_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f2535b13b14c9f24ba3f92658242f458, type: 3}
       spriteName: nerdshirt_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: nerdshirt_3
   IsPalette: 0
   setID: 932

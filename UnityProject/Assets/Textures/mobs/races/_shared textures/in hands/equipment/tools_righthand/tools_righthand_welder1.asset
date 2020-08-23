@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: welder1_0
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: welder1_0
     - sprite: {fileID: 21300008, guid: ba885a144c3e49a4c9e4aff4c068faac, type: 3}
       spriteName: welder1_4
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: welder1_4
   - Frames:
     - sprite: {fileID: 21300002, guid: ba885a144c3e49a4c9e4aff4c068faac, type: 3}
       spriteName: welder1_1
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: welder1_1
     - sprite: {fileID: 21300010, guid: ba885a144c3e49a4c9e4aff4c068faac, type: 3}
       spriteName: welder1_5
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: welder1_5
   - Frames:
     - sprite: {fileID: 21300004, guid: ba885a144c3e49a4c9e4aff4c068faac, type: 3}
       spriteName: welder1_2
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: welder1_2
     - sprite: {fileID: 21300012, guid: ba885a144c3e49a4c9e4aff4c068faac, type: 3}
       spriteName: welder1_6
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: welder1_6
   - Frames:
     - sprite: {fileID: 21300006, guid: ba885a144c3e49a4c9e4aff4c068faac, type: 3}
       spriteName: welder1_3
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: welder1_3
     - sprite: {fileID: 21300014, guid: ba885a144c3e49a4c9e4aff4c068faac, type: 3}
       spriteName: welder1_7
       secondDelay: 0.2
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: welder1_7
   IsPalette: 0
   setID: 10297

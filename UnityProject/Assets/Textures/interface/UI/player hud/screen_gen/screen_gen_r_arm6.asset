@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: r_arm6_0
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: r_arm6_0
     - sprite: {fileID: 21300002, guid: ef9c15b1dae2be64ab9cc67afa230913, type: 3}
       spriteName: r_arm6_1
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: r_arm6_1
   IsPalette: 0
   setID: 3532

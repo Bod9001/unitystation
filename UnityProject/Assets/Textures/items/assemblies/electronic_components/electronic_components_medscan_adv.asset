@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: medscan_adv_0
       secondDelay: 0.5
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: medscan_adv_0
     - sprite: {fileID: 21300002, guid: fdf548d401b1c75429b24ea881c8206c, type: 3}
       spriteName: medscan_adv_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: medscan_adv_1
   IsPalette: 0
   setID: 4828

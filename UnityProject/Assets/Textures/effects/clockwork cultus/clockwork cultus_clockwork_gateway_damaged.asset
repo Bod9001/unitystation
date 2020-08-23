@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: clockwork_gateway_damaged_0
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clockwork_gateway_damaged_0
     - sprite: {fileID: 21300002, guid: ec03b40d756f46448a6c2b8e1c62443f, type: 3}
       spriteName: clockwork_gateway_damaged_1
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: clockwork_gateway_damaged_1
   IsPalette: 0
   setID: 1243

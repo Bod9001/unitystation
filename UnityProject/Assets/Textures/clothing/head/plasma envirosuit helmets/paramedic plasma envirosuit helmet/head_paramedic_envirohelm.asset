@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: paramedic_envirohelm_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirohelm_0
   - Frames:
     - sprite: {fileID: 5243785524258012804, guid: 8fa2dcadc44e1a742b64fd8faaa5fdbc,
         type: 3}
       spriteName: paramedic_envirohelm_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirohelm_1
   - Frames:
     - sprite: {fileID: 7538599812753382490, guid: 8fa2dcadc44e1a742b64fd8faaa5fdbc,
         type: 3}
       spriteName: paramedic_envirohelm_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirohelm_2
   - Frames:
     - sprite: {fileID: -7221665069363861386, guid: 8fa2dcadc44e1a742b64fd8faaa5fdbc,
         type: 3}
       spriteName: paramedic_envirohelm_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: paramedic_envirohelm_3
   IsPalette: 0
   setID: 23040

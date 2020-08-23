@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: med_key_off_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: med_key_off_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 15b02759b0f434442823bc71d6df79aa, type: 3}
       spriteName: med_key_off_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: med_key_off_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 15b02759b0f434442823bc71d6df79aa, type: 3}
       spriteName: med_key_off_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: med_key_off_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 15b02759b0f434442823bc71d6df79aa, type: 3}
       spriteName: med_key_off_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: med_key_off_3
   IsPalette: 0
   setID: 13421

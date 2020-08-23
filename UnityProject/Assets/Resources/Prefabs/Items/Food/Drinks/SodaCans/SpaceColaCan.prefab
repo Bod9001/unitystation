@@ -195,5 +195,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 47344237ea23ac34790dbce5e72bbb5c,
         type: 2}
+    - target: {fileID: 8841627809843521281, guid: b04d0f9770ef17c459a1af178889e3ba,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: 47344237ea23ac34790dbce5e72bbb5c
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b04d0f9770ef17c459a1af178889e3ba, type: 3}

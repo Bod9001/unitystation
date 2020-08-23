@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: modularpc-deny_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: modularpc-deny_0
     - sprite: {fileID: 21300002, guid: 48c58bff07418b44c87b24adf97cd564, type: 3}
       spriteName: modularpc-deny_1
       secondDelay: 0.2
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: modularpc-deny_1
   IsPalette: 0
   setID: 17813

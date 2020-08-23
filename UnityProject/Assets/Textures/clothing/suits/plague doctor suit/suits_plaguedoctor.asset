@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: plaguedoctor_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plaguedoctor_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1cfb94d18a2814344b2f2327976a1b2d, type: 3}
       spriteName: plaguedoctor_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plaguedoctor_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1cfb94d18a2814344b2f2327976a1b2d, type: 3}
       spriteName: plaguedoctor_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plaguedoctor_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1cfb94d18a2814344b2f2327976a1b2d, type: 3}
       spriteName: plaguedoctor_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: plaguedoctor_3
   IsPalette: 0
   setID: 21035

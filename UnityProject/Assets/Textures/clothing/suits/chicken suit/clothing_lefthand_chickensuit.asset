@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: chickensuit_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chickensuit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e1e0185fb50ef1549b7bf6acd2bf7aee, type: 3}
       spriteName: chickensuit_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chickensuit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e1e0185fb50ef1549b7bf6acd2bf7aee, type: 3}
       spriteName: chickensuit_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chickensuit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e1e0185fb50ef1549b7bf6acd2bf7aee, type: 3}
       spriteName: chickensuit_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chickensuit_3
   IsPalette: 0
   setID: 20873

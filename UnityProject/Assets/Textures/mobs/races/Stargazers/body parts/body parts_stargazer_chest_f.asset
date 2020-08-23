@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: stargazer_chest_f_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: stargazer_chest_f_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a7e936cec9b04a9438f03d4e1b5714f6, type: 3}
       spriteName: stargazer_chest_f_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: stargazer_chest_f_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a7e936cec9b04a9438f03d4e1b5714f6, type: 3}
       spriteName: stargazer_chest_f_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: stargazer_chest_f_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a7e936cec9b04a9438f03d4e1b5714f6, type: 3}
       spriteName: stargazer_chest_f_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: stargazer_chest_f_3
   IsPalette: 0
   setID: 11409

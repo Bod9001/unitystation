@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_modern_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_modern_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 085b5b01bffac074eb77a4badcdb077d, type: 3}
       spriteName: hair_modern_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_modern_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 085b5b01bffac074eb77a4badcdb077d, type: 3}
       spriteName: hair_modern_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_modern_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 085b5b01bffac074eb77a4badcdb077d, type: 3}
       spriteName: hair_modern_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_modern_3
   IsPalette: 0
   setID: 21996

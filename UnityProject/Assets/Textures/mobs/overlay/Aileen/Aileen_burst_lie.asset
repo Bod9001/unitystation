@@ -18,25 +18,43 @@ MonoBehaviour:
       spriteName: burst_lie_0
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: burst_lie_0
     - sprite: {fileID: 21300002, guid: a34ba4e1275f4734ba9c5e9fe764aef5, type: 3}
       spriteName: burst_lie_1
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: burst_lie_1
     - sprite: {fileID: 21300004, guid: a34ba4e1275f4734ba9c5e9fe764aef5, type: 3}
       spriteName: burst_lie_2
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: burst_lie_2
     - sprite: {fileID: 21300006, guid: a34ba4e1275f4734ba9c5e9fe764aef5, type: 3}
       spriteName: burst_lie_3
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: burst_lie_3
     - sprite: {fileID: 21300008, guid: a34ba4e1275f4734ba9c5e9fe764aef5, type: 3}
       spriteName: burst_lie_4
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: burst_lie_4
     - sprite: {fileID: 21300010, guid: a34ba4e1275f4734ba9c5e9fe764aef5, type: 3}
       spriteName: burst_lie_5
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: burst_lie_5
   IsPalette: 0
   setID: 9580

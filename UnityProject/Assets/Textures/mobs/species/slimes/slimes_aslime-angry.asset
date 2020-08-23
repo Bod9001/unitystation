@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: aslime-angry_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aslime-angry_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9cf7730d067d2984280f9df1cfe33fe8, type: 3}
       spriteName: aslime-angry_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aslime-angry_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9cf7730d067d2984280f9df1cfe33fe8, type: 3}
       spriteName: aslime-angry_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aslime-angry_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9cf7730d067d2984280f9df1cfe33fe8, type: 3}
       spriteName: aslime-angry_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aslime-angry_3
   IsPalette: 0
   setID: 12479

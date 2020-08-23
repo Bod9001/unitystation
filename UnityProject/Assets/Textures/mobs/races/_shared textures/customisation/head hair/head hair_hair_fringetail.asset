@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_fringetail_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_fringetail_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 97d34593232edac43804e2da2904b2ac, type: 3}
       spriteName: hair_fringetail_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_fringetail_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 97d34593232edac43804e2da2904b2ac, type: 3}
       spriteName: hair_fringetail_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_fringetail_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 97d34593232edac43804e2da2904b2ac, type: 3}
       spriteName: hair_fringetail_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_fringetail_3
   IsPalette: 0
   setID: 21958

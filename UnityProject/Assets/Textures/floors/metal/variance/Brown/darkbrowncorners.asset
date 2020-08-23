@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: darkbrowncorners_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkbrowncorners_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ccc0bcc3bf042d1459d835a51fd00067, type: 3}
       spriteName: darkbrowncorners_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkbrowncorners_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ccc0bcc3bf042d1459d835a51fd00067, type: 3}
       spriteName: darkbrowncorners_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkbrowncorners_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ccc0bcc3bf042d1459d835a51fd00067, type: 3}
       spriteName: darkbrowncorners_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: darkbrowncorners_3
   IsPalette: 0
   setID: 2326

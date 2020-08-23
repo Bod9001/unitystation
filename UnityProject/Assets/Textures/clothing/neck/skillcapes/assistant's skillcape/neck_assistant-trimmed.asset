@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: assistant-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: assistant-trimmed_0
   - Frames:
     - sprite: {fileID: -3662388877098294052, guid: c59cc76dd0e25fc418e6c7b2c77c856e,
         type: 3}
       spriteName: assistant-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: assistant-trimmed_1
   - Frames:
     - sprite: {fileID: 8559353078064859653, guid: c59cc76dd0e25fc418e6c7b2c77c856e,
         type: 3}
       spriteName: assistant-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: assistant-trimmed_2
   - Frames:
     - sprite: {fileID: 4264771348232482552, guid: c59cc76dd0e25fc418e6c7b2c77c856e,
         type: 3}
       spriteName: assistant-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: assistant-trimmed_3
   IsPalette: 0
   setID: 8097

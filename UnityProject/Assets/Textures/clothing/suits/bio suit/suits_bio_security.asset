@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bio_security_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bio_security_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3c17aa8c44783d24290a24b1ec25e46b, type: 3}
       spriteName: bio_security_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bio_security_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3c17aa8c44783d24290a24b1ec25e46b, type: 3}
       spriteName: bio_security_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bio_security_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3c17aa8c44783d24290a24b1ec25e46b, type: 3}
       spriteName: bio_security_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bio_security_3
   IsPalette: 0
   setID: 20822

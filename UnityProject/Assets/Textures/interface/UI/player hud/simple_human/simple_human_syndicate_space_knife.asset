@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: syndicate_space_knife_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: syndicate_space_knife_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6854630cac963b54a993ca6a65cfe4c4, type: 3}
       spriteName: syndicate_space_knife_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: syndicate_space_knife_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6854630cac963b54a993ca6a65cfe4c4, type: 3}
       spriteName: syndicate_space_knife_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: syndicate_space_knife_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6854630cac963b54a993ca6a65cfe4c4, type: 3}
       spriteName: syndicate_space_knife_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: syndicate_space_knife_3
   IsPalette: 0
   setID: 3865

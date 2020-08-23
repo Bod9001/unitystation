@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: toxpack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: toxpack_0
   - Frames:
     - sprite: {fileID: -8738237130716846773, guid: fa29906e842871c4b97a2a023e70ba67,
         type: 3}
       spriteName: toxpack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: toxpack_1
   - Frames:
     - sprite: {fileID: 7364799712452254498, guid: fa29906e842871c4b97a2a023e70ba67,
         type: 3}
       spriteName: toxpack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: toxpack_2
   - Frames:
     - sprite: {fileID: -9144155151955155741, guid: fa29906e842871c4b97a2a023e70ba67,
         type: 3}
       spriteName: toxpack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: toxpack_3
   IsPalette: 0
   setID: 19809

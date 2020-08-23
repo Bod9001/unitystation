@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: atmos_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: atmos_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 679584f69c87dd944b629c24468c29fb, type: 3}
       spriteName: atmos_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: atmos_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 679584f69c87dd944b629c24468c29fb, type: 3}
       spriteName: atmos_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: atmos_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 679584f69c87dd944b629c24468c29fb, type: 3}
       spriteName: atmos_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: atmos_3
   IsPalette: 0
   setID: 21370

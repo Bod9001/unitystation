@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: oxygen_fr_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: oxygen_fr_0
   - Frames:
     - sprite: {fileID: 21300002, guid: de33073d8dba85e48ba5ec01b690b84d, type: 3}
       spriteName: oxygen_fr_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: oxygen_fr_1
   - Frames:
     - sprite: {fileID: 21300004, guid: de33073d8dba85e48ba5ec01b690b84d, type: 3}
       spriteName: oxygen_fr_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: oxygen_fr_2
   - Frames:
     - sprite: {fileID: 21300006, guid: de33073d8dba85e48ba5ec01b690b84d, type: 3}
       spriteName: oxygen_fr_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: oxygen_fr_3
   IsPalette: 0
   setID: 22251

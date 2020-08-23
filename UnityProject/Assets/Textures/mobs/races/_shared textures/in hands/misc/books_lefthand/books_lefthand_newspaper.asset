@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: newspaper_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: newspaper_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 89e4cb13d2262ee4b9fc902ad7b2a7ae, type: 3}
       spriteName: newspaper_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: newspaper_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 89e4cb13d2262ee4b9fc902ad7b2a7ae, type: 3}
       spriteName: newspaper_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: newspaper_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 89e4cb13d2262ee4b9fc902ad7b2a7ae, type: 3}
       spriteName: newspaper_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: newspaper_3
   IsPalette: 0
   setID: 10399

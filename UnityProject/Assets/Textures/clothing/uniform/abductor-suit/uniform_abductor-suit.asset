@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: abductor-suit_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: abductor-suit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
       spriteName: abductor-suit_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: abductor-suit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
       spriteName: abductor-suit_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: abductor-suit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7f44f3cb949966447aaf392000feefc5, type: 3}
       spriteName: abductor-suit_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: abductor-suit_3
   IsPalette: 0
   setID: 973

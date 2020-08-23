@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: janimaid_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: janimaid_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d18f7145f585f384ab0ad206c99a1e7c, type: 3}
       spriteName: janimaid_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: janimaid_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d18f7145f585f384ab0ad206c99a1e7c, type: 3}
       spriteName: janimaid_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: janimaid_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d18f7145f585f384ab0ad206c99a1e7c, type: 3}
       spriteName: janimaid_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: janimaid_3
   IsPalette: 0
   setID: 22091

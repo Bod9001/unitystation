@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: oldpod-o_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: oldpod-o_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7d2e5733323f4b74ca9f77938a5ab386, type: 3}
       spriteName: oldpod-o_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: oldpod-o_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7d2e5733323f4b74ca9f77938a5ab386, type: 3}
       spriteName: oldpod-o_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: oldpod-o_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7d2e5733323f4b74ca9f77938a5ab386, type: 3}
       spriteName: oldpod-o_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: oldpod-o_3
   IsPalette: 0
   setID: 15995

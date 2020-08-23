@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: scratch_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scratch_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4c1320f019bba4f4db043b34d8c2bd1e, type: 3}
       spriteName: scratch_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scratch_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4c1320f019bba4f4db043b34d8c2bd1e, type: 3}
       spriteName: scratch_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scratch_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4c1320f019bba4f4db043b34d8c2bd1e, type: 3}
       spriteName: scratch_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scratch_3
   IsPalette: 0
   setID: 1077

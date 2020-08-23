@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: corgi_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: corgi_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e521117653fea244c9645316be5ec3a6, type: 3}
       spriteName: corgi_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: corgi_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e521117653fea244c9645316be5ec3a6, type: 3}
       spriteName: corgi_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: corgi_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e521117653fea244c9645316be5ec3a6, type: 3}
       spriteName: corgi_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: corgi_3
   IsPalette: 0
   setID: 12196

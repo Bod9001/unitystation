@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: stockings_purple_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: stockings_purple_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6e441ba84656f4a4983ee0e929356ecb, type: 3}
       spriteName: stockings_purple_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: stockings_purple_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6e441ba84656f4a4983ee0e929356ecb, type: 3}
       spriteName: stockings_purple_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: stockings_purple_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6e441ba84656f4a4983ee0e929356ecb, type: 3}
       spriteName: stockings_purple_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: stockings_purple_3
   IsPalette: 0
   setID: 21263

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: redband_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redband_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0ba20224674daf840b56f8b31231e136, type: 3}
       spriteName: redband_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redband_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0ba20224674daf840b56f8b31231e136, type: 3}
       spriteName: redband_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redband_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0ba20224674daf840b56f8b31231e136, type: 3}
       spriteName: redband_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: redband_3
   IsPalette: 0
   setID: 244

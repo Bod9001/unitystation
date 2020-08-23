@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: supply_express_0
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: supply_express_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8683098d3a3ef6741aa3bcf60e60fda3, type: 3}
       spriteName: supply_express_1
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: supply_express_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8683098d3a3ef6741aa3bcf60e60fda3, type: 3}
       spriteName: supply_express_2
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: supply_express_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8683098d3a3ef6741aa3bcf60e60fda3, type: 3}
       spriteName: supply_express_3
       secondDelay: 0
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: supply_express_3
   IsPalette: 0
   setID: 13475

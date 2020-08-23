@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_spikyponytail_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_spikyponytail_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2346a76ce1dcca84688128c865f9cb85, type: 3}
       spriteName: hair_spikyponytail_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_spikyponytail_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2346a76ce1dcca84688128c865f9cb85, type: 3}
       spriteName: hair_spikyponytail_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_spikyponytail_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2346a76ce1dcca84688128c865f9cb85, type: 3}
       spriteName: hair_spikyponytail_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_spikyponytail_3
   IsPalette: 0
   setID: 22043

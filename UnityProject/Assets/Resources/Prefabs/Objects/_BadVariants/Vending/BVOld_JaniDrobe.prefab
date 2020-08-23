@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 3549919079073232614}
   - component: {fileID: 5148306353955064233}
   m_Layer: 11
-  m_Name: JaniDrobe
+  m_Name: BVOld_JaniDrobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -296,7 +296,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  initialIntegrity: 100
   soundOnHit: 
+  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -317,7 +319,6 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
-  initialIntegrity: 100
 --- !u!114 &114472266138859352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,11 +502,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: 243a315b5bbff7f4892e6a6ca9654b44
+    m_SubObjectName: 
+  SubCatalogueAddresses:
+  - m_AssetGUID: 243a315b5bbff7f4892e6a6ca9654b44
+    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: 243a315b5bbff7f4892e6a6ca9654b44, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: 243a315b5bbff7f4892e6a6ca9654b44, type: 2}
-  Sprites:
-  - Texture: {fileID: 2800000, guid: 8095a7489c1934c4f8a0c0b98ec0327e, type: 3}
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
+  Sprites:
+  - Texture: {fileID: 2800000, guid: 8095a7489c1934c4f8a0c0b98ec0327e, type: 3}

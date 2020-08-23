@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: supermatter_sliver_pulse_0
       secondDelay: 0.3
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: supermatter_sliver_pulse_0
     - sprite: {fileID: 21300002, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
       spriteName: supermatter_sliver_pulse_1
       secondDelay: 0.3
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: supermatter_sliver_pulse_1
     - sprite: {fileID: 21300004, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
       spriteName: supermatter_sliver_pulse_2
       secondDelay: 0.3
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: supermatter_sliver_pulse_2
     - sprite: {fileID: 21300006, guid: aa6415a926be5804dbe9aaf51e2a1782, type: 3}
       spriteName: supermatter_sliver_pulse_3
       secondDelay: 0.3
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: supermatter_sliver_pulse_3
   IsPalette: 0
   setID: 9530

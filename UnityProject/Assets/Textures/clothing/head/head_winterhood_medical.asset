@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: winterhood_medical_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_medical_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a26f8de3876ba0342b15c92afd95542b, type: 3}
       spriteName: winterhood_medical_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_medical_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a26f8de3876ba0342b15c92afd95542b, type: 3}
       spriteName: winterhood_medical_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_medical_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a26f8de3876ba0342b15c92afd95542b, type: 3}
       spriteName: winterhood_medical_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_medical_3
   IsPalette: 0
   setID: 721

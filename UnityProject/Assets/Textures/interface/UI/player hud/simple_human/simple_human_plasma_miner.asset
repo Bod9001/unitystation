@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: plasma_miner_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: plasma_miner_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2bccb208d5c0fcf40ae8d5de22dec110, type: 3}
       spriteName: plasma_miner_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: plasma_miner_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2bccb208d5c0fcf40ae8d5de22dec110, type: 3}
       spriteName: plasma_miner_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: plasma_miner_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2bccb208d5c0fcf40ae8d5de22dec110, type: 3}
       spriteName: plasma_miner_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: plasma_miner_3
   IsPalette: 0
   setID: 3852

@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: clown-skillcape_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown-skillcape_0
   - Frames:
     - sprite: {fileID: -5374679459728446113, guid: e06824a93a7c65b4e8ee58ece7966707,
         type: 3}
       spriteName: clown-skillcape_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown-skillcape_1
   - Frames:
     - sprite: {fileID: 5682572677146980519, guid: e06824a93a7c65b4e8ee58ece7966707,
         type: 3}
       spriteName: clown-skillcape_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown-skillcape_2
   - Frames:
     - sprite: {fileID: 8659299603857218494, guid: e06824a93a7c65b4e8ee58ece7966707,
         type: 3}
       spriteName: clown-skillcape_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: clown-skillcape_3
   IsPalette: 0
   setID: 22223

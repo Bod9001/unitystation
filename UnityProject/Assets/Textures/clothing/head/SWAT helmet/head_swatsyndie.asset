@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: swatsyndie_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swatsyndie_0
   - Frames:
     - sprite: {fileID: 21300002, guid: af6c61a736c488f40a8a10d8a63b2932, type: 3}
       spriteName: swatsyndie_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swatsyndie_1
   - Frames:
     - sprite: {fileID: 21300004, guid: af6c61a736c488f40a8a10d8a63b2932, type: 3}
       spriteName: swatsyndie_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swatsyndie_2
   - Frames:
     - sprite: {fileID: 21300006, guid: af6c61a736c488f40a8a10d8a63b2932, type: 3}
       spriteName: swatsyndie_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swatsyndie_3
   IsPalette: 0
   setID: 20445

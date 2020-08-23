@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7a9a48244c3da164eba85b3ef2fcc596,
         type: 2}
+    - target: {fileID: 911625499023932587, guid: d7baf14ff3cf76f489318502c06c7f49,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: 7a9a48244c3da164eba85b3ef2fcc596
+      objectReference: {fileID: 0}
     - target: {fileID: 2797070323025255689, guid: d7baf14ff3cf76f489318502c06c7f49,
         type: 3}
       propertyPath: itemStoragePopulator
@@ -102,5 +107,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 4d0e71fbd5e61c04090e65d0f4bbb139,
         type: 2}
+    - target: {fileID: 8960613963677380436, guid: d7baf14ff3cf76f489318502c06c7f49,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: 4d0e71fbd5e61c04090e65d0f4bbb139
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7baf14ff3cf76f489318502c06c7f49, type: 3}

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: upickaxe_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: upickaxe_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 45b9a8f88c5109a4a83941d49b59043e, type: 3}
       spriteName: upickaxe_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: upickaxe_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 45b9a8f88c5109a4a83941d49b59043e, type: 3}
       spriteName: upickaxe_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: upickaxe_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 45b9a8f88c5109a4a83941d49b59043e, type: 3}
       spriteName: upickaxe_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: upickaxe_3
   IsPalette: 0
   setID: 10170

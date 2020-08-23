@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: headset_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: headset_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a4baffe7b0bee7a4286c05ed53b0310d, type: 3}
       spriteName: headset_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: headset_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a4baffe7b0bee7a4286c05ed53b0310d, type: 3}
       spriteName: headset_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: headset_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a4baffe7b0bee7a4286c05ed53b0310d, type: 3}
       spriteName: headset_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: headset_3
   IsPalette: 0
   setID: 22315

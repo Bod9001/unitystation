@@ -15,25 +15,17 @@ public class AddressableSpritesHandler : MonoBehaviour
 
 	public static async Task LoadSprite(SpriteDataSO.Frame Frame, Action<Sprite> OnCompleteAction)
 	{
-		if (LoadedSprites.ContainsKey(Frame.AtlasUsing) &&
-		    LoadedSprites[Frame.AtlasUsing].ContainsKey(Frame.spriteName))
-		{
-			OnCompleteAction.Invoke(LoadedSprites[Frame.AtlasUsing][Frame.spriteName]);
+		if (Frame.TestAddress.Asset != null){
+			OnCompleteAction.Invoke(Frame.TestAddress.Asset as Sprite);
 			return;
 		}
 
-
-		var asyncOperationHandle =
-			Addressables.LoadAssetAsync<Sprite>(Frame.AtlasUsing + "[" + Frame.spriteName + "]");
+		var asyncOperationHandle  = Frame.TestAddress.LoadAssetAsync();
+		// var asyncOperationHandle =
+			// Addressables.LoadAssetAsync<Sprite>(Frame.AtlasUsing + "[" + Frame.spriteName + "]");
 		//You ask why strings and my responses because they need to
 		//optimise the UI because it's a laggy piece of and Is buggy as well
 		await asyncOperationHandle.Task; // wait for the task to complete before we try to get the result
-		if (LoadedSprites.ContainsKey(Frame.AtlasUsing) == false)
-		{
-			LoadedSprites[Frame.AtlasUsing] = new Dictionary<string, Sprite>();
-		}
-
-		LoadedSprites[Frame.AtlasUsing][Frame.spriteName] = asyncOperationHandle.Result;
 
 		OnCompleteAction.Invoke(asyncOperationHandle.Result);
 	}
@@ -52,6 +44,22 @@ public class AddressableSpritesHandler : MonoBehaviour
 
 		//Logger.Log(" The corresponding atlas for" + inSprite.name + " Could not be found, are you sure you added it to AtlasReference Singleton or is it covered under a atlas");
 		return Atlas.None;
+	}
+
+
+	public static SpriteAtlas FindAtlasContainingSpriteAtlas(Sprite inSprite)
+	{
+		foreach (var Atlase in AtlasReference.Instance.Atlases)
+		{
+			//if (Atlase.Value.GetSprite(inSprite.name) != null)
+			if (Atlase.Value.CanBindTo(inSprite))
+			{
+				return Atlase.Value;
+			}
+		}
+
+		//Logger.Log(" The corresponding atlas for" + inSprite.name + " Could not be found, are you sure you added it to AtlasReference Singleton or is it covered under a atlas");
+		return null;
 	}
 
 	public enum Atlas

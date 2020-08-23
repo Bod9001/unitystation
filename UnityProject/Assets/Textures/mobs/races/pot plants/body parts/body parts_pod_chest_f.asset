@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pod_chest_f_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pod_chest_f_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4331bbdad1bf32f49b3431dc43bdd4d3, type: 3}
       spriteName: pod_chest_f_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pod_chest_f_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4331bbdad1bf32f49b3431dc43bdd4d3, type: 3}
       spriteName: pod_chest_f_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pod_chest_f_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4331bbdad1bf32f49b3431dc43bdd4d3, type: 3}
       spriteName: pod_chest_f_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: pod_chest_f_3
   IsPalette: 0
   setID: 11364

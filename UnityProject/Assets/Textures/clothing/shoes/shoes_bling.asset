@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: bling_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bling_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2262caa63f3f5fe49a5a23386999a17e, type: 3}
       spriteName: bling_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bling_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2262caa63f3f5fe49a5a23386999a17e, type: 3}
       spriteName: bling_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bling_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2262caa63f3f5fe49a5a23386999a17e, type: 3}
       spriteName: bling_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: bling_3
   IsPalette: 0
   setID: 813

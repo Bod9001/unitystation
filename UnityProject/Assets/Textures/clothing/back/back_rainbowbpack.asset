@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: rainbowbpack_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rainbowbpack_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8c4aa372ab0d14945adcd9ce2adc5184, type: 3}
       spriteName: rainbowbpack_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rainbowbpack_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8c4aa372ab0d14945adcd9ce2adc5184, type: 3}
       spriteName: rainbowbpack_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rainbowbpack_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8c4aa372ab0d14945adcd9ce2adc5184, type: 3}
       spriteName: rainbowbpack_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rainbowbpack_3
   IsPalette: 0
   setID: 336

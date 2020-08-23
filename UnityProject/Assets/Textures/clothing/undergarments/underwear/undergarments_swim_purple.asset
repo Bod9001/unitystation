@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: swim_purple_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swim_purple_0
   - Frames:
     - sprite: {fileID: 21300002, guid: aef03c9fb9a733444bbf408f723fdb6f, type: 3}
       spriteName: swim_purple_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swim_purple_1
   - Frames:
     - sprite: {fileID: 21300004, guid: aef03c9fb9a733444bbf408f723fdb6f, type: 3}
       spriteName: swim_purple_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swim_purple_2
   - Frames:
     - sprite: {fileID: 21300006, guid: aef03c9fb9a733444bbf408f723fdb6f, type: 3}
       spriteName: swim_purple_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: swim_purple_3
   IsPalette: 0
   setID: 21364

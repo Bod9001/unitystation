@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: aliens_pounce_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aliens_pounce_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ee07dd0e279e7984d855f8051124a299, type: 3}
       spriteName: aliens_pounce_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aliens_pounce_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ee07dd0e279e7984d855f8051124a299, type: 3}
       spriteName: aliens_pounce_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aliens_pounce_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ee07dd0e279e7984d855f8051124a299, type: 3}
       spriteName: aliens_pounce_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: aliens_pounce_3
   IsPalette: 0
   setID: 12738

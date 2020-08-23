@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: blueclown_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: blueclown_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a8ad373bba5d0884f9736b45c7bc0fbe, type: 3}
       spriteName: blueclown_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: blueclown_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a8ad373bba5d0884f9736b45c7bc0fbe, type: 3}
       spriteName: blueclown_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: blueclown_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a8ad373bba5d0884f9736b45c7bc0fbe, type: 3}
       spriteName: blueclown_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: blueclown_3
   IsPalette: 0
   setID: 22075

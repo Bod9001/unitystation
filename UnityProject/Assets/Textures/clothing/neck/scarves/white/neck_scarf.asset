@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: scarf_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scarf_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 965c036b2bf7eb04292453a0d26a2c68, type: 3}
       spriteName: scarf_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scarf_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 965c036b2bf7eb04292453a0d26a2c68, type: 3}
       spriteName: scarf_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scarf_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 965c036b2bf7eb04292453a0d26a2c68, type: 3}
       spriteName: scarf_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: scarf_3
   IsPalette: 0
   setID: 20728

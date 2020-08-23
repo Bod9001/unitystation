@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: eng_hardsuit_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: eng_hardsuit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b669b2f82bc84824ebac13aad76d4191, type: 3}
       spriteName: eng_hardsuit_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: eng_hardsuit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b669b2f82bc84824ebac13aad76d4191, type: 3}
       spriteName: eng_hardsuit_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: eng_hardsuit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b669b2f82bc84824ebac13aad76d4191, type: 3}
       spriteName: eng_hardsuit_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: eng_hardsuit_3
   IsPalette: 0
   setID: 20912

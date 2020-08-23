@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: miner_0
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: miner_0
     - sprite: {fileID: 21300008, guid: 9d30f80e141c22048a8da2186aeded4c, type: 3}
       spriteName: miner_4
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: miner_4
   - Frames:
     - sprite: {fileID: 21300002, guid: 9d30f80e141c22048a8da2186aeded4c, type: 3}
       spriteName: miner_1
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: miner_1
     - sprite: {fileID: 21300010, guid: 9d30f80e141c22048a8da2186aeded4c, type: 3}
       spriteName: miner_5
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: miner_5
   - Frames:
     - sprite: {fileID: 21300004, guid: 9d30f80e141c22048a8da2186aeded4c, type: 3}
       spriteName: miner_2
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: miner_2
     - sprite: {fileID: 21300012, guid: 9d30f80e141c22048a8da2186aeded4c, type: 3}
       spriteName: miner_6
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: miner_6
   - Frames:
     - sprite: {fileID: 21300006, guid: 9d30f80e141c22048a8da2186aeded4c, type: 3}
       spriteName: miner_3
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: miner_3
     - sprite: {fileID: 21300014, guid: 9d30f80e141c22048a8da2186aeded4c, type: 3}
       spriteName: miner_7
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: miner_7
   IsPalette: 0
   setID: 11624

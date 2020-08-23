@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: s_rabbit_brown_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: s_rabbit_brown_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d1a4c4584eb30ca4d85018ea4e34147b, type: 3}
       spriteName: s_rabbit_brown_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: s_rabbit_brown_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d1a4c4584eb30ca4d85018ea4e34147b, type: 3}
       spriteName: s_rabbit_brown_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: s_rabbit_brown_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d1a4c4584eb30ca4d85018ea4e34147b, type: 3}
       spriteName: s_rabbit_brown_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: s_rabbit_brown_3
   IsPalette: 0
   setID: 12460

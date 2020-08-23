@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: screen_0
       secondDelay: 0.9
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: screen_0
     - sprite: {fileID: 21300002, guid: 4ac4c0fbc2a2dbd4c804b89b490b09df, type: 3}
       spriteName: screen_1
       secondDelay: 0.3
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: screen_1
   IsPalette: 0
   setID: 16304

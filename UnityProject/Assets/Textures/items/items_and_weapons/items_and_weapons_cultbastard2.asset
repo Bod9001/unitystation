@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: cultbastard2_0
       secondDelay: 0.5
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: cultbastard2_0
     - sprite: {fileID: 21300002, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
       spriteName: cultbastard2_1
       secondDelay: 0.05
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: cultbastard2_1
     - sprite: {fileID: 21300004, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
       spriteName: cultbastard2_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: cultbastard2_2
     - sprite: {fileID: 21300006, guid: 985702fc68392a6498df2c310b6c8c9a, type: 3}
       spriteName: cultbastard2_3
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: cultbastard2_3
   IsPalette: 0
   setID: 7749

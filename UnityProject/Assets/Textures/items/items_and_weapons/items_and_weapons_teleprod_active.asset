@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: teleprod_active_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: teleprod_active_0
     - sprite: {fileID: 21300002, guid: 11ec98487f715874db4b5e24f8a57f36, type: 3}
       spriteName: teleprod_active_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: teleprod_active_1
   IsPalette: 0
   setID: 7944

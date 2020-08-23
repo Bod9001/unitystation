@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: s-ninjanf_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: s-ninjanf_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0871c7336bed8314b8b3e18fb9f1bb57, type: 3}
       spriteName: s-ninjanf_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: s-ninjanf_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0871c7336bed8314b8b3e18fb9f1bb57, type: 3}
       spriteName: s-ninjanf_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: s-ninjanf_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0871c7336bed8314b8b3e18fb9f1bb57, type: 3}
       spriteName: s-ninjanf_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: s-ninjanf_3
   IsPalette: 0
   setID: 947

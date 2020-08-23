@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: shoes_paletteable_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shoes_paletteable_0
   - Frames:
     - sprite: {fileID: -7213446891806143264, guid: 3b14262927b9b55498cd0dbc958671c5,
         type: 3}
       spriteName: shoes_paletteable_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shoes_paletteable_1
   - Frames:
     - sprite: {fileID: 1049854004527311016, guid: 3b14262927b9b55498cd0dbc958671c5,
         type: 3}
       spriteName: shoes_paletteable_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shoes_paletteable_2
   - Frames:
     - sprite: {fileID: -7707512944207165724, guid: 3b14262927b9b55498cd0dbc958671c5,
         type: 3}
       spriteName: shoes_paletteable_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: shoes_paletteable_3
   IsPalette: 1
   setID: 20776

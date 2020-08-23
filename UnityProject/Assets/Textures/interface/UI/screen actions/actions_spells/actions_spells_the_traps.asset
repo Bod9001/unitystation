@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: the_traps_0
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: the_traps_0
     - sprite: {fileID: 21300002, guid: 6befc3df942fed34d97776ad65d78927, type: 3}
       spriteName: the_traps_1
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: the_traps_1
     - sprite: {fileID: 21300004, guid: 6befc3df942fed34d97776ad65d78927, type: 3}
       spriteName: the_traps_2
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: the_traps_2
     - sprite: {fileID: 21300006, guid: 6befc3df942fed34d97776ad65d78927, type: 3}
       spriteName: the_traps_3
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: the_traps_3
     - sprite: {fileID: 21300008, guid: 6befc3df942fed34d97776ad65d78927, type: 3}
       spriteName: the_traps_4
       secondDelay: 0.5
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: the_traps_4
   IsPalette: 0
   setID: 4221

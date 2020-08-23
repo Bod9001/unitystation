@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: revballoon_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: revballoon_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d2b7187bbf90eb34d8a09701729f4b6a, type: 3}
       spriteName: revballoon_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: revballoon_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d2b7187bbf90eb34d8a09701729f4b6a, type: 3}
       spriteName: revballoon_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: revballoon_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d2b7187bbf90eb34d8a09701729f4b6a, type: 3}
       spriteName: revballoon_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: revballoon_3
   IsPalette: 0
   setID: 9898

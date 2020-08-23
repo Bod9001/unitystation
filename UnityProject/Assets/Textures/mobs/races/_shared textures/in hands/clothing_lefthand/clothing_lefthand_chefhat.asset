@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: chefhat_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: chefhat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3e618aa9ed65f10409b036373dd704aa, type: 3}
       spriteName: chefhat_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: chefhat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3e618aa9ed65f10409b036373dd704aa, type: 3}
       spriteName: chefhat_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: chefhat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3e618aa9ed65f10409b036373dd704aa, type: 3}
       spriteName: chefhat_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: chefhat_3
   IsPalette: 0
   setID: 22078

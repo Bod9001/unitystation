@@ -18,30 +18,48 @@ MonoBehaviour:
       spriteName: dice_d6-1
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: dice_d6-1
   - Frames:
     - sprite: {fileID: 21300000, guid: ce9b57b94e3f4334ca6cebb4cea88e6d, type: 3}
       spriteName: dice_d6-2
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: dice_d6-2
   - Frames:
     - sprite: {fileID: 21300000, guid: a2aeafecc6be4b545808e76755653b5e, type: 3}
       spriteName: dice_d6-3
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: dice_d6-3
   - Frames:
     - sprite: {fileID: 21300000, guid: 1cc08387911588d44aafb399920f466b, type: 3}
       spriteName: dice_d6-4
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: dice_d6-4
   - Frames:
     - sprite: {fileID: 21300000, guid: 90e02784101ee294fbe721c1c367e46a, type: 3}
       spriteName: dice_d6-5
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: dice_d6-5
   - Frames:
     - sprite: {fileID: 21300000, guid: 25b5f487e069307459e0a4b03e8d7458, type: 3}
       spriteName: dice_d6-6
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: dice_d6-6
   IsPalette: 0
   setID: 6323

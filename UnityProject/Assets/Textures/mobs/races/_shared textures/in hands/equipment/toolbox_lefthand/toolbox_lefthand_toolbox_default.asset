@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: lefthand_toolbox_default_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lefthand_toolbox_default_0
   - Frames:
     - sprite: {fileID: -3919683544208795699, guid: 46c9aaf587dc6ff46a7485fc909dad5d,
         type: 3}
       spriteName: lefthand_toolbox_default_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lefthand_toolbox_default_1
   - Frames:
     - sprite: {fileID: 8670863597314637665, guid: 46c9aaf587dc6ff46a7485fc909dad5d,
         type: 3}
       spriteName: lefthand_toolbox_default_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lefthand_toolbox_default_2
   - Frames:
     - sprite: {fileID: -7731341767988368471, guid: 46c9aaf587dc6ff46a7485fc909dad5d,
         type: 3}
       spriteName: lefthand_toolbox_default_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: lefthand_toolbox_default_3
   IsPalette: 0
   setID: 22253

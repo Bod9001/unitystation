@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: harvester_health6_0
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: harvester_health6_0
     - sprite: {fileID: 21300002, guid: 3f174e57d5042be4fa221be4698e111b, type: 3}
       spriteName: harvester_health6_1
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: harvester_health6_1
   IsPalette: 0
   setID: 3382

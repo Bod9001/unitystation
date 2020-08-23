@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: clothing_righthand_shoes_paletteable_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: clothing_righthand_shoes_paletteable_0
   - Frames:
     - sprite: {fileID: 5447486932713673051, guid: f36b28fdbba3655408414a2ae9e174fb,
         type: 3}
       spriteName: clothing_righthand_shoes_paletteable_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: clothing_righthand_shoes_paletteable_1
   - Frames:
     - sprite: {fileID: -533869239110968400, guid: f36b28fdbba3655408414a2ae9e174fb,
         type: 3}
       spriteName: clothing_righthand_shoes_paletteable_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: clothing_righthand_shoes_paletteable_2
   - Frames:
     - sprite: {fileID: -5498656428679322037, guid: f36b28fdbba3655408414a2ae9e174fb,
         type: 3}
       spriteName: clothing_righthand_shoes_paletteable_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: clothing_righthand_shoes_paletteable_3
   IsPalette: 1
   setID: 22153

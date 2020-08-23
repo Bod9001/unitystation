@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: jetpack-captain_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: jetpack-captain_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d06806525c6bda641b4b60760c6744fc, type: 3}
       spriteName: jetpack-captain_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: jetpack-captain_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d06806525c6bda641b4b60760c6744fc, type: 3}
       spriteName: jetpack-captain_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: jetpack-captain_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d06806525c6bda641b4b60760c6744fc, type: 3}
       spriteName: jetpack-captain_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: jetpack-captain_3
   IsPalette: 0
   setID: 10097

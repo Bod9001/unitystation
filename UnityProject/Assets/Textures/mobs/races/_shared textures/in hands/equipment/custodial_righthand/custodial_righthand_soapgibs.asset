@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: soapgibs_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: soapgibs_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9ea29094cc95e474c951c82c04a66be1, type: 3}
       spriteName: soapgibs_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: soapgibs_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9ea29094cc95e474c951c82c04a66be1, type: 3}
       spriteName: soapgibs_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: soapgibs_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9ea29094cc95e474c951c82c04a66be1, type: 3}
       spriteName: soapgibs_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: soapgibs_3
   IsPalette: 0
   setID: 10063

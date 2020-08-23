@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: wraith_specs_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wraith_specs_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 46ebed0420f606e4bbc407b96fd6c9b3, type: 3}
       spriteName: wraith_specs_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wraith_specs_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 46ebed0420f606e4bbc407b96fd6c9b3, type: 3}
       spriteName: wraith_specs_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wraith_specs_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 46ebed0420f606e4bbc407b96fd6c9b3, type: 3}
       spriteName: wraith_specs_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: wraith_specs_3
   IsPalette: 0
   setID: 506

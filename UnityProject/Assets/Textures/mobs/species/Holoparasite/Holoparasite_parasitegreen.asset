@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: parasitegreen_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasitegreen_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 678ea55c390a1ab46bf4193739207486, type: 3}
       spriteName: parasitegreen_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasitegreen_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 678ea55c390a1ab46bf4193739207486, type: 3}
       spriteName: parasitegreen_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasitegreen_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 678ea55c390a1ab46bf4193739207486, type: 3}
       spriteName: parasitegreen_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: parasitegreen_3
   IsPalette: 0
   setID: 12309

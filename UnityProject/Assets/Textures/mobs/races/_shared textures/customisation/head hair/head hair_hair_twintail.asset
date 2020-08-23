@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_twintail_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_twintail_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ecad4c5b7e5a58b44a0a104356734bf8, type: 3}
       spriteName: hair_twintail_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_twintail_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ecad4c5b7e5a58b44a0a104356734bf8, type: 3}
       spriteName: hair_twintail_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_twintail_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ecad4c5b7e5a58b44a0a104356734bf8, type: 3}
       spriteName: hair_twintail_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_twintail_3
   IsPalette: 0
   setID: 22055

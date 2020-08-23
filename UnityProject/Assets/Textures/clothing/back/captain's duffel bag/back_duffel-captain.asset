@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: duffel-captain_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: duffel-captain_0
   - Frames:
     - sprite: {fileID: 21300002, guid: fc4c64a41e57fbb449089f2866c7ed09, type: 3}
       spriteName: duffel-captain_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: duffel-captain_1
   - Frames:
     - sprite: {fileID: 21300004, guid: fc4c64a41e57fbb449089f2866c7ed09, type: 3}
       spriteName: duffel-captain_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: duffel-captain_2
   - Frames:
     - sprite: {fileID: 21300006, guid: fc4c64a41e57fbb449089f2866c7ed09, type: 3}
       spriteName: duffel-captain_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: duffel-captain_3
   IsPalette: 0
   setID: 19703

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: taqiyahred_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: taqiyahred_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 88fe33364ebce73469fd60ecb0ecb55c, type: 3}
       spriteName: taqiyahred_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: taqiyahred_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 88fe33364ebce73469fd60ecb0ecb55c, type: 3}
       spriteName: taqiyahred_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: taqiyahred_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 88fe33364ebce73469fd60ecb0ecb55c, type: 3}
       spriteName: taqiyahred_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: taqiyahred_3
   IsPalette: 0
   setID: 20410

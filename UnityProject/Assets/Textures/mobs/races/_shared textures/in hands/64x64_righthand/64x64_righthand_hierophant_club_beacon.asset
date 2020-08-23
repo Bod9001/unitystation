@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hierophant_club_beacon_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hierophant_club_beacon_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f5262eb45ec82ae4ab392bc5f4f94ace, type: 3}
       spriteName: hierophant_club_beacon_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hierophant_club_beacon_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f5262eb45ec82ae4ab392bc5f4f94ace, type: 3}
       spriteName: hierophant_club_beacon_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hierophant_club_beacon_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f5262eb45ec82ae4ab392bc5f4f94ace, type: 3}
       spriteName: hierophant_club_beacon_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: hierophant_club_beacon_3
   IsPalette: 0
   setID: 9872

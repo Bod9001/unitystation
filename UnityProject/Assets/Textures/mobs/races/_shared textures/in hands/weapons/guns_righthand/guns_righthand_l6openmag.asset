@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: l6openmag_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: l6openmag_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d1a2fa27c77040941af286150cbd682f, type: 3}
       spriteName: l6openmag_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: l6openmag_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d1a2fa27c77040941af286150cbd682f, type: 3}
       spriteName: l6openmag_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: l6openmag_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d1a2fa27c77040941af286150cbd682f, type: 3}
       spriteName: l6openmag_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: l6openmag_3
   IsPalette: 0
   setID: 10756

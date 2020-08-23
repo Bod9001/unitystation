@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: ert_janitor_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ert_janitor_0
   - Frames:
     - sprite: {fileID: 7785066121562653146, guid: 0b08a2e2433074b4fb82d435a381d895,
         type: 3}
       spriteName: ert_janitor_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ert_janitor_1
   - Frames:
     - sprite: {fileID: 7362999703341760711, guid: 0b08a2e2433074b4fb82d435a381d895,
         type: 3}
       spriteName: ert_janitor_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ert_janitor_2
   - Frames:
     - sprite: {fileID: 8048148019497650713, guid: 0b08a2e2433074b4fb82d435a381d895,
         type: 3}
       spriteName: ert_janitor_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ert_janitor_3
   IsPalette: 0
   setID: 19734

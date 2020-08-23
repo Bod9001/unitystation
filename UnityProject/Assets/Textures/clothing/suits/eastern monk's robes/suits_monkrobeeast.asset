@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: monkrobeeast_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monkrobeeast_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1d7f42ff75c8f3f41b3c822268ec1546, type: 3}
       spriteName: monkrobeeast_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monkrobeeast_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1d7f42ff75c8f3f41b3c822268ec1546, type: 3}
       spriteName: monkrobeeast_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monkrobeeast_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1d7f42ff75c8f3f41b3c822268ec1546, type: 3}
       spriteName: monkrobeeast_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: monkrobeeast_3
   IsPalette: 0
   setID: 20901

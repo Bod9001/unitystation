@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: peace_e_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: peace_e_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9e685cab65a747b469d0a2f824213d38, type: 3}
       spriteName: peace_e_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: peace_e_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9e685cab65a747b469d0a2f824213d38, type: 3}
       spriteName: peace_e_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: peace_e_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9e685cab65a747b469d0a2f824213d38, type: 3}
       spriteName: peace_e_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: peace_e_3
   IsPalette: 0
   setID: 11636

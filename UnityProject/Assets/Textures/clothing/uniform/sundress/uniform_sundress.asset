@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: sundress_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sundress_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
       spriteName: sundress_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sundress_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
       spriteName: sundress_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sundress_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ddc9eb8914cd790428e7dcb709c4d9a1, type: 3}
       spriteName: sundress_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sundress_3
   IsPalette: 0
   setID: 21728

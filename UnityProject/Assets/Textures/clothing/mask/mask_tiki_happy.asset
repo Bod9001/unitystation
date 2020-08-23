@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tiki_happy_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_happy_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4cd8111344c3b354c96ce85d2c9ed43b, type: 3}
       spriteName: tiki_happy_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_happy_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4cd8111344c3b354c96ce85d2c9ed43b, type: 3}
       spriteName: tiki_happy_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_happy_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4cd8111344c3b354c96ce85d2c9ed43b, type: 3}
       spriteName: tiki_happy_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tiki_happy_3
   IsPalette: 0
   setID: 787

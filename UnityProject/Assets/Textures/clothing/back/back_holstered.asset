@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: holstered_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: holstered_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6d6a80b3ba0ff4343b0714c9efb7ee1f, type: 3}
       spriteName: holstered_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: holstered_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6d6a80b3ba0ff4343b0714c9efb7ee1f, type: 3}
       spriteName: holstered_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: holstered_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6d6a80b3ba0ff4343b0714c9efb7ee1f, type: 3}
       spriteName: holstered_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: holstered_3
   IsPalette: 0
   setID: 296

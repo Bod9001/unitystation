@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: arrow7_0
       secondDelay: 0.7
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: arrow7_0
     - sprite: {fileID: 21300002, guid: 7736bec0bf3a8084499cde3c10590e49, type: 3}
       spriteName: arrow7_1
       secondDelay: 0.7
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: arrow7_1
   IsPalette: 0
   setID: 3091

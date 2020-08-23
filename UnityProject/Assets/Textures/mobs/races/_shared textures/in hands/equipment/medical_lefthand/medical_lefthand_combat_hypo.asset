@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: combat_hypo_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: combat_hypo_0
   - Frames:
     - sprite: {fileID: -5918914755986530448, guid: 007349b3970479c438292fd7527a11b0,
         type: 3}
       spriteName: combat_hypo_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: combat_hypo_1
   - Frames:
     - sprite: {fileID: 2784149934053129972, guid: 007349b3970479c438292fd7527a11b0,
         type: 3}
       spriteName: combat_hypo_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: combat_hypo_2
   - Frames:
     - sprite: {fileID: -6788877117404622145, guid: 007349b3970479c438292fd7527a11b0,
         type: 3}
       spriteName: combat_hypo_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: combat_hypo_3
   IsPalette: 0
   setID: 23016

@@ -18,21 +18,36 @@ MonoBehaviour:
       spriteName: staffofstorms_0
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: staffofstorms_0
     - sprite: {fileID: 21300002, guid: ae7f33dc64561e74892fc7b706de814a, type: 3}
       spriteName: staffofstorms_1
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: staffofstorms_1
     - sprite: {fileID: 21300004, guid: ae7f33dc64561e74892fc7b706de814a, type: 3}
       spriteName: staffofstorms_2
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: staffofstorms_2
     - sprite: {fileID: 21300006, guid: ae7f33dc64561e74892fc7b706de814a, type: 3}
       spriteName: staffofstorms_3
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: staffofstorms_3
     - sprite: {fileID: 21300008, guid: ae7f33dc64561e74892fc7b706de814a, type: 3}
       spriteName: staffofstorms_4
       secondDelay: 1.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: staffofstorms_4
   IsPalette: 0
   setID: 7498

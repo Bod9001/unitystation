@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: ce_helm_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ce_helm_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b3780eac69b17d44bafdfc9e8d5dc1b2, type: 3}
       spriteName: ce_helm_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ce_helm_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b3780eac69b17d44bafdfc9e8d5dc1b2, type: 3}
       spriteName: ce_helm_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ce_helm_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b3780eac69b17d44bafdfc9e8d5dc1b2, type: 3}
       spriteName: ce_helm_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: ce_helm_3
   IsPalette: 0
   setID: 20083

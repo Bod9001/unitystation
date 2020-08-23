@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: sombrero_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sombrero_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 018e4a98f79901b488a9bee8e3f0ae1f, type: 3}
       spriteName: sombrero_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sombrero_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 018e4a98f79901b488a9bee8e3f0ae1f, type: 3}
       spriteName: sombrero_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sombrero_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 018e4a98f79901b488a9bee8e3f0ae1f, type: 3}
       spriteName: sombrero_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: sombrero_3
   IsPalette: 0
   setID: 20433

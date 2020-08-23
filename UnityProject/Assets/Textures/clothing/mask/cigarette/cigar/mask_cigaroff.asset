@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cigaroff_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cigaroff_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bd4f34a520d52af43be193ec6c3b4702, type: 3}
       spriteName: cigaroff_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cigaroff_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bd4f34a520d52af43be193ec6c3b4702, type: 3}
       spriteName: cigaroff_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cigaroff_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bd4f34a520d52af43be193ec6c3b4702, type: 3}
       spriteName: cigaroff_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cigaroff_3
   IsPalette: 0
   setID: 754

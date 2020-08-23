@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: corner_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: corner_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6c506a9ab210c284fa419fb6c75fcd87, type: 3}
       spriteName: corner_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: corner_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6c506a9ab210c284fa419fb6c75fcd87, type: 3}
       spriteName: corner_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: corner_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6c506a9ab210c284fa419fb6c75fcd87, type: 3}
       spriteName: corner_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: corner_3
   IsPalette: 0
   setID: 19515

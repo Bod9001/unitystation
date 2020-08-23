@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: morph_0
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: morph_0
     - sprite: {fileID: 21300002, guid: 84f24fb8bc335b54ca2ed8cfe7634f29, type: 3}
       spriteName: morph_1
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: morph_1
     - sprite: {fileID: 21300004, guid: 84f24fb8bc335b54ca2ed8cfe7634f29, type: 3}
       spriteName: morph_2
       secondDelay: 0.3
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: morph_2
   IsPalette: 0
   setID: 11875

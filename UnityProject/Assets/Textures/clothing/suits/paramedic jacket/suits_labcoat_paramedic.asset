@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: labcoat_paramedic_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_paramedic_0
   - Frames:
     - sprite: {fileID: 444221191094312349, guid: a7068f6f792acff428a0f90edb0e6f83,
         type: 3}
       spriteName: labcoat_paramedic_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_paramedic_1
   - Frames:
     - sprite: {fileID: -276018547505187897, guid: a7068f6f792acff428a0f90edb0e6f83,
         type: 3}
       spriteName: labcoat_paramedic_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_paramedic_2
   - Frames:
     - sprite: {fileID: -5124712733119835016, guid: a7068f6f792acff428a0f90edb0e6f83,
         type: 3}
       spriteName: labcoat_paramedic_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: labcoat_paramedic_3
   IsPalette: 0
   setID: 21027

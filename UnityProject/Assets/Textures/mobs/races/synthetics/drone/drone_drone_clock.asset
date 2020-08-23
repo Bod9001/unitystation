@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: drone_clock_0
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_clock_0
     - sprite: {fileID: 21300008, guid: d7cefdcffb139af429f619610db2a324, type: 3}
       spriteName: drone_clock_4
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_clock_4
   - Frames:
     - sprite: {fileID: 21300002, guid: d7cefdcffb139af429f619610db2a324, type: 3}
       spriteName: drone_clock_1
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_clock_1
     - sprite: {fileID: 21300010, guid: d7cefdcffb139af429f619610db2a324, type: 3}
       spriteName: drone_clock_5
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_clock_5
   - Frames:
     - sprite: {fileID: 21300004, guid: d7cefdcffb139af429f619610db2a324, type: 3}
       spriteName: drone_clock_2
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_clock_2
     - sprite: {fileID: 21300012, guid: d7cefdcffb139af429f619610db2a324, type: 3}
       spriteName: drone_clock_6
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_clock_6
   - Frames:
     - sprite: {fileID: 21300006, guid: d7cefdcffb139af429f619610db2a324, type: 3}
       spriteName: drone_clock_3
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_clock_3
     - sprite: {fileID: 21300014, guid: d7cefdcffb139af429f619610db2a324, type: 3}
       spriteName: drone_clock_7
       secondDelay: 0.1
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: drone_clock_7
   IsPalette: 0
   setID: 11697

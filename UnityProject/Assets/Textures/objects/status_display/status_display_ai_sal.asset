@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: ai_sal_0
       secondDelay: 3
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ai_sal_0
     - sprite: {fileID: 21300002, guid: 10f8795bbe5fac347bacdf0a177db314, type: 3}
       spriteName: ai_sal_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ai_sal_1
     - sprite: {fileID: 21300004, guid: 10f8795bbe5fac347bacdf0a177db314, type: 3}
       spriteName: ai_sal_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ai_sal_2
   IsPalette: 0
   setID: 17191

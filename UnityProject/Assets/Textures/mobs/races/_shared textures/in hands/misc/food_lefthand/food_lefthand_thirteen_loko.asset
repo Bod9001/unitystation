@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: thirteen_loko_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: thirteen_loko_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
       spriteName: thirteen_loko_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: thirteen_loko_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
       spriteName: thirteen_loko_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: thirteen_loko_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 678aee251d429ba4498ebfe58d31b1f7, type: 3}
       spriteName: thirteen_loko_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: thirteen_loko_3
   IsPalette: 0
   setID: 22358

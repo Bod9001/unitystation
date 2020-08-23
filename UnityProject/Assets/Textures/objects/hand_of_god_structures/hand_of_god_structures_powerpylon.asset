@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: powerpylon_0
       secondDelay: 0.3
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: powerpylon_0
     - sprite: {fileID: 21300002, guid: b8d11fff9caa42e4998b545d4c1a6c7c, type: 3}
       spriteName: powerpylon_1
       secondDelay: 0.3
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: powerpylon_1
     - sprite: {fileID: 21300004, guid: b8d11fff9caa42e4998b545d4c1a6c7c, type: 3}
       spriteName: powerpylon_2
       secondDelay: 0.3
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: powerpylon_2
   IsPalette: 0
   setID: 15097

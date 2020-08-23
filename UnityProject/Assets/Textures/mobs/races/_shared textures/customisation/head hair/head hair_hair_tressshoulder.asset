@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: hair_tressshoulder_0
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_tressshoulder_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f082356f1dd148a4692dbba4780fcc58, type: 3}
       spriteName: hair_tressshoulder_1
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_tressshoulder_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f082356f1dd148a4692dbba4780fcc58, type: 3}
       spriteName: hair_tressshoulder_2
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_tressshoulder_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f082356f1dd148a4692dbba4780fcc58, type: 3}
       spriteName: hair_tressshoulder_3
       secondDelay: 0
       AtlasUsing: 7
+      TestAddress:
+        m_AssetGUID: f0537beedf952c54586ab37252e12f88
+        m_SubObjectName: hair_tressshoulder_3
   IsPalette: 0
   setID: 22052

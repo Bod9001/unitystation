@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: purplecrack_0
       secondDelay: 0.3
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplecrack_0
     - sprite: {fileID: 21300002, guid: f612642c2aa9af44a8df5ef58f475fb4, type: 3}
       spriteName: purplecrack_1
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplecrack_1
     - sprite: {fileID: 21300004, guid: f612642c2aa9af44a8df5ef58f475fb4, type: 3}
       spriteName: purplecrack_2
       secondDelay: 0.1
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: purplecrack_2
   IsPalette: 0
   setID: 1428

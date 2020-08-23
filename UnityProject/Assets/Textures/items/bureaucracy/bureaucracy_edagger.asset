@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: edagger_0
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: edagger_0
     - sprite: {fileID: 21300002, guid: 0157cfd8e8359744b8739a696f65fa41, type: 3}
       spriteName: edagger_1
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: edagger_1
   IsPalette: 0
   setID: 5115

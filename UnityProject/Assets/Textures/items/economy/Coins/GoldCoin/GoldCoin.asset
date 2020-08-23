@@ -18,10 +18,16 @@ MonoBehaviour:
       spriteName: economy_coin_gold_heads
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: economy_coin_gold_heads
   - Frames:
     - sprite: {fileID: 21300000, guid: 9ae43895d403da2458dd3ecce39b39d1, type: 3}
       spriteName: economy_coin_gold_tails
       secondDelay: 0
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: economy_coin_gold_tails
   IsPalette: 0
   setID: 6683

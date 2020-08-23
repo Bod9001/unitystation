@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: yellowshirt_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: yellowshirt_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9aa6280f7202bc841b6cf94de3e8c60a, type: 3}
       spriteName: yellowshirt_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: yellowshirt_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9aa6280f7202bc841b6cf94de3e8c60a, type: 3}
       spriteName: yellowshirt_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: yellowshirt_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9aa6280f7202bc841b6cf94de3e8c60a, type: 3}
       spriteName: yellowshirt_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: yellowshirt_3
   IsPalette: 0
   setID: 21327

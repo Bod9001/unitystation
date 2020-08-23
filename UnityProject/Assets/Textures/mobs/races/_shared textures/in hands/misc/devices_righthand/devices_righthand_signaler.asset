@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: signaler_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: signaler_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dd9f38c6a4cbd78458e1c3e90df0f391, type: 3}
       spriteName: signaler_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: signaler_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dd9f38c6a4cbd78458e1c3e90df0f391, type: 3}
       spriteName: signaler_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: signaler_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dd9f38c6a4cbd78458e1c3e90df0f391, type: 3}
       spriteName: signaler_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: signaler_3
   IsPalette: 0
   setID: 22338

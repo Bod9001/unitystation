@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: rice_hat_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rice_hat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3f26b616c64af7545b39b97913835b2a, type: 3}
       spriteName: rice_hat_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rice_hat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3f26b616c64af7545b39b97913835b2a, type: 3}
       spriteName: rice_hat_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rice_hat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3f26b616c64af7545b39b97913835b2a, type: 3}
       spriteName: rice_hat_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: rice_hat_3
   IsPalette: 0
   setID: 679

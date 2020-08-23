@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: ward-blue_0
       secondDelay: 0.6
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ward-blue_0
     - sprite: {fileID: 21300002, guid: e8a0baaeddb0c864f8b90f501fced1f1, type: 3}
       spriteName: ward-blue_1
       secondDelay: 0.6
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: ward-blue_1
   IsPalette: 0
   setID: 15114

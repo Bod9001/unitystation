@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: boxingblue_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: boxingblue_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e9235eb854d723141bc21c071dc2efe3, type: 3}
       spriteName: boxingblue_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: boxingblue_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e9235eb854d723141bc21c071dc2efe3, type: 3}
       spriteName: boxingblue_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: boxingblue_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e9235eb854d723141bc21c071dc2efe3, type: 3}
       spriteName: boxingblue_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: boxingblue_3
   IsPalette: 0
   setID: 509

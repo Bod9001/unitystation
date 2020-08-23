@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: snow_surround_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: snow_surround_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d3cfb42e241d54e408bb3b731ff5c552, type: 3}
       spriteName: snow_surround_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: snow_surround_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d3cfb42e241d54e408bb3b731ff5c552, type: 3}
       spriteName: snow_surround_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: snow_surround_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d3cfb42e241d54e408bb3b731ff5c552, type: 3}
       spriteName: snow_surround_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: snow_surround_3
   IsPalette: 0
   setID: 164

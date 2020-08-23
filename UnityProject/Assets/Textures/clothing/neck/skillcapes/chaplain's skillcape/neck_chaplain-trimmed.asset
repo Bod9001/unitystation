@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: chaplain-trimmed_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chaplain-trimmed_0
   - Frames:
     - sprite: {fileID: -505450360759941765, guid: d0d447fa2f88d934a844f4d4feb543a5,
         type: 3}
       spriteName: chaplain-trimmed_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chaplain-trimmed_1
   - Frames:
     - sprite: {fileID: 876258427795241107, guid: d0d447fa2f88d934a844f4d4feb543a5,
         type: 3}
       spriteName: chaplain-trimmed_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chaplain-trimmed_2
   - Frames:
     - sprite: {fileID: 878759731024247322, guid: d0d447fa2f88d934a844f4d4feb543a5,
         type: 3}
       spriteName: chaplain-trimmed_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chaplain-trimmed_3
   IsPalette: 0
   setID: 22218

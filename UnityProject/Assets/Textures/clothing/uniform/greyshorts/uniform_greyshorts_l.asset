@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: greyshorts_l_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greyshorts_l_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
       spriteName: greyshorts_l_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greyshorts_l_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
       spriteName: greyshorts_l_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greyshorts_l_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2a724d6f6e0b8af4995248e159e30ea1, type: 3}
       spriteName: greyshorts_l_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: greyshorts_l_3
   IsPalette: 0
   setID: 1029

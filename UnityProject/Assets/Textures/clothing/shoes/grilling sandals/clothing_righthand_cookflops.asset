@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: cookflops_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cookflops_0
   - Frames:
     - sprite: {fileID: -7414740900456514997, guid: c18dd0e9e43aa234c86e73aaa6834f50,
         type: 3}
       spriteName: cookflops_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cookflops_1
   - Frames:
     - sprite: {fileID: -8872136805515122288, guid: c18dd0e9e43aa234c86e73aaa6834f50,
         type: 3}
       spriteName: cookflops_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cookflops_2
   - Frames:
     - sprite: {fileID: -6687373784703660622, guid: c18dd0e9e43aa234c86e73aaa6834f50,
         type: 3}
       spriteName: cookflops_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cookflops_3
   IsPalette: 0
   setID: 20756

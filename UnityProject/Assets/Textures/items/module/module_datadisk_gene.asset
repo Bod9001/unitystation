@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: datadisk_gene_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: datadisk_gene_0
     - sprite: {fileID: 21300002, guid: 1cc3126c77464c149be884a3df3a17c6, type: 3}
       spriteName: datadisk_gene_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: datadisk_gene_1
     - sprite: {fileID: 21300004, guid: 1cc3126c77464c149be884a3df3a17c6, type: 3}
       spriteName: datadisk_gene_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: datadisk_gene_2
   IsPalette: 0
   setID: 8398

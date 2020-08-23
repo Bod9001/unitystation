@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 7668251180191480256}
   - component: {fileID: -1302492112850905523}
   m_Layer: 11
-  m_Name: CuraDrobe
+  m_Name: BVOld_CuraDrobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -296,7 +296,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  initialIntegrity: 100
   soundOnHit: 
+  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -317,7 +319,6 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
-  initialIntegrity: 100
 --- !u!114 &114472266138859352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,11 +502,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PresentSpriteSetAddress:
+    m_AssetGUID: c5205d9c2834dd447bf493d22efbab27
+    m_SubObjectName: 
+  SubCatalogueAddresses:
+  - m_AssetGUID: c5205d9c2834dd447bf493d22efbab27
+    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: c5205d9c2834dd447bf493d22efbab27, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: c5205d9c2834dd447bf493d22efbab27, type: 2}
-  Sprites:
-  - Texture: {fileID: 2800000, guid: ae7d416162912374d8cb9302f49f6129, type: 3}
+  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
+  Sprites:
+  - Texture: {fileID: 2800000, guid: ae7d416162912374d8cb9302f49f6129, type: 3}

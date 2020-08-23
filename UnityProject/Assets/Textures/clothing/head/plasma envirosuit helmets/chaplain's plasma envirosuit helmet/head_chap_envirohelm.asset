@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: chap_envirohelm_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chap_envirohelm_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9de5ae1bd01239d4cba9cbbfea960d24, type: 3}
       spriteName: chap_envirohelm_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chap_envirohelm_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9de5ae1bd01239d4cba9cbbfea960d24, type: 3}
       spriteName: chap_envirohelm_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chap_envirohelm_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9de5ae1bd01239d4cba9cbbfea960d24, type: 3}
       spriteName: chap_envirohelm_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: chap_envirohelm_3
   IsPalette: 0
   setID: 565

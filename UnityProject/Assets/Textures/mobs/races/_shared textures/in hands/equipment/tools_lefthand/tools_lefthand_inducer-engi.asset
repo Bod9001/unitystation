@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: inducer-engi_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: inducer-engi_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f28b7745d1b109b47bcd45dfa81fd10f, type: 3}
       spriteName: inducer-engi_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: inducer-engi_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f28b7745d1b109b47bcd45dfa81fd10f, type: 3}
       spriteName: inducer-engi_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: inducer-engi_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f28b7745d1b109b47bcd45dfa81fd10f, type: 3}
       spriteName: inducer-engi_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: inducer-engi_3
   IsPalette: 0
   setID: 10244

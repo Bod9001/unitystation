@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: winterhood_miner_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_miner_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1f5c1c49366e7704a8e310e8ff0d1ad5, type: 3}
       spriteName: winterhood_miner_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_miner_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1f5c1c49366e7704a8e310e8ff0d1ad5, type: 3}
       spriteName: winterhood_miner_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_miner_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1f5c1c49366e7704a8e310e8ff0d1ad5, type: 3}
       spriteName: winterhood_miner_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: winterhood_miner_3
   IsPalette: 0
   setID: 722

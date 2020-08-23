@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: hardsuit-berserker_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-berserker_0
   - Frames:
     - sprite: {fileID: -5816512086221822799, guid: 74bfa9f87c51b30419cf47b8b859ea32,
         type: 3}
       spriteName: hardsuit-berserker_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-berserker_1
   - Frames:
     - sprite: {fileID: 1773574238154273727, guid: 74bfa9f87c51b30419cf47b8b859ea32,
         type: 3}
       spriteName: hardsuit-berserker_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-berserker_2
   - Frames:
     - sprite: {fileID: 7001054923390838147, guid: 74bfa9f87c51b30419cf47b8b859ea32,
         type: 3}
       spriteName: hardsuit-berserker_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: hardsuit-berserker_3
   IsPalette: 0
   setID: 20927

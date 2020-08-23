@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: t_replicant_alloy_0
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: t_replicant_alloy_0
     - sprite: {fileID: 21300002, guid: eb0565587e4d7c544bee244d1e0bebc3, type: 3}
       spriteName: t_replicant_alloy_1
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: t_replicant_alloy_1
     - sprite: {fileID: 21300004, guid: eb0565587e4d7c544bee244d1e0bebc3, type: 3}
       spriteName: t_replicant_alloy_2
       secondDelay: 0.1
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: t_replicant_alloy_2
   IsPalette: 0
   setID: 5544

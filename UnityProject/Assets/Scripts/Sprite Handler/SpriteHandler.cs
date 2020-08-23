@@ -22,9 +22,9 @@ public class SpriteHandler : MonoBehaviour
 
 	[SerializeField] private bool NetworkThis = true;
 
-	[SerializeField] public List<SpriteDataSO> SubCatalogue = new List<SpriteDataSO>();
+	private List<SpriteDataSO> SubCatalogue = new List<SpriteDataSO>();
 
-	[SerializeField] public SpriteDataSO PresentSpriteSet;
+	private SpriteDataSO PresentSpriteSet;
 	private SpriteDataSO.Frame PresentFrame = null;
 
 	private SpriteRenderer spriteRenderer;
@@ -632,7 +632,7 @@ public class SpriteHandler : MonoBehaviour
 		yield return new Unity.EditorCoroutines.Editor.EditorWaitForSeconds(PresentFrame.secondDelay);
 		UpdateMe();
 		EditorAnimating = null;
-		if (isAnimation && !(this == null))
+		if (isAnimation && !(this == null) && EditorAnimating == null)
 		{
 			EditorAnimating =
 				Unity.EditorCoroutines.Editor.EditorCoroutineUtility.StartCoroutine(EditorAnimations(), this);

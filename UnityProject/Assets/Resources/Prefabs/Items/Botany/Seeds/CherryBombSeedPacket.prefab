@@ -205,6 +205,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: cfd96d844851b3d4e9a52d034926912b,
         type: 2}
+    - target: {fileID: 6983737391352839654, guid: 26abf4c2c542ffa4098216683cb5f652,
+        type: 3}
+      propertyPath: PresentSpriteSetAddress.m_AssetGUID
+      value: cfd96d844851b3d4e9a52d034926912b
+      objectReference: {fileID: 0}
     - target: {fileID: 7137446383190126757, guid: 26abf4c2c542ffa4098216683cb5f652,
         type: 3}
       propertyPath: PresentSpriteSet

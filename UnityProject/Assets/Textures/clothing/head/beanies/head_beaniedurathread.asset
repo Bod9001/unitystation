@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: beaniedurathread_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: beaniedurathread_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
       spriteName: beaniedurathread_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: beaniedurathread_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
       spriteName: beaniedurathread_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: beaniedurathread_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4c2af8e6932e20f469880a287e4a9c83, type: 3}
       spriteName: beaniedurathread_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: beaniedurathread_3
   IsPalette: 0
   setID: 20166

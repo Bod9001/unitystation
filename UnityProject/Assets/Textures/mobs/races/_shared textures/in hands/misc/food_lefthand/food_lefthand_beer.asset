@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: beer_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: beer_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 67c6b657bedfac746bb76446e13e92fe, type: 3}
       spriteName: beer_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: beer_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 67c6b657bedfac746bb76446e13e92fe, type: 3}
       spriteName: beer_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: beer_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 67c6b657bedfac746bb76446e13e92fe, type: 3}
       spriteName: beer_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: beer_3
   IsPalette: 0
   setID: 22340

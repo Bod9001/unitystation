@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: borg_r_leg_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: borg_r_leg_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c38b201ba6c23b946b1de595387b9273, type: 3}
       spriteName: borg_r_leg_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: borg_r_leg_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c38b201ba6c23b946b1de595387b9273, type: 3}
       spriteName: borg_r_leg_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: borg_r_leg_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c38b201ba6c23b946b1de595387b9273, type: 3}
       spriteName: borg_r_leg_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: borg_r_leg_3
   IsPalette: 0
   setID: 11676

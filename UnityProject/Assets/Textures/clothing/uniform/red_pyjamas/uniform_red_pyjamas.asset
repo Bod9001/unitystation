@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: red_pyjamas_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: red_pyjamas_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c9eb3c7b48d135d4a886f1e656ee4681, type: 3}
       spriteName: red_pyjamas_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: red_pyjamas_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c9eb3c7b48d135d4a886f1e656ee4681, type: 3}
       spriteName: red_pyjamas_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: red_pyjamas_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c9eb3c7b48d135d4a886f1e656ee4681, type: 3}
       spriteName: red_pyjamas_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: red_pyjamas_3
   IsPalette: 0
   setID: 1067

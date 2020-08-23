@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: oil_adult_slime_eat_0
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: oil_adult_slime_eat_0
     - sprite: {fileID: 21300002, guid: b663a433f28281241978709ae82a75e8, type: 3}
       spriteName: oil_adult_slime_eat_1
       secondDelay: 0.2
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: oil_adult_slime_eat_1
   IsPalette: 0
   setID: 12561

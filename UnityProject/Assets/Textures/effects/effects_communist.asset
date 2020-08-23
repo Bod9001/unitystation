@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: communist_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: communist_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 702aa504b09f59a479f9e86e910c0d98, type: 3}
       spriteName: communist_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: communist_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 702aa504b09f59a479f9e86e910c0d98, type: 3}
       spriteName: communist_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: communist_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 702aa504b09f59a479f9e86e910c0d98, type: 3}
       spriteName: communist_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: communist_3
   IsPalette: 0
   setID: 1277

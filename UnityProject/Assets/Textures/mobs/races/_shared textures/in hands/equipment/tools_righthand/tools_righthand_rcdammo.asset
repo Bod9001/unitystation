@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: rcdammo_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rcdammo_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2f393c3be31bbda46bea11267ebb73eb, type: 3}
       spriteName: rcdammo_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rcdammo_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2f393c3be31bbda46bea11267ebb73eb, type: 3}
       spriteName: rcdammo_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rcdammo_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2f393c3be31bbda46bea11267ebb73eb, type: 3}
       spriteName: rcdammo_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: rcdammo_3
   IsPalette: 0
   setID: 10282

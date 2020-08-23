@@ -18,36 +18,60 @@ MonoBehaviour:
       spriteName: particle_0
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: particle_0
     - sprite: {fileID: 21300008, guid: fefb44275932fd5479080c95bd789b8a, type: 3}
       spriteName: particle_4
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: particle_4
   - Frames:
     - sprite: {fileID: 21300002, guid: fefb44275932fd5479080c95bd789b8a, type: 3}
       spriteName: particle_1
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: particle_1
     - sprite: {fileID: 21300010, guid: fefb44275932fd5479080c95bd789b8a, type: 3}
       spriteName: particle_5
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: particle_5
   - Frames:
     - sprite: {fileID: 21300004, guid: fefb44275932fd5479080c95bd789b8a, type: 3}
       spriteName: particle_2
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: particle_2
     - sprite: {fileID: 21300012, guid: fefb44275932fd5479080c95bd789b8a, type: 3}
       spriteName: particle_6
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: particle_6
   - Frames:
     - sprite: {fileID: 21300006, guid: fefb44275932fd5479080c95bd789b8a, type: 3}
       spriteName: particle_3
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: particle_3
     - sprite: {fileID: 21300014, guid: fefb44275932fd5479080c95bd789b8a, type: 3}
       spriteName: particle_7
       secondDelay: 0.1
       AtlasUsing: 8
+      TestAddress:
+        m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
+        m_SubObjectName: particle_7
   IsPalette: 0
   setID: 15924

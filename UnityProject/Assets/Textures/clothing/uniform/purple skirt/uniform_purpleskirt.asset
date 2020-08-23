@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: purpleskirt_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purpleskirt_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 98344512ea34cb84fbe8ff1ae7e12e42, type: 3}
       spriteName: purpleskirt_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purpleskirt_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 98344512ea34cb84fbe8ff1ae7e12e42, type: 3}
       spriteName: purpleskirt_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purpleskirt_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 98344512ea34cb84fbe8ff1ae7e12e42, type: 3}
       spriteName: purpleskirt_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: purpleskirt_3
   IsPalette: 0
   setID: 21652

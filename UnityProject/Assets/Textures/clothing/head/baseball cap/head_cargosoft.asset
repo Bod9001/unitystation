@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cargosoft_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cargosoft_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 10b8ef552326dd545839debf4b454c1b, type: 3}
       spriteName: cargosoft_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cargosoft_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 10b8ef552326dd545839debf4b454c1b, type: 3}
       spriteName: cargosoft_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cargosoft_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 10b8ef552326dd545839debf4b454c1b, type: 3}
       spriteName: cargosoft_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: cargosoft_3
   IsPalette: 0
   setID: 20133

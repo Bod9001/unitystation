@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: straight_jacket_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: straight_jacket_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 31c5561e711c81c49a9b0a76a9e1f16b, type: 3}
       spriteName: straight_jacket_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: straight_jacket_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 31c5561e711c81c49a9b0a76a9e1f16b, type: 3}
       spriteName: straight_jacket_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: straight_jacket_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 31c5561e711c81c49a9b0a76a9e1f16b, type: 3}
       spriteName: straight_jacket_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: straight_jacket_3
   IsPalette: 0
   setID: 9964

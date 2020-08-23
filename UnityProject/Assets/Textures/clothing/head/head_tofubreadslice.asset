@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: tofubreadslice_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tofubreadslice_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cffd7375af0d0af43b093a864a9ac9ca, type: 3}
       spriteName: tofubreadslice_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tofubreadslice_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cffd7375af0d0af43b093a864a9ac9ca, type: 3}
       spriteName: tofubreadslice_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tofubreadslice_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cffd7375af0d0af43b093a864a9ac9ca, type: 3}
       spriteName: tofubreadslice_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: tofubreadslice_3
   IsPalette: 0
   setID: 701

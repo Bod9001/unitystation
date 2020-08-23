@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: instagibblue_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: instagibblue_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 89275f68fd38bf949a72fd75e24b3e35, type: 3}
       spriteName: instagibblue_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: instagibblue_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 89275f68fd38bf949a72fd75e24b3e35, type: 3}
       spriteName: instagibblue_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: instagibblue_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 89275f68fd38bf949a72fd75e24b3e35, type: 3}
       spriteName: instagibblue_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: instagibblue_3
   IsPalette: 0
   setID: 10586

@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: whiteredcorner_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: whiteredcorner_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1e55c7a3ee080374b9d72b35b71257f4, type: 3}
       spriteName: whiteredcorner_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: whiteredcorner_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1e55c7a3ee080374b9d72b35b71257f4, type: 3}
       spriteName: whiteredcorner_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: whiteredcorner_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1e55c7a3ee080374b9d72b35b71257f4, type: 3}
       spriteName: whiteredcorner_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: whiteredcorner_3
   IsPalette: 0
   setID: 2366

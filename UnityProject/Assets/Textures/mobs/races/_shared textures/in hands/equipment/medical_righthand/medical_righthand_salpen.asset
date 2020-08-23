@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: salpen_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: salpen_0
   - Frames:
     - sprite: {fileID: 490905236103373594, guid: f989ab09a9899dc479af904713f07c77,
         type: 3}
       spriteName: salpen_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: salpen_1
   - Frames:
     - sprite: {fileID: 4666502402856673847, guid: f989ab09a9899dc479af904713f07c77,
         type: 3}
       spriteName: salpen_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: salpen_2
   - Frames:
     - sprite: {fileID: 2439490296220596894, guid: f989ab09a9899dc479af904713f07c77,
         type: 3}
       spriteName: salpen_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: salpen_3
   IsPalette: 0
   setID: 23100

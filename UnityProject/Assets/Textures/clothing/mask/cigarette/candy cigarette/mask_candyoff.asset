@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: candyoff_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: candyoff_0
   - Frames:
     - sprite: {fileID: 3164952781162332077, guid: a0b37ae24e329354aa069816f9d91020,
         type: 3}
       spriteName: candyoff_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: candyoff_1
   - Frames:
     - sprite: {fileID: -4461007299522094566, guid: a0b37ae24e329354aa069816f9d91020,
         type: 3}
       spriteName: candyoff_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: candyoff_2
   - Frames:
     - sprite: {fileID: -1641516711811984984, guid: a0b37ae24e329354aa069816f9d91020,
         type: 3}
       spriteName: candyoff_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: candyoff_3
   IsPalette: 0
   setID: 22984

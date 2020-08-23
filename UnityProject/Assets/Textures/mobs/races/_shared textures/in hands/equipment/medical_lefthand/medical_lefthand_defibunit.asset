@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: defibunit_0
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: defibunit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 74c39f39076b53548a748c5f330ce4a9, type: 3}
       spriteName: defibunit_1
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: defibunit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 74c39f39076b53548a748c5f330ce4a9, type: 3}
       spriteName: defibunit_2
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: defibunit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 74c39f39076b53548a748c5f330ce4a9, type: 3}
       spriteName: defibunit_3
       secondDelay: 0
       AtlasUsing: 4
+      TestAddress:
+        m_AssetGUID: f81d58adc45bf4548862c7dd752065db
+        m_SubObjectName: defibunit_3
   IsPalette: 0
   setID: 10117

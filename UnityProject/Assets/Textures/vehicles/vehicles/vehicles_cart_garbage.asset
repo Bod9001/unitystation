@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: cart_garbage_0
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: cart_garbage_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c3e90a0c547fd0346b264567edc3b97c, type: 3}
       spriteName: cart_garbage_1
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: cart_garbage_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c3e90a0c547fd0346b264567edc3b97c, type: 3}
       spriteName: cart_garbage_2
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: cart_garbage_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c3e90a0c547fd0346b264567edc3b97c, type: 3}
       spriteName: cart_garbage_3
       secondDelay: 0
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: cart_garbage_3
   IsPalette: 0
   setID: 19121

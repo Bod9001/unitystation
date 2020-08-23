@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: clown posse_honkmunculus_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clown posse_honkmunculus_0
   - Frames:
     - sprite: {fileID: 551211771147217939, guid: 28d0b4950d7216f43b9dc3672160ec84,
         type: 3}
       spriteName: clown posse_honkmunculus_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clown posse_honkmunculus_1
   - Frames:
     - sprite: {fileID: 2879489969904731076, guid: 28d0b4950d7216f43b9dc3672160ec84,
         type: 3}
       spriteName: clown posse_honkmunculus_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clown posse_honkmunculus_2
   - Frames:
     - sprite: {fileID: 4568451723419109623, guid: 28d0b4950d7216f43b9dc3672160ec84,
         type: 3}
       spriteName: clown posse_honkmunculus_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: clown posse_honkmunculus_3
   IsPalette: 0
   setID: 12190

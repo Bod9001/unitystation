@@ -18,13 +18,22 @@ MonoBehaviour:
       spriteName: Devil-4_0
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: Devil-4_0
     - sprite: {fileID: 21300002, guid: 95c6c84341b669143ba146aa1d8a761e, type: 3}
       spriteName: Devil-4_1
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: Devil-4_1
     - sprite: {fileID: 21300004, guid: 95c6c84341b669143ba146aa1d8a761e, type: 3}
       spriteName: Devil-4_2
       secondDelay: 0.2
       AtlasUsing: 9
+      TestAddress:
+        m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
+        m_SubObjectName: Devil-4_2
   IsPalette: 0
   setID: 3456

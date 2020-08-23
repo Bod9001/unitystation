@@ -18,17 +18,29 @@ MonoBehaviour:
       spriteName: heart-c-on_0
       secondDelay: 0.4
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: heart-c-on_0
     - sprite: {fileID: 21300002, guid: c2a41227974bc6247b109c88d6222403, type: 3}
       spriteName: heart-c-on_1
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: heart-c-on_1
     - sprite: {fileID: 21300004, guid: c2a41227974bc6247b109c88d6222403, type: 3}
       spriteName: heart-c-on_2
       secondDelay: 0.4
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: heart-c-on_2
     - sprite: {fileID: 21300006, guid: c2a41227974bc6247b109c88d6222403, type: 3}
       spriteName: heart-c-on_3
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: heart-c-on_3
   IsPalette: 0
   setID: 9058

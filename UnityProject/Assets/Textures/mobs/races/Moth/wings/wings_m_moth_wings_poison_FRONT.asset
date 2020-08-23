@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: m_moth_wings_poison_FRONT_0
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_poison_FRONT_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e022b210961593c4da03187425803eb5, type: 3}
       spriteName: m_moth_wings_poison_FRONT_1
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_poison_FRONT_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e022b210961593c4da03187425803eb5, type: 3}
       spriteName: m_moth_wings_poison_FRONT_2
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_poison_FRONT_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e022b210961593c4da03187425803eb5, type: 3}
       spriteName: m_moth_wings_poison_FRONT_3
       secondDelay: 0
       AtlasUsing: 6
+      TestAddress:
+        m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
+        m_SubObjectName: m_moth_wings_poison_FRONT_3
   IsPalette: 0
   setID: 11320

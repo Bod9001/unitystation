@@ -19,23 +19,35 @@ MonoBehaviour:
       spriteName: centcarapace_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: centcarapace_0
   - Frames:
     - sprite: {fileID: 2095890799466087941, guid: 8d52fcff577d11c4ca71cddcc708dd7a,
         type: 3}
       spriteName: centcarapace_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: centcarapace_1
   - Frames:
     - sprite: {fileID: -1743818701708979933, guid: 8d52fcff577d11c4ca71cddcc708dd7a,
         type: 3}
       spriteName: centcarapace_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: centcarapace_2
   - Frames:
     - sprite: {fileID: -9052691983934072643, guid: 8d52fcff577d11c4ca71cddcc708dd7a,
         type: 3}
       spriteName: centcarapace_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: centcarapace_3
   IsPalette: 0
   setID: 10152

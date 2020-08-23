@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: pristine_block4_0
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pristine_block4_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a668cc8141d39cb458f66d20a40ed77a, type: 3}
       spriteName: pristine_block4_1
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pristine_block4_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a668cc8141d39cb458f66d20a40ed77a, type: 3}
       spriteName: pristine_block4_2
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pristine_block4_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a668cc8141d39cb458f66d20a40ed77a, type: 3}
       spriteName: pristine_block4_3
       secondDelay: 0
       AtlasUsing: 10
+      TestAddress:
+        m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
+        m_SubObjectName: pristine_block4_3
   IsPalette: 0
   setID: 1621

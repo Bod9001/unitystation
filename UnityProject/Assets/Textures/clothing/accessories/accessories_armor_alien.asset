@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: armor_alien_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armor_alien_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ee3778b6fceb17445ae3ce458a7a8a7a, type: 3}
       spriteName: armor_alien_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armor_alien_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ee3778b6fceb17445ae3ce458a7a8a7a, type: 3}
       spriteName: armor_alien_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armor_alien_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ee3778b6fceb17445ae3ce458a7a8a7a, type: 3}
       spriteName: armor_alien_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: armor_alien_3
   IsPalette: 0
   setID: 229

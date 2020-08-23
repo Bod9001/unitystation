@@ -18,9 +18,15 @@ MonoBehaviour:
       spriteName: jetpack-captain-on_0
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: jetpack-captain-on_0
     - sprite: {fileID: 21300002, guid: d04ba40902b2cca418d81bf0e30d70d1, type: 3}
       spriteName: jetpack-captain-on_1
       secondDelay: 0.2
       AtlasUsing: 5
+      TestAddress:
+        m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
+        m_SubObjectName: jetpack-captain-on_1
   IsPalette: 0
   setID: 9165

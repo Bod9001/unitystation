@@ -18,20 +18,32 @@ MonoBehaviour:
       spriteName: robotics_0
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: robotics_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 404f7fde7ec5b7640bf58458c5a679b7, type: 3}
       spriteName: robotics_1
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: robotics_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 404f7fde7ec5b7640bf58458c5a679b7, type: 3}
       spriteName: robotics_2
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: robotics_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 404f7fde7ec5b7640bf58458c5a679b7, type: 3}
       spriteName: robotics_3
       secondDelay: 0
       AtlasUsing: 2
+      TestAddress:
+        m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
+        m_SubObjectName: robotics_3
   IsPalette: 0
   setID: 21691
