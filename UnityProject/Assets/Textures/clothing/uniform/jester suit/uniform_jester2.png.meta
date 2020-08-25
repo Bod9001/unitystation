@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: jester_0
+    second: jester suit_jester_0
   - first:
       213: 21300002
-    second: jester_1
+    second: jester suit_jester_1
   - first:
       213: 21300004
-    second: jester_2
+    second: jester suit_jester_2
   - first:
       213: 21300006
-    second: jester_3
+    second: jester suit_jester_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jester_0
+      name: jester suit_jester_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jester_1
+      name: jester suit_jester_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jester_2
+      name: jester suit_jester_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jester_3
+      name: jester suit_jester_3
       rect:
         serializedVersion: 2
         x: 96

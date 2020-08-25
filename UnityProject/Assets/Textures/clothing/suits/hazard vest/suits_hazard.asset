@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: fc4e90c7083c97849b4bba424d864cfa, type: 3}
-      spriteName: hazard_0
+      spriteName: hazard vest_hazard_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazard_0
+        m_SubObjectName: hazard vest_hazard_0
   - Frames:
     - sprite: {fileID: 21300002, guid: fc4e90c7083c97849b4bba424d864cfa, type: 3}
-      spriteName: hazard_1
+      spriteName: hazard vest_hazard_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazard_1
+        m_SubObjectName: hazard vest_hazard_1
   - Frames:
     - sprite: {fileID: 21300004, guid: fc4e90c7083c97849b4bba424d864cfa, type: 3}
-      spriteName: hazard_2
+      spriteName: hazard vest_hazard_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazard_2
+        m_SubObjectName: hazard vest_hazard_2
   - Frames:
     - sprite: {fileID: 21300006, guid: fc4e90c7083c97849b4bba424d864cfa, type: 3}
-      spriteName: hazard_3
+      spriteName: hazard vest_hazard_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: hazard_3
+        m_SubObjectName: hazard vest_hazard_3
   IsPalette: 0
   setID: 20955

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: honkling_0
-  - first:
-      213: 21300002
-    second: honkling_1
-  - first:
-      213: 21300004
-    second: honkling_2
-  - first:
-      213: 21300006
-    second: honkling_3
-  - first:
-      213: -411558686750310250
     second: clown posse_honkling_0
   - first:
-      213: 2682079759973979814
+      213: 21300002
     second: clown posse_honkling_1
   - first:
-      213: -6719906748868742796
+      213: 21300004
     second: clown posse_honkling_2
   - first:
-      213: -306440541139083132
+      213: 21300006
     second: clown posse_honkling_3
+  - first:
+      213: -411558686750310250
+    second: clown posse_clown posse_honkling_0
+  - first:
+      213: 2682079759973979814
+    second: clown posse_clown posse_honkling_1
+  - first:
+      213: -6719906748868742796
+    second: clown posse_clown posse_honkling_2
+  - first:
+      213: -306440541139083132
+    second: clown posse_clown posse_honkling_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown posse_honkling_0
+      name: clown posse_clown posse_honkling_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_honkling_1
+      name: clown posse_clown posse_honkling_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_honkling_2
+      name: clown posse_clown posse_honkling_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_honkling_3
+      name: clown posse_clown posse_honkling_3
       rect:
         serializedVersion: 2
         x: 192

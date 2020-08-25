@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -9169771430478708573
-    second: championbelt_0
+    second: belt_championbelt_0
   - first:
       213: 8850847601262719080
-    second: championbelt_1
+    second: belt_championbelt_1
   - first:
       213: -761688756324952560
-    second: championbelt_2
+    second: belt_championbelt_2
   - first:
       213: 5269659173932237950
-    second: championbelt_3
+    second: belt_championbelt_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: championbelt_0
+      name: belt_championbelt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: championbelt_1
+      name: belt_championbelt_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: championbelt_2
+      name: belt_championbelt_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: championbelt_3
+      name: belt_championbelt_3
       rect:
         serializedVersion: 2
         x: 96

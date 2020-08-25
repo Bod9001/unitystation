@@ -10,6 +10,8 @@ using UnityEngine.U2D;
 [CreateAssetMenu(fileName = "AtlasReference", menuName = "ScriptableObjects/AtlasReference")]
 public class AtlasReference : SingletonScriptableObject<AtlasReference>
 {
+	public List<SpriteAtlas> SpriteAtlases = new List<SpriteAtlas>();
+
 	public DictionaryAtlasSpriteAtlas Atlases = new DictionaryAtlasSpriteAtlas();
 
 	[Serializable]

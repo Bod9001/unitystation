@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: meatball_0
+    second: food_lefthand_meatball_0
   - first:
       213: 21300002
-    second: meatball_1
+    second: food_lefthand_meatball_1
   - first:
       213: 21300004
-    second: meatball_2
+    second: food_lefthand_meatball_2
   - first:
       213: 21300006
-    second: meatball_3
+    second: food_lefthand_meatball_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: meatball_0
+      name: food_lefthand_meatball_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: meatball_1
+      name: food_lefthand_meatball_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: meatball_2
+      name: food_lefthand_meatball_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: meatball_3
+      name: food_lefthand_meatball_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: eyes_glow_gs_0
+    second: body parts_eyes_glow_gs_0
   - first:
       213: 21300002
-    second: eyes_glow_gs_1
+    second: body parts_eyes_glow_gs_1
   - first:
       213: 21300004
-    second: eyes_glow_gs_2
+    second: body parts_eyes_glow_gs_2
   - first:
       213: 21300006
-    second: eyes_glow_gs_3
+    second: body parts_eyes_glow_gs_3
   - first:
       213: 21300008
-    second: eyes_glow_gs_4
+    second: body parts_eyes_glow_gs_4
   - first:
       213: 21300010
-    second: eyes_glow_gs_5
+    second: body parts_eyes_glow_gs_5
   - first:
       213: 21300012
-    second: eyes_glow_gs_6
+    second: body parts_eyes_glow_gs_6
   - first:
       213: 21300014
-    second: eyes_glow_gs_7
+    second: body parts_eyes_glow_gs_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: eyes_glow_gs_0
+      name: body parts_eyes_glow_gs_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyes_glow_gs_1
+      name: body parts_eyes_glow_gs_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyes_glow_gs_2
+      name: body parts_eyes_glow_gs_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyes_glow_gs_3
+      name: body parts_eyes_glow_gs_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyes_glow_gs_4
+      name: body parts_eyes_glow_gs_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyes_glow_gs_5
+      name: body parts_eyes_glow_gs_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyes_glow_gs_6
+      name: body parts_eyes_glow_gs_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyes_glow_gs_7
+      name: body parts_eyes_glow_gs_7
       rect:
         serializedVersion: 2
         x: 224

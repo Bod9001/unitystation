@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: adamantine_baby_slime_0
+    second: slimes_adamantine_baby_slime_0
   - first:
       213: 21300002
-    second: adamantine_baby_slime_1
+    second: slimes_adamantine_baby_slime_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: adamantine_baby_slime_0
+      name: slimes_adamantine_baby_slime_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adamantine_baby_slime_1
+      name: slimes_adamantine_baby_slime_1
       rect:
         serializedVersion: 2
         x: 32

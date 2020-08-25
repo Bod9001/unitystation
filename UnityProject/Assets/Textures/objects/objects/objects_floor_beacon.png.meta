@@ -4,19 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: floor_beacon_0
+    second: objects_floor_beacon_0
   - first:
       213: 21300002
-    second: floor_beacon_1
+    second: objects_floor_beacon_1
   - first:
       213: 21300004
-    second: floor_beacon_2
+    second: objects_floor_beacon_2
   - first:
       213: 21300006
-    second: floor_beacon_3
+    second: objects_floor_beacon_3
   - first:
       213: 21300008
-    second: floor_beacon_4
+    second: objects_floor_beacon_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -101,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: floor_beacon_0
+      name: objects_floor_beacon_0
       rect:
         serializedVersion: 2
         x: 0
@@ -122,7 +122,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_beacon_1
+      name: objects_floor_beacon_1
       rect:
         serializedVersion: 2
         x: 32
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_beacon_2
+      name: objects_floor_beacon_2
       rect:
         serializedVersion: 2
         x: 64
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_beacon_3
+      name: objects_floor_beacon_3
       rect:
         serializedVersion: 2
         x: 96
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_beacon_4
+      name: objects_floor_beacon_4
       rect:
         serializedVersion: 2
         x: 128

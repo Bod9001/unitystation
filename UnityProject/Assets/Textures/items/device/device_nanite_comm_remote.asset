@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 22b35bfe06393b242bc442ed2934e4f9, type: 3}
-      spriteName: nanite_comm_remote_0
+      spriteName: device_nanite_comm_remote_0
       secondDelay: 0.5
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: nanite_comm_remote_0
+        m_SubObjectName: device_nanite_comm_remote_0
     - sprite: {fileID: 21300002, guid: 22b35bfe06393b242bc442ed2934e4f9, type: 3}
-      spriteName: nanite_comm_remote_1
+      spriteName: device_nanite_comm_remote_1
       secondDelay: 0.5
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: nanite_comm_remote_1
+        m_SubObjectName: device_nanite_comm_remote_1
   IsPalette: 0
   setID: 6243

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: gar_0
+    second: gar glasses_gar_0
   - first:
       213: 21300002
-    second: gar_1
+    second: gar glasses_gar_1
   - first:
       213: 21300004
-    second: gar_2
+    second: gar glasses_gar_2
   - first:
       213: 21300006
-    second: gar_3
+    second: gar glasses_gar_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gar_0
+      name: gar glasses_gar_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gar_1
+      name: gar glasses_gar_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gar_2
+      name: gar glasses_gar_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gar_3
+      name: gar glasses_gar_3
       rect:
         serializedVersion: 2
         x: 96

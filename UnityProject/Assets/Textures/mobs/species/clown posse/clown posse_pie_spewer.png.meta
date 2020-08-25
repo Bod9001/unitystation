@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pie_spewer_0
-  - first:
-      213: 21300002
-    second: pie_spewer_1
-  - first:
-      213: 21300004
-    second: pie_spewer_2
-  - first:
-      213: 21300006
-    second: pie_spewer_3
-  - first:
-      213: -2500417918074283638
     second: clown posse_pie_spewer_0
   - first:
-      213: 3193316665427593338
+      213: 21300002
     second: clown posse_pie_spewer_1
   - first:
-      213: 9015662488541821746
+      213: 21300004
     second: clown posse_pie_spewer_2
   - first:
-      213: -8418536754173190743
+      213: 21300006
     second: clown posse_pie_spewer_3
+  - first:
+      213: -2500417918074283638
+    second: clown posse_clown posse_pie_spewer_0
+  - first:
+      213: 3193316665427593338
+    second: clown posse_clown posse_pie_spewer_1
+  - first:
+      213: 9015662488541821746
+    second: clown posse_clown posse_pie_spewer_2
+  - first:
+      213: -8418536754173190743
+    second: clown posse_clown posse_pie_spewer_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown posse_pie_spewer_0
+      name: clown posse_clown posse_pie_spewer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_pie_spewer_1
+      name: clown posse_clown posse_pie_spewer_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_pie_spewer_2
+      name: clown posse_clown posse_pie_spewer_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_pie_spewer_3
+      name: clown posse_clown posse_pie_spewer_3
       rect:
         serializedVersion: 2
         x: 192

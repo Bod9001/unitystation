@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: scarecrow_0
+    second: scarecrow clothes_scarecrow_0
   - first:
       213: 21300002
-    second: scarecrow_1
+    second: scarecrow clothes_scarecrow_1
   - first:
       213: 21300004
-    second: scarecrow_2
+    second: scarecrow clothes_scarecrow_2
   - first:
       213: 21300006
-    second: scarecrow_3
+    second: scarecrow clothes_scarecrow_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: scarecrow_0
+      name: scarecrow clothes_scarecrow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scarecrow_1
+      name: scarecrow clothes_scarecrow_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scarecrow_2
+      name: scarecrow clothes_scarecrow_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scarecrow_3
+      name: scarecrow clothes_scarecrow_3
       rect:
         serializedVersion: 2
         x: 96

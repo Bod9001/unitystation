@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7559086704959380403
-    second: righthand_toolbox_default_0
+    second: toolbox_righthand_righthand_toolbox_default_0
   - first:
       213: 2008009270865421326
-    second: righthand_toolbox_default_1
+    second: toolbox_righthand_righthand_toolbox_default_1
   - first:
       213: -6523539976910130472
-    second: righthand_toolbox_default_2
+    second: toolbox_righthand_righthand_toolbox_default_2
   - first:
       213: -2037572223505060330
-    second: righthand_toolbox_default_3
+    second: toolbox_righthand_righthand_toolbox_default_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: righthand_toolbox_default_0
+      name: toolbox_righthand_righthand_toolbox_default_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: righthand_toolbox_default_1
+      name: toolbox_righthand_righthand_toolbox_default_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: righthand_toolbox_default_2
+      name: toolbox_righthand_righthand_toolbox_default_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: righthand_toolbox_default_3
+      name: toolbox_righthand_righthand_toolbox_default_3
       rect:
         serializedVersion: 2
         x: 96

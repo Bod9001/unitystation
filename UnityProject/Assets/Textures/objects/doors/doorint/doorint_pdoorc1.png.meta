@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pdoorc1_0
+    second: doorint_pdoorc1_0
   - first:
       213: 21300002
-    second: pdoorc1_1
+    second: doorint_pdoorc1_1
   - first:
       213: 21300004
-    second: pdoorc1_2
+    second: doorint_pdoorc1_2
   - first:
       213: 21300006
-    second: pdoorc1_3
+    second: doorint_pdoorc1_3
   - first:
       213: 21300008
-    second: pdoorc1_4
+    second: doorint_pdoorc1_4
   - first:
       213: 21300010
-    second: pdoorc1_5
+    second: doorint_pdoorc1_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pdoorc1_0
+      name: doorint_pdoorc1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pdoorc1_1
+      name: doorint_pdoorc1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pdoorc1_2
+      name: doorint_pdoorc1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pdoorc1_3
+      name: doorint_pdoorc1_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pdoorc1_4
+      name: doorint_pdoorc1_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pdoorc1_5
+      name: doorint_pdoorc1_5
       rect:
         serializedVersion: 2
         x: 160

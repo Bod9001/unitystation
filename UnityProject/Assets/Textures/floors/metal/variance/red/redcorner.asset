@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 65774ca54a408744a88de4874f81e456, type: 3}
-      spriteName: redcorner_0
+      spriteName: red_redcorner_0
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: redcorner_0
+        m_SubObjectName: red_redcorner_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 65774ca54a408744a88de4874f81e456, type: 3}
-      spriteName: redcorner_1
+      spriteName: red_redcorner_1
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: redcorner_1
+        m_SubObjectName: red_redcorner_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 65774ca54a408744a88de4874f81e456, type: 3}
-      spriteName: redcorner_2
+      spriteName: red_redcorner_2
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: redcorner_2
+        m_SubObjectName: red_redcorner_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 65774ca54a408744a88de4874f81e456, type: 3}
-      spriteName: redcorner_3
+      spriteName: red_redcorner_3
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: redcorner_3
+        m_SubObjectName: red_redcorner_3
   IsPalette: 0
   setID: 2363

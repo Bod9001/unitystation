@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: impact_laser_green_0
+    second: Laser_impact_laser_green_0
   - first:
       213: 21300002
-    second: impact_laser_green_1
+    second: Laser_impact_laser_green_1
   - first:
       213: 21300004
-    second: impact_laser_green_2
+    second: Laser_impact_laser_green_2
   - first:
       213: 21300006
-    second: impact_laser_green_3
+    second: Laser_impact_laser_green_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: impact_laser_green_0
+      name: Laser_impact_laser_green_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: impact_laser_green_1
+      name: Laser_impact_laser_green_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: impact_laser_green_2
+      name: Laser_impact_laser_green_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: impact_laser_green_3
+      name: Laser_impact_laser_green_3
       rect:
         serializedVersion: 2
         x: 96

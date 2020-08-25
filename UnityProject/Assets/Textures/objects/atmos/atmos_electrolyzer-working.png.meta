@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4140533573958923125
-    second: electrolyzer-working_0
+    second: atmos_electrolyzer-working_0
   - first:
       213: -2499289099792370735
-    second: electrolyzer-working_1
+    second: atmos_electrolyzer-working_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -93,7 +93,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: electrolyzer-working_0
+      name: atmos_electrolyzer-working_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,7 +114,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: electrolyzer-working_1
+      name: atmos_electrolyzer-working_1
       rect:
         serializedVersion: 2
         x: 32

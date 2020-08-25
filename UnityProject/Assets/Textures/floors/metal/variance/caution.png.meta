@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: caution_0
+    second: variance_caution_0
   - first:
       213: 21300002
-    second: caution_1
+    second: variance_caution_1
   - first:
       213: 21300004
-    second: caution_2
+    second: variance_caution_2
   - first:
       213: 21300006
-    second: caution_3
+    second: variance_caution_3
   - first:
       213: 21300008
-    second: caution_4
+    second: variance_caution_4
   - first:
       213: 21300010
-    second: caution_5
+    second: variance_caution_5
   - first:
       213: 21300012
-    second: caution_6
+    second: variance_caution_6
   - first:
       213: 21300014
-    second: caution_7
+    second: variance_caution_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caution_0
+      name: variance_caution_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caution_1
+      name: variance_caution_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caution_2
+      name: variance_caution_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caution_3
+      name: variance_caution_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caution_4
+      name: variance_caution_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caution_5
+      name: variance_caution_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caution_6
+      name: variance_caution_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caution_7
+      name: variance_caution_7
       rect:
         serializedVersion: 2
         x: 224

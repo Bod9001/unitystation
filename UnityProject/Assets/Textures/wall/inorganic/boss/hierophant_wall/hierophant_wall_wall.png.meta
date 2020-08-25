@@ -4,37 +4,37 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: wall_0
+    second: hierophant_wall_wall_0
   - first:
       213: 21300002
-    second: wall_1
+    second: hierophant_wall_wall_1
   - first:
       213: 21300004
-    second: wall_2
+    second: hierophant_wall_wall_2
   - first:
       213: 21300006
-    second: wall_3
+    second: hierophant_wall_wall_3
   - first:
       213: 21300008
-    second: wall_4
+    second: hierophant_wall_wall_4
   - first:
       213: 21300010
-    second: wall_5
+    second: hierophant_wall_wall_5
   - first:
       213: 21300012
-    second: wall_6
+    second: hierophant_wall_wall_6
   - first:
       213: 21300014
-    second: wall_7
+    second: hierophant_wall_wall_7
   - first:
       213: 21300016
-    second: wall_8
+    second: hierophant_wall_wall_8
   - first:
       213: 21300018
-    second: wall_9
+    second: hierophant_wall_wall_9
   - first:
       213: 21300020
-    second: wall_10
+    second: hierophant_wall_wall_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -119,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wall_0
+      name: hierophant_wall_wall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_1
+      name: hierophant_wall_wall_1
       rect:
         serializedVersion: 2
         x: 32
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_2
+      name: hierophant_wall_wall_2
       rect:
         serializedVersion: 2
         x: 64
@@ -182,7 +182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_3
+      name: hierophant_wall_wall_3
       rect:
         serializedVersion: 2
         x: 96
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_4
+      name: hierophant_wall_wall_4
       rect:
         serializedVersion: 2
         x: 128
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_5
+      name: hierophant_wall_wall_5
       rect:
         serializedVersion: 2
         x: 160
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_6
+      name: hierophant_wall_wall_6
       rect:
         serializedVersion: 2
         x: 192
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_7
+      name: hierophant_wall_wall_7
       rect:
         serializedVersion: 2
         x: 224
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_8
+      name: hierophant_wall_wall_8
       rect:
         serializedVersion: 2
         x: 256
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_9
+      name: hierophant_wall_wall_9
       rect:
         serializedVersion: 2
         x: 288
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_10
+      name: hierophant_wall_wall_10
       rect:
         serializedVersion: 2
         x: 320

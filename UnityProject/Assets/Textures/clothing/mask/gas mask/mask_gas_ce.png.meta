@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6411929444866953716
-    second: mask_gas_ce_0
+    second: gas mask_mask_gas_ce_0
   - first:
       213: -8521440019529028289
-    second: mask_gas_ce_1
+    second: gas mask_mask_gas_ce_1
   - first:
       213: 9117592148268071814
-    second: mask_gas_ce_2
+    second: gas mask_mask_gas_ce_2
   - first:
       213: 1926456323055137543
-    second: mask_gas_ce_3
+    second: gas mask_mask_gas_ce_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mask_gas_ce_0
+      name: gas mask_mask_gas_ce_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mask_gas_ce_1
+      name: gas mask_mask_gas_ce_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mask_gas_ce_2
+      name: gas mask_mask_gas_ce_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mask_gas_ce_3
+      name: gas mask_mask_gas_ce_3
       rect:
         serializedVersion: 2
         x: 96

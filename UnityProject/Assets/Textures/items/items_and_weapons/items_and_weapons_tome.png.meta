@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: tome_0
+    second: items_and_weapons_tome_0
   - first:
       213: 21300002
-    second: tome_1
+    second: items_and_weapons_tome_1
   - first:
       213: 21300004
-    second: tome_2
+    second: items_and_weapons_tome_2
   - first:
       213: 21300006
-    second: tome_3
+    second: items_and_weapons_tome_3
   - first:
       213: 21300008
-    second: tome_4
+    second: items_and_weapons_tome_4
   - first:
       213: 21300010
-    second: tome_5
+    second: items_and_weapons_tome_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tome_0
+      name: items_and_weapons_tome_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tome_1
+      name: items_and_weapons_tome_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tome_2
+      name: items_and_weapons_tome_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tome_3
+      name: items_and_weapons_tome_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tome_4
+      name: items_and_weapons_tome_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tome_5
+      name: items_and_weapons_tome_5
       rect:
         serializedVersion: 2
         x: 160

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: edda2a8676c9d9946a1092a15afdf884, type: 3}
-      spriteName: bulb-burned_0
+      spriteName: lighting_bulb-burned_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bulb-burned_0
+        m_SubObjectName: lighting_bulb-burned_0
   - Frames:
     - sprite: {fileID: 21300002, guid: edda2a8676c9d9946a1092a15afdf884, type: 3}
-      spriteName: bulb-burned_1
+      spriteName: lighting_bulb-burned_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bulb-burned_1
+        m_SubObjectName: lighting_bulb-burned_1
   - Frames:
     - sprite: {fileID: 21300004, guid: edda2a8676c9d9946a1092a15afdf884, type: 3}
-      spriteName: bulb-burned_2
+      spriteName: lighting_bulb-burned_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bulb-burned_2
+        m_SubObjectName: lighting_bulb-burned_2
   - Frames:
     - sprite: {fileID: 21300006, guid: edda2a8676c9d9946a1092a15afdf884, type: 3}
-      spriteName: bulb-burned_3
+      spriteName: lighting_bulb-burned_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bulb-burned_3
+        m_SubObjectName: lighting_bulb-burned_3
   IsPalette: 0
   setID: 15502

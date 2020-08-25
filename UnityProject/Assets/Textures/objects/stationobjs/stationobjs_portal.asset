@@ -15,102 +15,102 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_0
+      spriteName: stationobjs_portal_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_0
+        m_SubObjectName: stationobjs_portal_0
     - sprite: {fileID: 21300002, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_1
+      spriteName: stationobjs_portal_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_1
+        m_SubObjectName: stationobjs_portal_1
     - sprite: {fileID: 21300004, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_2
+      spriteName: stationobjs_portal_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_2
+        m_SubObjectName: stationobjs_portal_2
     - sprite: {fileID: 21300006, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_3
+      spriteName: stationobjs_portal_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_3
+        m_SubObjectName: stationobjs_portal_3
     - sprite: {fileID: 21300008, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_4
+      spriteName: stationobjs_portal_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_4
+        m_SubObjectName: stationobjs_portal_4
     - sprite: {fileID: 21300010, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_5
+      spriteName: stationobjs_portal_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_5
+        m_SubObjectName: stationobjs_portal_5
     - sprite: {fileID: 21300012, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_6
+      spriteName: stationobjs_portal_6
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_6
+        m_SubObjectName: stationobjs_portal_6
     - sprite: {fileID: 21300014, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_7
+      spriteName: stationobjs_portal_7
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_7
+        m_SubObjectName: stationobjs_portal_7
     - sprite: {fileID: 21300016, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_8
+      spriteName: stationobjs_portal_8
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_8
+        m_SubObjectName: stationobjs_portal_8
     - sprite: {fileID: 21300018, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_9
+      spriteName: stationobjs_portal_9
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_9
+        m_SubObjectName: stationobjs_portal_9
     - sprite: {fileID: 21300020, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_10
+      spriteName: stationobjs_portal_10
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_10
+        m_SubObjectName: stationobjs_portal_10
     - sprite: {fileID: 21300022, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_11
+      spriteName: stationobjs_portal_11
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_11
+        m_SubObjectName: stationobjs_portal_11
     - sprite: {fileID: 21300024, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_12
+      spriteName: stationobjs_portal_12
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_12
+        m_SubObjectName: stationobjs_portal_12
     - sprite: {fileID: 21300026, guid: 8920630f0d2bc7440a257b5b19ba6fea, type: 3}
-      spriteName: portal_13
+      spriteName: stationobjs_portal_13
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: portal_13
+        m_SubObjectName: stationobjs_portal_13
   IsPalette: 0
   setID: 17106

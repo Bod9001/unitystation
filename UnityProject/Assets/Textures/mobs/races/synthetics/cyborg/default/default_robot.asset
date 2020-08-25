@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0bae18b65cd9c1c4388bb73171e76cea, type: 3}
-      spriteName: robot_0
+      spriteName: default_robot_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: robot_0
+        m_SubObjectName: default_robot_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0bae18b65cd9c1c4388bb73171e76cea, type: 3}
-      spriteName: robot_1
+      spriteName: default_robot_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: robot_1
+        m_SubObjectName: default_robot_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0bae18b65cd9c1c4388bb73171e76cea, type: 3}
-      spriteName: robot_2
+      spriteName: default_robot_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: robot_2
+        m_SubObjectName: default_robot_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0bae18b65cd9c1c4388bb73171e76cea, type: 3}
-      spriteName: robot_3
+      spriteName: default_robot_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: robot_3
+        m_SubObjectName: default_robot_3
   IsPalette: 0
   setID: 11560

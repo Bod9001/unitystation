@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sheetgreen_0
+    second: Green_sheetgreen_0
   - first:
       213: 21300002
-    second: sheetgreen_1
+    second: Green_sheetgreen_1
   - first:
       213: 21300004
-    second: sheetgreen_2
+    second: Green_sheetgreen_2
   - first:
       213: 21300006
-    second: sheetgreen_3
+    second: Green_sheetgreen_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheetgreen_0
+      name: Green_sheetgreen_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheetgreen_1
+      name: Green_sheetgreen_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheetgreen_2
+      name: Green_sheetgreen_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheetgreen_3
+      name: Green_sheetgreen_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: hole_0
+    second: cult_hole_0
   - first:
       213: 21300002
-    second: hole_1
+    second: cult_hole_1
   - first:
       213: 21300004
-    second: hole_2
+    second: cult_hole_2
   - first:
       213: 21300006
-    second: hole_3
+    second: cult_hole_3
   - first:
       213: 21300008
-    second: hole_4
+    second: cult_hole_4
   - first:
       213: 21300010
-    second: hole_5
+    second: cult_hole_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hole_0
+      name: cult_hole_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hole_1
+      name: cult_hole_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hole_2
+      name: cult_hole_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hole_3
+      name: cult_hole_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hole_4
+      name: cult_hole_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hole_5
+      name: cult_hole_5
       rect:
         serializedVersion: 2
         x: 160

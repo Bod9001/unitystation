@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: locker_0
+    second: staves_righthand_locker_0
   - first:
       213: 21300002
-    second: locker_1
+    second: staves_righthand_locker_1
   - first:
       213: 21300004
-    second: locker_2
+    second: staves_righthand_locker_2
   - first:
       213: 21300006
-    second: locker_3
+    second: staves_righthand_locker_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: locker_0
+      name: staves_righthand_locker_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker_1
+      name: staves_righthand_locker_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker_2
+      name: staves_righthand_locker_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locker_3
+      name: staves_righthand_locker_3
       rect:
         serializedVersion: 2
         x: 96

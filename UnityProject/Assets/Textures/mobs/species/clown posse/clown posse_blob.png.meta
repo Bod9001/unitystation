@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: blob_0
-  - first:
-      213: 21300002
-    second: blob_1
-  - first:
-      213: 21300004
-    second: blob_2
-  - first:
-      213: 21300006
-    second: blob_3
-  - first:
-      213: -2957592694923482071
     second: clown posse_blob_0
   - first:
-      213: 4561890971234231937
+      213: 21300002
     second: clown posse_blob_1
   - first:
-      213: 2603105631635802949
+      213: 21300004
     second: clown posse_blob_2
   - first:
-      213: -4732226424372198100
+      213: 21300006
     second: clown posse_blob_3
+  - first:
+      213: -2957592694923482071
+    second: clown posse_clown posse_blob_0
+  - first:
+      213: 4561890971234231937
+    second: clown posse_clown posse_blob_1
+  - first:
+      213: 2603105631635802949
+    second: clown posse_clown posse_blob_2
+  - first:
+      213: -4732226424372198100
+    second: clown posse_clown posse_blob_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown posse_blob_0
+      name: clown posse_clown posse_blob_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_blob_1
+      name: clown posse_clown posse_blob_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_blob_2
+      name: clown posse_clown posse_blob_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_blob_3
+      name: clown posse_clown posse_blob_3
       rect:
         serializedVersion: 2
         x: 192

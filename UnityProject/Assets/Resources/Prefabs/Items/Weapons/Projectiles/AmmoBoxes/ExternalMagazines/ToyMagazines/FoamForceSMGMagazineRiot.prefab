@@ -65,12 +65,7 @@ PrefabInstance:
     - target: {fileID: 2455247520712074419, guid: 622826a49d3855f40be742325988c4de,
         type: 3}
       propertyPath: m_Name
-      value: FoamForceSMGMagazineRiot
-      objectReference: {fileID: 0}
-    - target: {fileID: 2560013833062947079, guid: 622826a49d3855f40be742325988c4de,
-        type: 3}
-      propertyPath: m_AssetId
-      value: 
+      value: FoamForceSMGMagazine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 622826a49d3855f40be742325988c4de, type: 3}

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: chips_0
+    second: food_lefthand_chips_0
   - first:
       213: 21300002
-    second: chips_1
+    second: food_lefthand_chips_1
   - first:
       213: 21300004
-    second: chips_2
+    second: food_lefthand_chips_2
   - first:
       213: 21300006
-    second: chips_3
+    second: food_lefthand_chips_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chips_0
+      name: food_lefthand_chips_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chips_1
+      name: food_lefthand_chips_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chips_2
+      name: food_lefthand_chips_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chips_3
+      name: food_lefthand_chips_3
       rect:
         serializedVersion: 2
         x: 96

@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ea54bd4cc851aad4ebde4988ec6ecf6d, type: 3}
-      spriteName: mflash1_0
+      spriteName: stationobjs_mflash1_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: mflash1_0
+        m_SubObjectName: stationobjs_mflash1_0
     - sprite: {fileID: 21300002, guid: ea54bd4cc851aad4ebde4988ec6ecf6d, type: 3}
-      spriteName: mflash1_1
+      spriteName: stationobjs_mflash1_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: mflash1_1
+        m_SubObjectName: stationobjs_mflash1_1
   IsPalette: 0
   setID: 17072

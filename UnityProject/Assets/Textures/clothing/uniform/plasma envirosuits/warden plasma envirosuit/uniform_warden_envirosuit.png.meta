@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: warden_envirosuit_0
+    second: warden plasma envirosuit_warden_envirosuit_0
   - first:
       213: 21300002
-    second: warden_envirosuit_1
+    second: warden plasma envirosuit_warden_envirosuit_1
   - first:
       213: 21300004
-    second: warden_envirosuit_2
+    second: warden plasma envirosuit_warden_envirosuit_2
   - first:
       213: 21300006
-    second: warden_envirosuit_3
+    second: warden plasma envirosuit_warden_envirosuit_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: warden_envirosuit_0
+      name: warden plasma envirosuit_warden_envirosuit_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: warden_envirosuit_1
+      name: warden plasma envirosuit_warden_envirosuit_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: warden_envirosuit_2
+      name: warden plasma envirosuit_warden_envirosuit_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: warden_envirosuit_3
+      name: warden plasma envirosuit_warden_envirosuit_3
       rect:
         serializedVersion: 2
         x: 96

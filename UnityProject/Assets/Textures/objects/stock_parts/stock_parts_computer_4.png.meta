@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: 4_0
+    second: stock_parts_4_0
   - first:
       213: 21300002
-    second: 4_1
+    second: stock_parts_4_1
   - first:
       213: 21300004
-    second: 4_2
+    second: stock_parts_4_2
   - first:
       213: 21300006
-    second: 4_3
+    second: stock_parts_4_3
   - first:
       213: 8490977674004167702
-    second: stock_parts_computer_4_0
+    second: stock_parts_stock_parts_computer_4_0
   - first:
       213: 4122597108679187228
-    second: stock_parts_computer_4_1
+    second: stock_parts_stock_parts_computer_4_1
   - first:
       213: 268523174552085102
-    second: stock_parts_computer_4_2
+    second: stock_parts_stock_parts_computer_4_2
   - first:
       213: -2775659756828637297
-    second: stock_parts_computer_4_3
+    second: stock_parts_stock_parts_computer_4_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +111,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stock_parts_computer_4_0
+      name: stock_parts_stock_parts_computer_4_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,7 +132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stock_parts_computer_4_1
+      name: stock_parts_stock_parts_computer_4_1
       rect:
         serializedVersion: 2
         x: 32
@@ -153,7 +153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stock_parts_computer_4_2
+      name: stock_parts_stock_parts_computer_4_2
       rect:
         serializedVersion: 2
         x: 64
@@ -174,7 +174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stock_parts_computer_4_3
+      name: stock_parts_stock_parts_computer_4_3
       rect:
         serializedVersion: 2
         x: 96

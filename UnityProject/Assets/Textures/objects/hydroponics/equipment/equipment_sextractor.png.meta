@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sextractor_0
+    second: equipment_sextractor_0
   - first:
       213: 21300002
-    second: sextractor_1
+    second: equipment_sextractor_1
   - first:
       213: 21300004
-    second: sextractor_2
+    second: equipment_sextractor_2
   - first:
       213: 21300006
-    second: sextractor_3
+    second: equipment_sextractor_3
   - first:
       213: 21300008
-    second: sextractor_4
+    second: equipment_sextractor_4
   - first:
       213: 21300010
-    second: sextractor_5
+    second: equipment_sextractor_5
   - first:
       213: 21300012
-    second: sextractor_6
+    second: equipment_sextractor_6
   - first:
       213: 21300014
-    second: sextractor_7
+    second: equipment_sextractor_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sextractor_0
+      name: equipment_sextractor_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sextractor_1
+      name: equipment_sextractor_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sextractor_2
+      name: equipment_sextractor_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sextractor_3
+      name: equipment_sextractor_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sextractor_4
+      name: equipment_sextractor_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sextractor_5
+      name: equipment_sextractor_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sextractor_6
+      name: equipment_sextractor_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sextractor_7
+      name: equipment_sextractor_7
       rect:
         serializedVersion: 2
         x: 224

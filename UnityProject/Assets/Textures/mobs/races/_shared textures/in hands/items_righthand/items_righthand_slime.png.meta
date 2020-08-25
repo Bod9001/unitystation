@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 368543389579951487
-    second: slime_0
+    second: items_righthand_slime_0
   - first:
       213: -458641133534639524
-    second: slime_1
+    second: items_righthand_slime_1
   - first:
       213: 2542698315722941828
-    second: slime_2
+    second: items_righthand_slime_2
   - first:
       213: -3711818451352614709
-    second: slime_3
+    second: items_righthand_slime_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_0
+      name: items_righthand_slime_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_1
+      name: items_righthand_slime_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_2
+      name: items_righthand_slime_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_3
+      name: items_righthand_slime_3
       rect:
         serializedVersion: 2
         x: 96

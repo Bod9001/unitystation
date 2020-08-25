@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f9307ea9852bff543a20e3891ee20cc2, type: 3}
-      spriteName: lowpressure2_0
+      spriteName: alerts_lowpressure2_0
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lowpressure2_0
+        m_SubObjectName: alerts_lowpressure2_0
     - sprite: {fileID: 21300002, guid: f9307ea9852bff543a20e3891ee20cc2, type: 3}
-      spriteName: lowpressure2_1
+      spriteName: alerts_lowpressure2_1
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lowpressure2_1
+        m_SubObjectName: alerts_lowpressure2_1
   IsPalette: 0
   setID: 3149

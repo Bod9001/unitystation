@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: farmbot_water_0
+    second: farmbot_farmbot_water_0
   - first:
       213: 21300002
-    second: farmbot_water_1
+    second: farmbot_farmbot_water_1
   - first:
       213: 21300004
-    second: farmbot_water_2
+    second: farmbot_farmbot_water_2
   - first:
       213: 21300006
-    second: farmbot_water_3
+    second: farmbot_farmbot_water_3
   - first:
       213: 21300008
-    second: farmbot_water_4
+    second: farmbot_farmbot_water_4
   - first:
       213: 21300010
-    second: farmbot_water_5
+    second: farmbot_farmbot_water_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: farmbot_water_0
+      name: farmbot_farmbot_water_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmbot_water_1
+      name: farmbot_farmbot_water_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmbot_water_2
+      name: farmbot_farmbot_water_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmbot_water_3
+      name: farmbot_farmbot_water_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmbot_water_4
+      name: farmbot_farmbot_water_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmbot_water_5
+      name: farmbot_farmbot_water_5
       rect:
         serializedVersion: 2
         x: 160

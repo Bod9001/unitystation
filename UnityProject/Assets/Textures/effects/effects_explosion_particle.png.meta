@@ -4,100 +4,100 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: explosion_particle_0
+    second: effects_explosion_particle_0
   - first:
       213: 21300002
-    second: explosion_particle_1
+    second: effects_explosion_particle_1
   - first:
       213: 21300004
-    second: explosion_particle_2
+    second: effects_explosion_particle_2
   - first:
       213: 21300006
-    second: explosion_particle_3
+    second: effects_explosion_particle_3
   - first:
       213: 21300008
-    second: explosion_particle_4
+    second: effects_explosion_particle_4
   - first:
       213: 21300010
-    second: explosion_particle_5
+    second: effects_explosion_particle_5
   - first:
       213: 21300012
-    second: explosion_particle_6
+    second: effects_explosion_particle_6
   - first:
       213: 21300014
-    second: explosion_particle_7
+    second: effects_explosion_particle_7
   - first:
       213: 21300016
-    second: explosion_particle_8
+    second: effects_explosion_particle_8
   - first:
       213: 21300018
-    second: explosion_particle_9
+    second: effects_explosion_particle_9
   - first:
       213: 21300020
-    second: explosion_particle_10
+    second: effects_explosion_particle_10
   - first:
       213: 21300022
-    second: explosion_particle_11
+    second: effects_explosion_particle_11
   - first:
       213: 21300024
-    second: explosion_particle_12
+    second: effects_explosion_particle_12
   - first:
       213: 21300026
-    second: explosion_particle_13
+    second: effects_explosion_particle_13
   - first:
       213: 21300028
-    second: explosion_particle_14
+    second: effects_explosion_particle_14
   - first:
       213: 21300030
-    second: explosion_particle_15
+    second: effects_explosion_particle_15
   - first:
       213: 21300032
-    second: explosion_particle_16
+    second: effects_explosion_particle_16
   - first:
       213: 21300034
-    second: explosion_particle_17
+    second: effects_explosion_particle_17
   - first:
       213: 21300036
-    second: explosion_particle_18
+    second: effects_explosion_particle_18
   - first:
       213: 21300038
-    second: explosion_particle_19
+    second: effects_explosion_particle_19
   - first:
       213: 21300040
-    second: explosion_particle_20
+    second: effects_explosion_particle_20
   - first:
       213: 21300042
-    second: explosion_particle_21
+    second: effects_explosion_particle_21
   - first:
       213: 21300044
-    second: explosion_particle_22
+    second: effects_explosion_particle_22
   - first:
       213: 21300046
-    second: explosion_particle_23
+    second: effects_explosion_particle_23
   - first:
       213: 21300048
-    second: explosion_particle_24
+    second: effects_explosion_particle_24
   - first:
       213: 21300050
-    second: explosion_particle_25
+    second: effects_explosion_particle_25
   - first:
       213: 21300052
-    second: explosion_particle_26
+    second: effects_explosion_particle_26
   - first:
       213: 21300054
-    second: explosion_particle_27
+    second: effects_explosion_particle_27
   - first:
       213: 21300056
-    second: explosion_particle_28
+    second: effects_explosion_particle_28
   - first:
       213: 21300058
-    second: explosion_particle_29
+    second: effects_explosion_particle_29
   - first:
       213: 21300060
-    second: explosion_particle_30
+    second: effects_explosion_particle_30
   - first:
       213: 21300062
-    second: explosion_particle_31
+    second: effects_explosion_particle_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: explosion_particle_0
+      name: effects_explosion_particle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_1
+      name: effects_explosion_particle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_2
+      name: effects_explosion_particle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_3
+      name: effects_explosion_particle_3
       rect:
         serializedVersion: 2
         x: 96
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_4
+      name: effects_explosion_particle_4
       rect:
         serializedVersion: 2
         x: 128
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_5
+      name: effects_explosion_particle_5
       rect:
         serializedVersion: 2
         x: 160
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_6
+      name: effects_explosion_particle_6
       rect:
         serializedVersion: 2
         x: 192
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_7
+      name: effects_explosion_particle_7
       rect:
         serializedVersion: 2
         x: 224
@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_8
+      name: effects_explosion_particle_8
       rect:
         serializedVersion: 2
         x: 256
@@ -371,7 +371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_9
+      name: effects_explosion_particle_9
       rect:
         serializedVersion: 2
         x: 288
@@ -392,7 +392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_10
+      name: effects_explosion_particle_10
       rect:
         serializedVersion: 2
         x: 320
@@ -413,7 +413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_11
+      name: effects_explosion_particle_11
       rect:
         serializedVersion: 2
         x: 352
@@ -434,7 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_12
+      name: effects_explosion_particle_12
       rect:
         serializedVersion: 2
         x: 384
@@ -455,7 +455,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_13
+      name: effects_explosion_particle_13
       rect:
         serializedVersion: 2
         x: 416
@@ -476,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_14
+      name: effects_explosion_particle_14
       rect:
         serializedVersion: 2
         x: 448
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_15
+      name: effects_explosion_particle_15
       rect:
         serializedVersion: 2
         x: 480
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_16
+      name: effects_explosion_particle_16
       rect:
         serializedVersion: 2
         x: 512
@@ -539,7 +539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_17
+      name: effects_explosion_particle_17
       rect:
         serializedVersion: 2
         x: 544
@@ -560,7 +560,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_18
+      name: effects_explosion_particle_18
       rect:
         serializedVersion: 2
         x: 576
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_19
+      name: effects_explosion_particle_19
       rect:
         serializedVersion: 2
         x: 608
@@ -602,7 +602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_20
+      name: effects_explosion_particle_20
       rect:
         serializedVersion: 2
         x: 640
@@ -623,7 +623,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_21
+      name: effects_explosion_particle_21
       rect:
         serializedVersion: 2
         x: 672
@@ -644,7 +644,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_22
+      name: effects_explosion_particle_22
       rect:
         serializedVersion: 2
         x: 704
@@ -665,7 +665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_23
+      name: effects_explosion_particle_23
       rect:
         serializedVersion: 2
         x: 736
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_24
+      name: effects_explosion_particle_24
       rect:
         serializedVersion: 2
         x: 768
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_25
+      name: effects_explosion_particle_25
       rect:
         serializedVersion: 2
         x: 800
@@ -728,7 +728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_26
+      name: effects_explosion_particle_26
       rect:
         serializedVersion: 2
         x: 832
@@ -749,7 +749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_27
+      name: effects_explosion_particle_27
       rect:
         serializedVersion: 2
         x: 864
@@ -770,7 +770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_28
+      name: effects_explosion_particle_28
       rect:
         serializedVersion: 2
         x: 896
@@ -791,7 +791,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_29
+      name: effects_explosion_particle_29
       rect:
         serializedVersion: 2
         x: 928
@@ -812,7 +812,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_30
+      name: effects_explosion_particle_30
       rect:
         serializedVersion: 2
         x: 960
@@ -833,7 +833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_particle_31
+      name: effects_explosion_particle_31
       rect:
         serializedVersion: 2
         x: 992

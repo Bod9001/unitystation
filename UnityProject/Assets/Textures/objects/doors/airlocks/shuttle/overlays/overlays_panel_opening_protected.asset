@@ -15,46 +15,46 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 55946915c1020a740b9c8968ba3ccc1a, type: 3}
-      spriteName: panel_opening_protected_0
+      spriteName: overlays_panel_opening_protected_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: panel_opening_protected_0
+        m_SubObjectName: overlays_panel_opening_protected_0
     - sprite: {fileID: 21300002, guid: 55946915c1020a740b9c8968ba3ccc1a, type: 3}
-      spriteName: panel_opening_protected_1
+      spriteName: overlays_panel_opening_protected_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: panel_opening_protected_1
+        m_SubObjectName: overlays_panel_opening_protected_1
     - sprite: {fileID: 21300004, guid: 55946915c1020a740b9c8968ba3ccc1a, type: 3}
-      spriteName: panel_opening_protected_2
+      spriteName: overlays_panel_opening_protected_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: panel_opening_protected_2
+        m_SubObjectName: overlays_panel_opening_protected_2
     - sprite: {fileID: 21300006, guid: 55946915c1020a740b9c8968ba3ccc1a, type: 3}
-      spriteName: panel_opening_protected_3
+      spriteName: overlays_panel_opening_protected_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: panel_opening_protected_3
+        m_SubObjectName: overlays_panel_opening_protected_3
     - sprite: {fileID: 21300008, guid: 55946915c1020a740b9c8968ba3ccc1a, type: 3}
-      spriteName: panel_opening_protected_4
+      spriteName: overlays_panel_opening_protected_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: panel_opening_protected_4
+        m_SubObjectName: overlays_panel_opening_protected_4
     - sprite: {fileID: 21300010, guid: 55946915c1020a740b9c8968ba3ccc1a, type: 3}
-      spriteName: panel_opening_protected_5
+      spriteName: overlays_panel_opening_protected_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: panel_opening_protected_5
+        m_SubObjectName: overlays_panel_opening_protected_5
   IsPalette: 0
   setID: 14048

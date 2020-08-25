@@ -15,67 +15,67 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0abc9719f4de8fb4eb4a0b2b47d73856, type: 3}
-      spriteName: corner_0
+      spriteName: fence_corner_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: corner_0
+        m_SubObjectName: fence_corner_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0abc9719f4de8fb4eb4a0b2b47d73856, type: 3}
-      spriteName: corner_1
+      spriteName: fence_corner_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: corner_1
+        m_SubObjectName: fence_corner_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0abc9719f4de8fb4eb4a0b2b47d73856, type: 3}
-      spriteName: corner_2
+      spriteName: fence_corner_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: corner_2
+        m_SubObjectName: fence_corner_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0abc9719f4de8fb4eb4a0b2b47d73856, type: 3}
-      spriteName: corner_3
+      spriteName: fence_corner_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: corner_3
+        m_SubObjectName: fence_corner_3
   - Frames:
     - sprite: {fileID: 21300008, guid: 0abc9719f4de8fb4eb4a0b2b47d73856, type: 3}
-      spriteName: corner_4
+      spriteName: fence_corner_4
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: corner_4
+        m_SubObjectName: fence_corner_4
   - Frames:
     - sprite: {fileID: 21300010, guid: 0abc9719f4de8fb4eb4a0b2b47d73856, type: 3}
-      spriteName: corner_5
+      spriteName: fence_corner_5
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: corner_5
+        m_SubObjectName: fence_corner_5
   - Frames:
     - sprite: {fileID: 21300012, guid: 0abc9719f4de8fb4eb4a0b2b47d73856, type: 3}
-      spriteName: corner_6
+      spriteName: fence_corner_6
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: corner_6
+        m_SubObjectName: fence_corner_6
   - Frames:
     - sprite: {fileID: 21300014, guid: 0abc9719f4de8fb4eb4a0b2b47d73856, type: 3}
-      spriteName: corner_7
+      spriteName: fence_corner_7
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: corner_7
+        m_SubObjectName: fence_corner_7
   IsPalette: 0
   setID: 14844

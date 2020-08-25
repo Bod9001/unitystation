@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 4637827490710136155}
   - component: {fileID: -7196419461780528121}
   m_Layer: 11
-  m_Name: BVOld_ViroDrobe
+  m_Name: ViroDrobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,9 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  initialIntegrity: 100
   soundOnHit: 
-  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -259,6 +257,7 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
+  initialIntegrity: 100
 --- !u!114 &114472266138859352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,18 +440,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 21b49e45d9f992e47abee3ae2d5afff8
-    m_SubObjectName: 
-  SubCatalogueAddresses:
-  - m_AssetGUID: 21b49e45d9f992e47abee3ae2d5afff8
-    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: 21b49e45d9f992e47abee3ae2d5afff8, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: 21b49e45d9f992e47abee3ae2d5afff8, type: 2}
-  pushTextureOnStartUp: 1
-  variantIndex: 0
-  palette: []
   Sprites:
   - Texture: {fileID: 2800000, guid: cb795f7d425097141adec3e6428a0e11, type: 3}
+  variantIndex: 0
+  palette: []

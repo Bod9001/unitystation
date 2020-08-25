@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: furnace_0
+    second: mining_machines_furnace_0
   - first:
       213: 21300002
-    second: furnace_1
+    second: mining_machines_furnace_1
   - first:
       213: 21300004
-    second: furnace_2
+    second: mining_machines_furnace_2
   - first:
       213: 21300006
-    second: furnace_3
+    second: mining_machines_furnace_3
   - first:
       213: 21300008
-    second: furnace_4
+    second: mining_machines_furnace_4
   - first:
       213: 21300010
-    second: furnace_5
+    second: mining_machines_furnace_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: furnace_0
+      name: mining_machines_furnace_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: furnace_1
+      name: mining_machines_furnace_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: furnace_2
+      name: mining_machines_furnace_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: furnace_3
+      name: mining_machines_furnace_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: furnace_4
+      name: mining_machines_furnace_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: furnace_5
+      name: mining_machines_furnace_5
       rect:
         serializedVersion: 2
         x: 160

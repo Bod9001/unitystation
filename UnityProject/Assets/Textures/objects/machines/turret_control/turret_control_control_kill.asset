@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: af139b651e39f57439f8278be12064c0, type: 3}
-      spriteName: control_kill_0
+      spriteName: turret_control_control_kill_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: control_kill_0
+        m_SubObjectName: turret_control_control_kill_0
     - sprite: {fileID: 21300002, guid: af139b651e39f57439f8278be12064c0, type: 3}
-      spriteName: control_kill_1
+      spriteName: turret_control_control_kill_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: control_kill_1
+        m_SubObjectName: turret_control_control_kill_1
     - sprite: {fileID: 21300004, guid: af139b651e39f57439f8278be12064c0, type: 3}
-      spriteName: control_kill_2
+      spriteName: turret_control_control_kill_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: control_kill_2
+        m_SubObjectName: turret_control_control_kill_2
     - sprite: {fileID: 21300006, guid: af139b651e39f57439f8278be12064c0, type: 3}
-      spriteName: control_kill_3
+      spriteName: turret_control_control_kill_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: control_kill_3
+        m_SubObjectName: turret_control_control_kill_3
   IsPalette: 0
   setID: 16096

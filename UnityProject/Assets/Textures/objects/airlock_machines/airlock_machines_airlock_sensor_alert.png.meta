@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: airlock_sensor_alert_0
+    second: airlock_machines_airlock_sensor_alert_0
   - first:
       213: 21300002
-    second: airlock_sensor_alert_1
+    second: airlock_machines_airlock_sensor_alert_1
   - first:
       213: 21300004
-    second: airlock_sensor_alert_2
+    second: airlock_machines_airlock_sensor_alert_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: airlock_sensor_alert_0
+      name: airlock_machines_airlock_sensor_alert_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: airlock_sensor_alert_1
+      name: airlock_machines_airlock_sensor_alert_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: airlock_sensor_alert_2
+      name: airlock_machines_airlock_sensor_alert_2
       rect:
         serializedVersion: 2
         x: 64

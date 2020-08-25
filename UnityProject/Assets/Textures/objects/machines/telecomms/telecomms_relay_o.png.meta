@@ -4,52 +4,52 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: relay_o_0
+    second: telecomms_relay_o_0
   - first:
       213: 21300002
-    second: relay_o_1
+    second: telecomms_relay_o_1
   - first:
       213: 21300004
-    second: relay_o_2
+    second: telecomms_relay_o_2
   - first:
       213: 21300006
-    second: relay_o_3
+    second: telecomms_relay_o_3
   - first:
       213: 21300008
-    second: relay_o_4
+    second: telecomms_relay_o_4
   - first:
       213: 21300010
-    second: relay_o_5
+    second: telecomms_relay_o_5
   - first:
       213: 21300012
-    second: relay_o_6
+    second: telecomms_relay_o_6
   - first:
       213: 21300014
-    second: relay_o_7
+    second: telecomms_relay_o_7
   - first:
       213: 21300016
-    second: relay_o_8
+    second: telecomms_relay_o_8
   - first:
       213: 21300018
-    second: relay_o_9
+    second: telecomms_relay_o_9
   - first:
       213: 21300020
-    second: relay_o_10
+    second: telecomms_relay_o_10
   - first:
       213: 21300022
-    second: relay_o_11
+    second: telecomms_relay_o_11
   - first:
       213: 21300024
-    second: relay_o_12
+    second: telecomms_relay_o_12
   - first:
       213: 21300026
-    second: relay_o_13
+    second: telecomms_relay_o_13
   - first:
       213: 21300028
-    second: relay_o_14
+    second: telecomms_relay_o_14
   - first:
       213: 21300030
-    second: relay_o_15
+    second: telecomms_relay_o_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: relay_o_0
+      name: telecomms_relay_o_0
       rect:
         serializedVersion: 2
         x: 0
@@ -155,7 +155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_1
+      name: telecomms_relay_o_1
       rect:
         serializedVersion: 2
         x: 32
@@ -176,7 +176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_2
+      name: telecomms_relay_o_2
       rect:
         serializedVersion: 2
         x: 64
@@ -197,7 +197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_3
+      name: telecomms_relay_o_3
       rect:
         serializedVersion: 2
         x: 96
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_4
+      name: telecomms_relay_o_4
       rect:
         serializedVersion: 2
         x: 128
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_5
+      name: telecomms_relay_o_5
       rect:
         serializedVersion: 2
         x: 160
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_6
+      name: telecomms_relay_o_6
       rect:
         serializedVersion: 2
         x: 192
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_7
+      name: telecomms_relay_o_7
       rect:
         serializedVersion: 2
         x: 224
@@ -302,7 +302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_8
+      name: telecomms_relay_o_8
       rect:
         serializedVersion: 2
         x: 256
@@ -323,7 +323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_9
+      name: telecomms_relay_o_9
       rect:
         serializedVersion: 2
         x: 288
@@ -344,7 +344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_10
+      name: telecomms_relay_o_10
       rect:
         serializedVersion: 2
         x: 320
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_11
+      name: telecomms_relay_o_11
       rect:
         serializedVersion: 2
         x: 352
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_12
+      name: telecomms_relay_o_12
       rect:
         serializedVersion: 2
         x: 384
@@ -407,7 +407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_13
+      name: telecomms_relay_o_13
       rect:
         serializedVersion: 2
         x: 416
@@ -428,7 +428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_14
+      name: telecomms_relay_o_14
       rect:
         serializedVersion: 2
         x: 448
@@ -449,7 +449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: relay_o_15
+      name: telecomms_relay_o_15
       rect:
         serializedVersion: 2
         x: 480

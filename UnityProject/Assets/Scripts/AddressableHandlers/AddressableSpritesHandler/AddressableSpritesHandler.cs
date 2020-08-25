@@ -15,24 +15,31 @@ public class AddressableSpritesHandler : MonoBehaviour
 
 	public static async Task LoadSprite(SpriteDataSO.Frame Frame, Action<Sprite> OnCompleteAction)
 	{
+		if (Frame.TestAddress.RuntimeKey == null) return;
+
 		if (Frame.TestAddress.Asset != null){
 			OnCompleteAction.Invoke(Frame.TestAddress.Asset as Sprite);
 			return;
 		}
 
-		var asyncOperationHandle  = Frame.TestAddress.LoadAssetAsync();
+		var col = Frame.TestAddress.OperationHandle;
+
+		AsyncOperationHandle<Sprite> asyncOperationHandle  = Frame.TestAddress.LoadAssetAsync();
 		// var asyncOperationHandle =
 			// Addressables.LoadAssetAsync<Sprite>(Frame.AtlasUsing + "[" + Frame.spriteName + "]");
 		//You ask why strings and my responses because they need to
 		//optimise the UI because it's a laggy piece of and Is buggy as well
-		await asyncOperationHandle.Task; // wait for the task to complete before we try to get the result
+		//await asyncOperationHandle.Task; // wait for the task to complete before we try to get the result
 
 		OnCompleteAction.Invoke(asyncOperationHandle.Result);
 	}
 
 
+
+
 	public static Atlas FindAtlasContaining(Sprite inSprite)
 	{
+
 		foreach (var Atlase in AtlasReference.Instance.Atlases)
 		{
 			//if (Atlase.Value.GetSprite(inSprite.name) != null)

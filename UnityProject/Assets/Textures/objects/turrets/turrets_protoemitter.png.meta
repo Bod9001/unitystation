@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: protoemitter_0
+    second: turrets_protoemitter_0
   - first:
       213: 21300002
-    second: protoemitter_1
+    second: turrets_protoemitter_1
   - first:
       213: 21300004
-    second: protoemitter_2
+    second: turrets_protoemitter_2
   - first:
       213: 21300006
-    second: protoemitter_3
+    second: turrets_protoemitter_3
   - first:
       213: 21300008
-    second: protoemitter_4
+    second: turrets_protoemitter_4
   - first:
       213: 21300010
-    second: protoemitter_5
+    second: turrets_protoemitter_5
   - first:
       213: 21300012
-    second: protoemitter_6
+    second: turrets_protoemitter_6
   - first:
       213: 21300014
-    second: protoemitter_7
+    second: turrets_protoemitter_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: protoemitter_0
+      name: turrets_protoemitter_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protoemitter_1
+      name: turrets_protoemitter_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protoemitter_2
+      name: turrets_protoemitter_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protoemitter_3
+      name: turrets_protoemitter_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protoemitter_4
+      name: turrets_protoemitter_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protoemitter_5
+      name: turrets_protoemitter_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protoemitter_6
+      name: turrets_protoemitter_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protoemitter_7
+      name: turrets_protoemitter_7
       rect:
         serializedVersion: 2
         x: 224

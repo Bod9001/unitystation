@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 301006007775382093, guid: d02ff8c97e3e1a04a883dbe5bf0beb6d,
         type: 3}
       propertyPath: m_Name
-      value: InternalMagazineBoltActionEnchanted
+      value: InternalMagazineBoltAction
       objectReference: {fileID: 0}
     - target: {fileID: 305929758516033337, guid: d02ff8c97e3e1a04a883dbe5bf0beb6d,
         type: 3}
@@ -66,11 +66,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 412456251848128505, guid: d02ff8c97e3e1a04a883dbe5bf0beb6d,
-        type: 3}
-      propertyPath: m_AssetId
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d02ff8c97e3e1a04a883dbe5bf0beb6d, type: 3}

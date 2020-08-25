@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: cd823d193ec6ff64abf166167638cf3b, type: 3}
-      spriteName: light_on-o_0
+      spriteName: disco_light_on-o_0
       secondDelay: 0.1
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on-o_0
+        m_SubObjectName: disco_light_on-o_0
     - sprite: {fileID: 21300002, guid: cd823d193ec6ff64abf166167638cf3b, type: 3}
-      spriteName: light_on-o_1
+      spriteName: disco_light_on-o_1
       secondDelay: 0.1
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: light_on-o_1
+        m_SubObjectName: disco_light_on-o_1
   IsPalette: 0
   setID: 2234

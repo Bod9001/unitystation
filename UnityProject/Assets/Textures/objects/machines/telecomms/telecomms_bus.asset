@@ -15,60 +15,60 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 15855bf52be016e49974ab68e472bd12, type: 3}
-      spriteName: bus_0
+      spriteName: telecomms_bus_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bus_0
+        m_SubObjectName: telecomms_bus_0
     - sprite: {fileID: 21300002, guid: 15855bf52be016e49974ab68e472bd12, type: 3}
-      spriteName: bus_1
+      spriteName: telecomms_bus_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bus_1
+        m_SubObjectName: telecomms_bus_1
     - sprite: {fileID: 21300004, guid: 15855bf52be016e49974ab68e472bd12, type: 3}
-      spriteName: bus_2
+      spriteName: telecomms_bus_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bus_2
+        m_SubObjectName: telecomms_bus_2
     - sprite: {fileID: 21300006, guid: 15855bf52be016e49974ab68e472bd12, type: 3}
-      spriteName: bus_3
+      spriteName: telecomms_bus_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bus_3
+        m_SubObjectName: telecomms_bus_3
     - sprite: {fileID: 21300008, guid: 15855bf52be016e49974ab68e472bd12, type: 3}
-      spriteName: bus_4
+      spriteName: telecomms_bus_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bus_4
+        m_SubObjectName: telecomms_bus_4
     - sprite: {fileID: 21300010, guid: 15855bf52be016e49974ab68e472bd12, type: 3}
-      spriteName: bus_5
+      spriteName: telecomms_bus_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bus_5
+        m_SubObjectName: telecomms_bus_5
     - sprite: {fileID: 21300012, guid: 15855bf52be016e49974ab68e472bd12, type: 3}
-      spriteName: bus_6
+      spriteName: telecomms_bus_6
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bus_6
+        m_SubObjectName: telecomms_bus_6
     - sprite: {fileID: 21300014, guid: 15855bf52be016e49974ab68e472bd12, type: 3}
-      spriteName: bus_7
+      spriteName: telecomms_bus_7
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: bus_7
+        m_SubObjectName: telecomms_bus_7
   IsPalette: 0
   setID: 16038

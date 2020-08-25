@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: earmuffs_0
+    second: earmuffs_earmuffs_0
   - first:
       213: 21300002
-    second: earmuffs_1
+    second: earmuffs_earmuffs_1
   - first:
       213: 21300004
-    second: earmuffs_2
+    second: earmuffs_earmuffs_2
   - first:
       213: 21300006
-    second: earmuffs_3
+    second: earmuffs_earmuffs_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: earmuffs_0
+      name: earmuffs_earmuffs_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earmuffs_1
+      name: earmuffs_earmuffs_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earmuffs_2
+      name: earmuffs_earmuffs_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earmuffs_3
+      name: earmuffs_earmuffs_3
       rect:
         serializedVersion: 2
         x: 96

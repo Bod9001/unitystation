@@ -16,19 +16,19 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: 3591537884831614685, guid: a1b0f544d6ccf6445a6882a808336e08,
         type: 3}
-      spriteName: pda_cart-q_0
+      spriteName: pda_pda_cart-q_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: pda_cart-q_0
+        m_SubObjectName: pda_pda_cart-q_0
     - sprite: {fileID: 6706246460173715578, guid: a1b0f544d6ccf6445a6882a808336e08,
         type: 3}
-      spriteName: pda_cart-q_1
+      spriteName: pda_pda_cart-q_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: pda_cart-q_1
+        m_SubObjectName: pda_pda_cart-q_1
   IsPalette: 0
   setID: 8503

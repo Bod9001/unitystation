@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 3ce0ab082043e3e4c9429cce856cdfce, type: 3}
-      spriteName: pressure2_0
+      spriteName: screen_gen_old_pressure2_0
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: pressure2_0
+        m_SubObjectName: screen_gen_old_pressure2_0
     - sprite: {fileID: 21300002, guid: 3ce0ab082043e3e4c9429cce856cdfce, type: 3}
-      spriteName: pressure2_1
+      spriteName: screen_gen_old_pressure2_1
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: pressure2_1
+        m_SubObjectName: screen_gen_old_pressure2_1
   IsPalette: 0
   setID: 3589

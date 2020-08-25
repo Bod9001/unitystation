@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: heat_0
+    second: heat goggles_heat_0
   - first:
       213: 21300002
-    second: heat_1
+    second: heat goggles_heat_1
   - first:
       213: 21300004
-    second: heat_2
+    second: heat goggles_heat_2
   - first:
       213: 21300006
-    second: heat_3
+    second: heat goggles_heat_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heat_0
+      name: heat goggles_heat_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heat_1
+      name: heat goggles_heat_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heat_2
+      name: heat goggles_heat_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heat_3
+      name: heat goggles_heat_3
       rect:
         serializedVersion: 2
         x: 96

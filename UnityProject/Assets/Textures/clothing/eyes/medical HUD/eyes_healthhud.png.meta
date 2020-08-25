@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: healthhud_0
+    second: medical HUD_healthhud_0
   - first:
       213: 21300002
-    second: healthhud_1
+    second: medical HUD_healthhud_1
   - first:
       213: 21300004
-    second: healthhud_2
+    second: medical HUD_healthhud_2
   - first:
       213: 21300006
-    second: healthhud_3
+    second: medical HUD_healthhud_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: healthhud_0
+      name: medical HUD_healthhud_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: healthhud_1
+      name: medical HUD_healthhud_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: healthhud_2
+      name: medical HUD_healthhud_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: healthhud_3
+      name: medical HUD_healthhud_3
       rect:
         serializedVersion: 2
         x: 96

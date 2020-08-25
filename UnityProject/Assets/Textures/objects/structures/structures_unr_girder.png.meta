@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: unr_girder_0
+    second: structures_unr_girder_0
   - first:
       213: 21300002
-    second: unr_girder_1
+    second: structures_unr_girder_1
   - first:
       213: 21300004
-    second: unr_girder_2
+    second: structures_unr_girder_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: unr_girder_0
+      name: structures_unr_girder_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unr_girder_1
+      name: structures_unr_girder_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unr_girder_2
+      name: structures_unr_girder_2
       rect:
         serializedVersion: 2
         x: 64

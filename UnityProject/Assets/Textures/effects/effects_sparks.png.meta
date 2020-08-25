@@ -4,88 +4,88 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sparks_0
+    second: effects_sparks_0
   - first:
       213: 21300002
-    second: sparks_1
+    second: effects_sparks_1
   - first:
       213: 21300004
-    second: sparks_2
+    second: effects_sparks_2
   - first:
       213: 21300006
-    second: sparks_3
+    second: effects_sparks_3
   - first:
       213: 21300008
-    second: sparks_4
+    second: effects_sparks_4
   - first:
       213: 21300010
-    second: sparks_5
+    second: effects_sparks_5
   - first:
       213: 21300012
-    second: sparks_6
+    second: effects_sparks_6
   - first:
       213: 21300014
-    second: sparks_7
+    second: effects_sparks_7
   - first:
       213: 21300016
-    second: sparks_8
+    second: effects_sparks_8
   - first:
       213: 21300018
-    second: sparks_9
+    second: effects_sparks_9
   - first:
       213: 21300020
-    second: sparks_10
+    second: effects_sparks_10
   - first:
       213: 21300022
-    second: sparks_11
+    second: effects_sparks_11
   - first:
       213: 21300024
-    second: sparks_12
+    second: effects_sparks_12
   - first:
       213: 21300026
-    second: sparks_13
+    second: effects_sparks_13
   - first:
       213: 21300028
-    second: sparks_14
+    second: effects_sparks_14
   - first:
       213: 21300030
-    second: sparks_15
+    second: effects_sparks_15
   - first:
       213: 21300032
-    second: sparks_16
+    second: effects_sparks_16
   - first:
       213: 21300034
-    second: sparks_17
+    second: effects_sparks_17
   - first:
       213: 21300036
-    second: sparks_18
+    second: effects_sparks_18
   - first:
       213: 21300038
-    second: sparks_19
+    second: effects_sparks_19
   - first:
       213: 21300040
-    second: sparks_20
+    second: effects_sparks_20
   - first:
       213: 21300042
-    second: sparks_21
+    second: effects_sparks_21
   - first:
       213: 21300044
-    second: sparks_22
+    second: effects_sparks_22
   - first:
       213: 21300046
-    second: sparks_23
+    second: effects_sparks_23
   - first:
       213: 21300048
-    second: sparks_24
+    second: effects_sparks_24
   - first:
       213: 21300050
-    second: sparks_25
+    second: effects_sparks_25
   - first:
       213: 21300052
-    second: sparks_26
+    second: effects_sparks_26
   - first:
       213: 21300054
-    second: sparks_27
+    second: effects_sparks_27
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -170,7 +170,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sparks_0
+      name: effects_sparks_0
       rect:
         serializedVersion: 2
         x: 0
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_1
+      name: effects_sparks_1
       rect:
         serializedVersion: 2
         x: 32
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_2
+      name: effects_sparks_2
       rect:
         serializedVersion: 2
         x: 64
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_3
+      name: effects_sparks_3
       rect:
         serializedVersion: 2
         x: 96
@@ -254,7 +254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_4
+      name: effects_sparks_4
       rect:
         serializedVersion: 2
         x: 128
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_5
+      name: effects_sparks_5
       rect:
         serializedVersion: 2
         x: 160
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_6
+      name: effects_sparks_6
       rect:
         serializedVersion: 2
         x: 192
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_7
+      name: effects_sparks_7
       rect:
         serializedVersion: 2
         x: 224
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_8
+      name: effects_sparks_8
       rect:
         serializedVersion: 2
         x: 256
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_9
+      name: effects_sparks_9
       rect:
         serializedVersion: 2
         x: 288
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_10
+      name: effects_sparks_10
       rect:
         serializedVersion: 2
         x: 320
@@ -401,7 +401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_11
+      name: effects_sparks_11
       rect:
         serializedVersion: 2
         x: 352
@@ -422,7 +422,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_12
+      name: effects_sparks_12
       rect:
         serializedVersion: 2
         x: 384
@@ -443,7 +443,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_13
+      name: effects_sparks_13
       rect:
         serializedVersion: 2
         x: 416
@@ -464,7 +464,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_14
+      name: effects_sparks_14
       rect:
         serializedVersion: 2
         x: 448
@@ -485,7 +485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_15
+      name: effects_sparks_15
       rect:
         serializedVersion: 2
         x: 480
@@ -506,7 +506,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_16
+      name: effects_sparks_16
       rect:
         serializedVersion: 2
         x: 512
@@ -527,7 +527,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_17
+      name: effects_sparks_17
       rect:
         serializedVersion: 2
         x: 544
@@ -548,7 +548,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_18
+      name: effects_sparks_18
       rect:
         serializedVersion: 2
         x: 576
@@ -569,7 +569,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_19
+      name: effects_sparks_19
       rect:
         serializedVersion: 2
         x: 608
@@ -590,7 +590,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_20
+      name: effects_sparks_20
       rect:
         serializedVersion: 2
         x: 640
@@ -611,7 +611,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_21
+      name: effects_sparks_21
       rect:
         serializedVersion: 2
         x: 672
@@ -632,7 +632,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_22
+      name: effects_sparks_22
       rect:
         serializedVersion: 2
         x: 704
@@ -653,7 +653,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_23
+      name: effects_sparks_23
       rect:
         serializedVersion: 2
         x: 736
@@ -674,7 +674,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_24
+      name: effects_sparks_24
       rect:
         serializedVersion: 2
         x: 768
@@ -695,7 +695,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_25
+      name: effects_sparks_25
       rect:
         serializedVersion: 2
         x: 800
@@ -716,7 +716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_26
+      name: effects_sparks_26
       rect:
         serializedVersion: 2
         x: 832
@@ -737,7 +737,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_27
+      name: effects_sparks_27
       rect:
         serializedVersion: 2
         x: 864

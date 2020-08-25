@@ -94,20 +94,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 024ca5f8c1c2e3f428c92f9ffae51121
-    m_SubObjectName: 
-  SubCatalogueAddresses:
-  - m_AssetGUID: 024ca5f8c1c2e3f428c92f9ffae51121
-    m_SubObjectName: 
-  - m_AssetGUID: 9eba09bdb0e97c845b0a63a3aa743c40
-    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: 024ca5f8c1c2e3f428c92f9ffae51121, type: 2}
   - {fileID: 11400000, guid: 9eba09bdb0e97c845b0a63a3aa743c40, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: 024ca5f8c1c2e3f428c92f9ffae51121, type: 2}
-  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
   Sprites: []
@@ -275,11 +266,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
-      propertyPath: SubCatalogueAddresses.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
-        type: 3}
       propertyPath: PresentSpriteSet
       value: 
       objectReference: {fileID: 11400000, guid: fe3e090803c7ffc4baad183f5aca3a95,
@@ -296,21 +282,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: bdd7648689261ba4b9874deff7c03372,
         type: 2}
-    - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: fe3e090803c7ffc4baad183f5aca3a95
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[0].m_AssetGUID
-      value: fe3e090803c7ffc4baad183f5aca3a95
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[1].m_AssetGUID
-      value: bdd7648689261ba4b9874deff7c03372
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7abba22164ce49f0bf9b9b219f39298, type: 3}
 --- !u!1 &133447297619427422 stripped

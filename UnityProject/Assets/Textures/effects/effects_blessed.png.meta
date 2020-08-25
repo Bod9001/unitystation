@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: blessed_0
+    second: effects_blessed_0
   - first:
       213: 21300002
-    second: blessed_1
+    second: effects_blessed_1
   - first:
       213: 21300004
-    second: blessed_2
+    second: effects_blessed_2
   - first:
       213: 21300006
-    second: blessed_3
+    second: effects_blessed_3
   - first:
       213: 21300008
-    second: blessed_4
+    second: effects_blessed_4
   - first:
       213: 21300010
-    second: blessed_5
+    second: effects_blessed_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blessed_0
+      name: effects_blessed_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blessed_1
+      name: effects_blessed_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blessed_2
+      name: effects_blessed_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blessed_3
+      name: effects_blessed_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blessed_4
+      name: effects_blessed_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blessed_5
+      name: effects_blessed_5
       rect:
         serializedVersion: 2
         x: 160

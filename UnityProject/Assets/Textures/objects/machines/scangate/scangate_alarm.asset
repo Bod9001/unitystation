@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: cdc12e9abe73d5b45805cfbbe4bdf0a0, type: 3}
-      spriteName: alarm_0
+      spriteName: scangate_alarm_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: alarm_0
+        m_SubObjectName: scangate_alarm_0
     - sprite: {fileID: 21300002, guid: cdc12e9abe73d5b45805cfbbe4bdf0a0, type: 3}
-      spriteName: alarm_1
+      spriteName: scangate_alarm_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: alarm_1
+        m_SubObjectName: scangate_alarm_1
     - sprite: {fileID: 21300004, guid: cdc12e9abe73d5b45805cfbbe4bdf0a0, type: 3}
-      spriteName: alarm_2
+      spriteName: scangate_alarm_2
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: alarm_2
+        m_SubObjectName: scangate_alarm_2
     - sprite: {fileID: 21300006, guid: cdc12e9abe73d5b45805cfbbe4bdf0a0, type: 3}
-      spriteName: alarm_3
+      spriteName: scangate_alarm_3
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: alarm_3
+        m_SubObjectName: scangate_alarm_3
   IsPalette: 0
   setID: 15973

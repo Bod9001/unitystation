@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ae82dfe114430e047b1eec5c4fa5ffcf, type: 3}
-      spriteName: eyes_missing_0
+      spriteName: body part damage_eyes_missing_0
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: eyes_missing_0
+        m_SubObjectName: body part damage_eyes_missing_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ae82dfe114430e047b1eec5c4fa5ffcf, type: 3}
-      spriteName: eyes_missing_1
+      spriteName: body part damage_eyes_missing_1
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: eyes_missing_1
+        m_SubObjectName: body part damage_eyes_missing_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ae82dfe114430e047b1eec5c4fa5ffcf, type: 3}
-      spriteName: eyes_missing_2
+      spriteName: body part damage_eyes_missing_2
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: eyes_missing_2
+        m_SubObjectName: body part damage_eyes_missing_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ae82dfe114430e047b1eec5c4fa5ffcf, type: 3}
-      spriteName: eyes_missing_3
+      spriteName: body part damage_eyes_missing_3
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: eyes_missing_3
+        m_SubObjectName: body part damage_eyes_missing_3
   IsPalette: 0
   setID: 9675

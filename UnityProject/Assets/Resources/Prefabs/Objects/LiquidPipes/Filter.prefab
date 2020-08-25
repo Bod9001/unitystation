@@ -94,10 +94,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 02479bef20335fe4f94a1457f4c1825d
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 02479bef20335fe4f94a1457f4c1825d, type: 2}
@@ -308,11 +304,6 @@ PrefabInstance:
         type: 3}
       propertyPath: variantIndex
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 4a0f3fcc73b752a48a76699a5d8b7ccb
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebb08cf966efc084aa918bd8d9429604, type: 3}

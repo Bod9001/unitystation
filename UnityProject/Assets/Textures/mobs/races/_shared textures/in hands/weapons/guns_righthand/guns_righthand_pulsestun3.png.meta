@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pulsestun3_0
+    second: guns_righthand_pulsestun3_0
   - first:
       213: 21300002
-    second: pulsestun3_1
+    second: guns_righthand_pulsestun3_1
   - first:
       213: 21300004
-    second: pulsestun3_2
+    second: guns_righthand_pulsestun3_2
   - first:
       213: 21300006
-    second: pulsestun3_3
+    second: guns_righthand_pulsestun3_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pulsestun3_0
+      name: guns_righthand_pulsestun3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulsestun3_1
+      name: guns_righthand_pulsestun3_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulsestun3_2
+      name: guns_righthand_pulsestun3_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulsestun3_3
+      name: guns_righthand_pulsestun3_3
       rect:
         serializedVersion: 2
         x: 96

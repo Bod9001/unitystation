@@ -4,34 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sol_dry_0
+    second: food_lefthand_sol_dry_0
   - first:
       213: 21300002
-    second: space_mountain_wind_1
+    second: food_lefthand_space_mountain_wind_1
   - first:
       213: 21300004
-    second: space_mountain_wind_2
+    second: food_lefthand_space_mountain_wind_2
   - first:
       213: 21300006
-    second: space_mountain_wind_3
+    second: food_lefthand_space_mountain_wind_3
   - first:
       213: -6842945865412439534
-    second: sol_dry_0
+    second: food_lefthand_sol_dry_0
   - first:
       213: -2933775840155023767
-    second: sol_dry_1
+    second: food_lefthand_sol_dry_1
   - first:
       213: -3948169229876275497
-    second: sol_dry_2
+    second: food_lefthand_sol_dry_2
   - first:
       213: -6842945865412439534
-    second: sol_dry_0
+    second: food_lefthand_sol_dry_0
   - first:
       213: -8503486347556097570
-    second: sol_dry_3
+    second: food_lefthand_sol_dry_3
   - first:
       213: -638019877329126221
-    second: food_lefthand_sol_dry_1
+    second: food_lefthand_food_lefthand_sol_dry_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sol_dry_0
+      name: food_lefthand_sol_dry_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sol_dry_1
+      name: food_lefthand_sol_dry_1
       rect:
         serializedVersion: 2
         x: 32
@@ -159,7 +159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sol_dry_2
+      name: food_lefthand_sol_dry_2
       rect:
         serializedVersion: 2
         x: 64
@@ -180,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sol_dry_3
+      name: food_lefthand_sol_dry_3
       rect:
         serializedVersion: 2
         x: 96

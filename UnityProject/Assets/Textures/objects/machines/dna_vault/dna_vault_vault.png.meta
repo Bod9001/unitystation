@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: vault_0
+    second: dna_vault_vault_0
   - first:
       213: 21300002
-    second: vault_1
+    second: dna_vault_vault_1
   - first:
       213: 21300004
-    second: vault_2
+    second: dna_vault_vault_2
   - first:
       213: 21300006
-    second: vault_3
+    second: dna_vault_vault_3
   - first:
       213: 21300008
-    second: vault_4
+    second: dna_vault_vault_4
   - first:
       213: 21300010
-    second: vault_5
+    second: dna_vault_vault_5
   - first:
       213: 21300012
-    second: vault_6
+    second: dna_vault_vault_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vault_0
+      name: dna_vault_vault_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vault_1
+      name: dna_vault_vault_1
       rect:
         serializedVersion: 2
         x: 96
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vault_2
+      name: dna_vault_vault_2
       rect:
         serializedVersion: 2
         x: 192
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vault_3
+      name: dna_vault_vault_3
       rect:
         serializedVersion: 2
         x: 288
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vault_4
+      name: dna_vault_vault_4
       rect:
         serializedVersion: 2
         x: 384
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vault_5
+      name: dna_vault_vault_5
       rect:
         serializedVersion: 2
         x: 480
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vault_6
+      name: dna_vault_vault_6
       rect:
         serializedVersion: 2
         x: 576

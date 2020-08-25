@@ -16,19 +16,19 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: -6704504447838830825, guid: ef689b8957e94f24f89d198892016410,
         type: 3}
-      spriteName: pda_cart-chem_0
+      spriteName: pda_pda_cart-chem_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: pda_cart-chem_0
+        m_SubObjectName: pda_pda_cart-chem_0
     - sprite: {fileID: -9113380830972160793, guid: ef689b8957e94f24f89d198892016410,
         type: 3}
-      spriteName: pda_cart-chem_1
+      spriteName: pda_pda_cart-chem_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: pda_cart-chem_1
+        m_SubObjectName: pda_pda_cart-chem_1
   IsPalette: 0
   setID: 8492

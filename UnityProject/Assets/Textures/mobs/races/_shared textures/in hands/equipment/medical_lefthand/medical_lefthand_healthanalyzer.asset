@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5011ee570ef70884092c9fa0d98d0f70, type: 3}
-      spriteName: healthanalyzer_0
+      spriteName: medical_lefthand_healthanalyzer_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: healthanalyzer_0
+        m_SubObjectName: medical_lefthand_healthanalyzer_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5011ee570ef70884092c9fa0d98d0f70, type: 3}
-      spriteName: healthanalyzer_1
+      spriteName: medical_lefthand_healthanalyzer_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: healthanalyzer_1
+        m_SubObjectName: medical_lefthand_healthanalyzer_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5011ee570ef70884092c9fa0d98d0f70, type: 3}
-      spriteName: healthanalyzer_2
+      spriteName: medical_lefthand_healthanalyzer_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: healthanalyzer_2
+        m_SubObjectName: medical_lefthand_healthanalyzer_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5011ee570ef70884092c9fa0d98d0f70, type: 3}
-      spriteName: healthanalyzer_3
+      spriteName: medical_lefthand_healthanalyzer_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: healthanalyzer_3
+        m_SubObjectName: medical_lefthand_healthanalyzer_3
   IsPalette: 0
   setID: 22213

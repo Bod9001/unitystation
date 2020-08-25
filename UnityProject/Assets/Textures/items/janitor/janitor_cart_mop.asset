@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ae65b0121a59eec4d85286223eeb313f, type: 3}
-      spriteName: cart_mop_0
+      spriteName: janitor_cart_mop_0
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: cart_mop_0
+        m_SubObjectName: janitor_cart_mop_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ae65b0121a59eec4d85286223eeb313f, type: 3}
-      spriteName: cart_mop_1
+      spriteName: janitor_cart_mop_1
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: cart_mop_1
+        m_SubObjectName: janitor_cart_mop_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ae65b0121a59eec4d85286223eeb313f, type: 3}
-      spriteName: cart_mop_2
+      spriteName: janitor_cart_mop_2
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: cart_mop_2
+        m_SubObjectName: janitor_cart_mop_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ae65b0121a59eec4d85286223eeb313f, type: 3}
-      spriteName: cart_mop_3
+      spriteName: janitor_cart_mop_3
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: cart_mop_3
+        m_SubObjectName: janitor_cart_mop_3
   IsPalette: 0
   setID: 7998

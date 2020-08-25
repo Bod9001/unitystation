@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: spectral_0
+    second: items_and_weapons_spectral_0
   - first:
       213: 21300002
-    second: spectral_1
+    second: items_and_weapons_spectral_1
   - first:
       213: 21300004
-    second: spectral_2
+    second: items_and_weapons_spectral_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spectral_0
+      name: items_and_weapons_spectral_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spectral_1
+      name: items_and_weapons_spectral_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spectral_2
+      name: items_and_weapons_spectral_2
       rect:
         serializedVersion: 2
         x: 64

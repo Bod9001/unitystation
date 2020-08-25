@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
-      spriteName: swordoff_0
+      spriteName: swords_righthand_swordoff_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: swordoff_0
+        m_SubObjectName: swords_righthand_swordoff_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
-      spriteName: swordoff_1
+      spriteName: swords_righthand_swordoff_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: swordoff_1
+        m_SubObjectName: swords_righthand_swordoff_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
-      spriteName: swordoff_2
+      spriteName: swords_righthand_swordoff_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: swordoff_2
+        m_SubObjectName: swords_righthand_swordoff_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1c729bc1852a8f340b5db97e45790cbd, type: 3}
-      spriteName: swordoff_3
+      spriteName: swords_righthand_swordoff_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: swordoff_3
+        m_SubObjectName: swords_righthand_swordoff_3
   IsPalette: 0
   setID: 10969

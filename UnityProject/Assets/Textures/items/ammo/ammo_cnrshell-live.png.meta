@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cnrshell-live_0
+    second: ammo_cnrshell-live_0
   - first:
       213: 21300002
-    second: cnrshell-live_1
+    second: ammo_cnrshell-live_1
   - first:
       213: 21300004
-    second: cnrshell-live_2
+    second: ammo_cnrshell-live_2
   - first:
       213: 21300006
-    second: cnrshell-live_3
+    second: ammo_cnrshell-live_3
   - first:
       213: 21300008
-    second: cnrshell-live_4
+    second: ammo_cnrshell-live_4
   - first:
       213: 21300010
-    second: cnrshell-live_5
+    second: ammo_cnrshell-live_5
   - first:
       213: 21300012
-    second: cnrshell-live_6
+    second: ammo_cnrshell-live_6
   - first:
       213: 21300014
-    second: cnrshell-live_7
+    second: ammo_cnrshell-live_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cnrshell-live_0
+      name: ammo_cnrshell-live_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cnrshell-live_1
+      name: ammo_cnrshell-live_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cnrshell-live_2
+      name: ammo_cnrshell-live_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cnrshell-live_3
+      name: ammo_cnrshell-live_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cnrshell-live_4
+      name: ammo_cnrshell-live_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cnrshell-live_5
+      name: ammo_cnrshell-live_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cnrshell-live_6
+      name: ammo_cnrshell-live_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cnrshell-live_7
+      name: ammo_cnrshell-live_7
       rect:
         serializedVersion: 2
         x: 224

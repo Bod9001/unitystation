@@ -15,179 +15,179 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_0
+      spriteName: attack_tailsweep_0
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_0
+        m_SubObjectName: attack_tailsweep_0
     - sprite: {fileID: 21300016, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_8
+      spriteName: attack_tailsweep_8
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_8
+        m_SubObjectName: attack_tailsweep_8
     - sprite: {fileID: 21300032, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_16
+      spriteName: attack_tailsweep_16
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_16
+        m_SubObjectName: attack_tailsweep_16
   - Frames:
     - sprite: {fileID: 21300002, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_1
+      spriteName: attack_tailsweep_1
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_1
+        m_SubObjectName: attack_tailsweep_1
     - sprite: {fileID: 21300018, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_9
+      spriteName: attack_tailsweep_9
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_9
+        m_SubObjectName: attack_tailsweep_9
     - sprite: {fileID: 21300034, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_17
+      spriteName: attack_tailsweep_17
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_17
+        m_SubObjectName: attack_tailsweep_17
   - Frames:
     - sprite: {fileID: 21300004, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_2
+      spriteName: attack_tailsweep_2
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_2
+        m_SubObjectName: attack_tailsweep_2
     - sprite: {fileID: 21300020, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_10
+      spriteName: attack_tailsweep_10
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_10
+        m_SubObjectName: attack_tailsweep_10
     - sprite: {fileID: 21300036, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_18
+      spriteName: attack_tailsweep_18
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_18
+        m_SubObjectName: attack_tailsweep_18
   - Frames:
     - sprite: {fileID: 21300006, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_3
+      spriteName: attack_tailsweep_3
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_3
+        m_SubObjectName: attack_tailsweep_3
     - sprite: {fileID: 21300022, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_11
+      spriteName: attack_tailsweep_11
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_11
+        m_SubObjectName: attack_tailsweep_11
     - sprite: {fileID: 21300038, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_19
+      spriteName: attack_tailsweep_19
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_19
+        m_SubObjectName: attack_tailsweep_19
   - Frames:
     - sprite: {fileID: 21300008, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_4
+      spriteName: attack_tailsweep_4
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_4
+        m_SubObjectName: attack_tailsweep_4
     - sprite: {fileID: 21300024, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_12
+      spriteName: attack_tailsweep_12
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_12
+        m_SubObjectName: attack_tailsweep_12
     - sprite: {fileID: 21300040, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_20
+      spriteName: attack_tailsweep_20
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_20
+        m_SubObjectName: attack_tailsweep_20
   - Frames:
     - sprite: {fileID: 21300010, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_5
+      spriteName: attack_tailsweep_5
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_5
+        m_SubObjectName: attack_tailsweep_5
     - sprite: {fileID: 21300026, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_13
+      spriteName: attack_tailsweep_13
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_13
+        m_SubObjectName: attack_tailsweep_13
     - sprite: {fileID: 21300042, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_21
+      spriteName: attack_tailsweep_21
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_21
+        m_SubObjectName: attack_tailsweep_21
   - Frames:
     - sprite: {fileID: 21300012, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_6
+      spriteName: attack_tailsweep_6
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_6
+        m_SubObjectName: attack_tailsweep_6
     - sprite: {fileID: 21300028, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_14
+      spriteName: attack_tailsweep_14
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_14
+        m_SubObjectName: attack_tailsweep_14
     - sprite: {fileID: 21300044, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_22
+      spriteName: attack_tailsweep_22
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_22
+        m_SubObjectName: attack_tailsweep_22
   - Frames:
     - sprite: {fileID: 21300014, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_7
+      spriteName: attack_tailsweep_7
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_7
+        m_SubObjectName: attack_tailsweep_7
     - sprite: {fileID: 21300030, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_15
+      spriteName: attack_tailsweep_15
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_15
+        m_SubObjectName: attack_tailsweep_15
     - sprite: {fileID: 21300046, guid: 2d3f59aca8f75a54eb226a61d510329a, type: 3}
-      spriteName: tailsweep_23
+      spriteName: attack_tailsweep_23
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tailsweep_23
+        m_SubObjectName: attack_tailsweep_23
   IsPalette: 0
   setID: 1136

@@ -4,34 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: startup_0
+    second: gravity_generator_startup_0
   - first:
       213: 21300002
-    second: startup_1
+    second: gravity_generator_startup_1
   - first:
       213: 21300004
-    second: startup_2
+    second: gravity_generator_startup_2
   - first:
       213: 21300006
-    second: startup_3
+    second: gravity_generator_startup_3
   - first:
       213: 21300008
-    second: startup_4
+    second: gravity_generator_startup_4
   - first:
       213: 21300010
-    second: startup_5
+    second: gravity_generator_startup_5
   - first:
       213: 21300012
-    second: startup_6
+    second: gravity_generator_startup_6
   - first:
       213: 21300014
-    second: startup_7
+    second: gravity_generator_startup_7
   - first:
       213: 21300016
-    second: startup_8
+    second: gravity_generator_startup_8
   - first:
       213: 21300018
-    second: startup_9
+    second: gravity_generator_startup_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: startup_0
+      name: gravity_generator_startup_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: startup_1
+      name: gravity_generator_startup_1
       rect:
         serializedVersion: 2
         x: 32
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: startup_2
+      name: gravity_generator_startup_2
       rect:
         serializedVersion: 2
         x: 64
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: startup_3
+      name: gravity_generator_startup_3
       rect:
         serializedVersion: 2
         x: 96
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: startup_4
+      name: gravity_generator_startup_4
       rect:
         serializedVersion: 2
         x: 128
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: startup_5
+      name: gravity_generator_startup_5
       rect:
         serializedVersion: 2
         x: 160
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: startup_6
+      name: gravity_generator_startup_6
       rect:
         serializedVersion: 2
         x: 192
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: startup_7
+      name: gravity_generator_startup_7
       rect:
         serializedVersion: 2
         x: 224
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: startup_8
+      name: gravity_generator_startup_8
       rect:
         serializedVersion: 2
         x: 256
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: startup_9
+      name: gravity_generator_startup_9
       rect:
         serializedVersion: 2
         x: 288

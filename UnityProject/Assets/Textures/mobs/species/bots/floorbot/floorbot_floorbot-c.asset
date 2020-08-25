@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: fbef0531e2d0c404eb39646b93b4d746, type: 3}
-      spriteName: floorbot-c_0
+      spriteName: floorbot_floorbot-c_0
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: floorbot-c_0
+        m_SubObjectName: floorbot_floorbot-c_0
     - sprite: {fileID: 21300002, guid: fbef0531e2d0c404eb39646b93b4d746, type: 3}
-      spriteName: floorbot-c_1
+      spriteName: floorbot_floorbot-c_1
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: floorbot-c_1
+        m_SubObjectName: floorbot_floorbot-c_1
   IsPalette: 0
   setID: 12060

@@ -15,119 +15,119 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_0
+      spriteName: computer_power_0
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_0
+        m_SubObjectName: computer_power_0
     - sprite: {fileID: 21300008, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_4
+      spriteName: computer_power_4
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_4
+        m_SubObjectName: computer_power_4
     - sprite: {fileID: 21300016, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_8
+      spriteName: computer_power_8
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_8
+        m_SubObjectName: computer_power_8
     - sprite: {fileID: 21300024, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_12
+      spriteName: computer_power_12
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_12
+        m_SubObjectName: computer_power_12
   - Frames:
     - sprite: {fileID: 21300002, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_1
+      spriteName: computer_power_1
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_1
+        m_SubObjectName: computer_power_1
     - sprite: {fileID: 21300010, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_5
+      spriteName: computer_power_5
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_5
+        m_SubObjectName: computer_power_5
     - sprite: {fileID: 21300018, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_9
+      spriteName: computer_power_9
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_9
+        m_SubObjectName: computer_power_9
     - sprite: {fileID: 21300026, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_13
+      spriteName: computer_power_13
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_13
+        m_SubObjectName: computer_power_13
   - Frames:
     - sprite: {fileID: 21300004, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_2
+      spriteName: computer_power_2
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_2
+        m_SubObjectName: computer_power_2
     - sprite: {fileID: 21300012, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_6
+      spriteName: computer_power_6
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_6
+        m_SubObjectName: computer_power_6
     - sprite: {fileID: 21300020, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_10
+      spriteName: computer_power_10
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_10
+        m_SubObjectName: computer_power_10
     - sprite: {fileID: 21300028, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_14
+      spriteName: computer_power_14
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_14
+        m_SubObjectName: computer_power_14
   - Frames:
     - sprite: {fileID: 21300006, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_3
+      spriteName: computer_power_3
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_3
+        m_SubObjectName: computer_power_3
     - sprite: {fileID: 21300014, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_7
+      spriteName: computer_power_7
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_7
+        m_SubObjectName: computer_power_7
     - sprite: {fileID: 21300022, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_11
+      spriteName: computer_power_11
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_11
+        m_SubObjectName: computer_power_11
     - sprite: {fileID: 21300030, guid: 2fb5eb5b617228f44b44c8e60c58eef6, type: 3}
-      spriteName: power_15
+      spriteName: computer_power_15
       secondDelay: 0.6
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: power_15
+        m_SubObjectName: computer_power_15
   IsPalette: 0
   setID: 13432

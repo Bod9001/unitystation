@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: earset_0
+    second: ears_earset_0
   - first:
       213: 21300002
-    second: earset_1
+    second: ears_earset_1
   - first:
       213: 21300004
-    second: earset_2
+    second: ears_earset_2
   - first:
       213: 21300006
-    second: earset_3
+    second: ears_earset_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: earset_0
+      name: ears_earset_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earset_1
+      name: ears_earset_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earset_2
+      name: ears_earset_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earset_3
+      name: ears_earset_3
       rect:
         serializedVersion: 2
         x: 96

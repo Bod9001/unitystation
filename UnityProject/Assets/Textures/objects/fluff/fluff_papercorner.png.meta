@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: papercorner_0
+    second: fluff_papercorner_0
   - first:
       213: 21300002
-    second: papercorner_1
+    second: fluff_papercorner_1
   - first:
       213: 21300004
-    second: papercorner_2
+    second: fluff_papercorner_2
   - first:
       213: 21300006
-    second: papercorner_3
+    second: fluff_papercorner_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: papercorner_0
+      name: fluff_papercorner_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: papercorner_1
+      name: fluff_papercorner_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: papercorner_2
+      name: fluff_papercorner_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: papercorner_3
+      name: fluff_papercorner_3
       rect:
         serializedVersion: 2
         x: 96

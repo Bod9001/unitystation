@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: dismantle_0
+    second: swarmer_dismantle_0
   - first:
       213: 21300002
-    second: dismantle_1
+    second: swarmer_dismantle_1
   - first:
       213: 21300004
-    second: dismantle_2
+    second: swarmer_dismantle_2
   - first:
       213: 21300006
-    second: dismantle_3
+    second: swarmer_dismantle_3
   - first:
       213: 21300008
-    second: dismantle_4
+    second: swarmer_dismantle_4
   - first:
       213: 21300010
-    second: dismantle_5
+    second: swarmer_dismantle_5
   - first:
       213: 21300012
-    second: dismantle_6
+    second: swarmer_dismantle_6
   - first:
       213: 21300014
-    second: dismantle_7
+    second: swarmer_dismantle_7
   - first:
       213: 21300016
-    second: dismantle_8
+    second: swarmer_dismantle_8
   - first:
       213: 21300018
-    second: dismantle_9
+    second: swarmer_dismantle_9
   - first:
       213: 21300020
-    second: dismantle_10
+    second: swarmer_dismantle_10
   - first:
       213: 21300022
-    second: dismantle_11
+    second: swarmer_dismantle_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dismantle_0
+      name: swarmer_dismantle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_1
+      name: swarmer_dismantle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_2
+      name: swarmer_dismantle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_3
+      name: swarmer_dismantle_3
       rect:
         serializedVersion: 2
         x: 96
@@ -206,7 +206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_4
+      name: swarmer_dismantle_4
       rect:
         serializedVersion: 2
         x: 128
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_5
+      name: swarmer_dismantle_5
       rect:
         serializedVersion: 2
         x: 160
@@ -248,7 +248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_6
+      name: swarmer_dismantle_6
       rect:
         serializedVersion: 2
         x: 192
@@ -269,7 +269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_7
+      name: swarmer_dismantle_7
       rect:
         serializedVersion: 2
         x: 224
@@ -290,7 +290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_8
+      name: swarmer_dismantle_8
       rect:
         serializedVersion: 2
         x: 256
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_9
+      name: swarmer_dismantle_9
       rect:
         serializedVersion: 2
         x: 288
@@ -332,7 +332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_10
+      name: swarmer_dismantle_10
       rect:
         serializedVersion: 2
         x: 320
@@ -353,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dismantle_11
+      name: swarmer_dismantle_11
       rect:
         serializedVersion: 2
         x: 352

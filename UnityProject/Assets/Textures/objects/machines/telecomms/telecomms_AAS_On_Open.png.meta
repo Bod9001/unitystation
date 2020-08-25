@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: AAS_On_Open_0
+    second: telecomms_AAS_On_Open_0
   - first:
       213: 21300002
-    second: AAS_On_Open_1
+    second: telecomms_AAS_On_Open_1
   - first:
       213: 21300004
-    second: AAS_On_Open_2
+    second: telecomms_AAS_On_Open_2
   - first:
       213: 21300006
-    second: AAS_On_Open_3
+    second: telecomms_AAS_On_Open_3
   - first:
       213: 21300008
-    second: AAS_On_Open_4
+    second: telecomms_AAS_On_Open_4
   - first:
       213: 21300010
-    second: AAS_On_Open_5
+    second: telecomms_AAS_On_Open_5
   - first:
       213: 21300012
-    second: AAS_On_Open_6
+    second: telecomms_AAS_On_Open_6
   - first:
       213: 21300014
-    second: AAS_On_Open_7
+    second: telecomms_AAS_On_Open_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AAS_On_Open_0
+      name: telecomms_AAS_On_Open_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AAS_On_Open_1
+      name: telecomms_AAS_On_Open_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AAS_On_Open_2
+      name: telecomms_AAS_On_Open_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AAS_On_Open_3
+      name: telecomms_AAS_On_Open_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AAS_On_Open_4
+      name: telecomms_AAS_On_Open_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AAS_On_Open_5
+      name: telecomms_AAS_On_Open_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AAS_On_Open_6
+      name: telecomms_AAS_On_Open_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AAS_On_Open_7
+      name: telecomms_AAS_On_Open_7
       rect:
         serializedVersion: 2
         x: 224

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e8e1f2a1a8b56e7438174927a57d3c08, type: 3}
-      spriteName: teg_0
+      spriteName: power_teg_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teg_0
+        m_SubObjectName: power_teg_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e8e1f2a1a8b56e7438174927a57d3c08, type: 3}
-      spriteName: teg_1
+      spriteName: power_teg_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teg_1
+        m_SubObjectName: power_teg_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e8e1f2a1a8b56e7438174927a57d3c08, type: 3}
-      spriteName: teg_2
+      spriteName: power_teg_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teg_2
+        m_SubObjectName: power_teg_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e8e1f2a1a8b56e7438174927a57d3c08, type: 3}
-      spriteName: teg_3
+      spriteName: power_teg_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teg_3
+        m_SubObjectName: power_teg_3
   IsPalette: 0
   setID: 16568

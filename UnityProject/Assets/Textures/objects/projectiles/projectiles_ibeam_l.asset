@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8d36ffe71daa1c64095031cbcba01494, type: 3}
-      spriteName: ibeam_l_0
+      spriteName: projectiles_ibeam_l_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: ibeam_l_0
+        m_SubObjectName: projectiles_ibeam_l_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8d36ffe71daa1c64095031cbcba01494, type: 3}
-      spriteName: ibeam_l_1
+      spriteName: projectiles_ibeam_l_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: ibeam_l_1
+        m_SubObjectName: projectiles_ibeam_l_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8d36ffe71daa1c64095031cbcba01494, type: 3}
-      spriteName: ibeam_l_2
+      spriteName: projectiles_ibeam_l_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: ibeam_l_2
+        m_SubObjectName: projectiles_ibeam_l_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8d36ffe71daa1c64095031cbcba01494, type: 3}
-      spriteName: ibeam_l_3
+      spriteName: projectiles_ibeam_l_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: ibeam_l_3
+        m_SubObjectName: projectiles_ibeam_l_3
   IsPalette: 0
   setID: 16612

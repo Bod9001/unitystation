@@ -15,39 +15,39 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 3df20c1d58b4498489f46eb8fe081319, type: 3}
-      spriteName: magicmd_0
+      spriteName: wizard_magicmd_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: magicmd_0
+        m_SubObjectName: wizard_magicmd_0
     - sprite: {fileID: 21300002, guid: 3df20c1d58b4498489f46eb8fe081319, type: 3}
-      spriteName: magicmd_1
+      spriteName: wizard_magicmd_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: magicmd_1
+        m_SubObjectName: wizard_magicmd_1
     - sprite: {fileID: 21300004, guid: 3df20c1d58b4498489f46eb8fe081319, type: 3}
-      spriteName: magicmd_2
+      spriteName: wizard_magicmd_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: magicmd_2
+        m_SubObjectName: wizard_magicmd_2
     - sprite: {fileID: 21300006, guid: 3df20c1d58b4498489f46eb8fe081319, type: 3}
-      spriteName: magicmd_3
+      spriteName: wizard_magicmd_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: magicmd_3
+        m_SubObjectName: wizard_magicmd_3
     - sprite: {fileID: 21300008, guid: 3df20c1d58b4498489f46eb8fe081319, type: 3}
-      spriteName: magicmd_4
+      spriteName: wizard_magicmd_4
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: magicmd_4
+        m_SubObjectName: wizard_magicmd_4
   IsPalette: 0
   setID: 9566

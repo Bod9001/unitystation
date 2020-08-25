@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: lamp_0
+    second: items_lefthand_lamp_0
   - first:
       213: 21300002
-    second: lamp_1
+    second: items_lefthand_lamp_1
   - first:
       213: 21300004
-    second: lamp_2
+    second: items_lefthand_lamp_2
   - first:
       213: 21300006
-    second: lamp_3
+    second: items_lefthand_lamp_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lamp_0
+      name: items_lefthand_lamp_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lamp_1
+      name: items_lefthand_lamp_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lamp_2
+      name: items_lefthand_lamp_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lamp_3
+      name: items_lefthand_lamp_3
       rect:
         serializedVersion: 2
         x: 96

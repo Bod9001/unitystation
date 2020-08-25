@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: hydrobe_0
+    second: vending_hydrobe_0
   - first:
       213: 21300002
-    second: hydrobe_1
+    second: vending_hydrobe_1
   - first:
       213: 21300004
-    second: hydrobe_2
+    second: vending_hydrobe_2
   - first:
       213: 21300006
-    second: hydrobe_3
+    second: vending_hydrobe_3
   - first:
       213: 21300008
-    second: hydrobe_4
+    second: vending_hydrobe_4
   - first:
       213: 21300010
-    second: hydrobe_5
+    second: vending_hydrobe_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hydrobe_0
+      name: vending_hydrobe_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hydrobe_1
+      name: vending_hydrobe_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hydrobe_2
+      name: vending_hydrobe_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hydrobe_3
+      name: vending_hydrobe_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hydrobe_4
+      name: vending_hydrobe_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hydrobe_5
+      name: vending_hydrobe_5
       rect:
         serializedVersion: 2
         x: 160

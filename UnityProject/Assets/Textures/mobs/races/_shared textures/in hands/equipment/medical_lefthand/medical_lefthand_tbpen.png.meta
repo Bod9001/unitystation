@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2020561718693462440
-    second: tbpen_0
+    second: medical_lefthand_tbpen_0
   - first:
       213: 1434946330290675611
-    second: tbpen_1
+    second: medical_lefthand_tbpen_1
   - first:
       213: -6331713407278757686
-    second: tbpen_2
+    second: medical_lefthand_tbpen_2
   - first:
       213: -4683753692398503580
-    second: tbpen_3
+    second: medical_lefthand_tbpen_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tbpen_0
+      name: medical_lefthand_tbpen_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tbpen_1
+      name: medical_lefthand_tbpen_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tbpen_2
+      name: medical_lefthand_tbpen_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tbpen_3
+      name: medical_lefthand_tbpen_3
       rect:
         serializedVersion: 2
         x: 96

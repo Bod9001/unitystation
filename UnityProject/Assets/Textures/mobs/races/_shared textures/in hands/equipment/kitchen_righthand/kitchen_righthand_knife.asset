@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8d85913d7b4979e439305ac773da5f26, type: 3}
-      spriteName: knife_0
+      spriteName: kitchen_righthand_knife_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: knife_0
+        m_SubObjectName: kitchen_righthand_knife_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8d85913d7b4979e439305ac773da5f26, type: 3}
-      spriteName: knife_1
+      spriteName: kitchen_righthand_knife_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: knife_1
+        m_SubObjectName: kitchen_righthand_knife_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8d85913d7b4979e439305ac773da5f26, type: 3}
-      spriteName: knife_2
+      spriteName: kitchen_righthand_knife_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: knife_2
+        m_SubObjectName: kitchen_righthand_knife_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8d85913d7b4979e439305ac773da5f26, type: 3}
-      spriteName: knife_3
+      spriteName: kitchen_righthand_knife_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: knife_3
+        m_SubObjectName: kitchen_righthand_knife_3
   IsPalette: 0
   setID: 10109

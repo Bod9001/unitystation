@@ -4,34 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: biohazard_0
+    second: status_display_biohazard_0
   - first:
       213: 21300002
-    second: biohazard_1
+    second: status_display_biohazard_1
   - first:
       213: 21300004
-    second: biohazard_2
+    second: status_display_biohazard_2
   - first:
       213: 21300006
-    second: biohazard_3
+    second: status_display_biohazard_3
   - first:
       213: 21300008
-    second: biohazard_4
+    second: status_display_biohazard_4
   - first:
       213: 21300010
-    second: biohazard_5
+    second: status_display_biohazard_5
   - first:
       213: 21300012
-    second: biohazard_6
+    second: status_display_biohazard_6
   - first:
       213: 21300014
-    second: biohazard_7
+    second: status_display_biohazard_7
   - first:
       213: 21300016
-    second: biohazard_8
+    second: status_display_biohazard_8
   - first:
       213: 21300018
-    second: biohazard_9
+    second: status_display_biohazard_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: biohazard_0
+      name: status_display_biohazard_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biohazard_1
+      name: status_display_biohazard_1
       rect:
         serializedVersion: 2
         x: 32
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biohazard_2
+      name: status_display_biohazard_2
       rect:
         serializedVersion: 2
         x: 64
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biohazard_3
+      name: status_display_biohazard_3
       rect:
         serializedVersion: 2
         x: 96
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biohazard_4
+      name: status_display_biohazard_4
       rect:
         serializedVersion: 2
         x: 128
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biohazard_5
+      name: status_display_biohazard_5
       rect:
         serializedVersion: 2
         x: 160
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biohazard_6
+      name: status_display_biohazard_6
       rect:
         serializedVersion: 2
         x: 192
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biohazard_7
+      name: status_display_biohazard_7
       rect:
         serializedVersion: 2
         x: 224
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biohazard_8
+      name: status_display_biohazard_8
       rect:
         serializedVersion: 2
         x: 256
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: biohazard_9
+      name: status_display_biohazard_9
       rect:
         serializedVersion: 2
         x: 288

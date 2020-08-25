@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: electropack1_0
+    second: back_electropack1_0
   - first:
       213: 21300002
-    second: electropack1_1
+    second: back_electropack1_1
   - first:
       213: 21300004
-    second: electropack1_2
+    second: back_electropack1_2
   - first:
       213: 21300006
-    second: electropack1_3
+    second: back_electropack1_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: electropack1_0
+      name: back_electropack1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: electropack1_1
+      name: back_electropack1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: electropack1_2
+      name: back_electropack1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: electropack1_3
+      name: back_electropack1_3
       rect:
         serializedVersion: 2
         x: 96

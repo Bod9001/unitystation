@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2851219744113410843
-    second: combat_hypo_0
+    second: medical_righthand_combat_hypo_0
   - first:
       213: -5918914755986530448
-    second: combat_hypo_1
+    second: medical_righthand_combat_hypo_1
   - first:
       213: 2784149934053129972
-    second: combat_hypo_2
+    second: medical_righthand_combat_hypo_2
   - first:
       213: -6788877117404622145
-    second: combat_hypo_3
+    second: medical_righthand_combat_hypo_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: combat_hypo_0
+      name: medical_righthand_combat_hypo_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: combat_hypo_1
+      name: medical_righthand_combat_hypo_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: combat_hypo_2
+      name: medical_righthand_combat_hypo_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: combat_hypo_3
+      name: medical_righthand_combat_hypo_3
       rect:
         serializedVersion: 2
         x: 96

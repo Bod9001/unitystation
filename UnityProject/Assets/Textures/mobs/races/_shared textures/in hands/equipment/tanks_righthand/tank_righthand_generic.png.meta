@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -653418139558628109
-    second: generic_0
+    second: tanks_righthand_generic_0
   - first:
       213: -3873854512879061305
-    second: generic_1
+    second: tanks_righthand_generic_1
   - first:
       213: 7284626770053417711
-    second: generic_2
+    second: tanks_righthand_generic_2
   - first:
       213: -9217425475404010826
-    second: generic_3
+    second: tanks_righthand_generic_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: generic_0
+      name: tanks_righthand_generic_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: generic_1
+      name: tanks_righthand_generic_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: generic_2
+      name: tanks_righthand_generic_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: generic_3
+      name: tanks_righthand_generic_3
       rect:
         serializedVersion: 2
         x: 96

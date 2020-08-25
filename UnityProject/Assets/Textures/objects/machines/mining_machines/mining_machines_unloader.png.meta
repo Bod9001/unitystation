@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: unloader_0
+    second: mining_machines_unloader_0
   - first:
       213: 21300002
-    second: unloader_1
+    second: mining_machines_unloader_1
   - first:
       213: 21300004
-    second: unloader_2
+    second: mining_machines_unloader_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: unloader_0
+      name: mining_machines_unloader_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unloader_1
+      name: mining_machines_unloader_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unloader_2
+      name: mining_machines_unloader_2
       rect:
         serializedVersion: 2
         x: 64

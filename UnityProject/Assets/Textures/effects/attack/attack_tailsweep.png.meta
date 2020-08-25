@@ -4,76 +4,76 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: tailsweep_0
+    second: attack_tailsweep_0
   - first:
       213: 21300002
-    second: tailsweep_1
+    second: attack_tailsweep_1
   - first:
       213: 21300004
-    second: tailsweep_2
+    second: attack_tailsweep_2
   - first:
       213: 21300006
-    second: tailsweep_3
+    second: attack_tailsweep_3
   - first:
       213: 21300008
-    second: tailsweep_4
+    second: attack_tailsweep_4
   - first:
       213: 21300010
-    second: tailsweep_5
+    second: attack_tailsweep_5
   - first:
       213: 21300012
-    second: tailsweep_6
+    second: attack_tailsweep_6
   - first:
       213: 21300014
-    second: tailsweep_7
+    second: attack_tailsweep_7
   - first:
       213: 21300016
-    second: tailsweep_8
+    second: attack_tailsweep_8
   - first:
       213: 21300018
-    second: tailsweep_9
+    second: attack_tailsweep_9
   - first:
       213: 21300020
-    second: tailsweep_10
+    second: attack_tailsweep_10
   - first:
       213: 21300022
-    second: tailsweep_11
+    second: attack_tailsweep_11
   - first:
       213: 21300024
-    second: tailsweep_12
+    second: attack_tailsweep_12
   - first:
       213: 21300026
-    second: tailsweep_13
+    second: attack_tailsweep_13
   - first:
       213: 21300028
-    second: tailsweep_14
+    second: attack_tailsweep_14
   - first:
       213: 21300030
-    second: tailsweep_15
+    second: attack_tailsweep_15
   - first:
       213: 21300032
-    second: tailsweep_16
+    second: attack_tailsweep_16
   - first:
       213: 21300034
-    second: tailsweep_17
+    second: attack_tailsweep_17
   - first:
       213: 21300036
-    second: tailsweep_18
+    second: attack_tailsweep_18
   - first:
       213: 21300038
-    second: tailsweep_19
+    second: attack_tailsweep_19
   - first:
       213: 21300040
-    second: tailsweep_20
+    second: attack_tailsweep_20
   - first:
       213: 21300042
-    second: tailsweep_21
+    second: attack_tailsweep_21
   - first:
       213: 21300044
-    second: tailsweep_22
+    second: attack_tailsweep_22
   - first:
       213: 21300046
-    second: tailsweep_23
+    second: attack_tailsweep_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -158,7 +158,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tailsweep_0
+      name: attack_tailsweep_0
       rect:
         serializedVersion: 2
         x: 0
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_1
+      name: attack_tailsweep_1
       rect:
         serializedVersion: 2
         x: 32
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_2
+      name: attack_tailsweep_2
       rect:
         serializedVersion: 2
         x: 64
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_3
+      name: attack_tailsweep_3
       rect:
         serializedVersion: 2
         x: 96
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_4
+      name: attack_tailsweep_4
       rect:
         serializedVersion: 2
         x: 128
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_5
+      name: attack_tailsweep_5
       rect:
         serializedVersion: 2
         x: 160
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_6
+      name: attack_tailsweep_6
       rect:
         serializedVersion: 2
         x: 192
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_7
+      name: attack_tailsweep_7
       rect:
         serializedVersion: 2
         x: 224
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_8
+      name: attack_tailsweep_8
       rect:
         serializedVersion: 2
         x: 256
@@ -347,7 +347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_9
+      name: attack_tailsweep_9
       rect:
         serializedVersion: 2
         x: 288
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_10
+      name: attack_tailsweep_10
       rect:
         serializedVersion: 2
         x: 320
@@ -389,7 +389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_11
+      name: attack_tailsweep_11
       rect:
         serializedVersion: 2
         x: 352
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_12
+      name: attack_tailsweep_12
       rect:
         serializedVersion: 2
         x: 384
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_13
+      name: attack_tailsweep_13
       rect:
         serializedVersion: 2
         x: 416
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_14
+      name: attack_tailsweep_14
       rect:
         serializedVersion: 2
         x: 448
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_15
+      name: attack_tailsweep_15
       rect:
         serializedVersion: 2
         x: 480
@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_16
+      name: attack_tailsweep_16
       rect:
         serializedVersion: 2
         x: 512
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_17
+      name: attack_tailsweep_17
       rect:
         serializedVersion: 2
         x: 544
@@ -536,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_18
+      name: attack_tailsweep_18
       rect:
         serializedVersion: 2
         x: 576
@@ -557,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_19
+      name: attack_tailsweep_19
       rect:
         serializedVersion: 2
         x: 608
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_20
+      name: attack_tailsweep_20
       rect:
         serializedVersion: 2
         x: 640
@@ -599,7 +599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_21
+      name: attack_tailsweep_21
       rect:
         serializedVersion: 2
         x: 672
@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_22
+      name: attack_tailsweep_22
       rect:
         serializedVersion: 2
         x: 704
@@ -641,7 +641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tailsweep_23
+      name: attack_tailsweep_23
       rect:
         serializedVersion: 2
         x: 736

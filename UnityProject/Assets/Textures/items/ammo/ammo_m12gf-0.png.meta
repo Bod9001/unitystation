@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: m12gf-0_0
+    second: ammo_m12gf-0_0
   - first:
       213: 21300002
-    second: m12gf-0_1
+    second: ammo_m12gf-0_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: m12gf-0_0
+      name: ammo_m12gf-0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: m12gf-0_1
+      name: ammo_m12gf-0_1
       rect:
         serializedVersion: 2
         x: 32

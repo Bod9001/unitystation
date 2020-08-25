@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 604f05dccd30d1b4fba0c129881c45b6, type: 3}
-      spriteName: reproductive_0
+      spriteName: slimecrossing_reproductive_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: reproductive_0
+        m_SubObjectName: slimecrossing_reproductive_0
     - sprite: {fileID: 21300002, guid: 604f05dccd30d1b4fba0c129881c45b6, type: 3}
-      spriteName: reproductive_1
+      spriteName: slimecrossing_reproductive_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: reproductive_1
+        m_SubObjectName: slimecrossing_reproductive_1
     - sprite: {fileID: 21300004, guid: 604f05dccd30d1b4fba0c129881c45b6, type: 3}
-      spriteName: reproductive_2
+      spriteName: slimecrossing_reproductive_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: reproductive_2
+        m_SubObjectName: slimecrossing_reproductive_2
   IsPalette: 0
   setID: 16791

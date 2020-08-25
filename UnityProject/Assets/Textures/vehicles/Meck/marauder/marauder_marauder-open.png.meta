@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: marauder-open_0
+    second: marauder_marauder-open_0
   - first:
       213: 21300002
-    second: marauder-open_1
+    second: marauder_marauder-open_1
   - first:
       213: 21300004
-    second: marauder-open_2
+    second: marauder_marauder-open_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: marauder-open_0
+      name: marauder_marauder-open_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: marauder-open_1
+      name: marauder_marauder-open_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: marauder-open_2
+      name: marauder_marauder-open_2
       rect:
         serializedVersion: 2
         x: 64

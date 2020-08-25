@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6604339808490387203
-    second: tablet_0
+    second: belt_tablet_0
   - first:
       213: -6596608778679774636
-    second: tablet_1
+    second: belt_tablet_1
   - first:
       213: 6224072184683681966
-    second: tablet_2
+    second: belt_tablet_2
   - first:
       213: 9215470020163120319
-    second: tablet_3
+    second: belt_tablet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tablet_0
+      name: belt_tablet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tablet_1
+      name: belt_tablet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tablet_2
+      name: belt_tablet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tablet_3
+      name: belt_tablet_3
       rect:
         serializedVersion: 2
         x: 96

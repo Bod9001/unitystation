@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: d2e423eaf63374f49995400ef6b10733, type: 3}
-      spriteName: comm_logs_0
+      spriteName: modular_tablet_comm_logs_0
       secondDelay: 1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: comm_logs_0
+        m_SubObjectName: modular_tablet_comm_logs_0
     - sprite: {fileID: 21300002, guid: d2e423eaf63374f49995400ef6b10733, type: 3}
-      spriteName: comm_logs_1
+      spriteName: modular_tablet_comm_logs_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: comm_logs_1
+        m_SubObjectName: modular_tablet_comm_logs_1
     - sprite: {fileID: 21300004, guid: d2e423eaf63374f49995400ef6b10733, type: 3}
-      spriteName: comm_logs_2
+      spriteName: modular_tablet_comm_logs_2
       secondDelay: 1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: comm_logs_2
+        m_SubObjectName: modular_tablet_comm_logs_2
     - sprite: {fileID: 21300006, guid: d2e423eaf63374f49995400ef6b10733, type: 3}
-      spriteName: comm_logs_3
+      spriteName: modular_tablet_comm_logs_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: comm_logs_3
+        m_SubObjectName: modular_tablet_comm_logs_3
   IsPalette: 0
   setID: 8333

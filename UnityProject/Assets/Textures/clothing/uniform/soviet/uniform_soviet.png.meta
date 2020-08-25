@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: soviet_0
+    second: soviet_soviet_0
   - first:
       213: 21300002
-    second: soviet_1
+    second: soviet_soviet_1
   - first:
       213: 21300004
-    second: soviet_2
+    second: soviet_soviet_2
   - first:
       213: 21300006
-    second: soviet_3
+    second: soviet_soviet_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: soviet_0
+      name: soviet_soviet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soviet_1
+      name: soviet_soviet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soviet_2
+      name: soviet_soviet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: soviet_3
+      name: soviet_soviet_3
       rect:
         serializedVersion: 2
         x: 96

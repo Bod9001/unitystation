@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: thecavern_0
+    second: barsigns_thecavern_0
   - first:
       213: 21300002
-    second: thecavern_1
+    second: barsigns_thecavern_1
   - first:
       213: 21300004
-    second: thecavern_2
+    second: barsigns_thecavern_2
   - first:
       213: 21300006
-    second: thecavern_3
+    second: barsigns_thecavern_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: thecavern_0
+      name: barsigns_thecavern_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: thecavern_1
+      name: barsigns_thecavern_1
       rect:
         serializedVersion: 2
         x: 64
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: thecavern_2
+      name: barsigns_thecavern_2
       rect:
         serializedVersion: 2
         x: 128
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: thecavern_3
+      name: barsigns_thecavern_3
       rect:
         serializedVersion: 2
         x: 192

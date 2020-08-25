@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0c38bda9e1803214ab38948ccfd6c2f7, type: 3}
-      spriteName: burger_0
+      spriteName: food_lefthand_burger_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: burger_0
+        m_SubObjectName: food_lefthand_burger_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0c38bda9e1803214ab38948ccfd6c2f7, type: 3}
-      spriteName: burger_1
+      spriteName: food_lefthand_burger_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: burger_1
+        m_SubObjectName: food_lefthand_burger_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0c38bda9e1803214ab38948ccfd6c2f7, type: 3}
-      spriteName: burger_2
+      spriteName: food_lefthand_burger_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: burger_2
+        m_SubObjectName: food_lefthand_burger_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0c38bda9e1803214ab38948ccfd6c2f7, type: 3}
-      spriteName: burger_3
+      spriteName: food_lefthand_burger_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: burger_3
+        m_SubObjectName: food_lefthand_burger_3
   IsPalette: 0
   setID: 22343

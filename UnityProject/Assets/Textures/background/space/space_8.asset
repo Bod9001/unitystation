@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: a31fc57a5654e264292827928c947697, type: 3}
-      spriteName: 8_0
+      spriteName: space_8_0
       secondDelay: 1.9
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 8_0
+        m_SubObjectName: space_8_0
     - sprite: {fileID: 21300002, guid: a31fc57a5654e264292827928c947697, type: 3}
-      spriteName: 8_1
+      spriteName: space_8_1
       secondDelay: 1.9
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 8_1
+        m_SubObjectName: space_8_1
     - sprite: {fileID: 21300004, guid: a31fc57a5654e264292827928c947697, type: 3}
-      spriteName: 8_2
+      spriteName: space_8_2
       secondDelay: 1.9
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 8_2
+        m_SubObjectName: space_8_2
     - sprite: {fileID: 21300006, guid: a31fc57a5654e264292827928c947697, type: 3}
-      spriteName: 8_3
+      spriteName: space_8_3
       secondDelay: 1.9
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 8_3
+        m_SubObjectName: space_8_3
   IsPalette: 0
   setID: 29

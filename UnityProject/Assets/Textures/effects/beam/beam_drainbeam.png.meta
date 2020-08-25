@@ -4,100 +4,100 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: drainbeam_0
+    second: beam_drainbeam_0
   - first:
       213: 21300002
-    second: drainbeam_1
+    second: beam_drainbeam_1
   - first:
       213: 21300004
-    second: drainbeam_2
+    second: beam_drainbeam_2
   - first:
       213: 21300006
-    second: drainbeam_3
+    second: beam_drainbeam_3
   - first:
       213: 21300008
-    second: drainbeam_4
+    second: beam_drainbeam_4
   - first:
       213: 21300010
-    second: drainbeam_5
+    second: beam_drainbeam_5
   - first:
       213: 21300012
-    second: drainbeam_6
+    second: beam_drainbeam_6
   - first:
       213: 21300014
-    second: drainbeam_7
+    second: beam_drainbeam_7
   - first:
       213: 21300016
-    second: drainbeam_8
+    second: beam_drainbeam_8
   - first:
       213: 21300018
-    second: drainbeam_9
+    second: beam_drainbeam_9
   - first:
       213: 21300020
-    second: drainbeam_10
+    second: beam_drainbeam_10
   - first:
       213: 21300022
-    second: drainbeam_11
+    second: beam_drainbeam_11
   - first:
       213: 21300024
-    second: drainbeam_12
+    second: beam_drainbeam_12
   - first:
       213: 21300026
-    second: drainbeam_13
+    second: beam_drainbeam_13
   - first:
       213: 21300028
-    second: drainbeam_14
+    second: beam_drainbeam_14
   - first:
       213: 21300030
-    second: drainbeam_15
+    second: beam_drainbeam_15
   - first:
       213: 21300032
-    second: drainbeam_16
+    second: beam_drainbeam_16
   - first:
       213: 21300034
-    second: drainbeam_17
+    second: beam_drainbeam_17
   - first:
       213: 21300036
-    second: drainbeam_18
+    second: beam_drainbeam_18
   - first:
       213: 21300038
-    second: drainbeam_19
+    second: beam_drainbeam_19
   - first:
       213: 21300040
-    second: drainbeam_20
+    second: beam_drainbeam_20
   - first:
       213: 21300042
-    second: drainbeam_21
+    second: beam_drainbeam_21
   - first:
       213: 21300044
-    second: drainbeam_22
+    second: beam_drainbeam_22
   - first:
       213: 21300046
-    second: drainbeam_23
+    second: beam_drainbeam_23
   - first:
       213: 21300048
-    second: drainbeam_24
+    second: beam_drainbeam_24
   - first:
       213: 21300050
-    second: drainbeam_25
+    second: beam_drainbeam_25
   - first:
       213: 21300052
-    second: drainbeam_26
+    second: beam_drainbeam_26
   - first:
       213: 21300054
-    second: drainbeam_27
+    second: beam_drainbeam_27
   - first:
       213: 21300056
-    second: drainbeam_28
+    second: beam_drainbeam_28
   - first:
       213: 21300058
-    second: drainbeam_29
+    second: beam_drainbeam_29
   - first:
       213: 21300060
-    second: drainbeam_30
+    second: beam_drainbeam_30
   - first:
       213: 21300062
-    second: drainbeam_31
+    second: beam_drainbeam_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: drainbeam_0
+      name: beam_drainbeam_0
       rect:
         serializedVersion: 2
         x: 0
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_1
+      name: beam_drainbeam_1
       rect:
         serializedVersion: 2
         x: 32
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_2
+      name: beam_drainbeam_2
       rect:
         serializedVersion: 2
         x: 64
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_3
+      name: beam_drainbeam_3
       rect:
         serializedVersion: 2
         x: 96
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_4
+      name: beam_drainbeam_4
       rect:
         serializedVersion: 2
         x: 128
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_5
+      name: beam_drainbeam_5
       rect:
         serializedVersion: 2
         x: 160
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_6
+      name: beam_drainbeam_6
       rect:
         serializedVersion: 2
         x: 192
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_7
+      name: beam_drainbeam_7
       rect:
         serializedVersion: 2
         x: 224
@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_8
+      name: beam_drainbeam_8
       rect:
         serializedVersion: 2
         x: 256
@@ -371,7 +371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_9
+      name: beam_drainbeam_9
       rect:
         serializedVersion: 2
         x: 288
@@ -392,7 +392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_10
+      name: beam_drainbeam_10
       rect:
         serializedVersion: 2
         x: 320
@@ -413,7 +413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_11
+      name: beam_drainbeam_11
       rect:
         serializedVersion: 2
         x: 352
@@ -434,7 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_12
+      name: beam_drainbeam_12
       rect:
         serializedVersion: 2
         x: 384
@@ -455,7 +455,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_13
+      name: beam_drainbeam_13
       rect:
         serializedVersion: 2
         x: 416
@@ -476,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_14
+      name: beam_drainbeam_14
       rect:
         serializedVersion: 2
         x: 448
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_15
+      name: beam_drainbeam_15
       rect:
         serializedVersion: 2
         x: 480
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_16
+      name: beam_drainbeam_16
       rect:
         serializedVersion: 2
         x: 512
@@ -539,7 +539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_17
+      name: beam_drainbeam_17
       rect:
         serializedVersion: 2
         x: 544
@@ -560,7 +560,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_18
+      name: beam_drainbeam_18
       rect:
         serializedVersion: 2
         x: 576
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_19
+      name: beam_drainbeam_19
       rect:
         serializedVersion: 2
         x: 608
@@ -602,7 +602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_20
+      name: beam_drainbeam_20
       rect:
         serializedVersion: 2
         x: 640
@@ -623,7 +623,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_21
+      name: beam_drainbeam_21
       rect:
         serializedVersion: 2
         x: 672
@@ -644,7 +644,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_22
+      name: beam_drainbeam_22
       rect:
         serializedVersion: 2
         x: 704
@@ -665,7 +665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_23
+      name: beam_drainbeam_23
       rect:
         serializedVersion: 2
         x: 736
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_24
+      name: beam_drainbeam_24
       rect:
         serializedVersion: 2
         x: 768
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_25
+      name: beam_drainbeam_25
       rect:
         serializedVersion: 2
         x: 800
@@ -728,7 +728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_26
+      name: beam_drainbeam_26
       rect:
         serializedVersion: 2
         x: 832
@@ -749,7 +749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_27
+      name: beam_drainbeam_27
       rect:
         serializedVersion: 2
         x: 864
@@ -770,7 +770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_28
+      name: beam_drainbeam_28
       rect:
         serializedVersion: 2
         x: 896
@@ -791,7 +791,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_29
+      name: beam_drainbeam_29
       rect:
         serializedVersion: 2
         x: 928
@@ -812,7 +812,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_30
+      name: beam_drainbeam_30
       rect:
         serializedVersion: 2
         x: 960
@@ -833,7 +833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drainbeam_31
+      name: beam_drainbeam_31
       rect:
         serializedVersion: 2
         x: 992

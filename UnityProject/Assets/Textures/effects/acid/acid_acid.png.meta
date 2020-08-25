@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: acid_0
+    second: acid_acid_0
   - first:
       213: 21300002
-    second: acid_1
+    second: acid_acid_1
   - first:
       213: 21300004
-    second: acid_2
+    second: acid_acid_2
   - first:
       213: 21300006
-    second: acid_3
+    second: acid_acid_3
   - first:
       213: 21300008
-    second: acid_4
+    second: acid_acid_4
   - first:
       213: 21300010
-    second: acid_5
+    second: acid_acid_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: acid_0
+      name: acid_acid_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acid_1
+      name: acid_acid_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acid_2
+      name: acid_acid_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acid_3
+      name: acid_acid_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acid_4
+      name: acid_acid_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acid_5
+      name: acid_acid_5
       rect:
         serializedVersion: 2
         x: 160

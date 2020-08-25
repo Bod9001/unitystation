@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: leaper_alert_0
+    second: leaper_leaper_alert_0
   - first:
       213: 21300002
-    second: leaper_alert_1
+    second: leaper_leaper_alert_1
   - first:
       213: 21300004
-    second: leaper_alert_2
+    second: leaper_leaper_alert_2
   - first:
       213: 21300006
-    second: leaper_alert_3
+    second: leaper_leaper_alert_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: leaper_alert_0
+      name: leaper_leaper_alert_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leaper_alert_1
+      name: leaper_leaper_alert_1
       rect:
         serializedVersion: 2
         x: 64
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leaper_alert_2
+      name: leaper_leaper_alert_2
       rect:
         serializedVersion: 2
         x: 128
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leaper_alert_3
+      name: leaper_leaper_alert_3
       rect:
         serializedVersion: 2
         x: 192

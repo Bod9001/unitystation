@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bee_wings_0
+    second: BEES_bee_wings_0
   - first:
       213: 21300002
-    second: bee_wings_1
+    second: BEES_bee_wings_1
   - first:
       213: 21300004
-    second: bee_wings_2
+    second: BEES_bee_wings_2
   - first:
       213: 21300006
-    second: bee_wings_3
+    second: BEES_bee_wings_3
   - first:
       213: 21300008
-    second: bee_wings_4
+    second: BEES_bee_wings_4
   - first:
       213: 21300010
-    second: bee_wings_5
+    second: BEES_bee_wings_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bee_wings_0
+      name: BEES_bee_wings_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_wings_1
+      name: BEES_bee_wings_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_wings_2
+      name: BEES_bee_wings_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_wings_3
+      name: BEES_bee_wings_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_wings_4
+      name: BEES_bee_wings_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_wings_5
+      name: BEES_bee_wings_5
       rect:
         serializedVersion: 2
         x: 160

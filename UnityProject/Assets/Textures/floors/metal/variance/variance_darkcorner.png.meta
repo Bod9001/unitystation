@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: darkcorner_0
+    second: variance_darkcorner_0
   - first:
       213: 21300002
-    second: darkcorner_1
+    second: variance_darkcorner_1
   - first:
       213: 21300004
-    second: darkcorner_2
+    second: variance_darkcorner_2
   - first:
       213: 21300006
-    second: darkcorner_3
+    second: variance_darkcorner_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: darkcorner_0
+      name: variance_darkcorner_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: darkcorner_1
+      name: variance_darkcorner_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: darkcorner_2
+      name: variance_darkcorner_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: darkcorner_3
+      name: variance_darkcorner_3
       rect:
         serializedVersion: 2
         x: 96

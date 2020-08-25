@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 084f40b94f7b91f4897c3dbd515a784e, type: 3}
-      spriteName: bluetag_empty_0
+      spriteName: energy_bluetag_empty_0
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: bluetag_empty_0
+        m_SubObjectName: energy_bluetag_empty_0
     - sprite: {fileID: 21300002, guid: 084f40b94f7b91f4897c3dbd515a784e, type: 3}
-      spriteName: bluetag_empty_1
+      spriteName: energy_bluetag_empty_1
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: bluetag_empty_1
+        m_SubObjectName: energy_bluetag_empty_1
   IsPalette: 0
   setID: 7287

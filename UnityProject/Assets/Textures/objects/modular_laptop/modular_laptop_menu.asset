@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 145bd383e1a218f44bd1e511d0fdc0dc, type: 3}
-      spriteName: menu_0
+      spriteName: modular_laptop_menu_0
       secondDelay: 0.4
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: menu_0
+        m_SubObjectName: modular_laptop_menu_0
     - sprite: {fileID: 21300002, guid: 145bd383e1a218f44bd1e511d0fdc0dc, type: 3}
-      spriteName: menu_1
+      spriteName: modular_laptop_menu_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: menu_1
+        m_SubObjectName: modular_laptop_menu_1
     - sprite: {fileID: 21300004, guid: 145bd383e1a218f44bd1e511d0fdc0dc, type: 3}
-      spriteName: menu_2
+      spriteName: modular_laptop_menu_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: menu_2
+        m_SubObjectName: modular_laptop_menu_2
   IsPalette: 0
   setID: 16272

@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 44553bfe89ad054469ad95db98927170, type: 3}
-      spriteName: door_deny_0
+      spriteName: doorint_door_deny_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: door_deny_0
+        m_SubObjectName: doorint_door_deny_0
     - sprite: {fileID: 21300002, guid: 44553bfe89ad054469ad95db98927170, type: 3}
-      spriteName: door_deny_1
+      spriteName: doorint_door_deny_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: door_deny_1
+        m_SubObjectName: doorint_door_deny_1
     - sprite: {fileID: 21300004, guid: 44553bfe89ad054469ad95db98927170, type: 3}
-      spriteName: door_deny_2
+      spriteName: doorint_door_deny_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: door_deny_2
+        m_SubObjectName: doorint_door_deny_2
   IsPalette: 0
   setID: 14593

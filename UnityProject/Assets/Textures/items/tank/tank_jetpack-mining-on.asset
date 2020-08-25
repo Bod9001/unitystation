@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ad456dd448aacc246a7053fe90a82e20, type: 3}
-      spriteName: jetpack-mining-on_0
+      spriteName: tank_jetpack-mining-on_0
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: jetpack-mining-on_0
+        m_SubObjectName: tank_jetpack-mining-on_0
     - sprite: {fileID: 21300002, guid: ad456dd448aacc246a7053fe90a82e20, type: 3}
-      spriteName: jetpack-mining-on_1
+      spriteName: tank_jetpack-mining-on_1
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: jetpack-mining-on_1
+        m_SubObjectName: tank_jetpack-mining-on_1
   IsPalette: 0
   setID: 9171

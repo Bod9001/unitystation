@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: drying_rack_drying_0
+    second: equipment_drying_rack_drying_0
   - first:
       213: 21300002
-    second: drying_rack_drying_1
+    second: equipment_drying_rack_drying_1
   - first:
       213: 21300004
-    second: drying_rack_drying_2
+    second: equipment_drying_rack_drying_2
   - first:
       213: 21300006
-    second: drying_rack_drying_3
+    second: equipment_drying_rack_drying_3
   - first:
       213: 21300008
-    second: drying_rack_drying_4
+    second: equipment_drying_rack_drying_4
   - first:
       213: 21300010
-    second: drying_rack_drying_5
+    second: equipment_drying_rack_drying_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: drying_rack_drying_0
+      name: equipment_drying_rack_drying_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drying_rack_drying_1
+      name: equipment_drying_rack_drying_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drying_rack_drying_2
+      name: equipment_drying_rack_drying_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drying_rack_drying_3
+      name: equipment_drying_rack_drying_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drying_rack_drying_4
+      name: equipment_drying_rack_drying_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drying_rack_drying_5
+      name: equipment_drying_rack_drying_5
       rect:
         serializedVersion: 2
         x: 160

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bulletproof_0
+    second: Bulletproof armor_bulletproof_0
   - first:
       213: 21300002
-    second: bulletproof_1
+    second: Bulletproof armor_bulletproof_1
   - first:
       213: 21300004
-    second: bulletproof_2
+    second: Bulletproof armor_bulletproof_2
   - first:
       213: 21300006
-    second: bulletproof_3
+    second: Bulletproof armor_bulletproof_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bulletproof_0
+      name: Bulletproof armor_bulletproof_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletproof_1
+      name: Bulletproof armor_bulletproof_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletproof_2
+      name: Bulletproof armor_bulletproof_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletproof_3
+      name: Bulletproof armor_bulletproof_3
       rect:
         serializedVersion: 2
         x: 96

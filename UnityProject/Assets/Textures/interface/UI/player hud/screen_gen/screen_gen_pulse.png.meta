@@ -4,88 +4,88 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pulse_0
+    second: screen_gen_pulse_0
   - first:
       213: 21300002
-    second: pulse_1
+    second: screen_gen_pulse_1
   - first:
       213: 21300004
-    second: pulse_2
+    second: screen_gen_pulse_2
   - first:
       213: 21300006
-    second: pulse_3
+    second: screen_gen_pulse_3
   - first:
       213: 21300008
-    second: pulse_4
+    second: screen_gen_pulse_4
   - first:
       213: 21300010
-    second: pulse_5
+    second: screen_gen_pulse_5
   - first:
       213: 21300012
-    second: pulse_6
+    second: screen_gen_pulse_6
   - first:
       213: 21300014
-    second: pulse_7
+    second: screen_gen_pulse_7
   - first:
       213: 21300016
-    second: pulse_8
+    second: screen_gen_pulse_8
   - first:
       213: 21300018
-    second: pulse_9
+    second: screen_gen_pulse_9
   - first:
       213: 21300020
-    second: pulse_10
+    second: screen_gen_pulse_10
   - first:
       213: 21300022
-    second: pulse_11
+    second: screen_gen_pulse_11
   - first:
       213: 21300024
-    second: pulse_12
+    second: screen_gen_pulse_12
   - first:
       213: 21300026
-    second: pulse_13
+    second: screen_gen_pulse_13
   - first:
       213: 21300028
-    second: pulse_14
+    second: screen_gen_pulse_14
   - first:
       213: 21300030
-    second: pulse_15
+    second: screen_gen_pulse_15
   - first:
       213: 21300032
-    second: pulse_16
+    second: screen_gen_pulse_16
   - first:
       213: 21300034
-    second: pulse_17
+    second: screen_gen_pulse_17
   - first:
       213: 21300036
-    second: pulse_18
+    second: screen_gen_pulse_18
   - first:
       213: 21300038
-    second: pulse_19
+    second: screen_gen_pulse_19
   - first:
       213: 21300040
-    second: pulse_20
+    second: screen_gen_pulse_20
   - first:
       213: 21300042
-    second: pulse_21
+    second: screen_gen_pulse_21
   - first:
       213: 21300044
-    second: pulse_22
+    second: screen_gen_pulse_22
   - first:
       213: 21300046
-    second: pulse_23
+    second: screen_gen_pulse_23
   - first:
       213: 21300048
-    second: pulse_24
+    second: screen_gen_pulse_24
   - first:
       213: 21300050
-    second: pulse_25
+    second: screen_gen_pulse_25
   - first:
       213: 21300052
-    second: pulse_26
+    second: screen_gen_pulse_26
   - first:
       213: 21300054
-    second: pulse_27
+    second: screen_gen_pulse_27
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -170,7 +170,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pulse_0
+      name: screen_gen_pulse_0
       rect:
         serializedVersion: 2
         x: 0
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_1
+      name: screen_gen_pulse_1
       rect:
         serializedVersion: 2
         x: 32
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_2
+      name: screen_gen_pulse_2
       rect:
         serializedVersion: 2
         x: 64
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_3
+      name: screen_gen_pulse_3
       rect:
         serializedVersion: 2
         x: 96
@@ -254,7 +254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_4
+      name: screen_gen_pulse_4
       rect:
         serializedVersion: 2
         x: 128
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_5
+      name: screen_gen_pulse_5
       rect:
         serializedVersion: 2
         x: 160
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_6
+      name: screen_gen_pulse_6
       rect:
         serializedVersion: 2
         x: 192
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_7
+      name: screen_gen_pulse_7
       rect:
         serializedVersion: 2
         x: 224
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_8
+      name: screen_gen_pulse_8
       rect:
         serializedVersion: 2
         x: 256
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_9
+      name: screen_gen_pulse_9
       rect:
         serializedVersion: 2
         x: 288
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_10
+      name: screen_gen_pulse_10
       rect:
         serializedVersion: 2
         x: 320
@@ -401,7 +401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_11
+      name: screen_gen_pulse_11
       rect:
         serializedVersion: 2
         x: 352
@@ -422,7 +422,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_12
+      name: screen_gen_pulse_12
       rect:
         serializedVersion: 2
         x: 384
@@ -443,7 +443,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_13
+      name: screen_gen_pulse_13
       rect:
         serializedVersion: 2
         x: 416
@@ -464,7 +464,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_14
+      name: screen_gen_pulse_14
       rect:
         serializedVersion: 2
         x: 448
@@ -485,7 +485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_15
+      name: screen_gen_pulse_15
       rect:
         serializedVersion: 2
         x: 480
@@ -506,7 +506,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_16
+      name: screen_gen_pulse_16
       rect:
         serializedVersion: 2
         x: 512
@@ -527,7 +527,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_17
+      name: screen_gen_pulse_17
       rect:
         serializedVersion: 2
         x: 544
@@ -548,7 +548,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_18
+      name: screen_gen_pulse_18
       rect:
         serializedVersion: 2
         x: 576
@@ -569,7 +569,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_19
+      name: screen_gen_pulse_19
       rect:
         serializedVersion: 2
         x: 608
@@ -590,7 +590,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_20
+      name: screen_gen_pulse_20
       rect:
         serializedVersion: 2
         x: 640
@@ -611,7 +611,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_21
+      name: screen_gen_pulse_21
       rect:
         serializedVersion: 2
         x: 672
@@ -632,7 +632,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_22
+      name: screen_gen_pulse_22
       rect:
         serializedVersion: 2
         x: 704
@@ -653,7 +653,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_23
+      name: screen_gen_pulse_23
       rect:
         serializedVersion: 2
         x: 736
@@ -674,7 +674,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_24
+      name: screen_gen_pulse_24
       rect:
         serializedVersion: 2
         x: 768
@@ -695,7 +695,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_25
+      name: screen_gen_pulse_25
       rect:
         serializedVersion: 2
         x: 800
@@ -716,7 +716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_26
+      name: screen_gen_pulse_26
       rect:
         serializedVersion: 2
         x: 832
@@ -737,7 +737,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pulse_27
+      name: screen_gen_pulse_27
       rect:
         serializedVersion: 2
         x: 864

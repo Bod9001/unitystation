@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f8b4ff2690d75b44ab098f483fee78dd, type: 3}
-      spriteName: xray_empty_0
+      spriteName: energy_xray_empty_0
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: xray_empty_0
+        m_SubObjectName: energy_xray_empty_0
     - sprite: {fileID: 21300002, guid: f8b4ff2690d75b44ab098f483fee78dd, type: 3}
-      spriteName: xray_empty_1
+      spriteName: energy_xray_empty_1
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: xray_empty_1
+        m_SubObjectName: energy_xray_empty_1
   IsPalette: 0
   setID: 7468

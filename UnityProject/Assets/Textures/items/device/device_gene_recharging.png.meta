@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: gene_recharging_0
+    second: device_gene_recharging_0
   - first:
       213: 21300002
-    second: gene_recharging_1
+    second: device_gene_recharging_1
   - first:
       213: 21300004
-    second: gene_recharging_2
+    second: device_gene_recharging_2
   - first:
       213: 21300006
-    second: gene_recharging_3
+    second: device_gene_recharging_3
   - first:
       213: 21300008
-    second: gene_recharging_4
+    second: device_gene_recharging_4
   - first:
       213: 21300010
-    second: gene_recharging_5
+    second: device_gene_recharging_5
   - first:
       213: 21300012
-    second: gene_recharging_6
+    second: device_gene_recharging_6
   - first:
       213: 21300014
-    second: gene_recharging_7
+    second: device_gene_recharging_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gene_recharging_0
+      name: device_gene_recharging_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gene_recharging_1
+      name: device_gene_recharging_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gene_recharging_2
+      name: device_gene_recharging_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gene_recharging_3
+      name: device_gene_recharging_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gene_recharging_4
+      name: device_gene_recharging_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gene_recharging_5
+      name: device_gene_recharging_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gene_recharging_6
+      name: device_gene_recharging_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gene_recharging_7
+      name: device_gene_recharging_7
       rect:
         serializedVersion: 2
         x: 224

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: water_vapor_0
+    second: atmospherics_water_vapor_0
   - first:
       213: 21300002
-    second: water_vapor_1
+    second: atmospherics_water_vapor_1
   - first:
       213: 21300004
-    second: water_vapor_2
+    second: atmospherics_water_vapor_2
   - first:
       213: 21300006
-    second: water_vapor_3
+    second: atmospherics_water_vapor_3
   - first:
       213: 21300008
-    second: water_vapor_4
+    second: atmospherics_water_vapor_4
   - first:
       213: 21300010
-    second: water_vapor_5
+    second: atmospherics_water_vapor_5
   - first:
       213: 21300012
-    second: water_vapor_6
+    second: atmospherics_water_vapor_6
   - first:
       213: 21300014
-    second: water_vapor_7
+    second: atmospherics_water_vapor_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water_vapor_0
+      name: atmospherics_water_vapor_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_vapor_1
+      name: atmospherics_water_vapor_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_vapor_2
+      name: atmospherics_water_vapor_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_vapor_3
+      name: atmospherics_water_vapor_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_vapor_4
+      name: atmospherics_water_vapor_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_vapor_5
+      name: atmospherics_water_vapor_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_vapor_6
+      name: atmospherics_water_vapor_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_vapor_7
+      name: atmospherics_water_vapor_7
       rect:
         serializedVersion: 2
         x: 224

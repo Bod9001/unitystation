@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: damagedsuit_0
+    second: overlay_damagedsuit_0
   - first:
       213: 21300002
-    second: damagedsuit_1
+    second: overlay_damagedsuit_1
   - first:
       213: 21300004
-    second: damagedsuit_2
+    second: overlay_damagedsuit_2
   - first:
       213: 21300006
-    second: damagedsuit_3
+    second: overlay_damagedsuit_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: damagedsuit_0
+      name: overlay_damagedsuit_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: damagedsuit_1
+      name: overlay_damagedsuit_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: damagedsuit_2
+      name: overlay_damagedsuit_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: damagedsuit_3
+      name: overlay_damagedsuit_3
       rect:
         serializedVersion: 2
         x: 96

@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ae7d416162912374d8cb9302f49f6129, type: 3}
-      spriteName: curadrobe_0
+      spriteName: vending_curadrobe_0
       secondDelay: 1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: curadrobe_0
+        m_SubObjectName: vending_curadrobe_0
     - sprite: {fileID: 21300002, guid: ae7d416162912374d8cb9302f49f6129, type: 3}
-      spriteName: curadrobe_1
+      spriteName: vending_curadrobe_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: curadrobe_1
+        m_SubObjectName: vending_curadrobe_1
     - sprite: {fileID: 21300004, guid: ae7d416162912374d8cb9302f49f6129, type: 3}
-      spriteName: curadrobe_2
+      spriteName: vending_curadrobe_2
       secondDelay: 1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: curadrobe_2
+        m_SubObjectName: vending_curadrobe_2
     - sprite: {fileID: 21300006, guid: ae7d416162912374d8cb9302f49f6129, type: 3}
-      spriteName: curadrobe_3
+      spriteName: vending_curadrobe_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: curadrobe_3
+        m_SubObjectName: vending_curadrobe_3
   IsPalette: 0
   setID: 17734

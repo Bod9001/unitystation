@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 18e96269de60f004ab5beb25f3262422, type: 3}
-      spriteName: l_arm7_0
+      spriteName: screen_gen_l_arm7_0
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: l_arm7_0
+        m_SubObjectName: screen_gen_l_arm7_0
     - sprite: {fileID: 21300002, guid: 18e96269de60f004ab5beb25f3262422, type: 3}
-      spriteName: l_arm7_1
+      spriteName: screen_gen_l_arm7_1
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: l_arm7_1
+        m_SubObjectName: screen_gen_l_arm7_1
   IsPalette: 0
   setID: 3498

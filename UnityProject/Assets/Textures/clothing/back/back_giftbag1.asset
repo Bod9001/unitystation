@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 05cd43dbb3cb76946a8eaf4e2bbee1c2, type: 3}
-      spriteName: giftbag1_0
+      spriteName: back_giftbag1_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: giftbag1_0
+        m_SubObjectName: back_giftbag1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 05cd43dbb3cb76946a8eaf4e2bbee1c2, type: 3}
-      spriteName: giftbag1_1
+      spriteName: back_giftbag1_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: giftbag1_1
+        m_SubObjectName: back_giftbag1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 05cd43dbb3cb76946a8eaf4e2bbee1c2, type: 3}
-      spriteName: giftbag1_2
+      spriteName: back_giftbag1_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: giftbag1_2
+        m_SubObjectName: back_giftbag1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 05cd43dbb3cb76946a8eaf4e2bbee1c2, type: 3}
-      spriteName: giftbag1_3
+      spriteName: back_giftbag1_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: giftbag1_3
+        m_SubObjectName: back_giftbag1_3
   IsPalette: 0
   setID: 286

@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 1940949741191087747, guid: d10218c54fffc044994ea27f516323e0,
         type: 3}
       propertyPath: m_Name
-      value: InternalMagazineBoltActionArcaneBarrage
+      value: InternalMagazineBoltActionEnchanted
       objectReference: {fileID: 0}
     - target: {fileID: 1944466116985273335, guid: d10218c54fffc044994ea27f516323e0,
         type: 3}
@@ -66,11 +66,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1980341497876904759, guid: d10218c54fffc044994ea27f516323e0,
-        type: 3}
-      propertyPath: m_AssetId
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d10218c54fffc044994ea27f516323e0, type: 3}

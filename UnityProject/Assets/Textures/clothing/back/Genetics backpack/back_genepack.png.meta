@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 8905504301376146211
-    second: genepack_0
+    second: Genetics backpack_genepack_0
   - first:
       213: -10107332192171663
-    second: genepack_1
+    second: Genetics backpack_genepack_1
   - first:
       213: 8814307753071084236
-    second: genepack_2
+    second: Genetics backpack_genepack_2
   - first:
       213: 8025749515996584074
-    second: genepack_3
+    second: Genetics backpack_genepack_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: genepack_0
+      name: Genetics backpack_genepack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: genepack_1
+      name: Genetics backpack_genepack_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: genepack_2
+      name: Genetics backpack_genepack_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: genepack_3
+      name: Genetics backpack_genepack_3
       rect:
         serializedVersion: 2
         x: 96

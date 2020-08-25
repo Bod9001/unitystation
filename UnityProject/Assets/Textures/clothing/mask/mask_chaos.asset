@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5fc2bcad7dd25be4f9f401757d0b34a6, type: 3}
-      spriteName: chaos_0
+      spriteName: mask_chaos_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chaos_0
+        m_SubObjectName: mask_chaos_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5fc2bcad7dd25be4f9f401757d0b34a6, type: 3}
-      spriteName: chaos_1
+      spriteName: mask_chaos_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chaos_1
+        m_SubObjectName: mask_chaos_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5fc2bcad7dd25be4f9f401757d0b34a6, type: 3}
-      spriteName: chaos_2
+      spriteName: mask_chaos_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chaos_2
+        m_SubObjectName: mask_chaos_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5fc2bcad7dd25be4f9f401757d0b34a6, type: 3}
-      spriteName: chaos_3
+      spriteName: mask_chaos_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chaos_3
+        m_SubObjectName: mask_chaos_3
   IsPalette: 0
   setID: 751

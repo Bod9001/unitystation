@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 694c43661f7bdcb4792bb75d726e45bc, type: 3}
-      spriteName: skeleton_0
+      spriteName: skeleton_skeleton_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: skeleton_0
+        m_SubObjectName: skeleton_skeleton_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 694c43661f7bdcb4792bb75d726e45bc, type: 3}
-      spriteName: skeleton_1
+      spriteName: skeleton_skeleton_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: skeleton_1
+        m_SubObjectName: skeleton_skeleton_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 694c43661f7bdcb4792bb75d726e45bc, type: 3}
-      spriteName: skeleton_2
+      spriteName: skeleton_skeleton_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: skeleton_2
+        m_SubObjectName: skeleton_skeleton_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 694c43661f7bdcb4792bb75d726e45bc, type: 3}
-      spriteName: skeleton_3
+      spriteName: skeleton_skeleton_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: skeleton_3
+        m_SubObjectName: skeleton_skeleton_3
   IsPalette: 0
   setID: 1079

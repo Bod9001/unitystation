@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: fedora_0
+    second: fedora_fedora_0
   - first:
       213: 21300002
-    second: fedora_1
+    second: fedora_fedora_1
   - first:
       213: 21300004
-    second: fedora_2
+    second: fedora_fedora_2
   - first:
       213: 21300006
-    second: fedora_3
+    second: fedora_fedora_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fedora_0
+      name: fedora_fedora_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fedora_1
+      name: fedora_fedora_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fedora_2
+      name: fedora_fedora_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fedora_3
+      name: fedora_fedora_3
       rect:
         serializedVersion: 2
         x: 96

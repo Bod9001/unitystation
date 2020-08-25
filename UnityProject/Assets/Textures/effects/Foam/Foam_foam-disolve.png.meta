@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: foam-disolve_0
+    second: Foam_foam-disolve_0
   - first:
       213: 21300002
-    second: foam-disolve_1
+    second: Foam_foam-disolve_1
   - first:
       213: 21300004
-    second: foam-disolve_2
+    second: Foam_foam-disolve_2
   - first:
       213: 21300006
-    second: foam-disolve_3
+    second: Foam_foam-disolve_3
   - first:
       213: 21300008
-    second: foam-disolve_4
+    second: Foam_foam-disolve_4
   - first:
       213: 21300010
-    second: foam-disolve_5
+    second: Foam_foam-disolve_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: foam-disolve_0
+      name: Foam_foam-disolve_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foam-disolve_1
+      name: Foam_foam-disolve_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foam-disolve_2
+      name: Foam_foam-disolve_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foam-disolve_3
+      name: Foam_foam-disolve_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foam-disolve_4
+      name: Foam_foam-disolve_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foam-disolve_5
+      name: Foam_foam-disolve_5
       rect:
         serializedVersion: 2
         x: 160

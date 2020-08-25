@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: headcrab_0
+    second: animals_headcrab_0
   - first:
       213: 21300002
-    second: headcrab_1
+    second: animals_headcrab_1
   - first:
       213: 21300004
-    second: headcrab_2
+    second: animals_headcrab_2
   - first:
       213: 21300006
-    second: headcrab_3
+    second: animals_headcrab_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: headcrab_0
+      name: animals_headcrab_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: headcrab_1
+      name: animals_headcrab_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: headcrab_2
+      name: animals_headcrab_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: headcrab_3
+      name: animals_headcrab_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: plasma_0
+    second: atmospherics_plasma_0
   - first:
       213: 21300002
-    second: plasma_1
+    second: atmospherics_plasma_1
   - first:
       213: 21300004
-    second: plasma_2
+    second: atmospherics_plasma_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plasma_0
+      name: atmospherics_plasma_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_1
+      name: atmospherics_plasma_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_2
+      name: atmospherics_plasma_2
       rect:
         serializedVersion: 2
         x: 64

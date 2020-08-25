@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: arrival_0
+    second: variance_arrival_0
   - first:
       213: 21300002
-    second: arrival_1
+    second: variance_arrival_1
   - first:
       213: 21300004
-    second: arrival_2
+    second: variance_arrival_2
   - first:
       213: 21300006
-    second: arrival_3
+    second: variance_arrival_3
   - first:
       213: 21300008
-    second: arrival_4
+    second: variance_arrival_4
   - first:
       213: 21300010
-    second: arrival_5
+    second: variance_arrival_5
   - first:
       213: 21300012
-    second: arrival_6
+    second: variance_arrival_6
   - first:
       213: 21300014
-    second: arrival_7
+    second: variance_arrival_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arrival_0
+      name: variance_arrival_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrival_1
+      name: variance_arrival_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrival_2
+      name: variance_arrival_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrival_3
+      name: variance_arrival_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrival_4
+      name: variance_arrival_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrival_5
+      name: variance_arrival_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrival_6
+      name: variance_arrival_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrival_7
+      name: variance_arrival_7
       rect:
         serializedVersion: 2
         x: 224

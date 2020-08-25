@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 9778756e8fe7d4449b8145a8407bc561, type: 3}
-      spriteName: shifter_0
+      spriteName: cult_shifter_0
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: shifter_0
+        m_SubObjectName: cult_shifter_0
     - sprite: {fileID: 21300002, guid: 9778756e8fe7d4449b8145a8407bc561, type: 3}
-      spriteName: shifter_1
+      spriteName: cult_shifter_1
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: shifter_1
+        m_SubObjectName: cult_shifter_1
     - sprite: {fileID: 21300004, guid: 9778756e8fe7d4449b8145a8407bc561, type: 3}
-      spriteName: shifter_2
+      spriteName: cult_shifter_2
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: shifter_2
+        m_SubObjectName: cult_shifter_2
     - sprite: {fileID: 21300006, guid: 9778756e8fe7d4449b8145a8407bc561, type: 3}
-      spriteName: shifter_3
+      spriteName: cult_shifter_3
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: shifter_3
+        m_SubObjectName: cult_shifter_3
   IsPalette: 0
   setID: 13657

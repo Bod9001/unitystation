@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: a2dcbcfd01895084e9ad1408df5efb74, type: 3}
-      spriteName: lizard_0
+      spriteName: head_lizard_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lizard_0
+        m_SubObjectName: head_lizard_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a2dcbcfd01895084e9ad1408df5efb74, type: 3}
-      spriteName: lizard_1
+      spriteName: head_lizard_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lizard_1
+        m_SubObjectName: head_lizard_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a2dcbcfd01895084e9ad1408df5efb74, type: 3}
-      spriteName: lizard_2
+      spriteName: head_lizard_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lizard_2
+        m_SubObjectName: head_lizard_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a2dcbcfd01895084e9ad1408df5efb74, type: 3}
-      spriteName: lizard_3
+      spriteName: head_lizard_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: lizard_3
+        m_SubObjectName: head_lizard_3
   IsPalette: 0
   setID: 649

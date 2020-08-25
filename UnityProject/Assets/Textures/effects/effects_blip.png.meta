@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: blip_0
+    second: effects_blip_0
   - first:
       213: 21300002
-    second: blip_1
+    second: effects_blip_1
   - first:
       213: 21300004
-    second: blip_2
+    second: effects_blip_2
   - first:
       213: 21300006
-    second: blip_3
+    second: effects_blip_3
   - first:
       213: 21300008
-    second: blip_4
+    second: effects_blip_4
   - first:
       213: 21300010
-    second: blip_5
+    second: effects_blip_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blip_0
+      name: effects_blip_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blip_1
+      name: effects_blip_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blip_2
+      name: effects_blip_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blip_3
+      name: effects_blip_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blip_4
+      name: effects_blip_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blip_5
+      name: effects_blip_5
       rect:
         serializedVersion: 2
         x: 160

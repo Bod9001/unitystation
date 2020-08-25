@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: old_0
+    second: smoke_old_0
   - first:
       213: 21300002
-    second: old_1
+    second: smoke_old_1
   - first:
       213: 21300004
-    second: old_2
+    second: smoke_old_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: old_0
+      name: smoke_old_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: old_1
+      name: smoke_old_1
       rect:
         serializedVersion: 2
         x: 96
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: old_2
+      name: smoke_old_2
       rect:
         serializedVersion: 2
         x: 192

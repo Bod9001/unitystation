@@ -94,14 +94,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 8c4b8efd80c16bc44bfe7601db3bdf2f
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 8c4b8efd80c16bc44bfe7601db3bdf2f, type: 2}
-  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
   Sprites: []
@@ -297,14 +292,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 3f4f7bc3b40d96840a26466122812deb
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 3f4f7bc3b40d96840a26466122812deb, type: 2}
-  pushTextureOnStartUp: 1
   variantIndex: 0
   palette: []
   Sprites: []

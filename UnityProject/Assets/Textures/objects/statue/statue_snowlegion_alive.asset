@@ -16,27 +16,27 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: 1625417198175672216, guid: 67f04b23108cea6458830d52dbbb3870,
         type: 3}
-      spriteName: snowlegion_alive_0
+      spriteName: statue_snowlegion_alive_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: snowlegion_alive_0
+        m_SubObjectName: statue_snowlegion_alive_0
     - sprite: {fileID: 7933919901471231180, guid: 67f04b23108cea6458830d52dbbb3870,
         type: 3}
-      spriteName: snowlegion_alive_1
+      spriteName: statue_snowlegion_alive_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: snowlegion_alive_1
+        m_SubObjectName: statue_snowlegion_alive_1
     - sprite: {fileID: -8999461905566254262, guid: 67f04b23108cea6458830d52dbbb3870,
         type: 3}
-      spriteName: snowlegion_alive_2
+      spriteName: statue_snowlegion_alive_2
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: snowlegion_alive_2
+        m_SubObjectName: statue_snowlegion_alive_2
   IsPalette: 0
   setID: 17155

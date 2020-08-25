@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: machinegun_0
+    second: turrets_machinegun_0
   - first:
       213: 21300002
-    second: machinegun_1
+    second: turrets_machinegun_1
   - first:
       213: 21300004
-    second: machinegun_2
+    second: turrets_machinegun_2
   - first:
       213: 21300006
-    second: machinegun_3
+    second: turrets_machinegun_3
   - first:
       213: 21300008
-    second: machinegun_4
+    second: turrets_machinegun_4
   - first:
       213: 21300010
-    second: machinegun_5
+    second: turrets_machinegun_5
   - first:
       213: 21300012
-    second: machinegun_6
+    second: turrets_machinegun_6
   - first:
       213: 21300014
-    second: machinegun_7
+    second: turrets_machinegun_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: machinegun_0
+      name: turrets_machinegun_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: machinegun_1
+      name: turrets_machinegun_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: machinegun_2
+      name: turrets_machinegun_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: machinegun_3
+      name: turrets_machinegun_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: machinegun_4
+      name: turrets_machinegun_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: machinegun_5
+      name: turrets_machinegun_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: machinegun_6
+      name: turrets_machinegun_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: machinegun_7
+      name: turrets_machinegun_7
       rect:
         serializedVersion: 2
         x: 224

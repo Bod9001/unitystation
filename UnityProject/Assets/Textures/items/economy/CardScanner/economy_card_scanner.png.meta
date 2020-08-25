@@ -4,49 +4,49 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: card_scanner_0
+    second: CardScanner_card_scanner_0
   - first:
       213: 21300002
-    second: card_scanner_1
+    second: CardScanner_card_scanner_1
   - first:
       213: 21300004
-    second: card_scanner_2
+    second: CardScanner_card_scanner_2
   - first:
       213: 21300006
-    second: card_scanner_3
+    second: CardScanner_card_scanner_3
   - first:
       213: 21300008
-    second: card_scanner_4
+    second: CardScanner_card_scanner_4
   - first:
       213: 21300010
-    second: card_scanner_5
+    second: CardScanner_card_scanner_5
   - first:
       213: 21300012
-    second: card_scanner_6
+    second: CardScanner_card_scanner_6
   - first:
       213: 21300014
-    second: card_scanner_7
+    second: CardScanner_card_scanner_7
   - first:
       213: 21300016
-    second: card_scanner_8
+    second: CardScanner_card_scanner_8
   - first:
       213: 21300018
-    second: card_scanner_9
+    second: CardScanner_card_scanner_9
   - first:
       213: 21300020
-    second: card_scanner_10
+    second: CardScanner_card_scanner_10
   - first:
       213: 21300022
-    second: card_scanner_11
+    second: CardScanner_card_scanner_11
   - first:
       213: 21300024
-    second: card_scanner_12
+    second: CardScanner_card_scanner_12
   - first:
       213: 21300026
-    second: card_scanner_13
+    second: CardScanner_card_scanner_13
   - first:
       213: 21300028
-    second: card_scanner_14
+    second: CardScanner_card_scanner_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -131,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: card_scanner_0
+      name: CardScanner_card_scanner_0
       rect:
         serializedVersion: 2
         x: 0
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_1
+      name: CardScanner_card_scanner_1
       rect:
         serializedVersion: 2
         x: 32
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_2
+      name: CardScanner_card_scanner_2
       rect:
         serializedVersion: 2
         x: 64
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_3
+      name: CardScanner_card_scanner_3
       rect:
         serializedVersion: 2
         x: 96
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_4
+      name: CardScanner_card_scanner_4
       rect:
         serializedVersion: 2
         x: 128
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_5
+      name: CardScanner_card_scanner_5
       rect:
         serializedVersion: 2
         x: 160
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_6
+      name: CardScanner_card_scanner_6
       rect:
         serializedVersion: 2
         x: 192
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_7
+      name: CardScanner_card_scanner_7
       rect:
         serializedVersion: 2
         x: 224
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_8
+      name: CardScanner_card_scanner_8
       rect:
         serializedVersion: 2
         x: 256
@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_9
+      name: CardScanner_card_scanner_9
       rect:
         serializedVersion: 2
         x: 288
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_10
+      name: CardScanner_card_scanner_10
       rect:
         serializedVersion: 2
         x: 320
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_11
+      name: CardScanner_card_scanner_11
       rect:
         serializedVersion: 2
         x: 352
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_12
+      name: CardScanner_card_scanner_12
       rect:
         serializedVersion: 2
         x: 384
@@ -404,7 +404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_13
+      name: CardScanner_card_scanner_13
       rect:
         serializedVersion: 2
         x: 416
@@ -425,7 +425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_scanner_14
+      name: CardScanner_card_scanner_14
       rect:
         serializedVersion: 2
         x: 448

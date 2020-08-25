@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e6557dfec4539704d8052b52acec2791, type: 3}
-      spriteName: rcd_0
+      spriteName: tools_righthand_rcd_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: rcd_0
+        m_SubObjectName: tools_righthand_rcd_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e6557dfec4539704d8052b52acec2791, type: 3}
-      spriteName: rcd_1
+      spriteName: tools_righthand_rcd_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: rcd_1
+        m_SubObjectName: tools_righthand_rcd_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e6557dfec4539704d8052b52acec2791, type: 3}
-      spriteName: rcd_2
+      spriteName: tools_righthand_rcd_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: rcd_2
+        m_SubObjectName: tools_righthand_rcd_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e6557dfec4539704d8052b52acec2791, type: 3}
-      spriteName: rcd_3
+      spriteName: tools_righthand_rcd_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: rcd_3
+        m_SubObjectName: tools_righthand_rcd_3
   IsPalette: 0
   setID: 10281

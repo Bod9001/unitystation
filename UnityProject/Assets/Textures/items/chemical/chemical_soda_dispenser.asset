@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5d5bf60ac6590ae4aa31bd08c2e7e652, type: 3}
-      spriteName: soda_dispenser_0
+      spriteName: chemical_soda_dispenser_0
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: soda_dispenser_0
+        m_SubObjectName: chemical_soda_dispenser_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5d5bf60ac6590ae4aa31bd08c2e7e652, type: 3}
-      spriteName: soda_dispenser_1
+      spriteName: chemical_soda_dispenser_1
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: soda_dispenser_1
+        m_SubObjectName: chemical_soda_dispenser_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5d5bf60ac6590ae4aa31bd08c2e7e652, type: 3}
-      spriteName: soda_dispenser_2
+      spriteName: chemical_soda_dispenser_2
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: soda_dispenser_2
+        m_SubObjectName: chemical_soda_dispenser_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5d5bf60ac6590ae4aa31bd08c2e7e652, type: 3}
-      spriteName: soda_dispenser_3
+      spriteName: chemical_soda_dispenser_3
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: soda_dispenser_3
+        m_SubObjectName: chemical_soda_dispenser_3
   IsPalette: 0
   setID: 5337

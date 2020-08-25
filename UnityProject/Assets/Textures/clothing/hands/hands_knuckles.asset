@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 73010a31ecce364408a09b809e7b4931, type: 3}
-      spriteName: knuckles_0
+      spriteName: hands_knuckles_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: knuckles_0
+        m_SubObjectName: hands_knuckles_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 73010a31ecce364408a09b809e7b4931, type: 3}
-      spriteName: knuckles_1
+      spriteName: hands_knuckles_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: knuckles_1
+        m_SubObjectName: hands_knuckles_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 73010a31ecce364408a09b809e7b4931, type: 3}
-      spriteName: knuckles_2
+      spriteName: hands_knuckles_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: knuckles_2
+        m_SubObjectName: hands_knuckles_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 73010a31ecce364408a09b809e7b4931, type: 3}
-      spriteName: knuckles_3
+      spriteName: hands_knuckles_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: knuckles_3
+        m_SubObjectName: hands_knuckles_3
   IsPalette: 0
   setID: 519

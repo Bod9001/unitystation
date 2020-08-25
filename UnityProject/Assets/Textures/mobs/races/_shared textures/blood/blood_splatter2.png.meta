@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: splatter2_0
+    second: blood_splatter2_0
   - first:
       213: 21300002
-    second: splatter2_1
+    second: blood_splatter2_1
   - first:
       213: 21300004
-    second: splatter2_2
+    second: blood_splatter2_2
   - first:
       213: 21300006
-    second: splatter2_3
+    second: blood_splatter2_3
   - first:
       213: 21300008
-    second: splatter2_4
+    second: blood_splatter2_4
   - first:
       213: 21300010
-    second: splatter2_5
+    second: blood_splatter2_5
   - first:
       213: 21300012
-    second: splatter2_6
+    second: blood_splatter2_6
   - first:
       213: 21300014
-    second: splatter2_7
+    second: blood_splatter2_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: splatter2_0
+      name: blood_splatter2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: splatter2_1
+      name: blood_splatter2_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: splatter2_2
+      name: blood_splatter2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: splatter2_3
+      name: blood_splatter2_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: splatter2_4
+      name: blood_splatter2_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: splatter2_5
+      name: blood_splatter2_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: splatter2_6
+      name: blood_splatter2_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: splatter2_7
+      name: blood_splatter2_7
       rect:
         serializedVersion: 2
         x: 224

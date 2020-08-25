@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 70889d5c169a60f4887e6e2f25250b47, type: 3}
-      spriteName: standing_0
+      spriteName: gorilla_standing_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: standing_0
+        m_SubObjectName: gorilla_standing_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 70889d5c169a60f4887e6e2f25250b47, type: 3}
-      spriteName: standing_1
+      spriteName: gorilla_standing_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: standing_1
+        m_SubObjectName: gorilla_standing_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 70889d5c169a60f4887e6e2f25250b47, type: 3}
-      spriteName: standing_2
+      spriteName: gorilla_standing_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: standing_2
+        m_SubObjectName: gorilla_standing_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 70889d5c169a60f4887e6e2f25250b47, type: 3}
-      spriteName: standing_3
+      spriteName: gorilla_standing_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: standing_3
+        m_SubObjectName: gorilla_standing_3
   IsPalette: 0
   setID: 11143

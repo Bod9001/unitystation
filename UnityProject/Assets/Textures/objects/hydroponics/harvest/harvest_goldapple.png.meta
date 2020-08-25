@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -8196908270968541667
-    second: goldapple_0
+    second: harvest_goldapple_0
   - first:
       213: 9166903383350874885
-    second: goldapple_1
+    second: harvest_goldapple_1
   - first:
       213: 7528997726865941060
-    second: goldapple_2
+    second: harvest_goldapple_2
   - first:
       213: 7585001025897769992
-    second: goldapple_3
+    second: harvest_goldapple_3
   - first:
       213: 9010664353375371765
-    second: goldapple_4
+    second: harvest_goldapple_4
   - first:
       213: -7983532206474145859
-    second: goldapple_5
+    second: harvest_goldapple_5
   - first:
       213: 8118519817537441594
-    second: goldapple_6
+    second: harvest_goldapple_6
   - first:
       213: 8330964889646580386
-    second: goldapple_7
+    second: harvest_goldapple_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: goldapple_0
+      name: harvest_goldapple_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goldapple_1
+      name: harvest_goldapple_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goldapple_2
+      name: harvest_goldapple_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goldapple_3
+      name: harvest_goldapple_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goldapple_4
+      name: harvest_goldapple_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goldapple_5
+      name: harvest_goldapple_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goldapple_6
+      name: harvest_goldapple_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goldapple_7
+      name: harvest_goldapple_7
       rect:
         serializedVersion: 2
         x: 224

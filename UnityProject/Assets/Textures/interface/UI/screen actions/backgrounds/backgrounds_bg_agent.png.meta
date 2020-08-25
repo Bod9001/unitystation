@@ -4,49 +4,49 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bg_agent_0
+    second: backgrounds_bg_agent_0
   - first:
       213: 21300002
-    second: bg_agent_1
+    second: backgrounds_bg_agent_1
   - first:
       213: 21300004
-    second: bg_agent_2
+    second: backgrounds_bg_agent_2
   - first:
       213: 21300006
-    second: bg_agent_3
+    second: backgrounds_bg_agent_3
   - first:
       213: 21300008
-    second: bg_agent_4
+    second: backgrounds_bg_agent_4
   - first:
       213: 21300010
-    second: bg_agent_5
+    second: backgrounds_bg_agent_5
   - first:
       213: 21300012
-    second: bg_agent_6
+    second: backgrounds_bg_agent_6
   - first:
       213: 21300014
-    second: bg_agent_7
+    second: backgrounds_bg_agent_7
   - first:
       213: 21300016
-    second: bg_agent_8
+    second: backgrounds_bg_agent_8
   - first:
       213: 21300018
-    second: bg_agent_9
+    second: backgrounds_bg_agent_9
   - first:
       213: 21300020
-    second: bg_agent_10
+    second: backgrounds_bg_agent_10
   - first:
       213: 21300022
-    second: bg_agent_11
+    second: backgrounds_bg_agent_11
   - first:
       213: 21300024
-    second: bg_agent_12
+    second: backgrounds_bg_agent_12
   - first:
       213: 21300026
-    second: bg_agent_13
+    second: backgrounds_bg_agent_13
   - first:
       213: 21300028
-    second: bg_agent_14
+    second: backgrounds_bg_agent_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -131,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_agent_0
+      name: backgrounds_bg_agent_0
       rect:
         serializedVersion: 2
         x: 0
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_1
+      name: backgrounds_bg_agent_1
       rect:
         serializedVersion: 2
         x: 32
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_2
+      name: backgrounds_bg_agent_2
       rect:
         serializedVersion: 2
         x: 64
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_3
+      name: backgrounds_bg_agent_3
       rect:
         serializedVersion: 2
         x: 96
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_4
+      name: backgrounds_bg_agent_4
       rect:
         serializedVersion: 2
         x: 128
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_5
+      name: backgrounds_bg_agent_5
       rect:
         serializedVersion: 2
         x: 160
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_6
+      name: backgrounds_bg_agent_6
       rect:
         serializedVersion: 2
         x: 192
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_7
+      name: backgrounds_bg_agent_7
       rect:
         serializedVersion: 2
         x: 224
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_8
+      name: backgrounds_bg_agent_8
       rect:
         serializedVersion: 2
         x: 256
@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_9
+      name: backgrounds_bg_agent_9
       rect:
         serializedVersion: 2
         x: 288
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_10
+      name: backgrounds_bg_agent_10
       rect:
         serializedVersion: 2
         x: 320
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_11
+      name: backgrounds_bg_agent_11
       rect:
         serializedVersion: 2
         x: 352
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_12
+      name: backgrounds_bg_agent_12
       rect:
         serializedVersion: 2
         x: 384
@@ -404,7 +404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_13
+      name: backgrounds_bg_agent_13
       rect:
         serializedVersion: 2
         x: 416
@@ -425,7 +425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_agent_14
+      name: backgrounds_bg_agent_14
       rect:
         serializedVersion: 2
         x: 448

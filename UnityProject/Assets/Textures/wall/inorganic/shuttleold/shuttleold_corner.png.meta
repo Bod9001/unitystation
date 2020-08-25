@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: corner_0
+    second: shuttleold_corner_0
   - first:
       213: 21300002
-    second: corner_1
+    second: shuttleold_corner_1
   - first:
       213: 21300004
-    second: corner_2
+    second: shuttleold_corner_2
   - first:
       213: 21300006
-    second: corner_3
+    second: shuttleold_corner_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: corner_0
+      name: shuttleold_corner_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corner_1
+      name: shuttleold_corner_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corner_2
+      name: shuttleold_corner_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corner_3
+      name: shuttleold_corner_3
       rect:
         serializedVersion: 2
         x: 96

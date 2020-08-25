@@ -4,34 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: ai-static_dead_0
+    second: variance_ai-static_dead_0
   - first:
       213: 21300002
-    second: ai-static_dead_1
+    second: variance_ai-static_dead_1
   - first:
       213: 21300004
-    second: ai-static_dead_2
+    second: variance_ai-static_dead_2
   - first:
       213: 21300006
-    second: ai-static_dead_3
+    second: variance_ai-static_dead_3
   - first:
       213: 21300008
-    second: ai-static_dead_4
+    second: variance_ai-static_dead_4
   - first:
       213: 21300010
-    second: ai-static_dead_5
+    second: variance_ai-static_dead_5
   - first:
       213: 21300012
-    second: ai-static_dead_6
+    second: variance_ai-static_dead_6
   - first:
       213: 21300014
-    second: ai-static_dead_7
+    second: variance_ai-static_dead_7
   - first:
       213: 21300016
-    second: ai-static_dead_8
+    second: variance_ai-static_dead_8
   - first:
       213: 21300018
-    second: ai-static_dead_9
+    second: variance_ai-static_dead_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ai-static_dead_0
+      name: variance_ai-static_dead_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_dead_1
+      name: variance_ai-static_dead_1
       rect:
         serializedVersion: 2
         x: 32
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_dead_2
+      name: variance_ai-static_dead_2
       rect:
         serializedVersion: 2
         x: 64
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_dead_3
+      name: variance_ai-static_dead_3
       rect:
         serializedVersion: 2
         x: 96
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_dead_4
+      name: variance_ai-static_dead_4
       rect:
         serializedVersion: 2
         x: 128
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_dead_5
+      name: variance_ai-static_dead_5
       rect:
         serializedVersion: 2
         x: 160
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_dead_6
+      name: variance_ai-static_dead_6
       rect:
         serializedVersion: 2
         x: 192
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_dead_7
+      name: variance_ai-static_dead_7
       rect:
         serializedVersion: 2
         x: 224
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_dead_8
+      name: variance_ai-static_dead_8
       rect:
         serializedVersion: 2
         x: 256
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_dead_9
+      name: variance_ai-static_dead_9
       rect:
         serializedVersion: 2
         x: 288

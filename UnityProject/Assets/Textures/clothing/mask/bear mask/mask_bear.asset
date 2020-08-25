@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 1e1c9a33fad531845b58394896ed35dd, type: 3}
-      spriteName: bear_0
+      spriteName: bear mask_bear_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bear_0
+        m_SubObjectName: bear mask_bear_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1e1c9a33fad531845b58394896ed35dd, type: 3}
-      spriteName: bear_1
+      spriteName: bear mask_bear_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bear_1
+        m_SubObjectName: bear mask_bear_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1e1c9a33fad531845b58394896ed35dd, type: 3}
-      spriteName: bear_2
+      spriteName: bear mask_bear_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bear_2
+        m_SubObjectName: bear mask_bear_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1e1c9a33fad531845b58394896ed35dd, type: 3}
-      spriteName: bear_3
+      spriteName: bear mask_bear_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bear_3
+        m_SubObjectName: bear mask_bear_3
   IsPalette: 0
   setID: 20560

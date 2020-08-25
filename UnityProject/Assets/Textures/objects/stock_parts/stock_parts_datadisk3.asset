@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: d158ca856df97fa488d0ed94c49cd432, type: 3}
-      spriteName: datadisk3_0
+      spriteName: stock_parts_datadisk3_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: datadisk3_0
+        m_SubObjectName: stock_parts_datadisk3_0
     - sprite: {fileID: 21300002, guid: d158ca856df97fa488d0ed94c49cd432, type: 3}
-      spriteName: datadisk3_1
+      spriteName: stock_parts_datadisk3_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: datadisk3_1
+        m_SubObjectName: stock_parts_datadisk3_1
     - sprite: {fileID: 21300004, guid: d158ca856df97fa488d0ed94c49cd432, type: 3}
-      spriteName: datadisk3_2
+      spriteName: stock_parts_datadisk3_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: datadisk3_2
+        m_SubObjectName: stock_parts_datadisk3_2
   IsPalette: 0
   setID: 17252

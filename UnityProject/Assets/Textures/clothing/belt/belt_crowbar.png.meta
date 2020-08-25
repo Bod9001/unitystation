@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7398687956713181485
-    second: crowbar_0
+    second: belt_crowbar_0
   - first:
       213: -193345410308690765
-    second: crowbar_1
+    second: belt_crowbar_1
   - first:
       213: 1493258355213284673
-    second: crowbar_2
+    second: belt_crowbar_2
   - first:
       213: -2051218657116965245
-    second: crowbar_3
+    second: belt_crowbar_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crowbar_0
+      name: belt_crowbar_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crowbar_1
+      name: belt_crowbar_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crowbar_2
+      name: belt_crowbar_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crowbar_3
+      name: belt_crowbar_3
       rect:
         serializedVersion: 2
         x: 96

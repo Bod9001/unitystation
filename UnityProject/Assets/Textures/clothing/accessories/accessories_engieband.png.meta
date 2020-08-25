@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: engieband_0
+    second: accessories_engieband_0
   - first:
       213: 21300002
-    second: engieband_1
+    second: accessories_engieband_1
   - first:
       213: 21300004
-    second: engieband_2
+    second: accessories_engieband_2
   - first:
       213: 21300006
-    second: engieband_3
+    second: accessories_engieband_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: engieband_0
+      name: accessories_engieband_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: engieband_1
+      name: accessories_engieband_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: engieband_2
+      name: accessories_engieband_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: engieband_3
+      name: accessories_engieband_3
       rect:
         serializedVersion: 2
         x: 96

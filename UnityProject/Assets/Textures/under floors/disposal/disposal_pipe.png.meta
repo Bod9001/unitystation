@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pipe_0
+    second: disposal_pipe_0
   - first:
       213: 21300002
-    second: pipe_1
+    second: disposal_pipe_1
   - first:
       213: 21300004
-    second: pipe_2
+    second: disposal_pipe_2
   - first:
       213: 21300006
-    second: pipe_3
+    second: disposal_pipe_3
   - first:
       213: 21300008
-    second: pipe_4
+    second: disposal_pipe_4
   - first:
       213: 21300010
-    second: pipe_5
+    second: disposal_pipe_5
   - first:
       213: 21300012
-    second: pipe_6
+    second: disposal_pipe_6
   - first:
       213: 21300014
-    second: pipe_7
+    second: disposal_pipe_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pipe_0
+      name: disposal_pipe_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipe_1
+      name: disposal_pipe_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipe_2
+      name: disposal_pipe_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipe_3
+      name: disposal_pipe_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipe_4
+      name: disposal_pipe_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipe_5
+      name: disposal_pipe_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipe_6
+      name: disposal_pipe_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipe_7
+      name: disposal_pipe_7
       rect:
         serializedVersion: 2
         x: 224

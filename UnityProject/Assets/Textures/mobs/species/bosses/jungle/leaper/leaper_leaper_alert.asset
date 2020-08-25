@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
-      spriteName: leaper_alert_0
+      spriteName: leaper_leaper_alert_0
       secondDelay: 0
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leaper_alert_0
+        m_SubObjectName: leaper_leaper_alert_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
-      spriteName: leaper_alert_1
+      spriteName: leaper_leaper_alert_1
       secondDelay: 0
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leaper_alert_1
+        m_SubObjectName: leaper_leaper_alert_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
-      spriteName: leaper_alert_2
+      spriteName: leaper_leaper_alert_2
       secondDelay: 0
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leaper_alert_2
+        m_SubObjectName: leaper_leaper_alert_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 16fbf1435b921d049ae8a3f2e046218e, type: 3}
-      spriteName: leaper_alert_3
+      spriteName: leaper_leaper_alert_3
       secondDelay: 0
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leaper_alert_3
+        m_SubObjectName: leaper_leaper_alert_3
   IsPalette: 0
   setID: 12001

@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: secway_0
+    second: vehicles_secway_0
   - first:
       213: 21300002
-    second: secway_1
+    second: vehicles_secway_1
   - first:
       213: 21300004
-    second: secway_2
+    second: vehicles_secway_2
   - first:
       213: 21300006
-    second: secway_3
+    second: vehicles_secway_3
   - first:
       213: 21300008
-    second: secway_4
+    second: vehicles_secway_4
   - first:
       213: 21300010
-    second: secway_5
+    second: vehicles_secway_5
   - first:
       213: 21300012
-    second: secway_6
+    second: vehicles_secway_6
   - first:
       213: 21300014
-    second: secway_7
+    second: vehicles_secway_7
   - first:
       213: 21300016
-    second: secway_8
+    second: vehicles_secway_8
   - first:
       213: 21300018
-    second: secway_9
+    second: vehicles_secway_9
   - first:
       213: 21300020
-    second: secway_10
+    second: vehicles_secway_10
   - first:
       213: 21300022
-    second: secway_11
+    second: vehicles_secway_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: secway_0
+      name: vehicles_secway_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_1
+      name: vehicles_secway_1
       rect:
         serializedVersion: 2
         x: 32
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_2
+      name: vehicles_secway_2
       rect:
         serializedVersion: 2
         x: 64
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_3
+      name: vehicles_secway_3
       rect:
         serializedVersion: 2
         x: 96
@@ -206,7 +206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_4
+      name: vehicles_secway_4
       rect:
         serializedVersion: 2
         x: 128
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_5
+      name: vehicles_secway_5
       rect:
         serializedVersion: 2
         x: 160
@@ -248,7 +248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_6
+      name: vehicles_secway_6
       rect:
         serializedVersion: 2
         x: 192
@@ -269,7 +269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_7
+      name: vehicles_secway_7
       rect:
         serializedVersion: 2
         x: 224
@@ -290,7 +290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_8
+      name: vehicles_secway_8
       rect:
         serializedVersion: 2
         x: 256
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_9
+      name: vehicles_secway_9
       rect:
         serializedVersion: 2
         x: 288
@@ -332,7 +332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_10
+      name: vehicles_secway_10
       rect:
         serializedVersion: 2
         x: 320
@@ -353,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secway_11
+      name: vehicles_secway_11
       rect:
         serializedVersion: 2
         x: 352

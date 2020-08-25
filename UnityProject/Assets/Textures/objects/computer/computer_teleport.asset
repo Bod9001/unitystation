@@ -15,119 +15,119 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_0
+      spriteName: computer_teleport_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_0
+        m_SubObjectName: computer_teleport_0
     - sprite: {fileID: 21300008, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_4
+      spriteName: computer_teleport_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_4
+        m_SubObjectName: computer_teleport_4
     - sprite: {fileID: 21300016, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_8
+      spriteName: computer_teleport_8
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_8
+        m_SubObjectName: computer_teleport_8
     - sprite: {fileID: 21300024, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_12
+      spriteName: computer_teleport_12
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_12
+        m_SubObjectName: computer_teleport_12
   - Frames:
     - sprite: {fileID: 21300002, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_1
+      spriteName: computer_teleport_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_1
+        m_SubObjectName: computer_teleport_1
     - sprite: {fileID: 21300010, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_5
+      spriteName: computer_teleport_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_5
+        m_SubObjectName: computer_teleport_5
     - sprite: {fileID: 21300018, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_9
+      spriteName: computer_teleport_9
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_9
+        m_SubObjectName: computer_teleport_9
     - sprite: {fileID: 21300026, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_13
+      spriteName: computer_teleport_13
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_13
+        m_SubObjectName: computer_teleport_13
   - Frames:
     - sprite: {fileID: 21300004, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_2
+      spriteName: computer_teleport_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_2
+        m_SubObjectName: computer_teleport_2
     - sprite: {fileID: 21300012, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_6
+      spriteName: computer_teleport_6
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_6
+        m_SubObjectName: computer_teleport_6
     - sprite: {fileID: 21300020, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_10
+      spriteName: computer_teleport_10
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_10
+        m_SubObjectName: computer_teleport_10
     - sprite: {fileID: 21300028, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_14
+      spriteName: computer_teleport_14
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_14
+        m_SubObjectName: computer_teleport_14
   - Frames:
     - sprite: {fileID: 21300006, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_3
+      spriteName: computer_teleport_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_3
+        m_SubObjectName: computer_teleport_3
     - sprite: {fileID: 21300014, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_7
+      spriteName: computer_teleport_7
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_7
+        m_SubObjectName: computer_teleport_7
     - sprite: {fileID: 21300022, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_11
+      spriteName: computer_teleport_11
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_11
+        m_SubObjectName: computer_teleport_11
     - sprite: {fileID: 21300030, guid: 98f65611abd64164b91e2c6bd6616a04, type: 3}
-      spriteName: teleport_15
+      spriteName: computer_teleport_15
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: teleport_15
+        m_SubObjectName: computer_teleport_15
   IsPalette: 0
   setID: 13489

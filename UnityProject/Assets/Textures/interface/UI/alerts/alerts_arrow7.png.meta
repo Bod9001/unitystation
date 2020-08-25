@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: arrow7_0
+    second: alerts_arrow7_0
   - first:
       213: 21300002
-    second: arrow7_1
+    second: alerts_arrow7_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arrow7_0
+      name: alerts_arrow7_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrow7_1
+      name: alerts_arrow7_1
       rect:
         serializedVersion: 2
         x: 32

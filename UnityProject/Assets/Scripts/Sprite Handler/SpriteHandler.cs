@@ -16,15 +16,11 @@ using UnityEngine.UI;
 [ExecuteInEditMode]
 public class SpriteHandler : MonoBehaviour
 {
-
-	[SerializeField] public AssetReference PresentSpriteSetAddress;
-	[SerializeField] public List<AssetReference> SubCatalogueAddresses = new List<AssetReference>();
-
 	[SerializeField] private bool NetworkThis = true;
 
-	private List<SpriteDataSO> SubCatalogue = new List<SpriteDataSO>();
+	[SerializeField] private List<SpriteDataSO> SubCatalogue = new List<SpriteDataSO>();
 
-	private SpriteDataSO PresentSpriteSet;
+	[SerializeField] private SpriteDataSO PresentSpriteSet;
 	private SpriteDataSO.Frame PresentFrame = null;
 
 	private SpriteRenderer spriteRenderer;
@@ -32,8 +28,7 @@ public class SpriteHandler : MonoBehaviour
 
 	private int animationIndex = 0;
 
-	[SerializeField]
-	private bool pushTextureOnStartUp = true;
+	[SerializeField] private bool pushTextureOnStartUp = true;
 
 	[Range(0, 3)] [SerializeField] private int variantIndex = 0;
 
@@ -53,9 +48,11 @@ public class SpriteHandler : MonoBehaviour
 
 	private bool isSubCatalogueChanged = false;
 
-	[HideInInspector]
-	[SerializeField]
-	private List<SerialisationStanding> Sprites =new List<SerialisationStanding>();
+	private bool isImageCleared = false;
+
+	private bool isLoading = false;
+
+	[HideInInspector] [SerializeField] private List<SerialisationStanding> Sprites = new List<SerialisationStanding>();
 
 	/// <summary>
 	/// Invokes when sprite just changed by animation or other script
@@ -110,10 +107,7 @@ public class SpriteHandler : MonoBehaviour
 	/// </summary>
 	public bool IsHiden
 	{
-		get
-		{
-			return CurrentSprite == null || !gameObject.activeInHierarchy;
-		}
+		get { return CurrentSprite == null || !gameObject.activeInHierarchy; }
 	}
 
 	public NetworkIdentity GetMasterNetID()
@@ -262,8 +256,8 @@ public class SpriteHandler : MonoBehaviour
 	public void PushClear(bool Network = true)
 	{
 		if (Initialised == false) TryInit();
-		if (HasSpriteInImageComponent() == false) return;
-
+		if (isImageCleared == true) return;
+		isImageCleared = true;
 		SetImageSprite(null);
 		TryToggleAnimationState(false);
 		if (Network)
@@ -337,7 +331,7 @@ public class SpriteHandler : MonoBehaviour
 		TryToggleAnimationState(false);
 	}
 
-	private void NetUpdate(
+	public void NetUpdate(
 		SpriteDataSO NewSpriteDataSO = null,
 		int NewVariantIndex = -1,
 		int NewCataloguePage = -1,
@@ -385,6 +379,7 @@ public class SpriteHandler : MonoBehaviour
 			{
 				Logger.Log("NewSpriteDataSO NO ID!" + NewSpriteDataSO.name);
 			}
+
 			if (spriteChange.Empty) spriteChange.Empty = false;
 			spriteChange.PresentSpriteSet = NewSpriteDataSO.setID;
 		}
@@ -530,23 +525,20 @@ public class SpriteHandler : MonoBehaviour
 
 	private void TryInit()
 	{
+		foreach (var Sprite in SubCatalogue)
+		{
+			Sprite?.LoadAddressableReference();
+		}
 		GetImageComponent();
 		ImageComponentStatus(false);
 		Initialised = true;
-		if (PresentSpriteSetAddress != null && PresentSpriteSetAddress.RuntimeKey as string != "")
+		if (PresentSpriteSet != null)
 		{
 			if (HasImageComponent() && pushTextureOnStartUp)
 			{
-				LoadAddressableReference();
+				PushTexture(false);
 			}
 		}
-		// if (PresentSpriteSet != null)
-		// {
-			// if (HasImageComponent() && pushTextureOnStartUp)
-			// {
-				// PushTexture(false);
-			// }
-		// }
 
 		ImageComponentStatus(true);
 	}
@@ -620,9 +612,17 @@ public class SpriteHandler : MonoBehaviour
 
 	private void SetSprite(SpriteDataSO.Frame Frame)
 	{
+		isImageCleared = false;
 		timeElapsed = 0;
 		PresentFrame = Frame;
-		SetImageSprite(Frame.RuntimeSprite);
+		if (Frame.RuntimeSprite != null)
+		{
+			SetImageSprite(Frame.RuntimeSprite);
+		}
+		else
+		{
+			LoadSpriteDataSO();
+		}
 	}
 
 
@@ -677,21 +677,15 @@ public class SpriteHandler : MonoBehaviour
 			return;
 		}
 
-
 		if (this.gameObject.scene.path != null && this.gameObject.scene.path.Contains("Scenes") == false &&
 		    EditorAnimating == null)
 		{
 			Initialised = true;
 			GetImageComponent();
-			if (PresentSpriteSetAddress != null && PresentSpriteSet == null)
-			{
-				LoadAddressableReference();
-			}
-			else if (PresentSpriteSet != null)
+			if (PresentSpriteSet != null)
 			{
 				PushTexture();
 			}
-			//PushTexture();
 		}
 	}
 
@@ -731,30 +725,18 @@ public class SpriteHandler : MonoBehaviour
 	}
 
 
-	[NaughtyAttributes.Button("Forced Load")]
-	public void LoadAddressableReference()
+	private void LoadSpriteDataSO()
 	{
-#if UNITY_EDITOR
-		if (Application.isPlaying == false)
-		{
-			LoadspriteDataSO(PresentSpriteSetAddress.editorAsset as SpriteDataSO);
-			return;
-		}
-#endif
-		Addressables.LoadAssetsAsync<SpriteDataSO>(PresentSpriteSetAddress, LoadspriteDataSO);
+		isLoading = true;
+		PresentSpriteSet.LoadAddressableReference(FinishLoad);
 	}
 
-	private void LoadspriteDataSO(SpriteDataSO obj)
+	private void FinishLoad()
 	{
-		if (obj != null)
+		isLoading = false;
+		if (isImageCleared == false)
 		{
-			PresentSpriteSet = obj;
-			PresentSpriteSet.LoadAddressableReference(AddressableLoadProxy);
+			PushTexture(false);
 		}
-	}
-
-	private void AddressableLoadProxy()
-	{
-		PushTexture(false);
 	}
 }

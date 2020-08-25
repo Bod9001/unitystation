@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: spell_0
+    second: projectiles_spell_0
   - first:
       213: 21300002
-    second: spell_1
+    second: projectiles_spell_1
   - first:
       213: 21300004
-    second: spell_2
+    second: projectiles_spell_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spell_0
+      name: projectiles_spell_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spell_1
+      name: projectiles_spell_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spell_2
+      name: projectiles_spell_2
       rect:
         serializedVersion: 2
         x: 64

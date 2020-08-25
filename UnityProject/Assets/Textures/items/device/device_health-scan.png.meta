@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5921993903696030291
-    second: health-scan_0
+    second: device_health-scan_0
   - first:
       213: 3500186644074263955
-    second: health-scan_1
+    second: device_health-scan_1
   - first:
       213: 1733600672051457336
-    second: health-scan_2
+    second: device_health-scan_2
   - first:
       213: 9223190066340108408
-    second: health-scan_3
+    second: device_health-scan_3
   - first:
       213: 7046819340486902099
-    second: health-scan_4
+    second: device_health-scan_4
   - first:
       213: 1378989125738015172
-    second: health-scan_5
+    second: device_health-scan_5
   - first:
       213: 1287013920115753166
-    second: health-scan_6
+    second: device_health-scan_6
   - first:
       213: 6638313796540135215
-    second: health-scan_7
+    second: device_health-scan_7
   - first:
       213: 7096092597840566120
-    second: health-scan_8
+    second: device_health-scan_8
   - first:
       213: -1101872987289199645
-    second: health-scan_9
+    second: device_health-scan_9
   - first:
       213: -8089594255520077881
-    second: health-scan_10
+    second: device_health-scan_10
   - first:
       213: 6534853493426076530
-    second: health-scan_11
+    second: device_health-scan_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: health-scan_0
+      name: device_health-scan_0
       rect:
         serializedVersion: 2
         x: 0
@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_1
+      name: device_health-scan_1
       rect:
         serializedVersion: 2
         x: 32
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_2
+      name: device_health-scan_2
       rect:
         serializedVersion: 2
         x: 64
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_3
+      name: device_health-scan_3
       rect:
         serializedVersion: 2
         x: 96
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_4
+      name: device_health-scan_4
       rect:
         serializedVersion: 2
         x: 128
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_5
+      name: device_health-scan_5
       rect:
         serializedVersion: 2
         x: 160
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_6
+      name: device_health-scan_6
       rect:
         serializedVersion: 2
         x: 192
@@ -270,7 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_7
+      name: device_health-scan_7
       rect:
         serializedVersion: 2
         x: 224
@@ -291,7 +291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_8
+      name: device_health-scan_8
       rect:
         serializedVersion: 2
         x: 256
@@ -312,7 +312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_9
+      name: device_health-scan_9
       rect:
         serializedVersion: 2
         x: 288
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_10
+      name: device_health-scan_10
       rect:
         serializedVersion: 2
         x: 320
@@ -354,7 +354,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-scan_11
+      name: device_health-scan_11
       rect:
         serializedVersion: 2
         x: 352

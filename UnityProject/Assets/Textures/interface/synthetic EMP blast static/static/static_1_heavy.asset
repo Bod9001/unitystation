@@ -15,53 +15,53 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5d8bf2f8278b9a8478918a53fd6e1433, type: 3}
-      spriteName: 1_heavy_0
+      spriteName: static_1_heavy_0
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1_heavy_0
+        m_SubObjectName: static_1_heavy_0
     - sprite: {fileID: 21300002, guid: 5d8bf2f8278b9a8478918a53fd6e1433, type: 3}
-      spriteName: 1_heavy_1
+      spriteName: static_1_heavy_1
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1_heavy_1
+        m_SubObjectName: static_1_heavy_1
     - sprite: {fileID: 21300004, guid: 5d8bf2f8278b9a8478918a53fd6e1433, type: 3}
-      spriteName: 1_heavy_2
+      spriteName: static_1_heavy_2
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1_heavy_2
+        m_SubObjectName: static_1_heavy_2
     - sprite: {fileID: 21300006, guid: 5d8bf2f8278b9a8478918a53fd6e1433, type: 3}
-      spriteName: 1_heavy_3
+      spriteName: static_1_heavy_3
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1_heavy_3
+        m_SubObjectName: static_1_heavy_3
     - sprite: {fileID: 21300008, guid: 5d8bf2f8278b9a8478918a53fd6e1433, type: 3}
-      spriteName: 1_heavy_4
+      spriteName: static_1_heavy_4
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1_heavy_4
+        m_SubObjectName: static_1_heavy_4
     - sprite: {fileID: 21300010, guid: 5d8bf2f8278b9a8478918a53fd6e1433, type: 3}
-      spriteName: 1_heavy_5
+      spriteName: static_1_heavy_5
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1_heavy_5
+        m_SubObjectName: static_1_heavy_5
     - sprite: {fileID: 21300012, guid: 5d8bf2f8278b9a8478918a53fd6e1433, type: 3}
-      spriteName: 1_heavy_6
+      spriteName: static_1_heavy_6
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 1_heavy_6
+        m_SubObjectName: static_1_heavy_6
   IsPalette: 0
   setID: 3019

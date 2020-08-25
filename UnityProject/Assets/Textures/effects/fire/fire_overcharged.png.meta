@@ -4,31 +4,31 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: overcharged_0
+    second: fire_overcharged_0
   - first:
       213: 21300002
-    second: overcharged_1
+    second: fire_overcharged_1
   - first:
       213: 21300004
-    second: overcharged_2
+    second: fire_overcharged_2
   - first:
       213: 21300006
-    second: overcharged_3
+    second: fire_overcharged_3
   - first:
       213: 21300008
-    second: overcharged_4
+    second: fire_overcharged_4
   - first:
       213: 21300010
-    second: overcharged_5
+    second: fire_overcharged_5
   - first:
       213: 21300012
-    second: overcharged_6
+    second: fire_overcharged_6
   - first:
       213: 21300014
-    second: overcharged_7
+    second: fire_overcharged_7
   - first:
       213: 21300016
-    second: overcharged_8
+    second: fire_overcharged_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: overcharged_0
+      name: fire_overcharged_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,7 +134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: overcharged_1
+      name: fire_overcharged_1
       rect:
         serializedVersion: 2
         x: 32
@@ -155,7 +155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: overcharged_2
+      name: fire_overcharged_2
       rect:
         serializedVersion: 2
         x: 64
@@ -176,7 +176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: overcharged_3
+      name: fire_overcharged_3
       rect:
         serializedVersion: 2
         x: 96
@@ -197,7 +197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: overcharged_4
+      name: fire_overcharged_4
       rect:
         serializedVersion: 2
         x: 128
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: overcharged_5
+      name: fire_overcharged_5
       rect:
         serializedVersion: 2
         x: 160
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: overcharged_6
+      name: fire_overcharged_6
       rect:
         serializedVersion: 2
         x: 192
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: overcharged_7
+      name: fire_overcharged_7
       rect:
         serializedVersion: 2
         x: 224
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: overcharged_8
+      name: fire_overcharged_8
       rect:
         serializedVersion: 2
         x: 256

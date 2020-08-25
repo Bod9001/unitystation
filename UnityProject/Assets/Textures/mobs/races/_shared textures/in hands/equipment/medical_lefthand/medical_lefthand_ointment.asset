@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: d1b6901c3ef99e94a8c332f6ed302a5b, type: 3}
-      spriteName: ointment_0
+      spriteName: medical_lefthand_ointment_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: ointment_0
+        m_SubObjectName: medical_lefthand_ointment_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d1b6901c3ef99e94a8c332f6ed302a5b, type: 3}
-      spriteName: ointment_1
+      spriteName: medical_lefthand_ointment_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: ointment_1
+        m_SubObjectName: medical_lefthand_ointment_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d1b6901c3ef99e94a8c332f6ed302a5b, type: 3}
-      spriteName: ointment_2
+      spriteName: medical_lefthand_ointment_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: ointment_2
+        m_SubObjectName: medical_lefthand_ointment_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d1b6901c3ef99e94a8c332f6ed302a5b, type: 3}
-      spriteName: ointment_3
+      spriteName: medical_lefthand_ointment_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: ointment_3
+        m_SubObjectName: medical_lefthand_ointment_3
   IsPalette: 0
   setID: 10126

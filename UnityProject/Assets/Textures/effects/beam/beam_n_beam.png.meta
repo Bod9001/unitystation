@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: n_beam_0
+    second: beam_n_beam_0
   - first:
       213: 21300002
-    second: n_beam_1
+    second: beam_n_beam_1
   - first:
       213: 21300004
-    second: n_beam_2
+    second: beam_n_beam_2
   - first:
       213: 21300006
-    second: n_beam_3
+    second: beam_n_beam_3
   - first:
       213: 21300008
-    second: n_beam_4
+    second: beam_n_beam_4
   - first:
       213: 21300010
-    second: n_beam_5
+    second: beam_n_beam_5
   - first:
       213: 21300012
-    second: n_beam_6
+    second: beam_n_beam_6
   - first:
       213: 21300014
-    second: n_beam_7
+    second: beam_n_beam_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: n_beam_0
+      name: beam_n_beam_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: n_beam_1
+      name: beam_n_beam_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: n_beam_2
+      name: beam_n_beam_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: n_beam_3
+      name: beam_n_beam_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: n_beam_4
+      name: beam_n_beam_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: n_beam_5
+      name: beam_n_beam_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: n_beam_6
+      name: beam_n_beam_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: n_beam_7
+      name: beam_n_beam_7
       rect:
         serializedVersion: 2
         x: 224

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: banana_tree_0
-  - first:
-      213: 21300002
-    second: banana_tree_1
-  - first:
-      213: 21300004
-    second: banana_tree_2
-  - first:
-      213: 21300006
-    second: banana_tree_3
-  - first:
-      213: -3546130510537842438
     second: clown posse_banana_tree_0
   - first:
-      213: 6312840244101099961
+      213: 21300002
     second: clown posse_banana_tree_1
   - first:
-      213: 4246164390195083073
+      213: 21300004
     second: clown posse_banana_tree_2
   - first:
-      213: -3538032464628820912
+      213: 21300006
     second: clown posse_banana_tree_3
+  - first:
+      213: -3546130510537842438
+    second: clown posse_clown posse_banana_tree_0
+  - first:
+      213: 6312840244101099961
+    second: clown posse_clown posse_banana_tree_1
+  - first:
+      213: 4246164390195083073
+    second: clown posse_clown posse_banana_tree_2
+  - first:
+      213: -3538032464628820912
+    second: clown posse_clown posse_banana_tree_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown posse_banana_tree_0
+      name: clown posse_clown posse_banana_tree_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_banana_tree_1
+      name: clown posse_clown posse_banana_tree_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_banana_tree_2
+      name: clown posse_clown posse_banana_tree_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_banana_tree_3
+      name: clown posse_clown posse_banana_tree_3
       rect:
         serializedVersion: 2
         x: 192

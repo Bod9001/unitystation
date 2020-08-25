@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pflash_flash_0
+    second: stationobjs_pflash_flash_0
   - first:
       213: 21300002
-    second: pflash_flash_1
+    second: stationobjs_pflash_flash_1
   - first:
       213: 21300004
-    second: pflash_flash_2
+    second: stationobjs_pflash_flash_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pflash_flash_0
+      name: stationobjs_pflash_flash_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pflash_flash_1
+      name: stationobjs_pflash_flash_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pflash_flash_2
+      name: stationobjs_pflash_flash_2
       rect:
         serializedVersion: 2
         x: 64

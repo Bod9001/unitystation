@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0119c21de35e01349b3fde02fac930a7, type: 3}
-      spriteName: runed_sense2_0
+      spriteName: alerts_runed_sense2_0
       secondDelay: 0.7
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: runed_sense2_0
+        m_SubObjectName: alerts_runed_sense2_0
     - sprite: {fileID: 21300002, guid: 0119c21de35e01349b3fde02fac930a7, type: 3}
-      spriteName: runed_sense2_1
+      spriteName: alerts_runed_sense2_1
       secondDelay: 0.7
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: runed_sense2_1
+        m_SubObjectName: alerts_runed_sense2_1
   IsPalette: 0
   setID: 3162

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: jeans_0
+    second: jeans_jeans_0
   - first:
       213: 21300002
-    second: jeans_1
+    second: jeans_jeans_1
   - first:
       213: 21300004
-    second: jeans_2
+    second: jeans_jeans_2
   - first:
       213: 21300006
-    second: jeans_3
+    second: jeans_jeans_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jeans_0
+      name: jeans_jeans_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeans_1
+      name: jeans_jeans_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeans_2
+      name: jeans_jeans_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeans_3
+      name: jeans_jeans_3
       rect:
         serializedVersion: 2
         x: 96

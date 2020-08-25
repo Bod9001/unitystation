@@ -15,12 +15,12 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   LightEmission: {fileID: 0}
-  objectLightEmission: {fileID: 0}
   Intensity: 0.7
   Colour: {r: 0.16862746, g: 0.25988537, b: 0.9372549, a: 0.53333336}
   EnumSprite: 1
   Size: 1.5
   IsOn: 1
+  CachedIntensity: 1
   PlayerLightData:
     Intensity: 0.7
     Colour: {r: 0.16862746, g: 0.25882354, b: 0.9372549, a: 0.53333336}
@@ -444,11 +444,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
         type: 3}
-      propertyPath: SubCatalogueAddresses.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
-        type: 3}
       propertyPath: Sprites.Array.data[0].Texture
       value: 
       objectReference: {fileID: 2800000, guid: 9dfb6f9495b447a4f864094b7ce55dda, type: 3}
@@ -486,16 +481,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: d99268d7599218c40ab41b0f2379bd81,
         type: 2}
-    - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: d99268d7599218c40ab41b0f2379bd81
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[0].m_AssetGUID
-      value: 110d5565d93e5dd43b5e33d05b528a06
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7abba22164ce49f0bf9b9b219f39298, type: 3}
 --- !u!1 &100328150011014054 stripped

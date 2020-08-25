@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 3a87e0073d3c49441bc65948bb498fd0, type: 3}
-      spriteName: engspace_suit_0
+      spriteName: suits_engspace_suit_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: engspace_suit_0
+        m_SubObjectName: suits_engspace_suit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3a87e0073d3c49441bc65948bb498fd0, type: 3}
-      spriteName: engspace_suit_1
+      spriteName: suits_engspace_suit_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: engspace_suit_1
+        m_SubObjectName: suits_engspace_suit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3a87e0073d3c49441bc65948bb498fd0, type: 3}
-      spriteName: engspace_suit_2
+      spriteName: suits_engspace_suit_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: engspace_suit_2
+        m_SubObjectName: suits_engspace_suit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3a87e0073d3c49441bc65948bb498fd0, type: 3}
-      spriteName: engspace_suit_3
+      spriteName: suits_engspace_suit_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: engspace_suit_3
+        m_SubObjectName: suits_engspace_suit_3
   IsPalette: 0
   setID: 886

@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: smash_0
+    second: attack_smash_0
   - first:
       213: 21300002
-    second: smash_1
+    second: attack_smash_1
   - first:
       213: 21300004
-    second: smash_2
+    second: attack_smash_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: smash_0
+      name: attack_smash_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smash_1
+      name: attack_smash_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smash_2
+      name: attack_smash_2
       rect:
         serializedVersion: 2
         x: 64

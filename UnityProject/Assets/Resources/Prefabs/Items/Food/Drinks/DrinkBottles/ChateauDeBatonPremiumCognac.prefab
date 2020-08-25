@@ -13,11 +13,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ff88579bbcfad7d43a14d5d6e269bd71,
         type: 2}
-    - target: {fileID: 46755647271444012, guid: f1a38b78ce2ca024a92744e263e5e94a,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: ff88579bbcfad7d43a14d5d6e269bd71
-      objectReference: {fileID: 0}
     - target: {fileID: 4956784215611960579, guid: f1a38b78ce2ca024a92744e263e5e94a,
         type: 3}
       propertyPath: initialReagentMix.reagents.m_keys.Array.size

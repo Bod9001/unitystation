@@ -15,60 +15,60 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e0fe9f90c1a5c19478578f5cc92a8a6c, type: 3}
-      spriteName: orb_0
+      spriteName: lighting_orb_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: orb_0
+        m_SubObjectName: lighting_orb_0
     - sprite: {fileID: 21300002, guid: e0fe9f90c1a5c19478578f5cc92a8a6c, type: 3}
-      spriteName: orb_1
+      spriteName: lighting_orb_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: orb_1
+        m_SubObjectName: lighting_orb_1
     - sprite: {fileID: 21300004, guid: e0fe9f90c1a5c19478578f5cc92a8a6c, type: 3}
-      spriteName: orb_2
+      spriteName: lighting_orb_2
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: orb_2
+        m_SubObjectName: lighting_orb_2
     - sprite: {fileID: 21300006, guid: e0fe9f90c1a5c19478578f5cc92a8a6c, type: 3}
-      spriteName: orb_3
+      spriteName: lighting_orb_3
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: orb_3
+        m_SubObjectName: lighting_orb_3
     - sprite: {fileID: 21300008, guid: e0fe9f90c1a5c19478578f5cc92a8a6c, type: 3}
-      spriteName: orb_4
+      spriteName: lighting_orb_4
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: orb_4
+        m_SubObjectName: lighting_orb_4
     - sprite: {fileID: 21300010, guid: e0fe9f90c1a5c19478578f5cc92a8a6c, type: 3}
-      spriteName: orb_5
+      spriteName: lighting_orb_5
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: orb_5
+        m_SubObjectName: lighting_orb_5
     - sprite: {fileID: 21300012, guid: e0fe9f90c1a5c19478578f5cc92a8a6c, type: 3}
-      spriteName: orb_6
+      spriteName: lighting_orb_6
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: orb_6
+        m_SubObjectName: lighting_orb_6
     - sprite: {fileID: 21300014, guid: e0fe9f90c1a5c19478578f5cc92a8a6c, type: 3}
-      spriteName: orb_7
+      spriteName: lighting_orb_7
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: orb_7
+        m_SubObjectName: lighting_orb_7
   IsPalette: 0
   setID: 15581

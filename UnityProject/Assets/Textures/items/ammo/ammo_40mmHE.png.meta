@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: 40mmHE_0
+    second: ammo_40mmHE_0
   - first:
       213: 21300002
-    second: 40mmHE_1
+    second: ammo_40mmHE_1
   - first:
       213: 21300004
-    second: 40mmHE_2
+    second: ammo_40mmHE_2
   - first:
       213: 21300006
-    second: 40mmHE_3
+    second: ammo_40mmHE_3
   - first:
       213: 21300008
-    second: 40mmHE_4
+    second: ammo_40mmHE_4
   - first:
       213: 21300010
-    second: 40mmHE_5
+    second: ammo_40mmHE_5
   - first:
       213: 21300012
-    second: 40mmHE_6
+    second: ammo_40mmHE_6
   - first:
       213: 21300014
-    second: 40mmHE_7
+    second: ammo_40mmHE_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 40mmHE_0
+      name: ammo_40mmHE_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 40mmHE_1
+      name: ammo_40mmHE_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 40mmHE_2
+      name: ammo_40mmHE_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 40mmHE_3
+      name: ammo_40mmHE_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 40mmHE_4
+      name: ammo_40mmHE_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 40mmHE_5
+      name: ammo_40mmHE_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 40mmHE_6
+      name: ammo_40mmHE_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 40mmHE_7
+      name: ammo_40mmHE_7
       rect:
         serializedVersion: 2
         x: 224

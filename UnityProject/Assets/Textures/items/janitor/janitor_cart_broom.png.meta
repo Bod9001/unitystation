@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1439894576725105077
-    second: cart_broom_0
+    second: janitor_cart_broom_0
   - first:
       213: -4160367402364610616
-    second: cart_broom_1
+    second: janitor_cart_broom_1
   - first:
       213: 67992131262347638
-    second: cart_broom_2
+    second: janitor_cart_broom_2
   - first:
       213: 8157409332486614734
-    second: cart_broom_3
+    second: janitor_cart_broom_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cart_broom_0
+      name: janitor_cart_broom_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cart_broom_1
+      name: janitor_cart_broom_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cart_broom_2
+      name: janitor_cart_broom_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cart_broom_3
+      name: janitor_cart_broom_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1220001564247008755
-    second: oxapen_0
+    second: medical_lefthand_oxapen_0
   - first:
       213: -7368899396047419497
-    second: oxapen_1
+    second: medical_lefthand_oxapen_1
   - first:
       213: -7608726692463480056
-    second: oxapen_2
+    second: medical_lefthand_oxapen_2
   - first:
       213: -7518945370657993254
-    second: oxapen_3
+    second: medical_lefthand_oxapen_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oxapen_0
+      name: medical_lefthand_oxapen_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oxapen_1
+      name: medical_lefthand_oxapen_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oxapen_2
+      name: medical_lefthand_oxapen_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oxapen_3
+      name: medical_lefthand_oxapen_3
       rect:
         serializedVersion: 2
         x: 96

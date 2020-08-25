@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: fleshclown_0
-  - first:
-      213: 21300002
-    second: fleshclown_1
-  - first:
-      213: 21300004
-    second: fleshclown_2
-  - first:
-      213: 21300006
-    second: fleshclown_3
-  - first:
-      213: -1595696804850321135
     second: clown posse_fleshclown_0
   - first:
-      213: 5965393798201468794
+      213: 21300002
     second: clown posse_fleshclown_1
   - first:
-      213: -1573366922709241442
+      213: 21300004
     second: clown posse_fleshclown_2
   - first:
-      213: 5328318128733040218
+      213: 21300006
     second: clown posse_fleshclown_3
+  - first:
+      213: -1595696804850321135
+    second: clown posse_clown posse_fleshclown_0
+  - first:
+      213: 5965393798201468794
+    second: clown posse_clown posse_fleshclown_1
+  - first:
+      213: -1573366922709241442
+    second: clown posse_clown posse_fleshclown_2
+  - first:
+      213: 5328318128733040218
+    second: clown posse_clown posse_fleshclown_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown posse_fleshclown_0
+      name: clown posse_clown posse_fleshclown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_fleshclown_1
+      name: clown posse_clown posse_fleshclown_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_fleshclown_2
+      name: clown posse_clown posse_fleshclown_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_fleshclown_3
+      name: clown posse_clown posse_fleshclown_3
       rect:
         serializedVersion: 2
         x: 192

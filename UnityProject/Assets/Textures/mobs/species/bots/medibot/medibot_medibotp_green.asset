@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8bf60ff7e38051a4e957e2b128ec256d, type: 3}
-      spriteName: medibotp_green_0
+      spriteName: medibot_medibotp_green_0
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: medibotp_green_0
+        m_SubObjectName: medibot_medibotp_green_0
     - sprite: {fileID: 21300002, guid: 8bf60ff7e38051a4e957e2b128ec256d, type: 3}
-      spriteName: medibotp_green_1
+      spriteName: medibot_medibotp_green_1
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: medibotp_green_1
+        m_SubObjectName: medibot_medibotp_green_1
   IsPalette: 0
   setID: 12130

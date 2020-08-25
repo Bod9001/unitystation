@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: a5423fa7c5bc166439a1fae0d9b4e4fa, type: 3}
-      spriteName: flyswatter_0
+      spriteName: melee_righthand_flyswatter_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: flyswatter_0
+        m_SubObjectName: melee_righthand_flyswatter_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a5423fa7c5bc166439a1fae0d9b4e4fa, type: 3}
-      spriteName: flyswatter_1
+      spriteName: melee_righthand_flyswatter_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: flyswatter_1
+        m_SubObjectName: melee_righthand_flyswatter_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a5423fa7c5bc166439a1fae0d9b4e4fa, type: 3}
-      spriteName: flyswatter_2
+      spriteName: melee_righthand_flyswatter_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: flyswatter_2
+        m_SubObjectName: melee_righthand_flyswatter_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a5423fa7c5bc166439a1fae0d9b4e4fa, type: 3}
-      spriteName: flyswatter_3
+      spriteName: melee_righthand_flyswatter_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: flyswatter_3
+        m_SubObjectName: melee_righthand_flyswatter_3
   IsPalette: 0
   setID: 22444

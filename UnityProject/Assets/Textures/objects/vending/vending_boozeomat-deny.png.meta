@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: boozeomat-deny_0
+    second: vending_boozeomat-deny_0
   - first:
       213: 21300002
-    second: boozeomat-deny_1
+    second: vending_boozeomat-deny_1
   - first:
       213: 21300004
-    second: boozeomat-deny_2
+    second: vending_boozeomat-deny_2
   - first:
       213: 21300006
-    second: boozeomat-deny_3
+    second: vending_boozeomat-deny_3
   - first:
       213: 21300008
-    second: boozeomat-deny_4
+    second: vending_boozeomat-deny_4
   - first:
       213: 21300010
-    second: boozeomat-deny_5
+    second: vending_boozeomat-deny_5
   - first:
       213: 21300012
-    second: boozeomat-deny_6
+    second: vending_boozeomat-deny_6
   - first:
       213: 21300014
-    second: boozeomat-deny_7
+    second: vending_boozeomat-deny_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boozeomat-deny_0
+      name: vending_boozeomat-deny_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boozeomat-deny_1
+      name: vending_boozeomat-deny_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boozeomat-deny_2
+      name: vending_boozeomat-deny_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boozeomat-deny_3
+      name: vending_boozeomat-deny_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boozeomat-deny_4
+      name: vending_boozeomat-deny_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boozeomat-deny_5
+      name: vending_boozeomat-deny_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boozeomat-deny_6
+      name: vending_boozeomat-deny_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boozeomat-deny_7
+      name: vending_boozeomat-deny_7
       rect:
         serializedVersion: 2
         x: 224

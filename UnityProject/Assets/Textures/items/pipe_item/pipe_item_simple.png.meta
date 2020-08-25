@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: simple_0
+    second: pipe_item_simple_0
   - first:
       213: 21300002
-    second: simple_1
+    second: pipe_item_simple_1
   - first:
       213: 21300004
-    second: simple_2
+    second: pipe_item_simple_2
   - first:
       213: 21300006
-    second: simple_3
+    second: pipe_item_simple_3
   - first:
       213: 21300008
-    second: simple_4
+    second: pipe_item_simple_4
   - first:
       213: 21300010
-    second: simple_5
+    second: pipe_item_simple_5
   - first:
       213: 21300012
-    second: simple_6
+    second: pipe_item_simple_6
   - first:
       213: 21300014
-    second: simple_7
+    second: pipe_item_simple_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: simple_0
+      name: pipe_item_simple_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: simple_1
+      name: pipe_item_simple_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: simple_2
+      name: pipe_item_simple_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: simple_3
+      name: pipe_item_simple_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: simple_4
+      name: pipe_item_simple_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: simple_5
+      name: pipe_item_simple_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: simple_6
+      name: pipe_item_simple_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: simple_7
+      name: pipe_item_simple_7
       rect:
         serializedVersion: 2
         x: 224

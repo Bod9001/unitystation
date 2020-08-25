@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8373149a7f4a8d2489b43f886bc4d942, type: 3}
-      spriteName: sloth_0
+      spriteName: pets_sloth_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: sloth_0
+        m_SubObjectName: pets_sloth_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8373149a7f4a8d2489b43f886bc4d942, type: 3}
-      spriteName: sloth_1
+      spriteName: pets_sloth_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: sloth_1
+        m_SubObjectName: pets_sloth_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8373149a7f4a8d2489b43f886bc4d942, type: 3}
-      spriteName: sloth_2
+      spriteName: pets_sloth_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: sloth_2
+        m_SubObjectName: pets_sloth_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8373149a7f4a8d2489b43f886bc4d942, type: 3}
-      spriteName: sloth_3
+      spriteName: pets_sloth_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: sloth_3
+        m_SubObjectName: pets_sloth_3
   IsPalette: 0
   setID: 12438

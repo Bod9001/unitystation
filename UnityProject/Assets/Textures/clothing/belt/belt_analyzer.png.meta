@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 3230144511536662429
-    second: analyzer_0
+    second: belt_analyzer_0
   - first:
       213: -6806582351268594072
-    second: analyzer_1
+    second: belt_analyzer_1
   - first:
       213: 3069808996114181475
-    second: analyzer_2
+    second: belt_analyzer_2
   - first:
       213: 5188306163672635081
-    second: analyzer_3
+    second: belt_analyzer_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: analyzer_0
+      name: belt_analyzer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: analyzer_1
+      name: belt_analyzer_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: analyzer_2
+      name: belt_analyzer_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: analyzer_3
+      name: belt_analyzer_3
       rect:
         serializedVersion: 2
         x: 96

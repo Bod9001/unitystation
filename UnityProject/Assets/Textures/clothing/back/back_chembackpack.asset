@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2954be4271240294cbecb43d8bc83647, type: 3}
-      spriteName: chembackpack_0
+      spriteName: back_chembackpack_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chembackpack_0
+        m_SubObjectName: back_chembackpack_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2954be4271240294cbecb43d8bc83647, type: 3}
-      spriteName: chembackpack_1
+      spriteName: back_chembackpack_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chembackpack_1
+        m_SubObjectName: back_chembackpack_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2954be4271240294cbecb43d8bc83647, type: 3}
-      spriteName: chembackpack_2
+      spriteName: back_chembackpack_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chembackpack_2
+        m_SubObjectName: back_chembackpack_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2954be4271240294cbecb43d8bc83647, type: 3}
-      spriteName: chembackpack_3
+      spriteName: back_chembackpack_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chembackpack_3
+        m_SubObjectName: back_chembackpack_3
   IsPalette: 0
   setID: 265

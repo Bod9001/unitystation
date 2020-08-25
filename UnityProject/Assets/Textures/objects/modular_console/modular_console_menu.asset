@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c96d8dc26d58b6f42b11336acaf02a7c, type: 3}
-      spriteName: menu_0
+      spriteName: modular_console_menu_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: menu_0
+        m_SubObjectName: modular_console_menu_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c96d8dc26d58b6f42b11336acaf02a7c, type: 3}
-      spriteName: menu_1
+      spriteName: modular_console_menu_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: menu_1
+        m_SubObjectName: modular_console_menu_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c96d8dc26d58b6f42b11336acaf02a7c, type: 3}
-      spriteName: menu_2
+      spriteName: modular_console_menu_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: menu_2
+        m_SubObjectName: modular_console_menu_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c96d8dc26d58b6f42b11336acaf02a7c, type: 3}
-      spriteName: menu_3
+      spriteName: modular_console_menu_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: menu_3
+        m_SubObjectName: modular_console_menu_3
   IsPalette: 0
   setID: 16219

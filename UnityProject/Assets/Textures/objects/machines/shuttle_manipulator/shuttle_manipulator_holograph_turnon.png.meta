@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: holograph_turnon_0
+    second: shuttle_manipulator_holograph_turnon_0
   - first:
       213: 21300002
-    second: holograph_turnon_1
+    second: shuttle_manipulator_holograph_turnon_1
   - first:
       213: 21300004
-    second: holograph_turnon_2
+    second: shuttle_manipulator_holograph_turnon_2
   - first:
       213: 21300006
-    second: holograph_turnon_3
+    second: shuttle_manipulator_holograph_turnon_3
   - first:
       213: 21300008
-    second: holograph_turnon_4
+    second: shuttle_manipulator_holograph_turnon_4
   - first:
       213: 21300010
-    second: holograph_turnon_5
+    second: shuttle_manipulator_holograph_turnon_5
   - first:
       213: 21300012
-    second: holograph_turnon_6
+    second: shuttle_manipulator_holograph_turnon_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: holograph_turnon_0
+      name: shuttle_manipulator_holograph_turnon_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holograph_turnon_1
+      name: shuttle_manipulator_holograph_turnon_1
       rect:
         serializedVersion: 2
         x: 64
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holograph_turnon_2
+      name: shuttle_manipulator_holograph_turnon_2
       rect:
         serializedVersion: 2
         x: 128
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holograph_turnon_3
+      name: shuttle_manipulator_holograph_turnon_3
       rect:
         serializedVersion: 2
         x: 192
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holograph_turnon_4
+      name: shuttle_manipulator_holograph_turnon_4
       rect:
         serializedVersion: 2
         x: 256
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holograph_turnon_5
+      name: shuttle_manipulator_holograph_turnon_5
       rect:
         serializedVersion: 2
         x: 320
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holograph_turnon_6
+      name: shuttle_manipulator_holograph_turnon_6
       rect:
         serializedVersion: 2
         x: 384

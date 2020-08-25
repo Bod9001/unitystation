@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sovietsoda_0
+    second: vending_sovietsoda_0
   - first:
       213: 21300002
-    second: sovietsoda_1
+    second: vending_sovietsoda_1
   - first:
       213: 21300004
-    second: sovietsoda_2
+    second: vending_sovietsoda_2
   - first:
       213: 21300006
-    second: sovietsoda_3
+    second: vending_sovietsoda_3
   - first:
       213: 21300008
-    second: sovietsoda_4
+    second: vending_sovietsoda_4
   - first:
       213: 21300010
-    second: sovietsoda_5
+    second: vending_sovietsoda_5
   - first:
       213: 21300012
-    second: sovietsoda_6
+    second: vending_sovietsoda_6
   - first:
       213: 21300014
-    second: sovietsoda_7
+    second: vending_sovietsoda_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sovietsoda_0
+      name: vending_sovietsoda_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sovietsoda_1
+      name: vending_sovietsoda_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sovietsoda_2
+      name: vending_sovietsoda_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sovietsoda_3
+      name: vending_sovietsoda_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sovietsoda_4
+      name: vending_sovietsoda_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sovietsoda_5
+      name: vending_sovietsoda_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sovietsoda_6
+      name: vending_sovietsoda_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sovietsoda_7
+      name: vending_sovietsoda_7
       rect:
         serializedVersion: 2
         x: 224

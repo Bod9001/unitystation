@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: cada0e3dc742da544b6e0f6ffb270eab, type: 3}
-      spriteName: demonomicon_0
+      spriteName: library_demonomicon_0
       secondDelay: 0.5
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: demonomicon_0
+        m_SubObjectName: library_demonomicon_0
     - sprite: {fileID: 21300002, guid: cada0e3dc742da544b6e0f6ffb270eab, type: 3}
-      spriteName: demonomicon_1
+      spriteName: library_demonomicon_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: demonomicon_1
+        m_SubObjectName: library_demonomicon_1
     - sprite: {fileID: 21300004, guid: cada0e3dc742da544b6e0f6ffb270eab, type: 3}
-      spriteName: demonomicon_2
+      spriteName: library_demonomicon_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: demonomicon_2
+        m_SubObjectName: library_demonomicon_2
     - sprite: {fileID: 21300006, guid: cada0e3dc742da544b6e0f6ffb270eab, type: 3}
-      spriteName: demonomicon_3
+      spriteName: library_demonomicon_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: demonomicon_3
+        m_SubObjectName: library_demonomicon_3
   IsPalette: 0
   setID: 8164

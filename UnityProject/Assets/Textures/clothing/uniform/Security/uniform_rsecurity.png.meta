@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: rsecurity_0
+    second: Security_rsecurity_0
   - first:
       213: 21300002
-    second: rsecurity_1
+    second: Security_rsecurity_1
   - first:
       213: 21300004
-    second: rsecurity_2
+    second: Security_rsecurity_2
   - first:
       213: 21300006
-    second: rsecurity_3
+    second: Security_rsecurity_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rsecurity_0
+      name: Security_rsecurity_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rsecurity_1
+      name: Security_rsecurity_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rsecurity_2
+      name: Security_rsecurity_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rsecurity_3
+      name: Security_rsecurity_3
       rect:
         serializedVersion: 2
         x: 96

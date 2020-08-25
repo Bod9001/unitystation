@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: efda86a59c112724cbee24fb44cc2184, type: 3}
-      spriteName: hypertool_0
+      spriteName: tools_lefthand_hypertool_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: hypertool_0
+        m_SubObjectName: tools_lefthand_hypertool_0
   - Frames:
     - sprite: {fileID: 21300002, guid: efda86a59c112724cbee24fb44cc2184, type: 3}
-      spriteName: hypertool_1
+      spriteName: tools_lefthand_hypertool_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: hypertool_1
+        m_SubObjectName: tools_lefthand_hypertool_1
   - Frames:
     - sprite: {fileID: 21300004, guid: efda86a59c112724cbee24fb44cc2184, type: 3}
-      spriteName: hypertool_2
+      spriteName: tools_lefthand_hypertool_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: hypertool_2
+        m_SubObjectName: tools_lefthand_hypertool_2
   - Frames:
     - sprite: {fileID: 21300006, guid: efda86a59c112724cbee24fb44cc2184, type: 3}
-      spriteName: hypertool_3
+      spriteName: tools_lefthand_hypertool_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: hypertool_3
+        m_SubObjectName: tools_lefthand_hypertool_3
   IsPalette: 0
   setID: 10243

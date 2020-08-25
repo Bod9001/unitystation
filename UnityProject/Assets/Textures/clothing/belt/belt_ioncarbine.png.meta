@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: ioncarbine_0
+    second: belt_ioncarbine_0
   - first:
       213: 21300002
-    second: ioncarbine_1
+    second: belt_ioncarbine_1
   - first:
       213: 21300004
-    second: ioncarbine_2
+    second: belt_ioncarbine_2
   - first:
       213: 21300006
-    second: ioncarbine_3
+    second: belt_ioncarbine_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ioncarbine_0
+      name: belt_ioncarbine_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ioncarbine_1
+      name: belt_ioncarbine_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ioncarbine_2
+      name: belt_ioncarbine_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ioncarbine_3
+      name: belt_ioncarbine_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: nanite_chamber_active_0
+    second: nanite_chamber_nanite_chamber_active_0
   - first:
       213: 21300002
-    second: nanite_chamber_active_1
+    second: nanite_chamber_nanite_chamber_active_1
   - first:
       213: 21300004
-    second: nanite_chamber_active_2
+    second: nanite_chamber_nanite_chamber_active_2
   - first:
       213: 21300006
-    second: nanite_chamber_active_3
+    second: nanite_chamber_nanite_chamber_active_3
   - first:
       213: 21300008
-    second: nanite_chamber_active_4
+    second: nanite_chamber_nanite_chamber_active_4
   - first:
       213: 21300010
-    second: nanite_chamber_active_5
+    second: nanite_chamber_nanite_chamber_active_5
   - first:
       213: 21300012
-    second: nanite_chamber_active_6
+    second: nanite_chamber_nanite_chamber_active_6
   - first:
       213: 21300014
-    second: nanite_chamber_active_7
+    second: nanite_chamber_nanite_chamber_active_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nanite_chamber_active_0
+      name: nanite_chamber_nanite_chamber_active_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nanite_chamber_active_1
+      name: nanite_chamber_nanite_chamber_active_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nanite_chamber_active_2
+      name: nanite_chamber_nanite_chamber_active_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nanite_chamber_active_3
+      name: nanite_chamber_nanite_chamber_active_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nanite_chamber_active_4
+      name: nanite_chamber_nanite_chamber_active_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nanite_chamber_active_5
+      name: nanite_chamber_nanite_chamber_active_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nanite_chamber_active_6
+      name: nanite_chamber_nanite_chamber_active_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nanite_chamber_active_7
+      name: nanite_chamber_nanite_chamber_active_7
       rect:
         serializedVersion: 2
         x: 224

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
-      spriteName: carton_0
+      spriteName: kitchen_righthand_carton_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: carton_0
+        m_SubObjectName: kitchen_righthand_carton_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
-      spriteName: carton_1
+      spriteName: kitchen_righthand_carton_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: carton_1
+        m_SubObjectName: kitchen_righthand_carton_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
-      spriteName: carton_2
+      spriteName: kitchen_righthand_carton_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: carton_2
+        m_SubObjectName: kitchen_righthand_carton_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d85b95fa86f0ddc4f9b9c0ec1cdda80b, type: 3}
-      spriteName: carton_3
+      spriteName: kitchen_righthand_carton_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: carton_3
+        m_SubObjectName: kitchen_righthand_carton_3
   IsPalette: 0
   setID: 22211

@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pussywagon_0
+    second: vehicles_pussywagon_0
   - first:
       213: 21300002
-    second: pussywagon_1
+    second: vehicles_pussywagon_1
   - first:
       213: 21300004
-    second: pussywagon_2
+    second: vehicles_pussywagon_2
   - first:
       213: 21300006
-    second: pussywagon_3
+    second: vehicles_pussywagon_3
   - first:
       213: 21300008
-    second: pussywagon_4
+    second: vehicles_pussywagon_4
   - first:
       213: 21300010
-    second: pussywagon_5
+    second: vehicles_pussywagon_5
   - first:
       213: 21300012
-    second: pussywagon_6
+    second: vehicles_pussywagon_6
   - first:
       213: 21300014
-    second: pussywagon_7
+    second: vehicles_pussywagon_7
   - first:
       213: 21300016
-    second: pussywagon_8
+    second: vehicles_pussywagon_8
   - first:
       213: 21300018
-    second: pussywagon_9
+    second: vehicles_pussywagon_9
   - first:
       213: 21300020
-    second: pussywagon_10
+    second: vehicles_pussywagon_10
   - first:
       213: 21300022
-    second: pussywagon_11
+    second: vehicles_pussywagon_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pussywagon_0
+      name: vehicles_pussywagon_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_1
+      name: vehicles_pussywagon_1
       rect:
         serializedVersion: 2
         x: 32
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_2
+      name: vehicles_pussywagon_2
       rect:
         serializedVersion: 2
         x: 64
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_3
+      name: vehicles_pussywagon_3
       rect:
         serializedVersion: 2
         x: 96
@@ -206,7 +206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_4
+      name: vehicles_pussywagon_4
       rect:
         serializedVersion: 2
         x: 128
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_5
+      name: vehicles_pussywagon_5
       rect:
         serializedVersion: 2
         x: 160
@@ -248,7 +248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_6
+      name: vehicles_pussywagon_6
       rect:
         serializedVersion: 2
         x: 192
@@ -269,7 +269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_7
+      name: vehicles_pussywagon_7
       rect:
         serializedVersion: 2
         x: 224
@@ -290,7 +290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_8
+      name: vehicles_pussywagon_8
       rect:
         serializedVersion: 2
         x: 256
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_9
+      name: vehicles_pussywagon_9
       rect:
         serializedVersion: 2
         x: 288
@@ -332,7 +332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_10
+      name: vehicles_pussywagon_10
       rect:
         serializedVersion: 2
         x: 320
@@ -353,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pussywagon_11
+      name: vehicles_pussywagon_11
       rect:
         serializedVersion: 2
         x: 352

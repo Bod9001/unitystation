@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ba9d56b885ebbb94e854f3a2421b2751, type: 3}
-      spriteName: junction0_0
+      spriteName: transit_tube_junction0_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: junction0_0
+        m_SubObjectName: transit_tube_junction0_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ba9d56b885ebbb94e854f3a2421b2751, type: 3}
-      spriteName: junction0_1
+      spriteName: transit_tube_junction0_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: junction0_1
+        m_SubObjectName: transit_tube_junction0_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ba9d56b885ebbb94e854f3a2421b2751, type: 3}
-      spriteName: junction0_2
+      spriteName: transit_tube_junction0_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: junction0_2
+        m_SubObjectName: transit_tube_junction0_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ba9d56b885ebbb94e854f3a2421b2751, type: 3}
-      spriteName: junction0_3
+      spriteName: transit_tube_junction0_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: junction0_3
+        m_SubObjectName: transit_tube_junction0_3
   IsPalette: 0
   setID: 17615

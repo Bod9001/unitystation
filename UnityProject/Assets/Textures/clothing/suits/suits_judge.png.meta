@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: judge_0
+    second: suits_judge_0
   - first:
       213: 21300002
-    second: judge_1
+    second: suits_judge_1
   - first:
       213: 21300004
-    second: judge_2
+    second: suits_judge_2
   - first:
       213: 21300006
-    second: judge_3
+    second: suits_judge_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: judge_0
+      name: suits_judge_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: judge_1
+      name: suits_judge_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: judge_2
+      name: suits_judge_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: judge_3
+      name: suits_judge_3
       rect:
         serializedVersion: 2
         x: 96

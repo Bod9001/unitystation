@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: death_0
+    second: cyborg visor_death_0
   - first:
       213: 21300002
-    second: death_1
+    second: cyborg visor_death_1
   - first:
       213: 21300004
-    second: death_2
+    second: cyborg visor_death_2
   - first:
       213: 21300006
-    second: death_3
+    second: cyborg visor_death_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: death_0
+      name: cyborg visor_death_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_1
+      name: cyborg visor_death_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_2
+      name: cyborg visor_death_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_3
+      name: cyborg visor_death_3
       rect:
         serializedVersion: 2
         x: 96

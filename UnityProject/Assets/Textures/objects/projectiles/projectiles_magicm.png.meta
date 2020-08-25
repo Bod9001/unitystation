@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: magicm_0
+    second: projectiles_magicm_0
   - first:
       213: 21300002
-    second: magicm_1
+    second: projectiles_magicm_1
   - first:
       213: 21300004
-    second: magicm_2
+    second: projectiles_magicm_2
   - first:
       213: 21300006
-    second: magicm_3
+    second: projectiles_magicm_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: magicm_0
+      name: projectiles_magicm_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magicm_1
+      name: projectiles_magicm_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magicm_2
+      name: projectiles_magicm_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magicm_3
+      name: projectiles_magicm_3
       rect:
         serializedVersion: 2
         x: 96

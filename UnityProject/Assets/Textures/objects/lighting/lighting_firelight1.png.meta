@@ -4,100 +4,100 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: firelight1_0
+    second: lighting_firelight1_0
   - first:
       213: 21300002
-    second: firelight1_1
+    second: lighting_firelight1_1
   - first:
       213: 21300004
-    second: firelight1_2
+    second: lighting_firelight1_2
   - first:
       213: 21300006
-    second: firelight1_3
+    second: lighting_firelight1_3
   - first:
       213: 21300008
-    second: firelight1_4
+    second: lighting_firelight1_4
   - first:
       213: 21300010
-    second: firelight1_5
+    second: lighting_firelight1_5
   - first:
       213: 21300012
-    second: firelight1_6
+    second: lighting_firelight1_6
   - first:
       213: 21300014
-    second: firelight1_7
+    second: lighting_firelight1_7
   - first:
       213: 21300016
-    second: firelight1_8
+    second: lighting_firelight1_8
   - first:
       213: 21300018
-    second: firelight1_9
+    second: lighting_firelight1_9
   - first:
       213: 21300020
-    second: firelight1_10
+    second: lighting_firelight1_10
   - first:
       213: 21300022
-    second: firelight1_11
+    second: lighting_firelight1_11
   - first:
       213: 21300024
-    second: firelight1_12
+    second: lighting_firelight1_12
   - first:
       213: 21300026
-    second: firelight1_13
+    second: lighting_firelight1_13
   - first:
       213: 21300028
-    second: firelight1_14
+    second: lighting_firelight1_14
   - first:
       213: 21300030
-    second: firelight1_15
+    second: lighting_firelight1_15
   - first:
       213: 21300032
-    second: firelight1_16
+    second: lighting_firelight1_16
   - first:
       213: 21300034
-    second: firelight1_17
+    second: lighting_firelight1_17
   - first:
       213: 21300036
-    second: firelight1_18
+    second: lighting_firelight1_18
   - first:
       213: 21300038
-    second: firelight1_19
+    second: lighting_firelight1_19
   - first:
       213: 21300040
-    second: firelight1_20
+    second: lighting_firelight1_20
   - first:
       213: 21300042
-    second: firelight1_21
+    second: lighting_firelight1_21
   - first:
       213: 21300044
-    second: firelight1_22
+    second: lighting_firelight1_22
   - first:
       213: 21300046
-    second: firelight1_23
+    second: lighting_firelight1_23
   - first:
       213: 21300048
-    second: firelight1_24
+    second: lighting_firelight1_24
   - first:
       213: 21300050
-    second: firelight1_25
+    second: lighting_firelight1_25
   - first:
       213: 21300052
-    second: firelight1_26
+    second: lighting_firelight1_26
   - first:
       213: 21300054
-    second: firelight1_27
+    second: lighting_firelight1_27
   - first:
       213: 21300056
-    second: firelight1_28
+    second: lighting_firelight1_28
   - first:
       213: 21300058
-    second: firelight1_29
+    second: lighting_firelight1_29
   - first:
       213: 21300060
-    second: firelight1_30
+    second: lighting_firelight1_30
   - first:
       213: 21300062
-    second: firelight1_31
+    second: lighting_firelight1_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: firelight1_0
+      name: lighting_firelight1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_1
+      name: lighting_firelight1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_2
+      name: lighting_firelight1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_3
+      name: lighting_firelight1_3
       rect:
         serializedVersion: 2
         x: 96
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_4
+      name: lighting_firelight1_4
       rect:
         serializedVersion: 2
         x: 128
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_5
+      name: lighting_firelight1_5
       rect:
         serializedVersion: 2
         x: 160
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_6
+      name: lighting_firelight1_6
       rect:
         serializedVersion: 2
         x: 192
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_7
+      name: lighting_firelight1_7
       rect:
         serializedVersion: 2
         x: 224
@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_8
+      name: lighting_firelight1_8
       rect:
         serializedVersion: 2
         x: 256
@@ -371,7 +371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_9
+      name: lighting_firelight1_9
       rect:
         serializedVersion: 2
         x: 288
@@ -392,7 +392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_10
+      name: lighting_firelight1_10
       rect:
         serializedVersion: 2
         x: 320
@@ -413,7 +413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_11
+      name: lighting_firelight1_11
       rect:
         serializedVersion: 2
         x: 352
@@ -434,7 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_12
+      name: lighting_firelight1_12
       rect:
         serializedVersion: 2
         x: 384
@@ -455,7 +455,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_13
+      name: lighting_firelight1_13
       rect:
         serializedVersion: 2
         x: 416
@@ -476,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_14
+      name: lighting_firelight1_14
       rect:
         serializedVersion: 2
         x: 448
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_15
+      name: lighting_firelight1_15
       rect:
         serializedVersion: 2
         x: 480
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_16
+      name: lighting_firelight1_16
       rect:
         serializedVersion: 2
         x: 512
@@ -539,7 +539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_17
+      name: lighting_firelight1_17
       rect:
         serializedVersion: 2
         x: 544
@@ -560,7 +560,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_18
+      name: lighting_firelight1_18
       rect:
         serializedVersion: 2
         x: 576
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_19
+      name: lighting_firelight1_19
       rect:
         serializedVersion: 2
         x: 608
@@ -602,7 +602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_20
+      name: lighting_firelight1_20
       rect:
         serializedVersion: 2
         x: 640
@@ -623,7 +623,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_21
+      name: lighting_firelight1_21
       rect:
         serializedVersion: 2
         x: 672
@@ -644,7 +644,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_22
+      name: lighting_firelight1_22
       rect:
         serializedVersion: 2
         x: 704
@@ -665,7 +665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_23
+      name: lighting_firelight1_23
       rect:
         serializedVersion: 2
         x: 736
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_24
+      name: lighting_firelight1_24
       rect:
         serializedVersion: 2
         x: 768
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_25
+      name: lighting_firelight1_25
       rect:
         serializedVersion: 2
         x: 800
@@ -728,7 +728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_26
+      name: lighting_firelight1_26
       rect:
         serializedVersion: 2
         x: 832
@@ -749,7 +749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_27
+      name: lighting_firelight1_27
       rect:
         serializedVersion: 2
         x: 864
@@ -770,7 +770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_28
+      name: lighting_firelight1_28
       rect:
         serializedVersion: 2
         x: 896
@@ -791,7 +791,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_29
+      name: lighting_firelight1_29
       rect:
         serializedVersion: 2
         x: 928
@@ -812,7 +812,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_30
+      name: lighting_firelight1_30
       rect:
         serializedVersion: 2
         x: 960
@@ -833,7 +833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firelight1_31
+      name: lighting_firelight1_31
       rect:
         serializedVersion: 2
         x: 992

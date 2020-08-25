@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bluecorner_0
+    second: blue_bluecorner_0
   - first:
       213: 21300002
-    second: bluecorner_1
+    second: blue_bluecorner_1
   - first:
       213: 21300004
-    second: bluecorner_2
+    second: blue_bluecorner_2
   - first:
       213: 21300006
-    second: bluecorner_3
+    second: blue_bluecorner_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bluecorner_0
+      name: blue_bluecorner_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bluecorner_1
+      name: blue_bluecorner_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bluecorner_2
+      name: blue_bluecorner_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bluecorner_3
+      name: blue_bluecorner_3
       rect:
         serializedVersion: 2
         x: 96

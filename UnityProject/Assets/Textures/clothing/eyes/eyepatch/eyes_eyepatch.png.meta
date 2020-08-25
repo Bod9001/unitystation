@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: eyepatch_0
+    second: eyepatch_eyepatch_0
   - first:
       213: 21300002
-    second: eyepatch_1
+    second: eyepatch_eyepatch_1
   - first:
       213: 21300004
-    second: eyepatch_2
+    second: eyepatch_eyepatch_2
   - first:
       213: 21300006
-    second: eyepatch_3
+    second: eyepatch_eyepatch_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: eyepatch_0
+      name: eyepatch_eyepatch_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyepatch_1
+      name: eyepatch_eyepatch_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyepatch_2
+      name: eyepatch_eyepatch_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyepatch_3
+      name: eyepatch_eyepatch_3
       rect:
         serializedVersion: 2
         x: 96

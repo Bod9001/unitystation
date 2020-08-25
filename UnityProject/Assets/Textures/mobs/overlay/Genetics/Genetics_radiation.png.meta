@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: radiation_0
+    second: Genetics_radiation_0
   - first:
       213: 21300002
-    second: radiation_1
+    second: Genetics_radiation_1
   - first:
       213: 21300004
-    second: radiation_2
+    second: Genetics_radiation_2
   - first:
       213: 21300006
-    second: radiation_3
+    second: Genetics_radiation_3
   - first:
       213: 21300008
-    second: radiation_4
+    second: Genetics_radiation_4
   - first:
       213: 21300010
-    second: radiation_5
+    second: Genetics_radiation_5
   - first:
       213: 21300012
-    second: radiation_6
+    second: Genetics_radiation_6
   - first:
       213: 21300014
-    second: radiation_7
+    second: Genetics_radiation_7
   - first:
       213: 21300016
-    second: radiation_8
+    second: Genetics_radiation_8
   - first:
       213: 21300018
-    second: radiation_9
+    second: Genetics_radiation_9
   - first:
       213: 21300020
-    second: radiation_10
+    second: Genetics_radiation_10
   - first:
       213: 21300022
-    second: radiation_11
+    second: Genetics_radiation_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: radiation_0
+      name: Genetics_radiation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_1
+      name: Genetics_radiation_1
       rect:
         serializedVersion: 2
         x: 32
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_2
+      name: Genetics_radiation_2
       rect:
         serializedVersion: 2
         x: 64
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_3
+      name: Genetics_radiation_3
       rect:
         serializedVersion: 2
         x: 96
@@ -206,7 +206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_4
+      name: Genetics_radiation_4
       rect:
         serializedVersion: 2
         x: 128
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_5
+      name: Genetics_radiation_5
       rect:
         serializedVersion: 2
         x: 160
@@ -248,7 +248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_6
+      name: Genetics_radiation_6
       rect:
         serializedVersion: 2
         x: 192
@@ -269,7 +269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_7
+      name: Genetics_radiation_7
       rect:
         serializedVersion: 2
         x: 224
@@ -290,7 +290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_8
+      name: Genetics_radiation_8
       rect:
         serializedVersion: 2
         x: 256
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_9
+      name: Genetics_radiation_9
       rect:
         serializedVersion: 2
         x: 288
@@ -332,7 +332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_10
+      name: Genetics_radiation_10
       rect:
         serializedVersion: 2
         x: 320
@@ -353,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radiation_11
+      name: Genetics_radiation_11
       rect:
         serializedVersion: 2
         x: 352

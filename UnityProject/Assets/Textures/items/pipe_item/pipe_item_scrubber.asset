@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 338b7b6da09887b4a8e2f5416e2ce867, type: 3}
-      spriteName: scrubber_0
+      spriteName: pipe_item_scrubber_0
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: scrubber_0
+        m_SubObjectName: pipe_item_scrubber_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 338b7b6da09887b4a8e2f5416e2ce867, type: 3}
-      spriteName: scrubber_1
+      spriteName: pipe_item_scrubber_1
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: scrubber_1
+        m_SubObjectName: pipe_item_scrubber_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 338b7b6da09887b4a8e2f5416e2ce867, type: 3}
-      spriteName: scrubber_2
+      spriteName: pipe_item_scrubber_2
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: scrubber_2
+        m_SubObjectName: pipe_item_scrubber_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 338b7b6da09887b4a8e2f5416e2ce867, type: 3}
-      spriteName: scrubber_3
+      spriteName: pipe_item_scrubber_3
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: scrubber_3
+        m_SubObjectName: pipe_item_scrubber_3
   IsPalette: 0
   setID: 8576

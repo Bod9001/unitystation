@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: setup_implant_0
+    second: electronic_setups_setup_implant_0
   - first:
       213: 21300002
-    second: setup_implant_1
+    second: electronic_setups_setup_implant_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: setup_implant_0
+      name: electronic_setups_setup_implant_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: setup_implant_1
+      name: electronic_setups_setup_implant_1
       rect:
         serializedVersion: 2
         x: 32

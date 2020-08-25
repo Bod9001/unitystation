@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 4550042133714957143}
   - component: {fileID: 5582155779951188486}
   m_Layer: 11
-  m_Name: BVOld_SciDrobe
+  m_Name: SciDrobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -248,9 +248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  initialIntegrity: 100
   soundOnHit: 
-  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -271,6 +269,7 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
+  initialIntegrity: 100
 --- !u!114 &114472266138859352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,18 +453,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 338a52a979f0af64184411b1e750dbed
-    m_SubObjectName: 
-  SubCatalogueAddresses:
-  - m_AssetGUID: 338a52a979f0af64184411b1e750dbed
-    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: 338a52a979f0af64184411b1e750dbed, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: 338a52a979f0af64184411b1e750dbed, type: 2}
-  pushTextureOnStartUp: 1
-  variantIndex: 0
-  palette: []
   Sprites:
   - Texture: {fileID: 2800000, guid: affbd98a58e35484bb4d9f4d0782fd92, type: 3}
+  variantIndex: 0
+  palette: []

@@ -4,100 +4,100 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: drain_life_0
+    second: beam_drain_life_0
   - first:
       213: 21300002
-    second: drain_life_1
+    second: beam_drain_life_1
   - first:
       213: 21300004
-    second: drain_life_2
+    second: beam_drain_life_2
   - first:
       213: 21300006
-    second: drain_life_3
+    second: beam_drain_life_3
   - first:
       213: 21300008
-    second: drain_life_4
+    second: beam_drain_life_4
   - first:
       213: 21300010
-    second: drain_life_5
+    second: beam_drain_life_5
   - first:
       213: 21300012
-    second: drain_life_6
+    second: beam_drain_life_6
   - first:
       213: 21300014
-    second: drain_life_7
+    second: beam_drain_life_7
   - first:
       213: 21300016
-    second: drain_life_8
+    second: beam_drain_life_8
   - first:
       213: 21300018
-    second: drain_life_9
+    second: beam_drain_life_9
   - first:
       213: 21300020
-    second: drain_life_10
+    second: beam_drain_life_10
   - first:
       213: 21300022
-    second: drain_life_11
+    second: beam_drain_life_11
   - first:
       213: 21300024
-    second: drain_life_12
+    second: beam_drain_life_12
   - first:
       213: 21300026
-    second: drain_life_13
+    second: beam_drain_life_13
   - first:
       213: 21300028
-    second: drain_life_14
+    second: beam_drain_life_14
   - first:
       213: 21300030
-    second: drain_life_15
+    second: beam_drain_life_15
   - first:
       213: 21300032
-    second: drain_life_16
+    second: beam_drain_life_16
   - first:
       213: 21300034
-    second: drain_life_17
+    second: beam_drain_life_17
   - first:
       213: 21300036
-    second: drain_life_18
+    second: beam_drain_life_18
   - first:
       213: 21300038
-    second: drain_life_19
+    second: beam_drain_life_19
   - first:
       213: 21300040
-    second: drain_life_20
+    second: beam_drain_life_20
   - first:
       213: 21300042
-    second: drain_life_21
+    second: beam_drain_life_21
   - first:
       213: 21300044
-    second: drain_life_22
+    second: beam_drain_life_22
   - first:
       213: 21300046
-    second: drain_life_23
+    second: beam_drain_life_23
   - first:
       213: 21300048
-    second: drain_life_24
+    second: beam_drain_life_24
   - first:
       213: 21300050
-    second: drain_life_25
+    second: beam_drain_life_25
   - first:
       213: 21300052
-    second: drain_life_26
+    second: beam_drain_life_26
   - first:
       213: 21300054
-    second: drain_life_27
+    second: beam_drain_life_27
   - first:
       213: 21300056
-    second: drain_life_28
+    second: beam_drain_life_28
   - first:
       213: 21300058
-    second: drain_life_29
+    second: beam_drain_life_29
   - first:
       213: 21300060
-    second: drain_life_30
+    second: beam_drain_life_30
   - first:
       213: 21300062
-    second: drain_life_31
+    second: beam_drain_life_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: drain_life_0
+      name: beam_drain_life_0
       rect:
         serializedVersion: 2
         x: 0
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_1
+      name: beam_drain_life_1
       rect:
         serializedVersion: 2
         x: 32
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_2
+      name: beam_drain_life_2
       rect:
         serializedVersion: 2
         x: 64
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_3
+      name: beam_drain_life_3
       rect:
         serializedVersion: 2
         x: 96
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_4
+      name: beam_drain_life_4
       rect:
         serializedVersion: 2
         x: 128
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_5
+      name: beam_drain_life_5
       rect:
         serializedVersion: 2
         x: 160
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_6
+      name: beam_drain_life_6
       rect:
         serializedVersion: 2
         x: 192
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_7
+      name: beam_drain_life_7
       rect:
         serializedVersion: 2
         x: 224
@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_8
+      name: beam_drain_life_8
       rect:
         serializedVersion: 2
         x: 256
@@ -371,7 +371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_9
+      name: beam_drain_life_9
       rect:
         serializedVersion: 2
         x: 288
@@ -392,7 +392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_10
+      name: beam_drain_life_10
       rect:
         serializedVersion: 2
         x: 320
@@ -413,7 +413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_11
+      name: beam_drain_life_11
       rect:
         serializedVersion: 2
         x: 352
@@ -434,7 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_12
+      name: beam_drain_life_12
       rect:
         serializedVersion: 2
         x: 384
@@ -455,7 +455,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_13
+      name: beam_drain_life_13
       rect:
         serializedVersion: 2
         x: 416
@@ -476,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_14
+      name: beam_drain_life_14
       rect:
         serializedVersion: 2
         x: 448
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_15
+      name: beam_drain_life_15
       rect:
         serializedVersion: 2
         x: 480
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_16
+      name: beam_drain_life_16
       rect:
         serializedVersion: 2
         x: 512
@@ -539,7 +539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_17
+      name: beam_drain_life_17
       rect:
         serializedVersion: 2
         x: 544
@@ -560,7 +560,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_18
+      name: beam_drain_life_18
       rect:
         serializedVersion: 2
         x: 576
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_19
+      name: beam_drain_life_19
       rect:
         serializedVersion: 2
         x: 608
@@ -602,7 +602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_20
+      name: beam_drain_life_20
       rect:
         serializedVersion: 2
         x: 640
@@ -623,7 +623,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_21
+      name: beam_drain_life_21
       rect:
         serializedVersion: 2
         x: 672
@@ -644,7 +644,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_22
+      name: beam_drain_life_22
       rect:
         serializedVersion: 2
         x: 704
@@ -665,7 +665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_23
+      name: beam_drain_life_23
       rect:
         serializedVersion: 2
         x: 736
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_24
+      name: beam_drain_life_24
       rect:
         serializedVersion: 2
         x: 768
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_25
+      name: beam_drain_life_25
       rect:
         serializedVersion: 2
         x: 800
@@ -728,7 +728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_26
+      name: beam_drain_life_26
       rect:
         serializedVersion: 2
         x: 832
@@ -749,7 +749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_27
+      name: beam_drain_life_27
       rect:
         serializedVersion: 2
         x: 864
@@ -770,7 +770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_28
+      name: beam_drain_life_28
       rect:
         serializedVersion: 2
         x: 896
@@ -791,7 +791,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_29
+      name: beam_drain_life_29
       rect:
         serializedVersion: 2
         x: 928
@@ -812,7 +812,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_30
+      name: beam_drain_life_30
       rect:
         serializedVersion: 2
         x: 960
@@ -833,7 +833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drain_life_31
+      name: beam_drain_life_31
       rect:
         serializedVersion: 2
         x: 992

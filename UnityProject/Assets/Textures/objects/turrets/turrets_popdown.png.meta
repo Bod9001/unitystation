@@ -4,37 +4,37 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: popdown_0
+    second: turrets_popdown_0
   - first:
       213: 21300002
-    second: popdown_1
+    second: turrets_popdown_1
   - first:
       213: 21300004
-    second: popdown_2
+    second: turrets_popdown_2
   - first:
       213: 21300006
-    second: popdown_3
+    second: turrets_popdown_3
   - first:
       213: 21300008
-    second: popdown_4
+    second: turrets_popdown_4
   - first:
       213: 21300010
-    second: popdown_5
+    second: turrets_popdown_5
   - first:
       213: 21300012
-    second: popdown_6
+    second: turrets_popdown_6
   - first:
       213: 21300014
-    second: popdown_7
+    second: turrets_popdown_7
   - first:
       213: 21300016
-    second: popdown_8
+    second: turrets_popdown_8
   - first:
       213: 21300018
-    second: popdown_9
+    second: turrets_popdown_9
   - first:
       213: 21300020
-    second: popdown_10
+    second: turrets_popdown_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -119,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: popdown_0
+      name: turrets_popdown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_1
+      name: turrets_popdown_1
       rect:
         serializedVersion: 2
         x: 32
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_2
+      name: turrets_popdown_2
       rect:
         serializedVersion: 2
         x: 64
@@ -182,7 +182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_3
+      name: turrets_popdown_3
       rect:
         serializedVersion: 2
         x: 96
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_4
+      name: turrets_popdown_4
       rect:
         serializedVersion: 2
         x: 128
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_5
+      name: turrets_popdown_5
       rect:
         serializedVersion: 2
         x: 160
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_6
+      name: turrets_popdown_6
       rect:
         serializedVersion: 2
         x: 192
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_7
+      name: turrets_popdown_7
       rect:
         serializedVersion: 2
         x: 224
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_8
+      name: turrets_popdown_8
       rect:
         serializedVersion: 2
         x: 256
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_9
+      name: turrets_popdown_9
       rect:
         serializedVersion: 2
         x: 288
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: popdown_10
+      name: turrets_popdown_10
       rect:
         serializedVersion: 2
         x: 320

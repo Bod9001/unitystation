@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: burnt_tile17_0
+    second: boss_floors_burnt_tile17_0
   - first:
       213: 21300002
-    second: burnt_tile17_1
+    second: boss_floors_burnt_tile17_1
   - first:
       213: 21300004
-    second: burnt_tile17_2
+    second: boss_floors_burnt_tile17_2
   - first:
       213: 21300006
-    second: burnt_tile17_3
+    second: boss_floors_burnt_tile17_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: burnt_tile17_0
+      name: boss_floors_burnt_tile17_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: burnt_tile17_1
+      name: boss_floors_burnt_tile17_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: burnt_tile17_2
+      name: boss_floors_burnt_tile17_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: burnt_tile17_3
+      name: boss_floors_burnt_tile17_3
       rect:
         serializedVersion: 2
         x: 96

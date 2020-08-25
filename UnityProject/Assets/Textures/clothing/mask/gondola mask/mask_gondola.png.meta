@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: gondola_0
+    second: gondola mask_gondola_0
   - first:
       213: 21300002
-    second: gondola_1
+    second: gondola mask_gondola_1
   - first:
       213: 21300004
-    second: gondola_2
+    second: gondola mask_gondola_2
   - first:
       213: 21300006
-    second: gondola_3
+    second: gondola mask_gondola_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gondola_0
+      name: gondola mask_gondola_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gondola_1
+      name: gondola mask_gondola_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gondola_2
+      name: gondola mask_gondola_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gondola_3
+      name: gondola mask_gondola_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 5997389527440629172
-    second: medicalpack_0
+    second: Medical backpack_medicalpack_0
   - first:
       213: 5753336594954608455
-    second: medicalpack_1
+    second: Medical backpack_medicalpack_1
   - first:
       213: -630981664131826860
-    second: medicalpack_2
+    second: Medical backpack_medicalpack_2
   - first:
       213: -7785289334384382762
-    second: medicalpack_3
+    second: Medical backpack_medicalpack_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: medicalpack_0
+      name: Medical backpack_medicalpack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: medicalpack_1
+      name: Medical backpack_medicalpack_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: medicalpack_2
+      name: Medical backpack_medicalpack_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: medicalpack_3
+      name: Medical backpack_medicalpack_3
       rect:
         serializedVersion: 2
         x: 96

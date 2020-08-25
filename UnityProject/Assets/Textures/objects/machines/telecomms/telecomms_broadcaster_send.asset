@@ -15,46 +15,46 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 283a333add0b3754b99716cf7e19e7c2, type: 3}
-      spriteName: broadcaster_send_0
+      spriteName: telecomms_broadcaster_send_0
       secondDelay: 1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: broadcaster_send_0
+        m_SubObjectName: telecomms_broadcaster_send_0
     - sprite: {fileID: 21300002, guid: 283a333add0b3754b99716cf7e19e7c2, type: 3}
-      spriteName: broadcaster_send_1
+      spriteName: telecomms_broadcaster_send_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: broadcaster_send_1
+        m_SubObjectName: telecomms_broadcaster_send_1
     - sprite: {fileID: 21300004, guid: 283a333add0b3754b99716cf7e19e7c2, type: 3}
-      spriteName: broadcaster_send_2
+      spriteName: telecomms_broadcaster_send_2
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: broadcaster_send_2
+        m_SubObjectName: telecomms_broadcaster_send_2
     - sprite: {fileID: 21300006, guid: 283a333add0b3754b99716cf7e19e7c2, type: 3}
-      spriteName: broadcaster_send_3
+      spriteName: telecomms_broadcaster_send_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: broadcaster_send_3
+        m_SubObjectName: telecomms_broadcaster_send_3
     - sprite: {fileID: 21300008, guid: 283a333add0b3754b99716cf7e19e7c2, type: 3}
-      spriteName: broadcaster_send_4
+      spriteName: telecomms_broadcaster_send_4
       secondDelay: 0.5
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: broadcaster_send_4
+        m_SubObjectName: telecomms_broadcaster_send_4
     - sprite: {fileID: 21300010, guid: 283a333add0b3754b99716cf7e19e7c2, type: 3}
-      spriteName: broadcaster_send_5
+      spriteName: telecomms_broadcaster_send_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: broadcaster_send_5
+        m_SubObjectName: telecomms_broadcaster_send_5
   IsPalette: 0
   setID: 16037

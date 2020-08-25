@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: neurotoxinglass_0
+    second: drinks_neurotoxinglass_0
   - first:
       213: 21300002
-    second: neurotoxinglass_1
+    second: drinks_neurotoxinglass_1
   - first:
       213: 21300004
-    second: neurotoxinglass_2
+    second: drinks_neurotoxinglass_2
   - first:
       213: 21300006
-    second: neurotoxinglass_3
+    second: drinks_neurotoxinglass_3
   - first:
       213: 21300008
-    second: neurotoxinglass_4
+    second: drinks_neurotoxinglass_4
   - first:
       213: 21300010
-    second: neurotoxinglass_5
+    second: drinks_neurotoxinglass_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: neurotoxinglass_0
+      name: drinks_neurotoxinglass_0
       rect:
         serializedVersion: 2
         x: 0
@@ -126,7 +126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: neurotoxinglass_1
+      name: drinks_neurotoxinglass_1
       rect:
         serializedVersion: 2
         x: 32
@@ -147,7 +147,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: neurotoxinglass_2
+      name: drinks_neurotoxinglass_2
       rect:
         serializedVersion: 2
         x: 64
@@ -168,7 +168,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: neurotoxinglass_3
+      name: drinks_neurotoxinglass_3
       rect:
         serializedVersion: 2
         x: 96
@@ -189,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: neurotoxinglass_4
+      name: drinks_neurotoxinglass_4
       rect:
         serializedVersion: 2
         x: 128
@@ -210,7 +210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: neurotoxinglass_5
+      name: drinks_neurotoxinglass_5
       rect:
         serializedVersion: 2
         x: 160

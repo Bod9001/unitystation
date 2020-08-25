@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: lobster_0
+    second: lobster_lobster_0
   - first:
       213: 21300002
-    second: lobster_1
+    second: lobster_lobster_1
   - first:
       213: 21300004
-    second: lobster_2
+    second: lobster_lobster_2
   - first:
       213: 21300006
-    second: lobster_3
+    second: lobster_lobster_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lobster_0
+      name: lobster_lobster_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobster_1
+      name: lobster_lobster_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobster_2
+      name: lobster_lobster_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobster_3
+      name: lobster_lobster_3
       rect:
         serializedVersion: 2
         x: 96

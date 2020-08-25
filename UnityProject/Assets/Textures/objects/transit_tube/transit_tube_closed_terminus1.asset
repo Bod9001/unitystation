@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: a09ee64775050e84f957e4d1ff0befc3, type: 3}
-      spriteName: closed_terminus1_0
+      spriteName: transit_tube_closed_terminus1_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closed_terminus1_0
+        m_SubObjectName: transit_tube_closed_terminus1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a09ee64775050e84f957e4d1ff0befc3, type: 3}
-      spriteName: closed_terminus1_1
+      spriteName: transit_tube_closed_terminus1_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closed_terminus1_1
+        m_SubObjectName: transit_tube_closed_terminus1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a09ee64775050e84f957e4d1ff0befc3, type: 3}
-      spriteName: closed_terminus1_2
+      spriteName: transit_tube_closed_terminus1_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closed_terminus1_2
+        m_SubObjectName: transit_tube_closed_terminus1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a09ee64775050e84f957e4d1ff0befc3, type: 3}
-      spriteName: closed_terminus1_3
+      spriteName: transit_tube_closed_terminus1_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closed_terminus1_3
+        m_SubObjectName: transit_tube_closed_terminus1_3
   IsPalette: 0
   setID: 17602

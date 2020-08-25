@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: foamdart_0
+    second: toy_foamdart_0
   - first:
       213: 21300002
-    second: foamdart_1
+    second: toy_foamdart_1
   - first:
       213: 21300004
-    second: foamdart_2
+    second: toy_foamdart_2
   - first:
       213: 21300006
-    second: foamdart_3
+    second: toy_foamdart_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: foamdart_0
+      name: toy_foamdart_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foamdart_1
+      name: toy_foamdart_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foamdart_2
+      name: toy_foamdart_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: foamdart_3
+      name: toy_foamdart_3
       rect:
         serializedVersion: 2
         x: 96

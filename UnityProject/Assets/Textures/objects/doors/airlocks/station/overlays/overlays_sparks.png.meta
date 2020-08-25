@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sparks_0
+    second: overlays_sparks_0
   - first:
       213: 21300002
-    second: sparks_1
+    second: overlays_sparks_1
   - first:
       213: 21300004
-    second: sparks_2
+    second: overlays_sparks_2
   - first:
       213: 21300006
-    second: sparks_3
+    second: overlays_sparks_3
   - first:
       213: 21300008
-    second: sparks_4
+    second: overlays_sparks_4
   - first:
       213: 21300010
-    second: sparks_5
+    second: overlays_sparks_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sparks_0
+      name: overlays_sparks_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_1
+      name: overlays_sparks_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_2
+      name: overlays_sparks_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_3
+      name: overlays_sparks_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_4
+      name: overlays_sparks_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sparks_5
+      name: overlays_sparks_5
       rect:
         serializedVersion: 2
         x: 160

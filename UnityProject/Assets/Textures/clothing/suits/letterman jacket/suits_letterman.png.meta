@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: letterman_0
+    second: letterman jacket_letterman_0
   - first:
       213: 21300002
-    second: letterman_1
+    second: letterman jacket_letterman_1
   - first:
       213: 21300004
-    second: letterman_2
+    second: letterman jacket_letterman_2
   - first:
       213: 21300006
-    second: letterman_3
+    second: letterman jacket_letterman_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: letterman_0
+      name: letterman jacket_letterman_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: letterman_1
+      name: letterman jacket_letterman_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: letterman_2
+      name: letterman jacket_letterman_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: letterman_3
+      name: letterman jacket_letterman_3
       rect:
         serializedVersion: 2
         x: 96

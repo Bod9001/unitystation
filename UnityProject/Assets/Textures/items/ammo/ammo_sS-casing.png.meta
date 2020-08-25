@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sS-casing_0
+    second: ammo_sS-casing_0
   - first:
       213: 21300002
-    second: sS-casing_1
+    second: ammo_sS-casing_1
   - first:
       213: 21300004
-    second: sS-casing_2
+    second: ammo_sS-casing_2
   - first:
       213: 21300006
-    second: sS-casing_3
+    second: ammo_sS-casing_3
   - first:
       213: 21300008
-    second: sS-casing_4
+    second: ammo_sS-casing_4
   - first:
       213: 21300010
-    second: sS-casing_5
+    second: ammo_sS-casing_5
   - first:
       213: 21300012
-    second: sS-casing_6
+    second: ammo_sS-casing_6
   - first:
       213: 21300014
-    second: sS-casing_7
+    second: ammo_sS-casing_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sS-casing_0
+      name: ammo_sS-casing_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sS-casing_1
+      name: ammo_sS-casing_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sS-casing_2
+      name: ammo_sS-casing_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sS-casing_3
+      name: ammo_sS-casing_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sS-casing_4
+      name: ammo_sS-casing_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sS-casing_5
+      name: ammo_sS-casing_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sS-casing_6
+      name: ammo_sS-casing_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sS-casing_7
+      name: ammo_sS-casing_7
       rect:
         serializedVersion: 2
         x: 224

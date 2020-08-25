@@ -26,7 +26,7 @@ PrefabInstance:
     - target: {fileID: 2179959185564930015, guid: a7a048f6c330048e9a2358fb6f71d385,
         type: 3}
       propertyPath: m_Name
-      value: HelmetBase
+      value: Helmet
       objectReference: {fileID: 0}
     - target: {fileID: 2179959185564930015, guid: a7a048f6c330048e9a2358fb6f71d385,
         type: 3}
@@ -150,10 +150,5 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8f1de30396315c1429c6ce04a227f6a5,
         type: 2}
-    - target: {fileID: 5406248525527790680, guid: a7a048f6c330048e9a2358fb6f71d385,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 8f1de30396315c1429c6ce04a227f6a5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7a048f6c330048e9a2358fb6f71d385, type: 3}

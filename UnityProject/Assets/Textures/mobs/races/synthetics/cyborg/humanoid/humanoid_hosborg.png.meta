@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: hosborg_0
+    second: humanoid_hosborg_0
   - first:
       213: 21300002
-    second: hosborg_1
+    second: humanoid_hosborg_1
   - first:
       213: 21300004
-    second: hosborg_2
+    second: humanoid_hosborg_2
   - first:
       213: 21300006
-    second: hosborg_3
+    second: humanoid_hosborg_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hosborg_0
+      name: humanoid_hosborg_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hosborg_1
+      name: humanoid_hosborg_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hosborg_2
+      name: humanoid_hosborg_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hosborg_3
+      name: humanoid_hosborg_3
       rect:
         serializedVersion: 2
         x: 96

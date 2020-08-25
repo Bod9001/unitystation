@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: offcenter_0
+    second: gateway_offcenter_0
   - first:
       213: 21300002
-    second: offcenter_1
+    second: gateway_offcenter_1
   - first:
       213: 21300004
-    second: offcenter_2
+    second: gateway_offcenter_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: offcenter_0
+      name: gateway_offcenter_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offcenter_1
+      name: gateway_offcenter_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offcenter_2
+      name: gateway_offcenter_2
       rect:
         serializedVersion: 2
         x: 64

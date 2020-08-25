@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: fabricator_load_0
+    second: mech_fab_fabricator_load_0
   - first:
       213: 21300002
-    second: fabricator_load_1
+    second: mech_fab_fabricator_load_1
   - first:
       213: 21300004
-    second: fabricator_load_2
+    second: mech_fab_fabricator_load_2
   - first:
       213: 21300006
-    second: fabricator_load_3
+    second: mech_fab_fabricator_load_3
   - first:
       213: 21300008
-    second: fabricator_load_4
+    second: mech_fab_fabricator_load_4
   - first:
       213: 21300010
-    second: fabricator_load_5
+    second: mech_fab_fabricator_load_5
   - first:
       213: 21300012
-    second: fabricator_load_6
+    second: mech_fab_fabricator_load_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fabricator_load_0
+      name: mech_fab_fabricator_load_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_load_1
+      name: mech_fab_fabricator_load_1
       rect:
         serializedVersion: 2
         x: 64
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_load_2
+      name: mech_fab_fabricator_load_2
       rect:
         serializedVersion: 2
         x: 128
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_load_3
+      name: mech_fab_fabricator_load_3
       rect:
         serializedVersion: 2
         x: 192
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_load_4
+      name: mech_fab_fabricator_load_4
       rect:
         serializedVersion: 2
         x: 256
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_load_5
+      name: mech_fab_fabricator_load_5
       rect:
         serializedVersion: 2
         x: 320
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_load_6
+      name: mech_fab_fabricator_load_6
       rect:
         serializedVersion: 2
         x: 384

@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0f46734205399dd41b547968a7c321b2, type: 3}
-      spriteName: flashshield_flash_0
+      spriteName: items_and_weapons_flashshield_flash_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: flashshield_flash_0
+        m_SubObjectName: items_and_weapons_flashshield_flash_0
     - sprite: {fileID: 21300002, guid: 0f46734205399dd41b547968a7c321b2, type: 3}
-      spriteName: flashshield_flash_1
+      spriteName: items_and_weapons_flashshield_flash_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: flashshield_flash_1
+        m_SubObjectName: items_and_weapons_flashshield_flash_1
     - sprite: {fileID: 21300004, guid: 0f46734205399dd41b547968a7c321b2, type: 3}
-      spriteName: flashshield_flash_2
+      spriteName: items_and_weapons_flashshield_flash_2
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: flashshield_flash_2
+        m_SubObjectName: items_and_weapons_flashshield_flash_2
   IsPalette: 0
   setID: 7803

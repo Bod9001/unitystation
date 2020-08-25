@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -4714307925872528662
-    second: clamps_0
+    second: medical_lefthand_clamps_0
   - first:
       213: 1141974867125203545
-    second: clamps_1
+    second: medical_lefthand_clamps_1
   - first:
       213: 819965804019348086
-    second: clamps_2
+    second: medical_lefthand_clamps_2
   - first:
       213: 836963917226273758
-    second: clamps_3
+    second: medical_lefthand_clamps_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clamps_0
+      name: medical_lefthand_clamps_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clamps_1
+      name: medical_lefthand_clamps_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clamps_2
+      name: medical_lefthand_clamps_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clamps_3
+      name: medical_lefthand_clamps_3
       rect:
         serializedVersion: 2
         x: 96

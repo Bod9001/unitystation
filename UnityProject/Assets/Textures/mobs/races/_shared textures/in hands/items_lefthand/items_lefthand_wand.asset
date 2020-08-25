@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8f857e15cc405b140a7c0d92858a3231, type: 3}
-      spriteName: wand_0
+      spriteName: items_lefthand_wand_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: wand_0
+        m_SubObjectName: items_lefthand_wand_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8f857e15cc405b140a7c0d92858a3231, type: 3}
-      spriteName: wand_1
+      spriteName: items_lefthand_wand_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: wand_1
+        m_SubObjectName: items_lefthand_wand_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8f857e15cc405b140a7c0d92858a3231, type: 3}
-      spriteName: wand_2
+      spriteName: items_lefthand_wand_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: wand_2
+        m_SubObjectName: items_lefthand_wand_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8f857e15cc405b140a7c0d92858a3231, type: 3}
-      spriteName: wand_3
+      spriteName: items_lefthand_wand_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: wand_3
+        m_SubObjectName: items_lefthand_wand_3
   IsPalette: 0
   setID: 10342

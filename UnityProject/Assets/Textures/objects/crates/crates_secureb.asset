@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 341dceba4b77a8342a3f22b9ef4ef4ec, type: 3}
-      spriteName: secureb_0
+      spriteName: crates_secureb_0
       secondDelay: 1.5
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: secureb_0
+        m_SubObjectName: crates_secureb_0
     - sprite: {fileID: 21300002, guid: 341dceba4b77a8342a3f22b9ef4ef4ec, type: 3}
-      spriteName: secureb_1
+      spriteName: crates_secureb_1
       secondDelay: 1.5
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: secureb_1
+        m_SubObjectName: crates_secureb_1
   IsPalette: 0
   setID: 13625

@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: base-bomb-active-wires_0
+    second: assemblies_base-bomb-active-wires_0
   - first:
       213: 21300002
-    second: base-bomb-active-wires_1
+    second: assemblies_base-bomb-active-wires_1
   - first:
       213: 21300004
-    second: base-bomb-active-wires_2
+    second: assemblies_base-bomb-active-wires_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base-bomb-active-wires_0
+      name: assemblies_base-bomb-active-wires_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base-bomb-active-wires_1
+      name: assemblies_base-bomb-active-wires_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base-bomb-active-wires_2
+      name: assemblies_base-bomb-active-wires_2
       rect:
         serializedVersion: 2
         x: 64

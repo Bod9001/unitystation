@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: miningbeacon_0
+    second: objects_miningbeacon_0
   - first:
       213: 21300002
-    second: miningbeacon_1
+    second: objects_miningbeacon_1
   - first:
       213: 21300004
-    second: miningbeacon_2
+    second: objects_miningbeacon_2
   - first:
       213: 21300006
-    second: miningbeacon_3
+    second: objects_miningbeacon_3
   - first:
       213: 21300008
-    second: miningbeacon_4
+    second: objects_miningbeacon_4
   - first:
       213: 21300010
-    second: miningbeacon_5
+    second: objects_miningbeacon_5
   - first:
       213: 21300012
-    second: miningbeacon_6
+    second: objects_miningbeacon_6
   - first:
       213: 21300014
-    second: miningbeacon_7
+    second: objects_miningbeacon_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: miningbeacon_0
+      name: objects_miningbeacon_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miningbeacon_1
+      name: objects_miningbeacon_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miningbeacon_2
+      name: objects_miningbeacon_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miningbeacon_3
+      name: objects_miningbeacon_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miningbeacon_4
+      name: objects_miningbeacon_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miningbeacon_5
+      name: objects_miningbeacon_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miningbeacon_6
+      name: objects_miningbeacon_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miningbeacon_7
+      name: objects_miningbeacon_7
       rect:
         serializedVersion: 2
         x: 224

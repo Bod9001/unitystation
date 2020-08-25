@@ -139,11 +139,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: eb53ba2a7a5fd6c468bfc3800193ed08,
         type: 2}
-    - target: {fileID: 1294793839381664232, guid: 2c4e266b6c133da4ba48f9fba33ec92e,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: eb53ba2a7a5fd6c468bfc3800193ed08
-      objectReference: {fileID: 0}
     - target: {fileID: 3608205971236566501, guid: 2c4e266b6c133da4ba48f9fba33ec92e,
         type: 3}
       propertyPath: Reagents.Array.size
@@ -338,10 +333,5 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: eb53ba2a7a5fd6c468bfc3800193ed08,
         type: 2}
-    - target: {fileID: 7640553959568001153, guid: 2c4e266b6c133da4ba48f9fba33ec92e,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: eb53ba2a7a5fd6c468bfc3800193ed08
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c4e266b6c133da4ba48f9fba33ec92e, type: 3}

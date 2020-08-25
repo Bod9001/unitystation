@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 4ba3bc0cb96c87648b999531cb337fc7, type: 3}
-      spriteName: dr_gibb_0
+      spriteName: food_lefthand_dr_gibb_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: dr_gibb_0
+        m_SubObjectName: food_lefthand_dr_gibb_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 4ba3bc0cb96c87648b999531cb337fc7, type: 3}
-      spriteName: dr_gibb_1
+      spriteName: food_lefthand_dr_gibb_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: dr_gibb_1
+        m_SubObjectName: food_lefthand_dr_gibb_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 4ba3bc0cb96c87648b999531cb337fc7, type: 3}
-      spriteName: dr_gibb_2
+      spriteName: food_lefthand_dr_gibb_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: dr_gibb_2
+        m_SubObjectName: food_lefthand_dr_gibb_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 4ba3bc0cb96c87648b999531cb337fc7, type: 3}
-      spriteName: dr_gibb_3
+      spriteName: food_lefthand_dr_gibb_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: dr_gibb_3
+        m_SubObjectName: food_lefthand_dr_gibb_3
   IsPalette: 0
   setID: 22346

@@ -4,46 +4,46 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: ai-static_0
+    second: variance_ai-static_0
   - first:
       213: 21300002
-    second: ai-static_1
+    second: variance_ai-static_1
   - first:
       213: 21300004
-    second: ai-static_2
+    second: variance_ai-static_2
   - first:
       213: 21300006
-    second: ai-static_3
+    second: variance_ai-static_3
   - first:
       213: 21300008
-    second: ai-static_4
+    second: variance_ai-static_4
   - first:
       213: 21300010
-    second: ai-static_5
+    second: variance_ai-static_5
   - first:
       213: 21300012
-    second: ai-static_6
+    second: variance_ai-static_6
   - first:
       213: 21300014
-    second: ai-static_7
+    second: variance_ai-static_7
   - first:
       213: 21300016
-    second: ai-static_8
+    second: variance_ai-static_8
   - first:
       213: 21300018
-    second: ai-static_9
+    second: variance_ai-static_9
   - first:
       213: 21300020
-    second: ai-static_10
+    second: variance_ai-static_10
   - first:
       213: 21300022
-    second: ai-static_11
+    second: variance_ai-static_11
   - first:
       213: 21300024
-    second: ai-static_12
+    second: variance_ai-static_12
   - first:
       213: 21300026
-    second: ai-static_13
+    second: variance_ai-static_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ai-static_0
+      name: variance_ai-static_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_1
+      name: variance_ai-static_1
       rect:
         serializedVersion: 2
         x: 32
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_2
+      name: variance_ai-static_2
       rect:
         serializedVersion: 2
         x: 64
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_3
+      name: variance_ai-static_3
       rect:
         serializedVersion: 2
         x: 96
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_4
+      name: variance_ai-static_4
       rect:
         serializedVersion: 2
         x: 128
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_5
+      name: variance_ai-static_5
       rect:
         serializedVersion: 2
         x: 160
@@ -254,7 +254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_6
+      name: variance_ai-static_6
       rect:
         serializedVersion: 2
         x: 192
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_7
+      name: variance_ai-static_7
       rect:
         serializedVersion: 2
         x: 224
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_8
+      name: variance_ai-static_8
       rect:
         serializedVersion: 2
         x: 256
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_9
+      name: variance_ai-static_9
       rect:
         serializedVersion: 2
         x: 288
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_10
+      name: variance_ai-static_10
       rect:
         serializedVersion: 2
         x: 320
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_11
+      name: variance_ai-static_11
       rect:
         serializedVersion: 2
         x: 352
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_12
+      name: variance_ai-static_12
       rect:
         serializedVersion: 2
         x: 384
@@ -401,7 +401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-static_13
+      name: variance_ai-static_13
       rect:
         serializedVersion: 2
         x: 416

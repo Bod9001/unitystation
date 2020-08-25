@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: acab9a00fae70254bbfd18013ffe405f, type: 3}
-      spriteName: charged_0
+      spriteName: slimecrossing_charged_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: charged_0
+        m_SubObjectName: slimecrossing_charged_0
     - sprite: {fileID: 21300002, guid: acab9a00fae70254bbfd18013ffe405f, type: 3}
-      spriteName: charged_1
+      spriteName: slimecrossing_charged_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: charged_1
+        m_SubObjectName: slimecrossing_charged_1
     - sprite: {fileID: 21300004, guid: acab9a00fae70254bbfd18013ffe405f, type: 3}
-      spriteName: charged_2
+      spriteName: slimecrossing_charged_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: charged_2
+        m_SubObjectName: slimecrossing_charged_2
     - sprite: {fileID: 21300006, guid: acab9a00fae70254bbfd18013ffe405f, type: 3}
-      spriteName: charged_3
+      spriteName: slimecrossing_charged_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: charged_3
+        m_SubObjectName: slimecrossing_charged_3
   IsPalette: 0
   setID: 16772

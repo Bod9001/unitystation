@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
-      spriteName: adamsuit_0
+      spriteName: suits_adamsuit_0
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: adamsuit_0
+        m_SubObjectName: suits_adamsuit_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
-      spriteName: adamsuit_1
+      spriteName: suits_adamsuit_1
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: adamsuit_1
+        m_SubObjectName: suits_adamsuit_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
-      spriteName: adamsuit_2
+      spriteName: suits_adamsuit_2
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: adamsuit_2
+        m_SubObjectName: suits_adamsuit_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 30561cea2bb90c642ac7f8891b13fe4d, type: 3}
-      spriteName: adamsuit_3
+      spriteName: suits_adamsuit_3
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: adamsuit_3
+        m_SubObjectName: suits_adamsuit_3
   IsPalette: 0
   setID: 5920

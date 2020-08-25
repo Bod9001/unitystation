@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c1f5ee3f725e02a4fa9065bb3eaa0a3e, type: 3}
-      spriteName: emp_0
+      spriteName: security_righthand_emp_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: emp_0
+        m_SubObjectName: security_righthand_emp_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c1f5ee3f725e02a4fa9065bb3eaa0a3e, type: 3}
-      spriteName: emp_1
+      spriteName: security_righthand_emp_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: emp_1
+        m_SubObjectName: security_righthand_emp_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c1f5ee3f725e02a4fa9065bb3eaa0a3e, type: 3}
-      spriteName: emp_2
+      spriteName: security_righthand_emp_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: emp_2
+        m_SubObjectName: security_righthand_emp_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c1f5ee3f725e02a4fa9065bb3eaa0a3e, type: 3}
-      spriteName: emp_3
+      spriteName: security_righthand_emp_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: emp_3
+        m_SubObjectName: security_righthand_emp_3
   IsPalette: 0
   setID: 10187

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 9115452932909691310
-    second: monkey_energy_0
+    second: food_righthand_monkey_energy_0
   - first:
       213: 4691233136405147522
-    second: monkey_energy_1
+    second: food_righthand_monkey_energy_1
   - first:
       213: -7207253227064349080
-    second: monkey_energy_2
+    second: food_righthand_monkey_energy_2
   - first:
       213: 1116034134483565566
-    second: monkey_energy_3
+    second: food_righthand_monkey_energy_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: monkey_energy_0
+      name: food_righthand_monkey_energy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monkey_energy_1
+      name: food_righthand_monkey_energy_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monkey_energy_2
+      name: food_righthand_monkey_energy_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monkey_energy_3
+      name: food_righthand_monkey_energy_3
       rect:
         serializedVersion: 2
         x: 96

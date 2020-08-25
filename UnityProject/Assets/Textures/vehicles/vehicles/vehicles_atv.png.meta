@@ -4,52 +4,52 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: atv_0
+    second: vehicles_atv_0
   - first:
       213: 21300002
-    second: atv_1
+    second: vehicles_atv_1
   - first:
       213: 21300004
-    second: atv_2
+    second: vehicles_atv_2
   - first:
       213: 21300006
-    second: atv_3
+    second: vehicles_atv_3
   - first:
       213: 21300008
-    second: atv_4
+    second: vehicles_atv_4
   - first:
       213: 21300010
-    second: atv_5
+    second: vehicles_atv_5
   - first:
       213: 21300012
-    second: atv_6
+    second: vehicles_atv_6
   - first:
       213: 21300014
-    second: atv_7
+    second: vehicles_atv_7
   - first:
       213: 21300016
-    second: atv_8
+    second: vehicles_atv_8
   - first:
       213: 21300018
-    second: atv_9
+    second: vehicles_atv_9
   - first:
       213: 21300020
-    second: atv_10
+    second: vehicles_atv_10
   - first:
       213: 21300022
-    second: atv_11
+    second: vehicles_atv_11
   - first:
       213: 21300024
-    second: atv_12
+    second: vehicles_atv_12
   - first:
       213: 21300026
-    second: atv_13
+    second: vehicles_atv_13
   - first:
       213: 21300028
-    second: atv_14
+    second: vehicles_atv_14
   - first:
       213: 21300030
-    second: atv_15
+    second: vehicles_atv_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: atv_0
+      name: vehicles_atv_0
       rect:
         serializedVersion: 2
         x: 0
@@ -155,7 +155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_1
+      name: vehicles_atv_1
       rect:
         serializedVersion: 2
         x: 32
@@ -176,7 +176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_2
+      name: vehicles_atv_2
       rect:
         serializedVersion: 2
         x: 64
@@ -197,7 +197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_3
+      name: vehicles_atv_3
       rect:
         serializedVersion: 2
         x: 96
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_4
+      name: vehicles_atv_4
       rect:
         serializedVersion: 2
         x: 128
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_5
+      name: vehicles_atv_5
       rect:
         serializedVersion: 2
         x: 160
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_6
+      name: vehicles_atv_6
       rect:
         serializedVersion: 2
         x: 192
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_7
+      name: vehicles_atv_7
       rect:
         serializedVersion: 2
         x: 224
@@ -302,7 +302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_8
+      name: vehicles_atv_8
       rect:
         serializedVersion: 2
         x: 256
@@ -323,7 +323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_9
+      name: vehicles_atv_9
       rect:
         serializedVersion: 2
         x: 288
@@ -344,7 +344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_10
+      name: vehicles_atv_10
       rect:
         serializedVersion: 2
         x: 320
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_11
+      name: vehicles_atv_11
       rect:
         serializedVersion: 2
         x: 352
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_12
+      name: vehicles_atv_12
       rect:
         serializedVersion: 2
         x: 384
@@ -407,7 +407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_13
+      name: vehicles_atv_13
       rect:
         serializedVersion: 2
         x: 416
@@ -428,7 +428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_14
+      name: vehicles_atv_14
       rect:
         serializedVersion: 2
         x: 448
@@ -449,7 +449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: atv_15
+      name: vehicles_atv_15
       rect:
         serializedVersion: 2
         x: 480

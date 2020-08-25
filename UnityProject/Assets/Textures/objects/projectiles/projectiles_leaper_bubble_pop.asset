@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0f299174f6026a847b79f4071fd33aa1, type: 3}
-      spriteName: leaper_bubble_pop_0
+      spriteName: projectiles_leaper_bubble_pop_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: leaper_bubble_pop_0
+        m_SubObjectName: projectiles_leaper_bubble_pop_0
     - sprite: {fileID: 21300002, guid: 0f299174f6026a847b79f4071fd33aa1, type: 3}
-      spriteName: leaper_bubble_pop_1
+      spriteName: projectiles_leaper_bubble_pop_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: leaper_bubble_pop_1
+        m_SubObjectName: projectiles_leaper_bubble_pop_1
     - sprite: {fileID: 21300004, guid: 0f299174f6026a847b79f4071fd33aa1, type: 3}
-      spriteName: leaper_bubble_pop_2
+      spriteName: projectiles_leaper_bubble_pop_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: leaper_bubble_pop_2
+        m_SubObjectName: projectiles_leaper_bubble_pop_2
   IsPalette: 0
   setID: 16624

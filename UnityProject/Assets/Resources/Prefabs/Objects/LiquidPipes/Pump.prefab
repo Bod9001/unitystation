@@ -164,10 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 3a9de78bf93167b41aca0ce941e5f4b0
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 3a9de78bf93167b41aca0ce941e5f4b0, type: 2}
@@ -290,11 +286,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
         type: 3}
-      propertyPath: SubCatalogueAddresses.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
       propertyPath: PresentSpriteSet
       value: 
       objectReference: {fileID: 11400000, guid: 1f9efa21665ec3643a884267d6854963,
@@ -311,21 +302,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3350f04c621ef4745b15c30a5614332b,
         type: 2}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 1f9efa21665ec3643a884267d6854963
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[0].m_AssetGUID
-      value: 1f9efa21665ec3643a884267d6854963
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[1].m_AssetGUID
-      value: 3350f04c621ef4745b15c30a5614332b
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebb08cf966efc084aa918bd8d9429604, type: 3}
 --- !u!1 &3876953017801636264 stripped

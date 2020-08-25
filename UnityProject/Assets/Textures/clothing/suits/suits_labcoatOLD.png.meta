@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: labcoatOLD_0
+    second: suits_labcoatOLD_0
   - first:
       213: 21300002
-    second: labcoatOLD_1
+    second: suits_labcoatOLD_1
   - first:
       213: 21300004
-    second: labcoatOLD_2
+    second: suits_labcoatOLD_2
   - first:
       213: 21300006
-    second: labcoatOLD_3
+    second: suits_labcoatOLD_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: labcoatOLD_0
+      name: suits_labcoatOLD_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: labcoatOLD_1
+      name: suits_labcoatOLD_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: labcoatOLD_2
+      name: suits_labcoatOLD_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: labcoatOLD_3
+      name: suits_labcoatOLD_3
       rect:
         serializedVersion: 2
         x: 96

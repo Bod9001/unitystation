@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e9b5c0cf617e76c488d494d2726e0716, type: 3}
-      spriteName: nanite_ping_0
+      spriteName: HUD_nanite_ping_0
       secondDelay: 0.8
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: nanite_ping_0
+        m_SubObjectName: HUD_nanite_ping_0
     - sprite: {fileID: 21300002, guid: e9b5c0cf617e76c488d494d2726e0716, type: 3}
-      spriteName: nanite_ping_1
+      spriteName: HUD_nanite_ping_1
       secondDelay: 0.8
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: nanite_ping_1
+        m_SubObjectName: HUD_nanite_ping_1
   IsPalette: 0
   setID: 2868

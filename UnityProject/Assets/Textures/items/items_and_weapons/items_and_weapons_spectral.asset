@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2300b88e21aac1d48b494ed8189ecc57, type: 3}
-      spriteName: spectral_0
+      spriteName: items_and_weapons_spectral_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: spectral_0
+        m_SubObjectName: items_and_weapons_spectral_0
     - sprite: {fileID: 21300002, guid: 2300b88e21aac1d48b494ed8189ecc57, type: 3}
-      spriteName: spectral_1
+      spriteName: items_and_weapons_spectral_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: spectral_1
+        m_SubObjectName: items_and_weapons_spectral_1
     - sprite: {fileID: 21300004, guid: 2300b88e21aac1d48b494ed8189ecc57, type: 3}
-      spriteName: spectral_2
+      spriteName: items_and_weapons_spectral_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: spectral_2
+        m_SubObjectName: items_and_weapons_spectral_2
   IsPalette: 0
   setID: 7910

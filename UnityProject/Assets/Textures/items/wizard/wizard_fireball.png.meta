@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: fireball_0
+    second: wizard_fireball_0
   - first:
       213: 21300002
-    second: fireball_1
+    second: wizard_fireball_1
   - first:
       213: 21300004
-    second: fireball_2
+    second: wizard_fireball_2
   - first:
       213: 21300006
-    second: fireball_3
+    second: wizard_fireball_3
   - first:
       213: 21300008
-    second: fireball_4
+    second: wizard_fireball_4
   - first:
       213: 21300010
-    second: fireball_5
+    second: wizard_fireball_5
   - first:
       213: 21300012
-    second: fireball_6
+    second: wizard_fireball_6
   - first:
       213: 21300014
-    second: fireball_7
+    second: wizard_fireball_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fireball_0
+      name: wizard_fireball_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireball_1
+      name: wizard_fireball_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireball_2
+      name: wizard_fireball_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireball_3
+      name: wizard_fireball_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireball_4
+      name: wizard_fireball_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireball_5
+      name: wizard_fireball_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireball_6
+      name: wizard_fireball_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireball_7
+      name: wizard_fireball_7
       rect:
         serializedVersion: 2
         x: 224

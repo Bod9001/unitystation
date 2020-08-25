@@ -4,100 +4,100 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cameras_0
+    second: computer_cameras_0
   - first:
       213: 21300002
-    second: cameras_1
+    second: computer_cameras_1
   - first:
       213: 21300004
-    second: cameras_2
+    second: computer_cameras_2
   - first:
       213: 21300006
-    second: cameras_3
+    second: computer_cameras_3
   - first:
       213: 21300008
-    second: cameras_4
+    second: computer_cameras_4
   - first:
       213: 21300010
-    second: cameras_5
+    second: computer_cameras_5
   - first:
       213: 21300012
-    second: cameras_6
+    second: computer_cameras_6
   - first:
       213: 21300014
-    second: cameras_7
+    second: computer_cameras_7
   - first:
       213: 21300016
-    second: cameras_8
+    second: computer_cameras_8
   - first:
       213: 21300018
-    second: cameras_9
+    second: computer_cameras_9
   - first:
       213: 21300020
-    second: cameras_10
+    second: computer_cameras_10
   - first:
       213: 21300022
-    second: cameras_11
+    second: computer_cameras_11
   - first:
       213: 21300024
-    second: cameras_12
+    second: computer_cameras_12
   - first:
       213: 21300026
-    second: cameras_13
+    second: computer_cameras_13
   - first:
       213: 21300028
-    second: cameras_14
+    second: computer_cameras_14
   - first:
       213: 21300030
-    second: cameras_15
+    second: computer_cameras_15
   - first:
       213: 21300032
-    second: cameras_16
+    second: computer_cameras_16
   - first:
       213: 21300034
-    second: cameras_17
+    second: computer_cameras_17
   - first:
       213: 21300036
-    second: cameras_18
+    second: computer_cameras_18
   - first:
       213: 21300038
-    second: cameras_19
+    second: computer_cameras_19
   - first:
       213: 21300040
-    second: cameras_20
+    second: computer_cameras_20
   - first:
       213: 21300042
-    second: cameras_21
+    second: computer_cameras_21
   - first:
       213: 21300044
-    second: cameras_22
+    second: computer_cameras_22
   - first:
       213: 21300046
-    second: cameras_23
+    second: computer_cameras_23
   - first:
       213: 21300048
-    second: cameras_24
+    second: computer_cameras_24
   - first:
       213: 21300050
-    second: cameras_25
+    second: computer_cameras_25
   - first:
       213: 21300052
-    second: cameras_26
+    second: computer_cameras_26
   - first:
       213: 21300054
-    second: cameras_27
+    second: computer_cameras_27
   - first:
       213: 21300056
-    second: cameras_28
+    second: computer_cameras_28
   - first:
       213: 21300058
-    second: cameras_29
+    second: computer_cameras_29
   - first:
       213: 21300060
-    second: cameras_30
+    second: computer_cameras_30
   - first:
       213: 21300062
-    second: cameras_31
+    second: computer_cameras_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cameras_0
+      name: computer_cameras_0
       rect:
         serializedVersion: 2
         x: 0
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_1
+      name: computer_cameras_1
       rect:
         serializedVersion: 2
         x: 32
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_2
+      name: computer_cameras_2
       rect:
         serializedVersion: 2
         x: 64
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_3
+      name: computer_cameras_3
       rect:
         serializedVersion: 2
         x: 96
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_4
+      name: computer_cameras_4
       rect:
         serializedVersion: 2
         x: 128
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_5
+      name: computer_cameras_5
       rect:
         serializedVersion: 2
         x: 160
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_6
+      name: computer_cameras_6
       rect:
         serializedVersion: 2
         x: 192
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_7
+      name: computer_cameras_7
       rect:
         serializedVersion: 2
         x: 224
@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_8
+      name: computer_cameras_8
       rect:
         serializedVersion: 2
         x: 256
@@ -371,7 +371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_9
+      name: computer_cameras_9
       rect:
         serializedVersion: 2
         x: 288
@@ -392,7 +392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_10
+      name: computer_cameras_10
       rect:
         serializedVersion: 2
         x: 320
@@ -413,7 +413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_11
+      name: computer_cameras_11
       rect:
         serializedVersion: 2
         x: 352
@@ -434,7 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_12
+      name: computer_cameras_12
       rect:
         serializedVersion: 2
         x: 384
@@ -455,7 +455,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_13
+      name: computer_cameras_13
       rect:
         serializedVersion: 2
         x: 416
@@ -476,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_14
+      name: computer_cameras_14
       rect:
         serializedVersion: 2
         x: 448
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_15
+      name: computer_cameras_15
       rect:
         serializedVersion: 2
         x: 480
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_16
+      name: computer_cameras_16
       rect:
         serializedVersion: 2
         x: 512
@@ -539,7 +539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_17
+      name: computer_cameras_17
       rect:
         serializedVersion: 2
         x: 544
@@ -560,7 +560,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_18
+      name: computer_cameras_18
       rect:
         serializedVersion: 2
         x: 576
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_19
+      name: computer_cameras_19
       rect:
         serializedVersion: 2
         x: 608
@@ -602,7 +602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_20
+      name: computer_cameras_20
       rect:
         serializedVersion: 2
         x: 640
@@ -623,7 +623,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_21
+      name: computer_cameras_21
       rect:
         serializedVersion: 2
         x: 672
@@ -644,7 +644,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_22
+      name: computer_cameras_22
       rect:
         serializedVersion: 2
         x: 704
@@ -665,7 +665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_23
+      name: computer_cameras_23
       rect:
         serializedVersion: 2
         x: 736
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_24
+      name: computer_cameras_24
       rect:
         serializedVersion: 2
         x: 768
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_25
+      name: computer_cameras_25
       rect:
         serializedVersion: 2
         x: 800
@@ -728,7 +728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_26
+      name: computer_cameras_26
       rect:
         serializedVersion: 2
         x: 832
@@ -749,7 +749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_27
+      name: computer_cameras_27
       rect:
         serializedVersion: 2
         x: 864
@@ -770,7 +770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_28
+      name: computer_cameras_28
       rect:
         serializedVersion: 2
         x: 896
@@ -791,7 +791,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_29
+      name: computer_cameras_29
       rect:
         serializedVersion: 2
         x: 928
@@ -812,7 +812,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_30
+      name: computer_cameras_30
       rect:
         serializedVersion: 2
         x: 960
@@ -833,7 +833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_31
+      name: computer_cameras_31
       rect:
         serializedVersion: 2
         x: 992

@@ -4,46 +4,46 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: proto_0
+    second: atmos_proto_0
   - first:
       213: 21300002
-    second: proto_1
+    second: atmos_proto_1
   - first:
       213: 21300004
-    second: proto_2
+    second: atmos_proto_2
   - first:
       213: 21300006
-    second: proto_3
+    second: atmos_proto_3
   - first:
       213: 21300008
-    second: proto_4
+    second: atmos_proto_4
   - first:
       213: 21300010
-    second: proto_5
+    second: atmos_proto_5
   - first:
       213: 21300012
-    second: proto_6
+    second: atmos_proto_6
   - first:
       213: 21300014
-    second: proto_7
+    second: atmos_proto_7
   - first:
       213: 21300016
-    second: proto_8
+    second: atmos_proto_8
   - first:
       213: 21300018
-    second: proto_9
+    second: atmos_proto_9
   - first:
       213: 21300020
-    second: proto_10
+    second: atmos_proto_10
   - first:
       213: 21300022
-    second: proto_11
+    second: atmos_proto_11
   - first:
       213: 21300024
-    second: proto_12
+    second: atmos_proto_12
   - first:
       213: 21300026
-    second: proto_13
+    second: atmos_proto_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: proto_0
+      name: atmos_proto_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_1
+      name: atmos_proto_1
       rect:
         serializedVersion: 2
         x: 32
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_2
+      name: atmos_proto_2
       rect:
         serializedVersion: 2
         x: 64
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_3
+      name: atmos_proto_3
       rect:
         serializedVersion: 2
         x: 96
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_4
+      name: atmos_proto_4
       rect:
         serializedVersion: 2
         x: 128
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_5
+      name: atmos_proto_5
       rect:
         serializedVersion: 2
         x: 160
@@ -254,7 +254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_6
+      name: atmos_proto_6
       rect:
         serializedVersion: 2
         x: 192
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_7
+      name: atmos_proto_7
       rect:
         serializedVersion: 2
         x: 224
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_8
+      name: atmos_proto_8
       rect:
         serializedVersion: 2
         x: 256
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_9
+      name: atmos_proto_9
       rect:
         serializedVersion: 2
         x: 288
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_10
+      name: atmos_proto_10
       rect:
         serializedVersion: 2
         x: 320
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_11
+      name: atmos_proto_11
       rect:
         serializedVersion: 2
         x: 352
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_12
+      name: atmos_proto_12
       rect:
         serializedVersion: 2
         x: 384
@@ -401,7 +401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: proto_13
+      name: atmos_proto_13
       rect:
         serializedVersion: 2
         x: 416

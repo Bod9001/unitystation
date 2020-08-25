@@ -15,46 +15,46 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8639aef3c7d4ee7469e31ea9599e731b, type: 3}
-      spriteName: coilhit_0
+      spriteName: tesla_coil_coilhit_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: coilhit_0
+        m_SubObjectName: tesla_coil_coilhit_0
     - sprite: {fileID: 21300002, guid: 8639aef3c7d4ee7469e31ea9599e731b, type: 3}
-      spriteName: coilhit_1
+      spriteName: tesla_coil_coilhit_1
       secondDelay: 0.08
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: coilhit_1
+        m_SubObjectName: tesla_coil_coilhit_1
     - sprite: {fileID: 21300004, guid: 8639aef3c7d4ee7469e31ea9599e731b, type: 3}
-      spriteName: coilhit_2
+      spriteName: tesla_coil_coilhit_2
       secondDelay: 0.08
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: coilhit_2
+        m_SubObjectName: tesla_coil_coilhit_2
     - sprite: {fileID: 21300006, guid: 8639aef3c7d4ee7469e31ea9599e731b, type: 3}
-      spriteName: coilhit_3
+      spriteName: tesla_coil_coilhit_3
       secondDelay: 0.08
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: coilhit_3
+        m_SubObjectName: tesla_coil_coilhit_3
     - sprite: {fileID: 21300008, guid: 8639aef3c7d4ee7469e31ea9599e731b, type: 3}
-      spriteName: coilhit_4
+      spriteName: tesla_coil_coilhit_4
       secondDelay: 0.12
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: coilhit_4
+        m_SubObjectName: tesla_coil_coilhit_4
     - sprite: {fileID: 21300010, guid: 8639aef3c7d4ee7469e31ea9599e731b, type: 3}
-      spriteName: coilhit_5
+      spriteName: tesla_coil_coilhit_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: coilhit_5
+        m_SubObjectName: tesla_coil_coilhit_5
   IsPalette: 0
   setID: 17586

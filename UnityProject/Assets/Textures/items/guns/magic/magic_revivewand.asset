@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2061d324a55b6764a829d2ab2113da43, type: 3}
-      spriteName: revivewand_0
+      spriteName: magic_revivewand_0
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: revivewand_0
+        m_SubObjectName: magic_revivewand_0
     - sprite: {fileID: 21300002, guid: 2061d324a55b6764a829d2ab2113da43, type: 3}
-      spriteName: revivewand_1
+      spriteName: magic_revivewand_1
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: revivewand_1
+        m_SubObjectName: magic_revivewand_1
     - sprite: {fileID: 21300004, guid: 2061d324a55b6764a829d2ab2113da43, type: 3}
-      spriteName: revivewand_2
+      spriteName: magic_revivewand_2
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: revivewand_2
+        m_SubObjectName: magic_revivewand_2
     - sprite: {fileID: 21300006, guid: 2061d324a55b6764a829d2ab2113da43, type: 3}
-      spriteName: revivewand_3
+      spriteName: magic_revivewand_3
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: revivewand_3
+        m_SubObjectName: magic_revivewand_3
   IsPalette: 0
   setID: 7487

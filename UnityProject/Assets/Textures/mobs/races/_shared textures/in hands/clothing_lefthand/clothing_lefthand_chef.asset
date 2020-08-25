@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: da8ef7ad856c7754c856e891034c1bfc, type: 3}
-      spriteName: chef_0
+      spriteName: clothing_lefthand_chef_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chef_0
+        m_SubObjectName: clothing_lefthand_chef_0
   - Frames:
     - sprite: {fileID: 21300002, guid: da8ef7ad856c7754c856e891034c1bfc, type: 3}
-      spriteName: chef_1
+      spriteName: clothing_lefthand_chef_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chef_1
+        m_SubObjectName: clothing_lefthand_chef_1
   - Frames:
     - sprite: {fileID: 21300004, guid: da8ef7ad856c7754c856e891034c1bfc, type: 3}
-      spriteName: chef_2
+      spriteName: clothing_lefthand_chef_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chef_2
+        m_SubObjectName: clothing_lefthand_chef_2
   - Frames:
     - sprite: {fileID: 21300006, guid: da8ef7ad856c7754c856e891034c1bfc, type: 3}
-      spriteName: chef_3
+      spriteName: clothing_lefthand_chef_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chef_3
+        m_SubObjectName: clothing_lefthand_chef_3
   IsPalette: 0
   setID: 22077

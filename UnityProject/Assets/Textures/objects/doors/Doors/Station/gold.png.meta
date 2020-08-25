@@ -4,79 +4,79 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: gold_0
+    second: Station_gold_0
   - first:
       213: 21300002
-    second: gold_1
+    second: Station_gold_1
   - first:
       213: 21300004
-    second: gold_2
+    second: Station_gold_2
   - first:
       213: 21300006
-    second: gold_3
+    second: Station_gold_3
   - first:
       213: 21300008
-    second: gold_4
+    second: Station_gold_4
   - first:
       213: 21300010
-    second: gold_5
+    second: Station_gold_5
   - first:
       213: 21300012
-    second: gold_6
+    second: Station_gold_6
   - first:
       213: 21300014
-    second: gold_7
+    second: Station_gold_7
   - first:
       213: 21300016
-    second: gold_8
+    second: Station_gold_8
   - first:
       213: 21300018
-    second: gold_9
+    second: Station_gold_9
   - first:
       213: 21300020
-    second: gold_10
+    second: Station_gold_10
   - first:
       213: 21300022
-    second: gold_11
+    second: Station_gold_11
   - first:
       213: 21300024
-    second: gold_12
+    second: Station_gold_12
   - first:
       213: 21300026
-    second: gold_13
+    second: Station_gold_13
   - first:
       213: 21300028
-    second: gold_14
+    second: Station_gold_14
   - first:
       213: 21300030
-    second: gold_15
+    second: Station_gold_15
   - first:
       213: 21300032
-    second: gold_16
+    second: Station_gold_16
   - first:
       213: 21300034
-    second: gold_17
+    second: Station_gold_17
   - first:
       213: 21300036
-    second: gold_18
+    second: Station_gold_18
   - first:
       213: 21300038
-    second: gold_19
+    second: Station_gold_19
   - first:
       213: 21300040
-    second: gold_20
+    second: Station_gold_20
   - first:
       213: 21300042
-    second: gold_21
+    second: Station_gold_21
   - first:
       213: 21300044
-    second: gold_22
+    second: Station_gold_22
   - first:
       213: 21300046
-    second: gold_23
+    second: Station_gold_23
   - first:
       213: 21300048
-    second: gold_24
+    second: Station_gold_24
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -197,7 +197,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gold_0
+      name: Station_gold_0
       rect:
         serializedVersion: 2
         x: 0
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_1
+      name: Station_gold_1
       rect:
         serializedVersion: 2
         x: 32
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_2
+      name: Station_gold_2
       rect:
         serializedVersion: 2
         x: 64
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_3
+      name: Station_gold_3
       rect:
         serializedVersion: 2
         x: 96
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_4
+      name: Station_gold_4
       rect:
         serializedVersion: 2
         x: 128
@@ -302,7 +302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_5
+      name: Station_gold_5
       rect:
         serializedVersion: 2
         x: 160
@@ -323,7 +323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_6
+      name: Station_gold_6
       rect:
         serializedVersion: 2
         x: 0
@@ -344,7 +344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_7
+      name: Station_gold_7
       rect:
         serializedVersion: 2
         x: 32
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_8
+      name: Station_gold_8
       rect:
         serializedVersion: 2
         x: 64
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_9
+      name: Station_gold_9
       rect:
         serializedVersion: 2
         x: 96
@@ -407,7 +407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_10
+      name: Station_gold_10
       rect:
         serializedVersion: 2
         x: 128
@@ -428,7 +428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_11
+      name: Station_gold_11
       rect:
         serializedVersion: 2
         x: 160
@@ -449,7 +449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_12
+      name: Station_gold_12
       rect:
         serializedVersion: 2
         x: 0
@@ -470,7 +470,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_13
+      name: Station_gold_13
       rect:
         serializedVersion: 2
         x: 32
@@ -491,7 +491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_14
+      name: Station_gold_14
       rect:
         serializedVersion: 2
         x: 64
@@ -512,7 +512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_15
+      name: Station_gold_15
       rect:
         serializedVersion: 2
         x: 96
@@ -533,7 +533,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_16
+      name: Station_gold_16
       rect:
         serializedVersion: 2
         x: 160
@@ -554,7 +554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_17
+      name: Station_gold_17
       rect:
         serializedVersion: 2
         x: 0
@@ -575,7 +575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_18
+      name: Station_gold_18
       rect:
         serializedVersion: 2
         x: 32
@@ -596,7 +596,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_19
+      name: Station_gold_19
       rect:
         serializedVersion: 2
         x: 64
@@ -617,7 +617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_20
+      name: Station_gold_20
       rect:
         serializedVersion: 2
         x: 32
@@ -638,7 +638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_21
+      name: Station_gold_21
       rect:
         serializedVersion: 2
         x: 64
@@ -659,7 +659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_22
+      name: Station_gold_22
       rect:
         serializedVersion: 2
         x: 96
@@ -680,7 +680,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_23
+      name: Station_gold_23
       rect:
         serializedVersion: 2
         x: 128
@@ -701,7 +701,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_24
+      name: Station_gold_24
       rect:
         serializedVersion: 2
         x: 160

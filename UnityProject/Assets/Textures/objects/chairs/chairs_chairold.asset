@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ebf2f5021915ac946abe08a20fe466df, type: 3}
-      spriteName: chairold_0
+      spriteName: chairs_chairold_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: chairold_0
+        m_SubObjectName: chairs_chairold_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ebf2f5021915ac946abe08a20fe466df, type: 3}
-      spriteName: chairold_1
+      spriteName: chairs_chairold_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: chairold_1
+        m_SubObjectName: chairs_chairold_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ebf2f5021915ac946abe08a20fe466df, type: 3}
-      spriteName: chairold_2
+      spriteName: chairs_chairold_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: chairold_2
+        m_SubObjectName: chairs_chairold_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ebf2f5021915ac946abe08a20fe466df, type: 3}
-      spriteName: chairold_3
+      spriteName: chairs_chairold_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: chairold_3
+        m_SubObjectName: chairs_chairold_3
   IsPalette: 0
   setID: 13205

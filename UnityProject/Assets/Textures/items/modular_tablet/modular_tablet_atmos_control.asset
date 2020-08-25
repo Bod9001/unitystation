@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e5d5033fd7ccf0f46adf76e959b89193, type: 3}
-      spriteName: atmos_control_0
+      spriteName: modular_tablet_atmos_control_0
       secondDelay: 0.4
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: atmos_control_0
+        m_SubObjectName: modular_tablet_atmos_control_0
     - sprite: {fileID: 21300002, guid: e5d5033fd7ccf0f46adf76e959b89193, type: 3}
-      spriteName: atmos_control_1
+      spriteName: modular_tablet_atmos_control_1
       secondDelay: 0.4
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: atmos_control_1
+        m_SubObjectName: modular_tablet_atmos_control_1
     - sprite: {fileID: 21300004, guid: e5d5033fd7ccf0f46adf76e959b89193, type: 3}
-      spriteName: atmos_control_2
+      spriteName: modular_tablet_atmos_control_2
       secondDelay: 0.4
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: atmos_control_2
+        m_SubObjectName: modular_tablet_atmos_control_2
   IsPalette: 0
   setID: 8330

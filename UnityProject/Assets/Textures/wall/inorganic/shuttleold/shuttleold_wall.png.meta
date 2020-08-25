@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: wall_0
+    second: shuttleold_wall_0
   - first:
       213: 21300002
-    second: wall_1
+    second: shuttleold_wall_1
   - first:
       213: 21300004
-    second: wall_2
+    second: shuttleold_wall_2
   - first:
       213: 21300006
-    second: wall_3
+    second: shuttleold_wall_3
   - first:
       213: 21300008
-    second: wall_4
+    second: shuttleold_wall_4
   - first:
       213: 21300010
-    second: wall_5
+    second: shuttleold_wall_5
   - first:
       213: 21300012
-    second: wall_6
+    second: shuttleold_wall_6
   - first:
       213: 21300014
-    second: wall_7
+    second: shuttleold_wall_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wall_0
+      name: shuttleold_wall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_1
+      name: shuttleold_wall_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_2
+      name: shuttleold_wall_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_3
+      name: shuttleold_wall_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_4
+      name: shuttleold_wall_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_5
+      name: shuttleold_wall_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_6
+      name: shuttleold_wall_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_7
+      name: shuttleold_wall_7
       rect:
         serializedVersion: 2
         x: 224

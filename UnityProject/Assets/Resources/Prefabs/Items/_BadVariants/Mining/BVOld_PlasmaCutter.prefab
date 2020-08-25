@@ -93,11 +93,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a181fd23b03f30049b0879457111adcc,
         type: 2}
-    - target: {fileID: 4598361863285954486, guid: c456c86d5736aee499478a158376781e,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: a181fd23b03f30049b0879457111adcc
-      objectReference: {fileID: 0}
     - target: {fileID: 7523055829715214189, guid: c456c86d5736aee499478a158376781e,
         type: 3}
       propertyPath: m_Sprite
@@ -162,7 +157,7 @@ PrefabInstance:
     - target: {fileID: 7680527389759007793, guid: c456c86d5736aee499478a158376781e,
         type: 3}
       propertyPath: m_Name
-      value: BVOld_PlasmaCutter
+      value: PlasmaCutter
       objectReference: {fileID: 0}
     - target: {fileID: 7710870028303749509, guid: c456c86d5736aee499478a158376781e,
         type: 3}

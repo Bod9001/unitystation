@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: eec89dfe555f31443a0a12843501379b, type: 3}
-      spriteName: singular_0
+      spriteName: brokentiling_singular_0
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: singular_0
+        m_SubObjectName: brokentiling_singular_0
   - Frames:
     - sprite: {fileID: 21300002, guid: eec89dfe555f31443a0a12843501379b, type: 3}
-      spriteName: singular_1
+      spriteName: brokentiling_singular_1
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: singular_1
+        m_SubObjectName: brokentiling_singular_1
   - Frames:
     - sprite: {fileID: 21300004, guid: eec89dfe555f31443a0a12843501379b, type: 3}
-      spriteName: singular_2
+      spriteName: brokentiling_singular_2
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: singular_2
+        m_SubObjectName: brokentiling_singular_2
   - Frames:
     - sprite: {fileID: 21300006, guid: eec89dfe555f31443a0a12843501379b, type: 3}
-      spriteName: singular_3
+      spriteName: brokentiling_singular_3
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: singular_3
+        m_SubObjectName: brokentiling_singular_3
   IsPalette: 0
   setID: 1512

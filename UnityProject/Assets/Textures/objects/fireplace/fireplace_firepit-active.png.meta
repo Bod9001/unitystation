@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: firepit-active_0
+    second: fireplace_firepit-active_0
   - first:
       213: 21300002
-    second: firepit-active_1
+    second: fireplace_firepit-active_1
   - first:
       213: 21300004
-    second: firepit-active_2
+    second: fireplace_firepit-active_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: firepit-active_0
+      name: fireplace_firepit-active_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firepit-active_1
+      name: fireplace_firepit-active_1
       rect:
         serializedVersion: 2
         x: 64
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: firepit-active_2
+      name: fireplace_firepit-active_2
       rect:
         serializedVersion: 2
         x: 128

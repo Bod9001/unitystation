@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: drone_synd_0
+    second: drone_drone_synd_0
   - first:
       213: 21300002
-    second: drone_synd_1
+    second: drone_drone_synd_1
   - first:
       213: 21300004
-    second: drone_synd_2
+    second: drone_drone_synd_2
   - first:
       213: 21300006
-    second: drone_synd_3
+    second: drone_drone_synd_3
   - first:
       213: 21300008
-    second: drone_synd_4
+    second: drone_drone_synd_4
   - first:
       213: 21300010
-    second: drone_synd_5
+    second: drone_drone_synd_5
   - first:
       213: 21300012
-    second: drone_synd_6
+    second: drone_drone_synd_6
   - first:
       213: 21300014
-    second: drone_synd_7
+    second: drone_drone_synd_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: drone_synd_0
+      name: drone_drone_synd_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drone_synd_1
+      name: drone_drone_synd_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drone_synd_2
+      name: drone_drone_synd_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drone_synd_3
+      name: drone_drone_synd_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drone_synd_4
+      name: drone_drone_synd_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drone_synd_5
+      name: drone_drone_synd_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drone_synd_6
+      name: drone_drone_synd_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drone_synd_7
+      name: drone_drone_synd_7
       rect:
         serializedVersion: 2
         x: 224

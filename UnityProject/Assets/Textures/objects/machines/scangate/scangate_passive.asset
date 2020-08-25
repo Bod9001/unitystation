@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 91d0d09f1db245e4694367e6311a7e4e, type: 3}
-      spriteName: passive_0
+      spriteName: scangate_passive_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: passive_0
+        m_SubObjectName: scangate_passive_0
     - sprite: {fileID: 21300002, guid: 91d0d09f1db245e4694367e6311a7e4e, type: 3}
-      spriteName: passive_1
+      spriteName: scangate_passive_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: passive_1
+        m_SubObjectName: scangate_passive_1
   IsPalette: 0
   setID: 15975

@@ -15,60 +15,60 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
-      spriteName: n_beam_0
+      spriteName: beam_n_beam_0
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_0
+        m_SubObjectName: beam_n_beam_0
     - sprite: {fileID: 21300002, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
-      spriteName: n_beam_1
+      spriteName: beam_n_beam_1
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_1
+        m_SubObjectName: beam_n_beam_1
     - sprite: {fileID: 21300004, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
-      spriteName: n_beam_2
+      spriteName: beam_n_beam_2
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_2
+        m_SubObjectName: beam_n_beam_2
     - sprite: {fileID: 21300006, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
-      spriteName: n_beam_3
+      spriteName: beam_n_beam_3
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_3
+        m_SubObjectName: beam_n_beam_3
     - sprite: {fileID: 21300008, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
-      spriteName: n_beam_4
+      spriteName: beam_n_beam_4
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_4
+        m_SubObjectName: beam_n_beam_4
     - sprite: {fileID: 21300010, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
-      spriteName: n_beam_5
+      spriteName: beam_n_beam_5
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_5
+        m_SubObjectName: beam_n_beam_5
     - sprite: {fileID: 21300012, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
-      spriteName: n_beam_6
+      spriteName: beam_n_beam_6
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_6
+        m_SubObjectName: beam_n_beam_6
     - sprite: {fileID: 21300014, guid: 588e7762bc015db49ba767f2e2f0ed63, type: 3}
-      spriteName: n_beam_7
+      spriteName: beam_n_beam_7
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: n_beam_7
+        m_SubObjectName: beam_n_beam_7
   IsPalette: 0
   setID: 1171

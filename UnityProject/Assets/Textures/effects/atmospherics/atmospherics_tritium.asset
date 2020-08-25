@@ -15,39 +15,39 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c6fe51926cb4b604098f2d311c82fbb4, type: 3}
-      spriteName: tritium_0
+      spriteName: atmospherics_tritium_0
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tritium_0
+        m_SubObjectName: atmospherics_tritium_0
     - sprite: {fileID: 21300002, guid: c6fe51926cb4b604098f2d311c82fbb4, type: 3}
-      spriteName: tritium_1
+      spriteName: atmospherics_tritium_1
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tritium_1
+        m_SubObjectName: atmospherics_tritium_1
     - sprite: {fileID: 21300004, guid: c6fe51926cb4b604098f2d311c82fbb4, type: 3}
-      spriteName: tritium_2
+      spriteName: atmospherics_tritium_2
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tritium_2
+        m_SubObjectName: atmospherics_tritium_2
     - sprite: {fileID: 21300006, guid: c6fe51926cb4b604098f2d311c82fbb4, type: 3}
-      spriteName: tritium_3
+      spriteName: atmospherics_tritium_3
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tritium_3
+        m_SubObjectName: atmospherics_tritium_3
     - sprite: {fileID: 21300008, guid: c6fe51926cb4b604098f2d311c82fbb4, type: 3}
-      spriteName: tritium_4
+      spriteName: atmospherics_tritium_4
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: tritium_4
+        m_SubObjectName: atmospherics_tritium_4
   IsPalette: 0
   setID: 1125

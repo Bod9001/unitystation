@@ -15,102 +15,102 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_0
+      spriteName: effects_heal_0
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_0
+        m_SubObjectName: effects_heal_0
     - sprite: {fileID: 21300002, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_1
+      spriteName: effects_heal_1
       secondDelay: 0.02
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_1
+        m_SubObjectName: effects_heal_1
     - sprite: {fileID: 21300004, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_2
+      spriteName: effects_heal_2
       secondDelay: 0.03
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_2
+        m_SubObjectName: effects_heal_2
     - sprite: {fileID: 21300006, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_3
+      spriteName: effects_heal_3
       secondDelay: 0.04
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_3
+        m_SubObjectName: effects_heal_3
     - sprite: {fileID: 21300008, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_4
+      spriteName: effects_heal_4
       secondDelay: 0.05
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_4
+        m_SubObjectName: effects_heal_4
     - sprite: {fileID: 21300010, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_5
+      spriteName: effects_heal_5
       secondDelay: 0.06
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_5
+        m_SubObjectName: effects_heal_5
     - sprite: {fileID: 21300012, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_6
+      spriteName: effects_heal_6
       secondDelay: 0.07
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_6
+        m_SubObjectName: effects_heal_6
     - sprite: {fileID: 21300014, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_7
+      spriteName: effects_heal_7
       secondDelay: 0.08
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_7
+        m_SubObjectName: effects_heal_7
     - sprite: {fileID: 21300016, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_8
+      spriteName: effects_heal_8
       secondDelay: 0.09
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_8
+        m_SubObjectName: effects_heal_8
     - sprite: {fileID: 21300018, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_9
+      spriteName: effects_heal_9
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_9
+        m_SubObjectName: effects_heal_9
     - sprite: {fileID: 21300020, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_10
+      spriteName: effects_heal_10
       secondDelay: 0.15
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_10
+        m_SubObjectName: effects_heal_10
     - sprite: {fileID: 21300022, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_11
+      spriteName: effects_heal_11
       secondDelay: 0.2
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_11
+        m_SubObjectName: effects_heal_11
     - sprite: {fileID: 21300024, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_12
+      spriteName: effects_heal_12
       secondDelay: 0.25
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_12
+        m_SubObjectName: effects_heal_12
     - sprite: {fileID: 21300026, guid: 0b29249ed5c60db48beb370300130d53, type: 3}
-      spriteName: heal_13
+      spriteName: effects_heal_13
       secondDelay: 0.3
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: heal_13
+        m_SubObjectName: effects_heal_13
   IsPalette: 0
   setID: 1291

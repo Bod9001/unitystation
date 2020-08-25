@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 6554fa34ed61212408d9320adc372f67, type: 3}
-      spriteName: saxophone_0
+      spriteName: instruments_lefthand_saxophone_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: saxophone_0
+        m_SubObjectName: instruments_lefthand_saxophone_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6554fa34ed61212408d9320adc372f67, type: 3}
-      spriteName: saxophone_1
+      spriteName: instruments_lefthand_saxophone_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: saxophone_1
+        m_SubObjectName: instruments_lefthand_saxophone_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6554fa34ed61212408d9320adc372f67, type: 3}
-      spriteName: saxophone_2
+      spriteName: instruments_lefthand_saxophone_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: saxophone_2
+        m_SubObjectName: instruments_lefthand_saxophone_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6554fa34ed61212408d9320adc372f67, type: 3}
-      spriteName: saxophone_3
+      spriteName: instruments_lefthand_saxophone_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: saxophone_3
+        m_SubObjectName: instruments_lefthand_saxophone_3
   IsPalette: 0
   setID: 10079

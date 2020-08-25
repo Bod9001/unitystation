@@ -15,60 +15,60 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 76ba0fcdc3796fd45acc1025345ebcb0, type: 3}
-      spriteName: closing_0
+      spriteName: blastdoor_closing_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_0
+        m_SubObjectName: blastdoor_closing_0
     - sprite: {fileID: 21300002, guid: 76ba0fcdc3796fd45acc1025345ebcb0, type: 3}
-      spriteName: closing_1
+      spriteName: blastdoor_closing_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_1
+        m_SubObjectName: blastdoor_closing_1
     - sprite: {fileID: 21300004, guid: 76ba0fcdc3796fd45acc1025345ebcb0, type: 3}
-      spriteName: closing_2
+      spriteName: blastdoor_closing_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_2
+        m_SubObjectName: blastdoor_closing_2
     - sprite: {fileID: 21300006, guid: 76ba0fcdc3796fd45acc1025345ebcb0, type: 3}
-      spriteName: closing_3
+      spriteName: blastdoor_closing_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_3
+        m_SubObjectName: blastdoor_closing_3
     - sprite: {fileID: 21300008, guid: 76ba0fcdc3796fd45acc1025345ebcb0, type: 3}
-      spriteName: closing_4
+      spriteName: blastdoor_closing_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_4
+        m_SubObjectName: blastdoor_closing_4
     - sprite: {fileID: 21300010, guid: 76ba0fcdc3796fd45acc1025345ebcb0, type: 3}
-      spriteName: closing_5
+      spriteName: blastdoor_closing_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_5
+        m_SubObjectName: blastdoor_closing_5
     - sprite: {fileID: 21300012, guid: 76ba0fcdc3796fd45acc1025345ebcb0, type: 3}
-      spriteName: closing_6
+      spriteName: blastdoor_closing_6
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_6
+        m_SubObjectName: blastdoor_closing_6
     - sprite: {fileID: 21300014, guid: 76ba0fcdc3796fd45acc1025345ebcb0, type: 3}
-      spriteName: closing_7
+      spriteName: blastdoor_closing_7
       secondDelay: 0.4
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_7
+        m_SubObjectName: blastdoor_closing_7
   IsPalette: 0
   setID: 14401

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: maskblood_0
+    second: overly_maskblood_0
   - first:
       213: 21300002
-    second: maskblood_1
+    second: overly_maskblood_1
   - first:
       213: 21300004
-    second: maskblood_2
+    second: overly_maskblood_2
   - first:
       213: 21300006
-    second: maskblood_3
+    second: overly_maskblood_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: maskblood_0
+      name: overly_maskblood_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: maskblood_1
+      name: overly_maskblood_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: maskblood_2
+      name: overly_maskblood_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: maskblood_3
+      name: overly_maskblood_3
       rect:
         serializedVersion: 2
         x: 96

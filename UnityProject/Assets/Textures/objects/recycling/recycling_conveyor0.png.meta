@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: conveyor0_0
+    second: recycling_conveyor0_0
   - first:
       213: 21300002
-    second: conveyor0_1
+    second: recycling_conveyor0_1
   - first:
       213: 21300004
-    second: conveyor0_2
+    second: recycling_conveyor0_2
   - first:
       213: 21300006
-    second: conveyor0_3
+    second: recycling_conveyor0_3
   - first:
       213: 21300008
-    second: conveyor0_4
+    second: recycling_conveyor0_4
   - first:
       213: 21300010
-    second: conveyor0_5
+    second: recycling_conveyor0_5
   - first:
       213: 21300012
-    second: conveyor0_6
+    second: recycling_conveyor0_6
   - first:
       213: 21300014
-    second: conveyor0_7
+    second: recycling_conveyor0_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: conveyor0_0
+      name: recycling_conveyor0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: conveyor0_1
+      name: recycling_conveyor0_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: conveyor0_2
+      name: recycling_conveyor0_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: conveyor0_3
+      name: recycling_conveyor0_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: conveyor0_4
+      name: recycling_conveyor0_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: conveyor0_5
+      name: recycling_conveyor0_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: conveyor0_6
+      name: recycling_conveyor0_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: conveyor0_7
+      name: recycling_conveyor0_7
       rect:
         serializedVersion: 2
         x: 224

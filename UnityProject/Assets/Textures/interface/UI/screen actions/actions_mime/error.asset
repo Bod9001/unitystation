@@ -16,35 +16,35 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: -2512927661099922447, guid: a08e177daac794cf680f161215685ce4,
         type: 3}
-      spriteName: error_0
+      spriteName: actions_mime_error_0
       secondDelay: 0.12
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: error_0
+        m_SubObjectName: actions_mime_error_0
     - sprite: {fileID: 4659265657221884602, guid: a08e177daac794cf680f161215685ce4,
         type: 3}
-      spriteName: error_1
+      spriteName: actions_mime_error_1
       secondDelay: 0.12
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: error_1
+        m_SubObjectName: actions_mime_error_1
     - sprite: {fileID: -3138123007396962320, guid: a08e177daac794cf680f161215685ce4,
         type: 3}
-      spriteName: error_2
+      spriteName: actions_mime_error_2
       secondDelay: 0.12
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: error_2
+        m_SubObjectName: actions_mime_error_2
     - sprite: {fileID: -7145856751783321575, guid: a08e177daac794cf680f161215685ce4,
         type: 3}
-      spriteName: error_3
+      spriteName: actions_mime_error_3
       secondDelay: 0.12
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: error_3
+        m_SubObjectName: actions_mime_error_3
   IsPalette: 0
   setID: 4114

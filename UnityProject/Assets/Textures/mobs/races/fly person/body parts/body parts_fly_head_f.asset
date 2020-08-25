@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: bd7deb7a7ce37004a9c99176d27efdbc, type: 3}
-      spriteName: fly_head_f_0
+      spriteName: body parts_fly_head_f_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: fly_head_f_0
+        m_SubObjectName: body parts_fly_head_f_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bd7deb7a7ce37004a9c99176d27efdbc, type: 3}
-      spriteName: fly_head_f_1
+      spriteName: body parts_fly_head_f_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: fly_head_f_1
+        m_SubObjectName: body parts_fly_head_f_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bd7deb7a7ce37004a9c99176d27efdbc, type: 3}
-      spriteName: fly_head_f_2
+      spriteName: body parts_fly_head_f_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: fly_head_f_2
+        m_SubObjectName: body parts_fly_head_f_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bd7deb7a7ce37004a9c99176d27efdbc, type: 3}
-      spriteName: fly_head_f_3
+      spriteName: body parts_fly_head_f_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: fly_head_f_3
+        m_SubObjectName: body parts_fly_head_f_3
   IsPalette: 0
   setID: 11048

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: cbe871c5c0a2ac942926a04358235be6, type: 3}
-      spriteName: bannerpack-red_0
+      spriteName: back_bannerpack-red_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bannerpack-red_0
+        m_SubObjectName: back_bannerpack-red_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cbe871c5c0a2ac942926a04358235be6, type: 3}
-      spriteName: bannerpack-red_1
+      spriteName: back_bannerpack-red_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bannerpack-red_1
+        m_SubObjectName: back_bannerpack-red_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cbe871c5c0a2ac942926a04358235be6, type: 3}
-      spriteName: bannerpack-red_2
+      spriteName: back_bannerpack-red_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bannerpack-red_2
+        m_SubObjectName: back_bannerpack-red_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cbe871c5c0a2ac942926a04358235be6, type: 3}
-      spriteName: bannerpack-red_3
+      spriteName: back_bannerpack-red_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bannerpack-red_3
+        m_SubObjectName: back_bannerpack-red_3
   IsPalette: 0
   setID: 258

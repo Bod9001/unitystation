@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: mixer_0
+    second: pipe_item_mixer_0
   - first:
       213: 21300002
-    second: mixer_1
+    second: pipe_item_mixer_1
   - first:
       213: 21300004
-    second: mixer_2
+    second: pipe_item_mixer_2
   - first:
       213: 21300006
-    second: mixer_3
+    second: pipe_item_mixer_3
   - first:
       213: 21300008
-    second: mixer_4
+    second: pipe_item_mixer_4
   - first:
       213: 21300010
-    second: mixer_5
+    second: pipe_item_mixer_5
   - first:
       213: 21300012
-    second: mixer_6
+    second: pipe_item_mixer_6
   - first:
       213: 21300014
-    second: mixer_7
+    second: pipe_item_mixer_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mixer_0
+      name: pipe_item_mixer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mixer_1
+      name: pipe_item_mixer_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mixer_2
+      name: pipe_item_mixer_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mixer_3
+      name: pipe_item_mixer_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mixer_4
+      name: pipe_item_mixer_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mixer_5
+      name: pipe_item_mixer_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mixer_6
+      name: pipe_item_mixer_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mixer_7
+      name: pipe_item_mixer_7
       rect:
         serializedVersion: 2
         x: 224

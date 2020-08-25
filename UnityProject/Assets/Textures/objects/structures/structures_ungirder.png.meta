@@ -4,19 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: ungirder_0
+    second: structures_ungirder_0
   - first:
       213: 21300002
-    second: ungirder_1
+    second: structures_ungirder_1
   - first:
       213: 21300004
-    second: ungirder_2
+    second: structures_ungirder_2
   - first:
       213: 21300006
-    second: ungirder_3
+    second: structures_ungirder_3
   - first:
       213: 21300008
-    second: ungirder_4
+    second: structures_ungirder_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -101,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ungirder_0
+      name: structures_ungirder_0
       rect:
         serializedVersion: 2
         x: 0
@@ -122,7 +122,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ungirder_1
+      name: structures_ungirder_1
       rect:
         serializedVersion: 2
         x: 32
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ungirder_2
+      name: structures_ungirder_2
       rect:
         serializedVersion: 2
         x: 64
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ungirder_3
+      name: structures_ungirder_3
       rect:
         serializedVersion: 2
         x: 96
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ungirder_4
+      name: structures_ungirder_4
       rect:
         serializedVersion: 2
         x: 128

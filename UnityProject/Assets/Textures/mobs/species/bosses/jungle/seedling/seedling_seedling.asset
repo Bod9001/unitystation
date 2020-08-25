@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 7e638b7604808604090694b3c414d63e, type: 3}
-      spriteName: seedling_0
+      spriteName: seedling_seedling_0
       secondDelay: 0
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: seedling_0
+        m_SubObjectName: seedling_seedling_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7e638b7604808604090694b3c414d63e, type: 3}
-      spriteName: seedling_1
+      spriteName: seedling_seedling_1
       secondDelay: 0
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: seedling_1
+        m_SubObjectName: seedling_seedling_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7e638b7604808604090694b3c414d63e, type: 3}
-      spriteName: seedling_2
+      spriteName: seedling_seedling_2
       secondDelay: 0
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: seedling_2
+        m_SubObjectName: seedling_seedling_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7e638b7604808604090694b3c414d63e, type: 3}
-      spriteName: seedling_3
+      spriteName: seedling_seedling_3
       secondDelay: 0
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: seedling_3
+        m_SubObjectName: seedling_seedling_3
   IsPalette: 0
   setID: 12010

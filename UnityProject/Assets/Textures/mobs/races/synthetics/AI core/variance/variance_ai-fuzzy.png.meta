@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: ai-fuzzy_0
+    second: variance_ai-fuzzy_0
   - first:
       213: 21300002
-    second: ai-fuzzy_1
+    second: variance_ai-fuzzy_1
   - first:
       213: 21300004
-    second: ai-fuzzy_2
+    second: variance_ai-fuzzy_2
   - first:
       213: 21300006
-    second: ai-fuzzy_3
+    second: variance_ai-fuzzy_3
   - first:
       213: 21300008
-    second: ai-fuzzy_4
+    second: variance_ai-fuzzy_4
   - first:
       213: 21300010
-    second: ai-fuzzy_5
+    second: variance_ai-fuzzy_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ai-fuzzy_0
+      name: variance_ai-fuzzy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-fuzzy_1
+      name: variance_ai-fuzzy_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-fuzzy_2
+      name: variance_ai-fuzzy_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-fuzzy_3
+      name: variance_ai-fuzzy_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-fuzzy_4
+      name: variance_ai-fuzzy_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ai-fuzzy_5
+      name: variance_ai-fuzzy_5
       rect:
         serializedVersion: 2
         x: 160

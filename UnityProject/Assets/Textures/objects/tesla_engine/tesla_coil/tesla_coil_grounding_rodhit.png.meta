@@ -4,19 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: grounding_rodhit_0
+    second: tesla_coil_grounding_rodhit_0
   - first:
       213: 21300002
-    second: grounding_rodhit_1
+    second: tesla_coil_grounding_rodhit_1
   - first:
       213: 21300004
-    second: grounding_rodhit_2
+    second: tesla_coil_grounding_rodhit_2
   - first:
       213: 21300006
-    second: grounding_rodhit_3
+    second: tesla_coil_grounding_rodhit_3
   - first:
       213: 21300008
-    second: grounding_rodhit_4
+    second: tesla_coil_grounding_rodhit_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -101,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: grounding_rodhit_0
+      name: tesla_coil_grounding_rodhit_0
       rect:
         serializedVersion: 2
         x: 0
@@ -122,7 +122,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grounding_rodhit_1
+      name: tesla_coil_grounding_rodhit_1
       rect:
         serializedVersion: 2
         x: 32
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grounding_rodhit_2
+      name: tesla_coil_grounding_rodhit_2
       rect:
         serializedVersion: 2
         x: 64
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grounding_rodhit_3
+      name: tesla_coil_grounding_rodhit_3
       rect:
         serializedVersion: 2
         x: 96
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grounding_rodhit_4
+      name: tesla_coil_grounding_rodhit_4
       rect:
         serializedVersion: 2
         x: 128

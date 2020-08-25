@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: judicial_visor_0_0
+    second: eyes_judicial_visor_0_0
   - first:
       213: 21300002
-    second: judicial_visor_0_1
+    second: eyes_judicial_visor_0_1
   - first:
       213: 21300004
-    second: judicial_visor_0_2
+    second: eyes_judicial_visor_0_2
   - first:
       213: 21300006
-    second: judicial_visor_0_3
+    second: eyes_judicial_visor_0_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: judicial_visor_0_0
+      name: eyes_judicial_visor_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: judicial_visor_0_1
+      name: eyes_judicial_visor_0_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: judicial_visor_0_2
+      name: eyes_judicial_visor_0_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: judicial_visor_0_3
+      name: eyes_judicial_visor_0_3
       rect:
         serializedVersion: 2
         x: 96

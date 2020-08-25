@@ -333,9 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  initialIntegrity: 100
   soundOnHit: 
-  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -356,6 +354,7 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
+  initialIntegrity: 100
 --- !u!114 &114519504495500056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,17 +532,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: b2bcc48cd1fe1224fa63b46854d61731
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: b2bcc48cd1fe1224fa63b46854d61731, type: 2}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []
 --- !u!1 &2821288067960047100
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,17 +632,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 9149d3bede9fd2240a3af3f95752d5b1
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 9149d3bede9fd2240a3af3f95752d5b1, type: 2}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []
 --- !u!1 &3663177110161525043
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,17 +732,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: df36fe710569d8b45ad564d6fa3a1a98
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: df36fe710569d8b45ad564d6fa3a1a98, type: 2}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []
 --- !u!1 &5226030624696872044
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,17 +832,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: de4912c9ed032ce498ce529b2ba9b1f9
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: de4912c9ed032ce498ce529b2ba9b1f9, type: 2}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []
 --- !u!1 &8254462624725952794
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,14 +932,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 0}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []

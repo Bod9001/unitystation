@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: smoke_0
+    second: smoke_smoke_0
   - first:
       213: 21300002
-    second: smoke_1
+    second: smoke_smoke_1
   - first:
       213: 21300004
-    second: smoke_2
+    second: smoke_smoke_2
   - first:
       213: 21300006
-    second: smoke_3
+    second: smoke_smoke_3
   - first:
       213: 21300008
-    second: smoke_4
+    second: smoke_smoke_4
   - first:
       213: 21300010
-    second: smoke_5
+    second: smoke_smoke_5
   - first:
       213: 21300012
-    second: smoke_6
+    second: smoke_smoke_6
   - first:
       213: 21300014
-    second: smoke_7
+    second: smoke_smoke_7
   - first:
       213: 21300016
-    second: smoke_8
+    second: smoke_smoke_8
   - first:
       213: 21300018
-    second: smoke_9
+    second: smoke_smoke_9
   - first:
       213: 21300020
-    second: smoke_10
+    second: smoke_smoke_10
   - first:
       213: 21300022
-    second: smoke_11
+    second: smoke_smoke_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: smoke_0
+      name: smoke_smoke_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_1
+      name: smoke_smoke_1
       rect:
         serializedVersion: 2
         x: 96
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_2
+      name: smoke_smoke_2
       rect:
         serializedVersion: 2
         x: 192
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_3
+      name: smoke_smoke_3
       rect:
         serializedVersion: 2
         x: 288
@@ -206,7 +206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_4
+      name: smoke_smoke_4
       rect:
         serializedVersion: 2
         x: 384
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_5
+      name: smoke_smoke_5
       rect:
         serializedVersion: 2
         x: 480
@@ -248,7 +248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_6
+      name: smoke_smoke_6
       rect:
         serializedVersion: 2
         x: 576
@@ -269,7 +269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_7
+      name: smoke_smoke_7
       rect:
         serializedVersion: 2
         x: 672
@@ -290,7 +290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_8
+      name: smoke_smoke_8
       rect:
         serializedVersion: 2
         x: 768
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_9
+      name: smoke_smoke_9
       rect:
         serializedVersion: 2
         x: 864
@@ -332,7 +332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_10
+      name: smoke_smoke_10
       rect:
         serializedVersion: 2
         x: 960
@@ -353,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smoke_11
+      name: smoke_smoke_11
       rect:
         serializedVersion: 2
         x: 1056

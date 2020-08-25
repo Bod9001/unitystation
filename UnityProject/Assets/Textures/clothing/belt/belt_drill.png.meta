@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 254509965974115023
-    second: drill_0
+    second: belt_drill_0
   - first:
       213: -6691675645143005069
-    second: drill_1
+    second: belt_drill_1
   - first:
       213: -5204444195791515992
-    second: drill_2
+    second: belt_drill_2
   - first:
       213: -652723830670757912
-    second: drill_3
+    second: belt_drill_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: drill_0
+      name: belt_drill_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drill_1
+      name: belt_drill_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drill_2
+      name: belt_drill_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: drill_3
+      name: belt_drill_3
       rect:
         serializedVersion: 2
         x: 96

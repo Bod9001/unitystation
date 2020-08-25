@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: b2ad039a8aa33534f81abb0fc8da060f, type: 3}
-      spriteName: swordblue_0
+      spriteName: items_and_weapons_swordblue_0
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: swordblue_0
+        m_SubObjectName: items_and_weapons_swordblue_0
     - sprite: {fileID: 21300002, guid: b2ad039a8aa33534f81abb0fc8da060f, type: 3}
-      spriteName: swordblue_1
+      spriteName: items_and_weapons_swordblue_1
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: swordblue_1
+        m_SubObjectName: items_and_weapons_swordblue_1
   IsPalette: 0
   setID: 7929

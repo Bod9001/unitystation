@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f961b0d8af09b0d42874904460ac178e, type: 3}
-      spriteName: end_capc_0
+      spriteName: particle_accelerator_end_capc_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: end_capc_0
+        m_SubObjectName: particle_accelerator_end_capc_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f961b0d8af09b0d42874904460ac178e, type: 3}
-      spriteName: end_capc_1
+      spriteName: particle_accelerator_end_capc_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: end_capc_1
+        m_SubObjectName: particle_accelerator_end_capc_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f961b0d8af09b0d42874904460ac178e, type: 3}
-      spriteName: end_capc_2
+      spriteName: particle_accelerator_end_capc_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: end_capc_2
+        m_SubObjectName: particle_accelerator_end_capc_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f961b0d8af09b0d42874904460ac178e, type: 3}
-      spriteName: end_capc_3
+      spriteName: particle_accelerator_end_capc_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: end_capc_3
+        m_SubObjectName: particle_accelerator_end_capc_3
   IsPalette: 0
   setID: 15909

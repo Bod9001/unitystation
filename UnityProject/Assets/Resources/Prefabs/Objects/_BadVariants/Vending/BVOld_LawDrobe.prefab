@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 7549802743094024197}
   - component: {fileID: 2961687185227018686}
   m_Layer: 11
-  m_Name: BVOld_LawDrobe
+  m_Name: LawDrobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -332,9 +332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  initialIntegrity: 100
   soundOnHit: 
-  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -355,6 +353,7 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
+  initialIntegrity: 100
 --- !u!114 &114472266138859352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -538,18 +537,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: b0a6e88edcf1e3544ac7833de5773e1f
-    m_SubObjectName: 
-  SubCatalogueAddresses:
-  - m_AssetGUID: b0a6e88edcf1e3544ac7833de5773e1f
-    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: b0a6e88edcf1e3544ac7833de5773e1f, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: b0a6e88edcf1e3544ac7833de5773e1f, type: 2}
-  pushTextureOnStartUp: 1
-  variantIndex: 0
-  palette: []
   Sprites:
   - Texture: {fileID: 2800000, guid: 08e2a9381bf2c8b4cbf1b4a17f0052f0, type: 3}
+  variantIndex: 0
+  palette: []

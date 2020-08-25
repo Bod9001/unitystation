@@ -15,60 +15,60 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 415754b36e8df6043940f2471fa4ca6c, type: 3}
-      spriteName: riverwater_motion_0
+      spriteName: liquid_riverwater_motion_0
       secondDelay: 0.1
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: riverwater_motion_0
+        m_SubObjectName: liquid_riverwater_motion_0
     - sprite: {fileID: 21300002, guid: 415754b36e8df6043940f2471fa4ca6c, type: 3}
-      spriteName: riverwater_motion_1
+      spriteName: liquid_riverwater_motion_1
       secondDelay: 0.2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: riverwater_motion_1
+        m_SubObjectName: liquid_riverwater_motion_1
     - sprite: {fileID: 21300004, guid: 415754b36e8df6043940f2471fa4ca6c, type: 3}
-      spriteName: riverwater_motion_2
+      spriteName: liquid_riverwater_motion_2
       secondDelay: 0.3
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: riverwater_motion_2
+        m_SubObjectName: liquid_riverwater_motion_2
     - sprite: {fileID: 21300006, guid: 415754b36e8df6043940f2471fa4ca6c, type: 3}
-      spriteName: riverwater_motion_3
+      spriteName: liquid_riverwater_motion_3
       secondDelay: 0.2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: riverwater_motion_3
+        m_SubObjectName: liquid_riverwater_motion_3
     - sprite: {fileID: 21300008, guid: 415754b36e8df6043940f2471fa4ca6c, type: 3}
-      spriteName: riverwater_motion_4
+      spriteName: liquid_riverwater_motion_4
       secondDelay: 0.1
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: riverwater_motion_4
+        m_SubObjectName: liquid_riverwater_motion_4
     - sprite: {fileID: 21300010, guid: 415754b36e8df6043940f2471fa4ca6c, type: 3}
-      spriteName: riverwater_motion_5
+      spriteName: liquid_riverwater_motion_5
       secondDelay: 0.2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: riverwater_motion_5
+        m_SubObjectName: liquid_riverwater_motion_5
     - sprite: {fileID: 21300012, guid: 415754b36e8df6043940f2471fa4ca6c, type: 3}
-      spriteName: riverwater_motion_6
+      spriteName: liquid_riverwater_motion_6
       secondDelay: 0.3
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: riverwater_motion_6
+        m_SubObjectName: liquid_riverwater_motion_6
     - sprite: {fileID: 21300014, guid: 415754b36e8df6043940f2471fa4ca6c, type: 3}
-      spriteName: riverwater_motion_7
+      spriteName: liquid_riverwater_motion_7
       secondDelay: 0.2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: riverwater_motion_7
+        m_SubObjectName: liquid_riverwater_motion_7
   IsPalette: 0
   setID: 221

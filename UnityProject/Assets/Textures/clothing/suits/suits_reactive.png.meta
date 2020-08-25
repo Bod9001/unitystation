@@ -4,88 +4,88 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: reactive_0
+    second: suits_reactive_0
   - first:
       213: 21300002
-    second: reactive_1
+    second: suits_reactive_1
   - first:
       213: 21300004
-    second: reactive_2
+    second: suits_reactive_2
   - first:
       213: 21300006
-    second: reactive_3
+    second: suits_reactive_3
   - first:
       213: 21300008
-    second: reactive_4
+    second: suits_reactive_4
   - first:
       213: 21300010
-    second: reactive_5
+    second: suits_reactive_5
   - first:
       213: 21300012
-    second: reactive_6
+    second: suits_reactive_6
   - first:
       213: 21300014
-    second: reactive_7
+    second: suits_reactive_7
   - first:
       213: 21300016
-    second: reactive_8
+    second: suits_reactive_8
   - first:
       213: 21300018
-    second: reactive_9
+    second: suits_reactive_9
   - first:
       213: 21300020
-    second: reactive_10
+    second: suits_reactive_10
   - first:
       213: 21300022
-    second: reactive_11
+    second: suits_reactive_11
   - first:
       213: 21300024
-    second: reactive_12
+    second: suits_reactive_12
   - first:
       213: 21300026
-    second: reactive_13
+    second: suits_reactive_13
   - first:
       213: 21300028
-    second: reactive_14
+    second: suits_reactive_14
   - first:
       213: 21300030
-    second: reactive_15
+    second: suits_reactive_15
   - first:
       213: 21300032
-    second: reactive_16
+    second: suits_reactive_16
   - first:
       213: 21300034
-    second: reactive_17
+    second: suits_reactive_17
   - first:
       213: 21300036
-    second: reactive_18
+    second: suits_reactive_18
   - first:
       213: 21300038
-    second: reactive_19
+    second: suits_reactive_19
   - first:
       213: 21300040
-    second: reactive_20
+    second: suits_reactive_20
   - first:
       213: 21300042
-    second: reactive_21
+    second: suits_reactive_21
   - first:
       213: 21300044
-    second: reactive_22
+    second: suits_reactive_22
   - first:
       213: 21300046
-    second: reactive_23
+    second: suits_reactive_23
   - first:
       213: 21300048
-    second: reactive_24
+    second: suits_reactive_24
   - first:
       213: 21300050
-    second: reactive_25
+    second: suits_reactive_25
   - first:
       213: 21300052
-    second: reactive_26
+    second: suits_reactive_26
   - first:
       213: 21300054
-    second: reactive_27
+    second: suits_reactive_27
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -171,7 +171,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: reactive_0
+      name: suits_reactive_0
       rect:
         serializedVersion: 2
         x: 0
@@ -192,7 +192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_1
+      name: suits_reactive_1
       rect:
         serializedVersion: 2
         x: 32
@@ -213,7 +213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_2
+      name: suits_reactive_2
       rect:
         serializedVersion: 2
         x: 64
@@ -234,7 +234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_3
+      name: suits_reactive_3
       rect:
         serializedVersion: 2
         x: 96
@@ -255,7 +255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_4
+      name: suits_reactive_4
       rect:
         serializedVersion: 2
         x: 128
@@ -276,7 +276,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_5
+      name: suits_reactive_5
       rect:
         serializedVersion: 2
         x: 160
@@ -297,7 +297,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_6
+      name: suits_reactive_6
       rect:
         serializedVersion: 2
         x: 192
@@ -318,7 +318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_7
+      name: suits_reactive_7
       rect:
         serializedVersion: 2
         x: 224
@@ -339,7 +339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_8
+      name: suits_reactive_8
       rect:
         serializedVersion: 2
         x: 256
@@ -360,7 +360,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_9
+      name: suits_reactive_9
       rect:
         serializedVersion: 2
         x: 288
@@ -381,7 +381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_10
+      name: suits_reactive_10
       rect:
         serializedVersion: 2
         x: 320
@@ -402,7 +402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_11
+      name: suits_reactive_11
       rect:
         serializedVersion: 2
         x: 352
@@ -423,7 +423,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_12
+      name: suits_reactive_12
       rect:
         serializedVersion: 2
         x: 384
@@ -444,7 +444,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_13
+      name: suits_reactive_13
       rect:
         serializedVersion: 2
         x: 416
@@ -465,7 +465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_14
+      name: suits_reactive_14
       rect:
         serializedVersion: 2
         x: 448
@@ -486,7 +486,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_15
+      name: suits_reactive_15
       rect:
         serializedVersion: 2
         x: 480
@@ -507,7 +507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_16
+      name: suits_reactive_16
       rect:
         serializedVersion: 2
         x: 512
@@ -528,7 +528,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_17
+      name: suits_reactive_17
       rect:
         serializedVersion: 2
         x: 544
@@ -549,7 +549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_18
+      name: suits_reactive_18
       rect:
         serializedVersion: 2
         x: 576
@@ -570,7 +570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_19
+      name: suits_reactive_19
       rect:
         serializedVersion: 2
         x: 608
@@ -591,7 +591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_20
+      name: suits_reactive_20
       rect:
         serializedVersion: 2
         x: 640
@@ -612,7 +612,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_21
+      name: suits_reactive_21
       rect:
         serializedVersion: 2
         x: 672
@@ -633,7 +633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_22
+      name: suits_reactive_22
       rect:
         serializedVersion: 2
         x: 704
@@ -654,7 +654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_23
+      name: suits_reactive_23
       rect:
         serializedVersion: 2
         x: 736
@@ -675,7 +675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_24
+      name: suits_reactive_24
       rect:
         serializedVersion: 2
         x: 768
@@ -696,7 +696,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_25
+      name: suits_reactive_25
       rect:
         serializedVersion: 2
         x: 800
@@ -717,7 +717,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_26
+      name: suits_reactive_26
       rect:
         serializedVersion: 2
         x: 832
@@ -738,7 +738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reactive_27
+      name: suits_reactive_27
       rect:
         serializedVersion: 2
         x: 864

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: officertanjacket_0
+    second: suits_officertanjacket_0
   - first:
       213: 21300002
-    second: officertanjacket_1
+    second: suits_officertanjacket_1
   - first:
       213: 21300004
-    second: officertanjacket_2
+    second: suits_officertanjacket_2
   - first:
       213: 21300006
-    second: officertanjacket_3
+    second: suits_officertanjacket_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: officertanjacket_0
+      name: suits_officertanjacket_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: officertanjacket_1
+      name: suits_officertanjacket_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: officertanjacket_2
+      name: suits_officertanjacket_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: officertanjacket_3
+      name: suits_officertanjacket_3
       rect:
         serializedVersion: 2
         x: 96

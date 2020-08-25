@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: punching_glove_0
+    second: items_and_weapons_punching_glove_0
   - first:
       213: 21300002
-    second: punching_glove_1
+    second: items_and_weapons_punching_glove_1
   - first:
       213: 21300004
-    second: punching_glove_2
+    second: items_and_weapons_punching_glove_2
   - first:
       213: 21300006
-    second: punching_glove_3
+    second: items_and_weapons_punching_glove_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: punching_glove_0
+      name: items_and_weapons_punching_glove_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punching_glove_1
+      name: items_and_weapons_punching_glove_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punching_glove_2
+      name: items_and_weapons_punching_glove_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: punching_glove_3
+      name: items_and_weapons_punching_glove_3
       rect:
         serializedVersion: 2
         x: 96

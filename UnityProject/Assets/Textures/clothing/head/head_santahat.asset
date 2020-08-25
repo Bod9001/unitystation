@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 709022d3f105db2469c428677cf12457, type: 3}
-      spriteName: santahat_0
+      spriteName: head_santahat_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: santahat_0
+        m_SubObjectName: head_santahat_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 709022d3f105db2469c428677cf12457, type: 3}
-      spriteName: santahat_1
+      spriteName: head_santahat_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: santahat_1
+        m_SubObjectName: head_santahat_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 709022d3f105db2469c428677cf12457, type: 3}
-      spriteName: santahat_2
+      spriteName: head_santahat_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: santahat_2
+        m_SubObjectName: head_santahat_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 709022d3f105db2469c428677cf12457, type: 3}
-      spriteName: santahat_3
+      spriteName: head_santahat_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: santahat_3
+        m_SubObjectName: head_santahat_3
   IsPalette: 0
   setID: 689

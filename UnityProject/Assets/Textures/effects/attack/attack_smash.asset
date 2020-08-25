@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 07ad26cf531e211429c5a1e9deda91d6, type: 3}
-      spriteName: smash_0
+      spriteName: attack_smash_0
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: smash_0
+        m_SubObjectName: attack_smash_0
     - sprite: {fileID: 21300002, guid: 07ad26cf531e211429c5a1e9deda91d6, type: 3}
-      spriteName: smash_1
+      spriteName: attack_smash_1
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: smash_1
+        m_SubObjectName: attack_smash_1
     - sprite: {fileID: 21300004, guid: 07ad26cf531e211429c5a1e9deda91d6, type: 3}
-      spriteName: smash_2
+      spriteName: attack_smash_2
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: smash_2
+        m_SubObjectName: attack_smash_2
   IsPalette: 0
   setID: 1135

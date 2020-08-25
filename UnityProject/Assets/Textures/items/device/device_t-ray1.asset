@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: bd404792c55049645bd5167d8f4f7542, type: 3}
-      spriteName: t-ray1_0
+      spriteName: device_t-ray1_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: t-ray1_0
+        m_SubObjectName: device_t-ray1_0
     - sprite: {fileID: 21300002, guid: bd404792c55049645bd5167d8f4f7542, type: 3}
-      spriteName: t-ray1_1
+      spriteName: device_t-ray1_1
       secondDelay: 1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: t-ray1_1
+        m_SubObjectName: device_t-ray1_1
   IsPalette: 0
   setID: 6290

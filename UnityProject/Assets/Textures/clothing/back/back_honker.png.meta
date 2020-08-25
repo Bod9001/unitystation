@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: honker_0
+    second: back_honker_0
   - first:
       213: 21300002
-    second: honker_1
+    second: back_honker_1
   - first:
       213: 21300004
-    second: honker_2
+    second: back_honker_2
   - first:
       213: 21300006
-    second: honker_3
+    second: back_honker_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: honker_0
+      name: back_honker_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: honker_1
+      name: back_honker_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: honker_2
+      name: back_honker_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: honker_3
+      name: back_honker_3
       rect:
         serializedVersion: 2
         x: 96

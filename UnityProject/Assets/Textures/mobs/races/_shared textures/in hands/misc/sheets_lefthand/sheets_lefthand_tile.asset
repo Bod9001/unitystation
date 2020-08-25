@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5ec3ed0c0eb8c5c40b58fda5756c4913, type: 3}
-      spriteName: tile_0
+      spriteName: sheets_lefthand_tile_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: tile_0
+        m_SubObjectName: sheets_lefthand_tile_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5ec3ed0c0eb8c5c40b58fda5756c4913, type: 3}
-      spriteName: tile_1
+      spriteName: sheets_lefthand_tile_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: tile_1
+        m_SubObjectName: sheets_lefthand_tile_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5ec3ed0c0eb8c5c40b58fda5756c4913, type: 3}
-      spriteName: tile_2
+      spriteName: sheets_lefthand_tile_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: tile_2
+        m_SubObjectName: sheets_lefthand_tile_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5ec3ed0c0eb8c5c40b58fda5756c4913, type: 3}
-      spriteName: tile_3
+      spriteName: sheets_lefthand_tile_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: tile_3
+        m_SubObjectName: sheets_lefthand_tile_3
   IsPalette: 0
   setID: 10463

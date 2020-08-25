@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5cde1d1990e30c042b857ce2e9df594f, type: 3}
-      spriteName: slime_0
+      spriteName: mask_slime_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: slime_0
+        m_SubObjectName: mask_slime_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5cde1d1990e30c042b857ce2e9df594f, type: 3}
-      spriteName: slime_1
+      spriteName: mask_slime_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: slime_1
+        m_SubObjectName: mask_slime_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5cde1d1990e30c042b857ce2e9df594f, type: 3}
-      spriteName: slime_2
+      spriteName: mask_slime_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: slime_2
+        m_SubObjectName: mask_slime_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5cde1d1990e30c042b857ce2e9df594f, type: 3}
-      spriteName: slime_3
+      spriteName: mask_slime_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: slime_3
+        m_SubObjectName: mask_slime_3
   IsPalette: 0
   setID: 781

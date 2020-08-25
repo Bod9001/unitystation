@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: holopad_ringing_0
+    second: stationobjs_holopad_ringing_0
   - first:
       213: 21300002
-    second: holopad_ringing_1
+    second: stationobjs_holopad_ringing_1
   - first:
       213: 21300004
-    second: holopad_ringing_2
+    second: stationobjs_holopad_ringing_2
   - first:
       213: 21300006
-    second: holopad_ringing_3
+    second: stationobjs_holopad_ringing_3
   - first:
       213: 21300008
-    second: holopad_ringing_4
+    second: stationobjs_holopad_ringing_4
   - first:
       213: 21300010
-    second: holopad_ringing_5
+    second: stationobjs_holopad_ringing_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: holopad_ringing_0
+      name: stationobjs_holopad_ringing_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holopad_ringing_1
+      name: stationobjs_holopad_ringing_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holopad_ringing_2
+      name: stationobjs_holopad_ringing_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holopad_ringing_3
+      name: stationobjs_holopad_ringing_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holopad_ringing_4
+      name: stationobjs_holopad_ringing_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holopad_ringing_5
+      name: stationobjs_holopad_ringing_5
       rect:
         serializedVersion: 2
         x: 160

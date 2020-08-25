@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: plasmaman_helmet1-plasma_0
+    second: head_plasmaman_helmet1-plasma_0
   - first:
       213: 21300002
-    second: plasmaman_helmet1-plasma_1
+    second: head_plasmaman_helmet1-plasma_1
   - first:
       213: 21300004
-    second: plasmaman_helmet1-plasma_2
+    second: head_plasmaman_helmet1-plasma_2
   - first:
       213: 21300006
-    second: plasmaman_helmet1-plasma_3
+    second: head_plasmaman_helmet1-plasma_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plasmaman_helmet1-plasma_0
+      name: head_plasmaman_helmet1-plasma_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmaman_helmet1-plasma_1
+      name: head_plasmaman_helmet1-plasma_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmaman_helmet1-plasma_2
+      name: head_plasmaman_helmet1-plasma_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmaman_helmet1-plasma_3
+      name: head_plasmaman_helmet1-plasma_3
       rect:
         serializedVersion: 2
         x: 96

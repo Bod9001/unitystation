@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5118360f37f639e4ab32519537ae9a7c, type: 3}
-      spriteName: injector_0
+      spriteName: pipe_item_injector_0
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: injector_0
+        m_SubObjectName: pipe_item_injector_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5118360f37f639e4ab32519537ae9a7c, type: 3}
-      spriteName: injector_1
+      spriteName: pipe_item_injector_1
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: injector_1
+        m_SubObjectName: pipe_item_injector_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5118360f37f639e4ab32519537ae9a7c, type: 3}
-      spriteName: injector_2
+      spriteName: pipe_item_injector_2
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: injector_2
+        m_SubObjectName: pipe_item_injector_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5118360f37f639e4ab32519537ae9a7c, type: 3}
-      spriteName: injector_3
+      spriteName: pipe_item_injector_3
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: injector_3
+        m_SubObjectName: pipe_item_injector_3
   IsPalette: 0
   setID: 8566

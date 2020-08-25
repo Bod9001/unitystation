@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: camera_0
+    second: neck_camera_0
   - first:
       213: 21300002
-    second: camera_1
+    second: neck_camera_1
   - first:
       213: 21300004
-    second: camera_2
+    second: neck_camera_2
   - first:
       213: 21300006
-    second: camera_3
+    second: neck_camera_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: camera_0
+      name: neck_camera_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: camera_1
+      name: neck_camera_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: camera_2
+      name: neck_camera_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: camera_3
+      name: neck_camera_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,46 +4,46 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: portal_0
+    second: stationobjs_portal_0
   - first:
       213: 21300002
-    second: portal_1
+    second: stationobjs_portal_1
   - first:
       213: 21300004
-    second: portal_2
+    second: stationobjs_portal_2
   - first:
       213: 21300006
-    second: portal_3
+    second: stationobjs_portal_3
   - first:
       213: 21300008
-    second: portal_4
+    second: stationobjs_portal_4
   - first:
       213: 21300010
-    second: portal_5
+    second: stationobjs_portal_5
   - first:
       213: 21300012
-    second: portal_6
+    second: stationobjs_portal_6
   - first:
       213: 21300014
-    second: portal_7
+    second: stationobjs_portal_7
   - first:
       213: 21300016
-    second: portal_8
+    second: stationobjs_portal_8
   - first:
       213: 21300018
-    second: portal_9
+    second: stationobjs_portal_9
   - first:
       213: 21300020
-    second: portal_10
+    second: stationobjs_portal_10
   - first:
       213: 21300022
-    second: portal_11
+    second: stationobjs_portal_11
   - first:
       213: 21300024
-    second: portal_12
+    second: stationobjs_portal_12
   - first:
       213: 21300026
-    second: portal_13
+    second: stationobjs_portal_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: portal_0
+      name: stationobjs_portal_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_1
+      name: stationobjs_portal_1
       rect:
         serializedVersion: 2
         x: 32
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_2
+      name: stationobjs_portal_2
       rect:
         serializedVersion: 2
         x: 64
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_3
+      name: stationobjs_portal_3
       rect:
         serializedVersion: 2
         x: 96
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_4
+      name: stationobjs_portal_4
       rect:
         serializedVersion: 2
         x: 128
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_5
+      name: stationobjs_portal_5
       rect:
         serializedVersion: 2
         x: 160
@@ -254,7 +254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_6
+      name: stationobjs_portal_6
       rect:
         serializedVersion: 2
         x: 192
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_7
+      name: stationobjs_portal_7
       rect:
         serializedVersion: 2
         x: 224
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_8
+      name: stationobjs_portal_8
       rect:
         serializedVersion: 2
         x: 256
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_9
+      name: stationobjs_portal_9
       rect:
         serializedVersion: 2
         x: 288
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_10
+      name: stationobjs_portal_10
       rect:
         serializedVersion: 2
         x: 320
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_11
+      name: stationobjs_portal_11
       rect:
         serializedVersion: 2
         x: 352
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_12
+      name: stationobjs_portal_12
       rect:
         serializedVersion: 2
         x: 384
@@ -401,7 +401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_13
+      name: stationobjs_portal_13
       rect:
         serializedVersion: 2
         x: 416

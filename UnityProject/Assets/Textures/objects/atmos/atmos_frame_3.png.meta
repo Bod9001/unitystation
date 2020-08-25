@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7393637447140822919
-    second: frame_3_0
+    second: atmos_frame_3_0
   - first:
       213: -3010940259662904884
-    second: frame_3_1
+    second: atmos_frame_3_1
   - first:
       213: 8236858954059109368
-    second: frame_3_2
+    second: atmos_frame_3_2
   - first:
       213: -8777422995365133736
-    second: frame_3_3
+    second: atmos_frame_3_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frame_3_0
+      name: atmos_frame_3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frame_3_1
+      name: atmos_frame_3_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frame_3_2
+      name: atmos_frame_3_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frame_3_3
+      name: atmos_frame_3_3
       rect:
         serializedVersion: 2
         x: 96

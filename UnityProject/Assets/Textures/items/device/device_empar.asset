@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0e5fa4826f0c34149a36cc3915c30448, type: 3}
-      spriteName: empar_0
+      spriteName: device_empar_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: empar_0
+        m_SubObjectName: device_empar_0
     - sprite: {fileID: 21300002, guid: 0e5fa4826f0c34149a36cc3915c30448, type: 3}
-      spriteName: empar_1
+      spriteName: device_empar_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: empar_1
+        m_SubObjectName: device_empar_1
   IsPalette: 0
   setID: 6174

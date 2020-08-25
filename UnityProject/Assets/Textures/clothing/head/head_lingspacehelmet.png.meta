@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: lingspacehelmet_0
+    second: head_lingspacehelmet_0
   - first:
       213: 21300002
-    second: lingspacehelmet_1
+    second: head_lingspacehelmet_1
   - first:
       213: 21300004
-    second: lingspacehelmet_2
+    second: head_lingspacehelmet_2
   - first:
       213: 21300006
-    second: lingspacehelmet_3
+    second: head_lingspacehelmet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lingspacehelmet_0
+      name: head_lingspacehelmet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lingspacehelmet_1
+      name: head_lingspacehelmet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lingspacehelmet_2
+      name: head_lingspacehelmet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lingspacehelmet_3
+      name: head_lingspacehelmet_3
       rect:
         serializedVersion: 2
         x: 96

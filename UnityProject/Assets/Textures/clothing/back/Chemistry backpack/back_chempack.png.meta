@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 8114465768511209405
-    second: chempack_0
+    second: Chemistry backpack_chempack_0
   - first:
       213: 6625552890754939371
-    second: chempack_1
+    second: Chemistry backpack_chempack_1
   - first:
       213: -3111609793182167727
-    second: chempack_2
+    second: Chemistry backpack_chempack_2
   - first:
       213: -3778812975740662564
-    second: chempack_3
+    second: Chemistry backpack_chempack_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chempack_0
+      name: Chemistry backpack_chempack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempack_1
+      name: Chemistry backpack_chempack_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempack_2
+      name: Chemistry backpack_chempack_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempack_3
+      name: Chemistry backpack_chempack_3
       rect:
         serializedVersion: 2
         x: 96

@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 7b087124536644d4680b5141393bcc92, type: 3}
-      spriteName: lightning10_0
+      spriteName: beam_lightning10_0
       secondDelay: 0.12
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lightning10_0
+        m_SubObjectName: beam_lightning10_0
     - sprite: {fileID: 21300002, guid: 7b087124536644d4680b5141393bcc92, type: 3}
-      spriteName: lightning10_1
+      spriteName: beam_lightning10_1
       secondDelay: 0.08
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lightning10_1
+        m_SubObjectName: beam_lightning10_1
   IsPalette: 0
   setID: 1167

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: cfec5865b3af5c141ae2d9bc2171f442, type: 3}
-      spriteName: snailshell_0
+      spriteName: back_snailshell_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: snailshell_0
+        m_SubObjectName: back_snailshell_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cfec5865b3af5c141ae2d9bc2171f442, type: 3}
-      spriteName: snailshell_1
+      spriteName: back_snailshell_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: snailshell_1
+        m_SubObjectName: back_snailshell_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cfec5865b3af5c141ae2d9bc2171f442, type: 3}
-      spriteName: snailshell_2
+      spriteName: back_snailshell_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: snailshell_2
+        m_SubObjectName: back_snailshell_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cfec5865b3af5c141ae2d9bc2171f442, type: 3}
-      spriteName: snailshell_3
+      spriteName: back_snailshell_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: snailshell_3
+        m_SubObjectName: back_snailshell_3
   IsPalette: 0
   setID: 344

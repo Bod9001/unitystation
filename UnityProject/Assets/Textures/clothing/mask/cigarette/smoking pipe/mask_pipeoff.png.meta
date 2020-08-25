@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pipeoff_0
+    second: smoking pipe_pipeoff_0
   - first:
       213: 21300002
-    second: pipeoff_1
+    second: smoking pipe_pipeoff_1
   - first:
       213: 21300004
-    second: pipeoff_2
+    second: smoking pipe_pipeoff_2
   - first:
       213: 21300006
-    second: pipeoff_3
+    second: smoking pipe_pipeoff_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pipeoff_0
+      name: smoking pipe_pipeoff_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipeoff_1
+      name: smoking pipe_pipeoff_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipeoff_2
+      name: smoking pipe_pipeoff_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipeoff_3
+      name: smoking pipe_pipeoff_3
       rect:
         serializedVersion: 2
         x: 96

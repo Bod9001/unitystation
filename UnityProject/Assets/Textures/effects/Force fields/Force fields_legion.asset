@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 16a612f4a9b054643a9593b63a500f63, type: 3}
-      spriteName: legion_0
+      spriteName: Force fields_legion_0
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: legion_0
+        m_SubObjectName: Force fields_legion_0
     - sprite: {fileID: 21300002, guid: 16a612f4a9b054643a9593b63a500f63, type: 3}
-      spriteName: legion_1
+      spriteName: Force fields_legion_1
       secondDelay: 0.1
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: legion_1
+        m_SubObjectName: Force fields_legion_1
   IsPalette: 0
   setID: 1318

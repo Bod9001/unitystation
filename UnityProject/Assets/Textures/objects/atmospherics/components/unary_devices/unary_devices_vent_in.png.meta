@@ -4,52 +4,52 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: vent_in_0
+    second: unary_devices_vent_in_0
   - first:
       213: 21300002
-    second: vent_in_1
+    second: unary_devices_vent_in_1
   - first:
       213: 21300004
-    second: vent_in_2
+    second: unary_devices_vent_in_2
   - first:
       213: 21300006
-    second: vent_in_3
+    second: unary_devices_vent_in_3
   - first:
       213: 21300008
-    second: vent_in_4
+    second: unary_devices_vent_in_4
   - first:
       213: 21300010
-    second: vent_in_5
+    second: unary_devices_vent_in_5
   - first:
       213: 21300012
-    second: vent_in_6
+    second: unary_devices_vent_in_6
   - first:
       213: 21300014
-    second: vent_in_7
+    second: unary_devices_vent_in_7
   - first:
       213: 21300016
-    second: vent_in_8
+    second: unary_devices_vent_in_8
   - first:
       213: 21300018
-    second: vent_in_9
+    second: unary_devices_vent_in_9
   - first:
       213: 21300020
-    second: vent_in_10
+    second: unary_devices_vent_in_10
   - first:
       213: 21300022
-    second: vent_in_11
+    second: unary_devices_vent_in_11
   - first:
       213: 21300024
-    second: vent_in_12
+    second: unary_devices_vent_in_12
   - first:
       213: 21300026
-    second: vent_in_13
+    second: unary_devices_vent_in_13
   - first:
       213: 21300028
-    second: vent_in_14
+    second: unary_devices_vent_in_14
   - first:
       213: 21300030
-    second: vent_in_15
+    second: unary_devices_vent_in_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vent_in_0
+      name: unary_devices_vent_in_0
       rect:
         serializedVersion: 2
         x: 0
@@ -155,7 +155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_1
+      name: unary_devices_vent_in_1
       rect:
         serializedVersion: 2
         x: 32
@@ -176,7 +176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_2
+      name: unary_devices_vent_in_2
       rect:
         serializedVersion: 2
         x: 64
@@ -197,7 +197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_3
+      name: unary_devices_vent_in_3
       rect:
         serializedVersion: 2
         x: 96
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_4
+      name: unary_devices_vent_in_4
       rect:
         serializedVersion: 2
         x: 128
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_5
+      name: unary_devices_vent_in_5
       rect:
         serializedVersion: 2
         x: 160
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_6
+      name: unary_devices_vent_in_6
       rect:
         serializedVersion: 2
         x: 192
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_7
+      name: unary_devices_vent_in_7
       rect:
         serializedVersion: 2
         x: 224
@@ -302,7 +302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_8
+      name: unary_devices_vent_in_8
       rect:
         serializedVersion: 2
         x: 256
@@ -323,7 +323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_9
+      name: unary_devices_vent_in_9
       rect:
         serializedVersion: 2
         x: 288
@@ -344,7 +344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_10
+      name: unary_devices_vent_in_10
       rect:
         serializedVersion: 2
         x: 320
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_11
+      name: unary_devices_vent_in_11
       rect:
         serializedVersion: 2
         x: 352
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_12
+      name: unary_devices_vent_in_12
       rect:
         serializedVersion: 2
         x: 384
@@ -407,7 +407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_13
+      name: unary_devices_vent_in_13
       rect:
         serializedVersion: 2
         x: 416
@@ -428,7 +428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_14
+      name: unary_devices_vent_in_14
       rect:
         serializedVersion: 2
         x: 448
@@ -449,7 +449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vent_in_15
+      name: unary_devices_vent_in_15
       rect:
         serializedVersion: 2
         x: 480

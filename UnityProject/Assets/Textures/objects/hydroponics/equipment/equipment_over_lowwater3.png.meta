@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: over_lowwater3_0
+    second: equipment_over_lowwater3_0
   - first:
       213: 21300002
-    second: over_lowwater3_1
+    second: equipment_over_lowwater3_1
   - first:
       213: 21300004
-    second: over_lowwater3_2
+    second: equipment_over_lowwater3_2
   - first:
       213: 21300006
-    second: over_lowwater3_3
+    second: equipment_over_lowwater3_3
   - first:
       213: 21300008
-    second: over_lowwater3_4
+    second: equipment_over_lowwater3_4
   - first:
       213: 21300010
-    second: over_lowwater3_5
+    second: equipment_over_lowwater3_5
   - first:
       213: 21300012
-    second: over_lowwater3_6
+    second: equipment_over_lowwater3_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: over_lowwater3_0
+      name: equipment_over_lowwater3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: over_lowwater3_1
+      name: equipment_over_lowwater3_1
       rect:
         serializedVersion: 2
         x: 32
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: over_lowwater3_2
+      name: equipment_over_lowwater3_2
       rect:
         serializedVersion: 2
         x: 64
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: over_lowwater3_3
+      name: equipment_over_lowwater3_3
       rect:
         serializedVersion: 2
         x: 96
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: over_lowwater3_4
+      name: equipment_over_lowwater3_4
       rect:
         serializedVersion: 2
         x: 128
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: over_lowwater3_5
+      name: equipment_over_lowwater3_5
       rect:
         serializedVersion: 2
         x: 160
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: over_lowwater3_6
+      name: equipment_over_lowwater3_6
       rect:
         serializedVersion: 2
         x: 192

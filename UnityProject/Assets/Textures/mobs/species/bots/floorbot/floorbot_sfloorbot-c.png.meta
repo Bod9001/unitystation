@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sfloorbot-c_0
+    second: floorbot_sfloorbot-c_0
   - first:
       213: 21300002
-    second: sfloorbot-c_1
+    second: floorbot_sfloorbot-c_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sfloorbot-c_0
+      name: floorbot_sfloorbot-c_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sfloorbot-c_1
+      name: floorbot_sfloorbot-c_1
       rect:
         serializedVersion: 2
         x: 32

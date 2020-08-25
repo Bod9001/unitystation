@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 620b8ba6c17e0c546b3ffcc1f49292fe, type: 3}
-      spriteName: morgue1_0
+      spriteName: stationobjs_morgue1_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: morgue1_0
+        m_SubObjectName: stationobjs_morgue1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 620b8ba6c17e0c546b3ffcc1f49292fe, type: 3}
-      spriteName: morgue1_1
+      spriteName: stationobjs_morgue1_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: morgue1_1
+        m_SubObjectName: stationobjs_morgue1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 620b8ba6c17e0c546b3ffcc1f49292fe, type: 3}
-      spriteName: morgue1_2
+      spriteName: stationobjs_morgue1_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: morgue1_2
+        m_SubObjectName: stationobjs_morgue1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 620b8ba6c17e0c546b3ffcc1f49292fe, type: 3}
-      spriteName: morgue1_3
+      spriteName: stationobjs_morgue1_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: morgue1_3
+        m_SubObjectName: stationobjs_morgue1_3
   IsPalette: 0
   setID: 17084

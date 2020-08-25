@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: flashshield_flash_0
+    second: items_and_weapons_flashshield_flash_0
   - first:
       213: 21300002
-    second: flashshield_flash_1
+    second: items_and_weapons_flashshield_flash_1
   - first:
       213: 21300004
-    second: flashshield_flash_2
+    second: items_and_weapons_flashshield_flash_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flashshield_flash_0
+      name: items_and_weapons_flashshield_flash_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flashshield_flash_1
+      name: items_and_weapons_flashshield_flash_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flashshield_flash_2
+      name: items_and_weapons_flashshield_flash_2
       rect:
         serializedVersion: 2
         x: 64

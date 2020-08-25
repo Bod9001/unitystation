@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 779ed76ac639355439ce8433afa03caf, type: 3}
-      spriteName: wrench_0
+      spriteName: alien_wrench_0
       secondDelay: 0.8
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: wrench_0
+        m_SubObjectName: alien_wrench_0
     - sprite: {fileID: 21300002, guid: 779ed76ac639355439ce8433afa03caf, type: 3}
-      spriteName: wrench_1
+      spriteName: alien_wrench_1
       secondDelay: 0.8
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: wrench_1
+        m_SubObjectName: alien_wrench_1
   IsPalette: 0
   setID: 4419

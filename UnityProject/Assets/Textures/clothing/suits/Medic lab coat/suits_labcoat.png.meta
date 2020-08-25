@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: labcoat_0
+    second: Medic lab coat_labcoat_0
   - first:
       213: 21300002
-    second: labcoat_1
+    second: Medic lab coat_labcoat_1
   - first:
       213: 21300004
-    second: labcoat_2
+    second: Medic lab coat_labcoat_2
   - first:
       213: 21300006
-    second: labcoat_3
+    second: Medic lab coat_labcoat_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: labcoat_0
+      name: Medic lab coat_labcoat_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: labcoat_1
+      name: Medic lab coat_labcoat_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: labcoat_2
+      name: Medic lab coat_labcoat_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: labcoat_3
+      name: Medic lab coat_labcoat_3
       rect:
         serializedVersion: 2
         x: 96

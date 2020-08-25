@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 74af161c1af5032488ae423712afe98b, type: 3}
-      spriteName: firstaid-toxin_0
+      spriteName: medical_lefthand_firstaid-toxin_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: firstaid-toxin_0
+        m_SubObjectName: medical_lefthand_firstaid-toxin_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 74af161c1af5032488ae423712afe98b, type: 3}
-      spriteName: firstaid-toxin_1
+      spriteName: medical_lefthand_firstaid-toxin_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: firstaid-toxin_1
+        m_SubObjectName: medical_lefthand_firstaid-toxin_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 74af161c1af5032488ae423712afe98b, type: 3}
-      spriteName: firstaid-toxin_2
+      spriteName: medical_lefthand_firstaid-toxin_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: firstaid-toxin_2
+        m_SubObjectName: medical_lefthand_firstaid-toxin_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 74af161c1af5032488ae423712afe98b, type: 3}
-      spriteName: firstaid-toxin_3
+      spriteName: medical_lefthand_firstaid-toxin_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: firstaid-toxin_3
+        m_SubObjectName: medical_lefthand_firstaid-toxin_3
   IsPalette: 0
   setID: 10123

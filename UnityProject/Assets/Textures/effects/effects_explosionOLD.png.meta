@@ -4,46 +4,46 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: explosionOLD_0
+    second: effects_explosionOLD_0
   - first:
       213: 21300002
-    second: explosionOLD_1
+    second: effects_explosionOLD_1
   - first:
       213: 21300004
-    second: explosionOLD_2
+    second: effects_explosionOLD_2
   - first:
       213: 21300006
-    second: explosionOLD_3
+    second: effects_explosionOLD_3
   - first:
       213: 21300008
-    second: explosionOLD_4
+    second: effects_explosionOLD_4
   - first:
       213: 21300010
-    second: explosionOLD_5
+    second: effects_explosionOLD_5
   - first:
       213: 21300012
-    second: explosionOLD_6
+    second: effects_explosionOLD_6
   - first:
       213: 21300014
-    second: explosionOLD_7
+    second: effects_explosionOLD_7
   - first:
       213: 21300016
-    second: explosionOLD_8
+    second: effects_explosionOLD_8
   - first:
       213: 21300018
-    second: explosionOLD_9
+    second: effects_explosionOLD_9
   - first:
       213: 21300020
-    second: explosionOLD_10
+    second: effects_explosionOLD_10
   - first:
       213: 21300022
-    second: explosionOLD_11
+    second: effects_explosionOLD_11
   - first:
       213: 21300024
-    second: explosionOLD_12
+    second: effects_explosionOLD_12
   - first:
       213: 21300026
-    second: explosionOLD_13
+    second: effects_explosionOLD_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: explosionOLD_0
+      name: effects_explosionOLD_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_1
+      name: effects_explosionOLD_1
       rect:
         serializedVersion: 2
         x: 32
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_2
+      name: effects_explosionOLD_2
       rect:
         serializedVersion: 2
         x: 64
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_3
+      name: effects_explosionOLD_3
       rect:
         serializedVersion: 2
         x: 96
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_4
+      name: effects_explosionOLD_4
       rect:
         serializedVersion: 2
         x: 128
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_5
+      name: effects_explosionOLD_5
       rect:
         serializedVersion: 2
         x: 160
@@ -254,7 +254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_6
+      name: effects_explosionOLD_6
       rect:
         serializedVersion: 2
         x: 192
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_7
+      name: effects_explosionOLD_7
       rect:
         serializedVersion: 2
         x: 224
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_8
+      name: effects_explosionOLD_8
       rect:
         serializedVersion: 2
         x: 256
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_9
+      name: effects_explosionOLD_9
       rect:
         serializedVersion: 2
         x: 288
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_10
+      name: effects_explosionOLD_10
       rect:
         serializedVersion: 2
         x: 320
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_11
+      name: effects_explosionOLD_11
       rect:
         serializedVersion: 2
         x: 352
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_12
+      name: effects_explosionOLD_12
       rect:
         serializedVersion: 2
         x: 384
@@ -401,7 +401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosionOLD_13
+      name: effects_explosionOLD_13
       rect:
         serializedVersion: 2
         x: 416

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cracked_block1_0
+    second: boss_floors_cracked_block1_0
   - first:
       213: 21300002
-    second: cracked_block1_1
+    second: boss_floors_cracked_block1_1
   - first:
       213: 21300004
-    second: cracked_block1_2
+    second: boss_floors_cracked_block1_2
   - first:
       213: 21300006
-    second: cracked_block1_3
+    second: boss_floors_cracked_block1_3
   - first:
       213: 21300008
-    second: cracked_block1_4
+    second: boss_floors_cracked_block1_4
   - first:
       213: 21300010
-    second: cracked_block1_5
+    second: boss_floors_cracked_block1_5
   - first:
       213: 21300012
-    second: cracked_block1_6
+    second: boss_floors_cracked_block1_6
   - first:
       213: 21300014
-    second: cracked_block1_7
+    second: boss_floors_cracked_block1_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cracked_block1_0
+      name: boss_floors_cracked_block1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cracked_block1_1
+      name: boss_floors_cracked_block1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cracked_block1_2
+      name: boss_floors_cracked_block1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cracked_block1_3
+      name: boss_floors_cracked_block1_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cracked_block1_4
+      name: boss_floors_cracked_block1_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cracked_block1_5
+      name: boss_floors_cracked_block1_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cracked_block1_6
+      name: boss_floors_cracked_block1_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cracked_block1_7
+      name: boss_floors_cracked_block1_7
       rect:
         serializedVersion: 2
         x: 224

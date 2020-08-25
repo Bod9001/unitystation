@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 35078564430ef674c9bd2df451961275, type: 3}
-      spriteName: box_logic_0
+      spriteName: electronic_misc_box_logic_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: box_logic_0
+        m_SubObjectName: electronic_misc_box_logic_0
     - sprite: {fileID: 21300002, guid: 35078564430ef674c9bd2df451961275, type: 3}
-      spriteName: box_logic_1
+      spriteName: electronic_misc_box_logic_1
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: box_logic_1
+        m_SubObjectName: electronic_misc_box_logic_1
     - sprite: {fileID: 21300004, guid: 35078564430ef674c9bd2df451961275, type: 3}
-      spriteName: box_logic_2
+      spriteName: electronic_misc_box_logic_2
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: box_logic_2
+        m_SubObjectName: electronic_misc_box_logic_2
     - sprite: {fileID: 21300006, guid: 35078564430ef674c9bd2df451961275, type: 3}
-      spriteName: box_logic_3
+      spriteName: electronic_misc_box_logic_3
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: box_logic_3
+        m_SubObjectName: electronic_misc_box_logic_3
   IsPalette: 0
   setID: 4898

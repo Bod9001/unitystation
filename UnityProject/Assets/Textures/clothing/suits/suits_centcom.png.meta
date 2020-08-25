@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: centcom_0
+    second: suits_centcom_0
   - first:
       213: 21300002
-    second: centcom_1
+    second: suits_centcom_1
   - first:
       213: 21300004
-    second: centcom_2
+    second: suits_centcom_2
   - first:
       213: 21300006
-    second: centcom_3
+    second: suits_centcom_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: centcom_0
+      name: suits_centcom_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: centcom_1
+      name: suits_centcom_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: centcom_2
+      name: suits_centcom_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: centcom_3
+      name: suits_centcom_3
       rect:
         serializedVersion: 2
         x: 96

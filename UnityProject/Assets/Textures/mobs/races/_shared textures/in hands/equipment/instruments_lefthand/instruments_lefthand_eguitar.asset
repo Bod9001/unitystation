@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 816d718dcb8cb0747b6d3e50991effa2, type: 3}
-      spriteName: eguitar_0
+      spriteName: instruments_lefthand_eguitar_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: eguitar_0
+        m_SubObjectName: instruments_lefthand_eguitar_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 816d718dcb8cb0747b6d3e50991effa2, type: 3}
-      spriteName: eguitar_1
+      spriteName: instruments_lefthand_eguitar_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: eguitar_1
+        m_SubObjectName: instruments_lefthand_eguitar_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 816d718dcb8cb0747b6d3e50991effa2, type: 3}
-      spriteName: eguitar_2
+      spriteName: instruments_lefthand_eguitar_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: eguitar_2
+        m_SubObjectName: instruments_lefthand_eguitar_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 816d718dcb8cb0747b6d3e50991effa2, type: 3}
-      spriteName: eguitar_3
+      spriteName: instruments_lefthand_eguitar_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: eguitar_3
+        m_SubObjectName: instruments_lefthand_eguitar_3
   IsPalette: 0
   setID: 10074

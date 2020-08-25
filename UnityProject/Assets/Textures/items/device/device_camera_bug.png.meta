@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: camera_bug_0
+    second: device_camera_bug_0
   - first:
       213: 21300002
-    second: camera_bug_1
+    second: device_camera_bug_1
   - first:
       213: 21300004
-    second: camera_bug_2
+    second: device_camera_bug_2
   - first:
       213: 21300006
-    second: camera_bug_3
+    second: device_camera_bug_3
   - first:
       213: 21300008
-    second: camera_bug_4
+    second: device_camera_bug_4
   - first:
       213: 21300010
-    second: camera_bug_5
+    second: device_camera_bug_5
   - first:
       213: 21300012
-    second: camera_bug_6
+    second: device_camera_bug_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: camera_bug_0
+      name: device_camera_bug_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: camera_bug_1
+      name: device_camera_bug_1
       rect:
         serializedVersion: 2
         x: 32
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: camera_bug_2
+      name: device_camera_bug_2
       rect:
         serializedVersion: 2
         x: 64
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: camera_bug_3
+      name: device_camera_bug_3
       rect:
         serializedVersion: 2
         x: 96
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: camera_bug_4
+      name: device_camera_bug_4
       rect:
         serializedVersion: 2
         x: 128
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: camera_bug_5
+      name: device_camera_bug_5
       rect:
         serializedVersion: 2
         x: 160
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: camera_bug_6
+      name: device_camera_bug_6
       rect:
         serializedVersion: 2
         x: 192

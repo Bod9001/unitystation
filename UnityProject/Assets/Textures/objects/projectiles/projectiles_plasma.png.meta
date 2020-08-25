@@ -4,19 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: plasma_0
+    second: projectiles_plasma_0
   - first:
       213: 21300002
-    second: plasma_1
+    second: projectiles_plasma_1
   - first:
       213: 21300004
-    second: plasma_2
+    second: projectiles_plasma_2
   - first:
       213: 21300006
-    second: plasma_3
+    second: projectiles_plasma_3
   - first:
       213: 21300008
-    second: plasma_4
+    second: projectiles_plasma_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -101,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plasma_0
+      name: projectiles_plasma_0
       rect:
         serializedVersion: 2
         x: 0
@@ -122,7 +122,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_1
+      name: projectiles_plasma_1
       rect:
         serializedVersion: 2
         x: 32
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_2
+      name: projectiles_plasma_2
       rect:
         serializedVersion: 2
         x: 64
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_3
+      name: projectiles_plasma_3
       rect:
         serializedVersion: 2
         x: 96
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_4
+      name: projectiles_plasma_4
       rect:
         serializedVersion: 2
         x: 128

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: moonflower_0
+    second: head_moonflower_0
   - first:
       213: 21300002
-    second: moonflower_1
+    second: head_moonflower_1
   - first:
       213: 21300004
-    second: moonflower_2
+    second: head_moonflower_2
   - first:
       213: 21300006
-    second: moonflower_3
+    second: head_moonflower_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: moonflower_0
+      name: head_moonflower_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moonflower_1
+      name: head_moonflower_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moonflower_2
+      name: head_moonflower_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moonflower_3
+      name: head_moonflower_3
       rect:
         serializedVersion: 2
         x: 96

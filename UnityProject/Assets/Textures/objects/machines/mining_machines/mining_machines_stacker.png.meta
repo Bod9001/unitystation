@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: stacker_0
+    second: mining_machines_stacker_0
   - first:
       213: 21300002
-    second: stacker_1
+    second: mining_machines_stacker_1
   - first:
       213: 21300004
-    second: stacker_2
+    second: mining_machines_stacker_2
   - first:
       213: 21300006
-    second: stacker_3
+    second: mining_machines_stacker_3
   - first:
       213: 21300008
-    second: stacker_4
+    second: mining_machines_stacker_4
   - first:
       213: 21300010
-    second: stacker_5
+    second: mining_machines_stacker_5
   - first:
       213: 21300012
-    second: stacker_6
+    second: mining_machines_stacker_6
   - first:
       213: 21300014
-    second: stacker_7
+    second: mining_machines_stacker_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stacker_0
+      name: mining_machines_stacker_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stacker_1
+      name: mining_machines_stacker_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stacker_2
+      name: mining_machines_stacker_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stacker_3
+      name: mining_machines_stacker_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stacker_4
+      name: mining_machines_stacker_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stacker_5
+      name: mining_machines_stacker_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stacker_6
+      name: mining_machines_stacker_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stacker_7
+      name: mining_machines_stacker_7
       rect:
         serializedVersion: 2
         x: 224

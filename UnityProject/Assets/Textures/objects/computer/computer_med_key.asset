@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: d9004351ded6e51498a5a702755ab112, type: 3}
-      spriteName: med_key_0
+      spriteName: computer_med_key_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: med_key_0
+        m_SubObjectName: computer_med_key_0
   - Frames:
     - sprite: {fileID: 21300002, guid: d9004351ded6e51498a5a702755ab112, type: 3}
-      spriteName: med_key_1
+      spriteName: computer_med_key_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: med_key_1
+        m_SubObjectName: computer_med_key_1
   - Frames:
     - sprite: {fileID: 21300004, guid: d9004351ded6e51498a5a702755ab112, type: 3}
-      spriteName: med_key_2
+      spriteName: computer_med_key_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: med_key_2
+        m_SubObjectName: computer_med_key_2
   - Frames:
     - sprite: {fileID: 21300006, guid: d9004351ded6e51498a5a702755ab112, type: 3}
-      spriteName: med_key_3
+      spriteName: computer_med_key_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: med_key_3
+        m_SubObjectName: computer_med_key_3
   IsPalette: 0
   setID: 13420

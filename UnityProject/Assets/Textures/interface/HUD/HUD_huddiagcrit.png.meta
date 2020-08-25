@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: huddiagcrit_0
+    second: HUD_huddiagcrit_0
   - first:
       213: 21300002
-    second: huddiagcrit_1
+    second: HUD_huddiagcrit_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: huddiagcrit_0
+      name: HUD_huddiagcrit_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: huddiagcrit_1
+      name: HUD_huddiagcrit_1
       rect:
         serializedVersion: 2
         x: 32

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: paper_words_0
+    second: head_paper_words_0
   - first:
       213: 21300002
-    second: paper_words_1
+    second: head_paper_words_1
   - first:
       213: 21300004
-    second: paper_words_2
+    second: head_paper_words_2
   - first:
       213: 21300006
-    second: paper_words_3
+    second: head_paper_words_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: paper_words_0
+      name: head_paper_words_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper_words_1
+      name: head_paper_words_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper_words_2
+      name: head_paper_words_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper_words_3
+      name: head_paper_words_3
       rect:
         serializedVersion: 2
         x: 96

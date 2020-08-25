@@ -15,228 +15,228 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_0
+      spriteName: beam_lichbeam_0
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_0
+        m_SubObjectName: beam_lichbeam_0
     - sprite: {fileID: 21300002, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_1
+      spriteName: beam_lichbeam_1
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_1
+        m_SubObjectName: beam_lichbeam_1
     - sprite: {fileID: 21300004, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_2
+      spriteName: beam_lichbeam_2
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_2
+        m_SubObjectName: beam_lichbeam_2
     - sprite: {fileID: 21300006, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_3
+      spriteName: beam_lichbeam_3
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_3
+        m_SubObjectName: beam_lichbeam_3
     - sprite: {fileID: 21300008, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_4
+      spriteName: beam_lichbeam_4
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_4
+        m_SubObjectName: beam_lichbeam_4
     - sprite: {fileID: 21300010, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_5
+      spriteName: beam_lichbeam_5
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_5
+        m_SubObjectName: beam_lichbeam_5
     - sprite: {fileID: 21300012, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_6
+      spriteName: beam_lichbeam_6
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_6
+        m_SubObjectName: beam_lichbeam_6
     - sprite: {fileID: 21300014, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_7
+      spriteName: beam_lichbeam_7
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_7
+        m_SubObjectName: beam_lichbeam_7
     - sprite: {fileID: 21300016, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_8
+      spriteName: beam_lichbeam_8
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_8
+        m_SubObjectName: beam_lichbeam_8
     - sprite: {fileID: 21300018, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_9
+      spriteName: beam_lichbeam_9
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_9
+        m_SubObjectName: beam_lichbeam_9
     - sprite: {fileID: 21300020, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_10
+      spriteName: beam_lichbeam_10
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_10
+        m_SubObjectName: beam_lichbeam_10
     - sprite: {fileID: 21300022, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_11
+      spriteName: beam_lichbeam_11
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_11
+        m_SubObjectName: beam_lichbeam_11
     - sprite: {fileID: 21300024, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_12
+      spriteName: beam_lichbeam_12
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_12
+        m_SubObjectName: beam_lichbeam_12
     - sprite: {fileID: 21300026, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_13
+      spriteName: beam_lichbeam_13
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_13
+        m_SubObjectName: beam_lichbeam_13
     - sprite: {fileID: 21300028, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_14
+      spriteName: beam_lichbeam_14
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_14
+        m_SubObjectName: beam_lichbeam_14
     - sprite: {fileID: 21300030, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_15
+      spriteName: beam_lichbeam_15
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_15
+        m_SubObjectName: beam_lichbeam_15
     - sprite: {fileID: 21300032, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_16
+      spriteName: beam_lichbeam_16
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_16
+        m_SubObjectName: beam_lichbeam_16
     - sprite: {fileID: 21300034, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_17
+      spriteName: beam_lichbeam_17
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_17
+        m_SubObjectName: beam_lichbeam_17
     - sprite: {fileID: 21300036, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_18
+      spriteName: beam_lichbeam_18
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_18
+        m_SubObjectName: beam_lichbeam_18
     - sprite: {fileID: 21300038, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_19
+      spriteName: beam_lichbeam_19
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_19
+        m_SubObjectName: beam_lichbeam_19
     - sprite: {fileID: 21300040, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_20
+      spriteName: beam_lichbeam_20
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_20
+        m_SubObjectName: beam_lichbeam_20
     - sprite: {fileID: 21300042, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_21
+      spriteName: beam_lichbeam_21
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_21
+        m_SubObjectName: beam_lichbeam_21
     - sprite: {fileID: 21300044, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_22
+      spriteName: beam_lichbeam_22
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_22
+        m_SubObjectName: beam_lichbeam_22
     - sprite: {fileID: 21300046, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_23
+      spriteName: beam_lichbeam_23
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_23
+        m_SubObjectName: beam_lichbeam_23
     - sprite: {fileID: 21300048, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_24
+      spriteName: beam_lichbeam_24
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_24
+        m_SubObjectName: beam_lichbeam_24
     - sprite: {fileID: 21300050, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_25
+      spriteName: beam_lichbeam_25
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_25
+        m_SubObjectName: beam_lichbeam_25
     - sprite: {fileID: 21300052, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_26
+      spriteName: beam_lichbeam_26
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_26
+        m_SubObjectName: beam_lichbeam_26
     - sprite: {fileID: 21300054, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_27
+      spriteName: beam_lichbeam_27
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_27
+        m_SubObjectName: beam_lichbeam_27
     - sprite: {fileID: 21300056, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_28
+      spriteName: beam_lichbeam_28
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_28
+        m_SubObjectName: beam_lichbeam_28
     - sprite: {fileID: 21300058, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_29
+      spriteName: beam_lichbeam_29
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_29
+        m_SubObjectName: beam_lichbeam_29
     - sprite: {fileID: 21300060, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_30
+      spriteName: beam_lichbeam_30
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_30
+        m_SubObjectName: beam_lichbeam_30
     - sprite: {fileID: 21300062, guid: 0bfadd80cf0252647843944e2fbf1737, type: 3}
-      spriteName: lichbeam_31
+      spriteName: beam_lichbeam_31
       secondDelay: 0.01
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: lichbeam_31
+        m_SubObjectName: beam_lichbeam_31
   IsPalette: 0
   setID: 1157

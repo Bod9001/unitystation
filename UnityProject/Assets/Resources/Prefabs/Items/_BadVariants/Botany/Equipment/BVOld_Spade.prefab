@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1011433845357754, guid: a7abba22164ce49f0bf9b9b219f39298, type: 3}
       propertyPath: m_Name
-      value: BVOld_Spade
+      value: Spade
       objectReference: {fileID: 0}
     - target: {fileID: 4527534762131918, guid: a7abba22164ce49f0bf9b9b219f39298, type: 3}
       propertyPath: m_LocalPosition.x
@@ -222,10 +222,5 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8a6a82a7cca3770438f2415010876c53,
         type: 2}
-    - target: {fileID: 6144467708197095229, guid: a7abba22164ce49f0bf9b9b219f39298,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 8a6a82a7cca3770438f2415010876c53
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7abba22164ce49f0bf9b9b219f39298, type: 3}

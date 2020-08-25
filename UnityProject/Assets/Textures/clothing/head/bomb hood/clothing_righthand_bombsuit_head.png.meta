@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sec_helm_0
+    second: bomb hood_sec_helm_0
   - first:
       213: 21300002
-    second: sec_helm_1
+    second: bomb hood_sec_helm_1
   - first:
       213: 21300004
-    second: sec_helm_2
+    second: bomb hood_sec_helm_2
   - first:
       213: 21300006
-    second: sec_helm_3
+    second: bomb hood_sec_helm_3
   - first:
       213: -3279998852619039885
-    second: bombsuit_head_0
+    second: bomb hood_bombsuit_head_0
   - first:
       213: 1665005534483956549
-    second: bombsuit_head_1
+    second: bomb hood_bombsuit_head_1
   - first:
       213: 2323126201014494442
-    second: bombsuit_head_2
+    second: bomb hood_bombsuit_head_2
   - first:
       213: 1226375617365037033
-    second: bombsuit_head_3
+    second: bomb hood_bombsuit_head_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bombsuit_head_0
+      name: bomb hood_bombsuit_head_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bombsuit_head_1
+      name: bomb hood_bombsuit_head_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bombsuit_head_2
+      name: bomb hood_bombsuit_head_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bombsuit_head_3
+      name: bomb hood_bombsuit_head_3
       rect:
         serializedVersion: 2
         x: 96

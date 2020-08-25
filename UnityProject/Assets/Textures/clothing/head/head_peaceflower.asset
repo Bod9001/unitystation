@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 418662529751d2242a2bde140653067e, type: 3}
-      spriteName: peaceflower_0
+      spriteName: head_peaceflower_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: peaceflower_0
+        m_SubObjectName: head_peaceflower_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 418662529751d2242a2bde140653067e, type: 3}
-      spriteName: peaceflower_1
+      spriteName: head_peaceflower_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: peaceflower_1
+        m_SubObjectName: head_peaceflower_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 418662529751d2242a2bde140653067e, type: 3}
-      spriteName: peaceflower_2
+      spriteName: head_peaceflower_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: peaceflower_2
+        m_SubObjectName: head_peaceflower_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 418662529751d2242a2bde140653067e, type: 3}
-      spriteName: peaceflower_3
+      spriteName: head_peaceflower_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: peaceflower_3
+        m_SubObjectName: head_peaceflower_3
   IsPalette: 0
   setID: 662

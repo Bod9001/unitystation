@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: solar_beam_0
+    second: beam_solar_beam_0
   - first:
       213: 21300002
-    second: solar_beam_1
+    second: beam_solar_beam_1
   - first:
       213: 21300004
-    second: solar_beam_2
+    second: beam_solar_beam_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: solar_beam_0
+      name: beam_solar_beam_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: solar_beam_1
+      name: beam_solar_beam_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: solar_beam_2
+      name: beam_solar_beam_2
       rect:
         serializedVersion: 2
         x: 64

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
-      spriteName: canada_0
+      spriteName: head_canada_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: canada_0
+        m_SubObjectName: head_canada_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
-      spriteName: canada_1
+      spriteName: head_canada_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: canada_1
+        m_SubObjectName: head_canada_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
-      spriteName: canada_2
+      spriteName: head_canada_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: canada_2
+        m_SubObjectName: head_canada_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a81c640d7dc4422429973a3d9aac8607, type: 3}
-      spriteName: canada_3
+      spriteName: head_canada_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: canada_3
+        m_SubObjectName: head_canada_3
   IsPalette: 0
   setID: 559

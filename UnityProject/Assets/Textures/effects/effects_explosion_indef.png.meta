@@ -4,31 +4,31 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: explosion_indef_0
+    second: effects_explosion_indef_0
   - first:
       213: 21300002
-    second: explosion_indef_1
+    second: effects_explosion_indef_1
   - first:
       213: 21300004
-    second: explosion_indef_2
+    second: effects_explosion_indef_2
   - first:
       213: 21300006
-    second: explosion_indef_3
+    second: effects_explosion_indef_3
   - first:
       213: 21300008
-    second: explosion_indef_4
+    second: effects_explosion_indef_4
   - first:
       213: 21300010
-    second: explosion_indef_5
+    second: effects_explosion_indef_5
   - first:
       213: 21300012
-    second: explosion_indef_6
+    second: effects_explosion_indef_6
   - first:
       213: 21300014
-    second: explosion_indef_7
+    second: effects_explosion_indef_7
   - first:
       213: 21300016
-    second: explosion_indef_8
+    second: effects_explosion_indef_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: explosion_indef_0
+      name: effects_explosion_indef_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,7 +134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_indef_1
+      name: effects_explosion_indef_1
       rect:
         serializedVersion: 2
         x: 32
@@ -155,7 +155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_indef_2
+      name: effects_explosion_indef_2
       rect:
         serializedVersion: 2
         x: 64
@@ -176,7 +176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_indef_3
+      name: effects_explosion_indef_3
       rect:
         serializedVersion: 2
         x: 96
@@ -197,7 +197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_indef_4
+      name: effects_explosion_indef_4
       rect:
         serializedVersion: 2
         x: 128
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_indef_5
+      name: effects_explosion_indef_5
       rect:
         serializedVersion: 2
         x: 160
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_indef_6
+      name: effects_explosion_indef_6
       rect:
         serializedVersion: 2
         x: 192
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_indef_7
+      name: effects_explosion_indef_7
       rect:
         serializedVersion: 2
         x: 224
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_indef_8
+      name: effects_explosion_indef_8
       rect:
         serializedVersion: 2
         x: 256

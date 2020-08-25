@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: woodbucket_0
+    second: bucket_woodbucket_0
   - first:
       213: 21300002
-    second: woodbucket_1
+    second: bucket_woodbucket_1
   - first:
       213: 21300004
-    second: woodbucket_2
+    second: bucket_woodbucket_2
   - first:
       213: 21300006
-    second: woodbucket_3
+    second: bucket_woodbucket_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: woodbucket_0
+      name: bucket_woodbucket_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: woodbucket_1
+      name: bucket_woodbucket_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: woodbucket_2
+      name: bucket_woodbucket_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: woodbucket_3
+      name: bucket_woodbucket_3
       rect:
         serializedVersion: 2
         x: 96

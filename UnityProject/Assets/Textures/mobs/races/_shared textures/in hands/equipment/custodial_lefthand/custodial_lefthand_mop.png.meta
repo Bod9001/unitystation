@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: mop_0
+    second: custodial_lefthand_mop_0
   - first:
       213: 21300002
-    second: mop_1
+    second: custodial_lefthand_mop_1
   - first:
       213: 21300004
-    second: mop_2
+    second: custodial_lefthand_mop_2
   - first:
       213: 21300006
-    second: mop_3
+    second: custodial_lefthand_mop_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mop_0
+      name: custodial_lefthand_mop_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mop_1
+      name: custodial_lefthand_mop_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mop_2
+      name: custodial_lefthand_mop_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mop_3
+      name: custodial_lefthand_mop_3
       rect:
         serializedVersion: 2
         x: 96

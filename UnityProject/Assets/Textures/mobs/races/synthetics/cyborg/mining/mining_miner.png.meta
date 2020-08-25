@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: miner_0
+    second: mining_miner_0
   - first:
       213: 21300002
-    second: miner_1
+    second: mining_miner_1
   - first:
       213: 21300004
-    second: miner_2
+    second: mining_miner_2
   - first:
       213: 21300006
-    second: miner_3
+    second: mining_miner_3
   - first:
       213: 21300008
-    second: miner_4
+    second: mining_miner_4
   - first:
       213: 21300010
-    second: miner_5
+    second: mining_miner_5
   - first:
       213: 21300012
-    second: miner_6
+    second: mining_miner_6
   - first:
       213: 21300014
-    second: miner_7
+    second: mining_miner_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: miner_0
+      name: mining_miner_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miner_1
+      name: mining_miner_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miner_2
+      name: mining_miner_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miner_3
+      name: mining_miner_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miner_4
+      name: mining_miner_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miner_5
+      name: mining_miner_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miner_6
+      name: mining_miner_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miner_7
+      name: mining_miner_7
       rect:
         serializedVersion: 2
         x: 224

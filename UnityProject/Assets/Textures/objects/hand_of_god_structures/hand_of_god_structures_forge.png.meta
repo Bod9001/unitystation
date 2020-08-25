@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: forge_0
+    second: hand_of_god_structures_forge_0
   - first:
       213: 21300002
-    second: forge_1
+    second: hand_of_god_structures_forge_1
   - first:
       213: 21300004
-    second: forge_2
+    second: hand_of_god_structures_forge_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: forge_0
+      name: hand_of_god_structures_forge_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: forge_1
+      name: hand_of_god_structures_forge_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: forge_2
+      name: hand_of_god_structures_forge_2
       rect:
         serializedVersion: 2
         x: 64

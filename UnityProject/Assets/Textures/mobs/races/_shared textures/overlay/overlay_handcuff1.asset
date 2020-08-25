@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: af4b9f7ccacdbad4195f3609aa48e14f, type: 3}
-      spriteName: handcuff1_0
+      spriteName: overlay_handcuff1_0
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: handcuff1_0
+        m_SubObjectName: overlay_handcuff1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: af4b9f7ccacdbad4195f3609aa48e14f, type: 3}
-      spriteName: handcuff1_1
+      spriteName: overlay_handcuff1_1
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: handcuff1_1
+        m_SubObjectName: overlay_handcuff1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: af4b9f7ccacdbad4195f3609aa48e14f, type: 3}
-      spriteName: handcuff1_2
+      spriteName: overlay_handcuff1_2
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: handcuff1_2
+        m_SubObjectName: overlay_handcuff1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: af4b9f7ccacdbad4195f3609aa48e14f, type: 3}
-      spriteName: handcuff1_3
+      spriteName: overlay_handcuff1_3
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: handcuff1_3
+        m_SubObjectName: overlay_handcuff1_3
   IsPalette: 0
   setID: 10988

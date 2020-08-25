@@ -73,11 +73,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: fc27671f70b0d0141a0005079ac1659f,
         type: 2}
-    - target: {fileID: 676421410916819877, guid: f984960cf940f5242bd90a33f3c8c35a,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: fc27671f70b0d0141a0005079ac1659f
-      objectReference: {fileID: 0}
     - target: {fileID: 887411641704819287, guid: f984960cf940f5242bd90a33f3c8c35a,
         type: 3}
       propertyPath: maxCapacity
@@ -171,10 +166,5 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 6afd38fd4ddf06346a5a742c2587c073,
         type: 2}
-    - target: {fileID: 5205225311240149368, guid: f984960cf940f5242bd90a33f3c8c35a,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 6afd38fd4ddf06346a5a742c2587c073
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f984960cf940f5242bd90a33f3c8c35a, type: 3}

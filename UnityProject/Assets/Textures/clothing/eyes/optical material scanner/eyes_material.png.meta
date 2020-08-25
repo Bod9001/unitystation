@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: material_0
+    second: optical material scanner_material_0
   - first:
       213: 21300002
-    second: material_1
+    second: optical material scanner_material_1
   - first:
       213: 21300004
-    second: material_2
+    second: optical material scanner_material_2
   - first:
       213: 21300006
-    second: material_3
+    second: optical material scanner_material_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: material_0
+      name: optical material scanner_material_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: material_1
+      name: optical material scanner_material_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: material_2
+      name: optical material scanner_material_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: material_3
+      name: optical material scanner_material_3
       rect:
         serializedVersion: 2
         x: 96

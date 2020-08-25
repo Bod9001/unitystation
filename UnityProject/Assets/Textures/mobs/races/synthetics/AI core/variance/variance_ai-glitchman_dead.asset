@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f83fa9492a502ff40bdf9a4fc826fef6, type: 3}
-      spriteName: ai-glitchman_dead_0
+      spriteName: variance_ai-glitchman_dead_0
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: ai-glitchman_dead_0
+        m_SubObjectName: variance_ai-glitchman_dead_0
     - sprite: {fileID: 21300002, guid: f83fa9492a502ff40bdf9a4fc826fef6, type: 3}
-      spriteName: ai-glitchman_dead_1
+      spriteName: variance_ai-glitchman_dead_1
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: ai-glitchman_dead_1
+        m_SubObjectName: variance_ai-glitchman_dead_1
     - sprite: {fileID: 21300004, guid: f83fa9492a502ff40bdf9a4fc826fef6, type: 3}
-      spriteName: ai-glitchman_dead_2
+      spriteName: variance_ai-glitchman_dead_2
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: ai-glitchman_dead_2
+        m_SubObjectName: variance_ai-glitchman_dead_2
   IsPalette: 0
   setID: 11452

@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2501c5309c6309c41886935ac790bec5, type: 3}
-      spriteName: smoke2_0
+      spriteName: smoke_smoke2_0
       secondDelay: 0.2
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: smoke2_0
+        m_SubObjectName: smoke_smoke2_0
     - sprite: {fileID: 21300002, guid: 2501c5309c6309c41886935ac790bec5, type: 3}
-      spriteName: smoke2_1
+      spriteName: smoke_smoke2_1
       secondDelay: 0.2
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: smoke2_1
+        m_SubObjectName: smoke_smoke2_1
     - sprite: {fileID: 21300004, guid: 2501c5309c6309c41886935ac790bec5, type: 3}
-      spriteName: smoke2_2
+      spriteName: smoke_smoke2_2
       secondDelay: 0.2
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: smoke2_2
+        m_SubObjectName: smoke_smoke2_2
   IsPalette: 0
   setID: 1423

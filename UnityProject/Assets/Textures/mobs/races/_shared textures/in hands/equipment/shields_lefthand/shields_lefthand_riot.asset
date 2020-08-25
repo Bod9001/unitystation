@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 508eb371c05b7b349ae621a5d009d84e, type: 3}
-      spriteName: riot_0
+      spriteName: shields_lefthand_riot_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: riot_0
+        m_SubObjectName: shields_lefthand_riot_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 508eb371c05b7b349ae621a5d009d84e, type: 3}
-      spriteName: riot_1
+      spriteName: shields_lefthand_riot_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: riot_1
+        m_SubObjectName: shields_lefthand_riot_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 508eb371c05b7b349ae621a5d009d84e, type: 3}
-      spriteName: riot_2
+      spriteName: shields_lefthand_riot_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: riot_2
+        m_SubObjectName: shields_lefthand_riot_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 508eb371c05b7b349ae621a5d009d84e, type: 3}
-      spriteName: riot_3
+      spriteName: shields_lefthand_riot_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: riot_3
+        m_SubObjectName: shields_lefthand_riot_3
   IsPalette: 0
   setID: 10199

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: kittentag_0
+    second: pets_kittentag_0
   - first:
       213: 21300002
-    second: kittentag_1
+    second: pets_kittentag_1
   - first:
       213: 21300004
-    second: kittentag_2
+    second: pets_kittentag_2
   - first:
       213: 21300006
-    second: kittentag_3
+    second: pets_kittentag_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kittentag_0
+      name: pets_kittentag_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kittentag_1
+      name: pets_kittentag_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kittentag_2
+      name: pets_kittentag_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kittentag_3
+      name: pets_kittentag_3
       rect:
         serializedVersion: 2
         x: 96

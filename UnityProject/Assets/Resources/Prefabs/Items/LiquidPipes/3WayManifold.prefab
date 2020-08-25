@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88bb5b421259954781bcdfb75018051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   Colour: {r: 1, g: 1, b: 1, a: 1}
-  Netz: 0
   SpriteHandler: {fileID: 3611509593911475594}
   registerItem: {fileID: 0}
   pipeTile: {fileID: 11400000, guid: 7fbdd8b9ce747b0458abebe9c4367cbe, type: 2}

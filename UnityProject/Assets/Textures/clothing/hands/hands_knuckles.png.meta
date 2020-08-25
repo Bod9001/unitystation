@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: knuckles_0
+    second: hands_knuckles_0
   - first:
       213: 21300002
-    second: knuckles_1
+    second: hands_knuckles_1
   - first:
       213: 21300004
-    second: knuckles_2
+    second: hands_knuckles_2
   - first:
       213: 21300006
-    second: knuckles_3
+    second: hands_knuckles_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knuckles_0
+      name: hands_knuckles_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knuckles_1
+      name: hands_knuckles_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knuckles_2
+      name: hands_knuckles_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knuckles_3
+      name: hands_knuckles_3
       rect:
         serializedVersion: 2
         x: 96

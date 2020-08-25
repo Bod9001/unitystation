@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: farmbot_fertile_0
+    second: farmbot_farmbot_fertile_0
   - first:
       213: 21300002
-    second: farmbot_fertile_1
+    second: farmbot_farmbot_fertile_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: farmbot_fertile_0
+      name: farmbot_farmbot_fertile_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmbot_fertile_1
+      name: farmbot_farmbot_fertile_1
       rect:
         serializedVersion: 2
         x: 32

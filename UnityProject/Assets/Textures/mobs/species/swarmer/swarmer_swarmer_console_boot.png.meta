@@ -4,49 +4,49 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: swarmer_console_boot_0
+    second: swarmer_swarmer_console_boot_0
   - first:
       213: 21300002
-    second: swarmer_console_boot_1
+    second: swarmer_swarmer_console_boot_1
   - first:
       213: 21300004
-    second: swarmer_console_boot_2
+    second: swarmer_swarmer_console_boot_2
   - first:
       213: 21300006
-    second: swarmer_console_boot_3
+    second: swarmer_swarmer_console_boot_3
   - first:
       213: 21300008
-    second: swarmer_console_boot_4
+    second: swarmer_swarmer_console_boot_4
   - first:
       213: 21300010
-    second: swarmer_console_boot_5
+    second: swarmer_swarmer_console_boot_5
   - first:
       213: 21300012
-    second: swarmer_console_boot_6
+    second: swarmer_swarmer_console_boot_6
   - first:
       213: 21300014
-    second: swarmer_console_boot_7
+    second: swarmer_swarmer_console_boot_7
   - first:
       213: 21300016
-    second: swarmer_console_boot_8
+    second: swarmer_swarmer_console_boot_8
   - first:
       213: 21300018
-    second: swarmer_console_boot_9
+    second: swarmer_swarmer_console_boot_9
   - first:
       213: 21300020
-    second: swarmer_console_boot_10
+    second: swarmer_swarmer_console_boot_10
   - first:
       213: 21300022
-    second: swarmer_console_boot_11
+    second: swarmer_swarmer_console_boot_11
   - first:
       213: 21300024
-    second: swarmer_console_boot_12
+    second: swarmer_swarmer_console_boot_12
   - first:
       213: 21300026
-    second: swarmer_console_boot_13
+    second: swarmer_swarmer_console_boot_13
   - first:
       213: 21300028
-    second: swarmer_console_boot_14
+    second: swarmer_swarmer_console_boot_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -131,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: swarmer_console_boot_0
+      name: swarmer_swarmer_console_boot_0
       rect:
         serializedVersion: 2
         x: 0
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_1
+      name: swarmer_swarmer_console_boot_1
       rect:
         serializedVersion: 2
         x: 32
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_2
+      name: swarmer_swarmer_console_boot_2
       rect:
         serializedVersion: 2
         x: 64
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_3
+      name: swarmer_swarmer_console_boot_3
       rect:
         serializedVersion: 2
         x: 96
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_4
+      name: swarmer_swarmer_console_boot_4
       rect:
         serializedVersion: 2
         x: 128
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_5
+      name: swarmer_swarmer_console_boot_5
       rect:
         serializedVersion: 2
         x: 160
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_6
+      name: swarmer_swarmer_console_boot_6
       rect:
         serializedVersion: 2
         x: 192
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_7
+      name: swarmer_swarmer_console_boot_7
       rect:
         serializedVersion: 2
         x: 224
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_8
+      name: swarmer_swarmer_console_boot_8
       rect:
         serializedVersion: 2
         x: 256
@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_9
+      name: swarmer_swarmer_console_boot_9
       rect:
         serializedVersion: 2
         x: 288
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_10
+      name: swarmer_swarmer_console_boot_10
       rect:
         serializedVersion: 2
         x: 320
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_11
+      name: swarmer_swarmer_console_boot_11
       rect:
         serializedVersion: 2
         x: 352
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_12
+      name: swarmer_swarmer_console_boot_12
       rect:
         serializedVersion: 2
         x: 384
@@ -404,7 +404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_13
+      name: swarmer_swarmer_console_boot_13
       rect:
         serializedVersion: 2
         x: 416
@@ -425,7 +425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_console_boot_14
+      name: swarmer_swarmer_console_boot_14
       rect:
         serializedVersion: 2
         x: 448

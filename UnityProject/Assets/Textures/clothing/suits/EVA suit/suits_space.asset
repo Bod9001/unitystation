@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e8f769037547a794fb0576ab155c26cb, type: 3}
-      spriteName: space_0
+      spriteName: EVA suit_space_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: space_0
+        m_SubObjectName: EVA suit_space_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e8f769037547a794fb0576ab155c26cb, type: 3}
-      spriteName: space_1
+      spriteName: EVA suit_space_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: space_1
+        m_SubObjectName: EVA suit_space_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e8f769037547a794fb0576ab155c26cb, type: 3}
-      spriteName: space_2
+      spriteName: EVA suit_space_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: space_2
+        m_SubObjectName: EVA suit_space_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e8f769037547a794fb0576ab155c26cb, type: 3}
-      spriteName: space_3
+      spriteName: EVA suit_space_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: space_3
+        m_SubObjectName: EVA suit_space_3
   IsPalette: 0
   setID: 20935

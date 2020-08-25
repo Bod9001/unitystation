@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 7a099e83490d32e41a03b24a2ab60c9e, type: 3}
-      spriteName: orange_0
+      spriteName: shoes_orange_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: orange_0
+        m_SubObjectName: shoes_orange_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7a099e83490d32e41a03b24a2ab60c9e, type: 3}
-      spriteName: orange_1
+      spriteName: shoes_orange_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: orange_1
+        m_SubObjectName: shoes_orange_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7a099e83490d32e41a03b24a2ab60c9e, type: 3}
-      spriteName: orange_2
+      spriteName: shoes_orange_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: orange_2
+        m_SubObjectName: shoes_orange_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7a099e83490d32e41a03b24a2ab60c9e, type: 3}
-      spriteName: orange_3
+      spriteName: shoes_orange_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: orange_3
+        m_SubObjectName: shoes_orange_3
   IsPalette: 0
   setID: 834

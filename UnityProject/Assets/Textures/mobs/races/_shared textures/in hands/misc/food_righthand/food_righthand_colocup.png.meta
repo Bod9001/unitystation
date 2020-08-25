@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6379465149116379219
-    second: colocup_0
+    second: food_righthand_colocup_0
   - first:
       213: 4711867281775201776
-    second: colocup_1
+    second: food_righthand_colocup_1
   - first:
       213: 887253234692372214
-    second: colocup_2
+    second: food_righthand_colocup_2
   - first:
       213: -881236643720803590
-    second: colocup_3
+    second: food_righthand_colocup_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: colocup_0
+      name: food_righthand_colocup_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: colocup_1
+      name: food_righthand_colocup_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: colocup_2
+      name: food_righthand_colocup_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: colocup_3
+      name: food_righthand_colocup_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: hud_imp_loyal_0
+    second: HUD_hud_imp_loyal_0
   - first:
       213: 21300002
-    second: hud_imp_loyal_1
+    second: HUD_hud_imp_loyal_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hud_imp_loyal_0
+      name: HUD_hud_imp_loyal_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hud_imp_loyal_1
+      name: HUD_hud_imp_loyal_1
       rect:
         serializedVersion: 2
         x: 32

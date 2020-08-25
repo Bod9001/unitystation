@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: vomit_0
+    second: animals_vomit_0
   - first:
       213: 21300002
-    second: vomit_1
+    second: animals_vomit_1
   - first:
       213: 21300004
-    second: vomit_2
+    second: animals_vomit_2
   - first:
       213: 21300006
-    second: vomit_3
+    second: animals_vomit_3
   - first:
       213: 21300008
-    second: vomit_4
+    second: animals_vomit_4
   - first:
       213: 21300010
-    second: vomit_5
+    second: animals_vomit_5
   - first:
       213: 21300012
-    second: vomit_6
+    second: animals_vomit_6
   - first:
       213: 21300014
-    second: vomit_7
+    second: animals_vomit_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vomit_0
+      name: animals_vomit_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vomit_1
+      name: animals_vomit_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vomit_2
+      name: animals_vomit_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vomit_3
+      name: animals_vomit_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vomit_4
+      name: animals_vomit_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vomit_5
+      name: animals_vomit_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vomit_6
+      name: animals_vomit_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vomit_7
+      name: animals_vomit_7
       rect:
         serializedVersion: 2
         x: 224

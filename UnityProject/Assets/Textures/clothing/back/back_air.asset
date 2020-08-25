@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 41f7d5e0e2e33ad4ebbfa5ad5015e5bb, type: 3}
-      spriteName: air_0
+      spriteName: back_air_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: air_0
+        m_SubObjectName: back_air_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 41f7d5e0e2e33ad4ebbfa5ad5015e5bb, type: 3}
-      spriteName: air_1
+      spriteName: back_air_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: air_1
+        m_SubObjectName: back_air_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 41f7d5e0e2e33ad4ebbfa5ad5015e5bb, type: 3}
-      spriteName: air_2
+      spriteName: back_air_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: air_2
+        m_SubObjectName: back_air_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 41f7d5e0e2e33ad4ebbfa5ad5015e5bb, type: 3}
-      spriteName: air_3
+      spriteName: back_air_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: air_3
+        m_SubObjectName: back_air_3
   IsPalette: 0
   setID: 254

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ff2d295c18132d047b33731fac995fda, type: 3}
-      spriteName: gun_turret_0
+      spriteName: turrets_gun_turret_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: gun_turret_0
+        m_SubObjectName: turrets_gun_turret_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ff2d295c18132d047b33731fac995fda, type: 3}
-      spriteName: gun_turret_1
+      spriteName: turrets_gun_turret_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: gun_turret_1
+        m_SubObjectName: turrets_gun_turret_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ff2d295c18132d047b33731fac995fda, type: 3}
-      spriteName: gun_turret_2
+      spriteName: turrets_gun_turret_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: gun_turret_2
+        m_SubObjectName: turrets_gun_turret_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ff2d295c18132d047b33731fac995fda, type: 3}
-      spriteName: gun_turret_3
+      spriteName: turrets_gun_turret_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: gun_turret_3
+        m_SubObjectName: turrets_gun_turret_3
   IsPalette: 0
   setID: 17634

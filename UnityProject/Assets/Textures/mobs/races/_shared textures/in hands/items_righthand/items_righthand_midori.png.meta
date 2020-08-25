@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -6529805923842362203
-    second: midori_0
+    second: items_righthand_midori_0
   - first:
       213: 4334090212827201008
-    second: midori_1
+    second: items_righthand_midori_1
   - first:
       213: -5046163803425636693
-    second: midori_2
+    second: items_righthand_midori_2
   - first:
       213: 5825223911962543679
-    second: midori_3
+    second: items_righthand_midori_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: midori_0
+      name: items_righthand_midori_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: midori_1
+      name: items_righthand_midori_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: midori_2
+      name: items_righthand_midori_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: midori_3
+      name: items_righthand_midori_3
       rect:
         serializedVersion: 2
         x: 96

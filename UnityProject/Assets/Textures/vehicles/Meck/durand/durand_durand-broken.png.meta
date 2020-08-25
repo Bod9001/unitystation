@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: durand-broken_0
+    second: durand_durand-broken_0
   - first:
       213: 21300002
-    second: durand-broken_1
+    second: durand_durand-broken_1
   - first:
       213: 21300004
-    second: durand-broken_2
+    second: durand_durand-broken_2
   - first:
       213: 21300006
-    second: durand-broken_3
+    second: durand_durand-broken_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: durand-broken_0
+      name: durand_durand-broken_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: durand-broken_1
+      name: durand_durand-broken_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: durand-broken_2
+      name: durand_durand-broken_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: durand-broken_3
+      name: durand_durand-broken_3
       rect:
         serializedVersion: 2
         x: 96

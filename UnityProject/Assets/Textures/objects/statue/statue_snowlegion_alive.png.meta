@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1625417198175672216
-    second: snowlegion_alive_0
+    second: statue_snowlegion_alive_0
   - first:
       213: 7933919901471231180
-    second: snowlegion_alive_1
+    second: statue_snowlegion_alive_1
   - first:
       213: -8999461905566254262
-    second: snowlegion_alive_2
+    second: statue_snowlegion_alive_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -96,7 +96,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: snowlegion_alive_0
+      name: statue_snowlegion_alive_0
       rect:
         serializedVersion: 2
         x: 0
@@ -117,7 +117,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowlegion_alive_1
+      name: statue_snowlegion_alive_1
       rect:
         serializedVersion: 2
         x: 32
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowlegion_alive_2
+      name: statue_snowlegion_alive_2
       rect:
         serializedVersion: 2
         x: 64

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: giggles_0
-  - first:
-      213: 21300002
-    second: giggles_1
-  - first:
-      213: 21300004
-    second: giggles_2
-  - first:
-      213: 21300006
-    second: giggles_3
-  - first:
-      213: -5048753621395620132
     second: clown posse_giggles_0
   - first:
-      213: 2726965473214037176
+      213: 21300002
     second: clown posse_giggles_1
   - first:
-      213: 1812061970996062034
+      213: 21300004
     second: clown posse_giggles_2
   - first:
-      213: 5810255858646297261
+      213: 21300006
     second: clown posse_giggles_3
+  - first:
+      213: -5048753621395620132
+    second: clown posse_clown posse_giggles_0
+  - first:
+      213: 2726965473214037176
+    second: clown posse_clown posse_giggles_1
+  - first:
+      213: 1812061970996062034
+    second: clown posse_clown posse_giggles_2
+  - first:
+      213: 5810255858646297261
+    second: clown posse_clown posse_giggles_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown posse_giggles_0
+      name: clown posse_clown posse_giggles_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_giggles_1
+      name: clown posse_clown posse_giggles_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_giggles_2
+      name: clown posse_clown posse_giggles_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_giggles_3
+      name: clown posse_clown posse_giggles_3
       rect:
         serializedVersion: 2
         x: 192

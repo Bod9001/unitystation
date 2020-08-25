@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
-      spriteName: passivegate_0
+      spriteName: pipe_item_passivegate_0
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: passivegate_0
+        m_SubObjectName: pipe_item_passivegate_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
-      spriteName: passivegate_1
+      spriteName: pipe_item_passivegate_1
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: passivegate_1
+        m_SubObjectName: pipe_item_passivegate_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
-      spriteName: passivegate_2
+      spriteName: pipe_item_passivegate_2
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: passivegate_2
+        m_SubObjectName: pipe_item_passivegate_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1ea580e0dfac57849bc8a45361ac16e0, type: 3}
-      spriteName: passivegate_3
+      spriteName: pipe_item_passivegate_3
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: passivegate_3
+        m_SubObjectName: pipe_item_passivegate_3
   IsPalette: 0
   setID: 8574

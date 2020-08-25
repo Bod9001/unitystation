@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: blank_paper_0
+    second: drinks_blank_paper_0
   - first:
       213: 21300002
-    second: blank_paper_1
+    second: drinks_blank_paper_1
   - first:
       213: 21300004
-    second: blank_paper_2
+    second: drinks_blank_paper_2
   - first:
       213: 21300006
-    second: blank_paper_3
+    second: drinks_blank_paper_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blank_paper_0
+      name: drinks_blank_paper_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blank_paper_1
+      name: drinks_blank_paper_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blank_paper_2
+      name: drinks_blank_paper_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blank_paper_3
+      name: drinks_blank_paper_3
       rect:
         serializedVersion: 2
         x: 96

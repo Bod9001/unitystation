@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: apron_0
+    second: blue apron_apron_0
   - first:
       213: 21300002
-    second: apron_1
+    second: blue apron_apron_1
   - first:
       213: 21300004
-    second: apron_2
+    second: blue apron_apron_2
   - first:
       213: 21300006
-    second: apron_3
+    second: blue apron_apron_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: apron_0
+      name: blue apron_apron_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: apron_1
+      name: blue apron_apron_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: apron_2
+      name: blue apron_apron_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: apron_3
+      name: blue apron_apron_3
       rect:
         serializedVersion: 2
         x: 96

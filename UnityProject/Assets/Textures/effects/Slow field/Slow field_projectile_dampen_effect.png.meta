@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: projectile_dampen_effect_0
+    second: Slow field_projectile_dampen_effect_0
   - first:
       213: 21300002
-    second: projectile_dampen_effect_1
+    second: Slow field_projectile_dampen_effect_1
   - first:
       213: 21300004
-    second: projectile_dampen_effect_2
+    second: Slow field_projectile_dampen_effect_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: projectile_dampen_effect_0
+      name: Slow field_projectile_dampen_effect_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: projectile_dampen_effect_1
+      name: Slow field_projectile_dampen_effect_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: projectile_dampen_effect_2
+      name: Slow field_projectile_dampen_effect_2
       rect:
         serializedVersion: 2
         x: 64

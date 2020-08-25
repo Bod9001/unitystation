@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 3d804f1f926bbaa4fb9a94541eb41167, type: 3}
-      spriteName: adamshield_0
+      spriteName: items_lefthand_adamshield_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: adamshield_0
+        m_SubObjectName: items_lefthand_adamshield_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3d804f1f926bbaa4fb9a94541eb41167, type: 3}
-      spriteName: adamshield_1
+      spriteName: items_lefthand_adamshield_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: adamshield_1
+        m_SubObjectName: items_lefthand_adamshield_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3d804f1f926bbaa4fb9a94541eb41167, type: 3}
-      spriteName: adamshield_2
+      spriteName: items_lefthand_adamshield_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: adamshield_2
+        m_SubObjectName: items_lefthand_adamshield_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3d804f1f926bbaa4fb9a94541eb41167, type: 3}
-      spriteName: adamshield_3
+      spriteName: items_lefthand_adamshield_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: adamshield_3
+        m_SubObjectName: items_lefthand_adamshield_3
   IsPalette: 0
   setID: 10299

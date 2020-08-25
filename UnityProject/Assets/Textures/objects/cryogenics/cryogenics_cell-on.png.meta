@@ -4,64 +4,64 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cell-on_0
+    second: cryogenics_cell-on_0
   - first:
       213: 21300002
-    second: cell-on_1
+    second: cryogenics_cell-on_1
   - first:
       213: 21300004
-    second: cell-on_2
+    second: cryogenics_cell-on_2
   - first:
       213: 21300006
-    second: cell-on_3
+    second: cryogenics_cell-on_3
   - first:
       213: 21300008
-    second: cell-on_4
+    second: cryogenics_cell-on_4
   - first:
       213: 21300010
-    second: cell-on_5
+    second: cryogenics_cell-on_5
   - first:
       213: 21300012
-    second: cell-on_6
+    second: cryogenics_cell-on_6
   - first:
       213: 21300014
-    second: cell-on_7
+    second: cryogenics_cell-on_7
   - first:
       213: 21300016
-    second: cell-on_8
+    second: cryogenics_cell-on_8
   - first:
       213: 21300018
-    second: cell-on_9
+    second: cryogenics_cell-on_9
   - first:
       213: 21300020
-    second: cell-on_10
+    second: cryogenics_cell-on_10
   - first:
       213: 21300022
-    second: cell-on_11
+    second: cryogenics_cell-on_11
   - first:
       213: 21300024
-    second: cell-on_12
+    second: cryogenics_cell-on_12
   - first:
       213: 21300026
-    second: cell-on_13
+    second: cryogenics_cell-on_13
   - first:
       213: 21300028
-    second: cell-on_14
+    second: cryogenics_cell-on_14
   - first:
       213: 21300030
-    second: cell-on_15
+    second: cryogenics_cell-on_15
   - first:
       213: 21300032
-    second: cell-on_16
+    second: cryogenics_cell-on_16
   - first:
       213: 21300034
-    second: cell-on_17
+    second: cryogenics_cell-on_17
   - first:
       213: 21300036
-    second: cell-on_18
+    second: cryogenics_cell-on_18
   - first:
       213: 21300038
-    second: cell-on_19
+    second: cryogenics_cell-on_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -146,7 +146,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cell-on_0
+      name: cryogenics_cell-on_0
       rect:
         serializedVersion: 2
         x: 0
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_1
+      name: cryogenics_cell-on_1
       rect:
         serializedVersion: 2
         x: 32
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_2
+      name: cryogenics_cell-on_2
       rect:
         serializedVersion: 2
         x: 64
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_3
+      name: cryogenics_cell-on_3
       rect:
         serializedVersion: 2
         x: 96
@@ -230,7 +230,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_4
+      name: cryogenics_cell-on_4
       rect:
         serializedVersion: 2
         x: 128
@@ -251,7 +251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_5
+      name: cryogenics_cell-on_5
       rect:
         serializedVersion: 2
         x: 160
@@ -272,7 +272,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_6
+      name: cryogenics_cell-on_6
       rect:
         serializedVersion: 2
         x: 192
@@ -293,7 +293,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_7
+      name: cryogenics_cell-on_7
       rect:
         serializedVersion: 2
         x: 224
@@ -314,7 +314,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_8
+      name: cryogenics_cell-on_8
       rect:
         serializedVersion: 2
         x: 256
@@ -335,7 +335,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_9
+      name: cryogenics_cell-on_9
       rect:
         serializedVersion: 2
         x: 288
@@ -356,7 +356,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_10
+      name: cryogenics_cell-on_10
       rect:
         serializedVersion: 2
         x: 320
@@ -377,7 +377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_11
+      name: cryogenics_cell-on_11
       rect:
         serializedVersion: 2
         x: 352
@@ -398,7 +398,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_12
+      name: cryogenics_cell-on_12
       rect:
         serializedVersion: 2
         x: 384
@@ -419,7 +419,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_13
+      name: cryogenics_cell-on_13
       rect:
         serializedVersion: 2
         x: 416
@@ -440,7 +440,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_14
+      name: cryogenics_cell-on_14
       rect:
         serializedVersion: 2
         x: 448
@@ -461,7 +461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_15
+      name: cryogenics_cell-on_15
       rect:
         serializedVersion: 2
         x: 480
@@ -482,7 +482,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_16
+      name: cryogenics_cell-on_16
       rect:
         serializedVersion: 2
         x: 512
@@ -503,7 +503,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_17
+      name: cryogenics_cell-on_17
       rect:
         serializedVersion: 2
         x: 544
@@ -524,7 +524,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_18
+      name: cryogenics_cell-on_18
       rect:
         serializedVersion: 2
         x: 576
@@ -545,7 +545,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cell-on_19
+      name: cryogenics_cell-on_19
       rect:
         serializedVersion: 2
         x: 608

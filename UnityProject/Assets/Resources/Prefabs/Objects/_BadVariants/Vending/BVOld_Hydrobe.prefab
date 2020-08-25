@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 2774005396623029337}
   - component: {fileID: 7742202838144058117}
   m_Layer: 11
-  m_Name: BVOld_Hydrobe
+  m_Name: Hydrobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,9 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  initialIntegrity: 100
   soundOnHit: 
-  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -282,6 +280,7 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
+  initialIntegrity: 100
 --- !u!114 &114472266138859352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,18 +451,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 70867bd650c28ae468a60c4b1cd97553
-    m_SubObjectName: 
-  SubCatalogueAddresses:
-  - m_AssetGUID: 70867bd650c28ae468a60c4b1cd97553
-    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: 70867bd650c28ae468a60c4b1cd97553, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: 70867bd650c28ae468a60c4b1cd97553, type: 2}
-  pushTextureOnStartUp: 1
-  variantIndex: 0
-  palette: []
   Sprites:
   - Texture: {fileID: 2800000, guid: 2500e34e00f16254fa6b09eaa1ab1528, type: 3}
+  variantIndex: 0
+  palette: []

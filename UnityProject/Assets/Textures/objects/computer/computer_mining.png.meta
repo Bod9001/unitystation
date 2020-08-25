@@ -4,100 +4,100 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: mining_0
+    second: computer_mining_0
   - first:
       213: 21300002
-    second: mining_1
+    second: computer_mining_1
   - first:
       213: 21300004
-    second: mining_2
+    second: computer_mining_2
   - first:
       213: 21300006
-    second: mining_3
+    second: computer_mining_3
   - first:
       213: 21300008
-    second: mining_4
+    second: computer_mining_4
   - first:
       213: 21300010
-    second: mining_5
+    second: computer_mining_5
   - first:
       213: 21300012
-    second: mining_6
+    second: computer_mining_6
   - first:
       213: 21300014
-    second: mining_7
+    second: computer_mining_7
   - first:
       213: 21300016
-    second: mining_8
+    second: computer_mining_8
   - first:
       213: 21300018
-    second: mining_9
+    second: computer_mining_9
   - first:
       213: 21300020
-    second: mining_10
+    second: computer_mining_10
   - first:
       213: 21300022
-    second: mining_11
+    second: computer_mining_11
   - first:
       213: 21300024
-    second: mining_12
+    second: computer_mining_12
   - first:
       213: 21300026
-    second: mining_13
+    second: computer_mining_13
   - first:
       213: 21300028
-    second: mining_14
+    second: computer_mining_14
   - first:
       213: 21300030
-    second: mining_15
+    second: computer_mining_15
   - first:
       213: 21300032
-    second: mining_16
+    second: computer_mining_16
   - first:
       213: 21300034
-    second: mining_17
+    second: computer_mining_17
   - first:
       213: 21300036
-    second: mining_18
+    second: computer_mining_18
   - first:
       213: 21300038
-    second: mining_19
+    second: computer_mining_19
   - first:
       213: 21300040
-    second: mining_20
+    second: computer_mining_20
   - first:
       213: 21300042
-    second: mining_21
+    second: computer_mining_21
   - first:
       213: 21300044
-    second: mining_22
+    second: computer_mining_22
   - first:
       213: 21300046
-    second: mining_23
+    second: computer_mining_23
   - first:
       213: 21300048
-    second: mining_24
+    second: computer_mining_24
   - first:
       213: 21300050
-    second: mining_25
+    second: computer_mining_25
   - first:
       213: 21300052
-    second: mining_26
+    second: computer_mining_26
   - first:
       213: 21300054
-    second: mining_27
+    second: computer_mining_27
   - first:
       213: 21300056
-    second: mining_28
+    second: computer_mining_28
   - first:
       213: 21300058
-    second: mining_29
+    second: computer_mining_29
   - first:
       213: 21300060
-    second: mining_30
+    second: computer_mining_30
   - first:
       213: 21300062
-    second: mining_31
+    second: computer_mining_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mining_0
+      name: computer_mining_0
       rect:
         serializedVersion: 2
         x: 0
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_1
+      name: computer_mining_1
       rect:
         serializedVersion: 2
         x: 32
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_2
+      name: computer_mining_2
       rect:
         serializedVersion: 2
         x: 64
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_3
+      name: computer_mining_3
       rect:
         serializedVersion: 2
         x: 96
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_4
+      name: computer_mining_4
       rect:
         serializedVersion: 2
         x: 128
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_5
+      name: computer_mining_5
       rect:
         serializedVersion: 2
         x: 160
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_6
+      name: computer_mining_6
       rect:
         serializedVersion: 2
         x: 192
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_7
+      name: computer_mining_7
       rect:
         serializedVersion: 2
         x: 224
@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_8
+      name: computer_mining_8
       rect:
         serializedVersion: 2
         x: 256
@@ -371,7 +371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_9
+      name: computer_mining_9
       rect:
         serializedVersion: 2
         x: 288
@@ -392,7 +392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_10
+      name: computer_mining_10
       rect:
         serializedVersion: 2
         x: 320
@@ -413,7 +413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_11
+      name: computer_mining_11
       rect:
         serializedVersion: 2
         x: 352
@@ -434,7 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_12
+      name: computer_mining_12
       rect:
         serializedVersion: 2
         x: 384
@@ -455,7 +455,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_13
+      name: computer_mining_13
       rect:
         serializedVersion: 2
         x: 416
@@ -476,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_14
+      name: computer_mining_14
       rect:
         serializedVersion: 2
         x: 448
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_15
+      name: computer_mining_15
       rect:
         serializedVersion: 2
         x: 480
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_16
+      name: computer_mining_16
       rect:
         serializedVersion: 2
         x: 512
@@ -539,7 +539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_17
+      name: computer_mining_17
       rect:
         serializedVersion: 2
         x: 544
@@ -560,7 +560,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_18
+      name: computer_mining_18
       rect:
         serializedVersion: 2
         x: 576
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_19
+      name: computer_mining_19
       rect:
         serializedVersion: 2
         x: 608
@@ -602,7 +602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_20
+      name: computer_mining_20
       rect:
         serializedVersion: 2
         x: 640
@@ -623,7 +623,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_21
+      name: computer_mining_21
       rect:
         serializedVersion: 2
         x: 672
@@ -644,7 +644,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_22
+      name: computer_mining_22
       rect:
         serializedVersion: 2
         x: 704
@@ -665,7 +665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_23
+      name: computer_mining_23
       rect:
         serializedVersion: 2
         x: 736
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_24
+      name: computer_mining_24
       rect:
         serializedVersion: 2
         x: 768
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_25
+      name: computer_mining_25
       rect:
         serializedVersion: 2
         x: 800
@@ -728,7 +728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_26
+      name: computer_mining_26
       rect:
         serializedVersion: 2
         x: 832
@@ -749,7 +749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_27
+      name: computer_mining_27
       rect:
         serializedVersion: 2
         x: 864
@@ -770,7 +770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_28
+      name: computer_mining_28
       rect:
         serializedVersion: 2
         x: 896
@@ -791,7 +791,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_29
+      name: computer_mining_29
       rect:
         serializedVersion: 2
         x: 928
@@ -812,7 +812,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_30
+      name: computer_mining_30
       rect:
         serializedVersion: 2
         x: 960
@@ -833,7 +833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mining_31
+      name: computer_mining_31
       rect:
         serializedVersion: 2
         x: 992

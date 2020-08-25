@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: Shield_Gen_a_0
+    second: stationobjs_Shield_Gen_a_0
   - first:
       213: 21300002
-    second: Shield_Gen_a_1
+    second: stationobjs_Shield_Gen_a_1
   - first:
       213: 21300004
-    second: Shield_Gen_a_2
+    second: stationobjs_Shield_Gen_a_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shield_Gen_a_0
+      name: stationobjs_Shield_Gen_a_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_Gen_a_1
+      name: stationobjs_Shield_Gen_a_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_Gen_a_2
+      name: stationobjs_Shield_Gen_a_2
       rect:
         serializedVersion: 2
         x: 64

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2920607986219436921
-    second: ocannabis_0
+    second: harvest_ocannabis_0
   - first:
       213: -8088533877595528143
-    second: ocannabis_1
+    second: harvest_ocannabis_1
   - first:
       213: 8215921311044288498
-    second: ocannabis_2
+    second: harvest_ocannabis_2
   - first:
       213: -2327387695651687659
-    second: ocannabis_3
+    second: harvest_ocannabis_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ocannabis_0
+      name: harvest_ocannabis_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ocannabis_1
+      name: harvest_ocannabis_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ocannabis_2
+      name: harvest_ocannabis_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ocannabis_3
+      name: harvest_ocannabis_3
       rect:
         serializedVersion: 2
         x: 96

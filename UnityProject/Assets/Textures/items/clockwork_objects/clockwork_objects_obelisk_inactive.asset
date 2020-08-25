@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 939897ab09079aa4ea417fe2ac124a7c, type: 3}
-      spriteName: obelisk_inactive_0
+      spriteName: clockwork_objects_obelisk_inactive_0
       secondDelay: 0.6
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: obelisk_inactive_0
+        m_SubObjectName: clockwork_objects_obelisk_inactive_0
     - sprite: {fileID: 21300002, guid: 939897ab09079aa4ea417fe2ac124a7c, type: 3}
-      spriteName: obelisk_inactive_1
+      spriteName: clockwork_objects_obelisk_inactive_1
       secondDelay: 0.6
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: obelisk_inactive_1
+        m_SubObjectName: clockwork_objects_obelisk_inactive_1
   IsPalette: 0
   setID: 5503

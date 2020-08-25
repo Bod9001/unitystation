@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: toff_0
+    second: gateway_toff_0
   - first:
       213: 21300002
-    second: toff_1
+    second: gateway_toff_1
   - first:
       213: 21300004
-    second: toff_2
+    second: gateway_toff_2
   - first:
       213: 21300006
-    second: toff_3
+    second: gateway_toff_3
   - first:
       213: 21300008
-    second: toff_4
+    second: gateway_toff_4
   - first:
       213: 21300010
-    second: toff_5
+    second: gateway_toff_5
   - first:
       213: 21300012
-    second: toff_6
+    second: gateway_toff_6
   - first:
       213: 21300014
-    second: toff_7
+    second: gateway_toff_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: toff_0
+      name: gateway_toff_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toff_1
+      name: gateway_toff_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toff_2
+      name: gateway_toff_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toff_3
+      name: gateway_toff_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toff_4
+      name: gateway_toff_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toff_5
+      name: gateway_toff_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toff_6
+      name: gateway_toff_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toff_7
+      name: gateway_toff_7
       rect:
         serializedVersion: 2
         x: 224

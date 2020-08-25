@@ -12,18 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 3b7feb912342dfe49b533b894142bbcd
-    m_SubObjectName: 
-  SubCatalogueAddresses:
-  - m_AssetGUID: 689094875fd0df8419231bf0fdbe1452
-    m_SubObjectName: 
-  - m_AssetGUID: 83afc2d4d1938654c8c33cb843c30162
-    m_SubObjectName: 
-  - m_AssetGUID: 8bda0a38a29a3a5468d76571b70d45c6
-    m_SubObjectName: 
-  - m_AssetGUID: 3b7feb912342dfe49b533b894142bbcd
-    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: 689094875fd0df8419231bf0fdbe1452, type: 2}
@@ -31,14 +19,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8bda0a38a29a3a5468d76571b70d45c6, type: 2}
   - {fileID: 11400000, guid: 3b7feb912342dfe49b533b894142bbcd, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: 3b7feb912342dfe49b533b894142bbcd, type: 2}
-  pushTextureOnStartUp: 1
-  variantIndex: 0
-  palette: []
   Sprites:
   - Texture: {fileID: 2800000, guid: e9df4be7bb1ed5d42a347d99dbcd4147, type: 3}
   - Texture: {fileID: 2800000, guid: ef29a5ef1583c5f4b92b96d3a3ab88d9, type: 3}
   - Texture: {fileID: 2800000, guid: 379eb1cc18d837a45b27b22619d6175e, type: 3}
   - Texture: {fileID: 2800000, guid: e01b2ff042a47914091952e5e0cd7374, type: 3}
+  variantIndex: 0
+  palette: []
 --- !u!114 &3714082574942529750
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: marauder_0
+    second: marauder_marauder_0
   - first:
       213: 21300002
-    second: marauder_1
+    second: marauder_marauder_1
   - first:
       213: 21300004
-    second: marauder_2
+    second: marauder_marauder_2
   - first:
       213: 21300006
-    second: marauder_3
+    second: marauder_marauder_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: marauder_0
+      name: marauder_marauder_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: marauder_1
+      name: marauder_marauder_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: marauder_2
+      name: marauder_marauder_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: marauder_3
+      name: marauder_marauder_3
       rect:
         serializedVersion: 2
         x: 96

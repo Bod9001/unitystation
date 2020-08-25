@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: a7520a9e75347ef4db49edae1c60d47b, type: 3}
-      spriteName: dnamod_0
+      spriteName: equipment_dnamod_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: dnamod_0
+        m_SubObjectName: equipment_dnamod_0
     - sprite: {fileID: 21300002, guid: a7520a9e75347ef4db49edae1c60d47b, type: 3}
-      spriteName: dnamod_1
+      spriteName: equipment_dnamod_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: dnamod_1
+        m_SubObjectName: equipment_dnamod_1
     - sprite: {fileID: 21300004, guid: a7520a9e75347ef4db49edae1c60d47b, type: 3}
-      spriteName: dnamod_2
+      spriteName: equipment_dnamod_2
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: dnamod_2
+        m_SubObjectName: equipment_dnamod_2
     - sprite: {fileID: 21300006, guid: a7520a9e75347ef4db49edae1c60d47b, type: 3}
-      spriteName: dnamod_3
+      spriteName: equipment_dnamod_3
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: dnamod_3
+        m_SubObjectName: equipment_dnamod_3
   IsPalette: 0
   setID: 15146

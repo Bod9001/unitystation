@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: doorc1_0
+    second: shuttle_doorc1_0
   - first:
       213: 21300002
-    second: doorc1_1
+    second: shuttle_doorc1_1
   - first:
       213: 21300004
-    second: doorc1_2
+    second: shuttle_doorc1_2
   - first:
       213: 21300006
-    second: doorc1_3
+    second: shuttle_doorc1_3
   - first:
       213: 21300008
-    second: doorc1_4
+    second: shuttle_doorc1_4
   - first:
       213: 21300010
-    second: doorc1_5
+    second: shuttle_doorc1_5
   - first:
       213: 21300012
-    second: doorc1_6
+    second: shuttle_doorc1_6
   - first:
       213: 21300014
-    second: doorc1_7
+    second: shuttle_doorc1_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: doorc1_0
+      name: shuttle_doorc1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doorc1_1
+      name: shuttle_doorc1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doorc1_2
+      name: shuttle_doorc1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doorc1_3
+      name: shuttle_doorc1_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doorc1_4
+      name: shuttle_doorc1_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doorc1_5
+      name: shuttle_doorc1_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doorc1_6
+      name: shuttle_doorc1_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: doorc1_7
+      name: shuttle_doorc1_7
       rect:
         serializedVersion: 2
         x: 224

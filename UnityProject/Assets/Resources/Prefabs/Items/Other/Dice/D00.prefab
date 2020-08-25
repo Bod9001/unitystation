@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sides: 10
-  isRiggable: 1
+  riggable: 1
 --- !u!1001 &7071486407508621004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32,11 +32,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 64a51cd3f4b823e4296ff91b58938772,
         type: 2}
-    - target: {fileID: 3216665340718951548, guid: 77d2a86d1e994c64485b5240c8f917ec,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 64a51cd3f4b823e4296ff91b58938772
-      objectReference: {fileID: 0}
     - target: {fileID: 3898723768077675628, guid: 77d2a86d1e994c64485b5240c8f917ec,
         type: 3}
       propertyPath: m_Sprite
@@ -70,16 +65,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 307906379014b6d4d92c7e34258a40a1,
         type: 2}
-    - target: {fileID: 5127478345631143613, guid: 77d2a86d1e994c64485b5240c8f917ec,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 307906379014b6d4d92c7e34258a40a1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127478345631143613, guid: 77d2a86d1e994c64485b5240c8f917ec,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[0].m_AssetGUID
-      value: 307906379014b6d4d92c7e34258a40a1
-      objectReference: {fileID: 0}
     - target: {fileID: 8678945255199976015, guid: 77d2a86d1e994c64485b5240c8f917ec,
         type: 3}
       propertyPath: m_AssetId

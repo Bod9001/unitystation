@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: militarywebbing_0
+    second: chest rig_militarywebbing_0
   - first:
       213: 21300002
-    second: militarywebbing_1
+    second: chest rig_militarywebbing_1
   - first:
       213: 21300004
-    second: militarywebbing_2
+    second: chest rig_militarywebbing_2
   - first:
       213: 21300006
-    second: militarywebbing_3
+    second: chest rig_militarywebbing_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: militarywebbing_0
+      name: chest rig_militarywebbing_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: militarywebbing_1
+      name: chest rig_militarywebbing_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: militarywebbing_2
+      name: chest rig_militarywebbing_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: militarywebbing_3
+      name: chest rig_militarywebbing_3
       rect:
         serializedVersion: 2
         x: 96

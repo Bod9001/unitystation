@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0195f6f59e9d6434b8ddeacc0495ce44, type: 3}
-      spriteName: xray1_0
+      spriteName: guns_righthand_xray1_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: xray1_0
+        m_SubObjectName: guns_righthand_xray1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0195f6f59e9d6434b8ddeacc0495ce44, type: 3}
-      spriteName: xray1_1
+      spriteName: guns_righthand_xray1_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: xray1_1
+        m_SubObjectName: guns_righthand_xray1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0195f6f59e9d6434b8ddeacc0495ce44, type: 3}
-      spriteName: xray1_2
+      spriteName: guns_righthand_xray1_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: xray1_2
+        m_SubObjectName: guns_righthand_xray1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0195f6f59e9d6434b8ddeacc0495ce44, type: 3}
-      spriteName: xray1_3
+      spriteName: guns_righthand_xray1_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: xray1_3
+        m_SubObjectName: guns_righthand_xray1_3
   IsPalette: 0
   setID: 10812

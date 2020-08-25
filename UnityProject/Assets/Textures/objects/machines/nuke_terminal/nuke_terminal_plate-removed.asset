@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e413edd5d76aec249a51660b0149b9f2, type: 3}
-      spriteName: plate-removed_0
+      spriteName: nuke_terminal_plate-removed_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: plate-removed_0
+        m_SubObjectName: nuke_terminal_plate-removed_0
     - sprite: {fileID: 21300002, guid: e413edd5d76aec249a51660b0149b9f2, type: 3}
-      spriteName: plate-removed_1
+      spriteName: nuke_terminal_plate-removed_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: plate-removed_1
+        m_SubObjectName: nuke_terminal_plate-removed_1
     - sprite: {fileID: 21300004, guid: e413edd5d76aec249a51660b0149b9f2, type: 3}
-      spriteName: plate-removed_2
+      spriteName: nuke_terminal_plate-removed_2
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: plate-removed_2
+        m_SubObjectName: nuke_terminal_plate-removed_2
     - sprite: {fileID: 21300006, guid: e413edd5d76aec249a51660b0149b9f2, type: 3}
-      spriteName: plate-removed_3
+      spriteName: nuke_terminal_plate-removed_3
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: plate-removed_3
+        m_SubObjectName: nuke_terminal_plate-removed_3
   IsPalette: 0
   setID: 15874

@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: faf6ac92d44618b4aa10598fc359c12d, type: 3}
-      spriteName: welder-on_0
+      spriteName: alien_welder-on_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: welder-on_0
+        m_SubObjectName: alien_welder-on_0
     - sprite: {fileID: 21300002, guid: faf6ac92d44618b4aa10598fc359c12d, type: 3}
-      spriteName: welder-on_1
+      spriteName: alien_welder-on_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: welder-on_1
+        m_SubObjectName: alien_welder-on_1
   IsPalette: 0
   setID: 4412

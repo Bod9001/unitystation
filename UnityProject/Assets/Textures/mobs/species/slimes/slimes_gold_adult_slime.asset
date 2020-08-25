@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 99c2f9e8d5248554daf420b0a176675d, type: 3}
-      spriteName: gold_adult_slime_0
+      spriteName: slimes_gold_adult_slime_0
       secondDelay: 0.3
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: gold_adult_slime_0
+        m_SubObjectName: slimes_gold_adult_slime_0
     - sprite: {fileID: 21300002, guid: 99c2f9e8d5248554daf420b0a176675d, type: 3}
-      spriteName: gold_adult_slime_1
+      spriteName: slimes_gold_adult_slime_1
       secondDelay: 0.3
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: gold_adult_slime_1
+        m_SubObjectName: slimes_gold_adult_slime_1
   IsPalette: 0
   setID: 12525

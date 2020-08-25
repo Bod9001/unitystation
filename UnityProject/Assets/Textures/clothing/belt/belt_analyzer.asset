@@ -16,38 +16,38 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: 3230144511536662429, guid: c920aca93e9190c499e83a2ba5b57bc6,
         type: 3}
-      spriteName: analyzer_0
+      spriteName: belt_analyzer_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: analyzer_0
+        m_SubObjectName: belt_analyzer_0
   - Frames:
     - sprite: {fileID: -6806582351268594072, guid: c920aca93e9190c499e83a2ba5b57bc6,
         type: 3}
-      spriteName: analyzer_1
+      spriteName: belt_analyzer_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: analyzer_1
+        m_SubObjectName: belt_analyzer_1
   - Frames:
     - sprite: {fileID: 3069808996114181475, guid: c920aca93e9190c499e83a2ba5b57bc6,
         type: 3}
-      spriteName: analyzer_2
+      spriteName: belt_analyzer_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: analyzer_2
+        m_SubObjectName: belt_analyzer_2
   - Frames:
     - sprite: {fileID: 5188306163672635081, guid: c920aca93e9190c499e83a2ba5b57bc6,
         type: 3}
-      spriteName: analyzer_3
+      spriteName: belt_analyzer_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: analyzer_3
+        m_SubObjectName: belt_analyzer_3
   IsPalette: 0
   setID: 19851

@@ -15,60 +15,60 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f3776baee48d2d041ba6e1fc9d78b89c, type: 3}
-      spriteName: AAS_On_Open_0
+      spriteName: telecomms_AAS_On_Open_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: AAS_On_Open_0
+        m_SubObjectName: telecomms_AAS_On_Open_0
     - sprite: {fileID: 21300002, guid: f3776baee48d2d041ba6e1fc9d78b89c, type: 3}
-      spriteName: AAS_On_Open_1
+      spriteName: telecomms_AAS_On_Open_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: AAS_On_Open_1
+        m_SubObjectName: telecomms_AAS_On_Open_1
     - sprite: {fileID: 21300004, guid: f3776baee48d2d041ba6e1fc9d78b89c, type: 3}
-      spriteName: AAS_On_Open_2
+      spriteName: telecomms_AAS_On_Open_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: AAS_On_Open_2
+        m_SubObjectName: telecomms_AAS_On_Open_2
     - sprite: {fileID: 21300006, guid: f3776baee48d2d041ba6e1fc9d78b89c, type: 3}
-      spriteName: AAS_On_Open_3
+      spriteName: telecomms_AAS_On_Open_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: AAS_On_Open_3
+        m_SubObjectName: telecomms_AAS_On_Open_3
     - sprite: {fileID: 21300008, guid: f3776baee48d2d041ba6e1fc9d78b89c, type: 3}
-      spriteName: AAS_On_Open_4
+      spriteName: telecomms_AAS_On_Open_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: AAS_On_Open_4
+        m_SubObjectName: telecomms_AAS_On_Open_4
     - sprite: {fileID: 21300010, guid: f3776baee48d2d041ba6e1fc9d78b89c, type: 3}
-      spriteName: AAS_On_Open_5
+      spriteName: telecomms_AAS_On_Open_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: AAS_On_Open_5
+        m_SubObjectName: telecomms_AAS_On_Open_5
     - sprite: {fileID: 21300012, guid: f3776baee48d2d041ba6e1fc9d78b89c, type: 3}
-      spriteName: AAS_On_Open_6
+      spriteName: telecomms_AAS_On_Open_6
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: AAS_On_Open_6
+        m_SubObjectName: telecomms_AAS_On_Open_6
     - sprite: {fileID: 21300014, guid: f3776baee48d2d041ba6e1fc9d78b89c, type: 3}
-      spriteName: AAS_On_Open_7
+      spriteName: telecomms_AAS_On_Open_7
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: AAS_On_Open_7
+        m_SubObjectName: telecomms_AAS_On_Open_7
   IsPalette: 0
   setID: 16028

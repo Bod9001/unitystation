@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: darkgreencorners_0
+    second: green_darkgreencorners_0
   - first:
       213: 21300002
-    second: darkgreencorners_1
+    second: green_darkgreencorners_1
   - first:
       213: 21300004
-    second: darkgreencorners_2
+    second: green_darkgreencorners_2
   - first:
       213: 21300006
-    second: darkgreencorners_3
+    second: green_darkgreencorners_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: darkgreencorners_0
+      name: green_darkgreencorners_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: darkgreencorners_1
+      name: green_darkgreencorners_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: darkgreencorners_2
+      name: green_darkgreencorners_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: darkgreencorners_3
+      name: green_darkgreencorners_3
       rect:
         serializedVersion: 2
         x: 96

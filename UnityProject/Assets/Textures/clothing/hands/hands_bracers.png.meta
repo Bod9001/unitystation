@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bracers_0
+    second: hands_bracers_0
   - first:
       213: 21300002
-    second: bracers_1
+    second: hands_bracers_1
   - first:
       213: 21300004
-    second: bracers_2
+    second: hands_bracers_2
   - first:
       213: 21300006
-    second: bracers_3
+    second: hands_bracers_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bracers_0
+      name: hands_bracers_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bracers_1
+      name: hands_bracers_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bracers_2
+      name: hands_bracers_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bracers_3
+      name: hands_bracers_3
       rect:
         serializedVersion: 2
         x: 96

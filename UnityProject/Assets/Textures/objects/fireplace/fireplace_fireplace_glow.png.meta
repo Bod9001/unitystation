@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: fireplace_glow_0
+    second: fireplace_fireplace_glow_0
   - first:
       213: 21300002
-    second: fireplace_glow_1
+    second: fireplace_fireplace_glow_1
   - first:
       213: 21300004
-    second: fireplace_glow_2
+    second: fireplace_fireplace_glow_2
   - first:
       213: 21300006
-    second: fireplace_glow_3
+    second: fireplace_fireplace_glow_3
   - first:
       213: 21300008
-    second: fireplace_glow_4
+    second: fireplace_fireplace_glow_4
   - first:
       213: 21300010
-    second: fireplace_glow_5
+    second: fireplace_fireplace_glow_5
   - first:
       213: 21300012
-    second: fireplace_glow_6
+    second: fireplace_fireplace_glow_6
   - first:
       213: 21300014
-    second: fireplace_glow_7
+    second: fireplace_fireplace_glow_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fireplace_glow_0
+      name: fireplace_fireplace_glow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireplace_glow_1
+      name: fireplace_fireplace_glow_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireplace_glow_2
+      name: fireplace_fireplace_glow_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireplace_glow_3
+      name: fireplace_fireplace_glow_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireplace_glow_4
+      name: fireplace_fireplace_glow_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireplace_glow_5
+      name: fireplace_fireplace_glow_5
       rect:
         serializedVersion: 2
         x: 320
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireplace_glow_6
+      name: fireplace_fireplace_glow_6
       rect:
         serializedVersion: 2
         x: 384
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fireplace_glow_7
+      name: fireplace_fireplace_glow_7
       rect:
         serializedVersion: 2
         x: 448

@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: blobbernaut_death_0
+    second: blob_blobbernaut_death_0
   - first:
       213: 21300002
-    second: blobbernaut_death_1
+    second: blob_blobbernaut_death_1
   - first:
       213: 21300004
-    second: blobbernaut_death_2
+    second: blob_blobbernaut_death_2
   - first:
       213: 21300006
-    second: blobbernaut_death_3
+    second: blob_blobbernaut_death_3
   - first:
       213: 21300008
-    second: blobbernaut_death_4
+    second: blob_blobbernaut_death_4
   - first:
       213: 21300010
-    second: blobbernaut_death_5
+    second: blob_blobbernaut_death_5
   - first:
       213: 21300012
-    second: blobbernaut_death_6
+    second: blob_blobbernaut_death_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blobbernaut_death_0
+      name: blob_blobbernaut_death_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blobbernaut_death_1
+      name: blob_blobbernaut_death_1
       rect:
         serializedVersion: 2
         x: 32
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blobbernaut_death_2
+      name: blob_blobbernaut_death_2
       rect:
         serializedVersion: 2
         x: 64
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blobbernaut_death_3
+      name: blob_blobbernaut_death_3
       rect:
         serializedVersion: 2
         x: 96
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blobbernaut_death_4
+      name: blob_blobbernaut_death_4
       rect:
         serializedVersion: 2
         x: 128
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blobbernaut_death_5
+      name: blob_blobbernaut_death_5
       rect:
         serializedVersion: 2
         x: 160
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blobbernaut_death_6
+      name: blob_blobbernaut_death_6
       rect:
         serializedVersion: 2
         x: 192

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c9012031da80f304ab80aa611ca41022, type: 3}
-      spriteName: gibleg_0
+      spriteName: blood_gibleg_0
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gibleg_0
+        m_SubObjectName: blood_gibleg_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c9012031da80f304ab80aa611ca41022, type: 3}
-      spriteName: gibleg_1
+      spriteName: blood_gibleg_1
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gibleg_1
+        m_SubObjectName: blood_gibleg_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c9012031da80f304ab80aa611ca41022, type: 3}
-      spriteName: gibleg_2
+      spriteName: blood_gibleg_2
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gibleg_2
+        m_SubObjectName: blood_gibleg_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c9012031da80f304ab80aa611ca41022, type: 3}
-      spriteName: gibleg_3
+      spriteName: blood_gibleg_3
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gibleg_3
+        m_SubObjectName: blood_gibleg_3
   IsPalette: 0
   setID: 9648

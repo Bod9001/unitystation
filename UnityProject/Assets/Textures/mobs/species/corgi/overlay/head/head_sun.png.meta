@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sun_0
+    second: head_sun_0
   - first:
       213: 21300002
-    second: sun_1
+    second: head_sun_1
   - first:
       213: 21300004
-    second: sun_2
+    second: head_sun_2
   - first:
       213: 21300006
-    second: sun_3
+    second: head_sun_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sun_0
+      name: head_sun_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sun_1
+      name: head_sun_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sun_2
+      name: head_sun_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sun_3
+      name: head_sun_3
       rect:
         serializedVersion: 2
         x: 96

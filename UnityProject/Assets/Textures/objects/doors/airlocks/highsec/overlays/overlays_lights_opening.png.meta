@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: lights_opening_0
+    second: overlays_lights_opening_0
   - first:
       213: 21300002
-    second: lights_opening_1
+    second: overlays_lights_opening_1
   - first:
       213: 21300004
-    second: lights_opening_2
+    second: overlays_lights_opening_2
   - first:
       213: 21300006
-    second: lights_opening_3
+    second: overlays_lights_opening_3
   - first:
       213: 21300008
-    second: lights_opening_4
+    second: overlays_lights_opening_4
   - first:
       213: 21300010
-    second: lights_opening_5
+    second: overlays_lights_opening_5
   - first:
       213: 21300012
-    second: lights_opening_6
+    second: overlays_lights_opening_6
   - first:
       213: 21300014
-    second: lights_opening_7
+    second: overlays_lights_opening_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lights_opening_0
+      name: overlays_lights_opening_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_opening_1
+      name: overlays_lights_opening_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_opening_2
+      name: overlays_lights_opening_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_opening_3
+      name: overlays_lights_opening_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_opening_4
+      name: overlays_lights_opening_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_opening_5
+      name: overlays_lights_opening_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_opening_6
+      name: overlays_lights_opening_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_opening_7
+      name: overlays_lights_opening_7
       rect:
         serializedVersion: 2
         x: 224

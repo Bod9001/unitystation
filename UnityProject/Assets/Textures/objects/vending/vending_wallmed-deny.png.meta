@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: wallmed-deny_0
+    second: vending_wallmed-deny_0
   - first:
       213: 21300002
-    second: wallmed-deny_1
+    second: vending_wallmed-deny_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wallmed-deny_0
+      name: vending_wallmed-deny_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wallmed-deny_1
+      name: vending_wallmed-deny_1
       rect:
         serializedVersion: 2
         x: 32

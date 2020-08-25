@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0c4cfabf348a5a54ebe94e0f3e493dc1, type: 3}
-      spriteName: blue_map_0
+      spriteName: pressure_tank_blue_map_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: blue_map_0
+        m_SubObjectName: pressure_tank_blue_map_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0c4cfabf348a5a54ebe94e0f3e493dc1, type: 3}
-      spriteName: blue_map_1
+      spriteName: pressure_tank_blue_map_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: blue_map_1
+        m_SubObjectName: pressure_tank_blue_map_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0c4cfabf348a5a54ebe94e0f3e493dc1, type: 3}
-      spriteName: blue_map_2
+      spriteName: pressure_tank_blue_map_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: blue_map_2
+        m_SubObjectName: pressure_tank_blue_map_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0c4cfabf348a5a54ebe94e0f3e493dc1, type: 3}
-      spriteName: blue_map_3
+      spriteName: pressure_tank_blue_map_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: blue_map_3
+        m_SubObjectName: pressure_tank_blue_map_3
   IsPalette: 0
   setID: 13111

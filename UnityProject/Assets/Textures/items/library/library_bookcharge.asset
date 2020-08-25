@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c149f51be57705f4e9fff4133797ce56, type: 3}
-      spriteName: bookcharge_0
+      spriteName: library_bookcharge_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: bookcharge_0
+        m_SubObjectName: library_bookcharge_0
     - sprite: {fileID: 21300002, guid: c149f51be57705f4e9fff4133797ce56, type: 3}
-      spriteName: bookcharge_1
+      spriteName: library_bookcharge_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: bookcharge_1
+        m_SubObjectName: library_bookcharge_1
     - sprite: {fileID: 21300004, guid: c149f51be57705f4e9fff4133797ce56, type: 3}
-      spriteName: bookcharge_2
+      spriteName: library_bookcharge_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: bookcharge_2
+        m_SubObjectName: library_bookcharge_2
     - sprite: {fileID: 21300006, guid: c149f51be57705f4e9fff4133797ce56, type: 3}
-      spriteName: bookcharge_3
+      spriteName: library_bookcharge_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: bookcharge_3
+        m_SubObjectName: library_bookcharge_3
   IsPalette: 0
   setID: 8138

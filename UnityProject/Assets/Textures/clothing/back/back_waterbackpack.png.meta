@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: waterbackpack_0
+    second: back_waterbackpack_0
   - first:
       213: 21300002
-    second: waterbackpack_1
+    second: back_waterbackpack_1
   - first:
       213: 21300004
-    second: waterbackpack_2
+    second: back_waterbackpack_2
   - first:
       213: 21300006
-    second: waterbackpack_3
+    second: back_waterbackpack_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: waterbackpack_0
+      name: back_waterbackpack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: waterbackpack_1
+      name: back_waterbackpack_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: waterbackpack_2
+      name: back_waterbackpack_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: waterbackpack_3
+      name: back_waterbackpack_3
       rect:
         serializedVersion: 2
         x: 96

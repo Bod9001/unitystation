@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: bf55372bb44775c49a3de08d31f99007, type: 3}
-      spriteName: gib3_0
+      spriteName: blood_gib3_0
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gib3_0
+        m_SubObjectName: blood_gib3_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bf55372bb44775c49a3de08d31f99007, type: 3}
-      spriteName: gib3_1
+      spriteName: blood_gib3_1
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gib3_1
+        m_SubObjectName: blood_gib3_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bf55372bb44775c49a3de08d31f99007, type: 3}
-      spriteName: gib3_2
+      spriteName: blood_gib3_2
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gib3_2
+        m_SubObjectName: blood_gib3_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bf55372bb44775c49a3de08d31f99007, type: 3}
-      spriteName: gib3_3
+      spriteName: blood_gib3_3
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gib3_3
+        m_SubObjectName: blood_gib3_3
   IsPalette: 0
   setID: 9626

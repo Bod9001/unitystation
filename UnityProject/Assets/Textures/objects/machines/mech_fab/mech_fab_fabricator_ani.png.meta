@@ -4,49 +4,49 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: fabricator_ani_0
+    second: mech_fab_fabricator_ani_0
   - first:
       213: 21300002
-    second: fabricator_ani_1
+    second: mech_fab_fabricator_ani_1
   - first:
       213: 21300004
-    second: fabricator_ani_2
+    second: mech_fab_fabricator_ani_2
   - first:
       213: 21300006
-    second: fabricator_ani_3
+    second: mech_fab_fabricator_ani_3
   - first:
       213: 21300008
-    second: fabricator_ani_4
+    second: mech_fab_fabricator_ani_4
   - first:
       213: 21300010
-    second: fabricator_ani_5
+    second: mech_fab_fabricator_ani_5
   - first:
       213: 21300012
-    second: fabricator_ani_6
+    second: mech_fab_fabricator_ani_6
   - first:
       213: 21300014
-    second: fabricator_ani_7
+    second: mech_fab_fabricator_ani_7
   - first:
       213: 21300016
-    second: fabricator_ani_8
+    second: mech_fab_fabricator_ani_8
   - first:
       213: 21300018
-    second: fabricator_ani_9
+    second: mech_fab_fabricator_ani_9
   - first:
       213: 21300020
-    second: fabricator_ani_10
+    second: mech_fab_fabricator_ani_10
   - first:
       213: 21300022
-    second: fabricator_ani_11
+    second: mech_fab_fabricator_ani_11
   - first:
       213: 21300024
-    second: fabricator_ani_12
+    second: mech_fab_fabricator_ani_12
   - first:
       213: 21300026
-    second: fabricator_ani_13
+    second: mech_fab_fabricator_ani_13
   - first:
       213: 21300028
-    second: fabricator_ani_14
+    second: mech_fab_fabricator_ani_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -131,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fabricator_ani_0
+      name: mech_fab_fabricator_ani_0
       rect:
         serializedVersion: 2
         x: 0
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_1
+      name: mech_fab_fabricator_ani_1
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_2
+      name: mech_fab_fabricator_ani_2
       rect:
         serializedVersion: 2
         x: 128
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_3
+      name: mech_fab_fabricator_ani_3
       rect:
         serializedVersion: 2
         x: 192
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_4
+      name: mech_fab_fabricator_ani_4
       rect:
         serializedVersion: 2
         x: 256
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_5
+      name: mech_fab_fabricator_ani_5
       rect:
         serializedVersion: 2
         x: 320
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_6
+      name: mech_fab_fabricator_ani_6
       rect:
         serializedVersion: 2
         x: 384
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_7
+      name: mech_fab_fabricator_ani_7
       rect:
         serializedVersion: 2
         x: 448
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_8
+      name: mech_fab_fabricator_ani_8
       rect:
         serializedVersion: 2
         x: 512
@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_9
+      name: mech_fab_fabricator_ani_9
       rect:
         serializedVersion: 2
         x: 576
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_10
+      name: mech_fab_fabricator_ani_10
       rect:
         serializedVersion: 2
         x: 640
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_11
+      name: mech_fab_fabricator_ani_11
       rect:
         serializedVersion: 2
         x: 704
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_12
+      name: mech_fab_fabricator_ani_12
       rect:
         serializedVersion: 2
         x: 768
@@ -404,7 +404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_13
+      name: mech_fab_fabricator_ani_13
       rect:
         serializedVersion: 2
         x: 832
@@ -425,7 +425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fabricator_ani_14
+      name: mech_fab_fabricator_ani_14
       rect:
         serializedVersion: 2
         x: 896

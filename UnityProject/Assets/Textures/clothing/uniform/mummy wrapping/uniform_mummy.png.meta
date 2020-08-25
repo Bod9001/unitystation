@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: mummy_0
+    second: mummy wrapping_mummy_0
   - first:
       213: 21300002
-    second: mummy_1
+    second: mummy wrapping_mummy_1
   - first:
       213: 21300004
-    second: mummy_2
+    second: mummy wrapping_mummy_2
   - first:
       213: 21300006
-    second: mummy_3
+    second: mummy wrapping_mummy_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mummy_0
+      name: mummy wrapping_mummy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mummy_1
+      name: mummy wrapping_mummy_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mummy_2
+      name: mummy wrapping_mummy_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mummy_3
+      name: mummy wrapping_mummy_3
       rect:
         serializedVersion: 2
         x: 96

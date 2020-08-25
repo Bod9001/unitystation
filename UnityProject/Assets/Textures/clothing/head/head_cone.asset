@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: bcb25bf23d123b6489211923ffa56cc0, type: 3}
-      spriteName: cone_0
+      spriteName: head_cone_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cone_0
+        m_SubObjectName: head_cone_0
   - Frames:
     - sprite: {fileID: 21300002, guid: bcb25bf23d123b6489211923ffa56cc0, type: 3}
-      spriteName: cone_1
+      spriteName: head_cone_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cone_1
+        m_SubObjectName: head_cone_1
   - Frames:
     - sprite: {fileID: 21300004, guid: bcb25bf23d123b6489211923ffa56cc0, type: 3}
-      spriteName: cone_2
+      spriteName: head_cone_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cone_2
+        m_SubObjectName: head_cone_2
   - Frames:
     - sprite: {fileID: 21300006, guid: bcb25bf23d123b6489211923ffa56cc0, type: 3}
-      spriteName: cone_3
+      spriteName: head_cone_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: cone_3
+        m_SubObjectName: head_cone_3
   IsPalette: 0
   setID: 571

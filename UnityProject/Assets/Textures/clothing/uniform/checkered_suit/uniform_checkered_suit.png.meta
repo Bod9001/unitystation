@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: checkered_suit_0
+    second: checkered_suit_checkered_suit_0
   - first:
       213: 21300002
-    second: checkered_suit_1
+    second: checkered_suit_checkered_suit_1
   - first:
       213: 21300004
-    second: checkered_suit_2
+    second: checkered_suit_checkered_suit_2
   - first:
       213: 21300006
-    second: checkered_suit_3
+    second: checkered_suit_checkered_suit_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: checkered_suit_0
+      name: checkered_suit_checkered_suit_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: checkered_suit_1
+      name: checkered_suit_checkered_suit_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: checkered_suit_2
+      name: checkered_suit_checkered_suit_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: checkered_suit_3
+      name: checkered_suit_checkered_suit_3
       rect:
         serializedVersion: 2
         x: 96

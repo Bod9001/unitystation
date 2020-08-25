@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: backpack_0
+    second: Gray backpack_backpack_0
   - first:
       213: 21300002
-    second: backpack_1
+    second: Gray backpack_backpack_1
   - first:
       213: 21300004
-    second: backpack_2
+    second: Gray backpack_backpack_2
   - first:
       213: 21300006
-    second: backpack_3
+    second: Gray backpack_backpack_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: backpack_0
+      name: Gray backpack_backpack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backpack_1
+      name: Gray backpack_backpack_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backpack_2
+      name: Gray backpack_backpack_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backpack_3
+      name: Gray backpack_backpack_3
       rect:
         serializedVersion: 2
         x: 96

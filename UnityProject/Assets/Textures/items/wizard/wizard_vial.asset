@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 6f5b652f6cee0b644ae0c68d82d15916, type: 3}
-      spriteName: vial_0
+      spriteName: wizard_vial_0
       secondDelay: 0.8
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: vial_0
+        m_SubObjectName: wizard_vial_0
     - sprite: {fileID: 21300002, guid: 6f5b652f6cee0b644ae0c68d82d15916, type: 3}
-      spriteName: vial_1
+      spriteName: wizard_vial_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: vial_1
+        m_SubObjectName: wizard_vial_1
     - sprite: {fileID: 21300004, guid: 6f5b652f6cee0b644ae0c68d82d15916, type: 3}
-      spriteName: vial_2
+      spriteName: wizard_vial_2
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: vial_2
+        m_SubObjectName: wizard_vial_2
     - sprite: {fileID: 21300006, guid: 6f5b652f6cee0b644ae0c68d82d15916, type: 3}
-      spriteName: vial_3
+      spriteName: wizard_vial_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: vial_3
+        m_SubObjectName: wizard_vial_3
   IsPalette: 0
   setID: 9577

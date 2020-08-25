@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 76ef79b6f37d11b4b8eba5078afb90a7, type: 3}
-      spriteName: sec_0
+      spriteName: vending_sec_0
       secondDelay: 3.7
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sec_0
+        m_SubObjectName: vending_sec_0
     - sprite: {fileID: 21300002, guid: 76ef79b6f37d11b4b8eba5078afb90a7, type: 3}
-      spriteName: sec_1
+      spriteName: vending_sec_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sec_1
+        m_SubObjectName: vending_sec_1
     - sprite: {fileID: 21300004, guid: 76ef79b6f37d11b4b8eba5078afb90a7, type: 3}
-      spriteName: sec_2
+      spriteName: vending_sec_2
       secondDelay: 0.4
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sec_2
+        m_SubObjectName: vending_sec_2
     - sprite: {fileID: 21300006, guid: 76ef79b6f37d11b4b8eba5078afb90a7, type: 3}
-      spriteName: sec_3
+      spriteName: vending_sec_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sec_3
+        m_SubObjectName: vending_sec_3
   IsPalette: 0
   setID: 17859

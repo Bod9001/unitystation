@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: aea204e5218212e43a363193e1ca6ee7, type: 3}
-      spriteName: id_0
+      spriteName: screen_retro_id_0
       secondDelay: 0
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: id_0
+        m_SubObjectName: screen_retro_id_0
   - Frames:
     - sprite: {fileID: 21300002, guid: aea204e5218212e43a363193e1ca6ee7, type: 3}
-      spriteName: id_1
+      spriteName: screen_retro_id_1
       secondDelay: 0
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: id_1
+        m_SubObjectName: screen_retro_id_1
   - Frames:
     - sprite: {fileID: 21300004, guid: aea204e5218212e43a363193e1ca6ee7, type: 3}
-      spriteName: id_2
+      spriteName: screen_retro_id_2
       secondDelay: 0
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: id_2
+        m_SubObjectName: screen_retro_id_2
   - Frames:
     - sprite: {fileID: 21300006, guid: aea204e5218212e43a363193e1ca6ee7, type: 3}
-      spriteName: id_3
+      spriteName: screen_retro_id_3
       secondDelay: 0
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: id_3
+        m_SubObjectName: screen_retro_id_3
   IsPalette: 0
   setID: 3767

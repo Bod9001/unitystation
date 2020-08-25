@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: long_face_0
-  - first:
-      213: 21300002
-    second: long_face_1
-  - first:
-      213: 21300004
-    second: long_face_2
-  - first:
-      213: 21300006
-    second: long_face_3
-  - first:
-      213: -3889666208316580833
     second: clown posse_long_face_0
   - first:
-      213: -2611598954825611370
+      213: 21300002
     second: clown posse_long_face_1
   - first:
-      213: 2116220040526961512
+      213: 21300004
     second: clown posse_long_face_2
   - first:
-      213: 6454868380209196520
+      213: 21300006
     second: clown posse_long_face_3
+  - first:
+      213: -3889666208316580833
+    second: clown posse_clown posse_long_face_0
+  - first:
+      213: -2611598954825611370
+    second: clown posse_clown posse_long_face_1
+  - first:
+      213: 2116220040526961512
+    second: clown posse_clown posse_long_face_2
+  - first:
+      213: 6454868380209196520
+    second: clown posse_clown posse_long_face_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown posse_long_face_0
+      name: clown posse_clown posse_long_face_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_long_face_1
+      name: clown posse_clown posse_long_face_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_long_face_2
+      name: clown posse_clown posse_long_face_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_long_face_3
+      name: clown posse_clown posse_long_face_3
       rect:
         serializedVersion: 2
         x: 192

@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 51a21f416b70a2842b9bf4d1c3c2d53b, type: 3}
-      spriteName: prox-radio1_0
+      spriteName: assemblies_prox-radio1_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: prox-radio1_0
+        m_SubObjectName: assemblies_prox-radio1_0
     - sprite: {fileID: 21300002, guid: 51a21f416b70a2842b9bf4d1c3c2d53b, type: 3}
-      spriteName: prox-radio1_1
+      spriteName: assemblies_prox-radio1_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: prox-radio1_1
+        m_SubObjectName: assemblies_prox-radio1_1
   IsPalette: 0
   setID: 4731

@@ -2,7 +2,7 @@ import os
 import time
 
 start_time = time.time()
-path = 'AddressableAtlas'
+path = 'Textures'
 for root, dirs, files in os.walk(path):
     print(root)
     for _name in files:

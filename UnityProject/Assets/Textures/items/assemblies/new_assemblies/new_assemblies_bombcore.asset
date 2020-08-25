@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 3a8d2129cae9ea44191370b86b64427d, type: 3}
-      spriteName: bombcore_0
+      spriteName: new_assemblies_bombcore_0
       secondDelay: 0.6
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: bombcore_0
+        m_SubObjectName: new_assemblies_bombcore_0
     - sprite: {fileID: 21300002, guid: 3a8d2129cae9ea44191370b86b64427d, type: 3}
-      spriteName: bombcore_1
+      spriteName: new_assemblies_bombcore_1
       secondDelay: 0.6
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: bombcore_1
+        m_SubObjectName: new_assemblies_bombcore_1
     - sprite: {fileID: 21300004, guid: 3a8d2129cae9ea44191370b86b64427d, type: 3}
-      spriteName: bombcore_2
+      spriteName: new_assemblies_bombcore_2
       secondDelay: 0.6
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: bombcore_2
+        m_SubObjectName: new_assemblies_bombcore_2
   IsPalette: 0
   setID: 5059

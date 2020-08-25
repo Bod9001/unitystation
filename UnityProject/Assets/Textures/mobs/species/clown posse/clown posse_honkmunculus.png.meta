@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: honkmunculus_0
-  - first:
-      213: 21300002
-    second: honkmunculus_1
-  - first:
-      213: 21300004
-    second: honkmunculus_2
-  - first:
-      213: 21300006
-    second: honkmunculus_3
-  - first:
-      213: -2474038642349562463
     second: clown posse_honkmunculus_0
   - first:
-      213: 551211771147217939
+      213: 21300002
     second: clown posse_honkmunculus_1
   - first:
-      213: 2879489969904731076
+      213: 21300004
     second: clown posse_honkmunculus_2
   - first:
-      213: 4568451723419109623
+      213: 21300006
     second: clown posse_honkmunculus_3
+  - first:
+      213: -2474038642349562463
+    second: clown posse_clown posse_honkmunculus_0
+  - first:
+      213: 551211771147217939
+    second: clown posse_clown posse_honkmunculus_1
+  - first:
+      213: 2879489969904731076
+    second: clown posse_clown posse_honkmunculus_2
+  - first:
+      213: 4568451723419109623
+    second: clown posse_clown posse_honkmunculus_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown posse_honkmunculus_0
+      name: clown posse_clown posse_honkmunculus_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_honkmunculus_1
+      name: clown posse_clown posse_honkmunculus_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_honkmunculus_2
+      name: clown posse_clown posse_honkmunculus_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown posse_honkmunculus_3
+      name: clown posse_clown posse_honkmunculus_3
       rect:
         serializedVersion: 2
         x: 192

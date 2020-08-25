@@ -275,8 +275,8 @@ public class GenerateSpriteSO : EditorWindow
 							var Stall = AddressableSpritesHandler.FindAtlasContainingSpriteAtlas(Frame.sprite);
 							Frame.TestAddress.SetEditorAsset(Stall);
 							Frame.TestAddress.SetEditorSubObject(Frame.sprite);
-							// Frame.spriteName = Frame.sprite.name;
-							// Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
+							Frame.spriteName = Frame.sprite.name;
+							Frame.AtlasUsing = AddressableSpritesHandler.FindAtlasContaining(Frame.sprite);
 							// if (Frame.AtlasUsing == AddressableSpritesHandler.Atlas.None)
 							// {
 								// AssetDatabase.StopAssetEditing();

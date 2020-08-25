@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 6f53c0c5aa540214aa0c2de0a3e7e632, type: 3}
-      spriteName: chips_0
+      spriteName: food_lefthand_chips_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chips_0
+        m_SubObjectName: food_lefthand_chips_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6f53c0c5aa540214aa0c2de0a3e7e632, type: 3}
-      spriteName: chips_1
+      spriteName: food_lefthand_chips_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chips_1
+        m_SubObjectName: food_lefthand_chips_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6f53c0c5aa540214aa0c2de0a3e7e632, type: 3}
-      spriteName: chips_2
+      spriteName: food_lefthand_chips_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chips_2
+        m_SubObjectName: food_lefthand_chips_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6f53c0c5aa540214aa0c2de0a3e7e632, type: 3}
-      spriteName: chips_3
+      spriteName: food_lefthand_chips_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chips_3
+        m_SubObjectName: food_lefthand_chips_3
   IsPalette: 0
   setID: 10427

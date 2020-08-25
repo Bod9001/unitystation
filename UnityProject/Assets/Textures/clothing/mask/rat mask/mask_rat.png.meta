@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: rat_0
+    second: rat mask_rat_0
   - first:
       213: 21300002
-    second: rat_1
+    second: rat mask_rat_1
   - first:
       213: 21300004
-    second: rat_2
+    second: rat mask_rat_2
   - first:
       213: 21300006
-    second: rat_3
+    second: rat mask_rat_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rat_0
+      name: rat mask_rat_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rat_1
+      name: rat mask_rat_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rat_2
+      name: rat mask_rat_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rat_3
+      name: rat mask_rat_3
       rect:
         serializedVersion: 2
         x: 96

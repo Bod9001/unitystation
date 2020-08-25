@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: speedbike_red_0
+    second: bike_speedbike_red_0
   - first:
       213: 21300002
-    second: speedbike_red_1
+    second: bike_speedbike_red_1
   - first:
       213: 21300004
-    second: speedbike_red_2
+    second: bike_speedbike_red_2
   - first:
       213: 21300006
-    second: speedbike_red_3
+    second: bike_speedbike_red_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: speedbike_red_0
+      name: bike_speedbike_red_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speedbike_red_1
+      name: bike_speedbike_red_1
       rect:
         serializedVersion: 2
         x: 64
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speedbike_red_2
+      name: bike_speedbike_red_2
       rect:
         serializedVersion: 2
         x: 128
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speedbike_red_3
+      name: bike_speedbike_red_3
       rect:
         serializedVersion: 2
         x: 192

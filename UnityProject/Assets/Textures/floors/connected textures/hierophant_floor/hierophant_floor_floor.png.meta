@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: floor_0
+    second: hierophant_floor_floor_0
   - first:
       213: 21300002
-    second: floor_1
+    second: hierophant_floor_floor_1
   - first:
       213: 21300004
-    second: floor_2
+    second: hierophant_floor_floor_2
   - first:
       213: 21300006
-    second: floor_3
+    second: hierophant_floor_floor_3
   - first:
       213: 21300008
-    second: floor_4
+    second: hierophant_floor_floor_4
   - first:
       213: 21300010
-    second: floor_5
+    second: hierophant_floor_floor_5
   - first:
       213: 21300012
-    second: floor_6
+    second: hierophant_floor_floor_6
   - first:
       213: 21300014
-    second: floor_7
+    second: hierophant_floor_floor_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: floor_0
+      name: hierophant_floor_floor_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_1
+      name: hierophant_floor_floor_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_2
+      name: hierophant_floor_floor_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_3
+      name: hierophant_floor_floor_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_4
+      name: hierophant_floor_floor_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_5
+      name: hierophant_floor_floor_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_6
+      name: hierophant_floor_floor_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_7
+      name: hierophant_floor_floor_7
       rect:
         serializedVersion: 2
         x: 224

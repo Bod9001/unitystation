@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 1bfcc87c89c9dac46982bb99cfa534dc, type: 3}
-      spriteName: s-ninjak_0
+      spriteName: hands_s-ninjak_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: s-ninjak_0
+        m_SubObjectName: hands_s-ninjak_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 1bfcc87c89c9dac46982bb99cfa534dc, type: 3}
-      spriteName: s-ninjak_1
+      spriteName: hands_s-ninjak_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: s-ninjak_1
+        m_SubObjectName: hands_s-ninjak_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 1bfcc87c89c9dac46982bb99cfa534dc, type: 3}
-      spriteName: s-ninjak_2
+      spriteName: hands_s-ninjak_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: s-ninjak_2
+        m_SubObjectName: hands_s-ninjak_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 1bfcc87c89c9dac46982bb99cfa534dc, type: 3}
-      spriteName: s-ninjak_3
+      spriteName: hands_s-ninjak_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: s-ninjak_3
+        m_SubObjectName: hands_s-ninjak_3
   IsPalette: 0
   setID: 523

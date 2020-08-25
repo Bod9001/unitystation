@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: jackal_0
+    second: jackal mask_jackal_0
   - first:
       213: 21300002
-    second: jackal_1
+    second: jackal mask_jackal_1
   - first:
       213: 21300004
-    second: jackal_2
+    second: jackal mask_jackal_2
   - first:
       213: 21300006
-    second: jackal_3
+    second: jackal mask_jackal_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jackal_0
+      name: jackal mask_jackal_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jackal_1
+      name: jackal mask_jackal_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jackal_2
+      name: jackal mask_jackal_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jackal_3
+      name: jackal mask_jackal_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: mfoam-disolve_0
+    second: inorganic_mfoam-disolve_0
   - first:
       213: 21300002
-    second: mfoam-disolve_1
+    second: inorganic_mfoam-disolve_1
   - first:
       213: 21300004
-    second: mfoam-disolve_2
+    second: inorganic_mfoam-disolve_2
   - first:
       213: 21300006
-    second: mfoam-disolve_3
+    second: inorganic_mfoam-disolve_3
   - first:
       213: 21300008
-    second: mfoam-disolve_4
+    second: inorganic_mfoam-disolve_4
   - first:
       213: 21300010
-    second: mfoam-disolve_5
+    second: inorganic_mfoam-disolve_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mfoam-disolve_0
+      name: inorganic_mfoam-disolve_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mfoam-disolve_1
+      name: inorganic_mfoam-disolve_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mfoam-disolve_2
+      name: inorganic_mfoam-disolve_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mfoam-disolve_3
+      name: inorganic_mfoam-disolve_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mfoam-disolve_4
+      name: inorganic_mfoam-disolve_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mfoam-disolve_5
+      name: inorganic_mfoam-disolve_5
       rect:
         serializedVersion: 2
         x: 160

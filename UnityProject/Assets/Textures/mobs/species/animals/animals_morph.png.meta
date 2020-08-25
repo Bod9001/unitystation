@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: morph_0
+    second: animals_morph_0
   - first:
       213: 21300002
-    second: morph_1
+    second: animals_morph_1
   - first:
       213: 21300004
-    second: morph_2
+    second: animals_morph_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: morph_0
+      name: animals_morph_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: morph_1
+      name: animals_morph_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: morph_2
+      name: animals_morph_2
       rect:
         serializedVersion: 2
         x: 64

@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: wrench_0
+    second: alien_wrench_0
   - first:
       213: 21300002
-    second: wrench_1
+    second: alien_wrench_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wrench_0
+      name: alien_wrench_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wrench_1
+      name: alien_wrench_1
       rect:
         serializedVersion: 2
         x: 32

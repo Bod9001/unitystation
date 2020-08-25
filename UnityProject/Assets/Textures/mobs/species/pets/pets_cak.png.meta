@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cak_0
+    second: pets_cak_0
   - first:
       213: 21300002
-    second: cak_1
+    second: pets_cak_1
   - first:
       213: 21300004
-    second: cak_2
+    second: pets_cak_2
   - first:
       213: 21300006
-    second: cak_3
+    second: pets_cak_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cak_0
+      name: pets_cak_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cak_1
+      name: pets_cak_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cak_2
+      name: pets_cak_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cak_3
+      name: pets_cak_3
       rect:
         serializedVersion: 2
         x: 96

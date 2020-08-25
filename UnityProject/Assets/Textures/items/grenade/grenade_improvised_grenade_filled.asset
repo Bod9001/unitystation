@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0944938b91ce2a84a96bfbdac1657900, type: 3}
-      spriteName: improvised_grenade_filled_0
+      spriteName: grenade_improvised_grenade_filled_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: improvised_grenade_filled_0
+        m_SubObjectName: grenade_improvised_grenade_filled_0
     - sprite: {fileID: 21300002, guid: 0944938b91ce2a84a96bfbdac1657900, type: 3}
-      spriteName: improvised_grenade_filled_1
+      spriteName: grenade_improvised_grenade_filled_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: improvised_grenade_filled_1
+        m_SubObjectName: grenade_improvised_grenade_filled_1
     - sprite: {fileID: 21300004, guid: 0944938b91ce2a84a96bfbdac1657900, type: 3}
-      spriteName: improvised_grenade_filled_2
+      spriteName: grenade_improvised_grenade_filled_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: improvised_grenade_filled_2
+        m_SubObjectName: grenade_improvised_grenade_filled_2
     - sprite: {fileID: 21300006, guid: 0944938b91ce2a84a96bfbdac1657900, type: 3}
-      spriteName: improvised_grenade_filled_3
+      spriteName: grenade_improvised_grenade_filled_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: improvised_grenade_filled_3
+        m_SubObjectName: grenade_improvised_grenade_filled_3
   IsPalette: 0
   setID: 7225

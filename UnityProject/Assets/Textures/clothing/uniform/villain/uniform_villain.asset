@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 3da5f75a01a4e9e4b8514bb16898ece4, type: 3}
-      spriteName: villain_0
+      spriteName: villain_villain_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: villain_0
+        m_SubObjectName: villain_villain_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 3da5f75a01a4e9e4b8514bb16898ece4, type: 3}
-      spriteName: villain_1
+      spriteName: villain_villain_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: villain_1
+        m_SubObjectName: villain_villain_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 3da5f75a01a4e9e4b8514bb16898ece4, type: 3}
-      spriteName: villain_2
+      spriteName: villain_villain_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: villain_2
+        m_SubObjectName: villain_villain_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 3da5f75a01a4e9e4b8514bb16898ece4, type: 3}
-      spriteName: villain_3
+      spriteName: villain_villain_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: villain_3
+        m_SubObjectName: villain_villain_3
   IsPalette: 0
   setID: 1097

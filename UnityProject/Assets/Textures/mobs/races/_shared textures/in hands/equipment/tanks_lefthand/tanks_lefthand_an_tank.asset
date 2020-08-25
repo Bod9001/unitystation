@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5fd212726025f5f4594bb267834bcdbc, type: 3}
-      spriteName: an_tank_0
+      spriteName: tanks_lefthand_an_tank_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: an_tank_0
+        m_SubObjectName: tanks_lefthand_an_tank_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5fd212726025f5f4594bb267834bcdbc, type: 3}
-      spriteName: an_tank_1
+      spriteName: tanks_lefthand_an_tank_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: an_tank_1
+        m_SubObjectName: tanks_lefthand_an_tank_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5fd212726025f5f4594bb267834bcdbc, type: 3}
-      spriteName: an_tank_2
+      spriteName: tanks_lefthand_an_tank_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: an_tank_2
+        m_SubObjectName: tanks_lefthand_an_tank_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5fd212726025f5f4594bb267834bcdbc, type: 3}
-      spriteName: an_tank_3
+      spriteName: tanks_lefthand_an_tank_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: an_tank_3
+        m_SubObjectName: tanks_lefthand_an_tank_3
   IsPalette: 0
   setID: 10216

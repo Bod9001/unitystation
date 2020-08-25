@@ -101,6 +101,7 @@ public class Jukebox : NetworkBehaviour, IAPCPowered
 		}
 	}
 
+
 	public void PowerNetworkUpdate(float Voltage)
 	{
 		// Nothing really.  Only the state matters.  (See StateUpdate).

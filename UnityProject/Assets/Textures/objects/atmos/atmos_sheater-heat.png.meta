@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sheater-heat_0
+    second: atmos_sheater-heat_0
   - first:
       213: 21300002
-    second: sheater-heat_1
+    second: atmos_sheater-heat_1
   - first:
       213: 21300004
-    second: sheater-heat_2
+    second: atmos_sheater-heat_2
   - first:
       213: 21300006
-    second: sheater-heat_3
+    second: atmos_sheater-heat_3
   - first:
       213: 21300008
-    second: sheater-heat_4
+    second: atmos_sheater-heat_4
   - first:
       213: 21300010
-    second: sheater-heat_5
+    second: atmos_sheater-heat_5
   - first:
       213: 21300012
-    second: sheater-heat_6
+    second: atmos_sheater-heat_6
   - first:
       213: 21300014
-    second: sheater-heat_7
+    second: atmos_sheater-heat_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheater-heat_0
+      name: atmos_sheater-heat_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheater-heat_1
+      name: atmos_sheater-heat_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheater-heat_2
+      name: atmos_sheater-heat_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheater-heat_3
+      name: atmos_sheater-heat_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheater-heat_4
+      name: atmos_sheater-heat_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheater-heat_5
+      name: atmos_sheater-heat_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheater-heat_6
+      name: atmos_sheater-heat_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheater-heat_7
+      name: atmos_sheater-heat_7
       rect:
         serializedVersion: 2
         x: 224

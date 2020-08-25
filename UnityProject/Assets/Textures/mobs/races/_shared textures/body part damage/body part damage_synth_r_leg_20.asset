@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c4cc7401c6147be42bee1c31f3adf79e, type: 3}
-      spriteName: synth_r_leg_20_0
+      spriteName: body part damage_synth_r_leg_20_0
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: synth_r_leg_20_0
+        m_SubObjectName: body part damage_synth_r_leg_20_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c4cc7401c6147be42bee1c31f3adf79e, type: 3}
-      spriteName: synth_r_leg_20_1
+      spriteName: body part damage_synth_r_leg_20_1
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: synth_r_leg_20_1
+        m_SubObjectName: body part damage_synth_r_leg_20_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c4cc7401c6147be42bee1c31f3adf79e, type: 3}
-      spriteName: synth_r_leg_20_2
+      spriteName: body part damage_synth_r_leg_20_2
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: synth_r_leg_20_2
+        m_SubObjectName: body part damage_synth_r_leg_20_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c4cc7401c6147be42bee1c31f3adf79e, type: 3}
-      spriteName: synth_r_leg_20_3
+      spriteName: body part damage_synth_r_leg_20_3
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: synth_r_leg_20_3
+        m_SubObjectName: body part damage_synth_r_leg_20_3
   IsPalette: 0
   setID: 9818

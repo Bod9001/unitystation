@@ -4,79 +4,79 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: plasma_0
+    second: Station_plasma_0
   - first:
       213: 21300002
-    second: plasma_1
+    second: Station_plasma_1
   - first:
       213: 21300004
-    second: plasma_2
+    second: Station_plasma_2
   - first:
       213: 21300006
-    second: plasma_3
+    second: Station_plasma_3
   - first:
       213: 21300008
-    second: plasma_4
+    second: Station_plasma_4
   - first:
       213: 21300010
-    second: plasma_5
+    second: Station_plasma_5
   - first:
       213: 21300012
-    second: plasma_6
+    second: Station_plasma_6
   - first:
       213: 21300014
-    second: plasma_7
+    second: Station_plasma_7
   - first:
       213: 21300016
-    second: plasma_8
+    second: Station_plasma_8
   - first:
       213: 21300018
-    second: plasma_9
+    second: Station_plasma_9
   - first:
       213: 21300020
-    second: plasma_10
+    second: Station_plasma_10
   - first:
       213: 21300022
-    second: plasma_11
+    second: Station_plasma_11
   - first:
       213: 21300024
-    second: plasma_12
+    second: Station_plasma_12
   - first:
       213: 21300026
-    second: plasma_13
+    second: Station_plasma_13
   - first:
       213: 21300028
-    second: plasma_14
+    second: Station_plasma_14
   - first:
       213: 21300030
-    second: plasma_15
+    second: Station_plasma_15
   - first:
       213: 21300032
-    second: plasma_16
+    second: Station_plasma_16
   - first:
       213: 21300034
-    second: plasma_17
+    second: Station_plasma_17
   - first:
       213: 21300036
-    second: plasma_18
+    second: Station_plasma_18
   - first:
       213: 21300038
-    second: plasma_19
+    second: Station_plasma_19
   - first:
       213: 21300040
-    second: plasma_20
+    second: Station_plasma_20
   - first:
       213: 21300042
-    second: plasma_21
+    second: Station_plasma_21
   - first:
       213: 21300044
-    second: plasma_22
+    second: Station_plasma_22
   - first:
       213: 21300046
-    second: plasma_23
+    second: Station_plasma_23
   - first:
       213: 21300048
-    second: plasma_24
+    second: Station_plasma_24
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -197,7 +197,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plasma_0
+      name: Station_plasma_0
       rect:
         serializedVersion: 2
         x: 0
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_1
+      name: Station_plasma_1
       rect:
         serializedVersion: 2
         x: 32
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_2
+      name: Station_plasma_2
       rect:
         serializedVersion: 2
         x: 64
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_3
+      name: Station_plasma_3
       rect:
         serializedVersion: 2
         x: 96
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_4
+      name: Station_plasma_4
       rect:
         serializedVersion: 2
         x: 128
@@ -302,7 +302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_5
+      name: Station_plasma_5
       rect:
         serializedVersion: 2
         x: 160
@@ -323,7 +323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_6
+      name: Station_plasma_6
       rect:
         serializedVersion: 2
         x: 0
@@ -344,7 +344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_7
+      name: Station_plasma_7
       rect:
         serializedVersion: 2
         x: 32
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_8
+      name: Station_plasma_8
       rect:
         serializedVersion: 2
         x: 64
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_9
+      name: Station_plasma_9
       rect:
         serializedVersion: 2
         x: 96
@@ -407,7 +407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_10
+      name: Station_plasma_10
       rect:
         serializedVersion: 2
         x: 128
@@ -428,7 +428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_11
+      name: Station_plasma_11
       rect:
         serializedVersion: 2
         x: 160
@@ -449,7 +449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_12
+      name: Station_plasma_12
       rect:
         serializedVersion: 2
         x: 0
@@ -470,7 +470,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_13
+      name: Station_plasma_13
       rect:
         serializedVersion: 2
         x: 32
@@ -491,7 +491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_14
+      name: Station_plasma_14
       rect:
         serializedVersion: 2
         x: 64
@@ -512,7 +512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_15
+      name: Station_plasma_15
       rect:
         serializedVersion: 2
         x: 96
@@ -533,7 +533,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_16
+      name: Station_plasma_16
       rect:
         serializedVersion: 2
         x: 160
@@ -554,7 +554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_17
+      name: Station_plasma_17
       rect:
         serializedVersion: 2
         x: 0
@@ -575,7 +575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_18
+      name: Station_plasma_18
       rect:
         serializedVersion: 2
         x: 32
@@ -596,7 +596,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_19
+      name: Station_plasma_19
       rect:
         serializedVersion: 2
         x: 64
@@ -617,7 +617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_20
+      name: Station_plasma_20
       rect:
         serializedVersion: 2
         x: 32
@@ -638,7 +638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_21
+      name: Station_plasma_21
       rect:
         serializedVersion: 2
         x: 64
@@ -659,7 +659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_22
+      name: Station_plasma_22
       rect:
         serializedVersion: 2
         x: 96
@@ -680,7 +680,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_23
+      name: Station_plasma_23
       rect:
         serializedVersion: 2
         x: 128
@@ -701,7 +701,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasma_24
+      name: Station_plasma_24
       rect:
         serializedVersion: 2
         x: 160

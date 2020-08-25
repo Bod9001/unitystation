@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7987739224486189342
-    second: toxpack_0
+    second: Science backpack_toxpack_0
   - first:
       213: -8738237130716846773
-    second: toxpack_1
+    second: Science backpack_toxpack_1
   - first:
       213: 7364799712452254498
-    second: toxpack_2
+    second: Science backpack_toxpack_2
   - first:
       213: -9144155151955155741
-    second: toxpack_3
+    second: Science backpack_toxpack_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: toxpack_0
+      name: Science backpack_toxpack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toxpack_1
+      name: Science backpack_toxpack_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toxpack_2
+      name: Science backpack_toxpack_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toxpack_3
+      name: Science backpack_toxpack_3
       rect:
         serializedVersion: 2
         x: 96

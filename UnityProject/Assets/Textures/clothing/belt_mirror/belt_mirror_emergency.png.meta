@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: emergency_0
+    second: belt_mirror_emergency_0
   - first:
       213: 21300002
-    second: emergency_1
+    second: belt_mirror_emergency_1
   - first:
       213: 21300004
-    second: emergency_2
+    second: belt_mirror_emergency_2
   - first:
       213: 21300006
-    second: emergency_3
+    second: belt_mirror_emergency_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: emergency_0
+      name: belt_mirror_emergency_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emergency_1
+      name: belt_mirror_emergency_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emergency_2
+      name: belt_mirror_emergency_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emergency_3
+      name: belt_mirror_emergency_3
       rect:
         serializedVersion: 2
         x: 96

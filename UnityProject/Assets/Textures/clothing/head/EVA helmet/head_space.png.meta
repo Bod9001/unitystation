@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: space_0
+    second: EVA helmet_space_0
   - first:
       213: 21300002
-    second: space_1
+    second: EVA helmet_space_1
   - first:
       213: 21300004
-    second: space_2
+    second: EVA helmet_space_2
   - first:
       213: 21300006
-    second: space_3
+    second: EVA helmet_space_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: space_0
+      name: EVA helmet_space_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: space_1
+      name: EVA helmet_space_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: space_2
+      name: EVA helmet_space_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: space_3
+      name: EVA helmet_space_3
       rect:
         serializedVersion: 2
         x: 96

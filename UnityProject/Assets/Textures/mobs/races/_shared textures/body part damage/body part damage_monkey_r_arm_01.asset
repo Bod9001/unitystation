@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 12cc90f20be6bd54abe227d933406f54, type: 3}
-      spriteName: monkey_r_arm_01_0
+      spriteName: body part damage_monkey_r_arm_01_0
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: monkey_r_arm_01_0
+        m_SubObjectName: body part damage_monkey_r_arm_01_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 12cc90f20be6bd54abe227d933406f54, type: 3}
-      spriteName: monkey_r_arm_01_1
+      spriteName: body part damage_monkey_r_arm_01_1
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: monkey_r_arm_01_1
+        m_SubObjectName: body part damage_monkey_r_arm_01_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 12cc90f20be6bd54abe227d933406f54, type: 3}
-      spriteName: monkey_r_arm_01_2
+      spriteName: body part damage_monkey_r_arm_01_2
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: monkey_r_arm_01_2
+        m_SubObjectName: body part damage_monkey_r_arm_01_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 12cc90f20be6bd54abe227d933406f54, type: 3}
-      spriteName: monkey_r_arm_01_3
+      spriteName: body part damage_monkey_r_arm_01_3
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: monkey_r_arm_01_3
+        m_SubObjectName: body part damage_monkey_r_arm_01_3
   IsPalette: 0
   setID: 9736

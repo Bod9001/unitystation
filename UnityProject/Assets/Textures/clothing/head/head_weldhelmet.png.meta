@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: weldhelmet_0
+    second: head_weldhelmet_0
   - first:
       213: 21300002
-    second: weldhelmet_1
+    second: head_weldhelmet_1
   - first:
       213: 21300004
-    second: weldhelmet_2
+    second: head_weldhelmet_2
   - first:
       213: 21300006
-    second: weldhelmet_3
+    second: head_weldhelmet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weldhelmet_0
+      name: head_weldhelmet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weldhelmet_1
+      name: head_weldhelmet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weldhelmet_2
+      name: head_weldhelmet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weldhelmet_3
+      name: head_weldhelmet_3
       rect:
         serializedVersion: 2
         x: 96

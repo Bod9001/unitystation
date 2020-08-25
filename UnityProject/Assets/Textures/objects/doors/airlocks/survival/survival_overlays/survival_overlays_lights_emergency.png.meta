@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: lights_emergency_0
+    second: survival_overlays_lights_emergency_0
   - first:
       213: 21300002
-    second: lights_emergency_1
+    second: survival_overlays_lights_emergency_1
   - first:
       213: 21300004
-    second: lights_emergency_2
+    second: survival_overlays_lights_emergency_2
   - first:
       213: 21300006
-    second: lights_emergency_3
+    second: survival_overlays_lights_emergency_3
   - first:
       213: 21300008
-    second: lights_emergency_4
+    second: survival_overlays_lights_emergency_4
   - first:
       213: 21300010
-    second: lights_emergency_5
+    second: survival_overlays_lights_emergency_5
   - first:
       213: 21300012
-    second: lights_emergency_6
+    second: survival_overlays_lights_emergency_6
   - first:
       213: 21300014
-    second: lights_emergency_7
+    second: survival_overlays_lights_emergency_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lights_emergency_0
+      name: survival_overlays_lights_emergency_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_emergency_1
+      name: survival_overlays_lights_emergency_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_emergency_2
+      name: survival_overlays_lights_emergency_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_emergency_3
+      name: survival_overlays_lights_emergency_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_emergency_4
+      name: survival_overlays_lights_emergency_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_emergency_5
+      name: survival_overlays_lights_emergency_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_emergency_6
+      name: survival_overlays_lights_emergency_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_emergency_7
+      name: survival_overlays_lights_emergency_7
       rect:
         serializedVersion: 2
         x: 224

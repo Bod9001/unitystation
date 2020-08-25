@@ -4,34 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: req_comp2_0
+    second: terminals_req_comp2_0
   - first:
       213: 21300002
-    second: req_comp2_1
+    second: terminals_req_comp2_1
   - first:
       213: 21300004
-    second: req_comp2_2
+    second: terminals_req_comp2_2
   - first:
       213: 21300006
-    second: req_comp2_3
+    second: terminals_req_comp2_3
   - first:
       213: 21300008
-    second: req_comp2_4
+    second: terminals_req_comp2_4
   - first:
       213: 21300010
-    second: req_comp2_5
+    second: terminals_req_comp2_5
   - first:
       213: 21300012
-    second: req_comp2_6
+    second: terminals_req_comp2_6
   - first:
       213: 21300014
-    second: req_comp2_7
+    second: terminals_req_comp2_7
   - first:
       213: 21300016
-    second: req_comp2_8
+    second: terminals_req_comp2_8
   - first:
       213: 21300018
-    second: req_comp2_9
+    second: terminals_req_comp2_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: req_comp2_0
+      name: terminals_req_comp2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: req_comp2_1
+      name: terminals_req_comp2_1
       rect:
         serializedVersion: 2
         x: 32
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: req_comp2_2
+      name: terminals_req_comp2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: req_comp2_3
+      name: terminals_req_comp2_3
       rect:
         serializedVersion: 2
         x: 96
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: req_comp2_4
+      name: terminals_req_comp2_4
       rect:
         serializedVersion: 2
         x: 128
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: req_comp2_5
+      name: terminals_req_comp2_5
       rect:
         serializedVersion: 2
         x: 160
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: req_comp2_6
+      name: terminals_req_comp2_6
       rect:
         serializedVersion: 2
         x: 192
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: req_comp2_7
+      name: terminals_req_comp2_7
       rect:
         serializedVersion: 2
         x: 224
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: req_comp2_8
+      name: terminals_req_comp2_8
       rect:
         serializedVersion: 2
         x: 256
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: req_comp2_9
+      name: terminals_req_comp2_9
       rect:
         serializedVersion: 2
         x: 288

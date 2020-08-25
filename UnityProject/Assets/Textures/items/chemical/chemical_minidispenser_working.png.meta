@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: minidispenser_working_0
+    second: chemical_minidispenser_working_0
   - first:
       213: 21300002
-    second: minidispenser_working_1
+    second: chemical_minidispenser_working_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: minidispenser_working_0
+      name: chemical_minidispenser_working_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: minidispenser_working_1
+      name: chemical_minidispenser_working_1
       rect:
         serializedVersion: 2
         x: 32

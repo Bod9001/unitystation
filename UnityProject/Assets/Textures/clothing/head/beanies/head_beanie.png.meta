@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: beanie_0
+    second: beanies_beanie_0
   - first:
       213: 21300002
-    second: beanie_1
+    second: beanies_beanie_1
   - first:
       213: 21300004
-    second: beanie_2
+    second: beanies_beanie_2
   - first:
       213: 21300006
-    second: beanie_3
+    second: beanies_beanie_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: beanie_0
+      name: beanies_beanie_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beanie_1
+      name: beanies_beanie_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beanie_2
+      name: beanies_beanie_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beanie_3
+      name: beanies_beanie_3
       rect:
         serializedVersion: 2
         x: 96

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
-      spriteName: gibbearhead_0
+      spriteName: blood_gibbearhead_0
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gibbearhead_0
+        m_SubObjectName: blood_gibbearhead_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
-      spriteName: gibbearhead_1
+      spriteName: blood_gibbearhead_1
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gibbearhead_1
+        m_SubObjectName: blood_gibbearhead_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
-      spriteName: gibbearhead_2
+      spriteName: blood_gibbearhead_2
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gibbearhead_2
+        m_SubObjectName: blood_gibbearhead_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 37171d12328d9594badffb7fbb3e4a3a, type: 3}
-      spriteName: gibbearhead_3
+      spriteName: blood_gibbearhead_3
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: gibbearhead_3
+        m_SubObjectName: blood_gibbearhead_3
   IsPalette: 0
   setID: 9640

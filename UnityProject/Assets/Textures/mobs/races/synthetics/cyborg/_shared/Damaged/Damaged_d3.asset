@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c93c5e17ac9faee43a5a6fe169a6d65c, type: 3}
-      spriteName: d3_0
+      spriteName: Damaged_d3_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: d3_0
+        m_SubObjectName: Damaged_d3_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c93c5e17ac9faee43a5a6fe169a6d65c, type: 3}
-      spriteName: d3_1
+      spriteName: Damaged_d3_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: d3_1
+        m_SubObjectName: Damaged_d3_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c93c5e17ac9faee43a5a6fe169a6d65c, type: 3}
-      spriteName: d3_2
+      spriteName: Damaged_d3_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: d3_2
+        m_SubObjectName: Damaged_d3_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c93c5e17ac9faee43a5a6fe169a6d65c, type: 3}
-      spriteName: d3_3
+      spriteName: Damaged_d3_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: d3_3
+        m_SubObjectName: Damaged_d3_3
   IsPalette: 0
   setID: 11510

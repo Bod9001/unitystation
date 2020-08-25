@@ -15,291 +15,291 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_0
+      spriteName: teleporter_tele1_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_0
+        m_SubObjectName: teleporter_tele1_0
     - sprite: {fileID: 21300002, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_1
+      spriteName: teleporter_tele1_1
       secondDelay: 0.4
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_1
+        m_SubObjectName: teleporter_tele1_1
     - sprite: {fileID: 21300004, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_2
+      spriteName: teleporter_tele1_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_2
+        m_SubObjectName: teleporter_tele1_2
     - sprite: {fileID: 21300006, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_3
+      spriteName: teleporter_tele1_3
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_3
+        m_SubObjectName: teleporter_tele1_3
     - sprite: {fileID: 21300008, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_4
+      spriteName: teleporter_tele1_4
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_4
+        m_SubObjectName: teleporter_tele1_4
     - sprite: {fileID: 21300010, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_5
+      spriteName: teleporter_tele1_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_5
+        m_SubObjectName: teleporter_tele1_5
     - sprite: {fileID: 21300012, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_6
+      spriteName: teleporter_tele1_6
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_6
+        m_SubObjectName: teleporter_tele1_6
     - sprite: {fileID: 21300014, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_7
+      spriteName: teleporter_tele1_7
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_7
+        m_SubObjectName: teleporter_tele1_7
     - sprite: {fileID: 21300016, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_8
+      spriteName: teleporter_tele1_8
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_8
+        m_SubObjectName: teleporter_tele1_8
     - sprite: {fileID: 21300018, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_9
+      spriteName: teleporter_tele1_9
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_9
+        m_SubObjectName: teleporter_tele1_9
     - sprite: {fileID: 21300020, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_10
+      spriteName: teleporter_tele1_10
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_10
+        m_SubObjectName: teleporter_tele1_10
     - sprite: {fileID: 21300022, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_11
+      spriteName: teleporter_tele1_11
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_11
+        m_SubObjectName: teleporter_tele1_11
     - sprite: {fileID: 21300024, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_12
+      spriteName: teleporter_tele1_12
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_12
+        m_SubObjectName: teleporter_tele1_12
     - sprite: {fileID: 21300026, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_13
+      spriteName: teleporter_tele1_13
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_13
+        m_SubObjectName: teleporter_tele1_13
     - sprite: {fileID: 21300028, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_14
+      spriteName: teleporter_tele1_14
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_14
+        m_SubObjectName: teleporter_tele1_14
     - sprite: {fileID: 21300030, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_15
+      spriteName: teleporter_tele1_15
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_15
+        m_SubObjectName: teleporter_tele1_15
     - sprite: {fileID: 21300032, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_16
+      spriteName: teleporter_tele1_16
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_16
+        m_SubObjectName: teleporter_tele1_16
     - sprite: {fileID: 21300034, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_17
+      spriteName: teleporter_tele1_17
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_17
+        m_SubObjectName: teleporter_tele1_17
     - sprite: {fileID: 21300036, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_18
+      spriteName: teleporter_tele1_18
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_18
+        m_SubObjectName: teleporter_tele1_18
     - sprite: {fileID: 21300038, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_19
+      spriteName: teleporter_tele1_19
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_19
+        m_SubObjectName: teleporter_tele1_19
     - sprite: {fileID: 21300040, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_20
+      spriteName: teleporter_tele1_20
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_20
+        m_SubObjectName: teleporter_tele1_20
     - sprite: {fileID: 21300042, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_21
+      spriteName: teleporter_tele1_21
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_21
+        m_SubObjectName: teleporter_tele1_21
     - sprite: {fileID: 21300044, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_22
+      spriteName: teleporter_tele1_22
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_22
+        m_SubObjectName: teleporter_tele1_22
     - sprite: {fileID: 21300046, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_23
+      spriteName: teleporter_tele1_23
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_23
+        m_SubObjectName: teleporter_tele1_23
     - sprite: {fileID: 21300048, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_24
+      spriteName: teleporter_tele1_24
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_24
+        m_SubObjectName: teleporter_tele1_24
     - sprite: {fileID: 21300050, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_25
+      spriteName: teleporter_tele1_25
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_25
+        m_SubObjectName: teleporter_tele1_25
     - sprite: {fileID: 21300052, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_26
+      spriteName: teleporter_tele1_26
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_26
+        m_SubObjectName: teleporter_tele1_26
     - sprite: {fileID: 21300054, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_27
+      spriteName: teleporter_tele1_27
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_27
+        m_SubObjectName: teleporter_tele1_27
     - sprite: {fileID: 21300056, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_28
+      spriteName: teleporter_tele1_28
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_28
+        m_SubObjectName: teleporter_tele1_28
     - sprite: {fileID: 21300058, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_29
+      spriteName: teleporter_tele1_29
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_29
+        m_SubObjectName: teleporter_tele1_29
     - sprite: {fileID: 21300060, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_30
+      spriteName: teleporter_tele1_30
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_30
+        m_SubObjectName: teleporter_tele1_30
     - sprite: {fileID: 21300062, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_31
+      spriteName: teleporter_tele1_31
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_31
+        m_SubObjectName: teleporter_tele1_31
     - sprite: {fileID: 21300064, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_32
+      spriteName: teleporter_tele1_32
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_32
+        m_SubObjectName: teleporter_tele1_32
     - sprite: {fileID: 21300066, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_33
+      spriteName: teleporter_tele1_33
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_33
+        m_SubObjectName: teleporter_tele1_33
     - sprite: {fileID: 21300068, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_34
+      spriteName: teleporter_tele1_34
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_34
+        m_SubObjectName: teleporter_tele1_34
     - sprite: {fileID: 21300070, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_35
+      spriteName: teleporter_tele1_35
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_35
+        m_SubObjectName: teleporter_tele1_35
     - sprite: {fileID: 21300072, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_36
+      spriteName: teleporter_tele1_36
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_36
+        m_SubObjectName: teleporter_tele1_36
     - sprite: {fileID: 21300074, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_37
+      spriteName: teleporter_tele1_37
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_37
+        m_SubObjectName: teleporter_tele1_37
     - sprite: {fileID: 21300076, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_38
+      spriteName: teleporter_tele1_38
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_38
+        m_SubObjectName: teleporter_tele1_38
     - sprite: {fileID: 21300078, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_39
+      spriteName: teleporter_tele1_39
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_39
+        m_SubObjectName: teleporter_tele1_39
     - sprite: {fileID: 21300080, guid: 53f03e03fd7c7dd4997cf29a45bb1810, type: 3}
-      spriteName: tele1_40
+      spriteName: teleporter_tele1_40
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tele1_40
+        m_SubObjectName: teleporter_tele1_40
   IsPalette: 0
   setID: 16077

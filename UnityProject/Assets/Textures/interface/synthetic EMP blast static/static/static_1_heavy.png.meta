@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: 1_heavy_0
+    second: static_1_heavy_0
   - first:
       213: 21300002
-    second: 1_heavy_1
+    second: static_1_heavy_1
   - first:
       213: 21300004
-    second: 1_heavy_2
+    second: static_1_heavy_2
   - first:
       213: 21300006
-    second: 1_heavy_3
+    second: static_1_heavy_3
   - first:
       213: 21300008
-    second: 1_heavy_4
+    second: static_1_heavy_4
   - first:
       213: 21300010
-    second: 1_heavy_5
+    second: static_1_heavy_5
   - first:
       213: 21300012
-    second: 1_heavy_6
+    second: static_1_heavy_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1_heavy_0
+      name: static_1_heavy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1_heavy_1
+      name: static_1_heavy_1
       rect:
         serializedVersion: 2
         x: 32
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1_heavy_2
+      name: static_1_heavy_2
       rect:
         serializedVersion: 2
         x: 64
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1_heavy_3
+      name: static_1_heavy_3
       rect:
         serializedVersion: 2
         x: 96
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1_heavy_4
+      name: static_1_heavy_4
       rect:
         serializedVersion: 2
         x: 128
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1_heavy_5
+      name: static_1_heavy_5
       rect:
         serializedVersion: 2
         x: 160
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1_heavy_6
+      name: static_1_heavy_6
       rect:
         serializedVersion: 2
         x: 192

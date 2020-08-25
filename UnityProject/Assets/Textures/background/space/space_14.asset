@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e22a3a39993abe94aa6f0ea9ea130add, type: 3}
-      spriteName: 14_0
+      spriteName: space_14_0
       secondDelay: 3
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 14_0
+        m_SubObjectName: space_14_0
     - sprite: {fileID: 21300002, guid: e22a3a39993abe94aa6f0ea9ea130add, type: 3}
-      spriteName: 14_1
+      spriteName: space_14_1
       secondDelay: 3
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 14_1
+        m_SubObjectName: space_14_1
     - sprite: {fileID: 21300004, guid: e22a3a39993abe94aa6f0ea9ea130add, type: 3}
-      spriteName: 14_2
+      spriteName: space_14_2
       secondDelay: 3
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 14_2
+        m_SubObjectName: space_14_2
     - sprite: {fileID: 21300006, guid: e22a3a39993abe94aa6f0ea9ea130add, type: 3}
-      spriteName: 14_3
+      spriteName: space_14_3
       secondDelay: 3
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: 14_3
+        m_SubObjectName: space_14_3
   IsPalette: 0
   setID: 35

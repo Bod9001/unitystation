@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ba8a2b2dcb7592544b9d5a8c4927629d, type: 3}
-      spriteName: t_geis_capacitor_0
+      spriteName: clockwork_objects_t_geis_capacitor_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: t_geis_capacitor_0
+        m_SubObjectName: clockwork_objects_t_geis_capacitor_0
     - sprite: {fileID: 21300002, guid: ba8a2b2dcb7592544b9d5a8c4927629d, type: 3}
-      spriteName: t_geis_capacitor_1
+      spriteName: clockwork_objects_t_geis_capacitor_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: t_geis_capacitor_1
+        m_SubObjectName: clockwork_objects_t_geis_capacitor_1
     - sprite: {fileID: 21300004, guid: ba8a2b2dcb7592544b9d5a8c4927629d, type: 3}
-      spriteName: t_geis_capacitor_2
+      spriteName: clockwork_objects_t_geis_capacitor_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: t_geis_capacitor_2
+        m_SubObjectName: clockwork_objects_t_geis_capacitor_2
   IsPalette: 0
   setID: 5541

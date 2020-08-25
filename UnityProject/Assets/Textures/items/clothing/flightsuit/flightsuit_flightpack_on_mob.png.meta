@@ -4,52 +4,52 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: flightpack_on_mob_0
+    second: flightsuit_flightpack_on_mob_0
   - first:
       213: 21300002
-    second: flightpack_on_mob_1
+    second: flightsuit_flightpack_on_mob_1
   - first:
       213: 21300004
-    second: flightpack_on_mob_2
+    second: flightsuit_flightpack_on_mob_2
   - first:
       213: 21300006
-    second: flightpack_on_mob_3
+    second: flightsuit_flightpack_on_mob_3
   - first:
       213: 21300008
-    second: flightpack_on_mob_4
+    second: flightsuit_flightpack_on_mob_4
   - first:
       213: 21300010
-    second: flightpack_on_mob_5
+    second: flightsuit_flightpack_on_mob_5
   - first:
       213: 21300012
-    second: flightpack_on_mob_6
+    second: flightsuit_flightpack_on_mob_6
   - first:
       213: 21300014
-    second: flightpack_on_mob_7
+    second: flightsuit_flightpack_on_mob_7
   - first:
       213: 21300016
-    second: flightpack_on_mob_8
+    second: flightsuit_flightpack_on_mob_8
   - first:
       213: 21300018
-    second: flightpack_on_mob_9
+    second: flightsuit_flightpack_on_mob_9
   - first:
       213: 21300020
-    second: flightpack_on_mob_10
+    second: flightsuit_flightpack_on_mob_10
   - first:
       213: 21300022
-    second: flightpack_on_mob_11
+    second: flightsuit_flightpack_on_mob_11
   - first:
       213: 21300024
-    second: flightpack_on_mob_12
+    second: flightsuit_flightpack_on_mob_12
   - first:
       213: 21300026
-    second: flightpack_on_mob_13
+    second: flightsuit_flightpack_on_mob_13
   - first:
       213: 21300028
-    second: flightpack_on_mob_14
+    second: flightsuit_flightpack_on_mob_14
   - first:
       213: 21300030
-    second: flightpack_on_mob_15
+    second: flightsuit_flightpack_on_mob_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flightpack_on_mob_0
+      name: flightsuit_flightpack_on_mob_0
       rect:
         serializedVersion: 2
         x: 0
@@ -155,7 +155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_1
+      name: flightsuit_flightpack_on_mob_1
       rect:
         serializedVersion: 2
         x: 32
@@ -176,7 +176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_2
+      name: flightsuit_flightpack_on_mob_2
       rect:
         serializedVersion: 2
         x: 64
@@ -197,7 +197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_3
+      name: flightsuit_flightpack_on_mob_3
       rect:
         serializedVersion: 2
         x: 96
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_4
+      name: flightsuit_flightpack_on_mob_4
       rect:
         serializedVersion: 2
         x: 128
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_5
+      name: flightsuit_flightpack_on_mob_5
       rect:
         serializedVersion: 2
         x: 160
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_6
+      name: flightsuit_flightpack_on_mob_6
       rect:
         serializedVersion: 2
         x: 192
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_7
+      name: flightsuit_flightpack_on_mob_7
       rect:
         serializedVersion: 2
         x: 224
@@ -302,7 +302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_8
+      name: flightsuit_flightpack_on_mob_8
       rect:
         serializedVersion: 2
         x: 256
@@ -323,7 +323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_9
+      name: flightsuit_flightpack_on_mob_9
       rect:
         serializedVersion: 2
         x: 288
@@ -344,7 +344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_10
+      name: flightsuit_flightpack_on_mob_10
       rect:
         serializedVersion: 2
         x: 320
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_11
+      name: flightsuit_flightpack_on_mob_11
       rect:
         serializedVersion: 2
         x: 352
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_12
+      name: flightsuit_flightpack_on_mob_12
       rect:
         serializedVersion: 2
         x: 384
@@ -407,7 +407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_13
+      name: flightsuit_flightpack_on_mob_13
       rect:
         serializedVersion: 2
         x: 416
@@ -428,7 +428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_14
+      name: flightsuit_flightpack_on_mob_14
       rect:
         serializedVersion: 2
         x: 448
@@ -449,7 +449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flightpack_on_mob_15
+      name: flightsuit_flightpack_on_mob_15
       rect:
         serializedVersion: 2
         x: 480

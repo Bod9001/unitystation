@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ea2581061c943ba489f95eb5837b1e48, type: 3}
-      spriteName: ebelt_0
+      spriteName: belt_lefthand_ebelt_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: ebelt_0
+        m_SubObjectName: belt_lefthand_ebelt_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ea2581061c943ba489f95eb5837b1e48, type: 3}
-      spriteName: ebelt_1
+      spriteName: belt_lefthand_ebelt_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: ebelt_1
+        m_SubObjectName: belt_lefthand_ebelt_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ea2581061c943ba489f95eb5837b1e48, type: 3}
-      spriteName: ebelt_2
+      spriteName: belt_lefthand_ebelt_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: ebelt_2
+        m_SubObjectName: belt_lefthand_ebelt_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ea2581061c943ba489f95eb5837b1e48, type: 3}
-      spriteName: ebelt_3
+      spriteName: belt_lefthand_ebelt_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: ebelt_3
+        m_SubObjectName: belt_lefthand_ebelt_3
   IsPalette: 0
   setID: 10042

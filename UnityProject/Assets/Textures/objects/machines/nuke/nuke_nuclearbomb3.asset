@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f97c39315accb0c40bff8b0d810d1c74, type: 3}
-      spriteName: nuclearbomb3_0
+      spriteName: nuke_nuclearbomb3_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: nuclearbomb3_0
+        m_SubObjectName: nuke_nuclearbomb3_0
     - sprite: {fileID: 21300002, guid: f97c39315accb0c40bff8b0d810d1c74, type: 3}
-      spriteName: nuclearbomb3_1
+      spriteName: nuke_nuclearbomb3_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: nuclearbomb3_1
+        m_SubObjectName: nuke_nuclearbomb3_1
   IsPalette: 0
   setID: 15852

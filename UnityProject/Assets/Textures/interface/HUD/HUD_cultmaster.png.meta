@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cultmaster_0
+    second: HUD_cultmaster_0
   - first:
       213: 21300002
-    second: cultmaster_1
+    second: HUD_cultmaster_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cultmaster_0
+      name: HUD_cultmaster_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cultmaster_1
+      name: HUD_cultmaster_1
       rect:
         serializedVersion: 2
         x: 32

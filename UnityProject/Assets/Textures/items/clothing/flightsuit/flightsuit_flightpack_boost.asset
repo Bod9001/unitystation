@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 875f2bb18b25af6469b6cf827a979034, type: 3}
-      spriteName: flightpack_boost_0
+      spriteName: flightsuit_flightpack_boost_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: flightpack_boost_0
+        m_SubObjectName: flightsuit_flightpack_boost_0
     - sprite: {fileID: 21300002, guid: 875f2bb18b25af6469b6cf827a979034, type: 3}
-      spriteName: flightpack_boost_1
+      spriteName: flightsuit_flightpack_boost_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: flightpack_boost_1
+        m_SubObjectName: flightsuit_flightpack_boost_1
     - sprite: {fileID: 21300004, guid: 875f2bb18b25af6469b6cf827a979034, type: 3}
-      spriteName: flightpack_boost_2
+      spriteName: flightsuit_flightpack_boost_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: flightpack_boost_2
+        m_SubObjectName: flightsuit_flightpack_boost_2
   IsPalette: 0
   setID: 5629

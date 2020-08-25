@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: quiver_0
+    second: back_quiver_0
   - first:
       213: 21300002
-    second: quiver_1
+    second: back_quiver_1
   - first:
       213: 21300004
-    second: quiver_2
+    second: back_quiver_2
   - first:
       213: 21300006
-    second: quiver_3
+    second: back_quiver_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quiver_0
+      name: back_quiver_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quiver_1
+      name: back_quiver_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quiver_2
+      name: back_quiver_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quiver_3
+      name: back_quiver_3
       rect:
         serializedVersion: 2
         x: 96

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 6d46c865d2c56974e90faaafb552033f, type: 3}
-      spriteName: post_0
+      spriteName: fence_post_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: post_0
+        m_SubObjectName: fence_post_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 6d46c865d2c56974e90faaafb552033f, type: 3}
-      spriteName: post_1
+      spriteName: fence_post_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: post_1
+        m_SubObjectName: fence_post_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 6d46c865d2c56974e90faaafb552033f, type: 3}
-      spriteName: post_2
+      spriteName: fence_post_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: post_2
+        m_SubObjectName: fence_post_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 6d46c865d2c56974e90faaafb552033f, type: 3}
-      spriteName: post_3
+      spriteName: fence_post_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: post_3
+        m_SubObjectName: fence_post_3
   IsPalette: 0
   setID: 14848

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pharoah_0
+    second: suits_pharoah_0
   - first:
       213: 21300002
-    second: pharoah_1
+    second: suits_pharoah_1
   - first:
       213: 21300004
-    second: pharoah_2
+    second: suits_pharoah_2
   - first:
       213: 21300006
-    second: pharoah_3
+    second: suits_pharoah_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pharoah_0
+      name: suits_pharoah_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pharoah_1
+      name: suits_pharoah_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pharoah_2
+      name: suits_pharoah_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pharoah_3
+      name: suits_pharoah_3
       rect:
         serializedVersion: 2
         x: 96

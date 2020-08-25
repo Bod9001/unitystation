@@ -4,52 +4,52 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: void_0
+    second: suits_void_0
   - first:
       213: 21300002
-    second: void_1
+    second: suits_void_1
   - first:
       213: 21300004
-    second: void_2
+    second: suits_void_2
   - first:
       213: 21300006
-    second: void_3
+    second: suits_void_3
   - first:
       213: 21300008
-    second: void_4
+    second: suits_void_4
   - first:
       213: 21300010
-    second: void_5
+    second: suits_void_5
   - first:
       213: 21300012
-    second: void_6
+    second: suits_void_6
   - first:
       213: 21300014
-    second: void_7
+    second: suits_void_7
   - first:
       213: 21300016
-    second: void_8
+    second: suits_void_8
   - first:
       213: 21300018
-    second: void_9
+    second: suits_void_9
   - first:
       213: 21300020
-    second: void_10
+    second: suits_void_10
   - first:
       213: 21300022
-    second: void_11
+    second: suits_void_11
   - first:
       213: 21300024
-    second: void_12
+    second: suits_void_12
   - first:
       213: 21300026
-    second: void_13
+    second: suits_void_13
   - first:
       213: 21300028
-    second: void_14
+    second: suits_void_14
   - first:
       213: 21300030
-    second: void_15
+    second: suits_void_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,7 +135,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: void_0
+      name: suits_void_0
       rect:
         serializedVersion: 2
         x: 0
@@ -156,7 +156,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_1
+      name: suits_void_1
       rect:
         serializedVersion: 2
         x: 32
@@ -177,7 +177,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_2
+      name: suits_void_2
       rect:
         serializedVersion: 2
         x: 64
@@ -198,7 +198,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_3
+      name: suits_void_3
       rect:
         serializedVersion: 2
         x: 96
@@ -219,7 +219,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_4
+      name: suits_void_4
       rect:
         serializedVersion: 2
         x: 128
@@ -240,7 +240,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_5
+      name: suits_void_5
       rect:
         serializedVersion: 2
         x: 160
@@ -261,7 +261,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_6
+      name: suits_void_6
       rect:
         serializedVersion: 2
         x: 192
@@ -282,7 +282,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_7
+      name: suits_void_7
       rect:
         serializedVersion: 2
         x: 224
@@ -303,7 +303,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_8
+      name: suits_void_8
       rect:
         serializedVersion: 2
         x: 256
@@ -324,7 +324,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_9
+      name: suits_void_9
       rect:
         serializedVersion: 2
         x: 288
@@ -345,7 +345,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_10
+      name: suits_void_10
       rect:
         serializedVersion: 2
         x: 320
@@ -366,7 +366,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_11
+      name: suits_void_11
       rect:
         serializedVersion: 2
         x: 352
@@ -387,7 +387,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_12
+      name: suits_void_12
       rect:
         serializedVersion: 2
         x: 384
@@ -408,7 +408,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_13
+      name: suits_void_13
       rect:
         serializedVersion: 2
         x: 416
@@ -429,7 +429,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_14
+      name: suits_void_14
       rect:
         serializedVersion: 2
         x: 448
@@ -450,7 +450,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: void_15
+      name: suits_void_15
       rect:
         serializedVersion: 2
         x: 480

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cigaroff_0
+    second: cigar_cigaroff_0
   - first:
       213: 21300002
-    second: cigaroff_1
+    second: cigar_cigaroff_1
   - first:
       213: 21300004
-    second: cigaroff_2
+    second: cigar_cigaroff_2
   - first:
       213: 21300006
-    second: cigaroff_3
+    second: cigar_cigaroff_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cigaroff_0
+      name: cigar_cigaroff_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigaroff_1
+      name: cigar_cigaroff_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigaroff_2
+      name: cigar_cigaroff_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cigaroff_3
+      name: cigar_cigaroff_3
       rect:
         serializedVersion: 2
         x: 96

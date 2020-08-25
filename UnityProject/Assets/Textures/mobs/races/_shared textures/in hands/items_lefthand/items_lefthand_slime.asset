@@ -16,38 +16,38 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: 368543389579951487, guid: 276f4cb22661bfd4a98ee002979e45ab,
         type: 3}
-      spriteName: slime_0
+      spriteName: items_lefthand_slime_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: slime_0
+        m_SubObjectName: items_lefthand_slime_0
   - Frames:
     - sprite: {fileID: -458641133534639524, guid: 276f4cb22661bfd4a98ee002979e45ab,
         type: 3}
-      spriteName: slime_1
+      spriteName: items_lefthand_slime_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: slime_1
+        m_SubObjectName: items_lefthand_slime_1
   - Frames:
     - sprite: {fileID: 2542698315722941828, guid: 276f4cb22661bfd4a98ee002979e45ab,
         type: 3}
-      spriteName: slime_2
+      spriteName: items_lefthand_slime_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: slime_2
+        m_SubObjectName: items_lefthand_slime_2
   - Frames:
     - sprite: {fileID: -3711818451352614709, guid: 276f4cb22661bfd4a98ee002979e45ab,
         type: 3}
-      spriteName: slime_3
+      spriteName: items_lefthand_slime_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: slime_3
+        m_SubObjectName: items_lefthand_slime_3
   IsPalette: 0
   setID: 10137

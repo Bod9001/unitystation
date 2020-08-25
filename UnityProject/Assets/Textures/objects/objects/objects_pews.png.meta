@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pews_0
+    second: objects_pews_0
   - first:
       213: 21300002
-    second: pews_1
+    second: objects_pews_1
   - first:
       213: 21300004
-    second: pews_2
+    second: objects_pews_2
   - first:
       213: 21300006
-    second: pews_3
+    second: objects_pews_3
   - first:
       213: 21300008
-    second: pews_4
+    second: objects_pews_4
   - first:
       213: 21300010
-    second: pews_5
+    second: objects_pews_5
   - first:
       213: 21300012
-    second: pews_6
+    second: objects_pews_6
   - first:
       213: 21300014
-    second: pews_7
+    second: objects_pews_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pews_0
+      name: objects_pews_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pews_1
+      name: objects_pews_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pews_2
+      name: objects_pews_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pews_3
+      name: objects_pews_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pews_4
+      name: objects_pews_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pews_5
+      name: objects_pews_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pews_6
+      name: objects_pews_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pews_7
+      name: objects_pews_7
       rect:
         serializedVersion: 2
         x: 224

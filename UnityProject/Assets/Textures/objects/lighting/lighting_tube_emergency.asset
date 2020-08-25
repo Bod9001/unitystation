@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 86fecafa098220c45b12ce3be57ab375, type: 3}
-      spriteName: tube_emergency_0
+      spriteName: lighting_tube_emergency_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tube_emergency_0
+        m_SubObjectName: lighting_tube_emergency_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 86fecafa098220c45b12ce3be57ab375, type: 3}
-      spriteName: tube_emergency_1
+      spriteName: lighting_tube_emergency_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tube_emergency_1
+        m_SubObjectName: lighting_tube_emergency_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 86fecafa098220c45b12ce3be57ab375, type: 3}
-      spriteName: tube_emergency_2
+      spriteName: lighting_tube_emergency_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tube_emergency_2
+        m_SubObjectName: lighting_tube_emergency_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 86fecafa098220c45b12ce3be57ab375, type: 3}
-      spriteName: tube_emergency_3
+      spriteName: lighting_tube_emergency_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tube_emergency_3
+        m_SubObjectName: lighting_tube_emergency_3
   IsPalette: 0
   setID: 15606

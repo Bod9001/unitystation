@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: chronohelmet_0
+    second: head_chronohelmet_0
   - first:
       213: 21300002
-    second: chronohelmet_1
+    second: head_chronohelmet_1
   - first:
       213: 21300004
-    second: chronohelmet_2
+    second: head_chronohelmet_2
   - first:
       213: 21300006
-    second: chronohelmet_3
+    second: head_chronohelmet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chronohelmet_0
+      name: head_chronohelmet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chronohelmet_1
+      name: head_chronohelmet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chronohelmet_2
+      name: head_chronohelmet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chronohelmet_3
+      name: head_chronohelmet_3
       rect:
         serializedVersion: 2
         x: 96

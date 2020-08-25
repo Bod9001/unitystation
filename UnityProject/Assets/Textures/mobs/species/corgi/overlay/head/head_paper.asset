@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: b7b0c2a0251f6614f835aa34f6144a35, type: 3}
-      spriteName: paper_0
+      spriteName: head_paper_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: paper_0
+        m_SubObjectName: head_paper_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b7b0c2a0251f6614f835aa34f6144a35, type: 3}
-      spriteName: paper_1
+      spriteName: head_paper_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: paper_1
+        m_SubObjectName: head_paper_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b7b0c2a0251f6614f835aa34f6144a35, type: 3}
-      spriteName: paper_2
+      spriteName: head_paper_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: paper_2
+        m_SubObjectName: head_paper_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b7b0c2a0251f6614f835aa34f6144a35, type: 3}
-      spriteName: paper_3
+      spriteName: head_paper_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: paper_3
+        m_SubObjectName: head_paper_3
   IsPalette: 0
   setID: 12245

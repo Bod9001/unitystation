@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 02e1d467a0a290e46a7b35e8e1d1d237, type: 3}
-      spriteName: buildpipe_0
+      spriteName: items_lefthand_buildpipe_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: buildpipe_0
+        m_SubObjectName: items_lefthand_buildpipe_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 02e1d467a0a290e46a7b35e8e1d1d237, type: 3}
-      spriteName: buildpipe_1
+      spriteName: items_lefthand_buildpipe_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: buildpipe_1
+        m_SubObjectName: items_lefthand_buildpipe_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 02e1d467a0a290e46a7b35e8e1d1d237, type: 3}
-      spriteName: buildpipe_2
+      spriteName: items_lefthand_buildpipe_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: buildpipe_2
+        m_SubObjectName: items_lefthand_buildpipe_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 02e1d467a0a290e46a7b35e8e1d1d237, type: 3}
-      spriteName: buildpipe_3
+      spriteName: items_lefthand_buildpipe_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: buildpipe_3
+        m_SubObjectName: items_lefthand_buildpipe_3
   IsPalette: 0
   setID: 10308

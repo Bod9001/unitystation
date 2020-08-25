@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: singulo_0
+    second: drinks_singulo_0
   - first:
       213: 21300002
-    second: singulo_1
+    second: drinks_singulo_1
   - first:
       213: 21300004
-    second: singulo_2
+    second: drinks_singulo_2
   - first:
       213: 21300006
-    second: singulo_3
+    second: drinks_singulo_3
   - first:
       213: 21300008
-    second: singulo_4
+    second: drinks_singulo_4
   - first:
       213: 21300010
-    second: singulo_5
+    second: drinks_singulo_5
   - first:
       213: 21300012
-    second: singulo_6
+    second: drinks_singulo_6
   - first:
       213: 21300014
-    second: singulo_7
+    second: drinks_singulo_7
   - first:
       213: 21300016
-    second: singulo_8
+    second: drinks_singulo_8
   - first:
       213: 21300018
-    second: singulo_9
+    second: drinks_singulo_9
   - first:
       213: 21300020
-    second: singulo_10
+    second: drinks_singulo_10
   - first:
       213: 21300022
-    second: singulo_11
+    second: drinks_singulo_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: singulo_0
+      name: drinks_singulo_0
       rect:
         serializedVersion: 2
         x: 0
@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_1
+      name: drinks_singulo_1
       rect:
         serializedVersion: 2
         x: 32
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_2
+      name: drinks_singulo_2
       rect:
         serializedVersion: 2
         x: 64
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_3
+      name: drinks_singulo_3
       rect:
         serializedVersion: 2
         x: 96
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_4
+      name: drinks_singulo_4
       rect:
         serializedVersion: 2
         x: 128
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_5
+      name: drinks_singulo_5
       rect:
         serializedVersion: 2
         x: 160
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_6
+      name: drinks_singulo_6
       rect:
         serializedVersion: 2
         x: 192
@@ -270,7 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_7
+      name: drinks_singulo_7
       rect:
         serializedVersion: 2
         x: 224
@@ -291,7 +291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_8
+      name: drinks_singulo_8
       rect:
         serializedVersion: 2
         x: 256
@@ -312,7 +312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_9
+      name: drinks_singulo_9
       rect:
         serializedVersion: 2
         x: 288
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_10
+      name: drinks_singulo_10
       rect:
         serializedVersion: 2
         x: 320
@@ -354,7 +354,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: singulo_11
+      name: drinks_singulo_11
       rect:
         serializedVersion: 2
         x: 352

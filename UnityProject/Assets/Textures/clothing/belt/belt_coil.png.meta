@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1206501798132951126
-    second: coil_0
+    second: belt_coil_0
   - first:
       213: 4316668487210905212
-    second: coil_1
+    second: belt_coil_1
   - first:
       213: -3478187741408328744
-    second: coil_2
+    second: belt_coil_2
   - first:
       213: -1216120013809506240
-    second: coil_3
+    second: belt_coil_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coil_0
+      name: belt_coil_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coil_1
+      name: belt_coil_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coil_2
+      name: belt_coil_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coil_3
+      name: belt_coil_3
       rect:
         serializedVersion: 2
         x: 96

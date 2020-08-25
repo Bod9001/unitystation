@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: notholstered_0
+    second: back_notholstered_0
   - first:
       213: 21300002
-    second: notholstered_1
+    second: back_notholstered_1
   - first:
       213: 21300004
-    second: notholstered_2
+    second: back_notholstered_2
   - first:
       213: 21300006
-    second: notholstered_3
+    second: back_notholstered_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: notholstered_0
+      name: back_notholstered_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: notholstered_1
+      name: back_notholstered_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: notholstered_2
+      name: back_notholstered_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: notholstered_3
+      name: back_notholstered_3
       rect:
         serializedVersion: 2
         x: 96

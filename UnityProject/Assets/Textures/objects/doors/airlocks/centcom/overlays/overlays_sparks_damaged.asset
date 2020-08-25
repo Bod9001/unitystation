@@ -15,46 +15,46 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 49c50525919a01a4b8b4d59356d07764, type: 3}
-      spriteName: sparks_damaged_0
+      spriteName: overlays_sparks_damaged_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sparks_damaged_0
+        m_SubObjectName: overlays_sparks_damaged_0
     - sprite: {fileID: 21300002, guid: 49c50525919a01a4b8b4d59356d07764, type: 3}
-      spriteName: sparks_damaged_1
+      spriteName: overlays_sparks_damaged_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sparks_damaged_1
+        m_SubObjectName: overlays_sparks_damaged_1
     - sprite: {fileID: 21300004, guid: 49c50525919a01a4b8b4d59356d07764, type: 3}
-      spriteName: sparks_damaged_2
+      spriteName: overlays_sparks_damaged_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sparks_damaged_2
+        m_SubObjectName: overlays_sparks_damaged_2
     - sprite: {fileID: 21300006, guid: 49c50525919a01a4b8b4d59356d07764, type: 3}
-      spriteName: sparks_damaged_3
+      spriteName: overlays_sparks_damaged_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sparks_damaged_3
+        m_SubObjectName: overlays_sparks_damaged_3
     - sprite: {fileID: 21300008, guid: 49c50525919a01a4b8b4d59356d07764, type: 3}
-      spriteName: sparks_damaged_4
+      spriteName: overlays_sparks_damaged_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sparks_damaged_4
+        m_SubObjectName: overlays_sparks_damaged_4
     - sprite: {fileID: 21300010, guid: 49c50525919a01a4b8b4d59356d07764, type: 3}
-      spriteName: sparks_damaged_5
+      spriteName: overlays_sparks_damaged_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: sparks_damaged_5
+        m_SubObjectName: overlays_sparks_damaged_5
   IsPalette: 0
   setID: 13787

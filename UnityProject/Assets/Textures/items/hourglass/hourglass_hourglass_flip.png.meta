@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: hourglass_flip_0
+    second: hourglass_hourglass_flip_0
   - first:
       213: 21300002
-    second: hourglass_flip_1
+    second: hourglass_hourglass_flip_1
   - first:
       213: 21300004
-    second: hourglass_flip_2
+    second: hourglass_hourglass_flip_2
   - first:
       213: 21300006
-    second: hourglass_flip_3
+    second: hourglass_hourglass_flip_3
   - first:
       213: 21300008
-    second: hourglass_flip_4
+    second: hourglass_hourglass_flip_4
   - first:
       213: 21300010
-    second: hourglass_flip_5
+    second: hourglass_hourglass_flip_5
   - first:
       213: 21300012
-    second: hourglass_flip_6
+    second: hourglass_hourglass_flip_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hourglass_flip_0
+      name: hourglass_hourglass_flip_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hourglass_flip_1
+      name: hourglass_hourglass_flip_1
       rect:
         serializedVersion: 2
         x: 32
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hourglass_flip_2
+      name: hourglass_hourglass_flip_2
       rect:
         serializedVersion: 2
         x: 64
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hourglass_flip_3
+      name: hourglass_hourglass_flip_3
       rect:
         serializedVersion: 2
         x: 96
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hourglass_flip_4
+      name: hourglass_hourglass_flip_4
       rect:
         serializedVersion: 2
         x: 128
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hourglass_flip_5
+      name: hourglass_hourglass_flip_5
       rect:
         serializedVersion: 2
         x: 160
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hourglass_flip_6
+      name: hourglass_hourglass_flip_6
       rect:
         serializedVersion: 2
         x: 192

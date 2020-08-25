@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88bb5b421259954781bcdfb75018051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   Colour: {r: 1, g: 1, b: 1, a: 1}
-  Netz: 0
   SpriteHandler: {fileID: 2866152876217359191}
   registerItem: {fileID: 0}
   pipeTile: {fileID: 11400000, guid: 1537f3e9392ba2c409995c38410ac6f8, type: 2}
@@ -108,11 +105,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 41df87a6f3e9a58409f58f9033594f55,
         type: 2}
-    - target: {fileID: 7984289908694917215, guid: 59bffb44a6861484ca22d6edb4fbf5e5,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 41df87a6f3e9a58409f58f9033594f55
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7343457972493425774, guid: 59bffb44a6861484ca22d6edb4fbf5e5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 59bffb44a6861484ca22d6edb4fbf5e5, type: 3}

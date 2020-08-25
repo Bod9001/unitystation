@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2a62edb7db4eda9429333455981936ba, type: 3}
-      spriteName: text_0
+      spriteName: money_machine_text_0
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: text_0
+        m_SubObjectName: money_machine_text_0
     - sprite: {fileID: 21300002, guid: 2a62edb7db4eda9429333455981936ba, type: 3}
-      spriteName: text_1
+      spriteName: money_machine_text_1
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: text_1
+        m_SubObjectName: money_machine_text_1
     - sprite: {fileID: 21300004, guid: 2a62edb7db4eda9429333455981936ba, type: 3}
-      spriteName: text_2
+      spriteName: money_machine_text_2
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: text_2
+        m_SubObjectName: money_machine_text_2
     - sprite: {fileID: 21300006, guid: 2a62edb7db4eda9429333455981936ba, type: 3}
-      spriteName: text_3
+      spriteName: money_machine_text_3
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: text_3
+        m_SubObjectName: money_machine_text_3
   IsPalette: 0
   setID: 16306

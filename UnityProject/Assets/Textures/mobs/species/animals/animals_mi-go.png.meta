@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: mi-go_0
+    second: animals_mi-go_0
   - first:
       213: 21300002
-    second: mi-go_1
+    second: animals_mi-go_1
   - first:
       213: 21300004
-    second: mi-go_2
+    second: animals_mi-go_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mi-go_0
+      name: animals_mi-go_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mi-go_1
+      name: animals_mi-go_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mi-go_2
+      name: animals_mi-go_2
       rect:
         serializedVersion: 2
         x: 64

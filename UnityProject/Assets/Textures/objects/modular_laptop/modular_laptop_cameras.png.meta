@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cameras_0
+    second: modular_laptop_cameras_0
   - first:
       213: 21300002
-    second: cameras_1
+    second: modular_laptop_cameras_1
   - first:
       213: 21300004
-    second: cameras_2
+    second: modular_laptop_cameras_2
   - first:
       213: 21300006
-    second: cameras_3
+    second: modular_laptop_cameras_3
   - first:
       213: 21300008
-    second: cameras_4
+    second: modular_laptop_cameras_4
   - first:
       213: 21300010
-    second: cameras_5
+    second: modular_laptop_cameras_5
   - first:
       213: 21300012
-    second: cameras_6
+    second: modular_laptop_cameras_6
   - first:
       213: 21300014
-    second: cameras_7
+    second: modular_laptop_cameras_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cameras_0
+      name: modular_laptop_cameras_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_1
+      name: modular_laptop_cameras_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_2
+      name: modular_laptop_cameras_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_3
+      name: modular_laptop_cameras_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_4
+      name: modular_laptop_cameras_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_5
+      name: modular_laptop_cameras_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_6
+      name: modular_laptop_cameras_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cameras_7
+      name: modular_laptop_cameras_7
       rect:
         serializedVersion: 2
         x: 224

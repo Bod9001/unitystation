@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0c9ab805e0686974b9fb7c260c2eebb1, type: 3}
-      spriteName: theadminbus_0
+      spriteName: barsigns_theadminbus_0
       secondDelay: 2.5
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: theadminbus_0
+        m_SubObjectName: barsigns_theadminbus_0
     - sprite: {fileID: 21300002, guid: 0c9ab805e0686974b9fb7c260c2eebb1, type: 3}
-      spriteName: theadminbus_1
+      spriteName: barsigns_theadminbus_1
       secondDelay: 1.5
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: theadminbus_1
+        m_SubObjectName: barsigns_theadminbus_1
   IsPalette: 0
   setID: 13158

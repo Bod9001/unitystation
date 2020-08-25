@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sniper_0
+    second: back_sniper_0
   - first:
       213: 21300002
-    second: sniper_1
+    second: back_sniper_1
   - first:
       213: 21300004
-    second: sniper_2
+    second: back_sniper_2
   - first:
       213: 21300006
-    second: sniper_3
+    second: back_sniper_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sniper_0
+      name: back_sniper_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sniper_1
+      name: back_sniper_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sniper_2
+      name: back_sniper_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sniper_3
+      name: back_sniper_3
       rect:
         serializedVersion: 2
         x: 96

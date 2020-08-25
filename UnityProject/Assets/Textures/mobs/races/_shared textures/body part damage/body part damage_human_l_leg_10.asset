@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: aabb88f81464c2c4a91b6cc878fac9af, type: 3}
-      spriteName: human_l_leg_10_0
+      spriteName: body part damage_human_l_leg_10_0
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: human_l_leg_10_0
+        m_SubObjectName: body part damage_human_l_leg_10_0
   - Frames:
     - sprite: {fileID: 21300002, guid: aabb88f81464c2c4a91b6cc878fac9af, type: 3}
-      spriteName: human_l_leg_10_1
+      spriteName: body part damage_human_l_leg_10_1
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: human_l_leg_10_1
+        m_SubObjectName: body part damage_human_l_leg_10_1
   - Frames:
     - sprite: {fileID: 21300004, guid: aabb88f81464c2c4a91b6cc878fac9af, type: 3}
-      spriteName: human_l_leg_10_2
+      spriteName: body part damage_human_l_leg_10_2
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: human_l_leg_10_2
+        m_SubObjectName: body part damage_human_l_leg_10_2
   - Frames:
     - sprite: {fileID: 21300006, guid: aabb88f81464c2c4a91b6cc878fac9af, type: 3}
-      spriteName: human_l_leg_10_3
+      spriteName: body part damage_human_l_leg_10_3
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: human_l_leg_10_3
+        m_SubObjectName: body part damage_human_l_leg_10_3
   IsPalette: 0
   setID: 9697

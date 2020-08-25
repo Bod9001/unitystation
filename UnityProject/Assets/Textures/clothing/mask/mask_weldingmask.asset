@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 741c1bd5a54364744b12a5cf0b89dbe9, type: 3}
-      spriteName: weldingmask_0
+      spriteName: mask_weldingmask_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: weldingmask_0
+        m_SubObjectName: mask_weldingmask_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 741c1bd5a54364744b12a5cf0b89dbe9, type: 3}
-      spriteName: weldingmask_1
+      spriteName: mask_weldingmask_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: weldingmask_1
+        m_SubObjectName: mask_weldingmask_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 741c1bd5a54364744b12a5cf0b89dbe9, type: 3}
-      spriteName: weldingmask_2
+      spriteName: mask_weldingmask_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: weldingmask_2
+        m_SubObjectName: mask_weldingmask_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 741c1bd5a54364744b12a5cf0b89dbe9, type: 3}
-      spriteName: weldingmask_3
+      spriteName: mask_weldingmask_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: weldingmask_3
+        m_SubObjectName: mask_weldingmask_3
   IsPalette: 0
   setID: 789

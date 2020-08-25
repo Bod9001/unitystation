@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 29d054a975afb6e4d928da4dfc73d6ed, type: 3}
-      spriteName: rocketlauncher_0
+      spriteName: guns_lefthand_rocketlauncher_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: rocketlauncher_0
+        m_SubObjectName: guns_lefthand_rocketlauncher_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 29d054a975afb6e4d928da4dfc73d6ed, type: 3}
-      spriteName: rocketlauncher_1
+      spriteName: guns_lefthand_rocketlauncher_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: rocketlauncher_1
+        m_SubObjectName: guns_lefthand_rocketlauncher_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 29d054a975afb6e4d928da4dfc73d6ed, type: 3}
-      spriteName: rocketlauncher_2
+      spriteName: guns_lefthand_rocketlauncher_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: rocketlauncher_2
+        m_SubObjectName: guns_lefthand_rocketlauncher_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 29d054a975afb6e4d928da4dfc73d6ed, type: 3}
-      spriteName: rocketlauncher_3
+      spriteName: guns_lefthand_rocketlauncher_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: rocketlauncher_3
+        m_SubObjectName: guns_lefthand_rocketlauncher_3
   IsPalette: 0
   setID: 10643

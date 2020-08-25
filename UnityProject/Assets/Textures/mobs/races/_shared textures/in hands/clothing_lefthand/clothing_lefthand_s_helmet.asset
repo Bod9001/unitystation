@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
-      spriteName: s_helmet_0
+      spriteName: clothing_lefthand_s_helmet_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: s_helmet_0
+        m_SubObjectName: clothing_lefthand_s_helmet_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
-      spriteName: s_helmet_1
+      spriteName: clothing_lefthand_s_helmet_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: s_helmet_1
+        m_SubObjectName: clothing_lefthand_s_helmet_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
-      spriteName: s_helmet_2
+      spriteName: clothing_lefthand_s_helmet_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: s_helmet_2
+        m_SubObjectName: clothing_lefthand_s_helmet_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b4f69620c414e2d45ae5e9502a2f33d4, type: 3}
-      spriteName: s_helmet_3
+      spriteName: clothing_lefthand_s_helmet_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: s_helmet_3
+        m_SubObjectName: clothing_lefthand_s_helmet_3
   IsPalette: 0
   setID: 22107

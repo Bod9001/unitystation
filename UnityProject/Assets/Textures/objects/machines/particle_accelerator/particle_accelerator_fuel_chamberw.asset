@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 20b1d4baf2bcfc2449027c2a27d3dc0e, type: 3}
-      spriteName: fuel_chamberw_0
+      spriteName: particle_accelerator_fuel_chamberw_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: fuel_chamberw_0
+        m_SubObjectName: particle_accelerator_fuel_chamberw_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 20b1d4baf2bcfc2449027c2a27d3dc0e, type: 3}
-      spriteName: fuel_chamberw_1
+      spriteName: particle_accelerator_fuel_chamberw_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: fuel_chamberw_1
+        m_SubObjectName: particle_accelerator_fuel_chamberw_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 20b1d4baf2bcfc2449027c2a27d3dc0e, type: 3}
-      spriteName: fuel_chamberw_2
+      spriteName: particle_accelerator_fuel_chamberw_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: fuel_chamberw_2
+        m_SubObjectName: particle_accelerator_fuel_chamberw_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 20b1d4baf2bcfc2449027c2a27d3dc0e, type: 3}
-      spriteName: fuel_chamberw_3
+      spriteName: particle_accelerator_fuel_chamberw_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: fuel_chamberw_3
+        m_SubObjectName: particle_accelerator_fuel_chamberw_3
   IsPalette: 0
   setID: 15923

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: maidapron_0
+    second: accessories_maidapron_0
   - first:
       213: 21300002
-    second: maidapron_1
+    second: accessories_maidapron_1
   - first:
       213: 21300004
-    second: maidapron_2
+    second: accessories_maidapron_2
   - first:
       213: 21300006
-    second: maidapron_3
+    second: accessories_maidapron_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: maidapron_0
+      name: accessories_maidapron_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: maidapron_1
+      name: accessories_maidapron_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: maidapron_2
+      name: accessories_maidapron_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: maidapron_3
+      name: accessories_maidapron_3
       rect:
         serializedVersion: 2
         x: 96

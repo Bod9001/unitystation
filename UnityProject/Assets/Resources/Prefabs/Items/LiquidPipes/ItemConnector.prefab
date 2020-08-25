@@ -29,11 +29,6 @@ PrefabInstance:
       propertyPath: variantIndex
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3701280433139661901, guid: c7c6619435930be4e91730eea5485a29,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: ef688919eedb615448bcba0ed9b4eaae
-      objectReference: {fileID: 0}
     - target: {fileID: 6986793253136492712, guid: c7c6619435930be4e91730eea5485a29,
         type: 3}
       propertyPath: initialName

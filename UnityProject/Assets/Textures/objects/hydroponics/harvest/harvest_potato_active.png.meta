@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -445404648326293797
-    second: potato_active_0
+    second: harvest_potato_active_0
   - first:
       213: 6986062881351159167
-    second: potato_active_1
+    second: harvest_potato_active_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: potato_active_0
+      name: harvest_potato_active_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: potato_active_1
+      name: harvest_potato_active_1
       rect:
         serializedVersion: 2
         x: 32

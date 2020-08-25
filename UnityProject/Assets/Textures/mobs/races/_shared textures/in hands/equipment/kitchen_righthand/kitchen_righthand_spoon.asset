@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: b26a5dd5e28dc314e9d3ce6bef1fa9f7, type: 3}
-      spriteName: spoon_0
+      spriteName: kitchen_righthand_spoon_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: spoon_0
+        m_SubObjectName: kitchen_righthand_spoon_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b26a5dd5e28dc314e9d3ce6bef1fa9f7, type: 3}
-      spriteName: spoon_1
+      spriteName: kitchen_righthand_spoon_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: spoon_1
+        m_SubObjectName: kitchen_righthand_spoon_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b26a5dd5e28dc314e9d3ce6bef1fa9f7, type: 3}
-      spriteName: spoon_2
+      spriteName: kitchen_righthand_spoon_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: spoon_2
+        m_SubObjectName: kitchen_righthand_spoon_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b26a5dd5e28dc314e9d3ce6bef1fa9f7, type: 3}
-      spriteName: spoon_3
+      spriteName: kitchen_righthand_spoon_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: spoon_3
+        m_SubObjectName: kitchen_righthand_spoon_3
   IsPalette: 0
   setID: 10112

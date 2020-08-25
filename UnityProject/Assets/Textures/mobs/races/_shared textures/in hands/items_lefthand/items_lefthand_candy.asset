@@ -16,38 +16,38 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: 4426662905603550225, guid: a8d9d7e9178870949b0df8de239db775,
         type: 3}
-      spriteName: candy_0
+      spriteName: items_lefthand_candy_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: candy_0
+        m_SubObjectName: items_lefthand_candy_0
   - Frames:
     - sprite: {fileID: -5699859814593153825, guid: a8d9d7e9178870949b0df8de239db775,
         type: 3}
-      spriteName: candy_1
+      spriteName: items_lefthand_candy_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: candy_1
+        m_SubObjectName: items_lefthand_candy_1
   - Frames:
     - sprite: {fileID: -3531859234877362392, guid: a8d9d7e9178870949b0df8de239db775,
         type: 3}
-      spriteName: candy_2
+      spriteName: items_lefthand_candy_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: candy_2
+        m_SubObjectName: items_lefthand_candy_2
   - Frames:
     - sprite: {fileID: -5539223568794658269, guid: a8d9d7e9178870949b0df8de239db775,
         type: 3}
-      spriteName: candy_3
+      spriteName: items_lefthand_candy_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: candy_3
+        m_SubObjectName: items_lefthand_candy_3
   IsPalette: 0
   setID: 10140

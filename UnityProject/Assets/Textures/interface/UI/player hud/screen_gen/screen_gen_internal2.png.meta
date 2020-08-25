@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: internal2_0
+    second: screen_gen_internal2_0
   - first:
       213: 21300002
-    second: internal2_1
+    second: screen_gen_internal2_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: internal2_0
+      name: screen_gen_internal2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: internal2_1
+      name: screen_gen_internal2_1
       rect:
         serializedVersion: 2
         x: 32

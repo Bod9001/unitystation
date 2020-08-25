@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: blobbernaut_0
+    second: blob_blobbernaut_0
   - first:
       213: 21300002
-    second: blobbernaut_1
+    second: blob_blobbernaut_1
   - first:
       213: 21300004
-    second: blobbernaut_2
+    second: blob_blobbernaut_2
   - first:
       213: 21300006
-    second: blobbernaut_3
+    second: blob_blobbernaut_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blobbernaut_0
+      name: blob_blobbernaut_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blobbernaut_1
+      name: blob_blobbernaut_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blobbernaut_2
+      name: blob_blobbernaut_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blobbernaut_3
+      name: blob_blobbernaut_3
       rect:
         serializedVersion: 2
         x: 96

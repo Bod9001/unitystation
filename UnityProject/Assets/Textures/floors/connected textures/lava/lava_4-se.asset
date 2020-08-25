@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 6012b2ec496a3334d80aea799977112e, type: 3}
-      spriteName: 4-se_0
+      spriteName: lava_4-se_0
       secondDelay: 2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 4-se_0
+        m_SubObjectName: lava_4-se_0
     - sprite: {fileID: 21300002, guid: 6012b2ec496a3334d80aea799977112e, type: 3}
-      spriteName: 4-se_1
+      spriteName: lava_4-se_1
       secondDelay: 2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 4-se_1
+        m_SubObjectName: lava_4-se_1
     - sprite: {fileID: 21300004, guid: 6012b2ec496a3334d80aea799977112e, type: 3}
-      spriteName: 4-se_2
+      spriteName: lava_4-se_2
       secondDelay: 2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 4-se_2
+        m_SubObjectName: lava_4-se_2
     - sprite: {fileID: 21300006, guid: 6012b2ec496a3334d80aea799977112e, type: 3}
-      spriteName: 4-se_3
+      spriteName: lava_4-se_3
       secondDelay: 2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: 4-se_3
+        m_SubObjectName: lava_4-se_3
   IsPalette: 0
   setID: 1880

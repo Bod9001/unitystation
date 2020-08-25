@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 517ccd99ab452c44894d591461409f0b, type: 3}
-      spriteName: theater-deny_0
+      spriteName: vending_theater-deny_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: theater-deny_0
+        m_SubObjectName: vending_theater-deny_0
     - sprite: {fileID: 21300002, guid: 517ccd99ab452c44894d591461409f0b, type: 3}
-      spriteName: theater-deny_1
+      spriteName: vending_theater-deny_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: theater-deny_1
+        m_SubObjectName: vending_theater-deny_1
   IsPalette: 0
   setID: 17931

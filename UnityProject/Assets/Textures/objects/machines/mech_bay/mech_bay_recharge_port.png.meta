@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: recharge_port_0
+    second: mech_bay_recharge_port_0
   - first:
       213: 21300002
-    second: recharge_port_1
+    second: mech_bay_recharge_port_1
   - first:
       213: 21300004
-    second: recharge_port_2
+    second: mech_bay_recharge_port_2
   - first:
       213: 21300006
-    second: recharge_port_3
+    second: mech_bay_recharge_port_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: recharge_port_0
+      name: mech_bay_recharge_port_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: recharge_port_1
+      name: mech_bay_recharge_port_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: recharge_port_2
+      name: mech_bay_recharge_port_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: recharge_port_3
+      name: mech_bay_recharge_port_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,100 +4,100 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sendbeam_0
+    second: beam_sendbeam_0
   - first:
       213: 21300002
-    second: sendbeam_1
+    second: beam_sendbeam_1
   - first:
       213: 21300004
-    second: sendbeam_2
+    second: beam_sendbeam_2
   - first:
       213: 21300006
-    second: sendbeam_3
+    second: beam_sendbeam_3
   - first:
       213: 21300008
-    second: sendbeam_4
+    second: beam_sendbeam_4
   - first:
       213: 21300010
-    second: sendbeam_5
+    second: beam_sendbeam_5
   - first:
       213: 21300012
-    second: sendbeam_6
+    second: beam_sendbeam_6
   - first:
       213: 21300014
-    second: sendbeam_7
+    second: beam_sendbeam_7
   - first:
       213: 21300016
-    second: sendbeam_8
+    second: beam_sendbeam_8
   - first:
       213: 21300018
-    second: sendbeam_9
+    second: beam_sendbeam_9
   - first:
       213: 21300020
-    second: sendbeam_10
+    second: beam_sendbeam_10
   - first:
       213: 21300022
-    second: sendbeam_11
+    second: beam_sendbeam_11
   - first:
       213: 21300024
-    second: sendbeam_12
+    second: beam_sendbeam_12
   - first:
       213: 21300026
-    second: sendbeam_13
+    second: beam_sendbeam_13
   - first:
       213: 21300028
-    second: sendbeam_14
+    second: beam_sendbeam_14
   - first:
       213: 21300030
-    second: sendbeam_15
+    second: beam_sendbeam_15
   - first:
       213: 21300032
-    second: sendbeam_16
+    second: beam_sendbeam_16
   - first:
       213: 21300034
-    second: sendbeam_17
+    second: beam_sendbeam_17
   - first:
       213: 21300036
-    second: sendbeam_18
+    second: beam_sendbeam_18
   - first:
       213: 21300038
-    second: sendbeam_19
+    second: beam_sendbeam_19
   - first:
       213: 21300040
-    second: sendbeam_20
+    second: beam_sendbeam_20
   - first:
       213: 21300042
-    second: sendbeam_21
+    second: beam_sendbeam_21
   - first:
       213: 21300044
-    second: sendbeam_22
+    second: beam_sendbeam_22
   - first:
       213: 21300046
-    second: sendbeam_23
+    second: beam_sendbeam_23
   - first:
       213: 21300048
-    second: sendbeam_24
+    second: beam_sendbeam_24
   - first:
       213: 21300050
-    second: sendbeam_25
+    second: beam_sendbeam_25
   - first:
       213: 21300052
-    second: sendbeam_26
+    second: beam_sendbeam_26
   - first:
       213: 21300054
-    second: sendbeam_27
+    second: beam_sendbeam_27
   - first:
       213: 21300056
-    second: sendbeam_28
+    second: beam_sendbeam_28
   - first:
       213: 21300058
-    second: sendbeam_29
+    second: beam_sendbeam_29
   - first:
       213: 21300060
-    second: sendbeam_30
+    second: beam_sendbeam_30
   - first:
       213: 21300062
-    second: sendbeam_31
+    second: beam_sendbeam_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sendbeam_0
+      name: beam_sendbeam_0
       rect:
         serializedVersion: 2
         x: 0
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_1
+      name: beam_sendbeam_1
       rect:
         serializedVersion: 2
         x: 32
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_2
+      name: beam_sendbeam_2
       rect:
         serializedVersion: 2
         x: 64
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_3
+      name: beam_sendbeam_3
       rect:
         serializedVersion: 2
         x: 96
@@ -266,7 +266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_4
+      name: beam_sendbeam_4
       rect:
         serializedVersion: 2
         x: 128
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_5
+      name: beam_sendbeam_5
       rect:
         serializedVersion: 2
         x: 160
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_6
+      name: beam_sendbeam_6
       rect:
         serializedVersion: 2
         x: 192
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_7
+      name: beam_sendbeam_7
       rect:
         serializedVersion: 2
         x: 224
@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_8
+      name: beam_sendbeam_8
       rect:
         serializedVersion: 2
         x: 256
@@ -371,7 +371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_9
+      name: beam_sendbeam_9
       rect:
         serializedVersion: 2
         x: 288
@@ -392,7 +392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_10
+      name: beam_sendbeam_10
       rect:
         serializedVersion: 2
         x: 320
@@ -413,7 +413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_11
+      name: beam_sendbeam_11
       rect:
         serializedVersion: 2
         x: 352
@@ -434,7 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_12
+      name: beam_sendbeam_12
       rect:
         serializedVersion: 2
         x: 384
@@ -455,7 +455,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_13
+      name: beam_sendbeam_13
       rect:
         serializedVersion: 2
         x: 416
@@ -476,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_14
+      name: beam_sendbeam_14
       rect:
         serializedVersion: 2
         x: 448
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_15
+      name: beam_sendbeam_15
       rect:
         serializedVersion: 2
         x: 480
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_16
+      name: beam_sendbeam_16
       rect:
         serializedVersion: 2
         x: 512
@@ -539,7 +539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_17
+      name: beam_sendbeam_17
       rect:
         serializedVersion: 2
         x: 544
@@ -560,7 +560,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_18
+      name: beam_sendbeam_18
       rect:
         serializedVersion: 2
         x: 576
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_19
+      name: beam_sendbeam_19
       rect:
         serializedVersion: 2
         x: 608
@@ -602,7 +602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_20
+      name: beam_sendbeam_20
       rect:
         serializedVersion: 2
         x: 640
@@ -623,7 +623,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_21
+      name: beam_sendbeam_21
       rect:
         serializedVersion: 2
         x: 672
@@ -644,7 +644,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_22
+      name: beam_sendbeam_22
       rect:
         serializedVersion: 2
         x: 704
@@ -665,7 +665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_23
+      name: beam_sendbeam_23
       rect:
         serializedVersion: 2
         x: 736
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_24
+      name: beam_sendbeam_24
       rect:
         serializedVersion: 2
         x: 768
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_25
+      name: beam_sendbeam_25
       rect:
         serializedVersion: 2
         x: 800
@@ -728,7 +728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_26
+      name: beam_sendbeam_26
       rect:
         serializedVersion: 2
         x: 832
@@ -749,7 +749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_27
+      name: beam_sendbeam_27
       rect:
         serializedVersion: 2
         x: 864
@@ -770,7 +770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_28
+      name: beam_sendbeam_28
       rect:
         serializedVersion: 2
         x: 896
@@ -791,7 +791,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_29
+      name: beam_sendbeam_29
       rect:
         serializedVersion: 2
         x: 928
@@ -812,7 +812,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_30
+      name: beam_sendbeam_30
       rect:
         serializedVersion: 2
         x: 960
@@ -833,7 +833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sendbeam_31
+      name: beam_sendbeam_31
       rect:
         serializedVersion: 2
         x: 992

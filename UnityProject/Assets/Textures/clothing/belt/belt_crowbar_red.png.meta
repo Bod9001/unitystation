@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -2527702156952165471
-    second: crowbar_red_0
+    second: belt_crowbar_red_0
   - first:
       213: -4545447466677457060
-    second: crowbar_red_1
+    second: belt_crowbar_red_1
   - first:
       213: -3108368716013539536
-    second: crowbar_red_2
+    second: belt_crowbar_red_2
   - first:
       213: 491417162151411849
-    second: crowbar_red_3
+    second: belt_crowbar_red_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crowbar_red_0
+      name: belt_crowbar_red_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crowbar_red_1
+      name: belt_crowbar_red_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crowbar_red_2
+      name: belt_crowbar_red_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crowbar_red_3
+      name: belt_crowbar_red_3
       rect:
         serializedVersion: 2
         x: 96

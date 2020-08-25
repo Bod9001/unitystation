@@ -4,31 +4,31 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: shield_0
+    second: Wizard_shield_0
   - first:
       213: 21300002
-    second: shield_1
+    second: Wizard_shield_1
   - first:
       213: 21300004
-    second: shield_2
+    second: Wizard_shield_2
   - first:
       213: 21300006
-    second: shield_3
+    second: Wizard_shield_3
   - first:
       213: 21300008
-    second: shield_4
+    second: Wizard_shield_4
   - first:
       213: 21300010
-    second: shield_5
+    second: Wizard_shield_5
   - first:
       213: 21300012
-    second: shield_6
+    second: Wizard_shield_6
   - first:
       213: 21300014
-    second: shield_7
+    second: Wizard_shield_7
   - first:
       213: 21300016
-    second: shield_8
+    second: Wizard_shield_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shield_0
+      name: Wizard_shield_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,7 +134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_1
+      name: Wizard_shield_1
       rect:
         serializedVersion: 2
         x: 32
@@ -155,7 +155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_2
+      name: Wizard_shield_2
       rect:
         serializedVersion: 2
         x: 64
@@ -176,7 +176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_3
+      name: Wizard_shield_3
       rect:
         serializedVersion: 2
         x: 96
@@ -197,7 +197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_4
+      name: Wizard_shield_4
       rect:
         serializedVersion: 2
         x: 128
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_5
+      name: Wizard_shield_5
       rect:
         serializedVersion: 2
         x: 160
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_6
+      name: Wizard_shield_6
       rect:
         serializedVersion: 2
         x: 192
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_7
+      name: Wizard_shield_7
       rect:
         serializedVersion: 2
         x: 224
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield_8
+      name: Wizard_shield_8
       rect:
         serializedVersion: 2
         x: 256

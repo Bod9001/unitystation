@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cultalt_0
+    second: shoes_cultalt_0
   - first:
       213: 21300002
-    second: cultalt_1
+    second: shoes_cultalt_1
   - first:
       213: 21300004
-    second: cultalt_2
+    second: shoes_cultalt_2
   - first:
       213: 21300006
-    second: cultalt_3
+    second: shoes_cultalt_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cultalt_0
+      name: shoes_cultalt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cultalt_1
+      name: shoes_cultalt_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cultalt_2
+      name: shoes_cultalt_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cultalt_3
+      name: shoes_cultalt_3
       rect:
         serializedVersion: 2
         x: 96

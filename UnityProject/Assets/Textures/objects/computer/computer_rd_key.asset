@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: a9b9bb6e5ca112741b3efcabd653aefc, type: 3}
-      spriteName: rd_key_0
+      spriteName: computer_rd_key_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: rd_key_0
+        m_SubObjectName: computer_rd_key_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a9b9bb6e5ca112741b3efcabd653aefc, type: 3}
-      spriteName: rd_key_1
+      spriteName: computer_rd_key_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: rd_key_1
+        m_SubObjectName: computer_rd_key_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a9b9bb6e5ca112741b3efcabd653aefc, type: 3}
-      spriteName: rd_key_2
+      spriteName: computer_rd_key_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: rd_key_2
+        m_SubObjectName: computer_rd_key_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a9b9bb6e5ca112741b3efcabd653aefc, type: 3}
-      spriteName: rd_key_3
+      spriteName: computer_rd_key_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: rd_key_3
+        m_SubObjectName: computer_rd_key_3
   IsPalette: 0
   setID: 13459

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: armor_reflec_0
+    second: Reflector vest_armor_reflec_0
   - first:
       213: 21300002
-    second: armor_reflec_1
+    second: Reflector vest_armor_reflec_1
   - first:
       213: 21300004
-    second: armor_reflec_2
+    second: Reflector vest_armor_reflec_2
   - first:
       213: 21300006
-    second: armor_reflec_3
+    second: Reflector vest_armor_reflec_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: armor_reflec_0
+      name: Reflector vest_armor_reflec_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: armor_reflec_1
+      name: Reflector vest_armor_reflec_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: armor_reflec_2
+      name: Reflector vest_armor_reflec_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: armor_reflec_3
+      name: Reflector vest_armor_reflec_3
       rect:
         serializedVersion: 2
         x: 96

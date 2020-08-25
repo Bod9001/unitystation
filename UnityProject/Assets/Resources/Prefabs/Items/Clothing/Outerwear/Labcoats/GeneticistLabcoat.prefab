@@ -114,11 +114,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 62a37c98fc20db54ba35749cd63c12d4,
         type: 2}
-    - target: {fileID: 7145545764318209269, guid: ed1b2998d2c424811881ca9c2cad1226,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 62a37c98fc20db54ba35749cd63c12d4
-      objectReference: {fileID: 0}
     - target: {fileID: 7931175119129480439, guid: ed1b2998d2c424811881ca9c2cad1226,
         type: 3}
       propertyPath: clothData

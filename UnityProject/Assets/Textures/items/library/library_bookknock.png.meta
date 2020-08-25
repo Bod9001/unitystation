@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bookknock_0
+    second: library_bookknock_0
   - first:
       213: 21300002
-    second: bookknock_1
+    second: library_bookknock_1
   - first:
       213: 21300004
-    second: bookknock_2
+    second: library_bookknock_2
   - first:
       213: 21300006
-    second: bookknock_3
+    second: library_bookknock_3
   - first:
       213: 21300008
-    second: bookknock_4
+    second: library_bookknock_4
   - first:
       213: 21300010
-    second: bookknock_5
+    second: library_bookknock_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bookknock_0
+      name: library_bookknock_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bookknock_1
+      name: library_bookknock_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bookknock_2
+      name: library_bookknock_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bookknock_3
+      name: library_bookknock_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bookknock_4
+      name: library_bookknock_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bookknock_5
+      name: library_bookknock_5
       rect:
         serializedVersion: 2
         x: 160

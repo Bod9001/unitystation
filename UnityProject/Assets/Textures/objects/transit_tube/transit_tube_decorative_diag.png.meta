@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: decorative_diag_0
+    second: transit_tube_decorative_diag_0
   - first:
       213: 21300002
-    second: decorative_diag_1
+    second: transit_tube_decorative_diag_1
   - first:
       213: 21300004
-    second: decorative_diag_2
+    second: transit_tube_decorative_diag_2
   - first:
       213: 21300006
-    second: decorative_diag_3
+    second: transit_tube_decorative_diag_3
   - first:
       213: 21300008
-    second: decorative_diag_4
+    second: transit_tube_decorative_diag_4
   - first:
       213: 21300010
-    second: decorative_diag_5
+    second: transit_tube_decorative_diag_5
   - first:
       213: 21300012
-    second: decorative_diag_6
+    second: transit_tube_decorative_diag_6
   - first:
       213: 21300014
-    second: decorative_diag_7
+    second: transit_tube_decorative_diag_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: decorative_diag_0
+      name: transit_tube_decorative_diag_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_diag_1
+      name: transit_tube_decorative_diag_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_diag_2
+      name: transit_tube_decorative_diag_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_diag_3
+      name: transit_tube_decorative_diag_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_diag_4
+      name: transit_tube_decorative_diag_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_diag_5
+      name: transit_tube_decorative_diag_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_diag_6
+      name: transit_tube_decorative_diag_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_diag_7
+      name: transit_tube_decorative_diag_7
       rect:
         serializedVersion: 2
         x: 224

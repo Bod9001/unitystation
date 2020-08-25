@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 7849632b491958a45ae073792fb5c6a8, type: 3}
-      spriteName: circuitgun_0
+      spriteName: guns_righthand_circuitgun_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: circuitgun_0
+        m_SubObjectName: guns_righthand_circuitgun_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 7849632b491958a45ae073792fb5c6a8, type: 3}
-      spriteName: circuitgun_1
+      spriteName: guns_righthand_circuitgun_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: circuitgun_1
+        m_SubObjectName: guns_righthand_circuitgun_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 7849632b491958a45ae073792fb5c6a8, type: 3}
-      spriteName: circuitgun_2
+      spriteName: guns_righthand_circuitgun_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: circuitgun_2
+        m_SubObjectName: guns_righthand_circuitgun_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 7849632b491958a45ae073792fb5c6a8, type: 3}
-      spriteName: circuitgun_3
+      spriteName: guns_righthand_circuitgun_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: circuitgun_3
+        m_SubObjectName: guns_righthand_circuitgun_3
   IsPalette: 0
   setID: 10690

@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 6a5658bb47954184389020a805cd916b, type: 3}
-      spriteName: clownbeacon_0
+      spriteName: device_clownbeacon_0
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clownbeacon_0
+        m_SubObjectName: device_clownbeacon_0
     - sprite: {fileID: 21300002, guid: 6a5658bb47954184389020a805cd916b, type: 3}
-      spriteName: clownbeacon_1
+      spriteName: device_clownbeacon_1
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clownbeacon_1
+        m_SubObjectName: device_clownbeacon_1
     - sprite: {fileID: 21300004, guid: 6a5658bb47954184389020a805cd916b, type: 3}
-      spriteName: clownbeacon_2
+      spriteName: device_clownbeacon_2
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clownbeacon_2
+        m_SubObjectName: device_clownbeacon_2
     - sprite: {fileID: 21300006, guid: 6a5658bb47954184389020a805cd916b, type: 3}
-      spriteName: clownbeacon_3
+      spriteName: device_clownbeacon_3
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clownbeacon_3
+        m_SubObjectName: device_clownbeacon_3
   IsPalette: 0
   setID: 6169

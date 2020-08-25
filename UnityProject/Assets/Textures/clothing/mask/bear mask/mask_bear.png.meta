@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bear_0
+    second: bear mask_bear_0
   - first:
       213: 21300002
-    second: bear_1
+    second: bear mask_bear_1
   - first:
       213: 21300004
-    second: bear_2
+    second: bear mask_bear_2
   - first:
       213: 21300006
-    second: bear_3
+    second: bear mask_bear_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bear_0
+      name: bear mask_bear_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bear_1
+      name: bear mask_bear_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bear_2
+      name: bear mask_bear_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bear_3
+      name: bear mask_bear_3
       rect:
         serializedVersion: 2
         x: 96

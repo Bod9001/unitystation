@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f4fd8433e290f1841a69eacd47b1e9c5, type: 3}
-      spriteName: stinger_0
+      spriteName: melee_lefthand_stinger_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: stinger_0
+        m_SubObjectName: melee_lefthand_stinger_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f4fd8433e290f1841a69eacd47b1e9c5, type: 3}
-      spriteName: stinger_1
+      spriteName: melee_lefthand_stinger_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: stinger_1
+        m_SubObjectName: melee_lefthand_stinger_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f4fd8433e290f1841a69eacd47b1e9c5, type: 3}
-      spriteName: stinger_2
+      spriteName: melee_lefthand_stinger_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: stinger_2
+        m_SubObjectName: melee_lefthand_stinger_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f4fd8433e290f1841a69eacd47b1e9c5, type: 3}
-      spriteName: stinger_3
+      spriteName: melee_lefthand_stinger_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: stinger_3
+        m_SubObjectName: melee_lefthand_stinger_3
   IsPalette: 0
   setID: 10831

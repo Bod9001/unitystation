@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: combatbear_0
+    second: animals_combatbear_0
   - first:
       213: 21300002
-    second: combatbear_1
+    second: animals_combatbear_1
   - first:
       213: 21300004
-    second: combatbear_2
+    second: animals_combatbear_2
   - first:
       213: 21300006
-    second: combatbear_3
+    second: animals_combatbear_3
   - first:
       213: 2290313375226641300
-    second: cockroach_large_0
+    second: animals_cockroach_large_0
   - first:
       213: 4609240727502946495
-    second: cockroach_large_1
+    second: animals_cockroach_large_1
   - first:
       213: 1791412233428598715
-    second: cockroach_large_2
+    second: animals_cockroach_large_2
   - first:
       213: 734400531699423608
-    second: cockroach_large_3
+    second: animals_cockroach_large_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +111,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cockroach_large_0
+      name: animals_cockroach_large_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,7 +132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_large_1
+      name: animals_cockroach_large_1
       rect:
         serializedVersion: 2
         x: 32
@@ -153,7 +153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_large_2
+      name: animals_cockroach_large_2
       rect:
         serializedVersion: 2
         x: 64
@@ -174,7 +174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_large_3
+      name: animals_cockroach_large_3
       rect:
         serializedVersion: 2
         x: 96

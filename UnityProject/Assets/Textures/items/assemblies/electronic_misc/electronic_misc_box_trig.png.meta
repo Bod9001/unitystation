@@ -4,19 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: box_trig_0
+    second: electronic_misc_box_trig_0
   - first:
       213: 21300002
-    second: box_trig_1
+    second: electronic_misc_box_trig_1
   - first:
       213: 21300004
-    second: box_trig_2
+    second: electronic_misc_box_trig_2
   - first:
       213: 21300006
-    second: box_trig_3
+    second: electronic_misc_box_trig_3
   - first:
       213: 21300008
-    second: box_trig_4
+    second: electronic_misc_box_trig_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -101,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: box_trig_0
+      name: electronic_misc_box_trig_0
       rect:
         serializedVersion: 2
         x: 0
@@ -122,7 +122,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: box_trig_1
+      name: electronic_misc_box_trig_1
       rect:
         serializedVersion: 2
         x: 32
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: box_trig_2
+      name: electronic_misc_box_trig_2
       rect:
         serializedVersion: 2
         x: 64
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: box_trig_3
+      name: electronic_misc_box_trig_3
       rect:
         serializedVersion: 2
         x: 96
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: box_trig_4
+      name: electronic_misc_box_trig_4
       rect:
         serializedVersion: 2
         x: 128

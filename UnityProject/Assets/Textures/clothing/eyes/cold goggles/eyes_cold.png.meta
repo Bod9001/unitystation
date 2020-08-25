@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cold_0
+    second: cold goggles_cold_0
   - first:
       213: 21300002
-    second: cold_1
+    second: cold goggles_cold_1
   - first:
       213: 21300004
-    second: cold_2
+    second: cold goggles_cold_2
   - first:
       213: 21300006
-    second: cold_3
+    second: cold goggles_cold_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cold_0
+      name: cold goggles_cold_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cold_1
+      name: cold goggles_cold_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cold_2
+      name: cold goggles_cold_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cold_3
+      name: cold goggles_cold_3
       rect:
         serializedVersion: 2
         x: 96

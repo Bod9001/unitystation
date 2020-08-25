@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: changeling_0
+    second: HUD_changeling_0
   - first:
       213: 21300002
-    second: changeling_1
+    second: HUD_changeling_1
   - first:
       213: 21300004
-    second: changeling_2
+    second: HUD_changeling_2
   - first:
       213: 21300006
-    second: changeling_3
+    second: HUD_changeling_3
   - first:
       213: 21300008
-    second: changeling_4
+    second: HUD_changeling_4
   - first:
       213: 21300010
-    second: changeling_5
+    second: HUD_changeling_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: changeling_0
+      name: HUD_changeling_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: changeling_1
+      name: HUD_changeling_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: changeling_2
+      name: HUD_changeling_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: changeling_3
+      name: HUD_changeling_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: changeling_4
+      name: HUD_changeling_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: changeling_5
+      name: HUD_changeling_5
       rect:
         serializedVersion: 2
         x: 160

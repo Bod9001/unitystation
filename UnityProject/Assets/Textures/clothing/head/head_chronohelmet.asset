@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 104477c245e978449af179cd5bb9c08b, type: 3}
-      spriteName: chronohelmet_0
+      spriteName: head_chronohelmet_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chronohelmet_0
+        m_SubObjectName: head_chronohelmet_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 104477c245e978449af179cd5bb9c08b, type: 3}
-      spriteName: chronohelmet_1
+      spriteName: head_chronohelmet_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chronohelmet_1
+        m_SubObjectName: head_chronohelmet_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 104477c245e978449af179cd5bb9c08b, type: 3}
-      spriteName: chronohelmet_2
+      spriteName: head_chronohelmet_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chronohelmet_2
+        m_SubObjectName: head_chronohelmet_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 104477c245e978449af179cd5bb9c08b, type: 3}
-      spriteName: chronohelmet_3
+      spriteName: head_chronohelmet_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: chronohelmet_3
+        m_SubObjectName: head_chronohelmet_3
   IsPalette: 0
   setID: 568

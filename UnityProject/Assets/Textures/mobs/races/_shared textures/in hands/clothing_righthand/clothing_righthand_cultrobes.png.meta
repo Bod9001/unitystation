@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cultrobes_0
+    second: clothing_righthand_cultrobes_0
   - first:
       213: 21300002
-    second: cultrobes_1
+    second: clothing_righthand_cultrobes_1
   - first:
       213: 21300004
-    second: cultrobes_2
+    second: clothing_righthand_cultrobes_2
   - first:
       213: 21300006
-    second: cultrobes_3
+    second: clothing_righthand_cultrobes_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cultrobes_0
+      name: clothing_righthand_cultrobes_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cultrobes_1
+      name: clothing_righthand_cultrobes_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cultrobes_2
+      name: clothing_righthand_cultrobes_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cultrobes_3
+      name: clothing_righthand_cultrobes_3
       rect:
         serializedVersion: 2
         x: 96

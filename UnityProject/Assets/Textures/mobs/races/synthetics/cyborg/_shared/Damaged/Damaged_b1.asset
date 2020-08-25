@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 280929aef85272c4f8cc9c5017d19c74, type: 3}
-      spriteName: b1_0
+      spriteName: Damaged_b1_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: b1_0
+        m_SubObjectName: Damaged_b1_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 280929aef85272c4f8cc9c5017d19c74, type: 3}
-      spriteName: b1_1
+      spriteName: Damaged_b1_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: b1_1
+        m_SubObjectName: Damaged_b1_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 280929aef85272c4f8cc9c5017d19c74, type: 3}
-      spriteName: b1_2
+      spriteName: Damaged_b1_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: b1_2
+        m_SubObjectName: Damaged_b1_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 280929aef85272c4f8cc9c5017d19c74, type: 3}
-      spriteName: b1_3
+      spriteName: Damaged_b1_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: b1_3
+        m_SubObjectName: Damaged_b1_3
   IsPalette: 0
   setID: 11500

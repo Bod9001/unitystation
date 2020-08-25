@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: prisoner_0
+    second: prisoner_prisoner_0
   - first:
       213: 21300002
-    second: prisoner_1
+    second: prisoner_prisoner_1
   - first:
       213: 21300004
-    second: prisoner_2
+    second: prisoner_prisoner_2
   - first:
       213: 21300006
-    second: prisoner_3
+    second: prisoner_prisoner_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prisoner_0
+      name: prisoner_prisoner_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prisoner_1
+      name: prisoner_prisoner_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prisoner_2
+      name: prisoner_prisoner_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prisoner_3
+      name: prisoner_prisoner_3
       rect:
         serializedVersion: 2
         x: 96

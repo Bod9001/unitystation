@@ -15,60 +15,60 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 20a55e568069bce4dbc03eb7e727d91f, type: 3}
-      spriteName: clock_mod_0
+      spriteName: module_clock_mod_0
       secondDelay: 0.6
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clock_mod_0
+        m_SubObjectName: module_clock_mod_0
     - sprite: {fileID: 21300002, guid: 20a55e568069bce4dbc03eb7e727d91f, type: 3}
-      spriteName: clock_mod_1
+      spriteName: module_clock_mod_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clock_mod_1
+        m_SubObjectName: module_clock_mod_1
     - sprite: {fileID: 21300004, guid: 20a55e568069bce4dbc03eb7e727d91f, type: 3}
-      spriteName: clock_mod_2
+      spriteName: module_clock_mod_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clock_mod_2
+        m_SubObjectName: module_clock_mod_2
     - sprite: {fileID: 21300006, guid: 20a55e568069bce4dbc03eb7e727d91f, type: 3}
-      spriteName: clock_mod_3
+      spriteName: module_clock_mod_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clock_mod_3
+        m_SubObjectName: module_clock_mod_3
     - sprite: {fileID: 21300008, guid: 20a55e568069bce4dbc03eb7e727d91f, type: 3}
-      spriteName: clock_mod_4
+      spriteName: module_clock_mod_4
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clock_mod_4
+        m_SubObjectName: module_clock_mod_4
     - sprite: {fileID: 21300010, guid: 20a55e568069bce4dbc03eb7e727d91f, type: 3}
-      spriteName: clock_mod_5
+      spriteName: module_clock_mod_5
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clock_mod_5
+        m_SubObjectName: module_clock_mod_5
     - sprite: {fileID: 21300012, guid: 20a55e568069bce4dbc03eb7e727d91f, type: 3}
-      spriteName: clock_mod_6
+      spriteName: module_clock_mod_6
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clock_mod_6
+        m_SubObjectName: module_clock_mod_6
     - sprite: {fileID: 21300014, guid: 20a55e568069bce4dbc03eb7e727d91f, type: 3}
-      spriteName: clock_mod_7
+      spriteName: module_clock_mod_7
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: clock_mod_7
+        m_SubObjectName: module_clock_mod_7
   IsPalette: 0
   setID: 8377

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: skeleton_0
+    second: Human_skeleton_0
   - first:
       213: 21300002
-    second: skeleton_1
+    second: Human_skeleton_1
   - first:
       213: 21300004
-    second: skeleton_2
+    second: Human_skeleton_2
   - first:
       213: 21300006
-    second: skeleton_3
+    second: Human_skeleton_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: skeleton_0
+      name: Human_skeleton_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_1
+      name: Human_skeleton_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_2
+      name: Human_skeleton_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_3
+      name: Human_skeleton_3
       rect:
         serializedVersion: 2
         x: 96

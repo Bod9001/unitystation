@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e408c4d2ac687744893b1ad46cd3c994, type: 3}
-      spriteName: pod_g_0
+      spriteName: cloning_pod_g_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: pod_g_0
+        m_SubObjectName: cloning_pod_g_0
     - sprite: {fileID: 21300002, guid: e408c4d2ac687744893b1ad46cd3c994, type: 3}
-      spriteName: pod_g_1
+      spriteName: cloning_pod_g_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: pod_g_1
+        m_SubObjectName: cloning_pod_g_1
     - sprite: {fileID: 21300004, guid: e408c4d2ac687744893b1ad46cd3c994, type: 3}
-      spriteName: pod_g_2
+      spriteName: cloning_pod_g_2
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: pod_g_2
+        m_SubObjectName: cloning_pod_g_2
     - sprite: {fileID: 21300006, guid: e408c4d2ac687744893b1ad46cd3c994, type: 3}
-      spriteName: pod_g_3
+      spriteName: cloning_pod_g_3
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: pod_g_3
+        m_SubObjectName: cloning_pod_g_3
   IsPalette: 0
   setID: 15663

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7811954950964234238
-    second: arcade_0
+    second: computer_arcade_0
   - first:
       213: -7542911307837864241
-    second: arcade_1
+    second: computer_arcade_1
   - first:
       213: -2696805777332650481
-    second: arcade_2
+    second: computer_arcade_2
   - first:
       213: -4501503016771789331
-    second: arcade_3
+    second: computer_arcade_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arcade_0
+      name: computer_arcade_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arcade_1
+      name: computer_arcade_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arcade_2
+      name: computer_arcade_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arcade_3
+      name: computer_arcade_3
       rect:
         serializedVersion: 2
         x: 96

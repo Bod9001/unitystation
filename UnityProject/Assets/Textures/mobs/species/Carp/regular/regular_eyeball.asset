@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2ad5c31b033a5b341ab1a16117ba52f6, type: 3}
-      spriteName: eyeball_0
+      spriteName: regular_eyeball_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: eyeball_0
+        m_SubObjectName: regular_eyeball_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2ad5c31b033a5b341ab1a16117ba52f6, type: 3}
-      spriteName: eyeball_1
+      spriteName: regular_eyeball_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: eyeball_1
+        m_SubObjectName: regular_eyeball_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2ad5c31b033a5b341ab1a16117ba52f6, type: 3}
-      spriteName: eyeball_2
+      spriteName: regular_eyeball_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: eyeball_2
+        m_SubObjectName: regular_eyeball_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2ad5c31b033a5b341ab1a16117ba52f6, type: 3}
-      spriteName: eyeball_3
+      spriteName: regular_eyeball_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: eyeball_3
+        m_SubObjectName: regular_eyeball_3
   IsPalette: 0
   setID: 12174

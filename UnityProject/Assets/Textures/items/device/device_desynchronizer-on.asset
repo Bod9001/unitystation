@@ -15,39 +15,39 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8aa7a8862a52e0847a7000e281648023, type: 3}
-      spriteName: desynchronizer-on_0
+      spriteName: device_desynchronizer-on_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: desynchronizer-on_0
+        m_SubObjectName: device_desynchronizer-on_0
     - sprite: {fileID: 21300002, guid: 8aa7a8862a52e0847a7000e281648023, type: 3}
-      spriteName: desynchronizer-on_1
+      spriteName: device_desynchronizer-on_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: desynchronizer-on_1
+        m_SubObjectName: device_desynchronizer-on_1
     - sprite: {fileID: 21300004, guid: 8aa7a8862a52e0847a7000e281648023, type: 3}
-      spriteName: desynchronizer-on_2
+      spriteName: device_desynchronizer-on_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: desynchronizer-on_2
+        m_SubObjectName: device_desynchronizer-on_2
     - sprite: {fileID: 21300006, guid: 8aa7a8862a52e0847a7000e281648023, type: 3}
-      spriteName: desynchronizer-on_3
+      spriteName: device_desynchronizer-on_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: desynchronizer-on_3
+        m_SubObjectName: device_desynchronizer-on_3
     - sprite: {fileID: 21300008, guid: 8aa7a8862a52e0847a7000e281648023, type: 3}
-      spriteName: desynchronizer-on_4
+      spriteName: device_desynchronizer-on_4
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: desynchronizer-on_4
+        m_SubObjectName: device_desynchronizer-on_4
   IsPalette: 0
   setID: 6170

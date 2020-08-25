@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: seedling_beam_indicator_0
+    second: seedling_seedling_beam_indicator_0
   - first:
       213: 21300002
-    second: seedling_beam_indicator_1
+    second: seedling_seedling_beam_indicator_1
   - first:
       213: 21300004
-    second: seedling_beam_indicator_2
+    second: seedling_seedling_beam_indicator_2
   - first:
       213: 21300006
-    second: seedling_beam_indicator_3
+    second: seedling_seedling_beam_indicator_3
   - first:
       213: 21300008
-    second: seedling_beam_indicator_4
+    second: seedling_seedling_beam_indicator_4
   - first:
       213: 21300010
-    second: seedling_beam_indicator_5
+    second: seedling_seedling_beam_indicator_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: seedling_beam_indicator_0
+      name: seedling_seedling_beam_indicator_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seedling_beam_indicator_1
+      name: seedling_seedling_beam_indicator_1
       rect:
         serializedVersion: 2
         x: 64
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seedling_beam_indicator_2
+      name: seedling_seedling_beam_indicator_2
       rect:
         serializedVersion: 2
         x: 128
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seedling_beam_indicator_3
+      name: seedling_seedling_beam_indicator_3
       rect:
         serializedVersion: 2
         x: 192
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seedling_beam_indicator_4
+      name: seedling_seedling_beam_indicator_4
       rect:
         serializedVersion: 2
         x: 256
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seedling_beam_indicator_5
+      name: seedling_seedling_beam_indicator_5
       rect:
         serializedVersion: 2
         x: 320

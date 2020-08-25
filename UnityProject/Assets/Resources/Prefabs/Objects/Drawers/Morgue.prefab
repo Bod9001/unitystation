@@ -242,11 +242,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
         type: 3}
-      propertyPath: SubCatalogueAddresses.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
       propertyPath: SubCatalogue.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 07bc0a179fef95440a12da419f0f613f,
@@ -306,36 +301,6 @@ PrefabInstance:
       propertyPath: Sprites.Array.data[4].Texture
       value: 
       objectReference: {fileID: 2800000, guid: 0757f1f988ceba94db25bfb406984659, type: 3}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 07bc0a179fef95440a12da419f0f613f
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[0].m_AssetGUID
-      value: 07bc0a179fef95440a12da419f0f613f
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[1].m_AssetGUID
-      value: 1b5769c2db75cc2489c006203107270d
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[2].m_AssetGUID
-      value: b6c92a8d7cc26e6468460403d68fed78
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[3].m_AssetGUID
-      value: 12cbdeead51b1dc49afae97b84e4dedd
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      propertyPath: SubCatalogueAddresses.Array.data[4].m_AssetGUID
-      value: b414608b6c8c7e74dbce20c71bf2ee42
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebb08cf966efc084aa918bd8d9429604, type: 3}
 --- !u!1 &1876053485803257813 stripped

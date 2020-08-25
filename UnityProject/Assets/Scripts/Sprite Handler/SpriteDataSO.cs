@@ -43,7 +43,20 @@ public class SpriteDataSO : ScriptableObject
 		public void LoadAddressableReference(Action OnCompleteAction)
 		{
 			CompleteReturn = OnCompleteAction;
-			AddressableSpritesHandler.LoadSprite(this, LoadSprite);
+			//AddressableSpritesHandler.LoadSprite(this, LoadSprite);
+			if (TestAddress.RuntimeKey == null) return;
+			if (TestAddress.Asset != null)
+			{
+				LoadSprite(TestAddress.Asset as Sprite);
+				return;
+			}
+
+			TestAddress.LoadAssetAsync().Completed += LoadSprite;
+			// var asyncOperationHandle =
+			// Addressables.LoadAssetAsync<Sprite>(Frame.AtlasUsing + "[" + Frame.spriteName + "]");
+			//You ask why strings and my responses because they need to
+			//optimise the UI because it's a laggy piece of and Is buggy as well
+			//await asyncOperationHandle.Task; // wait for the task to complete before we try to get the result
 		}
 
 		private void LoadSprite(Sprite obj)
@@ -51,17 +64,26 @@ public class SpriteDataSO : ScriptableObject
 			RuntimeSprite = obj;
 			CompleteReturn.Invoke();
 		}
+
+		private void LoadSprite(AsyncOperationHandle<Sprite> obj)
+		{
+			RuntimeSprite = obj.Result;
+			CompleteReturn.Invoke();
+		}
 	}
 
-	private Action FinishLoading;
+	private List<Action> FinishLoading = new List<Action>();
 	private int CompletedSoFar = 0;
 	private int neededToComplete = 0;
+	private bool IsLoading = false;
 
-	public void LoadAddressableReference(Action OnComplete)
+	public void LoadAddressableReference(Action OnComplete = null)
 	{
+		FinishLoading.Add(OnComplete);
+		if (IsLoading) return;
+		IsLoading = true;
 		neededToComplete = 0;
 		CompletedSoFar = 0;
-		FinishLoading = OnComplete;
 
 		foreach (var Varianc in Variance)
 		{
@@ -78,7 +100,15 @@ public class SpriteDataSO : ScriptableObject
 		CompletedSoFar++;
 		if (CompletedSoFar >= neededToComplete)
 		{
-			FinishLoading.Invoke();
+			if (FinishLoading != null)
+			{
+				IsLoading = false;
+				foreach (var Callback in FinishLoading)
+				{
+					Callback?.Invoke();
+				}
+				FinishLoading.Clear();
+			}
 		}
 	}
 
@@ -132,9 +162,11 @@ public class SpriteDataSO : ScriptableObject
 		{
 			foreach (var Frame in Varianc.Frames)
 			{
+				if (Frame.sprite == null) continue;
 				var Stall = AddressableSpritesHandler.FindAtlasContainingSpriteAtlas(Frame.sprite);
 				Frame.TestAddress.SetEditorAsset(Stall);
 				Frame.TestAddress.SetEditorSubObject(Frame.sprite);
+				//Frame.sprite = null;
 			}
 		}
 	}

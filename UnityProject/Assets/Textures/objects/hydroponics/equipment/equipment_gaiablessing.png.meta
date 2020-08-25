@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: gaiablessing_0
+    second: equipment_gaiablessing_0
   - first:
       213: 21300002
-    second: gaiablessing_1
+    second: equipment_gaiablessing_1
   - first:
       213: 21300004
-    second: gaiablessing_2
+    second: equipment_gaiablessing_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gaiablessing_0
+      name: equipment_gaiablessing_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gaiablessing_1
+      name: equipment_gaiablessing_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gaiablessing_2
+      name: equipment_gaiablessing_2
       rect:
         serializedVersion: 2
         x: 64

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: field_dir_0
+    second: Mapping_field_dir_0
   - first:
       213: 21300002
-    second: field_dir_1
+    second: Mapping_field_dir_1
   - first:
       213: 21300004
-    second: field_dir_2
+    second: Mapping_field_dir_2
   - first:
       213: 21300006
-    second: field_dir_3
+    second: Mapping_field_dir_3
   - first:
       213: 21300008
-    second: field_dir_4
+    second: Mapping_field_dir_4
   - first:
       213: 21300010
-    second: field_dir_5
+    second: Mapping_field_dir_5
   - first:
       213: 21300012
-    second: field_dir_6
+    second: Mapping_field_dir_6
   - first:
       213: 21300014
-    second: field_dir_7
+    second: Mapping_field_dir_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: field_dir_0
+      name: Mapping_field_dir_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: field_dir_1
+      name: Mapping_field_dir_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: field_dir_2
+      name: Mapping_field_dir_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: field_dir_3
+      name: Mapping_field_dir_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: field_dir_4
+      name: Mapping_field_dir_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: field_dir_5
+      name: Mapping_field_dir_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: field_dir_6
+      name: Mapping_field_dir_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: field_dir_7
+      name: Mapping_field_dir_7
       rect:
         serializedVersion: 2
         x: 224

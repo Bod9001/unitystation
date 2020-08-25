@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2ab97c41299d361469db96fcb3aa5177, type: 3}
-      spriteName: sec_0
+      spriteName: security_sec_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: sec_0
+        m_SubObjectName: security_sec_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2ab97c41299d361469db96fcb3aa5177, type: 3}
-      spriteName: sec_1
+      spriteName: security_sec_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: sec_1
+        m_SubObjectName: security_sec_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2ab97c41299d361469db96fcb3aa5177, type: 3}
-      spriteName: sec_2
+      spriteName: security_sec_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: sec_2
+        m_SubObjectName: security_sec_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2ab97c41299d361469db96fcb3aa5177, type: 3}
-      spriteName: sec_3
+      spriteName: security_sec_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: sec_3
+        m_SubObjectName: security_sec_3
   IsPalette: 0
   setID: 11661

@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 9dfb6f9495b447a4f864094b7ce55dda, type: 3}
-      spriteName: nucleardisk_0
+      spriteName: module_nucleardisk_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: nucleardisk_0
+        m_SubObjectName: module_nucleardisk_0
     - sprite: {fileID: 21300002, guid: 9dfb6f9495b447a4f864094b7ce55dda, type: 3}
-      spriteName: nucleardisk_1
+      spriteName: module_nucleardisk_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: nucleardisk_1
+        m_SubObjectName: module_nucleardisk_1
   IsPalette: 0
   setID: 21843

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: dce82d9d9e0273f47ace1544704080e2, type: 3}
-      spriteName: jetpack_0
+      spriteName: jetpacks_righthand_jetpack_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: jetpack_0
+        m_SubObjectName: jetpacks_righthand_jetpack_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dce82d9d9e0273f47ace1544704080e2, type: 3}
-      spriteName: jetpack_1
+      spriteName: jetpacks_righthand_jetpack_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: jetpack_1
+        m_SubObjectName: jetpacks_righthand_jetpack_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dce82d9d9e0273f47ace1544704080e2, type: 3}
-      spriteName: jetpack_2
+      spriteName: jetpacks_righthand_jetpack_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: jetpack_2
+        m_SubObjectName: jetpacks_righthand_jetpack_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dce82d9d9e0273f47ace1544704080e2, type: 3}
-      spriteName: jetpack_3
+      spriteName: jetpacks_righthand_jetpack_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: jetpack_3
+        m_SubObjectName: jetpacks_righthand_jetpack_3
   IsPalette: 0
   setID: 10100

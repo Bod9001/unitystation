@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: reappear_0
+    second: abductor_reappear_0
   - first:
       213: 21300002
-    second: reappear_1
+    second: abductor_reappear_1
   - first:
       213: 21300004
-    second: reappear_2
+    second: abductor_reappear_2
   - first:
       213: 21300006
-    second: reappear_3
+    second: abductor_reappear_3
   - first:
       213: 21300008
-    second: reappear_4
+    second: abductor_reappear_4
   - first:
       213: 21300010
-    second: reappear_5
+    second: abductor_reappear_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: reappear_0
+      name: abductor_reappear_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reappear_1
+      name: abductor_reappear_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reappear_2
+      name: abductor_reappear_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reappear_3
+      name: abductor_reappear_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reappear_4
+      name: abductor_reappear_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: reappear_5
+      name: abductor_reappear_5
       rect:
         serializedVersion: 2
         x: 160

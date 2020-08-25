@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bearpelt_0
+    second: head_bearpelt_0
   - first:
       213: 21300002
-    second: bearpelt_1
+    second: head_bearpelt_1
   - first:
       213: 21300004
-    second: bearpelt_2
+    second: head_bearpelt_2
   - first:
       213: 21300006
-    second: bearpelt_3
+    second: head_bearpelt_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bearpelt_0
+      name: head_bearpelt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bearpelt_1
+      name: head_bearpelt_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bearpelt_2
+      name: head_bearpelt_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bearpelt_3
+      name: head_bearpelt_3
       rect:
         serializedVersion: 2
         x: 96

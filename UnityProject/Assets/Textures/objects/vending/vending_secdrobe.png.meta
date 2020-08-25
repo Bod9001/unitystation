@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: secdrobe_0
+    second: vending_secdrobe_0
   - first:
       213: 21300002
-    second: secdrobe_1
+    second: vending_secdrobe_1
   - first:
       213: 21300004
-    second: secdrobe_2
+    second: vending_secdrobe_2
   - first:
       213: 21300006
-    second: secdrobe_3
+    second: vending_secdrobe_3
   - first:
       213: 21300008
-    second: secdrobe_4
+    second: vending_secdrobe_4
   - first:
       213: 21300010
-    second: secdrobe_5
+    second: vending_secdrobe_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: secdrobe_0
+      name: vending_secdrobe_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secdrobe_1
+      name: vending_secdrobe_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secdrobe_2
+      name: vending_secdrobe_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secdrobe_3
+      name: vending_secdrobe_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secdrobe_4
+      name: vending_secdrobe_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: secdrobe_5
+      name: vending_secdrobe_5
       rect:
         serializedVersion: 2
         x: 160

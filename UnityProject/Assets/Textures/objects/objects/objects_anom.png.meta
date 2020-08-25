@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: anom_0
+    second: objects_anom_0
   - first:
       213: 21300002
-    second: anom_1
+    second: objects_anom_1
   - first:
       213: 21300004
-    second: anom_2
+    second: objects_anom_2
   - first:
       213: 21300006
-    second: anom_3
+    second: objects_anom_3
   - first:
       213: 21300008
-    second: anom_4
+    second: objects_anom_4
   - first:
       213: 21300010
-    second: anom_5
+    second: objects_anom_5
   - first:
       213: 21300012
-    second: anom_6
+    second: objects_anom_6
   - first:
       213: 21300014
-    second: anom_7
+    second: objects_anom_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anom_0
+      name: objects_anom_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anom_1
+      name: objects_anom_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anom_2
+      name: objects_anom_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anom_3
+      name: objects_anom_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anom_4
+      name: objects_anom_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anom_5
+      name: objects_anom_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anom_6
+      name: objects_anom_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anom_7
+      name: objects_anom_7
       rect:
         serializedVersion: 2
         x: 224

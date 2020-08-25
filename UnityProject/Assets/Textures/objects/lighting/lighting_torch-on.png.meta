@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: torch-on_0
+    second: lighting_torch-on_0
   - first:
       213: 21300002
-    second: torch-on_1
+    second: lighting_torch-on_1
   - first:
       213: 21300004
-    second: torch-on_2
+    second: lighting_torch-on_2
   - first:
       213: 21300006
-    second: torch-on_3
+    second: lighting_torch-on_3
   - first:
       213: 21300008
-    second: torch-on_4
+    second: lighting_torch-on_4
   - first:
       213: 21300010
-    second: torch-on_5
+    second: lighting_torch-on_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: torch-on_0
+      name: lighting_torch-on_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torch-on_1
+      name: lighting_torch-on_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torch-on_2
+      name: lighting_torch-on_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torch-on_3
+      name: lighting_torch-on_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torch-on_4
+      name: lighting_torch-on_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torch-on_5
+      name: lighting_torch-on_5
       rect:
         serializedVersion: 2
         x: 160

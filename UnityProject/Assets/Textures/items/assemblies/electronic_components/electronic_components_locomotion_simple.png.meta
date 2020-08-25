@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: locomotion_simple_0
+    second: electronic_components_locomotion_simple_0
   - first:
       213: 21300002
-    second: locomotion_simple_1
+    second: electronic_components_locomotion_simple_1
   - first:
       213: 21300004
-    second: locomotion_simple_2
+    second: electronic_components_locomotion_simple_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: locomotion_simple_0
+      name: electronic_components_locomotion_simple_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locomotion_simple_1
+      name: electronic_components_locomotion_simple_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locomotion_simple_2
+      name: electronic_components_locomotion_simple_2
       rect:
         serializedVersion: 2
         x: 64

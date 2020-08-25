@@ -94,17 +94,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 44e54af7ec604c14ebab1fd3191371ab
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 44e54af7ec604c14ebab1fd3191371ab, type: 2}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []
 --- !u!1 &6924189343609244811
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,17 +194,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: cf54f15234f80044b8d9a989aad9992f
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: cf54f15234f80044b8d9a989aad9992f, type: 2}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []
 --- !u!1 &7432434736507954781
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,17 +294,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 44e54af7ec604c14ebab1fd3191371ab
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 44e54af7ec604c14ebab1fd3191371ab, type: 2}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []
 --- !u!1 &7529218331017813773
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,17 +394,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 44e54af7ec604c14ebab1fd3191371ab
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 44e54af7ec604c14ebab1fd3191371ab, type: 2}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []
 --- !u!1 &8874767744086271104
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,17 +494,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: 44e54af7ec604c14ebab1fd3191371ab
-    m_SubObjectName: 
-  SubCatalogueAddresses: []
   NetworkThis: 1
   SubCatalogue: []
   PresentSpriteSet: {fileID: 11400000, guid: 44e54af7ec604c14ebab1fd3191371ab, type: 2}
-  pushTextureOnStartUp: 1
+  Sprites: []
   variantIndex: 0
   palette: []
-  Sprites: []
 --- !u!1001 &103885858032102393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -553,11 +528,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 68ebd48d5895d904f943739d8bb804a3,
         type: 2}
-    - target: {fileID: 4598361863285954486, guid: c456c86d5736aee499478a158376781e,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 68ebd48d5895d904f943739d8bb804a3
-      objectReference: {fileID: 0}
     - target: {fileID: 7523055829715214189, guid: c456c86d5736aee499478a158376781e,
         type: 3}
       propertyPath: m_Sprite

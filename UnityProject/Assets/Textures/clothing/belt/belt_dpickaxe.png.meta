@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: dpickaxe_0
+    second: belt_dpickaxe_0
   - first:
       213: 21300002
-    second: dpickaxe_1
+    second: belt_dpickaxe_1
   - first:
       213: 21300004
-    second: dpickaxe_2
+    second: belt_dpickaxe_2
   - first:
       213: 21300006
-    second: dpickaxe_3
+    second: belt_dpickaxe_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dpickaxe_0
+      name: belt_dpickaxe_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dpickaxe_1
+      name: belt_dpickaxe_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dpickaxe_2
+      name: belt_dpickaxe_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dpickaxe_3
+      name: belt_dpickaxe_3
       rect:
         serializedVersion: 2
         x: 96

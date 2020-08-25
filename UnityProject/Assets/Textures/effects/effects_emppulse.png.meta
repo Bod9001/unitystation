@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: emppulse_0
+    second: effects_emppulse_0
   - first:
       213: 21300002
-    second: emppulse_1
+    second: effects_emppulse_1
   - first:
       213: 21300004
-    second: emppulse_2
+    second: effects_emppulse_2
   - first:
       213: 21300006
-    second: emppulse_3
+    second: effects_emppulse_3
   - first:
       213: 21300008
-    second: emppulse_4
+    second: effects_emppulse_4
   - first:
       213: 21300010
-    second: emppulse_5
+    second: effects_emppulse_5
   - first:
       213: 21300012
-    second: emppulse_6
+    second: effects_emppulse_6
   - first:
       213: 21300014
-    second: emppulse_7
+    second: effects_emppulse_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: emppulse_0
+      name: effects_emppulse_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emppulse_1
+      name: effects_emppulse_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emppulse_2
+      name: effects_emppulse_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emppulse_3
+      name: effects_emppulse_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emppulse_4
+      name: effects_emppulse_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emppulse_5
+      name: effects_emppulse_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emppulse_6
+      name: effects_emppulse_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emppulse_7
+      name: effects_emppulse_7
       rect:
         serializedVersion: 2
         x: 224

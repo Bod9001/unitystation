@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: lights_denied_0
+    second: overlays_lights_denied_0
   - first:
       213: 21300002
-    second: lights_denied_1
+    second: overlays_lights_denied_1
   - first:
       213: 21300004
-    second: lights_denied_2
+    second: overlays_lights_denied_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lights_denied_0
+      name: overlays_lights_denied_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_denied_1
+      name: overlays_lights_denied_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lights_denied_2
+      name: overlays_lights_denied_2
       rect:
         serializedVersion: 2
         x: 64

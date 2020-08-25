@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: hell_0
+    second: drinks_hell_0
   - first:
       213: 21300002
-    second: hell_1
+    second: drinks_hell_1
   - first:
       213: 21300004
-    second: hell_2
+    second: drinks_hell_2
   - first:
       213: 21300006
-    second: hell_3
+    second: drinks_hell_3
   - first:
       213: 21300008
-    second: hell_4
+    second: drinks_hell_4
   - first:
       213: 21300010
-    second: hell_5
+    second: drinks_hell_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hell_0
+      name: drinks_hell_0
       rect:
         serializedVersion: 2
         x: 0
@@ -126,7 +126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell_1
+      name: drinks_hell_1
       rect:
         serializedVersion: 2
         x: 32
@@ -147,7 +147,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell_2
+      name: drinks_hell_2
       rect:
         serializedVersion: 2
         x: 64
@@ -168,7 +168,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell_3
+      name: drinks_hell_3
       rect:
         serializedVersion: 2
         x: 96
@@ -189,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell_4
+      name: drinks_hell_4
       rect:
         serializedVersion: 2
         x: 128
@@ -210,7 +210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell_5
+      name: drinks_hell_5
       rect:
         serializedVersion: 2
         x: 160

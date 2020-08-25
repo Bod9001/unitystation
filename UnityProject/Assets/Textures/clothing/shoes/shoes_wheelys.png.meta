@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: wheelys_0
+    second: shoes_wheelys_0
   - first:
       213: 21300002
-    second: wheelys_1
+    second: shoes_wheelys_1
   - first:
       213: 21300004
-    second: wheelys_2
+    second: shoes_wheelys_2
   - first:
       213: 21300006
-    second: wheelys_3
+    second: shoes_wheelys_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wheelys_0
+      name: shoes_wheelys_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wheelys_1
+      name: shoes_wheelys_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wheelys_2
+      name: shoes_wheelys_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wheelys_3
+      name: shoes_wheelys_3
       rect:
         serializedVersion: 2
         x: 96

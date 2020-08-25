@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: jackhammer_0
+    second: mining_righthand_jackhammer_0
   - first:
       213: 21300002
-    second: jackhammer_1
+    second: mining_righthand_jackhammer_1
   - first:
       213: 21300004
-    second: jackhammer_2
+    second: mining_righthand_jackhammer_2
   - first:
       213: 21300006
-    second: jackhammer_3
+    second: mining_righthand_jackhammer_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jackhammer_0
+      name: mining_righthand_jackhammer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jackhammer_1
+      name: mining_righthand_jackhammer_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jackhammer_2
+      name: mining_righthand_jackhammer_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jackhammer_3
+      name: mining_righthand_jackhammer_3
       rect:
         serializedVersion: 2
         x: 96

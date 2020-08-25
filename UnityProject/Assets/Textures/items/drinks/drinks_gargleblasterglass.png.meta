@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: gargleblasterglass_0
+    second: drinks_gargleblasterglass_0
   - first:
       213: 21300002
-    second: gargleblasterglass_1
+    second: drinks_gargleblasterglass_1
   - first:
       213: 21300004
-    second: gargleblasterglass_2
+    second: drinks_gargleblasterglass_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -96,7 +96,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gargleblasterglass_0
+      name: drinks_gargleblasterglass_0
       rect:
         serializedVersion: 2
         x: 0
@@ -117,7 +117,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gargleblasterglass_1
+      name: drinks_gargleblasterglass_1
       rect:
         serializedVersion: 2
         x: 32
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gargleblasterglass_2
+      name: drinks_gargleblasterglass_2
       rect:
         serializedVersion: 2
         x: 64

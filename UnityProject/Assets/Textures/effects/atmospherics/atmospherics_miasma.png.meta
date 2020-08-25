@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: miasma_0
+    second: atmospherics_miasma_0
   - first:
       213: 21300002
-    second: miasma_1
+    second: atmospherics_miasma_1
   - first:
       213: 21300004
-    second: miasma_2
+    second: atmospherics_miasma_2
   - first:
       213: 21300006
-    second: miasma_3
+    second: atmospherics_miasma_3
   - first:
       213: 21300008
-    second: miasma_4
+    second: atmospherics_miasma_4
   - first:
       213: 21300010
-    second: miasma_5
+    second: atmospherics_miasma_5
   - first:
       213: 21300012
-    second: miasma_6
+    second: atmospherics_miasma_6
   - first:
       213: 21300014
-    second: miasma_7
+    second: atmospherics_miasma_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: miasma_0
+      name: atmospherics_miasma_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miasma_1
+      name: atmospherics_miasma_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miasma_2
+      name: atmospherics_miasma_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miasma_3
+      name: atmospherics_miasma_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miasma_4
+      name: atmospherics_miasma_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miasma_5
+      name: atmospherics_miasma_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miasma_6
+      name: atmospherics_miasma_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miasma_7
+      name: atmospherics_miasma_7
       rect:
         serializedVersion: 2
         x: 224

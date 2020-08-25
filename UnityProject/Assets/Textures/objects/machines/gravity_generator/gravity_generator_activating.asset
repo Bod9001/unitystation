@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5ba7d59e49cd17d4c98c1af33c9c0abe, type: 3}
-      spriteName: activating_0
+      spriteName: gravity_generator_activating_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: activating_0
+        m_SubObjectName: gravity_generator_activating_0
     - sprite: {fileID: 21300002, guid: 5ba7d59e49cd17d4c98c1af33c9c0abe, type: 3}
-      spriteName: activating_1
+      spriteName: gravity_generator_activating_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: activating_1
+        m_SubObjectName: gravity_generator_activating_1
     - sprite: {fileID: 21300004, guid: 5ba7d59e49cd17d4c98c1af33c9c0abe, type: 3}
-      spriteName: activating_2
+      spriteName: gravity_generator_activating_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: activating_2
+        m_SubObjectName: gravity_generator_activating_2
   IsPalette: 0
   setID: 15724

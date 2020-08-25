@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bombcore_0
+    second: assemblies_bombcore_0
   - first:
       213: 21300002
-    second: bombcore_1
+    second: assemblies_bombcore_1
   - first:
       213: 21300004
-    second: bombcore_2
+    second: assemblies_bombcore_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bombcore_0
+      name: assemblies_bombcore_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bombcore_1
+      name: assemblies_bombcore_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bombcore_2
+      name: assemblies_bombcore_2
       rect:
         serializedVersion: 2
         x: 64

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 85b34afbfcb8d6543b875673ff0292b0, type: 3}
-      spriteName: security_0
+      spriteName: belt_righthand_security_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: security_0
+        m_SubObjectName: belt_righthand_security_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 85b34afbfcb8d6543b875673ff0292b0, type: 3}
-      spriteName: security_1
+      spriteName: belt_righthand_security_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: security_1
+        m_SubObjectName: belt_righthand_security_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 85b34afbfcb8d6543b875673ff0292b0, type: 3}
-      spriteName: security_2
+      spriteName: belt_righthand_security_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: security_2
+        m_SubObjectName: belt_righthand_security_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 85b34afbfcb8d6543b875673ff0292b0, type: 3}
-      spriteName: security_3
+      spriteName: belt_righthand_security_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: security_3
+        m_SubObjectName: belt_righthand_security_3
   IsPalette: 0
   setID: 22169

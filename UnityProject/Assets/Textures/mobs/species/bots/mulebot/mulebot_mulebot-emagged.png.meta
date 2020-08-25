@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: mulebot-emagged_0
+    second: mulebot_mulebot-emagged_0
   - first:
       213: 21300002
-    second: mulebot-emagged_1
+    second: mulebot_mulebot-emagged_1
   - first:
       213: 21300004
-    second: mulebot-emagged_2
+    second: mulebot_mulebot-emagged_2
   - first:
       213: 21300006
-    second: mulebot-emagged_3
+    second: mulebot_mulebot-emagged_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mulebot-emagged_0
+      name: mulebot_mulebot-emagged_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mulebot-emagged_1
+      name: mulebot_mulebot-emagged_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mulebot-emagged_2
+      name: mulebot_mulebot-emagged_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mulebot-emagged_3
+      name: mulebot_mulebot-emagged_3
       rect:
         serializedVersion: 2
         x: 96

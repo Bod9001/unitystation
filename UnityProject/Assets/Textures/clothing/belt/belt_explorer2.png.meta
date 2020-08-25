@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: explorer2_0
+    second: belt_explorer2_0
   - first:
       213: 21300002
-    second: explorer2_1
+    second: belt_explorer2_1
   - first:
       213: 21300004
-    second: explorer2_2
+    second: belt_explorer2_2
   - first:
       213: 21300006
-    second: explorer2_3
+    second: belt_explorer2_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: explorer2_0
+      name: belt_explorer2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explorer2_1
+      name: belt_explorer2_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explorer2_2
+      name: belt_explorer2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explorer2_3
+      name: belt_explorer2_3
       rect:
         serializedVersion: 2
         x: 96

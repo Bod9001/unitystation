@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 740c73c734e24884bb6632e7938a95e1, type: 3}
-      spriteName: cold_0
+      spriteName: alerts_cold_0
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cold_0
+        m_SubObjectName: alerts_cold_0
     - sprite: {fileID: 21300002, guid: 740c73c734e24884bb6632e7938a95e1, type: 3}
-      spriteName: cold_1
+      spriteName: alerts_cold_1
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: cold_1
+        m_SubObjectName: alerts_cold_1
   IsPalette: 0
   setID: 3101

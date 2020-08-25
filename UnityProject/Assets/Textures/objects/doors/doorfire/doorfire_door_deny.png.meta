@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: door_deny_0
+    second: doorfire_door_deny_0
   - first:
       213: 21300002
-    second: door_deny_1
+    second: doorfire_door_deny_1
   - first:
       213: 21300004
-    second: door_deny_2
+    second: doorfire_door_deny_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: door_deny_0
+      name: doorfire_door_deny_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_deny_1
+      name: doorfire_door_deny_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_deny_2
+      name: doorfire_door_deny_2
       rect:
         serializedVersion: 2
         x: 64

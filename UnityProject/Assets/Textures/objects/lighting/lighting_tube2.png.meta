@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: tube2_0
+    second: lighting_tube2_0
   - first:
       213: 21300002
-    second: tube2_1
+    second: lighting_tube2_1
   - first:
       213: 21300004
-    second: tube2_2
+    second: lighting_tube2_2
   - first:
       213: 21300006
-    second: tube2_3
+    second: lighting_tube2_3
   - first:
       213: 21300008
-    second: tube2_4
+    second: lighting_tube2_4
   - first:
       213: 21300010
-    second: tube2_5
+    second: lighting_tube2_5
   - first:
       213: 21300012
-    second: tube2_6
+    second: lighting_tube2_6
   - first:
       213: 21300014
-    second: tube2_7
+    second: lighting_tube2_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tube2_0
+      name: lighting_tube2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube2_1
+      name: lighting_tube2_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube2_2
+      name: lighting_tube2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube2_3
+      name: lighting_tube2_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube2_4
+      name: lighting_tube2_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube2_5
+      name: lighting_tube2_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube2_6
+      name: lighting_tube2_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tube2_7
+      name: lighting_tube2_7
       rect:
         serializedVersion: 2
         x: 224

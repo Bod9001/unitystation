@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: cb8208575332b1e4f8cb16bc06cf8cb6, type: 3}
-      spriteName: welder_0
+      spriteName: tools_righthand_welder_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: welder_0
+        m_SubObjectName: tools_righthand_welder_0
   - Frames:
     - sprite: {fileID: 21300002, guid: cb8208575332b1e4f8cb16bc06cf8cb6, type: 3}
-      spriteName: welder_1
+      spriteName: tools_righthand_welder_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: welder_1
+        m_SubObjectName: tools_righthand_welder_1
   - Frames:
     - sprite: {fileID: 21300004, guid: cb8208575332b1e4f8cb16bc06cf8cb6, type: 3}
-      spriteName: welder_2
+      spriteName: tools_righthand_welder_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: welder_2
+        m_SubObjectName: tools_righthand_welder_2
   - Frames:
     - sprite: {fileID: 21300006, guid: cb8208575332b1e4f8cb16bc06cf8cb6, type: 3}
-      spriteName: welder_3
+      spriteName: tools_righthand_welder_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: welder_3
+        m_SubObjectName: tools_righthand_welder_3
   IsPalette: 0
   setID: 22293

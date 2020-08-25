@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -2761387464772835428
-    second: wrench_0
+    second: belt_wrench_0
   - first:
       213: -6843624127758972061
-    second: wrench_1
+    second: belt_wrench_1
   - first:
       213: 8646990562807487276
-    second: wrench_2
+    second: belt_wrench_2
   - first:
       213: -6722577254343177616
-    second: wrench_3
+    second: belt_wrench_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wrench_0
+      name: belt_wrench_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wrench_1
+      name: belt_wrench_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wrench_2
+      name: belt_wrench_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wrench_3
+      name: belt_wrench_3
       rect:
         serializedVersion: 2
         x: 96

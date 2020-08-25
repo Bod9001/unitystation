@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: particle_0
+    second: particle_accelerator_particle_0
   - first:
       213: 21300002
-    second: particle_1
+    second: particle_accelerator_particle_1
   - first:
       213: 21300004
-    second: particle_2
+    second: particle_accelerator_particle_2
   - first:
       213: 21300006
-    second: particle_3
+    second: particle_accelerator_particle_3
   - first:
       213: 21300008
-    second: particle_4
+    second: particle_accelerator_particle_4
   - first:
       213: 21300010
-    second: particle_5
+    second: particle_accelerator_particle_5
   - first:
       213: 21300012
-    second: particle_6
+    second: particle_accelerator_particle_6
   - first:
       213: 21300014
-    second: particle_7
+    second: particle_accelerator_particle_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: particle_0
+      name: particle_accelerator_particle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: particle_1
+      name: particle_accelerator_particle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: particle_2
+      name: particle_accelerator_particle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: particle_3
+      name: particle_accelerator_particle_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: particle_4
+      name: particle_accelerator_particle_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: particle_5
+      name: particle_accelerator_particle_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: particle_6
+      name: particle_accelerator_particle_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: particle_7
+      name: particle_accelerator_particle_7
       rect:
         serializedVersion: 2
         x: 224

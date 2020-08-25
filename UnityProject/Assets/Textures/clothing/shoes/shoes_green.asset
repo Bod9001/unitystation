@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 22d45c99552c7df46843b0b2a42e5b6b, type: 3}
-      spriteName: green_0
+      spriteName: shoes_green_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: green_0
+        m_SubObjectName: shoes_green_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 22d45c99552c7df46843b0b2a42e5b6b, type: 3}
-      spriteName: green_1
+      spriteName: shoes_green_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: green_1
+        m_SubObjectName: shoes_green_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 22d45c99552c7df46843b0b2a42e5b6b, type: 3}
-      spriteName: green_2
+      spriteName: shoes_green_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: green_2
+        m_SubObjectName: shoes_green_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 22d45c99552c7df46843b0b2a42e5b6b, type: 3}
-      spriteName: green_3
+      spriteName: shoes_green_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: green_3
+        m_SubObjectName: shoes_green_3
   IsPalette: 0
   setID: 828

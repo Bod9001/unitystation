@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 3babcbb3d2af2cf4eb5874f4e3dcafb3, type: 3}
-      spriteName: wave4_0
+      spriteName: liquid_wave4_0
       secondDelay: 0.2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wave4_0
+        m_SubObjectName: liquid_wave4_0
     - sprite: {fileID: 21300002, guid: 3babcbb3d2af2cf4eb5874f4e3dcafb3, type: 3}
-      spriteName: wave4_1
+      spriteName: liquid_wave4_1
       secondDelay: 0.2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wave4_1
+        m_SubObjectName: liquid_wave4_1
     - sprite: {fileID: 21300004, guid: 3babcbb3d2af2cf4eb5874f4e3dcafb3, type: 3}
-      spriteName: wave4_2
+      spriteName: liquid_wave4_2
       secondDelay: 0.2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wave4_2
+        m_SubObjectName: liquid_wave4_2
     - sprite: {fileID: 21300006, guid: 3babcbb3d2af2cf4eb5874f4e3dcafb3, type: 3}
-      spriteName: wave4_3
+      spriteName: liquid_wave4_3
       secondDelay: 0.2
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: wave4_3
+        m_SubObjectName: liquid_wave4_3
   IsPalette: 0
   setID: 228

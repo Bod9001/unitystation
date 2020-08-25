@@ -127,11 +127,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1f16cfd4d60476d458706f8f382afadf,
         type: 2}
-    - target: {fileID: 5169367590891271744, guid: eaf8c1f2a0f9374488e16061fd5b4dcd,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 1f16cfd4d60476d458706f8f382afadf
-      objectReference: {fileID: 0}
     - target: {fileID: 7146114630749491127, guid: eaf8c1f2a0f9374488e16061fd5b4dcd,
         type: 3}
       propertyPath: NutritionLevel

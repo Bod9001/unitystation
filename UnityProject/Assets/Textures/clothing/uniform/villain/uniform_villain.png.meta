@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: villain_0
+    second: villain_villain_0
   - first:
       213: 21300002
-    second: villain_1
+    second: villain_villain_1
   - first:
       213: 21300004
-    second: villain_2
+    second: villain_villain_2
   - first:
       213: 21300006
-    second: villain_3
+    second: villain_villain_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: villain_0
+      name: villain_villain_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: villain_1
+      name: villain_villain_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: villain_2
+      name: villain_villain_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: villain_3
+      name: villain_villain_3
       rect:
         serializedVersion: 2
         x: 96

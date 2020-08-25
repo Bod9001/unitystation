@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: fd11304891bb11949944d3be03fe4367, type: 3}
-      spriteName: ai-red_dead_0
+      spriteName: variance_ai-red_dead_0
       secondDelay: 6
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: ai-red_dead_0
+        m_SubObjectName: variance_ai-red_dead_0
     - sprite: {fileID: 21300002, guid: fd11304891bb11949944d3be03fe4367, type: 3}
-      spriteName: ai-red_dead_1
+      spriteName: variance_ai-red_dead_1
       secondDelay: 0.2
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: ai-red_dead_1
+        m_SubObjectName: variance_ai-red_dead_1
     - sprite: {fileID: 21300004, guid: fd11304891bb11949944d3be03fe4367, type: 3}
-      spriteName: ai-red_dead_2
+      spriteName: variance_ai-red_dead_2
       secondDelay: 0.2
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: ai-red_dead_2
+        m_SubObjectName: variance_ai-red_dead_2
     - sprite: {fileID: 21300006, guid: fd11304891bb11949944d3be03fe4367, type: 3}
-      spriteName: ai-red_dead_3
+      spriteName: variance_ai-red_dead_3
       secondDelay: 0.2
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: ai-red_dead_3
+        m_SubObjectName: variance_ai-red_dead_3
   IsPalette: 0
   setID: 11479

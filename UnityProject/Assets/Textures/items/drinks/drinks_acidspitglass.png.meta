@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: acidspitglass_0
+    second: drinks_acidspitglass_0
   - first:
       213: 21300002
-    second: acidspitglass_1
+    second: drinks_acidspitglass_1
   - first:
       213: 21300004
-    second: acidspitglass_2
+    second: drinks_acidspitglass_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -96,7 +96,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: acidspitglass_0
+      name: drinks_acidspitglass_0
       rect:
         serializedVersion: 2
         x: 0
@@ -117,7 +117,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acidspitglass_1
+      name: drinks_acidspitglass_1
       rect:
         serializedVersion: 2
         x: 32
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acidspitglass_2
+      name: drinks_acidspitglass_2
       rect:
         serializedVersion: 2
         x: 64

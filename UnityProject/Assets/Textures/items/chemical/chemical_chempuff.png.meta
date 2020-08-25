@@ -4,64 +4,64 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: chempuff_0
+    second: chemical_chempuff_0
   - first:
       213: 21300002
-    second: chempuff_1
+    second: chemical_chempuff_1
   - first:
       213: 21300004
-    second: chempuff_2
+    second: chemical_chempuff_2
   - first:
       213: 21300006
-    second: chempuff_3
+    second: chemical_chempuff_3
   - first:
       213: 21300008
-    second: chempuff_4
+    second: chemical_chempuff_4
   - first:
       213: 21300010
-    second: chempuff_5
+    second: chemical_chempuff_5
   - first:
       213: 21300012
-    second: chempuff_6
+    second: chemical_chempuff_6
   - first:
       213: 21300014
-    second: chempuff_7
+    second: chemical_chempuff_7
   - first:
       213: 21300016
-    second: chempuff_8
+    second: chemical_chempuff_8
   - first:
       213: 21300018
-    second: chempuff_9
+    second: chemical_chempuff_9
   - first:
       213: 21300020
-    second: chempuff_10
+    second: chemical_chempuff_10
   - first:
       213: 21300022
-    second: chempuff_11
+    second: chemical_chempuff_11
   - first:
       213: 21300024
-    second: chempuff_12
+    second: chemical_chempuff_12
   - first:
       213: 21300026
-    second: chempuff_13
+    second: chemical_chempuff_13
   - first:
       213: 21300028
-    second: chempuff_14
+    second: chemical_chempuff_14
   - first:
       213: 21300030
-    second: chempuff_15
+    second: chemical_chempuff_15
   - first:
       213: 21300032
-    second: chempuff_16
+    second: chemical_chempuff_16
   - first:
       213: 21300034
-    second: chempuff_17
+    second: chemical_chempuff_17
   - first:
       213: 21300036
-    second: chempuff_18
+    second: chemical_chempuff_18
   - first:
       213: 21300038
-    second: chempuff_19
+    second: chemical_chempuff_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -146,7 +146,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chempuff_0
+      name: chemical_chempuff_0
       rect:
         serializedVersion: 2
         x: 0
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_1
+      name: chemical_chempuff_1
       rect:
         serializedVersion: 2
         x: 32
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_2
+      name: chemical_chempuff_2
       rect:
         serializedVersion: 2
         x: 64
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_3
+      name: chemical_chempuff_3
       rect:
         serializedVersion: 2
         x: 96
@@ -230,7 +230,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_4
+      name: chemical_chempuff_4
       rect:
         serializedVersion: 2
         x: 128
@@ -251,7 +251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_5
+      name: chemical_chempuff_5
       rect:
         serializedVersion: 2
         x: 160
@@ -272,7 +272,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_6
+      name: chemical_chempuff_6
       rect:
         serializedVersion: 2
         x: 192
@@ -293,7 +293,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_7
+      name: chemical_chempuff_7
       rect:
         serializedVersion: 2
         x: 224
@@ -314,7 +314,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_8
+      name: chemical_chempuff_8
       rect:
         serializedVersion: 2
         x: 256
@@ -335,7 +335,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_9
+      name: chemical_chempuff_9
       rect:
         serializedVersion: 2
         x: 288
@@ -356,7 +356,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_10
+      name: chemical_chempuff_10
       rect:
         serializedVersion: 2
         x: 320
@@ -377,7 +377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_11
+      name: chemical_chempuff_11
       rect:
         serializedVersion: 2
         x: 352
@@ -398,7 +398,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_12
+      name: chemical_chempuff_12
       rect:
         serializedVersion: 2
         x: 384
@@ -419,7 +419,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_13
+      name: chemical_chempuff_13
       rect:
         serializedVersion: 2
         x: 416
@@ -440,7 +440,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_14
+      name: chemical_chempuff_14
       rect:
         serializedVersion: 2
         x: 448
@@ -461,7 +461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_15
+      name: chemical_chempuff_15
       rect:
         serializedVersion: 2
         x: 480
@@ -482,7 +482,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_16
+      name: chemical_chempuff_16
       rect:
         serializedVersion: 2
         x: 512
@@ -503,7 +503,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_17
+      name: chemical_chempuff_17
       rect:
         serializedVersion: 2
         x: 544
@@ -524,7 +524,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_18
+      name: chemical_chempuff_18
       rect:
         serializedVersion: 2
         x: 576
@@ -545,7 +545,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chempuff_19
+      name: chemical_chempuff_19
       rect:
         serializedVersion: 2
         x: 608

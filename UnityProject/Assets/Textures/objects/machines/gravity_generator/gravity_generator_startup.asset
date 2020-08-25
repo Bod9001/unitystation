@@ -15,74 +15,74 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_0
+      spriteName: gravity_generator_startup_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_0
+        m_SubObjectName: gravity_generator_startup_0
     - sprite: {fileID: 21300002, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_1
+      spriteName: gravity_generator_startup_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_1
+        m_SubObjectName: gravity_generator_startup_1
     - sprite: {fileID: 21300004, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_2
+      spriteName: gravity_generator_startup_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_2
+        m_SubObjectName: gravity_generator_startup_2
     - sprite: {fileID: 21300006, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_3
+      spriteName: gravity_generator_startup_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_3
+        m_SubObjectName: gravity_generator_startup_3
     - sprite: {fileID: 21300008, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_4
+      spriteName: gravity_generator_startup_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_4
+        m_SubObjectName: gravity_generator_startup_4
     - sprite: {fileID: 21300010, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_5
+      spriteName: gravity_generator_startup_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_5
+        m_SubObjectName: gravity_generator_startup_5
     - sprite: {fileID: 21300012, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_6
+      spriteName: gravity_generator_startup_6
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_6
+        m_SubObjectName: gravity_generator_startup_6
     - sprite: {fileID: 21300014, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_7
+      spriteName: gravity_generator_startup_7
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_7
+        m_SubObjectName: gravity_generator_startup_7
     - sprite: {fileID: 21300016, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_8
+      spriteName: gravity_generator_startup_8
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_8
+        m_SubObjectName: gravity_generator_startup_8
     - sprite: {fileID: 21300018, guid: 9a98bc532b8897c4290b624d3de2cb02, type: 3}
-      spriteName: startup_9
+      spriteName: gravity_generator_startup_9
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: startup_9
+        m_SubObjectName: gravity_generator_startup_9
   IsPalette: 0
   setID: 15780

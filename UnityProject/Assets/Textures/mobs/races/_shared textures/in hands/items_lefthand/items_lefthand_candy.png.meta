@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4426662905603550225
-    second: candy_0
+    second: items_lefthand_candy_0
   - first:
       213: -5699859814593153825
-    second: candy_1
+    second: items_lefthand_candy_1
   - first:
       213: -3531859234877362392
-    second: candy_2
+    second: items_lefthand_candy_2
   - first:
       213: -5539223568794658269
-    second: candy_3
+    second: items_lefthand_candy_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: candy_0
+      name: items_lefthand_candy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: candy_1
+      name: items_lefthand_candy_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: candy_2
+      name: items_lefthand_candy_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: candy_3
+      name: items_lefthand_candy_3
       rect:
         serializedVersion: 2
         x: 96

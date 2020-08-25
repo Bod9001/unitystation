@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: alienq_0
-  - first:
-      213: 21300002
-    second: alienq_1
-  - first:
-      213: 21300004
-    second: alienq_2
-  - first:
-      213: 21300006
-    second: alienq_3
-  - first:
-      213: 1712390716968457018
     second: Mob sprites_alienq_0
   - first:
-      213: -916205771387471893
+      213: 21300002
     second: Mob sprites_alienq_1
   - first:
-      213: -7221481357887369191
+      213: 21300004
     second: Mob sprites_alienq_2
   - first:
-      213: -867655553512052890
+      213: 21300006
     second: Mob sprites_alienq_3
+  - first:
+      213: 1712390716968457018
+    second: Mob sprites_Mob sprites_alienq_0
+  - first:
+      213: -916205771387471893
+    second: Mob sprites_Mob sprites_alienq_1
+  - first:
+      213: -7221481357887369191
+    second: Mob sprites_Mob sprites_alienq_2
+  - first:
+      213: -867655553512052890
+    second: Mob sprites_Mob sprites_alienq_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mob sprites_alienq_0
+      name: Mob sprites_Mob sprites_alienq_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mob sprites_alienq_1
+      name: Mob sprites_Mob sprites_alienq_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mob sprites_alienq_2
+      name: Mob sprites_Mob sprites_alienq_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mob sprites_alienq_3
+      name: Mob sprites_Mob sprites_alienq_3
       rect:
         serializedVersion: 2
         x: 192

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f2929cf5d15dc2d45b87204248cc4326, type: 3}
-      spriteName: utility_0
+      spriteName: belt_righthand_utility_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: utility_0
+        m_SubObjectName: belt_righthand_utility_0
   - Frames:
     - sprite: {fileID: 21300002, guid: f2929cf5d15dc2d45b87204248cc4326, type: 3}
-      spriteName: utility_1
+      spriteName: belt_righthand_utility_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: utility_1
+        m_SubObjectName: belt_righthand_utility_1
   - Frames:
     - sprite: {fileID: 21300004, guid: f2929cf5d15dc2d45b87204248cc4326, type: 3}
-      spriteName: utility_2
+      spriteName: belt_righthand_utility_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: utility_2
+        m_SubObjectName: belt_righthand_utility_2
   - Frames:
     - sprite: {fileID: 21300006, guid: f2929cf5d15dc2d45b87204248cc4326, type: 3}
-      spriteName: utility_3
+      spriteName: belt_righthand_utility_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: utility_3
+        m_SubObjectName: belt_righthand_utility_3
   IsPalette: 0
   setID: 22170

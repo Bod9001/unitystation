@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: headset_0
+    second: common headset_headset_0
   - first:
       213: 21300002
-    second: headset_1
+    second: common headset_headset_1
   - first:
       213: 21300004
-    second: headset_2
+    second: common headset_headset_2
   - first:
       213: 21300006
-    second: headset_3
+    second: common headset_headset_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: headset_0
+      name: common headset_headset_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: headset_1
+      name: common headset_headset_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: headset_2
+      name: common headset_headset_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: headset_3
+      name: common headset_headset_3
       rect:
         serializedVersion: 2
         x: 96

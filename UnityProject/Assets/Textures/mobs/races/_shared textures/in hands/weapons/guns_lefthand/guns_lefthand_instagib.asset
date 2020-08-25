@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: dc6d8fad30fed144a91b3aa547eb3485, type: 3}
-      spriteName: instagib_0
+      spriteName: guns_lefthand_instagib_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: instagib_0
+        m_SubObjectName: guns_lefthand_instagib_0
   - Frames:
     - sprite: {fileID: 21300002, guid: dc6d8fad30fed144a91b3aa547eb3485, type: 3}
-      spriteName: instagib_1
+      spriteName: guns_lefthand_instagib_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: instagib_1
+        m_SubObjectName: guns_lefthand_instagib_1
   - Frames:
     - sprite: {fileID: 21300004, guid: dc6d8fad30fed144a91b3aa547eb3485, type: 3}
-      spriteName: instagib_2
+      spriteName: guns_lefthand_instagib_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: instagib_2
+        m_SubObjectName: guns_lefthand_instagib_2
   - Frames:
     - sprite: {fileID: 21300006, guid: dc6d8fad30fed144a91b3aa547eb3485, type: 3}
-      spriteName: instagib_3
+      spriteName: guns_lefthand_instagib_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: instagib_3
+        m_SubObjectName: guns_lefthand_instagib_3
   IsPalette: 0
   setID: 10585

@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c9d2d118981459746bb75e9ea23696d2, type: 3}
-      spriteName: starkist_0
+      spriteName: vending_starkist_0
       secondDelay: 4.9
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: starkist_0
+        m_SubObjectName: vending_starkist_0
     - sprite: {fileID: 21300002, guid: c9d2d118981459746bb75e9ea23696d2, type: 3}
-      spriteName: starkist_1
+      spriteName: vending_starkist_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: starkist_1
+        m_SubObjectName: vending_starkist_1
     - sprite: {fileID: 21300004, guid: c9d2d118981459746bb75e9ea23696d2, type: 3}
-      spriteName: starkist_2
+      spriteName: vending_starkist_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: starkist_2
+        m_SubObjectName: vending_starkist_2
     - sprite: {fileID: 21300006, guid: c9d2d118981459746bb75e9ea23696d2, type: 3}
-      spriteName: starkist_3
+      spriteName: vending_starkist_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: starkist_3
+        m_SubObjectName: vending_starkist_3
   IsPalette: 0
   setID: 17920

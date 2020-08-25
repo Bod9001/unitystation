@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: injector_0
+    second: pipe_item_injector_0
   - first:
       213: 21300002
-    second: injector_1
+    second: pipe_item_injector_1
   - first:
       213: 21300004
-    second: injector_2
+    second: pipe_item_injector_2
   - first:
       213: 21300006
-    second: injector_3
+    second: pipe_item_injector_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: injector_0
+      name: pipe_item_injector_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: injector_1
+      name: pipe_item_injector_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: injector_2
+      name: pipe_item_injector_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: injector_3
+      name: pipe_item_injector_3
       rect:
         serializedVersion: 2
         x: 96

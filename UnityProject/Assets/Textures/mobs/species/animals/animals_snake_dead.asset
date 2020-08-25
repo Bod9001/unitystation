@@ -15,46 +15,46 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 1ac97af979bc3f9408faed4d845388a9, type: 3}
-      spriteName: snake_dead_0
+      spriteName: animals_snake_dead_0
       secondDelay: 0.2
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_dead_0
+        m_SubObjectName: animals_snake_dead_0
     - sprite: {fileID: 21300002, guid: 1ac97af979bc3f9408faed4d845388a9, type: 3}
-      spriteName: snake_dead_1
+      spriteName: animals_snake_dead_1
       secondDelay: 0.03
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_dead_1
+        m_SubObjectName: animals_snake_dead_1
     - sprite: {fileID: 21300004, guid: 1ac97af979bc3f9408faed4d845388a9, type: 3}
-      spriteName: snake_dead_2
+      spriteName: animals_snake_dead_2
       secondDelay: 0.03
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_dead_2
+        m_SubObjectName: animals_snake_dead_2
     - sprite: {fileID: 21300006, guid: 1ac97af979bc3f9408faed4d845388a9, type: 3}
-      spriteName: snake_dead_3
+      spriteName: animals_snake_dead_3
       secondDelay: 0.03
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_dead_3
+        m_SubObjectName: animals_snake_dead_3
     - sprite: {fileID: 21300008, guid: 1ac97af979bc3f9408faed4d845388a9, type: 3}
-      spriteName: snake_dead_4
+      spriteName: animals_snake_dead_4
       secondDelay: 0.03
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_dead_4
+        m_SubObjectName: animals_snake_dead_4
     - sprite: {fileID: 21300010, guid: 1ac97af979bc3f9408faed4d845388a9, type: 3}
-      spriteName: snake_dead_5
+      spriteName: animals_snake_dead_5
       secondDelay: 0.03
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_dead_5
+        m_SubObjectName: animals_snake_dead_5
   IsPalette: 0
   setID: 11903

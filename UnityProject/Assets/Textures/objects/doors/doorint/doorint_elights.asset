@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: d1a7725a89ed824438cc648c98bdd3fb, type: 3}
-      spriteName: elights_0
+      spriteName: doorint_elights_0
       secondDelay: 1.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: elights_0
+        m_SubObjectName: doorint_elights_0
     - sprite: {fileID: 21300002, guid: d1a7725a89ed824438cc648c98bdd3fb, type: 3}
-      spriteName: elights_1
+      spriteName: doorint_elights_1
       secondDelay: 1.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: elights_1
+        m_SubObjectName: doorint_elights_1
   IsPalette: 0
   setID: 14598

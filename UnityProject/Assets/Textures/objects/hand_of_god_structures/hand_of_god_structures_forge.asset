@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 47c0d9b7904bb7c4189ed8c77c026bcd, type: 3}
-      spriteName: forge_0
+      spriteName: hand_of_god_structures_forge_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: forge_0
+        m_SubObjectName: hand_of_god_structures_forge_0
     - sprite: {fileID: 21300002, guid: 47c0d9b7904bb7c4189ed8c77c026bcd, type: 3}
-      spriteName: forge_1
+      spriteName: hand_of_god_structures_forge_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: forge_1
+        m_SubObjectName: hand_of_god_structures_forge_1
     - sprite: {fileID: 21300004, guid: 47c0d9b7904bb7c4189ed8c77c026bcd, type: 3}
-      spriteName: forge_2
+      spriteName: hand_of_god_structures_forge_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: forge_2
+        m_SubObjectName: hand_of_god_structures_forge_2
   IsPalette: 0
   setID: 15085

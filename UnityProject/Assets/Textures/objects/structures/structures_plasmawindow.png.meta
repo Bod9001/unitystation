@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: plasmawindow_0
+    second: structures_plasmawindow_0
   - first:
       213: 21300002
-    second: plasmawindow_1
+    second: structures_plasmawindow_1
   - first:
       213: 21300004
-    second: plasmawindow_2
+    second: structures_plasmawindow_2
   - first:
       213: 21300006
-    second: plasmawindow_3
+    second: structures_plasmawindow_3
   - first:
       213: 21300008
-    second: plasmawindow_4
+    second: structures_plasmawindow_4
   - first:
       213: 21300010
-    second: plasmawindow_5
+    second: structures_plasmawindow_5
   - first:
       213: 21300012
-    second: plasmawindow_6
+    second: structures_plasmawindow_6
   - first:
       213: 21300014
-    second: plasmawindow_7
+    second: structures_plasmawindow_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plasmawindow_0
+      name: structures_plasmawindow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmawindow_1
+      name: structures_plasmawindow_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmawindow_2
+      name: structures_plasmawindow_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmawindow_3
+      name: structures_plasmawindow_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmawindow_4
+      name: structures_plasmawindow_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmawindow_5
+      name: structures_plasmawindow_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmawindow_6
+      name: structures_plasmawindow_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plasmawindow_7
+      name: structures_plasmawindow_7
       rect:
         serializedVersion: 2
         x: 224

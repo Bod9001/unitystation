@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: a40c3eca7e387484ba82dee11ab4ac47, type: 3}
-      spriteName: oxygen_f_0
+      spriteName: oxygen tank_oxygen_f_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: oxygen_f_0
+        m_SubObjectName: oxygen tank_oxygen_f_0
   - Frames:
     - sprite: {fileID: 21300002, guid: a40c3eca7e387484ba82dee11ab4ac47, type: 3}
-      spriteName: oxygen_f_1
+      spriteName: oxygen tank_oxygen_f_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: oxygen_f_1
+        m_SubObjectName: oxygen tank_oxygen_f_1
   - Frames:
     - sprite: {fileID: 21300004, guid: a40c3eca7e387484ba82dee11ab4ac47, type: 3}
-      spriteName: oxygen_f_2
+      spriteName: oxygen tank_oxygen_f_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: oxygen_f_2
+        m_SubObjectName: oxygen tank_oxygen_f_2
   - Frames:
     - sprite: {fileID: 21300006, guid: a40c3eca7e387484ba82dee11ab4ac47, type: 3}
-      spriteName: oxygen_f_3
+      spriteName: oxygen tank_oxygen_f_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: oxygen_f_3
+        m_SubObjectName: oxygen tank_oxygen_f_3
   IsPalette: 0
   setID: 19803

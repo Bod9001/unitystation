@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f436f4db6cac2944faf4b149cc953bfd, type: 3}
-      spriteName: slime_health6_0
+      spriteName: screen_slime_slime_health6_0
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: slime_health6_0
+        m_SubObjectName: screen_slime_slime_health6_0
     - sprite: {fileID: 21300002, guid: f436f4db6cac2944faf4b149cc953bfd, type: 3}
-      spriteName: slime_health6_1
+      spriteName: screen_slime_slime_health6_1
       secondDelay: 0.5
       AtlasUsing: 9
       TestAddress:
         m_AssetGUID: ea8f58c5642b6ea49a1e80f046c78d82
-        m_SubObjectName: slime_health6_1
+        m_SubObjectName: screen_slime_slime_health6_1
   IsPalette: 0
   setID: 3795

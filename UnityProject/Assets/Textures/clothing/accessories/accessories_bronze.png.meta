@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: bronze_0
+    second: accessories_bronze_0
   - first:
       213: 21300002
-    second: bronze_1
+    second: accessories_bronze_1
   - first:
       213: 21300004
-    second: bronze_2
+    second: accessories_bronze_2
   - first:
       213: 21300006
-    second: bronze_3
+    second: accessories_bronze_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bronze_0
+      name: accessories_bronze_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bronze_1
+      name: accessories_bronze_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bronze_2
+      name: accessories_bronze_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bronze_3
+      name: accessories_bronze_3
       rect:
         serializedVersion: 2
         x: 96

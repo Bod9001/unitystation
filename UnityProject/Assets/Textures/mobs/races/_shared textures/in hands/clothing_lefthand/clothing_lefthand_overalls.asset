@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ef873cce674c6e947845795d30587c89, type: 3}
-      spriteName: overalls_0
+      spriteName: clothing_lefthand_overalls_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: overalls_0
+        m_SubObjectName: clothing_lefthand_overalls_0
   - Frames:
     - sprite: {fileID: 21300002, guid: ef873cce674c6e947845795d30587c89, type: 3}
-      spriteName: overalls_1
+      spriteName: clothing_lefthand_overalls_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: overalls_1
+        m_SubObjectName: clothing_lefthand_overalls_1
   - Frames:
     - sprite: {fileID: 21300004, guid: ef873cce674c6e947845795d30587c89, type: 3}
-      spriteName: overalls_2
+      spriteName: clothing_lefthand_overalls_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: overalls_2
+        m_SubObjectName: clothing_lefthand_overalls_2
   - Frames:
     - sprite: {fileID: 21300006, guid: ef873cce674c6e947845795d30587c89, type: 3}
-      spriteName: overalls_3
+      spriteName: clothing_lefthand_overalls_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: overalls_3
+        m_SubObjectName: clothing_lefthand_overalls_3
   IsPalette: 0
   setID: 9948

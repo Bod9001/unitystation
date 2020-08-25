@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: theadminbus_0
+    second: barsigns_theadminbus_0
   - first:
       213: 21300002
-    second: theadminbus_1
+    second: barsigns_theadminbus_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: theadminbus_0
+      name: barsigns_theadminbus_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: theadminbus_1
+      name: barsigns_theadminbus_1
       rect:
         serializedVersion: 2
         x: 64

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 621f49594e8785c418a667f10221b137, type: 3}
-      spriteName: proxy_beam_0
+      spriteName: assemblies_proxy_beam_0
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: proxy_beam_0
+        m_SubObjectName: assemblies_proxy_beam_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 621f49594e8785c418a667f10221b137, type: 3}
-      spriteName: proxy_beam_1
+      spriteName: assemblies_proxy_beam_1
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: proxy_beam_1
+        m_SubObjectName: assemblies_proxy_beam_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 621f49594e8785c418a667f10221b137, type: 3}
-      spriteName: proxy_beam_2
+      spriteName: assemblies_proxy_beam_2
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: proxy_beam_2
+        m_SubObjectName: assemblies_proxy_beam_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 621f49594e8785c418a667f10221b137, type: 3}
-      spriteName: proxy_beam_3
+      spriteName: assemblies_proxy_beam_3
       secondDelay: 0
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: proxy_beam_3
+        m_SubObjectName: assemblies_proxy_beam_3
   IsPalette: 0
   setID: 4733

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: papersack_0
+    second: head_papersack_0
   - first:
       213: 21300002
-    second: papersack_1
+    second: head_papersack_1
   - first:
       213: 21300004
-    second: papersack_2
+    second: head_papersack_2
   - first:
       213: 21300006
-    second: papersack_3
+    second: head_papersack_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: papersack_0
+      name: head_papersack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: papersack_1
+      name: head_papersack_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: papersack_2
+      name: head_papersack_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: papersack_3
+      name: head_papersack_3
       rect:
         serializedVersion: 2
         x: 96

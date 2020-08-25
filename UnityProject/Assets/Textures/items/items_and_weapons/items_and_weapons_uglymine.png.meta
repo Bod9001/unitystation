@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: uglymine_0
+    second: items_and_weapons_uglymine_0
   - first:
       213: 21300002
-    second: uglymine_1
+    second: items_and_weapons_uglymine_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: uglymine_0
+      name: items_and_weapons_uglymine_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: uglymine_1
+      name: items_and_weapons_uglymine_1
       rect:
         serializedVersion: 2
         x: 32

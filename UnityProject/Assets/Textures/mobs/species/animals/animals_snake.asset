@@ -15,119 +15,119 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_0
+      spriteName: animals_snake_0
       secondDelay: 2.5
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_0
+        m_SubObjectName: animals_snake_0
     - sprite: {fileID: 21300008, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_4
+      spriteName: animals_snake_4
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_4
+        m_SubObjectName: animals_snake_4
     - sprite: {fileID: 21300016, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_8
+      spriteName: animals_snake_8
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_8
+        m_SubObjectName: animals_snake_8
     - sprite: {fileID: 21300024, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_12
+      spriteName: animals_snake_12
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_12
+        m_SubObjectName: animals_snake_12
   - Frames:
     - sprite: {fileID: 21300002, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_1
+      spriteName: animals_snake_1
       secondDelay: 2.5
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_1
+        m_SubObjectName: animals_snake_1
     - sprite: {fileID: 21300010, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_5
+      spriteName: animals_snake_5
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_5
+        m_SubObjectName: animals_snake_5
     - sprite: {fileID: 21300018, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_9
+      spriteName: animals_snake_9
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_9
+        m_SubObjectName: animals_snake_9
     - sprite: {fileID: 21300026, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_13
+      spriteName: animals_snake_13
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_13
+        m_SubObjectName: animals_snake_13
   - Frames:
     - sprite: {fileID: 21300004, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_2
+      spriteName: animals_snake_2
       secondDelay: 2.5
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_2
+        m_SubObjectName: animals_snake_2
     - sprite: {fileID: 21300012, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_6
+      spriteName: animals_snake_6
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_6
+        m_SubObjectName: animals_snake_6
     - sprite: {fileID: 21300020, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_10
+      spriteName: animals_snake_10
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_10
+        m_SubObjectName: animals_snake_10
     - sprite: {fileID: 21300028, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_14
+      spriteName: animals_snake_14
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_14
+        m_SubObjectName: animals_snake_14
   - Frames:
     - sprite: {fileID: 21300006, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_3
+      spriteName: animals_snake_3
       secondDelay: 2.5
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_3
+        m_SubObjectName: animals_snake_3
     - sprite: {fileID: 21300014, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_7
+      spriteName: animals_snake_7
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_7
+        m_SubObjectName: animals_snake_7
     - sprite: {fileID: 21300022, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_11
+      spriteName: animals_snake_11
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_11
+        m_SubObjectName: animals_snake_11
     - sprite: {fileID: 21300030, guid: 2ea74600231aed749abb753a4e510f48, type: 3}
-      spriteName: snake_15
+      spriteName: animals_snake_15
       secondDelay: 0.1
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: snake_15
+        m_SubObjectName: animals_snake_15
   IsPalette: 0
   setID: 11902

@@ -15,102 +15,102 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_0
+      spriteName: effects_leftsmack_0
       secondDelay: 0.15
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_0
+        m_SubObjectName: effects_leftsmack_0
     - sprite: {fileID: 21300002, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_1
+      spriteName: effects_leftsmack_1
       secondDelay: 0.03
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_1
+        m_SubObjectName: effects_leftsmack_1
     - sprite: {fileID: 21300004, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_2
+      spriteName: effects_leftsmack_2
       secondDelay: 0.025
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_2
+        m_SubObjectName: effects_leftsmack_2
     - sprite: {fileID: 21300006, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_3
+      spriteName: effects_leftsmack_3
       secondDelay: 0.02
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_3
+        m_SubObjectName: effects_leftsmack_3
     - sprite: {fileID: 21300008, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_4
+      spriteName: effects_leftsmack_4
       secondDelay: 0.015
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_4
+        m_SubObjectName: effects_leftsmack_4
     - sprite: {fileID: 21300010, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_5
+      spriteName: effects_leftsmack_5
       secondDelay: 0.01
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_5
+        m_SubObjectName: effects_leftsmack_5
     - sprite: {fileID: 21300012, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_6
+      spriteName: effects_leftsmack_6
       secondDelay: 0.3
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_6
+        m_SubObjectName: effects_leftsmack_6
     - sprite: {fileID: 21300014, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_7
+      spriteName: effects_leftsmack_7
       secondDelay: 0.03
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_7
+        m_SubObjectName: effects_leftsmack_7
     - sprite: {fileID: 21300016, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_8
+      spriteName: effects_leftsmack_8
       secondDelay: 0.025
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_8
+        m_SubObjectName: effects_leftsmack_8
     - sprite: {fileID: 21300018, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_9
+      spriteName: effects_leftsmack_9
       secondDelay: 0.02
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_9
+        m_SubObjectName: effects_leftsmack_9
     - sprite: {fileID: 21300020, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_10
+      spriteName: effects_leftsmack_10
       secondDelay: 0.015
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_10
+        m_SubObjectName: effects_leftsmack_10
     - sprite: {fileID: 21300022, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_11
+      spriteName: effects_leftsmack_11
       secondDelay: 0.01
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_11
+        m_SubObjectName: effects_leftsmack_11
     - sprite: {fileID: 21300024, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_12
+      spriteName: effects_leftsmack_12
       secondDelay: 0.005
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_12
+        m_SubObjectName: effects_leftsmack_12
     - sprite: {fileID: 21300026, guid: 032c8c2babd6eff4d9744849faab311c, type: 3}
-      spriteName: leftsmack_13
+      spriteName: effects_leftsmack_13
       secondDelay: 0.5
       AtlasUsing: 1
       TestAddress:
         m_AssetGUID: 8cbf3838f58992c4e90c698d86734040
-        m_SubObjectName: leftsmack_13
+        m_SubObjectName: effects_leftsmack_13
   IsPalette: 0
   setID: 11984

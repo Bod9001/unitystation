@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: threemileislandglass_0
+    second: drinks_threemileislandglass_0
   - first:
       213: 21300002
-    second: threemileislandglass_1
+    second: drinks_threemileislandglass_1
   - first:
       213: 21300004
-    second: threemileislandglass_2
+    second: drinks_threemileislandglass_2
   - first:
       213: 21300006
-    second: threemileislandglass_3
+    second: drinks_threemileislandglass_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: threemileislandglass_0
+      name: drinks_threemileislandglass_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: threemileislandglass_1
+      name: drinks_threemileislandglass_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: threemileislandglass_2
+      name: drinks_threemileislandglass_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: threemileislandglass_3
+      name: drinks_threemileislandglass_3
       rect:
         serializedVersion: 2
         x: 96

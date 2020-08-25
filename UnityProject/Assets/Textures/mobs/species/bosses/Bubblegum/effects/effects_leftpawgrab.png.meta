@@ -4,55 +4,55 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: leftpawgrab_0
+    second: effects_leftpawgrab_0
   - first:
       213: 21300002
-    second: leftpawgrab_1
+    second: effects_leftpawgrab_1
   - first:
       213: 21300004
-    second: leftpawgrab_2
+    second: effects_leftpawgrab_2
   - first:
       213: 21300006
-    second: leftpawgrab_3
+    second: effects_leftpawgrab_3
   - first:
       213: 21300008
-    second: leftpawgrab_4
+    second: effects_leftpawgrab_4
   - first:
       213: 21300010
-    second: leftpawgrab_5
+    second: effects_leftpawgrab_5
   - first:
       213: 21300012
-    second: leftpawgrab_6
+    second: effects_leftpawgrab_6
   - first:
       213: 21300014
-    second: leftpawgrab_7
+    second: effects_leftpawgrab_7
   - first:
       213: 21300016
-    second: leftpawgrab_8
+    second: effects_leftpawgrab_8
   - first:
       213: 21300018
-    second: leftpawgrab_9
+    second: effects_leftpawgrab_9
   - first:
       213: 21300020
-    second: leftpawgrab_10
+    second: effects_leftpawgrab_10
   - first:
       213: 21300022
-    second: leftpawgrab_11
+    second: effects_leftpawgrab_11
   - first:
       213: 21300024
-    second: leftpawgrab_12
+    second: effects_leftpawgrab_12
   - first:
       213: 21300026
-    second: leftpawgrab_13
+    second: effects_leftpawgrab_13
   - first:
       213: 21300028
-    second: leftpawgrab_14
+    second: effects_leftpawgrab_14
   - first:
       213: 21300030
-    second: leftpawgrab_15
+    second: effects_leftpawgrab_15
   - first:
       213: 21300032
-    second: leftpawgrab_16
+    second: effects_leftpawgrab_16
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -137,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: leftpawgrab_0
+      name: effects_leftpawgrab_0
       rect:
         serializedVersion: 2
         x: 0
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_1
+      name: effects_leftpawgrab_1
       rect:
         serializedVersion: 2
         x: 32
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_2
+      name: effects_leftpawgrab_2
       rect:
         serializedVersion: 2
         x: 64
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_3
+      name: effects_leftpawgrab_3
       rect:
         serializedVersion: 2
         x: 96
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_4
+      name: effects_leftpawgrab_4
       rect:
         serializedVersion: 2
         x: 128
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_5
+      name: effects_leftpawgrab_5
       rect:
         serializedVersion: 2
         x: 160
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_6
+      name: effects_leftpawgrab_6
       rect:
         serializedVersion: 2
         x: 192
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_7
+      name: effects_leftpawgrab_7
       rect:
         serializedVersion: 2
         x: 224
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_8
+      name: effects_leftpawgrab_8
       rect:
         serializedVersion: 2
         x: 256
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_9
+      name: effects_leftpawgrab_9
       rect:
         serializedVersion: 2
         x: 288
@@ -347,7 +347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_10
+      name: effects_leftpawgrab_10
       rect:
         serializedVersion: 2
         x: 320
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_11
+      name: effects_leftpawgrab_11
       rect:
         serializedVersion: 2
         x: 352
@@ -389,7 +389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_12
+      name: effects_leftpawgrab_12
       rect:
         serializedVersion: 2
         x: 384
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_13
+      name: effects_leftpawgrab_13
       rect:
         serializedVersion: 2
         x: 416
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_14
+      name: effects_leftpawgrab_14
       rect:
         serializedVersion: 2
         x: 448
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_15
+      name: effects_leftpawgrab_15
       rect:
         serializedVersion: 2
         x: 480
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftpawgrab_16
+      name: effects_leftpawgrab_16
       rect:
         serializedVersion: 2
         x: 512

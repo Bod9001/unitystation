@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ca801fbc063f5c64098feb397fb09f40, type: 3}
-      spriteName: plutonium_core_pulse_0
+      spriteName: nuke_tools_plutonium_core_pulse_0
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: plutonium_core_pulse_0
+        m_SubObjectName: nuke_tools_plutonium_core_pulse_0
     - sprite: {fileID: 21300002, guid: ca801fbc063f5c64098feb397fb09f40, type: 3}
-      spriteName: plutonium_core_pulse_1
+      spriteName: nuke_tools_plutonium_core_pulse_1
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: plutonium_core_pulse_1
+        m_SubObjectName: nuke_tools_plutonium_core_pulse_1
     - sprite: {fileID: 21300004, guid: ca801fbc063f5c64098feb397fb09f40, type: 3}
-      spriteName: plutonium_core_pulse_2
+      spriteName: nuke_tools_plutonium_core_pulse_2
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: plutonium_core_pulse_2
+        m_SubObjectName: nuke_tools_plutonium_core_pulse_2
     - sprite: {fileID: 21300006, guid: ca801fbc063f5c64098feb397fb09f40, type: 3}
-      spriteName: plutonium_core_pulse_3
+      spriteName: nuke_tools_plutonium_core_pulse_3
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: plutonium_core_pulse_3
+        m_SubObjectName: nuke_tools_plutonium_core_pulse_3
   IsPalette: 0
   setID: 9526

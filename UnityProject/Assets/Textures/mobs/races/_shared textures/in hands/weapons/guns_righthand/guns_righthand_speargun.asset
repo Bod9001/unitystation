@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 725ba028e8a86ba46911122e97488fb8, type: 3}
-      spriteName: speargun_0
+      spriteName: guns_righthand_speargun_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: speargun_0
+        m_SubObjectName: guns_righthand_speargun_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 725ba028e8a86ba46911122e97488fb8, type: 3}
-      spriteName: speargun_1
+      spriteName: guns_righthand_speargun_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: speargun_1
+        m_SubObjectName: guns_righthand_speargun_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 725ba028e8a86ba46911122e97488fb8, type: 3}
-      spriteName: speargun_2
+      spriteName: guns_righthand_speargun_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: speargun_2
+        m_SubObjectName: guns_righthand_speargun_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 725ba028e8a86ba46911122e97488fb8, type: 3}
-      spriteName: speargun_3
+      spriteName: guns_righthand_speargun_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: speargun_3
+        m_SubObjectName: guns_righthand_speargun_3
   IsPalette: 0
   setID: 10801

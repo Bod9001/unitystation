@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pokertable_1tilethick_0
+    second: structures_pokertable_1tilethick_0
   - first:
       213: 21300002
-    second: pokertable_1tilethick_1
+    second: structures_pokertable_1tilethick_1
   - first:
       213: 21300004
-    second: pokertable_1tilethick_2
+    second: structures_pokertable_1tilethick_2
   - first:
       213: 21300006
-    second: pokertable_1tilethick_3
+    second: structures_pokertable_1tilethick_3
   - first:
       213: 21300008
-    second: pokertable_1tilethick_4
+    second: structures_pokertable_1tilethick_4
   - first:
       213: 21300010
-    second: pokertable_1tilethick_5
+    second: structures_pokertable_1tilethick_5
   - first:
       213: 21300012
-    second: pokertable_1tilethick_6
+    second: structures_pokertable_1tilethick_6
   - first:
       213: 21300014
-    second: pokertable_1tilethick_7
+    second: structures_pokertable_1tilethick_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pokertable_1tilethick_0
+      name: structures_pokertable_1tilethick_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pokertable_1tilethick_1
+      name: structures_pokertable_1tilethick_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pokertable_1tilethick_2
+      name: structures_pokertable_1tilethick_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pokertable_1tilethick_3
+      name: structures_pokertable_1tilethick_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pokertable_1tilethick_4
+      name: structures_pokertable_1tilethick_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pokertable_1tilethick_5
+      name: structures_pokertable_1tilethick_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pokertable_1tilethick_6
+      name: structures_pokertable_1tilethick_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pokertable_1tilethick_7
+      name: structures_pokertable_1tilethick_7
       rect:
         serializedVersion: 2
         x: 224

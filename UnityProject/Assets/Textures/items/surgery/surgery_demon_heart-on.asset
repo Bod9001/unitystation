@@ -15,25 +15,25 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: d2d46b11dfba27746becd4d83d0f4fa9, type: 3}
-      spriteName: demon_heart-on_0
+      spriteName: surgery_demon_heart-on_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: demon_heart-on_0
+        m_SubObjectName: surgery_demon_heart-on_0
     - sprite: {fileID: 21300002, guid: d2d46b11dfba27746becd4d83d0f4fa9, type: 3}
-      spriteName: demon_heart-on_1
+      spriteName: surgery_demon_heart-on_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: demon_heart-on_1
+        m_SubObjectName: surgery_demon_heart-on_1
     - sprite: {fileID: 21300004, guid: d2d46b11dfba27746becd4d83d0f4fa9, type: 3}
-      spriteName: demon_heart-on_2
+      spriteName: surgery_demon_heart-on_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: demon_heart-on_2
+        m_SubObjectName: surgery_demon_heart-on_2
   IsPalette: 0
   setID: 9048

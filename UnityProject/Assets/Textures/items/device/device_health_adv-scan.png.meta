@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 738458295371786043
-    second: health_adv-scan_0
+    second: device_health_adv-scan_0
   - first:
       213: -5158324494068215283
-    second: health_adv-scan_1
+    second: device_health_adv-scan_1
   - first:
       213: 4818093544721387718
-    second: health_adv-scan_2
+    second: device_health_adv-scan_2
   - first:
       213: -5647029085063735291
-    second: health_adv-scan_3
+    second: device_health_adv-scan_3
   - first:
       213: -4298132832372638431
-    second: health_adv-scan_4
+    second: device_health_adv-scan_4
   - first:
       213: 7143516407350680041
-    second: health_adv-scan_5
+    second: device_health_adv-scan_5
   - first:
       213: -708675229228078971
-    second: health_adv-scan_6
+    second: device_health_adv-scan_6
   - first:
       213: 3054002359195888140
-    second: health_adv-scan_7
+    second: device_health_adv-scan_7
   - first:
       213: -3809725202059511308
-    second: health_adv-scan_8
+    second: device_health_adv-scan_8
   - first:
       213: 5830851691902560449
-    second: health_adv-scan_9
+    second: device_health_adv-scan_9
   - first:
       213: -1621352664546623367
-    second: health_adv-scan_10
+    second: device_health_adv-scan_10
   - first:
       213: 1835179247301369152
-    second: health_adv-scan_11
+    second: device_health_adv-scan_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: health_adv-scan_0
+      name: device_health_adv-scan_0
       rect:
         serializedVersion: 2
         x: 0
@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_1
+      name: device_health_adv-scan_1
       rect:
         serializedVersion: 2
         x: 32
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_2
+      name: device_health_adv-scan_2
       rect:
         serializedVersion: 2
         x: 64
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_3
+      name: device_health_adv-scan_3
       rect:
         serializedVersion: 2
         x: 96
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_4
+      name: device_health_adv-scan_4
       rect:
         serializedVersion: 2
         x: 128
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_5
+      name: device_health_adv-scan_5
       rect:
         serializedVersion: 2
         x: 160
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_6
+      name: device_health_adv-scan_6
       rect:
         serializedVersion: 2
         x: 192
@@ -270,7 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_7
+      name: device_health_adv-scan_7
       rect:
         serializedVersion: 2
         x: 224
@@ -291,7 +291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_8
+      name: device_health_adv-scan_8
       rect:
         serializedVersion: 2
         x: 256
@@ -312,7 +312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_9
+      name: device_health_adv-scan_9
       rect:
         serializedVersion: 2
         x: 288
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_10
+      name: device_health_adv-scan_10
       rect:
         serializedVersion: 2
         x: 320
@@ -354,7 +354,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health_adv-scan_11
+      name: device_health_adv-scan_11
       rect:
         serializedVersion: 2
         x: 352

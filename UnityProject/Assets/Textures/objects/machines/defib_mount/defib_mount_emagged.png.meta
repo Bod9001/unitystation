@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: emagged_0
+    second: defib_mount_emagged_0
   - first:
       213: 21300002
-    second: emagged_1
+    second: defib_mount_emagged_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: emagged_0
+      name: defib_mount_emagged_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emagged_1
+      name: defib_mount_emagged_1
       rect:
         serializedVersion: 2
         x: 32

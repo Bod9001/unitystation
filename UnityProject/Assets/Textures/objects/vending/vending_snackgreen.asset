@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 568d0f10051baff4aaccbdd8f521732e, type: 3}
-      spriteName: snackgreen_0
+      spriteName: vending_snackgreen_0
       secondDelay: 1.7
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: snackgreen_0
+        m_SubObjectName: vending_snackgreen_0
     - sprite: {fileID: 21300002, guid: 568d0f10051baff4aaccbdd8f521732e, type: 3}
-      spriteName: snackgreen_1
+      spriteName: vending_snackgreen_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: snackgreen_1
+        m_SubObjectName: vending_snackgreen_1
     - sprite: {fileID: 21300004, guid: 568d0f10051baff4aaccbdd8f521732e, type: 3}
-      spriteName: snackgreen_2
+      spriteName: vending_snackgreen_2
       secondDelay: 0.3
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: snackgreen_2
+        m_SubObjectName: vending_snackgreen_2
     - sprite: {fileID: 21300006, guid: 568d0f10051baff4aaccbdd8f521732e, type: 3}
-      spriteName: snackgreen_3
+      spriteName: vending_snackgreen_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: snackgreen_3
+        m_SubObjectName: vending_snackgreen_3
   IsPalette: 0
   setID: 17894

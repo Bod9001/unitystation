@@ -15,63 +15,63 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: ef7792cd0c5d03a47974c3a8a4038d5e, type: 3}
-      spriteName: comm_0
+      spriteName: computer_comm_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: comm_0
+        m_SubObjectName: computer_comm_0
     - sprite: {fileID: 21300008, guid: ef7792cd0c5d03a47974c3a8a4038d5e, type: 3}
-      spriteName: comm_4
+      spriteName: computer_comm_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: comm_4
+        m_SubObjectName: computer_comm_4
   - Frames:
     - sprite: {fileID: 21300002, guid: ef7792cd0c5d03a47974c3a8a4038d5e, type: 3}
-      spriteName: comm_1
+      spriteName: computer_comm_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: comm_1
+        m_SubObjectName: computer_comm_1
     - sprite: {fileID: 21300010, guid: ef7792cd0c5d03a47974c3a8a4038d5e, type: 3}
-      spriteName: comm_5
+      spriteName: computer_comm_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: comm_5
+        m_SubObjectName: computer_comm_5
   - Frames:
     - sprite: {fileID: 21300004, guid: ef7792cd0c5d03a47974c3a8a4038d5e, type: 3}
-      spriteName: comm_2
+      spriteName: computer_comm_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: comm_2
+        m_SubObjectName: computer_comm_2
     - sprite: {fileID: 21300012, guid: ef7792cd0c5d03a47974c3a8a4038d5e, type: 3}
-      spriteName: comm_6
+      spriteName: computer_comm_6
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: comm_6
+        m_SubObjectName: computer_comm_6
   - Frames:
     - sprite: {fileID: 21300006, guid: ef7792cd0c5d03a47974c3a8a4038d5e, type: 3}
-      spriteName: comm_3
+      spriteName: computer_comm_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: comm_3
+        m_SubObjectName: computer_comm_3
     - sprite: {fileID: 21300014, guid: ef7792cd0c5d03a47974c3a8a4038d5e, type: 3}
-      spriteName: comm_7
+      spriteName: computer_comm_7
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: comm_7
+        m_SubObjectName: computer_comm_7
   IsPalette: 0
   setID: 13389

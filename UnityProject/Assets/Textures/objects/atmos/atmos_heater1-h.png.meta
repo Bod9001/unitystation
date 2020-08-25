@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: heater1-h_0
+    second: atmos_heater1-h_0
   - first:
       213: 21300002
-    second: heater1-h_1
+    second: atmos_heater1-h_1
   - first:
       213: 21300004
-    second: heater1-h_2
+    second: atmos_heater1-h_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heater1-h_0
+      name: atmos_heater1-h_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heater1-h_1
+      name: atmos_heater1-h_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heater1-h_2
+      name: atmos_heater1-h_2
       rect:
         serializedVersion: 2
         x: 64

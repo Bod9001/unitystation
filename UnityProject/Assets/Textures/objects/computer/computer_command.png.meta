@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: command_0
+    second: computer_command_0
   - first:
       213: 21300002
-    second: command_1
+    second: computer_command_1
   - first:
       213: 21300004
-    second: command_2
+    second: computer_command_2
   - first:
       213: 21300006
-    second: command_3
+    second: computer_command_3
   - first:
       213: 21300008
-    second: command_4
+    second: computer_command_4
   - first:
       213: 21300010
-    second: command_5
+    second: computer_command_5
   - first:
       213: 21300012
-    second: command_6
+    second: computer_command_6
   - first:
       213: 21300014
-    second: command_7
+    second: computer_command_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: command_0
+      name: computer_command_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: command_1
+      name: computer_command_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: command_2
+      name: computer_command_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: command_3
+      name: computer_command_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: command_4
+      name: computer_command_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: command_5
+      name: computer_command_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: command_6
+      name: computer_command_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: command_7
+      name: computer_command_7
       rect:
         serializedVersion: 2
         x: 224

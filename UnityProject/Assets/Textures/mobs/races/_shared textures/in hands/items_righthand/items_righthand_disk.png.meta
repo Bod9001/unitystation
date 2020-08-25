@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4734240569840152637
-    second: items_righthand_disk_0
+    second: items_righthand_items_righthand_disk_0
   - first:
       213: 6034469386868336950
-    second: items_righthand_disk_1
+    second: items_righthand_items_righthand_disk_1
   - first:
       213: -4224595894387126317
-    second: items_righthand_disk_2
+    second: items_righthand_items_righthand_disk_2
   - first:
       213: -2078259234986166367
-    second: items_righthand_disk_3
+    second: items_righthand_items_righthand_disk_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: items_righthand_disk_0
+      name: items_righthand_items_righthand_disk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: items_righthand_disk_1
+      name: items_righthand_items_righthand_disk_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: items_righthand_disk_2
+      name: items_righthand_items_righthand_disk_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: items_righthand_disk_3
+      name: items_righthand_items_righthand_disk_3
       rect:
         serializedVersion: 2
         x: 96

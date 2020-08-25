@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 90010cd7e50dafb4f9d2b9553857dc76, type: 3}
-      spriteName: headphones_off_0
+      spriteName: head_headphones_off_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: headphones_off_0
+        m_SubObjectName: head_headphones_off_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 90010cd7e50dafb4f9d2b9553857dc76, type: 3}
-      spriteName: headphones_off_1
+      spriteName: head_headphones_off_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: headphones_off_1
+        m_SubObjectName: head_headphones_off_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 90010cd7e50dafb4f9d2b9553857dc76, type: 3}
-      spriteName: headphones_off_2
+      spriteName: head_headphones_off_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: headphones_off_2
+        m_SubObjectName: head_headphones_off_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 90010cd7e50dafb4f9d2b9553857dc76, type: 3}
-      spriteName: headphones_off_3
+      spriteName: head_headphones_off_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: headphones_off_3
+        m_SubObjectName: head_headphones_off_3
   IsPalette: 0
   setID: 619

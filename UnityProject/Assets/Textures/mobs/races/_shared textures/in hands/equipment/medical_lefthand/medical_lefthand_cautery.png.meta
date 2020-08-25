@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -356785051353283984
-    second: cautery_0
+    second: medical_lefthand_cautery_0
   - first:
       213: 6471721476850278141
-    second: cautery_1
+    second: medical_lefthand_cautery_1
   - first:
       213: -3813766460341089391
-    second: cautery_2
+    second: medical_lefthand_cautery_2
   - first:
       213: 5535178053465914795
-    second: cautery_3
+    second: medical_lefthand_cautery_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cautery_0
+      name: medical_lefthand_cautery_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cautery_1
+      name: medical_lefthand_cautery_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cautery_2
+      name: medical_lefthand_cautery_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cautery_3
+      name: medical_lefthand_cautery_3
       rect:
         serializedVersion: 2
         x: 96

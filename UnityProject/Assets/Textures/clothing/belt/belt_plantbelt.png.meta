@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7842048297433553055
-    second: plantbelt_0
+    second: belt_plantbelt_0
   - first:
       213: -2765572625918260048
-    second: plantbelt_1
+    second: belt_plantbelt_1
   - first:
       213: 101385440324550891
-    second: plantbelt_2
+    second: belt_plantbelt_2
   - first:
       213: 4089047512657116783
-    second: plantbelt_3
+    second: belt_plantbelt_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plantbelt_0
+      name: belt_plantbelt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plantbelt_1
+      name: belt_plantbelt_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plantbelt_2
+      name: belt_plantbelt_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plantbelt_3
+      name: belt_plantbelt_3
       rect:
         serializedVersion: 2
         x: 96

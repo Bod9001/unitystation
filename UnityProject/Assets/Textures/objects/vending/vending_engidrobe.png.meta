@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: engidrobe_0
+    second: vending_engidrobe_0
   - first:
       213: 21300002
-    second: engidrobe_1
+    second: vending_engidrobe_1
   - first:
       213: 21300004
-    second: engidrobe_2
+    second: vending_engidrobe_2
   - first:
       213: 21300006
-    second: engidrobe_3
+    second: vending_engidrobe_3
   - first:
       213: 21300008
-    second: engidrobe_4
+    second: vending_engidrobe_4
   - first:
       213: 21300010
-    second: engidrobe_5
+    second: vending_engidrobe_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: engidrobe_0
+      name: vending_engidrobe_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: engidrobe_1
+      name: vending_engidrobe_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: engidrobe_2
+      name: vending_engidrobe_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: engidrobe_3
+      name: vending_engidrobe_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: engidrobe_4
+      name: vending_engidrobe_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: engidrobe_5
+      name: vending_engidrobe_5
       rect:
         serializedVersion: 2
         x: 160

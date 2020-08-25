@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: hammeron_0
+    second: hammers_lefthand_hammeron_0
   - first:
       213: 21300002
-    second: hammeron_1
+    second: hammers_lefthand_hammeron_1
   - first:
       213: 21300004
-    second: hammeron_2
+    second: hammers_lefthand_hammeron_2
   - first:
       213: 21300006
-    second: hammeron_3
+    second: hammers_lefthand_hammeron_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hammeron_0
+      name: hammers_lefthand_hammeron_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammeron_1
+      name: hammers_lefthand_hammeron_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammeron_2
+      name: hammers_lefthand_hammeron_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammeron_3
+      name: hammers_lefthand_hammeron_3
       rect:
         serializedVersion: 2
         x: 96

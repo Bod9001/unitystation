@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 764d7fb04c8f3aa4a8c35704a26d5290, type: 3}
-      spriteName: kinetic_blast_0
+      spriteName: projectiles_kinetic_blast_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: kinetic_blast_0
+        m_SubObjectName: projectiles_kinetic_blast_0
     - sprite: {fileID: 21300002, guid: 764d7fb04c8f3aa4a8c35704a26d5290, type: 3}
-      spriteName: kinetic_blast_1
+      spriteName: projectiles_kinetic_blast_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: kinetic_blast_1
+        m_SubObjectName: projectiles_kinetic_blast_1
     - sprite: {fileID: 21300004, guid: 764d7fb04c8f3aa4a8c35704a26d5290, type: 3}
-      spriteName: kinetic_blast_2
+      spriteName: projectiles_kinetic_blast_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: kinetic_blast_2
+        m_SubObjectName: projectiles_kinetic_blast_2
     - sprite: {fileID: 21300006, guid: 764d7fb04c8f3aa4a8c35704a26d5290, type: 3}
-      spriteName: kinetic_blast_3
+      spriteName: projectiles_kinetic_blast_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: kinetic_blast_3
+        m_SubObjectName: projectiles_kinetic_blast_3
   IsPalette: 0
   setID: 16619

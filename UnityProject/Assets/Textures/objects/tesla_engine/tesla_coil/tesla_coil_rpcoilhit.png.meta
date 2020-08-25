@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: rpcoilhit_0
+    second: tesla_coil_rpcoilhit_0
   - first:
       213: 21300002
-    second: rpcoilhit_1
+    second: tesla_coil_rpcoilhit_1
   - first:
       213: 21300004
-    second: rpcoilhit_2
+    second: tesla_coil_rpcoilhit_2
   - first:
       213: 21300006
-    second: rpcoilhit_3
+    second: tesla_coil_rpcoilhit_3
   - first:
       213: 21300008
-    second: rpcoilhit_4
+    second: tesla_coil_rpcoilhit_4
   - first:
       213: 21300010
-    second: rpcoilhit_5
+    second: tesla_coil_rpcoilhit_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rpcoilhit_0
+      name: tesla_coil_rpcoilhit_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpcoilhit_1
+      name: tesla_coil_rpcoilhit_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpcoilhit_2
+      name: tesla_coil_rpcoilhit_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpcoilhit_3
+      name: tesla_coil_rpcoilhit_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpcoilhit_4
+      name: tesla_coil_rpcoilhit_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpcoilhit_5
+      name: tesla_coil_rpcoilhit_5
       rect:
         serializedVersion: 2
         x: 160

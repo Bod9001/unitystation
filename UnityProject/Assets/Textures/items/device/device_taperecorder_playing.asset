@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 4b7014d5eb2035846b7707aed6061845, type: 3}
-      spriteName: taperecorder_playing_0
+      spriteName: device_taperecorder_playing_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: taperecorder_playing_0
+        m_SubObjectName: device_taperecorder_playing_0
     - sprite: {fileID: 21300002, guid: 4b7014d5eb2035846b7707aed6061845, type: 3}
-      spriteName: taperecorder_playing_1
+      spriteName: device_taperecorder_playing_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: taperecorder_playing_1
+        m_SubObjectName: device_taperecorder_playing_1
     - sprite: {fileID: 21300004, guid: 4b7014d5eb2035846b7707aed6061845, type: 3}
-      spriteName: taperecorder_playing_2
+      spriteName: device_taperecorder_playing_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: taperecorder_playing_2
+        m_SubObjectName: device_taperecorder_playing_2
     - sprite: {fileID: 21300006, guid: 4b7014d5eb2035846b7707aed6061845, type: 3}
-      spriteName: taperecorder_playing_3
+      spriteName: device_taperecorder_playing_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: taperecorder_playing_3
+        m_SubObjectName: device_taperecorder_playing_3
   IsPalette: 0
   setID: 6298

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: stinger_0
+    second: belt_stinger_0
   - first:
       213: 21300002
-    second: stinger_1
+    second: belt_stinger_1
   - first:
       213: 21300004
-    second: stinger_2
+    second: belt_stinger_2
   - first:
       213: 21300006
-    second: stinger_3
+    second: belt_stinger_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stinger_0
+      name: belt_stinger_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stinger_1
+      name: belt_stinger_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stinger_2
+      name: belt_stinger_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stinger_3
+      name: belt_stinger_3
       rect:
         serializedVersion: 2
         x: 96

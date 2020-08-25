@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sleeper_0
+    second: survival_pod_sleeper_0
   - first:
       213: 21300002
-    second: sleeper_1
+    second: survival_pod_sleeper_1
   - first:
       213: 21300004
-    second: sleeper_2
+    second: survival_pod_sleeper_2
   - first:
       213: 21300006
-    second: sleeper_3
+    second: survival_pod_sleeper_3
   - first:
       213: 21300008
-    second: sleeper_4
+    second: survival_pod_sleeper_4
   - first:
       213: 21300010
-    second: sleeper_5
+    second: survival_pod_sleeper_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sleeper_0
+      name: survival_pod_sleeper_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sleeper_1
+      name: survival_pod_sleeper_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sleeper_2
+      name: survival_pod_sleeper_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sleeper_3
+      name: survival_pod_sleeper_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sleeper_4
+      name: survival_pod_sleeper_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sleeper_5
+      name: survival_pod_sleeper_5
       rect:
         serializedVersion: 2
         x: 160

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7186647468132015367
-    second: detdrobe_0
+    second: vending_detdrobe_0
   - first:
       213: -6306220791294966642
-    second: detdrobe_1
+    second: vending_detdrobe_1
   - first:
       213: -6082626668263232754
-    second: detdrobe_2
+    second: vending_detdrobe_2
   - first:
       213: 4024101216503610453
-    second: detdrobe_3
+    second: vending_detdrobe_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: detdrobe_0
+      name: vending_detdrobe_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: detdrobe_1
+      name: vending_detdrobe_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: detdrobe_2
+      name: vending_detdrobe_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: detdrobe_3
+      name: vending_detdrobe_3
       rect:
         serializedVersion: 2
         x: 96

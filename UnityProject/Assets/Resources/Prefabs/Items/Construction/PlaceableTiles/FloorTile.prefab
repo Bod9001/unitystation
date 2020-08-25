@@ -231,11 +231,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 9e802c2c99d231e4eb3819166e1f6f0f,
         type: 2}
-    - target: {fileID: 2008855533471951948, guid: a435d5d64bc4b48baa27fecfcab9e111,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 9e802c2c99d231e4eb3819166e1f6f0f
-      objectReference: {fileID: 0}
     - target: {fileID: 3004788566835106784, guid: a435d5d64bc4b48baa27fecfcab9e111,
         type: 3}
       propertyPath: waysToPlace.Array.size
@@ -958,17 +953,17 @@ PrefabInstance:
     - target: {fileID: 5209370598559660201, guid: a435d5d64bc4b48baa27fecfcab9e111,
         type: 3}
       propertyPath: initialDescription
-      value: Those could work as a pretty decent throwing weapon.
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209370598559660201, guid: a435d5d64bc4b48baa27fecfcab9e111,
-        type: 3}
-      propertyPath: hitDamage
-      value: 6
+      value: The ground you walk on
       objectReference: {fileID: 0}
     - target: {fileID: 5209370598559660201, guid: a435d5d64bc4b48baa27fecfcab9e111,
         type: 3}
       propertyPath: throwDamage
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209370598559660201, guid: a435d5d64bc4b48baa27fecfcab9e111,
+        type: 3}
+      propertyPath: hitDamage
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5500876317600244887, guid: a435d5d64bc4b48baa27fecfcab9e111,
         type: 3}

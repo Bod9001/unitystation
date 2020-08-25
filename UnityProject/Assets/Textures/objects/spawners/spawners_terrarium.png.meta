@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: terrarium_0
+    second: spawners_terrarium_0
   - first:
       213: 21300002
-    second: terrarium_1
+    second: spawners_terrarium_1
   - first:
       213: 21300004
-    second: terrarium_2
+    second: spawners_terrarium_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: terrarium_0
+      name: spawners_terrarium_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrarium_1
+      name: spawners_terrarium_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrarium_2
+      name: spawners_terrarium_2
       rect:
         serializedVersion: 2
         x: 64

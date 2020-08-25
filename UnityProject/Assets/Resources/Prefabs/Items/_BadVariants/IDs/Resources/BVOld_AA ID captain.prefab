@@ -336,7 +336,7 @@ PrefabInstance:
     - target: {fileID: 2462507587837783305, guid: dd36cfd4f55a00d4ab4190d869297198,
         type: 3}
       propertyPath: m_Name
-      value: BVOld_AA ID captain
+      value: AA ID captain
       objectReference: {fileID: 0}
     - target: {fileID: 2467717211471614077, guid: dd36cfd4f55a00d4ab4190d869297198,
         type: 3}
@@ -416,10 +416,5 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 47f40eae59d64aa489367991d41496bf,
         type: 2}
-    - target: {fileID: 8604842513916024462, guid: dd36cfd4f55a00d4ab4190d869297198,
-        type: 3}
-      propertyPath: PresentSpriteSetAddress.m_AssetGUID
-      value: 47f40eae59d64aa489367991d41496bf
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd36cfd4f55a00d4ab4190d869297198, type: 3}

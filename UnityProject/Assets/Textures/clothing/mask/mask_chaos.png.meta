@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: chaos_0
+    second: mask_chaos_0
   - first:
       213: 21300002
-    second: chaos_1
+    second: mask_chaos_1
   - first:
       213: 21300004
-    second: chaos_2
+    second: mask_chaos_2
   - first:
       213: 21300006
-    second: chaos_3
+    second: mask_chaos_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chaos_0
+      name: mask_chaos_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaos_1
+      name: mask_chaos_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaos_2
+      name: mask_chaos_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chaos_3
+      name: mask_chaos_3
       rect:
         serializedVersion: 2
         x: 96

@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: shield2_0
+    second: Wizard_shield2_0
   - first:
       213: 21300002
-    second: shield2_1
+    second: Wizard_shield2_1
   - first:
       213: 21300004
-    second: shield2_2
+    second: Wizard_shield2_2
   - first:
       213: 21300006
-    second: shield2_3
+    second: Wizard_shield2_3
   - first:
       213: 21300008
-    second: shield2_4
+    second: Wizard_shield2_4
   - first:
       213: 21300010
-    second: shield2_5
+    second: Wizard_shield2_5
   - first:
       213: 21300012
-    second: shield2_6
+    second: Wizard_shield2_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shield2_0
+      name: Wizard_shield2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield2_1
+      name: Wizard_shield2_1
       rect:
         serializedVersion: 2
         x: 32
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield2_2
+      name: Wizard_shield2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield2_3
+      name: Wizard_shield2_3
       rect:
         serializedVersion: 2
         x: 96
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield2_4
+      name: Wizard_shield2_4
       rect:
         serializedVersion: 2
         x: 128
@@ -212,7 +212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield2_5
+      name: Wizard_shield2_5
       rect:
         serializedVersion: 2
         x: 160
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield2_6
+      name: Wizard_shield2_6
       rect:
         serializedVersion: 2
         x: 192

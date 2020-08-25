@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
-      spriteName: shotgun_0
+      spriteName: guns_lefthand_shotgun_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: shotgun_0
+        m_SubObjectName: guns_lefthand_shotgun_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
-      spriteName: shotgun_1
+      spriteName: guns_lefthand_shotgun_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: shotgun_1
+        m_SubObjectName: guns_lefthand_shotgun_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
-      spriteName: shotgun_2
+      spriteName: guns_lefthand_shotgun_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: shotgun_2
+        m_SubObjectName: guns_lefthand_shotgun_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 646e7f22ac40ffb44b34924e79c94488, type: 3}
-      spriteName: shotgun_3
+      spriteName: guns_lefthand_shotgun_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: shotgun_3
+        m_SubObjectName: guns_lefthand_shotgun_3
   IsPalette: 0
   setID: 22416

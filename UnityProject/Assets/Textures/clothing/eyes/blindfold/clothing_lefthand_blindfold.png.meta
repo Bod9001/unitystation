@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: blindfold_0
+    second: blindfold_blindfold_0
   - first:
       213: 21300002
-    second: blindfold_1
+    second: blindfold_blindfold_1
   - first:
       213: 21300004
-    second: blindfold_2
+    second: blindfold_blindfold_2
   - first:
       213: 21300006
-    second: blindfold_3
+    second: blindfold_blindfold_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blindfold_0
+      name: blindfold_blindfold_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blindfold_1
+      name: blindfold_blindfold_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blindfold_2
+      name: blindfold_blindfold_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blindfold_3
+      name: blindfold_blindfold_3
       rect:
         serializedVersion: 2
         x: 96

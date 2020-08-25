@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: extraction_point_0
+    second: fulton_extraction_point_0
   - first:
       213: 21300002
-    second: extraction_point_1
+    second: fulton_extraction_point_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: extraction_point_0
+      name: fulton_extraction_point_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: extraction_point_1
+      name: fulton_extraction_point_1
       rect:
         serializedVersion: 2
         x: 32

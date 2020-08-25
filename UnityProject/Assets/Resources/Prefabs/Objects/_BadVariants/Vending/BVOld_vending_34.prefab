@@ -110,21 +110,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db025f3627a11af4fb670ccd1e2188ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PresentSpriteSetAddress:
-    m_AssetGUID: a7a76bb69a3580c49afd540f51037eda
-    m_SubObjectName: 
-  SubCatalogueAddresses:
-  - m_AssetGUID: a7a76bb69a3580c49afd540f51037eda
-    m_SubObjectName: 
   NetworkThis: 1
   SubCatalogue:
   - {fileID: 11400000, guid: a7a76bb69a3580c49afd540f51037eda, type: 2}
   PresentSpriteSet: {fileID: 11400000, guid: a7a76bb69a3580c49afd540f51037eda, type: 2}
-  pushTextureOnStartUp: 1
-  variantIndex: 0
-  palette: []
   Sprites:
   - Texture: {fileID: 2800000, guid: 0843e617f548ce84fb2bd2f0e1ef58f7, type: 3}
+  variantIndex: 0
+  palette: []
 --- !u!1 &1430744253466650
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,7 +140,7 @@ GameObject:
   - component: {fileID: 7202271844426462295}
   - component: {fileID: -3448077814019289555}
   m_Layer: 11
-  m_Name: BVOld_vending_34
+  m_Name: vending_34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -306,9 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  initialIntegrity: 100
   soundOnHit: 
-  damageDeflection: 0
   Armor:
     Melee: 0
     Bullet: 0
@@ -329,6 +320,7 @@ MonoBehaviour:
     Indestructable: 0
     FreezeProof: 0
   HeatResistance: 100
+  initialIntegrity: 100
 --- !u!114 &114796018723647982
 MonoBehaviour:
   m_ObjectHideFlags: 0

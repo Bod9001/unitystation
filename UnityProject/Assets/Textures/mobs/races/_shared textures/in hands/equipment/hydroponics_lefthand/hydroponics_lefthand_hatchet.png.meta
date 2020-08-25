@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: hatchet_0
+    second: hydroponics_lefthand_hatchet_0
   - first:
       213: 21300002
-    second: hatchet_1
+    second: hydroponics_lefthand_hatchet_1
   - first:
       213: 21300004
-    second: hatchet_2
+    second: hydroponics_lefthand_hatchet_2
   - first:
       213: 21300006
-    second: hatchet_3
+    second: hydroponics_lefthand_hatchet_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hatchet_0
+      name: hydroponics_lefthand_hatchet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hatchet_1
+      name: hydroponics_lefthand_hatchet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hatchet_2
+      name: hydroponics_lefthand_hatchet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hatchet_3
+      name: hydroponics_lefthand_hatchet_3
       rect:
         serializedVersion: 2
         x: 96

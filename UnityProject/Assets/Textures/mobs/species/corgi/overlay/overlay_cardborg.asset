@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: afc23a4609bc29347973cb0ea9c69c05, type: 3}
-      spriteName: cardborg_0
+      spriteName: overlay_cardborg_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: cardborg_0
+        m_SubObjectName: overlay_cardborg_0
   - Frames:
     - sprite: {fileID: 21300002, guid: afc23a4609bc29347973cb0ea9c69c05, type: 3}
-      spriteName: cardborg_1
+      spriteName: overlay_cardborg_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: cardborg_1
+        m_SubObjectName: overlay_cardborg_1
   - Frames:
     - sprite: {fileID: 21300004, guid: afc23a4609bc29347973cb0ea9c69c05, type: 3}
-      spriteName: cardborg_2
+      spriteName: overlay_cardborg_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: cardborg_2
+        m_SubObjectName: overlay_cardborg_2
   - Frames:
     - sprite: {fileID: 21300006, guid: afc23a4609bc29347973cb0ea9c69c05, type: 3}
-      spriteName: cardborg_3
+      spriteName: overlay_cardborg_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: cardborg_3
+        m_SubObjectName: overlay_cardborg_3
   IsPalette: 0
   setID: 12263

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pod_0
+    second: transit_tube_pod_0
   - first:
       213: 21300002
-    second: pod_1
+    second: transit_tube_pod_1
   - first:
       213: 21300004
-    second: pod_2
+    second: transit_tube_pod_2
   - first:
       213: 21300006
-    second: pod_3
+    second: transit_tube_pod_3
   - first:
       213: 21300008
-    second: pod_4
+    second: transit_tube_pod_4
   - first:
       213: 21300010
-    second: pod_5
+    second: transit_tube_pod_5
   - first:
       213: 21300012
-    second: pod_6
+    second: transit_tube_pod_6
   - first:
       213: 21300014
-    second: pod_7
+    second: transit_tube_pod_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pod_0
+      name: transit_tube_pod_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod_1
+      name: transit_tube_pod_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod_2
+      name: transit_tube_pod_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod_3
+      name: transit_tube_pod_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod_4
+      name: transit_tube_pod_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod_5
+      name: transit_tube_pod_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod_6
+      name: transit_tube_pod_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod_7
+      name: transit_tube_pod_7
       rect:
         serializedVersion: 2
         x: 224

@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 99bd94a84e2ed244687b4cc3cca8d3fe, type: 3}
-      spriteName: Gibtonite_active_0
+      spriteName: mining_Gibtonite_active_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: Gibtonite_active_0
+        m_SubObjectName: mining_Gibtonite_active_0
     - sprite: {fileID: 21300002, guid: 99bd94a84e2ed244687b4cc3cca8d3fe, type: 3}
-      spriteName: Gibtonite_active_1
+      spriteName: mining_Gibtonite_active_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: Gibtonite_active_1
+        m_SubObjectName: mining_Gibtonite_active_1
     - sprite: {fileID: 21300004, guid: 99bd94a84e2ed244687b4cc3cca8d3fe, type: 3}
-      spriteName: Gibtonite_active_2
+      spriteName: mining_Gibtonite_active_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: Gibtonite_active_2
+        m_SubObjectName: mining_Gibtonite_active_2
     - sprite: {fileID: 21300006, guid: 99bd94a84e2ed244687b4cc3cca8d3fe, type: 3}
-      spriteName: Gibtonite_active_3
+      spriteName: mining_Gibtonite_active_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: Gibtonite_active_3
+        m_SubObjectName: mining_Gibtonite_active_3
   IsPalette: 0
   setID: 8277

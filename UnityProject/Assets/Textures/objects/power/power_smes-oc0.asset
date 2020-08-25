@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 4135247828c256c4dbd1fdb1a39a2d1b, type: 3}
-      spriteName: smes-oc0_0
+      spriteName: power_smes-oc0_0
       secondDelay: 0.5
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: smes-oc0_0
+        m_SubObjectName: power_smes-oc0_0
     - sprite: {fileID: 21300002, guid: 4135247828c256c4dbd1fdb1a39a2d1b, type: 3}
-      spriteName: smes-oc0_1
+      spriteName: power_smes-oc0_1
       secondDelay: 0.5
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: smes-oc0_1
+        m_SubObjectName: power_smes-oc0_1
   IsPalette: 0
   setID: 16537

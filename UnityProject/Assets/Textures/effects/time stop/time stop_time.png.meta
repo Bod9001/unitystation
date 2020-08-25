@@ -4,34 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: time_0
+    second: time stop_time_0
   - first:
       213: 21300002
-    second: time_1
+    second: time stop_time_1
   - first:
       213: 21300004
-    second: time_2
+    second: time stop_time_2
   - first:
       213: 21300006
-    second: time_3
+    second: time stop_time_3
   - first:
       213: 21300008
-    second: time_4
+    second: time stop_time_4
   - first:
       213: 21300010
-    second: time_5
+    second: time stop_time_5
   - first:
       213: 21300012
-    second: time_6
+    second: time stop_time_6
   - first:
       213: 21300014
-    second: time_7
+    second: time stop_time_7
   - first:
       213: 21300016
-    second: time_8
+    second: time stop_time_8
   - first:
       213: 21300018
-    second: time_9
+    second: time stop_time_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: time_0
+      name: time stop_time_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: time_1
+      name: time stop_time_1
       rect:
         serializedVersion: 2
         x: 160
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: time_2
+      name: time stop_time_2
       rect:
         serializedVersion: 2
         x: 320
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: time_3
+      name: time stop_time_3
       rect:
         serializedVersion: 2
         x: 480
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: time_4
+      name: time stop_time_4
       rect:
         serializedVersion: 2
         x: 640
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: time_5
+      name: time stop_time_5
       rect:
         serializedVersion: 2
         x: 800
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: time_6
+      name: time stop_time_6
       rect:
         serializedVersion: 2
         x: 960
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: time_7
+      name: time stop_time_7
       rect:
         serializedVersion: 2
         x: 1120
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: time_8
+      name: time stop_time_8
       rect:
         serializedVersion: 2
         x: 1280
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: time_9
+      name: time stop_time_9
       rect:
         serializedVersion: 2
         x: 1440

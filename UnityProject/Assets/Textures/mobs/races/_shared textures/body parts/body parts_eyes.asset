@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: e49975726efd3424fb8f0ac02a0c3cae, type: 3}
-      spriteName: eyes_0
+      spriteName: body parts_eyes_0
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: eyes_0
+        m_SubObjectName: body parts_eyes_0
   - Frames:
     - sprite: {fileID: 21300002, guid: e49975726efd3424fb8f0ac02a0c3cae, type: 3}
-      spriteName: eyes_1
+      spriteName: body parts_eyes_1
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: eyes_1
+        m_SubObjectName: body parts_eyes_1
   - Frames:
     - sprite: {fileID: 21300004, guid: e49975726efd3424fb8f0ac02a0c3cae, type: 3}
-      spriteName: eyes_2
+      spriteName: body parts_eyes_2
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: eyes_2
+        m_SubObjectName: body parts_eyes_2
   - Frames:
     - sprite: {fileID: 21300006, guid: e49975726efd3424fb8f0ac02a0c3cae, type: 3}
-      spriteName: eyes_3
+      spriteName: body parts_eyes_3
       secondDelay: 0
       AtlasUsing: 7
       TestAddress:
         m_AssetGUID: f0537beedf952c54586ab37252e12f88
-        m_SubObjectName: eyes_3
+        m_SubObjectName: body parts_eyes_3
   IsPalette: 0
   setID: 21856

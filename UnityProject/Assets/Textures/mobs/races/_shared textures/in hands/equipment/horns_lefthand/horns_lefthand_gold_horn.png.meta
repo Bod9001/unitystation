@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: gold_horn_0
+    second: horns_lefthand_gold_horn_0
   - first:
       213: 21300002
-    second: gold_horn_1
+    second: horns_lefthand_gold_horn_1
   - first:
       213: 21300004
-    second: gold_horn_2
+    second: horns_lefthand_gold_horn_2
   - first:
       213: 21300006
-    second: gold_horn_3
+    second: horns_lefthand_gold_horn_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gold_horn_0
+      name: horns_lefthand_gold_horn_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_horn_1
+      name: horns_lefthand_gold_horn_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_horn_2
+      name: horns_lefthand_gold_horn_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_horn_3
+      name: horns_lefthand_gold_horn_3
       rect:
         serializedVersion: 2
         x: 96

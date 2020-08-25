@@ -4,76 +4,76 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: larva1_0
+    second: mob sprites_larva1_0
   - first:
       213: 21300002
-    second: larva1_1
+    second: mob sprites_larva1_1
   - first:
       213: 21300004
-    second: larva1_2
+    second: mob sprites_larva1_2
   - first:
       213: 21300006
-    second: larva1_3
+    second: mob sprites_larva1_3
   - first:
       213: 21300008
-    second: larva1_4
+    second: mob sprites_larva1_4
   - first:
       213: 21300010
-    second: larva1_5
+    second: mob sprites_larva1_5
   - first:
       213: 21300012
-    second: larva1_6
+    second: mob sprites_larva1_6
   - first:
       213: 21300014
-    second: larva1_7
+    second: mob sprites_larva1_7
   - first:
       213: 21300016
-    second: larva1_8
+    second: mob sprites_larva1_8
   - first:
       213: 21300018
-    second: larva1_9
+    second: mob sprites_larva1_9
   - first:
       213: 21300020
-    second: larva1_10
+    second: mob sprites_larva1_10
   - first:
       213: 21300022
-    second: larva1_11
+    second: mob sprites_larva1_11
   - first:
       213: 21300024
-    second: larva1_12
+    second: mob sprites_larva1_12
   - first:
       213: 21300026
-    second: larva1_13
+    second: mob sprites_larva1_13
   - first:
       213: 21300028
-    second: larva1_14
+    second: mob sprites_larva1_14
   - first:
       213: 21300030
-    second: larva1_15
+    second: mob sprites_larva1_15
   - first:
       213: 21300032
-    second: larva1_16
+    second: mob sprites_larva1_16
   - first:
       213: 21300034
-    second: larva1_17
+    second: mob sprites_larva1_17
   - first:
       213: 21300036
-    second: larva1_18
+    second: mob sprites_larva1_18
   - first:
       213: 21300038
-    second: larva1_19
+    second: mob sprites_larva1_19
   - first:
       213: 21300040
-    second: larva1_20
+    second: mob sprites_larva1_20
   - first:
       213: 21300042
-    second: larva1_21
+    second: mob sprites_larva1_21
   - first:
       213: 21300044
-    second: larva1_22
+    second: mob sprites_larva1_22
   - first:
       213: 21300046
-    second: larva1_23
+    second: mob sprites_larva1_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -158,7 +158,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: larva1_0
+      name: mob sprites_larva1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_1
+      name: mob sprites_larva1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_2
+      name: mob sprites_larva1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_3
+      name: mob sprites_larva1_3
       rect:
         serializedVersion: 2
         x: 96
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_4
+      name: mob sprites_larva1_4
       rect:
         serializedVersion: 2
         x: 128
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_5
+      name: mob sprites_larva1_5
       rect:
         serializedVersion: 2
         x: 160
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_6
+      name: mob sprites_larva1_6
       rect:
         serializedVersion: 2
         x: 192
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_7
+      name: mob sprites_larva1_7
       rect:
         serializedVersion: 2
         x: 224
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_8
+      name: mob sprites_larva1_8
       rect:
         serializedVersion: 2
         x: 256
@@ -347,7 +347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_9
+      name: mob sprites_larva1_9
       rect:
         serializedVersion: 2
         x: 288
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_10
+      name: mob sprites_larva1_10
       rect:
         serializedVersion: 2
         x: 320
@@ -389,7 +389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_11
+      name: mob sprites_larva1_11
       rect:
         serializedVersion: 2
         x: 352
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_12
+      name: mob sprites_larva1_12
       rect:
         serializedVersion: 2
         x: 384
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_13
+      name: mob sprites_larva1_13
       rect:
         serializedVersion: 2
         x: 416
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_14
+      name: mob sprites_larva1_14
       rect:
         serializedVersion: 2
         x: 448
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_15
+      name: mob sprites_larva1_15
       rect:
         serializedVersion: 2
         x: 480
@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_16
+      name: mob sprites_larva1_16
       rect:
         serializedVersion: 2
         x: 512
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_17
+      name: mob sprites_larva1_17
       rect:
         serializedVersion: 2
         x: 544
@@ -536,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_18
+      name: mob sprites_larva1_18
       rect:
         serializedVersion: 2
         x: 576
@@ -557,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_19
+      name: mob sprites_larva1_19
       rect:
         serializedVersion: 2
         x: 608
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_20
+      name: mob sprites_larva1_20
       rect:
         serializedVersion: 2
         x: 640
@@ -599,7 +599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_21
+      name: mob sprites_larva1_21
       rect:
         serializedVersion: 2
         x: 672
@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_22
+      name: mob sprites_larva1_22
       rect:
         serializedVersion: 2
         x: 704
@@ -641,7 +641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: larva1_23
+      name: mob sprites_larva1_23
       rect:
         serializedVersion: 2
         x: 736

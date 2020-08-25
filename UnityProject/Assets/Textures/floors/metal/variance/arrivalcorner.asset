@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 0f086aa821147aa4792bf6585a34b0ab, type: 3}
-      spriteName: arrivalcorner_0
+      spriteName: variance_arrivalcorner_0
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: arrivalcorner_0
+        m_SubObjectName: variance_arrivalcorner_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 0f086aa821147aa4792bf6585a34b0ab, type: 3}
-      spriteName: arrivalcorner_1
+      spriteName: variance_arrivalcorner_1
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: arrivalcorner_1
+        m_SubObjectName: variance_arrivalcorner_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 0f086aa821147aa4792bf6585a34b0ab, type: 3}
-      spriteName: arrivalcorner_2
+      spriteName: variance_arrivalcorner_2
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: arrivalcorner_2
+        m_SubObjectName: variance_arrivalcorner_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 0f086aa821147aa4792bf6585a34b0ab, type: 3}
-      spriteName: arrivalcorner_3
+      spriteName: variance_arrivalcorner_3
       secondDelay: 0
       AtlasUsing: 10
       TestAddress:
         m_AssetGUID: ed2e64bc7dc571a4590cc51067d2f97e
-        m_SubObjectName: arrivalcorner_3
+        m_SubObjectName: variance_arrivalcorner_3
   IsPalette: 0
   setID: 2305

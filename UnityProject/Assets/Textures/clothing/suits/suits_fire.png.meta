@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: fire_0
+    second: suits_fire_0
   - first:
       213: 21300002
-    second: fire_1
+    second: suits_fire_1
   - first:
       213: 21300004
-    second: fire_2
+    second: suits_fire_2
   - first:
       213: 21300006
-    second: fire_3
+    second: suits_fire_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fire_0
+      name: suits_fire_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire_1
+      name: suits_fire_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire_2
+      name: suits_fire_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire_3
+      name: suits_fire_3
       rect:
         serializedVersion: 2
         x: 96

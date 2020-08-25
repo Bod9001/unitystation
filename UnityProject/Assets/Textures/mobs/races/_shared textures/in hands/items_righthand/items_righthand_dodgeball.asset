@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 941b3382c3b8f7b40a36158c4df6ed14, type: 3}
-      spriteName: dodgeball_0
+      spriteName: items_righthand_dodgeball_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: dodgeball_0
+        m_SubObjectName: items_righthand_dodgeball_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 941b3382c3b8f7b40a36158c4df6ed14, type: 3}
-      spriteName: dodgeball_1
+      spriteName: items_righthand_dodgeball_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: dodgeball_1
+        m_SubObjectName: items_righthand_dodgeball_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 941b3382c3b8f7b40a36158c4df6ed14, type: 3}
-      spriteName: dodgeball_2
+      spriteName: items_righthand_dodgeball_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: dodgeball_2
+        m_SubObjectName: items_righthand_dodgeball_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 941b3382c3b8f7b40a36158c4df6ed14, type: 3}
-      spriteName: dodgeball_3
+      spriteName: items_righthand_dodgeball_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: dodgeball_3
+        m_SubObjectName: items_righthand_dodgeball_3
   IsPalette: 0
   setID: 10362

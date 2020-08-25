@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: roomnum_0
+    second: decals_roomnum_0
   - first:
       213: 21300002
-    second: roomnum_1
+    second: decals_roomnum_1
   - first:
       213: 21300004
-    second: roomnum_2
+    second: decals_roomnum_2
   - first:
       213: 21300006
-    second: roomnum_3
+    second: decals_roomnum_3
   - first:
       213: 21300008
-    second: roomnum_4
+    second: decals_roomnum_4
   - first:
       213: 21300010
-    second: roomnum_5
+    second: decals_roomnum_5
   - first:
       213: 21300012
-    second: roomnum_6
+    second: decals_roomnum_6
   - first:
       213: 21300014
-    second: roomnum_7
+    second: decals_roomnum_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: roomnum_0
+      name: decals_roomnum_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roomnum_1
+      name: decals_roomnum_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roomnum_2
+      name: decals_roomnum_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roomnum_3
+      name: decals_roomnum_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roomnum_4
+      name: decals_roomnum_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roomnum_5
+      name: decals_roomnum_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roomnum_6
+      name: decals_roomnum_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roomnum_7
+      name: decals_roomnum_7
       rect:
         serializedVersion: 2
         x: 224

@@ -16,19 +16,19 @@ MonoBehaviour:
   - Frames:
     - sprite: {fileID: 1425557891901988961, guid: 335b50d08b29a444d85b8bf8463b8f57,
         type: 3}
-      spriteName: firelemon_active_0
+      spriteName: harvest_firelemon_active_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: firelemon_active_0
+        m_SubObjectName: harvest_firelemon_active_0
     - sprite: {fileID: 6309590026213393215, guid: 335b50d08b29a444d85b8bf8463b8f57,
         type: 3}
-      spriteName: firelemon_active_1
+      spriteName: harvest_firelemon_active_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: firelemon_active_1
+        m_SubObjectName: harvest_firelemon_active_1
   IsPalette: 0
   setID: 15281

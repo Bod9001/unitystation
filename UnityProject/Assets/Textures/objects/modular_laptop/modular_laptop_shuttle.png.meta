@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: shuttle_0
+    second: modular_laptop_shuttle_0
   - first:
       213: 21300002
-    second: shuttle_1
+    second: modular_laptop_shuttle_1
   - first:
       213: 21300004
-    second: shuttle_2
+    second: modular_laptop_shuttle_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shuttle_0
+      name: modular_laptop_shuttle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shuttle_1
+      name: modular_laptop_shuttle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shuttle_2
+      name: modular_laptop_shuttle_2
       rect:
         serializedVersion: 2
         x: 64

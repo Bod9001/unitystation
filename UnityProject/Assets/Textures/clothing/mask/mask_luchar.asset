@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
-      spriteName: luchar_0
+      spriteName: mask_luchar_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: luchar_0
+        m_SubObjectName: mask_luchar_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
-      spriteName: luchar_1
+      spriteName: mask_luchar_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: luchar_1
+        m_SubObjectName: mask_luchar_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
-      spriteName: luchar_2
+      spriteName: mask_luchar_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: luchar_2
+        m_SubObjectName: mask_luchar_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 62eab051caffb9f4aa66dd214723befc, type: 3}
-      spriteName: luchar_3
+      spriteName: mask_luchar_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: luchar_3
+        m_SubObjectName: mask_luchar_3
   IsPalette: 0
   setID: 771

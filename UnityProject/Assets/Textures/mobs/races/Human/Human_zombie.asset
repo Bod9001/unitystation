@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: fe72ec027397eeb44908ccfb5e87e526, type: 3}
-      spriteName: zombie_0
+      spriteName: Human_zombie_0
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: zombie_0
+        m_SubObjectName: Human_zombie_0
   - Frames:
     - sprite: {fileID: 21300002, guid: fe72ec027397eeb44908ccfb5e87e526, type: 3}
-      spriteName: zombie_1
+      spriteName: Human_zombie_1
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: zombie_1
+        m_SubObjectName: Human_zombie_1
   - Frames:
     - sprite: {fileID: 21300004, guid: fe72ec027397eeb44908ccfb5e87e526, type: 3}
-      spriteName: zombie_2
+      spriteName: Human_zombie_2
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: zombie_2
+        m_SubObjectName: Human_zombie_2
   - Frames:
     - sprite: {fileID: 21300006, guid: fe72ec027397eeb44908ccfb5e87e526, type: 3}
-      spriteName: zombie_3
+      spriteName: Human_zombie_3
       secondDelay: 0
       AtlasUsing: 6
       TestAddress:
         m_AssetGUID: a04fb04be22ad75448ee4c058cc24fae
-        m_SubObjectName: zombie_3
+        m_SubObjectName: Human_zombie_3
   IsPalette: 0
   setID: 11160

@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: gravsnow_corner_0
+    second: connected textures_gravsnow_corner_0
   - first:
       213: 21300002
-    second: gravsnow_corner_1
+    second: connected textures_gravsnow_corner_1
   - first:
       213: 21300004
-    second: gravsnow_corner_2
+    second: connected textures_gravsnow_corner_2
   - first:
       213: 21300006
-    second: gravsnow_corner_3
+    second: connected textures_gravsnow_corner_3
   - first:
       213: 21300008
-    second: gravsnow_corner_4
+    second: connected textures_gravsnow_corner_4
   - first:
       213: 21300010
-    second: gravsnow_corner_5
+    second: connected textures_gravsnow_corner_5
   - first:
       213: 21300012
-    second: gravsnow_corner_6
+    second: connected textures_gravsnow_corner_6
   - first:
       213: 21300014
-    second: gravsnow_corner_7
+    second: connected textures_gravsnow_corner_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gravsnow_corner_0
+      name: connected textures_gravsnow_corner_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gravsnow_corner_1
+      name: connected textures_gravsnow_corner_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gravsnow_corner_2
+      name: connected textures_gravsnow_corner_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gravsnow_corner_3
+      name: connected textures_gravsnow_corner_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gravsnow_corner_4
+      name: connected textures_gravsnow_corner_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gravsnow_corner_5
+      name: connected textures_gravsnow_corner_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gravsnow_corner_6
+      name: connected textures_gravsnow_corner_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gravsnow_corner_7
+      name: connected textures_gravsnow_corner_7
       rect:
         serializedVersion: 2
         x: 224

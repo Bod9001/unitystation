@@ -15,39 +15,39 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 15c688e26b25a1b43bdbd54002072920, type: 3}
-      spriteName: tendril_0
+      spriteName: lava land_tendril_0
       secondDelay: 0.5
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tendril_0
+        m_SubObjectName: lava land_tendril_0
     - sprite: {fileID: 21300002, guid: 15c688e26b25a1b43bdbd54002072920, type: 3}
-      spriteName: tendril_1
+      spriteName: lava land_tendril_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tendril_1
+        m_SubObjectName: lava land_tendril_1
     - sprite: {fileID: 21300004, guid: 15c688e26b25a1b43bdbd54002072920, type: 3}
-      spriteName: tendril_2
+      spriteName: lava land_tendril_2
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tendril_2
+        m_SubObjectName: lava land_tendril_2
     - sprite: {fileID: 21300006, guid: 15c688e26b25a1b43bdbd54002072920, type: 3}
-      spriteName: tendril_3
+      spriteName: lava land_tendril_3
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tendril_3
+        m_SubObjectName: lava land_tendril_3
     - sprite: {fileID: 21300008, guid: 15c688e26b25a1b43bdbd54002072920, type: 3}
-      spriteName: tendril_4
+      spriteName: lava land_tendril_4
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: tendril_4
+        m_SubObjectName: lava land_tendril_4
   IsPalette: 0
   setID: 15498

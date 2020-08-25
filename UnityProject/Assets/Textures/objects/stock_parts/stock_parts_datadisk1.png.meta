@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: datadisk1_0
+    second: stock_parts_datadisk1_0
   - first:
       213: 21300002
-    second: datadisk1_1
+    second: stock_parts_datadisk1_1
   - first:
       213: 21300004
-    second: datadisk1_2
+    second: stock_parts_datadisk1_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: datadisk1_0
+      name: stock_parts_datadisk1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: datadisk1_1
+      name: stock_parts_datadisk1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: datadisk1_2
+      name: stock_parts_datadisk1_2
       rect:
         serializedVersion: 2
         x: 64

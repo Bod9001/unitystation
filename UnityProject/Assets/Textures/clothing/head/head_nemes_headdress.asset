@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c88399e3dfea991449d3a322eebc3dce, type: 3}
-      spriteName: nemes_headdress_0
+      spriteName: head_nemes_headdress_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nemes_headdress_0
+        m_SubObjectName: head_nemes_headdress_0
   - Frames:
     - sprite: {fileID: 21300002, guid: c88399e3dfea991449d3a322eebc3dce, type: 3}
-      spriteName: nemes_headdress_1
+      spriteName: head_nemes_headdress_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nemes_headdress_1
+        m_SubObjectName: head_nemes_headdress_1
   - Frames:
     - sprite: {fileID: 21300004, guid: c88399e3dfea991449d3a322eebc3dce, type: 3}
-      spriteName: nemes_headdress_2
+      spriteName: head_nemes_headdress_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nemes_headdress_2
+        m_SubObjectName: head_nemes_headdress_2
   - Frames:
     - sprite: {fileID: 21300006, guid: c88399e3dfea991449d3a322eebc3dce, type: 3}
-      spriteName: nemes_headdress_3
+      spriteName: head_nemes_headdress_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: nemes_headdress_3
+        m_SubObjectName: head_nemes_headdress_3
   IsPalette: 0
   setID: 656

@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: processor_0
+    second: telecomms_processor_0
   - first:
       213: 21300002
-    second: processor_1
+    second: telecomms_processor_1
   - first:
       213: 21300004
-    second: processor_2
+    second: telecomms_processor_2
   - first:
       213: 21300006
-    second: processor_3
+    second: telecomms_processor_3
   - first:
       213: 21300008
-    second: processor_4
+    second: telecomms_processor_4
   - first:
       213: 21300010
-    second: processor_5
+    second: telecomms_processor_5
   - first:
       213: 21300012
-    second: processor_6
+    second: telecomms_processor_6
   - first:
       213: 21300014
-    second: processor_7
+    second: telecomms_processor_7
   - first:
       213: 21300016
-    second: processor_8
+    second: telecomms_processor_8
   - first:
       213: 21300018
-    second: processor_9
+    second: telecomms_processor_9
   - first:
       213: 21300020
-    second: processor_10
+    second: telecomms_processor_10
   - first:
       213: 21300022
-    second: processor_11
+    second: telecomms_processor_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: processor_0
+      name: telecomms_processor_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_1
+      name: telecomms_processor_1
       rect:
         serializedVersion: 2
         x: 32
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_2
+      name: telecomms_processor_2
       rect:
         serializedVersion: 2
         x: 64
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_3
+      name: telecomms_processor_3
       rect:
         serializedVersion: 2
         x: 96
@@ -206,7 +206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_4
+      name: telecomms_processor_4
       rect:
         serializedVersion: 2
         x: 128
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_5
+      name: telecomms_processor_5
       rect:
         serializedVersion: 2
         x: 160
@@ -248,7 +248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_6
+      name: telecomms_processor_6
       rect:
         serializedVersion: 2
         x: 192
@@ -269,7 +269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_7
+      name: telecomms_processor_7
       rect:
         serializedVersion: 2
         x: 224
@@ -290,7 +290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_8
+      name: telecomms_processor_8
       rect:
         serializedVersion: 2
         x: 256
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_9
+      name: telecomms_processor_9
       rect:
         serializedVersion: 2
         x: 288
@@ -332,7 +332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_10
+      name: telecomms_processor_10
       rect:
         serializedVersion: 2
         x: 320
@@ -353,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: processor_11
+      name: telecomms_processor_11
       rect:
         serializedVersion: 2
         x: 352

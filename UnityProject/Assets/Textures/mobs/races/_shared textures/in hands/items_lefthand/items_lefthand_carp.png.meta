@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -8720549234139205794
-    second: carp_0
+    second: items_lefthand_carp_0
   - first:
       213: -7831019203310980392
-    second: carp_1
+    second: items_lefthand_carp_1
   - first:
       213: 8926052538036840028
-    second: carp_2
+    second: items_lefthand_carp_2
   - first:
       213: 1227128927980828546
-    second: carp_3
+    second: items_lefthand_carp_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: carp_0
+      name: items_lefthand_carp_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: carp_1
+      name: items_lefthand_carp_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: carp_2
+      name: items_lefthand_carp_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: carp_3
+      name: items_lefthand_carp_3
       rect:
         serializedVersion: 2
         x: 96

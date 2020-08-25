@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: animate_largebins_0
+    second: crates_animate_largebins_0
   - first:
       213: 21300002
-    second: animate_largebins_1
+    second: crates_animate_largebins_1
   - first:
       213: 21300004
-    second: animate_largebins_2
+    second: crates_animate_largebins_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: animate_largebins_0
+      name: crates_animate_largebins_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animate_largebins_1
+      name: crates_animate_largebins_1
       rect:
         serializedVersion: 2
         x: 32
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animate_largebins_2
+      name: crates_animate_largebins_2
       rect:
         serializedVersion: 2
         x: 64

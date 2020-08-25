@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 9549affdc09f82f4790d437aca170d58, type: 3}
-      spriteName: freezer_0
+      spriteName: thermomachine_freezer_0
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: freezer_0
+        m_SubObjectName: thermomachine_freezer_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 9549affdc09f82f4790d437aca170d58, type: 3}
-      spriteName: freezer_1
+      spriteName: thermomachine_freezer_1
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: freezer_1
+        m_SubObjectName: thermomachine_freezer_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 9549affdc09f82f4790d437aca170d58, type: 3}
-      spriteName: freezer_2
+      spriteName: thermomachine_freezer_2
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: freezer_2
+        m_SubObjectName: thermomachine_freezer_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 9549affdc09f82f4790d437aca170d58, type: 3}
-      spriteName: freezer_3
+      spriteName: thermomachine_freezer_3
       secondDelay: 0
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: freezer_3
+        m_SubObjectName: thermomachine_freezer_3
   IsPalette: 0
   setID: 12967

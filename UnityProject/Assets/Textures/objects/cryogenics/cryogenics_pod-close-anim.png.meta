@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pod-close-anim_0
+    second: cryogenics_pod-close-anim_0
   - first:
       213: 21300002
-    second: pod-close-anim_1
+    second: cryogenics_pod-close-anim_1
   - first:
       213: 21300004
-    second: pod-close-anim_2
+    second: cryogenics_pod-close-anim_2
   - first:
       213: 21300006
-    second: pod-close-anim_3
+    second: cryogenics_pod-close-anim_3
   - first:
       213: 21300008
-    second: pod-close-anim_4
+    second: cryogenics_pod-close-anim_4
   - first:
       213: 21300010
-    second: pod-close-anim_5
+    second: cryogenics_pod-close-anim_5
   - first:
       213: 21300012
-    second: pod-close-anim_6
+    second: cryogenics_pod-close-anim_6
   - first:
       213: 21300014
-    second: pod-close-anim_7
+    second: cryogenics_pod-close-anim_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pod-close-anim_0
+      name: cryogenics_pod-close-anim_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod-close-anim_1
+      name: cryogenics_pod-close-anim_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod-close-anim_2
+      name: cryogenics_pod-close-anim_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod-close-anim_3
+      name: cryogenics_pod-close-anim_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod-close-anim_4
+      name: cryogenics_pod-close-anim_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod-close-anim_5
+      name: cryogenics_pod-close-anim_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod-close-anim_6
+      name: cryogenics_pod-close-anim_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pod-close-anim_7
+      name: cryogenics_pod-close-anim_7
       rect:
         serializedVersion: 2
         x: 224

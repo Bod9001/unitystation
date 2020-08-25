@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: lavastaff_0
+    second: projectiles_lavastaff_0
   - first:
       213: 21300002
-    second: lavastaff_1
+    second: projectiles_lavastaff_1
   - first:
       213: 21300004
-    second: lavastaff_2
+    second: projectiles_lavastaff_2
   - first:
       213: 21300006
-    second: lavastaff_3
+    second: projectiles_lavastaff_3
   - first:
       213: 21300008
-    second: lavastaff_4
+    second: projectiles_lavastaff_4
   - first:
       213: 21300010
-    second: lavastaff_5
+    second: projectiles_lavastaff_5
   - first:
       213: 21300012
-    second: lavastaff_6
+    second: projectiles_lavastaff_6
   - first:
       213: 21300014
-    second: lavastaff_7
+    second: projectiles_lavastaff_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lavastaff_0
+      name: projectiles_lavastaff_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavastaff_1
+      name: projectiles_lavastaff_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavastaff_2
+      name: projectiles_lavastaff_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavastaff_3
+      name: projectiles_lavastaff_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavastaff_4
+      name: projectiles_lavastaff_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavastaff_5
+      name: projectiles_lavastaff_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavastaff_6
+      name: projectiles_lavastaff_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavastaff_7
+      name: projectiles_lavastaff_7
       rect:
         serializedVersion: 2
         x: 224

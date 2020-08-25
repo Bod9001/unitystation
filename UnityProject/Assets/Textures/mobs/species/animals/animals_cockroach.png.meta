@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cockroach_0
+    second: animals_cockroach_0
   - first:
       213: 21300002
-    second: cockroach_1
+    second: animals_cockroach_1
   - first:
       213: 21300004
-    second: cockroach_2
+    second: animals_cockroach_2
   - first:
       213: 21300006
-    second: cockroach_3
+    second: animals_cockroach_3
   - first:
       213: 21300008
-    second: cockroach_4
+    second: animals_cockroach_4
   - first:
       213: 21300010
-    second: cockroach_5
+    second: animals_cockroach_5
   - first:
       213: 21300012
-    second: cockroach_6
+    second: animals_cockroach_6
   - first:
       213: 21300014
-    second: cockroach_7
+    second: animals_cockroach_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cockroach_0
+      name: animals_cockroach_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_1
+      name: animals_cockroach_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_2
+      name: animals_cockroach_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_3
+      name: animals_cockroach_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_4
+      name: animals_cockroach_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_5
+      name: animals_cockroach_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_6
+      name: animals_cockroach_6
       rect:
         serializedVersion: 2
         x: 192
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockroach_7
+      name: animals_cockroach_7
       rect:
         serializedVersion: 2
         x: 224

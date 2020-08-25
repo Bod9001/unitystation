@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: lockdown_0
+    second: status_display_lockdown_0
   - first:
       213: 21300002
-    second: lockdown_1
+    second: status_display_lockdown_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lockdown_0
+      name: status_display_lockdown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lockdown_1
+      name: status_display_lockdown_1
       rect:
         serializedVersion: 2
         x: 32

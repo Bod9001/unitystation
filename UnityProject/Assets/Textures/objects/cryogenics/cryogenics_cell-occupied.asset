@@ -15,147 +15,147 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_0
+      spriteName: cryogenics_cell-occupied_0
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_0
+        m_SubObjectName: cryogenics_cell-occupied_0
     - sprite: {fileID: 21300008, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_4
+      spriteName: cryogenics_cell-occupied_4
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_4
+        m_SubObjectName: cryogenics_cell-occupied_4
     - sprite: {fileID: 21300016, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_8
+      spriteName: cryogenics_cell-occupied_8
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_8
+        m_SubObjectName: cryogenics_cell-occupied_8
     - sprite: {fileID: 21300024, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_12
+      spriteName: cryogenics_cell-occupied_12
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_12
+        m_SubObjectName: cryogenics_cell-occupied_12
     - sprite: {fileID: 21300032, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_16
+      spriteName: cryogenics_cell-occupied_16
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_16
+        m_SubObjectName: cryogenics_cell-occupied_16
   - Frames:
     - sprite: {fileID: 21300002, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_1
+      spriteName: cryogenics_cell-occupied_1
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_1
+        m_SubObjectName: cryogenics_cell-occupied_1
     - sprite: {fileID: 21300010, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_5
+      spriteName: cryogenics_cell-occupied_5
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_5
+        m_SubObjectName: cryogenics_cell-occupied_5
     - sprite: {fileID: 21300018, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_9
+      spriteName: cryogenics_cell-occupied_9
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_9
+        m_SubObjectName: cryogenics_cell-occupied_9
     - sprite: {fileID: 21300026, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_13
+      spriteName: cryogenics_cell-occupied_13
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_13
+        m_SubObjectName: cryogenics_cell-occupied_13
     - sprite: {fileID: 21300034, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_17
+      spriteName: cryogenics_cell-occupied_17
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_17
+        m_SubObjectName: cryogenics_cell-occupied_17
   - Frames:
     - sprite: {fileID: 21300004, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_2
+      spriteName: cryogenics_cell-occupied_2
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_2
+        m_SubObjectName: cryogenics_cell-occupied_2
     - sprite: {fileID: 21300012, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_6
+      spriteName: cryogenics_cell-occupied_6
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_6
+        m_SubObjectName: cryogenics_cell-occupied_6
     - sprite: {fileID: 21300020, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_10
+      spriteName: cryogenics_cell-occupied_10
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_10
+        m_SubObjectName: cryogenics_cell-occupied_10
     - sprite: {fileID: 21300028, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_14
+      spriteName: cryogenics_cell-occupied_14
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_14
+        m_SubObjectName: cryogenics_cell-occupied_14
     - sprite: {fileID: 21300036, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_18
+      spriteName: cryogenics_cell-occupied_18
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_18
+        m_SubObjectName: cryogenics_cell-occupied_18
   - Frames:
     - sprite: {fileID: 21300006, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_3
+      spriteName: cryogenics_cell-occupied_3
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_3
+        m_SubObjectName: cryogenics_cell-occupied_3
     - sprite: {fileID: 21300014, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_7
+      spriteName: cryogenics_cell-occupied_7
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_7
+        m_SubObjectName: cryogenics_cell-occupied_7
     - sprite: {fileID: 21300022, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_11
+      spriteName: cryogenics_cell-occupied_11
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_11
+        m_SubObjectName: cryogenics_cell-occupied_11
     - sprite: {fileID: 21300030, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_15
+      spriteName: cryogenics_cell-occupied_15
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_15
+        m_SubObjectName: cryogenics_cell-occupied_15
     - sprite: {fileID: 21300038, guid: eefe3611dc5f89a47a0c36d7e13c5991, type: 3}
-      spriteName: cell-occupied_19
+      spriteName: cryogenics_cell-occupied_19
       secondDelay: 0.2
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: cell-occupied_19
+        m_SubObjectName: cryogenics_cell-occupied_19
   IsPalette: 0
   setID: 13639

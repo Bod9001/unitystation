@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: dragon_boat_0
+    second: dragonboat_dragon_boat_0
   - first:
       213: 21300002
-    second: dragon_boat_1
+    second: dragonboat_dragon_boat_1
   - first:
       213: 21300004
-    second: dragon_boat_2
+    second: dragonboat_dragon_boat_2
   - first:
       213: 21300006
-    second: dragon_boat_3
+    second: dragonboat_dragon_boat_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dragon_boat_0
+      name: dragonboat_dragon_boat_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_boat_1
+      name: dragonboat_dragon_boat_1
       rect:
         serializedVersion: 2
         x: 36
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_boat_2
+      name: dragonboat_dragon_boat_2
       rect:
         serializedVersion: 2
         x: 72
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dragon_boat_3
+      name: dragonboat_dragon_boat_3
       rect:
         serializedVersion: 2
         x: 108

@@ -4,40 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: guard_0
+    second: animals_guard_0
   - first:
       213: 21300002
-    second: guard_1
+    second: animals_guard_1
   - first:
       213: 21300004
-    second: guard_2
+    second: animals_guard_2
   - first:
       213: 21300006
-    second: guard_3
+    second: animals_guard_3
   - first:
       213: 21300008
-    second: guard_4
+    second: animals_guard_4
   - first:
       213: 21300010
-    second: guard_5
+    second: animals_guard_5
   - first:
       213: 21300012
-    second: guard_6
+    second: animals_guard_6
   - first:
       213: 21300014
-    second: guard_7
+    second: animals_guard_7
   - first:
       213: 21300016
-    second: guard_8
+    second: animals_guard_8
   - first:
       213: 21300018
-    second: guard_9
+    second: animals_guard_9
   - first:
       213: 21300020
-    second: guard_10
+    second: animals_guard_10
   - first:
       213: 21300022
-    second: guard_11
+    second: animals_guard_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: guard_0
+      name: animals_guard_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_1
+      name: animals_guard_1
       rect:
         serializedVersion: 2
         x: 32
@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_2
+      name: animals_guard_2
       rect:
         serializedVersion: 2
         x: 64
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_3
+      name: animals_guard_3
       rect:
         serializedVersion: 2
         x: 96
@@ -206,7 +206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_4
+      name: animals_guard_4
       rect:
         serializedVersion: 2
         x: 128
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_5
+      name: animals_guard_5
       rect:
         serializedVersion: 2
         x: 160
@@ -248,7 +248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_6
+      name: animals_guard_6
       rect:
         serializedVersion: 2
         x: 192
@@ -269,7 +269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_7
+      name: animals_guard_7
       rect:
         serializedVersion: 2
         x: 224
@@ -290,7 +290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_8
+      name: animals_guard_8
       rect:
         serializedVersion: 2
         x: 256
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_9
+      name: animals_guard_9
       rect:
         serializedVersion: 2
         x: 288
@@ -332,7 +332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_10
+      name: animals_guard_10
       rect:
         serializedVersion: 2
         x: 320
@@ -353,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard_11
+      name: animals_guard_11
       rect:
         serializedVersion: 2
         x: 352

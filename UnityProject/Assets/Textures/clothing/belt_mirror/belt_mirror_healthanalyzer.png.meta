@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: healthanalyzer_0
+    second: belt_mirror_healthanalyzer_0
   - first:
       213: 21300002
-    second: healthanalyzer_1
+    second: belt_mirror_healthanalyzer_1
   - first:
       213: 21300004
-    second: healthanalyzer_2
+    second: belt_mirror_healthanalyzer_2
   - first:
       213: 21300006
-    second: healthanalyzer_3
+    second: belt_mirror_healthanalyzer_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: healthanalyzer_0
+      name: belt_mirror_healthanalyzer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: healthanalyzer_1
+      name: belt_mirror_healthanalyzer_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: healthanalyzer_2
+      name: belt_mirror_healthanalyzer_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: healthanalyzer_3
+      name: belt_mirror_healthanalyzer_3
       rect:
         serializedVersion: 2
         x: 96

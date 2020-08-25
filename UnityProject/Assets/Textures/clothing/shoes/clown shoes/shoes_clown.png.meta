@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: clown_0
+    second: clown shoes_clown_0
   - first:
       213: 21300002
-    second: clown_1
+    second: clown shoes_clown_1
   - first:
       213: 21300004
-    second: clown_2
+    second: clown shoes_clown_2
   - first:
       213: 21300006
-    second: clown_3
+    second: clown shoes_clown_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown_0
+      name: clown shoes_clown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown_1
+      name: clown shoes_clown_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown_2
+      name: clown shoes_clown_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown_3
+      name: clown shoes_clown_3
       rect:
         serializedVersion: 2
         x: 96

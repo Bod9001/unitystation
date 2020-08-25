@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: b724412ce6b324346aee1f0254e58255, type: 3}
-      spriteName: scythe1_0
+      spriteName: items_and_weapons_scythe1_0
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: scythe1_0
+        m_SubObjectName: items_and_weapons_scythe1_0
     - sprite: {fileID: 21300002, guid: b724412ce6b324346aee1f0254e58255, type: 3}
-      spriteName: scythe1_1
+      spriteName: items_and_weapons_scythe1_1
       secondDelay: 0.2
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: scythe1_1
+        m_SubObjectName: items_and_weapons_scythe1_1
   IsPalette: 0
   setID: 7893

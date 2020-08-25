@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 2dc94c8a25897384880014c3924a3c52, type: 3}
-      spriteName: dshotgun_0
+      spriteName: back_dshotgun_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dshotgun_0
+        m_SubObjectName: back_dshotgun_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 2dc94c8a25897384880014c3924a3c52, type: 3}
-      spriteName: dshotgun_1
+      spriteName: back_dshotgun_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dshotgun_1
+        m_SubObjectName: back_dshotgun_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 2dc94c8a25897384880014c3924a3c52, type: 3}
-      spriteName: dshotgun_2
+      spriteName: back_dshotgun_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dshotgun_2
+        m_SubObjectName: back_dshotgun_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 2dc94c8a25897384880014c3924a3c52, type: 3}
-      spriteName: dshotgun_3
+      spriteName: back_dshotgun_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: dshotgun_3
+        m_SubObjectName: back_dshotgun_3
   IsPalette: 0
   setID: 274

@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: sunhuddiag_0
+    second: diagnostic HUDSunglasses_sunhuddiag_0
   - first:
       213: 21300002
-    second: sunhuddiag_1
+    second: diagnostic HUDSunglasses_sunhuddiag_1
   - first:
       213: 21300004
-    second: sunhuddiag_2
+    second: diagnostic HUDSunglasses_sunhuddiag_2
   - first:
       213: 21300006
-    second: sunhuddiag_3
+    second: diagnostic HUDSunglasses_sunhuddiag_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sunhuddiag_0
+      name: diagnostic HUDSunglasses_sunhuddiag_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sunhuddiag_1
+      name: diagnostic HUDSunglasses_sunhuddiag_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sunhuddiag_2
+      name: diagnostic HUDSunglasses_sunhuddiag_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sunhuddiag_3
+      name: diagnostic HUDSunglasses_sunhuddiag_3
       rect:
         serializedVersion: 2
         x: 96

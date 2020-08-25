@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 8b7ac4a9c5c31d9418f2adfe2adda737, type: 3}
-      spriteName: chemgun_0
+      spriteName: guns_righthand_chemgun_0
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chemgun_0
+        m_SubObjectName: guns_righthand_chemgun_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 8b7ac4a9c5c31d9418f2adfe2adda737, type: 3}
-      spriteName: chemgun_1
+      spriteName: guns_righthand_chemgun_1
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chemgun_1
+        m_SubObjectName: guns_righthand_chemgun_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 8b7ac4a9c5c31d9418f2adfe2adda737, type: 3}
-      spriteName: chemgun_2
+      spriteName: guns_righthand_chemgun_2
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chemgun_2
+        m_SubObjectName: guns_righthand_chemgun_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 8b7ac4a9c5c31d9418f2adfe2adda737, type: 3}
-      spriteName: chemgun_3
+      spriteName: guns_righthand_chemgun_3
       secondDelay: 0
       AtlasUsing: 4
       TestAddress:
         m_AssetGUID: f81d58adc45bf4548862c7dd752065db
-        m_SubObjectName: chemgun_3
+        m_SubObjectName: guns_righthand_chemgun_3
   IsPalette: 0
   setID: 10688

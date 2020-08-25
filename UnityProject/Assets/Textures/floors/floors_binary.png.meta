@@ -4,55 +4,55 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: binary_0
+    second: floors_binary_0
   - first:
       213: 21300002
-    second: binary_1
+    second: floors_binary_1
   - first:
       213: 21300004
-    second: binary_2
+    second: floors_binary_2
   - first:
       213: 21300006
-    second: binary_3
+    second: floors_binary_3
   - first:
       213: 21300008
-    second: binary_4
+    second: floors_binary_4
   - first:
       213: 21300010
-    second: binary_5
+    second: floors_binary_5
   - first:
       213: 21300012
-    second: binary_6
+    second: floors_binary_6
   - first:
       213: 21300014
-    second: binary_7
+    second: floors_binary_7
   - first:
       213: 21300016
-    second: binary_8
+    second: floors_binary_8
   - first:
       213: 21300018
-    second: binary_9
+    second: floors_binary_9
   - first:
       213: 21300020
-    second: binary_10
+    second: floors_binary_10
   - first:
       213: 21300022
-    second: binary_11
+    second: floors_binary_11
   - first:
       213: 21300024
-    second: binary_12
+    second: floors_binary_12
   - first:
       213: 21300026
-    second: binary_13
+    second: floors_binary_13
   - first:
       213: 21300028
-    second: binary_14
+    second: floors_binary_14
   - first:
       213: 21300030
-    second: binary_15
+    second: floors_binary_15
   - first:
       213: 21300032
-    second: binary_16
+    second: floors_binary_16
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -137,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: binary_0
+      name: floors_binary_0
       rect:
         serializedVersion: 2
         x: 0
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_1
+      name: floors_binary_1
       rect:
         serializedVersion: 2
         x: 32
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_2
+      name: floors_binary_2
       rect:
         serializedVersion: 2
         x: 64
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_3
+      name: floors_binary_3
       rect:
         serializedVersion: 2
         x: 96
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_4
+      name: floors_binary_4
       rect:
         serializedVersion: 2
         x: 128
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_5
+      name: floors_binary_5
       rect:
         serializedVersion: 2
         x: 160
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_6
+      name: floors_binary_6
       rect:
         serializedVersion: 2
         x: 192
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_7
+      name: floors_binary_7
       rect:
         serializedVersion: 2
         x: 224
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_8
+      name: floors_binary_8
       rect:
         serializedVersion: 2
         x: 256
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_9
+      name: floors_binary_9
       rect:
         serializedVersion: 2
         x: 288
@@ -347,7 +347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_10
+      name: floors_binary_10
       rect:
         serializedVersion: 2
         x: 320
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_11
+      name: floors_binary_11
       rect:
         serializedVersion: 2
         x: 352
@@ -389,7 +389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_12
+      name: floors_binary_12
       rect:
         serializedVersion: 2
         x: 384
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_13
+      name: floors_binary_13
       rect:
         serializedVersion: 2
         x: 416
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_14
+      name: floors_binary_14
       rect:
         serializedVersion: 2
         x: 448
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_15
+      name: floors_binary_15
       rect:
         serializedVersion: 2
         x: 480
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: binary_16
+      name: floors_binary_16
       rect:
         serializedVersion: 2
         x: 512

@@ -15,46 +15,46 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
-      spriteName: closing_0
+      spriteName: diamond_closing_0
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_0
+        m_SubObjectName: diamond_closing_0
     - sprite: {fileID: 21300002, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
-      spriteName: closing_1
+      spriteName: diamond_closing_1
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_1
+        m_SubObjectName: diamond_closing_1
     - sprite: {fileID: 21300004, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
-      spriteName: closing_2
+      spriteName: diamond_closing_2
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_2
+        m_SubObjectName: diamond_closing_2
     - sprite: {fileID: 21300006, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
-      spriteName: closing_3
+      spriteName: diamond_closing_3
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_3
+        m_SubObjectName: diamond_closing_3
     - sprite: {fileID: 21300008, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
-      spriteName: closing_4
+      spriteName: diamond_closing_4
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_4
+        m_SubObjectName: diamond_closing_4
     - sprite: {fileID: 21300010, guid: c0d52dc39e1677f4f89158c008b192b0, type: 3}
-      spriteName: closing_5
+      spriteName: diamond_closing_5
       secondDelay: 0.1
       AtlasUsing: 8
       TestAddress:
         m_AssetGUID: ccf8d088c2a66f24797f71d3dae054fe
-        m_SubObjectName: closing_5
+        m_SubObjectName: diamond_closing_5
   IsPalette: 0
   setID: 14095

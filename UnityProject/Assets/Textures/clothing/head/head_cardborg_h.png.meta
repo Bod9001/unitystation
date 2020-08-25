@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: cardborg_h_0
+    second: head_cardborg_h_0
   - first:
       213: 21300002
-    second: cardborg_h_1
+    second: head_cardborg_h_1
   - first:
       213: 21300004
-    second: cardborg_h_2
+    second: head_cardborg_h_2
   - first:
       213: 21300006
-    second: cardborg_h_3
+    second: head_cardborg_h_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cardborg_h_0
+      name: head_cardborg_h_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cardborg_h_1
+      name: head_cardborg_h_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cardborg_h_2
+      name: head_cardborg_h_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cardborg_h_3
+      name: head_cardborg_h_3
       rect:
         serializedVersion: 2
         x: 96

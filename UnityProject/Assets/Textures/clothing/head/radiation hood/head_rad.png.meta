@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: rad_0
+    second: radiation hood_rad_0
   - first:
       213: 21300002
-    second: rad_1
+    second: radiation hood_rad_1
   - first:
       213: 21300004
-    second: rad_2
+    second: radiation hood_rad_2
   - first:
       213: 21300006
-    second: rad_3
+    second: radiation hood_rad_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rad_0
+      name: radiation hood_rad_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rad_1
+      name: radiation hood_rad_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rad_2
+      name: radiation hood_rad_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rad_3
+      name: radiation hood_rad_3
       rect:
         serializedVersion: 2
         x: 96

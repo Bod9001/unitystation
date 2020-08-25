@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: beer_0
+    second: food_righthand_beer_0
   - first:
       213: 21300002
-    second: beer_1
+    second: food_righthand_beer_1
   - first:
       213: 21300004
-    second: beer_2
+    second: food_righthand_beer_2
   - first:
       213: 21300006
-    second: beer_3
+    second: food_righthand_beer_3
   - first:
       213: 6019076438992897719
-    second: sol_dry_0
+    second: food_righthand_sol_dry_0
   - first:
       213: -553156961763671124
-    second: sol_dry_1
+    second: food_righthand_sol_dry_1
   - first:
       213: -7306081344107424228
-    second: sol_dry_2
+    second: food_righthand_sol_dry_2
   - first:
       213: 7759188728105549018
-    second: sol_dry_3
+    second: food_righthand_sol_dry_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +111,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sol_dry_0
+      name: food_righthand_sol_dry_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,7 +132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sol_dry_1
+      name: food_righthand_sol_dry_1
       rect:
         serializedVersion: 2
         x: 32
@@ -153,7 +153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sol_dry_2
+      name: food_righthand_sol_dry_2
       rect:
         serializedVersion: 2
         x: 64
@@ -174,7 +174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sol_dry_3
+      name: food_righthand_sol_dry_3
       rect:
         serializedVersion: 2
         x: 96

@@ -15,32 +15,32 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: f6678435b1d9b244eb673999e9f05a76, type: 3}
-      spriteName: smoke_0
+      spriteName: electronic_components_smoke_0
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: smoke_0
+        m_SubObjectName: electronic_components_smoke_0
     - sprite: {fileID: 21300002, guid: f6678435b1d9b244eb673999e9f05a76, type: 3}
-      spriteName: smoke_1
+      spriteName: electronic_components_smoke_1
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: smoke_1
+        m_SubObjectName: electronic_components_smoke_1
     - sprite: {fileID: 21300004, guid: f6678435b1d9b244eb673999e9f05a76, type: 3}
-      spriteName: smoke_2
+      spriteName: electronic_components_smoke_2
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: smoke_2
+        m_SubObjectName: electronic_components_smoke_2
     - sprite: {fileID: 21300006, guid: f6678435b1d9b244eb673999e9f05a76, type: 3}
-      spriteName: smoke_3
+      spriteName: electronic_components_smoke_3
       secondDelay: 0.1
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: smoke_3
+        m_SubObjectName: electronic_components_smoke_3
   IsPalette: 0
   setID: 4873

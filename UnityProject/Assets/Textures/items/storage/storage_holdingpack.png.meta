@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: holdingpack_0
+    second: storage_holdingpack_0
   - first:
       213: 21300002
-    second: holdingpack_1
+    second: storage_holdingpack_1
   - first:
       213: 21300004
-    second: holdingpack_2
+    second: storage_holdingpack_2
   - first:
       213: 21300006
-    second: holdingpack_3
+    second: storage_holdingpack_3
   - first:
       213: 21300008
-    second: holdingpack_4
+    second: storage_holdingpack_4
   - first:
       213: 21300010
-    second: holdingpack_5
+    second: storage_holdingpack_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: holdingpack_0
+      name: storage_holdingpack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holdingpack_1
+      name: storage_holdingpack_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holdingpack_2
+      name: storage_holdingpack_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holdingpack_3
+      name: storage_holdingpack_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holdingpack_4
+      name: storage_holdingpack_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holdingpack_5
+      name: storage_holdingpack_5
       rect:
         serializedVersion: 2
         x: 160

@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: necro3_0
+    second: necrotic_necro3_0
   - first:
       213: 21300002
-    second: necro3_1
+    second: necrotic_necro3_1
   - first:
       213: 21300004
-    second: necro3_2
+    second: necrotic_necro3_2
   - first:
       213: 21300006
-    second: necro3_3
+    second: necrotic_necro3_3
   - first:
       213: 21300008
-    second: necro3_4
+    second: necrotic_necro3_4
   - first:
       213: 21300010
-    second: necro3_5
+    second: necrotic_necro3_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: necro3_0
+      name: necrotic_necro3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: necro3_1
+      name: necrotic_necro3_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,7 +146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: necro3_2
+      name: necrotic_necro3_2
       rect:
         serializedVersion: 2
         x: 64
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: necro3_3
+      name: necrotic_necro3_3
       rect:
         serializedVersion: 2
         x: 96
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: necro3_4
+      name: necrotic_necro3_4
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: necro3_5
+      name: necrotic_necro3_5
       rect:
         serializedVersion: 2
         x: 160

@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
-      spriteName: sheath_0
+      spriteName: belt_sheath_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheath_0
+        m_SubObjectName: belt_sheath_0
   - Frames:
     - sprite: {fileID: 21300002, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
-      spriteName: sheath_1
+      spriteName: belt_sheath_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheath_1
+        m_SubObjectName: belt_sheath_1
   - Frames:
     - sprite: {fileID: 21300004, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
-      spriteName: sheath_2
+      spriteName: belt_sheath_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheath_2
+        m_SubObjectName: belt_sheath_2
   - Frames:
     - sprite: {fileID: 21300006, guid: 5de40a93222888a4a8135e2042f6f05c, type: 3}
-      spriteName: sheath_3
+      spriteName: belt_sheath_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: sheath_3
+        m_SubObjectName: belt_sheath_3
   IsPalette: 0
   setID: 430

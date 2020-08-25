@@ -15,18 +15,18 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: 1cd9c99a131d86f4a9cb5d6de9cd8278, type: 3}
-      spriteName: defibpaddles0_cooldown_0
+      spriteName: items_and_weapons_defibpaddles0_cooldown_0
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: defibpaddles0_cooldown_0
+        m_SubObjectName: items_and_weapons_defibpaddles0_cooldown_0
     - sprite: {fileID: 21300002, guid: 1cd9c99a131d86f4a9cb5d6de9cd8278, type: 3}
-      spriteName: defibpaddles0_cooldown_1
+      spriteName: items_and_weapons_defibpaddles0_cooldown_1
       secondDelay: 0.3
       AtlasUsing: 5
       TestAddress:
         m_AssetGUID: 129d2474b0c61ef4c979afbf9b401ca4
-        m_SubObjectName: defibpaddles0_cooldown_1
+        m_SubObjectName: items_and_weapons_defibpaddles0_cooldown_1
   IsPalette: 0
   setID: 7765

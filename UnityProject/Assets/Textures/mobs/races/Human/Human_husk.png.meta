@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: husk_0
+    second: Human_husk_0
   - first:
       213: 21300002
-    second: husk_1
+    second: Human_husk_1
   - first:
       213: 21300004
-    second: husk_2
+    second: Human_husk_2
   - first:
       213: 21300006
-    second: husk_3
+    second: Human_husk_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: husk_0
+      name: Human_husk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: husk_1
+      name: Human_husk_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: husk_2
+      name: Human_husk_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: husk_3
+      name: Human_husk_3
       rect:
         serializedVersion: 2
         x: 96

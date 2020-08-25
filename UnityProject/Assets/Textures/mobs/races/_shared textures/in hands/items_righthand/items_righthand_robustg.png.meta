@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7229721310981040308
-    second: robustg_0
+    second: items_righthand_robustg_0
   - first:
       213: 3296184086494811912
-    second: robustg_1
+    second: items_righthand_robustg_1
   - first:
       213: 8029947572608037242
-    second: robustg_2
+    second: items_righthand_robustg_2
   - first:
       213: -6824189150518134696
-    second: robustg_3
+    second: items_righthand_robustg_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: robustg_0
+      name: items_righthand_robustg_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robustg_1
+      name: items_righthand_robustg_1
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robustg_2
+      name: items_righthand_robustg_2
       rect:
         serializedVersion: 2
         x: 64
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robustg_3
+      name: items_righthand_robustg_3
       rect:
         serializedVersion: 2
         x: 96

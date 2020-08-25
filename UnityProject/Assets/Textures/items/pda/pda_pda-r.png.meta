@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: pda-r_0
-  - first:
-      213: 21300002
-    second: pda-r_1
-  - first:
-      213: -4407281330283654073
     second: pda_pda-r_0
   - first:
-      213: -8657205505347495257
+      213: 21300002
     second: pda_pda-r_1
   - first:
+      213: -4407281330283654073
+    second: pda_pda_pda-r_0
+  - first:
+      213: -8657205505347495257
+    second: pda_pda_pda-r_1
+  - first:
       213: 523111923940693557
-    second: pda_pda-r_2
+    second: pda_pda_pda-r_2
   - first:
       213: 4963576771659956139
-    second: pda_pda-r_3
+    second: pda_pda_pda-r_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pda_pda-r_0
+      name: pda_pda_pda-r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -126,7 +126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pda_pda-r_1
+      name: pda_pda_pda-r_1
       rect:
         serializedVersion: 2
         x: 32
@@ -147,7 +147,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pda_pda-r_2
+      name: pda_pda_pda-r_2
       rect:
         serializedVersion: 2
         x: 64
@@ -168,7 +168,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pda_pda-r_3
+      name: pda_pda_pda-r_3
       rect:
         serializedVersion: 2
         x: 96

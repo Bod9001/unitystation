@@ -4,76 +4,76 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: swarmer_ranged_0
+    second: swarmer_swarmer_ranged_0
   - first:
       213: 21300002
-    second: swarmer_ranged_1
+    second: swarmer_swarmer_ranged_1
   - first:
       213: 21300004
-    second: swarmer_ranged_2
+    second: swarmer_swarmer_ranged_2
   - first:
       213: 21300006
-    second: swarmer_ranged_3
+    second: swarmer_swarmer_ranged_3
   - first:
       213: 21300008
-    second: swarmer_ranged_4
+    second: swarmer_swarmer_ranged_4
   - first:
       213: 21300010
-    second: swarmer_ranged_5
+    second: swarmer_swarmer_ranged_5
   - first:
       213: 21300012
-    second: swarmer_ranged_6
+    second: swarmer_swarmer_ranged_6
   - first:
       213: 21300014
-    second: swarmer_ranged_7
+    second: swarmer_swarmer_ranged_7
   - first:
       213: 21300016
-    second: swarmer_ranged_8
+    second: swarmer_swarmer_ranged_8
   - first:
       213: 21300018
-    second: swarmer_ranged_9
+    second: swarmer_swarmer_ranged_9
   - first:
       213: 21300020
-    second: swarmer_ranged_10
+    second: swarmer_swarmer_ranged_10
   - first:
       213: 21300022
-    second: swarmer_ranged_11
+    second: swarmer_swarmer_ranged_11
   - first:
       213: 21300024
-    second: swarmer_ranged_12
+    second: swarmer_swarmer_ranged_12
   - first:
       213: 21300026
-    second: swarmer_ranged_13
+    second: swarmer_swarmer_ranged_13
   - first:
       213: 21300028
-    second: swarmer_ranged_14
+    second: swarmer_swarmer_ranged_14
   - first:
       213: 21300030
-    second: swarmer_ranged_15
+    second: swarmer_swarmer_ranged_15
   - first:
       213: 21300032
-    second: swarmer_ranged_16
+    second: swarmer_swarmer_ranged_16
   - first:
       213: 21300034
-    second: swarmer_ranged_17
+    second: swarmer_swarmer_ranged_17
   - first:
       213: 21300036
-    second: swarmer_ranged_18
+    second: swarmer_swarmer_ranged_18
   - first:
       213: 21300038
-    second: swarmer_ranged_19
+    second: swarmer_swarmer_ranged_19
   - first:
       213: 21300040
-    second: swarmer_ranged_20
+    second: swarmer_swarmer_ranged_20
   - first:
       213: 21300042
-    second: swarmer_ranged_21
+    second: swarmer_swarmer_ranged_21
   - first:
       213: 21300044
-    second: swarmer_ranged_22
+    second: swarmer_swarmer_ranged_22
   - first:
       213: 21300046
-    second: swarmer_ranged_23
+    second: swarmer_swarmer_ranged_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -158,7 +158,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: swarmer_ranged_0
+      name: swarmer_swarmer_ranged_0
       rect:
         serializedVersion: 2
         x: 0
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_1
+      name: swarmer_swarmer_ranged_1
       rect:
         serializedVersion: 2
         x: 32
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_2
+      name: swarmer_swarmer_ranged_2
       rect:
         serializedVersion: 2
         x: 64
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_3
+      name: swarmer_swarmer_ranged_3
       rect:
         serializedVersion: 2
         x: 96
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_4
+      name: swarmer_swarmer_ranged_4
       rect:
         serializedVersion: 2
         x: 128
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_5
+      name: swarmer_swarmer_ranged_5
       rect:
         serializedVersion: 2
         x: 160
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_6
+      name: swarmer_swarmer_ranged_6
       rect:
         serializedVersion: 2
         x: 192
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_7
+      name: swarmer_swarmer_ranged_7
       rect:
         serializedVersion: 2
         x: 224
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_8
+      name: swarmer_swarmer_ranged_8
       rect:
         serializedVersion: 2
         x: 256
@@ -347,7 +347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_9
+      name: swarmer_swarmer_ranged_9
       rect:
         serializedVersion: 2
         x: 288
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_10
+      name: swarmer_swarmer_ranged_10
       rect:
         serializedVersion: 2
         x: 320
@@ -389,7 +389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_11
+      name: swarmer_swarmer_ranged_11
       rect:
         serializedVersion: 2
         x: 352
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_12
+      name: swarmer_swarmer_ranged_12
       rect:
         serializedVersion: 2
         x: 384
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_13
+      name: swarmer_swarmer_ranged_13
       rect:
         serializedVersion: 2
         x: 416
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_14
+      name: swarmer_swarmer_ranged_14
       rect:
         serializedVersion: 2
         x: 448
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_15
+      name: swarmer_swarmer_ranged_15
       rect:
         serializedVersion: 2
         x: 480
@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_16
+      name: swarmer_swarmer_ranged_16
       rect:
         serializedVersion: 2
         x: 512
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_17
+      name: swarmer_swarmer_ranged_17
       rect:
         serializedVersion: 2
         x: 544
@@ -536,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_18
+      name: swarmer_swarmer_ranged_18
       rect:
         serializedVersion: 2
         x: 576
@@ -557,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_19
+      name: swarmer_swarmer_ranged_19
       rect:
         serializedVersion: 2
         x: 608
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_20
+      name: swarmer_swarmer_ranged_20
       rect:
         serializedVersion: 2
         x: 640
@@ -599,7 +599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_21
+      name: swarmer_swarmer_ranged_21
       rect:
         serializedVersion: 2
         x: 672
@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_22
+      name: swarmer_swarmer_ranged_22
       rect:
         serializedVersion: 2
         x: 704
@@ -641,7 +641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swarmer_ranged_23
+      name: swarmer_swarmer_ranged_23
       rect:
         serializedVersion: 2
         x: 736

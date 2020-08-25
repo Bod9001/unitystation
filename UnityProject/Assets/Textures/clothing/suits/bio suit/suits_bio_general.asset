@@ -15,35 +15,35 @@ MonoBehaviour:
   Variance:
   - Frames:
     - sprite: {fileID: 21300000, guid: b766d8f28ffee5043a1ac1f833ed38f1, type: 3}
-      spriteName: bio_general_0
+      spriteName: bio suit_bio_general_0
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bio_general_0
+        m_SubObjectName: bio suit_bio_general_0
   - Frames:
     - sprite: {fileID: 21300002, guid: b766d8f28ffee5043a1ac1f833ed38f1, type: 3}
-      spriteName: bio_general_1
+      spriteName: bio suit_bio_general_1
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bio_general_1
+        m_SubObjectName: bio suit_bio_general_1
   - Frames:
     - sprite: {fileID: 21300004, guid: b766d8f28ffee5043a1ac1f833ed38f1, type: 3}
-      spriteName: bio_general_2
+      spriteName: bio suit_bio_general_2
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bio_general_2
+        m_SubObjectName: bio suit_bio_general_2
   - Frames:
     - sprite: {fileID: 21300006, guid: b766d8f28ffee5043a1ac1f833ed38f1, type: 3}
-      spriteName: bio_general_3
+      spriteName: bio suit_bio_general_3
       secondDelay: 0
       AtlasUsing: 2
       TestAddress:
         m_AssetGUID: e57b68614f4caf3429127307ae20dd5a
-        m_SubObjectName: bio_general_3
+        m_SubObjectName: bio suit_bio_general_3
   IsPalette: 0
   setID: 20816
