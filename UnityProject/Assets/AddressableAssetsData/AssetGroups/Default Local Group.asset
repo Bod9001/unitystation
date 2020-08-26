@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5c1b9e51fcd2a3b4386f092163a94bea
+  m_SerializeEntries:
+  - m_GUID: 01008a5292d93464989706a42a900bf1
+    m_Address: Palace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Away_Site
+    m_MainAsset: {fileID: 102900000, guid: 01008a5292d93464989706a42a900bf1, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 01008a5292d93464989706a42a900bf1, type: 3}
+  - m_GUID: 167b02a5c0d1009e884929c62f442739
+    m_Address: Fallstation Syndicate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Off_Scene
+    m_MainAsset: {fileID: 102900000, guid: 167b02a5c0d1009e884929c62f442739, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 167b02a5c0d1009e884929c62f442739, type: 3}
+  - m_GUID: 1ad4c4b2173f90f08953b9d79cc079ea
+    m_Address: FallStation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Main_Station
+    m_MainAsset: {fileID: 102900000, guid: 1ad4c4b2173f90f08953b9d79cc079ea, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 1ad4c4b2173f90f08953b9d79cc079ea, type: 3}
+  - m_GUID: 2881011a6627edc4e975e47504e6dad5
+    m_Address: Asteroid03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Asteroids
+    m_MainAsset: {fileID: 102900000, guid: 2881011a6627edc4e975e47504e6dad5, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 2881011a6627edc4e975e47504e6dad5, type: 3}
+  - m_GUID: 375974cf8e299d04a86c1b1194fc2fb9
+    m_Address: AncientTemple
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Away_Site
+    m_MainAsset: {fileID: 102900000, guid: 375974cf8e299d04a86c1b1194fc2fb9, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 375974cf8e299d04a86c1b1194fc2fb9, type: 3}
+  - m_GUID: 55ee576d5b067ad44823fc3b4edc6c42
+    m_Address: OutpostStation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Main_Station
+    m_MainAsset: {fileID: 102900000, guid: 55ee576d5b067ad44823fc3b4edc6c42, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 55ee576d5b067ad44823fc3b4edc6c42, type: 3}
+  - m_GUID: 6c7416f6a6cecee4d808c6285b4f8519
+    m_Address: Asteroid02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Asteroids
+    m_MainAsset: {fileID: 102900000, guid: 6c7416f6a6cecee4d808c6285b4f8519, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 6c7416f6a6cecee4d808c6285b4f8519, type: 3}
+  - m_GUID: 7c7a8f6e8de7bf14aa8d8dbee1737f1c
+    m_Address: DarkJungle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Away_Site
+    m_MainAsset: {fileID: 102900000, guid: 7c7a8f6e8de7bf14aa8d8dbee1737f1c, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 7c7a8f6e8de7bf14aa8d8dbee1737f1c, type: 3}
+  - m_GUID: 7f3d3cafeec51f449b11bc9938f9f118
+    m_Address: PogStation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Main_Station
+    m_MainAsset: {fileID: 102900000, guid: 7f3d3cafeec51f449b11bc9938f9f118, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 7f3d3cafeec51f449b11bc9938f9f118, type: 3}
+  - m_GUID: 8975e3aac3dead54bb2ba86b9b7878cf
+    m_Address: Caverna
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Away_Site
+    m_MainAsset: {fileID: 102900000, guid: 8975e3aac3dead54bb2ba86b9b7878cf, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 8975e3aac3dead54bb2ba86b9b7878cf, type: 3}
+  - m_GUID: 89dc70d5a9db4c34c974824538dc54c4
+    m_Address: Relicta
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Away_Site
+    m_MainAsset: {fileID: 102900000, guid: 89dc70d5a9db4c34c974824538dc54c4, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 89dc70d5a9db4c34c974824538dc54c4, type: 3}
+  - m_GUID: 9914c1efe6add5240bacdf51262b3b38
+    m_Address: BoxStationV1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Main_Station
+    m_MainAsset: {fileID: 102900000, guid: 9914c1efe6add5240bacdf51262b3b38, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 9914c1efe6add5240bacdf51262b3b38, type: 3}
+  - m_GUID: 9d439a68630b3c9419e7216271d9bc7f
+    m_Address: Asteroid01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Asteroids
+    m_MainAsset: {fileID: 102900000, guid: 9d439a68630b3c9419e7216271d9bc7f, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 9d439a68630b3c9419e7216271d9bc7f, type: 3}
+  - m_GUID: af1528034e8c01e4689f3d3339b3e27c
+    m_Address: LavaLand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Off_Scene
+    m_MainAsset: {fileID: 102900000, guid: af1528034e8c01e4689f3d3339b3e27c, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: af1528034e8c01e4689f3d3339b3e27c, type: 3}
+  - m_GUID: c22d0e5435b686741b5c364bcac58b3a
+    m_Address: CentCom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Off_Scene
+    m_MainAsset: {fileID: 102900000, guid: c22d0e5435b686741b5c364bcac58b3a, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: c22d0e5435b686741b5c364bcac58b3a, type: 3}
+  - m_GUID: cb6ee1226a7d4bc49a627da4d478754e
+    m_Address: SquareStation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Main_Station
+    m_MainAsset: {fileID: 102900000, guid: cb6ee1226a7d4bc49a627da4d478754e, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: cb6ee1226a7d4bc49a627da4d478754e, type: 3}
+  - m_GUID: d4122f727afb2d443ab2e9eed7ca6c6c
+    m_Address: SyndicateOutpost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Off_Scene
+    m_MainAsset: {fileID: 102900000, guid: d4122f727afb2d443ab2e9eed7ca6c6c, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: d4122f727afb2d443ab2e9eed7ca6c6c, type: 3}
+  - m_GUID: d5926ab0c54e96244b4504e20766dc48
+    m_Address: Asteroid05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Asteroids
+    m_MainAsset: {fileID: 102900000, guid: d5926ab0c54e96244b4504e20766dc48, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: d5926ab0c54e96244b4504e20766dc48, type: 3}
+  - m_GUID: e1b58d2f49c50b74bafc4804ac7f1982
+    m_Address: Asteroid04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Asteroids
+    m_MainAsset: {fileID: 102900000, guid: e1b58d2f49c50b74bafc4804ac7f1982, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: e1b58d2f49c50b74bafc4804ac7f1982, type: 3}
+  - m_GUID: f09d7c00550806a468ba1c7358fb6de3
+    m_Address: Asteroid06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Asteroids
+    m_MainAsset: {fileID: 102900000, guid: f09d7c00550806a468ba1c7358fb6de3, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: f09d7c00550806a468ba1c7358fb6de3, type: 3}
+  - m_GUID: f86c6964085906817905f8a7df612571
+    m_Address: Fallstation Centcom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Off_Scene
+    m_MainAsset: {fileID: 102900000, guid: f86c6964085906817905f8a7df612571, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: f86c6964085906817905f8a7df612571, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5b2d7ae0480bd8f4cb77d255816264d4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3a471161af4cc5e47b3b4d0607911850, type: 2}
+    - {fileID: 11400000, guid: 532ab9ac731ad8740ab4258233f9655e, type: 2}
