@@ -19,7 +19,14 @@ public class Layer : MonoBehaviour
 	public LayerType LayerType;
 	protected Tilemap tilemap;
 
-	public Tilemap Tilemap => tilemap;
+	public Tilemap Tilemap { get
+	{
+		if (tilemap == null)
+		{
+			tilemap = GetComponent<Tilemap>();
+		}
+		return tilemap;
+	}}
 
 	public TilemapDamage TilemapDamage { get; private set; }
 
@@ -72,7 +79,7 @@ public class Layer : MonoBehaviour
 	/// </summary>
 	private IEnumerator RecalculateBoundsNextFrame()
 	{
-		//apparently waiting for next frame doesn't work when looking at Scene view!
+		//apparently waiting for next frame doesn't work when looking at Scene view! //TODO use editor routines for this functionality
 		yield return WaitFor.Seconds(0.015f);
 		RecalculateBounds();
 	}
@@ -103,10 +110,10 @@ public class Layer : MonoBehaviour
 		{
 			// TODO Clean up
 
-			if (LayerType == LayerType.Walls)
-			{
-				MatrixManager.Instance.wallsTileMaps.Add(GetComponent<TilemapCollider2D>(), tilemap);
-			}
+			// if (LayerType == LayerType.Walls)
+			// {
+				// MatrixManager.Instance.wallsTileMaps.Add(GetComponent<TilemapCollider2D>(), tilemap);
+			// }
 
 		}
 
@@ -195,8 +202,16 @@ public class Layer : MonoBehaviour
 	{
 		if (tilemap.GetTile<LayerTile>(cellPosition) != layerTile) return true;
 
-		if (tilemap.GetColor(cellPosition) != color.GetValueOrDefault(Color.white)) return true;
-		if (tilemap.GetTransformMatrix(cellPosition) != transformMatrix.GetValueOrDefault(Matrix4x4.identity)) return true;
+		if (color != null)
+		{
+			if (tilemap.GetColor(cellPosition) != color.GetValueOrDefault(Color.white)) return true;
+		}
+
+		if (transformMatrix != null)
+		{
+			if (tilemap.GetTransformMatrix(cellPosition) != transformMatrix.GetValueOrDefault(Matrix4x4.identity)) return true;
+		}
+
 		return false;
 	}
 

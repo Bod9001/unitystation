@@ -97,8 +97,7 @@ public class ChatRelay : NetworkBehaviour
 				else
 				{
 					//within range, but check if they are in another room or hiding behind a wall
-					if (Physics2D.Linecast(chatEvent.position,
-						(Vector3)players[i].Script.WorldPos, layerMask))
+					if (MatrixManager.Linecast(chatEvent.position, LayerTypeSelection.Walls,layerMask, players[i].Script.WorldPos).ItHit)
 					{
 						//if it hit a wall remove that player
 						players.RemoveAt(i);
@@ -110,8 +109,8 @@ public class ChatRelay : NetworkBehaviour
 			var npcs = Physics2D.OverlapCircleAll(chatEvent.position, 14f, npcMask);
 			foreach (Collider2D coll in npcs)
 			{
-				if (!Physics2D.Linecast(chatEvent.position,
-					coll.transform.position, layerMask))
+				if (MatrixManager.Linecast(chatEvent.position,
+					LayerTypeSelection.Walls ,layerMask,coll.transform.position).ItHit == false)
 				{
 					//NPC is in hearing range, pass the message on:
 					var mobAi = coll.GetComponent<MobAI>();

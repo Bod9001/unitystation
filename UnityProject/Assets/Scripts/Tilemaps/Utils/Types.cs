@@ -36,14 +36,17 @@ public enum LayerType
 [Flags]
 public enum LayerTypeSelection
 {
-	Effects = 1,
-	Walls = 2,
-	Windows = 4,
-	Objects = 8,
-	Grills = 16,
-	Floors = 32,
-	Underfloor = 64,
-	Base = 128,
+	None = 0,
+	Effects = 1 << 0,
+	Walls = 1 << 1,
+	Windows =1 << 2,
+	Objects = 1 << 3,
+	Grills = 1 << 4,
+	Floors = 1 << 5,
+	Underfloor = 1 << 6,
+	Base = 1 << 7,
+	All = ~None
+
 }
 
 /// <summary>

@@ -1,6 +1,7 @@
 ﻿using Mirror;
 using System.Collections.Generic;
 using System.Linq;
+using TileManagement;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -129,7 +130,7 @@ public class TileChangeManager : NetworkBehaviour
 		Color? color = null)
 	{
 		cellPosition.z = 0;
-		if (!metaTileMap.HasTile(cellPosition, overlayTile.LayerType, true)) return;
+		if (!metaTileMap.HasTile(cellPosition, overlayTile.LayerType)) return;
 		cellPosition.z = -1;
 		if (IsDifferent(cellPosition, overlayTile))
 		{
@@ -163,7 +164,7 @@ public class TileChangeManager : NetworkBehaviour
 	public LayerTile RemoveTile(Vector3Int cellPosition, LayerType layerType, bool removeAll = true)
 	{
 		var layerTile = metaTileMap.GetTile(cellPosition, layerType);
-		if (metaTileMap.HasTile(cellPosition, layerType, true))
+		if (metaTileMap.HasTile(cellPosition, layerType))
 		{
 			InternalRemoveTile(cellPosition, layerType, removeAll);
 
@@ -191,7 +192,7 @@ public class TileChangeManager : NetworkBehaviour
 	{
 		cellPosition.z = -1;
 
-		if (metaTileMap.HasTile(cellPosition, layerType, true))
+		if (metaTileMap.HasTile(cellPosition, layerType))
 		{
 			if (onlyIfCleanable)
 			{
@@ -230,7 +231,7 @@ public class TileChangeManager : NetworkBehaviour
 	{
 		Vector3Int p = position.RoundToInt();
 
-		metaTileMap.RemoveTileWithlayer(p, layerType, removeAll);
+		metaTileMap.RemoveTileWithlayer(p, layerType);
 	}
 
 	private void ChooseCorrectRpc(Vector3Int position, TileType tileType, string tileName,
@@ -318,9 +319,9 @@ public class TileChangeManager : NetworkBehaviour
 			if (position.z == 0)
 			{
 				position.z = -1;
-				if (metaTileMap.HasTile(position, layerTile.LayerType, true))
+				if (metaTileMap.HasTile(position, layerTile.LayerType))
 				{
-					metaTileMap.RemoveTile(position, layerTile.LayerType);
+					metaTileMap.RemoveTileWithlayer(position, layerTile.LayerType);
 				}
 			}
 		}

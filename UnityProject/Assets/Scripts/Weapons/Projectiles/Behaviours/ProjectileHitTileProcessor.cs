@@ -14,10 +14,11 @@ namespace Weapons.Projectiles.Behaviours
 			behavioursInteractTile = GetComponents<IOnHitInteractTile>();
 		}
 
-		public bool OnHit(RaycastHit2D hit)
+		public bool OnHit(MatrixManager.CustomPhysicsHit hit)
 		{
-			var interactableTile = hit.collider.GetComponentInParent<InteractableTiles>();
-
+			if (hit.CollisionHit.TileLocation?.PresentMetaTileMap == null) return true;
+			var interactableTile = hit.CollisionHit.TileLocation.PresentMetaTileMap.GetComponent<InteractableTiles>();
+			if (interactableTile == null) return true;
 			var bulletHitTarget = GetHitTileWorldPosition(hit);
 
 			return TryProcessBehaviours(hit, interactableTile, bulletHitTarget);
@@ -30,7 +31,7 @@ namespace Weapons.Projectiles.Behaviours
 		/// <param name="interactableTile"></param>
 		/// <param name="bulletHitTarget"></param>
 		/// <returns> True if at least one behaviour returned true </returns>
-		private bool TryProcessBehaviours(RaycastHit2D hit, InteractableTiles interactableTile, Vector3 bulletHitTarget)
+		private bool TryProcessBehaviours(MatrixManager.CustomPhysicsHit hit, InteractableTiles interactableTile, Vector3 bulletHitTarget)
 		{
 			bool isAnyProcessed = false;
 			foreach (var behaviour in behavioursInteractTile)
@@ -51,11 +52,11 @@ namespace Weapons.Projectiles.Behaviours
 		/// </summary>
 		/// <param name="hit"></param>
 		/// <returns></returns>
-		private Vector3 GetHitTileWorldPosition(RaycastHit2D hit)
+		private Vector3 GetHitTileWorldPosition(MatrixManager.CustomPhysicsHit hit)
 		{
 			var bulletHitTarget = Vector3.zero;
-			bulletHitTarget.x = hit.point.x - 0.01f * hit.normal.x;
-			bulletHitTarget.y = hit.point.y - 0.01f * hit.normal.y;
+			bulletHitTarget.x = hit.HitWorld.x - 0.01f * hit.Normal.x;
+			bulletHitTarget.y = hit.HitWorld.y - 0.01f * hit.Normal.y;
 			return bulletHitTarget;
 		}
 	}

@@ -35,7 +35,7 @@ public class WrenchSecurable : NetworkBehaviour, ICheckedInteractable<HandApply>
 	[Tooltip("Time taken to secure this.")]
 	[SerializeField]
 	private float secondsToSecure = 0;
-	
+
 	[Tooltip("Time taken to unsecure this.")]
 	[SerializeField]
 	private float secondsToUnsecure = 0;
@@ -105,7 +105,7 @@ public class WrenchSecurable : NetworkBehaviour, ICheckedInteractable<HandApply>
 
 	private bool VerbosePlatingExposed()
 	{
-		if (!registerObject.TileChangeManager.MetaTileMap.HasTile(registerObject.LocalPositionServer, LayerType.Floors, true))
+		if (!registerObject.TileChangeManager.MetaTileMap.HasTile(registerObject.LocalPositionServer, LayerType.Floors))
 		{
 			return true;
 		}

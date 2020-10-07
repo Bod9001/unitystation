@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Light2D;
 using Pipes;
+using TileManagement;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Tilemaps;
@@ -186,12 +187,12 @@ public class Matrix : MonoBehaviour
 
 	public bool IsTableAt(Vector3Int position, bool isServer)
 	{
-		return MetaTileMap.IsTileTypeAt(position, isServer, TileType.Table);
+		return MetaTileMap.IsTableAt(position);
 	}
 
 	public bool IsWallAt(Vector3Int position, bool isServer)
 	{
-		return MetaTileMap.HasTile(position, LayerType.Walls, isServer);
+		return MetaTileMap.HasTile(position, LayerType.Walls);
 	}
 
 	public bool IsEmptyAt(Vector3Int position, bool isServer)
@@ -319,24 +320,24 @@ public class Matrix : MonoBehaviour
 
 	public bool HasTile(Vector3Int position, bool isServer)
 	{
-		return MetaTileMap.HasTile(position, isServer);
+		return MetaTileMap.HasTile(position);
 	}
 
 	public bool IsClearUnderfloorConstruction(Vector3Int position, bool isServer)
 	{
-		if (MetaTileMap.HasTile(position, LayerType.Floors, isServer))
+		if (MetaTileMap.HasTile(position, LayerType.Floors))
 		{
 			return (false);
 		}
-		else if (MetaTileMap.HasTile(position, LayerType.Walls, isServer))
+		else if (MetaTileMap.HasTile(position, LayerType.Walls))
 		{
 			return (false);
 		}
-		else if (MetaTileMap.HasTile(position, LayerType.Windows, isServer))
+		else if (MetaTileMap.HasTile(position, LayerType.Windows))
 		{
 			return (false);
 		}
-		else if (MetaTileMap.HasTile(position, LayerType.Grills, isServer))
+		else if (MetaTileMap.HasTile(position, LayerType.Grills))
 		{
 			return (false);
 		}

@@ -38,6 +38,8 @@ namespace Mirror
         /// <para>Physics3D uses 3D physics to determine proximity.</para>
         /// <para>Physics2D uses 2D physics to determine proximity.</para>
         /// </summary>
+        //TODO Unitystation, Need to change this to  check range of matrices to player, Then synchronise everything on matrices to Player
+        //Further optimisation while on matrix checks everything is in range Part of network bubbling
         [Tooltip("Which method to use for checking proximity of players.\n\nPhysics3D uses 3D physics to determine proximity.\nPhysics2D uses 2D physics to determine proximity.")]
         public CheckMethod checkMethod = CheckMethod.Physics3D;
 
@@ -145,6 +147,7 @@ namespace Mirror
 
         private void Add2DHits(HashSet<NetworkConnection> observers)
         {
+	        Debug.LogError("OnRebuildObservers, Add2DHits Was triggered if this is triggered this is really bad, Since I removed all the 2D physics stuff From items.... ");
             // cast without allocating GC for maximum performance
             int hitCount = Physics2D.OverlapCircleNonAlloc(transform.position, visRange, hitsBuffer2D, castLayers);
             if (hitCount == hitsBuffer2D.Length) Debug.LogWarning("NetworkProximityChecker's OverlapCircle test for " + name + " has filled the whole buffer(" + hitsBuffer2D.Length + "). Some results might have been omitted. Consider increasing buffer size.");

@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class OxygenButton : TooltipMonoBehaviour
 {
 	private Image image;
-	public Sprite[] stateSprites;
+	public List<Sprite> stateSprites = new List<Sprite>();
 	public bool IsInternalsEnabled;
 	public override string Tooltip => "toggle internals";
 

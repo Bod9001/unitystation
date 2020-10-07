@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TileManagement;
+using UnityEngine;
 
 public class TilemapDamage : MonoBehaviour, IFireExposable
 {
@@ -22,9 +23,9 @@ public class TilemapDamage : MonoBehaviour, IFireExposable
 		tileChangeManager.OnFloorOrPlatingRemoved.AddListener(cellPos =>
 		{ //Poke items when both floor and plating are gone
 			//As they might want to change matrix
-			if (!metaTileMap.HasTile(cellPos, LayerType.Floors, true)
-			    && !metaTileMap.HasTile(cellPos, LayerType.Base, true)
-			    && metaTileMap.HasTile(cellPos, LayerType.Objects, true)
+			if (!metaTileMap.HasTile(cellPos, LayerType.Floors)
+			    && !metaTileMap.HasTile(cellPos, LayerType.Base)
+			    && metaTileMap.HasObject(cellPos, true)
 			)
 			{
 				foreach (var customNetTransform in matrix.Get<CustomNetTransform>(cellPos, true))

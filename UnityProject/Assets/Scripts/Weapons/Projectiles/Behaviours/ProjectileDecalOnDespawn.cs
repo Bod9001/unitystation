@@ -15,11 +15,11 @@ namespace Weapons.Projectiles.Behaviours
 		[Tooltip("Spawn decal on collision?")]
 		[SerializeField] private bool isTriggeredOnHit = true;
 
-		public void OnDespawn(RaycastHit2D hit, Vector2 point)
+		public void OnDespawn(MatrixManager.CustomPhysicsHit hit, Vector2 point)
 		{
-			if (isTriggeredOnHit && hit.collider != null)
+			if (isTriggeredOnHit && hit.CollisionHit.GameObject != null)
 			{
-				OnBeamEnd(hit.point);
+				OnBeamEnd(hit.HitWorld);
 			}
 			else
 			{

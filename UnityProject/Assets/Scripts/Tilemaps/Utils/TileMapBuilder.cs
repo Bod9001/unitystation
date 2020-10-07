@@ -4,9 +4,9 @@
 	public class TileMapBuilder
 	{
 		private readonly bool importMode;
-		private readonly MetaTileMap metaTileMap;
+		private readonly TileManagement.MetaTileMap metaTileMap;
 
-		public TileMapBuilder(MetaTileMap tilemap, bool importMode = false)
+		public TileMapBuilder(TileManagement.MetaTileMap tilemap, bool importMode = false)
 		{
 			metaTileMap = tilemap;
 			this.importMode = importMode;
@@ -41,7 +41,7 @@
 		{
 			if (!importMode)
 			{
-				metaTileMap.RemoveTile(position, tile.LayerType);
+				metaTileMap.RemoveTileWithlayer(position, tile.LayerType);
 			}
 			SetTile(position, tile, matrixTransform);
 		}

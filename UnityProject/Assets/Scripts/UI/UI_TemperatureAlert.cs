@@ -8,7 +8,7 @@ public class UI_TemperatureAlert : TooltipMonoBehaviour
 {
 	public override string Tooltip => (activeImageIndex < 3) ? "Too Cold" : "Too Hot";
 
-	public Sprite[] statusImages;
+	public List<Sprite>  statusImages = new List<Sprite>();
 	private int activeImageIndex = -1;
 
 	public Image image;

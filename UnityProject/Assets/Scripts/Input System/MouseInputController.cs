@@ -1,6 +1,7 @@
 using Mirror;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -573,16 +574,31 @@ public class MouseInputController : MonoBehaviour
 		return false;
 	}
 
+	public static Stopwatch SW = new Stopwatch();
+
 	private void ChangeDirection()
 	{
 		Vector3 playerPos;
 
-		playerPos = transform.position;
+		playerPos = this.GetComponent<PlayerMove>().PlayerScript.registerTile.WorldPosition;
 
 		Vector2 dir = (MouseWorldPosition - playerPos).normalized;
 
 		if (!EventSystem.current.IsPointerOverGameObject() && playerMove.allowInput && !playerMove.IsBuckled)
 		{
+			//var LocalPlayer = playerPos.ToLocal();
+			//var LocalMouse = MouseWorldPosition.ToLocal();
+			//var mix = MatrixManager.AtPoint(Vector3Int.RoundToInt(playerPos), CustomNetworkManager.Instance._isServer);
+			// SW.Reset();
+			// SW.Start();
+			// for (int i = 0; i < 1000; i++)
+			// {
+				MatrixManager.RayCast(playerPos, Vector2.zero, 0, LayerTypeSelection.Walls, null , MouseWorldPosition);
+			// }
+			// SW.Stop();
+			// Logger.Log("Ray cast 1000 Took " + SW.ElapsedMilliseconds + " Milliseconds");
+			//mix.MetaTileMap.Raycast(LocalPlayer, Vector2.zero, 0, LayerTypeSelection.All,LocalMouse );
+			//Debug.DrawLine(playerPos, MouseWorldPosition, Color.white, 30);
 			playerDirectional.FaceDirection(Orientation.From(dir));
 		}
 	}
