@@ -12,6 +12,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.SceneManagement;
 using Debug = UnityEngine.Debug;
+using Systems.Atmospherics;
 
 /// <summary>
 /// Defines collision type we expect
@@ -1161,7 +1162,7 @@ public partial class MatrixManager : MonoBehaviour
 		}
 	}
 
-	public static Transform GetDefaultParent(Vector3? position, bool isServer)
+	public static Transform GetDefaultParent( Vector3? position, bool isServer )
 	{
 		if (!position.HasValue)
 		{
