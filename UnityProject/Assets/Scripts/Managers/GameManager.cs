@@ -13,9 +13,11 @@ using DiscordWebhook;
 using Mirror;
 using GameConfig;
 using Initialisation;
+using AddressableReferences;
 
 public partial class GameManager : MonoBehaviour, IInitialise
 {
+
 	public static GameManager Instance;
 	public bool counting;
 	/// <summary>
@@ -454,7 +456,7 @@ public partial class GameManager : MonoBehaviour, IInitialise
 
 			if (SystemInfo.graphicsDeviceType != GraphicsDeviceType.Null && !GameData.Instance.testServer)
 			{
-				//JESTER
+				//Jester
 				//SoundManager.Instance.PlayRandomRoundEndSound();
 			}
 		}

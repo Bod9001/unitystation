@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Items.Others;
 using UnityEngine;
+using AddressableReferences;
 
 namespace Systems.MobAIs
 {
@@ -9,6 +10,9 @@ namespace Systems.MobAIs
 	/// </summary>
 	public class ChickenAI: GenericFriendlyAI, ICheckedInteractable<HandApply>
 	{
+
+		[SerializeField] private AddressableAudioSource EatFoodA = null;
+
 		[SerializeField, Tooltip("Check this if this chicken is a grown up chicken in age of laying eggs")]
 		private bool grownChicken = true;
 
@@ -95,7 +99,7 @@ namespace Systems.MobAIs
 			Inventory.ServerConsume(interaction.HandSlot, 1);
 			mood.OnFoodEaten();
 			SoundManager.PlayNetworkedAtPos(
-				"EatFood",
+				EatFoodA,
 				gameObject.RegisterTile().WorldPosition,
 				1f,
 				sourceObj: gameObject);
