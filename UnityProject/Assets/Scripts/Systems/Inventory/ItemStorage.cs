@@ -64,7 +64,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// <summary>
 	/// Server-side only. Players server thinks are currently looking at this storage.
 	/// </summary>
-	private readonly HashSet<Mind> serverObserverPlayers = new HashSet<Mind>();
+	private readonly HashSet<GameObject> serverObserverPlayers = new HashSet<GameObject>();
 
 	//This is called when an itemslot in the item storage has its item set.
 	//It can be null, or it can be a pickupable.(Health V2)
@@ -78,10 +78,10 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 
 	private SpawnInfo spawnInfo;
 
-	public Mind Player => player;
-	private Mind player;
+	public RegisterPlayer Player => player;
+	private RegisterPlayer player;
 
-	public void SetPlayerMind(Mind registerPlayer)
+	public void SetRegisterPlayer(RegisterPlayer registerPlayer)
 	{
 		player = registerPlayer;
 	}
@@ -106,10 +106,9 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 		}
 
 		//if this is a player's inventory, make them an observer of all slots
-		var mind = MindManager.Instance.Get(gameObject);
-		if (mind != null)
+		if (GetComponent<PlayerScript>() != null)
 		{
-			ServerAddObserverPlayer(mind);
+			ServerAddObserverPlayer(gameObject);
 		}
 	}
 
@@ -128,10 +127,9 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	public void OnDespawnServer(DespawnInfo info)
 	{
 		//if this is a player's inventory, make them no longer an observer of all slots
-		var Mind = MindManager.Instance.Get(gameObject);
-		if (Mind != null)
+		if (GetComponent<PlayerScript>() != null)
 		{
-			ServerRemoveObserverPlayer(Mind);
+			ServerRemoveObserverPlayer(gameObject);
 		}
 
 		if (dropItemsOnDespawn)
@@ -204,7 +202,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 			{
 				if(mobHealth != null)
 				{
-					if(mobHealth.CurrentBurnDamage > mobHealth.BodyPartAshesAboveThisDamage)
+					if(mobHealth.CurrentBurnDamageLevel == TraumaDamageLevel.CRITICAL)
 					{
 						_ = Spawn.ServerPrefab(ashPrefab, mobHealth.HealthMaster.gameObject.RegisterTile().WorldPosition);
 						_ = Despawn.ServerSingle(slot.Item.gameObject);
@@ -244,12 +242,12 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 		//When it leaves ownership of another player, the previous owner no longer observes each slot in the slot tree.
 		if (fromRootPlayer != null)
 		{
-			ServerRemoveObserverPlayer(info.FromRootPlayer);
+			ServerRemoveObserverPlayer(info.FromRootPlayer.gameObject);
 		}
 
 		if (toRootPlayer != null)
 		{
-			ServerAddObserverPlayer(info.ToRootPlayer);
+			ServerAddObserverPlayer(info.ToRootPlayer.gameObject);
 		}
 	}
 
@@ -273,45 +271,32 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// will simply return this
 	/// </summary>
 	/// <returns></returns>
-	public GameObject GetRootStorage()
+	public GameObject GetRootStorageOrPlayer()
 	{
-		ItemStorage storage = this;
-		var pickupable = storage.GetComponent<Pickupable>();
-		while (pickupable != null && pickupable.ItemSlot != null)
+		try
 		{
-			storage = pickupable.ItemSlot.ItemStorage;
-			pickupable = storage.GetComponent<Pickupable>();
-			if (pickupable == null)
+			ItemStorage storage = this;
+			var pickupable = storage.GetComponent<Pickupable>();
+			while (pickupable != null && pickupable.ItemSlot != null)
 			{
-				if (storage.player != null)
+				storage = pickupable.ItemSlot.ItemStorage;
+				pickupable = storage.GetComponent<Pickupable>();
+				if (pickupable == null)
 				{
-					return storage.player.GameObjectBody;
+					if (storage.player != null)
+					{
+						return storage.player.gameObject;
+					}
 				}
 			}
+
+			return storage.gameObject;
 		}
-
-		return storage.gameObject;
-	}
-
-
-	public Mind GetRootPlayer()
-	{
-		ItemStorage storage = this;
-		var pickupable = storage.GetComponent<Pickupable>();
-		while (pickupable != null && pickupable.ItemSlot != null)
+		catch (NullReferenceException exception)
 		{
-			storage = pickupable.ItemSlot.ItemStorage;
-			pickupable = storage.GetComponent<Pickupable>();
-			if (pickupable == null)
-			{
-				if (storage.player != null)
-				{
-					return storage.player;
-				}
-			}
+			Logger.LogError("Caught NRE in ItemStorage: " + exception.Message, Category.Inventory);
+			return null;
 		}
-
-		return null;
 	}
 
 	/// <summary>
@@ -530,7 +515,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// of this method.
 	/// </summary>
 	/// <param name="observerPlayer"></param>
-	public void ServerAddObserverPlayer(Mind observerPlayer)
+	public void ServerAddObserverPlayer(GameObject observerPlayer)
 	{
 		if (!CustomNetworkManager.IsServer) return;
 
@@ -549,7 +534,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// This observer will not longer receive updates as they happen to this slot.
 	/// </summary>
 	/// <param name="observerPlayer"></param>
-	public void ServerRemoveObserverPlayer(Mind observerPlayer)
+	public void ServerRemoveObserverPlayer(GameObject observerPlayer)
 	{
 		if (!CustomNetworkManager.IsServer) return;
 		serverObserverPlayers.Remove(observerPlayer);
@@ -568,9 +553,9 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	public void ServerRemoveAllObserversExceptOwner()
 	{
 		if (!CustomNetworkManager.IsServer) return;
-		var Rootplayer = GetRootPlayer();
+		var rootStorage = GetRootStorageOrPlayer();
 		//have to do it this way so we don't get a concurrent modification error
-		var observersToRemove = serverObserverPlayers.Where(obs => obs != Rootplayer).ToArray();
+		var observersToRemove = serverObserverPlayers.Where(obs => obs != rootStorage.gameObject).ToArray();
 		foreach (var observerPlayer in observersToRemove)
 		{
 			ServerRemoveObserverPlayer(observerPlayer);
@@ -582,7 +567,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// </summary>
 	/// <param name="observer"></param>
 	/// <returns></returns>
-	public bool ServerIsObserver(Mind observer)
+	public bool ServerIsObserver(GameObject observer)
 	{
 		return serverObserverPlayers.Contains(observer);
 	}

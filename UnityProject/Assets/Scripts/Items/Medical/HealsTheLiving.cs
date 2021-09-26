@@ -101,7 +101,7 @@ public class HealsTheLiving : MonoBehaviour, ICheckedInteractable<HandApply>
 	{
 		if (livingHealth.HasTraumaDamage(interaction.TargetBodyPart))
 		{
-			livingHealth.HealTraumaDamage(TraumaDamageToHeal, interaction.TargetBodyPart, TraumaTypeToHeal);
+			livingHealth.HealTraumaDamage(interaction.TargetBodyPart, TraumaTypeToHeal);
 			Chat.AddActionMsgToChat(interaction,
 			$"You apply the {gameObject.ExpensiveName()} to {MindManager.StaticGet(livingHealth.gameObject).ExpensiveName()}",
 			$"{interaction.Performer.ExpensiveName()} applies {name} to {MindManager.StaticGet(livingHealth.gameObject).ExpensiveName()}.");

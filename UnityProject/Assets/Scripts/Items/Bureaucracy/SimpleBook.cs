@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using NaughtyAttributes;
+using AddressableReferences;
+
 
 namespace Items.Bureaucracy
 {
@@ -27,7 +28,10 @@ namespace Items.Bureaucracy
 		[SerializeField, ReorderableList]
 		private string[] remarks = default;
 
-		private readonly Dictionary<Mind, int> readerProgress = new Dictionary<Mind, int>();
+		[SerializeField]
+		private List<AddressableAudioSource> pageturnSfx = default;
+
+		private readonly Dictionary<ConnectedPlayer, int> readerProgress = new Dictionary<ConnectedPlayer, int>();
 		protected bool hasBeenRead = false;
 
 		protected bool AllowOnlyOneReader => allowOnlyOneReader;
@@ -41,7 +45,7 @@ namespace Items.Bureaucracy
 
 		public void ServerPerformInteraction(HandActivate interaction)
 		{
-			var player = interaction.Performer;
+			ConnectedPlayer player = interaction.Performer.Player();
 
 			if (TryReading(player))
 			{
@@ -53,45 +57,46 @@ namespace Items.Bureaucracy
 		/// Whether it is possible for the reader to read this book.
 		/// </summary>
 		/// <returns></returns>
-		protected virtual bool TryReading(Mind player)
+		protected virtual bool TryReading(ConnectedPlayer player)
 		{
 			if (canBeReadMultipleTimes == false &&
 					readerProgress.ContainsKey(player) && readerProgress[player] > pagesToRead)
 			{
-				Chat.AddExamineMsgFromServer(player, $"You already know all about <b>{gameObject.ExpensiveName()}</b>!");
+				Chat.AddExamineMsgFromServer(player.GameObject, $"You already know all about <b>{gameObject.ExpensiveName()}</b>!");
 				return false;
 			}
 			if (AllowOnlyOneReader && hasBeenRead)
 			{
-				Chat.AddExamineMsgFromServer(player, $"It seems you can't read this book... has someone claimed it?");
+				Chat.AddExamineMsgFromServer(player.GameObject, $"It seems you can't read this book... has someone claimed it?");
 				return false;
 			}
 
 			return true;
 		}
 
-		private void StartReading(Mind player)
+		private void StartReading(ConnectedPlayer player)
 		{
 			if (readerProgress.ContainsKey(player) == false)
 			{
 				readerProgress.Add(player, 0);
-				Chat.AddActionMsgToChat(player,
+				Chat.AddActionMsgToChat(player.GameObject,
 						$"You begin reading {gameObject.ExpensiveName()}...",
-						$"{player.ExpensiveName()} begins reading {gameObject.ExpensiveName()}...");
+						$"{player.Script.visibleName} begins reading {gameObject.ExpensiveName()}...");
 				ReadBook(player);
 			}
 			else
 			{
-				Chat.AddActionMsgToChat(player,
+				Chat.AddActionMsgToChat(player.GameObject,
 						$"You resume reading {gameObject.ExpensiveName()}...",
-						$"{player.ExpensiveName()} resumes reading {gameObject.ExpensiveName()}...");
+						$"{player.Script.visibleName} resumes reading {gameObject.ExpensiveName()}...");
 				ReadBook(player, readerProgress[player]);
 			}
 		}
 
 		// Note: this is a recursive method.
-		private void ReadBook(Mind player, int pageToRead = 0)
+		private void ReadBook(ConnectedPlayer player, int pageToRead = 0)
 		{
+			var playerTile = player.GameObject.RegisterTile();
 			if (pageToRead >= pagesToRead || pageToRead > 10)
 			{
 				FinishReading(player);
@@ -104,18 +109,17 @@ namespace Items.Bureaucracy
 				false
 			);
 			StandardProgressAction.Create(cfg, ReadPage).ServerStartProgress(
-				player.registerTile,
+				playerTile,
 				timeToReadPage,
-				player
+				player.GameObject
 			);
 
 			void ReadPage()
 			{
 				readerProgress[player]++;
 
-				// TODO: play random page-turning sound => pageturn1.ogg || pageturn2.ogg || pageturn3.ogg
-				string remark = remarks[Random.Range(0, remarks.Length)];
-				Chat.AddExamineMsgFromServer(player, remark);
+				SoundManager.PlayNetworkedAtPos(pageturnSfx.PickRandom(), playerTile.WorldPositionServer, sourceObj: player.GameObject);
+				Chat.AddExamineMsgFromServer(player.GameObject, remarks.PickRandom());
 
 				ReadBook(player, readerProgress[player]);
 			}
@@ -124,7 +128,7 @@ namespace Items.Bureaucracy
 		/// <summary>
 		/// Triggered when the reader has read all of the pages.
 		/// </summary>
-		protected virtual void FinishReading(Mind player)
+		protected virtual void FinishReading(ConnectedPlayer player)
 		{
 			hasBeenRead = true;
 
@@ -133,9 +137,9 @@ namespace Items.Bureaucracy
 				readerProgress[player] = 0;
 			}
 
-			Chat.AddActionMsgToChat(player,
+			Chat.AddActionMsgToChat(player.GameObject,
 					$"You finish reading {gameObject.ExpensiveName()}!",
-					$"{player.ExpensiveName()} finishes reading {gameObject.ExpensiveName()}!");
+					$"{player.Script.visibleName} finishes reading {gameObject.ExpensiveName()}!");
 		}
 	}
 }

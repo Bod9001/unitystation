@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
@@ -41,19 +42,27 @@ namespace Messages.Client
 				return;
 			}
 
-			var playerScript = player.CurrentMind;
+			var playerScript = player.Script;
 
 			//First Validations is for objects in the world (computers, etc), second check is for items in active hand (null rod, PADs).
 			bool validate;
-			if (playerScript.IsSilicon)
+			if (playerScript.PlayerState == PlayerScript.PlayerStates.Ai)
 			{
-				validate = Validations.CanApply(new AiActivate(playerScript, null,
+				validate = Validations.CanApply(new AiActivate(player.GameObject, null,
 					tabProvider, Intent.Help, AiActivate.ClickTypes.NormalClick), NetworkSide.Server);
 			}
 			else
 			{
-				validate = Validations.CanApply(playerScript, tabProvider, NetworkSide.Server)
-				           || playerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject == tabProvider;
+				try
+				{
+					validate = Validations.CanApply(player.Script, tabProvider, NetworkSide.Server)
+					           || playerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject == tabProvider;
+				}
+				catch (NullReferenceException exception)
+				{
+					Logger.LogError("Caught NRE in TabInterectMessage.Process: " + exception.Message, Category.Interaction);
+					return;
+				}
 			}
 
 			if (!validate)
@@ -101,10 +110,10 @@ namespace Messages.Client
 			{
 				var connectedPlayer = list[i];
 //Not sending that update to the same player
-				if (connectedPlayer != player)
+				if (connectedPlayer.GameObject != player.GameObject)
 				{
-					TabUpdateMessage.Send(connectedPlayer.CurrentMind, tabProvider, msg.NetTabType, TabAction.Update,
-						player.CurrentMind,
+					TabUpdateMessage.Send(connectedPlayer.GameObject, tabProvider, msg.NetTabType, TabAction.Update,
+						player.GameObject,
 						new[] {new ElementValue {Id = msg.ElementId, Value = updatedElement.BinaryValue}});
 				}
 			}
@@ -112,8 +121,8 @@ namespace Messages.Client
 
 		private TabUpdateMessage FailValidation(ConnectedPlayer player, GameObject tabProvider, NetMessage msg, string reason = "")
 		{
-			Logger.LogWarning($"{player.Username}: Tab interaction w/{tabProvider} denied: {reason}", Category.NetUI);
-			return TabUpdateMessage.Send(player.CurrentMind, tabProvider, msg.NetTabType, TabAction.Close);
+			Logger.LogWarning($"{player.Name}: Tab interaction w/{tabProvider} denied: {reason}", Category.NetUI);
+			return TabUpdateMessage.Send(player.GameObject, tabProvider, msg.NetTabType, TabAction.Close);
 		}
 
 		public static NetMessage Send(

@@ -249,7 +249,7 @@ public class Lungs : Organ
 			RelatedPart.HealthMaster.HealthStateController.SetSuffocating(true);
 			if (Random.value < 0.2)
 			{
-				Chat.AddActionMsgToChat(MindManager.StaticGet(RelatedPart.HealthMaster.gameObject), "You gasp for breath", $"{MindManager.StaticGet(RelatedPart.HealthMaster.gameObject).ExpensiveName()} gasps");
+				Chat.AddActionMsgToChat(RelatedPart.HealthMaster.gameObject, "You gasp for breath", $"{RelatedPart.HealthMaster.playerScript.visibleName} gasps");
 			}
 		}
 
@@ -263,9 +263,9 @@ public class Lungs : Organ
         {
 			if(RelatedPart.CurrentInternalBleedingDamage > RelatedPart.MaximumInternalBleedDamage / 2)
 			{
-				Chat.AddActionMsgToChat(MindManager.StaticGet(RelatedPart.HealthMaster.gameObject),
+				Chat.AddActionMsgToChat(RelatedPart.HealthMaster.gameObject,
 				"You gasp for air; but you drown in your own blood from the inside!",
-				$"{MindManager.StaticGet(RelatedPart.HealthMaster.gameObject)} gasps for air!");
+				$"{RelatedPart.HealthMaster.playerScript.visibleName} gasps for air!");
 				RelatedPart.HealthMaster.HealthStateController.SetSuffocating(true);
 			}
 			else
@@ -274,9 +274,9 @@ public class Lungs : Organ
 			}
             if(DMMath.Prob(coughChanceWhenInternallyBleeding))
             {
-				Chat.AddActionMsgToChat(MindManager.StaticGet(RelatedPart.HealthMaster.gameObject),
-				"You cough up blood!", $"{MindManager.StaticGet(RelatedPart.HealthMaster.gameObject)} coughs up blood!");
-				RelatedPart.CurrentInternalBleedingDamage -= RelatedPart.InternalBleedingBloodLoss;
+				Chat.AddActionMsgToChat(RelatedPart.HealthMaster.gameObject,
+				"You cough up blood!", $"{RelatedPart.HealthMaster.playerScript.visibleName} coughs up blood!");
+				RelatedPart.CurrentInternalBleedingDamage -= 4;
 
 				//TODO: TAKE BLOOD
 				var bloodLoss = new ReagentMix();

@@ -436,7 +436,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 		if (parentContainer.TryGetComponent(out ClosetControl closet))
 		{
-			closet.PlayerTryEscaping(MindManager.StaticGet(gameObject) );
+			closet.PlayerTryEscaping(gameObject);
 		}
 		else if (parentContainer.TryGetComponent(out Objects.Disposals.DisposalVirtualContainer disposalContainer))
 		{
@@ -448,10 +448,10 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 	{
 		if (isLocalPlayer && playerMove != null)
 		{
-			if (LocalPlayerManager.MovementControllable == this)
+			if (PlayerManager.MovementControllable == this)
 			{
 				didWiggle = false;
-				if (KeyboardInputManager.IsMovementPressed() && Validations.CanInteract(MindManager.StaticGet(gameObject),
+				if (KeyboardInputManager.IsMovementPressed() && Validations.CanInteract(playerScript,
 					    isServer ? NetworkSide.Server : NetworkSide.Client))
 				{
 					//	If being pulled by another player and you try to break free
@@ -461,7 +461,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 						didWiggle = true;
 					}
 					// Player inside something
-					else if (Camera2DFollow.followControl.target != LocalPlayerManager.LocalPlayer.transform)
+					else if (Camera2DFollow.followControl.target != PlayerManager.LocalPlayer.transform)
 					{
 						CmdTryEscapeContainer();
 						didWiggle = true;
@@ -504,7 +504,12 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 			if (server)
 			{
-				if (serverState.Position != serverLerpState.Position)
+				if (CommonInput.GetKeyDown(KeyCode.F7) && gameObject == PlayerManager.LocalPlayer)
+				{
+					PlayerSpawn.ServerSpawnDummy(gameObject.transform);
+				}
+
+				if (serverState.LocalPosition != serverLerpState.LocalPosition)
 				{
 					ServerLerp();
 				}
@@ -516,15 +521,23 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 		}
 
 		//Registering
-		if (registerPlayer.LocalPositionClient != Vector3Int.RoundToInt(predictedState.Position))
+		if (registerPlayer.LocalPositionClient != Vector3Int.RoundToInt(predictedState.LocalPosition))
 		{
-			if (registerPlayer.ServerSetNetworkedMatrixNetID(MatrixManager.Get(predictedState.MatrixId).NetID) == false)
+			if (server)
 			{
-				registerPlayer.UpdatePositionClient(); //predicted movement didnt swap to another matrix
+				if (registerPlayer.ServerSetNetworkedMatrixNetID(MatrixManager.Get(predictedState.MatrixId).NetID) ==
+				    false)
+				{
+					registerPlayer.UpdatePositionClient();
+				}
+			}
+			else
+			{
+				registerPlayer.UpdatePositionClient();
 			}
 		}
 
-		if (registerPlayer.LocalPositionServer != Vector3Int.RoundToInt(serverState.Position))
+		if (server && registerPlayer.LocalPositionServer != Vector3Int.RoundToInt(serverState.LocalPosition))
 		{
 			registerPlayer.UpdatePositionServer();
 		}
@@ -555,7 +568,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 	{
 		var newState = state;
 		newState.MoveNumber++;
-		newState.Position = playerMove.GetNextPosition(Vector3Int.RoundToInt(state.Position), action, isReplay,
+		newState.LocalPosition = playerMove.GetNextPosition(Vector3Int.RoundToInt(state.LocalPosition), action, isReplay,
 			MatrixManager.Get(newState.MatrixId).Matrix);
 
 		var proposedWorldPos = newState.WorldPosition;
