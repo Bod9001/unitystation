@@ -42,7 +42,7 @@ namespace Messages.Client.NewPlayer
 
 		private bool ValidateMessage(NetMessage msg)
 		{
-			if (SentByPlayer == null || SentByPlayer.Equals(ConnectedPlayer.Invalid))
+			if (SentByPlayer == null || SentByPlayer.Equals(PlayersManager.InvalidPlayer))
 			{
 				Logger.LogError($"Cannot process {nameof(ClientRequestJobMessage)}: {nameof(SentByPlayer)} is null!", Category.Jobs);
 				return false;
@@ -77,7 +77,7 @@ namespace Messages.Client.NewPlayer
 				return false;
 			}
 
-			if (PlayerList.Instance.FindPlayerJobBanEntryServer(msg.PlayerID, msg.JobType, true) != null)
+			if (PlayersManager.Instance.FindPlayerJobBanEntryServer(msg.PlayerID, msg.JobType, true) != null)
 			{
 				NotifyRequestRejected(JobRequestError.JobBanned, $"player was job-banned from {msg.JobType}");
 				return false;

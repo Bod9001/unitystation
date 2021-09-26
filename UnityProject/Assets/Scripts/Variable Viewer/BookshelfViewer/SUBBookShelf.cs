@@ -21,6 +21,6 @@ public class SUBBookShelf : MonoBehaviour
 	}
 
 	public void OpenBookshelf() {
-		RequestBookshelfNetMessage.Send(_IDANName.ID, true, ServerData.UserID, PlayerList.Instance.AdminToken);
+		RequestBookshelfNetMessage.Send(_IDANName.ID, true, ServerData.UserID, PlayersManager.Instance.AdminToken);
 	}
 }

@@ -23,7 +23,7 @@ public class DamageOnPickUp : MonoBehaviour, IServerInventoryMove
 
 	public ItemTrait[] protectionItemTraits;
 
-	private PlayerScript player;
+	private Mind player;
 
 	public void OnInventoryMoveServer(InventoryMove info)
 	{
@@ -31,7 +31,7 @@ public class DamageOnPickUp : MonoBehaviour, IServerInventoryMove
 
 		if (info.ToSlot != null && info.ToSlot?.NamedSlot != null)
 		{
-			player = info.ToRootPlayer?.PlayerScript;
+			player = info.ToRootPlayer;
 
 			if (player != null)
 			{
@@ -51,14 +51,14 @@ public class DamageOnPickUp : MonoBehaviour, IServerInventoryMove
 
 			if (info.ToSlot.NamedSlot == NamedSlot.leftHand)
 			{
-				player.playerHealth.ApplyDamageToBodyPart(gameObject, amountOfDamage, attackType, damageType, BodyPartType.LeftArm);
+				player.LivingHealthMasterBase.ApplyDamageToBodyPart(gameObject, amountOfDamage, attackType, damageType, BodyPartType.LeftArm);
 			}
 			else
 			{
-				player.playerHealth.ApplyDamageToBodyPart(gameObject, amountOfDamage, attackType, damageType, BodyPartType.RightArm);
+				player.LivingHealthMasterBase.ApplyDamageToBodyPart(gameObject, amountOfDamage, attackType, damageType, BodyPartType.RightArm);
 			}
 
-			Chat.AddExamineMsgFromServer(player.gameObject, "<color=red>You injure yourself picking up the " + GetComponent<ItemAttributesV2>().ArticleName + "</color>");
+			Chat.AddExamineMsgFromServer(player, "<color=red>You injure yourself picking up the " + GetComponent<ItemAttributesV2>().ArticleName + "</color>");
 		}
 	}
 }

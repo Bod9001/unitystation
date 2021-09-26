@@ -10,7 +10,7 @@ namespace Doors
 
 		public override void TryClose() { }
 
-		public override void TryOpen(GameObject performer) { }
+		public override void TryOpen(Mind performer) { }
 
 		void TriggerAlarm()
 		{

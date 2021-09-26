@@ -10,19 +10,13 @@ using UnityEngine;
 public abstract class Interaction
 {
 	private readonly GameObject usedObject;
-	private readonly GameObject performer;
+	private readonly Mind performer;
 	private readonly Intent intent;
 
 	/// <summary>
 	/// The gameobject of the player performing the interaction
 	/// </summary>
-	public GameObject Performer => performer;
-
-	/// <summary>
-	/// PlayerScript of the performer.
-	/// </summary>
-	public PlayerScript PerformerPlayerScript => performerPlayerScript;
-	private readonly PlayerScript performerPlayerScript;
+	public Mind Performer => performer;
 
 	/// <summary>
 	/// Object that is being used by the player to perform the interaction.
@@ -49,14 +43,10 @@ public abstract class Interaction
 	/// For combine - object that was dragged to another slot.
 	/// For activate - the object being activated
 	/// For mouse drop - the object being dragged and dropped.</param>
-	public Interaction(GameObject performer, GameObject usedObject, Intent intent)
+	public Interaction(Mind performer, GameObject usedObject, Intent intent)
 	{
 		this.performer = performer;
 		this.usedObject = usedObject;
 		this.intent = intent;
-		if (performer)
-		{
-			this.performerPlayerScript = performer.GetComponent<PlayerScript>();
-		}
 	}
 }

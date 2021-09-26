@@ -53,7 +53,7 @@ public class AimApply : Interaction
 	/// or ending.</param>
 	/// <param name="targetVector">vector pointing from shooter to the spot they are targeting - should NOT be normalized. Set to
 	/// Vector2.zero if aiming at self.</param>
-	private AimApply(GameObject performer, GameObject handObject, ItemSlot handSlot, MouseButtonState buttonState, Vector2 targetVector, Intent intent) :
+	private AimApply(Mind performer, GameObject handObject, ItemSlot handSlot, MouseButtonState buttonState, Vector2 targetVector, Intent intent) :
 		base(performer, handObject, intent)
 	{
 		this.targetVector = targetVector;
@@ -76,17 +76,17 @@ public class AimApply : Interaction
 		}
 
 		var targetVector = (Vector2) MouseUtils.MouseToWorldPos() -
-		                   (Vector2) PlayerManager.LocalPlayer.transform.position;
+		                   (Vector2) LocalPlayerManager.LocalPlayer.transform.position;
 		//check for self aim if target vector is sufficiently small so we can avoid raycast
 		var selfAim = false;
 		if (targetVector.magnitude < 0.6)
 		{
 			selfAim = MouseUtils.GetOrderedObjectsUnderMouse(PLAYER_LAYER_MASK,
-				go => go == PlayerManager.LocalPlayer).Any();
+				go => go == LocalPlayerManager.LocalPlayer).Any();
 		}
 
-		return new AimApply(PlayerManager.LocalPlayer, PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject,
-			PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot(),
+		return new AimApply(LocalPlayerManager.LocalPlayer.CurrentMind, LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject,
+			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(),
 			buttonState,
 			selfAim ? Vector2.zero : targetVector, UIManager.CurrentIntent);
 	}
@@ -104,7 +104,7 @@ public class AimApply : Interaction
 	/// the message processing logic. Should match HandSlot.ForName(SentByPlayer.Script.playerNetworkActions.activeHand).</param>
 	/// <returns>a hand apply by the client, targeting the specified object with the item in the active hand</returns>
 	/// <param name="mouseButtonState">state of the mouse button</param>
-	public static AimApply ByClient(GameObject clientPlayer, Vector2 targetVector, GameObject handObject, ItemSlot handSlot, MouseButtonState mouseButtonState,
+	public static AimApply ByClient(Mind clientPlayer, Vector2 targetVector, GameObject handObject, ItemSlot handSlot, MouseButtonState mouseButtonState,
 		Intent intent)
 	{
 		return new AimApply(clientPlayer, handObject, handSlot,  mouseButtonState, targetVector, intent);

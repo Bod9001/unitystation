@@ -45,12 +45,12 @@ namespace Systems.MobAIs
 
 			if (barked != null)
 			{
-				Chat.AddActionMsgToChat(barked, $"{MobName} barks at you!",
+				Chat.AddInanimateActionMsgToChat(barked, $"{MobName} barks at you!",
 					$"{MobName} barks at {barked.ExpensiveName()}");
 			}
 			else
 			{
-				Chat.AddActionMsgToChat(gameObject, $"{MobName} barks!", $"{MobName} barks!");
+				Chat.AddInanimateActionMsgToChat(gameObject, $"{MobName} barks!", $"{MobName} barks!");
 			}
 		}
 
@@ -73,23 +73,23 @@ namespace Systems.MobAIs
 
 		void ProcessLocalChat(ChatEvent chatEvent)
 		{
-			var speaker = PlayerList.Instance.Get(chatEvent.speaker);
-
-			if (speaker.Script == null) return;
-			if (speaker.Script.playerNetworkActions == null) return;
-
-			if (speaker.Job == JobType.CAPTAIN || speaker.Job == JobType.HOP)
-			{
-				StartCoroutine(PerformVoiceCommand(chatEvent.message.ToLower(), speaker));
-			}
+			// var speaker = MindManager.Instance.Get(chatEvent.speaker); //ChatEvent  should contain mind
+			//
+			// if (speaker.Script == null) return;
+			// if (speaker.Script.playerNetworkActions == null) return;
+			//
+			// if (speaker.Job == JobType.CAPTAIN || speaker.Job == JobType.HOP)
+			// {
+			// 	StartCoroutine(PerformVoiceCommand(chatEvent.message.ToLower(), speaker.AssignedPlayer));
+			// }
 		}
 
-		IEnumerator PerformVoiceCommand(string msg, ConnectedPlayer speaker)
+		IEnumerator PerformVoiceCommand(string msg, Mind speaker)
 		{
 			//We want these ones to happen right away:
 			if (msg.Contains($"{dogName} run") || msg.Contains($"{dogName} get out of here"))
 			{
-				StartFleeing(speaker.GameObject, 10f);
+				StartFleeing(speaker.GameObjectBody, 10f);
 				yield break;
 			}
 
@@ -115,7 +115,7 @@ namespace Systems.MobAIs
 					SingleBark();
 				}
 
-				FollowTarget(speaker.GameObject);
+				FollowTarget(speaker.GameObjectBody);
 				yield break;
 			}
 
@@ -166,16 +166,16 @@ namespace Systems.MobAIs
 					RandomBarks();
 					break;
 				case 3:
-					Chat.AddActionMsgToChat(gameObject, $"{MobName} wags its tail!", $"{MobName} wags its tail!");
+					Chat.AddInanimateActionMsgToChat(gameObject, $"{MobName} wags its tail!", $"{MobName} wags its tail!");
 					break;
 				case 4:
-					Chat.AddActionMsgToChat(
+					Chat.AddInanimateActionMsgToChat(
 						performer,
 						$"{MobName} licks your hand!",
 						$"{MobName} licks {performer.ExpensiveName()}'s hand!");
 					break;
 				case 5:
-					Chat.AddActionMsgToChat(
+					Chat.AddInanimateActionMsgToChat(
 						performer,
 						$"{MobName} gives you its paw!",
 						$"{MobName} gives his paw to {performer.ExpensiveName()}");
@@ -241,7 +241,7 @@ namespace Systems.MobAIs
 					RandomBarks();
 					break;
 				case 4:
-					Chat.AddActionMsgToChat(
+					Chat.AddInanimateActionMsgToChat(
 						gameObject,
 						$"{MobName} wags its tail!",
 						$"{MobName} wags its tail!");

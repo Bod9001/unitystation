@@ -36,7 +36,6 @@ public class ClothingItem : MonoBehaviour
 	//choice between left or right or other(clothing)
 	public SpriteHandType spriteType;
 
-	public PlayerScript thisPlayerScript;
 
 	/// <summary>
 	/// Direction clothing is facing (absolute)
@@ -89,7 +88,7 @@ public class ClothingItem : MonoBehaviour
 				if (unequippedClothing != null)
 				{
 					if (unequippedClothing)
-						thisPlayerScript.playerSprites.OnClothingEquipped(unequippedClothing, false);
+						this.GetComponent<PlayerSprites>().OnClothingEquipped(unequippedClothing, false);
 				}
 			}
 
@@ -118,7 +117,7 @@ public class ClothingItem : MonoBehaviour
 				// But for the others, we call the OnClothingEquipped event.
 				if (equippedClothing)
 				{
-					thisPlayerScript.playerSprites.OnClothingEquipped(equippedClothing, true);
+					this.GetComponent<PlayerSprites>().OnClothingEquipped(equippedClothing, true);
 				}
 			}
 		}

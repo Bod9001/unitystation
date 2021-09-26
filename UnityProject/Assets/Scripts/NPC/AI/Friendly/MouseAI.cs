@@ -57,7 +57,7 @@ namespace Systems.MobAIs
 			AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: Random.Range(.6f, 1.2f));
 			SoundManager.PlayNetworkedAtPos(squeekSound, gameObject.transform.position, audioSourceParameters);
 
-			Chat.AddActionMsgToChat(
+			Chat.AddInanimateActionMsgToChat(
 				gameObject,
 				$"{MobName} squeaks!",
 				$"{MobName} squeaks!");

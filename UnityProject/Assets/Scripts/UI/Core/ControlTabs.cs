@@ -413,7 +413,7 @@ namespace UI
 		{
 			if (Instance.itemListTabExists == false) return;
 
-			if (!PlayerManager.LocalPlayerScript || !PlayerManager.LocalPlayerScript.IsPositionReachable(UITileList.GetListedItemsLocation(), false))
+			if (!LocalPlayerManager.CurrentMind || !Validations.IsPositionReachable(LocalPlayerManager.CurrentMind.registerTile, UITileList.GetListedItemsLocation(), false))
 			{
 				Instance.HideTab(ClientTabType.ItemList);
 				return;
@@ -536,7 +536,7 @@ namespace UI
 			var toClose = new List<NetTab>();
 			var toDestroy = new List<NetTab>();
 			var reach = ReachRange.Standard;
-			var playerScript = PlayerManager.LocalPlayerScript;
+			var playerScript = LocalPlayerManager.CurrentMind;
 
 			foreach (NetTab tab in Instance.OpenedNetTabs.Values)
 			{
@@ -549,9 +549,9 @@ namespace UI
 				if (Validations.CanApply(playerScript, tab.Provider, NetworkSide.Client, reachRange: reach) == false)
 				{
 					//Validate for AI reach
-					if (playerScript != null && playerScript.PlayerState == PlayerScript.PlayerStates.Ai)
+					if (playerScript != null && playerScript.IsSilicon)
 					{
-						if (Validations.CanApply(new AiActivate(playerScript.gameObject, null,
+						if (Validations.CanApply(new AiActivate(playerScript, null,
 							tab.Provider, Intent.Help, AiActivate.ClickTypes.NormalClick), NetworkSide.Client))
 						{
 							continue;
@@ -564,7 +564,7 @@ namespace UI
 					bool hasItem = false;
 
 					//Make sure the item is not in the players hands first:
-					foreach (var itemSlot in PlayerManager.LocalPlayerScript.DynamicItemStorage.GetHandSlots())
+					foreach (var itemSlot in LocalPlayerManager.CurrentMind.DynamicItemStorage.GetHandSlots())
 					{
 						if (itemSlot.ItemObject == tab.Provider.gameObject)
 						{

@@ -18,18 +18,18 @@ namespace Messages.Client.Admin
 
 		public override void Process(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (admin != null)
 			{
 				if (GameManager.Instance.NextGameMode != msg.NextGameMode)
 				{
-					Logger.Log(admin.Player().Username + $" with uid: {msg.Userid}, has updated the next game mode with {msg.NextGameMode}", Category.Admin);
+					Logger.Log(admin.Username + $" with uid: {msg.Userid}, has updated the next game mode with {msg.NextGameMode}", Category.Admin);
 					GameManager.Instance.NextGameMode = msg.NextGameMode;
 				}
 
 				if (GameManager.Instance.SecretGameMode != msg.IsSecret)
 				{
-					Logger.Log(admin.Player().Username + $" with uid: {msg.Userid}, has set the IsSecret GameMode flag to {msg.IsSecret}", Category.Admin);
+					Logger.Log(admin.Username + $" with uid: {msg.Userid}, has set the IsSecret GameMode flag to {msg.IsSecret}", Category.Admin);
 					GameManager.Instance.SecretGameMode = msg.IsSecret;
 				}
 			}

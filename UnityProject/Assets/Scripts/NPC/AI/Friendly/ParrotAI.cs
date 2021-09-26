@@ -101,7 +101,7 @@ namespace Systems.MobAIs
 		{
 			//TODO add parrot sounds!
 			string[]  _sounds = {"squawks", "screeches"};
-			Chat.AddActionMsgToChat(
+			Chat.AddInanimateActionMsgToChat(
 				gameObject,
 				$"{MobName} {_sounds.PickRandom()}!",
 				$"{MobName} {_sounds.PickRandom()}!");

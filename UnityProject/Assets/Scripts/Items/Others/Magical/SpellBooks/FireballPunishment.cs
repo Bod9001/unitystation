@@ -12,12 +12,12 @@ namespace Items.Magical
 		[SerializeField]
 		private GameObject explosionPrefab = default;
 
-		public override void Punish(ConnectedPlayer player)
+		public override void Punish(Mind player)
 		{
-			GameObject explosionObject = Spawn.ServerPrefab(explosionPrefab, player.Script.WorldPos).GameObject;
+			GameObject explosionObject = Spawn.ServerPrefab(explosionPrefab, player.BodyWorldPosition).GameObject;
 			if (explosionObject.TryGetComponent<ExplosionComponent>(out var explosion))
 			{
-				explosion.Explode(MatrixManager.AtPoint(player.Script.WorldPos, true).Matrix);
+				explosion.Explode(MatrixManager.AtPoint(player.BodyWorldPosition.RoundToInt(), true).Matrix);
 			}
 			else
 			{

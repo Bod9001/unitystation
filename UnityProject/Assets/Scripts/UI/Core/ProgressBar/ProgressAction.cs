@@ -17,7 +17,7 @@ public static class ProgressAction
 	/// progress was not started for some reason (such as already in progress for this action on the specified tile).</returns>
 	public static ProgressBar ServerStartProgress(this IProgressAction progressAction, ActionTarget actionTarget,
 		float timeForCompletion,
-		GameObject player)
+		Mind player)
 	{
 		return UIManager._ServerStartProgress(progressAction, actionTarget, timeForCompletion, player);
 	}
@@ -35,7 +35,7 @@ public static class ProgressAction
 	/// progress was not started for some reason (such as already in progress for this action on the specified tile).</returns>
 	public static ProgressBar ServerStartProgress(this IProgressAction progressAction, Vector3 worldTilePos,
 		float timeForCompletion,
-		GameObject player)
+		Mind player)
 	{
 		return UIManager._ServerStartProgress(progressAction, ActionTarget.Tile(worldTilePos), timeForCompletion, player);
 	}
@@ -53,7 +53,7 @@ public static class ProgressAction
 	/// progress was not started for some reason (such as already in progress for this action on the specified tile).</returns>
 	public static ProgressBar ServerStartProgress(this IProgressAction progressAction, RegisterTile target,
 		float timeForCompletion,
-		GameObject player)
+		Mind player)
 	{
 		return UIManager._ServerStartProgress(progressAction, ActionTarget.Object(target), timeForCompletion, player);
 	}

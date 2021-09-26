@@ -345,7 +345,7 @@ public class Matrix : MonoBehaviour
 
 		return null;
 	}
-	public IEnumerable<T> Get<T>(Vector3Int localPosition, ObjectType type, bool isServer) where T : MonoBehaviour
+	public IEnumerable<T> Get<T>(Vector3Int localPosition, FlagsObjectType types, bool isServer) where T : MonoBehaviour
 	{
 		if (!(isServer ? ServerObjects : ClientObjects).HasObjects(localPosition))
 		{
@@ -353,7 +353,7 @@ public class Matrix : MonoBehaviour
 		}
 
 		var filtered = new List<T>();
-		foreach (RegisterTile t in (isServer ? ServerObjects : ClientObjects).Get(localPosition, type))
+		foreach (RegisterTile t in (isServer ? ServerObjects : ClientObjects).Get(localPosition, types))
 		{
 			T x = t.GetComponent<T>();
 			if (x != null)

@@ -134,10 +134,10 @@ namespace UI
 		{
 			_ = SoundManager.Play(CommonSounds.Instance.Click01);
 
-			if (PlayerManager.PlayerScript == null) return;
-			if (PlayerManager.PlayerScript.playerNetworkActions == null) return;
+			if (LocalPlayerManager.CurrentMind == null) return;
+			if (LocalPlayerManager.CurrentMind.playerNetworkActions == null) return;
 
-			PlayerManager.PlayerScript.playerNetworkActions.CmdInitiateRestartVote();
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdInitiateRestartVote();
 
 			CloseMenuPanel();
 		}

@@ -5,37 +5,29 @@ using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerManager : MonoBehaviour
+public class LocalPlayerManager : MonoBehaviour
 {
-	private static PlayerManager playerManager;
+	private static LocalPlayerManager localPlayerManager;
 
 	public static IPlayerControllable MovementControllable { get; private set; }
-	public static GameObject LocalPlayer { get; private set; }
+	public static ConnectedPlayer LocalPlayer { get; private set; }
 
-	public static Equipment Equipment { get; private set; }
-
-	public static PlayerScript LocalPlayerScript { get; private set; }
+	public static Mind CurrentMind => LocalPlayer.OrNull()?.CurrentMind;
 	public static JoinedViewer LocalViewerScript { get; private set; }
-
-	//For access via other parts of the game
-	public static PlayerScript PlayerScript { get; private set; }
-
 	public static bool HasSpawned { get; private set; }
 
 	public static CharacterSettings CurrentCharacterSettings { get; set; }
 
-	private int mobIDcount;
-
-	public static PlayerManager Instance
+	public static LocalPlayerManager Instance
 	{
 		get
 		{
-			if (!playerManager)
+			if (!localPlayerManager)
 			{
-				playerManager = FindObjectOfType<PlayerManager>();
+				localPlayerManager = FindObjectOfType<LocalPlayerManager>();
 			}
 
-			return playerManager;
+			return localPlayerManager;
 		}
 	}
 
@@ -111,11 +103,6 @@ public class PlayerManager : MonoBehaviour
 
 	public static void SetPlayerForControl(GameObject playerObjToControl, IPlayerControllable movementControllable)
 	{
-		LocalPlayer = playerObjToControl;
-		LocalPlayerScript = playerObjToControl.GetComponent<PlayerScript>();
-		Equipment = playerObjToControl.GetComponent<Equipment>();
-
-		PlayerScript = LocalPlayerScript; // Set this on the manager so it can be accessed by other components/managers
 		Camera2DFollow.followControl.target = LocalPlayer.transform;
 
 		HasSpawned = true;
@@ -188,11 +175,5 @@ public class PlayerManager : MonoBehaviour
 	private void OnPlayerDeath()
 	{
 		EventManager.Broadcast(Event.DisableInternals);
-	}
-
-	public int GetMobID()
-	{
-		mobIDcount++;
-		return mobIDcount;
 	}
 }

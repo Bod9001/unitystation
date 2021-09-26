@@ -99,7 +99,7 @@ public class PlaceableTile : MonoBehaviour, ICheckedInteractable<PositionalHandA
 
 		if (placeableTileEntry != null)
 		{
-			GameObject performer = interaction.Performer;
+			var performer = interaction.Performer;
 			Vector2 targetPosition = interaction.WorldPositionTarget;
 
 

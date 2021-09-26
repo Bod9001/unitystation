@@ -15,9 +15,9 @@ public static class PlayerUtils
 	/// </summary>
 	/// <param name="playerObject">object controlled by a player</param>
 	/// <returns>true iff playerObject is a ghost</returns>
-	public static bool IsGhost(GameObject playerObject)
+	public static bool IsGhost(Mind playerObject)
 	{
-		return playerObject.layer == 31;
+		return playerObject.IsGhosting;
 	}
 
 	public static bool IsOk(GameObject playerObject = null)
@@ -35,41 +35,35 @@ public static class PlayerUtils
 	{
 		if (CustomNetworkManager.IsServer == false) return;
 
-		foreach ( ConnectedPlayer player in PlayerList.Instance.InGamePlayers )
+		foreach ( ConnectedPlayer player in PlayersManager.Instance.InGamePlayers )
 		{
-			var ps = player.Script;
-			if (ps.IsDeadOrGhost) continue;
+			var ps = player.CurrentMind;
+			if (ps.IsGhosting) continue;
 
-			if (ps.mind != null &&
-			    ps.mind.occupation != null &&
-			    ps.mind.occupation.JobType == JobType.CLOWN)
+			if (ps != null &&
+			    ps.occupation != null &&
+			    ps.occupation.JobType == JobType.CLOWN)
 			{
 				// love clown
-				ps.playerMove.Uncuff();
+				ps.PlayerMove.Uncuff();
 
-				ps.playerHealth.ResetDamageAll();
-				ps.registerTile.ServerStandUp();
+				ps.LivingHealthMasterBase.ResetDamageAll();
+				(ps.registerTile as RegisterPlayer).ServerStandUp();
 
 
-				foreach (var itemSlot in player.Script.DynamicItemStorage.GetNamedItemSlots(NamedSlot.leftHand))
+				foreach (var itemSlot in ps.DynamicItemStorage.GetNamedItemSlots(NamedSlot.leftHand))
 				{
 					Inventory.ServerAdd(Spawn.ServerPrefab("Bike Horn").GameObject, itemSlot);
 				}
 
-				foreach (var itemSlot in player.Script.DynamicItemStorage.GetNamedItemSlots(NamedSlot.rightHand))
+				foreach (var itemSlot in ps.DynamicItemStorage.GetNamedItemSlots(NamedSlot.rightHand))
 				{
 					Inventory.ServerAdd(Spawn.ServerPrefab("Bike Horn").GameObject, itemSlot);
 				}
 			}
 			else
 			{
-				if (ps.PlayerSync.IsMovingServer)
-				{
-					var plantPos = ps.WorldPos + ps.CurrentDirection.Vector;
-					Spawn.ServerPrefab("Banana peel", plantPos, cancelIfImpassable: true);
-
-				}
-				foreach (var pos in ps.WorldPos.BoundsAround().allPositionsWithin)
+				foreach (var pos in ps.BodyWorldPosition.RoundToInt().BoundsAround().allPositionsWithin)
 				{
 					var matrixInfo = MatrixManager.AtPoint(pos, true);
 					var localPos = MatrixManager.WorldToLocalInt(pos, matrixInfo);

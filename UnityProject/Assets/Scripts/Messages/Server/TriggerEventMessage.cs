@@ -21,7 +21,7 @@ namespace Messages.Server
 		/// <summary>
 		/// Send the event message to a specific player.
 		/// </summary>
-		public static NetMessage SendTo(GameObject recipient, Event eventType)
+		public static NetMessage SendTo(Mind recipient, Event eventType)
 		{
 			var msg = CreateMessage(eventType);
 

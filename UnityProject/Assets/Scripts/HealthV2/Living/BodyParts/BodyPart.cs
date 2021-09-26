@@ -216,7 +216,7 @@ namespace HealthV2
 
 
 			//TODO Make this generic \/ for mobs
-			OrganStorage.SetRegisterPlayer(HealthMaster?.GetComponent<RegisterPlayer>());
+			OrganStorage.SetPlayerMind(MindManager.Instance.Get(gameObject));
 		}
 
 		/// <summary>
@@ -355,7 +355,8 @@ namespace HealthV2
 		{
 			if(IsSurface && BodyPartItemInheritsSkinColor && currentBurnDamageLevel != TraumaDamageLevel.CRITICAL)
 			{
-				CharacterSettings settings = HealthMaster.gameObject.Player().Script.characterSettings;
+
+				CharacterSettings settings = MindManager.Instance.Get(gameObject).OriginalCharacter; //TODO Use local variable
 				ColorUtility.TryParseHtmlString(settings.SkinTone, out Tone);
 				BodyPartItemSprite.OrNull()?.SetColor(Tone);
 			}

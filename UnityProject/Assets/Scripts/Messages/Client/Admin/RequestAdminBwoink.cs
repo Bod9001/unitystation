@@ -21,13 +21,13 @@ namespace Messages.Client.Admin
 
 		void VerifyAdminStatus(NetMessage msg)
 		{
-			var player = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var player = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (player != null)
 			{
-				var recipient = PlayerList.Instance.GetAllByUserID(msg.UserToBwoink);
+				var recipient = PlayersManager.Instance.GetAllByUserID(msg.UserToBwoink);
 				foreach (var r in recipient)
 				{
-					AdminBwoinkMessage.Send(r.GameObject, msg.Userid, "<color=red>" + msg.Message + "</color>");
+					AdminBwoinkMessage.Send(r, msg.Userid, "<color=red>" + msg.Message + "</color>");
 					UIManager.Instance.adminChatWindows.adminPlayerChat.ServerAddChatRecord(msg.Message, msg.UserToBwoink, msg.Userid);
 				}
 			}

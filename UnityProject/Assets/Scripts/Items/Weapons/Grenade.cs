@@ -78,13 +78,13 @@ namespace Items.Weapons
 				return;
 
 			// Toggle the throw action after activation
-			if (interaction.Performer == PlayerManager.LocalPlayer)
+			if (interaction.Performer == LocalPlayerManager.LocalPlayer)
 			{
 				UIManager.Action.Throw();
 			}
 
 			// Start timer
-			StartCoroutine(TimeExplode(interaction.Performer));
+			StartCoroutine(TimeExplode(interaction.Performer.GameObjectBody));
 		}
 
 		private IEnumerator TimeExplode(GameObject originator)

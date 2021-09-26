@@ -12,9 +12,9 @@ namespace Items
 		public Reagent RADRemover;
 		public float Amount = 50;
 
-		public override void TryConsume(GameObject feeder, GameObject eater)
+		public override void TryConsume(Mind feeder, Mind eater)
 		{
-			var health = eater.GetComponent<LivingHealthMasterBase>();
+			var health = eater.LivingHealthMasterBase;
 			var Stomachs = health.GetStomachs();
 			foreach (var Stomach in Stomachs)
 			{

@@ -136,9 +136,9 @@ namespace Objects.Disposals
 
 		private void GatherEntities()
 		{
-			var items = registerObject.Matrix.Get<ObjectBehaviour>(registerObject.LocalPosition, ObjectType.Item, true);
-			var objects = registerObject.Matrix.Get<ObjectBehaviour>(registerObject.LocalPosition, ObjectType.Object, true);
-			var players = registerObject.Matrix.Get<ObjectBehaviour>(registerObject.LocalPosition, ObjectType.Player, true);
+			var items = registerObject.Matrix.Get<ObjectBehaviour>(registerObject.LocalPosition, FlagsObjectType.Item, true);
+			var objects = registerObject.Matrix.Get<ObjectBehaviour>(registerObject.LocalPosition, FlagsObjectType.Object, true);
+			var players = registerObject.Matrix.Get<ObjectBehaviour>(registerObject.LocalPosition, FlagsObjectType.Player, true);
 
 			var filteredObjects = objects.ToList();
 			filteredObjects.RemoveAll(entity =>

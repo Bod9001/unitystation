@@ -6,17 +6,15 @@ using UnityEngine;
 
 namespace Items
 {
-
-
 	public class PillToxHeale : Consumable
 	{
 		public Reagent Antitoxin;
 
 		public float HealingAmount = 25f;
 
-		public override void TryConsume(GameObject feeder, GameObject eater)
+		public override void TryConsume(Mind feeder, Mind eater)
 		{
-			var Health = eater.GetComponent<LivingHealthMasterBase>();
+			var Health = eater.LivingHealthMasterBase;
 			var Stomachs = Health.GetStomachs();
 			foreach (var Stomach in Stomachs)
 			{

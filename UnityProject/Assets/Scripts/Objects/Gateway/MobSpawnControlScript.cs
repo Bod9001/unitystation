@@ -71,12 +71,12 @@ public class MobSpawnControlScript : NetworkBehaviour
 	[Server]
 	private void DetectPlayer()
 	{
-		foreach (var player in PlayerList.Instance.InGamePlayers)
+		foreach (var player in PlayersManager.Instance.InGamePlayers)
 		{
-			var script = player.Script;
+			var script = player.CurrentMind;
 			if (script == null) return;
 
-			if (!script.IsGhost && script.registerTile.Matrix == gameObject.GetComponent<RegisterObject>().Matrix)
+			if (!script.IsGhosting && script.registerTile.Matrix == gameObject.GetComponent<RegisterObject>().Matrix)
 			{
 				SpawnMobs();
 				UpdateManager.Remove(CallbackType.PERIODIC_UPDATE, UpdateMe);

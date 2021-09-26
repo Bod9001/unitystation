@@ -108,7 +108,7 @@ namespace Systems.CraftingV2.GUI
 		private void InitRecipes()
 		{
 			foreach (List<CraftingRecipe> recipesInCategory
-				in PlayerManager.LocalPlayerScript.PlayerCrafting.KnownRecipesByCategory)
+				in LocalPlayerManager.CurrentMind.PlayerCrafting.KnownRecipesByCategory)
 			{
 				foreach (CraftingRecipe craftingRecipe in recipesInCategory)
 				{
@@ -381,7 +381,7 @@ namespace Systems.CraftingV2.GUI
 		public void OnCraftButtonPressed()
 		{
 			_ = SoundManager.Play(CommonSounds.Instance.Click01);
-			PlayerManager.LocalPlayerScript.PlayerCrafting.TryToStartCrafting(
+			LocalPlayerManager.CurrentMind.PlayerCrafting.TryToStartCrafting(
 				chosenRecipe.CraftingRecipe,
 				NetworkSide.Client,
 				CraftingActionParameters.DefaultParameters

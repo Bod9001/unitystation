@@ -67,14 +67,14 @@ namespace NPC.Mood
 		[SerializeField]
 		[Tooltip("Optional. Function we run when the mob is milked while it doesn't have enough milk, " +
 		         "leave empty for no special consequences.")]
-		private UnityEvent<GameObject, GameObject> onMilkedEmpty = default;
+		private UnityEvent<Mind, GameObject> onMilkedEmpty = default;
 		#endregion
 
 		private float currentMilkAmount;
 		private MobMood mood;
 		private MobAI mobAI;
 
-		private void Milk(GameObject performer, ReagentContainer container)
+		private void Milk(Mind performer, ReagentContainer container)
 		{
 			if (currentMilkAmount < milkAmount)
 			{

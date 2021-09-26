@@ -377,7 +377,7 @@ namespace Systems.CraftingV2
 		/// <param name="reagentContainers">Reagent containers that might be used for crafting.</param>
 		/// <param name="crafterPlayerScript">The player that crafting according to the recipe.</param>
 		public void TryToCraft(
-			PlayerScript crafterPlayerScript,
+			Mind crafterPlayerScript,
 			List<CraftingIngredient> possibleIngredients,
 			List<ItemAttributesV2> possibleTools,
 			List<ReagentContainer> reagentContainers
@@ -399,7 +399,7 @@ namespace Systems.CraftingV2
 		/// <param name="reagentContainers">Reagents that might be used for crafting.</param>
 		/// <param name="crafterPlayerScript">The player that crafting according to the recipe.</param>
 		public void UnsafelyCraft(
-			PlayerScript crafterPlayerScript,
+			Mind crafterPlayerScript,
 			List<CraftingIngredient> possibleIngredients,
 			List<ItemAttributesV2> possibleTools,
 			List<ReagentContainer> reagentContainers
@@ -520,7 +520,7 @@ namespace Systems.CraftingV2
 		/// <param name="usedIngredients">
 		/// 	The ingredients that were used to fulfil the requirements for the recipe.
 		/// </param>
-		private void CompleteCrafting(PlayerScript crafterPlayerScript, List<CraftingIngredient> usedIngredients)
+		private void CompleteCrafting(Mind crafterPlayerScript, List<CraftingIngredient> usedIngredients)
 		{
 			List<GameObject> spawnedResult = new List<GameObject>();
 			foreach (GameObject resultedGameObject in Result)

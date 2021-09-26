@@ -25,10 +25,10 @@ namespace Messages.Client
 		public override void Process(NetMessage msg)
 		{
 			// server side logic
-			if (SentByPlayer == ConnectedPlayer.Invalid)
+			if (SentByPlayer == PlayersManager.InvalidPlayer)
 				return;
 
-			var playerScript = SentByPlayer.Script;
+			var playerScript = SentByPlayer.CurrentMind;
 			if (!playerScript)
 				return;
 

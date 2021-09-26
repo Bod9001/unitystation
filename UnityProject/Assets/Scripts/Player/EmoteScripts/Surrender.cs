@@ -8,7 +8,7 @@ namespace Player.EmoteScripts
 	{
 		private RegisterPlayer registerPlayer;
 
-		public override void Do(GameObject player)
+		public override void Do(Mind player)
 		{
 			registerPlayer = player.GetComponent<RegisterPlayer>();
 
@@ -21,7 +21,7 @@ namespace Player.EmoteScripts
 			SurrenderLogic(player);
 		}
 
-		private void SurrenderLogic(GameObject player)
+		private void SurrenderLogic(Mind player)
 		{
 			bool isCrawling = CheckIfPlayerIsCrawling(player);
 			if (CheckPlayerCritState(player) == false && isCrawling == false)
@@ -37,7 +37,7 @@ namespace Player.EmoteScripts
 				base.Do(player);
 			}
 		}
-		private void LayDown(GameObject player)
+		private void LayDown(Mind player)
 		{
 			if (CheckHandState(player) == false)
 			{

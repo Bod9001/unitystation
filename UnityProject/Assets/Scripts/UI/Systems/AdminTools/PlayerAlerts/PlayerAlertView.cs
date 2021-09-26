@@ -43,28 +43,28 @@ public class PlayerAlertView : ChatEntryView
 
 	public void GibRequest()
 	{
-		AdminPlayerAlertActions.Send(PlayerAlertActions.Gibbed, playerAlertData.roundTime, playerAlertData.playerNetId, PlayerList.Instance.AdminToken);
+		AdminPlayerAlertActions.Send(PlayerAlertActions.Gibbed, playerAlertData.roundTime, playerAlertData.playerNetId, PlayersManager.Instance.AdminToken);
 		takenCareOfButton.interactable = false;
 	}
 
 	public void TeleportTo()
 	{
-		if (PlayerManager.PlayerScript != null)
+		if (LocalPlayerManager.CurrentMind != null)
 		{
 			var target = NetworkIdentity.spawned[playerAlertData.playerNetId];
 			if (target != null)
 			{
-				if (!PlayerManager.PlayerScript.IsGhost)
+				if (!LocalPlayerManager.CurrentMind.IsGhosting)
 				{
 					teleportButton.interactable = false;
-					PlayerManager.PlayerScript.playerNetworkActions.CmdAGhost(ServerData.UserID, PlayerList.Instance.AdminToken);
+					LocalPlayerManager.CurrentMind.playerNetworkActions.CmdAGhost(ServerData.UserID, PlayersManager.Instance.AdminToken);
 					cancelSource = new CancellationTokenSource();
 					StartCoroutine(GhostWait(target.gameObject, cancelSource.Token));
 
 				}
 				else
 				{
-					PlayerManager.PlayerScript.playerNetworkActions.CmdGhostPerformTeleport(target.transform.position);
+					LocalPlayerManager.CurrentMind.playerNetworkActions.CmdGhostPerformTeleport(target.transform.position);
 				}
 			}
 		}
@@ -73,7 +73,7 @@ public class PlayerAlertView : ChatEntryView
 	IEnumerator GhostWait(GameObject target, CancellationToken cancelToken)
 	{
 		var timeOutCount = 0f;
-		while (PlayerManager.PlayerScript != null && !PlayerManager.PlayerScript.IsGhost)
+		while (LocalPlayerManager.CurrentMind != null && !LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			timeOutCount += Time.deltaTime;
 			if (timeOutCount > 5f || cancelToken.IsCancellationRequested)
@@ -85,15 +85,15 @@ public class PlayerAlertView : ChatEntryView
 		}
 
 		teleportButton.interactable = true;
-		if (PlayerManager.PlayerScript != null && target != null && PlayerManager.PlayerScript.IsGhost)
+		if (LocalPlayerManager.CurrentMind != null && target != null && LocalPlayerManager.CurrentMind.IsGhosting)
 		{
-			PlayerManager.PlayerScript.playerNetworkActions.CmdGhostPerformTeleport(target.transform.position);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdGhostPerformTeleport(target.transform.position);
 		}
 	}
 
 	public void TakenCareOf()
 	{
-		AdminPlayerAlertActions.Send(PlayerAlertActions.TakenCareOf, playerAlertData.roundTime, playerAlertData.playerNetId, PlayerList.Instance.AdminToken);
+		AdminPlayerAlertActions.Send(PlayerAlertActions.TakenCareOf, playerAlertData.roundTime, playerAlertData.playerNetId, PlayersManager.Instance.AdminToken);
 		takenCareOfButton.interactable = false;
 	}
 }

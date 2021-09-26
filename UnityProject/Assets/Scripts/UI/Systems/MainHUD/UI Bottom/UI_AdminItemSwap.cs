@@ -33,7 +33,7 @@ namespace UI.AdminTools
 
 		public void OnClick()
 		{
-			if (PlayerList.Instance.IsClientAdmin == false) return;
+			if (PlayersManager.Instance.IsClientAdmin == false) return;
 
 			// If shift is pressed, don't check anything, just send Examine on contained item if any.
 			if (KeyboardInputManager.IsShiftPressed() && ui_itemSlot.Item != null)

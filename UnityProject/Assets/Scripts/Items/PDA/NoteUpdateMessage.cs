@@ -25,7 +25,7 @@ namespace Items.PDA
 		/// <summary>
 		/// Sends the new string to the gameobject
 		/// </summary>
-		public static NetMessage Send(GameObject recipient, GameObject noteToUpdate, string message)
+		public static NetMessage Send(Mind recipient, GameObject noteToUpdate, string message)
 		{
 			NetMessage msg = new NetMessage
 			{

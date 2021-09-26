@@ -113,16 +113,18 @@ public class CharacterSettings
 		}
 	}
 
+
+	public void SetPermanentName(string NewName)
+	{
+		Name = NewName;
+	}
+
 	/// <summary>
 	/// Returns a possessive string (i.e. "their", "his", "her") for the provided gender enum.
 	/// </summary>
-	public string TheirPronoun(PlayerScript script)
+	public string TheirPronoun(Mind script)
 	{
-		if (script.Equipment.GetPlayerNameByEquipment() == "Unknown" && script.Equipment.IsIdentityObscured())
-		{
-			return "their";
-		}
-		switch (PlayerPronoun)
+		switch (script.GetPronouns())
 		{
 			case PlayerPronoun.He_him:
 				return "his";
@@ -136,13 +138,9 @@ public class CharacterSettings
 	/// <summary>
 	/// Returns a personal pronoun string (i.e. "he", "she", "they") for the provided gender enum.
 	/// </summary>
-	public string TheyPronoun(PlayerScript script)
+	public string TheyPronoun(Mind script)
 	{
-		if (script.Equipment.GetPlayerNameByEquipment() == "Unknown" && script.Equipment.IsIdentityObscured())
-		{
-			return "they";
-		}
-		switch (PlayerPronoun)
+		switch (script.GetPronouns())
 		{
 			case PlayerPronoun.He_him:
 				return "he";
@@ -156,13 +154,9 @@ public class CharacterSettings
 	/// <summary>
 	/// Returns an object pronoun string (i.e. "him", "her", "them") for the provided gender enum.
 	/// </summary>
-	public string ThemPronoun(PlayerScript script)
+	public string ThemPronoun(Mind script)
 	{
-		if (script.Equipment.GetPlayerNameByEquipment() == "Unknown" && script.Equipment.IsIdentityObscured())
-		{
-			return "them";
-		}
-		switch (PlayerPronoun)
+		switch (script.GetPronouns())
 		{
 			case PlayerPronoun.He_him:
 				return "him";
@@ -176,13 +170,9 @@ public class CharacterSettings
 	/// <summary>
 	/// Returns an object pronoun string (i.e. "he's", "she's", "they're") for the provided gender enum.
 	/// </summary>
-	public string TheyrePronoun(PlayerScript script)
+	public string TheyrePronoun(Mind script)
 	{
-		if (script.Equipment.GetPlayerNameByEquipment() == "Unknown" && script.Equipment.IsIdentityObscured())
-		{
-			return "they're";
-		}
-		switch (PlayerPronoun)
+		switch (script.GetPronouns())
 		{
 			case PlayerPronoun.He_him:
 				return "he's";
@@ -196,13 +186,9 @@ public class CharacterSettings
 	/// <summary>
 	/// Returns an object pronoun string (i.e. "himself", "herself", "themself") for the provided gender enum.
 	/// </summary>
-	public string ThemselfPronoun(PlayerScript script)
+	public string ThemselfPronoun(Mind script)
 	{
-		if (script.Equipment.GetPlayerNameByEquipment() == "Unknown" && script.Equipment.IsIdentityObscured())
-		{
-			return "themself";
-		}
-		switch (PlayerPronoun)
+		switch (script.GetPronouns())
 		{
 			case PlayerPronoun.He_him:
 				return "himself";
@@ -213,13 +199,9 @@ public class CharacterSettings
 		}
 	}
 
-	public string IsPronoun(PlayerScript script)
+	public string IsPronoun(Mind script)
 	{
-		if (script.Equipment.GetPlayerNameByEquipment() == "Unknown" && script.Equipment.IsIdentityObscured())
-		{
-			return "are";
-		}
-		switch (PlayerPronoun)
+		switch (script.GetPronouns())
 		{
 			case PlayerPronoun.He_him:
 			case PlayerPronoun.She_her:
@@ -230,13 +212,9 @@ public class CharacterSettings
 		}
 	}
 
-	public string HasPronoun(PlayerScript script)
+	public string HasPronoun(Mind script)
 	{
-		if (script.Equipment.GetPlayerNameByEquipment() == "Unknown" && script.Equipment.IsIdentityObscured())
-		{
-			return "have";
-		}
-		switch (PlayerPronoun)
+		switch (script.GetPronouns())
 		{
 			case PlayerPronoun.He_him:
 			case PlayerPronoun.She_her:

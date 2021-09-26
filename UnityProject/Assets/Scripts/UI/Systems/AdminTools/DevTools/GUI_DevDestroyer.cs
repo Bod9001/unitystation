@@ -54,7 +54,7 @@ namespace UI.AdminTools
 					else
 					{
 						DevDestroyMessage.Send(hits.First().GetComponentInParent<CustomNetTransform>().gameObject,
-							ServerData.UserID, PlayerList.Instance.AdminToken);
+							ServerData.UserID, PlayersManager.Instance.AdminToken);
 					}
 				}
 			}

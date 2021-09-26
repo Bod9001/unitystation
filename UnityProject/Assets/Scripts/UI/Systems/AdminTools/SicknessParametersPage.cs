@@ -57,7 +57,7 @@ namespace AdminTools
 			eventParameters.PlayerToInfect = result;
 			eventParameters.SicknessIndex = sicknessDropdown.value;
 
-			AdminCommandsManager.Instance.CmdTriggerGameEvent(ServerData.UserID, PlayerList.Instance.AdminToken, index, fakeEvent, announceEvent, eventType, JsonConvert.SerializeObject(eventParameters));
+			AdminCommandsManager.Instance.CmdTriggerGameEvent(ServerData.UserID, PlayersManager.Instance.AdminToken, index, fakeEvent, announceEvent, eventType, JsonConvert.SerializeObject(eventParameters));
 
 			// We hide the panel
 			gameObject.SetActive(false);

@@ -93,7 +93,7 @@ public class NullRod : NetworkBehaviour, IInteractable<HandActivate>, IServerSpa
 
 		Inventory.ServerAdd(item, storage.GetActiveHandSlot());
 
-		Chat.AddActionMsgToChat(storage.gameObject,
+		Chat.AddInanimateActionMsgToChat(storage.gameObject,
 		$"The {oldItem} flashes bright and changes into a {newItem}!",
 		$"The {oldItem} flashes bright and changes into a {newItem}!");
 

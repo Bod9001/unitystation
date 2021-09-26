@@ -21,7 +21,7 @@ namespace Items.Others
 		public bool WillInteract(HandApply interaction, NetworkSide side)
 		{
 			if (DefaultWillInteract.Default(interaction, side) == false) return false;
-			// can only be applied to reagents or items with forensics script 
+			// can only be applied to reagents or items with forensics script
 			return Validations.HasComponent<ReagentContainer>(interaction.TargetObject);
 		}
 
@@ -31,9 +31,9 @@ namespace Items.Others
 			{
 				DoScan(interaction.Performer, interaction.TargetObject);
 			}
-		
+
 		}
-		public void DoScan(GameObject Performer, GameObject TargetObject)
+		public void DoScan(Mind Performer, GameObject TargetObject)
 		{
 
 			var performerName = Performer.ExpensiveName();

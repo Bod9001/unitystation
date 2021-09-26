@@ -59,7 +59,7 @@ namespace AdminTools
 
 		public void OnHealUpButton()
 		{
-			AdminCommandsManager.Instance.CmdHealUpPlayer(ServerData.UserID, PlayerList.Instance.AdminToken, PlayerEntry.PlayerData.uid);
+			AdminCommandsManager.Instance.CmdHealUpPlayer(ServerData.UserID, PlayersManager.Instance.AdminToken, PlayerEntry.PlayerData.uid);
 			RefreshPage();
 		}
 
@@ -68,7 +68,7 @@ namespace AdminTools
 		/// </summary>
 		void SendSmitePlayerRequest()
 		{
-			AdminCommandsManager.Instance.CmdSmitePlayer(ServerData.UserID, PlayerList.Instance.AdminToken, PlayerEntry.PlayerData.uid);
+			AdminCommandsManager.Instance.CmdSmitePlayer(ServerData.UserID, PlayersManager.Instance.AdminToken, PlayerEntry.PlayerData.uid);
 			RefreshPage();
 		}
 
@@ -76,7 +76,7 @@ namespace AdminTools
 		{
 			RequestAdminPromotion.Send(
 				ServerData.UserID,
-				PlayerList.Instance.AdminToken,
+				PlayersManager.Instance.AdminToken,
 				PlayerEntry.PlayerData.uid);
 			RefreshPage();
 		}
@@ -93,7 +93,7 @@ namespace AdminTools
 
 			RequestAdminTeleport.Send(
 				ServerData.UserID,
-				PlayerList.Instance.AdminToken,
+				PlayersManager.Instance.AdminToken,
 				null,
 				PlayerEntry.PlayerData.uid,
 				RequestAdminTeleport.OpperationList.AdminToPlayer,
@@ -113,12 +113,12 @@ namespace AdminTools
 		{
 			RequestAdminTeleport.Send(
 				ServerData.UserID,
-				PlayerList.Instance.AdminToken,
+				PlayersManager.Instance.AdminToken,
 				PlayerEntry.PlayerData.uid,
 				null,
 				RequestAdminTeleport.OpperationList.PlayerToAdmin,
 				false,
-				PlayerManager.LocalPlayerScript.PlayerSync.ClientPosition
+				LocalPlayerManager.CurrentMind.GameObjectBody.AssumedWorldPosServer() //TODO Check this
 				);
 		}
 
@@ -131,14 +131,14 @@ namespace AdminTools
 
 		private void SendTeleportAdminToPlayerAghost()
 		{
-			if (!PlayerManager.LocalPlayerScript.IsGhost)
+			if (!LocalPlayerManager.CurrentMind.IsGhosting)
 			{
-				PlayerManager.LocalPlayerScript.playerNetworkActions.CmdAGhost(ServerData.UserID, PlayerList.Instance.AdminToken);
+				LocalPlayerManager.CurrentMind.playerNetworkActions.CmdAGhost(ServerData.UserID, PlayersManager.Instance.AdminToken);
 			}
 
 			RequestAdminTeleport.Send(
 				ServerData.UserID,
-				PlayerList.Instance.AdminToken,
+				PlayersManager.Instance.AdminToken,
 				null,
 				PlayerEntry.PlayerData.uid,
 				RequestAdminTeleport.OpperationList.AdminToPlayer,
@@ -160,9 +160,9 @@ namespace AdminTools
 
 			bool isAghost;
 
-			if (PlayerManager.LocalPlayerScript.IsGhost && PlayerEntry.PlayerData.uid == ServerData.UserID)
+			if (LocalPlayerManager.CurrentMind.IsGhosting && PlayerEntry.PlayerData.uid == ServerData.UserID)
 			{
-				coord = PlayerManager.LocalPlayerScript.PlayerSync.ClientPosition;
+				coord = LocalPlayerManager.CurrentMind.GameObjectBody.AssumedWorldPosServer(); //TODO Check this
 				isAghost = true;
 			}
 			else
@@ -173,7 +173,7 @@ namespace AdminTools
 
 			RequestAdminTeleport.Send(
 				ServerData.UserID,
-				PlayerList.Instance.AdminToken,
+				PlayersManager.Instance.AdminToken,
 				null,
 				PlayerEntry.PlayerData.uid,
 				RequestAdminTeleport.OpperationList.AllPlayersToPlayer,

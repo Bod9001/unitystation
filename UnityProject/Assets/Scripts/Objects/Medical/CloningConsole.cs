@@ -67,10 +67,10 @@ namespace Objects.Medical
 				UpdateInoperableStatus();
 				return;
 			}
-			if (scanner.IsClosed)
+			if (scanner.ClosetControl.IsClosed)
 			{
-				scanner.ServerToggleLocked();
-				scanner.statusString = scanner.IsLocked ? "Scanner locked." : "Scanner unlocked.";
+				scanner.ClosetControl.ServerToggleLocked();
+				scanner.statusString = scanner.ClosetControl.IsLocked ? "Scanner locked." : "Scanner unlocked.";
 			}
 			else
 			{
@@ -92,7 +92,7 @@ namespace Objects.Medical
 				var mob = scanner.occupant;
 				var mobID = scanner.occupant.mobID;
 				var playerScript = mob.GetComponent<PlayerScript>();
-				if (playerScript?.mind?.bodyMobID != mobID)
+				if (playerScript?.mind?.bodyID != mobID) //TODO Get the brain or the body
 				{
 					scanner.statusString = "Bad mind/body interface.";
 					return;
@@ -193,7 +193,7 @@ namespace Objects.Medical
 			mobID = livingHealth.mobID;
 			mind = playerScript.mind;
 			name = playerScript.playerName;
-			characterSettings = playerScript.characterSettings;
+			characterSettings = playerScript.mind.OriginalCharacter;
 			oxyDmg = livingHealth.GetOxyDamage();
 			burnDmg = livingHealth.GetTotalBurnDamage();
 			toxinDmg = 0;

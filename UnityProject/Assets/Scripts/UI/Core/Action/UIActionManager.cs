@@ -68,7 +68,7 @@ namespace UI.Action
 		/// <summary>
 		/// Set the action button visibility for the given player, with network sync
 		/// </summary>
-		public static void Toggle(IActionGUI iActionGUI, bool show, GameObject recipient)
+		public static void Toggle(IActionGUI iActionGUI, bool show, Mind recipient)
 		{
 			SetActionUIMessage.SetAction(recipient, iActionGUI, show);
 		}
@@ -179,7 +179,7 @@ namespace UI.Action
 			}
 		}
 
-		public static void SetCooldown(IActionGUI iActionGUI, float cooldown, GameObject recipient)
+		public static void SetCooldown(IActionGUI iActionGUI, float cooldown, Mind recipient)
 		{
 			SetActionUIMessage.SetAction(recipient, iActionGUI, cooldown);
 		}

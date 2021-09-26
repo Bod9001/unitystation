@@ -20,8 +20,8 @@ using Objects.Wallmounts;
 public static class Validations
 {
 	//Monitors the time between interactions and limits it by the min cool down time
-	private static Dictionary<GameObject, DateTime> playerCoolDown = new Dictionary<GameObject, DateTime>();
-	private static Dictionary<GameObject, int> playersMaxClick = new Dictionary<GameObject, int>();
+	private static Dictionary<Mind, DateTime> playerCoolDown = new Dictionary<Mind, DateTime>();
+	private static Dictionary<Mind, int> playersMaxClick = new Dictionary<Mind, int>();
 	private static double minCoolDown = 0.1f;
 	private static int maxClicks = 5;
 
@@ -126,15 +126,15 @@ public static class Validations
 	/// <param name="allowSoftCrit">whether interaction should be allowed if in soft crit</param>
 	/// <param name="allowCuffed">whether interaction should be allowed if cuffed</param>
 	/// <returns></returns>
-	public static bool CanInteract(PlayerScript playerScript, NetworkSide side, bool allowSoftCrit = false, bool allowCuffed = false, bool isPlayerClick = true)
+	public static bool CanInteract(Mind playerScript, NetworkSide side, bool allowSoftCrit = false, bool allowCuffed = false, bool isPlayerClick = true)
 	{
 		if (playerScript == null) return false;
-		if (isPlayerClick && CanInteractByCoolDownState(playerScript.gameObject) == false) return false;
+		if (isPlayerClick && CanInteractByCoolDownState(playerScript) == false) return false;
 
-		if ((allowCuffed == false && playerScript.playerMove.IsCuffed) ||
-		    playerScript.IsGhost ||
-		    playerScript.playerMove.allowInput == false||
-		    CanInteractByConsciousState(playerScript.playerHealth, allowSoftCrit, side) == false)
+		if ((allowCuffed == false && playerScript.IsRestrained) ||
+		    playerScript.IsGhosting ||
+		    playerScript.allowInput == false||
+		    CanInteractByConsciousState(playerScript.GetConsciousness, allowSoftCrit, side) == false)
 		{
 			return false;
 		}
@@ -143,7 +143,7 @@ public static class Validations
 	}
 
 	//Monitors the interaction rate of a player. If its too fast we return false
-	private static bool CanInteractByCoolDownState(GameObject playerObject)
+	private static bool CanInteractByCoolDownState(Mind playerObject)
 	{
 		if (playersMaxClick.ContainsKey(playerObject) == false)
 		{
@@ -173,12 +173,12 @@ public static class Validations
 		return true;
 	}
 
-	private static bool CanInteractByConsciousState(PlayerHealthV2 playerHealth, bool allowSoftCrit, NetworkSide side)
+	private static bool CanInteractByConsciousState(IProvideConsciousness playerHealth, bool allowSoftCrit, NetworkSide side)
 	{
 		if (side == NetworkSide.Client)
 		{
 			//we only know our own conscious state, so assume true if it's not our local player
-			if (playerHealth.gameObject != PlayerManager.LocalPlayer) return true;
+			if (playerHealth.ThisGameObject != LocalPlayerManager.LocalPlayer.CurrentMind.GameObjectBody) return true;
 		}
 
 		return playerHealth.ConsciousState == ConsciousState.CONSCIOUS ||
@@ -204,7 +204,7 @@ public static class Validations
 	/// creating garbage.</param>
 	/// <returns></returns>
 	public static bool CanApply(
-		PlayerScript playerScript,
+		Mind playerScript,
 		GameObject target,
 		NetworkSide side,
 		bool allowSoftCrit = false,
@@ -216,7 +216,7 @@ public static class Validations
 	{
 		if (playerScript == null) return false;
 
-		var playerObjBehavior = playerScript.pushPull;
+		var playerObjBehavior = playerScript.PushPull;
 
 		if (CanInteract(playerScript, side, allowSoftCrit, isPlayerClick: isPlayerClick) == false)
 		{
@@ -235,6 +235,7 @@ public static class Validations
 			}
 			else
 			{
+				//TODO handle item storage
 				//server checks if player is trying to click the container they are in.
 				var parentObj = playerObjBehavior.parentContainer != null
 					? playerObjBehavior.parentContainer.gameObject
@@ -312,7 +313,7 @@ public static class Validations
 			}
 
 			Logger.LogTraceFormat($"Not in reach! Target: {targetName} server pos:{worldPosition} "+
-				                  $"Player Name: {playerScript.playerName} Player pos:{playerScript.registerTile.WorldPositionServer} " +
+				                  $"Player Name: {playerScript.CharactersName} Player pos:{playerScript.registerTile.WorldPositionServer} " +
 								  $"(floating={isFloating})", Category.Exploits);
 		}
 
@@ -330,7 +331,7 @@ public static class Validations
 	/// if you can do so without using GetComponent, this is an optimization so GetComponent call can be avoided to avoid
 	/// creating garbage.</param>
 	/// <returns></returns>
-	private static bool IsInReachInternal(PlayerScript playerScript, GameObject target, NetworkSide side, Vector2? targetVector,
+	private static bool IsInReachInternal(Mind playerScript, GameObject target, NetworkSide side, Vector2? targetVector,
 		RegisterTile targetRegisterTile)
 	{
 		bool result;
@@ -356,7 +357,7 @@ public static class Validations
 		else
 		{
 			//use target vector based range check
-			Vector3 playerWorldPos = playerScript.WorldPos;
+			Vector3 playerWorldPos = playerScript.GameObjectBody.AssumedWorldPosServer();
 			result = IsReachableByPositions(playerWorldPos, playerWorldPos + (Vector3)targetVector, side == NetworkSide.Server, context: target);
 		}
 
@@ -454,10 +455,37 @@ public static class Validations
 		}
 	}
 
-	private static bool ServerCanReachExtended(PlayerScript ps, TransformState state, GameObject context = null)
+	private static bool ServerCanReachExtended(Mind ps, TransformState state, GameObject context = null)
 	{
-		return ps.IsPositionReachable(state.WorldPosition, true) || ps.IsPositionReachable(state.WorldPosition - (Vector3)state.WorldImpulse, true, 1.75f, context: context);
+		return IsPositionReachable(ps.registerTile, state.WorldPosition, true) || IsPositionReachable(ps.registerTile,state.WorldPosition - (Vector3)state.WorldImpulse, true, 1.75f, context: context);
 	}
+
+
+	public static bool IsGameObjectReachable(RegisterTile  registerTile, GameObject go, bool isServer, float interactDist = PlayerScript.interactionDistance, GameObject context=null)
+	{
+		var rt = go.RegisterTile();
+		if (rt)
+		{
+			return IsReachableByRegisterTiles(registerTile, rt, isServer, interactDist, context: context);
+		}
+		else
+		{
+			return IsPositionReachable(registerTile,go.transform.position, isServer, interactDist, context: context);
+		}
+	}
+
+
+
+	///     Checks if the player is within reach of something
+	/// <param name="otherPosition">The position of whatever we are trying to reach</param>
+	/// <param name="isServer">True if being executed on server, false otherwise</param>
+	/// <param name="interactDist">Maximum distance of interaction between the player and other objects</param>
+	/// <param name="context">If not null, will ignore collisions caused by this gameobject</param>
+	public static bool IsPositionReachable(RegisterTile from,  Vector3 otherPosition, bool isServer, float interactDist = PlayerScript.interactionDistance, GameObject context = null)
+	{
+		return Validations.IsReachableByPositions(isServer ? from.WorldPositionServer : from.WorldPositionClient, otherPosition, isServer, interactDist, context: context);
+	}
+
 
 	//AiActivate Validation
 	public static bool CanApply(AiActivate toValidate, NetworkSide side, bool lineCast = true)
@@ -467,7 +495,7 @@ public static class Validations
 
 	private static bool InternalAiActivate(AiActivate toValidate, NetworkSide side, bool lineCast = true)
 	{
-		if (side == NetworkSide.Client && PlayerManager.LocalPlayer != toValidate.Performer) return false;
+		if (side == NetworkSide.Client && LocalPlayerManager.LocalPlayer != toValidate.Performer) return false;
 
 		//Performer and target cant be null
 		if (toValidate.Performer == null || toValidate.TargetObject == null) return false;
@@ -580,7 +608,7 @@ public static class Validations
 	/// <param name="side">network side check is happening on</param>
 	/// <param name="ignoreOccupied">if true, does not check if an item is already in the slot</param>
 	/// <returns></returns>
-	public static bool CanFit(ItemSlot itemSlot, GameObject toCheck, NetworkSide side, bool ignoreOccupied = false, GameObject examineRecipient = null)
+	public static bool CanFit(ItemSlot itemSlot, GameObject toCheck, NetworkSide side, bool ignoreOccupied = false, Mind examineRecipient = null)
 	{
 		var pu = toCheck.GetComponent<Pickupable>();
 		if (pu == null) return false;
@@ -597,7 +625,7 @@ public static class Validations
 	/// <param name="ignoreOccupied">if true, does not check if an item is already in the slot</param>
 	/// <param name="examineRecipient">if not null, when validation fails, will output an appropriate examine message to this recipient</param>
 	/// <returns></returns>
-	public static bool CanFit(ItemSlot itemSlot, Pickupable toCheck, NetworkSide side, bool ignoreOccupied = false, GameObject examineRecipient = null)
+	public static bool CanFit(ItemSlot itemSlot, Pickupable toCheck, NetworkSide side, bool ignoreOccupied = false, Mind examineRecipient = null)
 	{
 		if (itemSlot == null) return false;
 		return itemSlot.CanFit(toCheck, ignoreOccupied, examineRecipient);
@@ -614,8 +642,8 @@ public static class Validations
 	/// <param name="ignoreOccupied">if true, does not check if an item is already in the slot</param>
 	/// <param name="examineRecipient">if not null, when validation fails, will output an appropriate examine message to this recipient</param>
 	/// <returns></returns>
-	public static bool CanPutItemToStorage(PlayerScript playerScript, ItemStorage storage, Pickupable toCheck,
-		NetworkSide side, bool ignoreOccupied = false, GameObject examineRecipient = null)
+	public static bool CanPutItemToStorage(Mind playerScript, ItemStorage storage, Pickupable toCheck,
+		NetworkSide side, bool ignoreOccupied = false, Mind examineRecipient = null)
 	{
 		var freeSlot = storage.GetBestSlotFor(toCheck);
 		if (freeSlot == null) return false;
@@ -633,8 +661,8 @@ public static class Validations
 	/// <param name="ignoreOccupied">if true, does not check if an item is already in the slot</param>
 	/// <param name="examineRecipient">if not null, when validation fails, will output an appropriate examine message to this recipient</param>
 	/// <returns></returns>
-	public static bool CanPutItemToStorage(PlayerScript playerScript, ItemStorage storage, GameObject toCheck,
-		NetworkSide side, bool ignoreOccupied = false, GameObject examineRecipient = null)
+	public static bool CanPutItemToStorage(Mind playerScript, ItemStorage storage, GameObject toCheck,
+		NetworkSide side, bool ignoreOccupied = false, Mind examineRecipient = null)
 	{
 		if (toCheck == null) return false;
 		return CanPutItemToStorage(playerScript, storage, toCheck.GetComponent<Pickupable>(), side, ignoreOccupied,
@@ -652,8 +680,8 @@ public static class Validations
 	/// <param name="ignoreOccupied">if true, does not check if an item is already in the slot</param>
 	/// <param name="examineRecipient">if not null, when validation fails, will output an appropriate examine message to this recipient</param>
 	/// <returns></returns>
-	public static bool CanPutItemToSlot(PlayerScript playerScript, ItemSlot itemSlot, Pickupable toCheck, NetworkSide side,
-		bool ignoreOccupied = false, GameObject examineRecipient = null)
+	public static bool CanPutItemToSlot(Mind playerScript, ItemSlot itemSlot, Pickupable toCheck, NetworkSide side,
+		bool ignoreOccupied = false, Mind examineRecipient = null)
 	{
 		if (toCheck == null)
 		{
@@ -680,26 +708,24 @@ public static class Validations
 	/// <param name="player"></param>
 	/// <param name="side"></param>
 	/// <returns></returns>
-	public static bool IsStrippable(GameObject player, NetworkSide side)
+	public static bool IsStrippable(Mind playerScript, NetworkSide side)
 	{
-		if (player == null) return false;
-		var playerScript = player.GetComponent<PlayerScript>();
 		if (playerScript == null) return false;
 
 		if (side == NetworkSide.Client)
 		{
 			//we don't know their exact health state and whether they are slipping, but we can guess if they're downed we can do this
-			var registerPlayer = playerScript.registerTile;
-			var playerMove = playerScript.playerMove;
+			var registerPlayer =  (playerScript.registerTile as RegisterPlayer);
+			var playerMove = playerScript.PlayerMove;
 			if (registerPlayer == null || playerMove == null) return false;
 			return registerPlayer.IsLayingDown || playerMove.IsCuffed;
 		}
 		else
 		{
 			//find their exact conscious state, slipping state, cuffed state
-			var playerHealth = playerScript.playerHealth;
-			var registerPlayer = playerScript.registerTile;
-			var playerMove = playerScript.playerMove;
+			var playerHealth = playerScript.LivingHealthMasterBase;
+			var registerPlayer = playerScript.registerTile as RegisterPlayer;
+			var playerMove = playerScript.PlayerMove;
 			if (playerHealth == null || playerMove == null || registerPlayer == null) return false;
 			return playerHealth.ConsciousState != ConsciousState.CONSCIOUS || registerPlayer.IsSlippingServer || playerMove.IsCuffed;
 		}
@@ -792,13 +818,13 @@ public static class Validations
 	/// </summary>
 	/// <param name="player"></param>
 	/// <returns></returns>
-	public static bool HasBothHands(GameObject player)
+	public static bool HasBothHands(Mind player)
 	{
-		if (player.TryGetComponent<LivingHealthMasterBase>(out var health) == false)
+		if (player.LivingHealthMasterBase == null)
 		{
 			return false;
 		}
 
-		return health.HasBodyPart(BodyPartType.LeftArm, true) && health.HasBodyPart(BodyPartType.RightArm, true);
+		return player.LivingHealthMasterBase.HasBodyPart(BodyPartType.LeftArm, true) && player.LivingHealthMasterBase.HasBodyPart(BodyPartType.RightArm, true);
 	}
 }

@@ -24,8 +24,8 @@ to your liking.
 Get player info by gameObject (serverside only)
 ```cs
 ConnectedPlayer player = PlayerList.Instance.Get(gameObject);
-if (player != ConnectedPlayer.Invalid) {
-    //Do your thing. If gameObject is not found in PlayerList, ConnectedPlayer.Invalid is returned
+if (player != PlayersManager.InvalidPlayer) {
+    //Do your thing. If gameObject is not found in PlayerList, PlayersManager.InvalidPlayer is returned
 }
 ```
 

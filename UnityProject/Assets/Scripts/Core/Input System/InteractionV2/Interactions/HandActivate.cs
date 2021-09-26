@@ -21,7 +21,7 @@ public class HandActivate : Interaction
 	/// <param name="performer">The gameobject of the player activating the item</param>
 	/// <param name="activatedObject">Object that is being activated</param>
 	/// <param name="handSlot">hand slot that is being activated</param>
-	private HandActivate(GameObject performer, GameObject activatedObject, ItemSlot handSlot, Intent intent) :
+	private HandActivate(Mind performer, GameObject activatedObject, ItemSlot handSlot, Intent intent) :
 		base(performer, activatedObject, intent)
 	{
 		this.handSlot = handSlot;
@@ -33,13 +33,13 @@ public class HandActivate : Interaction
 	/// <returns></returns>
 	public static HandActivate ByLocalPlayer()
 	{
-		if (PlayerManager.LocalPlayerScript.IsGhost)
+		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
 		{
 			//hand apply never works when local player
 			return HandActivate.Invalid;
 		}
-		return new HandActivate(PlayerManager.LocalPlayer, PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot()?.ItemObject,
-			PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot(), UIManager.CurrentIntent);
+		return new HandActivate(LocalPlayerManager.LocalPlayer.CurrentMind, LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot()?.ItemObject,
+			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(), UIManager.CurrentIntent);
 	}
 
 	/// <summary>
@@ -51,7 +51,7 @@ public class HandActivate : Interaction
 	/// it doesn't need to be looked up again, since it already should've been looked up in
 	/// the message processing logic. Should match HandSlot.ForName(SentByPlayer.Script.playerNetworkActions.activeHand).</param>
 	/// <returns></returns>
-	public static HandActivate ByClient(GameObject clientPlayer, GameObject activatedObject, ItemSlot handSlot, Intent intent)
+	public static HandActivate ByClient(Mind clientPlayer, GameObject activatedObject, ItemSlot handSlot, Intent intent)
 	{
 		return new HandActivate(clientPlayer, activatedObject, handSlot, intent);
 	}

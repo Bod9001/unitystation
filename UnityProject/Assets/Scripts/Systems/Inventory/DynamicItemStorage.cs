@@ -49,7 +49,7 @@ public class DynamicItemStorage : NetworkBehaviour
 	public Dictionary<string, Conditional> ServerActiveConditional = new Dictionary<string, Conditional>();
 	public Dictionary<string, Conditional> ClientActiveConditional = new Dictionary<string, Conditional>();
 
-	public HashSet<GameObject> Observers = new HashSet<GameObject>();
+	public HashSet<Mind> Observers = new HashSet<Mind>();
 
 	public string GetSetData => SerialisedNetIDs;
 
@@ -75,11 +75,11 @@ public class DynamicItemStorage : NetworkBehaviour
 	/// </summary>
 	public readonly UnityEvent OnContentsChangeServer = new UnityEvent();
 
-	public void Awake()
+	public void Start()
 	{
 		playerNetworkActions = GetComponent<PlayerNetworkActions>();
 		registerPlayer = GetComponent<RegisterPlayer>();
-		Observers.Add(this.gameObject);
+		Observers.Add(MindManager.StaticGet(gameObject));
 	}
 
 	//Returns the correct content depending on server or client
@@ -429,7 +429,7 @@ public class DynamicItemStorage : NetworkBehaviour
 	public void Remove(IDynamicItemSlotS bodyPartUISlots)
 	{
 		if (ContainedInventorys.Contains(bodyPartUISlots) == false) return;
-		bodyPartUISlots.RelatedStorage.ServerRemoveObserverPlayer(this.gameObject);
+		bodyPartUISlots.RelatedStorage.ServerRemoveObserverPlayer(MindManager.StaticGet(gameObject));
 		ContainedInventorys.Remove(bodyPartUISlots);
 		UIBodyPartsToSerialise.Remove(bodyPartUISlots.GameObject.GetComponent<NetworkIdentity>().netId);
 		bodyPartUISlots.RelatedStorage.ServerInventoryItemSlotSet -= InventoryChange;
@@ -490,7 +490,7 @@ public class DynamicItemStorage : NetworkBehaviour
 			ServerObjectToSlots.Remove(bodyPartUISlots.GameObject);
 		}
 
-		bodyPartUISlots.RelatedStorage.SetRegisterPlayer(null);
+		bodyPartUISlots.RelatedStorage.SetPlayerMind(null);
 
 
 		SerialisedNetIDs = JsonConvert.SerializeObject(UIBodyPartsToSerialise);
@@ -509,11 +509,11 @@ public class DynamicItemStorage : NetworkBehaviour
 	public void Add(IDynamicItemSlotS bodyPartUISlots)
 	{
 		if (ContainedInventorys.Contains(bodyPartUISlots)) return;
-		bodyPartUISlots.RelatedStorage.ServerAddObserverPlayer(this.gameObject);
+		bodyPartUISlots.RelatedStorage.ServerAddObserverPlayer(MindManager.StaticGet(gameObject));
 		ContainedInventorys.Add(bodyPartUISlots);
 		UIBodyPartsToSerialise.Add(bodyPartUISlots.GameObject.GetComponent<NetworkIdentity>().netId);
 		SerialisedNetIDs = JsonConvert.SerializeObject(UIBodyPartsToSerialise);
-		bodyPartUISlots.RelatedStorage.SetRegisterPlayer(registerPlayer);
+		bodyPartUISlots.RelatedStorage.SetPlayerMind(MindManager.StaticGet(gameObject));
 
 		bodyPartUISlots.RelatedStorage.ServerInventoryItemSlotSet += InventoryChange;
 		foreach (var item in bodyPartUISlots.RelatedStorage.GetItemSlots())
@@ -565,7 +565,7 @@ public class DynamicItemStorage : NetworkBehaviour
 
 	public void AddClient(IDynamicItemSlotS bodyPartUISlots)
 	{
-		bodyPartUISlots.RelatedStorage.SetRegisterPlayer(registerPlayer);
+		bodyPartUISlots.RelatedStorage.SetPlayerMind(MindManager.StaticGet(gameObject));
 		foreach (var item in bodyPartUISlots.RelatedStorage.GetItemSlots())
 		{
 			item.OnSlotContentsChangeClient.AddListener(PassthroughContentsChangeClient);
@@ -591,7 +591,7 @@ public class DynamicItemStorage : NetworkBehaviour
 			ClientSlotCharacteristic[Slot] = storageCharacteristicse;
 			ClientTotal.Add(Slot);
 
-			if (PlayerManager.LocalPlayer == this.gameObject && storageCharacteristicse.NotPresentOnUI == false)
+			if (LocalPlayerManager.LocalPlayer == this.gameObject && storageCharacteristicse.NotPresentOnUI == false)
 			{
 				UIManager.Instance.UI_SlotManager.SetActive(true);
 				UIManager.Instance.UI_SlotManager.AddIndividual(bodyPartUISlots, storageCharacteristicse);
@@ -604,7 +604,7 @@ public class DynamicItemStorage : NetworkBehaviour
 
 	public void RemoveClient(IDynamicItemSlotS bodyPartUISlots)
 	{
-		bodyPartUISlots.RelatedStorage.SetRegisterPlayer(null);
+		bodyPartUISlots.RelatedStorage.SetPlayerMind(null);
 
 		foreach (var item in bodyPartUISlots.RelatedStorage.GetItemSlots())
 		{
@@ -642,7 +642,7 @@ public class DynamicItemStorage : NetworkBehaviour
 				.Remove(Slot);
 			if (ClientSlotCharacteristic.ContainsKey(Slot)) ClientSlotCharacteristic.Remove(Slot);
 			ClientTotal.Remove(Slot);
-			if (PlayerManager.LocalPlayer == this.gameObject)
+			if (LocalPlayerManager.LocalPlayer == this.gameObject)
 			{
 				UIManager.Instance.UI_SlotManager.RemoveSpecifyedUISlot(BbodyPartUISlots, SstorageCharacteristicse);
 			}
@@ -851,12 +851,12 @@ public class DynamicItemStorage : NetworkBehaviour
 		return false;
 	}
 
-	public void SetUpOccupation(Occupation occupation)
+	public void SetUpOccupation(Occupation occupation, Mind mind)
 	{
 		var NSP = occupation.InventoryPopulator as PlayerSlotStoragePopulator;
 		if (NSP != null)
 		{
-			NSP.PopulateDynamicItemStorage(this, registerPlayer.PlayerScript);
+			NSP.PopulateDynamicItemStorage(this,mind);
 		}
 	}
 
@@ -1035,7 +1035,7 @@ public class DynamicItemStorage : NetworkBehaviour
 	/// Ensure players can see inventory changes/Interact with storage
 	/// </summary>
 	/// <param name="newBody"></param>
-	public void ServerAddObserverPlayer(GameObject newBody)
+	public void ServerAddObserverPlayer(Mind newBody)
 	{
 		Observers.Add(newBody);
 
@@ -1049,7 +1049,7 @@ public class DynamicItemStorage : NetworkBehaviour
 	/// Used to ensure that players can no longer see inventory changes/Interact with storage
 	/// </summary>
 	/// <param name="newBody"></param>
-	public void ServerRemoveObserverPlayer(GameObject newBody)
+	public void ServerRemoveObserverPlayer(Mind newBody)
 	{
 		if (Observers.Contains(newBody))
 		{
@@ -1110,11 +1110,11 @@ public class DynamicItemStorage : NetworkBehaviour
 		//target slot is occupied, but it's okay if active hand slot is not occupied)
 		if (Item != null)
 		{
-			var combine = InventoryApply.ByLocalPlayer(itemSlot, PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot());
+			var combine = InventoryApply.ByLocalPlayer(itemSlot, this.GetActiveHandSlot());
 			//check interactables in the active hand (if active hand occupied)
-			if (PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot().Item != null)
+			if (LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().Item != null)
 			{
-				var handInteractables = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot().Item
+				var handInteractables = this.GetActiveHandSlot().Item
 					.GetComponents<IBaseInteractable<InventoryApply>>()
 					.Where(mb => mb != null && (mb as MonoBehaviour).enabled);
 				if (InteractionUtils.ClientCheckAndTrigger(handInteractables, combine) != null) return true;
@@ -1133,7 +1133,7 @@ public class DynamicItemStorage : NetworkBehaviour
 	{
 		if (HandsController.isValidPlayer())
 		{
-			var CurrentSlot = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot();
+			var CurrentSlot = this.GetActiveHandSlot();
 			if (CurrentSlot != itemSlot)
 			{
 				if (CurrentSlot.Item == null)

@@ -69,12 +69,12 @@ public class PlayerHealthUI : MonoBehaviour
 
 	void Update()
 	{
-		if (PlayerManager.LocalPlayer == null)
+		if (LocalPlayerManager.LocalPlayer == null)
 		{
 			return;
 		}
 
-		if (PlayerManager.LocalPlayerScript.IsGhost)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			if (humanUI)
 			{
@@ -84,13 +84,13 @@ public class PlayerHealthUI : MonoBehaviour
 		}
 
 
-		if (!PlayerManager.LocalPlayerScript.IsGhost && !humanUI)
+		if (!LocalPlayerManager.CurrentMind.IsGhosting && !humanUI)
 		{
 			EnableAlwaysVisible();
 		}
 
-		float temperature = PlayerManager.LocalPlayerScript.playerHealth.RespiratorySystem.temperature;
-		float pressure = PlayerManager.LocalPlayerScript.playerHealth.RespiratorySystem.pressure;
+		float temperature = LocalPlayerManager.CurrentMind.LivingHealthMasterBase.RespiratorySystem.temperature;
+		float pressure = LocalPlayerManager.CurrentMind.LivingHealthMasterBase.RespiratorySystem.pressure;
 
 		if (temperature < 110)
 		{
@@ -131,11 +131,11 @@ public class PlayerHealthUI : MonoBehaviour
 			pressureAlert.SetPressureSprite(pressure);
 		}
 
-		SetSpecificVisibility(PlayerManager.LocalPlayerScript.playerHealth.RespiratorySystem.IsSuffocating, oxygenAlert);
+		SetSpecificVisibility(LocalPlayerManager.CurrentMind.LivingHealthMasterBase.RespiratorySystem.IsSuffocating, oxygenAlert);
 
 		SetSpecificVisibility(false, toxinAlert);
 
-		switch (PlayerManager.LocalPlayerScript.playerHealth.HealthStateController.HungerState)
+		switch (LocalPlayerManager.CurrentMind.LivingHealthMasterBase.HealthStateController.HungerState)
 		{
 
 			case HungerState.Normal:
@@ -228,7 +228,7 @@ public class PlayerHealthUI : MonoBehaviour
 		{
 			var Player = BbodyPart.HealthMaster as PlayerHealthV2;
 			if (Player == null) return false;
-			return PlayerManager.LocalPlayerScript == Player.playerScript;
+			return LocalPlayerManager.CurrentMind.HasThisBody(Player.gameObject);
 		}
 	}
 }

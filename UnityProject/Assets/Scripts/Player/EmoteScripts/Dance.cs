@@ -8,13 +8,12 @@ namespace Player.EmoteScripts
 	[CreateAssetMenu(fileName = "Emote", menuName = "ScriptableObjects/RP/Emotes/Dance")]
 	public class Dance : EmoteSO
 	{
-		public override void Do(GameObject player)
+		public override void Do(Mind player)
 		{
 			if (allowEmoteWhileInCrit == false && CheckPlayerCritState(player) == false)
 			{
 				//Hacky way to run a coroutine inside an SO
-				var something = player.GetComponent<PlayerScript>();
-				something.StartCoroutine(PerformDance(player));
+				player.StartCoroutine(PerformDance(player));
 			}
 			else
 			{
@@ -22,10 +21,10 @@ namespace Player.EmoteScripts
 			}
 		}
 
-		private IEnumerator PerformDance(GameObject player)
+		private IEnumerator PerformDance(Mind player)
 		{
-			var directional = player.transform.GetComponent<Directional>();
-			var move = player.transform.GetComponent<PlayerMove>();
+			var directional = player.GameObjectBody.GetComponent<Directional>();
+			var move = player.PlayerMove;
 
 			if (move.allowInput && !move.IsBuckled)
 			{

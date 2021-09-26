@@ -125,7 +125,7 @@ public partial class PlayerSync
 			Speed = masterSpeedServer
 		};
 		Logger.LogTraceFormat("{0}: InitServerState for {1} found matrix {2} resulting in\n{3}", Category.Movement,
-			PlayerList.Instance.Get(gameObject).Name, worldPos, matrixAtPoint, state);
+			MindManager.Instance.Get(gameObject).CharactersName, worldPos, matrixAtPoint, state);
 		serverLerpState = state;
 		ServerState = state;
 	}
@@ -369,7 +369,7 @@ public partial class PlayerSync
 	public void NotifyPlayer(NetworkConnection recipient, bool noLerp = false)
 	{
 		serverState.NoLerp = noLerp;
-		var msg = PlayerMoveMessage.Send(recipient, gameObject, serverState);
+		var msg = PlayerMoveMessage.Send(recipient, MindManager.StaticGet(gameObject), serverState);
 		Logger.LogTraceFormat("Sent {0}", Category.Movement, msg);
 	}
 
@@ -403,7 +403,7 @@ public partial class PlayerSync
 		}
 
 		serverState.NoLerp = noLerp;
-		PlayerMoveMessage.SendToAll(gameObject, serverState);
+		PlayerMoveMessage.SendToAll(MindManager.StaticGet(gameObject), serverState);
 		//		Logger.LogTraceFormat("SentToAll {0}", Category.Movement, msg);
 		//Clearing state flags
 		serverState.ImportantFlightUpdate = false;
@@ -544,7 +544,7 @@ public partial class PlayerSync
 		{
 			// we bumped something, an interaction might occur
 			// try pushing things / opening doors
-			if (Validations.CanInteract(playerScript, NetworkSide.Server, allowCuffed: true) || serverBump == BumpType.ClosedDoor)
+			if (Validations.CanInteract(MindManager.StaticGet(gameObject), NetworkSide.Server, allowCuffed: true) || serverBump == BumpType.ClosedDoor)
 			{
 				BumpInteract(state.WorldPosition, (Vector2)action.Direction());
 			}
@@ -605,7 +605,7 @@ public partial class PlayerSync
 	{
 		if (pushable && pushable.TryGetComponent(out PushPull pushPull))
 		{
-			if (Validations.CanInteract(playerScript, NetworkSide.Server) || pushPull && !playerScript.IsRegisterTileReachable(pushPull.registerTile, true))
+			if (Validations.CanInteract(MindManager.StaticGet(gameObject), NetworkSide.Server) || pushPull && !Validations.IsReachableByRegisterTiles(playerScript.registerTile,pushPull.registerTile, true))
 			{
 				questionablePushables.Add(pushPull);
 				Logger.LogWarningFormat("Added questionable {0}", Category.PushPull, pushPull);
@@ -975,7 +975,7 @@ public partial class PlayerSync
 
 	private void Cross(Vector3Int position)
 	{
-		if (PlayerUtils.IsGhost(gameObject))
+		if (PlayerUtils.IsGhost(MindManager.StaticGet(gameObject)))
 		{
 			return;
 		}

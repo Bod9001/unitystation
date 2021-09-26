@@ -21,7 +21,7 @@ namespace Player.Movement
 	/// </summary>
 	public class PlayerMove : NetworkBehaviour, IRightClickable, IServerSpawn, IActionGUI, ICheckedInteractable<ContextMenuApply>, RegisterPlayer.IControlPlayerState
 	{
-		public PlayerScript PlayerScript { get; private set; }
+		public Mind PlayerScript { get; private set; }
 
 		public bool diagonalMovement;
 
@@ -96,7 +96,7 @@ namespace Player.Movement
 			bool canSwap;
 			if (isLocalPlayer && !isServer)
 			{
-				if (PlayerScript.pushPull == null)
+				if (PlayerScript.PushPull == null)
 				{
 					// Is a ghost
 					canSwap = false;
@@ -105,7 +105,7 @@ namespace Player.Movement
 				{
 					// locally predict
 					canSwap = UIManager.CurrentIntent == Intent.Help
-					          && !PlayerScript.pushPull.IsPullingSomething;
+					          && !PlayerScript.PushPull.IsPullingSomething;
 				}
 			}
 			else
@@ -116,7 +116,7 @@ namespace Player.Movement
 
 			return canSwap
 			       // don't swap with ghosts
-			       && PlayerScript.IsGhost == false
+			       && PlayerScript.IsGhosting == false
 			       // pass through players if we can
 			       && registerPlayer.IsPassable(isServer) == false
 			       // can't swap with buckled players, they're strapped down
@@ -148,16 +148,16 @@ namespace Player.Movement
 
 		private void Awake()
 		{
-			PlayerScript = GetComponent<PlayerScript>();
+
 
 			playerDirectional = gameObject.GetComponent<Directional>();
 
 			registerPlayer = GetComponent<RegisterPlayer>();
 			pna = gameObject.GetComponent<PlayerNetworkActions>();
-			PlayerScript.registerTile.AddStatus(this);
+			PlayerScript.RegisterPlayer.AddStatus(this);
 			// Aren't these set up with sync vars? Why are they set like this?
 			// They don't appear to ever get synced either.
-			if (PlayerScript.IsGhost)
+			if (PlayerScript.IsGhosting)
 			{
 				return;
 			}
@@ -178,9 +178,9 @@ namespace Player.Movement
 			base.OnStartServer();
 			// when pulling status changes, re-check whether client needs to be told if
 			// this is swappable.
-			if (PlayerScript.pushPull != null)
+			if (PlayerScript.PushPull != null)
 			{
-				PlayerScript.pushPull.OnPullingSomethingChangedServer.AddListener(ServerUpdateIsSwappable);
+				PlayerScript.PushPull.OnPullingSomethingChangedServer.AddListener(ServerUpdateIsSwappable);
 			}
 
 			ServerUpdateIsSwappable();
@@ -258,7 +258,7 @@ namespace Player.Movement
 
 		private Vector3Int GetMoveDirection(MoveAction action)
 		{
-			if (PlayerManager.LocalPlayer == gameObject && UIManager.IsInputFocus)
+			if (LocalPlayerManager.LocalPlayer == gameObject && UIManager.IsInputFocus)
 			{
 				return Vector3Int.zero;
 			}
@@ -313,14 +313,14 @@ namespace Player.Movement
 			SyncBuckledObjectNetId(0, netid);
 			// can't push/pull when buckled in, break if we are pulled / pulling
 			// sinform the puller
-			if (PlayerScript.pushPull.PulledBy != null)
+			if (PlayerScript.PushPull.PulledBy != null)
 			{
-				PlayerScript.pushPull.PulledBy.ServerStopPulling();
+				PlayerScript.PushPull.PulledBy.ServerStopPulling();
 			}
 
-			PlayerScript.pushPull.StopFollowing();
-			PlayerScript.pushPull.ServerStopPulling();
-			PlayerScript.pushPull.ServerSetPushable(false);
+			PlayerScript.PushPull.StopFollowing();
+			PlayerScript.PushPull.ServerStopPulling();
+			PlayerScript.PushPull.ServerSetPushable(false);
 			onUnbuckled = unbuckledAction;
 
 			// sync position to ensure they buckle to the correct spot
@@ -338,8 +338,8 @@ namespace Player.Movement
 			}
 
 			// force sync direction to current direction (If it is a real player and not a NPC)
-			if (PlayerScript.connectionToClient != null)
-				playerDirectional.TargetForceSyncDirection(PlayerScript.connectionToClient);
+			if (PlayerScript.AssignedPlayer.Connection != null)
+				playerDirectional.TargetForceSyncDirection(PlayerScript.AssignedPlayer.Connection);
 		}
 
 		/// <summary>
@@ -351,7 +351,7 @@ namespace Player.Movement
 			if (IsCuffed)
 			{
 				Chat.AddActionMsgToChat(
-					PlayerScript.gameObject,
+					PlayerScript,
 					"You're trying to unbuckle yourself from the chair! (this will take some time...)",
 					PlayerScript.name + " is trying to unbuckle themself from the chair!"
 				);
@@ -361,7 +361,7 @@ namespace Player.Movement
 				).ServerStartProgress(
 					BuckledObject.RegisterTile(),
 					BuckledObject.GetComponent<BuckleInteract>().ResistTime,
-					PlayerScript.gameObject
+					PlayerScript
 				);
 				return;
 			}
@@ -377,9 +377,9 @@ namespace Player.Movement
 			var previouslyBuckledTo = BuckledObject;
 			SyncBuckledObjectNetId(0, NetId.Empty);
 			// we can be pushed / pulled again
-			PlayerScript.pushPull.ServerSetPushable(true);
+			PlayerScript.PushPull.ServerSetPushable(true);
 			// decide if we should fall back down when unbuckled
-			registerPlayer.ServerSetIsStanding(PlayerScript.playerHealth.ConsciousState == ConsciousState.CONSCIOUS);
+			registerPlayer.ServerSetIsStanding(PlayerScript.LivingHealthMasterBase.ConsciousState == ConsciousState.CONSCIOUS);
 			onUnbuckled?.Invoke();
 
 			if (previouslyBuckledTo == null) return;
@@ -423,7 +423,7 @@ namespace Player.Movement
 				}
 			}
 
-			if (PlayerManager.LocalPlayer == gameObject)
+			if (LocalPlayerManager.LocalPlayer == gameObject)
 			{
 				UIActionManager.ToggleLocal(this, newBuckledTo != NetId.Empty);
 			}
@@ -503,7 +503,7 @@ namespace Player.Movement
 
 		private bool CanUnBuckleSelf()
 		{
-			PlayerHealthV2 playerHealth = PlayerScript.playerHealth;
+			var playerHealth = PlayerScript.playerHealth;
 
 			return !(playerHealth == null ||
 			         playerHealth.ConsciousState == ConsciousState.DEAD ||

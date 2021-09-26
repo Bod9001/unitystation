@@ -44,7 +44,7 @@ namespace Items
 				}
 				else
 				{
-					SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.BreakStone, interaction.WorldPositionTarget, sourceObj: interaction.Performer);
+					SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.BreakStone, interaction.WorldPositionTarget, sourceObj: interaction.Performer.GameObjectBody);
 					var cellPos = interactableTiles.MetaTileMap.WorldToCell(interaction.WorldPositionTarget);
 
 					var tile = interactableTiles.LayerTileAt(interaction.WorldPositionTarget) as BasicTile;
@@ -89,7 +89,7 @@ namespace Items
 				() =>
 				{
 					SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.BreakStone,
-							interaction.PerformerPlayerScript.WorldPos, sourceObj: interaction.Performer);
+							interaction.Performer.BodyWorldPosition, sourceObj: interaction.Performer.GameObjectBody);
 					_ = Despawn.ServerSingle(interaction.TargetObject);
 				});
 		}

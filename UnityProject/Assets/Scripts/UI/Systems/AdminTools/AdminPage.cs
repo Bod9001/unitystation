@@ -22,7 +22,7 @@ namespace AdminTools
 
 		public void RefreshPage()
 		{
-			RequestAdminPageRefresh.Send(ServerData.UserID, PlayerList.Instance.AdminToken);
+			RequestAdminPageRefresh.Send(ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
 
 		public virtual void OnPageRefresh(AdminPageRefreshData adminPageData)

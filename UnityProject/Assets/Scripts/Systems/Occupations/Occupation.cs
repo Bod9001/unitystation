@@ -176,5 +176,5 @@ public class Occupation : ScriptableObject
 	[Header("If used will spawn player using this prefab instead of human body.")]
 	[SerializeField]
 	private GameObject specialPlayerPrefab = null;
-	public GameObject SpecialPlayerPrefab => specialPlayerPrefab;
+	public GameObject SpecialPlayerPrefab => specialPlayerPrefab; //TODO Change to brain
 }

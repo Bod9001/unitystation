@@ -87,7 +87,7 @@ public class NetworkTabManager : MonoBehaviour {
 	}
 
 	///Create new NetworkTabInfo if it doesn't exist, otherwise add player to it
-	public void Add(NetTabDescriptor tabDescriptor, GameObject player)
+	public void Add(NetTabDescriptor tabDescriptor, Mind player)
 	{
 		if (tabDescriptor.Equals( NetTabDescriptor.Invalid ))
 		{
@@ -106,18 +106,18 @@ public class NetworkTabManager : MonoBehaviour {
 		}
 		tab.AddPlayer( player );
 	}
-	public void Add(GameObject provider, NetTabType type, GameObject player)
+	public void Add(GameObject provider, NetTabType type, Mind player)
 	{
 		Add( Tab(provider, type), player );
 	}
 
-	public void Remove(GameObject provider, NetTabType type, GameObject player)
+	public void Remove(GameObject provider, NetTabType type, Mind player)
 	{
 		Remove( Tab( provider, type ), player );
 	}
 
 	/// remove player from NetworkTabInfo, keeping the tab
-	public void Remove(NetTabDescriptor tabDescriptor, GameObject player)
+	public void Remove(NetTabDescriptor tabDescriptor, Mind player)
 	{
 		if (!openTabs.ContainsKey(tabDescriptor)) return;
 
@@ -141,7 +141,7 @@ public class NetworkTabManager : MonoBehaviour {
 		{
 			//remove all peepers
 			//safe copy so we can concurrently modify it
-			var peepers = netTab.Peepers.Select(cp => cp.GameObject).ToList();
+			var peepers = netTab.Peepers.Select(cp => cp.CurrentMind).ToList();
 			foreach (var peeper in peepers)
 			{
 				Remove(provider, type, peeper);

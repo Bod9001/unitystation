@@ -52,7 +52,7 @@ namespace Doors
 		{
 			if (Controller.IsClosed && Controller.IsAutomatic)
 			{
-				TryOpen(byPlayer);
+				TryOpen( MindManager.StaticGet(byPlayer) );
 			}
 		}
 
@@ -97,7 +97,7 @@ namespace Doors
 			Controller.CloseSignal();
 		}
 
-		public virtual void TryOpen(GameObject performer)
+		public virtual void TryOpen(Mind performer)
 		{
 			Controller.MobTryOpen(performer);
 		}

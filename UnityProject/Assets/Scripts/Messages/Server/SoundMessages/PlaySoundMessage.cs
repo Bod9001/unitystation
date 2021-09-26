@@ -60,8 +60,8 @@ namespace Messages.Server.SoundMessages
 			if (msg.ShakeParameters.ShakeGround)
 			{
 				if (isPositionProvided
-				 && PlayerManager.LocalPlayerScript
-				 && !PlayerManager.LocalPlayerScript.IsPositionReachable(msg.Position, false, msg.ShakeParameters.ShakeRange))
+				 && LocalPlayerManager.CurrentMind
+				 && !Validations.IsPositionReachable(LocalPlayerManager.CurrentMind.registerTile , msg.Position, false, msg.ShakeParameters.ShakeRange))
 				{
 					//Don't shake if local player is out of range
 					return;
@@ -147,7 +147,7 @@ namespace Messages.Server.SoundMessages
 		/// Send a sound to be played to a specific client
 		/// </summary>
 		/// <returns>The SoundSpawn Token generated that identifies the same sound spawn instance across server and clients</returns>
-		public static string Send(GameObject recipient, AddressableAudioSource addressableAudioSource, Vector3 pos,
+		public static string Send(Mind recipient, AddressableAudioSource addressableAudioSource, Vector3 pos,
 			bool polyphonic = false, GameObject sourceObj = null,
 			ShakeParameters shakeParameters = new ShakeParameters(),
 			AudioSourceParameters audioSourceParameters = new AudioSourceParameters())

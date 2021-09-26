@@ -24,7 +24,7 @@ namespace Core.Chat
 			return false;
 		}
 
-		public static void DoEmote(string emote, GameObject player, EmoteActionManager instance)
+		public static void DoEmote(string emote, Mind player, EmoteActionManager instance)
 		{
 			foreach (var e in instance.emotes)
 			{

@@ -122,7 +122,7 @@ public class MouseDraggable : MonoBehaviour
 	/// </summary>
 	/// <param name="dragger">player attempting the drag</param>
 	/// <returns></returns>
-	public bool CanBeginDrag(PlayerScript dragger)
+	public bool CanBeginDrag(Mind dragger)
 	{
 		return Validations.CanApply(dragger, gameObject, NetworkSide.Client, allowDragWhileSoftCrit,
 			draggerMustBeAdjacent ? ReachRange.Standard : ReachRange.Unlimited);

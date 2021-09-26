@@ -32,7 +32,7 @@ namespace Messages.Client
 			var fromSlot = ItemSlot.Get(NetworkObjects[0].GetComponents<ItemStorage>()[msg.StorageIndexOnGameObjectFrom], msg.FromNamedSlot, msg.FromSlotIndex);
 			var toSlot = ItemSlot.Get(NetworkObjects[1].GetComponents<ItemStorage>()[msg.StorageIndexOnGameObjectTo], msg.ToNamedSlot, msg.ToSlotIndex);
 
-			if (!Validations.CanPutItemToSlot(SentByPlayer.Script, toSlot, fromSlot.Item, NetworkSide.Server, examineRecipient: SentByPlayer.GameObject))
+			if (!Validations.CanPutItemToSlot(SentByPlayer.CurrentMind, toSlot, fromSlot.Item, NetworkSide.Server, examineRecipient: SentByPlayer.CurrentMind))
 			{
 				HandleFail(fromSlot, toSlot);
 				return;
@@ -49,15 +49,15 @@ namespace Messages.Client
 
 		private bool ValidSlot(ItemSlot toCheck)
 		{
-			var holder = toCheck.GetRootStorageOrPlayer().gameObject;
+			var holder = toCheck.GetRootPlayer();
 			//its in their inventory, this is valid
-			if (holder == SentByPlayer.GameObject) return true;
+			if (holder == SentByPlayer.CurrentMind) return true;
 
 			//it's not in their inventory but they may be observing this in an interactable storage
 			var interactableStorage = toCheck.ItemStorage != null ? toCheck.ItemStorage.GetComponents<ItemStorage>() : null;
 			if (interactableStorage != null)
 			{
-				return toCheck.ServerIsObservedBy(SentByPlayer.GameObject);
+				return toCheck.ServerIsObservedBy(SentByPlayer.CurrentMind);
 			}
 
 			return false;
@@ -67,11 +67,11 @@ namespace Messages.Client
 		{
 			Logger.LogWarningFormat(
 				"Possible hacking attempt (or bad clientside logic), {0} tried to transfer from slot {1} to {2} when they" +
-				" are not allowed.", Category.Exploits, SentByPlayer.GameObject.name, fromSlot, toSlot);
+				" are not allowed.", Category.Exploits, SentByPlayer.Username, fromSlot, toSlot);
 
 			//roll back the client prediction
-			UpdateItemSlotMessage.Send(SentByPlayer.GameObject, fromSlot);
-			UpdateItemSlotMessage.Send(SentByPlayer.GameObject, toSlot);
+			UpdateItemSlotMessage.Send(SentByPlayer.CurrentMind, fromSlot);
+			UpdateItemSlotMessage.Send(SentByPlayer.CurrentMind, toSlot);
 		}
 
 		/// <summary>

@@ -77,7 +77,7 @@ namespace Messages.Server
 		/// <param name="informEmpty">if true, regardless of the slot's actual status, it
 		/// will be reported to the client as empty.</param>
 		/// <returns></returns>
-		public static void Send(GameObject recipient, ItemSlot itemSlot, bool informEmpty = false)
+		public static void Send(Mind recipient, ItemSlot itemSlot, bool informEmpty = false)
 		{
 			NetMessage msg = new NetMessage
 			{
@@ -107,7 +107,7 @@ namespace Messages.Server
 		/// <param name="recipients">clients to inform</param>
 		/// <param name="inventorySlot">slot to tell them about</param>
 		/// <returns></returns>
-		public static void Send(HashSet<GameObject> recipients, ItemSlot itemSlot)
+		public static void Send(HashSet<Mind> recipients, ItemSlot itemSlot)
 		{
 			if (recipients.Count == 0) return;
 

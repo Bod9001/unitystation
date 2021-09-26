@@ -253,17 +253,16 @@ namespace Hacking
 			}
 		}
 
-		public void ProcessCustomInteraction(GameObject Player,
+		public void ProcessCustomInteraction(Mind Player,
 			RequestHackingInteraction.InteractionWith InteractionType,
 			GameObject Referenceobject, int PanelInputID, int PanelOutputID)
 		{
-			PlayerScript PlayerScript = Player.GetComponent<PlayerScript>();
-			if (Validations.CanInteract(PlayerScript, NetworkSide.Server) == false) return;
+			if (Validations.CanInteract(Player, NetworkSide.Server) == false) return;
 			switch (InteractionType)
 			{
 				case RequestHackingInteraction.InteractionWith.CutWire:
 
-					if (Validations.HasItemTrait(PlayerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject,
+					if (Validations.HasItemTrait(Player.DynamicItemStorage.GetActiveHandSlot().ItemObject,
 						CommonTraits.Instance.Wirecutter) == false)
 					{
 						return;
@@ -282,11 +281,11 @@ namespace Hacking
 
 					Connections[Cable.PanelOutput].Remove(Cable);
 					Cables.Remove(Cable);
-					var Hand = PlayerScript.DynamicItemStorage.GetBestHand(Cable.cableCoil.GetComponent<Stackable>());
+					var Hand = Player.DynamicItemStorage.GetBestHand(Cable.cableCoil.GetComponent<Stackable>());
 					if (Hand == null)
 					{
 						itemStorage.ServerTryRemove(Cable.cableCoil.gameObject,
-							DroppedAtWorldPosition: (PlayerScript.WorldPos -
+							DroppedAtWorldPosition: (Player.BodyWorldPosition -
 							                         this.GetComponent<RegisterTile>().WorldPositionServer));
 					}
 					else
@@ -300,7 +299,7 @@ namespace Hacking
 				case RequestHackingInteraction.InteractionWith.Cable:
 					//Please cable do not Spare thing
 
-					if (Validations.HasItemTrait(PlayerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject,
+					if (Validations.HasItemTrait(Player.DynamicItemStorage.GetActiveHandSlot().ItemObject,
 						CommonTraits.Instance.Cable) == false)
 					{
 						return;
@@ -352,7 +351,7 @@ namespace Hacking
 							}
 						}
 
-						Inventory.ServerTransfer(PlayerScript.DynamicItemStorage.GetActiveHandSlot(), SpareSlot);
+						Inventory.ServerTransfer(Player.DynamicItemStorage.GetActiveHandSlot(), SpareSlot);
 					}
 					else
 					{

@@ -70,7 +70,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 	/// <summary>
 	/// Used on the server to switch the pickup mode of this InteractableStorage
 	/// </summary>
-	public void ServerSwitchPickupMode(GameObject player)
+	public void ServerSwitchPickupMode(Mind player)
 	{
 		pickupMode = pickupMode.Next();
 
@@ -121,7 +121,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 		}
 
 		// can only be opened if it's in the player's top level inventory or player is alt-clicking
-		if (PlayerManager.PlayerScript.DynamicItemStorage.ClientTotal.Contains(interaction.TargetSlot) || interaction.IsAltClick)
+		if (LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.ClientTotal.Contains(interaction.TargetSlot) || interaction.IsAltClick)
 		{
 			if (interaction.UsedObject == null)
 			{
@@ -141,7 +141,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 		if (DefaultWillInteract.Default(interaction, side) == false) return false;
 		// item must be able to fit
 		// note: since this is in local player's inventory, we are safe to check this stuff on client side
-		if (!Validations.CanPutItemToStorage(interaction.Performer.GetComponent<PlayerScript>(),
+		if (!Validations.CanPutItemToStorage(interaction.Performer,
 			itemStorage, interaction.UsedObject, side, examineRecipient: interaction.Performer)) return false;
 
 		return true;
@@ -182,7 +182,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 	public void ServerPerformInteraction(HandApply interaction)
 	{
 		// Reusing mouse drop logic for efficiency
-		ServerPerformInteraction(MouseDrop.ByClient(interaction.Performer, interaction.TargetObject, interaction.Performer, interaction.Intent));
+		ServerPerformInteraction(MouseDrop.ByClient(interaction.Performer, interaction.TargetObject, interaction.Performer.GameObjectBody, interaction.Intent));
 	}
 
 	/// <summary>
@@ -205,7 +205,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 
 			// There's something in the player's hands
 			// Check if item from the hand slot fits in this storage sitting in the world
-			if (Validations.CanPutItemToStorage(interaction.PerformerPlayerScript,
+			if (Validations.CanPutItemToStorage(interaction.Performer,
 				itemStorage, interaction.HandObject, side, examineRecipient: interaction.Performer) == false)
 			{
 				Chat.AddExamineMsgToClient($"The {interaction.HandObject.ExpensiveName()} doesn't fit!");
@@ -228,7 +228,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 						return false;
 					}
 
-					if (!Validations.CanPutItemToStorage(interaction.PerformerPlayerScript,
+					if (!Validations.CanPutItemToStorage(interaction.Performer,
 						itemStorage, interaction.TargetObject, side, examineRecipient: interaction.Performer))
 					{
 						// In Single pickup mode if the target item doesn't
@@ -400,11 +400,11 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 
 							return;
 						}
-						if (PlayerManager.PlayerScript == null) return;
-						if (Validations.IsInReachDistanceByPositions(PlayerManager.PlayerScript.registerTile.WorldPosition ,interaction.WorldPositionTarget) == false) return;
+						if (LocalPlayerManager.CurrentMind == null) return;
+						if (Validations.IsInReachDistanceByPositions(LocalPlayerManager.LocalPlayer.CurrentMind.registerTile.WorldPosition ,interaction.WorldPositionTarget) == false) return;
 						if (MatrixManager.IsPassableAtAllMatricesOneTile( interaction.WorldPositionTarget.RoundToInt(), CustomNetworkManager.Instance._isServer) == false) return;
 
-							PlayerManager.PlayerScript.playerNetworkActions.CmdDropAllItems(itemStorage.GetIndexedItemSlot(0)
+							LocalPlayerManager.CurrentMind.playerNetworkActions.CmdDropAllItems(itemStorage.GetIndexedItemSlot(0)
 							.ItemStorageNetID, interaction.WorldPositionTarget);
 
 
@@ -436,9 +436,9 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 				return false;
 			}
 
-			if (PlayerManager.PlayerScript == null) return false;
+			if (LocalPlayerManager.LocalPlayer.CurrentMind == null) return false;
 
-			PlayerManager.PlayerScript.playerNetworkActions.CmdDropAllItems(itemStorage.GetIndexedItemSlot(0)
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdDropAllItems(itemStorage.GetIndexedItemSlot(0)
 				.ItemStorageNetID, TransformState.HiddenPos);
 
 			if (CustomNetworkManager.Instance._isServer == false)
@@ -473,7 +473,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 		if (interaction.IsFromInventory && interaction.TargetObject == gameObject)
 		{
 			// trying to add an item from inventory slot to this storage sitting in the world
-			return Validations.CanPutItemToStorage(interaction.Performer.GetComponent<PlayerScript>(),
+			return Validations.CanPutItemToStorage(interaction.Performer,
 				itemStorage, interaction.DroppedObject.GetComponent<Pickupable>(), side,
 				examineRecipient: interaction.Performer);
 		}
@@ -485,7 +485,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 			if (Validations.HasComponent<PlayerScript>(interaction.DroppedObject))
 			{
 				// dragging a player, can only do this if they are down / dead
-				return Validations.IsStrippable(interaction.DroppedObject, side);
+				return Validations.IsStrippable(MindManager.Instance.Get(interaction.DroppedObject), side);
 			}
 
 			return true;
@@ -510,8 +510,8 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 			// if we are observing a storage not in our inventory (such as another player's top
 			// level inventory or a storage within their inventory, or a box/backpack sitting on the ground), we must stop observing when it
 			// becomes unobservable for whatever reason (such as the owner becoming unobservable)
-			var rootStorage = itemStorage.GetRootStorageOrPlayer();
-			if (interaction.Performer != rootStorage.gameObject)
+			var rootStorage = itemStorage.GetRootPlayer();
+			if (interaction.Performer != rootStorage)
 			{
 				// stop observing when it becomes unobservable for whatever reason
 				var relationship = ObserveStorageRelationship.Observe(this,
@@ -525,8 +525,8 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 	private void ServerOnObservationEnded(ObserveStorageRelationship cancelled)
 	{
 		// they can't observe anymore
-		itemStorage.ServerRemoveObserverPlayer(cancelled.ObserverPlayer.gameObject);
-		ObserveInteractableStorageMessage.Send(cancelled.ObserverPlayer.gameObject, this, false);
+		itemStorage.ServerRemoveObserverPlayer(MindManager.Instance.Get(cancelled.ObserverPlayer.gameObject) );
+		ObserveInteractableStorageMessage.Send(MindManager.Instance.Get(cancelled.ObserverPlayer.gameObject), this, false);
 	}
 
 	public void OnInventoryMoveServer(InventoryMove info)
@@ -544,7 +544,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 
 		if (toRootPlayer != null)
 		{
-			itemStorage.ServerAddObserverPlayer(toRootPlayer.gameObject);
+			itemStorage.ServerAddObserverPlayer(toRootPlayer);
 		}
 
 		if (fromRootPlayer == toRootPlayer) return;
@@ -552,11 +552,8 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 		// make sure it's closed and any children as well
 		if (fromRootPlayer != null)
 		{
-			ObserveInteractableStorageMessage.Send(fromRootPlayer.gameObject, this, false);
+			ObserveInteractableStorageMessage.Send(fromRootPlayer, this, false);
 		}
-
-
-
 	}
 
 	// TODO: this should be merged into a new AlertUI action system once it's implemented
@@ -569,7 +566,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 		if (canClickPickup)
 		{
 			// Show the 'switch pickup mode' action button if this is in either of the players hands
-			var pna = PlayerManager.LocalPlayerScript.playerNetworkActions;
+			var pna = LocalPlayerManager.CurrentMind.playerNetworkActions;
 			bool showAlert = false;
 			foreach (var itemSlot in pna.itemStorage.GetNamedItemSlots(NamedSlot.leftHand))
 			{
@@ -598,6 +595,6 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 
 	public void CallActionClient()
 	{
-		PlayerManager.PlayerScript.playerNetworkActions.CmdSwitchPickupMode();
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdSwitchPickupMode();
 	}
 }

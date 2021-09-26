@@ -43,14 +43,14 @@ namespace Objects.Telecomms
 				return;
 			}
 
-			AnnounceNewCrewmember(args.player);
+			AnnounceNewCrewmember(args);
 		}
 
-		private void AnnounceNewCrewmember(GameObject player)
+		private void AnnounceNewCrewmember(PlayerSpawn.SpawnEventArgs player)
 		{
-			PlayerScript playerScript = player.GetComponent<PlayerScript>();
-			Occupation playerOccupation = playerScript.mind.occupation;
-			string playerName = player.ExpensiveName();
+
+			Occupation playerOccupation = player.player.occupation;
+			string playerName = player.player.ExpensiveName();
 			Loudness annoucementImportance = GetAnnouncementImportance(playerOccupation);
 
 			ChatChannel chatChannels = ChatChannel.Common;
@@ -71,7 +71,7 @@ namespace Objects.Telecomms
 
 			if (playerOccupation.JobType == JobType.AI)
 			{
-				commonMessage = $"{player.ExpensiveName()} has been bluespace-beamed into the AI core!";
+				commonMessage = $"{player.player.ExpensiveName()} has been bluespace-beamed into the AI core!";
 			}
 			else if (playerOccupation.JobType == JobType.SYNDICATE)
 			{

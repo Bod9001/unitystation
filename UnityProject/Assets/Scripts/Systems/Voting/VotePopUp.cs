@@ -29,7 +29,7 @@ namespace UI
 			voteCount.text = currentCount;
 			voteTimer.text = timer;
 
-			if (PlayerList.Instance.AdminToken == null) return;
+			if (PlayersManager.Instance.AdminToken == null) return;
 
 			vetoBtn.gameObject.SetActive(true);
 		}
@@ -50,9 +50,9 @@ namespace UI
 		public void VoteYes()
 		{
 			_ = SoundManager.Play(CommonSounds.Instance.Click01);
-			if (PlayerManager.PlayerScript != null)
+			if (LocalPlayerManager.CurrentMind != null)
 			{
-				PlayerManager.PlayerScript.playerNetworkActions.CmdRegisterVote(true);
+				LocalPlayerManager.CurrentMind.playerNetworkActions.CmdRegisterVote(true);
 			}
 
 			buttonPresses++;
@@ -64,9 +64,9 @@ namespace UI
 		public void VoteNo()
 		{
 			_ = SoundManager.Play(CommonSounds.Instance.Click01);
-			if (PlayerManager.PlayerScript != null)
+			if (LocalPlayerManager.CurrentMind != null)
 			{
-				PlayerManager.PlayerScript.playerNetworkActions.CmdRegisterVote(false);
+				LocalPlayerManager.CurrentMind.playerNetworkActions.CmdRegisterVote(false);
 			}
 			buttonPresses++;
 			yesBtn.interactable = true;
@@ -77,9 +77,9 @@ namespace UI
 		public void AdminVeto()
 		{
 			_ = SoundManager.Play(CommonSounds.Instance.Click01);
-			if (PlayerManager.PlayerScript != null)
+			if (LocalPlayerManager.CurrentMind != null)
 			{
-				PlayerManager.PlayerScript.playerNetworkActions.CmdVetoRestartVote(ServerData.UserID, PlayerList.Instance.AdminToken);
+				LocalPlayerManager.CurrentMind.playerNetworkActions.CmdVetoRestartVote(ServerData.UserID, PlayersManager.Instance.AdminToken);
 			}
 			buttonPresses++;
 			ToggleButtons(false);

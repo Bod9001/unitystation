@@ -213,7 +213,7 @@ namespace Objects
 		public virtual void DetectPlayer()
 		{
 			// detect players positioned on the portal bit of the gateway
-			var playersFound = Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer + Vector3Int.up, ObjectType.Player, true);
+			var playersFound = Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer + Vector3Int.up, FlagsObjectType.Player, true);
 
 			if (SpawnedMobs == false && selectedWorld != null && playersFound.Count() > 0)
 			{
@@ -230,12 +230,12 @@ namespace Objects
 			{
 				var coord = new Vector2(Position.x, Position.y);
 				Chat.AddLocalMsgToChat(Message, coord, gameObject);
-				_ = SoundManager.PlayNetworkedForPlayer(player.gameObject,CommonSounds.Instance.StealthOff); // very weird, sometimes does the sound other times not.
+				_ = SoundManager.PlayNetworkedForPlayer(MindManager.StaticGet(player.gameObject),CommonSounds.Instance.StealthOff); // very weird, sometimes does the sound other times not.
 				TransportUtility.TransportObjectAndPulled(player, TeleportTargetCoord);
 			}
 
-			foreach (var item in Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer + Vector3Int.up, ObjectType.Object, true)
-										.Concat(Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer + Vector3Int.up, ObjectType.Item, true)))
+			foreach (var item in Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer + Vector3Int.up, FlagsObjectType.Object, true)
+										.Concat(Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer + Vector3Int.up, FlagsObjectType.Item, true)))
 			{
 				TransportUtility.TransportObjectAndPulled(item, TeleportTargetCoord);
 			}

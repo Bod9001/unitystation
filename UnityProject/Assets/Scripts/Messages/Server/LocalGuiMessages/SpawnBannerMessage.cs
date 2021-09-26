@@ -17,7 +17,7 @@ namespace Messages.Server.LocalGuiMessages
 		}
 
 		public static NetMessage Send(
-			GameObject player,
+			Mind player,
 			string name,
 			string spawnSound,
 			Color textColor,

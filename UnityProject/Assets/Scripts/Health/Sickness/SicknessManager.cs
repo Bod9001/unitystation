@@ -240,7 +240,7 @@ namespace Health.Sickness
 		/// </summary>
 		private void PerformSymptomSneeze(SymptomManifestation symptomManifestation)
 		{
-			GameObject performer = symptomManifestation.MobHealth.gameObject;
+			var performer = MindManager.Instance.Get(symptomManifestation.MobHealth.gameObject);
 			Chat.AddActionMsgToChat(performer, "You sneeze.", $"{performer.ExpensiveName()} sneezes!");
 
 			if (symptomManifestation.SicknessAffliction.Sickness.Contagious)
@@ -254,7 +254,7 @@ namespace Health.Sickness
 		/// </summary>
 		private void PerformSymptomCough(SymptomManifestation symptomManifestation)
 		{
-			GameObject performer = symptomManifestation.MobHealth.gameObject;
+			var performer = MindManager.Instance.Get(symptomManifestation.MobHealth.gameObject);
 			Chat.AddActionMsgToChat(performer, "You cough.", $"{performer.ExpensiveName()} coughs!");
 
 			if (symptomManifestation.SicknessAffliction.Sickness.Contagious)
@@ -269,8 +269,7 @@ namespace Health.Sickness
 		/// </summary>
 		private void PerformSymptomCustomMessage(SymptomManifestation symptomManifestation)
 		{
-			GameObject performer = symptomManifestation.MobHealth.gameObject;
-
+			var performer = MindManager.Instance.Get(symptomManifestation.MobHealth.gameObject);
 			CustomMessageParameter customMessageParameter = (CustomMessageParameter)symptomManifestation.SicknessAffliction.Sickness.SicknessStages[symptomManifestation.Stage].ExtendedSymptomParameters;
 
 			int randomMessage = Random.Range(0, customMessageParameter.CustomMessages.Count);

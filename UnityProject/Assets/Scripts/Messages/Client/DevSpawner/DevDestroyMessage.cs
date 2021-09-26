@@ -28,7 +28,7 @@ namespace Messages.Client.DevSpawner
 
 		void ValidateAdmin(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
 			if (admin == null) return;
 
 			if (msg.ToDestroy.Equals(NetId.Invalid))
@@ -43,7 +43,7 @@ namespace Messages.Client.DevSpawner
 
 				Vector2Int worldPos = NetworkObject.transform.position.To2Int();
 				UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(
-					$"{admin.Player().Username} destroyed a {NetworkObject} at {worldPos}", msg.AdminId);
+					$"{admin.Username} destroyed a {NetworkObject} at {worldPos}", msg.AdminId);
 				_ = Despawn.ServerSingle(NetworkObject);
 			}
 		}

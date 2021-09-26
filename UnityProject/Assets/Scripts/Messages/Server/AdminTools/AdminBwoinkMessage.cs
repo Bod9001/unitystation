@@ -17,7 +17,7 @@ namespace Messages.Server.AdminTools
 			Chat.AddAdminPrivMsg(msg.Message);
 		}
 
-		public static NetMessage  Send(GameObject recipient, string adminUid, string message)
+		public static NetMessage  Send(ConnectedPlayer recipient, string adminUid, string message)
 		{
 			NetMessage  msg = new NetMessage
 			{

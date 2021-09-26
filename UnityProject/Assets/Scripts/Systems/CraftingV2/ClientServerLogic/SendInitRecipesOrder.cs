@@ -21,7 +21,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 				);
 			}
 
-			PlayerManager.LocalPlayerScript.PlayerCrafting.InitRecipes(serverSideKnownRecipes);
+			LocalPlayerManager.CurrentMind.PlayerCrafting.InitRecipes(serverSideKnownRecipes);
 		}
 
 		public static void SendTo(ConnectedPlayer recipient, List<List<CraftingRecipe>> serverSideKnownRecipes)
@@ -35,7 +35,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 					{
 						Logger.LogError(
 							"The server tried to send the negative recipe index when the server was initiating " +
-							$"the recipes of the player: {recipient.Name}. The recipe: {craftingRecipe}. " +
+							$"the recipes of the player: {recipient.Username}. The recipe: {craftingRecipe}. " +
 							"Perhaps this recipe is missing from the singleton."
 						);
 						return;
@@ -49,7 +49,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 					{
 						Logger.LogError(
 							"The server tried to send the wrong recipe index when the server was initiating " +
-							$"the recipes of the player: {recipient.Name}. The recipe: {craftingRecipe}. " +
+							$"the recipes of the player: {recipient.Username}. The recipe: {craftingRecipe}. " +
 							"Perhaps this recipe has wrong indexInSingleton that doesn't match a real index in " +
 							"the singleton."
 						);

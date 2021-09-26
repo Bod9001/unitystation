@@ -170,11 +170,11 @@ namespace AdminTools
 
 		public static void RequestFullUpdate(string adminId, string adminToken)
 		{
-			var admin = PlayerList.Instance.GetAdmin(adminId, adminToken);
+			var admin = PlayersManager.Instance.GetAdmin(adminId, adminToken);
 
 			if (admin != null)
 			{
-				AdminInfoUpdateMessage.SendFullUpdate(admin, Instance.serverInfos);
+				AdminInfoUpdateMessage.SendFullUpdate(admin.CurrentMind, Instance.serverInfos);
 			}
 			else
 			{
@@ -189,7 +189,7 @@ namespace AdminTools
 
 			if (IsOn)
 			{
-				if (PlayerManager.LocalPlayerScript == null)
+				if (LocalPlayerManager.CurrentMind == null)
 				{
 					Logger.LogError("Cannot activate Admin Overlay with PlayerManager.LocalPlayerScript being null", Category.Admin);
 					IsOn = false;
@@ -197,7 +197,7 @@ namespace AdminTools
 				}
 				else
 				{
-					PlayerManager.LocalPlayerScript.playerNetworkActions.CmdGetAdminOverlayFullUpdate(ServerData.UserID, PlayerList.Instance.AdminToken);
+					LocalPlayerManager.CurrentMind.playerNetworkActions.CmdGetAdminOverlayFullUpdate(ServerData.UserID, PlayersManager.Instance.AdminToken);
 					overlayToggleButton.image.color = selectedColor;
 				}
 			}

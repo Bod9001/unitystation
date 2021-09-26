@@ -41,18 +41,18 @@ namespace Messages.Client
 				return;
 			}
 
-			var playerScript = player.Script;
+			var playerScript = player.CurrentMind;
 
 			//First Validations is for objects in the world (computers, etc), second check is for items in active hand (null rod, PADs).
 			bool validate;
-			if (playerScript.PlayerState == PlayerScript.PlayerStates.Ai)
+			if (playerScript.IsSilicon)
 			{
-				validate = Validations.CanApply(new AiActivate(player.GameObject, null,
+				validate = Validations.CanApply(new AiActivate(playerScript, null,
 					tabProvider, Intent.Help, AiActivate.ClickTypes.NormalClick), NetworkSide.Server);
 			}
 			else
 			{
-				validate = Validations.CanApply(player.Script, tabProvider, NetworkSide.Server)
+				validate = Validations.CanApply(playerScript, tabProvider, NetworkSide.Server)
 				           || playerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject == tabProvider;
 			}
 
@@ -101,10 +101,10 @@ namespace Messages.Client
 			{
 				var connectedPlayer = list[i];
 //Not sending that update to the same player
-				if (connectedPlayer.GameObject != player.GameObject)
+				if (connectedPlayer != player)
 				{
-					TabUpdateMessage.Send(connectedPlayer.GameObject, tabProvider, msg.NetTabType, TabAction.Update,
-						player.GameObject,
+					TabUpdateMessage.Send(connectedPlayer.CurrentMind, tabProvider, msg.NetTabType, TabAction.Update,
+						player.CurrentMind,
 						new[] {new ElementValue {Id = msg.ElementId, Value = updatedElement.BinaryValue}});
 				}
 			}
@@ -112,8 +112,8 @@ namespace Messages.Client
 
 		private TabUpdateMessage FailValidation(ConnectedPlayer player, GameObject tabProvider, NetMessage msg, string reason = "")
 		{
-			Logger.LogWarning($"{player.Name}: Tab interaction w/{tabProvider} denied: {reason}", Category.NetUI);
-			return TabUpdateMessage.Send(player.GameObject, tabProvider, msg.NetTabType, TabAction.Close);
+			Logger.LogWarning($"{player.Username}: Tab interaction w/{tabProvider} denied: {reason}", Category.NetUI);
+			return TabUpdateMessage.Send(player.CurrentMind, tabProvider, msg.NetTabType, TabAction.Close);
 		}
 
 		public static NetMessage Send(

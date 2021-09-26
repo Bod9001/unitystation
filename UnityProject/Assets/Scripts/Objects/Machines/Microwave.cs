@@ -109,7 +109,7 @@ namespace Objects.Kitchen
 		private bool ovenGlowEnabled = false;
 
 		public bool IsOperating => CurrentState is MicrowaveRunning;
-		
+
 		public IEnumerable<ItemSlot> Slots => storage.GetItemSlots();
 		public bool HasContents => Slots.Any(Slot => Slot.IsOccupied);
 		public int StorageSize => storage.StorageSize();
@@ -246,7 +246,7 @@ namespace Objects.Kitchen
 			Chat.AddActionMsgToChat(
 					interaction,
 					$"You add the {interaction.HandObject.ExpensiveName()} to the microwave.",
-					$"{interaction.PerformerPlayerScript.visibleName} adds the {interaction.HandObject.ExpensiveName()} to the microwave.");
+					$"{interaction.Performer.ExpensiveName()} adds the {interaction.HandObject.ExpensiveName()} to the microwave.");
 
 			return true;
 		}

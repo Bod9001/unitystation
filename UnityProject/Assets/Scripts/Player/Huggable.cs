@@ -59,7 +59,7 @@ public class Huggable : MonoBehaviour, ICheckedInteractable<HandApply>
 
 		Chat.AddActionMsgToChat(interaction.Performer,
 				$"You try to help {targetName} up.", $"{performerName} tries to help {targetName} up.");
-		Chat.AddExamineMsgFromServer(interaction.TargetObject, $"{performerName} tries help you up!");
+		Chat.AddExamineMsgFromServer(MindManager.Instance.Get(interaction.TargetObject), $"{performerName} tries help you up!");
 	}
 
 	private bool TryFieryHug()
@@ -70,11 +70,11 @@ public class Huggable : MonoBehaviour, ICheckedInteractable<HandApply>
 		if (performerLHB != null && targetLHB != null && (performerLHB.FireStacks > 0 || targetLHB.FireStacks > 0))
 		{
 			performerLHB.ApplyDamageAll(interaction.TargetObject, 1, AttackType.Fire, DamageType.Burn);
-			targetLHB.ApplyDamageAll(interaction.Performer, 1, AttackType.Fire, DamageType.Burn);
+			targetLHB.ApplyDamageAll(interaction.Performer.GameObjectBody, 1, AttackType.Fire, DamageType.Burn);
 
 			Chat.AddCombatMsgToChat(
 					interaction.Performer, $"You hug {targetName} with fire!", $"{performerName} hugs {targetName} with fire!");
-			Chat.AddExamineMsgFromServer(interaction.TargetObject, $"{performerName} hugs you with fire!");
+			Chat.AddExamineMsgFromServer(MindManager.Instance.Get(interaction.TargetObject), $"{performerName} hugs you with fire!");
 
 			return true;
 		}
@@ -85,6 +85,6 @@ public class Huggable : MonoBehaviour, ICheckedInteractable<HandApply>
 	private void Hug()
 	{
 		Chat.AddActionMsgToChat(interaction.Performer, $"You hug {targetName}.", $"{performerName} hugs {targetName}.");
-		Chat.AddExamineMsgFromServer(interaction.TargetObject, $"{performerName} hugs you.");
+		Chat.AddExamineMsgFromServer(MindManager.Instance.Get(interaction.TargetObject), $"{performerName} hugs you.");
 	}
 }

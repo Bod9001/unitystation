@@ -18,9 +18,9 @@ namespace Player
 		private const string UNKNOWN_VALUE = "?";
 
 		private InteractableStorage interactableStorage;
-
-		private PlayerScript script;
 		public InteractableStorage InteractableStorage => interactableStorage;
+
+		public Mind CurrentMind => MindManager.Instance.Get(gameObject);
 
 		/// <summary>
 		/// Check if player is wearing a mask
@@ -30,7 +30,7 @@ namespace Player
 		{
 			get
 			{
-				foreach (var itemSlot in script.DynamicItemStorage.GetNamedItemSlots(NamedSlot.mask))
+				foreach (var itemSlot in CurrentMind.DynamicItemStorage.GetNamedItemSlots(NamedSlot.mask))
 				{
 					if (itemSlot.IsEmpty == false)
 					{
@@ -53,13 +53,12 @@ namespace Player
 		};
 
 		[SerializeField] private float maxInteractionDistance = 3;
-		private PlayerHealthV2 Health => script.playerHealth;
-		private Equipment Equipment => script.Equipment;
-		private string VisibleName => script.visibleName;
+		private LivingHealthMasterBase Health => CurrentMind.LivingHealthMasterBase;
+		private Equipment Equipment => CurrentMind.Equipment;
+		private string VisibleName => CurrentMind.ExpensiveName(); //Has validation for what can be seen
 
 		private void Awake()
 		{
-			script = GetComponent<PlayerScript>();
 			interactableStorage = GetComponent<InteractableStorage>();
 		}
 
@@ -96,7 +95,7 @@ namespace Player
 		{
 			foreach (var slot in readableIDslots)
 			{
-				foreach (var itemSlot in script.DynamicItemStorage.GetNamedItemSlots(slot))
+				foreach (var itemSlot in CurrentMind.DynamicItemStorage.GetNamedItemSlots(slot))
 				{
 					if (itemSlot.IsOccupied == false)
 					{
@@ -124,14 +123,13 @@ namespace Player
 			return false;
 		}
 
-		public void Examine(GameObject sentByPlayer)
+		public void Examine(Mind sentByPlayer)
 		{
-			if(sentByPlayer.TryGetComponent<PlayerScript>(out var sentByPlayerScript) == false) return;
 
-			if (sentByPlayerScript.PlayerState != PlayerScript.PlayerStates.Ghost)
+			if (sentByPlayer.IsGhosting == false)
 			{
 				// if distance is too big or is self-examination, send normal examine message
-				if (Vector3.Distance(sentByPlayer.WorldPosServer(), gameObject.WorldPosServer()) >= maxInteractionDistance || sentByPlayer == gameObject)
+				if (Vector3.Distance(sentByPlayer.BodyWorldPosition, gameObject.WorldPosServer()) >= maxInteractionDistance || sentByPlayer == gameObject)
 				{
 					BasicExamine(sentByPlayer);
 					return;
@@ -140,8 +138,8 @@ namespace Player
 
 			//If youre not normal or ghost then only allow basic examination
 			//TODO maybe in future have this be a separate setting for each player type?
-			if (sentByPlayerScript.PlayerState != PlayerScript.PlayerStates.Normal &&
-			    sentByPlayerScript.PlayerState != PlayerScript.PlayerStates.Ghost)
+			if (sentByPlayer.Equipment == null &&
+			    sentByPlayer.IsGhosting == false)
 			{
 				BasicExamine(sentByPlayer);
 				return;
@@ -150,14 +148,14 @@ namespace Player
 			// start itemslot observation
 			this.GetComponent<DynamicItemStorage>().ServerAddObserverPlayer(sentByPlayer);
 			// send message to enable examination window
-			PlayerExaminationMessage.Send(sentByPlayer, this, true);
+			PlayerExaminationMessage.Send(sentByPlayer.AssignedPlayer, this, true);
 
 			//Allow ghosts to keep the screen open even if player moves away
-			if(sentByPlayerScript.PlayerState == PlayerScript.PlayerStates.Ghost) return;
+			if(sentByPlayer.IsGhosting) return;
 
 			//stop observing when target player is too far away
 			var relationship = RangeRelationship.Between(
-				sentByPlayer,
+				sentByPlayer.GameObjectBody,
 				gameObject,
 				maxInteractionDistance,
 				ServerOnObservationEnded
@@ -165,20 +163,20 @@ namespace Player
 			SpatialRelationship.ServerActivate(relationship);
 		}
 
-		private void BasicExamine(GameObject sentByPlayer)
+		private void BasicExamine(Mind sentByPlayer)
 		{
 			Chat.AddExamineMsg(sentByPlayer,
 				$"This is <b>{VisibleName}</b>.\n" +
 				$"{Equipment.Examine()}" +
-				$"<color={LILAC_COLOR}>{Health.GetExamineText(script)}</color>");
+				$"<color={LILAC_COLOR}>{Health.GetExamineText(sentByPlayer)}</color>");
 		}
 
 		private void ServerOnObservationEnded(RangeRelationship cancelled)
 		{
 			// stop observing item storage
-			this.GetComponent<DynamicItemStorage>().ServerRemoveObserverPlayer(cancelled.obj1.gameObject);
+			this.GetComponent<DynamicItemStorage>().ServerRemoveObserverPlayer( MindManager.StaticGet(cancelled.obj1.gameObject) );
 			// send message to disable examination window
-			PlayerExaminationMessage.Send(cancelled.obj1.gameObject, this, false);
+			PlayerExaminationMessage.Send(MindManager.StaticGet(cancelled.obj1.gameObject).AssignedPlayer, this, false);
 		}
 
 		public string GetPlayerNameString()
@@ -191,7 +189,7 @@ namespace Player
 		public string GetPlayerSpeciesString()
 		{
 			// if face is visible - get species by face
-			if (IsFaceVisible) { return script.characterSettings.Species; }
+			if (IsFaceVisible) { return CurrentMind.OriginalCharacter.Species; }
 
 			//  try get species from security records
 			if (TryFindIDCard(out var idCard))
@@ -218,7 +216,7 @@ namespace Player
 			// search for face identity
 			if (IsFaceVisible)
 			{
-				string id = script.characterSettings.Name;
+				string id =  CurrentMind.OriginalCharacter.Name;
 				if (TryFindPlayerSecurityRecord(id, out var securityRecord))
 				{
 					return securityRecord.Occupation.JobType.ToString();
@@ -236,11 +234,11 @@ namespace Player
 		{
 			var healthString = new StringBuilder($"<color={LILAC_COLOR}>");
 
-			if (script.IsDeadOrGhost)
+			if ( CurrentMind.LivingHealthMasterBase.IsConscious == false)
 			{
 				healthString.Append("Dead");
 
-				if (script.HasSoul == false)
+				if (CurrentMind.AssignedPlayer == null)
 				{
 					healthString.Append(" and no soul");
 				}
@@ -250,7 +248,7 @@ namespace Player
 				healthString.Append("Alive");
 
 				//Alive but not in body
-				if (script.HasSoul == false)
+				if (CurrentMind.AssignedPlayer == null)
 				{
 					healthString.Append(" but vacant");
 				}

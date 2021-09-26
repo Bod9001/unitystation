@@ -44,7 +44,7 @@ namespace Messages.Server
 		/// <param name="offsetFromPlayer">offset from player performing the progress action</param>
 		/// <param name="progressBarID"></param>
 		/// <returns></returns>
-		public static NetMessage SendCreate(GameObject recipient, int spriteIndex, Vector2Int offsetFromPlayer, int progressBarID)
+		public static NetMessage SendCreate(Mind recipient, int spriteIndex, Vector2Int offsetFromPlayer, int progressBarID)
 		{
 			NetMessage msg = new NetMessage
 			{
@@ -65,7 +65,7 @@ namespace Messages.Server
 		/// <param name="spriteIndex"></param>
 		/// <param name="progressBarID"></param>
 		/// <returns></returns>
-		public static NetMessage SendUpdate(GameObject recipient, int spriteIndex, int progressBarID)
+		public static NetMessage SendUpdate(Mind recipient, int spriteIndex, int progressBarID)
 		{
 			NetMessage msg = new NetMessage
 			{

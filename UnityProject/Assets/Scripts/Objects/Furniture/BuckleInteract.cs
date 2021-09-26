@@ -33,7 +33,7 @@ namespace Objects
 			occupiableDirectionalSprite = GetComponent<OccupiableDirectionalSprite>();
 		}
 
-		private bool IsPushEnough(MouseDrop interaction, NetworkSide side, PlayerScript playerScript, out bool sameSquare, out Vector2Int dir)
+		private bool IsPushEnough(MouseDrop interaction, NetworkSide side, Mind playerScript, out bool sameSquare, out Vector2Int dir)
 		{
 			Vector2Int playerWorldPos = interaction.DroppedObject.TileWorldPosition();
 			Vector2Int targetWorldPos = interaction.TargetObject.TileWorldPosition();
@@ -45,7 +45,7 @@ namespace Objects
 				sameSquare = false;
 
 				bool canPush = false;
-				var playerPushPull = playerScript.pushPull;
+				var playerPushPull = playerScript.PushPull;
 				if (side == NetworkSide.Server)
 				{
 					canPush = playerPushPull.CanPushServer((Vector3Int)playerWorldPos, dir);
@@ -97,13 +97,13 @@ namespace Objects
 
 		public void ServerPerformInteraction(MouseDrop drop)
 		{
-			var playerScript = drop.UsedObject.GetComponent<PlayerScript>();
+			var playerScript = MindManager.StaticGet(drop.UsedObject);
 
 			IsPushEnough(drop, NetworkSide.Server, playerScript, out bool sameSquare, out Vector2Int dir);
 
 			if (sameSquare == false)
 			{
-				playerScript.pushPull.QueuePush(dir, forcePush: allowImpassable);
+				playerScript.PushPull.QueuePush(dir, forcePush: allowImpassable);
 			}
 
 			BucklePlayer(playerScript);
@@ -112,15 +112,15 @@ namespace Objects
 		/// <summary>
 		/// Don't use it without proper validation!
 		/// </summary>
-		public void BucklePlayer(PlayerScript playerScript)
+		public void BucklePlayer(Mind playerScript)
 		{
 			SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.Click01, gameObject.WorldPosServer(), sourceObj: gameObject);
 
-			playerScript.playerMove.ServerBuckle(gameObject, OnUnbuckle);
+			playerScript.PlayerMove.ServerBuckle(gameObject, OnUnbuckle);
 
 			//if this is a directional sprite, we render it in front of the player
 			//when they are buckled
-			occupiableDirectionalSprite?.SetOccupant(playerScript.netId);
+			occupiableDirectionalSprite?.SetOccupant(playerScript.GameObjectBody.NetId());
 		}
 
 		public bool WillInteract(HandApply interaction, NetworkSide side)

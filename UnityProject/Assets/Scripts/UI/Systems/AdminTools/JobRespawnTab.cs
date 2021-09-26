@@ -20,7 +20,7 @@ namespace UI.AdminTools
 
 			RequestRespawnPlayer.SendNormalRespawn(
 				ServerData.UserID,
-				PlayerList.Instance.AdminToken,
+				PlayersManager.Instance.AdminToken,
 				PlayerEntry.PlayerData.uid,
 				occupation);
 		}

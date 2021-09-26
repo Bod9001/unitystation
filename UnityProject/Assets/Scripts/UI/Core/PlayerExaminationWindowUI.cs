@@ -124,10 +124,10 @@ namespace UI.Core
 		private void InteractWithOtherPlayersSlot(ItemSlot targetSlot)
 		{
 			ItemSlot playerSlot;
-			var isGhost = PlayerManager.LocalPlayerScript.IsGhost;
+			var isGhost = LocalPlayerManager.CurrentMind.IsGhosting;
 			if (isGhost)
 			{
-				if (PlayerList.Instance.IsClientAdmin)
+				if (PlayersManager.Instance.IsClientAdmin)
 				{
 					playerSlot = AdminManager.Instance.LocalAdminGhostStorage.GetNamedItemSlot(NamedSlot.ghostStorage01);
 				}
@@ -138,7 +138,7 @@ namespace UI.Core
 			}
 			else
 			{
-				playerSlot = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot();
+				playerSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
 			}
 			OtherPlayerSlotTransferMessage.Send(playerSlot, targetSlot, isGhost);
 		}

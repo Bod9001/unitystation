@@ -21,9 +21,9 @@ namespace Messages.Client.VariableViewer
 
 		void ValidateAdmin(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
 			if (admin == null) return;
-			global::VariableViewer.RequestChangeVariable(msg.PageID, msg.newValue, msg.SendToClient, SentByPlayer.GameObject, msg.AdminId);
+			global::VariableViewer.RequestChangeVariable(msg.PageID, msg.newValue, msg.SendToClient, SentByPlayer, msg.AdminId);
 
 			Logger.Log($"Admin {admin.name} changed variable {msg.PageID} (in VV) with a new value of: {msg.newValue} ",
 				Category.Admin);

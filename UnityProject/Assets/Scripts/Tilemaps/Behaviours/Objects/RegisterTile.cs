@@ -19,6 +19,37 @@ public enum ObjectType
 	Wire
 }
 
+[Flags]
+public enum FlagsObjectType
+{
+	None = 0,
+	Item = 1 << 0,
+	Object = 1 << 1,
+	Player = 1 << 2,
+	Wire = 1 << 3,
+}
+
+public static class ObjectTypeConvert
+{
+	public static FlagsObjectType ReturnFlagEquivalent(ObjectType ObjectType)
+	{
+		switch (ObjectType)
+		{
+			case ObjectType.Item:
+				return FlagsObjectType.Item;
+			case ObjectType.Object:
+				return FlagsObjectType.Object;
+			case ObjectType.Player:
+				return FlagsObjectType.Player;
+			case ObjectType.Wire:
+				return FlagsObjectType.Wire;
+		}
+
+		return FlagsObjectType.None;
+	}
+}
+
+
 /// <summary>
 /// Holds various behavior which affects the tile the object is currently on.
 /// A given tile in the ObjectLayer (which represents an individual square in the game world)
@@ -51,8 +82,7 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 	/// </summary>
 	public TileChangeManager TileChangeManager => Matrix ? Matrix.TileChangeManager : null;
 
-	[SerializeField, FormerlySerializedAs("ObjectType"), PrefabModeOnly]
-	[Tooltip("The kind of object this is.")]
+	[SerializeField, FormerlySerializedAs("ObjectType"), PrefabModeOnly] [Tooltip("The kind of object this is.")]
 	private ObjectType objectType = ObjectType.Item;
 
 	/// <summary>
@@ -149,8 +179,7 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 	private PipeData pipeData;
 	public PipeData PipeData => pipeData;
 
-	[PrefabModeOnly]
-	public SortingGroup CurrentsortingGroup;
+	[PrefabModeOnly] public SortingGroup CurrentsortingGroup;
 
 	private bool Initialized;
 
@@ -160,8 +189,10 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 	{
 		if (transform.parent) //clients dont have this set yet
 		{
-			objectLayer = transform.parent.GetComponent<ObjectLayer>() ?? transform.parent.GetComponentInParent<ObjectLayer>();
+			objectLayer = transform.parent.GetComponent<ObjectLayer>() ??
+			              transform.parent.GetComponentInParent<ObjectLayer>();
 		}
+
 		customNetTransform = GetComponent<CustomNetTransform>();
 		matrixRotationHooks = GetComponents<IMatrixRotation>();
 		fireExposables = GetComponents<IFireExposable>();
@@ -245,7 +276,7 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 		//cancel all relationships
 		if (sameMatrixRelationships != null)
 		{
-			for (int i = sameMatrixRelationships.Count-1; i >= 0; i--)
+			for (int i = sameMatrixRelationships.Count - 1; i >= 0; i--)
 			{
 				var relationship = sameMatrixRelationships[i];
 				Logger.LogTraceFormat("Cancelling spatial relationship {0} because {1} is despawning.",
@@ -321,10 +352,11 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 	[Server]
 	public bool ServerSetNetworkedMatrixNetID(uint newNetworkedMatrixNetID)
 	{
-		if(networkedMatrixNetId == newNetworkedMatrixNetID)
+		if (networkedMatrixNetId == newNetworkedMatrixNetID)
 		{
 			return false;
 		}
+
 		LogMatrixDebug("ServerSetNetworkedMatrixNetID");
 		networkedMatrixNetId = newNetworkedMatrixNetID;
 		return true;
@@ -342,7 +374,8 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 			return;
 
 		networkedMatrixNetId = newNetworkedMatrixNetID;
-		NetworkedMatrix.InvokeWhenInitialized(networkedMatrixNetId, FinishNetworkedMatrixRegistration); //note: we dont actually wait for init here anymore
+		NetworkedMatrix.InvokeWhenInitialized(networkedMatrixNetId,
+			FinishNetworkedMatrixRegistration); //note: we dont actually wait for init here anymore
 	}
 
 	private void FinishNetworkedMatrixRegistration(NetworkedMatrix networkedMatrix)
@@ -361,6 +394,7 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 				objectLayer.ServerObjects.Remove(LocalPositionClient, this);
 				objectLayer.ClientObjects.Remove(LocalPositionClient, this);
 			}
+
 			objectLayer = newObjectLayer;
 		}
 
@@ -482,6 +516,7 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 		{
 			ServerSetLocalPosition(transform.localPosition.RoundToInt());
 		}
+
 		if (prevPosition != LocalPositionServer)
 		{
 			OnLocalPositionChangedServer.Invoke(LocalPositionServer);
@@ -499,6 +534,7 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 		{
 			ClientSetLocalPosition(transform.localPosition.RoundToInt());
 		}
+
 		CheckSameMatrixRelationships();
 	}
 

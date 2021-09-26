@@ -67,7 +67,7 @@ public class UITileList : MonoBehaviour
 	/// <param name="position">Position where to look for tile</param>
 	public static LayerTile GetTileAtPosition(Vector3 position)
 	{
-		MetaTileMap metaTileMap = PlayerManager.LocalPlayerScript.gameObject.GetComponentInParent<MetaTileMap>();
+		MetaTileMap metaTileMap = LocalPlayerManager.CurrentMind.GameObjectBody.GetComponentInParent<MetaTileMap>();
 
 		position = metaTileMap.transform.InverseTransformPoint(position);
 		Vector3Int tilePosition = Vector3Int.FloorToInt(position);

@@ -61,7 +61,6 @@ namespace Blob
 
 		private PlayerSync playerSync;
 		private RegisterPlayer registerPlayer;
-		private PlayerScript playerScript;
 		public int numOfTilesForVictory = 400;
 		private int numOfTilesForDetection = 75;
 
@@ -186,20 +185,8 @@ namespace Blob
 		{
 			playerSync = GetComponent<PlayerSync>();
 			registerPlayer = GetComponent<RegisterPlayer>();
-			playerScript = GetComponent<PlayerScript>();
-
-			if (playerScript == null && (!TryGetComponent(out playerScript) || playerScript == null))
-			{
-				Logger.LogError("Playerscript was null on blob and couldnt be found.", Category.Blob);
-				return;
-			}
-
-			playerScript.mind.ghost = playerScript;
-			playerScript.mind.body = playerScript;
 
 			overmindName = $"Overmind {Random.Range(1, 1001)}";
-
-			playerScript.SetPermanentName(overmindName);
 
 			var result = Spawn.ServerPrefab(blobCorePrefab, playerSync.ServerPosition, gameObject.transform);
 
@@ -256,7 +243,7 @@ namespace Blob
 		{
 			playerSync = GetComponent<PlayerSync>();
 			registerPlayer = GetComponent<RegisterPlayer>();
-			playerScript = GetComponent<PlayerScript>();
+
 
 			layerMask = LayerMask.GetMask("Objects", "Players", "NPC", "Machines", "Windows", "Door Closed");
 		}
@@ -362,8 +349,8 @@ namespace Blob
 
 		private IEnumerator TeleportPlayerBack()
 		{
-			Chat.AddExamineMsgFromServer(gameObject,
-				"You feel lost without blob.<color=#FF151F>Move back to the blob</color>");
+			// Chat.AddExamineMsgFromServer(gameObject,
+				// "You feel lost without blob.<color=#FF151F>Move back to the blob</color>");
 
 			yield return WaitFor.Seconds(1f);
 
@@ -373,7 +360,7 @@ namespace Blob
 				yield break;
 			}
 
-			Chat.AddExamineMsgFromServer(gameObject, "Your mind gets sucked back to the blob");
+			// Chat.AddExamineMsgFromServer(gameObject, "Your mind gets sucked back to the blob");
 
 			if(blobCore == null) yield break;
 
@@ -588,16 +575,16 @@ namespace Blob
 
 			if (!autoExpanding && resources < attackCost)
 			{
-				Chat.AddExamineMsgFromServer(gameObject,
-					$"Not enough biomass to attack, you need {attackCost} biomass");
+				// Chat.AddExamineMsgFromServer(gameObject,
+					// $"Not enough biomass to attack, you need {attackCost} biomass");
 				return false;
 			}
 
-			if (!autoExpanding && Cooldowns.IsOn(playerScript, CooldownID.Asset(CommonCooldowns.Instance.Melee, NetworkSide.Server)))
-			{
+			// if (!autoExpanding && Cooldowns.IsOn(playerScript, CooldownID.Asset(CommonCooldowns.Instance.Melee, NetworkSide.Server)))
+			// {
 				//On attack cooldown
 				return false;
-			}
+			// }
 
 			if (TryAttack(worldPos, autoExpanding))
 			{
@@ -608,7 +595,7 @@ namespace Blob
 
 				if (!victory)
 				{
-					Cooldowns.TryStartServer(playerScript, CommonCooldowns.Instance.Melee);
+					// Cooldowns.TryStartServer(playerScript, CommonCooldowns.Instance.Melee);
 				}
 
 				resources -= attackCost;
@@ -628,8 +615,8 @@ namespace Blob
 		{
 			if (currentStrain.strainType == StrainTypes.NetworkedFibers && !ValidateNextToCore(worldPos))
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "You can only expand next to the core, due to the current strain");
-				return false;
+				// Chat.AddExamineMsgFromServer(gameObject, "You can only expand next to the core, due to the current strain");
+				// return false;
 			}
 
 			//See if theres blob already there
@@ -668,7 +655,7 @@ namespace Blob
 
 			if (!autoExpanding)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "You grow a normal blob.");
+				// Chat.AddExamineMsgFromServer(gameObject, "You grow a normal blob.");
 			}
 
 			var structure = result.GameObject.GetComponent<BlobStructure>();
@@ -779,7 +766,7 @@ namespace Blob
 			if (noMsg) return false;
 
 			//No adjacent blobs, therefore cannot attack or expand
-			Chat.AddExamineMsgFromServer(gameObject, "Can only place blob on or next to existing blob growth.");
+			// Chat.AddExamineMsgFromServer(gameObject, "Can only place blob on or next to existing blob growth.");
 
 			return false;
 		}
@@ -800,8 +787,8 @@ namespace Blob
 
 			if (noMsg) return false;
 
-			Chat.AddExamineMsgFromServer(gameObject,
-				$"Unable to place {toSpawn.ExpensiveName()}, {cost - resources} biomass missing");
+			// Chat.AddExamineMsgFromServer(gameObject,
+				// $"Unable to place {toSpawn.ExpensiveName()}, {cost - resources} biomass missing");
 
 			return false;
 		}
@@ -957,7 +944,7 @@ namespace Blob
 			}
 
 			//No normal blob at tile
-			Chat.AddExamineMsgFromServer(gameObject, "You need to place a normal blob first");
+			// Chat.AddExamineMsgFromServer(gameObject, "You need to place a normal blob first");
 		}
 
 		private void PlaceStrongReflective(GameObject prefab, BlobStructure originalBlob, int cost, Vector3Int worldPos, string msg)
@@ -968,7 +955,7 @@ namespace Blob
 
 			if (result.Successful == false) return;
 
-			Chat.AddExamineMsgFromServer(gameObject, msg);
+			// Chat.AddExamineMsgFromServer(gameObject, msg);
 
 			_ = Despawn.ServerSingle(originalBlob.gameObject);
 
@@ -995,7 +982,7 @@ namespace Blob
 
 			if (MatrixManager.IsSpaceAt(worldPos, true))
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "Cannot place structures on space blob, find a sturdier location");
+				// Chat.AddExamineMsgFromServer(gameObject, "Cannot place structures on space blob, find a sturdier location");
 				return;
 			}
 
@@ -1030,13 +1017,13 @@ namespace Blob
 				{
 					if (blobConstructs != BlobConstructs.Node && !ValidateDistance(worldPos, true))
 					{
-						Chat.AddExamineMsgFromServer(gameObject, $"Too close to another factory or resource blob, place at least {buildDistanceLimit}m away");
+						// Chat.AddExamineMsgFromServer(gameObject, $"Too close to another factory or resource blob, place at least {buildDistanceLimit}m away");
 						return;
 					}
 
 					if (blobConstructs == BlobConstructs.Node && !ValidateDistance(worldPos, excludeFactory: true, excludeResource: true))
 					{
-						Chat.AddExamineMsgFromServer(gameObject, $"Too close to another node, place at least {buildDistanceLimit}m away");
+						// Chat.AddExamineMsgFromServer(gameObject, $"Too close to another node, place at least {buildDistanceLimit}m away");
 						return;
 					}
 
@@ -1046,7 +1033,7 @@ namespace Blob
 
 					if (!result.Successful) return;
 
-					Chat.AddExamineMsgFromServer(gameObject, $"You grow a {blobConstructs} blob.");
+					// Chat.AddExamineMsgFromServer(gameObject, $"You grow a {blobConstructs} blob.");
 
 					var structure = result.GameObject.GetComponent<BlobStructure>();
 					structure.overmindName = overmindName;
@@ -1084,7 +1071,7 @@ namespace Blob
 			}
 
 			// No normal blob at tile
-			Chat.AddExamineMsgFromServer(gameObject, "You need to place a normal blob first");
+			// Chat.AddExamineMsgFromServer(gameObject, "You need to place a normal blob first");
 		}
 
 		#endregion
@@ -1121,7 +1108,7 @@ namespace Blob
 		{
 			if (blobTiles.TryGetValue(worldPos, out var blob) == false || blob == null)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "No blob to be removed");
+				// Chat.AddExamineMsgFromServer(gameObject, "No blob to be removed");
 			}
 			else
 			{
@@ -1145,17 +1132,17 @@ namespace Blob
 						returnCost = Mathf.RoundToInt(reflectiveBlobCost * refundPercentage);
 						break;
 					case BlobConstructs.Core:
-						Chat.AddExamineMsgFromServer(gameObject, "This is a blob core. It cannot be removed");
+						// Chat.AddExamineMsgFromServer(gameObject, "This is a blob core. It cannot be removed");
 						return;
 					case BlobConstructs.Node:
-						Chat.AddExamineMsgFromServer(gameObject, "This is a blob node. It cannot be removed");
+						// Chat.AddExamineMsgFromServer(gameObject, "This is a blob node. It cannot be removed");
 						return;
 					default:
 						Logger.LogError("Switch has no correct case for blob structure!", Category.Blob);
 						break;
 				}
 
-				Chat.AddExamineMsgFromServer(gameObject, $"Blob removed, {AddToResources(returnCost)} biomass refunded");
+				// Chat.AddExamineMsgFromServer(gameObject, $"Blob removed, {AddToResources(returnCost)} biomass refunded");
 
 				nonSpaceBlobTiles.Remove(blob.gameObject);
 				_ = Despawn.ServerSingle(blob.gameObject);
@@ -1216,7 +1203,7 @@ namespace Blob
 			}
 
 			//Make blob into ghost
-			PlayerSpawn.ServerSpawnGhost(playerScript.mind);
+			// PlayerSpawn.ServerSpawnGhost(playerScript.mind);
 
 			if (endRoundWhenKilled)
 			{
@@ -1239,7 +1226,7 @@ namespace Blob
 					"Biohazard has reached critical mass. Station integrity critical!"),
 				MatrixManager.MainStationMatrix);
 
-			Chat.AddExamineMsgFromServer(gameObject, "Your hunger is unstoppable, you are fully unleashed");
+			// Chat.AddExamineMsgFromServer(gameObject, "Your hunger is unstoppable, you are fully unleashed");
 
 			maxBiomass = 5000;
 
@@ -1247,10 +1234,10 @@ namespace Blob
 
 			rapidExpand = true;
 
-			foreach (var objective in playerScript.mind.GetAntag().Objectives)
-			{
-				objective.SetAsComplete();
-			}
+			// foreach (var objective in playerScript.mind.GetAntag().Objectives)
+			// {
+				// objective.SetAsComplete();
+			// }
 
 			if (endRoundWhenBlobVictory)
 			{
@@ -1291,14 +1278,14 @@ namespace Blob
 		{
 			if (oldNode.blobType != BlobConstructs.Node)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "Can only move the core to a node");
+				// Chat.AddExamineMsgFromServer(gameObject, "Can only move the core to a node");
 				return;
 			}
 
 			if (!ValidateCost(moveCoreCost, blobCorePrefab, true))
 			{
-				Chat.AddExamineMsgFromServer(gameObject,
-					$"Not enough biomass to move core, {moveCoreCost - resources} biomass missing");
+				// Chat.AddExamineMsgFromServer(gameObject,
+					// $"Not enough biomass to move core, {moveCoreCost - resources} biomass missing");
 				return;
 			}
 
@@ -1327,7 +1314,7 @@ namespace Blob
 		{
 			if (oldNormal.blobType != BlobConstructs.Normal)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "Can only move the core to a normal blob");
+				// Chat.AddExamineMsgFromServer(gameObject, "Can only move the core to a normal blob");
 				return;
 			}
 
@@ -1626,14 +1613,14 @@ namespace Blob
 			{
 				if (resources < adaptStrainCost)
 				{
-					Chat.AddExamineMsgFromServer(gameObject, "Not enough resources to readapt");
+					// Chat.AddExamineMsgFromServer(gameObject, "Not enough resources to readapt");
 					return;
 				}
 
 				resources -= adaptStrainCost;
 			}
 
-			Chat.AddExamineMsgFromServer(gameObject, $"You readapt and mutate into the {blobStrains[newStrainIndex].strainName} strain");
+			// Chat.AddExamineMsgFromServer(gameObject, $"You readapt and mutate into the {blobStrains[newStrainIndex].strainName} strain");
 
 			currentStrain = blobStrains[newStrainIndex];
 			strainIndex = newStrainIndex;
@@ -1648,7 +1635,7 @@ namespace Blob
 		{
 			if (resources < rerollStrainsCost)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "Not enough resources to randomise strains");
+				// Chat.AddExamineMsgFromServer(gameObject, "Not enough resources to randomise strains");
 				return;
 			}
 

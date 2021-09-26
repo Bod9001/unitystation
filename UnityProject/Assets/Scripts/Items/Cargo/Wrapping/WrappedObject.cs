@@ -16,7 +16,7 @@ namespace Items.Cargo.Wrapping
 			var unwrapped = GetOrGenerateContent();
 			if (unwrapped == null)
 			{
-				Chat.AddActionMsgToChat(
+				Chat.AddInanimateActionMsgToChat(
 					gameObject,
 					"",
 					$"The {gameObject.ExpensiveName()} finishes unwrapping itself but there is no content! " +

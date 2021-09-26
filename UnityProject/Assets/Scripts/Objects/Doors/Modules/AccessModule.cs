@@ -53,7 +53,7 @@ namespace Doors.Modules
 
 		public override ModuleSignal BumpingInteraction(GameObject byPlayer, HashSet<DoorProcessingStates> States)
 		{
-			if (!master.HasPower || !CheckAccess(byPlayer))
+			if (!master.HasPower || !CheckAccess(MindManager.StaticGet(byPlayer)))
 			{
 				States.Add(DoorProcessingStates.SoftwarePrevented);
 			}
@@ -62,13 +62,13 @@ namespace Doors.Modules
 		}
 
 
-		private bool CheckAccess(GameObject player)
+		private bool CheckAccess(Mind player)
 		{
 			return ProcessCheckAccess(player);
 		}
 
 
-		private bool ProcessCheckAccess(GameObject player)
+		private bool ProcessCheckAccess(Mind player)
 		{
 			if (accessRestrictions.CheckAccess(player))
 			{

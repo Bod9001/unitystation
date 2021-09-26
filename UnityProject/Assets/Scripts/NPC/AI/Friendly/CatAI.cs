@@ -109,14 +109,14 @@ namespace Systems.MobAIs
 
 			if (purred != null)
 			{
-				Chat.AddActionMsgToChat(
+				Chat.AddInanimateActionMsgToChat(
 					purred,
 					$"{MobName} purrs at you!",
 					$"{MobName} purrs at {purred.ExpensiveName()}");
 			}
 			else
 			{
-				Chat.AddActionMsgToChat(gameObject, $"{MobName} purrs!", $"{MobName} purrs!");
+				Chat.AddInanimateActionMsgToChat(gameObject, $"{MobName} purrs!", $"{MobName} purrs!");
 			}
 		}
 
@@ -127,14 +127,14 @@ namespace Systems.MobAIs
 
 			if (meowed != null)
 			{
-				Chat.AddActionMsgToChat(
+				Chat.AddInanimateActionMsgToChat(
 					meowed,
 					$"{MobName} meows at you!",
 					$"{MobName} meows at {meowed.ExpensiveName()}");
 			}
 			else
 			{
-				Chat.AddActionMsgToChat(gameObject, $"{MobName} meows!", $"{MobName} meows!");
+				Chat.AddInanimateActionMsgToChat(gameObject, $"{MobName} meows!", $"{MobName} meows!");
 			}
 		}
 
@@ -145,20 +145,20 @@ namespace Systems.MobAIs
 
 			if (hissed != null)
 			{
-				Chat.AddActionMsgToChat(
+				Chat.AddInanimateActionMsgToChat(
 					hissed,
 					$"{MobName} hisses at you!",
 					$"{MobName} hisses at {hissed.ExpensiveName()}");
 			}
 			else
 			{
-				Chat.AddActionMsgToChat(gameObject, $"{MobName} hisses!", $"{MobName} hisses!");
+				Chat.AddInanimateActionMsgToChat(gameObject, $"{MobName} hisses!", $"{MobName} hisses!");
 			}
 		}
 
 		private void LickPaws()
 		{
-			Chat.AddActionMsgToChat(
+			Chat.AddInanimateActionMsgToChat(
 				gameObject,
 				$"{MobName} starts licking its paws!",
 				$"{MobName} starts licking its paws!");

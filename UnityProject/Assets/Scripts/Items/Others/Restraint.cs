@@ -57,11 +57,11 @@ public class Restraint : MonoBehaviour, ICheckedInteractable<HandApply>
 	public void ServerPerformInteraction(HandApply interaction)
 	{
 		GameObject target = interaction.TargetObject;
-		GameObject performer = interaction.Performer;
+		var performer = interaction.Performer;
 
 		void ProgressFinishAction()
 		{
-			if(performer.GetComponent<PlayerScript>()?.IsGameObjectReachable(target, true) ?? false)
+			if(Validations.IsGameObjectReachable(performer.registerTile, target, true))
 			{
 				target.GetComponent<PlayerMove>().Cuff(interaction);
 				Chat.AddActionMsgToChat(performer, $"You successfully restrain {target.ExpensiveName()}.",

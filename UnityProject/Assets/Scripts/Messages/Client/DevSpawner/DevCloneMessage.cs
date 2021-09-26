@@ -30,7 +30,7 @@ namespace Messages.Client.DevSpawner
 
 		void ValidateAdmin(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
 			if (admin == null) return;
 
 			if (msg.ToClone.Equals(NetId.Invalid))
@@ -44,7 +44,7 @@ namespace Messages.Client.DevSpawner
 				{
 					Spawn.ServerClone(NetworkObject, msg.WorldPosition);
 					UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(
-						$"{admin.Player().Username} spawned a clone of {NetworkObject} at {msg.WorldPosition}", msg.AdminId);
+						$"{admin.Username} spawned a clone of {NetworkObject} at {msg.WorldPosition}", msg.AdminId);
 				}
 			}
 		}

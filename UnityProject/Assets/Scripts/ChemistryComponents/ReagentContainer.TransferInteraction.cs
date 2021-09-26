@@ -72,7 +72,7 @@ namespace Chemistry.Components
 		{
 			if (!DefaultWillInteract.Default(interaction, side)) return false;
 
-			var playerScript = interaction.Performer.GetComponent<PlayerScript>();
+			var playerScript = interaction.Performer;
 			if (!playerScript) return false;
 
 			if (interaction.Intent == Intent.Help)
@@ -145,7 +145,7 @@ namespace Chemistry.Components
 
 		public void ServerPerformInteraction(HandApply interaction)
 		{
-			var srcPlayer = interaction.Performer.GetComponent<PlayerScript>();
+			var srcPlayer = interaction.Performer;
 
 			if (interaction.Intent == Intent.Help)
 			{
@@ -164,20 +164,20 @@ namespace Chemistry.Components
 			else
 			{
 				//TODO: Move this to Spill right click interaction? Need to make 'RequestSpill'
-				var dstPlayer = interaction.TargetObject.GetComponent<PlayerScript>();
+				var dstPlayer = MindManager.Instance.Get(interaction.TargetObject);
 				ServerSpillInteraction(this, srcPlayer, dstPlayer);
 			}
 		}
 
-		private void ServerSpillInteraction(ReagentContainer reagentContainer, PlayerScript srcPlayer,
-			PlayerScript dstPlayer)
+		private void ServerSpillInteraction(ReagentContainer reagentContainer, Mind srcPlayer,
+			Mind dstPlayer)
 		{
 			if (reagentContainer.IsEmpty)
 			{
 				return;
 			}
 
-			SpillAll(dstPlayer.WorldPos);
+			SpillAll(dstPlayer.BodyWorldPosition.RoundToInt());
 		}
 
 		public bool WillInteract(HandActivate interaction, NetworkSide side)
@@ -207,7 +207,7 @@ namespace Chemistry.Components
 		/// Server side only
 		/// Transfers Reagents between two containers
 		/// </summary>
-		private void ServerTransferInteraction(ReagentContainer objectInHands, ReagentContainer target, GameObject performer)
+		private void ServerTransferInteraction(ReagentContainer objectInHands, ReagentContainer target, Mind performer)
 		{
 			ReagentContainer transferTo = null;
 			switch (objectInHands.transferMode)

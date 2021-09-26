@@ -7,7 +7,7 @@ public class AccessRestrictions : MonoBehaviour
 {
 	public Access restriction;
 
-	public bool CheckAccess(GameObject Player)
+	public bool CheckAccess(Mind Player)
 	{
 		return CheckAccess(Player, restriction);
 	}
@@ -17,7 +17,7 @@ public class AccessRestrictions : MonoBehaviour
 		return CheckAccessCard(idCardObj, restriction);
 	}
 
-	public static bool CheckAccess(GameObject Player, Access restriction)
+	public static bool CheckAccess(Mind Player, Access restriction)
 	{
 		// If there isn't any restriction, grant access right away
 		if ((int) restriction == 0) return true;
@@ -26,7 +26,7 @@ public class AccessRestrictions : MonoBehaviour
 		if (Player == null) return false;
 
 
-		var playerStorage = Player.GetComponent<DynamicItemStorage>();
+		var playerStorage = Player.DynamicItemStorage;
 		//this isn't a player. It could be an npc. No NPC access logic at the moment
 		if (playerStorage == null) return false;
 

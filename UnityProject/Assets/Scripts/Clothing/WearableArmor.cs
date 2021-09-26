@@ -18,7 +18,7 @@ namespace Clothing
 		[SerializeField] [Tooltip("What body parts does this item protect and how well does it protect.")]
 		private List<ArmoredBodyPart> armoredBodyParts = new List<ArmoredBodyPart>();
 
-		private PlayerHealthV2 playerHealthV2;
+		private LivingHealthMasterBase playerHealthV2;
 
 
 		[Serializable]
@@ -42,7 +42,7 @@ namespace Clothing
 			//Wearing
 			if (info.ToSlot != null & info.ToSlot?.NamedSlot != null)
 			{
-				playerHealthV2 = info.ToRootPlayer?.PlayerScript.playerHealth;
+				playerHealthV2 = info.ToRootPlayer.OrNull()?.LivingHealthMasterBase;
 
 				if (playerHealthV2 != null && info.ToSlot.NamedSlot == slot)
 				{
@@ -53,7 +53,7 @@ namespace Clothing
 			//taking off
 			if (info.FromSlot != null & info.FromSlot?.NamedSlot != null)
 			{
-				playerHealthV2 = info.FromRootPlayer?.PlayerScript.playerHealth;
+				playerHealthV2 = info.FromRootPlayer.OrNull()?.LivingHealthMasterBase;
 
 				if (playerHealthV2 != null && info.FromSlot.NamedSlot == slot)
 				{

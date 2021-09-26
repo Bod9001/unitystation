@@ -17,7 +17,7 @@ namespace Messages.Server.Addressable
 			AddressableCatalogueManager.LoadCataloguesFromServer(JsonConvert.DeserializeObject<List<string>>(msg.serialiseCatalogues));
 		}
 
-		public static NetMessage Send(List<string> Catalogues, GameObject ToWho)
+		public static NetMessage Send(List<string> Catalogues, ConnectedPlayer ToWho)
 		{
 			NetMessage msg = new NetMessage
 			{

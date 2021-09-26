@@ -130,14 +130,14 @@ public class GUI_Spawner : NetTab
 		float smallestDistance = float.MaxValue;
 		Vector3 nearestPosSoFar = TransformState.HiddenPos;
 
-		for ( var i = 0; i < PlayerList.Instance.InGamePlayers.Count; i++ )
+		for ( var i = 0; i < PlayersManager.Instance.InGamePlayers.Count; i++ )
 		{
-			ConnectedPlayer player = PlayerList.Instance.InGamePlayers[i];
-			float curDistance = Vector3.Distance( originPos, player.Script.WorldPos );
+			ConnectedPlayer player = PlayersManager.Instance.InGamePlayers[i];
+			float curDistance = Vector3.Distance( originPos, player.CurrentMind.BodyWorldPosition );
 
 			if ( curDistance < smallestDistance ) {
 				smallestDistance = curDistance;
-				nearestPosSoFar = player.Script.WorldPos;
+				nearestPosSoFar = player.CurrentMind.BodyWorldPosition;
 			}
 		}
 
@@ -192,7 +192,7 @@ public class GUI_Spawner : NetTab
 		{
 			SoundManager.PlayNetworkedAtPos( CommonSounds.Instance.Notice1, Provider.transform.position );
 			//Get mob's gameobject and do something good to it
-			Chat.AddActionMsgToChat(mob.TrackedObject, $"You hugged {mob.name}", $"{mob.TrackedObject.name} hugged {mob.name}");
+			Chat.AddInanimateActionMsgToChat(mob.TrackedObject, $"You hugged {mob.name}", $"{mob.TrackedObject.name} hugged {mob.name}");
 		}
 	}
 	public void RemoveMobByIndex( string index )

@@ -21,8 +21,9 @@ namespace HealthV2
 	/// </Summary>
 	[RequireComponent(typeof(HealthStateController))]
 	[RequireComponent(typeof(MobSickness))]
-	public abstract class LivingHealthMasterBase : NetworkBehaviour, IFireExposable, IExaminable
+	public abstract class LivingHealthMasterBase : NetworkBehaviour, IFireExposable, IExaminable, IProvideConsciousness
 	{
+
 		/// <summary>
 		/// Server side, each mob has a different one and never it never changes
 		/// </summary>
@@ -49,6 +50,8 @@ namespace HealthV2
 		/// Returns the current conscious state of the creature
 		/// </summary>
 		public ConsciousState ConsciousState => healthStateController.ConsciousState;
+
+		public GameObject ThisGameObject => gameObject;
 
 		/// <summary>
 		/// Event for when the consciousness state of the creature changes, eg becoming unconscious or dead
@@ -170,6 +173,11 @@ namespace HealthV2
 
 		public RootBodyPartController rootBodyPartController;
 
+		//fixme: not actually set or modified. keep an eye on this!
+		public bool serverPlayerConscious => IsConscious;
+
+
+		public bool IsConscious => ConsciousState != ConsciousState.DEAD && ConsciousState != ConsciousState.UNCONSCIOUS;
 
 		/// <summary>
 		/// The current hunger state of the creature, currently always returns normal
@@ -206,7 +214,6 @@ namespace HealthV2
 		/// </summary>
 		private List<Sickness> immunedSickness = new List<Sickness>();
 
-		public PlayerScript playerScript;
 
 		public virtual void Awake()
 		{
@@ -219,7 +226,6 @@ namespace HealthV2
 			objectBehaviour = GetComponent<ObjectBehaviour>();
 			healthStateController = GetComponent<HealthStateController>();
 			mobSickness = GetComponent<MobSickness>();
-			playerScript = GetComponent<PlayerScript>();
 			BodyPartStorage.ServerInventoryItemSlotSet += BodyPartTransfer;
 		}
 
@@ -260,7 +266,7 @@ namespace HealthV2
 
 		public override void OnStartServer()
 		{
-			mobID = PlayerManager.Instance.GetMobID();
+			mobID = LocalPlayerManager.CurrentMind.bodyID;
 			//Generate BloodType and DNA
 			healthStateController.SetDNA(new DNAandBloodType());
 		}
@@ -762,13 +768,19 @@ namespace HealthV2
 				}
 			}
 			CalculateOverallHealth(); //This makes the player alive and concision.
-			playerScript.playerMove.allowInput = true; //Let them interact with the world again.
-			playerScript.registerTile.ServerStandUp();
-			if(playerScript.IsGhost)
+			var ThisMind = MindManager.Instance.Get(this.gameObject);
+
+			if (ThisMind != null)
 			{
-				//TODO: force return to body
-				return;
+				ThisMind.PlayerMove.allowInput = true; //Let them interact with the world again.
+				(ThisMind.registerTile as RegisterPlayer).ServerStandUp();
+				if(ThisMind.IsGhosting)
+				{
+					//TODO: force return to body
+					return;
+				}
 			}
+
 		}
 
 		/// <summary>
@@ -827,9 +839,10 @@ namespace HealthV2
 			var HV2 = (this as PlayerHealthV2);
 			if (HV2 != null)
 			{
-				if (HV2.playerScript.OrNull()?.playerMove.OrNull()?.allowInput != null)
+				var ThisMind = MindManager.Instance.Get(this.gameObject);
+				if (ThisMind.OrNull()?.PlayerMove.OrNull()?.allowInput != null)
 				{
-					HV2.playerScript.playerMove.allowInput = false;
+					ThisMind.PlayerMove.allowInput = false;
 				}
 			}
 			SetConsciousState(ConsciousState.DEAD);
@@ -907,9 +920,9 @@ namespace HealthV2
 		/// Gets the appropriate examine text based on the creature's health state
 		/// </summary>
 		/// <returns>String describing the creature</returns>
-		public string GetExamineText(PlayerScript script = null)
+		public string GetExamineText(Mind script = null)
 		{
-			var theyPronoun = script == null ? "It" : script.characterSettings.TheyPronoun(script);
+			var theyPronoun = script == null ? "It" : script.OriginalCharacter.TheyPronoun(script);
 			var healthString = new StringBuilder($"{theyPronoun} is ");
 
 			if (IsDead)
@@ -917,9 +930,9 @@ namespace HealthV2
 				healthString.Insert(0, "<color=#b495bf>");
 				healthString.Append("limp and unresponsive; there are no signs of life");
 
-				if (script != null && script.HasSoul == false)
+				if (script != null && script.OrNull()?.AssignedPlayer.OrNull()?.Connection == null)
 				{
-					healthString.Append($" and {script.characterSettings.TheirPronoun(script)} soul has departed");
+					healthString.Append($" and {script.OriginalCharacter.TheirPronoun(script)} soul has departed");
 				}
 
 				healthString.Append("...</color>");
@@ -955,7 +968,7 @@ namespace HealthV2
 			}
 
 			//Alive but not in body
-			if (script != null && script.HasSoul == false)
+			if (script != null && script.OrNull()?.AssignedPlayer.OrNull()?.Connection == null)
 			{
 				healthString.Append(
 					$"<color=#b495bf>\n{theyPronoun} has a blank, absent-minded stare and appears completely unresponsive to anything. {theyPronoun} may snap out of it soon.</color>");

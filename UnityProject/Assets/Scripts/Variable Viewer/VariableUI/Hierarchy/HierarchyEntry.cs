@@ -123,7 +123,7 @@ public class HierarchyEntry : MonoBehaviour
 
 	public void OpenShelf()
 	{
-		RequestBookshelfNetMessage.Send(Shelf.ID, true, ServerData.UserID, PlayerList.Instance.AdminToken);
+		RequestBookshelfNetMessage.Send(Shelf.ID, true, ServerData.UserID, PlayersManager.Instance.AdminToken);
 	}
 
 	public void ResetThis()

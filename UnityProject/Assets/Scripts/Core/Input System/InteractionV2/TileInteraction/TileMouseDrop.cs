@@ -36,7 +36,7 @@ public class TileMouseDrop : Interaction
 	/// </summary>
 	public Vector2 TargetVector => targetVector;
 
-	public TileMouseDrop(GameObject performer, GameObject usedObject, Intent intent, Vector2Int targetCellPos,
+	public TileMouseDrop(Mind performer, GameObject usedObject, Intent intent, Vector2Int targetCellPos,
 		InteractableTiles targetInteractableTiles, BasicTile basicTile, Vector2 targetVector) : base(performer, usedObject, intent)
 	{
 		this.targetCellPos = targetCellPos;

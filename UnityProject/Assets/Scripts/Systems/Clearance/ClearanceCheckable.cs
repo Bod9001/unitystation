@@ -48,14 +48,14 @@ namespace Systems.Clearance
 		/// </summary>
 		/// <param name="player">Game object that represents this player</param>
 		/// <returns>True if the player has access.</returns>
-		public bool HasClearance(GameObject player)
+		public bool HasClearance(Mind player)
 		{
 			if (player == null)
 			{
 				return false;
 			}
 
-			var playerStorage = player.GetComponent<DynamicItemStorage>();
+			var playerStorage = player.DynamicItemStorage;
 			if (playerStorage == null)
 			{
 				return false;

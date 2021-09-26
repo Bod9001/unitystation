@@ -84,7 +84,7 @@ public class TileList
 		return _objects.TryGetValue(position, out var objectsOut) ? objectsOut : emptyList;
 	}
 
-	public IEnumerable<RegisterTile> Get(Vector3Int position, ObjectType type)
+	public IEnumerable<RegisterTile> Get(Vector3Int position, FlagsObjectType types)
 	{
 		if (_objects.TryGetValue(position, out var objectsOut) == false)
 		{
@@ -93,7 +93,7 @@ public class TileList
 		var list = new List<RegisterTile>();
 		foreach (var x in objectsOut)
 		{
-			if (x.ObjectType == type) {
+			if (types.HasFlag(ObjectTypeConvert.ReturnFlagEquivalent(x.ObjectType))) {
 				list.Add(x);
 			}
 		}

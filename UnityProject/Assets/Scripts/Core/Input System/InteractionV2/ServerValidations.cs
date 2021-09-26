@@ -21,7 +21,7 @@ public static class ServerValidations
 	/// <param name="allowed">If defined, will be used to check each other registertile at the position. It should return
 	/// true if this object is allowed to be built / anchored on top of the given register tile, otherwise false.
 	/// If unspecified, all non-floor registertiles will be considered as blockers at the indicated position</param>
-	public static bool IsConstructionBlocked(GameObject performer, GameObject anchoredObject, Vector2Int worldPosition, Func<RegisterTile, bool> allowed = null,
+	public static bool IsConstructionBlocked(Mind performer, GameObject anchoredObject, Vector2Int worldPosition, Func<RegisterTile, bool> allowed = null,
 		bool messagePerformer = true)
 	{
 		var floorLayer = LayerMask.NameToLayer("Floor");
@@ -74,7 +74,7 @@ public static class ServerValidations
 			handApply.TargetObject.TileWorldPosition(), allowed, messagePerformer);
 	}
 
-	
+
 
 	/// <summary>
 	/// Validates that the player's character name.
@@ -83,8 +83,8 @@ public static class ServerValidations
 	/// <returns>True if illegal.</returns>
 	public static bool HasIllegalCharacterName(String characterName)
 	{
-		if(characterName.Any(char.IsDigit) || characterName.Any(char.IsSymbol) 
-		|| characterName.Count() > GameManager.Instance.CharacterNameLimit || characterName.Contains("\n") 
+		if(characterName.Any(char.IsDigit) || characterName.Any(char.IsSymbol)
+		|| characterName.Count() > GameManager.Instance.CharacterNameLimit || characterName.Contains("\n")
 		|| characterName.All(char.IsUpper))
 		{
 			return true;

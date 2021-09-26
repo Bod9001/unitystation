@@ -15,7 +15,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 		{
 			if (
 				Cooldowns.TryStartServer(
-					SentByPlayer.Script,
+					SentByPlayer.CurrentMind,
 					CommonCooldowns.Instance.Interaction
 				) == false
 			)
@@ -29,7 +29,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 		{
 			if (
 				Cooldowns.TryStartClient(
-					PlayerManager.LocalPlayerScript,
+					LocalPlayerManager.CurrentMind,
 					CommonCooldowns.Instance.Interaction
 				) == false
 			)

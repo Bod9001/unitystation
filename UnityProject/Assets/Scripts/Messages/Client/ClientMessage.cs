@@ -6,12 +6,12 @@ namespace Messages.Client
 	{
 		/// <summary>
 		/// Player that sent this ClientMessage.
-		/// Returns ConnectedPlayer.Invalid if there are issues finding one from PlayerList (like, player already left)
+		/// Returns PlayersManager.InvalidPlayer if there are issues finding one from PlayerList (like, player already left)
 		/// </summary>
 		public ConnectedPlayer SentByPlayer;
 		public override void Process(NetworkConnection sentBy, T msg)
 		{
-			SentByPlayer = PlayerList.Instance.Get( sentBy );
+			SentByPlayer = PlayersManager.Instance.Get( sentBy );
 			base.Process(sentBy, msg);
 		}
 
@@ -27,7 +27,7 @@ namespace Messages.Client
 
 		private static uint LocalPlayerId()
 		{
-			return PlayerManager.LocalPlayer.GetComponent<NetworkIdentity>().netId;
+			return LocalPlayerManager.LocalPlayer.GetComponent<NetworkIdentity>().netId;
 		}
 	}
 }

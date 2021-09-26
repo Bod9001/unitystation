@@ -19,10 +19,10 @@ namespace Messages.Client.VariableViewer
 
 		void ValidateAdmin(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
 			if (admin == null) return;
 
-			global::VariableViewer.ProcessTile(msg.Location, SentByPlayer.GameObject);
+			global::VariableViewer.ProcessTile(msg.Location, SentByPlayer);
 		}
 
 		public static NetMessage Send(Vector3 _Location, string adminId, string adminToken)

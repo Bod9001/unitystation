@@ -75,7 +75,7 @@ namespace Construction.Conveyors
 			if (!Matrix.IsPassableAtOneMatrix(registerTile.LocalPositionServer,
 				Vector3Int.RoundToInt(registerTile.LocalPositionServer + position), true)) return;
 
-			foreach (var player in Matrix.Get<PlayerSync>(registerTile.LocalPositionServer, ObjectType.Player, true))
+			foreach (var player in Matrix.Get<PlayerSync>(registerTile.LocalPositionServer, FlagsObjectType.Player, true))
 			{
 				playerCache.Enqueue(player);
 			}

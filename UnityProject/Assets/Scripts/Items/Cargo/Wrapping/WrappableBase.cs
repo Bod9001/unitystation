@@ -23,8 +23,8 @@ namespace Items.Cargo.Wrapping
 		[SerializeField] [Tooltip("Time needed to wrap this object")]
 		protected float wrapTime = 5;
 
-		protected abstract bool CanBeWrapped(GameObject performer, WrappingPaper paper);
-		protected abstract void Wrap(GameObject performer, WrappingPaper paper);
+		protected abstract bool CanBeWrapped(Mind performer, WrappingPaper paper);
+		protected abstract void Wrap(Mind performer, WrappingPaper paper);
 
 		/// <summary>
 		/// Entry point for wrapping interaction of wrappable objects/items.
@@ -33,7 +33,7 @@ namespace Items.Cargo.Wrapping
 		/// </summary>
 		/// <param name="performer"></param>
 		/// <param name="paper"></param>
-		public void TryWrap(GameObject performer, WrappingPaper paper)
+		public void TryWrap(Mind performer, WrappingPaper paper)
 		{
 			if (CanBeWrapped(performer, paper))
 			{

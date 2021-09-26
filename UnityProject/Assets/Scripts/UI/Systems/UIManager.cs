@@ -216,9 +216,10 @@ public class UIManager : MonoBehaviour, IInitialise
 			currentIntent = value;
 
 			//update the intent of the player on server so server knows we are swappable or not
-			if (PlayerManager.LocalPlayerScript != null)
+			if (LocalPlayerManager.LocalPlayer.CurrentMind != null)
 			{
-				PlayerManager.LocalPlayerScript.playerMove.CmdSetHelpIntent(currentIntent == global::Intent.Help);
+				LocalPlayerManager.LocalPlayer.CurrentMind.PlayerMove.CmdSetHelpIntent(currentIntent == global::Intent.Help);
+				//Should move to script next to mind
 			}
 		}
 	}
@@ -435,8 +436,8 @@ public class UIManager : MonoBehaviour, IInitialise
 	{
 		//convert to local position so it appears correct on moving matrix
 		//do not use tileworldposition for actual spawn position - bar will appear shifted on moving matrix
-		var targetWorldPosition = PlayerManager.LocalPlayer.transform.position + offsetFromPlayer.To3Int();
-		var targetTilePosition = PlayerManager.LocalPlayer.TileWorldPosition() + offsetFromPlayer;
+		var targetWorldPosition = LocalPlayerManager.LocalPlayer.CurrentMind.GameObjectBody.AssumedWorldPosServer() + offsetFromPlayer.To3Int();
+		var targetTilePosition = LocalPlayerManager.LocalPlayer.CurrentMind.GameObjectBody.AssumedWorldPosServer().To2Int() + offsetFromPlayer;
 		var targetMatrixInfo = MatrixManager.AtPoint(targetTilePosition.To3Int(), true);
 		var targetParent = targetMatrixInfo.Objects;
 		//snap to local position
@@ -486,7 +487,7 @@ public class UIManager : MonoBehaviour, IInitialise
 	/// <returns>progress bar associated with this action (can use this to interrupt progress). Null if
 	/// progress was not started for some reason (such as already in progress for this action on the specified tile).</returns>
 	public static ProgressBar _ServerStartProgress(
-			IProgressAction progressAction, ActionTarget actionTarget, float timeForCompletion, GameObject player)
+			IProgressAction progressAction, ActionTarget actionTarget, float timeForCompletion, Mind player)
 	{
 		var targetMatrixInfo = MatrixManager.AtPoint(actionTarget.TargetWorldPosition.CutToInt(), true);
 		var targetParent = targetMatrixInfo.Objects;
@@ -578,7 +579,7 @@ public class UIManager : MonoBehaviour, IInitialise
 		//turn everything back on
 		yield return null;
 		UIManager.PlayerHealthUI.gameObject.SetActive(true);
-		if (PlayerManager.LocalPlayerScript.IsGhost)
+		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting )
 		{
 			UIManager.Display.hudBottomGhost.gameObject.SetActive(true);
 		}

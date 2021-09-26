@@ -390,7 +390,7 @@ namespace Chemistry.Components
 				{
 					var mobObject = mob.gameObject;
 					var mobName = mobObject.ExpensiveName();
-					Chat.AddCombatMsgToChat(mobObject, mobName + " has been splashed with something!",
+					Chat.AddCombatMsgToChat(MindManager.Instance.Get(mobObject), mobName + " has been splashed with something!",
 						mobName + " has been splashed with something!");
 				}
 			}
@@ -453,7 +453,7 @@ namespace Chemistry.Components
 
 						if (Validations.HasItemTrait(eyeItem, CommonTraits.Instance.ScienceScan))
 						{
-							eyeItem.GetComponent<ReagentScanner>().DoScan(interaction.Performer.gameObject, this.gameObject);
+							eyeItem.GetComponent<ReagentScanner>().DoScan(interaction.Performer, this.gameObject);
 						}
 						else
 						{

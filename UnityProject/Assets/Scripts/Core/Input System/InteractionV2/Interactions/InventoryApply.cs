@@ -50,7 +50,7 @@ public class InventoryApply : TargetedInteraction
 	/// <param name="targetSlot">object that the player applying the used object to</param>
 	/// <param name="fromSlot">hand slot if clicking on something in inventory, otherwise slot
 	/// the item is being dragged from</param>
-	private InventoryApply(GameObject performer, ItemSlot targetSlot, ItemSlot fromSlot, Intent intent, bool IsAltClick) :
+	private InventoryApply(Mind performer, ItemSlot targetSlot, ItemSlot fromSlot, Intent intent, bool IsAltClick) :
 		base(performer, fromSlot?.ItemObject, targetSlot?.ItemObject, intent)
 	{
 		this.fromSlot = fromSlot;
@@ -67,11 +67,11 @@ public class InventoryApply : TargetedInteraction
 	/// <returns></returns>
 	public static InventoryApply ByLocalPlayer(ItemSlot targetObjectSlot, ItemSlot fromSlot)
 	{
-		if (PlayerManager.LocalPlayerScript.IsGhost)
+		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
 		{
 			return Invalid;
 		}
-		return new InventoryApply(PlayerManager.LocalPlayer,
+		return new InventoryApply(LocalPlayerManager.LocalPlayer.CurrentMind,
 			targetObjectSlot, fromSlot, UIManager.CurrentIntent, KeyboardInputManager.IsAltPressed());
 	}
 
@@ -88,7 +88,7 @@ public class InventoryApply : TargetedInteraction
 	/// the item is being dragged from</param>
 	/// <returns>a hand apply by the client, targeting the specified object with the item in the active hand</returns>
 
-	public static InventoryApply ByClient(GameObject clientPlayer, ItemSlot targetObjectSlot,
+	public static InventoryApply ByClient(Mind clientPlayer, ItemSlot targetObjectSlot,
 		ItemSlot fromSlot, Intent intent, bool IsAltClick)
 	{
 		return new InventoryApply(clientPlayer, targetObjectSlot, fromSlot, intent, IsAltClick);

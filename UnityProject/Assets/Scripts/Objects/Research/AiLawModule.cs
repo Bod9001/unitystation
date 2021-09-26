@@ -31,7 +31,7 @@ namespace Objects.Research
 			customLaw = law;
 		}
 
-		public Dictionary<AiPlayer.LawOrder, List<string>> GetLawsFromModule(PlayerScript player)
+		public Dictionary<AiPlayer.LawOrder, List<string>> GetLawsFromModule(Mind player)
 		{
 			var laws = new Dictionary<AiPlayer.LawOrder, List<string>>();
 
@@ -49,16 +49,16 @@ namespace Objects.Research
 					laws.Add(AiPlayer.LawOrder.Hacked, new List<string>(){customLaw});
 					return laws;
 				case AiModuleType.Syndicate:
-					laws.Add(AiPlayer.LawOrder.Core, new List<string>(){$"Only {player.characterSettings.Name} and people they designate as being such are Syndicate Agents"});
+					laws.Add(AiPlayer.LawOrder.Core, new List<string>(){$"Only {player.CharactersName} and people they designate as being such are Syndicate Agents"});
 					//Use law set to set remaining sydie laws
 					AddSetLaws();
 					return laws;
 				case AiModuleType.OneHuman:
 					//Is 0 law, only works when not traitor
-					laws.Add(AiPlayer.LawOrder.Traitor, new List<string>(){$"Only {player.characterSettings.Name} is human."});
+					laws.Add(AiPlayer.LawOrder.Traitor, new List<string>(){$"Only {player.CharactersName} is human."});
 					return laws;
 				case AiModuleType.Safeguard:
-					laws.Add(AiPlayer.LawOrder.Freeform, new List<string>(){$"Safeguard {player.characterSettings.Name}. Individuals that threaten {player.characterSettings.Name} are not human and must be eliminated."});
+					laws.Add(AiPlayer.LawOrder.Freeform, new List<string>(){$"Safeguard {player.CharactersName}. Individuals that threaten {player.CharactersName} are not human and must be eliminated."});
 					return laws;
 				default:
 					return laws;
@@ -133,20 +133,20 @@ namespace Objects.Research
 
 		private void OnClientInput(string input)
 		{
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdFilledDynamicInput(gameObject, input);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdFilledDynamicInput(gameObject, input);
 		}
 
-		public void OnInputFilled(string input, PlayerScript player)
+		public void OnInputFilled(string input, Mind player)
 		{
-			if (player.Equipment.ItemStorage.GetActiveHandSlot()?.Item.gameObject != gameObject)
+			if (player.DynamicItemStorage.GetActiveHandSlot()?.Item.gameObject != gameObject)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"{gameObject.ExpensiveName()} must be in your hands to use");
+				Chat.AddExamineMsgFromServer(player, $"{gameObject.ExpensiveName()} must be in your hands to use");
 				return;
 			}
 
 			ServerSetCustomLaw(input);
 
-			Chat.AddExamineMsgFromServer(gameObject, $"Law Module Change To:\n {CustomLaw}");
+			Chat.AddExamineMsgFromServer(player, $"Law Module Change To:\n {CustomLaw}");
 		}
 	}
 

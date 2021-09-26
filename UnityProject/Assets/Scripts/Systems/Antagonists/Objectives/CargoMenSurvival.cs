@@ -22,16 +22,16 @@ namespace Antagonists
 		{
 			int allRebels = 0;
 			int allAliveRebels = 0;
-			foreach (var p in PlayerList.Instance.AllPlayers)
+			foreach (var p in PlayersManager.Instance.AllPlayers)
 			{
-				if (p.Script == null) continue;
+				if (p.CurrentMind == null) continue;
 
 				foreach (JobType rebeljob in GameManager.Instance.Rebels)
 				{
-					if (p.Job == rebeljob)
+					if (p.CurrentMind.JobType == rebeljob)
 					{
 						allRebels++;
-						if (p.Script.playerHealth != null && !p.Script.playerHealth.IsDead)
+						if (p.CurrentMind.LivingHealthMasterBase != null && !p.CurrentMind.LivingHealthMasterBase.IsDead)
 						{
 							allAliveRebels++;
 						}

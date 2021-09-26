@@ -1084,9 +1084,9 @@ namespace Objects.Engineering
 
 		private void SendMessageToAllPlayers(string message)
 		{
-			foreach (var player in PlayerList.Instance.InGamePlayers)
+			foreach (var player in PlayersManager.Instance.InGamePlayers)
 			{
-				Chat.AddExamineMsgFromServer(player.GameObject, message);
+				Chat.AddExamineMsgFromServer(player, message);
 			}
 		}
 
@@ -1118,12 +1118,14 @@ namespace Objects.Engineering
 		{
 			if(isHugBox) return;
 
-			if (bumpedBy.TryGetComponent<PlayerHealthV2>(out var playerHealth))
+			if (bumpedBy.TryGetComponent<LivingHealthBehaviour>(out var playerHealth))
 			{
 				//Players, you big idiot
-				var job = bumpedBy.GetComponent<PlayerScript>().mind?.occupation;
+				var mind = MindManager.StaticGet(bumpedBy);
 
-				Chat.AddActionMsgToChat(bumpedBy,
+				var job = MindManager.StaticGet(bumpedBy).occupation;
+
+				Chat.AddActionMsgToChat(mind,
 					$"You slam into the {gameObject.ExpensiveName()} as your ears are filled with unearthly ringing. Your last thought is 'Oh, fuck.'",
 					$"The {(job != null ? job.JobType.JobString() : "person")} slams into the {gameObject.ExpensiveName()} inducing a resonance... {bumpedBy.ExpensiveName()} body starts to glow and burst into flames before flashing into dust!");
 
@@ -1199,7 +1201,7 @@ namespace Objects.Engineering
 					$"{interaction.Performer.ExpensiveName()} scrapes off a shard from the {gameObject.ExpensiveName()}.",
 					() =>
 					{
-						Spawn.ServerPrefab(superMatterShard, interaction.Performer.WorldPosServer(),
+						Spawn.ServerPrefab(superMatterShard, interaction.Performer.BodyWorldPosition,
 							interaction.Performer.transform.parent);
 						matterPower += 800;
 

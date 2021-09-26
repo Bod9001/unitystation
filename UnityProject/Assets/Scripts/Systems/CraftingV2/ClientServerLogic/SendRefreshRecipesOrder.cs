@@ -29,15 +29,15 @@ namespace Systems.CraftingV2.ClientServerLogic
 				JsonConvert.DeserializeObject<List<KeyValuePair<int, float>>>(netMessage.JsonedPossibleReagents);
 
 			CraftingMenu.Instance.RefreshRecipes(
-				PlayerManager.LocalPlayerScript.PlayerCrafting.GetPossibleIngredients(NetworkSide.Client),
-				PlayerManager.LocalPlayerScript.PlayerCrafting.GetPossibleTools(NetworkSide.Client),
+				LocalPlayerManager.CurrentMind.PlayerCrafting.GetPossibleIngredients(NetworkSide.Client),
+				LocalPlayerManager.CurrentMind.PlayerCrafting.GetPossibleTools(NetworkSide.Client),
 				possibleReagents
 			);
 		}
 
 		public static void SendTo(ConnectedPlayer recipient)
 		{
-			if (recipient.Script.PlayerCrafting.IsPlayerAbleToCraft() == false)
+			if (recipient.CurrentMind.PlayerCrafting.IsPlayerAbleToCraft() == false)
 			{
 				// ok there's no need to look at possible reagents, because player can't craft at all.
 				// So we're sending the empty message, where the field isPlayerAbleToCraft will be false.
@@ -51,7 +51,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 				{
 					IsPlayerAbleToCraft = true,
 					JsonedPossibleReagents = JsonConvert.SerializeObject(
-						recipient.Script.PlayerCrafting.GetPossibleReagents()
+						recipient.CurrentMind.PlayerCrafting.GetPossibleReagents()
 					)
 				}
 			);

@@ -26,7 +26,7 @@ namespace Messages.Server
 			Chat.AddExamineMsgToClient(newChatText);
 		}
 
-		public static NetMessage  Send(GameObject recipient, string data)
+		public static NetMessage  Send(ConnectedPlayer recipient, string data)
 		{
 			NetMessage  msg =
 				new NetMessage  {Recipient = recipient.GetComponent<NetworkIdentity>().netId, JsonData = data};

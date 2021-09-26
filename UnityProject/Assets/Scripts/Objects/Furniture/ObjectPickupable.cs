@@ -28,13 +28,13 @@ namespace Objects
 				return false;
 			}
 			var cnt = GetComponent<CustomNetTransform>();
-			var ps = interaction.Performer.GetComponent<PlayerScript>();
+			var ps = interaction.Performer.GameObjectBody.GetComponent<PlayerScript>();
 			var pna = interaction.Performer.GetComponent<PlayerNetworkActions>();
 
 			return pna && interaction.Performer == interaction.TargetObject
 					   && interaction.DroppedObject == gameObject
 					   && pna.GetActiveHandItem() == null
-					   && ps.IsRegisterTileReachable(cnt.RegisterTile, side == NetworkSide.Server);
+					   && Validations.IsReachableByRegisterTiles(ps.registerTile, cnt.RegisterTile, side == NetworkSide.Server);
 		}
 
 		public void ServerPerformInteraction(MouseDrop interaction)

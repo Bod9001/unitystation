@@ -5,7 +5,7 @@ namespace Items.Food
 {
 	public class WishSoup : Edible
 	{
-		public override void Eat(PlayerScript eater, PlayerScript feeder)
+		public override void Eat(Mind eater, Mind feeder)
 		{
 			float wishChance = Random.value;
 			if (wishChance <= 0.25)
@@ -18,14 +18,14 @@ namespace Items.Food
 			}
 		}
 
-		private void Eat(PlayerScript eater, PlayerScript feeder, bool FeedNutrients)
+		private void Eat(Mind eater, Mind feeder, bool FeedNutrients)
 		{
 			// TODO: sound missing?
 			//SoundManager.PlayNetworkedAtPos(sound, eater.WorldPos, sourceObj: eater.gameObject);
 
 			if (FeedNutrients)
 			{
-				var Stomachs = eater.playerHealth.GetStomachs();
+				var Stomachs = eater.LivingHealthMasterBase.GetStomachs();
 				if (Stomachs.Count == 0)
 				{
 					//No stomachs?!
@@ -49,7 +49,7 @@ namespace Items.Food
 				if (!added)
 				{
 					//If stackable has leavings and they couldn't go in the same slot, they should be dropped
-					pickupable.CustomNetTransform.SetPosition(feeder.WorldPos);
+					pickupable.CustomNetTransform.SetPosition(feeder.BodyWorldPosition);
 				}
 			}
 		}

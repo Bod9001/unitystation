@@ -29,7 +29,16 @@ namespace Messages.Server
 			}
 		}
 
-		public static NetMessage SendLogToClient(GameObject clientPlayer, string message, Category logCat,
+		public static NetMessage SendLogToClient(Mind clientPlayer, string message, Category logCat,
+			bool showError)
+		{
+			NetMessage msg = new NetMessage {Message = message, Category = logCat, IsError = showError};
+
+			SendTo(clientPlayer, msg);
+			return msg;
+		}
+
+		public static NetMessage SendLogToClient(NetworkConnection clientPlayer, string message, Category logCat,
 			bool showError)
 		{
 			NetMessage msg = new NetMessage {Message = message, Category = logCat, IsError = showError};

@@ -21,7 +21,7 @@ namespace Messages.Client.Interaction
 		public override void Process(NetMessage netMsg)
 		{
 			//TODO: check break conditions
-			if (SentByPlayer == null || SentByPlayer.Script == null)
+			if (SentByPlayer == null || SentByPlayer.CurrentMind == null)
 			{
 				return;
 			}
@@ -52,7 +52,7 @@ namespace Messages.Client.Interaction
 				//TODO make this be based on a setting clients can turn off
 				if (examinable is ExaminablePlayer examinablePlayer)
 				{
-					examinablePlayer.Examine(SentByPlayer.GameObject);
+					examinablePlayer.Examine(SentByPlayer.CurrentMind);
 				}
 
 				var examinableMsg = examinable.Examine(netMsg.mousePosition);
@@ -70,7 +70,7 @@ namespace Messages.Client.Interaction
 			// Send the message.
 			if (msg.Length > 0)
 			{
-				Chat.AddExamineMsgFromServer(SentByPlayer.GameObject, msg);
+				Chat.AddExamineMsgFromServer(SentByPlayer.CurrentMind, msg);
 			}
 		}
 

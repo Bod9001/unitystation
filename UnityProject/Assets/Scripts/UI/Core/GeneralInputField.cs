@@ -67,9 +67,9 @@ namespace UI.Core
 
 		public void OnProceedPressed()
 		{
-			if(PlayerManager.LocalPlayer == null) return;
+			if(LocalPlayerManager.CurrentMind == null) return;
 
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdFilledDynamicInput(lastOpener, input.text);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdFilledDynamicInput(lastOpener, input.text);
 
 			input.text = string.Empty;
 			gameObject.SetActive(false);
@@ -83,6 +83,6 @@ namespace UI.Core
 
 	public interface IDynamicInput
 	{
-		void OnInputFilled(string input, PlayerScript player);
+		void OnInputFilled(string input, Mind player);
 	}
 }

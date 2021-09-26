@@ -20,19 +20,19 @@ namespace Messages.Client.Admin
 
 		void VerifyMentorStatus(NetMessage msg)
 		{
-			var player = PlayerList.Instance.GetMentor(msg.Userid, msg.MentorToken);
+			var player = PlayersManager.Instance.GetMentor(msg.Userid, msg.MentorToken);
 			if (player == null)
 			{
-				player = PlayerList.Instance.GetAdmin(msg.Userid, msg.MentorToken);
+				player = PlayersManager.Instance.GetAdmin(msg.Userid, msg.MentorToken);
 				if(player == null){
 					//theoretically this shouldnt happen, and indicates someone might be tampering with the client.
 					return;
 				}
 			}
-			var recipient = PlayerList.Instance.GetAllByUserID(msg.UserToBwoink);
+			var recipient = PlayersManager.Instance.GetAllByUserID(msg.UserToBwoink);
 			foreach (var r in recipient)
 			{
-				MentorBwoinkMessage.Send(r.GameObject, msg.Userid, "<color=#6400FF>" + msg.Message + "</color>");
+				MentorBwoinkMessage.Send(r, msg.Userid, "<color=#6400FF>" + msg.Message + "</color>");
 				UIManager.Instance.adminChatWindows.mentorPlayerChat.ServerAddChatRecord(msg.Message, msg.UserToBwoink, msg.Userid);
 			}
 		}

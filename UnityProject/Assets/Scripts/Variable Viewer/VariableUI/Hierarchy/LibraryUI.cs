@@ -48,7 +48,7 @@ public class LibraryUI : MonoBehaviour
 
 	public void NetRefresh()
 	{
-		RequestRefreshHierarchy.Send(ServerData.UserID, PlayerList.Instance.AdminToken);
+		RequestRefreshHierarchy.Send(ServerData.UserID, PlayersManager.Instance.AdminToken);
 	}
 
 	public HierarchyEntry GethierarchyEntry()

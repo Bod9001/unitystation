@@ -55,7 +55,7 @@ public class Hands : MonoBehaviour
 	public void SetHand(NamedSlot namedSlot, GameObject gamebodypPart)
 	{
 		if (!isValidPlayer()) return;
-		var Slot = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetNamedItemSlot(gamebodypPart, namedSlot);
+		var Slot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetNamedItemSlot(gamebodypPart, namedSlot);
 		if (Slot == null) return;
 
 		var bodyPartUISlots = gamebodypPart.GetComponent<BodyPartUISlots>();
@@ -63,9 +63,9 @@ public class Hands : MonoBehaviour
 
 
 
-		PlayerManager.LocalPlayerScript.playerNetworkActions.CmdSetActiveHand(gamebodypPart.NetId(), namedSlot);
-		PlayerManager.LocalPlayerScript.playerNetworkActions.activeHand = gamebodypPart;
-		PlayerManager.LocalPlayerScript.playerNetworkActions.CurrentActiveHand = namedSlot;
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdSetActiveHand(gamebodypPart.NetId(), namedSlot);
+		LocalPlayerManager.CurrentMind.playerNetworkActions.activeHand = gamebodypPart;
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CurrentActiveHand = namedSlot;
 
 		// If player was using both hands - flip images back
 		if (UsingBothHands)
@@ -196,10 +196,10 @@ public class Hands : MonoBehaviour
 
 		//This checks which UI slot the item can be equiped to and swaps it there
 		//Try to equip the item into the appropriate slot
-		var bestSlot = BestSlotForTrait.Instance.GetBestSlot(CurrentSlot.Item, PlayerManager.LocalPlayerScript.DynamicItemStorage);
+		var bestSlot = BestSlotForTrait.Instance.GetBestSlot(CurrentSlot.Item, LocalPlayerManager.CurrentMind.DynamicItemStorage);
 		if (bestSlot == null)
 		{
-			Chat.AddExamineMsg(PlayerManager.LocalPlayerScript.gameObject, "There is no available slot for that");
+			Chat.AddExamineMsg(LocalPlayerManager.CurrentMind, "There is no available slot for that");
 			return;
 		}
 
@@ -212,11 +212,11 @@ public class Hands : MonoBehaviour
 	/// <returns>True if they can, false if they cannot</returns>
 	public static bool isValidPlayer()
 	{
-		if (PlayerManager.LocalPlayerScript == null) return false;
+		if (LocalPlayerManager.CurrentMind == null) return false;
 
 		// TODO tidy up this if statement once it's working correctly
-		if (!PlayerManager.LocalPlayerScript.playerMove.allowInput ||
-				PlayerManager.LocalPlayerScript.IsGhost)
+		if (!LocalPlayerManager.CurrentMind.PlayerMove.allowInput ||
+				LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			Logger.Log("Invalid player, cannot perform action!", Category.Interaction);
 			return false;

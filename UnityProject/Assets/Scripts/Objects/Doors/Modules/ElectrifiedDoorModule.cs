@@ -55,7 +55,7 @@ namespace Doors.Modules
 
 		public override ModuleSignal BumpingInteraction(GameObject mob, HashSet<DoorProcessingStates> States)
 		{
-			return CanElectricute(mob);
+			return CanElectricute(MindManager.StaticGet(mob));
 		}
 
 		public bool PulsePreventElectrocution()
@@ -68,7 +68,7 @@ namespace Doors.Modules
 			master.HackingProcessBase.ReceivedPulse(PreventElectrocution);
 		}
 
-		private ModuleSignal CanElectricute(GameObject mob)
+		private ModuleSignal CanElectricute(Mind mob)
 		{
 			if (master.HasPower)
 			{
@@ -100,9 +100,9 @@ namespace Doors.Modules
 			return ModuleSignal.Continue;
 		}
 
-		private bool PlayerHasInsulatedGloves(GameObject mob)
+		private bool PlayerHasInsulatedGloves(Mind mob)
 		{
-			List<ItemSlot> slots = mob.GetComponent<PlayerScript>().OrNull()?.DynamicItemStorage.OrNull()
+			List<ItemSlot> slots = mob.OrNull()?.DynamicItemStorage.OrNull()
 				?.GetNamedItemSlots(NamedSlot.hands);
 			if (slots != null)
 			{
@@ -118,7 +118,7 @@ namespace Doors.Modules
 			return false;
 		}
 
-		private void ServerElectrocute(GameObject obj)
+		private void ServerElectrocute(Mind obj)
 		{
 			LivingHealthMasterBase healthScript = obj.GetComponent<LivingHealthMasterBase>();
 			if (healthScript != null)

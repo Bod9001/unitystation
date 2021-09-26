@@ -28,10 +28,8 @@ namespace Messages.Server
 
 		public override void Process(NetMessage msg)
 		{
-			LoadNetworkObject(msg.Recipient);
-			var recipientObject = NetworkObject;
 			Chat.ProcessUpdateChatMessage(msg.Recipient, msg.Originator,
-				msg.Message, msg.OthersMessage, msg.Channels, msg.ChatModifiers, msg.Speaker, recipientObject, msg.Loudness, msg.StripTags);
+				msg.Message, msg.OthersMessage, msg.Channels, msg.ChatModifiers, msg.Speaker, msg.Loudness, msg.StripTags);
 		}
 
 		/// <summary>
@@ -39,7 +37,7 @@ namespace Messages.Server
 		/// the Chat API (the only exception to this rule is if you just need to send 1 msg to 1 client from the server
 		/// i.e syndi special roles)
 		/// </summary>
-		public static NetMessage Send(GameObject recipient, ChatChannel channels, ChatModifier chatMods, string chatMessage,
+		public static NetMessage Send(ConnectedPlayer recipient, ChatChannel channels, ChatModifier chatMods, string chatMessage,
 			Loudness loudness = Loudness.NORMAL, string othersMsg = "",
 			GameObject originator = null, string speaker = "", bool stripTags = true)
 		{
@@ -61,7 +59,7 @@ namespace Messages.Server
 					Loudness = loudness
 				};
 
-			SendTo(recipient, msg, Category.Chat, 2);
+			SendTo(recipient, msg, 2);
 			return msg;
 		}
 	}

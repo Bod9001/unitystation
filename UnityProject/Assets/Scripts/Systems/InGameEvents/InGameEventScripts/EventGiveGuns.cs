@@ -30,25 +30,25 @@ namespace InGameEvents
 				return;
 			}
 
-			foreach (ConnectedPlayer player in PlayerList.Instance.InGamePlayers)
+			foreach (ConnectedPlayer player in PlayersManager.Instance.InGamePlayers)
 			{
-				if (player.Script.IsDeadOrGhost) continue;
+				if (player.CurrentMind.IsGhosting) continue;
 
-				HandlePlayer(player);
+				HandlePlayer(player.CurrentMind);
 			}
 		}
 
-		protected virtual void HandlePlayer(ConnectedPlayer player)
+		protected virtual void HandlePlayer(Mind player)
 		{
 			GiveGunToPlayer(player);
 		}
 
-		protected void GiveGunToPlayer(ConnectedPlayer player)
+		protected void GiveGunToPlayer(Mind player)
 		{
 			GameObject gun = Spawn.ServerPrefab(gunList.GetRandom(),
-						player.Script.WorldPos, player.Script.transform.parent, player.Script.transform.rotation).GameObject;
+						player.BodyWorldPosition, player.GameObjectBody.transform.parent, player.GameObjectBody.transform.rotation).GameObject;
 
-			ItemSlot slot = player.Script.DynamicItemStorage.GetBestHandOrSlotFor(gun);
+			ItemSlot slot = player.DynamicItemStorage.GetBestHandOrSlotFor(gun);
 			if (slot != null && slot.IsEmpty)
 			{
 				Inventory.ServerAdd(gun, slot);

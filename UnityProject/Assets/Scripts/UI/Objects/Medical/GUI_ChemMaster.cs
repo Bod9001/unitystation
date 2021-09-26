@@ -163,7 +163,7 @@ namespace UI.Objects.Chemistry
 
 		public void Analyze(Reagent reagent, ConnectedPlayer player)
 		{
-			Chat.AddExamineMsg(player.GameObject, $"This is {reagent.Name}. {reagent.description}");
+			Chat.AddExamineMsg(player.CurrentMind, $"This is {reagent.Name}. {reagent.description}");
 		}
 		#endregion
 

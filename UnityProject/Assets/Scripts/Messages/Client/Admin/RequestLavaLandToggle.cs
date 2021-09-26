@@ -14,7 +14,7 @@ namespace Messages.Client.Admin
 
 		public override void Process(NetMessage netMsg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(netMsg.Userid, netMsg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(netMsg.Userid, netMsg.AdminToken);
 			if (admin == null) return;
 
 			if(SubSceneManager.AdminAllowLavaland == netMsg.LavaLandAllowed) return;
@@ -22,7 +22,7 @@ namespace Messages.Client.Admin
 			SubSceneManager.AdminAllowLavaland = netMsg.LavaLandAllowed;
 
 			var state = netMsg.LavaLandAllowed ? "ON" : "OFF";
-			var msg = $"Admin: {PlayerList.Instance.GetByUserID(netMsg.Userid).Username}, Turned Lava Land spawning {state}";
+			var msg = $"Admin: {PlayersManager.Instance.GetByUserID(netMsg.Userid).Username}, Turned Lava Land spawning {state}";
 
 			UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(msg, null);
 			DiscordWebhookMessage.Instance.AddWebHookMessageToQueue(DiscordWebhookURLs.DiscordWebhookAdminLogURL, msg, "");

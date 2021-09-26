@@ -23,7 +23,7 @@ namespace IngameDebugConsole
 		[ConsoleMethod("suicide", "kill yo' self")]
 		public static void RunSuicide()
 		{
-			bool playerSpawned = (PlayerManager.LocalPlayer != null);
+			bool playerSpawned = (LocalPlayerManager.LocalPlayer != null);
 			if (!playerSpawned)
 			{
 				Logger.Log("Cannot commit suicide. Player has not spawned.", Category.DebugConsole);
@@ -64,15 +64,15 @@ namespace IngameDebugConsole
 				return;
 			}
 
-			bool playerSpawned = (PlayerManager.LocalPlayer != null);
+			bool playerSpawned = (LocalPlayerManager.LocalPlayer != null);
 			if (playerSpawned == false)
 			{
 				Logger.Log("Cannot damage player. Player has not spawned.", Category.DebugConsole);
 				return;
 			}
 
-			Logger.Log($"Debugger inflicting {burnDamage} burn damage and {bruteDamage} brute damage on {bodyPart} of {PlayerManager.LocalPlayer.name}", Category.DebugConsole);
-			HealthBodyPartMessage.Send(PlayerManager.LocalPlayer, PlayerManager.LocalPlayer, bodyPart, burnDamage, bruteDamage);
+			Logger.Log($"Debugger inflicting {burnDamage} burn damage and {bruteDamage} brute damage on {bodyPart} of {LocalPlayerManager.LocalPlayer.name}", Category.DebugConsole);
+			// HealthBodyPartMessage.Send(LocalPlayerManager.CurrentMind, LocalPlayerManager.LocalPlayer, bodyPart, burnDamage, bruteDamage);
 		}
 
 #if UNITY_EDITOR
@@ -196,9 +196,9 @@ namespace IngameDebugConsole
 #endif
 		private static void PushEveryoneUp()
 		{
-			foreach (ConnectedPlayer player in PlayerList.Instance.InGamePlayers)
+			foreach (ConnectedPlayer player in PlayersManager.Instance.InGamePlayers)
 			{
-				player.GameObject.GetComponent<PlayerScript>().PlayerSync.Push(Vector2Int.up);
+				player.CurrentMind.GameObjectBody.GetComponent<PlayerScript>().PlayerSync.Push(Vector2Int.up);
 			}
 		}
 #if UNITY_EDITOR
@@ -206,8 +206,8 @@ namespace IngameDebugConsole
 #endif
 		private static void SpawnMeat()
 		{
-			foreach (ConnectedPlayer player in PlayerList.Instance.InGamePlayers) {
-				Vector3 playerPos = player.Script.WorldPos;
+			foreach (ConnectedPlayer player in PlayersManager.Instance.InGamePlayers) {
+				Vector3 playerPos = player.CurrentMind.BodyWorldPosition;
 				Vector3 spawnPos = playerPos + new Vector3( 0, 2, 0 );
 				GameObject mealPrefab = CraftingManager.Meals.FindOutputMeal("Meat Steak");
 				var slabs = new List<CustomNetTransform>();
@@ -226,19 +226,12 @@ namespace IngameDebugConsole
 		private static void PrintPlayerPositions()
 		{
 			//For every player in the connected player list (this list is serverside-only)
-			foreach (ConnectedPlayer player in PlayerList.Instance.InGamePlayers) {
+			foreach (ConnectedPlayer player in PlayersManager.Instance.InGamePlayers) {
 				//Printing this the pretty way, example:
 				//Bob (CAPTAIN) is located at (77,0, 52,0, 0,0)
-				Logger.LogFormat( "{0} ({1)} is located at {2}.", Category.DebugConsole, player.Name, player.Job, player.Script.WorldPos );
+				Logger.LogFormat( "{0} ({1)} is located at {2}.", Category.DebugConsole, player.Username, player.CurrentMind.JobType, player.CurrentMind.BodyWorldPosition );
 			}
 
-		}
-#if UNITY_EDITOR
-		[MenuItem("Networking/Spawn dummy player")]
-#endif
-		[ConsoleMethod("spawn-dummy", "Spawn dummy player (Server)")]
-		private static void SpawnDummyPlayer() {
-			PlayerSpawn.ServerSpawnDummy();
 		}
 
 #if UNITY_EDITOR
@@ -273,7 +266,7 @@ namespace IngameDebugConsole
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				PlayerManager.LocalPlayerScript.playerHealth.ApplyDamageToRandom(null, 99999f, AttackType.Internal, DamageType.Brute);
+				LocalPlayerManager.CurrentMind.playerHealth.ApplyDamageToRandom(null, 99999f, AttackType.Internal, DamageType.Brute);
 			}
 		}
 #if UNITY_EDITOR
@@ -284,7 +277,7 @@ namespace IngameDebugConsole
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				PlayerSpawn.ServerRespawnPlayer(PlayerManager.LocalPlayerScript.mind);
+				PlayerSpawn.ServerRespawnPlayer(LocalPlayerManager.CurrentMind);
 			}
 		}
 
@@ -361,9 +354,9 @@ namespace IngameDebugConsole
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				foreach ( ConnectedPlayer player in PlayerList.Instance.InGamePlayers )
+				foreach ( ConnectedPlayer player in PlayersManager.Instance.InGamePlayers )
 				{
-					foreach (var itemSlot in player.Script.DynamicItemStorage.GetNamedItemSlots(NamedSlot.head))
+					foreach (var itemSlot in player.CurrentMind.DynamicItemStorage.GetNamedItemSlots(NamedSlot.head))
 					{
 
 
@@ -371,32 +364,32 @@ namespace IngameDebugConsole
 						Inventory.ServerAdd(helmet,itemSlot, ReplacementStrategy.DropOther);
 					}
 
-					foreach (var itemSlot in player.Script.DynamicItemStorage.GetNamedItemSlots(NamedSlot.outerwear))
+					foreach (var itemSlot in player.CurrentMind.DynamicItemStorage.GetNamedItemSlots(NamedSlot.outerwear))
 					{
 						var suit = Spawn.ServerPrefab("MiningHardsuit").GameObject;
 						Inventory.ServerAdd(suit,itemSlot, ReplacementStrategy.DropOther);
 					}
 
 
-					foreach (var itemSlot in player.Script.DynamicItemStorage.GetNamedItemSlots(NamedSlot.mask))
+					foreach (var itemSlot in player.CurrentMind.DynamicItemStorage.GetNamedItemSlots(NamedSlot.mask))
 					{
 						var mask = Spawn.ServerPrefab(CommonPrefabs.Instance.Mask).GameObject;
 						Inventory.ServerAdd(mask,itemSlot, ReplacementStrategy.DropOther);
 					}
 
-					foreach (var itemSlot in player.Script.DynamicItemStorage.GetPocketsSlots())
+					foreach (var itemSlot in player.CurrentMind.DynamicItemStorage.GetPocketsSlots())
 					{
 						var oxyTank = Spawn.ServerPrefab(CommonPrefabs.Instance.EmergencyOxygenTank).GameObject;
 						Inventory.ServerAdd(oxyTank,itemSlot, ReplacementStrategy.DropOther);
 					}
 
-					foreach (var itemSlot in player.Script.DynamicItemStorage.GetNamedItemSlots(NamedSlot.feet))
+					foreach (var itemSlot in player.CurrentMind.DynamicItemStorage.GetNamedItemSlots(NamedSlot.feet))
 					{
 						var MagBoots = Spawn.ServerPrefab("MagBoots").GameObject;
 						Inventory.ServerAdd(MagBoots,itemSlot, ReplacementStrategy.DropOther);
 					}
 
-					player.Script.Equipment.IsInternalsEnabled = true;
+					player.CurrentMind.Equipment.IsInternalsEnabled = true;
 				}
 
 			}
@@ -409,9 +402,9 @@ namespace IngameDebugConsole
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				foreach ( ConnectedPlayer player in PlayerList.Instance.InGamePlayers )
+				foreach ( ConnectedPlayer player in PlayersManager.Instance.InGamePlayers )
 				{
-					foreach (var itemSlot in player.Script.DynamicItemStorage.GetNamedItemSlots(NamedSlot.id))
+					foreach (var itemSlot in player.CurrentMind.DynamicItemStorage.GetNamedItemSlots(NamedSlot.id))
 					{
 						var ID = Spawn.ServerPrefab("IDCardCaptainsSpare").GameObject;
 						Inventory.ServerAdd(ID,itemSlot, ReplacementStrategy.DropOther);
@@ -427,9 +420,9 @@ namespace IngameDebugConsole
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				foreach ( ConnectedPlayer player in PlayerList.Instance.InGamePlayers )
+				foreach ( ConnectedPlayer player in PlayersManager.Instance.InGamePlayers )
 				{
-					foreach (var itemSlot in player.Script.DynamicItemStorage.GetNamedItemSlots(NamedSlot.hands))
+					foreach (var itemSlot in player.CurrentMind.DynamicItemStorage.GetNamedItemSlots(NamedSlot.hands))
 					{
 						var InsulatedGloves = Spawn.ServerPrefab("InsulatedGloves").GameObject;
 						Inventory.ServerAdd(InsulatedGloves,itemSlot, ReplacementStrategy.DropOther);
@@ -446,10 +439,10 @@ namespace IngameDebugConsole
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				var playerScript = PlayerManager.LocalPlayerScript;
+				var playerScript = LocalPlayerManager.CurrentMind;
 				var matrix = MatrixManager.Get(playerScript.registerTile.Matrix);
 
-				foreach (var worldPos in playerScript.WorldPos.BoundsAround().allPositionsWithin)
+				foreach (var worldPos in playerScript.BodyWorldPositionInt.BoundsAround().allPositionsWithin)
 				{
 					var localPos = MatrixManager.WorldToLocalInt(worldPos, matrix);
 					var gasMix = matrix.MetaDataLayer.Get(localPos).GasMix;
@@ -467,10 +460,10 @@ namespace IngameDebugConsole
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				var playerScript = PlayerManager.LocalPlayerScript;
+				var playerScript = LocalPlayerManager.CurrentMind;
 				var health = playerScript.playerHealth;
 				health.ResetDamageAll();
-				playerScript.registerTile.ServerStandUp();
+				playerScript.RegisterPlayer.ServerStandUp();
 			}
 		}
 
@@ -481,7 +474,7 @@ namespace IngameDebugConsole
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				Spawn.ServerPrefab("Rods", PlayerManager.LocalPlayerScript.WorldPos + Vector3Int.up, cancelIfImpassable: true);
+				Spawn.ServerPrefab("Rods", LocalPlayerManager.CurrentMind.BodyWorldPosition + Vector3Int.up, cancelIfImpassable: true);
 			}
 		}
 #if UNITY_EDITOR
@@ -491,7 +484,7 @@ namespace IngameDebugConsole
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				PlayerManager.LocalPlayerScript.registerTile.ServerSlip( true );
+				LocalPlayerManager.CurrentMind.RegisterPlayer.ServerSlip( true );
 			}
 		}
 		// TODO: Removing this capability at the moment because some antags require an actual spawn (such as
@@ -586,7 +579,7 @@ namespace IngameDebugConsole
 					Chat.AddExamineMsgToClient(DateTime.Now.ToFileTimeUtc().ToString());
 					break;
 				case 2:
-					Chat.AddChatMsgToChat(ConnectedPlayer.Invalid, DateTime.Now.ToFileTimeUtc().ToString(), ChatChannel.OOC, Loudness.NORMAL);
+					Chat.AddChatMsgToChat(PlayersManager.InvalidPlayer, DateTime.Now.ToFileTimeUtc().ToString(), ChatChannel.OOC, Loudness.NORMAL);
 					break;
 				default:
 					Chat.AddLocalMsgToChat(DateTime.Now.ToFileTimeUtc().ToString(), new Vector2(Random.value*100,Random.value*100), null);
@@ -606,7 +599,7 @@ namespace IngameDebugConsole
 				return;
 			}
 
-			PlayerList.Instance.ProcessAdminEnableRequest(ServerData.UserID, userIDToPromote);
+			PlayersManager.Instance.ProcessAdminEnableRequest(ServerData.UserID, userIDToPromote);
 		}
 	}
 }

@@ -85,7 +85,7 @@ public class Highlight : MonoBehaviour, IInitialise
 
 	public static void HighlightThis(GameObject Highlightobject)
 	{
-		if (!PlayerManager.LocalPlayerScript.IsGhost && HighlightEnabled)
+		if (!LocalPlayerManager.CurrentMind.IsGhosting && HighlightEnabled)
 		{
 			ShowHighlight(Highlightobject);
 		}

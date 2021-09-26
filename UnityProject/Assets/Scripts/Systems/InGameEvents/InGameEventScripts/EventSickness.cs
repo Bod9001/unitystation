@@ -43,7 +43,7 @@ namespace InGameEvents
 			{
 				sicknessEventParameters = new SicknessEventParameters()
 				{
-					PlayerToInfect = Random.Range(1, Mathf.Max(1, PlayerList.Instance.AllPlayers.Count)),
+					PlayerToInfect = Random.Range(1, Mathf.Max(1, PlayersManager.Instance.AllPlayers.Count)),
 					SicknessIndex = Random.Range(0, SicknessManager.Instance.Sicknesses.Count)
 				};
 			}
@@ -54,11 +54,11 @@ namespace InGameEvents
 
 			Sickness sickness = SicknessManager.Instance.Sicknesses[sicknessEventParameters.SicknessIndex];
 
-			foreach (ConnectedPlayer player in PlayerList.Instance.AllPlayers.PickRandom(sicknessEventParameters.PlayerToInfect).ToList())
+			foreach (ConnectedPlayer player in PlayersManager.Instance.AllPlayers.PickRandom(sicknessEventParameters.PlayerToInfect).ToList())
 			{
-				if (player.Script != null && player.Script.playerHealth != null)
+				if (player.CurrentMind != null && player.CurrentMind.LivingHealthMasterBase != null)
 				{
-					player.Script.playerHealth.AddSickness(sickness);
+					player.CurrentMind.LivingHealthMasterBase.AddSickness(sickness);
 				}
 			}
 		}

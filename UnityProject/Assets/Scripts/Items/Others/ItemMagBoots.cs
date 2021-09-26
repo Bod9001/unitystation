@@ -60,11 +60,11 @@ namespace Items.Others
 		{
 			if (info.ToRootPlayer != null)
 			{
-				playerMove = info.ToRootPlayer.PlayerScript.playerMove;
+				playerMove = info.ToRootPlayer.PlayerMove;
 			}
 			else if (info.FromRootPlayer != null)
 			{
-				playerMove = info.FromRootPlayer.PlayerScript.playerMove;
+				playerMove = info.FromRootPlayer.PlayerMove;
 			}
 
 			if (isOn)

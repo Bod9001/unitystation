@@ -24,7 +24,7 @@ namespace Messages.Server.HealthMessages
 			}
 		}
 
-		public static NetMessage Send(GameObject recipient, GameObject entityToUpdate, BodyPartType bodyPartType,
+		public static NetMessage Send(Mind recipient, GameObject entityToUpdate, BodyPartType bodyPartType,
 			float bruteDamage, float burnDamage)
 		{
 			NetMessage msg = new NetMessage

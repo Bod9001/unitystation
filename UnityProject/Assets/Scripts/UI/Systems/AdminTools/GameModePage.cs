@@ -32,7 +32,7 @@ namespace AdminTools
 
 		void SendEditRequest()
 		{
-			RequestGameModeUpdate.Send(ServerData.UserID, PlayerList.Instance.AdminToken, currentData.nextGameMode,
+			RequestGameModeUpdate.Send(ServerData.UserID, PlayersManager.Instance.AdminToken, currentData.nextGameMode,
 				currentData.isSecret);
 		}
 
@@ -70,7 +70,7 @@ namespace AdminTools
 
 		public void ToggleOOCMute()
 		{
-			AdminCommandsManager.Instance.CmdToggleOOCMute(ServerData.UserID, PlayerList.Instance.AdminToken);
+			AdminCommandsManager.Instance.CmdToggleOOCMute(ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
 	}
 }

@@ -17,18 +17,18 @@ namespace Items.Magical
 		[SerializeField]
 		private SpellData spell = default;
 
-		protected override bool TryReading(ConnectedPlayer player)
+		protected override bool TryReading(Mind player)
 		{
-			if (player.Script.mind.HasSpell(spell))
+			if (player.HasSpell(spell))
 			{
-				if (player.Script.mind.IsOfAntag<Antagonists.Wizard>())
+				if (player.IsOfAntag<Antagonists.Wizard>())
 				{
-					Chat.AddExamineMsgFromServer(player.GameObject,
+					Chat.AddExamineMsgFromServer(player,
 							"You're already far more versed in this spell than this flimsy how-to book can provide!");
 				}
 				else
 				{
-					Chat.AddExamineMsgFromServer(player.GameObject, "You already know this spell!");
+					Chat.AddExamineMsgFromServer(player, "You already know this spell!");
 				}
 
 				return false;
@@ -36,7 +36,7 @@ namespace Items.Magical
 
 			if (base.TryReading(player) == false)
 			{
-				Chat.AddActionMsgToChat(gameObject, default, $"The {gameObject.ExpensiveName()} glows in a black light!");
+				Chat.AddInanimateActionMsgToChat(gameObject, default, $"The {gameObject.ExpensiveName()} glows in a black light!");
 				Punish(player);
 				return false;
 			}
@@ -44,28 +44,28 @@ namespace Items.Magical
 			return true;
 		}
 
-		protected override void FinishReading(ConnectedPlayer player)
+		protected override void FinishReading(Mind player)
 		{
 			LearnSpell(player);
 			base.FinishReading(player);
 
 			if (AllowOnlyOneReader && hasBeenRead)
 			{
-				Chat.AddCombatMsgToChat(gameObject, default, $"The {gameObject.ExpensiveName()} glows dark for a second!");
+				Chat.AddInanimateActionMsgToChat(gameObject, default, $"The {gameObject.ExpensiveName()} glows dark for a second!");
 			}
 		}
 
-		private void LearnSpell(ConnectedPlayer player)
+		private void LearnSpell(Mind player)
 		{
 			// TODO: Play "Blind" SFX once sound freeze is lifted.
-			Chat.AddChatMsgToChat(player, spell.InvocationMessage, ChatChannel.Local, Loudness.SCREAMING);
-			Chat.AddExamineMsgFromServer(player.GameObject, $"You feel like you've experienced enough to cast <b>{spell.Name}</b>!");
+			Chat.AddChatMsgToChat(player.AssignedPlayer, spell.InvocationMessage, ChatChannel.Local, Loudness.SCREAMING);
+			Chat.AddExamineMsgFromServer(player, $"You feel like you've experienced enough to cast <b>{spell.Name}</b>!");
 
-			var learnedSpell = spell.AddToPlayer(player.Script);
-			player.Script.mind.AddSpell(learnedSpell);
+			var learnedSpell = spell.AddToPlayer(player);
+			player.AddSpell(learnedSpell);
 		}
 
-		private void Punish(ConnectedPlayer player)
+		private void Punish(Mind player)
 		{
 			if (gameObject.TryGetComponent<SpellBookPunishment>(out var punishment))
 			{

@@ -19,7 +19,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 		public override void Process(NetMessage netMessage)
 		{
 			// let's synchronize known recipes on the client side
-			PlayerManager.LocalPlayerScript.PlayerCrafting.UnsafelyAddRecipeToKnownRecipes(
+			LocalPlayerManager.CurrentMind.PlayerCrafting.UnsafelyAddRecipeToKnownRecipes(
 				CraftingRecipeSingleton.Instance.GetRecipeByIndex(netMessage.CraftingRecipeIndex)
 			);
 
@@ -40,7 +40,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 		{
 			if (craftingRecipe.IndexInSingleton < 0)
 			{
-				Logger.LogError($"The server tried to send the negative recipe index when {connectedPlayer.Name} " +
+				Logger.LogError($"The server tried to send the negative recipe index when {connectedPlayer.Username} " +
 				                $"had tried to learn this recipe: {craftingRecipe}. " +
 				                "Perhaps some recipe is missing from the singleton.");
 				return;
@@ -52,7 +52,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 				!= craftingRecipe
 			)
 			{
-				Logger.LogError($"The server tried to send the wrong recipe index when {connectedPlayer.Name} " +
+				Logger.LogError($"The server tried to send the wrong recipe index when {connectedPlayer.Username} " +
 				                $"had tried to learn this recipe: {craftingRecipe}. " +
 				                "Perhaps some recipe has wrong indexInSingleton that doesn't match a real index in " +
 				                "the singleton.");

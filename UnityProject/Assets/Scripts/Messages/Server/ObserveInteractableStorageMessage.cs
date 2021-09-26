@@ -57,7 +57,7 @@ namespace Messages.Server
 		/// <param name="recipient"></param>
 		/// <param name="storage"></param>
 		/// <param name="observed">true indicates they should show the popup, false indicates it should be hidden</param>
-		public static void Send(GameObject recipient, InteractableStorage storage, bool observed)
+		public static void Send(Mind recipient, InteractableStorage storage, bool observed)
 		{
 			var msg = new NetMessage()
 			{

@@ -47,10 +47,10 @@ namespace AdminTools
 
 		void RefreshPlayerList()
 		{
-			if (PlayerList.Instance == null || ServerData.UserID == null || (PlayerList.Instance.AdminToken == null && PlayerList.Instance.MentorToken == null)) return;
-			string MentorOrAdminToken = PlayerList.Instance.MentorToken;
+			if (PlayersManager.Instance == null || ServerData.UserID == null || (PlayersManager.Instance.AdminToken == null && PlayersManager.Instance.MentorToken == null)) return;
+			string MentorOrAdminToken = PlayersManager.Instance.MentorToken;
 			if(MentorOrAdminToken == null)
-				MentorOrAdminToken = PlayerList.Instance.AdminToken;
+				MentorOrAdminToken = PlayersManager.Instance.AdminToken;
 			RequestAdminPlayerList.Send(ServerData.UserID, MentorOrAdminToken);
 		}
 

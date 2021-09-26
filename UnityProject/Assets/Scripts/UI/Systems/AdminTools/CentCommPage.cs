@@ -27,7 +27,7 @@ namespace AdminTools
 
 	        var text = CentCommInputBox.text;
 
-	        AdminCommandsManager.Instance.CmdSendCentCommAnnouncement(ServerData.UserID, PlayerList.Instance.AdminToken, text);
+	        AdminCommandsManager.Instance.CmdSendCentCommAnnouncement(ServerData.UserID, PlayersManager.Instance.AdminToken, text);
 
 	        adminTools.ShowMainPage();
         }
@@ -41,7 +41,7 @@ namespace AdminTools
         {
 	        var text = CentCommInputBox.text;
 
-	        AdminCommandsManager.Instance.CmdSendCentCommReport(ServerData.UserID, PlayerList.Instance.AdminToken, text);
+	        AdminCommandsManager.Instance.CmdSendCentCommReport(ServerData.UserID, PlayersManager.Instance.AdminToken, text);
 
 	        adminTools.ShowMainPage();
         }
@@ -55,7 +55,7 @@ namespace AdminTools
         {
 	        var text = CentCommInputBox.text;
 
-	        AdminCommandsManager.Instance.CmdCallShuttle(ServerData.UserID, PlayerList.Instance.AdminToken, text);
+	        AdminCommandsManager.Instance.CmdCallShuttle(ServerData.UserID, PlayersManager.Instance.AdminToken, text);
         }
 
         public void RecallShuttleButtonClick()
@@ -67,7 +67,7 @@ namespace AdminTools
         {
 	        var text = CentCommInputBox.text;
 
-	        AdminCommandsManager.Instance.CmdRecallShuttle(ServerData.UserID, PlayerList.Instance.AdminToken, text);
+	        AdminCommandsManager.Instance.CmdRecallShuttle(ServerData.UserID, PlayersManager.Instance.AdminToken, text);
         }
 
         public override void OnPageRefresh(AdminPageRefreshData adminPageData)
@@ -83,7 +83,7 @@ namespace AdminTools
 
 	        currentData.blockCall = toggleBool;
 
-	        AdminCommandsManager.Instance.CmdSendBlockShuttleCall(ServerData.UserID, PlayerList.Instance.AdminToken, toggleBool);
+	        AdminCommandsManager.Instance.CmdSendBlockShuttleCall(ServerData.UserID, PlayersManager.Instance.AdminToken, toggleBool);
         }
 
         public void ToggleRecallShuttle()
@@ -92,7 +92,7 @@ namespace AdminTools
 
 	        currentData.blockRecall = toggleBool;
 
-	        AdminCommandsManager.Instance.CmdSendBlockShuttleRecall(ServerData.UserID, PlayerList.Instance.AdminToken, toggleBool);
+	        AdminCommandsManager.Instance.CmdSendBlockShuttleRecall(ServerData.UserID, PlayersManager.Instance.AdminToken, toggleBool);
         }
 
 		public void CreateERTBtn()
@@ -109,7 +109,7 @@ namespace AdminTools
 
 		private void CreateDeathSquad()
 		{
-			AdminCommandsManager.Instance.CmdCreateDeathSquad(ServerData.UserID, PlayerList.Instance.AdminToken);
+			AdminCommandsManager.Instance.CmdCreateDeathSquad(ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
     }
 }

@@ -80,24 +80,24 @@ namespace AdminTools
 
 			var filePath = Path.Combine(chatlogDir, $"{playerId}.txt");
 
-			var connectedPlayer = PlayerList.Instance.GetByUserID(playerId);
+			var connectedPlayer = PlayersManager.Instance.GetByUserID(playerId).CurrentMind;
 
 			if (!File.Exists(filePath))
 			{
 				var stream = File.Create(filePath);
 				stream.Close();
-				string header = $"Username: {connectedPlayer.Username} Player Name: {connectedPlayer.Name} \r\n" +
-				                $"IsAntag: {PlayerList.Instance.AntagPlayers.Contains(connectedPlayer)}  role: {connectedPlayer.Job} \r\n" +
+				string header = $"Username: {connectedPlayer.AssignedPlayer.Username} Player Name: {connectedPlayer.CharactersName} \r\n" +
+				                $"IsAntag: {MindManager.Instance.AntagMinds.Contains(connectedPlayer)}  role: {connectedPlayer.JobType} \r\n" +
 				                $"-----Chat Log----- \r\n" +
 				                $" \r\n";
 				File.AppendAllText(filePath, header);
 			}
 
-			string entryName = connectedPlayer.Name;
+			string entryName = connectedPlayer.AssignedPlayer.Username;
 			if (entry.wasFromAdmin)
 			{
-				var adminPlayer = PlayerList.Instance.GetByUserID(entry.fromUserid);
-				entryName = "[A] " + adminPlayer.Name;
+				var adminPlayer = PlayersManager.Instance.GetByUserID(entry.fromUserid);
+				entryName = "[A] " + adminPlayer.Username;
 			}
 
 			DiscordWebhookMessage.Instance.AddWebHookMessageToQueue(DiscordWebhookURLs.DiscordWebhookAdminURL, entry.Message, entryName);
@@ -189,7 +189,7 @@ namespace AdminTools
 			};
 
 			var msg = $"{ServerData.Auth.CurrentUser.DisplayName}: {message}";
-			RequestAdminBwoink.Send(ServerData.UserID, PlayerList.Instance.AdminToken, selectedPlayer.uid,
+			RequestAdminBwoink.Send(ServerData.UserID, PlayersManager.Instance.AdminToken, selectedPlayer.uid,
 			msg);
 		}
 	}

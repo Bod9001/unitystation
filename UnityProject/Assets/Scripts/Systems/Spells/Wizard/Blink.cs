@@ -6,9 +6,9 @@ namespace Systems.Spells.Wizard
 {
 	public class Blink : Spell
 	{
-		public override bool CastSpellServer(ConnectedPlayer caster)
+		public override bool CastSpellServer(Mind caster)
 		{
-			TeleportUtils.ServerTeleportRandom(caster.GameObject, 8, 16, true, true);
+			TeleportUtils.ServerTeleportRandom(caster, 8, 16, true, true);
 
 			return true;
 		}

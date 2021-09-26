@@ -302,7 +302,7 @@ namespace Objects
 				&& !playerHealth.IsDead)
 				{
 					playerHealth.RegisterPlayer.ServerStun();
-					Chat.AddActionMsgToChat(objectToPush.gameObject, "You are knocked down by the singularity",
+					Chat.AddActionMsgToChat(MindManager.StaticGet(objectToPush.gameObject), "You are knocked down by the singularity",
 						$"{objectToPush.gameObject.ExpensiveName()} is knocked down by the singularity");
 				}
 			}
@@ -377,9 +377,9 @@ namespace Objects
 					if (objectToMove.ObjectType == ObjectType.Player && objectToMove.TryGetComponent<PlayerHealthV2>(out var health) && health != null)
 					{
 						if (health.RegisterPlayer.PlayerScript != null &&
-						    health.RegisterPlayer.PlayerScript.mind != null &&
-						    health.RegisterPlayer.PlayerScript.mind.occupation != null &&
-						    health.RegisterPlayer.PlayerScript.mind.occupation == OccupationList.Instance.Get(JobType.CLOWN))
+						    health.RegisterPlayer.PlayerScript != null &&
+						    health.RegisterPlayer.PlayerScript.occupation != null &&
+						    health.RegisterPlayer.PlayerScript.occupation == OccupationList.Instance.Get(JobType.CLOWN))
 						{
 							health.Gib();
 							ChangePoints(DMMath.Prob(50) ? -1000 : 1000);

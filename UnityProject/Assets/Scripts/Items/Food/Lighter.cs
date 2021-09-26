@@ -40,7 +40,7 @@ public class Lighter : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 
 		// generate message for chat
 		// cheap lighter may burn user fingers in process
-		GenerateActivationMessage(interaction.PerformerPlayerScript, interaction.HandSlot);
+		GenerateActivationMessage(interaction.Performer, interaction.HandSlot);
 
 		// update sprites and lighter logic
 		ServerUpdateLit();
@@ -65,7 +65,7 @@ public class Lighter : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 		}
 	}
 
-	private void GenerateActivationMessage(PlayerScript player, ItemSlot slot)
+	private void GenerateActivationMessage(Mind player, ItemSlot slot)
 	{
 		if (player == null || slot == null)
 		{
@@ -81,7 +81,7 @@ public class Lighter : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 			if (isFancy)
 			{
 				// edgy smoker
-				Chat.AddActionMsgToChat(player.gameObject,
+				Chat.AddActionMsgToChat(player,
 					$"Without even breaking stride, you flip open and light {lighterName} in one smooth movement.",
 					$"Without even breaking stride, {playerName} flips open and lights {lighterName} in one smooth movement.");
 			}
@@ -92,7 +92,7 @@ public class Lighter : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 
 				if (protection || random <= 0.75f)
 				{
-					Chat.AddActionMsgToChat(player.gameObject,
+					Chat.AddActionMsgToChat(player,
 						$"After a few attempts, you manage to light {lighterName}.",
 						$"After a few attempts, {playerName} manages to light {lighterName}.");
 				}
@@ -103,13 +103,12 @@ public class Lighter : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 					var bodyPart = isLeftHand ? BodyPartType.LeftArm : BodyPartType.RightArm;
 
 					// AttackType.Fire will set character on fire
-					player.playerHealth?.
-						ApplyDamageToBodyPart(gameObject, 5f, AttackType.Energy, DamageType.Burn, bodyPart);
+					player.LivingHealthMasterBase.OrNull()?.ApplyDamageToBodyPart(gameObject, 5f, AttackType.Energy, DamageType.Burn, bodyPart);
 
-					var they = player.characterSettings.TheyPronoun(player);
-					var their = player.characterSettings.TheirPronoun(player);
+					var they = player.OriginalCharacter.TheyPronoun(player);
+					var their = player.OriginalCharacter.TheirPronoun(player);
 
-					Chat.AddActionMsgToChat(player.gameObject,
+					Chat.AddActionMsgToChat(player,
 						$"You burn yourself while lighting the lighter!",
 						$"After a few attempts, {playerName} manages to light {lighterName} - however, {they} burn {their} finger in the process.");
 				}
@@ -119,21 +118,21 @@ public class Lighter : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 		{
 			if (isFancy)
 			{
-				var theyre = player.characterSettings.TheyrePronoun(player);
-				Chat.AddActionMsgToChat(player.gameObject,
+				var theyre = player.OriginalCharacter.TheyrePronoun(player);
+				Chat.AddActionMsgToChat(player,
 					$"You quietly shut off {lighterName} without even looking at what you're doing. Wow.",
 					$"You hear a quiet click, as {playerName} shuts off {lighterName} without even looking at what {theyre} doing. Wow.");
 			}
 			else
 			{
-				Chat.AddActionMsgToChat(player.gameObject,
+				Chat.AddActionMsgToChat(player,
 					$"You quietly shut off {lighterName}.",
 					$"{playerName}  quietly shuts off {lighterName}.");
 			}
 		}
 	}
 
-	private bool CheckGlovesProtection(PlayerScript player)
+	private bool CheckGlovesProtection(Mind player)
 	{
 		if (player && player.DynamicItemStorage)
 		{

@@ -163,7 +163,7 @@ namespace Systems.CraftingV2.GUI
 		)
 		{
 			if (
-				PlayerManager.LocalPlayerScript.PlayerCrafting.KnowsRecipe(craftingRecipe)
+				LocalPlayerManager.CurrentMind.PlayerCrafting.KnowsRecipe(craftingRecipe)
 				&& craftingRecipe.CanBeCrafted(
 					possibleIngredients,
 					possibleTools,

@@ -12,10 +12,10 @@ namespace Antagonists
 			return PlayerSpawn.ServerSpawnPlayer(spawnRequest);
 		}
 
-		public override void AfterSpawn(ConnectedPlayer player)
+		public override void AfterSpawn(Mind player)
 		{
 			//Add blob player to game object
-			player.GameObject.AddComponent<BlobStarter>();
+			player.GameObjectBody.AddComponent<BlobStarter>();
 		}
 	}
 }

@@ -22,7 +22,7 @@ namespace Items.Scrolls
 			if (initialChargesCount == -1)
 			{
 				return "It can be used infinitely.";
-			} 
+			}
 			else
 			{
 				return $"It has {ChargesRemaining} {(ChargesRemaining == 1 ? "charge" : "charges")} remaining.";
@@ -49,7 +49,7 @@ namespace Items.Scrolls
 		/// </summary>
 		/// <param name="messageRecipient">The recipient to send a message to, if supplied.</param>
 		/// <returns>True if the scroll has charges remaining or is infinitely charged.</returns>
-		protected bool HasChargesRemaining(GameObject messageRecipient = null)
+		protected bool HasChargesRemaining(Mind messageRecipient = null)
 		{
 			if (HasCharges) return true;
 

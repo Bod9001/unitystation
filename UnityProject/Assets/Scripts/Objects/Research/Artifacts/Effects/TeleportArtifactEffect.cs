@@ -42,7 +42,7 @@ public class TeleportArtifactEffect : ArtifactEffect
 				if (!player.IsDeadOrGhost)
 				{
 					// teleport player
-					TeleportUtils.ServerTeleportRandom(player.gameObject, minTeleportDistance, maxTeleportDistance, avoidSpace, avoidImpassable);
+					TeleportUtils.ServerTeleportRandom(player.mind, minTeleportDistance, maxTeleportDistance, avoidSpace, avoidImpassable);
 				}
 			}
 		}

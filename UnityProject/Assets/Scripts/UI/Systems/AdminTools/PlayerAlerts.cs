@@ -80,7 +80,7 @@ namespace AdminTools
 
 		public void ServerRequestEntries(string userId, int count, NetworkConnection requestee)
 		{
-			if (!PlayerList.Instance.IsAdmin(userId)) return;
+			if (!PlayersManager.Instance.IsAdmin(userId)) return;
 
 			if (count >=  serverPlayerAlerts.Count)
 			{
@@ -98,19 +98,19 @@ namespace AdminTools
 			}
 		}
 
-		public void ServerAddNewEntry(string incidentTime, PlayerAlertTypes alertType, ConnectedPlayer perp,
+		public void ServerAddNewEntry(string incidentTime, PlayerAlertTypes alertType, Mind perp,
 			string message)
 		{
 			var netId = NetId.Invalid;
 
-			if (perp?.Connection == null)
+			if (perp.OrNull()?.AssignedPlayer.OrNull()?.Connection == null)
 			{
 				return;
 			}
 
-			if (perp.Connection.identity != null)
+			if (perp.AssignedPlayer.Connection.identity != null)
 			{
-				netId = perp.Connection.identity.netId;
+				netId = perp.AssignedPlayer.Connection.identity.netId;
 			}
 
 			var entry = new PlayerAlertData();
@@ -131,9 +131,9 @@ namespace AdminTools
 		public void ServerProcessActionRequest(string adminId, PlayerAlertActions actionRequest,
 			string roundTimeOfIncident, uint perpId, string adminToken)
 		{
-			if (!PlayerList.Instance.IsAdmin(adminId)) return;
+			if (!PlayersManager.Instance.IsAdmin(adminId)) return;
 
-			var admin = PlayerList.Instance.GetAdmin(adminId, adminToken);
+			var admin = PlayersManager.Instance.GetAdmin(adminId, adminToken);
 			if (admin == null) return;
 
 			var index = serverPlayerAlerts.FindIndex(x =>
@@ -150,31 +150,29 @@ namespace AdminTools
 				return;
 			}
 
-			var perp = NetworkIdentity.spawned[perpId];
+			var perp = NetworkIdentity.spawned[perpId].GetComponent<Mind>();
 
 			switch (actionRequest)
 			{
 				case PlayerAlertActions.Gibbed:
-					ProcessGibRequest(perp.gameObject, admin, serverPlayerAlerts[index], adminId);
+					ProcessGibRequest(perp, admin, serverPlayerAlerts[index], adminId);
 					break;
 				case PlayerAlertActions.TakenCareOf:
-					ProcessTakenCareOfRequest(perp.gameObject, admin, serverPlayerAlerts[index], adminId);
+					ProcessTakenCareOfRequest(perp, admin, serverPlayerAlerts[index], adminId);
 					break;
 			}
 		}
 
-		private void ProcessGibRequest(GameObject perp, GameObject admin, PlayerAlertData alertEntry, string adminId)
+		private void ProcessGibRequest(Mind perp, ConnectedPlayer admin, PlayerAlertData alertEntry, string adminId)
 		{
 			if (alertEntry.gibbed) return;
 
-			var playerScript = perp.GetComponent<PlayerScript>();
-			if (playerScript == null || playerScript.IsGhost || playerScript.playerHealth == null) return;
-			ConnectedPlayer perpPlayer = perp.Player();
+			if (perp == null || perp.IsGhosting || perp.LivingHealthMasterBase == null) return;
 			UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(
-					$"{admin.Player().Username} BRUTALLY GIBBED player {perpPlayer.Name} ({perpPlayer.Username}) for a " +
+					$"{admin.Username} BRUTALLY GIBBED player {perp.CharactersName} ({perp.AssignedPlayer.Username}) for a " +
 			        $"{alertEntry.playerAlertType.ToString()} incident that happened at roundtime: {alertEntry.roundTime}", adminId);
 
-			playerScript.playerHealth.Gib();
+			perp.LivingHealthMasterBase.Gib();
 
 			alertEntry.gibbed = true;
 			ServerSendEntryToAllAdmins(alertEntry);
@@ -182,15 +180,13 @@ namespace AdminTools
 			PlayerAlertNotifications.SendToAll(-1);
 		}
 
-		private void ProcessTakenCareOfRequest(GameObject perp, GameObject admin, PlayerAlertData alertEntry, string adminId)
+		private void ProcessTakenCareOfRequest(Mind perp, ConnectedPlayer admin, PlayerAlertData alertEntry, string adminId)
 		{
 			if (alertEntry.takenCareOf) return;
 
-			var playerScript = perp.GetComponent<PlayerScript>();
-			if (playerScript == null || playerScript.IsGhost || playerScript.playerHealth == null) return;
-			ConnectedPlayer perpPlayer = perp.Player();
+			if (perp == null || perp.IsGhosting || perp.LivingHealthMasterBase == null) return;
 			UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(
-					$"{admin.Player().Username} is talking to or monitoring player {perpPlayer.Name} ({perpPlayer.Username}) for a " +
+					$"{admin.Username} is talking to or monitoring player {perp.CharactersName} ({perp.AssignedPlayer.Username}) for a " +
 			        $"{alertEntry.playerAlertType.ToString()} incident that happened at roundtime: {alertEntry.roundTime}", adminId);
 
 			alertEntry.takenCareOf = true;

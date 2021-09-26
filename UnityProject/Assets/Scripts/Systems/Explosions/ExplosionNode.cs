@@ -82,7 +82,7 @@ namespace Systems.Explosions
 				integrity.ApplyDamage(Damagedealt, AttackType.Bomb, DamageType.Brute);
 			}
 
-			foreach (var player in matrix.Get<ObjectBehaviour>(v3int, ObjectType.Player, true))
+			foreach (var player in matrix.Get<ObjectBehaviour>(v3int, FlagsObjectType.Player, true))
 			{
 
 				// do damage

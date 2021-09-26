@@ -8,7 +8,7 @@ namespace Systems.MobAIs
 
 		public void SendNoMilkMessage(GameObject cow, GameObject performer)
 		{
-			Chat.AddExamineMsg(performer, noMoreMilkMessage);
+			//Chat.AddExamineMsg(performer, noMoreMilkMessage);
 		}
 	}
 }

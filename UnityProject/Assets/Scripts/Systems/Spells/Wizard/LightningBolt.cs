@@ -29,17 +29,17 @@ namespace Systems.Spells.Wizard
 		[SerializeField, Range(3, 12)]
 		private int secondaryRange = 4;
 
-		private ConnectedPlayer caster;
+		private Mind caster;
 
-		public override bool CastSpellServer(ConnectedPlayer caster, Vector3 clickPosition)
+		public override bool CastSpellServer(Mind caster, Vector3 clickPosition)
 		{
 			this.caster = caster;
 
 			Vector3 targetPosition = clickPosition;
-			if (Vector3.Distance(caster.Script.WorldPos, targetPosition) > primaryRange)
+			if (Vector3.Distance(caster.BodyWorldPosition, targetPosition) > primaryRange)
 			{
-				var direction = (targetPosition - caster.Script.WorldPos).normalized;
-				targetPosition = caster.Script.WorldPos + (direction * primaryRange);
+				var direction = (targetPosition - caster.BodyWorldPosition).normalized;
+				targetPosition = caster.BodyWorldPosition + (direction * primaryRange);
 			}
 
 			GameObject primaryTarget = ZapPrimaryTarget(caster, targetPosition);
@@ -51,11 +51,11 @@ namespace Systems.Spells.Wizard
 			return true;
 		}
 
-		private GameObject ZapPrimaryTarget(ConnectedPlayer caster, Vector3 targetPosition)
+		private GameObject ZapPrimaryTarget(Mind caster, Vector3 targetPosition)
 		{
 			GameObject targetObject = default;
 
-			var raycast = RaycastToTarget(caster.Script.WorldPos, targetPosition);
+			var raycast = RaycastToTarget(caster.BodyWorldPosition, targetPosition);
 			if (raycast.ItHit)
 			{
 				targetPosition = raycast.HitWorld;
@@ -65,14 +65,14 @@ namespace Systems.Spells.Wizard
 				targetObject = TryGetGameObjectAt(targetPosition);
 			}
 
-			Zap(caster.GameObject, targetObject, arcCount, targetObject == null ? targetPosition : default);
+			Zap(caster.GameObjectBody, targetObject, arcCount, targetObject == null ? targetPosition : default);
 
 			return targetObject;
 		}
 
 		private void ZapSecondaryTargets(GameObject originatingObject, Vector3 centrepoint)
 		{
-			var ignored = new GameObject[2] { caster.GameObject, originatingObject };
+			var ignored = new GameObject[2] { caster.GameObjectBody, originatingObject };
 			int i = 0;
 
 			var mobs = GetNearbyEntities(centrepoint, LayerMask.GetMask("Players", "NPC"), ignored);
@@ -121,7 +121,7 @@ namespace Systems.Spells.Wizard
 
 			if (arc.Settings.endObject.TryGetComponent<LivingHealthMasterBase>(out var health))
 			{
-				health.ApplyDamageAll(caster.GameObject, damage * arc.Settings.arcCount, AttackType.Magic, DamageType.Burn);
+				health.ApplyDamageAll(caster.GameObjectBody, damage * arc.Settings.arcCount, AttackType.Magic, DamageType.Burn);
 			}
 			else if (arc.Settings.endObject.TryGetComponent<Integrity>(out var integrity))
 			{

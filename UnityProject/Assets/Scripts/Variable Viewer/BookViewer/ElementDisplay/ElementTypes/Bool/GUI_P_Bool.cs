@@ -36,7 +36,7 @@ public class GUI_P_Bool : PageElement
 	{
 		if (PageID != 0)
 		{
-			RequestChangeVariableNetMessage.Send(PageID, change.isOn.ToString(),UISendToClientToggle.toggle, ServerData.UserID, PlayerList.Instance.AdminToken);
+			RequestChangeVariableNetMessage.Send(PageID, change.isOn.ToString(),UISendToClientToggle.toggle, ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
 	}
 

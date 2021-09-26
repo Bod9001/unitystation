@@ -15,12 +15,12 @@ namespace Items
 		[Tooltip("The initial state the tool is in.")]
 		[SerializeField]
 		private int initialStateIndex = 0;
-		
+
 		[Tooltip("The tool states which this item will be able to represent via a HandActivate toggle in-game. " +
 				"Effectively, you'll want this list to be at least 2 entries large.")]
 		[SerializeField]
 		private List<ToolState> states = default;
-		
+
 		private ItemAttributesV2 itemAttributes;
 		private SpriteHandler spriteHandler;
 
@@ -61,7 +61,7 @@ namespace Items
 			}
 
 			spriteHandler.ChangeSprite(CurrentState.spriteIndex);
-			SoundManager.PlayNetworkedAtPos(CurrentState.changeSound, interaction.PerformerPlayerScript.WorldPos);
+			SoundManager.PlayNetworkedAtPos(CurrentState.changeSound, interaction.Performer.BodyWorldPosition);
 			Chat.AddExamineMsgFromServer(interaction.Performer, CurrentState.changeMessage);
 		}
 

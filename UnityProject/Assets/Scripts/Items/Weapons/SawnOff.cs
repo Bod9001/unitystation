@@ -26,7 +26,7 @@ namespace Weapons
 
 		[SerializeField, Tooltip("Sawn off item size")]
 		private ItemSize sawnSize = ItemSize.Medium;
-	
+
 		[SerializeField, Tooltip("Value that determines how far a shot will deviate. (Never set this higher then 0.5 unless you want questionable results.)")]
 		private float sawnMaxRecoilVariance;
 
@@ -69,7 +69,7 @@ namespace Weapons
 
 				if (ammoBackfire && gunComp.CurrentMagazine.ServerAmmoRemains != 0)
 				{
-					gunComp.ServerShoot(interaction.Performer, Vector2.zero, BodyPartType.Head, true);
+					gunComp.ServerShoot(interaction.Performer.GameObjectBody, Vector2.zero, BodyPartType.Head, true);
 					Chat.AddActionMsgToChat(interaction.Performer,
 					$"The {gameObject.ExpensiveName()} goes off in your face!",
 					$"The {gameObject.ExpensiveName()} goes off in {interaction.Performer.ExpensiveName()}'s face!");
@@ -94,7 +94,7 @@ namespace Weapons
 				}
 			}
 
-			// Propagates the InventoryApply Interaction to the Gun component for all basic gun InventoryApply interactions.	
+			// Propagates the InventoryApply Interaction to the Gun component for all basic gun InventoryApply interactions.
 			gunComp.ServerPerformInteraction(interaction);
 		}
 	}

@@ -9,7 +9,7 @@ using Messages.Server;
 public class PlayerEatDrinkEffects : NetworkBehaviour
 {
 	[Server]
-	public void ServerSendMessageToClient(GameObject client, int newValue)
+	public void ServerSendMessageToClient(Mind client, int newValue)
 	{
 		PlayerEatDrinkEffectsServerMessage.Send(client, newValue);
 	}
@@ -32,7 +32,7 @@ public class PlayerEatDrinkEffectsServerMessage : ServerMessage<PlayerEatDrinkEf
 	/// <summary>
 	/// Send full update to a client
 	/// </summary>
-	public static NetMessage Send(GameObject clientConn, int newAlcoholValue)
+	public static NetMessage Send(Mind clientConn, int newAlcoholValue)
 	{
 		NetMessage msg = new NetMessage
 		{

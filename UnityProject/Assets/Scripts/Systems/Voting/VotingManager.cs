@@ -84,7 +84,7 @@ public class VotingManager : NetworkBehaviour
 	}
 
 	[Server]
-	public void TryInitiateRestartVote(GameObject instigator)
+	public void TryInitiateRestartVote(Mind instigator)
 	{
 		if (voteInProgress || voteRestartSuccess) return;
 
@@ -131,7 +131,7 @@ public class VotingManager : NetworkBehaviour
 
 		Chat.AddGameWideSystemMsgToChat("<color=blue>Vote was Vetoed by admin</color>");
 
-		var msg = $"Vote was vetoed by {PlayerList.Instance.GetByUserID(adminId).Username}";
+		var msg = $"Vote was vetoed by {PlayersManager.Instance.GetByUserID(adminId).Username}";
 
 		UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(msg, adminId);
 		Logger.Log(msg, Category.Admin);
@@ -149,7 +149,7 @@ public class VotingManager : NetworkBehaviour
 				RpcUpdateVoteStats((30 - prevSecond).ToString(), CountAmountString());
 
 				//If there are admins online, dont complete vote until after 15 seconds even if it will pass to allow for veto
-				if (PlayerList.Instance.GetAllAdmins().Count > 0 && (30 - prevSecond) > 15) return;
+				if (PlayersManager.Instance.GetAllAdmins().Count > 0 && (30 - prevSecond) > 15) return;
 
 				CheckVoteCriteria();
 			}
@@ -175,7 +175,7 @@ public class VotingManager : NetworkBehaviour
 
 	private void CheckVoteCriteria()
 	{
-		if (IsSuccess(ForVoteCount(), PlayerList.Instance.AllPlayers.Count))
+		if (IsSuccess(ForVoteCount(), PlayersManager.Instance.AllPlayers.Count))
 		{
 			switch (voteType)
 			{
@@ -217,7 +217,7 @@ public class VotingManager : NetworkBehaviour
 
 	private string CountAmountString()
 	{
-		return $"{ForVoteCount()} / {PlayerList.Instance.AllPlayers.Count}";
+		return $"{ForVoteCount()} / {PlayersManager.Instance.AllPlayers.Count}";
 	}
 
 	/// <summary>

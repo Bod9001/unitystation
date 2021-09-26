@@ -114,7 +114,7 @@ public class Welder : NetworkBehaviour, IInteractable<HandActivate>, IServerSpaw
 	}
 
 	[Server]
-	public void ServerToggleWelder(GameObject originator)
+	public void ServerToggleWelder(Mind originator)
 	{
 		SyncIsOn(isOn, !isOn);
 	}

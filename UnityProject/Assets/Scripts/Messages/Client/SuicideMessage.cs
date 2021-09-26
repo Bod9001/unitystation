@@ -12,13 +12,13 @@ namespace Messages.Client
 
 		public override void Process(NetMessage msg)
 		{
-			Logger.Log("Player '" + SentByPlayer.Name + "' has committed suicide", Category.Health);
-
-			if (SentByPlayer.Script.TryGetComponent<LivingHealthMasterBase>(out var livingHealthBehaviour))
+			Logger.Log("Player '" + SentByPlayer.Username + "' has committed suicide", Category.Health);
+			var livingHealthBehaviour = SentByPlayer.CurrentMind.LivingHealthMasterBase;
+			if (livingHealthBehaviour)
 			{
 				if (livingHealthBehaviour.IsDead)
 				{
-					Logger.LogWarning("Player '" + SentByPlayer.Name + "' is attempting to commit suicide but is already dead.", Category.Health);
+					Logger.LogWarning("Player '" + SentByPlayer.Username + "' is attempting to commit suicide but is already dead.", Category.Health);
 				}
 				else
 				{
@@ -28,13 +28,13 @@ namespace Messages.Client
 				return;
 			}
 
-			if (SentByPlayer.Script.TryGetComponent<AiPlayer>(out var aiPlayer))
+			if (SentByPlayer.CurrentMind.GameObjectBody.TryGetComponent<AiPlayer>(out var aiPlayer))
 			{
 				aiPlayer.Suicide();
 				return;
 			}
 
-			if (SentByPlayer.Script.TryGetComponent<BlobPlayer>(out var blobPlayer))
+			if (SentByPlayer.CurrentMind.GameObjectBody.TryGetComponent<BlobPlayer>(out var blobPlayer))
 			{
 				blobPlayer.Death();
 			}

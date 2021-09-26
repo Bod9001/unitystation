@@ -142,7 +142,7 @@ namespace Objects.Wallmounts
 							if (result.Successful)
 							{
 								result.GameObject.GetComponent<Directional>().FaceDirection(directional.CurrentDirection);
-								result.GameObject.GetComponent<SecurityCamera>().SetUp(interaction.PerformerPlayerScript);
+								result.GameObject.GetComponent<SecurityCamera>().SetUp(interaction.Performer);
 							}
 
 							_ = Despawn.ServerSingle(gameObject);

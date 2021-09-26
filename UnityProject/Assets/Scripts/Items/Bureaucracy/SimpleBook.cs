@@ -27,7 +27,7 @@ namespace Items.Bureaucracy
 		[SerializeField, ReorderableList]
 		private string[] remarks = default;
 
-		private readonly Dictionary<ConnectedPlayer, int> readerProgress = new Dictionary<ConnectedPlayer, int>();
+		private readonly Dictionary<Mind, int> readerProgress = new Dictionary<Mind, int>();
 		protected bool hasBeenRead = false;
 
 		protected bool AllowOnlyOneReader => allowOnlyOneReader;
@@ -41,7 +41,7 @@ namespace Items.Bureaucracy
 
 		public void ServerPerformInteraction(HandActivate interaction)
 		{
-			ConnectedPlayer player = interaction.Performer.Player();
+			var player = interaction.Performer;
 
 			if (TryReading(player))
 			{
@@ -53,44 +53,44 @@ namespace Items.Bureaucracy
 		/// Whether it is possible for the reader to read this book.
 		/// </summary>
 		/// <returns></returns>
-		protected virtual bool TryReading(ConnectedPlayer player)
+		protected virtual bool TryReading(Mind player)
 		{
 			if (canBeReadMultipleTimes == false &&
 					readerProgress.ContainsKey(player) && readerProgress[player] > pagesToRead)
 			{
-				Chat.AddExamineMsgFromServer(player.GameObject, $"You already know all about <b>{gameObject.ExpensiveName()}</b>!");
+				Chat.AddExamineMsgFromServer(player, $"You already know all about <b>{gameObject.ExpensiveName()}</b>!");
 				return false;
 			}
 			if (AllowOnlyOneReader && hasBeenRead)
 			{
-				Chat.AddExamineMsgFromServer(player.GameObject, $"It seems you can't read this book... has someone claimed it?");
+				Chat.AddExamineMsgFromServer(player, $"It seems you can't read this book... has someone claimed it?");
 				return false;
 			}
 
 			return true;
 		}
 
-		private void StartReading(ConnectedPlayer player)
+		private void StartReading(Mind player)
 		{
 			if (readerProgress.ContainsKey(player) == false)
 			{
 				readerProgress.Add(player, 0);
-				Chat.AddActionMsgToChat(player.GameObject,
+				Chat.AddActionMsgToChat(player,
 						$"You begin reading {gameObject.ExpensiveName()}...",
-						$"{player.Script.visibleName} begins reading {gameObject.ExpensiveName()}...");
+						$"{player.ExpensiveName()} begins reading {gameObject.ExpensiveName()}...");
 				ReadBook(player);
 			}
 			else
 			{
-				Chat.AddActionMsgToChat(player.GameObject,
+				Chat.AddActionMsgToChat(player,
 						$"You resume reading {gameObject.ExpensiveName()}...",
-						$"{player.Script.visibleName} resumes reading {gameObject.ExpensiveName()}...");
+						$"{player.ExpensiveName()} resumes reading {gameObject.ExpensiveName()}...");
 				ReadBook(player, readerProgress[player]);
 			}
 		}
 
 		// Note: this is a recursive method.
-		private void ReadBook(ConnectedPlayer player, int pageToRead = 0)
+		private void ReadBook(Mind player, int pageToRead = 0)
 		{
 			if (pageToRead >= pagesToRead || pageToRead > 10)
 			{
@@ -104,9 +104,9 @@ namespace Items.Bureaucracy
 				false
 			);
 			StandardProgressAction.Create(cfg, ReadPage).ServerStartProgress(
-				player.GameObject.RegisterTile(),
+				player.registerTile,
 				timeToReadPage,
-				player.GameObject
+				player
 			);
 
 			void ReadPage()
@@ -115,7 +115,7 @@ namespace Items.Bureaucracy
 
 				// TODO: play random page-turning sound => pageturn1.ogg || pageturn2.ogg || pageturn3.ogg
 				string remark = remarks[Random.Range(0, remarks.Length)];
-				Chat.AddExamineMsgFromServer(player.GameObject, remark);
+				Chat.AddExamineMsgFromServer(player, remark);
 
 				ReadBook(player, readerProgress[player]);
 			}
@@ -124,7 +124,7 @@ namespace Items.Bureaucracy
 		/// <summary>
 		/// Triggered when the reader has read all of the pages.
 		/// </summary>
-		protected virtual void FinishReading(ConnectedPlayer player)
+		protected virtual void FinishReading(Mind player)
 		{
 			hasBeenRead = true;
 
@@ -133,9 +133,9 @@ namespace Items.Bureaucracy
 				readerProgress[player] = 0;
 			}
 
-			Chat.AddActionMsgToChat(player.GameObject,
+			Chat.AddActionMsgToChat(player,
 					$"You finish reading {gameObject.ExpensiveName()}!",
-					$"{player.Script.visibleName} finishes reading {gameObject.ExpensiveName()}!");
+					$"{player.ExpensiveName()} finishes reading {gameObject.ExpensiveName()}!");
 		}
 	}
 }

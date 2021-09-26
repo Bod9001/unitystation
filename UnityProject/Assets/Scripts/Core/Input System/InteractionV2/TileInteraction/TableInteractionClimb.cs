@@ -22,7 +22,7 @@ public class TableInteractionClimb : TileInteraction
 			}
 
 			// Do a sanity check to make sure someone isn't dropping the shadow from like 9000 tiles away.
-			var mag = (playerSync.ServerPosition - interaction.PerformerPlayerScript.PlayerSync.ServerPosition).magnitude;
+			var mag = (playerSync.ServerPosition - interaction.Performer.GameObjectBody.AssumedWorldPosServer()).magnitude;
 			if (mag > PlayerScript.interactionDistance)
 			{
 				//interaction.PerformerPlayerScript
@@ -31,7 +31,7 @@ public class TableInteractionClimb : TileInteraction
 		}
 		else if(interaction.UsedObject.TryGetComponent(out netTransform)) // Do the same check but for mouse draggable objects this time.
 		{
-			var mag = (netTransform.ServerPosition - interaction.PerformerPlayerScript.PlayerSync.ServerPosition).magnitude;
+			var mag = (netTransform.ServerPosition - interaction.Performer.GameObjectBody.AssumedWorldPosServer()).magnitude;
 			if (mag > PlayerScript.interactionDistance)
 			{
 				return false;

@@ -12,7 +12,7 @@ public class StunBatonV2 : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 	private SpriteHandler spriteHandler;
 
 	private MeleeStun meleeStun;
-	
+
 	// Sound played when turning this baton on/off.
 	public AddressableAudioSource ToggleSound;
 
@@ -62,7 +62,7 @@ public class StunBatonV2 : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 	//Activating the baton in-hand turns it off or off depending on its state.
 	public void ServerPerformInteraction(HandActivate interaction)
 	{
-		SoundManager.PlayNetworkedAtPos(ToggleSound, interaction.Performer.AssumedWorldPosServer(), sourceObj: interaction.Performer);
+		SoundManager.PlayNetworkedAtPos(ToggleSound, interaction.Performer.BodyWorldPosition, sourceObj: interaction.Performer.GameObjectBody);
 		if (batonState == BatonState.Off)
 		{
 			TurnOn();

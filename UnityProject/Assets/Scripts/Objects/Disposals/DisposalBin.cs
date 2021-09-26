@@ -256,7 +256,7 @@ namespace Objects.Disposals
 		public void ServerPerformInteraction(MouseDrop interaction)
 		{
 			if (interaction.UsedObject == null) return;
-			if (interaction.UsedObject.TryGetComponent<PlayerScript>(out _) == false) return; // Test to see if player
+			if ( MindManager.StaticGet(interaction.UsedObject) == null) return; // Test to see if player
 
 			// Don't store player unless secured.
 			if (MachineSecured == false) return;

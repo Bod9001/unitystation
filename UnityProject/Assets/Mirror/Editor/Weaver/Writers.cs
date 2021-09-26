@@ -43,7 +43,7 @@ namespace Mirror.Weaver
         /// </summary>
         /// <param name="variable"></param>
         /// <returns>Returns <see cref="MethodReference"/> or null</returns>
-        public static MethodReference GetWriteFunc(TypeReference variable)
+        public static MethodReference GetWriteFunc(TypeReference variable, TypeReference type = null)
         {
             if (writeFuncs.TryGetValue(variable, out MethodReference foundFunc))
             {
@@ -59,7 +59,7 @@ namespace Mirror.Weaver
                 }
                 catch (GenerateWriterException e)
                 {
-                    Weaver.Error(e.Message, e.MemberReference);
+                    Weaver.Error(e.Message + "in " + type,  e.MemberReference);
                     return null;
                 }
             }
@@ -251,7 +251,7 @@ namespace Mirror.Weaver
             uint fields = 0;
             foreach (FieldDefinition field in variable.FindAllPublicFields())
             {
-                MethodReference writeFunc = GetWriteFunc(field.FieldType);
+                MethodReference writeFunc = GetWriteFunc(field.FieldType, variable);
                 // need this null check till later PR when GetWriteFunc throws exception instead
                 if (writeFunc == null) { return false; }
 

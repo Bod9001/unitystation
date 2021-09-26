@@ -295,7 +295,7 @@ namespace Objects.Other
 					if(script.PlayerState != PlayerScript.PlayerStates.Normal || script.IsDeadOrGhost) continue;
 
 					//Check if player is allowed, but only if not an Ai turret as those will shoot all targets
-					if(turretType != TurretType.Ai && ValidatePlayer(script)) continue;
+					if(turretType != TurretType.Ai && ValidatePlayer(script.mind)) continue;
 
 					worldPos = script.WorldPos;
 				}
@@ -337,7 +337,7 @@ namespace Objects.Other
 		/// <summary>
 		/// Validate player based on settings of turret, true if player is allowed, false if player failed validation
 		/// </summary>
-		private bool ValidatePlayer(PlayerScript script)
+		private bool ValidatePlayer(Mind script)
 		{
 			//Neutralize All Unauthorised Personnel
 			if (CheckUnauthorisedPersonnel)
@@ -345,7 +345,7 @@ namespace Objects.Other
 				var allowed = false;
 				foreach (var access in authorisedAccess)
 				{
-					if (AccessRestrictions.CheckAccess(script.gameObject, access) == false) continue;
+					if (AccessRestrictions.CheckAccess(script, access) == false) continue;
 
 					//Only need to check for one valid access
 					allowed = true;
@@ -363,7 +363,7 @@ namespace Objects.Other
 				foreach (var record in CrewManifestManager.Instance.SecurityRecords)
 				{
 					//Check to see if we have record
-					if (record.characterSettings.Name.Equals(script.visibleName) == false) continue;
+					if (record.characterSettings.Name.Equals(script.ExpensiveName()) == false) continue;
 
 					//Check Security Records For Criminals
 					if (CheckSecurityRecords && record.Status == SecurityStatus.Criminal)
@@ -384,7 +384,7 @@ namespace Objects.Other
 				//Neutralize All Unidentified Life Signs
 				//Unknown name check here or else it would be possible for someone to add record with the name Unknown
 				//and then wouldn't be targeted by turrets
-				if (CheckUnidentifiedLifeSigns && (hasRecord == false || script.visibleName.Equals("Unknown")))
+				if (CheckUnidentifiedLifeSigns && (hasRecord == false || script.ExpensiveName().Equals("Unknown")))
 				{
 					return false;
 				}
@@ -409,7 +409,7 @@ namespace Objects.Other
 						var allowed = false;
 						foreach (var access in weaponAuthorisation)
 						{
-							if (AccessRestrictions.CheckAccess(script.gameObject, access) == false) continue;
+							if (AccessRestrictions.CheckAccess(script, access) == false) continue;
 
 							//Only need to check for one valid access
 							allowed = true;
@@ -727,9 +727,9 @@ namespace Objects.Other
 			return message.ToString();
 		}
 
-		public bool CanOpenNetTab(GameObject playerObject, NetTabType netTabType)
+		public bool CanOpenNetTab(Mind playerObject, NetTabType netTabType)
 		{
-			if (turretType != TurretType.Ai && unlocked == false && playerObject.GetComponent<PlayerScript>().PlayerState != PlayerScript.PlayerStates.Ai)
+			if (turretType != TurretType.Ai && unlocked == false && playerObject.GameObjectBody.GetComponent<PlayerScript>().PlayerState != PlayerScript.PlayerStates.Ai)
 			{
 				Chat.AddExamineMsgFromServer(playerObject, "Turret is locked");
 				return false;

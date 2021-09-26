@@ -42,22 +42,22 @@ namespace Systems.Ai
 			if (interaction.HandObject == null)
 			{
 				//Only allow alive AI's cores, or alive AI's carded which have interactions enabled to have law changes
-				var aiPlayers = PlayerList.Instance.GetAllByPlayersOfState(PlayerScript.PlayerStates.Ai).Where(
-					a => a.GameObject.TryGetComponent<AiPlayer>(out var aiPlayer) && aiPlayer.HasDied == false &&
-					     (aiPlayer.IsCarded == false || aiPlayer.AllowRemoteAction)).ToList();
+				// var aiPlayers = PlayersManager.Instance.GetAllByPlayersOfState(PlayerScript.PlayerStates.Ai).Where(
+					// a => a.GameObject.TryGetComponent<AiPlayer>(out var aiPlayer) && aiPlayer.HasDied == false &&
+					     // (aiPlayer.IsCarded == false || aiPlayer.AllowRemoteAction)).ToList();
 
-				if (lastIndex >= aiPlayers.Count)
+				// if (lastIndex >= aiPlayers.Count)
 				{
 					lastIndex = 0;
 				}
 
-				if (aiPlayers.Count == 0)
+				// if (aiPlayers.Count == 0)
 				{
 					Chat.AddExamineMsgFromServer(interaction.Performer, "There are no Ai's");
 					return;
 				}
 
-				selectedAiPlayer = aiPlayers[lastIndex].GameObject.GetComponent<AiPlayer>();
+				// selectedAiPlayer = aiPlayers[lastIndex].GameObject.GetComponent<AiPlayer>();
 
 				Chat.AddExamineMsgFromServer(interaction.Performer, $"{selectedAiPlayer.gameObject.ExpensiveName()} selected");
 

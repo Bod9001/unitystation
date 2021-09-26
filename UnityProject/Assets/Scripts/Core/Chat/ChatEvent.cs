@@ -96,7 +96,7 @@ public class ChatEvent
 	public ChatModifier modifiers = ChatModifier.None;
 	public string speaker;
 	public double timestamp;
-	public Vector3 position = TransformState.HiddenPos;
+	public Vector3? position = null;
 	public GameObject originator;
 	public bool stripTags = true;
 	public Loudness VoiceLevel = Loudness.NORMAL;

@@ -48,7 +48,7 @@ namespace UI.Action
 
 		public void CallActionClient()
 		{
-			if (Validations.CanInteract(PlayerManager.LocalPlayerScript, NetworkSide.Client, allowSoftCrit: true))
+			if (Validations.CanInteract(LocalPlayerManager.CurrentMind, NetworkSide.Client, allowSoftCrit: true))
 			{
 				ClientActionClicked?.Invoke();
 				UpdateButtonSprite(false);
@@ -57,7 +57,7 @@ namespace UI.Action
 
 		public void CallActionServer(ConnectedPlayer SentByPlayer)
 		{
-			if (Validations.CanInteract(SentByPlayer.Script , NetworkSide.Server, true))
+			if (Validations.CanInteract(SentByPlayer.CurrentMind , NetworkSide.Server, true))
 			{
 				ServerActionClicked?.Invoke();
 				UpdateButtonSprite(true);
@@ -69,7 +69,7 @@ namespace UI.Action
 			bool shouldShow = ShouldShowButton(info);
 			ClientSetActionButtonVisibility(shouldShow);
 
-			if (PlayerManager.LocalPlayerScript == null || PlayerManager.LocalPlayerScript.playerHealth == null) return;
+			if (LocalPlayerManager.CurrentMind == null || LocalPlayerManager.CurrentMind.LivingHealthMasterBase == null) return;
 		}
 
 		public void ClientSetActionButtonVisibility(bool isVisible)

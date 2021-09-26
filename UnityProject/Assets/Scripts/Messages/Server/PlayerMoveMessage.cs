@@ -35,7 +35,7 @@ namespace Messages.Server
 			var playerSync = NetworkObject.GetComponent<PlayerSync>();
 			playerSync.UpdateClientState(msg.State);
 
-			if ( NetworkObject == PlayerManager.LocalPlayer ) {
+			if ( NetworkObject == LocalPlayerManager.LocalPlayer ) {
 				if (msg.State.ResetClientQueue)
 				{
 					playerSync.ClearQueueClient();
@@ -50,7 +50,7 @@ namespace Messages.Server
 			}
 		}
 
-		public static NetMessage Send(NetworkConnection recipient, GameObject subjectPlayer, PlayerState state)
+		public static NetMessage Send(NetworkConnection recipient, Mind subjectPlayer, PlayerState state)
 		{
 			var msg = new NetMessage
 			{
@@ -62,14 +62,14 @@ namespace Messages.Server
 			return msg;
 		}
 
-		public static void SendToAll(GameObject subjectPlayer, PlayerState state)
+		public static void SendToAll(Mind subjectPlayer, PlayerState state)
 		{
 			if (PlayerUtils.IsGhost(subjectPlayer))
 			{
 				// Send ghost positions only to ghosts
-				foreach (var connectedPlayer in PlayerList.Instance.InGamePlayers)
+				foreach (var connectedPlayer in PlayersManager.Instance.InGamePlayers)
 				{
-					if (PlayerUtils.IsGhost(connectedPlayer.GameObject))
+					if (PlayerUtils.IsGhost(connectedPlayer.CurrentMind))
 					{
 						Send(connectedPlayer.Connection, subjectPlayer, state);
 					}

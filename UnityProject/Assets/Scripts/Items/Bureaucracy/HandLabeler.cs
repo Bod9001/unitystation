@@ -23,7 +23,7 @@ namespace Items
 		public void OnInputReceived(string input)
 		{
 			StartCoroutine(WaitToAllowInput());
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdRequestItemLabel(gameObject, input);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdRequestItemLabel(gameObject, input);
 		}
 
 		IEnumerator WaitToAllowInput()
@@ -72,7 +72,7 @@ namespace Items
 
 			labelAmount--;
 
-			Chat.AddActionMsgToChat(interaction, "You labeled " + item.InitialName + " as '" + currentLabel + "'.", interaction.Performer.Player().Name + " labeled " + item.InitialName + " as '" + currentLabel + "'.");
+			Chat.AddActionMsgToChat(interaction, "You labeled " + item.InitialName + " as '" + currentLabel + "'.", interaction.Performer.ExpensiveName() + " labeled " + item.InitialName + " as '" + currentLabel + "'.");
 		}
 
 		public bool WillInteract(InventoryApply interaction, NetworkSide side)

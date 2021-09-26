@@ -53,7 +53,7 @@ namespace UI.Systems.Ghost
 
 		public void ReenterCorpse()
 		{
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdGhostCheck();
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdGhostCheck();
 		}
 
 		public void Teleport()
@@ -70,13 +70,13 @@ namespace UI.Systems.Ghost
 
 		public void Respawn()
 		{
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdRespawnPlayer(ServerData.UserID, PlayerList.Instance.AdminToken);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdRespawnPlayer(ServerData.UserID, PlayersManager.Instance.AdminToken);
 			Camera.main.GetComponent<CameraEffects.CameraEffectControlScript>().EnsureAllEffectsAreDisabled();
 		}
 
 		public void ToggleAllowCloning()
 		{
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdToggleAllowCloning();
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdToggleAllowCloning();
 		}
 
 		public void ToggleGhostHearRange()
@@ -115,18 +115,18 @@ namespace UI.Systems.Ghost
 		public void AdminGhostInventoryDrop()
 		{
 			_ = SoundManager.Play(CommonSounds.Instance.Click01);
-			if (PlayerManager.PlayerScript != null)
+			if (LocalPlayerManager.CurrentMind != null)
 			{
-				AdminCommandsManager.Instance.CmdAdminGhostDropItem(ServerData.UserID, PlayerList.Instance.AdminToken);
+				AdminCommandsManager.Instance.CmdAdminGhostDropItem(ServerData.UserID, PlayersManager.Instance.AdminToken);
 			}
 		}
 
 		public void AdminGhostInvSmash()
 		{
 			_ = SoundManager.Play(CommonSounds.Instance.Click01);
-			if (PlayerManager.PlayerScript != null)
+			if (LocalPlayerManager.CurrentMind != null)
 			{
-				AdminCommandsManager.Instance.CmdAdminGhostSmashItem(ServerData.UserID, PlayerList.Instance.AdminToken);
+				AdminCommandsManager.Instance.CmdAdminGhostSmashItem(ServerData.UserID, PlayersManager.Instance.AdminToken);
 			}
 		}
 	}

@@ -23,10 +23,10 @@ namespace Messages.Client.Admin
 
 		void VerifyAdminStatus(NetMessage msg)
 		{
-			var player = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var player = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (player != null)
 			{
-				PlayerList.Instance.ProcessKickRequest(msg.Userid, msg.UserToKick, msg.Reason, msg.IsBan, msg.BanMinutes, msg.AnnounceBan);
+				PlayersManager.Instance.ProcessKickRequest(msg.Userid, msg.UserToKick, msg.Reason, msg.IsBan, msg.BanMinutes, msg.AnnounceBan);
 			}
 		}
 

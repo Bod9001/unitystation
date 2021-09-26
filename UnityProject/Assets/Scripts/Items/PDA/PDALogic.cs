@@ -151,7 +151,7 @@ namespace Items.PDA
 			if (RegisteredPlayerName != default) return; // PDA already registered to someone
 			if (info.ToRootPlayer == null) return; // PDA was not added to player
 
-			ConnectedPlayer pickedUpBy = info.ToRootPlayer.gameObject.Player();
+			Mind pickedUpBy = info.ToRootPlayer.gameObject.Player();
 			RegisterTo(pickedUpBy);
 
 			if (debugUplink)
@@ -160,10 +160,10 @@ namespace Items.PDA
 			}
 		}
 
-		private void RegisterTo(ConnectedPlayer player)
+		private void RegisterTo(Mind player)
 		{
-			RegisteredPlayerName = player.Script.playerName;
-			gameObject.name = $"{player.Script.playerName}'s PDA ({player.Script.mind.occupation.DisplayName})";
+			RegisteredPlayerName = player.CharactersName;
+			gameObject.name = $"{player.CharactersName}'s PDA ({player.occupation.DisplayName})";
 			gameObject.Item().ServerSetArticleName(gameObject.name);
 		}
 
@@ -205,11 +205,11 @@ namespace Items.PDA
 			}
 		}
 
-		private ConnectedPlayer GetPlayerByParentInventory()
+		private Mind GetPlayerByParentInventory()
 		{
 			if (pickupable.ItemSlot == null) return default;
 
-			return pickupable.ItemSlot.RootPlayer().gameObject.Player();
+			return pickupable.ItemSlot.RootPlayer();
 		}
 
 		#region Sounds
@@ -241,10 +241,10 @@ namespace Items.PDA
 		{
 			GameObject sourceObject = gameObject;
 
-			ConnectedPlayer player = GetPlayerByParentInventory();
+			var player = GetPlayerByParentInventory();
 			if (player != null)
 			{
-				sourceObject = player.GameObject;
+				sourceObject = player.GameObjectBody;
 			}
 
 			SoundManager.PlayNetworkedAtPos(soundName, sourceObject.AssumedWorldPosServer(), sourceObj: sourceObject);
@@ -255,7 +255,7 @@ namespace Items.PDA
 			var player = GetPlayerByParentInventory();
 			if (player == null) return;
 
-			_ = SoundManager.PlayNetworkedForPlayerAtPos(player.GameObject, player.Script.WorldPos, soundName, sourceObj: player.GameObject);
+			_ = SoundManager.PlayNetworkedForPlayerAtPos(player, player.BodyWorldPosition, soundName, sourceObj: player.GameObjectBody);
 		}
 
 		#endregion Sounds
@@ -324,7 +324,7 @@ namespace Items.PDA
 			return false;
 		}
 
-		private void ServerInsertItem(GameObject item, ItemSlot fromSlot, GameObject player)
+		private void ServerInsertItem(GameObject item, ItemSlot fromSlot, Mind player)
 		{
 			if (item.TryGetComponent(out IDCard card))
 			{
@@ -382,7 +382,7 @@ namespace Items.PDA
 		/// <param name="informPlayer">The player that will be informed the code to the PDA uplink</param>
 		/// <param name="tcCount">The amount of telecrystals to add to the uplink.</param>
 		/// <param name="isNukie">Determines if the uplink can purchase nukeop exclusive items</param>
-		public void InstallUplink(ConnectedPlayer informPlayer, int tcCount, bool isNukie)
+		public void InstallUplink(Mind informPlayer, int tcCount, bool isNukie)
 		{
 			UplinkTC = tcCount; // Add; if uplink installed again (e.g. via admin tools (player request more TC)).
 			UplinkUnlockCode = GenerateUplinkUnlockCode();
@@ -406,14 +406,14 @@ namespace Items.PDA
 			return code += nums;
 		}
 
-		private IEnumerator DelayInformUplinkCode(ConnectedPlayer forPlayer)
+		private IEnumerator DelayInformUplinkCode(Mind forPlayer)
 		{
 			// We delay the uplink code inform to reduce information overload (player was likely just given objectives)
 			yield return WaitFor.Seconds(informUplinkCodeDelay);
 			InformUplinkCode(forPlayer);
 		}
 
-		private void InformUplinkCode(ConnectedPlayer player)
+		private void InformUplinkCode(Mind player)
 		{
 			var uplinkMessage =
 					$"{(debugUplink ? "<b>UPLINK DEBUGGING ENABLED: </b>" : "")}" +
@@ -453,7 +453,7 @@ namespace Items.PDA
 
 			if (cost > UplinkTC) return;
 
-			var result = Spawn.ServerPrefab(objectRequested,GetComponent<Pickupable>().ItemSlot.Player.WorldPosition);
+			var result = Spawn.ServerPrefab(objectRequested,GetComponent<Pickupable>().ItemSlot.Player.BodyWorldPosition);
 			if (result.Successful)
 			{
 				UplinkTC -= cost;
@@ -509,7 +509,7 @@ namespace Items.PDA
 				return default;
 			}
 
-			var playerStorage = player.Script.DynamicItemStorage;
+			var playerStorage = player.DynamicItemStorage;
 			return playerStorage.GetBestHandOrSlotFor(item);
 		}
 

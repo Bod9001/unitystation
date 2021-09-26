@@ -82,7 +82,7 @@ namespace Items
 		{
 			wallPrefab.GetComponent<PosterBehaviour>().posterVariant = posterVariant;
 			wallPrefab.GetComponent<Directional>().InitialDirection = Orientation
-				.From(interaction.Performer.TileWorldPosition() - interaction.WorldPositionTarget).AsEnum();
+				.From(interaction.Performer.BodyWorldPosition.To2Int() - interaction.WorldPositionTarget).AsEnum();
 
 			Spawn.ServerPrefab(wallPrefab, interaction.WorldPositionTarget.RoundToInt(),
 				interaction.Performer.transform.parent);

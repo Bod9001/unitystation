@@ -22,10 +22,10 @@ namespace Messages.Client.Admin
 
 		void VerifyAdminStatus(NetMessage msg)
 		{
-			var player = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var player = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (player == null)
 			{
-				player = PlayerList.Instance.GetMentor(msg.Userid, msg.AdminToken);
+				player = PlayersManager.Instance.GetMentor(msg.Userid, msg.AdminToken);
 				if(player == null)
 					return;
 			}

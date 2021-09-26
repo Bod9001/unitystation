@@ -17,7 +17,6 @@ namespace Player
 	/// <summary>
 	/// A class that deals with the processing of crafting items by a player.
 	/// </summary>
-	[RequireComponent(typeof(PlayerScript))]
 	public class PlayerCrafting : NetworkBehaviour
 	{
 		private readonly List<List<CraftingRecipe>> knownRecipesByCategory = new List<List<CraftingRecipe>>();
@@ -30,9 +29,8 @@ namespace Player
 		[SerializeField, ReorderableList] [Tooltip("Default recipes known to a player.")]
 		private CraftingRecipeList defaultKnownRecipes = null;
 
-		private PlayerScript playerScript;
+		public Mind RelatedMind;
 
-		public PlayerScript PlayerScript => playerScript;
 
 		private StandardProgressActionConfig craftProgressActionConfig = new StandardProgressActionConfig(
 			StandardProgressActionType.Craft
@@ -42,7 +40,6 @@ namespace Player
 
 		private void Awake()
 		{
-			playerScript = GetComponent<PlayerScript>();
 			InitKnownRecipesByCategories();
 		}
 
@@ -116,12 +113,12 @@ namespace Player
 		public void LearnRecipe(CraftingRecipe recipe)
 		{
 			// if the player is a host and a client at the same time...
-			if (playerScript == PlayerManager.LocalPlayerScript)
+			if (RelatedMind == LocalPlayerManager.CurrentMind)
 			{
 				// ...then we'll handle the recipe learning on the "client" side,
 				// so we won't have duplicates in the known recipes list
 				// (because the server and the client have one known recipes list for two)
-				SendLearnedCraftingRecipe.SendTo(playerScript.connectedPlayer, recipe);
+				SendLearnedCraftingRecipe.SendTo(RelatedMind.AssignedPlayer, recipe);
 				return;
 			}
 
@@ -130,7 +127,7 @@ namespace Player
 				return;
 			}
 
-			SendLearnedCraftingRecipe.SendTo(playerScript.connectedPlayer, recipe);
+			SendLearnedCraftingRecipe.SendTo(RelatedMind.AssignedPlayer, recipe);
 		}
 
 		/// <summary>
@@ -176,7 +173,7 @@ namespace Player
 		public void ForgetRecipe(CraftingRecipe recipe)
 		{
 			GetKnownRecipesInCategory(recipe.Category).Remove(recipe);
-			SendForgottenCraftingRecipe.SendTo(playerScript.connectedPlayer, recipe);
+			SendForgottenCraftingRecipe.SendTo(RelatedMind.AssignedPlayer, recipe);
 		}
 
 		#endregion
@@ -190,11 +187,11 @@ namespace Player
 		[Server]
 		public bool IsPlayerAbleToCraft()
 		{
-			return !PlayerScript.playerMove.IsCuffed
-			       && !PlayerScript.playerMove.IsTrapped
-			       && !PlayerScript.IsGhost
-			       && !PlayerScript.playerHealth.IsCrit
-			       && !PlayerScript.playerHealth.IsDead;
+			return !RelatedMind.PlayerMove.IsCuffed
+			       && !RelatedMind.PlayerMove.IsTrapped
+			       && !RelatedMind.IsGhosting
+			       && !RelatedMind.LivingHealthMasterBase.IsCrit
+			       && !RelatedMind.LivingHealthMasterBase.IsDead;
 		}
 
 		/// <summary>
@@ -286,14 +283,14 @@ namespace Player
 		public List<CraftingIngredient> GetPossibleIngredients(NetworkSide networkSide)
 		{
 			List<CraftingIngredient> possibleIngredients = MatrixManager.GetReachableAdjacent<CraftingIngredient>(
-				playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
+				RelatedMind.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
 			);
 
 			possibleIngredients.AddRange(MatrixManager.GetAt<CraftingIngredient>(
-				playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
+				RelatedMind.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
 			));
 
-			foreach (ItemSlot handSlot in playerScript.DynamicItemStorage.GetHandSlots())
+			foreach (ItemSlot handSlot in RelatedMind.DynamicItemStorage.GetHandSlots())
 			{
 				if (
 					handSlot.ItemObject != null
@@ -304,7 +301,7 @@ namespace Player
 				}
 			}
 
-			foreach (ItemSlot pocketsSlot in playerScript.DynamicItemStorage.GetPocketsSlots())
+			foreach (ItemSlot pocketsSlot in RelatedMind.DynamicItemStorage.GetPocketsSlots())
 			{
 				if (
 					pocketsSlot.ItemObject != null
@@ -326,14 +323,14 @@ namespace Player
 		public List<ItemAttributesV2> GetPossibleTools(NetworkSide networkSide)
 		{
 			List<ItemAttributesV2> possibleTools = MatrixManager.GetReachableAdjacent<ItemAttributesV2>(
-				playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
+				RelatedMind.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
 			);
 
 			possibleTools.AddRange(MatrixManager.GetAt<ItemAttributesV2>(
-				playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
+				RelatedMind.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
 			));
 
-			foreach (ItemSlot handSlot in playerScript.DynamicItemStorage.GetHandSlots())
+			foreach (ItemSlot handSlot in RelatedMind.DynamicItemStorage.GetHandSlots())
 			{
 				if (
 					handSlot.ItemObject != null
@@ -345,7 +342,7 @@ namespace Player
 				}
 			}
 
-			foreach (ItemSlot pocketsSlot in playerScript.DynamicItemStorage.GetPocketsSlots())
+			foreach (ItemSlot pocketsSlot in RelatedMind.DynamicItemStorage.GetPocketsSlots())
 			{
 				if (
 					pocketsSlot.ItemObject != null
@@ -367,15 +364,15 @@ namespace Player
 		public List<ReagentContainer> GetReagentContainers()
 		{
 			List<ReagentContainer> reagentContainers = MatrixManager.GetReachableAdjacent<ReagentContainer>(
-				playerScript.PlayerSync.ClientPosition, true
+				RelatedMind.PlayerSync.ClientPosition, true
 			);
 
 			reagentContainers.AddRange(MatrixManager.GetAt<ReagentContainer>(
-				PlayerScript.PlayerSync.ClientPosition,
+				RelatedMind.PlayerSync.ClientPosition,
 				true
 			));
 
-			foreach (ItemSlot handSlot in playerScript.DynamicItemStorage.GetHandSlots())
+			foreach (ItemSlot handSlot in RelatedMind.DynamicItemStorage.GetHandSlots())
 			{
 				if (
 					handSlot.ItemObject != null
@@ -386,7 +383,7 @@ namespace Player
 				}
 			}
 
-			foreach (ItemSlot pocketsSlot in playerScript.DynamicItemStorage.GetPocketsSlots())
+			foreach (ItemSlot pocketsSlot in RelatedMind.DynamicItemStorage.GetPocketsSlots())
 			{
 				if (
 					pocketsSlot.ItemObject != null
@@ -542,7 +539,7 @@ namespace Player
 			StandardProgressAction.Create(
 				craftProgressActionConfig,
 				() => TryToFinishCrafting(recipe, craftingActionParameters)
-			).ServerStartProgress(playerScript.registerTile, recipe.CraftingTime, playerScript.gameObject);
+			).ServerStartProgress(RelatedMind.registerTile, recipe.CraftingTime, RelatedMind);
 		}
 
 		#endregion
@@ -623,7 +620,7 @@ namespace Player
 			List<ReagentContainer> reagentContainers
 		)
 		{
-			recipe.UnsafelyCraft(playerScript, possibleIngredients, possibleTools, reagentContainers);
+			recipe.UnsafelyCraft(RelatedMind, possibleIngredients, possibleTools, reagentContainers);
 		}
 
 		#endregion
@@ -701,7 +698,7 @@ namespace Player
 					if (completingCrafting)
 					{
 						Chat.AddExamineMsgFromServer(
-							playerScript.gameObject,
+							RelatedMind,
 							$"You made \"{recipe.RecipeName}\"."
 						);
 						return;
@@ -710,7 +707,7 @@ namespace Player
 					if (recipe.CraftingTime > 1)
 					{
 						Chat.AddExamineMsgFromServer(
-							playerScript.gameObject,
+							RelatedMind,
 							$"You are trying to craft \"{recipe.RecipeName}\"..."
 						);
 					}
@@ -718,37 +715,37 @@ namespace Player
 					return;
 				case CraftingStatus.NotEnoughIngredients:
 					Chat.AddExamineMsgFromServer(
-						playerScript.gameObject,
+						RelatedMind,
 						$"You can't craft \"{recipe.RecipeName}\" because there are not enough ingredients."
 					);
 					return;
 				case CraftingStatus.NotEnoughTools:
 					Chat.AddExamineMsgFromServer(
-						playerScript.gameObject,
+						RelatedMind,
 						$"You can't craft \"{recipe.RecipeName}\" because there are not enough tools."
 					);
 					return;
 				case CraftingStatus.NotEnoughReagents:
 					Chat.AddExamineMsgFromServer(
-						playerScript.gameObject,
+						RelatedMind,
 						$"You can't craft \"{recipe.RecipeName}\" because there are not enough reagents."
 					);
 					return;
 				case CraftingStatus.NotAbleToCraft:
 					Chat.AddExamineMsgFromServer(
-						playerScript.gameObject,
+						RelatedMind,
 						$"You can't craft \"{recipe.RecipeName}\" because your character can't craft this."
 					);
 					return;
 				case CraftingStatus.UnspecifiedImpossibility:
 					Chat.AddExamineMsgFromServer(
-						playerScript.gameObject,
+						RelatedMind,
 						$"You can't craft \"{recipe.RecipeName}\"."
 					);
 					return;
 				default:
 					Chat.AddExamineMsgFromServer(
-						playerScript.gameObject,
+						RelatedMind,
 						$"You can't craft \"{recipe.RecipeName}\" for some reason. " +
 						"Report this message to developers."
 					);

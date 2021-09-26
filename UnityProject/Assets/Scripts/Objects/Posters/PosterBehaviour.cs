@@ -108,8 +108,8 @@ namespace Objects
 
 		public void ServerPerformInteraction(HandApply interaction)
 		{
-			var pos = interaction.Performer.WorldPosServer();
-			var pna = interaction.Performer.GetComponent<PlayerNetworkActions>();
+			var pos = interaction.Performer.BodyWorldPosition;
+			var pna = interaction.Performer.playerNetworkActions;
 			var item = pna.GetActiveHandItem();
 			if (Validations.HasItemTrait(item, CommonTraits.Instance.Wirecutter))
 			{
@@ -139,7 +139,7 @@ namespace Objects
 			}
 
 			Chat.AddLocalMsgToChat(interaction.Performer.ExpensiveName() +
-								   " rips the poster in a single, decisive motion!", interaction.Performer);
+								   " rips the poster in a single, decisive motion!", interaction.Performer.GameObjectBody);
 			SoundManager.PlayNetworkedAtPos(RipSound, pos, sourceObj: gameObject);
 
 			SyncPosterType(posterVariant, Posters.Ripped);

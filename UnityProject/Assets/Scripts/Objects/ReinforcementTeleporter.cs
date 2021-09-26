@@ -13,7 +13,7 @@ namespace Items.Others
 
 		private uint createdRoleKey;
 
-		private GameObject userPlayer;
+		private Mind userPlayer;
 
 		public bool WillInteract(HandActivate interaction, NetworkSide side)
 		{
@@ -41,23 +41,23 @@ namespace Items.Others
 			Chat.AddExamineMsgFromServer(userPlayer, $"The {gameObject.ExpensiveName()} sends out a reinforcement request!");
 		}
 
-		private void SpawnReinforcement(ConnectedPlayer player)
+		private void SpawnReinforcement(Mind player)
 		{
-			player.Script.playerNetworkActions.ServerRespawnPlayerAntag(player, "Nuclear Operative");
+			player.playerNetworkActions.ServerRespawnPlayerAntag(player, "Nuclear Operative");
 			Chat.AddExamineMsgFromServer(userPlayer, $"The {gameObject.ExpensiveName()} lets out a chime, reinforcement found!");
 			WasUsed = true;
 			StartCoroutine(TeleportOnSpawn(player));
 		}
 
-		private IEnumerator TeleportOnSpawn(ConnectedPlayer player)
+		private IEnumerator TeleportOnSpawn(Mind player)
 		{
 			// Waits until the player is no longer a ghost...
-			while (player.Script.IsGhost)
+			while (player.IsGhosting)
 			{
 				yield return WaitFor.EndOfFrame;
 			}
 
-			player.Script.PlayerSync.SetPosition(gameObject.AssumedWorldPosServer(), true);
+			player.PlayerSync.SetPosition(gameObject.AssumedWorldPosServer(), true);
 		}
 
 		public void ClearGhostRole()

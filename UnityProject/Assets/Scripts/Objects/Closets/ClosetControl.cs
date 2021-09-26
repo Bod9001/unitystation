@@ -78,7 +78,7 @@ namespace Objects
 
 		[Tooltip("SpriteHandler for the door or other sprite with different opened and closed states.")]
 		[SerializeField]
-		protected SpriteHandler doorSpriteHandler;
+		public SpriteHandler doorSpriteHandler;
 
 		private enum DoorState
 		{
@@ -252,7 +252,7 @@ namespace Objects
 			//if this is a mapped spawn, stick any items mapped on top of us in
 			if (info.SpawnType == SpawnType.Mapped)
 			{
-				CloseItemHandling();
+				CloseHandling();
 			}
 		}
 
@@ -593,7 +593,7 @@ namespace Objects
 				if (!IsClosed)
 				{
 					Vector3 targetPosition = interaction.TargetObject.WorldPosServer().RoundToInt();
-					Vector3 performerPosition = interaction.Performer.WorldPosServer();
+					Vector3 performerPosition = interaction.Performer.BodyWorldPosition;
 					Inventory.ServerDrop(interaction.HandSlot, targetPosition - performerPosition);
 				}
 			}
@@ -654,7 +654,7 @@ namespace Objects
 			}
 		}
 
-		public void PlayerTryEscaping(GameObject player)
+		public void PlayerTryEscaping(Mind player)
 		{
 			// First, try to just open the closet.
 			if (!isLocked && !isWelded)
@@ -664,7 +664,7 @@ namespace Objects
 			else
 			{
 				GameObject target = this.gameObject;
-				GameObject performer = player;
+				var performer = player;
 
 				void ProgressFinishAction()
 				{
@@ -702,8 +702,7 @@ namespace Objects
 		{
 			if (willClose)
 			{
-				CloseItemHandling();
-				ClosePlayerHandling();
+				CloseHandling();
 			}
 			else
 			{
@@ -751,23 +750,38 @@ namespace Objects
 		/// <summary>
 		/// Adds all items currently sitting on this closet into the closet
 		/// </summary>
-		private void CloseItemHandling()
+		private void CloseHandling()
 		{
-			var itemsOnCloset = Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer, ObjectType.Item, true)
+			var thingsOnCloset = Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer, FlagsObjectType.Item | FlagsObjectType.Player, true)
 				.Where(ob => ob != null && ob.gameObject != gameObject)
 				.Where(ob =>
 				{
 					return true;
 				});
 
-			foreach (var objectBehaviour in itemsOnCloset)
+
+
+			int mobsIndex = 0;
+			foreach (ObjectBehaviour thing in thingsOnCloset)
 			{
-				//force add, because we call clositemhandling before the
-				//closet is actually updated as being closed.
-				//Blame this mess on DNA scanner
-				//TODO: Fix this mess, remove the need for a special OccupiedWithPlayer status, move that as a special
-				//syncvar inside DNAScanner
-				ServerAddInternalItemInternal(objectBehaviour, true);
+				if (thing.registerTile.ObjectType == ObjectType.Player)
+				{
+					if (mobsIndex >= playerLimit)
+					{
+						continue;
+					}
+					mobsIndex++;
+					ServerStorePlayer(thing);
+				}
+				else
+				{
+					//force add, because we call clositemhandling before the
+					//closet is actually updated as being closed.
+					//Blame this mess on DNA scanner
+					//TODO: Fix this mess, remove the need for a special OccupiedWithPlayer status, move that as a special
+					//syncvar inside DNAScanner
+					ServerAddInternalItemInternal(thing, true);
+				}
 			}
 		}
 
@@ -786,32 +800,15 @@ namespace Objects
 				}
 				player.parentContainer = null;
 				//Stop tracking closet
-				FollowCameraMessage.Send(player.gameObject, player.gameObject);
+				FollowCameraMessage.Send(MindManager.StaticGet(player.gameObject), player.gameObject);
 				CheckPlayerCrawlState(player);
 			}
 			serverHeldPlayers = new List<ObjectBehaviour>();
 		}
 
-		/// <summary>
-		/// Adds all players currently sitting on this closet into the closet
-		/// </summary>
-		private void ClosePlayerHandling()
-		{
-			var mobsFound = Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer, ObjectType.Player, true);
-			int mobsIndex = 0;
-			foreach (ObjectBehaviour player in mobsFound)
-			{
-				if (mobsIndex >= playerLimit)
-				{
-					return;
-				}
-				mobsIndex++;
-				ServerStorePlayer(player);
-			}
-		}
 
 		[Server]
-		protected void ServerStorePlayer(ObjectBehaviour player)
+		public void ServerStorePlayer(ObjectBehaviour player)
 		{
 			serverHeldPlayers.Add(player);
 			var playerScript = player.GetComponent<PlayerScript>();
@@ -823,7 +820,7 @@ namespace Objects
 			//Start tracking closet
 			if (!playerScript.IsGhost)
 			{
-				FollowCameraMessage.Send(player.gameObject, gameObject);
+				FollowCameraMessage.Send(MindManager.StaticGet(player.gameObject) , gameObject);
 			}
 		}
 

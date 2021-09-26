@@ -11,25 +11,25 @@ namespace Spells
 		[SerializeField]
 		private GameObject boxMime = default;
 
-		protected override string FormatInvocationMessage(ConnectedPlayer caster, string modPrefix)
+		protected override string FormatInvocationMessage(Mind caster, string modPrefix)
 		{
-			return string.Format(SpellData.InvocationMessage, caster.Name, caster.CharacterSettings.TheirPronoun(caster.Script));
+			return string.Format(SpellData.InvocationMessage, caster.ExpensiveName(), caster.OriginalCharacter.TheirPronoun(caster));
 		}
 
-		public override bool ValidateCast(ConnectedPlayer caster)
+		public override bool ValidateCast(Mind caster)
 		{
 			if (base.ValidateCast(caster) == false) return false;
 
-			if (caster.Script.mind.IsMiming == false)
+			if (caster.IsMiming == false)
 			{
-				Chat.AddExamineMsg(caster.GameObject, "You must dedicate yourself to silence first!");
+				Chat.AddExamineMsg(caster, "You must dedicate yourself to silence first!");
 				return false;
 			}
 
 			return true;
 		}
 
-		public override bool CastSpellServer(ConnectedPlayer caster)
+		public override bool CastSpellServer(Mind caster)
 		{
 			if (base.CastSpellServer(caster) == false) return false;
 
@@ -38,7 +38,7 @@ namespace Spells
 			if (SpellData.ShouldDespawn)
 			{
 				// but also destroy when lifespan ends
-				caster.Script.StartCoroutine(DespawnAfterDelay(), ref handle);
+				caster.StartCoroutine(DespawnAfterDelay(), ref handle);
 
 				IEnumerator DespawnAfterDelay()
 				{
@@ -52,7 +52,7 @@ namespace Spells
 				}
 			}
 			// putting box in hand
-			Inventory.ServerAdd(box, caster.Script.DynamicItemStorage.GetActiveHandSlot(), ReplacementStrategy.DropOther);
+			Inventory.ServerAdd(box, caster.DynamicItemStorage.GetActiveHandSlot(), ReplacementStrategy.DropOther);
 
 			return true;
 		}

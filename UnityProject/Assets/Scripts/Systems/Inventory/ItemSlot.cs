@@ -69,16 +69,16 @@ public class ItemSlot
 	/// RegisterPlayer this slot is in the top-level inventory of. Null if not on a player or
 	/// in something like a backpack.
 	/// </summary>
-	public RegisterPlayer Player => itemStorage != null ? itemStorage.Player : null;
+	public Mind Player => itemStorage != null ? itemStorage.Player : null;
 
 	/// <summary>
 	/// RegisterPlayer this slot is in the slot tree of (i.e. even if in a backpack). Null if not on a player at all.
 	/// </summary>
-	public RegisterPlayer RootPlayer()
+	public Mind RootPlayer()
 	{
-		var root = GetRootStorageOrPlayer();
+		var root = GetRootPlayer();
 		if (root == null) return null;
-		return root.GetComponent<RegisterPlayer>();
+		return root;
 	}
 
 	/// <summary>
@@ -122,7 +122,7 @@ public class ItemSlot
 	/// Server-side only. Players server thinks are currently looking at this slot (and thus will receive
 	/// updates when the slot changes and can be allowed to perform transfers).
 	/// </summary>
-	private readonly HashSet<GameObject> serverObserverPlayers = new HashSet<GameObject>();
+	private readonly HashSet<Mind> serverObserverPlayers = new HashSet<Mind>();
 
 	/// <summary>
 	/// Client side. Invoked after the contents of this slot are changed, which typically only happens
@@ -193,7 +193,7 @@ public class ItemSlot
 	/// informs this observer of the current state of the slot. This observer will be informed of any updates
 	/// to this slot.
 	/// </summary>
-	public void ServerAddObserverPlayer(GameObject observerPlayer)
+	public void ServerAddObserverPlayer(Mind observerPlayer)
 	{
 		if (CustomNetworkManager.IsServer == false) return;
 		serverObserverPlayers.Add(observerPlayer);
@@ -204,7 +204,7 @@ public class ItemSlot
 	/// Server only (can be called client side but has no effect). Remove this player from the list of players currently observing this slot.
 	/// This observer will not longer recieve updates as they happen to this slot.
 	/// </summary>
-	public void ServerRemoveObserverPlayer(GameObject observerPlayer)
+	public void ServerRemoveObserverPlayer(Mind observerPlayer)
 	{
 		if (CustomNetworkManager.IsServer == false) return;
 		serverObserverPlayers.Remove(observerPlayer);
@@ -215,7 +215,7 @@ public class ItemSlot
 	/// <summary>
 	/// Server side only. Returns true if this player is observing this slot.
 	/// </summary>
-	public bool ServerIsObservedBy(GameObject observerPlayer)
+	public bool ServerIsObservedBy(Mind observerPlayer)
 	{
 		if (CustomNetworkManager.IsServer == false) return false;
 		return serverObserverPlayers.Contains(observerPlayer);
@@ -225,9 +225,15 @@ public class ItemSlot
 	/// Gets the top-level ItemStorage containing this slot. I.e. if this
 	/// is inside a crate in a backpack, will return the crate ItemStorage.
 	/// </summary>
-	public GameObject GetRootStorageOrPlayer()
+	public GameObject GetRootStorage()
 	{
-		return itemStorage.GetRootStorageOrPlayer();
+		return itemStorage.GetRootStorage();
+	}
+
+
+	public Mind GetRootPlayer()
+	{
+		return itemStorage.GetRootPlayer();
 	}
 
 	public override string ToString()
@@ -301,7 +307,7 @@ public class ItemSlot
 	/// </summary>
 	/// <param name="ignoreOccupied">if true, does not check if an item is already in the slot</param>
 	/// <param name="examineRecipient">if not null, when validation fails, will output an appropriate examine message to this recipient</param>
-	public bool CanFit(Pickupable toStore, bool ignoreOccupied = false, GameObject examineRecipient = null)
+	public bool CanFit(Pickupable toStore, bool ignoreOccupied = false, Mind examineRecipient = null)
 	{
 		if (toStore == null) return false;
 		if (IsEnabled == false) return false;
@@ -394,7 +400,7 @@ public class ItemSlot
 		if (examineRecipient)
 		{
 			//if this is going in a player's inventory, use a more appropriate message.
-			var targetPlayerScript = ItemStorage.GetRootStorageOrPlayer().GetComponent<PlayerScript>();
+			var targetPlayerScript = ItemStorage.GetRootPlayer();
 			if (targetPlayerScript != null)
 			{
 				//going into a top-level inventory slot of a player

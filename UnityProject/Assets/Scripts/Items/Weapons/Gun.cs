@@ -55,7 +55,7 @@ namespace Weapons
 		public AmmoType ammoType;
 
 		//server-side object indicating the player holding the weapon (null if none)
-		protected GameObject serverHolder;
+		protected Mind serverHolder;
 		private RegisterTile shooterRegisterTile;
 
 		protected StandardProgressActionConfig ProgressConfig
@@ -288,7 +288,7 @@ namespace Weapons
 		{
 			if (info.ToPlayer != null)
 			{
-				serverHolder = info.ToPlayer.gameObject;
+				serverHolder = info.ToPlayer;
 				shooterRegisterTile = serverHolder.GetComponent<RegisterTile>();
 			}
 			else
@@ -402,7 +402,7 @@ namespace Weapons
 
 			if (FiringPin == null)
 			{
-				if (interaction.Performer == PlayerManager.LocalPlayer)
+				if (interaction.Performer == LocalPlayerManager.LocalPlayer)
 				{
 					Chat.AddExamineMsgToClient("The " + gameObject.ExpensiveName() + "'s trigger is locked. It doesn't have a firing pin installed!");
 				}
@@ -519,14 +519,14 @@ namespace Weapons
 			if (isServer && serverHolder == null) return;
 
 			//if we are client, make sure we've initialized
-			if (!isServer && !PlayerManager.LocalPlayer) return;
+			if (!isServer && !LocalPlayerManager.LocalPlayer) return;
 
 			//if we are client, only process this if we are holding it
 			if (!isServer)
 			{
-				if (PlayerManager.LocalPlayerScript.DynamicItemStorage.OrNull()?.GetActiveHandSlot() == null) return;
+				if (LocalPlayerManager.CurrentMind.DynamicItemStorage.OrNull()?.GetActiveHandSlot() == null) return;
 
-				var heldItem = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject;
+				var heldItem = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject;
 				if (gameObject != heldItem) return;
 			}
 
@@ -639,7 +639,7 @@ namespace Weapons
 					$"{interaction.Performer.ExpensiveName()} begins removing the {FiringPin.gameObject.ExpensiveName()} from {gameObject.ExpensiveName()}.");
 
 				AudioSourceParameters audioSourceParameters = new AudioSourceParameters(UnityEngine.Random.Range(0.8f, 1.2f));
-				SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.WireCutter, interaction.Performer.AssumedWorldPosServer(), audioSourceParameters, sourceObj: serverHolder);
+				SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.WireCutter, interaction.Performer.BodyWorldPosition, audioSourceParameters, sourceObj: serverHolder.GameObjectBody);
 			}
 		}
 
@@ -687,7 +687,7 @@ namespace Weapons
 			var finalDirection = ApplyRecoil(target);
 			//don't enqueue the shot if the player is no longer able to shoot
 			PlayerScript shooter = shotBy.GetComponent<PlayerScript>();
-			if (!Validations.CanInteract(shooter, NetworkSide.Server))
+			if (!Validations.CanInteract( MindManager.StaticGet(shooter.gameObject) , NetworkSide.Server))
 			{
 				Logger.LogTrace("Server rejected shot: shooter cannot interact", Category.Firearms);
 				return;
@@ -796,7 +796,7 @@ namespace Weapons
 			if (!MatrixManager.IsInitialized) return;
 
 			//if this is our gun (or server), last check to ensure we really can shoot
-			if (isServer || PlayerManager.LocalPlayer == shooter)
+			if (isServer || LocalPlayerManager.LocalPlayer == shooter)
 			{
 				if (CurrentMagazine.ClientAmmoRemains <= 0)
 				{
@@ -809,7 +809,7 @@ namespace Weapons
 				CurrentMagazine.ExpendAmmo();
 			}
 			//TODO: If this is not our gun, simply display the shot, don't run any other logic
-			if (shooter == PlayerManager.LocalPlayer)
+			if (shooter == LocalPlayerManager.LocalPlayer)
 			{
 				//this is our gun so we need to update our predictions
 				FireCountDown += FireDelay;
@@ -921,12 +921,12 @@ namespace Weapons
 
 		private void OutOfAmmoSfx()
 		{
-			SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.GunEmptyAlarm, transform.position, sourceObj: serverHolder);
+			SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.GunEmptyAlarm, transform.position, sourceObj: serverHolder.GameObjectBody);
 		}
 
 		public void PlayEmptySfx()
 		{
-			SoundManager.PlayNetworkedAtPos(DryFireSound, transform.position, sourceObj: serverHolder);
+			SoundManager.PlayNetworkedAtPos(DryFireSound, transform.position, sourceObj: serverHolder.GameObjectBody);
 		}
 
 		#endregion

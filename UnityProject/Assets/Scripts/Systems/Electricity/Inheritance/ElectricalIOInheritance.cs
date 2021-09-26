@@ -176,7 +176,7 @@ namespace Systems.Electricity
 				InData.ShowDetails();
 			}
 
-			RequestElectricalStats.Send(PlayerManager.LocalPlayer, gameObject);
+			RequestElectricalStats.Send(gameObject);
 		}
 
 		public void DestroyThisPlease()

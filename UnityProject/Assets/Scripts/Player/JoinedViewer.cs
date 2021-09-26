@@ -22,10 +22,10 @@ public class JoinedViewer : NetworkBehaviour
 	{
 		base.OnStartLocalPlayer();
 		RequestObserverRefresh.Send(SceneManager.GetActiveScene().name);
-		PlayerManager.SetViewerForControl(this);
+		LocalPlayerManager.SetViewerForControl(this);
 
 		CmdServerSetupPlayer(GetNetworkInfo(),
-			PlayerManager.CurrentCharacterSettings.Username, DatabaseAPI.ServerData.UserID, GameData.BuildNumber,
+			LocalPlayerManager.CurrentCharacterSettings.Username, DatabaseAPI.ServerData.UserID, GameData.BuildNumber,
 			DatabaseAPI.ServerData.IdToken);
 	}
 
@@ -33,7 +33,8 @@ public class JoinedViewer : NetworkBehaviour
 	private void CmdServerSetupPlayer(string unverifiedClientId, string unverifiedUsername,
 		string unverifiedUserid, int unverifiedClientVersion, string unverifiedToken)
 	{
-		ServerSetUpPlayer(unverifiedClientId, unverifiedUsername, unverifiedUserid, unverifiedClientVersion, unverifiedToken);
+		ServerSetUpPlayer(unverifiedClientId, unverifiedUsername, unverifiedUserid, unverifiedClientVersion,
+			unverifiedToken);
 	}
 
 	[Server]
@@ -44,24 +45,29 @@ public class JoinedViewer : NetworkBehaviour
 		int unverifiedClientVersion,
 		string unverifiedToken)
 	{
-		Logger.LogFormat("A joinedviewer called CmdServerSetupPlayer on this server, Unverified ClientId: {0} Unverified Username: {1}",
+		//unverifiedClientId
+		//note It's impossible to verifi ClientId Since it is the mac address tho, It is only available on the same network or on the same computer
+		//Looking through how hard it is to get a Mac address I think it's reasonable enough to use it,
+		// since it would require a targeted attack that would require access to your network or computer (or If you've been numpty and posted your MAC address everywhere)
+		// And also the consequences is that
+		// A logged of players could be claimed by a different account ( Highly unlikely you get a player that you want to login as )
+		// B Kick the player currently logged in, but they can log back in so It will be a constant battle between the two of you ( Can be annoying but not the end of the world )
+		// from this I think it's a reasonable Step to take to prevent
+		// People from multi-accounting with a non-modified client
+
+
+		//unverifiedUsername
+		//Currently not verified but TODO planned Django Upgrade validate username
+		Logger.LogFormat(
+			"A joinedviewer called CmdServerSetupPlayer on this server, Unverified ClientId: {0} Unverified Username: {1}",
 			Category.Connections,
 			unverifiedClientId, unverifiedUsername);
 
-		// Register player to player list (logging code exists in PlayerList so no need for extra logging here)
-		var unverifiedConnPlayer = PlayerList.Instance.AddOrUpdate(new ConnectedPlayer
-		{
-			Connection = connectionToClient,
-			GameObject = gameObject,
-			Username = unverifiedUsername,
-			Job = JobType.NULL,
-			ClientId = unverifiedClientId,
-			UserId = unverifiedUserid
-		});
 
 		// this validates Userid and Token
-		var isValidPlayer = await PlayerList.Instance.ValidatePlayer(unverifiedClientId, unverifiedUsername,
-			unverifiedUserid, unverifiedClientVersion, unverifiedConnPlayer, unverifiedToken);
+		var isValidPlayer = await PlayersManager.Instance.ValidatePlayer(unverifiedClientId, unverifiedUsername,
+			unverifiedUserid, unverifiedClientVersion, unverifiedToken, this.connectionToClient);
+
 
 		if (isValidPlayer == false)
 		{
@@ -69,24 +75,32 @@ public class JoinedViewer : NetworkBehaviour
 			return;
 		}
 
+		//TODO unverifiedUsername Never validated
+		var Userid = unverifiedUserid; //Verified in ValidatePlayer
+		var Token = unverifiedToken;
+
+
 		//Send to client their job ban entries
-		var jobBanEntries = PlayerList.Instance.ClientAskingAboutJobBans(unverifiedConnPlayer);
-		PlayerList.ServerSendsJobBanDataMessage.Send(unverifiedConnPlayer.Connection, jobBanEntries);
+		var jobBanEntries = PlayersManager.Instance.ClientAskingAboutJobBans(Userid, connectionToClient.address,
+			unverifiedClientId, unverifiedUsername);
+		PlayersManager.ServerSendsJobBanDataMessage.Send(connectionToClient, jobBanEntries);
 
 		//Send to client the current crew job counts
 		if (CrewManifestManager.Instance != null)
 		{
-			SetJobCountsMessage.SendToPlayer(CrewManifestManager.Instance.Jobs, unverifiedConnPlayer);
+			SetJobCountsMessage.SendToPlayer(CrewManifestManager.Instance.Jobs, connectionToClient);
 		}
 
 		UpdateConnectedPlayersMessage.Send();
+
 
 		// Only sync the pre-round countdown if it's already started.
 		if (GameManager.Instance.CurrentRoundState == RoundState.PreRound)
 		{
 			if (GameManager.Instance.waitForStart)
 			{
-				TargetSyncCountdown(connectionToClient, GameManager.Instance.waitForStart, GameManager.Instance.CountdownEndTime);
+				TargetSyncCountdown(connectionToClient, GameManager.Instance.waitForStart,
+					GameManager.Instance.CountdownEndTime);
 			}
 			else
 			{
@@ -95,52 +109,51 @@ public class JoinedViewer : NetworkBehaviour
 		}
 
 		// Check if they have a player to rejoin before creating a new ConnectedPlayer
-		var loggedOffPlayer = PlayerList.Instance.RemovePlayerbyClientId(unverifiedClientId, unverifiedUserid, unverifiedConnPlayer);
-		var checkForViewer = loggedOffPlayer?.GameObject.GetComponent<JoinedViewer>();
-		if (checkForViewer)
+		var RelatedConnectedPlayer = PlayersManager.Instance.RemovePlayerbyClientId(unverifiedClientId, unverifiedUserid);
+		if (RelatedConnectedPlayer == null)
 		{
-			Destroy(loggedOffPlayer.GameObject);
-			loggedOffPlayer = null;
-		}
-
-		// If there's a logged off player, we will force them to rejoin their body
-		if (loggedOffPlayer == null)
-		{
+			// Register player to player list (logging code exists in PlayerList so no need for extra logging here)
+			RelatedConnectedPlayer = PlayersManager.Instance.GetNew(connectionToClient, this,unverifiedUsername, unverifiedClientId,Userid);
+			PlayersManager.Instance.Add(RelatedConnectedPlayer);
 			TargetLocalPlayerSetupNewPlayer(connectionToClient, GameManager.Instance.CurrentRoundState);
 		}
 		else
 		{
-			StartCoroutine(WaitForLoggedOffObserver(loggedOffPlayer.GameObject));
+			PlayersManager.Instance.Add(RelatedConnectedPlayer);
+			StartCoroutine(WaitForLoggedOffObserver(RelatedConnectedPlayer.CurrentMind));
 		}
 
-		PlayerList.Instance.CheckAdminState(unverifiedConnPlayer, unverifiedUserid);
-		PlayerList.Instance.CheckMentorState(unverifiedConnPlayer, unverifiedUserid);
+
+		PlayersManager.Instance.CheckAdminState(RelatedConnectedPlayer, Userid);
+		PlayersManager.Instance.CheckMentorState(RelatedConnectedPlayer, Userid);
 	}
 
 	/// <summary>
 	/// Waits for the client to be an observer of the player before continuing
 	/// </summary>
-	private IEnumerator WaitForLoggedOffObserver(GameObject loggedOffPlayer)
+	private IEnumerator WaitForLoggedOffObserver(Mind loggedOffPlayer)
 	{
 		TargetLocalPlayerRejoinUI(connectionToClient);
 		// TODO: When we have scene network culling we will need to allow observers
 		// for the whole specific scene and the body before doing the logic below:
-		var netIdentity = loggedOffPlayer.GetComponent<NetworkIdentity>();
+		var netIdentity = loggedOffPlayer.PhysicalBrain.GetComponent<NetworkIdentity>();
 		if (netIdentity == null)
 		{
 			Logger.LogError($"No {nameof(NetworkIdentity)} component on {loggedOffPlayer}! " +
-					"Cannot rejoin that player. Was original player object improperly created? "+
-					"Did we get runtime error while creating it?", Category.Connections);
+			                "Cannot rejoin that player. Was original player object improperly created? " +
+			                "Did we get runtime error while creating it?", Category.Connections);
 			// TODO: if this issue persists, should probably send the poor player a message about failing to rejoin.
 			yield break;
 		}
+
 		while (!netIdentity.observers.ContainsKey(this.connectionToClient.connectionId))
 		{
 			yield return WaitFor.EndOfFrame;
 		}
+
 		yield return WaitFor.EndOfFrame;
 		TargetLocalPlayerRejoinUI(connectionToClient);
-		PlayerSpawn.ServerRejoinPlayer(this, loggedOffPlayer);
+		PlayerSpawn.ServerRejoinPlayer(loggedOffPlayer);
 	}
 
 	[TargetRpc]
@@ -176,9 +189,9 @@ public class JoinedViewer : NetworkBehaviour
 
 	public void RequestJob(JobType job)
 	{
-		var jsonCharSettings = JsonConvert.SerializeObject(PlayerManager.CurrentCharacterSettings);
+		var jsonCharSettings = JsonConvert.SerializeObject(LocalPlayerManager.CurrentCharacterSettings);
 
-		if (PlayerList.Instance.ClientJobBanCheck(job) == false)
+		if (PlayersManager.Instance.ClientJobBanCheck(job) == false)
 		{
 			Logger.LogWarning($"Client failed local job-ban check for {job}.", Category.Jobs);
 			UIManager.Display.jobSelectWindow.GetComponent<GUI_PlayerJobs>().ShowFailMessage(JobRequestError.JobBanned);
@@ -190,7 +203,7 @@ public class JoinedViewer : NetworkBehaviour
 
 	public void Spectate()
 	{
-		var jsonCharSettings = JsonConvert.SerializeObject(PlayerManager.CurrentCharacterSettings);
+		var jsonCharSettings = JsonConvert.SerializeObject(LocalPlayerManager.CurrentCharacterSettings);
 		CmdSpectate(jsonCharSettings);
 	}
 
@@ -201,7 +214,7 @@ public class JoinedViewer : NetworkBehaviour
 	public void CmdSpectate(string jsonCharSettings)
 	{
 		var characterSettings = JsonConvert.DeserializeObject<CharacterSettings>(jsonCharSettings);
-		PlayerSpawn.ServerSpawnGhost(this, characterSettings);
+		PlayerSpawn.ServerSpawnGhostSpectating(this, characterSettings);
 	}
 
 	/// <summary>
@@ -221,7 +234,7 @@ public class JoinedViewer : NetworkBehaviour
 		{
 			if (string.IsNullOrEmpty(n.GetPhysicalAddress().ToString()) == false)
 			{
-				return n.GetPhysicalAddress().ToString();
+				n.GetPhysicalAddress().ToString();
 			}
 		}
 
@@ -236,21 +249,23 @@ public class JoinedViewer : NetworkBehaviour
 		var jsonCharSettings = "";
 		if (isReady)
 		{
-			jsonCharSettings = JsonConvert.SerializeObject(PlayerManager.CurrentCharacterSettings);
+			jsonCharSettings = JsonConvert.SerializeObject(LocalPlayerManager.CurrentCharacterSettings);
 		}
+
 		CmdPlayerReady(isReady, jsonCharSettings);
 	}
 
 	[Command]
 	private void CmdPlayerReady(bool isReady, string jsonCharSettings)
 	{
-		var player = PlayerList.Instance.GetByConnection(connectionToClient);
+		var player = PlayersManager.Instance.GetByConnection(connectionToClient);
 
 		CharacterSettings charSettings = null;
 		if (isReady)
 		{
 			charSettings = JsonConvert.DeserializeObject<CharacterSettings>(jsonCharSettings);
 		}
-		PlayerList.Instance.SetPlayerReady(player, isReady, charSettings);
+
+		PlayersManager.Instance.SetPlayerReady(player, isReady, charSettings);
 	}
 }

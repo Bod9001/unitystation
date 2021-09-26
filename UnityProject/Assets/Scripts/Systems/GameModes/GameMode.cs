@@ -173,7 +173,7 @@ namespace GameModes
 		/// </summary>
 		public virtual bool IsPossible()
 		{
-			int players = PlayerList.Instance.ReadyPlayers.Count;
+			int players = PlayersManager.Instance.ReadyPlayers.Count;
 			return players >= MinPlayers && (!ForceMinAntags ||
 			                                 (Math.Floor(players * antagRatio) >= MinAntags));
 		}
@@ -236,7 +236,7 @@ namespace GameModes
 			}
 
 			// Are there enough antags already?
-			int newPlayerCount = PlayerList.Instance.InGamePlayers.Count + 1;
+			int newPlayerCount = PlayersManager.Instance.InGamePlayers.Count + 1;
 			var expectedAntagCount = Math.Min((int)Math.Floor(newPlayerCount * AntagRatio), maxAntags);
 
 			if (AntagManager.Instance.AntagCount < expectedAntagCount)
@@ -272,7 +272,7 @@ namespace GameModes
 			}
 
 			var antagPool = PossibleAntags.Where(a =>
-				HasAntagEnabled(ref playerSpawnRequest.CharacterSettings.AntagPreferences, a) && PlayerList.Instance.CheckJobBanState(playerSpawnRequest.UserID, a.AntagJobType)).ToList();
+				HasAntagEnabled(ref playerSpawnRequest.CharacterSettings.AntagPreferences, a) && PlayersManager.Instance.CheckJobBanState(playerSpawnRequest.UserID, a.AntagJobType)).ToList();
 
 			if (antagPool.Count < 1)
 			{
@@ -330,7 +330,7 @@ namespace GameModes
 		{
 			foreach (var antag in PossibleAntags)
 			{
-				if (PlayerList.Instance.CheckJobBanState(userID, antag.AntagJobType))
+				if (PlayersManager.Instance.CheckJobBanState(userID, antag.AntagJobType))
 				{
 					//True if at least one of the antags can be spawned by the player
 					return true;
@@ -348,9 +348,9 @@ namespace GameModes
 
 			List<PlayerSpawnRequest> playerSpawnRequests;
 			List<PlayerSpawnRequest> antagSpawnRequests;
-			int antagsToSpawn = CalculateAntagCount(PlayerList.Instance.ReadyPlayers.Count);
+			int antagsToSpawn = CalculateAntagCount(PlayersManager.Instance.ReadyPlayers.Count);
 			var jobAllocator = new JobAllocator();
-			var playerPool = PlayerList.Instance.ReadyPlayers;
+			var playerPool = PlayersManager.Instance.ReadyPlayers;
 			if (AllocateJobsToAntags)
 			{
 				// Allocate jobs to all players first then choose antags
@@ -366,7 +366,7 @@ namespace GameModes
 			{
 				// Choose antags first then allocate jobs to all other players
 				var antagCandidates = playerPool.Where(p =>
-					HasPossibleAntagEnabled(ref p.CharacterSettings.AntagPreferences) && HasPossibleAntagNotBanned(p.UserId));
+					HasPossibleAntagEnabled(ref p.PreRoundCharacterSettings.AntagPreferences) && HasPossibleAntagNotBanned(p.UserId));
 				var chosenAntags = antagCandidates.PickRandom(antagsToSpawn).ToList();
 				// Player and antag spawn requests are kept separate to stop players being spawned twice
 				playerPool.RemoveAll(chosenAntags.Contains);
@@ -386,7 +386,7 @@ namespace GameModes
 			}
 
 			var msg =
-				$"{PlayerList.Instance.ReadyPlayers.Count} players ready, {antagsToSpawn} antags to spawn. {playerSpawnRequests.Count} players spawned (excludes antags), {antagSpawnRequests.Count} antags spawned";
+				$"{PlayersManager.Instance.ReadyPlayers.Count} players ready, {antagsToSpawn} antags to spawn. {playerSpawnRequests.Count} players spawned (excludes antags), {antagSpawnRequests.Count} antags spawned";
 
 			DiscordWebhookMessage.Instance.AddWebHookMessageToQueue(DiscordWebhookURLs.DiscordWebhookAdminLogURL,
 					msg,

@@ -52,7 +52,6 @@ public class SpriteDataSO : ScriptableObject
 			}
 		}
 	}
-
 	public void UpdateIDLocation()
 	{
 		if (setID == -1)

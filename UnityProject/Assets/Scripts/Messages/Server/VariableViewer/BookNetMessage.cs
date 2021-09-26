@@ -15,14 +15,14 @@ namespace Messages.Server.VariableViewer
 			UIManager.Instance.VariableViewer.ReceiveBook(msg.Book);
 		}
 
-		public static NetMessage Send(Librarian.Book _book, GameObject ToWho)
+		public static NetMessage Send(Librarian.Book _book, ConnectedPlayer ToWho)
 		{
 			NetMessage msg = new NetMessage
 			{
 				Book = VariableViewerNetworking.ProcessBook(_book)
 			};
 
-			SendTo(ToWho, msg, Category.VariableViewer, 3);
+			SendTo(ToWho, msg, 3);
 			return msg;
 		}
 	}

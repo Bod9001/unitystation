@@ -15,12 +15,12 @@ public static class DefaultWillInteract
 		if (typeof(T) == typeof(PositionalHandApply))
 		{
 			var positionalHandApply = interaction as PositionalHandApply;
-			return Validations.CanApply(positionalHandApply.PerformerPlayerScript, positionalHandApply.TargetObject, side, targetVector: positionalHandApply.TargetVector);
+			return Validations.CanApply(positionalHandApply.Performer, positionalHandApply.TargetObject, side, targetVector: positionalHandApply.TargetVector);
 		}
 		if (typeof(T) == typeof(HandApply))
 		{
 			var handApply = interaction as HandApply;
-			return Validations.CanApply(handApply.PerformerPlayerScript, handApply.TargetObject, side);
+			return Validations.CanApply(handApply.Performer, handApply.TargetObject, side);
 		}
 		if (typeof(T) == typeof(AimApply))
 		{
@@ -28,30 +28,30 @@ public static class DefaultWillInteract
 		}
 		if (typeof(T) == typeof(MouseDrop))
 		{
-			return Validations.CanInteract(interaction.PerformerPlayerScript, side);
+			return Validations.CanInteract(interaction.Performer, side);
 		}
 		if (typeof(T) == typeof(HandActivate))
 		{
-			return Validations.CanInteract(interaction.PerformerPlayerScript, side);
+			return Validations.CanInteract(interaction.Performer, side);
 		}
 		if (typeof(T) == typeof(InventoryApply))
 		{
-			return Validations.CanInteract(interaction.PerformerPlayerScript, side);
+			return Validations.CanInteract(interaction.Performer, side);
 		}
 		if (typeof(T) == typeof(TileApply))
 		{
 			var tileApply = interaction as TileApply;
-			return Validations.CanApply(tileApply.PerformerPlayerScript, tileApply.TargetInteractableTiles.gameObject, side, targetVector: tileApply.TargetVector);
+			return Validations.CanApply(tileApply.Performer, tileApply.TargetInteractableTiles.gameObject, side, targetVector: tileApply.TargetVector);
 		}
 		if (typeof(T) == typeof(ConnectionApply))
 		{
 			var connectionApply = interaction as ConnectionApply;
-			return Validations.CanApply(connectionApply.PerformerPlayerScript, connectionApply.TargetObject, side, targetVector: connectionApply.TargetVector);
+			return Validations.CanApply(connectionApply.Performer, connectionApply.TargetObject, side, targetVector: connectionApply.TargetVector);
 		}
 		if (typeof(T) == typeof(ContextMenuApply))
 		{
 			var contextMenuApply = interaction as ContextMenuApply;
-			return Validations.CanApply(contextMenuApply.PerformerPlayerScript, contextMenuApply.TargetObject, side);
+			return Validations.CanApply(contextMenuApply.Performer, contextMenuApply.TargetObject, side);
 		}
 		if (typeof(T) == typeof(AiActivate))
 		{
@@ -64,7 +64,7 @@ public static class DefaultWillInteract
 
 	public static bool AimApply(AimApply interaction, NetworkSide side)
 	{
-		if ( !Validations.CanInteract(interaction.PerformerPlayerScript, side) )
+		if ( !Validations.CanInteract(interaction.Performer, side) )
 		{
 			return false;
 		}
@@ -73,12 +73,12 @@ public static class DefaultWillInteract
 		if (side == NetworkSide.Client)
 		{
 			//local player is performing interaction
-			isNotHidden = !PlayerManager.LocalPlayerScript.IsHidden;
+			isNotHidden = !LocalPlayerManager.CurrentMind.IsHidden;
 		}
 		else
 		{
 			//server is validating the interaction
-			isNotHidden = !interaction.Performer.Player()?.Script.IsHidden;
+			isNotHidden = !interaction.Performer.IsHidden;
 		}
 
 		return isNotHidden.GetValueOrDefault( true );

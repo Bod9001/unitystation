@@ -56,9 +56,8 @@ namespace Items
 			}
 		}
 
-		public override void TryConsume(GameObject feederGO, GameObject eaterGO)
+		public override void TryConsume(Mind feeder, Mind eater)
 		{
-			var eater = eaterGO.GetComponent<PlayerScript>();
 			if (eater == null)
 			{
 				// todo: implement non-player eating
@@ -72,10 +71,8 @@ namespace Items
 				return;
 			}
 
-			var feeder = feederGO.GetComponent<PlayerScript>();
-
 			// Show eater message
-			var eaterHungerState = eater.playerHealth.HungerState;
+			var eaterHungerState = eater.LivingHealthMasterBase.HungerState;
 			ConsumableTextUtils.SendGenericConsumeMessage(feeder, eater, eaterHungerState, Name, "eat");
 
 			// Check if eater can eat anything
@@ -88,7 +85,7 @@ namespace Items
 					{
 						ConsumableTextUtils.SendGenericForceFeedMessage(feeder, eater, eaterHungerState, Name, "eat");
 						Eat(eater, feeder);
-					}).ServerStartProgress(eater.registerTile, 3f, feeder.gameObject);
+					}).ServerStartProgress(eater.registerTile, 3f, feeder);
 					return;
 				}
 
@@ -96,12 +93,12 @@ namespace Items
 			}
 		}
 
-		public virtual void Eat(PlayerScript eater, PlayerScript feeder)
+		public virtual void Eat(Mind eater, Mind feeder)
 		{
 			//TODO: Reimplement metabolism.
-			SoundManager.PlayNetworkedAtPos(sound, eater.WorldPos, sourceObj: eater.gameObject);
+			SoundManager.PlayNetworkedAtPos(sound, eater.BodyWorldPosition, sourceObj: eater.gameObject);
 
-			var Stomachs = eater.playerHealth.GetStomachs();
+			var Stomachs = eater.LivingHealthMasterBase.GetStomachs();
 			if (Stomachs.Count == 0)
 			{
 				//No stomachs?!
@@ -133,7 +130,7 @@ namespace Items
 				if (!added)
 				{
 					//If stackable has leavings and they couldn't go in the same slot, they should be dropped
-					pickupable.CustomNetTransform.SetPosition(feeder.WorldPos);
+					pickupable.CustomNetTransform.SetPosition(feeder.BodyWorldPosition);
 				}
 			}
 		}

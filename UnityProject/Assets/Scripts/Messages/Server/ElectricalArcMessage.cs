@@ -28,7 +28,7 @@ namespace Messages.Server
 		{
 			if (CustomNetworkManager.IsServer) return; // Run extra logic for server, handled in ElectricalArc.
 			if (MatrixManager.IsInitialized == false) return;
-			if (PlayerManager.LocalPlayer == null) return;
+			if (LocalPlayerManager.LocalPlayer == null) return;
 
 			if (ClientScene.prefabs.TryGetValue(msg.prefabAssetID, out var prefab) == false)
 			{

@@ -87,9 +87,9 @@ public class FireExtinguisher : NetworkBehaviour,
 		Effect.PlayParticleDirectional(this.gameObject, interaction.TargetVector);
 
 		AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: 1);
-		SoundManager.PlayNetworkedAtPos(SpraySound, startPos, audioSourceParameters, sourceObj: interaction.Performer);
+		SoundManager.PlayNetworkedAtPos(SpraySound, startPos, audioSourceParameters, sourceObj: interaction.Performer.GameObjectBody);
 
-		interaction.Performer.Pushable()?.NewtonianMove((-interaction.TargetVector).NormalizeToInt());
+		interaction.Performer.GameObjectBody.Pushable()?.NewtonianMove((-interaction.TargetVector).NormalizeToInt());
 	}
 
 	#endregion Interaction;

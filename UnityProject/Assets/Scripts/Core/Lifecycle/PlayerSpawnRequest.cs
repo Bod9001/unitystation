@@ -47,7 +47,7 @@ public class PlayerSpawnRequest
 
 	public static PlayerSpawnRequest RequestOccupation(ConnectedPlayer requestedBy, Occupation requestedOccupation)
 	{
-		return new PlayerSpawnRequest(requestedOccupation, requestedBy.ViewerScript, requestedBy.CharacterSettings, requestedBy.UserId);
+		return new PlayerSpawnRequest(requestedOccupation, requestedBy.ViewerScript, requestedBy.PreRoundCharacterSettings, requestedBy.UserId);
 	}
 
 	public override string ToString()

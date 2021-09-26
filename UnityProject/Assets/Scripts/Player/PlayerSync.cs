@@ -436,7 +436,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 		if (parentContainer.TryGetComponent(out ClosetControl closet))
 		{
-			closet.PlayerTryEscaping(gameObject);
+			closet.PlayerTryEscaping(MindManager.StaticGet(gameObject) );
 		}
 		else if (parentContainer.TryGetComponent(out Objects.Disposals.DisposalVirtualContainer disposalContainer))
 		{
@@ -448,10 +448,10 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 	{
 		if (isLocalPlayer && playerMove != null)
 		{
-			if (PlayerManager.MovementControllable == this)
+			if (LocalPlayerManager.MovementControllable == this)
 			{
 				didWiggle = false;
-				if (KeyboardInputManager.IsMovementPressed() && Validations.CanInteract(playerScript,
+				if (KeyboardInputManager.IsMovementPressed() && Validations.CanInteract(MindManager.StaticGet(gameObject),
 					    isServer ? NetworkSide.Server : NetworkSide.Client))
 				{
 					//	If being pulled by another player and you try to break free
@@ -461,7 +461,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 						didWiggle = true;
 					}
 					// Player inside something
-					else if (Camera2DFollow.followControl.target != PlayerManager.LocalPlayer.transform)
+					else if (Camera2DFollow.followControl.target != LocalPlayerManager.LocalPlayer.transform)
 					{
 						CmdTryEscapeContainer();
 						didWiggle = true;
@@ -504,11 +504,6 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 			if (server)
 			{
-				if (CommonInput.GetKeyDown(KeyCode.F7) && gameObject == PlayerManager.LocalPlayer)
-				{
-					PlayerSpawn.ServerSpawnDummy(gameObject.transform);
-				}
-
 				if (serverState.Position != serverLerpState.Position)
 				{
 					ServerLerp();

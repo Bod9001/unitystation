@@ -31,14 +31,14 @@ namespace Messages.Client.DevSpawner
 
 		void ValidateAdmin(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
 			if (admin == null) return;
 			//no longer checks impassability, spawn anywhere, go hog wild.
 			if (ClientScene.prefabs.TryGetValue(msg.PrefabAssetID, out var prefab))
 			{
 				Spawn.ServerPrefab(prefab, msg.WorldPosition);
 				UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(
-					$"{admin.Player().Username} spawned a {prefab.name} at {msg.WorldPosition}", msg.AdminId);
+					$"{admin.Username} spawned a {prefab.name} at {msg.WorldPosition}", msg.AdminId);
 			}
 			else
 			{

@@ -13,12 +13,12 @@ public class SlurredMod : CustomSpeechModifier
 	{
 		if (drunkSpeechTime > 0)
 		{
-			playerMind.inventorySpeechModifiers |= ChatModifier.Drunk;
+			playerMind.SpeechModifiers |= ChatModifier.Drunk;
 			drunkSpeechTime--;
 		}
 		else
 		{
-			playerMind.inventorySpeechModifiers &= ~ChatModifier.Drunk;
+			playerMind.SpeechModifiers &= ~ChatModifier.Drunk;
 		}
 	}
 	private static string Slur(Match m)

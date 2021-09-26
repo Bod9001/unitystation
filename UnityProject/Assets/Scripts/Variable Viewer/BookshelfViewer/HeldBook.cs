@@ -10,7 +10,7 @@ public class HeldBook : MonoBehaviour
 {
 	public TMP_Text Name;
 	public Image IMG;
-	
+
 	private VariableViewerNetworking.IDnName _IDANName;
 
 	public VariableViewerNetworking.IDnName IDANName
@@ -25,6 +25,6 @@ public class HeldBook : MonoBehaviour
 
 	public void OpenSpecifiedBook()
 	{
-		OpenBookIDNetMessage.Send(_IDANName.ID, ServerData.UserID, PlayerList.Instance.AdminToken);
+		OpenBookIDNetMessage.Send(_IDANName.ID, ServerData.UserID, PlayersManager.Instance.AdminToken);
 	}
 }

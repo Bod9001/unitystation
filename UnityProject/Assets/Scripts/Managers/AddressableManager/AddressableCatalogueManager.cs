@@ -171,7 +171,7 @@ public class AddressableCatalogueManager : MonoBehaviour, IInitialise
 	}
 
 	[Server]
-	public static void ClientRequestCatalogue(GameObject PlayerGameObject)
+	public static void ClientRequestCatalogue(ConnectedPlayer PlayerGameObject)
 	{
 //TODO Need spam Protection
 		SendCataloguesToClient.Send(ServerData.ServerConfig.AddressableCatalogues, PlayerGameObject);

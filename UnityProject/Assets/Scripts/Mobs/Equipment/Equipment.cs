@@ -14,7 +14,7 @@ using Messages.Server;
 /// </summary>
 public class Equipment : NetworkBehaviour
 {
-	private PlayerScript script;
+	private Mind script;
 	public DynamicItemStorage ItemStorage => script.DynamicItemStorage;
 
 	public bool IsInternalsEnabled;
@@ -24,18 +24,18 @@ public class Equipment : NetworkBehaviour
 	[NonSerialized]
 	public NamedSlotFlagged obscuredSlots = NamedSlotFlagged.None;
 
-	private string TheyPronoun => script.characterSettings.TheyPronoun(script);
-	private string TheirPronoun => script.characterSettings.TheirPronoun(script);
+	private string TheyPronoun => script.OriginalCharacter.TheyPronoun(script);
+	private string TheirPronoun => script.OriginalCharacter.TheirPronoun(script);
 
 	private IEnumerable<ItemSlot> maskSlot => ItemStorage.GetNamedItemSlots(NamedSlot.mask);
 	private IEnumerable<ItemSlot> headSlot => ItemStorage.GetNamedItemSlots(NamedSlot.head);
 	private IEnumerable<ItemSlot> idSlot  => ItemStorage.GetNamedItemSlots(NamedSlot.id);
 
 
+	[HideInInspector, SyncVar(hook = nameof(SyncVisibleName))] public string visibleName = " ";
+
 	private void Awake()
 	{
-		script = GetComponent<PlayerScript>();
-
 		clothingItems = new Dictionary<NamedSlot, ClothingItem>();
 		foreach (var clothingItem in GetComponentsInChildren<ClothingItem>())
 		{
@@ -115,6 +115,45 @@ public class Equipment : NetworkBehaviour
 	public bool IsSlotObscured(NamedSlot namedSlot)
 	{
 		return obscuredSlots.HasFlag(ItemSlot.GetFlaggedSlot(namedSlot));
+	}
+
+
+	// Update visible name.
+	public void RefreshVisibleName()
+	{
+		string newVisibleName;
+
+		if (script.IsGhosting || IsIdentityObscured() == false)
+		{
+			newVisibleName = script.ExpensiveName(); // can see face so real identity is known
+		}
+		else
+		{
+			// Returns Unknown if identity could not be found via equipment (ID, PDA)
+			newVisibleName = GetPlayerNameByEquipment();
+		}
+
+		SyncVisibleName(newVisibleName, newVisibleName);
+	}
+
+
+	// Syncvisiblename
+	public void SyncVisibleName(string oldValue, string value)
+	{
+		visibleName = value;
+	}
+
+
+	// Tooltips inspector bar
+	public void OnMouseEnter()
+	{
+		if (gameObject.IsAtHiddenPos()) return;
+		UIManager.SetToolTip = visibleName;
+	}
+
+	public void OnMouseExit()
+	{
+		UIManager.SetToolTip = "";
 	}
 
 	#region Identity
@@ -215,8 +254,8 @@ public class Equipment : NetworkBehaviour
 		string theirPronoun = TheirPronoun;
 
 		//switch out words depending on if the examined player is nonbinary, because "they is wearing" is not how you grammer.
-		pronounIs = script.characterSettings.IsPronoun(script);
-		pronounHas = script.characterSettings.HasPronoun(script);
+		pronounIs = script.OriginalCharacter.IsPronoun(script);
+		pronounHas = script.OriginalCharacter.HasPronoun(script);
 
 
 		if (IsExaminable(NamedSlot.uniform))

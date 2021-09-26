@@ -15,9 +15,9 @@ namespace Player.EmoteScripts
 		[SerializeField]
 		private float shakeDelay = 0.1f;
 
-		public override void Do(GameObject player)
+		public override void Do(Mind player)
 		{
-			PlayerEffectsManager manager = player.GetComponent<PlayerEffectsManager>();
+			PlayerEffectsManager manager = player.GameObjectBody.GetComponent<PlayerEffectsManager>();
 			manager.ShakePlayer(shakeDuration, shakeIntensity, shakeDelay);
 			base.Do(player);
 		}

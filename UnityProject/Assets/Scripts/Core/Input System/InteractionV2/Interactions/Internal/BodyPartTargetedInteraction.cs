@@ -22,7 +22,7 @@ public abstract class BodyPartTargetedInteraction: TargetedInteraction
 	/// <param name="usedObject">Object that is being used</param>
 	/// <param name="targetObject">Object that is being targeted</param>
 	/// <param name="targetBodyPart">targeted body part</param>
-	public BodyPartTargetedInteraction(GameObject performer, GameObject usedObject, GameObject targetObject, BodyPartType targetBodyPart, Intent intent) :
+	public BodyPartTargetedInteraction(Mind performer, GameObject usedObject, GameObject targetObject, BodyPartType targetBodyPart, Intent intent) :
 		base(performer, usedObject, targetObject, intent)
 	{
 		this.targetObject = targetObject;

@@ -31,7 +31,7 @@ namespace Messages.Server.AdminTools
 				AdminManager.Instance.LocalAdminGhostStorage = NetworkObject.GetComponent<ItemStorage>();
 			}
 
-			PlayerList.Instance.SetClientAsAdmin(msg.AdminToken);
+			PlayersManager.Instance.SetClientAsAdmin(msg.AdminToken);
 			UIManager.Instance.adminChatButtons.transform.parent.gameObject.SetActive(true);
 			UIManager.Instance.mentorChatButtons.transform.parent.gameObject.SetActive(true);
 		}

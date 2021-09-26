@@ -32,18 +32,18 @@ namespace Systems.Spells.Wizard
 			TeleportWindow.onTeleportToVector += ClientTeleportDestinationSelected;
 		}
 
-		public override bool CastSpellServer(ConnectedPlayer caster, Vector3 destination)
+		public override bool CastSpellServer(Mind caster, Vector3 destination)
 		{
 			// Do the actual teleportation here.
-			if ((caster.Script.WorldPos - destination).magnitude > MAX_TELEPORT_DISTANCE)
+			if ((caster.BodyWorldPosition - destination).magnitude > MAX_TELEPORT_DISTANCE)
 			{
-				Chat.AddExamineMsgFromServer(caster.GameObject,
+				Chat.AddExamineMsgFromServer(caster,
 						"Teleporting that distance is too powerful for your skill! Try a smaller distance.");
 
 				return false;
 			}
 
-			teleport.ServerTeleportWizard(caster.GameObject, destination.CutToInt());
+			teleport.ServerTeleportWizard(caster, destination.CutToInt());
 
 			return true;
 		}
@@ -53,7 +53,7 @@ namespace Systems.Spells.Wizard
 			TeleportWindow.gameObject.SetActive(false);
 
 			// We piggyback off aim click instead of using base.CallActionClient();
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdRequestSpell(SpellData.Index, position);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdRequestSpell(SpellData.Index, position);
 		}
 
 		private void ClientTeleportDestinationSelected(TeleportInfo info)

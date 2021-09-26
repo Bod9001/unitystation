@@ -74,7 +74,7 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 				if (pu != null && pu.ItemSlot != null)
 				{
 					//we are in an itemstorage, so report our root item storage object.
-					var pushPull = pu.ItemSlot.GetRootStorageOrPlayer().GetComponent<PushPull>();
+					var pushPull = pu.ItemSlot.GetRootStorage().GetComponent<PushPull>();
 					if (pushPull != null)
 					{
 						//our container has a pushpull, so use its parent
@@ -110,7 +110,7 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 			{
 				//we are in an itemstorage, so report our position
 				//based on our root item storage object.
-				var storage = pu.ItemSlot.GetRootStorageOrPlayer();
+				var storage = pu.ItemSlot.GetRootStorage();
 				var pushPull = storage.GetComponent<PushPull>();
 				if (pushPull != null)
 				{
@@ -196,7 +196,7 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 	/// true if this object is allowed to be anchored on top of the given register tile, otherwise false.
 	/// If unspecified, all registertiles will be considered as blockers at the indicated position</param>
 	[Server]
-	public void ServerSetAnchored(bool isAnchored, GameObject performer, Func<RegisterTile, bool> allowed = null)
+	public void ServerSetAnchored(bool isAnchored, Mind performer, Func<RegisterTile, bool> allowed = null)
 	{
 		//check if blocked
 		if (isAnchored)
@@ -375,8 +375,8 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 				return;
 			}
 		}
-		ConnectedPlayer clientWhoAsked = PlayerList.Instance.Get(gameObject);
-		if (Validations.CanApply(clientWhoAsked.Script, gameObject, NetworkSide.Server) == false)
+		ConnectedPlayer clientWhoAsked = PlayersManager.Instance.Get(gameObject);
+		if (Validations.CanApply(clientWhoAsked.CurrentMind, gameObject, NetworkSide.Server) == false)
 		{
 			return;
 		}
@@ -403,9 +403,9 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 	[Server]
 	private void UpdatePullingUI(PushPull pull)
 	{
-		ConnectedPlayer player = PlayerList.Instance.Get(pull.gameObject);
+		ConnectedPlayer player = PlayersManager.Instance.Get(pull.gameObject);
 
-		if (player != ConnectedPlayer.Invalid)
+		if (player != PlayersManager.InvalidPlayer)
 			TargetUpdatePullingUI(player.Connection, pull.IsPullingSomethingServer);
 	}
 
@@ -458,7 +458,7 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 	public RightClickableResult GenerateRightClickOptions()
 	{
 		//check if our local player can reach this
-		var initiator = PlayerManager.LocalPlayerScript.pushPull;
+		var initiator = LocalPlayerManager.CurrentMind.PushPull;
 		if (initiator == null) return null;
 		//if it's pulled by us
 		if (IsPulledByClient(initiator))
@@ -695,8 +695,8 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 		{
 			return;
 		}
-		var player = PlayerList.Instance.Get(this.gameObject);
-		if (player != ConnectedPlayer.Invalid && Validations.CanInteract(player.Script, NetworkSide.Server))
+		var player = PlayersManager.Instance.Get(this.gameObject);
+		if (player != PlayersManager.InvalidPlayer && Validations.CanInteract(player.CurrentMind, NetworkSide.Server))
 		{
 			StopFollowing();
 		}
@@ -722,7 +722,7 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 
 	public void TryPullThis()
 	{
-		var initiator = PlayerManager.LocalPlayerScript.pushPull;
+		var initiator = LocalPlayerManager.CurrentMind.PushPull;
 		//client pre-validation
 		if (Validations.IsReachableByRegisterTiles(initiator.registerTile, this.registerTile, false, context: gameObject) && initiator != this)
 		{

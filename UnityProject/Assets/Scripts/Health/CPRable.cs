@@ -41,7 +41,7 @@ public class CPRable : MonoBehaviour, ICheckedInteractable<HandApply>
 
 		void ProgressComplete()
 		{
-			ServerDoCPR(interaction.Performer, interaction.TargetObject, interaction.TargetBodyPart);
+			ServerDoCPR(interaction.Performer,  MindManager.Instance.Get(interaction.TargetObject), interaction.TargetBodyPart);
 		}
 
 		var cpr = StandardProgressAction.Create(CPRProgressConfig, ProgressComplete)
@@ -55,9 +55,9 @@ public class CPRable : MonoBehaviour, ICheckedInteractable<HandApply>
 		}
 	}
 
-	private void ServerDoCPR(GameObject performer, GameObject target, BodyPartType TargetBodyPart)
+	private void ServerDoCPR(Mind performer, Mind target, BodyPartType TargetBodyPart)
 	{
-		var health = target.GetComponent<LivingHealthMasterBase>();
+		var health = target.GameObjectBody.GetComponent<LivingHealthMasterBase>();
 		Vector3Int position = health.ObjectBehaviour.AssumedWorldPositionServer();
 		MetaDataNode node = MatrixManager.GetMetaDataAt(position);
 

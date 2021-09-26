@@ -22,9 +22,9 @@ public class PlayerSlotStoragePopulator : ItemStoragePopulator
 		Logger.LogError("This shouldn't be used but  is required for inheritance", Category.EntitySpawn);
 	}
 
-	public virtual void PopulateDynamicItemStorage(DynamicItemStorage toPopulate, PlayerScript PlayerScript)
+	public virtual void PopulateDynamicItemStorage(DynamicItemStorage toPopulate, Mind mind)
 	{
-		if (toPopulate.StandardPopulator != this) toPopulate.StandardPopulator.PopulateDynamicItemStorage(toPopulate,PlayerScript);
+		if (toPopulate.StandardPopulator != this) toPopulate.StandardPopulator.PopulateDynamicItemStorage(toPopulate,mind);
 		Entries = Entries.OrderBy(entry => entry.NamedSlot).ToList();
 
 		Logger.LogTraceFormat("Populating item storage {0}", Category.EntitySpawn, toPopulate.name);
@@ -51,13 +51,13 @@ public class PlayerSlotStoragePopulator : ItemStoragePopulator
 				{
 
 					// making exception for jumpsuit/jumpskirt
-					if (toPopulate.registerPlayer.PlayerScript.characterSettings.ClothingStyle == ClothingStyle.JumpSkirt
+					if (mind.OriginalCharacter.ClothingStyle == ClothingStyle.JumpSkirt
 					    && entry.NamedSlot == NamedSlot.uniform
 					    && skirtVariant != null)
 					{
 						var spawnskirt = Spawn.ServerPrefab(skirtVariant);
 						Inventory.ServerAdd(spawnskirt.GameObject, slot, entry.ReplacementStrategy, true );
-						spawnskirt.GameObject.GetComponent<ItemStorage>()?.SetRegisterPlayer(PlayerScript.registerTile);
+						spawnskirt.GameObject.GetComponent<ItemStorage>()?.SetPlayerMind(mind);
 						PopulateSubInventory(spawnskirt.GameObject, entry.namedSlotPopulatorEntrys);
 						break;
 					}
@@ -69,7 +69,7 @@ public class PlayerSlotStoragePopulator : ItemStoragePopulator
 						///SpawnResult spawnbackpack;
 						GameObject spawnThing;
 
-						switch (toPopulate.registerPlayer.PlayerScript.characterSettings.BagStyle)
+						switch (mind.OriginalCharacter.BagStyle)
 						{
 							case BagStyle.Duffle:
 								spawnThing = (duffelVariant != null) ? duffelVariant: entry.Prefab;
@@ -85,13 +85,13 @@ public class PlayerSlotStoragePopulator : ItemStoragePopulator
 
 						var spawnbackpack = Spawn.ServerPrefab(spawnThing);
 						Inventory.ServerAdd(spawnbackpack.GameObject, slot, entry.ReplacementStrategy, true );
-						spawnbackpack.GameObject.GetComponent<ItemStorage>()?.SetRegisterPlayer(PlayerScript.registerTile);
+						spawnbackpack.GameObject.GetComponent<ItemStorage>()?.SetPlayerMind(mind);
 						PopulateSubInventory(spawnbackpack.GameObject, entry.namedSlotPopulatorEntrys);
 						break;
 					}
 					var spawn = Spawn.ServerPrefab(entry.Prefab);
 					Inventory.ServerAdd(spawn.GameObject, slot, entry.ReplacementStrategy, true );
-					spawn.GameObject.GetComponent<ItemStorage>()?.SetRegisterPlayer(PlayerScript.registerTile);
+					spawn.GameObject.GetComponent<ItemStorage>()?.SetPlayerMind(mind);
 					PopulateSubInventory(spawn.GameObject, entry.namedSlotPopulatorEntrys);
 					break;
 				}

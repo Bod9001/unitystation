@@ -74,7 +74,7 @@ namespace AdminTools
 				jobBanMinutesField.text = "";
 				jobBanPermaBanToggle.isOn = false;
 
-				ClientJobBanDataAdminMessage.Send(DatabaseAPI.ServerData.UserID, PlayerList.Instance.AdminToken, playerToKick.uid);
+				ClientJobBanDataAdminMessage.Send(DatabaseAPI.ServerData.UserID, PlayersManager.Instance.AdminToken, playerToKick.uid);
 
 				jobBanActionAfterDropDown.value = 0;
 			}
@@ -122,7 +122,7 @@ namespace AdminTools
 				return;
 			}
 
-			RequestKickMessage.Send(ServerData.UserID, PlayerList.Instance.AdminToken, playerToKickCache.uid,
+			RequestKickMessage.Send(ServerData.UserID, PlayersManager.Instance.AdminToken, playerToKickCache.uid,
 				kickReasonField.text, announceBan: kickAnnounceToggle.isOn);
 
 			ClosePage();
@@ -144,7 +144,7 @@ namespace AdminTools
 
 			int minutes;
 			int.TryParse(minutesField.text, out minutes);
-			RequestKickMessage.Send(ServerData.UserID, PlayerList.Instance.AdminToken, playerToKickCache.uid,
+			RequestKickMessage.Send(ServerData.UserID, PlayersManager.Instance.AdminToken, playerToKickCache.uid,
 				banReasonField.text, true, minutes, announceBan: banAnnounceToggle.isOn);
 			ClosePage();
 		}
@@ -190,7 +190,7 @@ namespace AdminTools
 
 				if(!jobTypeBool) continue;
 
-				PlayerList.RequestJobBan.Send(ServerData.UserID, PlayerList.Instance.AdminToken, playerToKickCache.uid,
+				PlayersManager.RequestJobBan.Send(ServerData.UserID, PlayersManager.Instance.AdminToken, playerToKickCache.uid,
 					jobBanReasonField.text, jobBanPermaBanToggle.isOn, minutes, jobType, ghost, kick);
 			}
 
@@ -219,12 +219,12 @@ namespace AdminTools
 
 			public override void Process(NetMessage msg)
 			{
-				var admin = PlayerList.Instance.GetAdmin(msg.AdminID, msg.AdminToken);
+				var admin = PlayersManager.Instance.GetAdmin(msg.AdminID, msg.AdminToken);
 				if (admin == null) return;
 
 				//Server Stuff here
 
-				var jobBanEntries = PlayerList.Instance.ListOfBanEntries(msg.PlayerID);
+				var jobBanEntries = PlayersManager.Instance.ListOfBanEntries(msg.PlayerID);
 
 				ServerSendsJobBanDataAdminMessage.Send(SentByPlayer.Connection, jobBanEntries);
 			}

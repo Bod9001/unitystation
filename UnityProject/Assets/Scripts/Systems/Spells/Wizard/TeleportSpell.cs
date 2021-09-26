@@ -17,7 +17,7 @@ namespace Systems.Spells.Wizard
 
 		// We sync the teleporting player so we can play animations locally.
 		[SyncVar(hook = nameof(SyncPlayer))]
-		private GameObject teleportingPlayer;
+		private Mind teleportingPlayer;
 
 		private Transform playerSprite;
 
@@ -31,7 +31,7 @@ namespace Systems.Spells.Wizard
 		[SyncVar(hook = nameof(SyncAnimation))]
 		private bool syncAnimation = false;
 
-		public void ServerTeleportWizard(GameObject playerToTeleport, Vector3Int toWorldPos)
+		public void ServerTeleportWizard(Mind playerToTeleport, Vector3Int toWorldPos)
 		{
 			teleportingPlayer = playerToTeleport;
 
@@ -40,22 +40,22 @@ namespace Systems.Spells.Wizard
 
 		private IEnumerator RunTeleportSequence(Vector3Int toWorldPos)
 		{
-			ConnectedPlayer player = teleportingPlayer.Player();
+			var player = teleportingPlayer;
 
 			IsBusy = true;
 			syncAnimation = true;
-			SoundManager.PlayNetworkedAtPos(TeleportDisappear, player.Script.WorldPos);
+			SoundManager.PlayNetworkedAtPos(TeleportDisappear, player.BodyWorldPosition);
 			yield return WaitFor.Seconds(TELEPORT_ANIMATE_TIME + TELEPORT_TRAVEL_TIME);
 
-			player.Script.PlayerSync.SetPosition(toWorldPos, true);
+			player.PlayerSync.SetPosition(toWorldPos, true);
 
 			syncAnimation = false;
-			SoundManager.PlayNetworkedAtPos(TeleportAppear, player.Script.WorldPos);
+			SoundManager.PlayNetworkedAtPos(TeleportAppear, player.BodyWorldPosition);
 			yield return WaitFor.Seconds(TELEPORT_ANIMATE_TIME);
 			IsBusy = false;
 		}
 
-		private void SyncPlayer(GameObject oldPlayer, GameObject newPlayer)
+		private void SyncPlayer(Mind oldPlayer, Mind newPlayer)
 		{
 			teleportingPlayer = newPlayer;
 			playerSprite = teleportingPlayer.transform.Find("Sprites");

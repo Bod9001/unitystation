@@ -170,17 +170,18 @@ namespace Objects.Science
 			//Use the transport object code from StationGateway
 
 			//detect players positioned on the portal bit of the gateway
-			foreach (ObjectBehaviour player in Matrix.Get<ObjectBehaviour>(registerTileLocation, ObjectType.Player, true))
+			foreach (ObjectBehaviour player in Matrix.Get<ObjectBehaviour>(registerTileLocation, FlagsObjectType.Player, true))
 			{
-				Chat.AddExamineMsgFromServer(player.gameObject, message);
-				_ = SoundManager.PlayNetworkedForPlayer(player.gameObject, CommonSounds.Instance.StealthOff); //very weird, sometimes does the sound other times not.
+				var Mind = MindManager.StaticGet(player.gameObject);
+				Chat.AddExamineMsgFromServer( Mind , message);
+				_ = SoundManager.PlayNetworkedForPlayer(Mind, CommonSounds.Instance.StealthOff); //very weird, sometimes does the sound other times not.
 				TransportUtility.TransportObjectAndPulled(player, travelCoord);
 				somethingTeleported = true;
 			}
 
 			//detect objects and items
-			foreach (var item in Matrix.Get<ObjectBehaviour>(registerTileLocation, ObjectType.Object, true)
-									.Concat(Matrix.Get<ObjectBehaviour>(registerTileLocation, ObjectType.Item, true)))
+			foreach (var item in Matrix.Get<ObjectBehaviour>(registerTileLocation, FlagsObjectType.Object, true)
+									.Concat(Matrix.Get<ObjectBehaviour>(registerTileLocation, FlagsObjectType.Item, true)))
 			{
 
 				if (item.gameObject.TryGetComponent(out IQuantumReaction reaction))

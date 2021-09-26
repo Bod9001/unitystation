@@ -50,8 +50,8 @@ namespace Systems.Ai
 		private Transform cameraLocation;
 		public Transform CameraLocation => cameraLocation;
 
-		private PlayerScript playerScript;
-		public PlayerScript PlayerScript => playerScript;
+		// private PlayerScript playerScript;
+		// public PlayerScript PlayerScript => playerScript;
 
 		private HasCooldowns cooldowns;
 
@@ -142,7 +142,7 @@ namespace Systems.Ai
 
 		private void Awake()
 		{
-			playerScript = GetComponent<PlayerScript>();
+			// playerScript = GetComponent<PlayerScript>();
 			cooldowns = GetComponent<HasCooldowns>();
 			lineRenderer = GetComponentInChildren<LineRenderer>();
 		}
@@ -156,19 +156,19 @@ namespace Systems.Ai
 			//Set up laws
 			SetRandomDefaultLawSet();
 
-			var newVesselObject = Spawn.ServerPrefab(corePrefab, playerScript.registerTile.WorldPosition, transform.parent).GameObject;
+			// var newVesselObject = Spawn.ServerPrefab(corePrefab, playerScript.registerTile.WorldPosition, transform.parent).GameObject;
 
-			if (newVesselObject == null)
+			// if (newVesselObject == null)
 			{
 				Debug.LogError($"Failed to spawn Ai core for {gameObject}");
 				return;
 			}
 
 			//Set new vessel
-			ServerSetNewVessel(newVesselObject);
+			// ServerSetNewVessel(newVesselObject);
 
-			playerScript.SetPermanentName(playerScript.characterSettings.AiName);
-			newVesselObject.GetComponent<AiVessel>().SetLinkedPlayer(this);
+			// playerScript.SetPermanentName(playerScript.characterSettings.AiName);
+			// newVesselObject.GetComponent<AiVessel>().SetLinkedPlayer(this);
 
 			isCarded = false;
 		}
@@ -177,8 +177,8 @@ namespace Systems.Ai
 		{
 			base.OnStartClient();
 
-			if(PlayerManager.LocalPlayerScript  == null ||
-			   PlayerManager.LocalPlayerScript.PlayerState != PlayerScript.PlayerStates.Ai) return;
+			// if(LocalPlayerManager.LocalPlayerScript  == null ||
+			   // LocalPlayerManager.LocalPlayerScript.PlayerState != PlayerScript.PlayerStates.Ai) return;
 
 			SetSpriteVisibility(true);
 		}
@@ -196,7 +196,7 @@ namespace Systems.Ai
 			{
 				if (apc.ConnectToClosestApc() == false)
 				{
-					Chat.AddExamineMsgFromServer(gameObject, "Core was unable to connect to APC");
+					// Chat.AddExamineMsgFromServer(gameObject, "Core was unable to connect to APC");
 				}
 
 				apc.OnStateChangeEvent.AddListener(OnCorePowerLost);
@@ -267,7 +267,7 @@ namespace Systems.Ai
 			if(newCore == null) return;
 
 			//Something weird with headless and local host triggering the sync even though its set to owner
-			if (CustomNetworkManager.IsHeadless || PlayerManager.LocalPlayer != gameObject) return;
+			if (CustomNetworkManager.IsHeadless || LocalPlayerManager.LocalPlayer != gameObject) return;
 
 			Init();
 			aiUi.OrNull()?.SetUp(this);
@@ -291,7 +291,7 @@ namespace Systems.Ai
 		{
 			hasPower = newState;
 
-			if (CustomNetworkManager.IsHeadless || PlayerManager.LocalPlayer != gameObject) return;
+			if (CustomNetworkManager.IsHeadless || LocalPlayerManager.LocalPlayer != gameObject) return;
 
 			Init();
 
@@ -305,7 +305,7 @@ namespace Systems.Ai
 		{
 			power = newValue;
 
-			if (CustomNetworkManager.IsHeadless || PlayerManager.LocalPlayer != gameObject) return;
+			if (CustomNetworkManager.IsHeadless || LocalPlayerManager.LocalPlayer != gameObject) return;
 
 			Init();
 
@@ -317,7 +317,7 @@ namespace Systems.Ai
 		{
 			integrity = newValue;
 
-			if (CustomNetworkManager.IsHeadless || PlayerManager.LocalPlayer != gameObject) return;
+			if (CustomNetworkManager.IsHeadless || LocalPlayerManager.LocalPlayer != gameObject) return;
 
 			Init();
 
@@ -329,7 +329,7 @@ namespace Systems.Ai
 		{
 			numberOfCameras = newValue;
 
-			if (CustomNetworkManager.IsHeadless || PlayerManager.LocalPlayer != gameObject) return;
+			if (CustomNetworkManager.IsHeadless || LocalPlayerManager.LocalPlayer != gameObject) return;
 
 			Init();
 
@@ -346,7 +346,7 @@ namespace Systems.Ai
 			//Cant switch cameras when carded
 			if (isCarded && ignoreCardCheck == false)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"You are carded, you cannot move anywhere");
+				// Chat.AddExamineMsgFromServer(gameObject, $"You are carded, you cannot move anywhere");
 				return;
 			}
 
@@ -367,7 +367,7 @@ namespace Systems.Ai
 
 				//This is to move the player object so we can see the Ai Eye sprite underneath us
 				//TODO for some reason this isnt always working the sprite sometimes stays on the core, or last position
-				playerScript.PlayerSync.SetPosition(cameraLocation.gameObject.WorldPosServer(), true);
+				// playerScript.PlayerSync.SetPosition(cameraLocation.gameObject.WorldPosServer(), true);
 			}
 			else
 			{
@@ -375,7 +375,7 @@ namespace Systems.Ai
 			}
 
 			//Tell client to move their camera to this new camera
-			FollowCameraAiMessage.Send(gameObject, newObject);
+			FollowCameraAiMessage.Send(MindManager.StaticGet(gameObject) , newObject);
 
 			//Add new listeners
 			if (newObject != null && cameraLocation.gameObject != newObject)
@@ -389,7 +389,7 @@ namespace Systems.Ai
 
 			if (newObject != null && isCarded == false && moveMessage)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"You move to the {newObject.ExpensiveName()}");
+				// Chat.AddExamineMsgFromServer(gameObject, $"You move to the {newObject.ExpensiveName()}");
 			}
 		}
 
@@ -442,7 +442,7 @@ namespace Systems.Ai
 
 			if (allowRemoteAction == false)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"Remote actions have been disabled");
+				// Chat.AddExamineMsgFromServer(gameObject, $"Remote actions have been disabled");
 				return;
 			}
 
@@ -458,7 +458,7 @@ namespace Systems.Ai
 				}
 			}
 
-			Chat.AddExamineMsgFromServer(gameObject, $"You turn the camera lights {(newState ? "on" : "off")}");
+			// Chat.AddExamineMsgFromServer(gameObject, $"You turn the camera lights {(newState ? "on" : "off")}");
 		}
 
 		//Called when camera is deactivated, e.g loss of power or wires cut
@@ -513,7 +513,7 @@ namespace Systems.Ai
 
 			if (isCarded)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"Can only move to different camera when in core");
+				// Chat.AddExamineMsgFromServer(gameObject, $"Can only move to different camera when in core");
 				return;
 			}
 
@@ -523,7 +523,7 @@ namespace Systems.Ai
 
 			if (hasPower == false)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"We have no power, cannot move to {securityCamera.gameObject.ExpensiveName()}");
+				// Chat.AddExamineMsgFromServer(gameObject, $"We have no power, cannot move to {securityCamera.gameObject.ExpensiveName()}");
 
 				//Sanity check to make sure if we have no power we are at core
 				if (cameraLocation != vesselObject.transform)
@@ -535,7 +535,7 @@ namespace Systems.Ai
 
 			if (securityCamera.CameraActive == false)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"{securityCamera.gameObject.ExpensiveName()} is inactive, cannot move to it");
+				// Chat.AddExamineMsgFromServer(gameObject, $"{securityCamera.gameObject.ExpensiveName()} is inactive, cannot move to it");
 				return;
 			}
 
@@ -551,7 +551,7 @@ namespace Systems.Ai
 
 			if (isCarded)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"Can only track lifeforms when in core");
+				// Chat.AddExamineMsgFromServer(gameObject, $"Can only track lifeforms when in core");
 				return;
 			}
 
@@ -559,7 +559,7 @@ namespace Systems.Ai
 
 			if (hasPower == false)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"We have no power, cannot track {objectToTrack.ExpensiveName()}");
+				// Chat.AddExamineMsgFromServer(gameObject, $"We have no power, cannot track {objectToTrack.ExpensiveName()}");
 
 				//Sanity check to make sure if we have no power we are at core
 				if (cameraLocation != vesselObject.transform)
@@ -573,7 +573,7 @@ namespace Systems.Ai
 
 			if (cameraThatCanSee == null)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"Failed to track {objectToTrack.ExpensiveName()}");
+				// Chat.AddExamineMsgFromServer(gameObject, $"Failed to track {objectToTrack.ExpensiveName()}");
 				return;
 			}
 
@@ -586,20 +586,20 @@ namespace Systems.Ai
 			Vector3Int objectPos;
 
 			//Check to see if player
-			if (objectToCheck.TryGetComponent<PlayerScript>(out var checkPlayerScript))
+			// if (objectToCheck.TryGetComponent<PlayerScript>(out var checkPlayerScript))
 			{
 				//Dont check ghosts
-				if (checkPlayerScript.PlayerState == PlayerScript.PlayerStates.Ghost) return null;
+				// if (checkPlayerScript.PlayerState == PlayerScript.PlayerStates.Ghost) return null;
 
 				//Dont check yourself
-				if(checkPlayerScript.gameObject == gameObject) return null;
+				// if(checkPlayerScript.gameObject == gameObject) return null;
 
 				//If we are player get position
-				objectPos = CustomNetworkManager.IsServer
-					? checkPlayerScript.PlayerSync.ServerPosition
-					: checkPlayerScript.PlayerSync.ClientPosition;
+				// objectPos = CustomNetworkManager.IsServer
+					// ? checkPlayerScript.PlayerSync.ServerPosition
+					// : checkPlayerScript.PlayerSync.ClientPosition;
 			}
-			else
+			// else
 			{
 				//If not player check to see if mob
 				if (objectToCheck.TryGetComponent<MobAI>(out var mobAI))
@@ -731,7 +731,7 @@ namespace Systems.Ai
 			RemoveVesselListeners();
 			vesselObject = newVessel;
 
-			playerScript.SetPlayerChatLocation(newVessel);
+			// playerScript.SetPlayerChatLocation(newVessel);
 
 			isCarded = newVessel.GetComponent<AiVessel>().IsInteliCard;
 
@@ -802,7 +802,7 @@ namespace Systems.Ai
 
 			if (isCarded)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"Can only toggle floor bolts when in core");
+				// Chat.AddExamineMsgFromServer(gameObject, $"Can only toggle floor bolts when in core");
 				return;
 			}
 
@@ -810,8 +810,8 @@ namespace Systems.Ai
 
 			var newState = objectBehaviour.IsNotPushable;
 
-			Chat.AddActionMsgToChat(gameObject, $"You {(newState ? "disengage" : "engage")} your core floor bolts",
-				$"{vesselObject.ExpensiveName()} {(newState ? "disengages" : "engages")} its floor bolts");
+			// Chat.AddActionMsgToChat(gameObject, $"You {(newState ? "disengage" : "engage")} your core floor bolts",
+				// $"{vesselObject.ExpensiveName()} {(newState ? "disengages" : "engages")} its floor bolts");
 			objectBehaviour.ServerSetPushable(newState);
 		}
 
@@ -833,7 +833,7 @@ namespace Systems.Ai
 					return rootPlayer.gameObject;
 				}
 
-				return cardPickupable.ItemSlot.GetRootStorageOrPlayer().gameObject;
+				return cardPickupable.ItemSlot.GetRootStorage().gameObject;
 			}
 
 			//Else we must be on the floor so return ourselves
@@ -855,7 +855,7 @@ namespace Systems.Ai
 
 				//Set serverside interaction distance validation
 				interactionDistance = 2;
-				Chat.AddExamineMsgFromServer(gameObject, "Core power has failed");
+				// Chat.AddExamineMsgFromServer(gameObject, "Core power has failed");
 
 				//Force move to core
 				ServerSetCameraLocation(vesselObject);
@@ -879,12 +879,12 @@ namespace Systems.Ai
 
 			if (oldAndNewStates.Item1 == PowerState.LowVoltage)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "Your core power is failing!");
+				// Chat.AddExamineMsgFromServer(gameObject, "Your core power is failing!");
 			}
 
 			if (oldAndNewStates.Item1 == PowerState.OverVoltage)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "Your core power voltage is too high!");
+				// Chat.AddExamineMsgFromServer(gameObject, "Your core power voltage is too high!");
 			}
 		}
 
@@ -1104,7 +1104,7 @@ namespace Systems.Ai
 
 		private void SendChatMessage(string message)
 		{
-			Chat.AddExamineMsgFromServer(gameObject, message);
+			// Chat.AddExamineMsgFromServer(gameObject, message);
 		}
 
 		#endregion
@@ -1119,19 +1119,19 @@ namespace Systems.Ai
 
 			if (allowRemoteAction == false)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, $"Remote actions have been disabled");
+				// Chat.AddExamineMsgFromServer(gameObject, $"Remote actions have been disabled");
 				return;
 			}
 
 			if (string.IsNullOrEmpty(reason))
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "You must specify a reason to call the shuttle");
+				// Chat.AddExamineMsgFromServer(gameObject, "You must specify a reason to call the shuttle");
 				return;
 			}
 
 			if (reason.Trim().Length < 10)
 			{
-				Chat.AddExamineMsgFromServer(gameObject, "You must provide a longer reason when calling the shuttle");
+				// Chat.AddExamineMsgFromServer(gameObject, "You must provide a longer reason when calling the shuttle");
 				return;
 			}
 
@@ -1140,7 +1140,7 @@ namespace Systems.Ai
 				CentComm.MakeShuttleCallAnnouncement(TimeSpan.FromSeconds(GameManager.Instance.PrimaryEscapeShuttle.InitialTimerSeconds).ToString(), reason);
 			}
 
-			Chat.AddExamineMsgFromServer(gameObject, result);
+			// Chat.AddExamineMsgFromServer(gameObject, result);
 		}
 
 		[Client]
@@ -1183,11 +1183,11 @@ namespace Systems.Ai
 		//Sets Ai sprite for all players
 		private void SetVisibilityToOtherAis(bool isVisible)
 		{
-			foreach (var player in PlayerList.Instance.GetAllPlayers())
+			foreach (var player in PlayersManager.Instance.InGamePlayers)
 			{
-				if(player.Script.PlayerState != PlayerScript.PlayerStates.Ai) continue;
+				// if(player.Script.PlayerState != PlayerScript.PlayerStates.Ai) continue;
 
-				player.Script.GetComponent<AiPlayer>().OrNull()?.TargetRpcSetSpriteVisibility(connectionToClient, isVisible);
+				// player.Script.GetComponent<AiPlayer>().OrNull()?.TargetRpcSetSpriteVisibility(connectionToClient, isVisible);
 			}
 		}
 
@@ -1224,7 +1224,7 @@ namespace Systems.Ai
 
 			ToggleCameras(false);
 
-			Chat.AddExamineMsgFromServer(gameObject, $"You have been destroyed");
+			// Chat.AddExamineMsgFromServer(gameObject, $"You have been destroyed");
 
 			var vessel = vesselObject.GetComponent<AiVessel>();
 
@@ -1236,7 +1236,7 @@ namespace Systems.Ai
 			}
 
 			//Transfer player to ghost
-			PlayerSpawn.ServerSpawnGhost(playerScript.mind);
+			// PlayerSpawn.ServerSpawnGhost(playerScript.mind);
 
 			//Despawn this player object
 			_ = Despawn.ServerSingle(gameObject);
@@ -1247,7 +1247,7 @@ namespace Systems.Ai
 		{
 			isPurging = newState;
 
-			Chat.AddExamineMsgFromServer(gameObject, $"You are{(newState ? "" : " no longer")} being purged!");
+			// Chat.AddExamineMsgFromServer(gameObject, $"You are{(newState ? "" : " no longer")} being purged!");
 
 			if (isCarded)
 			{
@@ -1289,7 +1289,7 @@ namespace Systems.Ai
 				return;
 			}
 
-			var lawFromModule = module.GetLawsFromModule(interaction.PerformerPlayerScript);
+			// var lawFromModule = module.GetLawsFromModule(interaction.PerformerPlayerScript);
 
 			if (module.AiModuleType == AiModuleType.Purge || module.AiModuleType == AiModuleType.Reset)
 			{
@@ -1300,7 +1300,7 @@ namespace Systems.Ai
 				return;
 			}
 
-			if (lawFromModule.Count == 0)
+			// if (lawFromModule.Count == 0)
 			{
 				Chat.AddExamineMsgFromServer(interaction.Performer, "No laws to upload");
 				return;
@@ -1310,19 +1310,19 @@ namespace Systems.Ai
 			//This means we are assuming that the law set must only have core laws if it is to replace the old laws fully
 			var notOnlyCoreLaws = false;
 
-			foreach (var law in lawFromModule)
-			{
-				if (law.Key != AiPlayer.LawOrder.Core)
-				{
-					notOnlyCoreLaws = true;
-					break;
-				}
-			}
+			// foreach (var law in lawFromModule)
+			// {
+				// if (law.Key != AiPlayer.LawOrder.Core)
+				// {
+					// notOnlyCoreLaws = true;
+					// break;
+				// }
+			// }
 
-			SetLaws(lawFromModule, true, notOnlyCoreLaws);
+			// SetLaws(lawFromModule, true, notOnlyCoreLaws);
 
-			Chat.AddActionMsgToChat(interaction.Performer, $"You change {gameObject.ExpensiveName()} laws",
-				$"{interaction.Performer.ExpensiveName()} changes {gameObject.ExpensiveName()} laws");
+			// Chat.AddActionMsgToChat(interaction.Performer, $"You change {gameObject.ExpensiveName()} laws",
+				// $"{interaction.Performer.ExpensiveName()} changes {gameObject.ExpensiveName()} laws");
 		}
 
 		//Add one law
@@ -1354,7 +1354,7 @@ namespace Systems.Ai
 			//Dont spam client on init
 			if(init) return;
 
-			Chat.AddExamineMsgFromServer(gameObject, "Your Laws Have Been Updated!");
+			// Chat.AddExamineMsgFromServer(gameObject, "Your Laws Have Been Updated!");
 
 			//Tell player to open law screen so they dont miss that their laws have changed
 			ServerUpdateClientLaws();
@@ -1424,7 +1424,7 @@ namespace Systems.Ai
 
 			aiLaws = newLaws;
 
-			Chat.AddExamineMsgFromServer(gameObject, "Your Laws Have Been Updated!");
+			// Chat.AddExamineMsgFromServer(gameObject, "Your Laws Have Been Updated!");
 
 			//Tell player to open law screen so they dont miss that their laws have changed
 			ServerUpdateClientLaws();
@@ -1448,7 +1448,7 @@ namespace Systems.Ai
 				aiLaws.Remove(law.Key);
 			}
 
-			Chat.AddExamineMsgFromServer(gameObject, "Your Laws Have Been Updated!");
+			// Chat.AddExamineMsgFromServer(gameObject, "Your Laws Have Been Updated!");
 
 			ServerUpdateClientLaws();
 		}

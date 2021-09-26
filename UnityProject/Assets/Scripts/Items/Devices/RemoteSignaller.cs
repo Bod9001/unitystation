@@ -83,7 +83,7 @@ public class RemoteSignaller : NetworkBehaviour, IInteractable<HandActivate>, IS
 	{
 		if (pickupable.ItemSlot != null && pickupable.ItemSlot.Player != null)
 		{
-			UpdateChatMessage.Send(pickupable.ItemSlot.Player.gameObject, ChatChannel.Examine, ChatModifier.None, "You feel your signaler vibrate.");
+			UpdateChatMessage.Send(pickupable.ItemSlot.Player.AssignedPlayer, ChatChannel.Examine, ChatModifier.None, "You feel your signaler vibrate.");
 		}
 
 		// hackDevice.SendOutputSignal();

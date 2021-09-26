@@ -53,7 +53,7 @@ namespace Messages.Client
 
 		private static void setKey(ConnectedPlayer player, GameObject headsetGO, GameObject keyGO)
 		{
-			var pna = player.Script.playerNetworkActions;
+			var pna = player.CurrentMind.playerNetworkActions;
 			if ( pna.HasItem(keyGO) )
 			{
 				Headset headset = headsetGO.GetComponent<Headset>();
@@ -68,18 +68,18 @@ namespace Messages.Client
 			Headset headset = headsetGO.GetComponent<Headset>();
 			var encryptionKey =
 				Spawn.ServerPrefab(CustomNetworkManager.Instance.GetSpawnablePrefabFromName("EncryptionKey"),
-					player.Script.WorldPos, player.GameObject.transform.parent);
+					player.CurrentMind.BodyWorldPosition, player.CurrentMind.GameObjectBody.transform.parent);
 
 			if (encryptionKey.Successful == false)
 			{
-				Logger.LogError($"Headset key instantiation for {player.Name} failed, spawn aborted",Category.Chat);
+				Logger.LogError($"Headset key instantiation for {player.Username} failed, spawn aborted",Category.Chat);
 				return;
 			}
 
 			encryptionKey.GameObject.GetComponent<EncryptionKey>().Type = headset.EncryptionKey;
 			headset.EncryptionKey = EncryptionKeyType.None;
 
-			var emptyHand = player.Script.DynamicItemStorage.GetBestHand();
+			var emptyHand = player.CurrentMind.DynamicItemStorage.GetBestHand();
 			if (emptyHand != null)
 			{
 				Inventory.ServerAdd(encryptionKey.GameObject, emptyHand);

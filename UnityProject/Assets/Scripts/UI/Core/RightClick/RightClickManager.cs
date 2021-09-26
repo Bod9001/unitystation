@@ -259,9 +259,9 @@ public class RightClickManager : MonoBehaviour
 					}
 				}
 
-				if (!string.IsNullOrEmpty(PlayerList.Instance.AdminToken))
+				if (!string.IsNullOrEmpty(PlayersManager.Instance.AdminToken))
 				{
-					Action VVAction = () => RequestBookshelfNetMessage.Send(curObject, ServerData.UserID, PlayerList.Instance.AdminToken);
+					Action VVAction = () => RequestBookshelfNetMessage.Send(curObject, ServerData.UserID, PlayersManager.Instance.AdminToken);
 					subMenus.Add(VariableViewerOption.AsMenu(VVAction));
 				}
 			}

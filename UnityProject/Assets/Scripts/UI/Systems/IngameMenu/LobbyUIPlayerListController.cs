@@ -25,7 +25,7 @@ public class LobbyUIPlayerListController : MonoBehaviour
 
 		playerEntryList.Clear();
 
-		var list = PlayerList.Instance.ClientConnectedPlayers;
+		var list = PlayersManager.Instance.ClientConnectedPlayers;
 
 		var count = list.Count;
 

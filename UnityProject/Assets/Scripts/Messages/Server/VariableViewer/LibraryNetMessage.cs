@@ -34,7 +34,7 @@ namespace Messages.Server.VariableViewer
 			}
 		}
 
-		public static NetMessage Send(Librarian.Library Library, GameObject ToWho)
+		public static NetMessage Send(Librarian.Library Library, ConnectedPlayer ToWho)
 		{
 			NetMessage msg = new NetMessage();
 			var ListsOfLists = VariableViewerNetworking.ProcessLibrary(Library).Chunk(700).ToList();

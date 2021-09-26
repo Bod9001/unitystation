@@ -64,7 +64,7 @@ namespace ScriptableObjects.RP
 			Critical
 		}
 
-		public virtual void Do(GameObject player)
+		public virtual void Do(Mind player)
 		{
 			if (allowEmoteWhileInCrit == false && CheckPlayerCritState(player) == true)
 			{
@@ -91,7 +91,7 @@ namespace ScriptableObjects.RP
 		/// </summary>
 		/// <param name="player">The orignator</param>
 		/// <param name="type">Normal : Displays failText string. Critical: Displays critViewText string.</param>
-		protected void FailText(GameObject player, FailType type)
+		protected void FailText(Mind player, FailType type)
 		{
 			switch (type)
 			{
@@ -104,7 +104,7 @@ namespace ScriptableObjects.RP
 			}
 		}
 
-		protected void PlayAudio(List<AddressableAudioSource> audio, GameObject player)
+		protected void PlayAudio(List<AddressableAudioSource> audio, Mind player)
 		{
 			//If there is no audio in the audio list, exit out of this function.
 			if (audio.Count == 0)
@@ -117,7 +117,7 @@ namespace ScriptableObjects.RP
 
 			SoundManager.PlayNetworkedAtPos(
 				audio.PickRandom(),
-				player.AssumedWorldPosServer(),
+				player.BodyWorldPosition,
 				audioSourceParameters,
 				true);
 		}
@@ -126,9 +126,9 @@ namespace ScriptableObjects.RP
 		/// Responsible for making sure the right audio plays
 		/// for the correct body type.
 		/// </summary>
-		protected List<AddressableAudioSource> GetBodyTypeAudio(GameObject player)
+		protected List<AddressableAudioSource> GetBodyTypeAudio(Mind player)
 		{
-			player.TryGetComponent<LivingHealthMasterBase>(out var health);
+			var health = player.LivingHealthMasterBase;
 			var bodyType = health.OrNull()?.BodyType;
 
 			//Add race checks later when lizard men, slime people and lusty xeno-maids get added after the new health system gets merged.
@@ -148,9 +148,9 @@ namespace ScriptableObjects.RP
 		/// <summary>
 		/// Checks if the player has arms and if they're cuffed or not.
 		/// </summary>
-		protected bool CheckHandState(GameObject player)
+		protected bool CheckHandState(Mind player)
 		{
-			return !player.GetComponent<PlayerScript>().playerMove.IsCuffed && Validations.HasBothHands(player);
+			return !player.PlayerMove.IsCuffed && Validations.HasBothHands(player);
 		}
 
 		/// <summary>
@@ -158,9 +158,9 @@ namespace ScriptableObjects.RP
 		/// </summary>
 		/// <param name="player">The player that you want to check their health.</param>
 		/// <returns>True if crit, false otherwise.</returns>
-		protected bool CheckPlayerCritState(GameObject player)
+		protected bool CheckPlayerCritState(Mind player)
 		{
-			var health = player.GetComponent<LivingHealthMasterBase>();
+			var health = player.LivingHealthMasterBase;
 			if (health == null || health.IsCrit == true || health.IsSoftCrit == true)
 			{
 				return true;
@@ -171,9 +171,9 @@ namespace ScriptableObjects.RP
 			}
 		}
 
-		protected bool CheckIfPlayerIsCrawling(GameObject player)
+		protected bool CheckIfPlayerIsCrawling(Mind player)
 		{
-			return player.GetComponent<RegisterPlayer>().IsLayingDown;
+			return player.RegisterPlayer.IsLayingDown;
 		}
 	}
 }

@@ -45,7 +45,7 @@ namespace Chemistry
 				return default;
 			}
 
-			var playerStorage = subject.Script.DynamicItemStorage;
+			var playerStorage = subject.CurrentMind.DynamicItemStorage;
 
 			//Can be null if Ai is using machine
 			if (playerStorage == null)

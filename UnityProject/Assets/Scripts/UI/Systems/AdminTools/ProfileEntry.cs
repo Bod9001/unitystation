@@ -12,7 +12,7 @@ namespace AdminTools
 
 		public void DeleteButton()
 		{
-			AdminCommandsManager.Instance.CmdDeleteProfile(ServerData.UserID, PlayerList.Instance.AdminToken, fileName.text);
+			AdminCommandsManager.Instance.CmdDeleteProfile(ServerData.UserID, PlayersManager.Instance.AdminToken, fileName.text);
 		}
 
 	}

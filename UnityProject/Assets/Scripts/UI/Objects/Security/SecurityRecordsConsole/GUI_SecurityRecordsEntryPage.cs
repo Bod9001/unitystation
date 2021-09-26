@@ -70,7 +70,7 @@ namespace UI.Objects.Security
 			ClosePopup();
 		}
 
-		public void RemoveID(ConnectedPlayer player)
+		public void RemoveID(Mind player)
 		{
 			securityRecordsTab.RemoveId(player);
 			securityRecordsTab.UpdateIdText(idNameText);

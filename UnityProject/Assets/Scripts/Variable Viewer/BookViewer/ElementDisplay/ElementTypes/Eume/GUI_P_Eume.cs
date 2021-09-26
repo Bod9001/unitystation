@@ -51,7 +51,7 @@ public class GUI_P_Eume : PageElement
 	{
 		if (PageID != 0)
 		{
-			RequestChangeVariableNetMessage.Send(PageID, TDropdown.options[intloc].text, UISendToClientToggle.toggle, ServerData.UserID, PlayerList.Instance.AdminToken);
+			RequestChangeVariableNetMessage.Send(PageID, TDropdown.options[intloc].text, UISendToClientToggle.toggle, ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
 	}
 

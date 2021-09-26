@@ -60,7 +60,7 @@ namespace UI
 		{
 			base.OnPointerEnter(eventData);
 
-			var item = PlayerManager.LocalPlayerScript?.DynamicItemStorage?.GetActiveHandSlot().Item;
+			var item = LocalPlayerManager.LocalPlayer.CurrentMind.OrNull()?.DynamicItemStorage.OrNull()?.GetActiveHandSlot().Item;
 			if (item == null
 				|| itemSlot.Item != null
 				|| itemSlot.NamedSlot == NamedSlot.rightHand
@@ -69,7 +69,7 @@ namespace UI
 				return;
 			}
 			itemSlot.UpdateImage(item.gameObject,
-				Validations.CanPutItemToSlot(PlayerManager.LocalPlayerScript, itemSlot.ItemSlot, item, NetworkSide.Client)
+				Validations.CanPutItemToSlot(LocalPlayerManager.LocalPlayer.CurrentMind, itemSlot.ItemSlot, item, NetworkSide.Client)
 				? successOverlayColor : failOverlayColor);
 
 

@@ -75,7 +75,7 @@ namespace Systems.CraftingV2
 
 				if
 				(
-					interaction.PerformerPlayerScript.PlayerCrafting.CanCraft(
+					interaction.Performer.PlayerCrafting.CanCraft(
 						relatedRecipe.Recipe,
 						possibleIngredients,
 						possibleTools,
@@ -124,7 +124,7 @@ namespace Systems.CraftingV2
 
 				if
 				(
-					interaction.PerformerPlayerScript.PlayerCrafting.TryToStartCrafting(
+					interaction.Performer.PlayerCrafting.TryToStartCrafting(
 						relatedRecipe.Recipe,
 						possibleIngredients,
 						possibleTools,

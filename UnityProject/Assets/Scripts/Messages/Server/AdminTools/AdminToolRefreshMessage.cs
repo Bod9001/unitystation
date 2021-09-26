@@ -12,7 +12,6 @@ namespace Messages.Server.AdminTools
 		public struct NetMessage : NetworkMessage
 		{
 			public string JsonData;
-			public uint Recipient;
 		}
 
 		//This is needed so the message can be discovered in NetworkManagerExtensions
@@ -20,7 +19,6 @@ namespace Messages.Server.AdminTools
 
 		public override void Process(NetMessage msg)
 		{
-			LoadNetworkObject(msg.Recipient);
 			var adminPageData = JsonUtility.FromJson<AdminPageRefreshData>(msg.JsonData);
 
 			var pages = GameObject.FindObjectsOfType<AdminPage>();
@@ -30,7 +28,7 @@ namespace Messages.Server.AdminTools
 			}
 		}
 
-		public static NetMessage Send(GameObject recipient, string adminID)
+		public static NetMessage Send(ConnectedPlayer recipient, string adminID)
 		{
 			//Gather the data:
 			var pageData = new AdminPageRefreshData();
@@ -60,7 +58,7 @@ namespace Messages.Server.AdminTools
 			var data = JsonUtility.ToJson(pageData);
 
 			NetMessage  msg =
-				new NetMessage  {Recipient = recipient.GetComponent<NetworkIdentity>().netId, JsonData = data};
+				new NetMessage  {JsonData = data};
 
 			SendTo(recipient, msg);
 			return msg;
@@ -70,32 +68,32 @@ namespace Messages.Server.AdminTools
 		{
 			var playerList = new List<AdminPlayerEntryData>();
 			if (string.IsNullOrEmpty(adminID)) return playerList;
-			var ToSearchThrough = PlayerList.Instance.AllPlayers.ToList();
-			ToSearchThrough.AddRange(PlayerList.Instance.loggedOff);
+			var ToSearchThrough = PlayersManager.Instance.AllPlayers.ToList();
+			ToSearchThrough.AddRange(PlayersManager.Instance.loggedOff);
 			foreach (var player in ToSearchThrough)
 			{
 				if (player == null) continue;
 				//if (player.Connection == null) continue;
 
 				var entry = new AdminPlayerEntryData();
-				entry.name = player.Name;
+				entry.name = player.CurrentMind.OrNull()?.CharactersName;
 				entry.uid = player.UserId;
-				entry.currentJob = player.Job.ToString();
+				entry.currentJob = player.CurrentMind.JobType.ToString();
 				entry.accountName = player.Username;
 				if (player.Connection != null)
 				{
 					entry.ipAddress = player.Connection.address;
 				}
 
-				if (player.Script != null && player.Script.playerHealth != null)
+				if (player.CurrentMind != null && player.CurrentMind.LivingHealthMasterBase != null)
 				{
-					entry.isAlive = player.Script.playerHealth.ConsciousState != ConsciousState.DEAD;
+					entry.isAlive = player.CurrentMind.LivingHealthMasterBase.ConsciousState != ConsciousState.DEAD;
 				} else
 				{
 					entry.isAdmin = false;
 				}
-				entry.isAntag = PlayerList.Instance.AntagPlayers.Contains(player);
-				entry.isAdmin = PlayerList.Instance.IsAdmin(player.UserId);
+				entry.isAntag = MindManager.Instance.AntagMinds.Contains(player.CurrentMind);
+				entry.isAdmin = PlayersManager.Instance.IsAdmin(player.UserId);
 				entry.isOnline = true;
 
 				playerList.Add(entry);

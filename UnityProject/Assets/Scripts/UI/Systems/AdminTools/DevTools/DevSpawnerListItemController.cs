@@ -186,11 +186,11 @@ public class DevSpawnerListItemController : MonoBehaviour
 		{
 			Spawn.ServerPrefab(prefab, position);
 			UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(
-				$"{PlayerManager.LocalPlayer.Player().Username} spawned a {prefab.name} at {position}", ServerData.UserID);
+				$"{LocalPlayerManager.LocalPlayer.Username} spawned a {prefab.name} at {position}", ServerData.UserID);
 		}
 		else
 		{
-			DevSpawnMessage.Send(prefab, (Vector3) position, ServerData.UserID, PlayerList.Instance.AdminToken);
+			DevSpawnMessage.Send(prefab, (Vector3) position, ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
 	}
 }

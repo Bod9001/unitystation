@@ -239,7 +239,7 @@ namespace Systems.MobAIs
 							dest, true);
 					if (tryGetDoor)
 					{
-						tryGetDoor.MobTryOpen(gameObject);
+						//tryGetDoor.MobTryOpen(gameObject);
 					}
 
 					//New doors

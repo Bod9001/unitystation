@@ -18,7 +18,7 @@ namespace Chemistry.Effects
 			if (senderInfo != null)
 			{
 				if (senderInfo.playerHolding != null)
-					Spawn.ServerPrefab(spawnItem, senderInfo.playerHolding.WorldPositionServer, null, null, (int)amount);
+					Spawn.ServerPrefab(spawnItem, senderInfo.playerHolding.BodyWorldPosition, null, null, (int)amount);
 				else
 					Spawn.ServerPrefab(spawnItem, senderPosition, null, null, (int)amount);
 			}

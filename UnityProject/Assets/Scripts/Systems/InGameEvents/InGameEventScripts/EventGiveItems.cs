@@ -7,10 +7,10 @@ namespace InGameEvents
 {
 	public class EventGiveItems : EventScriptBase
 	{
-		[SerializeField]
-		private List<GameObject> itemList = new List<GameObject>();
-		[SerializeField]
-		private string announceText = "Blue space anomaly near your location has flung out objects near your location.";
+		[SerializeField] private List<GameObject> itemList = new List<GameObject>();
+
+		[SerializeField] private string announceText =
+			"Blue space anomaly near your location has flung out objects near your location.";
 
 		public override void OnEventStart()
 		{
@@ -26,23 +26,28 @@ namespace InGameEvents
 		{
 			if (itemList.Count == 0) return;
 
-			foreach (var player in PlayerList.Instance.InGamePlayers)
+			foreach (var player in PlayersManager.Instance.InGamePlayers)
 			{
-				if (player.Script.IsDeadOrGhost) continue;
+				if (player.CurrentMind.IsGhosting) continue;
 
-				var slot = player.Script.Equipment.ItemStorage.GetActiveHandSlot();
+				var slot = player.CurrentMind.Equipment.ItemStorage.GetActiveHandSlot();
 
 				if (slot == null) continue;
 
 				if (slot.Item == null)
 				{
-					var item = Spawn.ServerPrefab(itemList[UnityEngine.Random.Range(0, itemList.Count)], player.Script.WorldPos, player.Script.gameObject.transform.parent, player.Script.transform.rotation);
+					var item = Spawn.ServerPrefab(itemList[UnityEngine.Random.Range(0, itemList.Count)],
+						player.CurrentMind.BodyWorldPosition, player
+							.CurrentMind.GameObjectBody.transform.parent,
+						player.CurrentMind.GameObjectBody.transform.rotation);
 
 					Inventory.ServerAdd(item.GameObject.GetComponent<Pickupable>(), slot);
 				}
 				else
 				{
-					Spawn.ServerPrefab(itemList[UnityEngine.Random.Range(0, itemList.Count)], player.Script.WorldPos, player.Script.gameObject.transform.parent, player.Script.transform.rotation);
+					Spawn.ServerPrefab(itemList[UnityEngine.Random.Range(0, itemList.Count)],
+						player.CurrentMind.BodyWorldPosition, player.CurrentMind.GameObjectBody.transform.parent,
+						player.CurrentMind.GameObjectBody.transform.rotation);
 				}
 			}
 		}

@@ -19,7 +19,7 @@ public class RequestSurgery : ClientMessage<RequestSurgery.NetMessage>
 		if (msg.BeingPerformedOn == NetId.Invalid) return;
 		LoadMultipleObjects(new uint[]{msg.BeingPerformedOn,msg.BodyPart} );
 		if (msg.SurgeryProcedureBase >= SurgeryProcedureBaseSingleton.Instance.StoredReferences.Count) return;
-		if (Validations.CanApply(SentByPlayer.Script, NetworkObjects[0], NetworkSide.Server) == false) return;
+		if (Validations.CanApply(SentByPlayer.CurrentMind, NetworkObjects[0], NetworkSide.Server) == false) return;
 		var Dissectible = NetworkObjects[0].GetComponent<Dissectible>();
 		if (Dissectible == null) return;
 

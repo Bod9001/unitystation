@@ -144,7 +144,7 @@ namespace Objects
 			}
 		}
 
-		private bool CanSell(VendorItem itemToSpawn, ConnectedPlayer player)
+		private bool CanSell(VendorItem itemToSpawn, Mind player)
 		{
 			// check if selected item is valid
 			var isSelectionValid = itemToSpawn != null && itemToSpawn.Stock > 0;
@@ -156,9 +156,9 @@ namespace Objects
 			// check if this player has vending cooldown right now
 			if (VendingCooldown)
 			{
-				if (player != null && player.Script)
+				if (player != null && player)
 				{
-					var hasCooldown = !Cooldowns.TryStartServer(player.Script, VendingCooldown);
+					var hasCooldown = !Cooldowns.TryStartServer(player, VendingCooldown);
 					if (hasCooldown)
 					{
 						return false;
@@ -174,19 +174,19 @@ namespace Objects
 			if (player != null && (accessRestrictions || clearanceCheckable) && !isEmagged)
 			{
 				var hasAccess = accessRestrictions
-					? accessRestrictions.CheckAccess(player.GameObject)
-					: clearanceCheckable.HasClearance(player.GameObject);
+					? accessRestrictions.CheckAccess(player)
+					: clearanceCheckable.HasClearance(player);
 
-				if (hasAccess == false && player.Script.PlayerState != PlayerScript.PlayerStates.Ai)
+				if (hasAccess == false && player.IsSilicon)
 				{
-					Chat.AddWarningMsgFromServer(player.GameObject, noAccessMessage);
+					Chat.AddWarningMsgFromServer(player, noAccessMessage);
 					return false;
 				}
 			}
 
 			if (itemToSpawn.Price > 0)
 			{
-				var playerStorage = player.GameObject.GetComponent<DynamicItemStorage>();
+				var playerStorage = player.DynamicItemStorage;
 				var itemSlotList = playerStorage.GetNamedItemSlots(NamedSlot.id);
 				foreach (var itemSlot in itemSlotList)
 				{
@@ -200,7 +200,7 @@ namespace Objects
 						}
 						else
 						{
-							Chat.AddWarningMsgFromServer(player.GameObject, tooExpensiveMessage);
+							Chat.AddWarningMsgFromServer(player, tooExpensiveMessage);
 							return false;
 						}
 					}
@@ -213,7 +213,7 @@ namespace Objects
 		/// <summary>
 		/// Try spawn vending item and reduce items count in stock
 		/// </summary>
-		public void TryVendItem(VendorItem vendorItem, ConnectedPlayer player = null)
+		public void TryVendItem(VendorItem vendorItem, Mind player = null)
 		{
 			if (vendorItem == null)
 			{

@@ -28,7 +28,7 @@ namespace Doors.Modules
 			if (isWelded)
 			{
 				UpdateChatMessage.Send(
-					interaction.Performer,
+					interaction.Performer.AssignedPlayer,
 					ChatChannel.Examine,
 					ChatModifier.None,
 					"The door is welded shut.");

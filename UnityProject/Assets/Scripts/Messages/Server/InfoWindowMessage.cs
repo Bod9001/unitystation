@@ -13,26 +13,36 @@ namespace Messages.Server
 			public string Text;
 			public string Title;
 			public bool Bwoink;
-			public uint Recipient;
 
 			public override string ToString()
 			{
-				return $"[InfoWindowMessage Recipient={Recipient} Title={Title} InfoText={Text} Bwoink={Bwoink}]";
+				return $"[InfoWindowMessage Title={Title} InfoText={Text} Bwoink={Bwoink}]";
 			}
 		}
 
 		public override void Process(NetMessage msg)
 		{
 			//To be run on client
-			LoadNetworkObject(msg.Recipient);
 			UIManager.InfoWindow.Show(msg.Text, msg.Bwoink, string.IsNullOrEmpty(msg.Title) ? "" : msg.Title);
 		}
 
-		public static NetMessage Send(GameObject recipient, string text, string title = "", bool bwoink = true)
+		public static NetMessage Send(Mind recipient, string text, string title = "", bool bwoink = true)
 		{
 			NetMessage msg =
 				new NetMessage {
-					Recipient = recipient.GetComponent<NetworkIdentity>().netId,
+					Text = text,
+					Title = title,
+					Bwoink = bwoink
+				};
+
+			SendTo(recipient, msg);
+			return msg;
+		}
+
+		public static NetMessage Send(NetworkConnection recipient, string text, string title = "", bool bwoink = true)
+		{
+			NetMessage msg =
+				new NetMessage {
 					Text = text,
 					Title = title,
 					Bwoink = bwoink

@@ -19,7 +19,6 @@ using UI.CharacterCreator;
 /// Ghosts are handled in GhostSprites.
 /// </summary>
 [RequireComponent(typeof(Directional))]
-[RequireComponent(typeof(PlayerScript))]
 public class PlayerSprites : MonoBehaviour
 {
 	#region Inspector fields
@@ -69,7 +68,6 @@ public class PlayerSprites : MonoBehaviour
 	private PlayerDirectionalOverlay engulfedBurningOverlay;
 	private PlayerDirectionalOverlay partialBurningOverlay;
 	private PlayerDirectionalOverlay electrocutedOverlay;
-	private PlayerScript playerScript;
 	private PlayerHealthV2 playerHealth;
 	private PlayerSync playerSync;
 

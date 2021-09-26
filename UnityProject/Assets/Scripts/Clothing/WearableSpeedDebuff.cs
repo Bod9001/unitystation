@@ -28,7 +28,7 @@ namespace Clothing
 		[Tooltip("In what slot should this debuff take place")]
 		private NamedSlot slot = NamedSlot.outerwear;
 
-		private PlayerScript player;
+		private Mind player;
 
 		public void OnInventoryMoveServer(InventoryMove info)
 		{
@@ -49,7 +49,7 @@ namespace Clothing
 				return false;
 			}
 
-			player = info.ToRootPlayer.OrNull()?.PlayerScript;
+			player = info.ToRootPlayer;
 
 			return player != null && info.ToSlot.NamedSlot == slot;
 		}
@@ -61,19 +61,19 @@ namespace Clothing
 				return false;
 			}
 
-			player = info.FromRootPlayer.OrNull()?.PlayerScript;
+			player = info.FromRootPlayer;
 
 			return player != null && info.FromSlot.NamedSlot == slot;
 		}
 
 		private void ApplyDebuff()
 		{
-			player.playerMove.AddModifier(this);
+			player.PlayerMove.AddModifier(this);
 		}
 
 		private void RemoveDebuff()
 		{
-			player.playerMove.RemoveModifier(this);
+			player.PlayerMove.RemoveModifier(this);
 		}
 	}
 }

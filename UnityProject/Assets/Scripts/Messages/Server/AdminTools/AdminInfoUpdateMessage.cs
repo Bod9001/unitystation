@@ -28,7 +28,7 @@ namespace Messages.Server.AdminTools
 			}
 		}
 
-		public static NetMessage SendFullUpdate(GameObject recipient, Dictionary<uint, AdminInfo> infoEntries)
+		public static NetMessage SendFullUpdate(Mind recipient, Dictionary<uint, AdminInfo> infoEntries)
 		{
 			var update = new AdminInfoUpdate();
 

@@ -57,8 +57,8 @@ namespace Objects.Research
 			}
 
 			//Set name of vessel to Ai name if we can
-			GetComponent<Attributes>().ServerSetArticleName(aiPlayer.OrNull()?.PlayerScript.characterSettings.AiName ??
-			                                                      (isInteliCard ? "Intelicard" : "Ai Core"));
+			// GetComponent<Attributes>().ServerSetArticleName(aiPlayer.OrNull()?.PlayerScript.characterSettings.AiName ??
+			                                                      // (isInteliCard ? "Intelicard" : "Ai Core"));
 		}
 
 		public bool WillInteract(HandApply interaction, NetworkSide side)
@@ -198,7 +198,7 @@ namespace Objects.Research
 			}
 
 			//Else must be container so follow container
-			linkedPlayer.ServerSetCameraLocation(info.ToSlot.GetRootStorageOrPlayer().gameObject, true, false);
+			linkedPlayer.ServerSetCameraLocation(info.ToSlot.GetRootPlayer().gameObject, true, false);
 		}
 
 		public void ChangeRemoteActionState(bool newState)

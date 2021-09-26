@@ -203,7 +203,7 @@ namespace Objects.Atmospherics
 			var gasContainer = InsertedContainer;
 			EjectInsertedContainer();
 
-			var playerScript = networkTab.LastInteractedPlayer().GetComponent<PlayerScript>();
+			var playerScript = networkTab.LastInteractedPlayer();
 			var bestHand = playerScript.DynamicItemStorage.GetBestHand();
 			if (bestHand != null)
 			{

@@ -334,8 +334,8 @@ public static class Inventory
 
 		//decide how it should be removed
 		var removeType = toPerform.RemoveType;
-		var holder = fromSlot.GetRootStorageOrPlayer();
-		var holderPushPull = holder?.GetComponent<PushPull>();
+		var holder = fromSlot.GetRootStorage();
+		var holderPushPull = holder.OrNull()?.GetComponent<PushPull>();
 		var parentContainer = holderPushPull == null ? null : holderPushPull.parentContainer;
 		if (parentContainer != null && removeType == InventoryRemoveType.Throw)
 		{
@@ -527,8 +527,8 @@ public static class Inventory
 	/// <returns></returns>
 	public static void ClientRequestTransfer(ItemSlot from, ItemSlot to)
 	{
-		if (!Validations.CanPutItemToSlot(PlayerManager.LocalPlayerScript, to, from.Item,
-			NetworkSide.Client, PlayerManager.LocalPlayer, examineRecipient: PlayerManager.LocalPlayer))
+		if (!Validations.CanPutItemToSlot(LocalPlayerManager.CurrentMind, to, from.Item,
+			NetworkSide.Client, LocalPlayerManager.LocalPlayer, examineRecipient: LocalPlayerManager.CurrentMind))
 		{
 			Logger.LogTraceFormat("Client cannot request transfer from {0} to {1} because" +
 			                      " validation failed.", Category.Inventory,

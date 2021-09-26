@@ -22,19 +22,19 @@ namespace Messages.Client.VariableViewer
 		void ValidateAdmin(NetMessage msg)
 		{
 
-			var admin = PlayerList.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
 			if (admin == null) return;
 			if (msg.TheObjectToView != 0)
 			{
 				LoadNetworkObject(msg.TheObjectToView);
 				if (NetworkObject != null)
 				{
-					global::VariableViewer.ProcessTransform(NetworkObject.transform,SentByPlayer.GameObject);
+					global::VariableViewer.ProcessTransform(NetworkObject.transform,SentByPlayer);
 				}
 			}
 			else
 			{
-				global::VariableViewer.RequestSendBookshelf(msg.BookshelfID, msg.IsNewBookshelf,SentByPlayer.GameObject);
+				global::VariableViewer.RequestSendBookshelf(msg.BookshelfID, msg.IsNewBookshelf,SentByPlayer);
 			}
 
 		}

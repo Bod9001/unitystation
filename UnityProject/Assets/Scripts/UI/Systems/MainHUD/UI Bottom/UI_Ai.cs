@@ -165,11 +165,11 @@ namespace UI.Systems.MainHUD.UI_Bottom
 			if(aiPlayer.OnCoolDown(NetworkSide.Client)) return;
 			aiPlayer.StartCoolDown(NetworkSide.Client);
 
-			if (info.gameObject.GetComponent<PlayerScript>() != null || info.gameObject.GetComponent<MobAI>() != null)
-			{
-				aiPlayer.CmdTrackObject(info.gameObject);
-				return;
-			}
+			// if (info.gameObject.GetComponent<PlayerScript>() != null || info.gameObject.GetComponent<MobAI>() != null)
+			// {
+				// aiPlayer.CmdTrackObject(info.gameObject);
+				// return;
+			// }
 
 			aiPlayer.CmdTeleportToCamera(info.gameObject, true);
 		}
@@ -185,7 +185,7 @@ namespace UI.Systems.MainHUD.UI_Bottom
 		{
 			if (aiPlayer == null)
 			{
-				aiPlayer = PlayerManager.LocalPlayer.OrNull()?.GetComponent<AiPlayer>();
+				aiPlayer = LocalPlayerManager.LocalPlayer.OrNull()?.GetComponent<AiPlayer>();
 			}
 
 			if (aiPlayer == null)
@@ -316,7 +316,7 @@ namespace UI.Systems.MainHUD.UI_Bottom
 
 			if (savedCameras.Any(x => x.Value == newCamera))
 			{
-				Chat.AddExamineMsg(aiPlayer.gameObject, "Camera has already been saved");
+				//Chat.AddExamineMsg(aiPlayer.gameObject, "Camera has already been saved");
 				return;
 			}
 

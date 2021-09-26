@@ -18,7 +18,7 @@ namespace Messages.Client
 
 		public override void Process(NetMessage msg)
 		{
-			var clientStorage = SentByPlayer.Script.DynamicItemStorage;
+			var clientStorage = SentByPlayer.CurrentMind.DynamicItemStorage;
 			var usedSlot = clientStorage.GetActiveHandSlot();
 			if (usedSlot == null || usedSlot.ItemObject == null) return;
 
@@ -30,15 +30,15 @@ namespace Messages.Client
 			if (!entry.CanBuildWith(hasConstructionMenu)) return;
 
 			//check if the space to construct on is passable
-			if (!MatrixManager.IsPassableAtAllMatricesOneTile((Vector3Int) SentByPlayer.GameObject.TileWorldPosition(), true, includingPlayers: false))
+			if (!MatrixManager.IsPassableAtAllMatricesOneTile( SentByPlayer.CurrentMind.BodyWorldPositionInt, true, includingPlayers: false))
 			{
-				Chat.AddExamineMsg(SentByPlayer.GameObject, "It won't fit here.");
+				Chat.AddExamineMsg(SentByPlayer.CurrentMind, "It won't fit here.");
 				return;
 			}
 
 			//if we are building something impassable, check if there is anything on the space other than the performer.
 			var atPosition =
-				MatrixManager.GetAt<RegisterTile>((Vector3Int) SentByPlayer.GameObject.TileWorldPosition(), true);
+				MatrixManager.GetAt<RegisterTile>( SentByPlayer.CurrentMind.BodyWorldPositionInt, true);
 
 			if (entry.Prefab == null)
 			{
@@ -60,7 +60,7 @@ namespace Messages.Client
 					//can only build one of this on a given tile
 					if (entry.Prefab.Equals(Spawn.DeterminePrefab(thingAtPosition.gameObject)))
 					{
-						Chat.AddExamineMsg(SentByPlayer.GameObject, $"There's already one here.");
+						Chat.AddExamineMsg(SentByPlayer.CurrentMind, $"There's already one here.");
 						return;
 					}
 				}
@@ -69,25 +69,25 @@ namespace Messages.Client
 				{
 					//if the object we are building is itself impassable, we should check if anything blocks construciton.
 					//otherwise it's fine to add it to the pile on the tile
-					if (ServerValidations.IsConstructionBlocked(SentByPlayer.GameObject, null,
-						SentByPlayer.GameObject.TileWorldPosition())) return;
+					if (ServerValidations.IsConstructionBlocked(SentByPlayer.CurrentMind, null,
+						SentByPlayer.CurrentMind.BodyWorldPositionInt.To2Int())) return;
 				}
 			}
 
 			//build and consume
 			void ProgressComplete()
 			{
-				if (entry.ServerBuild(SpawnDestination.At(SentByPlayer.Script.registerTile), hasConstructionMenu))
+				if (entry.ServerBuild(SpawnDestination.At(SentByPlayer.CurrentMind.registerTile), hasConstructionMenu))
 				{
-					Chat.AddActionMsgToChat(SentByPlayer.GameObject, $"You finish building the {entry.Name}.",
-						$"{SentByPlayer.GameObject.ExpensiveName()} finishes building the {entry.Name}.");
+					Chat.AddActionMsgToChat(SentByPlayer.CurrentMind, $"You finish building the {entry.Name}.",
+						$"{SentByPlayer.CurrentMind.BodyWorldPositionInt} finishes building the {entry.Name}.");
 				}
 			}
 
-			Chat.AddActionMsgToChat(SentByPlayer.GameObject, $"You begin building the {entry.Name}...",
-				$"{SentByPlayer.GameObject.ExpensiveName()} begins building the {entry.Name}...");
-			ToolUtils.ServerUseTool(SentByPlayer.GameObject, usedSlot.ItemObject,
-				ActionTarget.Tile(SentByPlayer.Script.registerTile.WorldPositionServer), entry.BuildTime,
+			Chat.AddActionMsgToChat(SentByPlayer.CurrentMind, $"You begin building the {entry.Name}...",
+				$"{SentByPlayer.CurrentMind.ExpensiveName()} begins building the {entry.Name}...");
+			ToolUtils.ServerUseTool(SentByPlayer.CurrentMind, usedSlot.ItemObject,
+				ActionTarget.Tile(SentByPlayer.CurrentMind.BodyWorldPositionInt), entry.BuildTime,
 				ProgressComplete);
 		}
 

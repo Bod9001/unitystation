@@ -5,11 +5,11 @@ namespace Systems.Spells.Wizard
 {
 	public class InstantSummons : Spell
 	{
-		private ConnectedPlayer caster;
+		private Mind caster;
 		private Pickupable markedItem;
 		private bool isSet = false;
 
-		public override bool CastSpellServer(ConnectedPlayer caster)
+		public override bool CastSpellServer(Mind caster)
 		{
 			this.caster = caster;
 
@@ -36,7 +36,7 @@ namespace Systems.Spells.Wizard
 			GameObject objectToSummon = GetItemOrRootStorage(markedItem.gameObject);
 
 			// check to make sure not already on player
-			if (objectToSummon == caster.GameObject)
+			if (objectToSummon == caster.GameObjectBody)
 			{
 				RemoveMark(markedItem.gameObject);
 				return false; // Summon not triggered; don't go on cooldown.
@@ -56,30 +56,30 @@ namespace Systems.Spells.Wizard
 		private void SummonObject(GameObject summonedObject)
 		{
 			string summonedName = summonedObject.ExpensiveName();
-			Chat.AddActionMsgToChat(summonedObject,
+			Chat.AddInanimateActionMsgToChat(summonedObject,
 				"<color=red>You feel a magical force transposing you!</color>",
 				$"<color=red>The {summonedName} suddenly disappears!</color>");
 
-			TeleportObjectToPosition(summonedObject, caster.Script.WorldPos);
+			TeleportObjectToPosition(summonedObject, caster.BodyWorldPosition);
 
 			if (summonedObject.TryGetComponent<Pickupable>(out var pickupable))
 			{
-				ItemSlot slot = caster.Script.DynamicItemStorage.GetBestHandOrSlotFor(summonedObject);
+				ItemSlot slot = caster.DynamicItemStorage.GetBestHandOrSlotFor(summonedObject);
 				Inventory.ServerAdd(pickupable, slot);
 
-				Chat.AddActionMsgToChat(caster.GameObject, $"The {summonedName} appears in your hand!",
-					$"<color=red>A {summonedName} suddenly appears in {caster.Script.visibleName}'s hand!</color>");
+				Chat.AddActionMsgToChat(caster, $"The {summonedName} appears in your hand!",
+					$"<color=red>A {summonedName} suddenly appears in {caster.ExpensiveName()}'s hand!</color>");
 			}
 			else
 			{
 				string message = $"<color=red>The {summonedName} suddenly appears!</color>";
-				Chat.AddActionMsgToChat(caster.GameObject, message, message);
+				Chat.AddActionMsgToChat(caster, message, message);
 			}
 		}
 
 		private void TryAddMark()
 		{
-			DynamicItemStorage playerStorage = caster.Script.DynamicItemStorage;
+			DynamicItemStorage playerStorage = caster.DynamicItemStorage;
 
 			ItemSlot activeHand = playerStorage.GetActiveHandSlot();
 			if (activeHand.IsOccupied)
@@ -130,7 +130,7 @@ namespace Systems.Spells.Wizard
 		{
 			if (item.TryGetComponent<Pickupable>(out var pickupable) && pickupable.ItemSlot != null)
 			{
-				var RootStorage = pickupable.ItemSlot.GetRootStorageOrPlayer();
+				var RootStorage = pickupable.ItemSlot.GetRootStorage();
 				return RootStorage.gameObject;
 			}
 

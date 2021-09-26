@@ -134,14 +134,14 @@ namespace Messages.Client.Interaction
 			var connectionPointB = msg.connectionPointB;
 			var RequestedOption = msg.RequestedOption;
 
-			var performer = SentByPlayer.GameObject;
+			var performer = SentByPlayer.CurrentMind;
 
-			if (SentByPlayer == null || SentByPlayer.Script == null)
+			if (SentByPlayer == null || SentByPlayer.CurrentMind == null)
 			{
 				return;
 			}
 
-			if (SentByPlayer.Script.DynamicItemStorage == null)
+			if (SentByPlayer.CurrentMind.DynamicItemStorage == null)
 			{
 				if (InteractionType == typeof(AiActivate))
 				{
@@ -159,7 +159,7 @@ namespace Messages.Client.Interaction
 			if (InteractionType == typeof(PositionalHandApply))
 			{
 				//look up item in active hand slot
-				var clientStorage = SentByPlayer.Script.DynamicItemStorage;
+				var clientStorage = SentByPlayer.CurrentMind.DynamicItemStorage;
 				var usedSlot = clientStorage.GetActiveHandSlot();
 				var usedObject = clientStorage.GetActiveHandSlot().ItemObject;
 				LoadMultipleObjects(new uint[]{
@@ -175,7 +175,7 @@ namespace Messages.Client.Interaction
 			}
 			else if (InteractionType == typeof(HandApply))
 			{
-				var clientStorage = SentByPlayer.Script.DynamicItemStorage;
+				var clientStorage = SentByPlayer.CurrentMind.DynamicItemStorage;
 				var usedSlot = clientStorage.GetActiveHandSlot();
 				var usedObject = clientStorage.GetActiveHandSlot()?.ItemObject;
 				LoadMultipleObjects(new uint[]{
@@ -191,7 +191,7 @@ namespace Messages.Client.Interaction
 			}
 			else if (InteractionType == typeof(AimApply))
 			{
-				var clientStorage = SentByPlayer.Script.DynamicItemStorage;
+				var clientStorage = SentByPlayer.CurrentMind.DynamicItemStorage;
 				var usedSlot = clientStorage.GetActiveHandSlot();
 				var usedObject = clientStorage.GetActiveHandSlot().ItemObject;
 				LoadNetworkObject(ProcessorObject);
@@ -223,9 +223,8 @@ namespace Messages.Client.Interaction
 				var processorObj = NetworkObject;
 				CheckMatrixSync(ref processorObj);
 
-				var performerObj = SentByPlayer.GameObject;
 				//look up item in active hand slot
-				var clientStorage = SentByPlayer.Script.DynamicItemStorage;
+				var clientStorage = SentByPlayer.CurrentMind.DynamicItemStorage;
 				var usedSlot = clientStorage.GetActiveHandSlot();
 				var usedObject = clientStorage.GetActiveHandSlot().ItemObject;
 				var interaction = HandActivate.ByClient(performer, usedObject, usedSlot, Intent);
@@ -255,7 +254,7 @@ namespace Messages.Client.Interaction
 				ItemSlot fromSlot = null;
 				if (usedObj == null)
 				{
-					fromSlot = SentByPlayer.Script.DynamicItemStorage.GetActiveHandSlot();
+					fromSlot = SentByPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
 				}
 				else
 				{
@@ -266,14 +265,14 @@ namespace Messages.Client.Interaction
 			}
 			else if (InteractionType == typeof(TileApply))
 			{
-				var clientStorage = SentByPlayer.Script.DynamicItemStorage;
+				var clientStorage = SentByPlayer.CurrentMind.DynamicItemStorage;
 				var usedSlot = clientStorage.GetActiveHandSlot();
 				var usedObject = clientStorage.GetActiveHandSlot().ItemObject;
 				LoadNetworkObject(ProcessorObject);
 				var processorObj = NetworkObject;
 				CheckMatrixSync(ref processorObj);
 
-				processorObj.GetComponent<InteractableTiles>().ServerProcessInteraction(SentByPlayer.GameObject,
+				processorObj.GetComponent<InteractableTiles>().ServerProcessInteraction(SentByPlayer.CurrentMind,
 					TargetVector, processorObj, usedSlot, usedObject, Intent,
 					TileApply.ApplyType.HandApply);
 			}
@@ -287,14 +286,14 @@ namespace Messages.Client.Interaction
 				var processorObj = NetworkObjects[1];
 				CheckMatrixSync(ref processorObj);
 
-				processorObj.GetComponent<InteractableTiles>().ServerProcessInteraction(SentByPlayer.GameObject,
+				processorObj.GetComponent<InteractableTiles>().ServerProcessInteraction(SentByPlayer.CurrentMind,
 					TargetVector, processorObj, null, usedObj, Intent,
 					TileApply.ApplyType.MouseDrop);
 			}
 			else if (InteractionType == typeof(ConnectionApply))
 			{
 				//look up item in active hand slot
-				var clientStorage = SentByPlayer.Script.DynamicItemStorage;
+				var clientStorage = SentByPlayer.CurrentMind.DynamicItemStorage;
 				var usedSlot = clientStorage.GetActiveHandSlot();
 				var usedObject = clientStorage.GetActiveHandSlot().ItemObject;
 				LoadMultipleObjects(new uint[]{
@@ -311,7 +310,7 @@ namespace Messages.Client.Interaction
 			else if (InteractionType == typeof(ContextMenuApply))
 			{
 				LoadMultipleObjects(new uint[] { TargetObject, ProcessorObject });
-				var clientStorage = SentByPlayer.Script.DynamicItemStorage;
+				var clientStorage = SentByPlayer.CurrentMind.DynamicItemStorage;
 				var usedObj = clientStorage.GetActiveHandSlot().ItemObject;
 				var targetObj = NetworkObjects[0];
 				var processorObj = NetworkObjects[1];
@@ -472,7 +471,7 @@ namespace Messages.Client.Interaction
 				Logger.LogTraceFormat("Predicting {0} interaction for {1} on {2}", Category.Interaction, typeof(T).Name, interactableComponent.GetType().Name, ((Component) interactableComponent).gameObject.name);
 				predictedInteractable.ClientPredictInteraction(interaction);
 			}
-			if (!interaction.Performer.Equals(PlayerManager.LocalPlayer))
+			if (!interaction.Performer.Equals(LocalPlayerManager.LocalPlayer))
 			{
 				Logger.LogError("Client attempting to perform an interaction on behalf of another player." +
 				                " This is not allowed. Client can only perform an interaction as themselves. Message" +
@@ -576,7 +575,7 @@ namespace Messages.Client.Interaction
 				Logger.LogTraceFormat("Predicting TileApply interaction {0}", Category.Interaction, tileApply);
 				tileInteraction.ClientPredictInteraction(tileApply);
 			}
-			if (!tileApply.Performer.Equals(PlayerManager.LocalPlayer))
+			if (!tileApply.Performer.Equals(LocalPlayerManager.LocalPlayer))
 			{
 				Logger.LogError("Client attempting to perform an interaction on behalf of another player." +
 				                " This is not allowed. Client can only perform an interaction as themselves. Message" +
@@ -597,7 +596,7 @@ namespace Messages.Client.Interaction
 
 		public static void SendTileMouseDrop(TileMouseDrop mouseDrop, InteractableTiles interactableTiles)
 		{
-			if (!mouseDrop.Performer.Equals(PlayerManager.LocalPlayer))
+			if (!mouseDrop.Performer.Equals(LocalPlayerManager.LocalPlayer))
 			{
 				Logger.LogError("Client attempting to perform an interaction on behalf of another player." +
 				                " This is not allowed. Client can only perform an interaction as themselves. Message" +

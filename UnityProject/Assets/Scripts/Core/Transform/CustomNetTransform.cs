@@ -634,7 +634,7 @@ public partial class CustomNetTransform : NetworkBehaviour, IPushable
 		//Ignore "Follow Updates" if you're pulling it
 		if ( newState.Active
 			&& newState.IsFollowUpdate
-			&& pushPull && pushPull.IsPulledByClient( PlayerManager.LocalPlayerScript?.pushPull) )
+			&& pushPull && pushPull.IsPulledByClient( LocalPlayerManager.CurrentMind.OrNull()?.PushPull) )
 		{
 			return;
 		}

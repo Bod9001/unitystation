@@ -17,30 +17,30 @@ namespace Systems.Spells.Wizard
 
 		public override void CallActionClient()
 		{
-			SetCasterPassable(PlayerManager.LocalPlayer);
+			SetCasterPassable(LocalPlayerManager.CurrentMind.GameObjectBody);
 			base.CallActionClient();
 		}
 
-		public override bool CastSpellServer(ConnectedPlayer caster)
+		public override bool CastSpellServer(Mind caster)
 		{
 			GameObject[] obstructions = new GameObject[3];
-			obstructions[0] = Spawn.ServerPrefab(obstructionPrefab, caster.Script.WorldPos).GameObject;
+			obstructions[0] = Spawn.ServerPrefab(obstructionPrefab, caster.BodyWorldPosition).GameObject;
 
-			if (caster.GameObject.TryGetComponent<Directional>(out var directional))
+			if (caster.GameObjectBody.TryGetComponent<Directional>(out var directional))
 			{
 				if (directional.CurrentDirection == Orientation.Down || directional.CurrentDirection == Orientation.Up)
 				{
-					obstructions[1] = Spawn.ServerPrefab(obstructionPrefab, caster.Script.WorldPos + Vector3.left).GameObject;
-					obstructions[2] = Spawn.ServerPrefab(obstructionPrefab, caster.Script.WorldPos + Vector3.right).GameObject;
+					obstructions[1] = Spawn.ServerPrefab(obstructionPrefab, caster.BodyWorldPosition + Vector3.left).GameObject;
+					obstructions[2] = Spawn.ServerPrefab(obstructionPrefab, caster.BodyWorldPosition + Vector3.right).GameObject;
 				}
 				else if (directional.CurrentDirection == Orientation.Left || directional.CurrentDirection == Orientation.Right)
 				{
-					obstructions[1] = Spawn.ServerPrefab(obstructionPrefab, caster.Script.WorldPos + Vector3.up).GameObject;
-					obstructions[2] = Spawn.ServerPrefab(obstructionPrefab, caster.Script.WorldPos + Vector3.down).GameObject;
+					obstructions[1] = Spawn.ServerPrefab(obstructionPrefab, caster.BodyWorldPosition + Vector3.up).GameObject;
+					obstructions[2] = Spawn.ServerPrefab(obstructionPrefab, caster.BodyWorldPosition + Vector3.down).GameObject;
 				}
 			}
 
-			SetCasterPassable(caster.GameObject);
+			SetCasterPassable(caster.GameObjectBody);
 			StartCoroutine(DespawnObstructions(obstructions));
 
 			return true;

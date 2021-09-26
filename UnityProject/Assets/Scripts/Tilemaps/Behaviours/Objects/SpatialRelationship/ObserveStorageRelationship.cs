@@ -12,7 +12,7 @@ public class ObserveStorageRelationship : RangeRelationship
 {
 	private readonly PlayerMove observedPlayerMove;
 	private readonly RegisterPlayer observedRegisterPlayer;
-	private readonly PlayerHealthV2 observedPlayerHealth;
+	private readonly LivingHealthMasterBase observedPlayerHealth;
 	public readonly RegisterPlayer ObserverPlayer;
 	public readonly InteractableStorage ObservedStorage;
 
@@ -23,13 +23,13 @@ public class ObserveStorageRelationship : RangeRelationship
 		this.ObservedStorage = observedStorage;
 		this.ObserverPlayer = observer;
 		//check if the observed storage is in a player's inventory, and if so, populate the fields / event hooks
-		var rootStorage = observedStorage.ItemStorage.GetRootStorageOrPlayer();
-		this.observedPlayerMove = rootStorage.GetComponent<PlayerMove>();
+		var rootStorage = observedStorage.ItemStorage.GetRootPlayer();
+		this.observedPlayerMove = rootStorage.PlayerMove;
 		if (observedPlayerMove != null)
 		{
-			this.observedRegisterPlayer = rootStorage.GetComponent<RegisterPlayer>();
-
-			this.observedPlayerHealth = rootStorage.GetComponent<PlayerHealthV2>();
+			this.observedRegisterPlayer = rootStorage.registerTile as RegisterPlayer;
+			if (this.observedRegisterPlayer == null) return;
+			this.observedPlayerHealth = rootStorage.LivingHealthMasterBase;
 
 			//add listeners for non-range-based ways in which the relationship can end
 			observedPlayerMove.OnCuffChangeServer.AddListener(OnCuffChangeServer);

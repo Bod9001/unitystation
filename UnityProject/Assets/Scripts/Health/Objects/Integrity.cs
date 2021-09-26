@@ -23,7 +23,7 @@ using Systems.Explosions;
 /// </summary>
 [RequireComponent(typeof(CustomNetTransform))]
 [RequireComponent(typeof(RegisterTile))]
-public class Integrity : NetworkBehaviour, IHealth, IFireExposable, IRightClickable, IServerSpawn, IExaminable, IServerDespawn
+public class Integrity : NetworkBehaviour, IHealth, IFireExposable, IRightClickable, IServerSpawn, IExaminable, IServerDespawn, IProvideConsciousness //For possessing items
 {
 
 	/// <summary>
@@ -127,12 +127,22 @@ public class Integrity : NetworkBehaviour, IHealth, IFireExposable, IRightClicka
 	private IPushable pushable;
 
 	//The current integrity divided by the initial integrity
-	public float PercentageDamaged => integrity.Approx(0) ? 0 : integrity / initialIntegrity;
+	public float PercentageUnDamaged => integrity.Approx(0) ? 0 : integrity / initialIntegrity;
 
 	//whether this is a large object (meaning we would use the large ash pile and large burning sprite)
 	private bool isLarge;
 
 	public float Resistance => pushable == null ? integrity : integrity * ((int)pushable.Size / 10f);
+
+	public ConsciousState ConsciousState
+	{get {
+		if (PercentageUnDamaged < 0.05f) return ConsciousState.DEAD;
+		else if (PercentageUnDamaged < 0.10f) return ConsciousState.UNCONSCIOUS;
+		else if (PercentageUnDamaged < 0.15f) return ConsciousState.BARELY_CONSCIOUS;
+		return ConsciousState.CONSCIOUS;
+	}}
+
+	public GameObject ThisGameObject => gameObject;
 
 	[PrefabModeOnly]
 	public bool CannotBeAshed = false;
@@ -258,6 +268,15 @@ public class Integrity : NetworkBehaviour, IHealth, IFireExposable, IRightClicka
 		{
 			integrity = initialIntegrity;
 		}
+	}
+
+	/// <summary>
+	/// Restores integrity to the default state
+	/// </summary>
+	[Server]
+	public void ResetIntegrity()
+	{
+		integrity = initialIntegrity;
 	}
 
 	private void PeriodicUpdateBurn()
@@ -399,7 +418,7 @@ public class Integrity : NetworkBehaviour, IHealth, IFireExposable, IRightClicka
 
 	public RightClickableResult GenerateRightClickOptions()
 	{
-		if (string.IsNullOrEmpty(PlayerList.Instance.AdminToken) || !KeyboardInputManager.Instance.CheckKeyAction(KeyAction.ShowAdminOptions, KeyboardInputManager.KeyEventType.Hold))
+		if (string.IsNullOrEmpty(PlayersManager.Instance.AdminToken) || !KeyboardInputManager.Instance.CheckKeyAction(KeyAction.ShowAdminOptions, KeyboardInputManager.KeyEventType.Hold))
 		{
 			return null;
 		}
@@ -411,11 +430,11 @@ public class Integrity : NetworkBehaviour, IHealth, IFireExposable, IRightClicka
 
 	private void AdminSmash()
 	{
-		PlayerManager.PlayerScript.playerNetworkActions.CmdAdminSmash(gameObject, ServerData.UserID, PlayerList.Instance.AdminToken);
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdAdminSmash(gameObject, ServerData.UserID, PlayersManager.Instance.AdminToken);
 	}
 	private void AdminMakeHotspot()
 	{
-		PlayerManager.PlayerScript.playerNetworkActions.CmdAdminMakeHotspot(gameObject, ServerData.UserID, PlayerList.Instance.AdminToken);
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdAdminMakeHotspot(gameObject, ServerData.UserID, PlayersManager.Instance.AdminToken);
 	}
 
 	public void OnDespawnServer(DespawnInfo info)

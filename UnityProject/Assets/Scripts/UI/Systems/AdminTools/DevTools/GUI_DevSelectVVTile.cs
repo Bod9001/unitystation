@@ -104,7 +104,7 @@ public class GUI_DevSelectVVTile : MonoBehaviour
 			if (CommonInput.GetMouseButtonDown(0))
 			{
 				RequestToViewObjectsAtTile.Send(MouseUtils.MouseToWorldPos(),
-					ServerData.UserID, PlayerList.Instance.AdminToken);
+					ServerData.UserID, PlayersManager.Instance.AdminToken);
 				OnEscape();
 			}
 

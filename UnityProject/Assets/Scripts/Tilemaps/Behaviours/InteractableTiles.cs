@@ -218,7 +218,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 					// TODO: Check how many cables we have first. Only open the cable
 					//       cutting window when the number of cables exceeds 2.
 					if (underFloorTile is ElectricalCableTile &&
-						Validations.HasItemTrait(PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject, CommonTraits.Instance.Wirecutter))
+						Validations.HasItemTrait(LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject, CommonTraits.Instance.Wirecutter))
 					{
 						// open cable cutting ui window instead of cutting cable
 						EnableCableCuttingWindow();
@@ -287,8 +287,8 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 		if (electricalCable == null) return;
 
 		// add messages to chat
-		string othersMessage = Chat.ReplacePerformer(othersStartActionMessage, message.performer);
-		Chat.AddActionMsgToChat(message.performer, performerStartActionMessage, othersMessage);
+		string othersMessage = Chat.ReplacePerformer(othersStartActionMessage, NetworkIdentity.spawned[ message.performer].GetComponent<Mind>());
+		Chat.AddActionMsgToChat(NetworkIdentity.spawned[ message.performer].GetComponent<Mind>(), performerStartActionMessage, othersMessage);
 
 		// source: ElectricalCableDeconstruction.cs
 		var metaDataNode = matrix.GetMetaDataNode(targetCellPosition);
@@ -300,7 +300,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 			ElectricityFunctions.WorkOutActualNumbers(ElectricalData.InData);
 			float voltage = ElectricalData.InData.Data.ActualVoltage;
 			var electrocution = new Electrocution(voltage, message.targetWorldPosition, "cable");
-			var performerLHB = message.performer.GetComponent<LivingHealthMasterBase>();
+			var performerLHB =  NetworkIdentity.spawned[ message.performer].GetComponent<Mind>().LivingHealthMasterBase;
 			var severity = performerLHB.Electrocute(electrocution);
 			if (severity > LivingShockResponse.Mild) return;
 
@@ -332,7 +332,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 	}
 
 	//for internal IF2 usages only, does server side logic for processing tileapply
-	public void ServerProcessInteraction(GameObject performer, Vector2 targetVector,  GameObject processorObj,
+	public void ServerProcessInteraction(Mind performer, Vector2 targetVector,  GameObject processorObj,
 			ItemSlot usedSlot, GameObject usedObject, Intent intent, TileApply.ApplyType applyType)
 	{
 		//find the indicated tile interaction
@@ -446,7 +446,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 			Vector2 cameraPos = MouseUtils.MouseToWorldPos();
 			var tilePos = cameraPos.RoundToInt();
 			OrientationEnum orientation = OrientationEnum.Down;
-			Vector3Int PlaceDirection = PlayerManager.LocalPlayerScript.WorldPos - tilePos;
+			Vector3Int PlaceDirection = LocalPlayerManager.LocalPlayer.CurrentMind.BodyWorldPosition.RoundToInt() - tilePos;
 			bool isWallBlocked = false;
 			if (PlaceDirection.x != 0 && !MatrixManager.IsWallAtAnyMatrix(tilePos + new Vector3Int(PlaceDirection.x > 0 ? 1 : -1, 0, 0), true))
 			{
@@ -491,7 +491,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 			if (!instanceActive)
 			{
 				instanceActive = true;
-				Highlight.ShowHighlight(PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject, true);
+				Highlight.ShowHighlight(LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject, true);
 			}
 
 			Vector3 spritePos = tilePos;
@@ -525,7 +525,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 	WallMountHandApplySpawn CheckWallMountOverlay()
 	{
 
-		var itemSlot = PlayerManager.LocalPlayerScript?.DynamicItemStorage?.GetActiveHandSlot();
+		var itemSlot = LocalPlayerManager.LocalPlayer.CurrentMind.OrNull()?.DynamicItemStorage.OrNull()?.GetActiveHandSlot();
 		if (itemSlot == null || itemSlot.ItemObject == null)
 		{
 			return null;

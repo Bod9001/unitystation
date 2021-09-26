@@ -17,7 +17,7 @@ namespace Messages.Server.AdminTools
 			Chat.AddMentorPrivMsg(msg.Message);
 		}
 
-		public static NetMessage  Send(GameObject recipient, string mentorUid, string message)
+		public static NetMessage  Send(ConnectedPlayer recipient, string mentorUid, string message)
 		{
 			NetMessage  msg = new NetMessage
 			{

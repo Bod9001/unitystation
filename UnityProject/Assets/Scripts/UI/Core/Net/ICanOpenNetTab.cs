@@ -7,6 +7,6 @@ namespace UI.Core.Net
 	public interface ICanOpenNetTab
 	{
 		//Player gameobject and what netTabType is being checked
-		bool CanOpenNetTab(GameObject playerObject, NetTabType netTabType);
+		bool CanOpenNetTab(Mind playerObject, NetTabType netTabType);
 	}
 }

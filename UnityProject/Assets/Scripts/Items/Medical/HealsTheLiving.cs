@@ -86,7 +86,7 @@ public class HealsTheLiving : MonoBehaviour, ICheckedInteractable<HandApply>
 		stackable.ServerConsume(1);
 	}
 
-	private void ServerSelfHeal(GameObject originator, LivingHealthMasterBase livingHealth, HandApply interaction)
+	private void ServerSelfHeal(Mind originator, LivingHealthMasterBase livingHealth, HandApply interaction)
 	{
 		void ProgressComplete()
 		{
@@ -103,8 +103,8 @@ public class HealsTheLiving : MonoBehaviour, ICheckedInteractable<HandApply>
 		{
 			livingHealth.HealTraumaDamage(TraumaDamageToHeal, interaction.TargetBodyPart, TraumaTypeToHeal);
 			Chat.AddActionMsgToChat(interaction,
-			$"You apply the {gameObject.ExpensiveName()} to {livingHealth.playerScript.visibleName}",
-			$"{interaction.Performer.ExpensiveName()} applies {name} to {livingHealth.playerScript.visibleName}.");
+			$"You apply the {gameObject.ExpensiveName()} to {MindManager.StaticGet(livingHealth.gameObject).ExpensiveName()}",
+			$"{interaction.Performer.ExpensiveName()} applies {name} to {MindManager.StaticGet(livingHealth.gameObject).ExpensiveName()}.");
 		}
 	}
 
@@ -127,9 +127,9 @@ public class HealsTheLiving : MonoBehaviour, ICheckedInteractable<HandApply>
 			if(bodyPart.BodyPartType == interaction.TargetBodyPart && bodyPart.IsBleeding == true)
 			{
 				bodyPart.IsBleeding = false;
-				Chat.AddActionMsgToChat(interaction.Performer.gameObject,
-				$"You stopped {interaction.TargetObject.ExpensiveName()}'s bleeding.",
-				$"{interaction.PerformerPlayerScript.visibleName} stopped {interaction.TargetObject.ExpensiveName()}'s bleeding.");
+				Chat.AddActionMsgToChat(interaction.Performer,
+				$"You stopped {MindManager.StaticGet(livingHealth.gameObject).ExpensiveName()}'s bleeding.",
+				$"{interaction.Performer.ExpensiveName()} stopped {MindManager.StaticGet(livingHealth.gameObject).ExpensiveName()}'s bleeding.");
 			}
 		}
 	}

@@ -43,8 +43,8 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 	[NonSerialized]
 	public SlipEvent OnSlipChangeServer = new SlipEvent();
 
-	private PlayerScript playerScript;
-	public PlayerScript PlayerScript => playerScript;
+	private Mind playerScript;
+	public Mind PlayerScript => playerScript;
 	private Directional playerDirectional;
 	private UprightSprites uprightSprites;
 	[SerializeField] private Util.NetworkedLeanTween networkedLean;
@@ -54,8 +54,8 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 	/// correct server/client side logic based on where this is being called from.
 	/// </summary>
 	public bool IsBlocking => isServer ? IsBlockingServer : IsBlockingClient;
-	public bool IsBlockingClient => !playerScript.IsGhost && !IsLayingDown;
-	public bool IsBlockingServer => !playerScript.IsGhost && !IsLayingDown && !IsSlippingServer;
+	public bool IsBlockingClient => !playerScript.IsGhosting && !IsLayingDown;
+	public bool IsBlockingServer => !playerScript.IsGhosting && !IsLayingDown && !IsSlippingServer;
 	private Coroutine unstunHandle;
 
 
@@ -63,7 +63,6 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 	{
 		base.Awake();
 		AddStatus(this);
-		playerScript = GetComponent<PlayerScript>();
 		uprightSprites = GetComponent<UprightSprites>();
 		playerDirectional = GetComponent<Directional>();
 		playerDirectional.ChangeDirectionWithMatrix = false;
@@ -152,7 +151,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 			if (DoBar)
 			{
 				var bar = StandardProgressAction.Create(new StandardProgressActionConfig(StandardProgressActionType.SelfHeal, false, false, true), ServerStandUp);
-				bar.ServerStartProgress(this, 1.5f,gameObject);
+				bar.ServerStartProgress(this, 1.5f,MindManager.Instance.Get(gameObject));
 			}
 			else
 			{
@@ -179,7 +178,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 			{
 				spriteRenderer.sortingLayerName = "Bodies";
 			}
-			playerScript.PlayerSync.SpeedServer = playerScript.playerMove.CrawlSpeed;
+			playerScript.PlayerSync.SpeedServer = playerScript.PlayerMove.CrawlSpeed;
 			//lock current direction
 			playerDirectional.LockDirection = true;
 		}
@@ -192,7 +191,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 				spriteRenderer.sortingLayerName = "Players";
 			}
 			playerDirectional.LockDirection = false;
-			playerScript.PlayerSync.SpeedServer = playerScript.playerMove.RunSpeed;
+			playerScript.PlayerSync.SpeedServer = playerScript.PlayerMove.RunSpeed;
 		}
 	}
 
@@ -255,11 +254,11 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 		// Don't slip while the players hunger state is Strarving
 		// Don't slip if you got no legs (HealthV2)
 		if (IsSlippingServer
-			|| !slipWhileWalking && playerScript.PlayerSync.SpeedServer <= playerScript.playerMove.WalkSpeed
-			|| playerScript.playerHealth.IsCrit
-			|| playerScript.playerHealth.IsSoftCrit
-			|| playerScript.playerHealth.IsDead
-			|| playerScript.playerHealth.HungerState == HungerState.Starving)
+			|| !slipWhileWalking && playerScript.PlayerSync.SpeedServer <= playerScript.PlayerMove.WalkSpeed
+			|| playerScript.LivingHealthMasterBase.IsCrit
+			|| playerScript.LivingHealthMasterBase.IsSoftCrit
+			|| playerScript.LivingHealthMasterBase.IsDead
+			|| playerScript.LivingHealthMasterBase.HungerState == HungerState.Starving)
 		{
 			return;
 		}
@@ -268,7 +267,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 		AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: Random.Range(0.9f, 1.1f));
 		SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.Slip, WorldPositionServer, audioSourceParameters, sourceObj: gameObject);
 		// Let go of pulled items.
-		playerScript.pushPull.ServerStopPulling();
+		playerScript.PushPull.ServerStopPulling();
 	}
 
 	/// <summary>
@@ -296,7 +295,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 				Inventory.ServerDrop(itemSlot);
 			}
 		}
-		playerScript.playerMove.allowInput = false;
+		playerScript.PlayerMove.allowInput = false;
 
 		this.RestartCoroutine(StunTimer(stunDuration), ref unstunHandle);
 	}
@@ -318,17 +317,17 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 		IsSlippingServer = false;
 
 		// Do not raise up a dead body
-		if (playerScript.playerHealth.ConsciousState == ConsciousState.CONSCIOUS)
+		if (playerScript.LivingHealthMasterBase.ConsciousState == ConsciousState.CONSCIOUS)
 		{
 			ServerCheckStandingChange( false);
 		}
 
 		OnSlipChangeServer.Invoke(oldVal, IsSlippingServer);
 
-		if (playerScript.playerHealth.ConsciousState == ConsciousState.CONSCIOUS
-			 || playerScript.playerHealth.ConsciousState == ConsciousState.BARELY_CONSCIOUS)
+		if (playerScript.LivingHealthMasterBase.ConsciousState == ConsciousState.CONSCIOUS
+			 || playerScript.LivingHealthMasterBase.ConsciousState == ConsciousState.BARELY_CONSCIOUS)
 		{
-			playerScript.playerMove.allowInput = true;
+			playerScript.PlayerMove.allowInput = true;
 		}
 	}
 	// <summary>
@@ -342,7 +341,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 	{
 		int maxRange = 11;
 		int potencyStrength = (int)Math.Round((potency * .01f) * maxRange, 0);
-		TeleportUtils.ServerTeleportRandom(playerScript.gameObject, 0, potencyStrength, false, true);
+		TeleportUtils.ServerTeleportRandom(playerScript, 0, potencyStrength, false, true);
 	}
 }
 

@@ -137,7 +137,7 @@ namespace AdminTools
 			devToolsPage.SetActive(true);
 			backBtn.SetActive(true);
 			windowTitle.text = "DEV TOOLS";
-			AdminCommandsManager.Instance.CmdRequestProfiles(ServerData.UserID, PlayerList.Instance.AdminToken);
+			AdminCommandsManager.Instance.CmdRequestProfiles(ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
 
 		public void ShowRespawnPage()

@@ -25,9 +25,9 @@ public class ActionText : MonoBehaviour
 	public bool DoFade = false;
 	public int CountInstance = 1;
 
-	public void SetUp(string InString, GameObject recipient)
+	public void SetUp(string InString, GameObject parentTo)
 	{
-		transform.SetParent(recipient.transform);
+		transform.SetParent(parentTo.transform);
 		var canvas = GetComponent<Canvas>();
 		transform.localScale = new Vector3(0.014f, 0.014f, 0);
 		//canvas.sortingLayerID = SortingLayer.NameToID("UI");

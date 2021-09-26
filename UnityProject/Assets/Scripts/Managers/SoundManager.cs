@@ -379,7 +379,7 @@ public class SoundManager : MonoBehaviour
 	/// <param name="polyphonic">Is the sound to be played polyphonic</param>
 	/// <param name="shakeParameters">Camera shake effect associated with this sound</param>
 	/// <param name="sourceObj">The object that is the source of the sound</param>
-	public static async Task PlayNetworkedForPlayer(GameObject recipient, AddressableAudioSource addressableAudioSource,
+	public static async Task PlayNetworkedForPlayer(Mind recipient, AddressableAudioSource addressableAudioSource,
 		AudioSourceParameters audioSourceParameters = new AudioSourceParameters(), bool polyphonic = false,
 		ShakeParameters shakeParameters = new ShakeParameters(), GameObject sourceObj = null)
 	{
@@ -405,7 +405,7 @@ public class SoundManager : MonoBehaviour
 	/// <param name="polyphonic">Is the sound to be played polyphonic</param>
 	/// <param name="shakeParameters">Camera shake effect associated with this sound</param>
 	/// <param name="sourceObj">The object that is the source of the sound</param>
-	public static async Task PlayNetworkedForPlayer(GameObject recipient, List<AddressableAudioSource> addressableAudioSources,
+	public static async Task PlayNetworkedForPlayer(Mind recipient, List<AddressableAudioSource> addressableAudioSources,
 		AudioSourceParameters audioSourceParameters = new AudioSourceParameters(), bool polyphonic = false,
 		ShakeParameters shakeParameters = new ShakeParameters(), GameObject sourceObj = null)
 	{
@@ -424,7 +424,7 @@ public class SoundManager : MonoBehaviour
 	/// <param name="polyphonic">Is the sound to be played polyphonic</param>
 	/// <param name="shakeParameters">Camera shake effect associated with this sound</param>
 	/// <param name="sourceObj">The object that is the source of the sound</param>
-	public static async Task PlayNetworkedForPlayerAtPos(GameObject recipient, Vector3 worldPos,
+	public static async Task PlayNetworkedForPlayerAtPos(Mind recipient, Vector3 worldPos,
 		AddressableAudioSource addressableAudioSource, AudioSourceParameters audioSourceParameters = new AudioSourceParameters(),
 		bool polyphonic = false, ShakeParameters shakeParameters = new ShakeParameters(), GameObject sourceObj = null)
 	{
@@ -451,7 +451,7 @@ public class SoundManager : MonoBehaviour
 	/// <param name="polyphonic">Is the sound to be played polyphonic</param>
 	/// <param name="shakeParameters">Camera shake effect associated with this sound</param>
 	/// <param name="sourceObj">The object that is the source of the sound</param>
-	public static async Task PlayNetworkedForPlayerAtPos(GameObject recipient, Vector3 worldPos,
+	public static async Task PlayNetworkedForPlayerAtPos(Mind recipient, Vector3 worldPos,
 		List<AddressableAudioSource> addressableAudioSources, AudioSourceParameters audioSourceParameters = new AudioSourceParameters(),
 		bool polyphonic = false, ShakeParameters shakeParameters = new ShakeParameters(), GameObject sourceObj = null)
 	{
@@ -505,8 +505,8 @@ public class SoundManager : MonoBehaviour
 	private void PlaySource(SoundSpawn source, bool polyphonic = false, bool global = true, MixerType mixerType = MixerType.Master)
 	{
 		if (global == false
-		    && PlayerManager.LocalPlayer != null
-		    && MatrixManager.Linecast(PlayerManager.LocalPlayer.TileWorldPosition().To3Int(),
+		    && LocalPlayerManager.LocalPlayer != null
+		    && MatrixManager.Linecast(LocalPlayerManager.CurrentMind.BodyWorldPositionInt,
 			    LayerTypeSelection.Walls, layerMask, source.transform.position.To2Int().To3Int())
 			    .ItHit)
 			{

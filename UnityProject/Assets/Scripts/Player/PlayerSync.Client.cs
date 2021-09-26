@@ -166,7 +166,7 @@ public partial class PlayerSync
 						PredictiveBumpInteract(Vector3Int.RoundToInt((Vector2)predictedState.WorldPosition + action.Direction()), action.Direction());
 					}
 
-					if (PlayerManager.LocalPlayer == gameObject)
+					if (LocalPlayerManager.LocalPlayer == gameObject)
 					{
 						//don't change facing when diagonally opening a door
 						var dir = action.Direction();
@@ -231,7 +231,7 @@ public partial class PlayerSync
 	{
 		Vector3Int worldOrigin = worldTile - (Vector3Int)direction;
 
-		if (!Validations.CanInteract(playerScript, NetworkSide.Client, allowCuffed: true))
+		if (!Validations.CanInteract(MindManager.StaticGet(gameObject), NetworkSide.Client, allowCuffed: true))
 		{
 			return;
 		}
@@ -448,7 +448,7 @@ public partial class PlayerSync
 
 		//Ignore "Follow Updates" if you're pulling it
 		if (newState.Active
-			 && pushPull != null && pushPull.IsPulledByClient(PlayerManager.LocalPlayerScript?.pushPull)
+			 && pushPull != null && pushPull.IsPulledByClient(LocalPlayerManager.CurrentMind.OrNull()?.PushPull)
 		)
 		{
 			return;
@@ -547,7 +547,7 @@ public partial class PlayerSync
 	{
 		//when this is not the local player and is being pulled, we we start ignoring the
 		//direction updates from the server because we predict those directions entirely on the client
-		if (gameObject != PlayerManager.LocalPlayer)
+		if (gameObject != LocalPlayerManager.LocalPlayer)
 		{
 			playerDirectional.IgnoreServerUpdates = true;
 		}
@@ -556,7 +556,7 @@ public partial class PlayerSync
 	public void OnClientStopFollowing()
 	{
 		//done being pulled, give server authority again
-		if (gameObject != PlayerManager.LocalPlayer)
+		if (gameObject != LocalPlayerManager.LocalPlayer)
 		{
 			playerDirectional.IgnoreServerUpdates = false;
 		}
@@ -565,7 +565,7 @@ public partial class PlayerSync
 	private IEnumerator RollbackPullables()
 	{
 		yield return WaitFor.EndOfFrame;
-		if (gameObject == PlayerManager.LocalPlayer
+		if (gameObject == LocalPlayerManager.LocalPlayer
 			 && pushPull && pushPull.IsPullingSomethingClient)
 		{
 			//Rollback whatever you're pulling predictively, too

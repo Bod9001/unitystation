@@ -58,7 +58,7 @@ public class Directional : NetworkBehaviour, IMatrixRotation, IServerSpawn
 	/// Whether this component is on the local player object, which has special handling because the local
 	/// player controls their own object.
 	/// </summary>
-	private bool IsLocalPlayer => PlayerManager.LocalPlayer == gameObject;
+	private bool IsLocalPlayer => LocalPlayerManager.LocalPlayer == gameObject;
 
 	/// <summary>
 	/// NOTE: Has no effect on local player - local player is always predictive.

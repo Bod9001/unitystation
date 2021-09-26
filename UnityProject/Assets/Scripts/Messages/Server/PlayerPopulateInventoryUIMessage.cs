@@ -20,7 +20,7 @@ namespace Messages.Server
 			NetworkObject.GetComponent<DynamicItemStorage>().ShowClientUI();
 		}
 
-		public static NetMessage Send(DynamicItemStorage DIM, GameObject ToWho)
+		public static NetMessage Send(DynamicItemStorage DIM, Mind ToWho)
 		{
 			NetMessage msg = new NetMessage
 			{

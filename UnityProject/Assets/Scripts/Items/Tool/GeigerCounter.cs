@@ -17,7 +17,7 @@ public class GeigerCounter : MonoBehaviour, IInteractable<HandActivate>, IServer
 	private List<AddressableAudioSource> extremeSounds = new List<AddressableAudioSource>();
 
 	System.Random RNG = new System.Random();
-	private RegisterPlayer registerPlayer;
+	private RegisterTile registerPlayer;
 	private RegisterItem registerItem = null;
 
 	public void OnSpawnServer(SpawnInfo info)
@@ -92,7 +92,7 @@ public class GeigerCounter : MonoBehaviour, IInteractable<HandActivate>, IServer
 		}
 		else
 		{
-			registerPlayer = info.ToPlayer;
+			registerPlayer = info.ToPlayer.registerTile;
 		}
 	}
 

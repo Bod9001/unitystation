@@ -19,14 +19,14 @@ public class StartProgressInfo
 	/// <summary>
 	/// GameObject of the player performing the action.
 	/// </summary>
-	public readonly GameObject Performer;
+	public readonly Mind Performer;
 
 	/// <summary>
 	/// Progress bar representing this action.
 	/// </summary>
 	public readonly ProgressBar ProgressBar;
 
-	public StartProgressInfo(float timeForCompletion, ActionTarget target, GameObject performer,
+	public StartProgressInfo(float timeForCompletion, ActionTarget target, Mind performer,
 		ProgressBar progressBar)
 	{
 		TimeForCompletion = timeForCompletion;

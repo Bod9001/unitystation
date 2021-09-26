@@ -105,12 +105,12 @@ namespace Messages.Server
 			var list = NetworkTabManager.Instance.GetPeepers(provider, type);
 			foreach (var connectedPlayer in list)
 			{
-				Send(connectedPlayer.GameObject, provider, type, tabAction, null, values);
+				Send(connectedPlayer.CurrentMind, provider, type, tabAction, null, values);
 			}
 		}
 
-		public static TabUpdateMessage Send(GameObject recipient, GameObject provider, NetTabType type, TabAction tabAction,
-			GameObject changedBy = null,
+		public static TabUpdateMessage Send(Mind recipient, GameObject provider, NetTabType type, TabAction tabAction,
+			Mind changedBy = null,
 			ElementValue[] values = null)
 		{
 
@@ -133,14 +133,14 @@ namespace Messages.Server
 				case TabAction.Update:
 					// TODO: FIXME: duplication of NetTab.ValidatePeepers
 					// Not sending updates and closing tab for players that don't pass the validation anymore
-					var validate = Validations.CanApply(recipient.GetComponent<PlayerScript>(), provider, NetworkSide.Server);
+					var validate = Validations.CanApply(recipient, provider, NetworkSide.Server);
 
-					if (recipient.GetComponent<PlayerScript>().OrNull()?.PlayerState == PlayerScript.PlayerStates.Ai)
+					if (recipient.IsSilicon) //TODO Needs to be better way of doing this
 					{
 						validate = Validations.CanApply(new AiActivate(recipient, null,
 							provider, Intent.Help, AiActivate.ClickTypes.NormalClick), NetworkSide.Server);
 					}
-					
+
 					if (!validate)
 					{
 						Send(recipient, provider, type, TabAction.Close);

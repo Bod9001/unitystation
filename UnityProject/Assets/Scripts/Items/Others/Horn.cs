@@ -39,7 +39,7 @@ public class Horn : MonoBehaviour, ICheckedInteractable<HandActivate>, ICheckedI
 		AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: -1f); //This plays it backwards, is that what you wanted?
 		ShakeParameters shakeParameters = new ShakeParameters(true, 20, 5);
 		SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ClownHonk, gameObject.AssumedWorldPosServer(), audioSourceParameters, true, sourceObj: GetHonkSoundObject(), shakeParameters: shakeParameters);
-		livingHealth.ApplyDamageToBodyPart( clickData.Performer, CritDamage, AttackType.Energy, DamageType.Brute, BodyPartType.Head );
+		livingHealth.ApplyDamageToBodyPart( clickData.Performer.GameObjectBody, CritDamage, AttackType.Energy, DamageType.Brute, BodyPartType.Head );
 	}
 
 	/// <summary>
@@ -56,7 +56,7 @@ public class Horn : MonoBehaviour, ICheckedInteractable<HandActivate>, ICheckedI
 	/// </summary>
 	public void ServerPerformInteraction( PositionalHandApply interaction )
 	{
-		Vector3 performerWorldPos = interaction.PerformerPlayerScript.WorldPos;
+		Vector3 performerWorldPos = interaction.Performer.BodyWorldPosition;
 		bool inCloseRange = Validations.IsReachableByPositions( performerWorldPos, performerWorldPos + (Vector3)interaction.TargetVector, true, context: interaction.TargetObject);
 		var targetObject = interaction.TargetObject;
 		var targetHealth = targetObject != null ? targetObject.GetComponent<LivingHealthMasterBase>() : null;
@@ -66,7 +66,7 @@ public class Horn : MonoBehaviour, ICheckedInteractable<HandActivate>, ICheckedI
 		if ( inCloseRange && (targetHealth != null) )
 		{
 			interaction.Performer.GetComponent<WeaponNetworkActions>().RpcMeleeAttackLerp( interaction.TargetVector, gameObject );
-			Chat.AddAttackMsgToChat(interaction.Performer, targetObject,BodyPartType.None, gameObject);
+			Chat.AddAttackMsgToChat(interaction.Performer.GameObjectBody, targetObject,BodyPartType.None, gameObject);
 
 			ClassicHonk();
 
@@ -94,7 +94,7 @@ public class Horn : MonoBehaviour, ICheckedInteractable<HandActivate>, ICheckedI
 	/// </summary>
 	public bool WillInteract( HandActivate interaction, NetworkSide side )
 	{
-		return Validations.CanInteract(interaction.PerformerPlayerScript, side, true)
+		return Validations.CanInteract(interaction.Performer, side, true)
 		       && allowUse;
 	}
 
@@ -104,7 +104,7 @@ public class Horn : MonoBehaviour, ICheckedInteractable<HandActivate>, ICheckedI
 	public bool WillInteract( PositionalHandApply interaction, NetworkSide side )
 	{
 		if (interaction.HandObject != gameObject) return false;
-		return Validations.CanApply(interaction.PerformerPlayerScript, interaction.TargetObject, side, true, ReachRange.Unlimited, interaction.TargetVector)
+		return Validations.CanApply(interaction.Performer, interaction.TargetObject, side, true, ReachRange.Unlimited, interaction.TargetVector)
 				&& allowUse;
 	}
 
@@ -116,6 +116,6 @@ public class Horn : MonoBehaviour, ICheckedInteractable<HandActivate>, ICheckedI
 	private GameObject GetHonkSoundObject()
 	{
 		ItemSlot itemslot = gameObject.GetComponent<Pickupable>().ItemSlot;
-		return itemslot != null ? itemslot.ItemStorage.GetRootStorageOrPlayer() : gameObject;
+		return itemslot != null ? itemslot.ItemStorage.GetRootStorage() : gameObject;
 	}
 }

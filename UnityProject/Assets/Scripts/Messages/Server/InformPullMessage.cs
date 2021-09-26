@@ -32,8 +32,8 @@ namespace Messages.Server
 
 			Logger.Log( $"Received: {subject.gameObject?.name} is {getStatus( pulledBy )}", Category.PushPull );
 
-			if ( PlayerManager.LocalPlayer ) {
-				if ( subject == PlayerManager.LocalPlayerScript.pushPull.PulledObjectClient && pulledBy == null ) {
+			if ( LocalPlayerManager.LocalPlayer ) {
+				if ( subject == LocalPlayerManager.CurrentMind.PushPull.PulledObjectClient && pulledBy == null ) {
 //				Logger.Log( "Removing all frelling blue arrows for ya!", Category.PushPull );
 					for ( var i = 0; i < trackedObjects.Count; i++ ) {
 						PushPull trackedObject = trackedObjects[i];
@@ -79,7 +79,7 @@ namespace Messages.Server
 					PulledBy = pulledBy == null ? NetId.Invalid : pulledBy.gameObject.NetId(),
 				};
 
-			SendTo(recipient.gameObject, msg);
+			SendTo(MindManager.StaticGet(recipient.gameObject), msg);
 			Logger.LogTraceFormat( "Sent to {0}: {1} is {2}", Category.PushPull, recipient, subject, getStatus( pulledBy ) );
 			return msg;
 		}

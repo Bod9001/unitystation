@@ -45,12 +45,12 @@ namespace Messages.Server
 			}
 		}
 
-		public static NetMessage Send(PlayerScript player, TypingState state)
+		public static NetMessage Send(Mind player, TypingState state)
 		{
 			var msg = new NetMessage()
 			{
 				state = state,
-				targetID = player.netId
+				targetID = player.GameObjectBody.NetId()
 			};
 
 			var playerPos = player.transform.position;

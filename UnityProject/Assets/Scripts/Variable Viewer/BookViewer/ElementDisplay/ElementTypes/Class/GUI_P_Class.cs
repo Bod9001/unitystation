@@ -62,6 +62,6 @@ public class GUI_P_Class : PageElement
 
 	public void RequestOpenBookOnPage() {
 		OpenPageValueNetMessage.Send(PageID,SentenceID,
-			ServerData.UserID, PlayerList.Instance.AdminToken, IsSentence,iskey);
+			ServerData.UserID, PlayersManager.Instance.AdminToken, IsSentence,iskey);
 	}
 }

@@ -172,7 +172,7 @@ namespace Alien
 				audioSourceParameters, global: false);
 
 			Chat.AddActionMsgToChat(
-				interaction.Performer.gameObject,
+				interaction.Performer,
 				"You squish the alien egg!",
 				$"{interaction.Performer.ExpensiveName()} squishes the alien egg!");
 

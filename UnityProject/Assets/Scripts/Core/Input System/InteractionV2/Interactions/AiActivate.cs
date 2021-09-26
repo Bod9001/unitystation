@@ -12,7 +12,7 @@ namespace Systems.Interaction
 
 		public ClickTypes ClickType => clickType;
 
-		public AiActivate(GameObject performer, GameObject usedObject, GameObject targetObject, Intent intent, ClickTypes clickType) : base(performer, usedObject, targetObject, intent)
+		public AiActivate(Mind performer, GameObject usedObject, GameObject targetObject, Intent intent, ClickTypes clickType) : base(performer, usedObject, targetObject, intent)
 		{
 			this.clickType = clickType;
 		}

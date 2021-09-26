@@ -17,7 +17,7 @@ namespace Items.PDA
 			serverString = msg;
 		}
 		[Server]
-		public void UpdatePlayer(GameObject recipient)
+		public void UpdatePlayer(Mind recipient)
 		{
 			NoteUpdateMessage.Send(recipient, gameObject, serverString);
 		}

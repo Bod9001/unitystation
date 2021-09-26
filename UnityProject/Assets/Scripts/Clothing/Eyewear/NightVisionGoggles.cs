@@ -14,7 +14,7 @@ public class NightVisionGoggles : NetworkBehaviour, IServerInventoryMove, ICheck
 	private bool isOn;
 	private ItemActionButton actionButton;
 
-	private RegisterPlayer currentPlayer;
+	private Mind currentPlayer;
 
 	#region LifeCycle
 
@@ -96,14 +96,14 @@ public class NightVisionGoggles : NetworkBehaviour, IServerInventoryMove, ICheck
 	[Server]
 	private void SetGoggleState(bool newState)
 	{
-		if(currentPlayer == null || currentPlayer.connectionToClient == null) return;
+		if(currentPlayer == null || currentPlayer.OrNull()?.AssignedPlayer.OrNull()?.Connection == null) return;
 
 		isOn = newState;
-		var item = currentPlayer.PlayerScript.Equipment.GetClothingItem(NamedSlot.eyes).OrNull()?.GameObjectReference;
+		var item = currentPlayer.Equipment.GetClothingItem(NamedSlot.eyes).OrNull()?.GameObjectReference;
 		if (item == gameObject)
 		{
 			ServerToggleClient(newState);
-			Chat.AddExamineMsgFromServer(currentPlayer.gameObject, $"You turned {(isOn ? "on" : "off")} the {gameObject.ExpensiveName()}.");
+			Chat.AddExamineMsgFromServer(currentPlayer, $"You turned {(isOn ? "on" : "off")} the {currentPlayer.ExpensiveName()}.");
 		}
 	}
 
@@ -112,7 +112,7 @@ public class NightVisionGoggles : NetworkBehaviour, IServerInventoryMove, ICheck
 	{
 		if(currentPlayer == null) return;
 
-		currentPlayer.PlayerScript.PlayerOnlySyncValues.ServerSetNightVision(newState, nightVisionVisibility, visibilityAnimationSpeed);
+		currentPlayer.PlayerOnlySyncValues.ServerSetNightVision(newState, nightVisionVisibility, visibilityAnimationSpeed);
 	}
 }
 

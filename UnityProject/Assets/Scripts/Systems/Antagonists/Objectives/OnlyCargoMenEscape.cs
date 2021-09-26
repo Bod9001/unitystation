@@ -26,16 +26,15 @@ namespace Antagonists
 
 			foreach (Transform t in objectsTransform)
 			{
-				var player = t.GetComponent<PlayerScript>();
-				if (player != null)
+				var playerDetails = MindManager.StaticGet(t.gameObject);
+				if (playerDetails != null)
 				{
 					playersFound++;
-					var playerDetails = PlayerList.Instance.Get(player.gameObject);
-					if (playerDetails.Job != JobType.CARGOTECH && playerDetails.Job != JobType.MINER
-					                                           && playerDetails.Job != JobType.QUARTERMASTER)
+					if (playerDetails.JobType != JobType.CARGOTECH && playerDetails.JobType != JobType.MINER
+					                                           && playerDetails.JobType != JobType.QUARTERMASTER)
 					{
-						if(playerDetails.Script == null || playerDetails.Script.playerHealth == null) continue;
-						if (!playerDetails.Script.playerHealth.IsDead)
+						if(playerDetails == null || playerDetails.LivingHealthMasterBase == null) continue;
+						if (!playerDetails.LivingHealthMasterBase.IsDead)
 						{
 							return false;
 						}

@@ -18,8 +18,8 @@ public class Disarmable : MonoBehaviour, ICheckedInteractable<PositionalHandAppl
 	const float DISARM_CHANCE = 50; // Percent
 	const float KNOCKDOWN_STUN_TIME = 6; // Seconds
 
-	private GameObject performer;
-	private GameObject target;
+	private Mind performer;
+	private Mind target;
 	private string performerName;
 	private string targetName;
 	private Vector2 interactionWorldPosition;
@@ -39,7 +39,7 @@ public class Disarmable : MonoBehaviour, ICheckedInteractable<PositionalHandAppl
 	public void ServerPerformInteraction(PositionalHandApply interaction)
 	{
 		performer = interaction.Performer;
-		target = interaction.TargetObject;
+		target = MindManager.StaticGet( interaction.TargetObject);
 		performerName = interaction.Performer.ExpensiveName();
 		targetName = interaction.TargetObject.ExpensiveName();
 		interactionWorldPosition = interaction.WorldPositionTarget;
@@ -58,7 +58,7 @@ public class Disarmable : MonoBehaviour, ICheckedInteractable<PositionalHandAppl
 		}
 		else
 		{
-			SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.PunchMiss, interactionWorldPosition, sourceObj: target);
+			SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.PunchMiss, interactionWorldPosition, sourceObj: target.GameObjectBody);
 
 			Chat.AddCombatMsgToChat(
 					performer,
@@ -73,7 +73,7 @@ public class Disarmable : MonoBehaviour, ICheckedInteractable<PositionalHandAppl
 		var targetRegister = target.GetComponent<RegisterPlayer>();
 		targetRegister.ServerStun(KNOCKDOWN_STUN_TIME, false);
 
-		SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ThudSwoosh, interactionWorldPosition, sourceObj: target);
+		SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ThudSwoosh, interactionWorldPosition, sourceObj: target.GameObjectBody);
 		Chat.AddCombatMsgToChat(
 				performer,
 				$"You knock {targetName} down!",
@@ -103,7 +103,7 @@ public class Disarmable : MonoBehaviour, ICheckedInteractable<PositionalHandAppl
 			Inventory.ServerDrop(rightHandSlot);
 		}
 
-		SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ThudSwoosh, interactionWorldPosition, sourceObj: target);
+		SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ThudSwoosh, interactionWorldPosition, sourceObj: target.GameObjectBody);
 		Chat.AddCombatMsgToChat(
 				performer,
 				$"You successfully disarm {targetName}!",

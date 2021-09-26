@@ -37,16 +37,16 @@ namespace Messages.Client.Admin
 
 		private void DoPlayerToAdminTeleport(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (admin == null) return;
 
-			PlayerScript userToTeleport = null;
+			Mind userToTeleport = null;
 
-			foreach (var player in PlayerList.Instance.AllPlayers)
+			foreach (var player in PlayersManager.Instance.AllPlayers)
 			{
 				if (player.UserId == msg.UserToTeleport)
 				{
-					userToTeleport = player.Script;
+					userToTeleport = player.CurrentMind;
 
 					break;
 				}
@@ -59,21 +59,21 @@ namespace Messages.Client.Admin
 			userToTeleport.PlayerSync.SetPosition(coord, true);
 
 			UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(
-				$"{SentByPlayer.Username} teleported {userToTeleport.playerName} to themselves", msg.Userid);
+				$"{SentByPlayer.Username} teleported {userToTeleport.AssignedPlayer.Username} to themselves", msg.Userid);
 		}
 
 		private void DoAdminToPlayerTeleport(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (admin == null) return;
 
-			PlayerScript userToTeleportTo = null;
+			Mind userToTeleportTo = null;
 
-			foreach (var player in PlayerList.Instance.AllPlayers)
+			foreach (var player in PlayersManager.Instance.AllPlayers)
 			{
 				if (player.UserId == msg.UserToTeleportTo)
 				{
-					userToTeleportTo = player.Script;
+					userToTeleportTo = player.CurrentMind;
 
 					break;
 				}
@@ -81,7 +81,7 @@ namespace Messages.Client.Admin
 
 			if (userToTeleportTo == null) return;
 
-			var playerScript = SentByPlayer.Script;
+			var playerScript = SentByPlayer.CurrentMind;
 
 			if (playerScript == null) return;
 
@@ -91,11 +91,11 @@ namespace Messages.Client.Admin
 
 			if (msg.IsAghost)
 			{
-				message = $"{SentByPlayer.Username} teleported to {userToTeleportTo.playerName} as a ghost";
+				message = $"{SentByPlayer.Username} teleported to {userToTeleportTo.AssignedPlayer.Username} as a ghost";
 			}
 			else
 			{
-				message = $"{SentByPlayer.Username} teleported to {userToTeleportTo.playerName} as a player";
+				message = $"{SentByPlayer.Username} teleported to {userToTeleportTo.AssignedPlayer.Username} as a player";
 			}
 
 			UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(message, msg.Userid);
@@ -103,16 +103,16 @@ namespace Messages.Client.Admin
 
 		private void DoAllPlayersToPlayerTeleport(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (admin == null) return;
 
-			PlayerScript destinationPlayer = null;
+			Mind destinationPlayer = null;
 
-			foreach (var player in PlayerList.Instance.AllPlayers)
+			foreach (var player in PlayersManager.Instance.AllPlayers)
 			{
 				if (player.UserId == msg.UserToTeleportTo)
 				{
-					destinationPlayer = player.Script;
+					destinationPlayer = player.CurrentMind;
 
 					break;
 				}
@@ -120,9 +120,9 @@ namespace Messages.Client.Admin
 
 			if (destinationPlayer == null) return;
 
-			foreach (var player in PlayerList.Instance.AllPlayers)
+			foreach (var player in PlayersManager.Instance.AllPlayers)
 			{
-				PlayerScript userToTeleport = player.Script;
+				Mind userToTeleport = player.CurrentMind;
 
 				if (userToTeleport == null) continue;
 
@@ -132,20 +132,13 @@ namespace Messages.Client.Admin
 
 					userToTeleport.PlayerSync.SetPosition(coord, true);
 				}
-				else if (destinationPlayer.IsGhost)
-				{
-					//if the  destination player player is a ghost the system breaks as for some reason ghost position is not accurate on server.
-					//To test for future reference: test coord on headless, works fine in editor.
-					//if admin is ghost top condition is used as the admin can pass their position from client to server.
-					return;
-				}
 				else
 				{
 					userToTeleport.PlayerSync.SetPosition(destinationPlayer.gameObject.AssumedWorldPosServer(), true);
 				}
 			}
 
-			var stringMsg = $"{SentByPlayer.Username} teleported all players to {destinationPlayer.playerName}";
+			var stringMsg = $"{SentByPlayer.Username} teleported all players to {destinationPlayer.AssignedPlayer.Username}";
 
 			UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(stringMsg, msg.Userid);
 		}

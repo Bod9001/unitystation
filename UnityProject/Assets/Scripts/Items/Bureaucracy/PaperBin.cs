@@ -131,9 +131,9 @@ namespace Items.Bureaucracy
 				return false;
 			}
 
-			var ps = interaction.Performer.GetComponent<PlayerScript>();
+			var mind = interaction.Performer;
 			var cnt = GetComponent<CustomNetTransform>();
-			if (!ps || !cnt || !ps.IsRegisterTileReachable(cnt.RegisterTile, side == NetworkSide.Server))
+			if (!mind || !cnt || Validations.IsReachableByRegisterTiles(mind.registerTile, cnt.RegisterTile, side == NetworkSide.Server) == false)
 			{
 				return false;
 			}

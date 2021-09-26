@@ -66,7 +66,7 @@ namespace InGameEvents
 
 			if(GameManager.Instance.CurrentRoundState != RoundState.Started) return;
 
-			if(PlayerList.Instance.InGamePlayers.Count < minPlayersForRandomEventsToHappen) return;
+			if(PlayersManager.Instance.InGamePlayers.Count < minPlayersForRandomEventsToHappen) return;
 
 			timer += Time.deltaTime;
 			if (timer > triggerEventInterval)
@@ -150,7 +150,7 @@ namespace InGameEvents
 			foreach (var eventInList in eventList.Shuffle())
 			{
 				//If there's not enough players try to trigger a different one
-				if(eventInList.MinPlayersToTrigger > PlayerList.Instance.InGamePlayers.Count) continue;
+				if(eventInList.MinPlayersToTrigger > PlayersManager.Instance.InGamePlayers.Count) continue;
 
 				var chanceToHappen = UnityEngine.Random.Range(0f, 100f);
 

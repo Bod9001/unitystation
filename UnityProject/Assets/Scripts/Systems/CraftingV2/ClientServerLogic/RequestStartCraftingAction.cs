@@ -26,7 +26,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 		{
 			if (
 				Cooldowns.TryStartServer(
-					SentByPlayer.Script,
+					SentByPlayer.CurrentMind,
 					CommonCooldowns.Instance.Interaction
 				) == false
 			)
@@ -37,7 +37,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 			if (netMessage.CraftingRecipeIndex < 0)
 			{
 				Logger.LogError(
-					$"Received the negative recipe index when {SentByPlayer.Name} " +
+					$"Received the negative recipe index when {SentByPlayer.Username} " +
 					"had tried to craft something. Perhaps some recipe is missing from the singleton."
 				);
 				return;
@@ -46,7 +46,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 			if (netMessage.IsRecipeIndexWrong)
 			{
 				Logger.LogError(
-					$"Received the wrong recipe index when {SentByPlayer.Name} had tried to craft something. " +
+					$"Received the wrong recipe index when {SentByPlayer.Username} had tried to craft something. " +
 					"Perhaps some recipe has wrong indexInSingleton that doesn't match a real index in the singleton."
 				);
 				return;
@@ -54,11 +54,11 @@ namespace Systems.CraftingV2.ClientServerLogic
 
 			// at the moment we already know that there are enough ingredients and
 			// tools(checked on the client side), so we'll ignore them.
-			SentByPlayer.Script.PlayerCrafting.TryToStartCrafting(
+			SentByPlayer.CurrentMind.PlayerCrafting.TryToStartCrafting(
 				CraftingRecipeSingleton.Instance.GetRecipeByIndex(netMessage.CraftingRecipeIndex),
 				null,
 				null,
-				SentByPlayer.Script.PlayerCrafting.GetReagentContainers(),
+				SentByPlayer.CurrentMind.PlayerCrafting.GetReagentContainers(),
 				craftingActionParameters
 			);
 		}
@@ -67,7 +67,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 		{
 			if (
 				Cooldowns.TryStartClient(
-					PlayerManager.LocalPlayerScript,
+					LocalPlayerManager.CurrentMind,
 					CommonCooldowns.Instance.Interaction
 				) == false
 			)

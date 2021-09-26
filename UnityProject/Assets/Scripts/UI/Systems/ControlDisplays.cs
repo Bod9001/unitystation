@@ -72,7 +72,7 @@ namespace UI
 		private IEnumerator DetermineRejoinUI()
 		{
 			// Wait for the assigning
-			while (PlayerManager.LocalPlayerScript == null)
+			while (LocalPlayerManager.LocalViewerScript == null)
 			{
 				yield return WaitFor.EndOfFrame;
 			}
@@ -83,16 +83,7 @@ namespace UI
 		private void DetermineUI()
 		{
 			// TODO: make better system for handling lots of different UIs
-			if (PlayerManager.LocalPlayerScript.PlayerState == PlayerScript.PlayerStates.Blob)
-			{
-				SetUi(hudBottomBlob);
-				PlayerManager.LocalPlayerScript.GetComponent<BlobPlayer>()?.TurnOnClientLight();
-			}
-			else if (PlayerManager.LocalPlayerScript.PlayerState == PlayerScript.PlayerStates.Ai)
-			{
-				SetUi(hudBottomAi);
-			}
-			else if (PlayerManager.LocalPlayerScript.playerHealth == null)
+			if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
 			{
 				SetUi(hudBottomGhost.gameObject);
 			}
@@ -111,7 +102,7 @@ namespace UI
 
 			if (newUi == hudBottomGhost.gameObject)
 			{
-				hudBottomGhost.AdminGhostInventory.SetActive(PlayerList.Instance.IsClientAdmin);
+				hudBottomGhost.AdminGhostInventory.SetActive(PlayersManager.Instance.IsClientAdmin);
 			}
 
 			//Turn off old UI

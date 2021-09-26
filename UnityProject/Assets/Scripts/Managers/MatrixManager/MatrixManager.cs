@@ -571,7 +571,7 @@ public partial class MatrixManager : MonoBehaviour
 
 
 		bool hasHelpIntent = false;
-		if (bumper.gameObject == PlayerManager.LocalPlayer && isServer == false)
+		if (bumper.gameObject == LocalPlayerManager.LocalPlayer && isServer == false)
 		{
 			//locally predict based on our set intent.
 			hasHelpIntent = UIManager.CurrentIntent == Intent.Help;

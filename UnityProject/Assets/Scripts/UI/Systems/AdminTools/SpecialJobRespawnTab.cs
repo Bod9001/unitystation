@@ -17,7 +17,7 @@ namespace UI.AdminTools
 
 			RequestRespawnPlayer.SendSpecialRespawn(
 				ServerData.UserID,
-				PlayerList.Instance.AdminToken,
+				PlayersManager.Instance.AdminToken,
 				PlayerEntry.PlayerData.uid,
 				occupation);
 		}

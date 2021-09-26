@@ -28,7 +28,7 @@ namespace Messages.Server.AdminTools
 			}
 		}
 
-		public static NetMessage Send(GameObject recipient, string adminID)
+		public static NetMessage Send(ConnectedPlayer recipient, string adminID)
 		{
 			AdminPlayersList playerList = new AdminPlayersList();
 			//Player list info:
@@ -47,30 +47,30 @@ namespace Messages.Server.AdminTools
 		{
 			var playerList = new List<AdminPlayerEntryData>();
 			if (string.IsNullOrEmpty(adminID)) return playerList;
-			foreach (var player in PlayerList.Instance.AllPlayers)
+			foreach (var player in PlayersManager.Instance.AllPlayers)
 			{
 				if (player == null) continue;
 				if (player.Connection == null) continue;
 
 				var entry = new AdminPlayerEntryData();
-				entry.name = player.Name;
+				entry.name = player.CurrentMind.CharactersName;
 				entry.uid = player.UserId;
-				entry.currentJob = player.Job.ToString();
+				entry.currentJob = player.CurrentMind.JobType.ToString();
 				entry.accountName = player.Username;
 				if (player.Connection != null)
 				{
 					entry.ipAddress = player.Connection.address;
-					if (player.Script != null && player.Script.playerHealth != null)
+					if (player.CurrentMind != null && player.CurrentMind.LivingHealthMasterBase != null)
 					{
-						entry.isAlive = player.Script.playerHealth.ConsciousState != ConsciousState.DEAD;
+						entry.isAlive = player.CurrentMind.LivingHealthMasterBase.ConsciousState != ConsciousState.DEAD;
 					}
 					else
 					{
 						entry.isAdmin = false;
 					}
 					entry.isOnline = true;
-					entry.isAntag = PlayerList.Instance.AntagPlayers.Contains(player);
-					entry.isAdmin = PlayerList.Instance.IsAdmin(player.UserId);
+					entry.isAntag = MindManager.Instance.AntagMinds.Contains(player.CurrentMind);
+					entry.isAdmin = PlayersManager.Instance.IsAdmin(player.UserId);
 				}
 				else
 				{

@@ -160,7 +160,7 @@ public abstract class LivingHealthBehaviour : NetworkBehaviour, IHealth, IFireEx
 	public override void OnStartServer()
 	{
 		EnsureInit();
-		mobID = PlayerManager.Instance.GetMobID();
+		mobID = this.gameObject.GetInstanceID();
 		ResetBodyParts();
 		if (maxHealth <= 0)
 		{
@@ -344,7 +344,7 @@ public abstract class LivingHealthBehaviour : NetworkBehaviour, IHealth, IFireEx
 		applyDamageEvent?.Invoke(damagedBy);
 
 		bodyPartBehaviour.ReceiveDamage(damageType, bodyPartBehaviour.armor.GetDamage(damage, attackType));
-		HealthBodyPartMessage.Send(gameObject, gameObject, bodyPartAim, bodyPartBehaviour.BruteDamage,
+		HealthBodyPartMessage.Send( MindManager.StaticGet(gameObject) , gameObject, bodyPartAim, bodyPartBehaviour.BruteDamage,
 			bodyPartBehaviour.BurnDamage);
 
 		if (attackType == AttackType.Fire)
@@ -415,7 +415,7 @@ public abstract class LivingHealthBehaviour : NetworkBehaviour, IHealth, IFireEx
 		}
 
 		bodyPartBehaviour.HealDamage(healAmt, damageTypeToHeal);
-		HealthBodyPartMessage.Send(gameObject, gameObject, bodyPartAim, bodyPartBehaviour.BruteDamage,
+		HealthBodyPartMessage.Send(MindManager.StaticGet(gameObject) , gameObject, bodyPartAim, bodyPartBehaviour.BruteDamage,
 			bodyPartBehaviour.BurnDamage);
 
 		var prevHealth = OverallHealth;
@@ -637,7 +637,7 @@ public abstract class LivingHealthBehaviour : NetworkBehaviour, IHealth, IFireEx
 	}
 
 	[Server]
-	protected virtual void Gib()
+	public virtual void Gib()
 	{
 		//TODO: Re - impliment this using the new reagent- first code introduced in PR #6810
 		//EffectsFactory.BloodSplat(transform.position, BloodSplatSize.large, bloodColor);
@@ -711,13 +711,13 @@ public abstract class LivingHealthBehaviour : NetworkBehaviour, IHealth, IFireEx
 		// Assume animal
 		string theyPronoun = "It";
 		string theirPronoun = "its";
+		var Ps = MindManager.StaticGet(gameObject);
 
-		var ps = GetComponentInParent<PlayerScript>();
-		var cs = ps?.characterSettings;
+		var cs = Ps.OriginalCharacter;
 		if (cs != null)
 		{
-			theyPronoun = cs.TheyPronoun(ps).Capitalize();
-			theirPronoun = cs.TheirPronoun(ps);
+			theyPronoun = cs.TheyPronoun(Ps).Capitalize();
+			theirPronoun = cs.TheirPronoun(Ps);
 		}
 
 		var healthString = $"{theyPronoun} is ";

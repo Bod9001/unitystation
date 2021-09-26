@@ -138,7 +138,7 @@ namespace UI.CharacterCreator
 			ShowCharacterPreviewOnCharacterSelector();
 			CheckIfCharacterListIsEmpty();
 			WindowName.text = "Select your character";
-			LoadSettings(PlayerManager.CurrentCharacterSettings);
+			LoadSettings(LocalPlayerManager.CurrentCharacterSettings);
 			var copyStr = JsonConvert.SerializeObject(currentCharacter);
 			lastSettings = JsonConvert.DeserializeObject<CharacterSettings>(copyStr);
 			colorPicker.gameObject.SetActive(false);
@@ -302,7 +302,7 @@ namespace UI.CharacterCreator
 		{
 			currentCharacterIndex = newValue;
 			LoadSettings(PlayerCharacters[currentCharacterIndex]);
-			PlayerManager.CurrentCharacterSettings = PlayerCharacters[currentCharacterIndex];
+			LocalPlayerManager.CurrentCharacterSettings = PlayerCharacters[currentCharacterIndex];
 			SaveLastCharacterIndex();
 			RefreshSelectorData();
 			_ = SoundManager.Play(CommonSounds.Instance.Click01);
@@ -380,7 +380,7 @@ namespace UI.CharacterCreator
 			if (currentCharacter == null)
 			{
 				currentCharacter = new CharacterSettings();
-				PlayerManager.CurrentCharacterSettings = currentCharacter;
+				LocalPlayerManager.CurrentCharacterSettings = currentCharacter;
 			}
 
 			PlayerHealthData SetRace = null;
@@ -414,7 +414,7 @@ namespace UI.CharacterCreator
 
 			availableSkinColors = SetRace.Base.SkinColours;
 			currentCharacter.SkinTone = inCharacterSettings.SkinTone;
-			PlayerManager.CurrentCharacterSettings = currentCharacter;
+			LocalPlayerManager.CurrentCharacterSettings = currentCharacter;
 			SetUpSpeciesBody(SetRace);
 			PopulateAllDropdowns(SetRace);
 			DoInitChecks();
@@ -958,7 +958,7 @@ namespace UI.CharacterCreator
 			Logger.Log(JsonConvert.SerializeObject(bodyPartCustomisationStorage), Category.Character);
 			Logger.Log(JsonConvert.SerializeObject(ExternalCustomisationStorage), Category.Character);
 
-			PlayerManager.CurrentCharacterSettings = currentCharacter;
+			LocalPlayerManager.CurrentCharacterSettings = currentCharacter;
 			_ = ServerData.UpdateCharacterProfile(currentCharacter);
 			SaveCharacters();
 		}
@@ -1180,7 +1180,7 @@ namespace UI.CharacterCreator
 
 		public void OnCancelBtn()
 		{
-			PlayerManager.CurrentCharacterSettings = lastSettings;
+			LocalPlayerManager.CurrentCharacterSettings = lastSettings;
 			LoadSettings(lastSettings);
 			RefreshAll();
 			ReturnCharacterPreviewFromTheCharacterSelector();

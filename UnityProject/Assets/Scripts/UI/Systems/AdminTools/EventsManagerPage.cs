@@ -72,7 +72,7 @@ public class EventsManagerPage : AdminPage
 			}
 		}
 
-		AdminCommandsManager.Instance.CmdTriggerGameEvent(ServerData.UserID, PlayerList.Instance.AdminToken, index,
+		AdminCommandsManager.Instance.CmdTriggerGameEvent(ServerData.UserID, PlayersManager.Instance.AdminToken, index,
 			isFakeToggle.isOn, announceToggle.isOn, eventType, null);
 
 	}
@@ -80,7 +80,7 @@ public class EventsManagerPage : AdminPage
 	public void ToggleRandomEvents()
 	{
 		currentData.randomEventsAllowed = randomEventToggle.isOn;
-		RequestRandomEventAllowedChange.Send(ServerData.UserID, PlayerList.Instance.AdminToken, randomEventToggle.isOn);
+		RequestRandomEventAllowedChange.Send(ServerData.UserID, PlayersManager.Instance.AdminToken, randomEventToggle.isOn);
 	}
 
 	public override void OnPageRefresh(AdminPageRefreshData adminPageData)

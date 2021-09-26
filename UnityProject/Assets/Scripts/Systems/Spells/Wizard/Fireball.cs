@@ -13,12 +13,12 @@ namespace Systems.Spells.Wizard
 		[SerializeField]
 		private GameObject projectilePrefab = default;
 
-		public override bool CastSpellServer(ConnectedPlayer caster, Vector3 clickPosition)
+		public override bool CastSpellServer(Mind caster, Vector3 clickPosition)
 		{
-			Vector3Int casterWorldPos = caster.Script.WorldPos;
+			Vector3Int casterWorldPos = caster.BodyWorldPositionInt;
 			Vector2 castVector = clickPosition - casterWorldPos;
 
-			CastProjectileMessage.SendToAll(caster.GameObject, projectilePrefab, castVector, default);
+			CastProjectileMessage.SendToAll(caster.GameObjectBody, projectilePrefab, castVector, default);
 			return true;
 		}
 	}

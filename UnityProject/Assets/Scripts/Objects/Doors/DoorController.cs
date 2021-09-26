@@ -321,7 +321,7 @@ namespace Doors
 			}
 		}
 
-		public void MobTryOpen(GameObject originator)
+		public void MobTryOpen(Mind originator)
 		{
 			if (IsClosed == false || isPerformingAction) return;
 
@@ -355,12 +355,7 @@ namespace Doors
 			}
 		}
 
-		private void HackingTryOpen(GameObject originator = null)
-		{
-			TryOpen(originator);
-		}
-
-		public void TryOpen(GameObject originator = null, bool blockClosing = false)
+		public void TryOpen(Mind originator = null, bool blockClosing = false)
 		{
 			if (Time.time < delayStartTimeTryOpen + inputDelay && isEmagged == false) return;
 

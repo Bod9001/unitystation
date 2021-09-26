@@ -22,8 +22,8 @@ namespace Items.Magical
 		public event Action OnApprenticeSpawned;
 
 		public MagicSchool SelectedSchool { get; private set; }
-		public ConnectedPlayer BoundTo { get; private set; }
-		public ConnectedPlayer Apprentice { get; private set; }
+		public Mind BoundTo { get; private set; }
+		public Mind Apprentice { get; private set; }
 		public bool WasUsed => Apprentice != null;
 
 		private uint createdRoleKey;
@@ -55,7 +55,7 @@ namespace Items.Magical
 				return;
 			}
 
-			BoundTo = netTab.LastInteractedPlayer().Player();
+			BoundTo = netTab.LastInteractedPlayer();
 
 			createdRoleKey = GhostRoleManager.Instance.ServerCreateRole(ghostRole);
 			GhostRoleServer role = GhostRoleManager.Instance.serverAvailableRoles[createdRoleKey];
@@ -69,9 +69,9 @@ namespace Items.Magical
 			GhostRoleManager.Instance.ServerRemoveRole(createdRoleKey);
 		}
 
-		private void SpawnApprentice(ConnectedPlayer player)
+		private void SpawnApprentice(Mind player)
 		{
-			player.Script.playerNetworkActions.ServerRespawnPlayerAntag(player, "Wizard Apprentice");
+			player.playerNetworkActions.ServerRespawnPlayerAntag(player, "Wizard Apprentice");
 
 			Apprentice = player;
 			OnApprenticeSpawned?.Invoke();
@@ -80,15 +80,15 @@ namespace Items.Magical
 			{
 				if (entry is SpellBookSpell spellEntry)
 				{
-					Spell spell = spellEntry.Spell.AddToPlayer(player.Script);
-					player.Script.mind.AddSpell(spell);
+					Spell spell = spellEntry.Spell.AddToPlayer(player);
+					player.AddSpell(spell);
 				}
 				else if (entry is SpellBookArtifact spellArtifact)
 				{
 					foreach (GameObject prefab in spellArtifact.Artifacts)
 					{
-						GameObject item = Spawn.ServerPrefab(prefab, player.Script.WorldPos).GameObject;
-						player.Script.DynamicItemStorage.GetBestHandOrSlotFor(item);
+						GameObject item = Spawn.ServerPrefab(prefab, player.BodyWorldPosition).GameObject;
+						player.DynamicItemStorage.GetBestHandOrSlotFor(item);
 					}
 				}
 			}

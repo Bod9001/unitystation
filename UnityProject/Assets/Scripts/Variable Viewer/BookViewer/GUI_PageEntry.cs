@@ -90,7 +90,7 @@ public class GUI_PageEntry : MonoBehaviour
 	public void InvokeMethod()
 	{
 		RequestInvokeFunction.Send(_Page.ID, ServerData.UserID,
-			PlayerList.Instance.AdminToken);
+			PlayersManager.Instance.AdminToken);
 	}
 
 

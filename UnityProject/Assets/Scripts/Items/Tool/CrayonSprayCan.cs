@@ -304,7 +304,7 @@ namespace Items.Tool
 
 			if (isCan)
 			{
-				SoundManager.PlayNetworkedAtPos(spraySound, interaction.Performer.WorldPosServer(), sourceObj: interaction.Performer);
+				SoundManager.PlayNetworkedAtPos(spraySound, interaction.Performer.BodyWorldPosition, sourceObj: interaction.Performer.GameObjectBody);
 			}
 
 			// -1 means infinite
@@ -451,20 +451,20 @@ namespace Items.Tool
 
 			if (isCan)
 			{
-				Chat.AddExamineMsgFromServer(info.FromPlayer.OrNull()?.gameObject, "Spray cans are not crayons!");
+				Chat.AddExamineMsgFromServer(info.FromPlayer, "Spray cans are not crayons!");
 				return;
 			}
 
 			if (setCrayonColour == CrayonColour.Mime)
 			{
-				Chat.AddExamineMsgFromServer(info.FromPlayer.OrNull()?.gameObject, "This crayon is too sad to be contained in this box!");
+				Chat.AddExamineMsgFromServer(info.FromPlayer, "This crayon is too sad to be contained in this box!");
 				Inventory.ServerTransfer(info.ToSlot, info.FromSlot);
 				return;
 			}
 
 			if (setCrayonColour == CrayonColour.NormalRainbow || setCrayonColour == CrayonColour.UnlimitedRainbow)
 			{
-				Chat.AddExamineMsgFromServer(info.FromPlayer.OrNull()?.gameObject, "This crayon is too powerful to be contained in this box!");
+				Chat.AddExamineMsgFromServer(info.FromPlayer, "This crayon is too powerful to be contained in this box!");
 				Inventory.ServerTransfer(info.ToSlot, info.FromSlot);
 			}
 		}

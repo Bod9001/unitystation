@@ -85,7 +85,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 				(int)info.FromSlot.NamedSlot.GetValueOrDefault(NamedSlot.none), null);
 
 			//ask target playerscript to update shown name.
-			info.FromPlayer.GetComponent<PlayerScript>().RefreshVisibleName();
+			info.FromPlayer.Equipment.RefreshVisibleName();
 		}
 
 		if (info.ToPlayer != null &&
@@ -96,13 +96,13 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 				(int)info.ToSlot.NamedSlot.GetValueOrDefault(NamedSlot.none), info.MovedObject.gameObject);
 
 			//ask target playerscript to update shown name.
-			info.ToPlayer.GetComponent<PlayerScript>().RefreshVisibleName();
+			info.ToPlayer.Equipment.RefreshVisibleName();
 		}
 	}
 
-	private bool HasClothingItem(RegisterPlayer onPlayer, ItemSlot infoToSlot)
+	private bool HasClothingItem(Mind onPlayer, ItemSlot infoToSlot)
 	{
-		var equipment = onPlayer.GetComponent<Equipment>();
+		var equipment = onPlayer.Equipment;
 		if (equipment == null) return false;
 		if (infoToSlot.SlotIdentifier.SlotIdentifierType != SlotIdentifierType.Named) return false;
 
@@ -128,14 +128,14 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 		//hand needs to be empty for pickup
 		if (interaction.HandObject != null) return false;
 		//instead of the base logic, we need to use extended range check for CanApply
-		if (!Validations.CanApply(interaction.PerformerPlayerScript, interaction.TargetObject, side, true, isPlayerClick: true)) return false;
+		if (!Validations.CanApply(interaction.Performer, interaction.TargetObject, side, true, isPlayerClick: true)) return false;
 
 		return true;
 	}
 
 	public void ClientPredictInteraction(HandApply interaction)
 	{
-		if ( interaction.Performer.GetComponent<PlayerScript>().IsGameObjectReachable( this.gameObject, false ))
+		if (  Validations.IsGameObjectReachable(interaction.Performer.registerTile,  this.gameObject, false ))
 		{
 			//Predictive disappear only if item is within normal range
 			gameObject.GetComponent<CustomNetTransform>().DisappearFromWorld();
@@ -157,8 +157,8 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 	{
 		//we validated, but object may only be in extended range
 		var cnt = GetComponent<CustomNetTransform>();
-		var ps = interaction.Performer.GetComponent<PlayerScript>();
-		var extendedRangeOnly = !ps.IsRegisterTileReachable(cnt.RegisterTile, true);
+		var registerTile = interaction.Performer.registerTile;
+		var extendedRangeOnly = !Validations.IsReachableByRegisterTiles(registerTile,cnt.RegisterTile, true);
 
 		//Start the animation on the server and clients.
 		PickupAnim(interaction.Performer.gameObject);
@@ -176,7 +176,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 			//this item is not floating and it was not within standard range but is within extended range,
 			//so we will nudge it
 			var worldPosition = cnt.RegisterTile.WorldPositionServer;
-			var trajectory = ((Vector3)ps.WorldPos - worldPosition) / Random.Range(10, 31);
+			var trajectory = ((Vector3)registerTile.WorldPosition - worldPosition) / Random.Range(10, 31);
 			cnt.Nudge(new NudgeInfo
 			{
 				OriginPos = worldPosition - trajectory,
@@ -236,7 +236,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 		var interaction = HandApply.ByLocalPlayer(gameObject);
 		if (interaction.TargetObject != gameObject) return null;
 		if (interaction.HandObject != null) return null;
-		if (!Validations.CanApply(interaction.PerformerPlayerScript, interaction.TargetObject, NetworkSide.Client, true, ReachRange.Standard, isPlayerClick: false)) return null;
+		if (!Validations.CanApply(interaction.Performer, interaction.TargetObject, NetworkSide.Client, true, ReachRange.Standard, isPlayerClick: false)) return null;
 
 		return RightClickableResult.Create()
 				.AddElement("PickUp", RightClickInteract);
@@ -251,9 +251,9 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 	/// <summary>
 	///     Making reach check less strict when object is flying, otherwise high ping players can never catch shit!
 	/// </summary>
-	private static bool CanReachFloating(PlayerScript ps, TransformState state)
+	private static bool CanReachFloating(Mind ps, TransformState state)
 	{
-		return ps.IsPositionReachable(state.WorldPosition, true) || ps.IsPositionReachable(state.WorldPosition - (Vector3)state.WorldImpulse, true, 1.75f);
+		return Validations.IsPositionReachable(ps.registerTile, state.WorldPosition, true) || Validations.IsPositionReachable(ps.registerTile,state.WorldPosition - (Vector3)state.WorldImpulse, true, 1.75f);
 	}
 
 	/// <summary>

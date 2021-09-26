@@ -169,7 +169,7 @@ namespace Objects
 		[Client]
 		private void SyncStatus(bool oldState, bool newState)
 		{
-			if(PlayerManager.LocalPlayer.OrNull()?.GetComponent<AiPlayer>() == null) return;
+			if(LocalPlayerManager.LocalPlayer.OrNull()?.GetComponent<AiPlayer>() == null) return;
 
 			ToggleAiSprite(newState);
 
@@ -197,9 +197,9 @@ namespace Objects
 			lightOn = newState;
 		}
 
-		public void SetUp(PlayerScript player)
+		public void SetUp(Mind player)
 		{
-			if(player.connectedPlayer?.Connection == null) return;
+			if(player.AssignedPlayer.OrNull()?.Connection == null) return;
 
 			player.playerNetworkActions.TargetRpcOpenInput(gameObject, "Camera Channel", securityCameraChannel);
 		}
@@ -369,11 +369,12 @@ namespace Objects
 		[Server]
 		public static void SyncNumberOfCameras()
 		{
-			foreach (var player in PlayerList.Instance.GetAllPlayers())
+			foreach (var player in PlayersManager.Instance.InGamePlayers)
 			{
-				if(player.Script.PlayerState != PlayerScript.PlayerStates.Ai) continue;
+				if(player.CurrentMind == null) continue;
+				if(player.CurrentMind.IsSilicon == false) continue;
 
-				if (player.Script.TryGetComponent<AiPlayer>(out var aiPlayer) == false) continue;
+				if (player.CurrentMind.GameObjectBody.TryGetComponent<AiPlayer>(out var aiPlayer) == false) continue;
 
 				var count = 0;
 				foreach (var cameraGroup in cameras)
@@ -456,9 +457,9 @@ namespace Objects
 
 		private void SendAlert(List<Collider2D> colliders, Vector3 cameraPos)
 		{
-			foreach (var player in PlayerList.Instance.GetAllPlayers())
+			foreach (var player in PlayersManager.Instance.InGamePlayers)
 			{
-				if(player.Script.PlayerState != PlayerScript.PlayerStates.Ai) continue;
+				if(player.CurrentMind.IsSilicon == false) continue;
 
 				Chat.AddExamineMsgFromServer(player, $"ALERT: {gameObject.name} motion sensor activated");
 			}
@@ -476,7 +477,7 @@ namespace Objects
 				//Check to see if we hit a wall or closed door
 				if(linecast.ItHit) continue;
 
-				Chat.AddExamineMsgFromServer(script.gameObject, "The camera light flashes red");
+				Chat.AddExamineMsgFromServer(script.mind, "The camera light flashes red");
 			}
 		}
 

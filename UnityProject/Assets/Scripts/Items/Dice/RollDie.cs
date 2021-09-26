@@ -131,7 +131,15 @@ namespace Items.Dice
 		{
 			if (throwInfo.ThrownBy.GetComponent<NetworkIdentity>() == null) return;
 
-			Chat.AddActionMsgToChat(throwInfo.ThrownBy, $"You throw the {dieName}...", $"{throwInfo.ThrownBy.ExpensiveName()} throws the {dieName}...");
+			var md = MindManager.StaticGet(throwInfo.ThrownBy);
+			if (md == null)
+			{
+				Chat.AddInanimateActionMsgToChat(throwInfo.ThrownBy, $"You throw the {dieName}...", $"{throwInfo.ThrownBy.ExpensiveName()} throws the {dieName}...");
+			}
+			else
+			{
+				Chat.AddActionMsgToChat(md, $"You throw the {dieName}...", $"{throwInfo.ThrownBy.ExpensiveName()} throws the {dieName}...");
+			}
 		}
 
 		private void ThrowEnd(ThrowInfo throwInfo)

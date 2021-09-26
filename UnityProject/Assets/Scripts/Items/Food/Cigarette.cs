@@ -147,7 +147,7 @@ namespace Items
 				var player = pickupable.ItemSlot.Player;
 				if (player)
 				{
-					Chat.AddExamineMsgFromServer(player.gameObject,
+					Chat.AddExamineMsgFromServer(player,
 						$"Your {gameObject.ExpensiveName()} goes out.");
 				}
 			}

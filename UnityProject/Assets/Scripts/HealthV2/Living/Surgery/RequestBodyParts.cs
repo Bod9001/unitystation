@@ -18,7 +18,7 @@ public class RequestBodyParts : ClientMessage<RequestBodyParts.NetMessage>
 		//Need to validate has tool
 		if (msg.BeingPerformedOn == NetId.Invalid) return;
 		LoadNetworkObject(msg.BeingPerformedOn);
-		if (Validations.CanApply(SentByPlayer.Script, NetworkObject, NetworkSide.Server) == false) return;
+		if (Validations.CanApply(SentByPlayer.CurrentMind, NetworkObject, NetworkSide.Server) == false) return;
 		var Dissectible = NetworkObject.GetComponent<Dissectible>();
 		if (Dissectible == null) return;
 		var RegisterPlayer = NetworkObject.GetComponent<RegisterPlayer>();

@@ -155,29 +155,29 @@ namespace AdminTools
 			return message;
 		}
 
-		public static void ProcessPlayerKill(ConnectedPlayer killedBy, ConnectedPlayer victim)
+		public static void ProcessPlayerKill(Mind killedBy, Mind victim)
 		{
 			if (victim == null || killedBy == null
 				|| Instance.loadedConfig == null
 				|| !Instance.loadedConfig.enableRdmNotification) return;
 
-			if (PlayerList.Instance.IsAntag(killedBy.GameObject)) return;
+			if (killedBy.IsAntag) return;
 
 			string roundTime = GameManager.Instance.stationTime.ToString("O");
 			UIManager.Instance.playerAlerts.ServerAddNewEntry(roundTime, PlayerAlertTypes.RDM, killedBy,
-				$"{roundTime} : {killedBy.Name} killed {victim.Name} as a non-antag");
+				$"{roundTime} : {killedBy.CharactersName} killed {victim.CharactersName} as a non-antag");
 		}
 
-		public static void ProcessPlasmaRelease(ConnectedPlayer perp)
+		public static void ProcessPlasmaRelease(Mind perp)
 		{
 			if (perp == null || Instance.loadedConfig == null
 			                 || !Instance.loadedConfig.enablePlasmaReleaseNotification) return;
 
-			if (PlayerList.Instance.IsAntag(perp.GameObject)) return;
+			if (perp.IsAntag) return;
 
 			string roundTime = GameManager.Instance.stationTime.ToString("O");
 			UIManager.Instance.playerAlerts.ServerAddNewEntry(roundTime, PlayerAlertTypes.PlasmaOpen, perp,
-				$"{roundTime} : {perp.Name} has released plasma as a non-antag");
+				$"{roundTime} : {perp.CharactersName} has released plasma as a non-antag");
 		}
 
 		private static bool IsEnabled()
@@ -250,9 +250,9 @@ namespace AdminTools
 
 			private void SendMuteMessageToPlayer(int remainingSeconds)
 			{
-				if (player.GameObject != null)
+				if (player.CurrentMind != null)
 				{
-					Chat.AddExamineMsgFromServer(player.GameObject,
+					Chat.AddExamineMsgFromServer(player.CurrentMind,
 						$"You are doing that too often. Please wait {remainingSeconds} seconds");
 				}
 			}

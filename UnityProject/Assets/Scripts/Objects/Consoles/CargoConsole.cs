@@ -56,7 +56,7 @@ namespace Objects.Cargo
 		}
 
 		[Server]
-		private void CheckID(JobType usedID, GameObject playeref)
+		private void CheckID(JobType usedID, Mind playeref)
 		{
 			if (cargoGUI == null)
 				return;

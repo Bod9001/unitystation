@@ -8,8 +8,10 @@ using HealthV2;
 
 namespace Objects.Medical
 {
-	public class DNAScanner : ClosetControl, ICheckedInteractable<MouseDrop>, IAPCPowerable
+	public class DNAScanner : NetworkBehaviour, ICheckedInteractable<MouseDrop>, IAPCPowerable
 	{
+		public ClosetControl ClosetControl;
+
 		public LivingHealthMasterBase occupant;
 		public string statusString;
 
@@ -30,8 +32,6 @@ namespace Objects.Medical
 
 		public Engineering.APC RelatedAPC;
 
-		private CancellationTokenSource cancelOccupiedAnim = new CancellationTokenSource();
-
 		public override void OnStartClient()
 		{
 			base.OnStartClient();
@@ -39,37 +39,24 @@ namespace Objects.Medical
 			RelatedAPC = GetComponent<APCPoweredDevice>().RelatedAPC;
 		}
 
-		public override void OnSpawnServer(SpawnInfo info)
+		public void OnSpawnServer(SpawnInfo info)
 		{
-			base.OnSpawnServer(info);
 			statusString = "Ready to scan.";
 			SyncPowered(powered, powered);
 			RelatedAPC = GetComponent<APCPoweredDevice>().RelatedAPC;
 		}
 
-		protected override void ServerHandleContentsOnStatusChange(bool willClose)
-		{
-			base.ServerHandleContentsOnStatusChange(willClose);
-			if (ServerHeldPlayers.Any())
-			{
-				var mob = ServerHeldPlayers.First();
-				occupant = mob.GetComponent<LivingHealthMasterBase>();
-			}
-			else
-			{
-				occupant = null;
-			}
-		}
+		//TODO 	occupant ;
 
 		public bool WillInteract(MouseDrop interaction, NetworkSide side)
 		{
-			if (side == NetworkSide.Server && IsClosed)
+			if (side == NetworkSide.Server && ClosetControl.IsClosed)
 				return false;
-			if (!Validations.CanInteract(interaction.PerformerPlayerScript, side))
+			if (!Validations.CanInteract(interaction.Performer, side))
 				return false;
-			if (!Validations.IsAdjacent(interaction.Performer, interaction.DroppedObject))
+			if (!Validations.IsAdjacent(interaction.Performer.GameObjectBody, interaction.DroppedObject))
 				return false;
-			if (!Validations.IsAdjacent(interaction.Performer, gameObject))
+			if (!Validations.IsAdjacent(interaction.Performer.GameObjectBody, gameObject))
 				return false;
 			if (interaction.Performer == interaction.DroppedObject)
 				return false;
@@ -81,41 +68,38 @@ namespace Objects.Medical
 			var objectBehaviour = drop.DroppedObject.GetComponent<ObjectBehaviour>();
 			if (objectBehaviour)
 			{
-				ServerStorePlayer(objectBehaviour);
-				ServerToggleClosed(true);
+				ClosetControl.ServerStorePlayer(objectBehaviour);
+				ClosetControl.ServerToggleClosed(true);
 			}
 		}
 
-		protected override void UpdateSpritesOnStatusChange()
+		protected void UpdateSpritesOnStatusChange()
 		{
-			if (ClosetStatus == ClosetStatus.Open)
+			if (ClosetControl.ClosetStatus == ClosetStatus.Open)
 			{
-				cancelOccupiedAnim.Cancel();
+
 				if (!powered)
 				{
-					doorSpriteHandler.ChangeSprite((int) ScannerState.OpenUnpowered);
+					ClosetControl.doorSpriteHandler.ChangeSprite((int) ScannerState.OpenUnpowered);
 				}
 				else
 				{
-					doorSpriteHandler.ChangeSprite((int) ScannerState.OpenPowered);
+					ClosetControl.doorSpriteHandler.ChangeSprite((int) ScannerState.OpenPowered);
 				}
 			}
 			else if (!powered)
 			{
-				cancelOccupiedAnim.Cancel();
-				doorSpriteHandler.ChangeSprite((int) ScannerState.ClosedUnpowered);
+				ClosetControl.doorSpriteHandler.ChangeSprite((int) ScannerState.ClosedUnpowered);
 			}
-			else if (ClosetStatus == ClosetStatus.Closed)
+			else if (ClosetControl.ClosetStatus == ClosetStatus.Closed)
 			{
-				cancelOccupiedAnim.Cancel();
-				doorSpriteHandler.ChangeSprite((int) ScannerState.ClosedPowered);
+				ClosetControl.doorSpriteHandler.ChangeSprite((int) ScannerState.ClosedPowered);
 			}
-			else if (ClosetStatus == ClosetStatus.ClosedWithOccupant)
+			else if (ClosetControl.ClosetStatus == ClosetStatus.ClosedWithOccupant)
 			{
-				cancelOccupiedAnim = new CancellationTokenSource();
 				if (gameObject != null && gameObject.activeInHierarchy)
 				{
-					doorSpriteHandler.ChangeSprite((int) ScannerState.ClosedPoweredWithOccupant);
+					ClosetControl.doorSpriteHandler.ChangeSprite((int) ScannerState.ClosedPoweredWithOccupant);
 				}
 			}
 		}
@@ -129,9 +113,9 @@ namespace Objects.Medical
 			powered = value;
 			if (powered == false)
 			{
-				if (IsLocked)
+				if (ClosetControl.IsLocked)
 				{
-					ServerToggleLocked(false);
+					ClosetControl.ServerToggleLocked(false);
 				}
 			}
 			UpdateSpritesOnStatusChange();

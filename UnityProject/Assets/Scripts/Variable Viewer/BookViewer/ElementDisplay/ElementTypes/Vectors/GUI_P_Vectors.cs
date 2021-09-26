@@ -111,14 +111,14 @@ public class GUI_P_Vectors : PageElement
 					Outstring = Outstring + "#";
 					break;
 			}
-			RequestChangeVariableNetMessage.Send(PageID, Outstring,UISendToClientToggle.toggle, ServerData.UserID, PlayerList.Instance.AdminToken);
+			RequestChangeVariableNetMessage.Send(PageID, Outstring,UISendToClientToggle.toggle, ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
 	}
 
 	public void RequestOpenBookOnPage()
 	{
 		OpenPageValueNetMessage.Send(PageID, SentenceID,
-			ServerData.UserID, PlayerList.Instance.AdminToken, IsSentence, iskey);
+			ServerData.UserID, PlayersManager.Instance.AdminToken, IsSentence, iskey);
 	}
 
 	public override void Pool()

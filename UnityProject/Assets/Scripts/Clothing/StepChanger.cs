@@ -44,7 +44,7 @@ namespace Clothing
 
 			if (IsPuttingOn(info))
 			{
-				mind = info.ToPlayer.OrNull()?.PlayerScript.OrNull()?.mind;
+				mind = info.ToPlayer;
 				if (mind is null) return;
 
 				if (hasPriority == false)
@@ -58,7 +58,7 @@ namespace Clothing
 
 			if (IsTakingOff(info))
 			{
-				mind = info.FromPlayer.OrNull()?.PlayerScript.OrNull()?.mind;
+				mind = info.FromPlayer;
 				if (mind is null) return;
 
 				HandleTakingOff();

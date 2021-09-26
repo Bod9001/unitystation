@@ -20,7 +20,7 @@ public abstract class TargetedInteraction: Interaction
 	/// <param name="performer">The gameobject of the player performing the drop interaction</param>
 	/// <param name="usedObject">Object that is being used</param>
 	/// <param name="targetObject">Object that is being targeted</param>
-	public TargetedInteraction(GameObject performer, GameObject usedObject, GameObject targetObject, Intent intent) :
+	public TargetedInteraction(Mind performer, GameObject usedObject, GameObject targetObject, Intent intent) :
 		base(performer, usedObject, intent)
 	{
 		this.targetObject = targetObject;

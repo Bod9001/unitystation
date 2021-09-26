@@ -61,7 +61,7 @@ namespace AdminTools
 
 		public void ServerGetUnreadMessages(string adminId, int currentCount, NetworkConnection requestee)
 		{
-			if (!PlayerList.Instance.IsAdmin(adminId)) return;
+			if (!PlayersManager.Instance.IsAdmin(adminId)) return;
 
 			if (currentCount >= serverAdminChatLogs.Count)
 			{
@@ -100,7 +100,7 @@ namespace AdminTools
 			};
 
 			var msg = $"{ServerData.Auth.CurrentUser.DisplayName}: {message}";
-			RequestAdminChatMessage.Send(ServerData.UserID, PlayerList.Instance.AdminToken, msg);
+			RequestAdminChatMessage.Send(ServerData.UserID, PlayersManager.Instance.AdminToken, msg);
 		}
 	}
 }

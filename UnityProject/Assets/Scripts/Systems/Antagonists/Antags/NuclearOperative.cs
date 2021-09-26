@@ -10,10 +10,9 @@ namespace Antagonists
 		[SerializeField]
 		private int initialTC = 25;
 
-		public override void AfterSpawn(ConnectedPlayer player)
+		public override void AfterSpawn(Mind player)
 		{
-			player.Job = JobType.SYNDICATE;
-			UpdateChatMessage.Send(player.GameObject, ChatChannel.Syndicate, ChatModifier.None,
+			UpdateChatMessage.Send(player.AssignedPlayer, ChatChannel.Syndicate, ChatModifier.None,
 				$"We have intercepted the code for the nuclear weapon: <b>{AntagManager.SyndiNukeCode}</b>.", Loudness.LOUD);
 
 			AntagManager.TryInstallPDAUplink(player, initialTC, true);

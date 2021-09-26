@@ -30,7 +30,7 @@ namespace Antagonists
 		/// <summary>
 		/// Make sure there's at least one item which hasn't been targeted
 		/// </summary>
-		protected override bool IsPossibleInternal(PlayerScript candidate)
+		protected override bool IsPossibleInternal(Mind candidate)
 		{
 			// Get all items from the item pool which haven't been targeted already
 			int itemCount = ItemPool.Where( itemDict =>

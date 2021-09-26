@@ -56,7 +56,7 @@ public class UI_HeartMonitor : TooltipMonoBehaviour
 	//Managed by UpdateManager
 	void UpdateMe()
 	{
-		if (PlayerManager.LocalPlayer == null || PlayerManager.LocalPlayerScript.IsGhost) return;
+		if (LocalPlayerManager.LocalPlayer == null || LocalPlayerManager.CurrentMind.IsGhosting) return;
 
 		CheckHealth();
 		timeWait += Time.deltaTime;
@@ -99,12 +99,12 @@ public class UI_HeartMonitor : TooltipMonoBehaviour
 
 	private void CheckHealth()
 	{
-		if (PlayerManager.LocalPlayerScript.playerHealth.OverallHealth == overallHealthCache)
+		if (LocalPlayerManager.CurrentMind.LivingHealthMasterBase.OverallHealth == overallHealthCache)
 		{
 			return;
 		}
-		float maxHealth = PlayerManager.LocalPlayerScript.playerHealth.MaxHealth;
-		overallHealthCache = PlayerManager.LocalPlayerScript.playerHealth.OverallHealth;
+		float maxHealth = LocalPlayerManager.CurrentMind.LivingHealthMasterBase.MaxHealth;
+		overallHealthCache = LocalPlayerManager.CurrentMind.LivingHealthMasterBase.OverallHealth;
 
 		float HealthPercentage = overallHealthCache / maxHealth;
 		for (int i = 0; i < 1; i++)

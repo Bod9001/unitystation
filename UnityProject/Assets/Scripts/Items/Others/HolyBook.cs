@@ -55,7 +55,7 @@ public class HolyBook: MonoBehaviour, IPredictedCheckedInteractable<PositionalHa
 		if (interaction.TargetBodyPart != BodyPartType.Head) return;
 
 		//Only the Chaplain can use the holy book.
-		if (PlayerList.Instance.Get(interaction.Performer).Job != JobType.CHAPLAIN)
+		if (PlayersManager.Instance.Get(interaction.Performer).CurrentMind.occupation.JobType != JobType.CHAPLAIN)
 		{
 			Chat.AddExamineMsgFromServer(interaction.Performer, "A force restrains you. Non-Clergymen can't use this!");
 			return;
@@ -105,7 +105,7 @@ public class HolyBook: MonoBehaviour, IPredictedCheckedInteractable<PositionalHa
 				Chat.AddActionMsgToChat(interaction.Performer, $"Your book slams into {victimName}'s head, and not much else.",
 					$"{performerName}'s book slams into {victimName}'s head, and not much else.");
 
-				SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.GenericHit, interaction.WorldPositionTarget, sourceObj: interaction.Performer);
+				SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.GenericHit, interaction.WorldPositionTarget, sourceObj: interaction.Performer.GameObjectBody);
 			}
 		}
 		else  //Heal a bodypart if possible.
@@ -135,7 +135,7 @@ public class HolyBook: MonoBehaviour, IPredictedCheckedInteractable<PositionalHa
 				$"A flash of light from your book thwacking {victimName} heals some of {victimName}'s  wounds.",
 				$"A flash of light from {performerName}'s book thwacking {victimName} heals some of {victimName}'s wounds.");
 
-				SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.PunchMiss, interaction.WorldPositionTarget, sourceObj: interaction.Performer);
+				SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.PunchMiss, interaction.WorldPositionTarget, sourceObj: interaction.Performer.GameObjectBody);
 			}
 
 
@@ -145,7 +145,7 @@ public class HolyBook: MonoBehaviour, IPredictedCheckedInteractable<PositionalHa
 		interaction.Performer.GetComponent<WeaponNetworkActions>().RpcMeleeAttackLerp(interaction.TargetVector, gameObject);
 
 		//Start server cooldown.
-		Cooldowns.TryStartServer(interaction.Performer.GetComponent<PlayerScript>(), CommonCooldowns.Instance.Melee);
+		Cooldowns.TryStartServer(interaction.Performer, CommonCooldowns.Instance.Melee);
 
 	}
 

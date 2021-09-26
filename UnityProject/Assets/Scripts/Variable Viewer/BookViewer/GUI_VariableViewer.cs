@@ -82,7 +82,7 @@ public class GUI_VariableViewer : MonoBehaviour
 		if (CurrentlyOpenBook == null)
 			return;
 
-		OpenBookIDNetMessage.Send(CurrentlyOpenBook.ID, ServerData.UserID, PlayerList.Instance.AdminToken);
+		OpenBookIDNetMessage.Send(CurrentlyOpenBook.ID, ServerData.UserID, PlayersManager.Instance.AdminToken);
 	}
 
 	public void NextBook()
@@ -91,7 +91,7 @@ public class GUI_VariableViewer : MonoBehaviour
 		if ((tint + 1) <= History.Count)
 		{
 			HistoryLocation = HistoryLocation + 1;
-			OpenBookIDNetMessage.Send(History[HistoryLocation], ServerData.UserID, PlayerList.Instance.AdminToken);
+			OpenBookIDNetMessage.Send(History[HistoryLocation], ServerData.UserID, PlayersManager.Instance.AdminToken);
 			NotModifyingHistory = true;
 			if (HistoryLocation + 1 >= History.Count)
 			{
@@ -107,7 +107,7 @@ public class GUI_VariableViewer : MonoBehaviour
 		{
 			HistoryLocation = HistoryLocation - 1;
 			NotModifyingHistory = true;
-			OpenBookIDNetMessage.Send(History[HistoryLocation], ServerData.UserID, PlayerList.Instance.AdminToken);
+			OpenBookIDNetMessage.Send(History[HistoryLocation], ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
 	}
 

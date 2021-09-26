@@ -17,7 +17,7 @@ namespace Items.Food
 		/// Checks if the player eating this item has a job that's in healableJobs.
 		/// If the player does not have one, nothing special will be triggered.
 		/// </summary>
-		public override void Eat(PlayerScript eater, PlayerScript feeder)
+		public override void Eat(Mind eater, Mind feeder)
 		{
 			if (CheckForJob(eater))
 			{
@@ -29,7 +29,7 @@ namespace Items.Food
 		/// <summary>
 		/// Heals all body parts that have brute damage.
 		/// </summary>
-		private void Heal(PlayerScript player)
+		private void Heal(Mind player)
 		{
 			var livingHealth = player.GetComponent<LivingHealthMasterBase>();
 			foreach (BodyPart BodyPart in livingHealth.BodyPartList)
@@ -44,9 +44,9 @@ namespace Items.Food
 		/// <summary>
 		/// Checks if the player has a healable job.
 		/// </summary>
-		private bool CheckForJob(PlayerScript JobHolder)
+		private bool CheckForJob(Mind JobHolder)
 		{
-			return healableJobs.Contains(JobHolder.mind.occupation.JobType);
+			return healableJobs.Contains(JobHolder.occupation.JobType);
 		}
 	}
 }

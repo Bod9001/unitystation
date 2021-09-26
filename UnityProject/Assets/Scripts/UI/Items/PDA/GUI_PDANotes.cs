@@ -39,7 +39,7 @@ namespace UI.Items.PDA
 		/// </summary>
 		public void OnTextEditEnd()
 		{
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdRequestNoteEdit(PDAObject, textField.text);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdRequestNoteEdit(PDAObject, textField.text);
 			UIManager.IsInputFocus = false;
 			UIManager.PreventChatInput = false;
 		}

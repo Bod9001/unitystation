@@ -75,7 +75,7 @@ namespace Player
 		private void SyncAntagState(bool oldState, bool newState)
 		{
 			isAntag = newState;
-			GetComponent<PlayerScript>().ActivateAntagAction(newState);
+			MindManager.Instance.Get(this.gameObject).ActivateAntagAction(newState);
 		}
 
 		#endregion

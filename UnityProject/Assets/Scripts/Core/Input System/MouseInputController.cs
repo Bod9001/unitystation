@@ -272,8 +272,8 @@ public class MouseInputController : MonoBehaviour
 	// return the Gun component if there is a loaded gun in active hand, otherwise null.
 	private Gun GetLoadedGunInActiveHand()
 	{
-		if (PlayerManager.LocalPlayerScript?.DynamicItemStorage?.GetActiveHandSlot() == null) return null;
-		var item = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot().Item;
+		if (LocalPlayerManager.CurrentMind.OrNull()?.DynamicItemStorage.OrNull()?.GetActiveHandSlot() == null) return null;
+		var item = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().Item;
 		if (item != null)
 		{
 			var gun = item.GetComponent<Gun>();
@@ -325,17 +325,17 @@ public class MouseInputController : MonoBehaviour
 
 	private void TrySlide()
 	{
-		if (PlayerManager.PlayerScript.IsGhost ||
-		    PlayerManager.PlayerScript.playerHealth.ConsciousState != ConsciousState.CONSCIOUS)
+		if (LocalPlayerManager.CurrentMind.IsGhosting ||
+		    LocalPlayerManager.CurrentMind.LivingHealthMasterBase.ConsciousState != ConsciousState.CONSCIOUS)
 			return;
-		PlayerManager.PlayerScript.playerNetworkActions.CmdSlideItem(Vector3Int.RoundToInt(MouseWorldPosition));
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdSlideItem(Vector3Int.RoundToInt(MouseWorldPosition));
 	}
 
 	private bool CheckClick()
 	{
 		ChangeDirection();
 		// currently there is nothing for ghosts to interact with, they only can change facing
-		if (PlayerManager.LocalPlayerScript.IsGhost)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			return false;
 		}
@@ -371,7 +371,7 @@ public class MouseInputController : MonoBehaviour
 			}
 
 			// If we're dragging something, try to move it.
-			if (PlayerManager.LocalPlayerScript.pushPull.IsPullingSomethingClient)
+			if (LocalPlayerManager.CurrentMind.PushPull.IsPullingSomethingClient)
 			{
 				TrySlide();
 				return false;
@@ -449,13 +449,13 @@ public class MouseInputController : MonoBehaviour
 	{
 		ChangeDirection();
 		//currently there is nothing for ghosts to interact with, they only can change facing
-		if (PlayerManager.LocalPlayerScript.IsGhost)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			return false;
 		}
 
 		//can't do anything if we have no item in hand
-		var handObj = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot()?.Item;
+		var handObj = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot()?.Item;
 		if (handObj == null)
 		{
 			triggeredAimApply = null;
@@ -511,7 +511,7 @@ public class MouseInputController : MonoBehaviour
 	private MouseDraggable GetDraggable()
 	{
 		//currently there is nothing for ghosts to interact with, they only can change facing
-		if (PlayerManager.LocalPlayerScript.IsGhost)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			return null;
 		}
@@ -520,7 +520,7 @@ public class MouseInputController : MonoBehaviour
 			MouseUtils.GetOrderedObjectsUnderMouse(null, go =>
 					go.GetComponent<MouseDraggable>() != null &&
 					go.GetComponent<MouseDraggable>().enabled &&
-					go.GetComponent<MouseDraggable>().CanBeginDrag(PlayerManager.LocalPlayerScript))
+					go.GetComponent<MouseDraggable>().CanBeginDrag(LocalPlayerManager.CurrentMind))
 				.FirstOrDefault();
 		if (draggable != null)
 		{
@@ -536,10 +536,10 @@ public class MouseInputController : MonoBehaviour
 		var clickedObject = MouseUtils.GetOrderedObjectsUnderMouse(null, null).FirstOrDefault();
 		if (!clickedObject)
 			return;
-		if (PlayerManager.PlayerScript.IsGhost ||
-		    PlayerManager.PlayerScript.playerHealth.ConsciousState != ConsciousState.CONSCIOUS)
+		if (LocalPlayerManager.CurrentMind.IsGhosting ||
+		    LocalPlayerManager.CurrentMind.LivingHealthMasterBase.ConsciousState != ConsciousState.CONSCIOUS)
 			return;
-		if (Cooldowns.TryStartClient(PlayerManager.PlayerScript, CommonCooldowns.Instance.Interaction) == false)
+		if (Cooldowns.TryStartClient(LocalPlayerManager.CurrentMind, CommonCooldowns.Instance.Interaction) == false)
 			return;
 
 		if (clickedObject.TryGetComponent<NetworkedMatrix>(out var networkedMatrix))
@@ -547,7 +547,7 @@ public class MouseInputController : MonoBehaviour
 			clickedObject = networkedMatrix.MatrixSync.gameObject;
 		}
 
-		PlayerManager.PlayerScript.playerNetworkActions.CmdPoint(clickedObject, MouseWorldPosition);
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdPoint(clickedObject, MouseWorldPosition);
 	}
 
 	/// <summary>
@@ -582,7 +582,7 @@ public class MouseInputController : MonoBehaviour
 			Vector3Int position = MouseWorldPosition.CutToInt();
 			if (!lightingSystem.enabled || lightingSystem.IsScreenPointVisible(CommonInput.mousePosition))
 			{
-				if (PlayerManager.LocalPlayerScript.IsPositionReachable(position, false))
+				if ( Validations.IsPositionReachable(LocalPlayerManager.CurrentMind.registerTile,position, false))
 				{
 					List<GameObject> objects = UITileList.GetItemsAtPosition(position);
 					//remove hidden wallmounts
@@ -606,7 +606,7 @@ public class MouseInputController : MonoBehaviour
 						$"Forcefully updated atmos at worldPos {position}/ localPos {localPos} of {matrix.Name}");
 				});
 
-				Chat.AddLocalMsgToChat("Ping " + DateTime.Now.ToFileTimeUtc(), PlayerManager.LocalPlayer);
+				Chat.AddLocalMsgToChat("Ping " + DateTime.Now.ToFileTimeUtc(), LocalPlayerManager.CurrentMind.GameObjectBody);
 			}
 
 			return true;
@@ -619,7 +619,7 @@ public class MouseInputController : MonoBehaviour
 	{
 		if (UIManager.IsThrow)
 		{
-			var currentSlot = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot();
+			var currentSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
 			if (currentSlot.Item == null)
 			{
 				return false;
@@ -630,9 +630,9 @@ public class MouseInputController : MonoBehaviour
 
 			//using transform position instead of registered position
 			//so target is still correct when lerping on a matrix (since registered world position is rounded)
-			Vector3 targetVector = targetPosition - PlayerManager.LocalPlayer.transform.position;
+			Vector3 targetVector = targetPosition - LocalPlayerManager.LocalPlayer.transform.position;
 
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdThrow(
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdThrow(
 				targetVector, (int) UIManager.DamageZone);
 
 			//Disabling throw button

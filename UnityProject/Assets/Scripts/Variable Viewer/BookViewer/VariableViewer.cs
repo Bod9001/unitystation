@@ -17,7 +17,7 @@ using Object = System.Object;
 
 public static class VariableViewer
 {
-	public static void ProcessTile(Vector3 Location, GameObject WhoBy)
+	public static void ProcessTile(Vector3 Location, ConnectedPlayer WhoBy)
 	{
 		Vector3Int worldPosInt = Location.To2Int().To3Int();
 		Matrix matrix = MatrixManager.AtPoint(worldPosInt, true).Matrix;
@@ -45,12 +45,12 @@ public static class VariableViewer
 		ProcessListOnTileTransform(transforms, WhoBy);
 	}
 
-	public static void ProcessListOnTileTransform(List<Transform> transform, GameObject WhoBy)
+	public static void ProcessListOnTileTransform(List<Transform> transform, ConnectedPlayer WhoBy)
 	{
 
 	}
 
-	public static void ProcessTransform(Transform transform, GameObject WhoBy)
+	public static void ProcessTransform(Transform transform, ConnectedPlayer WhoBy)
 	{
 		Librarian.library.TraverseHierarchy();
 		Librarian.Library.LibraryBookShelf BookShelf;
@@ -71,14 +71,14 @@ public static class VariableViewer
 
 	}
 
-	public static void RequestHierarchy(GameObject WhoBy)
+	public static void RequestHierarchy(ConnectedPlayer WhoBy)
 	{
 		Librarian.library.TraverseHierarchy();
 		LibraryNetMessage.Send(Librarian.library, WhoBy);
 	}
 
 
-	public static void ProcessOpenBook(ulong BookID, GameObject ByWho) //yes yes if you Have high Ping then rip, -Creator
+	public static void ProcessOpenBook(ulong BookID, ConnectedPlayer ByWho) //yes yes if you Have high Ping then rip, -Creator
 	{
 		Librarian.Book Book;
 		if (Librarian.IDToBook.ContainsKey(BookID))
@@ -97,7 +97,7 @@ public static class VariableViewer
 		}
 	}
 
-	public static void SendBookToClient(Librarian.Book Book, GameObject ToWho)
+	public static void SendBookToClient(Librarian.Book Book, ConnectedPlayer ToWho)
 	{
 		if (!Book.UnGenerated)
 		{
@@ -114,13 +114,13 @@ public static class VariableViewer
 		BookNetMessage.Send(Book,ToWho);
 	}
 
-	public static void SendBookShelfToClient(Librarian.Library.LibraryBookShelf BookShelf, GameObject ToWho)
+	public static void SendBookShelfToClient(Librarian.Library.LibraryBookShelf BookShelf, ConnectedPlayer ToWho)
 	{
 		SubBookshelfNetMessage.Send(BookShelf, ToWho);
 	}
 
 	//Receive from Client side
-	public static void RequestOpenPageValue(ulong PageID, uint SentenceID, bool IsSentence, bool iskey, GameObject ToWho)
+	public static void RequestOpenPageValue(ulong PageID, uint SentenceID, bool IsSentence, bool iskey, ConnectedPlayer ToWho)
 	{
 		if (Librarian.IDToPage.ContainsKey(PageID))
 		{
@@ -168,7 +168,7 @@ public static class VariableViewer
 		}
 	}
 
-	public static void RequestSendBookshelf(ulong BookshelfID, bool IsNewbookBookshelf, GameObject WhoBy)
+	public static void RequestSendBookshelf(ulong BookshelfID, bool IsNewbookBookshelf, ConnectedPlayer WhoBy)
 	{
 		if (Librarian.IDToBookShelf.ContainsKey(BookshelfID))
 		{
@@ -199,7 +199,7 @@ public static class VariableViewer
 		}
 	}
 
-	public static void RequestSendBook(ulong BookID, GameObject ByWho)
+	public static void RequestSendBook(ulong BookID, ConnectedPlayer ByWho)
 	{
 		//if ( client authorised )
 		if (Librarian.IDToBook.ContainsKey(BookID))
@@ -213,7 +213,7 @@ public static class VariableViewer
 	}
 
 
-	public static void RequestChangeVariable(ulong PageID, string ChangeTo, bool SendToClient, GameObject WhoBy, string AdminId)
+	public static void RequestChangeVariable(ulong PageID, string ChangeTo, bool SendToClient, ConnectedPlayer WhoBy, string AdminId)
 	{
 		if (Librarian.IDToPage.ContainsKey(PageID))
 		{
@@ -236,7 +236,7 @@ public static class VariableViewer
 		}
 	}
 
-	public static void RequestInvokeFunction(ulong PageID, GameObject WhoBy, string AdminId)
+	public static void RequestInvokeFunction(ulong PageID, ConnectedPlayer WhoBy, string AdminId)
 	{
 		if (Librarian.IDToPage.ContainsKey(PageID))
 		{

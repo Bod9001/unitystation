@@ -57,7 +57,7 @@ namespace Messages.Server
 			}
 
 			//Not even spawned don't show bullets
-			if (PlayerManager.LocalPlayer == null) return;
+			if (LocalPlayerManager.LocalPlayer == null) return;
 
 			LoadMultipleObjects(new uint[] { msg.Shooter, msg.Weapon});
 
@@ -74,7 +74,7 @@ namespace Messages.Server
 			}
 
 			//only needs to run on the clients other than the shooter
-			if (!wep.isServer && PlayerManager.LocalPlayer != NetworkObjects[0])
+			if (!wep.isServer && LocalPlayerManager.LocalPlayer != NetworkObjects[0])
 			{
 				wep.DisplayShot(NetworkObjects[0], msg.Direction, msg.DamageZone, msg.IsSuicideShot, msg.ProjectileName, msg.Quantity);
 			}
@@ -157,7 +157,7 @@ namespace Messages.Server
 			}
 
 			//Not even spawned don't show bullets
-			if (PlayerManager.LocalPlayer == null) return;
+			if (LocalPlayerManager.LocalPlayer == null) return;
 
 			LoadNetworkObject(msg.Shooter);
 			GameObject shooter = NetworkObject;

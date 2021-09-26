@@ -27,7 +27,7 @@ namespace Items.Medical
 			else
 			{
 				Chat.AddExamineMsgFromServer(interaction.Performer,
-				$"{LHB.playerScript.visibleName}'s {interaction.TargetBodyPart} doesn't seem to be bleeding.");
+				$"{MindManager.StaticGet(interaction.TargetObject).ExpensiveName()}'s {interaction.TargetBodyPart} doesn't seem to be bleeding.");
 			}
 		}
 
@@ -40,17 +40,17 @@ namespace Items.Medical
 					if(bodyPart.IsBleedingExternally)
 					{
 						bodyPart.StopExternalBleeding();
-						if(interaction.Performer.Player().GameObject == interaction.TargetObject.Player().GameObject)
+						if(interaction.Performer == MindManager.StaticGet(interaction.TargetObject))
 						{
-							Chat.AddActionMsgToChat(interaction.Performer.gameObject,
-							$"You stopped your {interaction.TargetObject.Player().Script.visibleName}'s bleeding.",
-							$"{interaction.PerformerPlayerScript.visibleName} stopped their own bleeding from their {interaction.TargetObject.ExpensiveName()}.");
+							Chat.AddActionMsgToChat(interaction.Performer,
+							$"You stopped your {MindManager.StaticGet(interaction.TargetObject).ExpensiveName()}'s bleeding.",
+							$"{interaction.Performer.ExpensiveName()} stopped their own bleeding from their {MindManager.StaticGet(interaction.TargetObject).ExpensiveName()}.");
 						}
 						else
 						{
-							Chat.AddActionMsgToChat(interaction.Performer.gameObject,
-							$"You stopped {interaction.TargetObject.Player().Script.visibleName}'s bleeding.",
-							$"{interaction.PerformerPlayerScript.visibleName} stopped {interaction.TargetObject.Player().Script.visibleName}'s bleeding.");
+							Chat.AddActionMsgToChat(interaction.Performer,
+							$"You stopped {MindManager.StaticGet(interaction.TargetObject).ExpensiveName()}'s bleeding.",
+							$"{interaction.Performer.ExpensiveName()} stopped {MindManager.StaticGet(interaction.TargetObject).ExpensiveName()}'s bleeding.");
 						}
 					}
 				}

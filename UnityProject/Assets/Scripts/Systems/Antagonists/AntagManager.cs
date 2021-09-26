@@ -32,7 +32,7 @@ namespace Antagonists
 		/// <summary>
 		/// Keeps track of which players have already been targeted for objectives
 		/// </summary>
-		[NonSerialized] public List<PlayerScript> TargetedPlayers = new List<PlayerScript>();
+		[NonSerialized] public List<Mind> TargetedPlayers = new List<Mind>();
 
 		/// <summary>
 		/// Keeps track of which items have already been targeted for objectives
@@ -92,22 +92,22 @@ namespace Antagonists
 		public void ServerSpawnAntag(Antagonist chosenAntag, PlayerSpawnRequest spawnRequest)
 		{
 			//spawn the antag using their custom spawn logic
-			ConnectedPlayer spawnedPlayer = chosenAntag.ServerSpawn(spawnRequest).Player();
+			var spawnedPlayer = chosenAntag.ServerSpawn(spawnRequest).Player();
 
-			ServerFinishAntag(chosenAntag, spawnedPlayer);
+			ServerFinishAntag(chosenAntag, spawnedPlayer.AssignedPlayer);
 		}
 
-		public IEnumerator ServerRespawnAsAntag(ConnectedPlayer connectedPlayer, Antagonist antagonist)
+		public IEnumerator ServerRespawnAsAntag(Mind connectedPlayer, Antagonist antagonist)
 		{
 			var antagOccupation = antagonist.AntagOccupation;
 
 			if (antagOccupation != null)
 			{
-				connectedPlayer.Script.mind.occupation = antagonist.AntagOccupation;
+				connectedPlayer.occupation = antagonist.AntagOccupation;
 			}
 
 			//Can be null if respawning spectator ghost as they dont have an occupation and their antag occupation is null too
-			if (connectedPlayer.Script.mind.occupation == null)
+			if (connectedPlayer.occupation == null)
 			{
 				yield break;
 			}
@@ -124,17 +124,17 @@ namespace Antagonists
 				yield return WaitFor.EndOfFrame;
 			}
 
-			PlayerSpawn.ServerRespawnPlayer(connectedPlayer.Script.mind);
-			ServerFinishAntag(antagonist, connectedPlayer);
+			PlayerSpawn.ServerRespawnPlayer(connectedPlayer);
+			ServerFinishAntag(antagonist, connectedPlayer.AssignedPlayer);
 		}
 
 		private SpawnedAntag SetAntagDetails(Antagonist chosenAntag, ConnectedPlayer connectedPlayer)
 		{
 			// Generate objectives for this antag
-			List<Objective> objectives = antagData.GenerateObjectives(connectedPlayer.Script, chosenAntag);
+			List<Objective> objectives = antagData.GenerateObjectives(connectedPlayer.CurrentMind, chosenAntag);
 			// Set the antag
-			var spawnedAntag = SpawnedAntag.Create(chosenAntag, connectedPlayer.Script.mind, objectives);
-			connectedPlayer.Script.mind.SetAntag(spawnedAntag);
+			var spawnedAntag = SpawnedAntag.Create(chosenAntag, connectedPlayer.CurrentMind, objectives);
+			connectedPlayer.CurrentMind.SetAntag(spawnedAntag);
 			return spawnedAntag;
 		}
 
@@ -143,10 +143,10 @@ namespace Antagonists
 			var spawnedAntag = SetAntagDetails(chosenAntag, connectedPlayer);
 			activeAntags.Add(spawnedAntag);
 			ShowAntagBanner(connectedPlayer, chosenAntag);
-			chosenAntag.AfterSpawn(connectedPlayer);
+			chosenAntag.AfterSpawn(connectedPlayer.CurrentMind);
 
 			Logger.Log(
-				$"Created new antag. Made {connectedPlayer.Name} a {chosenAntag.AntagName} with objectives:\n{spawnedAntag.GetObjectivesForLog()}",
+				$"Created new antag. Made {connectedPlayer.Username} a {chosenAntag.AntagName} with objectives:\n{spawnedAntag.GetObjectivesForLog()}",
 				Category.Antags);
 		}
 
@@ -155,9 +155,9 @@ namespace Antagonists
 		/// </summary>
 		/// <param name="player">The player that should receive an uplink in the first PDA found on them.</param>
 		/// <param name="tcCount">The amount of telecrystals the uplink should be given.</param>
-		public static void TryInstallPDAUplink(ConnectedPlayer player, int tcCount, bool isNukeOps)
+		public static void TryInstallPDAUplink(Mind player, int tcCount, bool isNukeOps)
 		{
-			foreach (ItemSlot slot in player.Script.DynamicItemStorage.GetItemSlotTree())
+			foreach (ItemSlot slot in player.DynamicItemStorage.GetItemSlotTree())
 			{
 				if (slot.IsEmpty) continue;
 				if (slot.Item.TryGetComponent<Items.PDA.PDALogic>(out var pda))
@@ -175,7 +175,7 @@ namespace Antagonists
 		private static void ShowAntagBanner(ConnectedPlayer player, Antagonist antag)
 		{
 			SpawnBannerMessage.Send(
-				player.GameObject,
+				player.CurrentMind,
 				antag.AntagName,
 				antag.SpawnSound.AssetAddress,
 				antag.TextColor,
@@ -223,13 +223,13 @@ namespace Antagonists
 				statusSB.AppendLine("<size=48>There were no antagonists!</size>");
 			}
 
-			if (PlayerList.Instance.ConnectionCount == 1)
+			if (PlayersManager.Instance.ConnectionCount == 1)
 			{
 				message += $"\n There is 1 player online.\n";
 			}
 			else
 			{
-				message += $"\n There are {PlayerList.Instance.ConnectionCount} players online.\n";
+				message += $"\n There are {PlayersManager.Instance.ConnectionCount} players online.\n";
 			}
 
 			DiscordWebhookMessage.Instance.AddWebHookMessageToQueue(DiscordWebhookURLs.DiscordWebhookAnnouncementURL, message, "");

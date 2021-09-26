@@ -62,7 +62,7 @@ namespace Antagonists
 		/// <param name="player">The player receiving these objectives</param>
 		/// <param name="antag">The antag type</param>
 		/// <param name="amount">How many objectives to generate, not including escape objectives</param>
-		public List<Objective> GenerateObjectives(PlayerScript player, Antagonist antag)
+		public List<Objective> GenerateObjectives(Mind player, Antagonist antag)
 		{
 			int amount = antag.NumberOfObjectives;
 			// Get all antag core and shared objectives which are possible for this player
@@ -84,7 +84,7 @@ namespace Antagonists
 			{
 				// Select objective and perform setup e.g. assign owner and targets
 				newObjective = PickRandomObjective(ref objPool);
-				newObjective.DoSetup(player.mind);
+				newObjective.DoSetup(player);
 				generatedObjs.Add(newObjective);
 
 				// Trim any objectives which aren't possible
@@ -107,7 +107,7 @@ namespace Antagonists
 				//TODO since checkUnique is false we dont need to remove the chosen object from EscapeObjectives
 				//TODO but we would if we ever want to allow for unique escape objectives
 				newObjective = PickRandomObjective(ref allowedEscapes, false);
-				newObjective.DoSetup(player.mind);
+				newObjective.DoSetup(player);
 				generatedObjs.Add(newObjective);
 			}
 
@@ -118,7 +118,7 @@ namespace Antagonists
 				//TODO since checkUnique is false we dont need to remove the chosen object from EscapeObjectives
 				//TODO but we would if we ever want to allow for unique gimmick objectives
 				newObjective = PickRandomObjective(ref allowedGimmicks, false);
-				newObjective.DoSetup(player.mind);
+				newObjective.DoSetup(player);
 				generatedObjs.Add(newObjective);
 			}
 

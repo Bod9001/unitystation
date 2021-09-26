@@ -99,10 +99,10 @@ public class ControlInternals : TooltipMonoBehaviour
 		if (CurrentState != 4 && CurrentState != 5)
 			return;
 
-		if (PlayerManager.LocalPlayer == null)
+		if (LocalPlayerManager.LocalPlayer == null)
 			return;
 
-		if (PlayerManager.LocalPlayerScript.playerHealth.IsCrit)
+		if (LocalPlayerManager.CurrentMind.LivingHealthMasterBase.IsCrit)
 			return;
 
 		SoundManager.Play(CommonSounds.Instance.Click01);
@@ -128,15 +128,15 @@ public class ControlInternals : TooltipMonoBehaviour
 	public void SetupListeners()
 	{
 		UpdateState();
-		PlayerManager.LocalPlayerScript.DynamicItemStorage.OnContentsChangeClient.AddListener(InventoryChange);
+		LocalPlayerManager.CurrentMind.DynamicItemStorage.OnContentsChangeClient.AddListener(InventoryChange);
 	}
 
 	public void InventoryChange()
 	{
-		if (PlayerManager.LocalPlayerScript.IsGhost) return;
+		if (LocalPlayerManager.CurrentMind.IsGhosting) return;
 		if (Mask == null)
 		{
-			foreach (var maskItemSlot in PlayerManager.LocalPlayerScript.DynamicItemStorage.GetNamedItemSlots(NamedSlot.mask ))
+			foreach (var maskItemSlot in LocalPlayerManager.CurrentMind.DynamicItemStorage.GetNamedItemSlots(NamedSlot.mask ))
 			{
 				if (maskItemSlot.ItemObject != null && maskItemSlot.ItemAttributes != null)
 				{
@@ -155,7 +155,7 @@ public class ControlInternals : TooltipMonoBehaviour
 			bool Doublebreak = false;
 			foreach (NamedSlot namedSlot in DynamicItemStorage.GasUseSlots)
 			{
-				foreach (ItemSlot itemSlot in PlayerManager.LocalPlayerScript.DynamicItemStorage.GetNamedItemSlots(namedSlot))
+				foreach (ItemSlot itemSlot in LocalPlayerManager.CurrentMind.DynamicItemStorage.GetNamedItemSlots(namedSlot))
 				{
 					if (itemSlot.ItemObject != null && itemSlot.ItemObject.TryGetComponent(out GasContainer gasContainer))
 					{
@@ -172,7 +172,7 @@ public class ControlInternals : TooltipMonoBehaviour
 
 		if (Mask != null)
 		{
-			if (PlayerManager.LocalPlayerScript.DynamicItemStorage.InventoryHasObject(Mask) == false)
+			if (LocalPlayerManager.CurrentMind.DynamicItemStorage.InventoryHasObject(Mask) == false)
 			{
 				isWearingMask = false;
 				Mask = null;
@@ -181,7 +181,7 @@ public class ControlInternals : TooltipMonoBehaviour
 
 		if (Tank != null)
 		{
-			if (PlayerManager.LocalPlayerScript.DynamicItemStorage.InventoryHasObject(Tank) == false)
+			if (LocalPlayerManager.CurrentMind.DynamicItemStorage.InventoryHasObject(Tank) == false)
 			{
 				gasContainer = null;
 				Tank = null;

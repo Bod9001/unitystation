@@ -71,11 +71,11 @@ namespace Systems
 		/// Will not generate certain records for certain jobs, like security records for AI.
 		/// </summary>
 		/// <returns>A new crew manifest entry.</returns>
-		public CrewManifestEntry AddMember(PlayerScript script, JobType jobType)
+		public CrewManifestEntry AddMember(Mind Mind, JobType jobType)
 		{
 			CrewManifestEntry entry = new CrewManifestEntry()
 			{
-				Name = script.playerName,
+				Name = Mind.OriginalCharacter.Name,
 				JobType = jobType,
 			};
 			CrewManifest.Add(entry);
@@ -85,7 +85,7 @@ namespace Systems
 
 			if (jobType == JobType.AI || jobType == JobType.CYBORG) return entry;
 
-			entry.SecurityRecord = GenerateSecurityRecord(script, jobType);
+			entry.SecurityRecord = GenerateSecurityRecord(Mind, jobType);
 			SecurityRecords.Add(entry.SecurityRecord);
 
 			return entry;
@@ -95,21 +95,21 @@ namespace Systems
 		/// Generates a security record and returns it.
 		/// Called in RespawnPlayer, so every new respawn creates a record.
 		/// </summary>
-		public SecurityRecord GenerateSecurityRecord(PlayerScript script, JobType jobType)
+		public SecurityRecord GenerateSecurityRecord(Mind script, JobType jobType)
 		{
 			SecurityRecord record = new SecurityRecord();
 
-			record.EntryName = script.playerName;
-			record.Age = script.characterSettings.Age.ToString();
-			record.Rank = script.mind.occupation.JobType.JobString();
+			record.EntryName = script.OriginalCharacter.Name;
+			record.Age = script.OriginalCharacter.Age.ToString();
+			record.Rank = script.occupation.JobType.JobString();
 			record.Occupation = OccupationList.Instance.Get(jobType);
-			record.Sex = script.characterSettings.BodyType.ToString();
-			record.Species = script.characterSettings.Species.ToString();
+			record.Sex = script.OriginalCharacter.BodyType.ToString();
+			record.Species = script.OriginalCharacter.Species.ToString();
 			//I don't know what to put in ID and Fingerprints
 			record.ID = $"{UnityEngine.Random.Range(111, 999).ToString()}-{UnityEngine.Random.Range(111, 999).ToString()}";
 			record.Fingerprints = UnityEngine.Random.Range(111111, 999999).ToString();
 			//Photo stuff
-			record.characterSettings = script.characterSettings;
+			record.characterSettings = script.OriginalCharacter;
 
 			return record;
 		}

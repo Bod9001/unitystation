@@ -114,7 +114,7 @@ public class ChatBubbleManager : MonoBehaviour, IInitialise
 	/// Display a chat bubble and make it follow a transform target
 	/// </summary>
 	/// <param name="msg">Text to show in the Action</param>
-	public void ShowAction(string msg, GameObject recipient)
+	public void ShowAction(string msg, GameObject comingFrom)
 	{
 		var index = actionPool.FindIndex(x => x.Text.text == msg);
 
@@ -123,7 +123,7 @@ public class ChatBubbleManager : MonoBehaviour, IInitialise
 			actionPool[index].AddMultiplier();
 			return;
 		}
-		GetChatBubbleActionText().SetUp(msg, recipient);
+		GetChatBubbleActionText().SetUp(msg, comingFrom);
 	}
 
 

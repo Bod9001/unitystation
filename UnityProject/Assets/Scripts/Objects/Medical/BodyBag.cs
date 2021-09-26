@@ -27,7 +27,7 @@ namespace Objects.Medical
 				|| interaction.Performer != interaction.TargetObject
 				|| interaction.DroppedObject != gameObject
 				|| pna.GetActiveHandItem() != null
-				|| !ps.IsRegisterTileReachable(cnt.RegisterTile, side == NetworkSide.Server))
+				|| !Validations.IsReachableByRegisterTiles(ps.registerTile, cnt.RegisterTile, side == NetworkSide.Server))
 			{
 				return false;
 			}
@@ -67,7 +67,7 @@ namespace Objects.Medical
 		{
 			var result = RightClickableResult.Create();
 
-			if (WillInteract(MouseDrop.ByLocalPlayer(gameObject, PlayerManager.LocalPlayer), NetworkSide.Client))
+			if (WillInteract(MouseDrop.ByLocalPlayer(gameObject, LocalPlayerManager.CurrentMind.GameObjectBody), NetworkSide.Client))
 			{
 				result.AddElement("Fold Up", RightClickInteract);
 			}
@@ -77,7 +77,7 @@ namespace Objects.Medical
 
 		private void RightClickInteract()
 		{
-			InteractionUtils.RequestInteract(MouseDrop.ByLocalPlayer(gameObject, PlayerManager.LocalPlayer), this);
+			InteractionUtils.RequestInteract(MouseDrop.ByLocalPlayer(gameObject, LocalPlayerManager.CurrentMind.GameObjectBody), this);
 		}
 	}
 }

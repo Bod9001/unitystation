@@ -335,7 +335,7 @@ namespace Systems.MobAIs
 							registerTile.LocalPositionServer + (Vector3Int)dir, true);
 						if (dC != null)
 						{
-							dC.MobTryOpen(gameObject);
+							//dC.MobTryOpen(gameObject);
 							yield return WaitFor.Seconds(1f);
 						}
 						else

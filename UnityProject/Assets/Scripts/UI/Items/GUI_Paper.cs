@@ -69,7 +69,7 @@ namespace UI.Items
 		private bool IsPenInHand()
 		{
 			Pen pen = null;
-			foreach (var itemSlot in PlayerManager.LocalPlayerScript.DynamicItemStorage.GetHandSlots())
+			foreach (var itemSlot in LocalPlayerManager.CurrentMind.DynamicItemStorage.GetHandSlots())
 			{
 				if (itemSlot.ItemObject != null && itemSlot.ItemObject.TryGetComponent<Pen>(out pen))
 				{
@@ -93,7 +93,7 @@ namespace UI.Items
 		//Request an edit from server:
 		public void OnTextEditEnd()
 		{
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdRequestPaperEdit(Provider.gameObject,
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdRequestPaperEdit(Provider.gameObject,
 				textField.text);
 			UIManager.IsInputFocus = false;
 			UIManager.PreventChatInput = false;

@@ -82,7 +82,7 @@ namespace Objects.Machines
 			if (Validations.HasUsedItemTrait(interaction, CommonTraits.Instance.Screwdriver))
 			{
 				AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: UnityEngine.Random.Range(0.8f, 1.2f));
-				SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.screwdriver, interaction.Performer.AssumedWorldPosServer(), audioSourceParameters, sourceObj: gameObject);
+				SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.screwdriver, interaction.Performer.BodyWorldPosition, audioSourceParameters, sourceObj: gameObject);
 				//Unscrew panel
 				panelopen = !panelopen;
 				if (panelopen)

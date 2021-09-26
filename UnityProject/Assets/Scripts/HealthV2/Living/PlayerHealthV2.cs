@@ -12,15 +12,17 @@ using UnityEngine;
 
 namespace HealthV2
 {
-	public class PlayerHealthV2 : LivingHealthMasterBase, RegisterPlayer.IControlPlayerState
+	public class PlayerHealthV2 : LivingHealthMasterBase, RegisterPlayer.IControlPlayerState, IProvideConsciousness
 	{
+
+
 
 		private PlayerMove playerMove;
 		/// <summary>
 		/// Controller for sprite direction and walking into objects
 		/// </summary>
 		public PlayerMove PlayerMove => playerMove;
-		
+
 		private PlayerNetworkActions playerNetworkActions;
 
 		private RegisterPlayer registerPlayer;
@@ -42,9 +44,6 @@ namespace HealthV2
 		/// </summary>
 		[SerializeField]
 		private Sickness commonAllergies = null;
-
-		//fixme: not actually set or modified. keep an eye on this!
-		public bool serverPlayerConscious { get; set; } = true; //Only used on the server
 
 		public override void Awake()
 		{
@@ -102,15 +101,15 @@ namespace HealthV2
 		{
 			if (CustomNetworkManager.Instance._isServer)
 			{
-				ConnectedPlayer player = PlayerList.Instance.Get(gameObject, true);
+				var player = MindManager.Instance.Get(gameObject, true);
 
 				string killerName = null;
 				if (LastDamagedBy != null)
 				{
-					var lastDamager = PlayerList.Instance.Get(LastDamagedBy, true);
+					var lastDamager = MindManager.Instance.Get(LastDamagedBy, true);
 					if (lastDamager != null)
 					{
-						killerName = lastDamager.Name;
+						killerName = lastDamager.CharactersName;
 						AutoMod.ProcessPlayerKill(lastDamager, player);
 					}
 				}
@@ -120,29 +119,29 @@ namespace HealthV2
 					killerName = "stressful work";
 				}
 
-				string playerName = player?.Name ?? "dummy";
+				string playerName = player.ExpensiveName() ?? "dummy";
 				if (killerName == playerName)
 				{
-					Chat.AddActionMsgToChat(gameObject, "You committed suicide, what a waste.", $"{playerName} committed suicide.");
+					Chat.AddActionMsgToChat(player, "You committed suicide, what a waste.", $"{playerName} committed suicide.");
 				}
 				else if (killerName.EndsWith(playerName))
 				{
 					string themself = null;
 					if (player != null)
 					{
-						themself = player.CharacterSettings?.ThemselfPronoun(player.Script);
+						themself = player.OriginalCharacter?.ThemselfPronoun(player);
 					}
 					if (themself == null)
 					{
 						themself = "themself";
 					}
 					//chain reactions
-					Chat.AddActionMsgToChat(gameObject, $"You screwed yourself up with some help from {killerName}",
+					Chat.AddActionMsgToChat(player, $"You screwed yourself up with some help from {killerName}",
 						$"{playerName} screwed {themself} up with some help from {killerName}");
 				}
 				else
 				{
-					PlayerList.Instance.TrackKill(LastDamagedBy, gameObject);
+					//PlayersManager.Instance.TrackKill(LastDamagedBy, gameObject);
 				}
 
 				//drop items in hand
@@ -161,7 +160,7 @@ namespace HealthV2
 					string their = null;
 					if (player != null)
 					{
-						their = player.CharacterSettings?.TheirPronoun(player.Script);
+						their = player.OriginalCharacter?.TheirPronoun(player);
 					}
 
 					if (their == null)
@@ -169,10 +168,10 @@ namespace HealthV2
 						their = "their";
 					}
 
-					Chat.AddLocalMsgToChat($"<b>{player.Name}</b> seizes up and falls limp, {their} eyes dead and lifeless...", gameObject);
+					Chat.AddLocalMsgToChat($"<b>{player.ExpensiveName()}</b> seizes up and falls limp, {their} eyes dead and lifeless...", gameObject);
 				}
 
-				TriggerEventMessage.SendTo(gameObject, Event.PlayerDied);
+				TriggerEventMessage.SendTo(player, Event.PlayerDied);
 			}
 		}
 
@@ -284,7 +283,7 @@ namespace HealthV2
 		protected override void MildElectrocution(Electrocution electrocution, float shockPower)
 		{
 			SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ElectricShock, registerPlayer.WorldPosition);
-			Chat.AddExamineMsgFromServer(gameObject, $"The {electrocution.ShockSourceName} gives you a slight tingling sensation...");
+			Chat.AddExamineMsgFromServer(MindManager.Instance.Get(gameObject), $"The {electrocution.ShockSourceName} gives you a slight tingling sensation...");
 		}
 
 		protected override void PainfulElectrocution(Electrocution electrocution, float shockPower)
@@ -300,7 +299,7 @@ namespace HealthV2
 
 			string victimChatString = (electrocution.ShockSourceName != null ? $"The {electrocution.ShockSourceName}" : "Something") +
 					" gives you a small electric shock!";
-			Chat.AddExamineMsgFromServer(gameObject, victimChatString);
+			Chat.AddExamineMsgFromServer(MindManager.Instance.Get(gameObject), victimChatString);
 
 			DealElectrocutionDamage(5, electrocutedHand);
 		}
@@ -324,7 +323,7 @@ namespace HealthV2
 				victimChatString = $"Something electrocutes you!";
 				observerChatString = $"{gameObject.ExpensiveName()} is electrocuted by something!";
 			}
-			Chat.AddCombatMsgToChat(gameObject, victimChatString, observerChatString);
+			Chat.AddCombatMsgToChat(MindManager.Instance.Get(gameObject), victimChatString, observerChatString);
 
 			var damage = shockPower / ELECTROCUTION_BURNDAMAGE_MODIFIER;
 			if (ELECTROCUTION_MAX_DAMAGE != -1 && damage > ELECTROCUTION_MAX_DAMAGE) damage = ELECTROCUTION_MAX_DAMAGE;

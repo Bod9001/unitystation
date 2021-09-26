@@ -61,7 +61,7 @@ public class GUI_P_Colour : PageElement
 			Outstring = Outstring + Convert.ToChar(Mathf.RoundToInt(thisColor.a * 255));
 
 			RequestChangeVariableNetMessage.Send(PageID, Outstring, UISendToClientToggle.toggle, ServerData.UserID,
-				PlayerList.Instance.AdminToken);
+				PlayersManager.Instance.AdminToken);
 		}
 	}
 

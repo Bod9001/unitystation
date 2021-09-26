@@ -99,7 +99,7 @@ namespace Doors
 
 		public HackingProcessBase HackingProcessBase;
 
-		private GameObject byPlayer;
+		private Mind byPlayer;
 
 		public ConstructibleDoor ConstructibleDoor;
 
@@ -177,7 +177,7 @@ namespace Doors
 			HashSet<DoorProcessingStates> states = new HashSet<DoorProcessingStates>();
 			foreach (var module in modulesList)
 			{
-				ModuleSignal signal = module.BumpingInteraction(byPlayer, states);
+				ModuleSignal signal = module.BumpingInteraction(byPlayer.GameObjectBody, states);
 
 				if (!module.CanDoorStateChange() || signal == ModuleSignal.ContinueWithoutDoorStateChange)
 				{
@@ -218,7 +218,7 @@ namespace Doors
 		/// </summary>
 		public void Bump(GameObject inbyPlayer)
 		{
-			byPlayer = inbyPlayer;
+			byPlayer = MindManager.StaticGet(inbyPlayer) ;
 			HackingProcessBase.ImpulsePort(TryBump);
 		}
 
@@ -341,7 +341,7 @@ namespace Doors
 			}
 		}
 
-		public void TryOpen(GameObject originator, bool blockClosing = false)
+		public void TryOpen(Mind originator, bool blockClosing = false)
 		{
 			if(IsClosed == false || isPerformingAction) return;
 
@@ -401,7 +401,7 @@ namespace Doors
 			Close();
 		}
 
-		public void PulseTryClose(GameObject inoriginator = null, bool inforce = false, bool inOverrideLogic = false)
+		public void PulseTryClose(Mind inoriginator = null, bool inforce = false, bool inOverrideLogic = false)
 		{
 			originator = inoriginator;
 			force = inforce;
@@ -410,7 +410,7 @@ namespace Doors
 			HackingProcessBase.ImpulsePort(TryClose);
 		}
 
-		private GameObject originator;
+		private Mind originator;
 		private bool force;
 		private bool OverrideLogic;
 
@@ -746,9 +746,9 @@ namespace Doors
 
 		#region Airlock UI
 
-		public bool CanOpenNetTab(GameObject playerObject, NetTabType netTabType)
+		public bool CanOpenNetTab(Mind playerObject, NetTabType netTabType)
 		{
-			bool isAi = playerObject.GetComponent<PlayerScript>().PlayerState == PlayerScript.PlayerStates.Ai;
+			bool isAi = playerObject.IsSilicon;
 			if (netTabType == NetTabType.HackingPanel)
 			{
 			    //Block Ai from hacking UI but allow normal player

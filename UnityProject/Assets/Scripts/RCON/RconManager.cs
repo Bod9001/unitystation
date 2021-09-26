@@ -343,14 +343,14 @@ public class Players
 
 	public Players()
 	{
-		if (PlayerList.Instance == null) return;
-		for (int i = 0; i < PlayerList.Instance.InGamePlayers.Count; i++)
+		if (PlayersManager.Instance == null) return;
+		for (int i = 0; i < PlayersManager.Instance.InGamePlayers.Count; i++)
 		{
-			var player = PlayerList.Instance.InGamePlayers[i];
+			var player = PlayersManager.Instance.InGamePlayers[i];
 			var playerEntry = new PlayerDetails()
 			{
-				playerName = player.Name + $" {player.Job.ToString()} : Acc: {player.Username} {player.UserId} {player.Connection.address} ",
-					job = player.Job.ToString()
+				playerName = player.CurrentMind.CharactersName + $" {player.CurrentMind.JobType.ToString()} : Acc: {player.Username} {player.UserId} {player.Connection.address} ",
+					job = player.CurrentMind.JobType.ToString()
 			};
 			players.Add(playerEntry);
 		}

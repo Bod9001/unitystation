@@ -86,7 +86,7 @@ public class HandsController : MonoBehaviour
 
 		StorageToHands[StorageCharacteristics] = HandController;
 		HandController.AddHand(bodyPartUISlots, StorageCharacteristics);
-		if (PlayerManager.LocalPlayerScript.playerNetworkActions.activeHand == null)
+		if (LocalPlayerManager.CurrentMind.playerNetworkActions.activeHand == null)
 		{
 			HandController.PickActiveHand();
 		}
@@ -104,9 +104,9 @@ public class HandsController : MonoBehaviour
 		AvailableRightHand.Clear();
 		DoubleHandControllers.Clear();
 		activeDoubleHandController = null;
-		PlayerManager.LocalPlayerScript.playerNetworkActions.CmdSetActiveHand(0, NamedSlot.none);
-		PlayerManager.LocalPlayerScript.playerNetworkActions.activeHand = null;
-		PlayerManager.LocalPlayerScript.playerNetworkActions.CurrentActiveHand = NamedSlot.none;
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdSetActiveHand(0, NamedSlot.none);
+		LocalPlayerManager.CurrentMind.playerNetworkActions.activeHand = null;
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CurrentActiveHand = NamedSlot.none;
 	}
 
 	public void RemoveHand(
@@ -145,9 +145,9 @@ public class HandsController : MonoBehaviour
 				}
 				else
 				{
-					PlayerManager.LocalPlayerScript.playerNetworkActions.CmdSetActiveHand(0, NamedSlot.none);
-					PlayerManager.LocalPlayerScript.playerNetworkActions.activeHand = null;
-					PlayerManager.LocalPlayerScript.playerNetworkActions.CurrentActiveHand = NamedSlot.none;
+					LocalPlayerManager.CurrentMind.playerNetworkActions.CmdSetActiveHand(0, NamedSlot.none);
+					LocalPlayerManager.CurrentMind.playerNetworkActions.activeHand = null;
+					LocalPlayerManager.CurrentMind.playerNetworkActions.CurrentActiveHand = NamedSlot.none;
 				}
 			}
 
@@ -192,11 +192,11 @@ public class HandsController : MonoBehaviour
 		activeDoubleHandController = doubleHandController;
 		ActiveHand = SetActiv;
 
-		PlayerManager.LocalPlayerScript.playerNetworkActions.CmdSetActiveHand(
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdSetActiveHand(
 			activeDoubleHandController.GetHand(SetActiv).RelatedBodyPartUISlots.GameObject.NetId(), SetActiv);
-		PlayerManager.LocalPlayerScript.playerNetworkActions.activeHand =
+		LocalPlayerManager.CurrentMind.playerNetworkActions.activeHand =
 			activeDoubleHandController.GetHand(SetActiv).RelatedBodyPartUISlots.GameObject;
-		PlayerManager.LocalPlayerScript.playerNetworkActions.CurrentActiveHand = SetActiv;
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CurrentActiveHand = SetActiv;
 	}
 
 	/// <summary>
@@ -210,7 +210,7 @@ public class HandsController : MonoBehaviour
 			return;
 		}
 
-		var CurrentSlot = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot();
+		var CurrentSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
 		// Is there an item in the active hand?
 		if (CurrentSlot.Item == null)
 		{
@@ -232,7 +232,7 @@ public class HandsController : MonoBehaviour
 		}
 
 		// Is there an item to equip?
-		var CurrentSlot = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot();
+		var CurrentSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
 		if (CurrentSlot.Item == null)
 		{
 			return;
@@ -241,10 +241,10 @@ public class HandsController : MonoBehaviour
 		//This checks which UI slot the item can be equiped to and swaps it there
 		//Try to equip the item into the appropriate slot
 		var bestSlot =
-			BestSlotForTrait.Instance.GetBestSlot(CurrentSlot.Item, PlayerManager.LocalPlayerScript.DynamicItemStorage);
+			BestSlotForTrait.Instance.GetBestSlot(CurrentSlot.Item, LocalPlayerManager.CurrentMind.DynamicItemStorage);
 		if (bestSlot == null)
 		{
-			Chat.AddExamineMsg(PlayerManager.LocalPlayerScript.gameObject, "There is no available slot for that");
+			Chat.AddExamineMsg(LocalPlayerManager.CurrentMind, "There is no available slot for that");
 			return;
 		}
 
@@ -253,7 +253,7 @@ public class HandsController : MonoBehaviour
 
 	public static bool SwapItem(UI_ItemSlot itemSlot)
 	{
-		var CurrentSlot = PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot();
+		var CurrentSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
 		if (isValidPlayer())
 		{
 			if (CurrentSlot != itemSlot.ItemSlot)
@@ -286,11 +286,11 @@ public class HandsController : MonoBehaviour
 	/// <returns>True if they can, false if they cannot</returns>
 	public static bool isValidPlayer()
 	{
-		if (PlayerManager.LocalPlayerScript == null) return false;
+		if (LocalPlayerManager.CurrentMind == null) return false;
 
 		// TODO tidy up this if statement once it's working correctly
-		if (!PlayerManager.LocalPlayerScript.playerMove.allowInput ||
-		    PlayerManager.LocalPlayerScript.IsGhost)
+		if (!LocalPlayerManager.CurrentMind.PlayerMove.allowInput ||
+		    LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			Logger.Log("Invalid player, cannot perform action!", Category.Interaction);
 			return false;

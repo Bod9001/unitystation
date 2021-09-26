@@ -444,7 +444,7 @@ namespace UI.Objects.Atmospherics
 				{
 					foreach (var p in Peepers)
 					{
-						AutoMod.ProcessPlasmaRelease(p);
+						AutoMod.ProcessPlasmaRelease(p.CurrentMind);
 					}
 				}
 			}

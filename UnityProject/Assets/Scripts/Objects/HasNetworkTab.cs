@@ -17,7 +17,7 @@ namespace Objects
 	public class HasNetworkTab : MonoBehaviour, ICheckedInteractable<HandApply>, IServerDespawn, ICheckedInteractable<AiActivate>
 	{
 		[NonSerialized]
-		private GameObject playerInteracted;
+		private Mind playerInteracted;
 
 		[PrefabModeOnly]
 		[Tooltip("Network tab to display.")]
@@ -29,7 +29,7 @@ namespace Objects
 		/// <summary>
 		/// This method simply tells the script what player last interacted, giving an reference to their gameobject
 		/// </summary>
-		public GameObject LastInteractedPlayer()
+		public Mind LastInteractedPlayer()
 		{
 			return playerInteracted;
 		}

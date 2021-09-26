@@ -66,15 +66,15 @@ namespace Clothing
 			StopAllCoroutines();
 		}
 
-		private void OnWearing(RegisterPlayer player)
+		private void OnWearing(Mind player)
 		{
 			if (!isAlive || isToy)
 			{
 				return;
 			}
 
-			player.ServerStun(coitusTime, true);
-			StartCoroutine(Coitus(player.PlayerScript.playerHealth));
+			(player.registerTile as RegisterPlayer).ServerStun(coitusTime, true);
+			StartCoroutine(Coitus(player.LivingHealthMasterBase));
 		}
 
 		private void OnReleasing()
@@ -88,21 +88,21 @@ namespace Clothing
 			StartCoroutine(Release());
 		}
 
-		private IEnumerator Coitus(PlayerHealthV2 player)
+		private IEnumerator Coitus(LivingHealthMasterBase player)
 		{
 			yield return WaitFor.Seconds(coitusTime);
 			_ = Pregnancy(player);
 			yield return WaitFor.EndOfFrame;
 		}
 
-		private async Task Pregnancy(PlayerHealthV2 player)
+		private async Task Pregnancy(LivingHealthMasterBase player)
 		{
 			KillHugger();
 			await Task.Delay(TimeSpan.FromSeconds(pregnancyTime));
 			//TODO check if the larvae was removed from stomach
 			player.ApplyDamageToBodyPart(
 				gameObject,
-				200,
+				300,
 				AttackType.Internal,
 				DamageType.Brute,
 				BodyPartType.Chest);
@@ -121,7 +121,7 @@ namespace Clothing
 
 		public void OnInventoryMoveServer(InventoryMove info)
 		{
-			RegisterPlayer registerPlayer;
+			Mind registerPlayer;
 
 			if (info.ToSlot != null && info.ToSlot?.NamedSlot != null)
 			{
@@ -150,11 +150,11 @@ namespace Clothing
 
 		public void OnInventoryMoveClient(ClientInventoryMove info)
 		{
-			var playerScript = PlayerManager.LocalPlayerScript;
+			var playerScript = LocalPlayerManager.CurrentMind;
 			if ((CustomNetworkManager.Instance._isServer && GameData.IsHeadlessServer)
 			    || playerScript == null
 			    || playerScript.playerNetworkActions == null
-			    || playerScript.playerHealth == null)
+			    || playerScript.LivingHealthMasterBase == null)
 			{
 				return;
 			}

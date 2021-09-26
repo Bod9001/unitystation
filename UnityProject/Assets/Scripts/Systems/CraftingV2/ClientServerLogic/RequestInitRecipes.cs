@@ -14,7 +14,7 @@ namespace Systems.CraftingV2.ClientServerLogic
 		{
 			SendInitRecipesOrder.SendTo(
 				SentByPlayer,
-				SentByPlayer.Script.PlayerCrafting.KnownRecipesByCategory
+				SentByPlayer.CurrentMind.PlayerCrafting.KnownRecipesByCategory
 			);
 		}
 	}

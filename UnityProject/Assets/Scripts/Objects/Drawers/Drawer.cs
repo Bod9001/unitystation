@@ -244,7 +244,7 @@ namespace Objects.Drawers
 
 		protected virtual void GatherItems()
 		{
-			var items = Matrix.Get<ObjectBehaviour>(TrayLocalPosition, ObjectType.Item, true);
+			var items = Matrix.Get<ObjectBehaviour>(TrayLocalPosition, FlagsObjectType.Item, true);
 			foreach (ObjectBehaviour item in items)
 			{
 				// Other position fields such as registerObject.WorldPosition seem to give tile integers.
@@ -270,7 +270,7 @@ namespace Objects.Drawers
 				player.GetComponent<PlayerSync>().SetPosition(position);
 
 				//Stop tracking the drawer
-				FollowCameraMessage.Send(player.gameObject, player.gameObject);
+				FollowCameraMessage.Send(MindManager.StaticGet(player.gameObject), player.gameObject);
 			}
 
 			serverHeldPlayers = new List<ObjectBehaviour>();
@@ -278,7 +278,7 @@ namespace Objects.Drawers
 
 		protected virtual void GatherPlayers()
 		{
-			var players = Matrix.Get<ObjectBehaviour>(TrayLocalPosition, ObjectType.Player, true);
+			var players = Matrix.Get<ObjectBehaviour>(TrayLocalPosition, FlagsObjectType.Player, true);
 			foreach (ObjectBehaviour player in players)
 			{
 				serverHeldPlayers.Add(player);
@@ -286,8 +286,8 @@ namespace Objects.Drawers
 				player.VisibleState = false;
 
 				// Start tracking the drawer
-				var playerScript = player.GetComponent<PlayerScript>();
-				if (!playerScript.IsGhost) FollowCameraMessage.Send(player.gameObject, gameObject);
+				var playerScript = MindManager.StaticGet(player.gameObject);
+				if (!playerScript.IsGhosting) FollowCameraMessage.Send(playerScript, gameObject);
 			}
 		}
 

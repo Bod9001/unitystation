@@ -64,9 +64,9 @@ namespace Lobby
 				connectionPanel.SetActive(true);
 				dialogueTitle.text = "Connection Panel";
 				//if there aren't char settings, default
-				if (PlayerManager.CurrentCharacterSettings == null)
+				if (LocalPlayerManager.CurrentCharacterSettings == null)
 				{
-					PlayerManager.CurrentCharacterSettings = new CharacterSettings();
+					LocalPlayerManager.CurrentCharacterSettings = new CharacterSettings();
 				}
 			}
 		}
@@ -174,7 +174,7 @@ namespace Lobby
 			pleaseWaitCreationText.text = $"Success! An email has been sent to {emailAddressInput.text}. " +
 										  $"Please click the link in the email to verify " +
 										  $"your account before signing in.";
-			PlayerManager.CurrentCharacterSettings = charSettings;
+			LocalPlayerManager.CurrentCharacterSettings = charSettings;
 			GameData.LoggedInUsername = chosenUsernameInput.text;
 			chosenPasswordInput.text = "";
 			chosenUsernameInput.text = "";
@@ -289,7 +289,7 @@ namespace Lobby
 			}
 
 			// Set and cache player name
-			PlayerPrefs.SetString(UserNamePlayerPref, PlayerManager.CurrentCharacterSettings.Name);
+			PlayerPrefs.SetString(UserNamePlayerPref, LocalPlayerManager.CurrentCharacterSettings.Name);
 
 			// Start game
 			dialogueTitle.text = "Starting Game...";
@@ -309,7 +309,7 @@ namespace Lobby
 
 		public void OnStartGameFromHub()
 		{
-			PlayerPrefs.SetString(UserNamePlayerPref, PlayerManager.CurrentCharacterSettings.Name);
+			PlayerPrefs.SetString(UserNamePlayerPref, LocalPlayerManager.CurrentCharacterSettings.Name);
 			ConnectToServer();
 			gameObject.SetActive(false);
 		}

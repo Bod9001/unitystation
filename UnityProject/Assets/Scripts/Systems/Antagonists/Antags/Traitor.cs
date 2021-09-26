@@ -19,9 +19,9 @@ namespace Antagonists
 			return PlayerSpawn.ServerSpawnPlayer(spawnRequest);
 		}
 
-		public override void AfterSpawn(ConnectedPlayer player)
+		public override void AfterSpawn(Mind player)
 		{
-			if (player.GameObject.TryGetComponent<AiPlayer>(out var aiPlayer))
+			if (player.GameObjectBody.TryGetComponent<AiPlayer>(out var aiPlayer))
 			{
 				aiPlayer.IsMalf = true;
 				AIObjectives();

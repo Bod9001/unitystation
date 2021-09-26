@@ -27,6 +27,8 @@ public class CustomNetworkManager : NetworkManager, IInitialise
 	[HideInInspector] public bool _isServer;
 	[HideInInspector] private ServerConfig config;
 	public GameObject humanPlayerPrefab;
+	public GameObject brainPrefab;
+
 	public GameObject ghostPrefab;
 	public GameObject disconnectedViewerPrefab;
 
@@ -360,7 +362,7 @@ public class CustomNetworkManager : NetworkManager, IInitialise
 	public override void OnServerDisconnect(NetworkConnection conn)
 	{
 		//register them as removed from our own player list
-		PlayerList.Instance.RemoveByConnection(conn);
+		PlayersManager.Instance.RemoveByConnection(conn);
 
 		//NOTE: We don't call the base.OnServerDisconnect method because it destroys the player object -
 		//we want to keep the object around so player can rejoin and reenter their body.

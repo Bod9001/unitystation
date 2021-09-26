@@ -192,12 +192,12 @@ namespace Objects.Wallmounts.Switches
 		}
 
 		//Called when player wants to open nettab, so we can validate access
-		public bool CanOpenNetTab(GameObject playerObject, NetTabType netTabType)
+		public bool CanOpenNetTab(Mind playerObject, NetTabType netTabType)
 		{
 			if (accessRestrictions != null && restricted)
 			{
 				//Ai always allowed through, check other players access
-				if (playerObject.GetComponent<PlayerScript>().PlayerState != PlayerScript.PlayerStates.Ai &&
+				if (playerObject.IsSilicon == false &&
 				    accessRestrictions.CheckAccess(playerObject) == false)
 				{
 					Chat.AddExamineMsgFromServer(playerObject, "Higher Access Level Needed");

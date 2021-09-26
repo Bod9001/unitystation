@@ -470,11 +470,11 @@ public partial class GameManager : MonoBehaviour, IInitialise
 	{
 		var antagDict = new Dictionary<string, int>();
 
-		foreach (var readyPlayer in PlayerList.Instance.ReadyPlayers)
+		foreach (var readyPlayer in PlayersManager.Instance.ReadyPlayers)
 		{
-			if(readyPlayer.CharacterSettings?.AntagPreferences == null) continue;
+			if(readyPlayer.PreRoundCharacterSettings?.AntagPreferences == null) continue;
 
-			foreach (var antagPreference in readyPlayer.CharacterSettings.AntagPreferences)
+			foreach (var antagPreference in readyPlayer.PreRoundCharacterSettings.AntagPreferences)
 			{
 				//Only record enabled antags
 				if(antagPreference.Value == false) continue;
@@ -492,9 +492,9 @@ public partial class GameManager : MonoBehaviour, IInitialise
 
 		var antagString = new StringBuilder();
 
-		antagString.AppendLine($"There are {PlayerList.Instance.ReadyPlayers.Count} ready players");
+		antagString.AppendLine($"There are {PlayersManager.Instance.ReadyPlayers.Count} ready players");
 
-		var count = PlayerList.Instance.ReadyPlayers.Count;
+		var count = PlayersManager.Instance.ReadyPlayers.Count;
 
 		foreach (var antag in antagDict)
 		{
@@ -551,12 +551,12 @@ public partial class GameManager : MonoBehaviour, IInitialise
 	/// </summary>
 	private IEnumerator WaitToCheckPlayers()
 	{
-		while (PlayerList.Instance == null)
+		while (PlayersManager.Instance == null)
 		{
 			yield return WaitFor.EndOfFrame;
 		}
 		// Clear the list of ready players so they have to ready up again
-		PlayerList.Instance.ClearReadyPlayers();
+		PlayersManager.Instance.ClearReadyPlayers();
 		CheckPlayerCount();
 	}
 
@@ -566,7 +566,7 @@ public partial class GameManager : MonoBehaviour, IInitialise
 	[Server]
 	public void CheckPlayerCount()
 	{
-		if (CustomNetworkManager.Instance._isServer && PlayerList.Instance.ConnectionCount >= MinPlayersForCountdown)
+		if (CustomNetworkManager.Instance._isServer && PlayersManager.Instance.ConnectionCount >= MinPlayersForCountdown)
 		{
 			StartCountdown();
 		}
@@ -583,9 +583,9 @@ public partial class GameManager : MonoBehaviour, IInitialise
 
 		string message = $"A new round is starting on {ServerData.ServerConfig.ServerName}.\nThe current gamemode is: {msg}\nThe current map is: {SubSceneManager.ServerChosenMainStation}\n";
 
-		var playerNumber = PlayerList.Instance.ConnectionCount > PlayerList.LastRoundPlayerCount
-			? PlayerList.Instance.ConnectionCount
-			: PlayerList.LastRoundPlayerCount;
+		var playerNumber = PlayersManager.Instance.ConnectionCount > PlayersManager.LastRoundPlayerCount
+			? PlayersManager.Instance.ConnectionCount
+			: PlayersManager.LastRoundPlayerCount;
 
 		if (playerNumber == 1)
 		{
@@ -706,21 +706,21 @@ public partial class GameManager : MonoBehaviour, IInitialise
 	{
 		int count = 0;
 
-		if (PlayerList.Instance == null)
+		if (PlayersManager.Instance == null)
 		{
 			return 0;
 		}
 
-		var players = PlayerList.Instance.GetAllPlayers();
-		if (players.Count == 0)
+		var Minds = MindManager.Instance.PresentMinds;
+		if (Minds.Count == 0)
 		{
 			return 0;
 		}
 
-		for (var i = 0; i < players.Count; i++)
+		for (var i = 0; i < Minds.Count; i++)
 		{
-			var player = players[i];
-			if (player.Job == jobType)
+			var Mind = Minds[i];
+			if (Mind.JobType == jobType)
 			{
 				count++;
 			}

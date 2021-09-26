@@ -54,7 +54,7 @@ public class GUI_NukeOps : MonoBehaviour
 
 	public void SyndieBtn()
 	{
-		PlayerManager.LocalViewerScript.RequestJob(JobType.SYNDICATE);
+		LocalPlayerManager.LocalViewerScript.RequestJob(JobType.SYNDICATE);
 		gameObject.SetActive(false);
 	}
 }

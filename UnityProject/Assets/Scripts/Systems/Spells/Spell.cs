@@ -45,10 +45,10 @@ namespace Systems.Spells
 		public virtual void CallActionClient()
 		{
 			UIAction action = UIActionManager.Instance.DicIActionGUI[this];
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdRequestSpell(SpellData.Index, action.LastClickPosition);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdRequestSpell(SpellData.Index, action.LastClickPosition);
 		}
 
-		public void CallActionServer(ConnectedPlayer SentByPlayer, Vector3 clickPosition)
+		public void CallActionServer(Mind SentByPlayer, Vector3 clickPosition)
 		{
 			if (ValidateCast(SentByPlayer) &&
 				CastSpellServer(SentByPlayer, clickPosition))
@@ -57,12 +57,12 @@ namespace Systems.Spells
 			}
 		}
 
-		private void AfterCast(ConnectedPlayer sentByPlayer)
+		private void AfterCast(Mind sentByPlayer)
 		{
-			Cooldowns.TryStartServer(sentByPlayer.Script, SpellData, CooldownTime);
+			Cooldowns.TryStartServer(sentByPlayer, SpellData, CooldownTime);
 
 			SoundManager.PlayNetworkedAtPos(
-					SpellData.CastSound, sentByPlayer.Script.WorldPos, sourceObj: sentByPlayer.GameObject, global: false);
+					SpellData.CastSound, sentByPlayer.BodyWorldPosition, sourceObj: sentByPlayer.GameObjectBody, global: false);
 
 			if (SpellData.InvocationType != SpellInvocationType.None)
 			{
@@ -77,35 +77,35 @@ namespace Systems.Spells
 						break;
 				}
 
-				if (sentByPlayer == null || sentByPlayer.CharacterSettings == null) return;
+				if (sentByPlayer == null || sentByPlayer.OriginalCharacter == null) return;
 
-				Chat.AddActionMsgToChat(sentByPlayer.GameObject, FormatInvocationMessageSelf(sentByPlayer),
+				Chat.AddActionMsgToChat(sentByPlayer, FormatInvocationMessageSelf(sentByPlayer),
 					FormatInvocationMessage(sentByPlayer, modPrefix));
 
 				if (SpellData.InvocationType == SpellInvocationType.Shout)
 				{
-					Chat.AddChatMsgToChat(sentByPlayer, FormatInvocationMessage(sentByPlayer, modPrefix), ChatChannel.Local, Loudness.NORMAL);
+					Chat.AddChatMsgToChat(sentByPlayer.AssignedPlayer, FormatInvocationMessage(sentByPlayer, modPrefix), ChatChannel.Local, Loudness.NORMAL);
 				}
 			}
 
 			if (SpellData.ChargeType == SpellChargeType.FixedCharges && --ChargesLeft <= 0)
 			{
 				//remove it from spell list
-				UIActionManager.Toggle(this, false, sentByPlayer.GameObject);
+				UIActionManager.Toggle(this, false, sentByPlayer);
 			}
 			else
 			{
-				UIActionManager.SetCooldown(this, CooldownTime, sentByPlayer.GameObject);
+				UIActionManager.SetCooldown(this, CooldownTime, sentByPlayer);
 			}
 		}
 
-		public virtual bool CastSpellServer(ConnectedPlayer caster, Vector3 clickPosition)
+		public virtual bool CastSpellServer(Mind caster, Vector3 clickPosition)
 		{
 			return CastSpellServer(caster);
 		}
 
 		/// <returns>false if it was aborted for some reason</returns>
-		public virtual bool CastSpellServer(ConnectedPlayer caster)
+		public virtual bool CastSpellServer(Mind caster)
 		{
 			if (SpellData.SummonType == SpellSummonType.None)
 			{ //don't want to summon anything physical and that's alright
@@ -114,7 +114,7 @@ namespace Systems.Spells
 
 			Vector3Int castPosition = TransformState.HiddenPos;
 
-			Vector3Int casterPosition = caster.Script.AssumedWorldPos;
+			Vector3Int casterPosition = caster.BodyWorldPositionInt;
 			switch (SpellData.SummonPosition)
 			{
 				case SpellSummonPosition.CasterTile:
@@ -125,7 +125,7 @@ namespace Systems.Spells
 					{
 						break;
 					}
-					castPosition = casterPosition + caster.Script.CurrentDirection.VectorInt.To3Int();
+					castPosition = casterPosition + caster.CurrentDirection.VectorInt.To3Int();
 					break;
 				case SpellSummonPosition.Custom:
 					castPosition = GetWorldSummonPosition(caster);
@@ -147,7 +147,7 @@ namespace Systems.Spells
 					if (spawnResult.Successful && SpellData.ShouldDespawn)
 					{
 						//but also destroy when lifespan ends
-						caster.Script.StartCoroutine(DespawnAfterDelay(), ref handle);
+						caster.StartCoroutine(DespawnAfterDelay(), ref handle);
 
 						IEnumerator DespawnAfterDelay()
 						{
@@ -175,7 +175,7 @@ namespace Systems.Spells
 					if (SpellData.ShouldDespawn)
 					{
 						//but also destroy when lifespan ends
-						caster.Script.StartCoroutine(DespawnAfterDelay(), ref handle);
+						caster.StartCoroutine(DespawnAfterDelay(), ref handle);
 
 						IEnumerator DespawnAfterDelay()
 						{
@@ -192,12 +192,12 @@ namespace Systems.Spells
 		/// <summary>
 		/// Override this in your subclass for custom logic
 		/// </summary>
-		public virtual Vector3Int GetWorldSummonPosition(ConnectedPlayer caster)
+		public virtual Vector3Int GetWorldSummonPosition(Mind caster)
 		{
 			return TransformState.HiddenPos;
 		}
 
-		public virtual bool ValidateCast(ConnectedPlayer caster)
+		public virtual bool ValidateCast(Mind caster)
 		{
 			if (SpellData == null)
 			{
@@ -205,22 +205,22 @@ namespace Systems.Spells
 				return false;
 			}
 
-			if (!caster.Script.mind.Spells.Contains(this))
+			if (!caster.Spells.Contains(this))
 			{
 				Logger.LogWarningFormat("Illegal spell access: {0} tried to call spell they don't possess ({1})",
 					Category.Exploits, caster, this);
 				return false;
 			}
 
-			if (caster.Script.IsDeadOrGhost || caster.Script.playerHealth.IsCrit)
+			if (caster.IsGhosting || caster.LivingHealthMasterBase.IsCrit || caster.LivingHealthMasterBase.IsDead)
 			{
 				return false;
 			}
 
-			bool isRecharging = Cooldowns.IsOnServer(caster.Script, SpellData);
+			bool isRecharging = Cooldowns.IsOnServer(caster, SpellData);
 			if (isRecharging)
 			{
-				Chat.AddExamineMsg(caster.GameObject, FormatStillRechargingMessage(caster));
+				Chat.AddExamineMsg(caster, FormatStillRechargingMessage(caster));
 				return false;
 			}
 
@@ -230,7 +230,7 @@ namespace Systems.Spells
 				return false;
 			}
 
-			if (SpellData is WizardSpellData data && data.RequiresWizardGarb && CheckWizardGarb(caster.Script.Equipment) == false)
+			if (SpellData is WizardSpellData data && data.RequiresWizardGarb && CheckWizardGarb(caster, caster.Equipment) == false)
 			{
 				return false;
 			}
@@ -238,13 +238,13 @@ namespace Systems.Spells
 			return true;
 		}
 
-		private bool CheckWizardGarb(Equipment casterEquipment)
+		private bool CheckWizardGarb(Mind Mind,Equipment casterEquipment)
 		{
 			foreach (var outerwear in casterEquipment.ItemStorage.GetNamedItemSlots(NamedSlot.outerwear))
 			{
 				if (outerwear.IsEmpty || outerwear.ItemAttributes.HasTrait(CommonTraits.Instance.WizardGarb) == false)
 				{
-					Chat.AddExamineMsg(casterEquipment.gameObject, "<color=red>You don't feel strong enough without your robe!</color>");
+					Chat.AddExamineMsg(Mind, "<color=red>You don't feel strong enough without your robe!</color>");
 					return false;
 				}
 			}
@@ -253,7 +253,7 @@ namespace Systems.Spells
 			{
 				if (headwear.IsEmpty || headwear.ItemAttributes.HasTrait(CommonTraits.Instance.WizardGarb) == false)
 				{
-					Chat.AddExamineMsg(casterEquipment.gameObject,
+					Chat.AddExamineMsg(Mind,
 						"<color=red>You don't feel strong enough without your hat!</color>");
 					return false;
 				}
@@ -262,17 +262,17 @@ namespace Systems.Spells
 			return true;
 		}
 
-		protected virtual string FormatInvocationMessage(ConnectedPlayer caster, string modPrefix)
+		protected virtual string FormatInvocationMessage(Mind caster, string modPrefix)
 		{
 			return modPrefix + SpellData.InvocationMessage;
 		}
 
-		protected virtual string FormatInvocationMessageSelf(ConnectedPlayer caster)
+		protected virtual string FormatInvocationMessageSelf(Mind caster)
 		{
 			return SpellData.InvocationMessageSelf;
 		}
 
-		protected virtual string FormatStillRechargingMessage(ConnectedPlayer caster)
+		protected virtual string FormatStillRechargingMessage(Mind caster)
 		{
 			return SpellData.StillRechargingMessage;
 		}

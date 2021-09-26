@@ -202,7 +202,7 @@ public class GUI_DevCloner : MonoBehaviour
 					}
 					else
 					{
-						DevCloneMessage.Send(toClone, (Vector3) position, ServerData.UserID, PlayerList.Instance.AdminToken);
+						DevCloneMessage.Send(toClone, (Vector3) position, ServerData.UserID, PlayersManager.Instance.AdminToken);
 					}
 				}
 			}

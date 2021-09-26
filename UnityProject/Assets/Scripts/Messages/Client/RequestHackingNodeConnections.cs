@@ -32,7 +32,7 @@ namespace Messages.Client
 
 			LoadMultipleObjects(new []{msg.netIDOfObjectBeingHacked, msg.NetIDOfInteractionObject});
 			var HackingProcessBase = NetworkObjects[0].GetComponent<HackingProcessBase>();
-			HackingProcessBase.ProcessCustomInteraction(SentByPlayer.GameObject,msg.InteractionType, NetworkObjects[1],msg.PanelInputID,  msg.PanelOutputID);
+			HackingProcessBase.ProcessCustomInteraction(SentByPlayer.CurrentMind,msg.InteractionType, NetworkObjects[1],msg.PanelInputID,  msg.PanelOutputID);
 		}
 
 		public static NetMessage Send(GameObject hackObject,uint InNetIDOfInteractionObject, int InPanelInputID, int InPanelOutputID, InteractionWith InInteractionType )

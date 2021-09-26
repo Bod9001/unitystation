@@ -18,10 +18,10 @@ namespace Antagonists
 
         private ConnectedPlayer FindCaptain()
         {
-	        var index = PlayerList.Instance.InGamePlayers.FindIndex(x => x.Job == JobType.CAPTAIN);
+	        var index = PlayersManager.Instance.InGamePlayers.FindIndex(x => x.CurrentMind.JobType == JobType.CAPTAIN);
 	        if (index != -1)
 	        {
-		        return PlayerList.Instance.InGamePlayers[index];
+		        return PlayersManager.Instance.InGamePlayers[index];
 	        }
 
 	        return null;
@@ -32,7 +32,7 @@ namespace Antagonists
 	        var captain = FindCaptain();
             // No captain? Objective completed
             if (captain == null) return true;
-            var inventory = captain.GameObject.GetComponent<DynamicItemStorage>();
+            var inventory = captain.CurrentMind.DynamicItemStorage;
             //something fucked up, give them green
             if (inventory == null) return true;
 

@@ -15,7 +15,7 @@ namespace Messages.Server.AdminTools
 
 		public override void Process(NetMessage msg)
 		{
-			PlayerList.Instance.SetClientAsMentor(msg.MentorToken);
+			PlayersManager.Instance.SetClientAsMentor(msg.MentorToken);
 			UIManager.Instance.mentorChatButtons.transform.parent.gameObject.SetActive(true);
 		}
 

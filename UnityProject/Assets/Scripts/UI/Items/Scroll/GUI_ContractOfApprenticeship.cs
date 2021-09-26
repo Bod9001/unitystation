@@ -62,8 +62,8 @@ namespace UI
 
 		public void SetAsUsed()
 		{
-			labelWizardName.SetValueServer(contract.BoundTo.Script.playerName);
-			labelApprenticeName.SetValueServer(contract.Apprentice.Script.playerName);
+			labelWizardName.SetValueServer(contract.BoundTo.CharactersName);
+			labelApprenticeName.SetValueServer(contract.Apprentice.CharactersName);
 			labelSchoolName.SetValueServer(contract.SelectedSchool.Name);
 
 			ActivatePage(pageApprentice);

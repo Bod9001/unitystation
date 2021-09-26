@@ -54,7 +54,7 @@ public class Paper : NetworkBehaviour, IServerSpawn
 	}
 
 	[Server]
-	public void UpdatePlayer(GameObject recipient)
+	public void UpdatePlayer(Mind recipient)
 	{
 		PaperUpdateMessage.Send(recipient, gameObject, ServerString);
 	}

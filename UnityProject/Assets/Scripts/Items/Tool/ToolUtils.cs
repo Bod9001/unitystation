@@ -32,7 +32,7 @@ public static class ToolUtils
 	/// <param name="othersFailMessage">message to show others when action completes unsuccessfully.</param>
 	/// <param name="onFailComplete">called when action is completed unsuccessfully.</param>
 	/// <param name="playSound">Whether to play default tool sound</param>
-	public static void ServerUseToolWithActionMessages(GameObject performer, GameObject tool, ActionTarget actionTarget,
+	public static void ServerUseToolWithActionMessages(Mind performer, GameObject tool, ActionTarget actionTarget,
 		float seconds, string performerStartActionMessage, string othersStartActionMessage,
 		string performerFinishActionMessage,
 		string othersFinishActionMessage, Action onSuccessfulCompletion, string performerFailMessage = "",
@@ -159,7 +159,7 @@ public static class ToolUtils
 	/// <param name="progressCompleteAction">completion callback (will also be called instantly if completion is instant)</param>
 	/// <param name="playSound">Whether to play default tool sound</param>
 	/// <returns>progress bar spawned, null if progress did not start or this was instant</returns>
-	public static ProgressBar ServerUseTool(GameObject performer, GameObject tool, ActionTarget actionTarget,
+	public static ProgressBar ServerUseTool(Mind performer, GameObject tool, ActionTarget actionTarget,
 		float seconds, Action progressCompleteAction, bool playSound = true)
 	{
 		//check tool stats
@@ -173,7 +173,7 @@ public static class ToolUtils
 		{
 			if (playSound)
 			{
-				ServerPlayToolSound(tool, actionTarget.TargetWorldPosition, performer);
+				ServerPlayToolSound(tool, actionTarget.TargetWorldPosition, performer.GameObjectBody);
 			}
 
 			// Check for null as ServerUseTool(interaction) accepts null Action
@@ -197,7 +197,7 @@ public static class ToolUtils
 
 			if (bar != null && playSound)
 			{
-				ServerPlayToolSound(tool, actionTarget.TargetWorldPosition, performer);
+				ServerPlayToolSound(tool, actionTarget.TargetWorldPosition, performer.GameObjectBody);
 			}
 
 			return bar;
@@ -261,7 +261,7 @@ public static class ToolUtils
 	/// <param name="handApply"></param>
 	public static void ServerPlayToolSound(HandApply handApply)
 	{
-		ServerPlayToolSound(handApply.UsedObject, handApply.TargetObject.TileWorldPosition(), handApply.Performer);
+		ServerPlayToolSound(handApply.UsedObject, handApply.TargetObject.TileWorldPosition(), handApply.Performer.GameObjectBody);
 	}
 
 	/// <summary>
@@ -270,7 +270,7 @@ public static class ToolUtils
 	/// <param name="handApply"></param>
 	public static void ServerPlayToolSound(PositionalHandApply handApply)
 	{
-		ServerPlayToolSound(handApply.UsedObject, handApply.WorldPositionTarget, handApply.Performer);
+		ServerPlayToolSound(handApply.UsedObject, handApply.WorldPositionTarget, handApply.Performer.GameObjectBody);
 	}
 
 	/// <summary>
@@ -279,7 +279,7 @@ public static class ToolUtils
 	/// <param name="tileApply"></param>
 	public static void ServerPlayToolSound(TileApply tileApply)
 	{
-		ServerPlayToolSound(tileApply.UsedObject, tileApply.WorldPositionTarget, tileApply.Performer);
+		ServerPlayToolSound(tileApply.UsedObject, tileApply.WorldPositionTarget, tileApply.Performer.GameObjectBody);
 	}
 
 	/// <summary>
@@ -288,8 +288,8 @@ public static class ToolUtils
 	/// <param name="inventoryApply"></param>
 	public static void ServerPlayToolSound(InventoryApply inventoryApply)
 	{
-		ServerPlayToolSound(inventoryApply.UsedObject, inventoryApply.Performer.TileWorldPosition(),
-			inventoryApply.Performer);
+		ServerPlayToolSound(inventoryApply.UsedObject, inventoryApply.Performer.BodyWorldPosition,
+			inventoryApply.Performer.GameObjectBody);
 	}
 
 	/// <summary>

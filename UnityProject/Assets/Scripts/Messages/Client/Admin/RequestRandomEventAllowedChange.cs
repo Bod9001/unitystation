@@ -16,7 +16,7 @@ namespace Messages.Client.Admin
 
 		public override void Process(NetMessage netMsg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(netMsg.Userid, netMsg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(netMsg.Userid, netMsg.AdminToken);
 			if (admin == null) return;
 
 			if(InGameEventsManager.Instance.RandomEventsAllowed == netMsg.RandomEventsAllowed) return;
@@ -24,7 +24,7 @@ namespace Messages.Client.Admin
 			InGameEventsManager.Instance.RandomEventsAllowed = netMsg.RandomEventsAllowed;
 
 			var state = netMsg.RandomEventsAllowed ? "ON" : "OFF";
-			var msg = $"Admin: {PlayerList.Instance.GetByUserID(netMsg.Userid).Username}, Turned random events {state}";
+			var msg = $"Admin: {PlayersManager.Instance.GetByUserID(netMsg.Userid).Username}, Turned random events {state}";
 
 			UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(msg, null);
 			DiscordWebhookMessage.Instance.AddWebHookMessageToQueue(DiscordWebhookURLs.DiscordWebhookAdminLogURL, msg, "");

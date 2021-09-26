@@ -35,7 +35,7 @@ namespace Messages.Server.SoundMessages
 		/// <param name="soundSpawnToken">The token that identifies the SoundSpawn uniquely among the server and all clients </param>
 		/// <param name="audioSourceParameters">The Audio Source Parameters to apply.</param>
 		/// <returns>The sent message</returns>
-		public static NetMessage Send(GameObject recipient, string soundSpawnToken, AudioSourceParameters audioSourceParameters)
+		public static NetMessage Send(Mind recipient, string soundSpawnToken, AudioSourceParameters audioSourceParameters)
 		{
 			NetMessage msg = new NetMessage
 			{

@@ -91,7 +91,7 @@ public class ProgressBar : MonoBehaviour
 		this.progressAction = progressAction;
 		id = GetInstanceID();
 
-		if (startInfo.Performer != PlayerManager.LocalPlayer)
+		if (startInfo.Performer != LocalPlayerManager.LocalPlayer)
 		{
 			//server should not see clients progress bar
 			spriteRenderer.enabled = false;
@@ -192,7 +192,7 @@ public class ProgressBar : MonoBehaviour
 			return;
 		}
 
-		if (registerPlayer != null && registerPlayer.gameObject != PlayerManager.LocalPlayer)
+		if (registerPlayer != null && registerPlayer.gameObject != LocalPlayerManager.LocalPlayer)
 		{
 			//this is for server's copy of client's progress bar -
 			//server should not render clients progress bar
@@ -228,7 +228,7 @@ public class ProgressBar : MonoBehaviour
 		if (timeToNotifyPlayer)
 		{
 			//Update the players progress bar
-			ProgressBarMessage.SendUpdate(registerPlayer.gameObject, spriteIndex, id);
+			ProgressBarMessage.SendUpdate(MindManager.Instance.Get(registerPlayer.gameObject), spriteIndex, id);
 			lastSpriteIndex = spriteIndex;
 		}
 
@@ -269,7 +269,7 @@ public class ProgressBar : MonoBehaviour
 	{
 		done = true;
 		//Notify player to turn off progress bar:
-		if (PlayerManager.LocalPlayer == registerPlayer.gameObject)
+		if (LocalPlayerManager.LocalPlayer == registerPlayer.gameObject)
 		{
 			//server player's bar, just destroy it
 			DestroyProgressBar();
@@ -277,7 +277,7 @@ public class ProgressBar : MonoBehaviour
 		else
 		{
 			Logger.LogTraceFormat("Server telling {0} to close progress bar {1}", Category.ProgressAction, registerPlayer.gameObject, ID);
-			ProgressBarMessage.SendUpdate(registerPlayer.gameObject, COMPLETE_INDEX, id);
+			ProgressBarMessage.SendUpdate(MindManager.Instance.Get(registerPlayer.gameObject), COMPLETE_INDEX, id);
 
 			//destroy server's local copy
 			DestroyProgressBar();

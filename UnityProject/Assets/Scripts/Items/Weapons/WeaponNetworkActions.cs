@@ -32,14 +32,13 @@ public class WeaponNetworkActions : NetworkBehaviour
 
 	private Vector3 lerpTo;
 	private PlayerMove playerMove;
-	private PlayerScript playerScript;
+	private Mind playerScript;
 	private GameObject spritesObj;
 
 	private void Start()
 	{
 		spritesObj = transform.Find("Sprites").gameObject;
 		playerMove = GetComponent<PlayerMove>();
-		playerScript = GetComponent<PlayerScript>();
 		spriteRendererSource = null;
 	}
 
@@ -68,8 +67,8 @@ public class WeaponNetworkActions : NetworkBehaviour
 		if (victim == null) return;
 		if (Cooldowns.IsOnServer(playerScript, CommonCooldowns.Instance.Melee)) return;
 		if (playerMove.allowInput == false) return;
-		if (playerScript.IsGhost) return;
-		if (playerScript.playerHealth.serverPlayerConscious == false) return;
+		if (playerScript.IsGhosting) return;
+		if (playerScript.LivingHealthMasterBase.IsDead || playerScript.LivingHealthMasterBase.IsCrit  == false) return;
 
 		if (victim.TryGetComponent<InteractableTiles>(out var tiles))
 		{
@@ -158,7 +157,7 @@ public class WeaponNetworkActions : NetworkBehaviour
 				// The punch missed.
 				string victimName = victim.ExpensiveName();
 				SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.PunchMiss, transform.position, sourceObj: gameObject);
-				Chat.AddCombatMsgToChat(gameObject, $"You attempted to punch {victimName} but missed!",
+				Chat.AddCombatMsgToChat(playerScript, $"You attempted to punch {victimName} but missed!",
 					$"{gameObject.ExpensiveName()} has attempted to punch {victimName}!");
 			}
 		}
@@ -201,14 +200,13 @@ public class WeaponNetworkActions : NetworkBehaviour
 		{
 			var projectile = Spawn.ClientPrefab("hitIcon", playerScript.transform.position, playerScript.transform.parent).GameObject;
 			var hitIcon = projectile.GetComponent<HitIcon>();
-			hitIcon.ShowHitIcon(stabDir, spriteRendererSource, playerScript);
+			hitIcon.ShowHitIcon(stabDir, spriteRendererSource);
 		}
 
 		Vector3 lerpFromWorld = spritesObj.transform.position;
 		Vector3 lerpToWorld = lerpFromWorld + (Vector3)(stabDir * 0.25f);
 		Vector3 lerpFromLocal = spritesObj.transform.parent.InverseTransformPoint(lerpFromWorld);
 		Vector3 lerpToLocal = spritesObj.transform.parent.InverseTransformPoint(lerpToWorld);
-		Vector3 localStabDir = lerpToLocal - lerpFromLocal;
 
 		lerpFrom = lerpFromLocal;
 		lerpTo = lerpToLocal;
@@ -220,7 +218,7 @@ public class WeaponNetworkActions : NetworkBehaviour
 	[Command]
 	private void CmdRequestInputActivation()
 	{
-		if (playerScript.playerHealth.serverPlayerConscious)
+		if (playerScript.LivingHealthMasterBase.serverPlayerConscious)
 		{
 			playerMove.allowInput = true;
 		}
@@ -243,9 +241,9 @@ public class WeaponNetworkActions : NetworkBehaviour
 				{
 					ResetLerp();
 					spritesObj.transform.localPosition = Vector3.zero;
-					if (PlayerManager.LocalPlayer)
+					if (LocalPlayerManager.LocalPlayer)
 					{
-						if (PlayerManager.LocalPlayer == gameObject)
+						if (LocalPlayerManager.LocalPlayer == gameObject)
 						{
 							CmdRequestInputActivation(); // Ask server if you can move again after melee attack
 						}

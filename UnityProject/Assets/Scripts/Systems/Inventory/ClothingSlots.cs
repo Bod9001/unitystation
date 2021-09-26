@@ -29,7 +29,7 @@ namespace Clothing
 			//Wearing
 			if (info.ToSlot?.NamedSlot != null)
 			{
-				ItemStorage = info.ToRootPlayer?.PlayerScript.DynamicItemStorage;
+				ItemStorage = info.ToRootPlayer.DynamicItemStorage;
 
 				if (ItemStorage != null &&
 				    NamedSlotFlagged.HasFlag(
@@ -43,7 +43,7 @@ namespace Clothing
 			//taking off
 			if (info.FromSlot?.NamedSlot != null)
 			{
-				ItemStorage = info.FromRootPlayer?.PlayerScript.DynamicItemStorage;
+				ItemStorage = info.FromRootPlayer.DynamicItemStorage;
 
 				if (ItemStorage != null &&
 				    NamedSlotFlagged.HasFlag(

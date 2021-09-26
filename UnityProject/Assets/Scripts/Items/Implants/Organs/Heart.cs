@@ -81,9 +81,9 @@ public class Heart : Organ
 		base.InternalDamageLogic();
 		if(RelatedPart.CurrentInternalBleedingDamage > 50 && alarmedForInternalBleeding == false)
 		{
-			Chat.AddActionMsgToChat(RelatedPart.HealthMaster.gameObject,
+			Chat.AddActionMsgToChat(MindManager.StaticGet(RelatedPart.HealthMaster.gameObject),
 			$"You feel a sharp pain in your {RelatedPart.gameObject.ExpensiveName()}!",
-			$"{RelatedPart.HealthMaster.playerScript.visibleName} holds their {RelatedPart.gameObject.ExpensiveName()} in pain!");
+			$"{MindManager.StaticGet(RelatedPart.HealthMaster.gameObject)} holds their {RelatedPart.gameObject.ExpensiveName()} in pain!");
 			alarmedForInternalBleeding = true;
 		}
 		if(RelatedPart.CurrentInternalBleedingDamage > RelatedPart.MaximumInternalBleedDamage)

@@ -35,11 +35,11 @@ namespace Items.Magical
 		private HasNetworkTabItem netTab;
 
 		// Registered to the first player to have this in their inventory.
-		private PlayerScript registeredPlayerScript;
+		private Mind registeredMind;
 
 		public int Points => points;
 		public SpellBookData Data => data;
-		public bool IsRegistered => registeredPlayerScript != null;
+		public bool IsRegistered => registeredMind != null;
 
 		private void Awake()
 		{
@@ -49,18 +49,18 @@ namespace Items.Magical
 		public void OnInventoryMoveServer(InventoryMove info)
 		{
 			if (info.InventoryMoveType != InventoryMoveType.Add) return;
-			if (registeredPlayerScript != null) return; // Register to only the first player.
+			if (registeredMind != null) return; // Register to only the first player.
 
-			RegisterPlayer player = info.ToRootPlayer;
+			var player = info.ToRootPlayer;
 			if (player == null) return;
-			registeredPlayerScript = player.PlayerScript;
+			registeredMind = player;
 		}
 
 		public void LearnSpell(SpellBookSpell spellEntry)
 		{
 			if (spellEntry.Cost > Points) return;
 
-			ConnectedPlayer player = GetLastReader();
+			var player = GetLastReader();
 
 			int currentSpellTier = GetReaderSpellLevel(spellEntry.Spell);
 			if (currentSpellTier < spellEntry.Spell.TierCount)
@@ -69,22 +69,22 @@ namespace Items.Magical
 			}
 			else if (spellEntry.Spell.TierCount == 1)
 			{
-				Chat.AddExamineMsgFromServer(player.GameObject, "You already know this spell!");
+				Chat.AddExamineMsgFromServer(player, "You already know this spell!");
 			}
 			else
 			{
-				Chat.AddExamineMsgFromServer(player.GameObject, "You can't upgrade this spell any further!");
+				Chat.AddExamineMsgFromServer(player, "You can't upgrade this spell any further!");
 			}
 		}
 
-		private void LearnSpell(ConnectedPlayer player, SpellBookSpell spellEntry)
+		private void LearnSpell(Mind player, SpellBookSpell spellEntry)
 		{
 			points -= spellEntry.Cost;
 
-			SoundManager.PlayNetworkedAtPos(learningSound, player.Script.WorldPos, sourceObj: player.GameObject);
-			Chat.AddChatMsgToChat(player, spellEntry.Incantation, ChatChannel.Local, Loudness.SCREAMING);
+			SoundManager.PlayNetworkedAtPos(learningSound, player.BodyWorldPosition, sourceObj: player.GameObjectBody);
+			Chat.AddChatMsgToChat(player.AssignedPlayer, spellEntry.Incantation, ChatChannel.Local, Loudness.SCREAMING);
 
-			Spell spellInstance = player.Script.mind.GetSpellInstance(spellEntry.Spell);
+			Spell spellInstance = player.GetSpellInstance(spellEntry.Spell);
 
 			if (spellInstance != null)
 			{
@@ -92,8 +92,8 @@ namespace Items.Magical
 			}
 			else
 			{
-				Spell spell = spellEntry.Spell.AddToPlayer(player.Script);
-				player.Script.mind.AddSpell(spell);
+				Spell spell = spellEntry.Spell.AddToPlayer(player);
+				player.AddSpell(spell);
 			}
 		}
 
@@ -101,12 +101,12 @@ namespace Items.Magical
 		{
 			if (artifactEntry.Cost > Points) return;
 
-			var playerScript = GetLastReader().Script;
-			var spawnResult = Spawn.ServerPrefab(dropPodPrefab, playerScript.WorldPos);
+			var playerScript = GetLastReader();
+			var spawnResult = Spawn.ServerPrefab(dropPodPrefab, playerScript.BodyWorldPosition);
 			if (spawnResult.Successful)
 			{
 				points -= artifactEntry.Cost;
-				SoundManager.PlayNetworkedAtPos(summonItemSound, playerScript.WorldPos, sourceObj: playerScript.gameObject);
+				SoundManager.PlayNetworkedAtPos(summonItemSound, playerScript.BodyWorldPosition, sourceObj: playerScript.gameObject);
 
 				var closetControl = spawnResult.GameObject.GetComponent<ClosetControl>();
 
@@ -126,20 +126,20 @@ namespace Items.Magical
 		{
 			if (ritualEntry.Cost > Points) return;
 
-			ConnectedPlayer player = GetLastReader();
+			Mind player = GetLastReader();
 
 			if (ritualEntry.InvocationMessage != default)
 			{
-				Chat.AddChatMsgToChat(player, ritualEntry.InvocationMessage, ChatChannel.Local, Loudness.LOUD);
+				Chat.AddChatMsgToChat(player.AssignedPlayer, ritualEntry.InvocationMessage, ChatChannel.Local, Loudness.LOUD);
 			}
 
 			if (ritualEntry.CastSound != default)
 			{
-				SoundManager.PlayNetworkedAtPos(ritualEntry.CastSound, player.Script.WorldPos, sourceObj: player.GameObject);
+				SoundManager.PlayNetworkedAtPos(ritualEntry.CastSound, player.BodyWorldPosition, sourceObj: player.GameObjectBody);
 			}
 
 			InGameEventsManager.Instance.TriggerSpecificEvent(ritualEntry.EventIndex, ritualEntry.EventType,
-				adminName: $"[Wizard] {player.Username}, {player.Name}", announceEvent: false);
+				adminName: $"[Wizard] {player.AssignedPlayer.Username}, {player.CharactersName}", announceEvent: false);
 
 			points -= ritualEntry.Cost;
 		}
@@ -148,9 +148,9 @@ namespace Items.Magical
 
 		public string Examine(Vector3 worldPos = default)
 		{
-			if (registeredPlayerScript != null)
+			if (registeredMind != null)
 			{
-				return $"There is a small signature on the front cover: {registeredPlayerScript.playerName}.";
+				return $"There is a small signature on the front cover: {registeredMind.CharactersName}.";
 			}
 
 			return "It appears to have no owner.";
@@ -161,7 +161,7 @@ namespace Items.Magical
 			if (!DefaultWillInteract.Default(interaction, side)) return false;
 
 			// Return true to stop NetTab interaction.
-			return IsRegistered || (isForWizardsOnly && !IsWizard(interaction.Performer.Player()));
+			return IsRegistered || (isForWizardsOnly && !IsWizard(interaction.Performer));
 		}
 
 		public void ServerPerformInteraction(HandActivate interaction)
@@ -172,14 +172,14 @@ namespace Items.Magical
 
 		#endregion Interaction
 
-		private bool IsWizard(ConnectedPlayer player)
+		private bool IsWizard(Mind player)
 		{
-			return player.Script.mind.IsOfAntag<Antagonists.Wizard>();
+			return player.IsOfAntag<Antagonists.Wizard>();
 		}
 
 		public Spell GetReaderSpellInstance(SpellData spell)
 		{
-			return GetLastReader().Script.mind.GetSpellInstance(spell);
+			return GetLastReader().GetSpellInstance(spell);
 		}
 
 		public int GetReaderSpellLevel(SpellData spell)
@@ -197,7 +197,7 @@ namespace Items.Magical
 		{
 			foreach (SpellBookSpell entry in spell.ConflictsWith)
 			{
-				if (GetLastReader().Script.mind.Spells.Any(s => s.SpellData == entry.Spell)) return true;
+				if (GetLastReader().Spells.Any(s => s.SpellData == entry.Spell)) return true;
 			}
 
 			return false;
@@ -205,9 +205,9 @@ namespace Items.Magical
 		/// <summary>
 		/// Gets the latest player to interact with tab.
 		/// </summary>
-		public ConnectedPlayer GetLastReader()
+		public Mind GetLastReader()
 		{
-			return netTab.LastInteractedPlayer().Player();
+			return netTab.LastInteractedPlayer();
 		}
 	}
 }

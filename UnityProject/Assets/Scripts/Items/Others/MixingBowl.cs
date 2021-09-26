@@ -1,7 +1,7 @@
 ﻿using Mirror;
 public class MixingBowl : NetworkBehaviour, IServerInventoryMove
 {
-	public RegisterPlayer playerHolding;
+	public Mind playerHolding;
 	public ItemSlot currentSlot;
 	public void OnInventoryMoveServer(InventoryMove info)
 	{

@@ -18,7 +18,7 @@ namespace UI.AdminTools
 
 			RequestRespawnPlayer.SendAntagRespawn(
 				ServerData.UserID,
-				PlayerList.Instance.AdminToken,
+				PlayersManager.Instance.AdminToken,
 				PlayerEntry.PlayerData.uid,
 				antag);
 		}

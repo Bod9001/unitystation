@@ -20,6 +20,8 @@ namespace UI.Items
 		private float healthCache;
 		private Vector3Int positionCache;
 
+		public Mind LocalMind;
+
 		[SerializeField]
 		private ActionData actionData = null;
 
@@ -49,7 +51,7 @@ namespace UI.Items
 
 		private void DetermineAlertUI()
 		{
-			if (thisPlayerScript != PlayerManager.PlayerScript) return;
+			if (MindManager.Instance.Get(gameObject) != LocalPlayerManager.CurrentMind) return;
 
 			UIActionManager.ToggleLocal(this, GameObjectReference != null);
 		}
@@ -60,38 +62,38 @@ namespace UI.Items
 				StopCoroutine(uncuffCoroutine);
 
 			float resistTime = GameObjectReference.GetComponent<Restraint>().ResistTime;
-			healthCache = thisPlayerScript.playerHealth.OverallHealth;
-			positionCache = thisPlayerScript.registerTile.LocalPositionServer;
+			healthCache = LocalMind.LivingHealthMasterBase.OverallHealth;
+			positionCache = LocalMind.registerTile.LocalPositionServer;
 			if (!CanUncuff()) return;
 
 			var bar = StandardProgressAction.Create(new StandardProgressActionConfig(StandardProgressActionType.Unbuckle, false, false, true), TryUncuff);
-			bar.ServerStartProgress(thisPlayerScript.registerTile, resistTime, thisPlayerScript.gameObject);
+			bar.ServerStartProgress(LocalMind.registerTile, resistTime, LocalMind);
 			Chat.AddActionMsgToChat(
-				thisPlayerScript.gameObject,
+				LocalMind,
 				$"You are attempting to remove the cuffs. This takes up to {resistTime:0} seconds",
-				thisPlayerScript.playerName + " is attempting to remove their cuffs");
+				LocalMind.ExpensiveName() + " is attempting to remove their cuffs");
 		}
 
 		private void TryUncuff()
 		{
 			if (CanUncuff())
 			{
-				thisPlayerScript.playerMove.Uncuff();
-				Chat.AddActionMsgToChat(thisPlayerScript.gameObject, "You have successfully removed the cuffs",
-					thisPlayerScript.playerName + " has removed their cuffs");
+				LocalMind.PlayerMove.Uncuff();
+				Chat.AddActionMsgToChat(LocalMind, "You have successfully removed the cuffs",
+					LocalMind.ExpensiveName() + " has removed their cuffs");
 			}
 		}
 
 		private bool CanUncuff()
 		{
-			PlayerHealthV2 playerHealth = thisPlayerScript.playerHealth;
+			var playerHealth = LocalMind.LivingHealthMasterBase;
 
 			if (playerHealth == null ||
 				playerHealth.ConsciousState == ConsciousState.DEAD ||
 				playerHealth.ConsciousState == ConsciousState.UNCONSCIOUS ||
 				playerHealth.OverallHealth != healthCache ||
-				thisPlayerScript.registerTile.IsSlippingServer ||
-				positionCache != thisPlayerScript.registerTile.LocalPositionServer)
+				(LocalMind.registerTile as RegisterPlayer).IsSlippingServer ||
+				positionCache != LocalMind.registerTile.LocalPositionServer)
 			{
 				return false;
 			}
@@ -101,7 +103,7 @@ namespace UI.Items
 
 		public void CallActionClient()
 		{
-			PlayerManager.PlayerScript.playerNetworkActions.CmdTryUncuff();
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdTryUncuff();
 		}
 	}
 }

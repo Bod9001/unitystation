@@ -12,8 +12,8 @@ namespace UI.Action
 
 		public void OnInventoryMoveClient(ClientInventoryMove info)
 		{
-			if (PlayerManager.LocalPlayerScript == null) return;
-			var pna = PlayerManager.LocalPlayerScript.playerNetworkActions;
+			if (LocalPlayerManager.CurrentMind == null) return;
+			var pna = LocalPlayerManager.CurrentMind.playerNetworkActions;
 			bool showAlert = false;
 			foreach (var itemSlot in pna.itemStorage.GetHandSlots())
 			{

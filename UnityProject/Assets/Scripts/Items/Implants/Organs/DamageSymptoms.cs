@@ -28,7 +28,7 @@ namespace HealthV2
 				{
 					if (severity.HealthPercentageAndBelow > CurrentHealthPercent)
 					{
-						Chat.AddExamineMsgFromServer(RelatedPart.HealthMaster.gameObject, severity.Affects.PickRandom());
+						Chat.AddExamineMsgFromServer(MindManager.StaticGet(RelatedPart.HealthMaster.gameObject), severity.Affects.PickRandom());
 						break;
 					}
 				}

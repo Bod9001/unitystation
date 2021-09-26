@@ -8,7 +8,7 @@ namespace Messages.Client.Addressable
 
 		public override void Process(NetMessage msg)
 		{
-			AddressableCatalogueManager.ClientRequestCatalogue(SentByPlayer.GameObject);
+			AddressableCatalogueManager.ClientRequestCatalogue(SentByPlayer);
 		}
 
 		public static NetMessage RequestCatalogue()

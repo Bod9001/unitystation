@@ -134,16 +134,16 @@ public class NetTab : Tab
 	protected virtual void InitServer() { }
 
 	// for server
-	public void AddPlayer(GameObject player)
+	public void AddPlayer(Mind player)
 	{
-		var newPeeper = PlayerList.Instance.Get(player);
+		var newPeeper = PlayersManager.Instance.Get(player);
 		Peepers.Add(newPeeper);
 		OnTabOpened.Invoke(newPeeper);
 	}
 
-	public void RemovePlayer(GameObject player)
+	public void RemovePlayer(Mind player)
 	{
-		var newPeeper = PlayerList.Instance.Get(player);
+		var newPeeper = PlayersManager.Instance.Get(player);
 		OnTabClosed.Invoke(newPeeper);
 		Peepers.Remove(newPeeper);
 	}
@@ -262,21 +262,21 @@ public class NetTab : Tab
 	{
 		foreach (var peeper in Peepers.ToArray())
 		{
-			bool canApply = Validations.CanApply(peeper.Script, Provider, NetworkSide.Server);
+			bool canApply = Validations.CanApply(peeper.CurrentMind, Provider, NetworkSide.Server);
 
-			if (peeper.Script == false || canApply == false)
+			if (peeper.CurrentMind == null || canApply == false)
 			{
 				//Validate for AI
-				if (peeper.Script.PlayerState == PlayerScript.PlayerStates.Ai)
+				if (peeper.CurrentMind.IsSilicon)
 				{
-					if (Validations.CanApply(new AiActivate(peeper.GameObject, null,
+					if (Validations.CanApply(new AiActivate(peeper.CurrentMind, null,
 						Provider, Intent.Help, AiActivate.ClickTypes.NormalClick), NetworkSide.Server))
 					{
 						continue;
 					}
 				}
 
-				TabUpdateMessage.Send(peeper.GameObject, Provider, Type, TabAction.Close);
+				TabUpdateMessage.Send(peeper.CurrentMind, Provider, Type, TabAction.Close);
 			}
 		}
 	}
@@ -286,9 +286,9 @@ public class NetTab : Tab
 		ControlTabs.CloseTab(Type, Provider);
 	}
 
-	public void ServerCloseTabFor(ConnectedPlayer player)
+	public void ServerCloseTabFor(Mind player)
 	{
-		TabUpdateMessage.Send(player.GameObject, Provider, Type, TabAction.Close);
+		TabUpdateMessage.Send(player, Provider, Type, TabAction.Close);
 	}
 
 	/// <summary>

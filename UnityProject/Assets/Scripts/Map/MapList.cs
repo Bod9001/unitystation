@@ -14,10 +14,10 @@ public class MapList
 
 	public string GetRandomMap()
 	{
-		var playerCount = PlayerList.LastRoundPlayerCount;
-		if (playerCount < PlayerList.Instance.ConnectionCount)
+		var playerCount = PlayersManager.LastRoundPlayerCount;
+		if (playerCount < PlayersManager.Instance.ConnectionCount)
 		{
-			playerCount = PlayerList.Instance.ConnectionCount;
+			playerCount = PlayersManager.Instance.ConnectionCount;
 		}
 
 		List<string> mapsToChooseFrom;

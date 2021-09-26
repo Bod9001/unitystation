@@ -26,39 +26,38 @@ namespace Messages.Client
 			var playerSlot = ItemSlot.Get(NetworkObjects[0].GetComponents<ItemStorage>()[msg.StorageIndexOnPlayer], msg.PlayerNamedSlot, msg.PlayerSlotIndex);
 			var targetSlot = ItemSlot.Get(NetworkObjects[1].GetComponents<ItemStorage>()[msg.StorageIndexOnGameObject], msg.TargetNamedSlot, msg.TargetSlotIndex);
 
-			var playerScript = SentByPlayer.Script;
-			var playerObject = playerScript.gameObject;
+			var playerObject = SentByPlayer.CurrentMind.GameObjectBody;
 			var targetObject = targetSlot.Player.gameObject;
 
 			if (msg.IsGhost)
 			{
-				if (playerScript.IsGhost && PlayerList.Instance.IsAdmin(playerScript.connectedPlayer.UserId))
+				if ( SentByPlayer.CurrentMind.IsGhosting && PlayersManager.Instance.IsAdmin(SentByPlayer.UserId))
 				{
 					FinishTransfer();
 				}
 				return;
 			}
 
-			if (!Validation(playerSlot, targetSlot, playerScript, targetObject, NetworkSide.Server, msg.IsGhost))
+			if (!Validation(playerSlot, targetSlot,  SentByPlayer.CurrentMind, targetObject, NetworkSide.Server, msg.IsGhost))
 				return;
 
 			int speed;
 			if (!targetSlot.IsEmpty)
 			{
-				Chat.AddActionMsgToChat(playerObject, $"You try to remove {targetObject.ExpensiveName()}'s {targetSlot.ItemObject.ExpensiveName()}...",
+				Chat.AddActionMsgToChat(SentByPlayer.CurrentMind, $"You try to remove {targetObject.ExpensiveName()}'s {targetSlot.ItemObject.ExpensiveName()}...",
 					$"{playerObject.ExpensiveName()} tries to remove {targetObject.ExpensiveName()}'s {targetSlot.ItemObject.ExpensiveName()}.");
 				speed = 3;
 			}
 			else if (playerSlot.IsOccupied)
 			{
-				Chat.AddActionMsgToChat(playerObject, $"You try to put the {playerSlot.ItemObject.ExpensiveName()} on {targetObject.ExpensiveName()}...",
+				Chat.AddActionMsgToChat(SentByPlayer.CurrentMind, $"You try to put the {playerSlot.ItemObject.ExpensiveName()} on {targetObject.ExpensiveName()}...",
 					$"{playerObject.ExpensiveName()} tries to put the {playerSlot.ItemObject.ExpensiveName()} on {targetObject.ExpensiveName()}.");
 				speed = 1;
 			}
 			else return;
 
 			var progressAction = StandardProgressAction.Create(new StandardProgressActionConfig(StandardProgressActionType.ItemTransfer), FinishTransfer);
-			progressAction.ServerStartProgress(targetObject.RegisterTile(), speed, playerObject);
+			progressAction.ServerStartProgress(targetObject.RegisterTile(), speed, SentByPlayer.CurrentMind);
 
 
 			void FinishTransfer()
@@ -81,11 +80,11 @@ namespace Messages.Client
 			}
 		}
 
-		private static bool Validation(ItemSlot playerSlot, ItemSlot targetSlot, PlayerScript playerScript, GameObject target, NetworkSide networkSide, bool isGhost)
+		private static bool Validation(ItemSlot playerSlot, ItemSlot targetSlot, Mind playerScript, GameObject target, NetworkSide networkSide, bool isGhost)
 		{
 			if (!playerSlot.IsEmpty && targetSlot.IsEmpty)
 			{
-				if(!Validations.CanFit(targetSlot, playerSlot.Item, NetworkSide.Client, examineRecipient: playerScript.gameObject))
+				if(!Validations.CanFit(targetSlot, playerSlot.Item, NetworkSide.Client, examineRecipient: playerScript))
 				{
 					return false;
 				}
@@ -99,7 +98,7 @@ namespace Messages.Client
 
 		public static void Send(ItemSlot playerSlot, ItemSlot targetSlot, bool isGhost)
 		{
-			if (!Validation(playerSlot, targetSlot, PlayerManager.LocalPlayerScript, targetSlot.Player.gameObject, NetworkSide.Client, isGhost))
+			if (!Validation(playerSlot, targetSlot, LocalPlayerManager.CurrentMind, targetSlot.Player.gameObject, NetworkSide.Client, isGhost))
 				return;
 
 			NetMessage msg = new NetMessage

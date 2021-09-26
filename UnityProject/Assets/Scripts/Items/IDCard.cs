@@ -106,7 +106,7 @@ public class IDCard : NetworkBehaviour, IServerInventoryMove, IServerSpawn, IInt
 				if (mind == null) return;
 				var occupation = mind.occupation;
 				if (occupation == null) return;
-				var charSettings = ps.characterSettings;
+				var charSettings = ps.mind.OriginalCharacter;
 				jobType = occupation.JobType;
 				if (jobType == JobType.CAPTAIN)
 				{

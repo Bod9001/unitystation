@@ -39,9 +39,9 @@ namespace Objects.Mining
 			laborPointsLabel.SetValueServer($"Unclaimed points: {laborPoints.ToString()}");
 		}
 
-		public void ClaimLaborPoints(ConnectedPlayer connectedPlayer)
+		public void ClaimLaborPoints(Mind connectedPlayer)
 		{
-			oreRedemptionMachine.ClaimLaborPoints(connectedPlayer.GameObject);
+			oreRedemptionMachine.ClaimLaborPoints(connectedPlayer);
 		}
 
 		public void LoadNearbyOres()

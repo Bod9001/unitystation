@@ -51,7 +51,7 @@ public class ConnectionApply : TargetedInteraction
 	/// <param name="endPoint">cable end connection</param>
 	/// <param name="worldPositionTarget">position of target tile (world space)</param>
 	/// <param name="handSlot">active hand slot that is being used</param>
-	private ConnectionApply(GameObject performer, GameObject handObject, GameObject targetObject, Connection startPoint, Connection endPoint, Vector2 targetVec,
+	private ConnectionApply(Mind performer, GameObject handObject, GameObject targetObject, Connection startPoint, Connection endPoint, Vector2 targetVec,
 		ItemSlot handSlot, Intent intent) :
 		base(performer, handObject, targetObject, intent)
 	{
@@ -71,17 +71,17 @@ public class ConnectionApply : TargetedInteraction
 	/// <returns></returns>
 	public static ConnectionApply ByLocalPlayer(GameObject targetObject, Connection wireEndA, Connection wireEndB, Vector2? targetVector)
 	{
-		if (PlayerManager.LocalPlayerScript.IsGhost) return Invalid;
+		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting) return Invalid;
 
-		var targetVec = targetVector ?? MouseUtils.MouseToWorldPos() - PlayerManager.LocalPlayer.transform.position;
+		var targetVec = targetVector ?? MouseUtils.MouseToWorldPos() - LocalPlayerManager.LocalPlayer.transform.position;
 
 		return new ConnectionApply(
-			PlayerManager.LocalPlayer,
-			PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject,
+			LocalPlayerManager.LocalPlayer.CurrentMind,
+			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject,
 			targetObject,
 			wireEndA,
 			wireEndB,
-			targetVec,PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot(),
+			targetVec,LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(),
 
 			UIManager.CurrentIntent
 		);
@@ -96,7 +96,7 @@ public class ConnectionApply : TargetedInteraction
 	/// <param name="worldPositionTarget">position of target tile (world space)</param>
 	/// <param name="handSlot">active hand slot that is being used</param>
 	/// <returns></returns>
-	public static ConnectionApply ByClient(GameObject clientPlayer, GameObject handObject, GameObject targetObject, Connection startPoint, Connection endPoint, Vector2 targetVec,
+	public static ConnectionApply ByClient(Mind clientPlayer, GameObject handObject, GameObject targetObject, Connection startPoint, Connection endPoint, Vector2 targetVec,
 		ItemSlot handSlot, Intent intent)
 	{
 		return new ConnectionApply(

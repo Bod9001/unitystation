@@ -102,8 +102,8 @@ namespace AdminTools
 			if(playerNotification != null){
 			foreach (var n in playerNotification?.notifications)
 			{
-				if (PlayerList.Instance.GetByUserID(n.Key) == null
-				    || PlayerList.Instance.GetByUserID(n.Key).Connection == null) continue;
+				if (PlayersManager.Instance.GetByUserID(n.Key) == null
+				    || PlayersManager.Instance.GetByUserID(n.Key).Connection == null) continue;
 
 				update.notificationEntries.Add(new AdminChatNotificationEntry
 				{
@@ -116,8 +116,8 @@ namespace AdminTools
 			if(mentorNotification != null){
 			foreach (var n in mentorNotification?.notifications)
 			{
-				if (PlayerList.Instance.GetByUserID(n.Key) == null
-				    || PlayerList.Instance.GetByUserID(n.Key).Connection == null) continue;
+				if (PlayersManager.Instance.GetByUserID(n.Key) == null
+				    || PlayersManager.Instance.GetByUserID(n.Key).Connection == null) continue;
 
 				update.notificationEntries.Add(new AdminChatNotificationEntry
 				{
@@ -130,8 +130,8 @@ namespace AdminTools
 			if(prayerNotification != null) {
 			foreach (var n in prayerNotification?.notifications)
 			{
-				if (PlayerList.Instance.GetByUserID(n.Key) == null
-				    || PlayerList.Instance.GetByUserID(n.Key).Connection == null) continue;
+				if (PlayersManager.Instance.GetByUserID(n.Key) == null
+				    || PlayersManager.Instance.GetByUserID(n.Key).Connection == null) continue;
 
 				update.notificationEntries.Add(new AdminChatNotificationEntry
 				{

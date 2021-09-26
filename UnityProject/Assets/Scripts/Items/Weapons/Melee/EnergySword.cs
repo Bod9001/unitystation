@@ -127,7 +127,7 @@ public class EnergySword : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 		SoundManager.PlayNetworkedAtPos(
 			isActivated ? saberon : saberoff, gameObject.AssumedWorldPosServer());
 
-		PlayerAppearanceMessage.SendToAll(interaction.Performer, (int)interaction.HandSlot.NamedSlot.GetValueOrDefault(NamedSlot.none), gameObject);
+		PlayerAppearanceMessage.SendToAll(interaction.Performer.Equipment.gameObject, (int)interaction.HandSlot.NamedSlot.GetValueOrDefault(NamedSlot.none), gameObject);
 	}
 
 	#endregion Interaction-ToggleState
@@ -164,7 +164,7 @@ public class EnergySword : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 		AdjustColor(interaction.UsedObject, interaction.Performer);
 	}
 
-	private void AdjustColor(GameObject usedObject, GameObject performer)
+	private void AdjustColor(GameObject usedObject, Mind performer)
 	{
 		if (isActivated)
 		{

@@ -20,7 +20,7 @@ public class HitIcon : MonoBehaviour
 	/// </summary>
 	/// <param name="dir">direction of the animation in world space</param>
 	/// <param name="sprite">sprite to show</param>
-	public void ShowHitIcon(Vector2 dir, SpriteRenderer sourceSpriteRenderer, PlayerScript playerScript)
+	public void ShowHitIcon(Vector2 dir, SpriteRenderer sourceSpriteRenderer)
 	{
 		lerpFrom = transform.localPosition + (Vector3)(dir * 0.75f);
 		lerpTo = transform.localPosition + (Vector3)(dir);

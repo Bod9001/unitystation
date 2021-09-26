@@ -15,7 +15,7 @@ namespace Messages.Server.VariableViewer
 			UIManager.Instance.UI_BooksInBookshelf.ValueSetUp( msg.BookShelf);
 		}
 
-		public static NetMessage Send(Librarian.Library.LibraryBookShelf _BookShelf, GameObject ToWho)
+		public static NetMessage Send(Librarian.Library.LibraryBookShelf _BookShelf, ConnectedPlayer ToWho)
 		{
 			NetMessage msg = new NetMessage()
 			{

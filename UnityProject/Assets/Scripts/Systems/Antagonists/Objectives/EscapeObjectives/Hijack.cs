@@ -14,20 +14,20 @@ namespace Antagonists
 		/// The shuttles that will be checked for this objective
 		/// </summary>
 		private List<EscapeShuttle> ValidShuttles = new List<EscapeShuttle>();
-		
+
 		/// <summary>
 		/// Number of players needed in game for the objective to be possible
 		/// </summary>
 		[SerializeField]
 		private int numberOfPlayersRequired = 20;
-		
+
 		/// <summary>
 		/// If the objective allowed to be given to the antag
 		/// </summary>
-		protected override bool IsPossibleInternal(PlayerScript candidate)
+		protected override bool IsPossibleInternal(Mind candidate)
 		{
 			if ((GameManager.Instance.CurrentRoundState == RoundState.PreRound ?
-				    PlayerList.Instance.ReadyPlayers.Count : PlayerList.Instance.InGamePlayers.Count)
+				    PlayersManager.Instance.ReadyPlayers.Count : PlayersManager.Instance.InGamePlayers.Count)
 			    >= numberOfPlayersRequired)
 			{
 				return true;
@@ -51,28 +51,28 @@ namespace Antagonists
 		protected override bool CheckCompletion()
 		{
 			//Must be alive
-			if (Owner.body.IsDeadOrGhost)
+			if (Owner.LivingHealthMasterBase.IsDead)
 			{
 				return false;
 			}
 
 			//Shuttle must be functional and player be on it
 			if (!ValidShuttles.Any( shuttle => shuttle.MatrixInfo != null
-				&& Owner.body.registerTile.Matrix.Id == shuttle.MatrixInfo.Id && shuttle.HasWorkingThrusters))
+				&& Owner.registerTile.Matrix.Id == shuttle.MatrixInfo.Id && shuttle.HasWorkingThrusters))
 			{
 				return false;
 			}
 
 			//Be the only alive player on shuttle
-			foreach (var player in PlayerList.Instance.InGamePlayers)
+			foreach (var player in PlayersManager.Instance.InGamePlayers)
 			{
 				//Dont check dead, ghosts or self
-				if(player.Script.IsDeadOrGhost || player.Script == Owner.body) continue;
+				if(player.CurrentMind.LivingHealthMasterBase.IsDead || player.CurrentMind == Owner) continue;
 
 				//TODO add check to ignore alive ghost critters, eg drones
 
 				//The other players must not be on same shuttle to pass checks
-				if (player.Script.registerTile.Matrix.Id == Owner.body.registerTile.Matrix.Id)
+				if (player.CurrentMind.registerTile.Matrix.Id == Owner.registerTile.Matrix.Id)
 				{
 					return false;
 				}

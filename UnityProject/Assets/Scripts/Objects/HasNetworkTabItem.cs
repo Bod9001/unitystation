@@ -13,12 +13,12 @@ namespace Items
 		/// </summary>
 		[Tooltip("Network tab to display.")] public NetTabType NetTabType = NetTabType.None;
 
-		[NonSerialized] private GameObject playerInteracted;
+		[NonSerialized] private Mind playerInteracted;
 
 		/// <summary>
 		/// This method simply tells the script what player last interacted, giving an reference to their gameobject
 		/// </summary>
-		public GameObject LastInteractedPlayer()
+		public Mind LastInteractedPlayer()
 		{
 			return playerInteracted;
 		}

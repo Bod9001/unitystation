@@ -27,7 +27,7 @@ namespace Items.Cargo
 		/// </summary>
 		/// <param name="performer"></param>
 		/// <param name="text"></param>
-		private void AttachNote(GameObject performer, string text)
+		private void AttachNote(Mind performer, string text)
 		{
 			if (noteText.IsNullOrEmpty() == false && performer != null)
 			{
@@ -38,7 +38,7 @@ namespace Items.Cargo
 			ServerSetNoteText(text);
 		}
 
-		private void DetachNote(GameObject performer)
+		private void DetachNote(Mind performer)
 		{
 			var note = Spawn.ServerPrefab(paperPrefab, gameObject.AssumedWorldPosServer()).GameObject;
 			note.GetComponent<Paper>().SetServerString(noteText);

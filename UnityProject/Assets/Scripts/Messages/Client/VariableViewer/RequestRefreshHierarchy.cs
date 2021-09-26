@@ -20,10 +20,10 @@ namespace Messages.Client.VariableViewer
 
 		void ValidateAdmin(NetMessage msg)
 		{
-			var admin = PlayerList.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
+			var admin = PlayersManager.Instance.GetAdmin(msg.AdminId, msg.AdminToken);
 			if (admin == null) return;
 
-			global::VariableViewer.RequestHierarchy(SentByPlayer.GameObject);
+			global::VariableViewer.RequestHierarchy(SentByPlayer);
 
 		}
 

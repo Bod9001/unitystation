@@ -55,7 +55,7 @@ namespace Items.Cargo.Wrapping
 			SoundManager.PlayNetworkedAtPos(alternativeUnwrapSound != null ? alternativeUnwrapSound : CommonSounds.Instance.PosterRipped, gameObject.AssumedWorldPosServer());
 		}
 
-		protected void StartUnwrapAction(GameObject performer)
+		protected void StartUnwrapAction(Mind performer)
 		{
 			var cfg = new StandardProgressActionConfig(
 				StandardProgressActionType.Restrain);
@@ -66,7 +66,7 @@ namespace Items.Cargo.Wrapping
 				string.Format(othersUnwrapText, performer.ExpensiveName(), gameObject.ExpensiveName()));
 
 			StandardProgressAction.Create(cfg, UnWrap)
-				.ServerStartProgress(ActionTarget.Object(performer.RegisterTile()), timeToUnwrap, performer);
+				.ServerStartProgress(ActionTarget.Object(performer.registerTile), timeToUnwrap, performer);
 		}
 
 		protected abstract void UnWrap();

@@ -204,7 +204,7 @@ namespace Systems.MobAIs
 
 				if (food != null)
 				{
-					food.TryConsume(gameObject);
+					//food.TryConsume(gameObject);
 				}
 			}
 		}

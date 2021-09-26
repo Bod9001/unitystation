@@ -22,7 +22,7 @@ namespace Messages.Server.AdminTools
 
 		}
 
-		public static NetMessage Send(GameObject recipient)
+		public static NetMessage Send(ConnectedPlayer recipient)
 		{
 			var profileList = new ProfileEntryDataList();
 			profileList.Profiles = GetAllProfiles();
@@ -37,10 +37,10 @@ namespace Messages.Server.AdminTools
 
 		public static void SendToApplicable()
 		{
-			var adminList = PlayerList.Instance.GetAllAdmins();
+			var adminList = PlayersManager.Instance.GetAllAdmins();
 			foreach (var admin in adminList)
 			{
-				Send(admin.GameObject);
+				Send(admin);
 			}
 		}
 

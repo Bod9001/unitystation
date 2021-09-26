@@ -110,7 +110,7 @@ namespace Objects
 			massDriverOperating = true;
 			UpdateSpriteOutletState();
 			//detect players positioned on the mass driver
-			var playersFound = Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer, ObjectType.Player, true);
+			var playersFound = Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer, FlagsObjectType.Player, true);
 
 			var throwVector = orientation.Vector;
 
@@ -120,13 +120,13 @@ namespace Objects
 				PushPlayer(player, throwVector);
 			}
 
-			foreach (var objects in Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer, ObjectType.Object, true))
+			foreach (var objects in Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer, FlagsObjectType.Object, true))
 			{
 				// Objects cannot currently be thrown, so just push them in the direction for now.
 				PushObject(objects, throwVector);
 			}
 
-			foreach (var item in Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer, ObjectType.Item, true))
+			foreach (var item in Matrix.Get<ObjectBehaviour>(registerTile.LocalPositionServer, FlagsObjectType.Item, true))
 			{
 				ThrowItem(item, throwVector);
 			}

@@ -20,39 +20,39 @@ namespace Systems.Teleport
 		/// <returns>TeleportInfo, with name, position and object</returns>
 		public static IEnumerable<TeleportInfo> GetMobDestinations()
 		{
-			var playerBodies = UnityEngine.Object.FindObjectsOfType(typeof(PlayerScript));
+			var minds = MindManager.Instance.PresentMinds;
 
-			if (playerBodies == null)//If list of PlayerScripts is empty dont run rest of code.
+			if (minds == null)//If list of PlayerScripts is empty dont run rest of code.
 			{
 				yield break;
 			}
 
-			foreach (PlayerScript player in playerBodies)
+			foreach (Mind player in minds)
 			{
-				if (player == PlayerManager.LocalPlayerScript)
+				if (player == LocalPlayerManager.CurrentMind)
 				{
 					continue;
 				}
 
 				//Gets Name of Player
-				string nameOfObject = player.name;
+				string nameOfObject = player.ExpensiveName();
 
-				if (player.gameObject.name.Length == 0 || player.gameObject.name == null)
+				if (player.GameObjectBody.name.Length == 0 || player.GameObjectBody.name == null)
 				{
 					nameOfObject = "Spectator";
 				}
 
 				string status;
 				//Gets Status of Player
-				if (player.IsGhost)
+				if (player.IsGhosting)
 				{
 					status = "(Ghost)";
 				}
-				else if (!player.IsGhost & player.playerHealth.IsDead)
+				else if (!player.IsGhosting & player.LivingHealthMasterBase.IsDead)
 				{
 					status = "(Dead)";
 				}
-				else if (!player.IsGhost)
+				else if (!player.IsGhosting)
 				{
 					status = "(Alive)";
 				}
@@ -107,7 +107,7 @@ namespace Systems.Teleport
 		/// <returns>TeleportInfo, with name, position and object</returns>
 		public static IEnumerable<TeleportInfo> GetCameraDestinations()
 		{
-			if (PlayerManager.LocalPlayer.TryGetComponent<AiPlayer>(out var aiPlayer) == false) yield break;
+			if (LocalPlayerManager.LocalPlayer.TryGetComponent<AiPlayer>(out var aiPlayer) == false) yield break;
 
 			var securityCameras = UnityEngine.Object.FindObjectsOfType<SecurityCamera>();
 
@@ -142,20 +142,20 @@ namespace Systems.Teleport
 		/// <returns>TeleportInfo, with name, position and object</returns>
 		public static IEnumerable<TeleportInfo> GetCameraTrackPlayerDestinations()
 		{
-			if (PlayerManager.LocalPlayer.TryGetComponent<AiPlayer>(out var aiPlayer) == false) yield break;
+			if (LocalPlayerManager.LocalPlayer.TryGetComponent<AiPlayer>(out var aiPlayer) == false) yield break;
 
 			//Check for players
-			var playerScripts = UnityEngine.Object.FindObjectsOfType<PlayerScript>();
+			var minds = MindManager.Instance.PresentMinds;
 
-			if (playerScripts != null)
+			if (minds != null)
 			{
-				foreach (var playerScript in playerScripts)
+				foreach (var mind in minds)
 				{
-					if(aiPlayer.CanSeeObject(playerScript.gameObject) == null) continue;
+					if(aiPlayer.CanSeeObject(mind.GameObjectBody) == null) continue;
 
-					var placePosition = playerScript.transform.position;// Only way to get position of this object.
+					var placePosition = mind.BodyWorldPosition;
 
-					var teleportInfo = new TeleportInfo(playerScript.gameObject.ExpensiveName(), placePosition.CutToInt(), playerScript.gameObject);
+					var teleportInfo = new TeleportInfo(mind.ExpensiveName(), placePosition.CutToInt(), mind.GameObjectBody);
 
 					yield return teleportInfo;
 				}
@@ -182,7 +182,7 @@ namespace Systems.Teleport
 		public static void TeleportLocalGhostTo(TeleportInfo teleportInfo)
 		{
 			var latestPosition = teleportInfo.gameObject.transform.position;
-			var playerPosition = PlayerManager.LocalPlayer.gameObject.GetComponent<RegisterTile>().WorldPositionClient;//Finds current player coords
+			var playerPosition = LocalPlayerManager.LocalPlayer.gameObject.GetComponent<RegisterTile>().WorldPositionClient;//Finds current player coords
 
 			if (latestPosition != playerPosition)//Spam Prevention
 			{
@@ -192,7 +192,7 @@ namespace Systems.Teleport
 
 		public static void TeleportLocalGhostTo(Vector3 vector)
 		{
-			PlayerManager.LocalPlayerScript.playerNetworkActions.CmdGhostPerformTeleport(vector);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdGhostPerformTeleport(vector);
 		}
 
 		/// <summary>
@@ -206,10 +206,10 @@ namespace Systems.Teleport
 		/// <param name="tryAvoidImpassable">Like tryAvoidSpace, but checks to see if the tile is passable (not a wall, machine).</param>
 		/// <returns>The teleported object's new position.</returns>
 		public static Vector3Int ServerTeleportRandom(
-				GameObject objectToTeleport, int minRadius = 0, int maxRadius = 16,
+				Mind objectToTeleport, int minRadius = 0, int maxRadius = 16,
 				bool tryAvoidSpace = false, bool tryAvoidImpassable = false)
 		{
-			Vector3Int originalPosition = objectToTeleport.RegisterTile().WorldPositionServer;
+			Vector3Int originalPosition = objectToTeleport.registerTile.WorldPositionServer;
 			Vector3Int newPosition = GetTeleportPos(originalPosition, minRadius, maxRadius, tryAvoidSpace, tryAvoidImpassable);
 
 			if (objectToTeleport.TryGetComponent(out CustomNetTransform netTransform))

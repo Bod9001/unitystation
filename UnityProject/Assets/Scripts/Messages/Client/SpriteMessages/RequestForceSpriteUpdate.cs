@@ -21,7 +21,7 @@ public class RequestForceSpriteUpdate : ClientMessage<RequestForceSpriteUpdate.N
 	{
 		//TODO Need some safeguards
 		LoadNetworkObject(msg.SpriteHandlerManager);
-		if (SentByPlayer == ConnectedPlayer.Invalid)
+		if (SentByPlayer == PlayersManager.InvalidPlayer)
 			return;
 		if (NetworkObject == null) return;
 		var spriteHandlerManager = NetworkObject.GetComponent<SpriteHandlerManager>();

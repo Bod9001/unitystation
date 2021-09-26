@@ -41,7 +41,7 @@ public class PositionalHandApply : BodyPartTargetedInteraction
 	/// <param name="targetVector">vector pointing from performer position to the spot they are targeting</param>
 	/// <param name="targetObject">Object that the player clicked on</param>
 	/// <param name="handSlot">active hand slot that is being used.</param>
-	private PositionalHandApply(GameObject performer, GameObject handObject, GameObject targetObject, Vector2 targetVector,
+	private PositionalHandApply(Mind performer, GameObject handObject, GameObject targetObject, Vector2 targetVector,
 		ItemSlot handSlot, Intent intent, BodyPartType targetBodyPart) :
 		base(performer, handObject, targetObject, targetBodyPart, intent)
 	{
@@ -58,16 +58,16 @@ public class PositionalHandApply : BodyPartTargetedInteraction
 	/// <returns></returns>
 	public static PositionalHandApply ByLocalPlayer(GameObject targetObject, Vector2? targetVector = null)
 	{
-		if (PlayerManager.LocalPlayerScript.IsGhost)
+		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
 		{
 			return Invalid;
 		}
-		var targetVec = targetVector ?? MouseUtils.MouseToWorldPos() - PlayerManager.LocalPlayer.transform.position;
-		return new PositionalHandApply(PlayerManager.LocalPlayer,
-			PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot()?.ItemObject,
+		var targetVec = targetVector ?? MouseUtils.MouseToWorldPos() - LocalPlayerManager.LocalPlayer.transform.position;
+		return new PositionalHandApply(LocalPlayerManager.LocalPlayer.CurrentMind,
+			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot()?.ItemObject,
 			targetObject,
 			targetVec,
-			PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot(), UIManager.CurrentIntent, UIManager.DamageZone);
+			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(), UIManager.CurrentIntent, UIManager.DamageZone);
 	}
 
 	/// <summary>
@@ -83,7 +83,7 @@ public class PositionalHandApply : BodyPartTargetedInteraction
 	/// it doesn't need to be looked up again, since it already should've been looked up in
 	/// the message processing logic. Should match SentByPlayer.Script.playerNetworkActions.activeHand.</param>
 	/// <returns>a hand apply by the client, targeting the specified object with the item in the active hand</returns>
-	public static PositionalHandApply ByClient(GameObject clientPlayer, GameObject handObject, GameObject targetObject,
+	public static PositionalHandApply ByClient(Mind clientPlayer, GameObject handObject, GameObject targetObject,
 		Vector2 targetVector,
 		ItemSlot handSlot, Intent intent, BodyPartType targetBodyPart)
 	{

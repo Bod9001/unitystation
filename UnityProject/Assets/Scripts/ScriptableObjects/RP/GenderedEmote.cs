@@ -8,14 +8,14 @@ namespace ScriptableObjects.RP
 	{
 		private string viewTextFinal;
 
-		public override void Do(GameObject player)
+		public override void Do(Mind player)
 		{
 			HealthCheck(player);
 			Chat.AddActionMsgToChat(player, $"{youText}", $"{player.ExpensiveName()} {viewTextFinal}.");
 			PlayAudio(GetBodyTypeAudio(player), player);
 		}
 
-		private void HealthCheck(GameObject player)
+		private void HealthCheck(Mind player)
 		{
 			bool playerCondition = CheckPlayerCritState(player);
 

@@ -15,7 +15,7 @@ namespace Messages.Client.GhostRoles
 
 		public override void Process(NetMessage msg)
 		{
-			GhostRoleManager.Instance.ServerGhostRequestRole(SentByPlayer, msg.roleID);
+			GhostRoleManager.Instance.ServerGhostRequestRole(SentByPlayer.CurrentMind, msg.roleID);
 		}
 
 		/// <summary>

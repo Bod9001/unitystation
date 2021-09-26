@@ -134,9 +134,9 @@ namespace DatabaseAPI
 
 			status.GameMode = GameManager.Instance.GetGameModeName();
 			status.IngameTime = GameManager.Instance.roundTimer.text;
-			if (PlayerList.Instance != null)
+			if (PlayersManager.Instance != null)
 			{
-				status.PlayerCount = PlayerList.Instance.ConnectionCount;
+				status.PlayerCount = PlayersManager.Instance.ConnectionCount;
 			}
 			status.ServerIP = publicIP;
 			status.ServerPort = GetPort();

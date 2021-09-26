@@ -45,7 +45,7 @@ public class PlayerExaminationMessage : ServerMessage<PlayerExaminationMessage.N
 		else
 			UIManager.PlayerExaminationWindow.CloseWindow();
 	}
-	public static void Send(GameObject recipient, ExaminablePlayer examinablePlayer, bool observed)
+	public static void Send(ConnectedPlayer recipient, ExaminablePlayer examinablePlayer, bool observed)
 	{
 
 		var msg = new NetMessage()

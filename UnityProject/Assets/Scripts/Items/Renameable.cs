@@ -63,7 +63,7 @@ public class Renameable : NetworkBehaviour, ICheckedInteractable<HandActivate>, 
 			return true;
 		}
 
-		if (!ps.IsRegisterTileReachable(cnt.RegisterTile, side == NetworkSide.Server))
+		if (!Validations.IsReachableByRegisterTiles(interaction.Performer.registerTile, cnt.RegisterTile, side == NetworkSide.Server))
 		{
 
 			return false;
@@ -94,7 +94,7 @@ public class Renameable : NetworkBehaviour, ICheckedInteractable<HandActivate>, 
 		InteractionUtils.RequestInteract(HandActivate.ByLocalPlayer(), this);
 	}
 
-	private void OpenRenameDialog(GameObject player)
+	private void OpenRenameDialog(Mind player)
 	{
 		TabUpdateMessage.Send(player, gameObject, NetTabType, TabAction.Open);
 	}

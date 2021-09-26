@@ -73,7 +73,7 @@ namespace UI
 			footer.SetActive(false);
 			waitMessage.SetActive(true);
 
-			PlayerManager.LocalViewerScript.RequestJob(preference);
+			LocalPlayerManager.LocalViewerScript.RequestJob(preference);
 			waitForSpawnTimer = waitForSpawnTimerMax;
 		}
 
@@ -126,7 +126,7 @@ namespace UI
 		/// </summary>
 		private void Update()
 		{
-			if (PlayerManager.HasSpawned)
+			if (LocalPlayerManager.HasSpawned)
 			{
 				// Job selection is finished, close the window.
 				waitForSpawnTimer = 0;
@@ -183,7 +183,7 @@ namespace UI
 					occupationGO.GetComponent<Button>().onClick.AddListener(() => { BtnOk(jobType); });
 				}
 
-				var check = PlayerList.Instance.ClientCheckBanReturn(occupation.JobType);
+				var check = PlayersManager.Instance.ClientCheckBanReturn(occupation.JobType);
 
 				if (check != null)
 				{
@@ -218,7 +218,7 @@ namespace UI
 			occupationGO.GetComponent<Image>().color = Color.white;
 			occupationGO.GetComponentInChildren<TextMeshProUGUI>().text = "Spectate";
 			occupationGO.transform.localScale = new Vector3(1.0f, 1f, 1.0f);
-			occupationGO.GetComponent<Button>().onClick.AddListener(() => { PlayerManager.LocalViewerScript.Spectate(); });
+			occupationGO.GetComponent<Button>().onClick.AddListener(() => { LocalPlayerManager.LocalViewerScript.Spectate(); });
 
 		}
 	}

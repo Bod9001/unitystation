@@ -21,17 +21,17 @@ namespace Messages.Client.Admin
 
 		void VerifyAdminStatus(NetMessage msg)
 		{
-			var player = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var player = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (player == null) return;
-			var deadPlayer = PlayerList.Instance.GetByUserID(msg.UserToRespawn);
-			if (deadPlayer == null || deadPlayer.Script == null) return;
+			var deadPlayer = PlayersManager.Instance.GetByUserID(msg.UserToRespawn);
+			if (deadPlayer == null || deadPlayer.CurrentMind == null) return;
 
 			//Wasn't so dead, let's kill them
-			if (deadPlayer.Script.playerHealth != null &&
-			    deadPlayer.Script.playerHealth.IsDead == false)
+			if (deadPlayer.CurrentMind.LivingHealthMasterBase != null &&
+			    deadPlayer.CurrentMind.LivingHealthMasterBase.IsDead == false)
 			{
-				deadPlayer.Script.playerHealth.ApplyDamageAll(
-					player,
+				deadPlayer.CurrentMind.LivingHealthMasterBase.ApplyDamageAll(
+					player.CurrentMind.GameObjectBody,
 					200,
 					AttackType.Internal,
 					DamageType.Brute);
@@ -43,20 +43,20 @@ namespace Messages.Client.Admin
 		void TryRespawn(ConnectedPlayer deadPlayer, NetMessage msg, string occupation = null)
 		{
 			UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(
-				$"{PlayerList.Instance.GetByUserID(msg.Userid).Name} respawned dead player {deadPlayer.Name} as {occupation}", msg.Userid);
+				$"{PlayersManager.Instance.GetByUserID(msg.Userid).Username} respawned dead player {deadPlayer.Username} as {occupation}", msg.Userid);
 
 			var respawnType = (RespawnType) msg.Type;
 
 			switch (respawnType)
 			{
 				case RespawnType.Normal:
-					deadPlayer.Script.playerNetworkActions.ServerRespawnPlayer(occupation);
+					deadPlayer.CurrentMind.playerNetworkActions.ServerRespawnPlayer(occupation);
 					break;
 				case RespawnType.Special:
-					deadPlayer.Script.playerNetworkActions.ServerRespawnPlayerSpecial(occupation);
+					deadPlayer.CurrentMind.playerNetworkActions.ServerRespawnPlayerSpecial(occupation);
 					break;
 				case RespawnType.Antag:
-					deadPlayer.Script.playerNetworkActions.ServerRespawnPlayerAntag(deadPlayer, occupation);
+					deadPlayer.CurrentMind.playerNetworkActions.ServerRespawnPlayerAntag(deadPlayer.CurrentMind, occupation);
 					break;
 			}
 		}

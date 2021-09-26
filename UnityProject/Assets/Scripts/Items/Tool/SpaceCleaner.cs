@@ -54,9 +54,9 @@ public class SpaceCleaner : NetworkBehaviour, ICheckedInteractable<AimApply>
 		Effect.PlayParticleDirectional( this.gameObject, interaction.TargetVector );
 
 		AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: 1);
-		SoundManager.PlayNetworkedAtPos(Spray2, startPos, audioSourceParameters, sourceObj: interaction.Performer);
+		SoundManager.PlayNetworkedAtPos(Spray2, startPos, audioSourceParameters, sourceObj: interaction.Performer.GameObjectBody);
 
-		interaction.Performer.Pushable()?.NewtonianMove((-interaction.TargetVector).NormalizeToInt(), speed: 1f);
+		interaction.Performer.GameObjectBody.Pushable()?.NewtonianMove((-interaction.TargetVector).NormalizeToInt(), speed: 1f);
 	}
 
 	private IEnumerator Fire(List<Vector3Int> positionList)

@@ -104,7 +104,7 @@ namespace UI
 
 		private void TryShowAdminPanel()
 		{
-			if (PlayerList.Instance.AdminToken != null)
+			if (PlayersManager.Instance.AdminToken != null)
 			{
 				adminPanel.SetActive(true);
 			}
@@ -158,7 +158,7 @@ namespace UI
 
 		public void StartNowButton()
 		{
-			AdminCommandsManager.Instance.CmdStartRound(ServerData.UserID, PlayerList.Instance.AdminToken);
+			AdminCommandsManager.Instance.CmdStartRound(ServerData.UserID, PlayersManager.Instance.AdminToken);
 		}
 
 		public void SyncCountdown(bool started, double endTime)
@@ -225,7 +225,7 @@ namespace UI
 			if (isReady != ready)
 			{
 				// Ready status changed so tell the server
-				PlayerManager.LocalViewerScript.SetReady(ready);
+				LocalPlayerManager.LocalViewerScript.SetReady(ready);
 			}
 			isReady = ready;
 			characterButton.interactable = !ready;

@@ -105,9 +105,9 @@ namespace Objects.Mining
 			}
 		}
 
-		public void ClaimLaborPoints(GameObject player)
+		public void ClaimLaborPoints(Mind player)
 		{
-			var playerStorage = player.GetComponent<DynamicItemStorage>();
+			var playerStorage = player.DynamicItemStorage;
 			var itemSlotList = playerStorage.GetNamedItemSlots(NamedSlot.id);
 			foreach (var itemSlot in itemSlotList)
 			{

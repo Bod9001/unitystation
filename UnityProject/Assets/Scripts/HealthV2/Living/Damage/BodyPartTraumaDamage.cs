@@ -185,9 +185,10 @@ namespace HealthV2
 
 			if (isFracturedHairline && IsFracturedCompound != true && announceHurtDamage)
 			{
-				Chat.AddActionMsgToChat(HealthMaster.gameObject,
+				var Mind = MindManager.StaticGet(HealthMaster.gameObject);
+				Chat.AddActionMsgToChat(Mind,
 					$"You hear a loud crack from your {BodyPartReadableName}.",
-					$"A loud crack can be heard from {HealthMaster.playerScript.visibleName}.");
+					$"A loud crack can be heard from {Mind.ExpensiveName()}.");
 			}
 		}
 

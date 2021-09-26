@@ -19,7 +19,7 @@ namespace Messages.Client.Admin
 
 		void VerifyAdminStatus(NetMessage msg)
 		{
-			var player = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var player = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (player != null)
 			{
 				UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(msg.Message, msg.Userid);

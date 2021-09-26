@@ -33,7 +33,7 @@ public class HandApply : BodyPartTargetedInteraction
 	/// <param name="targetObject">Object that the player clicked on</param>
 	/// <param name="handSlot">active hand slot that is being used.</param>
 	/// <param name="targetBodyPart">targeted body part</param>
-	protected HandApply(GameObject performer, GameObject handObject, GameObject targetObject, BodyPartType targetBodyPart,
+	protected HandApply(Mind performer, GameObject handObject, GameObject targetObject, BodyPartType targetBodyPart,
 		ItemSlot handSlot, Intent intent, bool IsAltClick) :
 		base(performer, handObject, targetObject, targetBodyPart, intent)
 	{
@@ -48,16 +48,16 @@ public class HandApply : BodyPartTargetedInteraction
 	/// <returns></returns>
 	public static HandApply ByLocalPlayer(GameObject targetObject)
 	{
-		if (PlayerManager.LocalPlayerScript.IsGhost)
+		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
 		{
 			//hand apply never works when local player
 			return HandApply.Invalid;
 		}
-		return new HandApply(PlayerManager.LocalPlayer,
-			PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot()?.ItemObject,
+		return new HandApply(LocalPlayerManager.LocalPlayer.CurrentMind,
+			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot()?.ItemObject,
 			targetObject,
 			UIManager.DamageZone,
-			PlayerManager.LocalPlayerScript.DynamicItemStorage.GetActiveHandSlot(),
+			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(),
 			UIManager.CurrentIntent,
 			KeyboardInputManager.IsAltPressed());
 	}
@@ -75,7 +75,7 @@ public class HandApply : BodyPartTargetedInteraction
 	/// it doesn't need to be looked up again, since it already should've been looked up in
 	/// the message processing logic. Should match SentByPlayer.Script.playerNetworkActions.activeHand.</param>
 	/// <returns>a hand apply by the client, targeting the specified object with the item in the active hand</returns>
-	public static HandApply ByClient(GameObject clientPlayer, GameObject handObject, GameObject targetObject, BodyPartType targetBodyPart,
+	public static HandApply ByClient(Mind clientPlayer, GameObject handObject, GameObject targetObject, BodyPartType targetBodyPart,
 		ItemSlot handSlot, Intent intent, bool isAltClick)
 	{
 		return new HandApply(clientPlayer, handObject, targetObject, targetBodyPart, handSlot, intent, isAltClick);

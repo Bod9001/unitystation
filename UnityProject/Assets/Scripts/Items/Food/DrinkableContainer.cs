@@ -36,14 +36,12 @@ public class DrinkableContainer : Consumable
 		item = GetComponent<RegisterItem>();
 	}
 
-	public override void TryConsume(GameObject feederGO, GameObject eaterGO)
+	public override void TryConsume(Mind feeder, Mind eater)
 	{
 		if (!container)
 			return;
 
 		// todo: make seperate logic for NPC
-		var eater = eaterGO.GetComponent<PlayerScript>();
-		var feeder = feederGO.GetComponent<PlayerScript>();
 		if (eater == null || feeder == null)
 			return;
 
@@ -51,7 +49,7 @@ public class DrinkableContainer : Consumable
 		var reagentUnits = container.ReagentMixTotal;
 		if (reagentUnits <= 0f)
 		{
-			Chat.AddExamineMsgFromServer(eater.gameObject, $"The {gameObject.ExpensiveName()} is empty.");
+			Chat.AddExamineMsgFromServer(eater, $"The {gameObject.ExpensiveName()} is empty.");
 			return;
 		}
 
@@ -67,7 +65,7 @@ public class DrinkableContainer : Consumable
 			{
 				ConsumableTextUtils.SendGenericForceFeedMessage(feeder, eater, HungerState.Hungry, name, "drink");
 				Drink(eater, feeder);
-			}).ServerStartProgress(eater.registerTile, 3f, feeder.gameObject);
+			}).ServerStartProgress(eater.registerTile, 3f, feeder);
 			return;
 		}
 		else
@@ -76,7 +74,7 @@ public class DrinkableContainer : Consumable
 		}
 	}
 
-	private void Drink(PlayerScript eater, PlayerScript feeder)
+	private void Drink(Mind eater, Mind feeder)
 	{
 		// Start drinking reagent mix
 		// todo: actually transfer reagent mix inside player stomach
@@ -89,11 +87,11 @@ public class DrinkableContainer : Consumable
 		if (item && drinkSound != null)
 		{
 			AudioSourceParameters audioSourceParameters = new AudioSourceParameters(RandomPitch, spatialBlend: 1f);
-			SoundManager.PlayNetworkedAtPos(drinkSound, eater.WorldPos, audioSourceParameters, sourceObj: eater.gameObject);
+			SoundManager.PlayNetworkedAtPos(drinkSound, eater.BodyWorldPosition, audioSourceParameters, sourceObj: eater.gameObject);
 		}
 	}
 
-	private void DoDrinkEffects(PlayerScript eater, float drinkAmount)
+	private void DoDrinkEffects(Mind eater, float drinkAmount)
 	{
 		var playerEatDrinkEffects = eater.GetComponent<PlayerEatDrinkEffects>();
 
@@ -107,7 +105,7 @@ public class DrinkableContainer : Consumable
 			if (!AlcoholicDrinksSOScript.Instance.AlcoholicReagents.Contains(reagent.Key)) continue;
 
 			//The more different types of alcohol in a drink the longer you get drunk for each sip.
-			playerEatDrinkEffects.ServerSendMessageToClient(eater.gameObject, (int)drinkAmount);
+			playerEatDrinkEffects.ServerSendMessageToClient(eater, (int)drinkAmount);
 		}
 	}
 }

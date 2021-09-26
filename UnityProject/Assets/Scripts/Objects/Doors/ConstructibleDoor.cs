@@ -50,7 +50,7 @@ namespace Doors
 			AudioSourceParameters audioSourceParameters =
 				new AudioSourceParameters(pitch: UnityEngine.Random.Range(0.8f, 1.2f));
 			SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.screwdriver,
-				interaction.Performer.AssumedWorldPosServer(), audioSourceParameters, sourceObj: gameObject);
+				interaction.Performer.BodyWorldPosition, audioSourceParameters, sourceObj: gameObject);
 		}
 	}
 }

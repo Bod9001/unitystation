@@ -57,7 +57,7 @@ namespace Systems.MobAIs
 
 		protected IEnumerator ChaseTail(int times)
 		{
-			Chat.AddActionMsgToChat(
+			Chat.AddInanimateActionMsgToChat(
 				gameObject,
 				$"{MobName} starts chasing its own tail!",
 				$"{MobName} starts chasing its own tail!");

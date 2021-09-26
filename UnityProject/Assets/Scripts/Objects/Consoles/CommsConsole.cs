@@ -54,7 +54,7 @@ namespace Objects.Command
 			//Eject existing id card if there is one and put new one in
 			if (itemSlot.Item != null)
 			{
-				ServerRemoveIDCard(interaction.PerformerPlayerScript.connectedPlayer);
+				ServerRemoveIDCard(interaction.Performer.AssignedPlayer);
 			}
 
 			Inventory.ServerTransfer(interaction.HandSlot, itemSlot);
@@ -73,7 +73,7 @@ namespace Objects.Command
 				return default;
 			}
 
-			var playerStorage = subject.Script.DynamicItemStorage;
+			var playerStorage = subject.CurrentMind.DynamicItemStorage;
 			return playerStorage.GetBestHandOrSlotFor(item);
 		}
 

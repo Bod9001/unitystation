@@ -30,7 +30,7 @@ public class WallMountHandApplySpawn : MonoBehaviour, ICheckedInteractable<Posit
 			return;
 		}
 
-		Vector3Int PlaceDirection = interaction.Performer.Player().Script.WorldPos - roundTargetWorldPosition;
+		Vector3Int PlaceDirection = interaction.Performer.BodyWorldPosition.RoundToInt() - roundTargetWorldPosition;
 		OrientationEnum FaceDirection;
 
 		//is there a wall in the direction of the new wallmount? taking into account diagonal clicking

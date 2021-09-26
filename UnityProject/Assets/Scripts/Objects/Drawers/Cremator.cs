@@ -53,11 +53,11 @@ namespace Objects.Drawers
 
 			if (accessRestrictions)
 			{
-				if (accessRestrictions.CheckAccess(PlayerManager.LocalPlayer) == false) return result;
+				if (accessRestrictions.CheckAccess(LocalPlayerManager.CurrentMind) == false) return result;
 			}
 			else if (clearanceCheckable)
 			{
-				if (clearanceCheckable.HasClearance(PlayerManager.LocalPlayer) == false) return result;
+				if (clearanceCheckable.HasClearance(LocalPlayerManager.CurrentMind) == false) return result;
 			}
 
 			var cremateInteraction = ContextMenuApply.ByLocalPlayer(gameObject, null);
@@ -159,8 +159,8 @@ namespace Objects.Drawers
 		{
 			foreach (var player in serverHeldPlayers)
 			{
-				var playerScript = player.GetComponent<PlayerScript>();
-				PlayerSpawn.ServerSpawnGhost(playerScript.mind);
+				// var playerScript = player.GetComponent<PlayerScript>();
+				// PlayerSpawn.ServerSpawnGhost(playerScript.mind);
 				_ = Despawn.ServerSingle(player.gameObject);
 			}
 

@@ -42,7 +42,7 @@ namespace Hacking
 			}
 			else
 			{
-				Pickupable handItem = PlayerManager.LocalPlayerScript.Equipment.ItemStorage.GetActiveHandSlot().Item;
+				Pickupable handItem = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().Item;
 				if (handItem != null)
 				{
 					if (Validations.HasItemTrait(handItem.gameObject, CommonTraits.Instance.Cable))

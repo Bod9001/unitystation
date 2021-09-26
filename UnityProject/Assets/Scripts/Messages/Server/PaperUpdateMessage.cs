@@ -21,7 +21,7 @@ namespace Messages.Server
 			ControlTabs.RefreshTabs();
 		}
 
-		public static NetMessage Send(GameObject recipient, GameObject paperToUpdate, string message)
+		public static NetMessage Send(Mind recipient, GameObject paperToUpdate, string message)
 		{
 			NetMessage msg = new NetMessage
 			{

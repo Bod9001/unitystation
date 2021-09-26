@@ -19,13 +19,13 @@ namespace Messages.Client.Admin
 
 		void VerifyAdminStatus(NetMessage msg)
 		{
-			var player = PlayerList.Instance.GetAdmin(msg.Userid, msg.AdminToken);
+			var player = PlayersManager.Instance.GetAdmin(msg.Userid, msg.AdminToken);
 			if (player != null)
 			{
-				PlayerList.Instance.ProcessAdminEnableRequest(msg.Userid, msg.UserToPromote);
-				var user = PlayerList.Instance.GetByUserID(msg.UserToPromote);
+				PlayersManager.Instance.ProcessAdminEnableRequest(msg.Userid, msg.UserToPromote);
+				var user = PlayersManager.Instance.GetByUserID(msg.UserToPromote);
 				UIManager.Instance.adminChatWindows.adminToAdminChat.ServerAddChatRecord(
-					$"{player.Player().Username} made {user.Name} an admin. Users ID is: {msg.UserToPromote}", msg.Userid);
+					$"{player.Username} made {user.Username} an admin. Users ID is: {msg.UserToPromote}", msg.Userid);
 			}
 		}
 

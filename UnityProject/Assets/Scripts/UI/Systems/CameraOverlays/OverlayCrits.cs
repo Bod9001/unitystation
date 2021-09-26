@@ -26,10 +26,10 @@ using System.Collections;
 		{
 			if (MonitorTarget)
 			{
-				if (PlayerManager.LocalPlayer != null)
+				if (LocalPlayerManager.LocalPlayer != null)
 				{
 					Vector3 playerPos =
-						Camera.main.WorldToScreenPoint(PlayerManager.LocalPlayer.transform.position);
+						Camera.main.WorldToScreenPoint(LocalPlayerManager.LocalPlayer.transform.position);
 					shroud.position = playerPos;
 				}
 			}
@@ -68,9 +68,9 @@ using System.Collections;
 
 		void AdjustShroud(float state)
 		{
-			if (PlayerManager.LocalPlayerScript.OrNull()?.mind != null)
+			if (LocalPlayerManager.CurrentMind != null)
 			{
-				if (PlayerManager.LocalPlayerScript.mind.IsGhosting)
+				if (LocalPlayerManager.CurrentMind.IsGhosting)
 				{
 					state = 1;
 				}

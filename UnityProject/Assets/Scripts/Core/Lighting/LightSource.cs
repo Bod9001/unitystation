@@ -293,12 +293,12 @@ namespace Objects.Lighting
 
 		private void TryRemoveBulb(HandApply interaction)
 		{
-			var handSlot = interaction.PerformerPlayerScript.DynamicItemStorage.GetActiveHandSlot();
+			var handSlot = interaction.Performer.DynamicItemStorage.GetActiveHandSlot();
 
 			if (mState == LightMountState.On && (handSlot.IsOccupied == false ||
 					!Validations.HasItemTrait(handSlot.ItemObject, CommonTraits.Instance.BlackGloves)))
 			{
-				var playerHealth = interaction.PerformerPlayerScript.playerHealth;
+				var playerHealth = interaction.Performer.LivingHealthMasterBase;
 				var burntBodyPart = interaction.HandSlot.NamedSlot == NamedSlot.leftHand ? BodyPartType.LeftArm : BodyPartType.RightArm;
 				playerHealth.ApplyDamageToBodyPart(gameObject, 10f, AttackType.Energy, DamageType.Burn, burntBodyPart);
 
@@ -307,8 +307,8 @@ namespace Objects.Lighting
 				return;
 			}
 
-			var spawnedItem = Spawn.ServerPrefab(itemInMount, interaction.Performer.WorldPosServer()).GameObject;
-			ItemSlot bestHand = interaction.PerformerPlayerScript.DynamicItemStorage.GetBestHand();
+			var spawnedItem = Spawn.ServerPrefab(itemInMount, interaction.Performer.BodyWorldPosition).GameObject;
+			ItemSlot bestHand = interaction.Performer.DynamicItemStorage.GetBestHand();
 			if (bestHand != null && spawnedItem != null)
 			{
 				Inventory.ServerAdd(spawnedItem, bestHand);
@@ -340,7 +340,7 @@ namespace Objects.Lighting
 		{
 			if (mState != LightMountState.MissingBulb)
 			{
-				Spawn.ServerPrefab(itemInMount, interaction.Performer.WorldPosServer());
+				Spawn.ServerPrefab(itemInMount, interaction.Performer.BodyWorldPosition);
 				ServerChangeLightState(LightMountState.MissingBulb);
 			}
 		}

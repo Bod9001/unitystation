@@ -103,7 +103,7 @@ public class PlaceableTileReplaceBase : MonoBehaviour, ICheckedInteractable<Posi
 
 		if (placeableTileEntry != null)
 		{
-			GameObject performer = interaction.Performer;
+			var performer = interaction.Performer;
 			Vector2 targetPosition = interaction.WorldPositionTarget;
 
 

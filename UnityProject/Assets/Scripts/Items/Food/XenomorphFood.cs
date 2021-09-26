@@ -20,9 +20,8 @@ namespace Items.Food
 		private static readonly StandardProgressActionConfig ProgressConfig
 			= new StandardProgressActionConfig(StandardProgressActionType.Restrain);
 
-		public override void TryConsume(GameObject feederGO, GameObject eaterGO)
+		public override void TryConsume(Mind feeder, Mind eater)
 		{
-			var eater = eaterGO.GetComponent<PlayerScript>();
 			if (eater == null)
 			{
 				// TODO: implement non-player eating
@@ -31,10 +30,8 @@ namespace Items.Food
 				return;
 			}
 
-			var feeder = feederGO.GetComponent<PlayerScript>();
-
 			// Show eater message
-			var eaterHungerState = eater.playerHealth.HungerState;
+			var eaterHungerState = eater.LivingHealthMasterBase.HungerState;
 			ConsumableTextUtils.SendGenericConsumeMessage(feeder, eater, eaterHungerState, Name, "eat");
 
 			// Check if eater can eat anything
@@ -45,7 +42,7 @@ namespace Items.Food
 				{
 					ConsumableTextUtils.SendGenericForceFeedMessage(feeder, eater, eaterHungerState, Name, "eat");
 					Eat(eater, feeder);
-				}).ServerStartProgress(eater.registerTile, 3f, feeder.gameObject);
+				}).ServerStartProgress(eater.registerTile, 3f, feeder);
 				return;
 			}
 			else
@@ -54,12 +51,12 @@ namespace Items.Food
 			}
 		}
 
-		public override void Eat(PlayerScript eater, PlayerScript feeder)
+		public override void Eat(Mind eater, Mind feeder)
 		{
 			// TODO: missing sound?
 			//SoundManager.PlayNetworkedAtPos(sound, eater.WorldPos, sourceObj: eater.gameObject);
 
-			var stomachs = eater.playerHealth.GetStomachs();
+			var stomachs = eater.LivingHealthMasterBase.GetStomachs();
 			if (stomachs.Count == 0)
 			{
 				//No stomachs?!
@@ -71,18 +68,18 @@ namespace Items.Food
 				stomach.StomachContents.Add(FoodContents.CurrentReagentMix.Clone());
 			}
 
-			_ = Pregnancy(eater.playerHealth);
+			_ = Pregnancy(eater);
 			var feederSlot = feeder.DynamicItemStorage.GetActiveHandSlot();
 			Inventory.ServerDespawn(feederSlot);
 		}
 
-		private async Task Pregnancy(PlayerHealthV2 player)
+		private async Task Pregnancy(Mind player)
 		{
 			await Task.Delay(TimeSpan.FromSeconds(killTime - (killTime / 8)));
-			Chat.AddActionMsgToChat(player.gameObject, "Your stomach gurgles uncomfortably...",
+			Chat.AddActionMsgToChat(player, "Your stomach gurgles uncomfortably...",
 				$"A dangerous sounding gurgle emanates from " + player.name + "!");
 			await Task.Delay(TimeSpan.FromSeconds(killTime / 8));
-			player.ApplyDamageToBodyPart(
+			player.LivingHealthMasterBase.ApplyDamageToBodyPart(
 				gameObject,
 				200,
 				AttackType.Internal,

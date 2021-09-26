@@ -43,7 +43,7 @@ namespace Messages.Server
 					// no need to instantiate a spell if server asks to hide one anyway
 					if (msg.ProposedAction == UpdateType.StateChange && msg.showAlert == false) return;
 
-					action = spellData.AddToPlayer(PlayerManager.LocalPlayerScript);
+					action = spellData.AddToPlayer(LocalPlayerManager.CurrentMind);
 				}
 			}
 			else
@@ -77,7 +77,7 @@ namespace Messages.Server
 			}
 		}
 
-		private static NetMessage _Send(GameObject recipient,
+		private static NetMessage _Send(Mind recipient,
 			IActionGUI action,
 			UpdateType ProposedAction,
 			bool show = false,
@@ -159,22 +159,22 @@ namespace Messages.Server
 			return new NetMessage();
 		}
 
-		public static NetMessage SetAction(GameObject recipient, IActionGUI iServerActionGUI, bool _showAlert)
+		public static NetMessage SetAction(Mind recipient, IActionGUI iServerActionGUI, bool _showAlert)
 		{
 			return _Send(recipient, iServerActionGUI, UpdateType.StateChange, _showAlert);
 		}
 
-		public static NetMessage SetAction(GameObject recipient, IActionGUI iServerActionGUI, float cooldown)
+		public static NetMessage SetAction(Mind recipient, IActionGUI iServerActionGUI, float cooldown)
 		{
 			return _Send(recipient, iServerActionGUI, UpdateType.Cooldown, cooldown: cooldown);
 		}
 
-		public static NetMessage SetSprite(GameObject recipient, IActionGUI iServerActionGUI, int FrontIconlocation)
+		public static NetMessage SetSprite(Mind recipient, IActionGUI iServerActionGUI, int FrontIconlocation)
 		{
 			return _Send(recipient, iServerActionGUI, UpdateType.FrontIcon, location: FrontIconlocation);
 		}
 
-		public static NetMessage SetBackgroundSprite(GameObject recipient, IActionGUI iServerActionGUI,
+		public static NetMessage SetBackgroundSprite(Mind recipient, IActionGUI iServerActionGUI,
 			int FrontIconlocation)
 		{
 			return _Send(recipient, iServerActionGUI, UpdateType.BackgroundIcon, location: FrontIconlocation);

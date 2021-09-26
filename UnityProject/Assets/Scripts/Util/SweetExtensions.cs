@@ -16,10 +16,10 @@ public static class SweetExtensions
 		return go.GetComponent<IPushable>();
 	}
 
-	public static ConnectedPlayer Player(this GameObject go)
+	public static Mind Player(this GameObject go, bool includeOffline = false)
 	{
-		var connectedPlayer = PlayerList.Instance?.Get(go);
-		return connectedPlayer == ConnectedPlayer.Invalid ? null : connectedPlayer;
+		var connectedPlayer = MindManager.Instance?.Get(go);
+		return connectedPlayer == PlayersManager.InvalidPlayer ? null : connectedPlayer;
 	}
 	public static ItemAttributesV2 Item(this GameObject go)
 	{
@@ -67,9 +67,9 @@ public static class SweetExtensions
 		}
 
 		var player = go.Player();
-		if (player != null && !String.IsNullOrWhiteSpace(player.Script.visibleName))
+		if (player != null && !String.IsNullOrWhiteSpace(player.GameObjectBody.name)) //TODO Handle in game object
 		{
-			return player.Script.visibleName;
+			return player.GameObjectBody.name;
 		}
 
 		return go.name.Replace("NPC_", "").Replace("_", " ").Replace("(Clone)","");

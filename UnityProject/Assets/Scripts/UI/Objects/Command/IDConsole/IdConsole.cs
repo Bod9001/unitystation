@@ -47,7 +47,7 @@ public class IdConsole : MonoBehaviour, ICheckedInteractable<HandApply>
 		{
 			if (TargetCard)
 			{
-				EjectCard(TargetCard, interaction.PerformerPlayerScript.connectedPlayer);
+				EjectCard(TargetCard, interaction.Performer.AssignedPlayer);
 			}
 
 			Inventory.ServerTransfer(interaction.HandSlot, TargetSlot);
@@ -56,13 +56,13 @@ public class IdConsole : MonoBehaviour, ICheckedInteractable<HandApply>
 		{
 			if (AccessCard)
 			{
-				EjectCard(AccessCard, interaction.PerformerPlayerScript.connectedPlayer);
+				EjectCard(AccessCard, interaction.Performer.AssignedPlayer);
 			}
 
 			Inventory.ServerTransfer(interaction.HandSlot, AccessSlot);
 		}
 	}
-	
+
 	/// <summary>
 	/// Return an empty hand slot if available
 	/// </summary>
@@ -76,7 +76,7 @@ public class IdConsole : MonoBehaviour, ICheckedInteractable<HandApply>
 			return default;
 		}
 
-		var playerStorage = subject.Script.DynamicItemStorage;
+		var playerStorage = subject.CurrentMind.DynamicItemStorage;
 		return playerStorage.GetBestHandOrSlotFor(item);
 	}
 

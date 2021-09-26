@@ -15,7 +15,7 @@ namespace Items.Cargo.Wrapping
 			registerCloset = GetComponent<RegisterCloset>();
 		}
 
-		protected override bool CanBeWrapped(GameObject performer, WrappingPaper paper)
+		protected override bool CanBeWrapped(Mind performer, WrappingPaper paper)
 		{
 			if (paper.PaperAmount >= neededPaperAmount)
 			{
@@ -29,7 +29,7 @@ namespace Items.Cargo.Wrapping
 			return false;
 		}
 
-		protected override void Wrap(GameObject performer, WrappingPaper paper)
+		protected override void Wrap(Mind performer, WrappingPaper paper)
 		{
 			var cfg = new StandardProgressActionConfig(
 				StandardProgressActionType.Restrain);
@@ -42,7 +42,7 @@ namespace Items.Cargo.Wrapping
 			StandardProgressAction.Create(
 				cfg,
 				() => FinishWrapping(paper)
-			).ServerStartProgress(ActionTarget.Object(performer.RegisterTile()), wrapTime, performer);
+			).ServerStartProgress(ActionTarget.Object(performer.registerTile), wrapTime, performer);
 		}
 
 		private void FinishWrapping(WrappingPaper paper)

@@ -12,21 +12,20 @@ public abstract class Consumable : MonoBehaviour, ICheckedInteractable<HandApply
 {
 	public void ServerPerformInteraction(HandApply interaction)
 	{
-		var targetPlayer = interaction.TargetObject.GetComponent<PlayerScript>();
+		var targetPlayer = MindManager.Instance.Get(interaction.TargetObject, true);
 		if (targetPlayer == null)
 		{
 			return;
 		}
 
-		PlayerScript feeder = interaction.PerformerPlayerScript;
-		var feederSlot = feeder.DynamicItemStorage.GetActiveHandSlot();
+		var feederSlot = interaction.Performer.DynamicItemStorage.GetActiveHandSlot();
 		if (feederSlot.Item == null)
 		{   //Already been eaten or the food is no longer in hand
 			return;
 		}
 
-		PlayerScript eater = targetPlayer;
-		TryConsume(feeder.gameObject, eater.gameObject);
+
+		TryConsume(interaction.Performer, targetPlayer);
 	}
 
 	public bool WillInteract(HandApply interaction, NetworkSide side)
@@ -44,7 +43,7 @@ public abstract class Consumable : MonoBehaviour, ICheckedInteractable<HandApply
 
 		if (!DefaultWillInteract.Default(interaction, side)) return false;
 
-		return CanBeConsumedBy(interaction.TargetObject);
+		return CanBeConsumedBy(MindManager.Instance.Get(interaction.TargetObject, true));
 	}
 
 	/// <summary>
@@ -52,11 +51,9 @@ public abstract class Consumable : MonoBehaviour, ICheckedInteractable<HandApply
 	/// </summary>
 	/// <param name="eater">Player that want to eat item</param>
 	/// <returns></returns>
-	public virtual bool CanBeConsumedBy(GameObject eater)
+	public virtual bool CanBeConsumedBy(Mind eater)
 	{
-		//todo: support npc force feeding
-		var targetPlayer = eater.GetComponent<PlayerScript>();
-		if (targetPlayer == null || targetPlayer.IsDeadOrGhost)
+		if (eater == null || eater.IsGhosting)
 		{
 			return false;
 		}
@@ -69,7 +66,7 @@ public abstract class Consumable : MonoBehaviour, ICheckedInteractable<HandApply
 	/// Try to consume this item by eater. Server side only.
 	/// </summary>
 	/// <param name="eater">Player that want to eat item</param>
-	public void TryConsume(GameObject eater)
+	public void TryConsume(Mind eater)
 	{
 		TryConsume(eater, eater);
 	}
@@ -79,5 +76,5 @@ public abstract class Consumable : MonoBehaviour, ICheckedInteractable<HandApply
 	/// </summary>
 	/// <param name="feeder">Player that feed eater. Can be same as eater.</param>
 	/// <param name="eater">Player that is going to eat item</param>
-	public abstract void TryConsume(GameObject feeder, GameObject eater);
+	public abstract void TryConsume(Mind feeder, Mind eater);
 }

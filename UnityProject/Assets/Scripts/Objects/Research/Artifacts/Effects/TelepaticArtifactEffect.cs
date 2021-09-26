@@ -42,15 +42,15 @@ public class TelepaticArtifactEffect : ArtifactEffect
 
 		foreach (var playerColl in playerColliders)
 		{
-			playerColl.TryGetComponent<PlayerScript>(out var player);
+			var Mind = MindManager.Instance.Get(playerColl.gameObject);
 
-			if (player == null || player.IsDeadOrGhost) continue;
+			if (Mind == null || Mind.IsGhosting) continue;
 
-			Indocrinate(player.gameObject);
+			Indocrinate(Mind);
 		}
 	}
 
-	private void Indocrinate(GameObject target)
+	private void Indocrinate(Mind target)
 	{
 		if (Random.value > 0.2f)
 			Chat.AddWarningMsgFromServer(target, Messages.PickRandom());

@@ -80,24 +80,24 @@ namespace AdminTools
 
 			var filePath = Path.Combine(chatlogDir, $"{playerId}-mentor.txt");
 
-			var connectedPlayer = PlayerList.Instance.GetByUserID(playerId);
+			var connectedPlayer = PlayersManager.Instance.GetByUserID(playerId);
 
 			if (!File.Exists(filePath))
 			{
 				var stream = File.Create(filePath);
 				stream.Close();
-				string header = $"Username: {connectedPlayer.Username} Player Name: {connectedPlayer.Name} \r\n" +
-				                $"IsAntag: {PlayerList.Instance.AntagPlayers.Contains(connectedPlayer)}  role: {connectedPlayer.Job} \r\n" +
+				string header = $"Username: {connectedPlayer.Username} Player Name: {connectedPlayer.CurrentMind.CharactersName} \r\n" +
+				                $"IsAntag: {MindManager.Instance.AntagMinds.Contains(connectedPlayer.CurrentMind)}  role: {connectedPlayer.CurrentMind.JobType} \r\n" +
 				                $"-----Chat Log----- \r\n" +
 				                $" \r\n";
 				File.AppendAllText(filePath, header);
 			}
 
-			string entryName = connectedPlayer.Name;
+			string entryName = connectedPlayer.Username;
 			if (entry.wasFromAdmin)
 			{
-				var mentorPlayer = PlayerList.Instance.GetByUserID(entry.fromUserid);
-				entryName = "[Mentor] " + mentorPlayer.Name;
+				var mentorPlayer = PlayersManager.Instance.GetByUserID(entry.fromUserid);
+				entryName = "[Mentor] " + mentorPlayer.Username;
 			}
 
 			DiscordWebhookMessage.Instance.AddWebHookMessageToQueue(DiscordWebhookURLs.DiscordWebhookAdminURL, entry.Message, entryName);
@@ -189,9 +189,9 @@ namespace AdminTools
 			};*/ // I dont know what this does, as the variable is unused completely
 
 			var msg = $"{ServerData.Auth.CurrentUser.DisplayName}: {message}";
-			string MentorOrAdminToken = PlayerList.Instance.MentorToken;
+			string MentorOrAdminToken = PlayersManager.Instance.MentorToken;
 			if(MentorOrAdminToken == null)
-				MentorOrAdminToken = PlayerList.Instance.AdminToken;
+				MentorOrAdminToken = PlayersManager.Instance.AdminToken;
 			RequestMentorBwoink.Send(ServerData.UserID, MentorOrAdminToken, selectedPlayer.uid,msg);
 		}
 	}

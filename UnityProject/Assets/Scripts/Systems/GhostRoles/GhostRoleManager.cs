@@ -160,7 +160,7 @@ namespace Systems.GhostRoles
 		/// <param name="key">The unique key the ghost role instance is associated with.</param>
 		public void LocalGhostRequestRole(uint key)
 		{
-			if (PlayerManager.LocalPlayerScript.IsDeadOrGhost == false) return;
+			if (LocalPlayerManager.CurrentMind.IsGhosting == false) return;
 
 			RequestGhostRoleMessage.Send(key);
 		}
@@ -172,7 +172,7 @@ namespace Systems.GhostRoles
 		/// </summary>
 		/// <param name="player">The player to be assigned to the role.</param>
 		/// <param name="key">The unique key the ghost role instance is associated with.</param>
-		public void ServerGhostRequestRole(ConnectedPlayer player, uint key)
+		public void ServerGhostRequestRole(Mind player, uint key)
 		{
 			ServerTryAddPlayerToRole(player, key);
 		}
@@ -194,7 +194,7 @@ namespace Systems.GhostRoles
 			serverAvailableRoles.Remove(key);
 		}
 
-		private bool ServerPlayerIsQueued(ConnectedPlayer player)
+		private bool ServerPlayerIsQueued(Mind player)
 		{
 			foreach (KeyValuePair<uint, GhostRoleServer> kvp in serverAvailableRoles)
 			{
@@ -204,9 +204,9 @@ namespace Systems.GhostRoles
 			return false;
 		}
 
-		private GhostRoleResponseCode VerifyPlayerCanQueue(ConnectedPlayer player, uint key)
+		private GhostRoleResponseCode VerifyPlayerCanQueue(Mind player, uint key)
 		{
-			if (player.Script.IsDeadOrGhost == false)
+			if (player.IsGhosting == false)
 			{
 				return GhostRoleResponseCode.Error;
 			}
@@ -218,12 +218,12 @@ namespace Systems.GhostRoles
 
 			GhostRoleServer role = serverAvailableRoles[key];
 
-			if (role.RoleData.TargetOccupation != null && PlayerList.Instance.CheckJobBanState(player.UserId, role.RoleData.TargetOccupation.JobType) == false)
+			if (role.RoleData.TargetOccupation != null && PlayersManager.Instance.CheckJobBanState(player.AssignedPlayer.UserId, role.RoleData.TargetOccupation.JobType) == false)
 			{
 				return GhostRoleResponseCode.JobBanned;
 			}
 
-			if (role.RoleData.TargetAntagonist != null && PlayerList.Instance.CheckJobBanState(player.UserId, role.RoleData.TargetAntagonist.AntagJobType) == false)
+			if (role.RoleData.TargetAntagonist != null && PlayersManager.Instance.CheckJobBanState(player.AssignedPlayer.UserId, role.RoleData.TargetAntagonist.AntagJobType) == false)
 			{
 				return GhostRoleResponseCode.JobBanned;
 			}
@@ -252,7 +252,7 @@ namespace Systems.GhostRoles
 			return currentKeyIndex;
 		}
 
-		private void ServerTryAddPlayerToRole(ConnectedPlayer player, uint key)
+		private void ServerTryAddPlayerToRole(Mind player, uint key)
 		{
 			GhostRoleResponseCode responseCode = VerifyPlayerCanQueue(player, key);
 

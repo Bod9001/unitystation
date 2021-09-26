@@ -80,6 +80,11 @@ namespace Systems.Spawns
 			return GetRandomPointForLateSpawn();
 		}
 
+		public static Transform GetRandomSpawnPoint( bool isGhost = false)
+		{
+			return GetRandomPointForJob(categoryByJob.Keys.PickRandom());
+		}
+
 		private const string DEFAULT_SPAWNPOINT_ICON = "Mapping/mapping_x2.png";
 		private string iconName => iconNames.ContainsKey(category) ? iconNames[category] : DEFAULT_SPAWNPOINT_ICON;
 
