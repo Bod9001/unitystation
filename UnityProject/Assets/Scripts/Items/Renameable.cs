@@ -55,8 +55,7 @@ public class Renameable : NetworkBehaviour, ICheckedInteractable<HandActivate>, 
 		if (!DefaultWillInteract.Default(interaction, side)) return false;
 
 		var cnt = GetComponent<CustomNetTransform>();
-		var ps = interaction.Performer.GetComponent<PlayerScript>();
-		var pna = interaction.Performer.GetComponent<PlayerNetworkActions>();
+		var pna = interaction.Performer.PlayerNetworkActions;
 
 		if (pna.GetActiveHandItem() == gameObject)
 		{

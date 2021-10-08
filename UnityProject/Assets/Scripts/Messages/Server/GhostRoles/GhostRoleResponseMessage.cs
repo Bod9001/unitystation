@@ -28,7 +28,7 @@ namespace Messages.Server.GhostRoles
 		// To be run on client
 		public override void Process(NetMessage msg)
 		{
-			if (LocalPlayerManager.LocalPlayer == null) return;
+			if (LocalPlayerManager.LocalConnectedPlayer == null) return;
 
 			if (MatrixManager.IsInitialized == false) return;
 

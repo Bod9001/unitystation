@@ -14,7 +14,8 @@ using Systems.Electricity;
 ///
 /// Also provides various utility methods for working with tiles.
 /// </summary>
-public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHandApply>, IExaminable, IClientInteractable<MouseDrop>
+public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHandApply>, IExaminable,
+	IClientInteractable<MouseDrop>
 {
 	private MetaTileMap metaTileMap;
 	private Matrix matrix;
@@ -51,12 +52,12 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 	private Layer grillTileMap;
 
 	// source: ElectricalCableDeconstruction.cs
-	[Tooltip("Action message to performer when they begin cable cutting interaction.")]
-	[SerializeField]
+	[Tooltip("Action message to performer when they begin cable cutting interaction.")] [SerializeField]
 	private string performerStartActionMessage = null;
 
 	// source: ElectricalCableDeconstruction.cs
-	[Tooltip("Use {performer} for performer name. Action message to others when the performer begins cable cutting interaction.")]
+	[Tooltip(
+		"Use {performer} for performer name. Action message to others when the performer begins cable cutting interaction.")]
 	[SerializeField]
 	private string othersStartActionMessage = null;
 
@@ -182,6 +183,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 		{
 			return "Space";
 		}
+
 		string msg = "This is a " + tile.DisplayName + ".";
 		if (tile is IExaminable) msg += "\n" + (tile as IExaminable).Examine();
 
@@ -210,7 +212,8 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 			{
 				// Then we loop through each under floor layer in the matrix until we
 				// can find an interaction.
-				foreach (BasicTile underFloorTile in matrix.MetaTileMap.GetAllTilesByType<BasicTile>(localPosition, LayerType.Underfloor))
+				foreach (BasicTile underFloorTile in matrix.MetaTileMap.GetAllTilesByType<BasicTile>(localPosition,
+					LayerType.Underfloor))
 				{
 					// If pointing at electrical cable tile and player is holding
 					// Wirecutter in hand, we enable the cutting window and return false
@@ -218,7 +221,9 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 					// TODO: Check how many cables we have first. Only open the cable
 					//       cutting window when the number of cables exceeds 2.
 					if (underFloorTile is ElectricalCableTile &&
-						Validations.HasItemTrait(LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject, CommonTraits.Instance.Wirecutter))
+					    Validations.HasItemTrait(
+						    LocalPlayerManager.GetActiveHandSlot()
+							    .ItemObject, CommonTraits.Instance.Wirecutter))
 					{
 						// open cable cutting ui window instead of cutting cable
 						EnableCableCuttingWindow();
@@ -229,8 +234,10 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 					// at the target.
 					else
 					{
-						var underFloorApply = new TileApply(interaction.Performer, interaction.UsedObject, interaction.Intent,
-							(Vector2Int) localPosition, this, underFloorTile, interaction.HandSlot, interaction.TargetVector);
+						var underFloorApply = new TileApply(interaction.Performer, interaction.UsedObject,
+							interaction.Intent,
+							(Vector2Int) localPosition, this, underFloorTile, interaction.HandSlot,
+							interaction.TargetVector);
 
 						if (TryInteractWithTile(underFloorApply)) return true;
 					}
@@ -239,11 +246,12 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 			else
 			{
 				var tileApply = new TileApply(interaction.Performer, interaction.UsedObject, interaction.Intent,
-				(Vector2Int) localPosition, this, basicTile, interaction.HandSlot, interaction.TargetVector);
+					(Vector2Int) localPosition, this, basicTile, interaction.HandSlot, interaction.TargetVector);
 
 				return TryInteractWithTile(tileApply);
 			}
 		}
+
 		return false;
 	}
 
@@ -260,7 +268,8 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 		// else add component, init and enable window
 		else
 		{
-			LoadCableCuttingWindow window = (LoadCableCuttingWindow)gameObject.AddComponent(typeof(LoadCableCuttingWindow));
+			LoadCableCuttingWindow window =
+				(LoadCableCuttingWindow) gameObject.AddComponent(typeof(LoadCableCuttingWindow));
 			window.OpenCableCuttingWindow();
 		}
 	}
@@ -268,7 +277,8 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 	/// <summary>
 	/// [Message Handler] Perform cable cutting interaction on server side
 	/// </summary>
-	private void ServerPerformCableCuttingInteraction(NetworkConnection conn, CableCuttingWindow.CableCuttingMessage message)
+	private void ServerPerformCableCuttingInteraction(NetworkConnection conn,
+		CableCuttingWindow.CableCuttingMessage message)
 	{
 		// get object at target position
 		GameObject hit = MouseUtils.GetOrderedObjectsAtPoint(message.targetWorldPosition).FirstOrDefault();
@@ -282,13 +292,16 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 		Vector3Int targetCellPosition = matrix.MetaTileMap.WorldToCell(message.targetWorldPosition);
 
 		// get electical tile from targetCellPosition
-		ElectricalCableTile electricalCable = TileManager.GetTile(message.TileType, message.Name) as ElectricalCableTile;
+		ElectricalCableTile electricalCable =
+			TileManager.GetTile(message.TileType, message.Name) as ElectricalCableTile;
 
 		if (electricalCable == null) return;
 
 		// add messages to chat
-		string othersMessage = Chat.ReplacePerformer(othersStartActionMessage, NetworkIdentity.spawned[ message.performer].GetComponent<Mind>());
-		Chat.AddActionMsgToChat(NetworkIdentity.spawned[ message.performer].GetComponent<Mind>(), performerStartActionMessage, othersMessage);
+		string othersMessage = Chat.ReplacePerformer(othersStartActionMessage,
+			NetworkIdentity.spawned[message.performer].GetComponent<Mind>());
+		Chat.AddActionMsgToChat(NetworkIdentity.spawned[message.performer].GetComponent<Mind>(),
+			performerStartActionMessage, othersMessage);
 
 		// source: ElectricalCableDeconstruction.cs
 		var metaDataNode = matrix.GetMetaDataNode(targetCellPosition);
@@ -300,7 +313,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 			ElectricityFunctions.WorkOutActualNumbers(ElectricalData.InData);
 			float voltage = ElectricalData.InData.Data.ActualVoltage;
 			var electrocution = new Electrocution(voltage, message.targetWorldPosition, "cable");
-			var performerLHB =  NetworkIdentity.spawned[ message.performer].GetComponent<Mind>().LivingHealthMasterBase;
+			var performerLHB = NetworkIdentity.spawned[message.performer].GetComponent<Mind>().LivingHealthMasterBase;
 			var severity = performerLHB.Electrocute(electrocution);
 			if (severity > LivingShockResponse.Mild) return;
 
@@ -310,7 +323,6 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 
 			return;
 		}
-
 	}
 
 	private bool TryInteractWithTile(TileApply interaction)
@@ -320,7 +332,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 		{
 			if (tileInteraction == null) continue;
 			if (tileInteraction.WillInteract(interaction, NetworkSide.Client) &&
-				Cooldowns.TryStartClient(interaction, CommonCooldowns.Instance.Interaction))
+			    Cooldowns.TryStartClient(interaction, CommonCooldowns.Instance.Interaction))
 			{
 				//request the tile interaction with this index
 				RequestInteractMessage.SendTileApply(interaction, this, tileInteraction);
@@ -332,11 +344,11 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 	}
 
 	//for internal IF2 usages only, does server side logic for processing tileapply
-	public void ServerProcessInteraction(Mind performer, Vector2 targetVector,  GameObject processorObj,
-			ItemSlot usedSlot, GameObject usedObject, Intent intent, TileApply.ApplyType applyType)
+	public void ServerProcessInteraction(Mind performer, Vector2 targetVector, GameObject processorObj,
+		ItemSlot usedSlot, GameObject usedObject, Intent intent, TileApply.ApplyType applyType)
 	{
 		//find the indicated tile interaction
-		var worldPosTarget = (Vector2)performer.transform.position + targetVector;
+		var worldPosTarget = (Vector2) performer.BodyWorldPosition + targetVector;
 		Vector3Int localPosition = WorldToCell(worldPosTarget);
 		//pass the interaction down to the basic tile
 		LayerTile tile = LayerTileAt(worldPosTarget, true);
@@ -344,16 +356,17 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 		{
 			// check which tile interaction occurs in the correct order
 			Logger.LogTraceFormat(
-					"Server checking which tile interaction to trigger for TileApply on tile {0} at worldPos {1}",
-					Category.Interaction, tile.name, worldPosTarget);
+				"Server checking which tile interaction to trigger for TileApply on tile {0} at worldPos {1}",
+				Category.Interaction, tile.name, worldPosTarget);
 
 			if (basicTile.LayerType == LayerType.Underfloor)
 			{
-				foreach (var underFloorTile in matrix.MetaTileMap.GetAllTilesByType<BasicTile>(localPosition, LayerType.Underfloor))
+				foreach (var underFloorTile in matrix.MetaTileMap.GetAllTilesByType<BasicTile>(localPosition,
+					LayerType.Underfloor))
 				{
 					var underFloorApply = new TileApply(
-							performer, usedObject, intent, (Vector2Int) localPosition,
-							this, underFloorTile, usedSlot, targetVector, applyType);
+						performer, usedObject, intent, (Vector2Int) localPosition,
+						this, underFloorTile, usedSlot, targetVector, applyType);
 
 					foreach (var tileInteraction in underFloorTile.TileInteractions)
 					{
@@ -369,8 +382,8 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 			else
 			{
 				var tileApply = new TileApply(
-						performer, usedObject, intent, (Vector2Int) localPosition,
-						this, basicTile, usedSlot, targetVector, applyType);
+					performer, usedObject, intent, (Vector2Int) localPosition,
+					this, basicTile, usedSlot, targetVector, applyType);
 
 				PerformTileInteract(tileApply);
 			}
@@ -412,15 +425,22 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 
 		LayerTile tile = LayerTileAt(interaction.ShadowWorldLocation, true);
 
-		if(tile is BasicTile basicTile)
+		if (tile is BasicTile basicTile)
 		{
-			var tileApply = new TileApply(interaction.Performer, interaction.UsedObject, interaction.Intent, (Vector2Int)WorldToCell(interaction.ShadowWorldLocation), this, basicTile, null, -((Vector2)interaction.Performer.transform.position - interaction.ShadowWorldLocation), TileApply.ApplyType.MouseDrop);
-			var tileMouseDrop = new TileMouseDrop(interaction.Performer, interaction.UsedObject, interaction.Intent, (Vector2Int)WorldToCell(interaction.ShadowWorldLocation), this, basicTile, -((Vector2)interaction.Performer.transform.position - interaction.ShadowWorldLocation));
+			var tileApply = new TileApply(interaction.Performer, interaction.UsedObject, interaction.Intent,
+				(Vector2Int) WorldToCell(interaction.ShadowWorldLocation), this, basicTile, null,
+				-((Vector2) interaction.Performer.BodyWorldPosition - interaction.ShadowWorldLocation),
+				TileApply.ApplyType.MouseDrop);
+
+			var tileMouseDrop = new TileMouseDrop(interaction.Performer, interaction.UsedObject, interaction.Intent,
+				(Vector2Int) WorldToCell(interaction.ShadowWorldLocation), this, basicTile,
+				-((Vector2) interaction.Performer.BodyWorldPosition - interaction.ShadowWorldLocation));
+
 			foreach (var tileInteraction in basicTile.TileInteractions)
 			{
 				if (tileInteraction == null) continue;
 				if (tileInteraction.WillInteract(tileApply, NetworkSide.Client) &&
-					Cooldowns.TryStartClient(interaction, CommonCooldowns.Instance.Interaction))
+				    Cooldowns.TryStartClient(interaction, CommonCooldowns.Instance.Interaction))
 				{
 					//request the tile interaction because we think one will happen
 					RequestInteractMessage.SendTileMouseDrop(tileMouseDrop, this);
@@ -433,6 +453,7 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 	}
 
 	public static bool instanceActive = false;
+
 	public void OnHoverStart()
 	{
 		OnHover();
@@ -446,9 +467,11 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 			Vector2 cameraPos = MouseUtils.MouseToWorldPos();
 			var tilePos = cameraPos.RoundToInt();
 			OrientationEnum orientation = OrientationEnum.Down;
-			Vector3Int PlaceDirection = LocalPlayerManager.LocalPlayer.CurrentMind.BodyWorldPosition.RoundToInt() - tilePos;
+			Vector3Int PlaceDirection =
+				LocalPlayerManager.CurrentMind.BodyWorldPosition.RoundToInt() - tilePos;
 			bool isWallBlocked = false;
-			if (PlaceDirection.x != 0 && !MatrixManager.IsWallAtAnyMatrix(tilePos + new Vector3Int(PlaceDirection.x > 0 ? 1 : -1, 0, 0), true))
+			if (PlaceDirection.x != 0 &&
+			    !MatrixManager.IsWallAtAnyMatrix(tilePos + new Vector3Int(PlaceDirection.x > 0 ? 1 : -1, 0, 0), true))
 			{
 				if (PlaceDirection.x > 0)
 				{
@@ -461,7 +484,9 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 			}
 			else
 			{
-				if (PlaceDirection.y != 0 && !MatrixManager.IsWallAtAnyMatrix(tilePos + new Vector3Int(0, PlaceDirection.y > 0 ? 1 : -1, 0), true))
+				if (PlaceDirection.y != 0 &&
+				    !MatrixManager.IsWallAtAnyMatrix(tilePos + new Vector3Int(0, PlaceDirection.y > 0 ? 1 : -1, 0),
+					    true))
 				{
 					if (PlaceDirection.y > 0)
 					{
@@ -485,51 +510,55 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 					instanceActive = false;
 					Highlight.DeHighlight();
 				}
+
 				return;
 			}
 
 			if (!instanceActive)
 			{
 				instanceActive = true;
-				Highlight.ShowHighlight(LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject, true);
+				Highlight.ShowHighlight(
+					LocalPlayerManager.GetActiveHandSlot().ItemObject, true);
 			}
 
 			Vector3 spritePos = tilePos;
 			if (wallMount.IsWallProtrusion) //for light bulbs, tubes, cameras, etc. move the sprite towards the floor
 			{
-				if(orientation == OrientationEnum.Right)
+				if (orientation == OrientationEnum.Right)
 				{
 					spritePos.x += 0.5f;
-					Highlight.instance.spriteRenderer.transform.rotation = Quaternion.Euler(0,0,270);
+					Highlight.instance.spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 270);
 				}
-				else if(orientation == OrientationEnum.Left)
+				else if (orientation == OrientationEnum.Left)
 				{
-						spritePos.x -= 0.5f;
-						Highlight.instance.spriteRenderer.transform.rotation = Quaternion.Euler(0,0,90);
+					spritePos.x -= 0.5f;
+					Highlight.instance.spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 90);
 				}
-				else if(orientation == OrientationEnum.Up)
+				else if (orientation == OrientationEnum.Up)
 				{
 					spritePos.y += 0.5f;
-					Highlight.instance.spriteRenderer.transform.rotation = Quaternion.Euler(0,0,0);
+					Highlight.instance.spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 0);
 				}
 				else
 				{
 					spritePos.y -= 0.5f;
-					Highlight.instance.spriteRenderer.transform.rotation = Quaternion.Euler(0,0,0);
+					Highlight.instance.spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 0);
 				}
 			}
+
 			Highlight.instance.spriteRenderer.transform.position = spritePos;
 		}
 	}
 
 	WallMountHandApplySpawn CheckWallMountOverlay()
 	{
-
-		var itemSlot = LocalPlayerManager.LocalPlayer.CurrentMind.OrNull()?.DynamicItemStorage.OrNull()?.GetActiveHandSlot();
+		var itemSlot = LocalPlayerManager.CurrentMind.OrNull()?.DynamicItemStorage.OrNull()
+			?.GetActiveHandSlot(LocalPlayerManager.CurrentMind);
 		if (itemSlot == null || itemSlot.ItemObject == null)
 		{
 			return null;
 		}
+
 		var wallMount = itemSlot.ItemObject.GetComponent<WallMountHandApplySpawn>();
 		return wallMount;
 	}
@@ -588,5 +617,4 @@ public class InteractableTiles : MonoBehaviour, IClientInteractable<PositionalHa
 
 		tileChangeManager.RemoveOverlaysOfType(cellPos, LayerType.Effects, animatedTile.OverlayType);
 	}
-
 }

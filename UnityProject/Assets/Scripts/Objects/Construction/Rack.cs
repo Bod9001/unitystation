@@ -32,8 +32,6 @@ namespace Objects.Construction
 
 		public void ServerPerformInteraction(PositionalHandApply interaction)
 		{
-			PlayerNetworkActions pna = interaction.Performer.GetComponent<PlayerNetworkActions>();
-
 			if (interaction.HandObject == null)
 			{ // No item in hand, so let's TEACH THIS RACK A LESSON
 				Chat.AddCombatMsgToChat(interaction.Performer, "You kick the rack. Nice job!",

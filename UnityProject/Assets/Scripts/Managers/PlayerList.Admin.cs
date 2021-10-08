@@ -192,7 +192,7 @@ public partial class PlayersManager
 			//allow null admin when doing offline testing
 			if (GameData.Instance.OfflineMode)
 			{
-				return LocalPlayerManager.LocalPlayer;
+				return LocalPlayerManager.LocalConnectedPlayer;
 			}
 			Logger.LogError("The User ID for Admin is null!", Category.Admin);
 			if (string.IsNullOrEmpty(token))

@@ -71,7 +71,7 @@ public class WallMountHandApplySpawn : MonoBehaviour, ICheckedInteractable<Posit
 			roundTargetWorldPosition = tileInFront;
 		}
 
-		GameObject WallMount = Spawn.ServerPrefab(WallMountToSpawn, roundTargetWorldPosition,  interaction.Performer.transform.parent, spawnItems: false).GameObject;
+		GameObject WallMount = Spawn.ServerPrefab(WallMountToSpawn, roundTargetWorldPosition,  interaction.Performer.GameObjectBody.transform.parent, spawnItems: false).GameObject;
 		var Directional = WallMount.GetComponent<Directional>();
 		if (Directional != null) Directional.FaceDirection(Orientation.FromEnum(FaceDirection));
 

@@ -69,7 +69,7 @@ namespace UI.Action
 			bool shouldShow = ShouldShowButton(info);
 			ClientSetActionButtonVisibility(shouldShow);
 
-			if (LocalPlayerManager.CurrentMind == null || LocalPlayerManager.CurrentMind.LivingHealthMasterBase == null) return;
+			if (LocalPlayerManager.CurrentMind.OrNull()?.LivingHealthMasterBase == null) return;
 		}
 
 		public void ClientSetActionButtonVisibility(bool isVisible)

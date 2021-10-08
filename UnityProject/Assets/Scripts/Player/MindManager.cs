@@ -42,7 +42,6 @@ public class MindManager : MonoBehaviour
 		return null;
 	}
 
-	[Server]
 	public static Mind StaticGet(GameObject byGameObject, bool includeOffline = false)
 	{
 		return Instance.Get(byGameObject, includeOffline );
@@ -62,14 +61,14 @@ public class MindManager : MonoBehaviour
 		var outMind = GetNewMind();
 		outMind.OriginalCharacter = characterSettings;
 		outMind.occupation = occupation;
-		outMind.gameObject.name = characterSettings.Name;
+		outMind.name = characterSettings.Name;
 		return outMind;
 	}
 
 	public Mind GetNewMindForGhost(CharacterSettings characterSettings)
 	{
 		var outMind = GetNewMind();
-		outMind.gameObject.name = characterSettings.Name;
+		outMind.name = characterSettings.Name;
 		outMind.OriginalCharacter = characterSettings;
 
 		return outMind;

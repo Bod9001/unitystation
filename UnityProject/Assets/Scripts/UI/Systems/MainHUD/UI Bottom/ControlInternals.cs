@@ -12,8 +12,8 @@ public class ControlInternals : TooltipMonoBehaviour
 	[SerializeField] private Image airTankFillImage = default;
 	[SerializeField] private Image mask = default;
 
-	[Header("Color settings")]
-	[SerializeField] private Color activeAirFlowTankColor = default;
+	[Header("Color settings")] [SerializeField]
+	private Color activeAirFlowTankColor = default;
 
 	[NonSerialized] private int _currentState = 1;
 
@@ -68,6 +68,7 @@ public class ControlInternals : TooltipMonoBehaviour
 			}
 		}
 	}
+
 	public bool isAirflowEnabled;
 	private GasContainer gasContainer = null;
 	private bool isWearingMask = false;
@@ -99,10 +100,9 @@ public class ControlInternals : TooltipMonoBehaviour
 		if (CurrentState != 4 && CurrentState != 5)
 			return;
 
-		if (LocalPlayerManager.LocalPlayer == null)
-			return;
+		if (LocalPlayerManager.CurrentMind.OrNull().LivingHealthMasterBase == null) return;
 
-		if (LocalPlayerManager.CurrentMind.LivingHealthMasterBase.IsCrit)
+		if (LocalPlayerManager.CurrentMind.OrNull().LivingHealthMasterBase.IsCrit)
 			return;
 
 		SoundManager.Play(CommonSounds.Instance.Click01);
@@ -136,7 +136,8 @@ public class ControlInternals : TooltipMonoBehaviour
 		if (LocalPlayerManager.CurrentMind.IsGhosting) return;
 		if (Mask == null)
 		{
-			foreach (var maskItemSlot in LocalPlayerManager.CurrentMind.DynamicItemStorage.GetNamedItemSlots(NamedSlot.mask ))
+			foreach (var maskItemSlot in LocalPlayerManager.CurrentMind.DynamicItemStorage.GetNamedItemSlots(
+				NamedSlot.mask))
 			{
 				if (maskItemSlot.ItemObject != null && maskItemSlot.ItemAttributes != null)
 				{
@@ -155,9 +156,11 @@ public class ControlInternals : TooltipMonoBehaviour
 			bool Doublebreak = false;
 			foreach (NamedSlot namedSlot in DynamicItemStorage.GasUseSlots)
 			{
-				foreach (ItemSlot itemSlot in LocalPlayerManager.CurrentMind.DynamicItemStorage.GetNamedItemSlots(namedSlot))
+				foreach (ItemSlot itemSlot in LocalPlayerManager.CurrentMind.DynamicItemStorage.GetNamedItemSlots(
+					namedSlot))
 				{
-					if (itemSlot.ItemObject != null && itemSlot.ItemObject.TryGetComponent(out GasContainer gasContainer))
+					if (itemSlot.ItemObject != null &&
+					    itemSlot.ItemObject.TryGetComponent(out GasContainer gasContainer))
 					{
 						Tank = itemSlot.ItemObject;
 						this.gasContainer = gasContainer;
@@ -165,6 +168,7 @@ public class ControlInternals : TooltipMonoBehaviour
 						break;
 					}
 				}
+
 				if (Doublebreak) break;
 			}
 		}
@@ -187,6 +191,7 @@ public class ControlInternals : TooltipMonoBehaviour
 				Tank = null;
 			}
 		}
+
 		UpdateState();
 	}
 
@@ -205,21 +210,21 @@ public class ControlInternals : TooltipMonoBehaviour
 		if (!isWearingMask && gasContainer == null)
 		{
 			CurrentState = 1;
-			if(isAirflowEnabled)
+			if (isAirflowEnabled)
 				EventManager.Broadcast(Event.DisableInternals);
 		}
 		// Player is wearing a tank, but no mask.
 		else if (!isWearingMask && gasContainer != null)
 		{
 			CurrentState = 2;
-			if(isAirflowEnabled)
+			if (isAirflowEnabled)
 				EventManager.Broadcast(Event.DisableInternals);
 		}
 		// Player is wearing a mask, but no tank
 		else if (isWearingMask && gasContainer == null)
 		{
 			CurrentState = 3;
-			if(isAirflowEnabled)
+			if (isAirflowEnabled)
 				EventManager.Broadcast(Event.DisableInternals);
 		}
 		// Player is wearing a mask and a tank, but airflow is off

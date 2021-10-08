@@ -611,7 +611,7 @@ namespace HealthV2
 					BodyPartList[i].TakeDamage(damagedBy, damage/count, attackType, damageType, armorPenetration: armorPenetration);
 				}
 			}
-			
+
 			CheckDismemberBody();
 		}
 
@@ -904,7 +904,7 @@ namespace HealthV2
 		/// <returns>String describing the creature</returns>
 		public string GetExamineText(Mind script = null)
 		{
-			var theyPronoun = script == null ? "It" : script.OriginalCharacter.TheyPronoun(script);
+			var theyPronoun = script == null ? "It" : script.TheyPronoun();
 			var healthString = new StringBuilder($"{theyPronoun} is ");
 
 			if (IsDead)
@@ -914,7 +914,7 @@ namespace HealthV2
 
 				if (script != null && script.OrNull()?.AssignedPlayer.OrNull()?.Connection == null)
 				{
-					healthString.Append($" and {script.OriginalCharacter.TheirPronoun(script)} soul has departed");
+					healthString.Append($" and {script.TheirPronoun()} soul has departed");
 				}
 
 				healthString.Append("...</color>");
@@ -1116,7 +1116,7 @@ namespace HealthV2
 		{
 			int i = 0;
 			bool isSurfaceSprite = implant.IsSurface;
-			var sprites = implant.GetBodyTypeSprites(playerSprites.ThisCharacter.BodyType);
+			var sprites = implant.GetBodyTypeSprites(playerSprites.OriginalCharacter.BodyType);
 			foreach (var Sprite in sprites.Item2)
 			{
 				var newSprite = Spawn.ServerPrefab(implant.SpritePrefab.gameObject, Vector3.zero, playerSprites.BodySprites.transform).GameObject.GetComponent<BodyPartSprites>();

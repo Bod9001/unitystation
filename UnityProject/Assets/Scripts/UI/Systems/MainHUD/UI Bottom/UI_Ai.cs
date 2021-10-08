@@ -185,7 +185,7 @@ namespace UI.Systems.MainHUD.UI_Bottom
 		{
 			if (aiPlayer == null)
 			{
-				aiPlayer = LocalPlayerManager.LocalPlayer.OrNull()?.GetComponent<AiPlayer>();
+				aiPlayer = LocalPlayerManager.CurrentMind.GameObjectBody.OrNull()?.GetComponent<AiPlayer>();
 			}
 
 			if (aiPlayer == null)

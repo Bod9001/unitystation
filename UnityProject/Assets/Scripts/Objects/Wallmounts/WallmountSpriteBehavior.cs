@@ -44,7 +44,7 @@ namespace Objects.Wallmounts
 		private void OnWillRenderObject()
 		{
 			// don't run check until player is created
-			if (LocalPlayerManager.LocalPlayer == null || wallmountBehavior == null)
+			if (LocalPlayerManager.CurrentMind == null || wallmountBehavior == null)
 			{
 				return;
 			}

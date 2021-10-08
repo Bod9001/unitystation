@@ -22,7 +22,7 @@ public class NetSubmitButton : NetUIStringElement
 	public StringEvent ServerMethod;
 	public InputField SourceInputField;
 
-	public override void ExecuteServer(ConnectedPlayer subject) {
+	public override void ExecuteServer(Mind subject) {
 		ServerMethod.Invoke(Value);
 	}
 }

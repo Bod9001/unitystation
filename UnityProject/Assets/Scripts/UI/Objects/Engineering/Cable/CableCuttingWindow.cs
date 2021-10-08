@@ -393,7 +393,7 @@ public class CableCuttingWindow : MonoBehaviour
 	{
 		if (data.electricalCable == null) return;
 
-		Vector3 targetVec = targetWorldPosition - LocalPlayerManager.LocalPlayer.transform.position;
+		Vector3 targetVec = targetWorldPosition - LocalPlayerManager.CurrentMind.BodyWorldPosition;
 		var apply = PositionalHandApply.ByLocalPlayer(matrix.gameObject, targetVec);
 
 		// if can interact and there are no cooldown - send message to server and destroy UI cell
@@ -421,7 +421,7 @@ public class CableCuttingWindow : MonoBehaviour
 	{
 		if (!DefaultWillInteract.Default(apply, NetworkSide.Client)) return false;
 		return Validations.HasItemTrait(
-			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject,
+			LocalPlayerManager.GetActiveHandSlot().ItemObject,
 			CommonTraits.Instance.Wirecutter);
 	}
 
@@ -435,7 +435,7 @@ public class CableCuttingWindow : MonoBehaviour
 		// create  message
 		CableCuttingMessage message = new CableCuttingMessage()
 		{
-			performer = LocalPlayerManager.LocalPlayer.CurrentMind.gameObject.NetId(),
+			performer = LocalPlayerManager.CurrentMind.gameObject.NetId(),
 			targetWorldPosition = targetWorldPosition,
 			Name = Name,
 			TileType = TileType

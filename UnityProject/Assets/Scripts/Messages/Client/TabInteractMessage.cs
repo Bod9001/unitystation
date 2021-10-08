@@ -26,10 +26,10 @@ namespace Messages.Client
 		public override void Process(NetMessage msg)
 		{
 			LoadNetworkObject(msg.TabProvider);
-			ProcessFurther(SentByPlayer, NetworkObject, msg);
+			ProcessFurther(SentByPlayer.CurrentMind, NetworkObject, msg);
 		}
 
-		private void ProcessFurther(ConnectedPlayer player, GameObject tabProvider, NetMessage msg)
+		private void ProcessFurther(Mind player, GameObject tabProvider, NetMessage msg)
 		{
 			if (player == null)
 			{
@@ -42,21 +42,21 @@ namespace Messages.Client
 				return;
 			}
 
-			var playerScript = player.Script;
+			var playerScript = player;
 
 			//First Validations is for objects in the world (computers, etc), second check is for items in active hand (null rod, PADs).
 			bool validate;
-			if (playerScript.PlayerState == PlayerScript.PlayerStates.Ai)
+			if (playerScript.IsSilicon)
 			{
-				validate = Validations.CanApply(new AiActivate(player.GameObject, null,
+				validate = Validations.CanApply(new AiActivate(playerScript, null,
 					tabProvider, Intent.Help, AiActivate.ClickTypes.NormalClick), NetworkSide.Server);
 			}
 			else
 			{
 				try
 				{
-					validate = Validations.CanApply(player.Script, tabProvider, NetworkSide.Server)
-					           || playerScript.DynamicItemStorage.GetActiveHandSlot().ItemObject == tabProvider;
+					validate = Validations.CanApply(player, tabProvider, NetworkSide.Server)
+					           || playerScript.GetActiveHandSlot().ItemObject == tabProvider;
 				}
 				catch (NullReferenceException exception)
 				{
@@ -64,6 +64,8 @@ namespace Messages.Client
 					return;
 				}
 			}
+
+
 
 			if (!validate)
 			{
@@ -105,24 +107,24 @@ namespace Messages.Client
 			}
 
 			//Notify all peeping players of the change
-			List<ConnectedPlayer> list = NetworkTabManager.Instance.GetPeepers(tabProvider, msg.NetTabType);
+			var list = NetworkTabManager.Instance.GetPeepers(tabProvider, msg.NetTabType);
 			for (var i = 0; i < list.Count; i++)
 			{
 				var connectedPlayer = list[i];
 //Not sending that update to the same player
-				if (connectedPlayer.GameObject != player.GameObject)
+				if (connectedPlayer != player)
 				{
-					TabUpdateMessage.Send(connectedPlayer.GameObject, tabProvider, msg.NetTabType, TabAction.Update,
-						player.GameObject,
+					TabUpdateMessage.Send(connectedPlayer, tabProvider, msg.NetTabType, TabAction.Update,
+						player,
 						new[] {new ElementValue {Id = msg.ElementId, Value = updatedElement.BinaryValue}});
 				}
 			}
 		}
 
-		private TabUpdateMessage FailValidation(ConnectedPlayer player, GameObject tabProvider, NetMessage msg, string reason = "")
+		private TabUpdateMessage FailValidation(Mind player, GameObject tabProvider, NetMessage msg, string reason = "")
 		{
-			Logger.LogWarning($"{player.Name}: Tab interaction w/{tabProvider} denied: {reason}", Category.NetUI);
-			return TabUpdateMessage.Send(player.GameObject, tabProvider, msg.NetTabType, TabAction.Close);
+			Logger.LogWarning($"{player.AssignedPlayer.Username}: Tab interaction w/{tabProvider} denied: {reason}", Category.NetUI);
+			return TabUpdateMessage.Send(player, tabProvider, msg.NetTabType, TabAction.Close);
 		}
 
 		public static NetMessage Send(

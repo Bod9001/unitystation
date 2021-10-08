@@ -87,13 +87,13 @@ public class DrinkableContainer : Consumable
 		if (item && drinkSound != null)
 		{
 			AudioSourceParameters audioSourceParameters = new AudioSourceParameters(RandomPitch, spatialBlend: 1f);
-			SoundManager.PlayNetworkedAtPos(drinkSound, eater.BodyWorldPosition, audioSourceParameters, sourceObj: eater.gameObject);
+			SoundManager.PlayNetworkedAtPos(drinkSound, eater.BodyWorldPosition, audioSourceParameters, sourceObj: eater.GameObjectBody);
 		}
 	}
 
 	private void DoDrinkEffects(Mind eater, float drinkAmount)
 	{
-		var playerEatDrinkEffects = eater.GetComponent<PlayerEatDrinkEffects>();
+		var playerEatDrinkEffects = eater.PlayerEatDrinkEffects;
 
 		if(playerEatDrinkEffects == null) return;
 

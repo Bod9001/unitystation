@@ -74,13 +74,13 @@ public class NetTab : Tab
 	public NetTabType Type = NetTabType.None;
 
 	[SerializeField]
-	public ConnectedPlayerEvent OnTabClosed = new ConnectedPlayerEvent();
+	public MindEvent OnTabClosed = new MindEvent();
 
 	/// <summary>
 	/// Invoked when there is a new peeper to this tab
 	/// </summary>
 	[SerializeField]
-	public ConnectedPlayerEvent OnTabOpened = new ConnectedPlayerEvent();
+	public MindEvent OnTabOpened = new MindEvent();
 
 	[NonSerialized]
 	public GameObject Provider;
@@ -98,7 +98,7 @@ public class NetTab : Tab
 	public Dictionary<string, NetUIElementBase> CachedElements { get; } = new Dictionary<string, NetUIElementBase>();
 
 	// for server
-	public HashSet<ConnectedPlayer> Peepers { get; } = new HashSet<ConnectedPlayer>();
+	public HashSet<Mind> Peepers { get; } = new HashSet<Mind>();
 
 	public bool IsUnobserved => Peepers.Count == 0;
 
@@ -136,16 +136,14 @@ public class NetTab : Tab
 	// for server
 	public void AddPlayer(Mind player)
 	{
-		var newPeeper = PlayersManager.Instance.Get(player);
-		Peepers.Add(newPeeper);
-		OnTabOpened.Invoke(newPeeper);
+		Peepers.Add(player);
+		OnTabOpened.Invoke(player);
 	}
 
 	public void RemovePlayer(Mind player)
 	{
-		var newPeeper = PlayersManager.Instance.Get(player);
-		OnTabClosed.Invoke(newPeeper);
-		Peepers.Remove(newPeeper);
+		OnTabClosed.Invoke(player);
+		Peepers.Remove(player);
 	}
 
 	public void RescanElements()
@@ -262,21 +260,21 @@ public class NetTab : Tab
 	{
 		foreach (var peeper in Peepers.ToArray())
 		{
-			bool canApply = Validations.CanApply(peeper.CurrentMind, Provider, NetworkSide.Server);
+			bool canApply = Validations.CanApply(peeper, Provider, NetworkSide.Server);
 
-			if (peeper.CurrentMind == null || canApply == false)
+			if (peeper == null || canApply == false)
 			{
 				//Validate for AI
-				if (peeper.CurrentMind.IsSilicon)
+				if (peeper.IsSilicon)
 				{
-					if (Validations.CanApply(new AiActivate(peeper.CurrentMind, null,
+					if (Validations.CanApply(new AiActivate(peeper, null,
 						Provider, Intent.Help, AiActivate.ClickTypes.NormalClick), NetworkSide.Server))
 					{
 						continue;
 					}
 				}
 
-				TabUpdateMessage.Send(peeper.CurrentMind, Provider, Type, TabAction.Close);
+				TabUpdateMessage.Send(peeper, Provider, Type, TabAction.Close);
 			}
 		}
 	}
@@ -312,4 +310,4 @@ public class NetTab : Tab
 }
 
 [Serializable]
-public class ConnectedPlayerEvent : UnityEvent<ConnectedPlayer> { }
+public class MindEvent : UnityEvent<Mind> { }

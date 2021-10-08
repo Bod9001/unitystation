@@ -31,7 +31,7 @@ public class AimApply : Interaction
 	/// <summary>
 	/// Targeted world position deduced from target vector and performer position.
 	/// </summary>
-	public Vector2 WorldPositionTarget => (Vector2)Performer.transform.position + targetVector;
+	public Vector2 WorldPositionTarget => (Vector2)Performer.BodyWorldPosition + targetVector;
 
 	/// <summary>
 	/// Vector pointing from the performer to the targeted position. Set to Vector2.zero if aiming at self.
@@ -76,17 +76,17 @@ public class AimApply : Interaction
 		}
 
 		var targetVector = (Vector2) MouseUtils.MouseToWorldPos() -
-		                   (Vector2) LocalPlayerManager.LocalPlayer.transform.position;
+		                   (Vector2) LocalPlayerManager.CurrentMind.BodyWorldPosition;
 		//check for self aim if target vector is sufficiently small so we can avoid raycast
 		var selfAim = false;
 		if (targetVector.magnitude < 0.6)
 		{
 			selfAim = MouseUtils.GetOrderedObjectsUnderMouse(PLAYER_LAYER_MASK,
-				go => go == LocalPlayerManager.LocalPlayer).Any();
+				go =>  LocalPlayerManager.HasThisBody(go)).Any();
 		}
 
-		return new AimApply(LocalPlayerManager.LocalPlayer.CurrentMind, LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject,
-			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(),
+		return new AimApply(LocalPlayerManager.CurrentMind, LocalPlayerManager.GetActiveHandSlot().ItemObject,
+			LocalPlayerManager.GetActiveHandSlot(),
 			buttonState,
 			selfAim ? Vector2.zero : targetVector, UIManager.CurrentIntent);
 	}

@@ -42,7 +42,7 @@ public class DynamicEntry : NetUIElement<Vector2> {
 		set { transform.localPosition = value; }
 	}
 
-	public override void ExecuteServer(ConnectedPlayer subject)
+	public override void ExecuteServer(Mind subject)
 	{
 	}
 }

@@ -125,7 +125,7 @@ public partial class PlayerSync
 			Speed = masterSpeedServer
 		};
 		Logger.LogTraceFormat("{0}: InitServerState for {1} found matrix {2} resulting in\n{3}", Category.Movement,
-			MindManager.Instance.Get(gameObject).CharactersName, worldPos, matrixAtPoint, state);
+			gameObject.name, worldPos, matrixAtPoint, state);
 		serverLerpState = state;
 		ServerState = state;
 	}
@@ -369,7 +369,7 @@ public partial class PlayerSync
 	public void NotifyPlayer(NetworkConnection recipient, bool noLerp = false)
 	{
 		serverState.NoLerp = noLerp;
-		var msg = PlayerMoveMessage.Send(recipient, MindManager.StaticGet(gameObject), serverState);
+		var msg = PlayerMoveMessage.Send(recipient, this, serverState);
 		Logger.LogTraceFormat("Sent {0}", Category.Movement, msg);
 	}
 
@@ -403,7 +403,7 @@ public partial class PlayerSync
 		}
 
 		serverState.NoLerp = noLerp;
-		PlayerMoveMessage.SendToAll(MindManager.StaticGet(gameObject), serverState);
+		PlayerMoveMessage.SendToAll(this, serverState);
 		//		Logger.LogTraceFormat("SentToAll {0}", Category.Movement, msg);
 		//Clearing state flags
 		serverState.ImportantFlightUpdate = false;

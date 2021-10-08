@@ -34,12 +34,12 @@ namespace Systems.MobAIs
 			string npcName = gameObject.ExpensiveName();
 			if (TryGetComponent<MobAI>(out var npc))
 			{
-				npc.OnPetted(interaction.Performer.gameObject);
+				npc.OnPetted(interaction.Performer.GameObjectBody);
 				if (string.IsNullOrWhiteSpace(npc.mobName) == false)
 				{
 					npcName = npc.mobName;
 				}
-				
+
 			}
 
 			Chat.AddActionMsgToChat(

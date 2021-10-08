@@ -81,7 +81,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 		    HasClothingItem(info.FromPlayer, info.FromSlot))
 		{
 			//clear previous slot appearance
-			PlayerAppearanceMessage.SendToAll(info.FromPlayer.gameObject,
+			PlayerAppearanceMessage.SendToAll(info.FromSlot.GetRootStorage(),
 				(int)info.FromSlot.NamedSlot.GetValueOrDefault(NamedSlot.none), null);
 
 			//ask target playerscript to update shown name.
@@ -92,7 +92,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 		    HasClothingItem(info.ToPlayer, info.ToSlot))
 		{
 			//change appearance based on new item
-			PlayerAppearanceMessage.SendToAll(info.ToPlayer.gameObject,
+			PlayerAppearanceMessage.SendToAll(info.ToSlot.GetRootStorage(),
 				(int)info.ToSlot.NamedSlot.GetValueOrDefault(NamedSlot.none), info.MovedObject.gameObject);
 
 			//ask target playerscript to update shown name.
@@ -145,7 +145,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 	public void ServerRollbackClient(HandApply interaction)
 	{
 		//Rollback prediction (inform player about item's true state)
-		GetComponent<CustomNetTransform>().NotifyPlayer(interaction.Performer.GetComponent<NetworkIdentity>().connectionToClient);
+		GetComponent<CustomNetTransform>().NotifyPlayer(interaction.Performer.netIdentity.connectionToClient);
 	}
 
 	public virtual void ServerPerformInteraction(HandApply interaction)
@@ -161,8 +161,8 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 		var extendedRangeOnly = !Validations.IsReachableByRegisterTiles(registerTile,cnt.RegisterTile, true);
 
 		//Start the animation on the server and clients.
-		PickupAnim(interaction.Performer.gameObject);
-		RpcPickupAnimation(interaction.Performer.gameObject);
+		PickupAnim(interaction.Performer.GameObjectBody);
+		RpcPickupAnimation(interaction.Performer.GameObjectBody);
 		yield return WaitFor.Seconds(pickupAnimSpeed);
 
 		//Make sure that the object is scaled back to it's original size.
@@ -186,7 +186,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 				InitialSpeed = 2
 			} );
 			Logger.LogTraceFormat( "Nudging! server pos:{0} player pos:{1}", Category.Movement,
-				cnt.ServerState.WorldPosition, interaction.Performer.transform.position);
+				cnt.ServerState.WorldPosition, interaction.Performer.BodyWorldPosition);
 			//client prediction doesn't handle nudging, so we need to roll them back
 			ServerRollbackClient(interaction);
 		}
@@ -197,7 +197,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 			if (Inventory.ServerAdd(this, interaction.HandSlot))
 			{
 				Logger.LogTraceFormat("Pickup success! server pos:{0} player pos:{1} (floating={2})", Category.Movement,
-					cnt.ServerState.WorldPosition, interaction.Performer.transform.position, cnt.IsFloatingServer);
+					cnt.ServerState.WorldPosition, interaction.Performer.BodyWorldPosition, cnt.IsFloatingServer);
 			}
 			else
 			{
@@ -300,7 +300,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 	{
 		if (itemSlot != null)
 		{
-			var equipment = itemSlot.Player.GetComponent<Equipment>();
+			var equipment = itemSlot.Player.Equipment;
 			if (equipment == null) return;
 			var CT = equipment.GetClothingItem(itemSlot.NamedSlot.Value);
 			CT.SetInHand(_ItemsSprites);
@@ -311,7 +311,7 @@ public class Pickupable : NetworkBehaviour, IPredictedCheckedInteractable<HandAp
 	{
 		if (itemSlot != null)
 		{
-			var equipment = itemSlot.Player.GetComponent<Equipment>();
+			var equipment = itemSlot.Player.Equipment;
 			if (equipment == null) return;
 			var CT = equipment.GetClothingItem(itemSlot.NamedSlot.Value);
 			CT.spriteHandler.SetPaletteOfCurrentSprite(palette, networked:false);

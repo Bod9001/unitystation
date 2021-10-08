@@ -178,7 +178,7 @@ public static class Validations
 		if (side == NetworkSide.Client)
 		{
 			//we only know our own conscious state, so assume true if it's not our local player
-			if (playerHealth.ThisGameObject != LocalPlayerManager.LocalPlayer.CurrentMind.GameObjectBody) return true;
+			if (playerHealth.ThisGameObject != LocalPlayerManager.CurrentMind.GameObjectBody) return true;
 		}
 
 		return playerHealth.ConsciousState == ConsciousState.CONSCIOUS ||
@@ -250,7 +250,7 @@ public static class Validations
 		// This was added so NetTabs (NetTab.ValidatePeepers()) can be used on items in an inventory.
 		if (target != null && target.TryGetComponent(out Pickupable pickupable) && pickupable.ItemSlot != null)
 		{
-			if (pickupable.ItemSlot.RootPlayer().OrNull()?.gameObject == playerScript.gameObject)
+			if (playerScript == pickupable.ItemSlot.RootPlayer())
 			{
 				result = true;
 			}
@@ -350,7 +350,7 @@ public static class Validations
 				//note: we use transform position for both player and target (rather than registered position) because
 				//registered position and transform positions can be out of sync with each other esp. on moving matrices
 				if (playerScript == null || target == null) return false;
-				result = IsReachableByPositions(playerScript.transform.position, target.transform.position, side == NetworkSide.Server, context: target);
+				result = IsReachableByPositions(playerScript.BodyWorldPosition, target.transform.position, side == NetworkSide.Server, context: target);
 			}
 
 		}
@@ -495,7 +495,7 @@ public static class Validations
 
 	private static bool InternalAiActivate(AiActivate toValidate, NetworkSide side, bool lineCast = true)
 	{
-		if (side == NetworkSide.Client && LocalPlayerManager.LocalPlayer != toValidate.Performer) return false;
+		if (side == NetworkSide.Client && LocalPlayerManager.CurrentMind != toValidate.Performer) return false;
 
 		//Performer and target cant be null
 		if (toValidate.Performer == null || toValidate.TargetObject == null) return false;
@@ -504,7 +504,7 @@ public static class Validations
 		if (toValidate.TargetObject.GetComponent<ItemAttributesV2>() != null) return false;
 
 		//Has to be Ai to do this interaction
-		if(toValidate.Performer.TryGetComponent<AiPlayer>(out var aiPlayer) == false) return false;
+		if(toValidate.Performer.GameObjectBody.TryGetComponent<AiPlayer>(out var aiPlayer) == false) return false;
 
 		//Only allow interactions if true
 		if (aiPlayer.AllowRemoteAction == false)

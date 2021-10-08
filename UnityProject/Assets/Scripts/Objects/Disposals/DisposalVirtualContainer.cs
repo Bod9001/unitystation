@@ -75,7 +75,7 @@ namespace Objects.Disposals
 		{
 			containedPlayers.Add(player);
 			SetContainerAndMakeInvisible(player);
-			FollowCameraMessage.Send( MindManager.StaticGet(player.gameObject) , gameObject);
+			FollowOverrideCameraMessage.Send( MindManager.StaticGet(player.gameObject) , gameObject);
 		}
 
 		void SetContainerAndMakeInvisible(ObjectBehaviour entity)
@@ -159,7 +159,7 @@ namespace Objects.Disposals
 			if (player.TryGetComponent<PlayerSync>(out var playerSync))
 			{
 				playerSync.SetPosition(ContainerWorldPosition);
-				FollowCameraMessage.Send(MindManager.StaticGet(player.gameObject), player.gameObject);
+				FollowOverrideCameraMessage.Send(MindManager.StaticGet(player.gameObject), null);
 			}
 		}
 

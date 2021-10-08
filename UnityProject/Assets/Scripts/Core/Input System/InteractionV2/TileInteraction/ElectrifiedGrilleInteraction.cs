@@ -46,7 +46,7 @@ namespace Tiles
 			if (!othersWillInteract && (interaction.Intent == Intent.Harm || interaction.HandObject != null))
 			{
 				var matrix = interaction.TileChangeManager.MetaTileMap.Layers[LayerType.Grills].matrix;
-				var weaponNA = interaction.Performer.GetComponent<WeaponNetworkActions>();
+				var weaponNA = interaction.Performer.WeaponNetworkActions;
 				weaponNA.ServerPerformMeleeAttack(
 						matrix.transform.parent.gameObject, interaction.TargetVector, BodyPartType.None, interaction.BasicTile.LayerType);
 			}
@@ -56,7 +56,7 @@ namespace Tiles
 
 		bool Electrocute(float voltage)
 		{
-			var performerLHB = interaction.Performer.GetComponent<LivingHealthMasterBase>();
+			var performerLHB = interaction.Performer.LivingHealthMasterBase;
 			var electrocutionExposure = new Electrocution(voltage, interaction.WorldPositionTarget, interaction.BasicTile.DisplayName);
 			var severity = performerLHB.Electrocute(electrocutionExposure);
 

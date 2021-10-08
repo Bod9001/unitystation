@@ -32,7 +32,7 @@ namespace Messages.Server
 
 			Logger.Log( $"Received: {subject.gameObject?.name} is {getStatus( pulledBy )}", Category.PushPull );
 
-			if ( LocalPlayerManager.LocalPlayer ) {
+			if ( LocalPlayerManager.CurrentMind != null ) {
 				if ( subject == LocalPlayerManager.CurrentMind.PushPull.PulledObjectClient && pulledBy == null ) {
 //				Logger.Log( "Removing all frelling blue arrows for ya!", Category.PushPull );
 					for ( var i = 0; i < trackedObjects.Count; i++ ) {

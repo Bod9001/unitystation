@@ -49,18 +49,18 @@ public class MouseDrop : TargetedInteraction
 	/// <returns></returns>
 	public static MouseDrop ByLocalPlayer(GameObject droppedObject, GameObject targetObject)
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			return Invalid;
 		}
 		var pu = droppedObject.GetComponent<Pickupable>();
 		if (pu != null)
 		{
-			return new MouseDrop(LocalPlayerManager.LocalPlayer.CurrentMind, droppedObject, targetObject, pu.ItemSlot, UIManager.CurrentIntent);
+			return new MouseDrop(LocalPlayerManager.CurrentMind, droppedObject, targetObject, pu.ItemSlot, UIManager.CurrentIntent);
 		}
 		else
 		{
-			return new MouseDrop(LocalPlayerManager.LocalPlayer.CurrentMind, droppedObject, targetObject, null, UIManager.CurrentIntent);
+			return new MouseDrop(LocalPlayerManager.CurrentMind, droppedObject, targetObject, null, UIManager.CurrentIntent);
 		}
 	}
 

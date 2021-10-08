@@ -7,10 +7,12 @@ public class UI_DynamicItemSlot : UI_ItemSlot
 {
 	public IDynamicItemSlotS RelatedBodyPartUISlots;
 
+	public BodyPartUISlots.StorageCharacteristics StorageCharacteristics;
 	//Used to set up sprites and properties of the Item slot
 	public void SetupSlot(IDynamicItemSlotS bodyPartUISlots,
 		BodyPartUISlots.StorageCharacteristics storageCharacteristics)
 	{
+		StorageCharacteristics = storageCharacteristics;
 		if (placeholderImage != null)placeholderImage.sprite = storageCharacteristics.placeholderSprite;
 		namedSlot = storageCharacteristics.namedSlot;
 		hoverName = storageCharacteristics.hoverName;
@@ -26,6 +28,7 @@ public class UI_DynamicItemSlot : UI_ItemSlot
 	public void ReSetSlot()
 	{
 		RelatedBodyPartUISlots = null;
+		StorageCharacteristics = new BodyPartUISlots.StorageCharacteristics();
 		UnLinkSlot();
 	}
 }

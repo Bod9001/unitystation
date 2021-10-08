@@ -121,7 +121,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 		}
 
 		// can only be opened if it's in the player's top level inventory or player is alt-clicking
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.ClientTotal.Contains(interaction.TargetSlot) || interaction.IsAltClick)
+		if (LocalPlayerManager.CurrentMind.DynamicItemStorage.ClientTotal.Contains(interaction.TargetSlot) || interaction.IsAltClick)
 		{
 			if (interaction.UsedObject == null)
 			{
@@ -401,7 +401,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 							return;
 						}
 						if (LocalPlayerManager.CurrentMind == null) return;
-						if (Validations.IsInReachDistanceByPositions(LocalPlayerManager.LocalPlayer.CurrentMind.registerTile.WorldPosition ,interaction.WorldPositionTarget) == false) return;
+						if (Validations.IsInReachDistanceByPositions(LocalPlayerManager.CurrentMind.registerTile.WorldPosition ,interaction.WorldPositionTarget) == false) return;
 						if (MatrixManager.IsPassableAtAllMatricesOneTile( interaction.WorldPositionTarget.RoundToInt(), CustomNetworkManager.Instance._isServer) == false) return;
 
 							LocalPlayerManager.CurrentMind.playerNetworkActions.CmdDropAllItems(itemStorage.GetIndexedItemSlot(0)
@@ -436,7 +436,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 				return false;
 			}
 
-			if (LocalPlayerManager.LocalPlayer.CurrentMind == null) return false;
+			if (LocalPlayerManager.CurrentMind == null) return false;
 
 			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdDropAllItems(itemStorage.GetIndexedItemSlot(0)
 				.ItemStorageNetID, TransformState.HiddenPos);
@@ -467,7 +467,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 		if (allowedToInteract == false) return false;
 		if (DefaultWillInteract.Default(interaction, side) == false) return false;
 		// can't drag / view ourselves
-		if (interaction.Performer == interaction.DroppedObject) return false;
+		if (interaction.Performer.GameObjectBody == interaction.DroppedObject) return false;
 		// can only drag and drop the object to ourselves,
 		// or from our inventory to this object
 		if (interaction.IsFromInventory && interaction.TargetObject == gameObject)
@@ -480,7 +480,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 		else
 		{
 			// trying to view this storage, can only drop on ourselves to view it
-			if (interaction.Performer != interaction.TargetObject) return false;
+			if (interaction.Performer.GameObjectBody != interaction.TargetObject) return false;
 			// if we're dragging another player to us, it's only allowed if the other player is downed
 			if (Validations.HasComponent<PlayerScript>(interaction.DroppedObject))
 			{
@@ -515,7 +515,7 @@ public class InteractableStorage : MonoBehaviour, IClientInteractable<HandActiva
 			{
 				// stop observing when it becomes unobservable for whatever reason
 				var relationship = ObserveStorageRelationship.Observe(this,
-					interaction.Performer.GetComponent<RegisterPlayer>(),
+					interaction.Performer.RegisterPlayer,
 					PlayerScript.interactionDistance, ServerOnObservationEnded);
 				SpatialRelationship.ServerActivate(relationship);
 			}

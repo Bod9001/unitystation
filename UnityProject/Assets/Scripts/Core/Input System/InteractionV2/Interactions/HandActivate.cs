@@ -33,13 +33,13 @@ public class HandActivate : Interaction
 	/// <returns></returns>
 	public static HandActivate ByLocalPlayer()
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			//hand apply never works when local player
 			return HandActivate.Invalid;
 		}
-		return new HandActivate(LocalPlayerManager.LocalPlayer.CurrentMind, LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot()?.ItemObject,
-			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(), UIManager.CurrentIntent);
+		return new HandActivate(LocalPlayerManager.CurrentMind, LocalPlayerManager.GetActiveHandSlot()?.ItemObject,
+			LocalPlayerManager.GetActiveHandSlot(), UIManager.CurrentIntent);
 	}
 
 	/// <summary>

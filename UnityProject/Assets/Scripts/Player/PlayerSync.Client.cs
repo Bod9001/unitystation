@@ -20,7 +20,7 @@ public partial class PlayerSync
 	/// Client predicted state
 	private PlayerState predictedState;
 
-	private Queue<PlayerAction> pendingActions;
+	private Queue<PlayerAction> pendingActions = new Queue<PlayerAction>();
 	private Vector2 lastDirectionClient;
 
 	/// Last move direction, used for space walking simulation
@@ -53,7 +53,16 @@ public partial class PlayerSync
 			{
 				return false;
 			}
-			GameObject[] context = pushPull.IsPullingSomethingClient ? new[] { gameObject, pushPull.PulledObjectClient.gameObject } : new[] { gameObject };
+
+			GameObject[] context = null;
+			if (pushPull.IsPullingSomethingClient == false)
+			{
+				context = new[] { gameObject };
+			}
+			else
+			{
+				context = new[] {gameObject, pushPull.PulledObjectClient.gameObject};
+			}
 			return MatrixManager.IsFloatingAt(context, Vector3Int.RoundToInt(predictedState.WorldPosition), isServer: false);
 		}
 	}
@@ -74,7 +83,7 @@ public partial class PlayerSync
 	/// <summary>
 	/// Player's clientside predicted move speed, applied to predicted moves
 	/// </summary>
-	private float predictedSpeedClient;
+	private float predictedSpeedClient = 1;
 
 	///Does server claim this client is floating rn?
 	public bool isFloatingClient => playerState.WorldImpulse != Vector2.zero;
@@ -166,7 +175,7 @@ public partial class PlayerSync
 						PredictiveBumpInteract(Vector3Int.RoundToInt((Vector2)predictedState.WorldPosition + action.Direction()), action.Direction());
 					}
 
-					if (LocalPlayerManager.LocalPlayer == gameObject)
+					if (LocalPlayerManager.HasThisBody(gameObject))
 					{
 						//don't change facing when diagonally opening a door
 						var dir = action.Direction();
@@ -333,7 +342,7 @@ public partial class PlayerSync
 
 	private void UpdatePredictedState()
 	{
-		if (!isLocalPlayer)
+		if (LocalPlayerManager.CurrentMind != null && !LocalPlayerManager.HasThisBody(gameObject))
 		{
 			return;
 		}
@@ -454,12 +463,12 @@ public partial class PlayerSync
 			return;
 		}
 
-		if (!isLocalPlayer)
+		if (LocalPlayerManager.CurrentMind != null && !LocalPlayerManager.HasThisBody(gameObject))
 		{
 			predictedState = newState;
 		}
 
-		if (playerState.MatrixId != predictedState.MatrixId && isLocalPlayer)
+		if (playerState.MatrixId != predictedState.MatrixId && LocalPlayerManager.CurrentMind != null && LocalPlayerManager.HasThisBody(gameObject))
 		{
 			predictedState.MatrixId = playerState.MatrixId;
 			predictedState.WorldPosition = playerState.WorldPosition;
@@ -547,7 +556,7 @@ public partial class PlayerSync
 	{
 		//when this is not the local player and is being pulled, we we start ignoring the
 		//direction updates from the server because we predict those directions entirely on the client
-		if (gameObject != LocalPlayerManager.LocalPlayer)
+		if (LocalPlayerManager.HasThisBody(gameObject) == false)
 		{
 			playerDirectional.IgnoreServerUpdates = true;
 		}
@@ -556,7 +565,7 @@ public partial class PlayerSync
 	public void OnClientStopFollowing()
 	{
 		//done being pulled, give server authority again
-		if (gameObject != LocalPlayerManager.LocalPlayer)
+		if (LocalPlayerManager.HasThisBody(gameObject) == false)
 		{
 			playerDirectional.IgnoreServerUpdates = false;
 		}
@@ -565,8 +574,8 @@ public partial class PlayerSync
 	private IEnumerator RollbackPullables()
 	{
 		yield return WaitFor.EndOfFrame;
-		if (gameObject == LocalPlayerManager.LocalPlayer
-			 && pushPull && pushPull.IsPullingSomethingClient)
+		if (LocalPlayerManager.CurrentMind != null && LocalPlayerManager.HasThisBody(gameObject) == false
+		                                           && pushPull && pushPull.IsPullingSomethingClient)
 		{
 			//Rollback whatever you're pulling predictively, too
 			pushPull.PulledObjectClient.Pushable.RollbackPrediction();

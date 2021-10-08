@@ -115,10 +115,10 @@ namespace Antagonists
 		/// </summary>
 		/// <param name="spawnRequest">player's requested spawn</param>
 		/// <returns>gameobject of the spawned antag that he player is now in control of</returns>
-		public virtual GameObject ServerSpawn(PlayerSpawnRequest spawnRequest)
+		public virtual Mind ServerSpawn(PlayerSpawnRequest spawnRequest)
 		{
 			// spawn them normally but override the player-requested occupation with the antagonist occupation
-			return PlayerSpawn.ServerSpawnNewPlayer(spawnRequest, spawnRequest.JoinedViewer, AntagOccupation, spawnRequest.CharacterSettings, false);
+			return PlayerSpawn.ServerSpawnNewPlayer(spawnRequest);
 		}
 
 		/// <summary>

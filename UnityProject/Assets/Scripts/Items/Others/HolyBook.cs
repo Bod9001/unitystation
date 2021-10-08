@@ -142,7 +142,7 @@ public class HolyBook: MonoBehaviour, IPredictedCheckedInteractable<PositionalHa
 		}
 
 		//Play melee animation.
-		interaction.Performer.GetComponent<WeaponNetworkActions>().RpcMeleeAttackLerp(interaction.TargetVector, gameObject);
+		interaction.Performer.WeaponNetworkActions.RpcMeleeAttackLerp(interaction.TargetVector, gameObject);
 
 		//Start server cooldown.
 		Cooldowns.TryStartServer(interaction.Performer, CommonCooldowns.Instance.Melee);

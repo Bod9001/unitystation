@@ -376,10 +376,10 @@ namespace Objects
 
 					if (objectToMove.ObjectType == ObjectType.Player && objectToMove.TryGetComponent<PlayerHealthV2>(out var health) && health != null)
 					{
-						if (health.RegisterPlayer.PlayerScript != null &&
-						    health.RegisterPlayer.PlayerScript != null &&
-						    health.RegisterPlayer.PlayerScript.occupation != null &&
-						    health.RegisterPlayer.PlayerScript.occupation == OccupationList.Instance.Get(JobType.CLOWN))
+						if (health.RegisterPlayer.MindScript != null &&
+						    health.RegisterPlayer.MindScript != null &&
+						    health.RegisterPlayer.MindScript.occupation != null &&
+						    health.RegisterPlayer.MindScript.occupation == OccupationList.Instance.Get(JobType.CLOWN))
 						{
 							health.Gib();
 							ChangePoints(DMMath.Prob(50) ? -1000 : 1000);

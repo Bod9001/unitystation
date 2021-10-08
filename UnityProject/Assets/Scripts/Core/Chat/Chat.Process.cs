@@ -91,7 +91,7 @@ public partial class Chat
 			return (message, chatModifiers);
 		}
 
-		if (sentByPlayer.CurrentMind.CanSpeak)
+		if (sentByPlayer.CurrentMind.CanSpeak == false)
 		{
 			// Only the Mute modifier matters if the player cannot speak. We can skip everything else.
 			return (message, ChatModifier.Mute);
@@ -378,9 +378,9 @@ public partial class Chat
 		var boldedName = input;
 
 		//Do in game name if possible
-		if (LocalPlayerManager.LocalPlayer.OrNull()?.CurrentMind != null)
+		if (LocalPlayerManager.CurrentMind != null)
 		{
-			boldedName = HighlightName(boldedName, LocalPlayerManager.LocalPlayer.CurrentMind.CharactersName,
+			boldedName = HighlightName(boldedName, LocalPlayerManager.CurrentMind.CharactersName,
 				playSound);
 		}
 
@@ -543,8 +543,8 @@ public partial class Chat
 
 	private static bool GhostValidationRejection(uint originator, ChatChannel channels)
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind == null) return false;
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting == false) return false;
+		if (LocalPlayerManager.CurrentMind == null) return false;
+		if (LocalPlayerManager.CurrentMind.IsGhosting == false) return false;
 		if (Instance.GhostHearAll) return true;
 
 		if (NetworkIdentity.spawned.ContainsKey(originator))
@@ -555,14 +555,14 @@ public partial class Chat
 			{
 				LayerMask layerMask = LayerMask.GetMask("Door Closed");
 				if (Vector2.Distance(getOrigin.transform.position,
-					LocalPlayerManager.LocalPlayer.transform.position) > 14f)
+					LocalPlayerManager.CurrentMind.BodyWorldPosition) > 14f)
 				{
 					return true;
 				}
 				else
 				{
 					if (MatrixManager.RayCast(getOrigin.transform.position, Vector2.zero, 0, LayerTypeSelection.Walls,
-						layerMask, LocalPlayerManager.LocalPlayer.transform.position).ItHit)
+						layerMask, LocalPlayerManager.CurrentMind.BodyWorldPosition).ItHit)
 					{
 						return true;
 					}

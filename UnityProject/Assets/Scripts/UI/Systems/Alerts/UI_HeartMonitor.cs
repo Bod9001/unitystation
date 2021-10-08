@@ -56,7 +56,7 @@ public class UI_HeartMonitor : TooltipMonoBehaviour
 	//Managed by UpdateManager
 	void UpdateMe()
 	{
-		if (LocalPlayerManager.LocalPlayer == null || LocalPlayerManager.CurrentMind.IsGhosting) return;
+		if (LocalPlayerManager.CurrentMind == null || LocalPlayerManager.CurrentMind.IsGhosting) return;
 
 		CheckHealth();
 		timeWait += Time.deltaTime;
@@ -99,6 +99,7 @@ public class UI_HeartMonitor : TooltipMonoBehaviour
 
 	private void CheckHealth()
 	{
+		if (LocalPlayerManager.CurrentMind.OrNull()?.LivingHealthMasterBase == null) return;
 		if (LocalPlayerManager.CurrentMind.LivingHealthMasterBase.OverallHealth == overallHealthCache)
 		{
 			return;

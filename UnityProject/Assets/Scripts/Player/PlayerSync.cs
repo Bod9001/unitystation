@@ -9,9 +9,10 @@ using Player.Movement;
 
 public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllable
 {
-	public bool VisibleState {
+	public bool VisibleState
+	{
 		get => ServerPosition != TransformState.HiddenPos;
-		set => SetVisibleServer( value );
+		set => SetVisibleServer(value);
 	}
 
 	/// <summary>
@@ -27,10 +28,11 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 		get => serverState;
 		private set
 		{
-			if ( serverState.LastNonHiddenPosition == Vector3.zero )
+			if (serverState.LastNonHiddenPosition == Vector3.zero)
 			{
 				serverState = value;
-			} else
+			}
+			else
 			{
 				var preservedPos = serverState.LastNonHiddenPosition;
 				serverState = value;
@@ -51,6 +53,8 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 	public PlayerMove playerMove;
 	public PlayerScript playerScript;
 	private Directional playerDirectional;
+
+	public Equipment Equipment;
 
 	public bool Step = false;
 
@@ -74,11 +78,18 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 	private void Awake()
 	{
+		Equipment = GetComponent<Equipment>();
 		playerScript = GetComponent<PlayerScript>();
 		pushPull = GetComponent<PushPull>();
 		playerDirectional = GetComponent<Directional>();
 		registerPlayer = GetComponent<RegisterPlayer>();
 	}
+
+	public void Start()
+	{
+		pushPull = GetComponent<PushPull>();
+	}
+
 
 	public void SetInitialPositionStates()
 	{
@@ -91,8 +102,6 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 		PlayerNewPlayer.Send(netId);
 		UpdateManager.Add(CallbackType.UPDATE, UpdateMe);
-
-
 	}
 
 	public override void OnStartServer()
@@ -111,6 +120,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 		onTileReached.AddListener(Cross);
 		EventManager.AddHandler(Event.PlayerRejoined, setLocalPlayer);
 	}
+
 	private void OnDisable()
 	{
 		onTileReached.RemoveListener(Cross);
@@ -123,12 +133,6 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 	/// </summary>
 	public void setLocalPlayer()
 	{
-		if (isLocalPlayer)
-		{
-			pendingActions = new Queue<PlayerAction>();
-			//UpdatePredictedState();
-			predictedSpeedClient = UIManager.Intent.Running ? playerMove.RunSpeed : playerMove.WalkSpeed;
-		}
 	}
 
 	public void Nudge(NudgeInfo info)
@@ -362,8 +366,8 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 		if (other != null)
 		{
 			// on server, must verify that position matches
-			if ((isServer && !other.PlayerScript.PlayerSync.IsMovingServer)
-			    || (!isServer && !other.PlayerScript.PlayerSync.IsMovingClient))
+			if ((isServer && !other.PlayerSync.IsMovingServer)
+			    || (!isServer && !other.PlayerSync.IsMovingClient))
 			{
 				//they've stopped there, so let's swap them
 				InitiateSwap(other, targetWorldPos + inDirection.RoundToInt());
@@ -417,7 +421,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 	/// <param name="toWorldPosition">destination to swap to</param>
 	private void InitiateSwap(PlayerMove swapee, Vector3Int toWorldPosition)
 	{
-		swapee.PlayerScript.PlayerSync.BeSwapped(toWorldPosition, pushPull);
+		swapee.PlayerSync.BeSwapped(toWorldPosition, pushPull);
 	}
 
 	#endregion
@@ -436,7 +440,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 		if (parentContainer.TryGetComponent(out ClosetControl closet))
 		{
-			closet.PlayerTryEscaping(gameObject);
+			closet.PlayerTryEscaping(MindManager.StaticGet(gameObject));
 		}
 		else if (parentContainer.TryGetComponent(out Objects.Disposals.DisposalVirtualContainer disposalContainer))
 		{
@@ -446,13 +450,14 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 	private void UpdateMe()
 	{
-		if (isLocalPlayer && playerMove != null)
+		if (playerMove != null)
 		{
-			if (PlayerManager.MovementControllable == this)
+			if (LocalPlayerManager.MovementControllable == this as IPlayerControllable)
 			{
 				didWiggle = false;
-				if (KeyboardInputManager.IsMovementPressed() && Validations.CanInteract(playerScript,
-					    isServer ? NetworkSide.Server : NetworkSide.Client))
+				if (KeyboardInputManager.IsMovementPressed() && Validations.CanInteract(
+					LocalPlayerManager.CurrentMind,
+					isServer ? NetworkSide.Server : NetworkSide.Client))
 				{
 					//	If being pulled by another player and you try to break free
 					if (pushPull != null && pushPull.IsBeingPulledClient)
@@ -460,8 +465,8 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 						pushPull.CmdStopFollowing();
 						didWiggle = true;
 					}
-					// Player inside something
-					else if (Camera2DFollow.followControl.target != PlayerManager.LocalPlayer.transform)
+					// Player inside something //Camera2DFollow.followControl.target != LocalPlayerManager.LocalPlayer.transform
+					else if (false) //TODO This is stupid
 					{
 						CmdTryEscapeContainer();
 						didWiggle = true;
@@ -481,11 +486,6 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 	private void Synchronize()
 	{
-		if (isLocalPlayer && GameData.IsHeadlessServer)
-		{
-			return;
-		}
-
 		var server = CustomNetworkManager.IsServer;
 
 		if (Matrix != null)
@@ -504,11 +504,6 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 			if (server)
 			{
-				if (CommonInput.GetKeyDown(KeyCode.F7) && gameObject == PlayerManager.LocalPlayer)
-				{
-					PlayerSpawn.ServerSpawnDummy(gameObject.transform);
-				}
-
 				if (serverState.LocalPosition != serverLerpState.LocalPosition)
 				{
 					ServerLerp();
@@ -523,21 +518,13 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 		//Registering
 		if (registerPlayer.LocalPositionClient != Vector3Int.RoundToInt(predictedState.LocalPosition))
 		{
-			if (server)
+			if (registerPlayer.ServerSetNetworkedMatrixNetID(MatrixManager.Get(predictedState.MatrixId).NetID) == false)
 			{
-				if (registerPlayer.ServerSetNetworkedMatrixNetID(MatrixManager.Get(predictedState.MatrixId).NetID) ==
-				    false)
-				{
-					registerPlayer.UpdatePositionClient();
-				}
-			}
-			else
-			{
-				registerPlayer.UpdatePositionClient();
+				registerPlayer.UpdatePositionClient(); //predicted movement didnt swap to another matrix
 			}
 		}
 
-		if (server && registerPlayer.LocalPositionServer != Vector3Int.RoundToInt(serverState.LocalPosition))
+		if (registerPlayer.LocalPositionServer != Vector3Int.RoundToInt(serverState.LocalPosition))
 		{
 			registerPlayer.UpdatePositionServer();
 		}
@@ -568,7 +555,8 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 	{
 		var newState = state;
 		newState.MoveNumber++;
-		newState.LocalPosition = playerMove.GetNextPosition(Vector3Int.RoundToInt(state.LocalPosition), action, isReplay,
+		newState.LocalPosition = playerMove.GetNextPosition(Vector3Int.RoundToInt(state.LocalPosition), action,
+			isReplay,
 			MatrixManager.Get(newState.MatrixId).Matrix);
 
 		var proposedWorldPos = newState.WorldPosition;
@@ -650,7 +638,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 		if (drawMoves) DebugGizmoUtils.DrawText(playerState.MoveNumber.ToString(), clientState + Vector3.right, 15);
 
 		//swappable
-		Gizmos.color = isLocalPlayer ? color4 : color1;
+		Gizmos.color = LocalPlayerManager.HasThisBody(gameObject) ? color4 : color1;
 		if (playerMove.IsSwappable)
 		{
 			DebugGizmoUtils.DrawText("Swap", clientState + Vector3.up / 2, 15);
@@ -660,11 +648,13 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 	public void ReceivePlayerMoveAction(PlayerAction moveActions)
 	{
-		if (moveActions.moveActions.Length != 0 && !MoveCooldown && isLocalPlayer && playerMove != null && !didWiggle && ClientPositionReady)
+		if (moveActions.moveActions.Length != 0 && !MoveCooldown && playerMove != null && !didWiggle &&
+		    ClientPositionReady)
 		{
 			bool beingDraggedWithCuffs = playerMove.IsCuffed && playerScript.pushPull.IsBeingPulledClient;
 
-			if (playerMove.allowInput && !beingDraggedWithCuffs && !UIManager.IsInputFocus && ActionSpeed(moveActions) > 0)
+			if (playerMove.allowInput && !beingDraggedWithCuffs && !UIManager.IsInputFocus &&
+			    ActionSpeed(moveActions) > 0)
 			{
 				StartCoroutine(DoProcess(moveActions));
 			}
@@ -687,15 +677,18 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 			{
 				speed = playerMove.RunSpeed;
 			}
+
 			if (speed <= 0 || speed < playerMove.WalkSpeed)
 			{
 				speed = playerMove.WalkSpeed;
 			}
 		}
+
 		if (speed <= 0 || speed < playerMove.CrawlSpeed)
 		{
 			speed = playerMove.CrawlSpeed;
 		}
+
 		return speed;
 	}
 }

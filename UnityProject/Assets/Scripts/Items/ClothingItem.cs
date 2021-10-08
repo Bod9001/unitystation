@@ -88,7 +88,7 @@ public class ClothingItem : MonoBehaviour
 				if (unequippedClothing != null)
 				{
 					if (unequippedClothing)
-						this.GetComponent<PlayerSprites>().OnClothingEquipped(unequippedClothing, false);
+						this.GetComponentInParent<PlayerSprites>().OnClothingEquipped(unequippedClothing, false);
 				}
 			}
 
@@ -117,7 +117,7 @@ public class ClothingItem : MonoBehaviour
 				// But for the others, we call the OnClothingEquipped event.
 				if (equippedClothing)
 				{
-					this.GetComponent<PlayerSprites>().OnClothingEquipped(equippedClothing, true);
+					this.GetComponentInParent<PlayerSprites>().OnClothingEquipped(equippedClothing, true);
 				}
 			}
 		}

@@ -7,7 +7,7 @@ namespace Messages.Server
 	/// <summary>
 	///     This Server to Client message is sent when a player is stored inside a closet or crate, or needs to follow some other object.
 	/// </summary>
-	public class FollowCameraMessage : ServerMessage<FollowCameraMessage.NetMessage>
+	public class FollowOverrideCameraMessage : ServerMessage<FollowOverrideCameraMessage.NetMessage>
 	{
 		public struct NetMessage : NetworkMessage
 		{
@@ -21,7 +21,7 @@ namespace Messages.Server
 
 		public override void Process(NetMessage msg)
 		{
-			if ( msg.ObjectToFollow == NetId.Invalid )
+			if (msg.ObjectToFollow == NetId.Invalid)
 			{
 				return;
 			}
@@ -29,24 +29,25 @@ namespace Messages.Server
 			{
 				LoadNetworkObject(msg.ObjectToFollow);
 			}
+
 			var objectToFollow = NetworkObject;
 
-			if (!LocalPlayerManager.CurrentMind.IsGhosting)
-			{
-				Transform newTarget = objectToFollow ? objectToFollow.transform : LocalPlayerManager.LocalPlayer.transform;
-				Camera2DFollow.followControl.target = newTarget;
-			}
+
+			Transform newTarget = objectToFollow.transform;
+			Camera2DFollow.followControl.target = newTarget;
 		}
 
-		public static NetMessage Send(Mind recipient, GameObject objectToFollow)
+		public static void Send(Mind recipient, GameObject objectToFollow)
 		{
-			NetMessage msg = new NetMessage
+			if (objectToFollow == null)
 			{
-				ObjectToFollow = objectToFollow.NetId()
-			};
+				recipient.CameraFollowOverride = null;
+			}
+			else
+			{
+				recipient.CameraFollowOverride = objectToFollow.transform;
+			}
 
-			SendTo(recipient, msg);
-			return msg;
 		}
 	}
 
@@ -67,7 +68,7 @@ namespace Messages.Server
 
 		public override void Process(NetMessage msg)
 		{
-			if ( msg.ObjectToFollow == NetId.Invalid )
+			if (msg.ObjectToFollow == NetId.Invalid)
 			{
 				return;
 			}
@@ -76,7 +77,7 @@ namespace Messages.Server
 			var objectToFollow = NetworkObject;
 
 			//Only follow stuff if we are Ai object
-			if(LocalPlayerManager.LocalPlayer.TryGetComponent<AiPlayer>(out var aiPlayer) == false) return;
+			if (LocalPlayerManager.CurrentMind.GameObjectBody.TryGetComponent<AiPlayer>(out var aiPlayer) == false) return;
 
 			//Follow new object if its not null
 			if (objectToFollow != null)

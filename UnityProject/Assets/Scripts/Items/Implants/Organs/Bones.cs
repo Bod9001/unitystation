@@ -16,6 +16,8 @@ namespace HealthV2
 				GeneratesThis = RelatedPart.HealthMaster.CirculatorySystem.BloodType;
 			}
 		}
+
+
 		public override void ImplantPeriodicUpdate()
 		{
 			if (RelatedPart.BloodStoredMax > RelatedPart.BloodContainer.ReagentMixTotal && RelatedPart.BloodContainer[RelatedPart.Nutriment] > 0 &&

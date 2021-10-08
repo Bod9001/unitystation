@@ -119,12 +119,77 @@ public class CharacterSettings
 		Name = NewName;
 	}
 
+	private PlayerPronoun GetCorrectPlayerPronoun(bool IdentityVisible)
+	{
+		PlayerPronoun Pronoun = PlayerPronoun.They_them;
+		if (IdentityVisible)
+		{
+			Pronoun = this.PlayerPronoun;
+		}
+
+		return Pronoun;
+	}
+
+
 	/// <summary>
 	/// Returns a possessive string (i.e. "their", "his", "her") for the provided gender enum.
 	/// </summary>
-	public string TheirPronoun(Mind script)
+	public string TheirPronoun(bool IdentityVisible)
 	{
-		switch (script.GetPronouns())
+		return TheirPronoun(GetCorrectPlayerPronoun(IdentityVisible));
+	}
+
+
+	/// <summary>
+	/// Returns a personal pronoun string (i.e. "he", "she", "they") for the provided gender enum.
+	/// </summary>
+	public string TheyPronoun(bool IdentityVisible)
+	{
+		return TheyPronoun(GetCorrectPlayerPronoun(IdentityVisible));
+	}
+
+	/// <summary>
+	/// Returns an object pronoun string (i.e. "him", "her", "them") for the provided gender enum.
+	/// </summary>
+	public string ThemPronoun(bool IdentityVisible)
+	{
+		return ThemPronoun(GetCorrectPlayerPronoun(IdentityVisible));
+	}
+
+	/// <summary>
+	/// Returns an object pronoun string (i.e. "he's", "she's", "they're") for the provided gender enum.
+	/// </summary>
+	public string TheyrePronoun(bool IdentityVisible)
+	{
+		return TheyrePronoun(GetCorrectPlayerPronoun(IdentityVisible));
+	}
+
+	/// <summary>
+	/// Returns an object pronoun string (i.e. "himself", "herself", "themself") for the provided gender enum.
+	/// </summary>
+	public string ThemselfPronoun(bool IdentityVisible)
+	{
+		return ThemselfPronoun(GetCorrectPlayerPronoun(IdentityVisible));
+	}
+
+	public string IsPronoun(bool IdentityVisible)
+	{
+		return IsPronoun(GetCorrectPlayerPronoun(IdentityVisible));
+	}
+
+	public string HasPronoun(bool IdentityVisible)
+	{
+		return HasPronoun(GetCorrectPlayerPronoun(IdentityVisible));
+	}
+
+
+
+	/// <summary>
+	/// Returns a possessive string (i.e. "their", "his", "her") for the provided gender enum.
+	/// </summary>
+	public static string TheirPronoun(PlayerPronoun Pronoun)
+	{
+		switch (Pronoun)
 		{
 			case PlayerPronoun.He_him:
 				return "his";
@@ -135,12 +200,13 @@ public class CharacterSettings
 		}
 	}
 
+
 	/// <summary>
 	/// Returns a personal pronoun string (i.e. "he", "she", "they") for the provided gender enum.
 	/// </summary>
-	public string TheyPronoun(Mind script)
+	public static string TheyPronoun(PlayerPronoun Pronoun)
 	{
-		switch (script.GetPronouns())
+		switch (Pronoun)
 		{
 			case PlayerPronoun.He_him:
 				return "he";
@@ -154,9 +220,9 @@ public class CharacterSettings
 	/// <summary>
 	/// Returns an object pronoun string (i.e. "him", "her", "them") for the provided gender enum.
 	/// </summary>
-	public string ThemPronoun(Mind script)
+	public static string ThemPronoun(PlayerPronoun Pronoun)
 	{
-		switch (script.GetPronouns())
+		switch (Pronoun)
 		{
 			case PlayerPronoun.He_him:
 				return "him";
@@ -170,9 +236,9 @@ public class CharacterSettings
 	/// <summary>
 	/// Returns an object pronoun string (i.e. "he's", "she's", "they're") for the provided gender enum.
 	/// </summary>
-	public string TheyrePronoun(Mind script)
+	public static string TheyrePronoun(PlayerPronoun Pronoun)
 	{
-		switch (script.GetPronouns())
+		switch (Pronoun)
 		{
 			case PlayerPronoun.He_him:
 				return "he's";
@@ -186,9 +252,9 @@ public class CharacterSettings
 	/// <summary>
 	/// Returns an object pronoun string (i.e. "himself", "herself", "themself") for the provided gender enum.
 	/// </summary>
-	public string ThemselfPronoun(Mind script)
+	public static string ThemselfPronoun(PlayerPronoun Pronoun)
 	{
-		switch (script.GetPronouns())
+		switch (Pronoun)
 		{
 			case PlayerPronoun.He_him:
 				return "himself";
@@ -199,9 +265,9 @@ public class CharacterSettings
 		}
 	}
 
-	public string IsPronoun(Mind script)
+	public static string IsPronoun(PlayerPronoun Pronoun)
 	{
-		switch (script.GetPronouns())
+		switch (Pronoun)
 		{
 			case PlayerPronoun.He_him:
 			case PlayerPronoun.She_her:
@@ -212,9 +278,9 @@ public class CharacterSettings
 		}
 	}
 
-	public string HasPronoun(Mind script)
+	public static string HasPronoun(PlayerPronoun Pronoun)
 	{
-		switch (script.GetPronouns())
+		switch (Pronoun)
 		{
 			case PlayerPronoun.He_him:
 			case PlayerPronoun.She_her:

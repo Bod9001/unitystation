@@ -19,9 +19,9 @@ namespace Objects.Medical
 			}
 
 			var cnt = GetComponent<CustomNetTransform>();
-			var ps = interaction.Performer.GetComponent<PlayerScript>();
+			var ps = interaction.Performer;
 
-			var pna = interaction.Performer.GetComponent<PlayerNetworkActions>();
+			var pna = interaction.Performer.playerNetworkActions;
 
 			if (!pna
 				|| interaction.Performer != interaction.TargetObject
@@ -37,8 +37,6 @@ namespace Objects.Medical
 
 		public void ServerPerformInteraction(MouseDrop interaction)
 		{
-			var pna = interaction.Performer.GetComponent<PlayerNetworkActions>();
-
 			var closetControl = GetComponent<ClosetControl>();
 			if (!closetControl.IsClosed)
 			{
@@ -58,7 +56,7 @@ namespace Objects.Medical
 			//TODO: This means that body bag integrity gets reset every time it is picked up. Should be converted to be the same object instead.
 			var folded = Spawn.ServerPrefab(prefabVariant).GameObject;
 			Inventory.ServerAdd(folded,
-				interaction.Performer.GetComponent<DynamicItemStorage>().GetActiveHandSlot());
+				interaction.Performer.GetActiveHandSlot());
 			// Remove from world
 			_ = Despawn.ServerSingle(gameObject);
 		}

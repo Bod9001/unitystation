@@ -228,7 +228,7 @@ public class UI_ItemSlot : TooltipMonoBehaviour
 
 		// If player is cuffed, a special icon appears on his hand slots, exit without changing it.
 		if ((namedSlot == NamedSlot.leftHand || namedSlot == NamedSlot.rightHand) &&
-		    LocalPlayerManager.LocalPlayer.CurrentMind.PlayerMove.IsCuffed)
+		    LocalPlayerManager.CurrentMind.PlayerMove.IsCuffed)
 		{
 			return;
 		}
@@ -284,7 +284,7 @@ public class UI_ItemSlot : TooltipMonoBehaviour
 	/// </summary>
 	public void Clear()
 	{
-		var lps = LocalPlayerManager.LocalPlayer.CurrentMind;
+		var lps = LocalPlayerManager.CurrentMind;
 		if (lps == null)
 		{
 			return;
@@ -336,11 +336,11 @@ public class UI_ItemSlot : TooltipMonoBehaviour
 
 	private bool isValidPlayer()
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind == null) return false;
+		if (LocalPlayerManager.CurrentMind == null) return false;
 
 		// TODO tidy up this if statement once it's working correctly
-		if (!LocalPlayerManager.LocalPlayer.CurrentMind.PlayerMove.allowInput ||
-		    LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
+		if (!LocalPlayerManager.CurrentMind.PlayerMove.allowInput ||
+		    LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			Logger.Log("Invalid player, cannot perform action!", Category.Interaction);
 			return false;
@@ -353,7 +353,7 @@ public class UI_ItemSlot : TooltipMonoBehaviour
 	{
 		if (isValidPlayer())
 		{
-			var CurrentSlot = LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
+			var CurrentSlot = LocalPlayerManager.GetActiveHandSlot();
 			if (CurrentSlot != itemSlot.itemSlot)
 			{
 				if (CurrentSlot.Item == null)
@@ -385,7 +385,7 @@ public class UI_ItemSlot : TooltipMonoBehaviour
 	{
 		// Clicked on another slot other than our own hands
 		bool IsHandSlots = false;
-		foreach (var HadnitemSlot in LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetHandSlots())
+		foreach (var HadnitemSlot in LocalPlayerManager.CurrentMind.DynamicItemStorage.GetHandSlots())
 		{
 			if (HadnitemSlot == itemSlot)
 			{
@@ -415,7 +415,7 @@ public class UI_ItemSlot : TooltipMonoBehaviour
 		}
 
 		// If there is an item and the hand is interacting in the same slot
-		if (Item != null && LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot() == itemSlot)
+		if (Item != null && LocalPlayerManager.GetActiveHandSlot() == itemSlot)
 		{
 			//check IF2 logic first
 			var interactables = Item.GetComponents<IBaseInteractable<HandActivate>>()
@@ -425,7 +425,7 @@ public class UI_ItemSlot : TooltipMonoBehaviour
 		}
 		else
 		{
-			if (LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot() != itemSlot)
+			if (LocalPlayerManager.GetActiveHandSlot() != itemSlot)
 			{
 				if (TryIF2InventoryApply()) return;
 				if (swapIfEmpty)
@@ -441,11 +441,11 @@ public class UI_ItemSlot : TooltipMonoBehaviour
 		//target slot is occupied, but it's okay if active hand slot is not occupied)
 		if (Item != null)
 		{
-			var combine = InventoryApply.ByLocalPlayer(itemSlot, LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot());
+			var combine = InventoryApply.ByLocalPlayer(itemSlot, LocalPlayerManager.GetActiveHandSlot());
 			//check interactables in the active hand (if active hand occupied)
-			if (LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().Item != null)
+			if (LocalPlayerManager.GetActiveHandSlot().Item != null)
 			{
-				var handInteractables = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().Item
+				var handInteractables = LocalPlayerManager.GetActiveHandSlot().Item
 					.GetComponents<IBaseInteractable<InventoryApply>>()
 					.Where(mb => mb != null && (mb as MonoBehaviour).enabled);
 				if (InteractionUtils.ClientCheckAndTrigger(handInteractables, combine) != null) return true;

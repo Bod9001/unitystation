@@ -615,7 +615,7 @@ public partial class MatrixManager : MonoBehaviour
 
 
 		bool hasHelpIntent = false;
-		if (bumper.gameObject == LocalPlayerManager.LocalPlayer && isServer == false)
+		if (LocalPlayerManager.HasThisBody(bumper.gameObject) && isServer == false)
 		{
 			//locally predict based on our set intent.
 			hasHelpIntent = UIManager.CurrentIntent == Intent.Help;
@@ -634,12 +634,12 @@ public partial class MatrixManager : MonoBehaviour
 			if (other != null)
 			{
 				//if we are pulling something, we can only swap with that thing
-				if (bumper.PlayerScript.pushPull.IsPullingSomething &&
-				    bumper.PlayerScript.pushPull.PulledObject == other.PlayerScript.pushPull)
+				if (bumper.PushPull.IsPullingSomething &&
+				    bumper.PushPull.PulledObject == other.PushPull)
 				{
 					return BumpType.Swappable;
 				}
-				else if (bumper.PlayerScript.pushPull.IsPullingSomething == false)
+				else if (bumper.PushPull.IsPullingSomething == false)
 				{
 					return BumpType.Swappable;
 				}

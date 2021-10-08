@@ -72,7 +72,7 @@ public class Lighter : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 			return;
 		}
 
-		var playerName = player.gameObject.ExpensiveName();
+		var playerName = player.ExpensiveName();
 		var lighterName = gameObject.ExpensiveName();
 
 		// generate message for chat
@@ -105,8 +105,8 @@ public class Lighter : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 					// AttackType.Fire will set character on fire
 					player.LivingHealthMasterBase.OrNull()?.ApplyDamageToBodyPart(gameObject, 5f, AttackType.Energy, DamageType.Burn, bodyPart);
 
-					var they = player.OriginalCharacter.TheyPronoun(player);
-					var their = player.OriginalCharacter.TheirPronoun(player);
+					var they = player.TheyPronoun();
+					var their = player.TheirPronoun();
 
 					Chat.AddActionMsgToChat(player,
 						$"You burn yourself while lighting the lighter!",
@@ -118,7 +118,7 @@ public class Lighter : NetworkBehaviour, ICheckedInteractable<HandActivate>,
 		{
 			if (isFancy)
 			{
-				var theyre = player.OriginalCharacter.TheyrePronoun(player);
+				var theyre = player.TheyrePronoun();
 				Chat.AddActionMsgToChat(player,
 					$"You quietly shut off {lighterName} without even looking at what you're doing. Wow.",
 					$"You hear a quiet click, as {playerName} shuts off {lighterName} without even looking at what {theyre} doing. Wow.");

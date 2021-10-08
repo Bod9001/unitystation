@@ -59,12 +59,12 @@ public class InventoryMove
 	/// <summary>
 	/// If fromSlot is a player's top-level inventory, returns that player. Otherwise null.
 	/// </summary>
-	public Mind FromPlayer => FromSlot?.Player;
+	public Mind FromPlayer => FromSlot?.RootPlayer();
 
 	/// <summary>
 	/// If toslot is a player's top-level inventory, returns that player. Otherwise null.
 	/// </summary>
-	public Mind ToPlayer => ToSlot?.Player;
+	public Mind ToPlayer => ToSlot?.RootPlayer();
 
 	/// <summary>
 	/// If fromSlot is in a player's slot tree (i.e. anywhere in their

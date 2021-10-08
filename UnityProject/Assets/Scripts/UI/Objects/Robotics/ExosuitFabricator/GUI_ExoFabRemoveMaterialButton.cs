@@ -9,7 +9,7 @@ namespace UI.Objects.Robotics
 		public int value = 5;
 		public ItemTrait itemTrait;
 
-		public override void ExecuteServer(ConnectedPlayer subject)
+		public override void ExecuteServer(Mind subject)
 		{
 			ServerMethod.Invoke();
 		}

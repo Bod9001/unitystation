@@ -48,7 +48,7 @@ public class PlaceItemAsObject  : MonoBehaviour, ICheckedInteractable<Positional
 	public void ServerPerformInteraction(PositionalHandApply interaction)
 	{
 		// Spawn the object in the world
-		Spawn.ServerPrefab(prefabVariant, interaction.WorldPositionTarget.RoundToInt(), interaction.Performer.transform.parent);
+		Spawn.ServerPrefab(prefabVariant, interaction.WorldPositionTarget.RoundToInt(), interaction.Performer.GameObjectBody.transform.parent);
 
 		// Remove the used item from the player's inventory
 		Inventory.ServerDespawn(interaction.HandSlot);

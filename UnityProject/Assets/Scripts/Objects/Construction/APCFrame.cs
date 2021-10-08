@@ -299,7 +299,7 @@ namespace Objects.Construction
 						return;
 					}
 				}
-				GameObject WallMount = Spawn.ServerPrefab(APCObject, gameObject.GetComponent<CustomNetTransform>().ServerPosition, interaction.Performer.transform.parent, spawnItems: false).GameObject;
+				GameObject WallMount = Spawn.ServerPrefab(APCObject, gameObject.GetComponent<CustomNetTransform>().ServerPosition, interaction.Performer.GameObjectBody.transform.parent, spawnItems: false).GameObject;
 
 				var Directional = WallMount.GetComponent<Directional>();
 				if (Directional != null) Directional.FaceDirection(gameObject.GetComponent<Directional>().CurrentDirection);

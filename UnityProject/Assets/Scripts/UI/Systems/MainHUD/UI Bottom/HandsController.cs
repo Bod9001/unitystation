@@ -42,7 +42,7 @@ public class HandsController : MonoBehaviour
 		}
 	}
 
-	public void AddHand(IDynamicItemSlotS bodyPartUISlots, BodyPartUISlots.StorageCharacteristics StorageCharacteristics)
+	public void AddHand(UI_SlotManager UI_SlotManager, IDynamicItemSlotS bodyPartUISlots, BodyPartUISlots.StorageCharacteristics StorageCharacteristics)
 	{
 		DoubleHandController HandController;
 		switch (StorageCharacteristics.namedSlot)
@@ -85,7 +85,8 @@ public class HandsController : MonoBehaviour
 		}
 
 		StorageToHands[StorageCharacteristics] = HandController;
-		HandController.AddHand(bodyPartUISlots, StorageCharacteristics);
+		HandController.AddHand(UI_SlotManager, bodyPartUISlots, StorageCharacteristics);
+
 		if (LocalPlayerManager.CurrentMind.playerNetworkActions.activeHand == null)
 		{
 			HandController.PickActiveHand();
@@ -109,11 +110,11 @@ public class HandsController : MonoBehaviour
 		LocalPlayerManager.CurrentMind.playerNetworkActions.CurrentActiveHand = NamedSlot.none;
 	}
 
-	public void RemoveHand(
+	public void RemoveHand(UI_SlotManager UI_SlotManager,
 		BodyPartUISlots.StorageCharacteristics StorageCharacteristics)
 	{
 		if (StorageToHands.ContainsKey(StorageCharacteristics) == false) return;
-		if (StorageToHands[StorageCharacteristics].RemoveHand( StorageCharacteristics))
+		if (StorageToHands[StorageCharacteristics].RemoveHand(UI_SlotManager, StorageCharacteristics))
 		{
 			var DoubleHand = StorageToHands[StorageCharacteristics];
 			DoubleHandControllers.Remove(DoubleHand);
@@ -210,7 +211,7 @@ public class HandsController : MonoBehaviour
 			return;
 		}
 
-		var CurrentSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
+		var CurrentSlot = LocalPlayerManager.GetActiveHandSlot();
 		// Is there an item in the active hand?
 		if (CurrentSlot.Item == null)
 		{
@@ -232,7 +233,7 @@ public class HandsController : MonoBehaviour
 		}
 
 		// Is there an item to equip?
-		var CurrentSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
+		var CurrentSlot = LocalPlayerManager.GetActiveHandSlot();
 		if (CurrentSlot.Item == null)
 		{
 			return;
@@ -253,7 +254,7 @@ public class HandsController : MonoBehaviour
 
 	public static bool SwapItem(UI_ItemSlot itemSlot)
 	{
-		var CurrentSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
+		var CurrentSlot = LocalPlayerManager.GetActiveHandSlot();
 		if (isValidPlayer())
 		{
 			if (CurrentSlot != itemSlot.ItemSlot)

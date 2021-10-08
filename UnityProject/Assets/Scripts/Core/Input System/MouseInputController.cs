@@ -126,8 +126,7 @@ public class MouseInputController : MonoBehaviour
 			return;
 		}
 
-		//do we have a loaded gun
-		var loadedGun = GetLoadedGunInActiveHand();
+
 
 		if (CommonInput.GetMouseButtonDown(0))
 		{
@@ -150,7 +149,8 @@ public class MouseInputController : MonoBehaviour
 			CheckAltClick();
 			if (CheckThrow()) return;
 
-			if (loadedGun != null)
+			//do we have a loaded gun
+			if ( GetLoadedGunInActiveHand() != null)
 			{
 				//if we are on harm intent with loaded gun,
 				//don't do anything else, just shoot (trigger the AimApply).
@@ -272,8 +272,8 @@ public class MouseInputController : MonoBehaviour
 	// return the Gun component if there is a loaded gun in active hand, otherwise null.
 	private Gun GetLoadedGunInActiveHand()
 	{
-		if (LocalPlayerManager.CurrentMind.OrNull()?.DynamicItemStorage.OrNull()?.GetActiveHandSlot() == null) return null;
-		var item = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().Item;
+		if (LocalPlayerManager.GetActiveHandSlot() == null) return null;
+		var item = LocalPlayerManager.GetActiveHandSlot().Item;
 		if (item != null)
 		{
 			var gun = item.GetComponent<Gun>();
@@ -455,7 +455,7 @@ public class MouseInputController : MonoBehaviour
 		}
 
 		//can't do anything if we have no item in hand
-		var handObj = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot()?.Item;
+		var handObj = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot(LocalPlayerManager.CurrentMind)?.Item;
 		if (handObj == null)
 		{
 			triggeredAimApply = null;
@@ -619,7 +619,7 @@ public class MouseInputController : MonoBehaviour
 	{
 		if (UIManager.IsThrow)
 		{
-			var currentSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
+			var currentSlot = LocalPlayerManager.GetActiveHandSlot();
 			if (currentSlot.Item == null)
 			{
 				return false;
@@ -630,7 +630,7 @@ public class MouseInputController : MonoBehaviour
 
 			//using transform position instead of registered position
 			//so target is still correct when lerping on a matrix (since registered world position is rounded)
-			Vector3 targetVector = targetPosition - LocalPlayerManager.LocalPlayer.transform.position;
+			Vector3 targetVector = targetPosition - LocalPlayerManager.CurrentMind.BodyWorldPosition;
 
 			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdThrow(
 				targetVector, (int) UIManager.DamageZone);

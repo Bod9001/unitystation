@@ -30,7 +30,7 @@ public class Disarmable : MonoBehaviour, ICheckedInteractable<PositionalHandAppl
 		if (interaction.Intent != Intent.Disarm) return false;
 		if (interaction.TargetObject == interaction.Performer) return false;
 
-		var performerRegisterPlayer = interaction.Performer.GetComponent<RegisterPlayer>();
+		var performerRegisterPlayer = interaction.Performer.RegisterPlayer;
 		if (performerRegisterPlayer.IsLayingDown) return false;
 
 		return true;
@@ -70,7 +70,7 @@ public class Disarmable : MonoBehaviour, ICheckedInteractable<PositionalHandAppl
 
 	private void KnockDown()
 	{
-		var targetRegister = target.GetComponent<RegisterPlayer>();
+		var targetRegister = target.RegisterPlayer;
 		targetRegister.ServerStun(KNOCKDOWN_STUN_TIME, false);
 
 		SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ThudSwoosh, interactionWorldPosition, sourceObj: target.GameObjectBody);
@@ -83,7 +83,7 @@ public class Disarmable : MonoBehaviour, ICheckedInteractable<PositionalHandAppl
 
 	private void Disarm()
 	{
-		var disarmStorage = target.GetComponent<DynamicItemStorage>();
+		var disarmStorage = target.DynamicItemStorage;
 		if(disarmStorage == null) return;
 
 		var leftHandSlots = disarmStorage.GetNamedItemSlots(NamedSlot.leftHand);

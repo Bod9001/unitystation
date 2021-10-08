@@ -70,7 +70,7 @@ namespace Items
 				Chat.AddExamineMsgFromServer(interaction.Performer,
 						"You assemble a rack.");
 				Spawn.ServerPrefab(rackPrefab, interaction.WorldPositionTarget.RoundToInt(),
-					interaction.Performer.transform.parent);
+					interaction.Performer.GameObjectBody.transform.parent);
 				var handObj = interaction.HandObject;
 
 				if (handObj != null && handObj.GetInstanceID() == gameObject.GetInstanceID()) // the rack parts were assembled from the hands, despawn in inventory-fashion

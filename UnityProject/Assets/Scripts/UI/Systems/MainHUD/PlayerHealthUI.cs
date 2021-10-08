@@ -69,10 +69,12 @@ public class PlayerHealthUI : MonoBehaviour
 
 	void Update()
 	{
-		if (LocalPlayerManager.LocalPlayer == null)
+		if (LocalPlayerManager.CurrentMind == null)
 		{
 			return;
 		}
+
+		if (LocalPlayerManager.CurrentMind.LivingHealthMasterBase == null) return;
 
 		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
@@ -228,7 +230,7 @@ public class PlayerHealthUI : MonoBehaviour
 		{
 			var Player = BbodyPart.HealthMaster as PlayerHealthV2;
 			if (Player == null) return false;
-			return LocalPlayerManager.CurrentMind.HasThisBody(Player.gameObject);
+			return LocalPlayerManager.HasThisBody(Player.gameObject);
 		}
 	}
 }

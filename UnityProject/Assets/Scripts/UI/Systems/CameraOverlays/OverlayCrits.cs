@@ -26,10 +26,10 @@ using System.Collections;
 		{
 			if (MonitorTarget)
 			{
-				if (LocalPlayerManager.LocalPlayer != null)
+				if (LocalPlayerManager.CurrentMind != null)
 				{
 					Vector3 playerPos =
-						Camera.main.WorldToScreenPoint(LocalPlayerManager.LocalPlayer.transform.position);
+						Camera.main.WorldToScreenPoint(LocalPlayerManager.CurrentMind.BodyWorldPosition);
 					shroud.position = playerPos;
 				}
 			}

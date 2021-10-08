@@ -26,7 +26,7 @@ public class PositionalHandApply : BodyPartTargetedInteraction
 	/// <summary>
 	/// Targeted world position deduced from target vector and performer position.
 	/// </summary>
-	public Vector2 WorldPositionTarget => (Vector2)Performer.transform.position + targetVector;
+	public Vector2 WorldPositionTarget => (Vector2)Performer.BodyWorldPosition + targetVector;
 
 	/// <summary>
 	/// Vector pointing from the performer to the targeted position. Set to Vector2.zero if aiming at self.
@@ -58,16 +58,16 @@ public class PositionalHandApply : BodyPartTargetedInteraction
 	/// <returns></returns>
 	public static PositionalHandApply ByLocalPlayer(GameObject targetObject, Vector2? targetVector = null)
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			return Invalid;
 		}
-		var targetVec = targetVector ?? MouseUtils.MouseToWorldPos() - LocalPlayerManager.LocalPlayer.transform.position;
-		return new PositionalHandApply(LocalPlayerManager.LocalPlayer.CurrentMind,
-			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot()?.ItemObject,
+		var targetVec = targetVector ?? MouseUtils.MouseToWorldPos() - LocalPlayerManager.CurrentMind.BodyWorldPosition;
+		return new PositionalHandApply(LocalPlayerManager.CurrentMind,
+			LocalPlayerManager.GetActiveHandSlot()?.ItemObject,
 			targetObject,
 			targetVec,
-			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(), UIManager.CurrentIntent, UIManager.DamageZone);
+			LocalPlayerManager.GetActiveHandSlot(), UIManager.CurrentIntent, UIManager.DamageZone);
 	}
 
 	/// <summary>

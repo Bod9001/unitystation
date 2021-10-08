@@ -14,12 +14,12 @@ public class ChatInputContext : IChatInputContext
 		get
 		{
 			// Player doesn't even connected to the game?
-			if (LocalPlayerManager.LocalPlayer.OrNull()?.Connection == null)
+			if (LocalPlayerManager.CurrentMind.OrNull()?.AssignedPlayer.OrNull()?.Connection == null)
 			{
 				return ChatChannel.None;
 			}
 
-			return LocalPlayerManager.LocalPlayer.CurrentMind.DefaultChatChannel;
+			return LocalPlayerManager.CurrentMind.DefaultChatChannel;
 		}
 	}
 }

@@ -8,14 +8,15 @@ using Mirror;
 using Objects.Atmospherics;
 using Systems.Clothing;
 using Messages.Server;
+using ScriptableObjects.Audio;
 
 /// <summary>
 /// Component which manages all the equipment on a player.
 /// </summary>
 public class Equipment : NetworkBehaviour
 {
-	private Mind script;
-	public DynamicItemStorage ItemStorage => script.DynamicItemStorage;
+	private Mind mind;
+	public DynamicItemStorage ItemStorage => this.GetComponent<DynamicItemStorage>();
 
 	public bool IsInternalsEnabled;
 
@@ -24,18 +25,24 @@ public class Equipment : NetworkBehaviour
 	[NonSerialized]
 	public NamedSlotFlagged obscuredSlots = NamedSlotFlagged.None;
 
-	private string TheyPronoun => script.OriginalCharacter.TheyPronoun(script);
-	private string TheirPronoun => script.OriginalCharacter.TheirPronoun(script);
+	private string TheyPronoun =>  PlayerSprites.OriginalCharacter.TheyPronoun(IsIdentityVisible());
+	private string TheirPronoun => PlayerSprites.OriginalCharacter.TheirPronoun(IsIdentityVisible());
 
 	private IEnumerable<ItemSlot> maskSlot => ItemStorage.GetNamedItemSlots(NamedSlot.mask);
 	private IEnumerable<ItemSlot> headSlot => ItemStorage.GetNamedItemSlots(NamedSlot.head);
 	private IEnumerable<ItemSlot> idSlot  => ItemStorage.GetNamedItemSlots(NamedSlot.id);
 
+	public FloorSounds StepSound;
+	public FloorSounds SecondaryStepSound;
+
+
+	private PlayerSprites PlayerSprites;
 
 	[HideInInspector, SyncVar(hook = nameof(SyncVisibleName))] public string visibleName = " ";
 
 	private void Awake()
 	{
+		PlayerSprites = this.GetComponent<PlayerSprites>();
 		clothingItems = new Dictionary<NamedSlot, ClothingItem>();
 		foreach (var clothingItem in GetComponentsInChildren<ClothingItem>())
 		{
@@ -122,10 +129,9 @@ public class Equipment : NetworkBehaviour
 	public void RefreshVisibleName()
 	{
 		string newVisibleName;
-
-		if (script.IsGhosting || IsIdentityObscured() == false)
+		if (IsIdentityVisible())
 		{
-			newVisibleName = script.ExpensiveName(); // can see face so real identity is known
+			newVisibleName = PlayerSprites.OriginalCharacter.Name; // can see face so real identity is known
 		}
 		else
 		{
@@ -141,6 +147,7 @@ public class Equipment : NetworkBehaviour
 	public void SyncVisibleName(string oldValue, string value)
 	{
 		visibleName = value;
+		this.gameObject.name = value;
 	}
 
 
@@ -162,11 +169,11 @@ public class Equipment : NetworkBehaviour
 	/// Determine whether the identity of the player is obscured by articles of clothing
 	/// with the ObscuresIdentity trait in the head or mask slots.
 	/// </summary>
-	public bool IsIdentityObscured()
+	public bool IsIdentityVisible()
 	{
 		// check if any worn mask or headwear obscures identity of the wearer
-		return (IsOccupied(maskSlot) && HidesIdentity(maskSlot)
-				|| (IsOccupied(headSlot) && HidesIdentity(headSlot)));
+		return !(IsOccupied(maskSlot) && HidesIdentity(maskSlot)
+				|| (IsOccupied(headSlot) && HidesIdentity(headSlot))) ;
 	}
 
 	public bool HidesIdentity(IEnumerable<ItemSlot> ToCheck)
@@ -254,8 +261,8 @@ public class Equipment : NetworkBehaviour
 		string theirPronoun = TheirPronoun;
 
 		//switch out words depending on if the examined player is nonbinary, because "they is wearing" is not how you grammer.
-		pronounIs = script.OriginalCharacter.IsPronoun(script);
-		pronounHas = script.OriginalCharacter.HasPronoun(script);
+		pronounIs = PlayerSprites.OriginalCharacter.IsPronoun(IsIdentityVisible());
+		pronounHas = PlayerSprites.OriginalCharacter.HasPronoun(IsIdentityVisible());
 
 
 		if (IsExaminable(NamedSlot.uniform))

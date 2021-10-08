@@ -55,7 +55,7 @@ namespace Systems.Interaction
 			// note: actual cooldown is started in WeaponNetworkActions melee logic on server side,
 			// clientPredictInteraction on clientside
 			if (side == NetworkSide.Client && Cooldowns.IsOn(interaction, CooldownID.Asset(CommonCooldowns.Instance.Melee, side))) return false;
-			
+
 			bool LocalItemCheck()
 			{
 				return interaction.HandObject.OrNull()?.Item().CanBeUsedOnSelfOnHelpIntent ?? false;
@@ -91,7 +91,7 @@ namespace Systems.Interaction
 		{
 			var handObject = interaction.HandObject;
 
-			var wna = interaction.Performer.GetComponent<WeaponNetworkActions>();
+			var wna = interaction.Performer.WeaponNetworkActions;
 			var layerType = LayerType.None;
 			if (interactableTiles != null)
 			{

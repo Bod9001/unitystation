@@ -105,7 +105,7 @@ namespace Messages.Server
 			var list = NetworkTabManager.Instance.GetPeepers(provider, type);
 			foreach (var connectedPlayer in list)
 			{
-				Send(connectedPlayer.CurrentMind, provider, type, tabAction, null, values);
+				Send(connectedPlayer, provider, type, tabAction, null, values);
 			}
 		}
 

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
@@ -23,9 +24,11 @@ public class GhostSprites : MonoBehaviour
 		directional = GetComponent<Directional>();
 		directional.OnDirectionChange.AddListener(OnDirectionChange);
 		SpriteHandler = GetComponentInChildren<SpriteHandler>();
+	}
+
+	public void Start()
+	{
 		if (CustomNetworkManager.Instance._isServer == false) return;
-
-
 		SpriteHandler.SetSpriteSO(GhostSpritesSOs.PickRandom());
 	}
 

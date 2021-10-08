@@ -123,7 +123,7 @@ namespace UI.Objects.Robotics
 		}
 
 		//Everytime someone new looks at the tab, update the tab for the client
-		public void UpdateGUIForPeepers(ConnectedPlayer notUsed)
+		public void UpdateGUIForPeepers(Mind notUsed)
 		{
 			if (!isUpdating)
 			{

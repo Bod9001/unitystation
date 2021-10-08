@@ -147,10 +147,9 @@ public static class ConverterExtensions
 			MatrixManager.AtPoint(Vector3Int.RoundToInt(worldPos), CustomNetworkManager.Instance._isServer));
 	}
 
-	public static Vector3 ToWorld(this Vector3 localPos)
+	public static Vector3Int ToWorldInt(this Vector3 worldPos)
 	{
-		return MatrixManager.LocalToWorld(localPos,
-			MatrixManager.AtPoint(Vector3Int.RoundToInt(localPos), CustomNetworkManager.Instance._isServer));
+		return MatrixManager.LocalToWorldInt(worldPos, 	MatrixManager.AtPoint(Vector3Int.RoundToInt(worldPos), CustomNetworkManager.Instance._isServer));
 	}
 
 

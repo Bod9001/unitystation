@@ -573,7 +573,7 @@ namespace UI
 						}
 					}
 
-					if(playerScript.DynamicItemStorage.GetActiveHandSlot() == null) continue;
+					if(playerScript.GetActiveHandSlot() == null) continue;
 
 					// Make sure the item is not in the players hands first:
 					if (hasItem == false)

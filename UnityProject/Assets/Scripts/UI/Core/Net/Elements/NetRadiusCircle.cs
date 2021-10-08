@@ -44,5 +44,5 @@ public class NetRadiusCircle : NetUIStringElement
 		}
 	}
 
-	public override void ExecuteServer(ConnectedPlayer subject) {}
+	public override void ExecuteServer(Mind subject) {}
 }

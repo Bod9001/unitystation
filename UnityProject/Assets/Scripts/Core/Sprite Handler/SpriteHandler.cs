@@ -568,7 +568,7 @@ public class SpriteHandler : MonoBehaviour
 		if (networkIdentity.netId == 0)
 		{
 			Logger.LogError($"ID hasn't been set for ${this.transform.parent}.", Category.Sprites);
-			yield break;
+			yield return null;
 		}
 
 		if (SpriteHandlerManager.Instance.QueueChanges.ContainsKey(this))

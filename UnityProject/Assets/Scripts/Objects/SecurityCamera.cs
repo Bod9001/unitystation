@@ -136,7 +136,7 @@ namespace Objects
 
 		public void ServerPerformInteraction(AiActivate interaction)
 		{
-			if (interaction.Performer.TryGetComponent<AiPlayer>(out var aiPlayer) == false) return;
+			if (interaction.Performer.GameObjectBody.TryGetComponent<AiPlayer>(out var aiPlayer) == false) return;
 
 			if(aiPlayer.OpenNetworks.Contains(securityCameraChannel) == false) return;
 
@@ -169,7 +169,7 @@ namespace Objects
 		[Client]
 		private void SyncStatus(bool oldState, bool newState)
 		{
-			if(LocalPlayerManager.LocalPlayer.OrNull()?.GetComponent<AiPlayer>() == null) return;
+			if(LocalPlayerManager.CurrentMind.OrNull()?.GameObjectBody.OrNull()?.GetComponent<AiPlayer>() == null) return;
 
 			ToggleAiSprite(newState);
 

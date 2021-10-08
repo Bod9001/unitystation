@@ -232,7 +232,7 @@ public class ChatRelay : NetworkBehaviour
 
 		trySendingTTS(message);
 
-		if (LocalPlayerManager.LocalPlayer.CurrentMind == null)
+		if (LocalPlayerManager.CurrentMind == null)
 		{
 			channels = ChatChannel.OOC;
 		}

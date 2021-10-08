@@ -8,7 +8,7 @@ namespace Systems.Spells.Wizard
 	{
 		public override bool CastSpellServer(Mind caster)
 		{
-			TeleportUtils.ServerTeleportRandom(caster, 8, 16, true, true);
+			TeleportUtils.ServerTeleportRandom(caster.GameObjectBody, 8, 16, true, true);
 
 			return true;
 		}

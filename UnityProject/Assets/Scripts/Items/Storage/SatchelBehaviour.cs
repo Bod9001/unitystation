@@ -37,7 +37,7 @@ public class SatchelBehaviour : MonoBehaviour, IServerInventoryMove
 		{
 			if (compatibleSlots.Contains(info.ToSlot.NamedSlot.GetValueOrDefault(NamedSlot.none)))
 			{
-				holderPlayer = info.ToPlayer.GetComponent<PlayerScript>();
+				holderPlayer = info.ToPlayer.GameObjectBody.GetComponent<PlayerScript>();
 				holderPlayer.OnTileReached().AddListener(TileReachedServer);
 			}
 		}

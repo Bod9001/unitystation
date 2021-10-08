@@ -27,7 +27,7 @@ namespace Messages.Client
 			var targetSlot = ItemSlot.Get(NetworkObjects[1].GetComponents<ItemStorage>()[msg.StorageIndexOnGameObject], msg.TargetNamedSlot, msg.TargetSlotIndex);
 
 			var playerObject = SentByPlayer.CurrentMind.GameObjectBody;
-			var targetObject = targetSlot.Player.gameObject;
+			var targetObject = targetSlot.Player.GameObjectBody;
 
 			if (msg.IsGhost)
 			{
@@ -98,7 +98,7 @@ namespace Messages.Client
 
 		public static void Send(ItemSlot playerSlot, ItemSlot targetSlot, bool isGhost)
 		{
-			if (!Validation(playerSlot, targetSlot, LocalPlayerManager.CurrentMind, targetSlot.Player.gameObject, NetworkSide.Client, isGhost))
+			if (!Validation(playerSlot, targetSlot, LocalPlayerManager.CurrentMind, targetSlot.Player.GameObjectBody, NetworkSide.Client, isGhost))
 				return;
 
 			NetMessage msg = new NetMessage

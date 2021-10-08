@@ -35,9 +35,10 @@ public class UIManager : MonoBehaviour, IInitialise
 	public StatsTab statsTab;
 	public Text toolTip;
 	public Text pingDisplay;
-	[SerializeField]
-	[Tooltip("Text displaying the game's version number.")]
+
+	[SerializeField] [Tooltip("Text displaying the game's version number.")]
 	public Text versionDisplay;
+
 	public GUI_Info infoWindow;
 	public TeleportWindow teleportWindow;
 	[SerializeField] private GhostRoleWindow ghostRoleWindow = default;
@@ -55,7 +56,7 @@ public class UIManager : MonoBehaviour, IInitialise
 	public PlayerAlerts playerAlerts;
 	[FormerlySerializedAs("antagBanner")] public GUIAntagBanner spawnBanner;
 	private bool preventChatInput;
-	[SerializeField] [Range(0.1f,10f)] private float PhoneZoomFactor = 1.6f;
+	[SerializeField] [Range(0.1f, 10f)] private float PhoneZoomFactor = 1.6f;
 	public LobbyUIPlayerListController lobbyUIPlayerListController = null;
 
 	public SurgeryDialogue SurgeryDialogue;
@@ -137,6 +138,7 @@ public class UIManager : MonoBehaviour, IInitialise
 #endif
 
 	public static bool IsTablet => DeviceDiagonalSizeInInches > 6.5f && AspectRatio < 2f;
+
 	public static float AspectRatio =>
 		(float) Mathf.Max(Screen.width, Screen.height) / Mathf.Min(Screen.width, Screen.height);
 
@@ -146,7 +148,7 @@ public class UIManager : MonoBehaviour, IInitialise
 		{
 			float screenWidth = Screen.width / Screen.dpi;
 			float screenHeight = Screen.height / Screen.dpi;
-			float diagonalInches = Mathf.Sqrt (Mathf.Pow (screenWidth, 2) + Mathf.Pow (screenHeight, 2));
+			float diagonalInches = Mathf.Sqrt(Mathf.Pow(screenWidth, 2) + Mathf.Pow(screenHeight, 2));
 
 			Logger.Log("Getting mobile device screen size in inches: " + diagonalInches, Category.UI);
 
@@ -216,11 +218,11 @@ public class UIManager : MonoBehaviour, IInitialise
 			currentIntent = value;
 
 			//update the intent of the player on server so server knows we are swappable or not
-			if (LocalPlayerManager.LocalPlayer.CurrentMind != null)
-			{
-				LocalPlayerManager.LocalPlayer.CurrentMind.PlayerMove.CmdSetHelpIntent(currentIntent == global::Intent.Help);
-				//Should move to script next to mind
-			}
+			if (LocalPlayerManager.CurrentMind == null) return;
+
+			LocalPlayerManager.CurrentMind.PlayerMove.CmdSetHelpIntent(currentIntent == global::Intent.Help); //TODO Scenario where you swap body and this doesn't get updated unless
+                                                                                                     //TODO you change intense
+			//Should move to script next to mind
 		}
 	}
 
@@ -284,8 +286,7 @@ public class UIManager : MonoBehaviour, IInitialise
 			canvasScaler.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
 			canvasScaler.matchWidthOrHeight = 0f; //match width
 			canvasScaler.referenceResolution =
-				new Vector2(Screen.width/PhoneZoomFactor, canvasScaler.referenceResolution.y);
-
+				new Vector2(Screen.width / PhoneZoomFactor, canvasScaler.referenceResolution.y);
 		}
 	}
 
@@ -309,7 +310,7 @@ public class UIManager : MonoBehaviour, IInitialise
 
 	void DetermineInitialTargetFrameRate()
 	{
-		if(!PlayerPrefs.HasKey(PlayerPrefKeys.TargetFrameRate))
+		if (!PlayerPrefs.HasKey(PlayerPrefKeys.TargetFrameRate))
 		{
 			PlayerPrefs.SetInt(PlayerPrefKeys.TargetFrameRate, 99);
 			PlayerPrefs.Save();
@@ -392,12 +393,6 @@ public class UIManager : MonoBehaviour, IInitialise
 
 	public static void ResetAllUI()
 	{
-		UI_ItemSlot[] slots = Instance.GetComponentsInChildren<UI_ItemSlot>(true);
-		foreach (UI_ItemSlot slot in slots)
-		{
-			slot.Reset();
-		}
-
 		foreach (DamageMonitorListener listener in Instance.GetComponentsInChildren<DamageMonitorListener>())
 		{
 			listener.Reset();
@@ -436,8 +431,10 @@ public class UIManager : MonoBehaviour, IInitialise
 	{
 		//convert to local position so it appears correct on moving matrix
 		//do not use tileworldposition for actual spawn position - bar will appear shifted on moving matrix
-		var targetWorldPosition = LocalPlayerManager.LocalPlayer.CurrentMind.GameObjectBody.AssumedWorldPosServer() + offsetFromPlayer.To3Int();
-		var targetTilePosition = LocalPlayerManager.LocalPlayer.CurrentMind.GameObjectBody.AssumedWorldPosServer().To2Int() + offsetFromPlayer;
+		var targetWorldPosition = LocalPlayerManager.CurrentMind.GameObjectBody.AssumedWorldPosServer() +
+		                          offsetFromPlayer.To3Int();
+		var targetTilePosition = LocalPlayerManager.CurrentMind.GameObjectBody.AssumedWorldPosServer().To2Int() +
+		                         offsetFromPlayer;
 		var targetMatrixInfo = MatrixManager.AtPoint(targetTilePosition.To3Int(), true);
 		var targetParent = targetMatrixInfo.Objects;
 		//snap to local position
@@ -487,7 +484,7 @@ public class UIManager : MonoBehaviour, IInitialise
 	/// <returns>progress bar associated with this action (can use this to interrupt progress). Null if
 	/// progress was not started for some reason (such as already in progress for this action on the specified tile).</returns>
 	public static ProgressBar _ServerStartProgress(
-			IProgressAction progressAction, ActionTarget actionTarget, float timeForCompletion, Mind player)
+		IProgressAction progressAction, ActionTarget actionTarget, float timeForCompletion, Mind player)
 	{
 		var targetMatrixInfo = MatrixManager.AtPoint(actionTarget.TargetWorldPosition.CutToInt(), true);
 		var targetParent = targetMatrixInfo.Objects;
@@ -500,7 +497,8 @@ public class UIManager : MonoBehaviour, IInitialise
 		if (!progressAction.OnServerStartProgress(startProgressInfo))
 		{
 			//stop it without even having started it
-			Logger.LogTraceFormat("Server cancelling progress start, OnServerStartProgress=false for {0}", Category.ProgressAction,
+			Logger.LogTraceFormat("Server cancelling progress start, OnServerStartProgress=false for {0}",
+				Category.ProgressAction,
 				startProgressInfo);
 			Despawn.ClientSingle(barObject);
 			return null;
@@ -568,7 +566,6 @@ public class UIManager : MonoBehaviour, IInitialise
 		}
 
 		SoundAmbientManager.StopAllAudio();
-
 	}
 
 	private IEnumerator WaitForStrandedVideoEnd()
@@ -579,7 +576,7 @@ public class UIManager : MonoBehaviour, IInitialise
 		//turn everything back on
 		yield return null;
 		UIManager.PlayerHealthUI.gameObject.SetActive(true);
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting )
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			UIManager.Display.hudBottomGhost.gameObject.SetActive(true);
 		}

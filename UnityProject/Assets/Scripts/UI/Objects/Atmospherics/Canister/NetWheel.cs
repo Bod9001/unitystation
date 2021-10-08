@@ -24,7 +24,7 @@ namespace UI.Core
 
 		public FloatEvent ServerMethod;
 
-		public override void ExecuteServer(ConnectedPlayer subject)
+		public override void ExecuteServer(Mind subject)
 		{
 			ServerMethod.Invoke(Element.KPA);
 		}

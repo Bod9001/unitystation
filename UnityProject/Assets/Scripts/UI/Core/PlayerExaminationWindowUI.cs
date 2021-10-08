@@ -138,7 +138,7 @@ namespace UI.Core
 			}
 			else
 			{
-				playerSlot = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
+				playerSlot = LocalPlayerManager.GetActiveHandSlot();
 			}
 			OtherPlayerSlotTransferMessage.Send(playerSlot, targetSlot, isGhost);
 		}

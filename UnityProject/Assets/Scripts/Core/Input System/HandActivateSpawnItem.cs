@@ -19,9 +19,9 @@ namespace Items
 
 		public void ServerPerformInteraction(HandActivate interaction)
 		{
-			SoundManager.PlayNetworkedAtPos(spawnSound, interaction.Performer.transform.position, sourceObj: interaction.Performer.GameObjectBody);
+			SoundManager.PlayNetworkedAtPos(spawnSound, interaction.Performer.BodyWorldPosition, sourceObj: interaction.Performer.GameObjectBody);
 
-			var obj = Spawn.ServerPrefab(seedPacket, interaction.Performer.transform.position, parent: interaction.Performer.transform.parent).GameObject;
+			var obj = Spawn.ServerPrefab(seedPacket, interaction.Performer.BodyWorldPosition, parent: interaction.Performer.GameObjectBody.transform.parent).GameObject;
 			var attributes = obj.GetComponent<ItemAttributesV2>();
 			if (attributes != null)
 			{

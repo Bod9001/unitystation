@@ -151,7 +151,7 @@ namespace Items.PDA
 			if (RegisteredPlayerName != default) return; // PDA already registered to someone
 			if (info.ToRootPlayer == null) return; // PDA was not added to player
 
-			Mind pickedUpBy = info.ToRootPlayer.gameObject.Player();
+			Mind pickedUpBy = info.ToRootPlayer;
 			RegisterTo(pickedUpBy);
 
 			if (debugUplink)

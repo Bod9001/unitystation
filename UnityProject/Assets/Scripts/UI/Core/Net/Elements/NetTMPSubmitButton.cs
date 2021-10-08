@@ -29,7 +29,7 @@ namespace UI.Core.Net.Elements
 		public StringEvent ServerMethod;
 		public TMP_InputField SourceInputField;
 
-		public override void ExecuteServer(ConnectedPlayer subject)
+		public override void ExecuteServer(Mind subject)
 		{
 			ServerMethod.Invoke(Value);
 		}

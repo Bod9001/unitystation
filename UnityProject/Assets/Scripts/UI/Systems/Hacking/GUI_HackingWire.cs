@@ -96,7 +96,7 @@ namespace Hacking
 
 		public void Remove()
 		{
-			Pickupable handItem = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().Item;
+			Pickupable handItem = LocalPlayerManager.GetActiveHandSlot().Item;
 			if (handItem != null)
 			{
 				if (Validations.HasItemTrait(handItem.gameObject, CommonTraits.Instance.Wirecutter))

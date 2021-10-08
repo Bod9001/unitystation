@@ -6,6 +6,7 @@ using Mirror;
 using UnityEngine.Events;
 using Random = UnityEngine.Random;
 using Systems.Teleport;
+using HealthV2;
 using Messages.Server.SoundMessages;
 
 [RequireComponent(typeof(Directional))]
@@ -43,8 +44,14 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 	[NonSerialized]
 	public SlipEvent OnSlipChangeServer = new SlipEvent();
 
-	private Mind playerScript;
-	public Mind PlayerScript => playerScript;
+	private Mind mindScript;
+	public Mind MindScript => mindScript;
+
+	public PlayerScript PlayerScript;
+	public PushPull PushPull;
+
+	public LivingHealthMasterBase LivingHealthMasterBase;
+	public DynamicItemStorage DynamicItemStorage;
 	private Directional playerDirectional;
 	private UprightSprites uprightSprites;
 	[SerializeField] private Util.NetworkedLeanTween networkedLean;
@@ -54,8 +61,8 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 	/// correct server/client side logic based on where this is being called from.
 	/// </summary>
 	public bool IsBlocking => isServer ? IsBlockingServer : IsBlockingClient;
-	public bool IsBlockingClient => !playerScript.IsGhosting && !IsLayingDown;
-	public bool IsBlockingServer => !playerScript.IsGhosting && !IsLayingDown && !IsSlippingServer;
+	public bool IsBlockingClient => PlayerScript.PlayerState != PlayerScript.PlayerStates.Ghost && !IsLayingDown;
+	public bool IsBlockingServer => PlayerScript.PlayerState != PlayerScript.PlayerStates.Ghost && !IsLayingDown && !IsSlippingServer;
 	private Coroutine unstunHandle;
 
 
@@ -67,6 +74,10 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 		playerDirectional = GetComponent<Directional>();
 		playerDirectional.ChangeDirectionWithMatrix = false;
 		uprightSprites.spriteMatrixRotationBehavior = SpriteMatrixRotationBehavior.RemainUpright;
+		PlayerScript = this.GetComponent<PlayerScript>();
+		LivingHealthMasterBase = this.GetComponent<LivingHealthMasterBase>();
+		PushPull = this.GetComponent<PushPull>();
+		DynamicItemStorage = this.GetComponent<DynamicItemStorage>();
 	}
 
 	public void AddStatus(IControlPlayerState iThisControlPlayerState)
@@ -178,7 +189,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 			{
 				spriteRenderer.sortingLayerName = "Bodies";
 			}
-			playerScript.PlayerSync.SpeedServer = playerScript.PlayerMove.CrawlSpeed;
+			PlayerScript.PlayerSync.SpeedServer = PlayerScript.playerMove.CrawlSpeed;
 			//lock current direction
 			playerDirectional.LockDirection = true;
 		}
@@ -191,7 +202,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 				spriteRenderer.sortingLayerName = "Players";
 			}
 			playerDirectional.LockDirection = false;
-			playerScript.PlayerSync.SpeedServer = playerScript.PlayerMove.RunSpeed;
+			PlayerScript.PlayerSync.SpeedServer = PlayerScript.playerMove.RunSpeed;
 		}
 	}
 
@@ -216,7 +227,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 		if (!IsLayingDown) return;
 
 		// Can't help a player up if they're rolling
-		if (playerScript.playerNetworkActions.IsRolling) return;
+		if (mindScript.playerNetworkActions.IsRolling) return;
 
 		// Check if lying down because of stun. If stunned, there is a chance helping can fail.
 		if (IsSlippingServer && Random.Range(0, 100) > HELP_CHANCE) return;
@@ -254,11 +265,11 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 		// Don't slip while the players hunger state is Strarving
 		// Don't slip if you got no legs (HealthV2)
 		if (IsSlippingServer
-			|| !slipWhileWalking && playerScript.PlayerSync.SpeedServer <= playerScript.PlayerMove.WalkSpeed
-			|| playerScript.LivingHealthMasterBase.IsCrit
-			|| playerScript.LivingHealthMasterBase.IsSoftCrit
-			|| playerScript.LivingHealthMasterBase.IsDead
-			|| playerScript.LivingHealthMasterBase.HungerState == HungerState.Starving)
+			|| !slipWhileWalking && PlayerScript.PlayerSync.SpeedServer <= PlayerScript.PlayerMove.WalkSpeed
+			|| LivingHealthMasterBase.IsCrit
+			|| LivingHealthMasterBase.IsSoftCrit
+			|| LivingHealthMasterBase.IsDead
+			|| LivingHealthMasterBase.HungerState == HungerState.Starving)
 		{
 			return;
 		}
@@ -267,7 +278,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 		AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: Random.Range(0.9f, 1.1f));
 		SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.Slip, WorldPositionServer, audioSourceParameters, sourceObj: gameObject);
 		// Let go of pulled items.
-		playerScript.PushPull.ServerStopPulling();
+		PushPull.ServerStopPulling();
 	}
 
 	/// <summary>
@@ -285,17 +296,17 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 		OnSlipChangeServer.Invoke(oldVal, IsSlippingServer);
 		if (dropItem)
 		{
-			foreach (var itemSlot in playerScript.DynamicItemStorage.GetNamedItemSlots(NamedSlot.leftHand))
+			foreach (var itemSlot in DynamicItemStorage.GetNamedItemSlots(NamedSlot.leftHand))
 			{
 				Inventory.ServerDrop(itemSlot);
 			}
 
-			foreach (var itemSlot in playerScript.DynamicItemStorage.GetNamedItemSlots(NamedSlot.rightHand))
+			foreach (var itemSlot in DynamicItemStorage.GetNamedItemSlots(NamedSlot.rightHand))
 			{
 				Inventory.ServerDrop(itemSlot);
 			}
 		}
-		playerScript.PlayerMove.allowInput = false;
+		PlayerScript.PlayerMove.allowInput = false;
 
 		this.RestartCoroutine(StunTimer(stunDuration), ref unstunHandle);
 	}
@@ -317,17 +328,17 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 		IsSlippingServer = false;
 
 		// Do not raise up a dead body
-		if (playerScript.LivingHealthMasterBase.ConsciousState == ConsciousState.CONSCIOUS)
+		if (LivingHealthMasterBase.ConsciousState == ConsciousState.CONSCIOUS)
 		{
 			ServerCheckStandingChange( false);
 		}
 
 		OnSlipChangeServer.Invoke(oldVal, IsSlippingServer);
 
-		if (playerScript.LivingHealthMasterBase.ConsciousState == ConsciousState.CONSCIOUS
-			 || playerScript.LivingHealthMasterBase.ConsciousState == ConsciousState.BARELY_CONSCIOUS)
+		if (LivingHealthMasterBase.ConsciousState == ConsciousState.CONSCIOUS
+			 || LivingHealthMasterBase.ConsciousState == ConsciousState.BARELY_CONSCIOUS)
 		{
-			playerScript.PlayerMove.allowInput = true;
+			PlayerScript.PlayerMove.allowInput = true;
 		}
 	}
 	// <summary>
@@ -341,7 +352,7 @@ public class RegisterPlayer : RegisterTile, IServerSpawn, RegisterPlayer.IContro
 	{
 		int maxRange = 11;
 		int potencyStrength = (int)Math.Round((potency * .01f) * maxRange, 0);
-		TeleportUtils.ServerTeleportRandom(playerScript, 0, potencyStrength, false, true);
+		TeleportUtils.ServerTeleportRandom(gameObject, 0, potencyStrength, false, true);
 	}
 }
 

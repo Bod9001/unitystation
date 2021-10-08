@@ -100,7 +100,7 @@ public class ItemLightControl : NetworkBehaviour, IServerInventoryMove
 		{
 			if (CompatibleSlots.Contains(info.ToSlot.NamedSlot.GetValueOrDefault(NamedSlot.none)))
 			{
-				LightEmission = info.ToPlayer.GetComponent<LightEmissionPlayer>();
+				LightEmission = info.ToPlayer.GameObjectBody.GetComponent<LightEmissionPlayer>();
 				if (!IsOn) return;
 				LightEmission.AddLight(PlayerLightData);
 			}

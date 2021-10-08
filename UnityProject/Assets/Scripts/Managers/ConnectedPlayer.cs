@@ -41,4 +41,21 @@ public class ConnectedPlayer : NetworkBehaviour
 	{
 		Logger.Log("o3o");
 	}
+
+
+	//used for telling the client what Connected player Set currently
+	[TargetRpc]
+	public void TargetUpdateClient(NetworkConnection ToWho)
+	{
+		LocalPlayerManager.LocalConnectedPlayer = this;
+	}
+
+
+	//used for telling the client what Mind Set currently
+	[TargetRpc]
+	public void TargetUpdateMindClient(NetworkConnection ToWho, Mind mind)
+	{
+		CurrentMind = mind;
+		mind.AssignedPlayer = this;
+	}
 }

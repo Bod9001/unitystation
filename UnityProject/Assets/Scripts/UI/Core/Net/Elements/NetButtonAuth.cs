@@ -11,9 +11,9 @@ using UnityEngine.UI;
 [Serializable]
 public class NetButtonAuth : NetUIStringElement
 {
-	public ConnectedPlayerEvent ServerMethod;
+	public MindEvent ServerMethod;
 
-	public override void ExecuteServer(ConnectedPlayer subject)
+	public override void ExecuteServer(Mind subject)
 	{
 		ServerMethod.Invoke(subject);
 	}

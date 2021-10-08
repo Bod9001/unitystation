@@ -530,7 +530,7 @@ namespace Objects.Engineering
 		public bool WillInteract(HandApply interaction, NetworkSide side)
 		{
 			if (DefaultWillInteract.Default(interaction, side) == false) return false;
-			
+
 			return Validations.HasUsedItemTrait(interaction, CommonTraits.Instance.Screwdriver);
 		}
 
@@ -545,8 +545,8 @@ namespace Objects.Engineering
 			float voltage = Voltage*10;
 			Vector3 shockpos = gameObject.WorldPosServer();
 			Electrocution electrocution = new Electrocution(voltage, shockpos, "APC");
-			
-			interaction.Performer.GetComponent<PlayerHealthV2>().Electrocute(electrocution);
+
+			interaction.Performer.LivingHealthMasterBase.Electrocute(electrocution);
 
 			ToolUtils.ServerUseToolWithActionMessages(interaction, secondsToScrewdrive,
 					$"You start to disconnect the {gameObject.ExpensiveName()}'s electronics...",

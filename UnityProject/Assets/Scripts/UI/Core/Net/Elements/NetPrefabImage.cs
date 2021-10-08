@@ -36,5 +36,5 @@ public class NetPrefabImage : NetUIStringElement
 		}
 	}
 
-	public override void ExecuteServer(ConnectedPlayer subject) {}
+	public override void ExecuteServer(Mind subject) {}
 }

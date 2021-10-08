@@ -29,7 +29,7 @@ public class TileMouseDrop : Interaction
 	/// <summary>
 	/// Targeted world position deduced from target vector and performer position.
 	/// </summary>
-	public Vector2 WorldPositionTarget => (Vector2)Performer.transform.position + targetVector;
+	public Vector2 WorldPositionTarget => (Vector2)Performer.BodyWorldPosition + targetVector;
 
 	/// <summary>
 	/// Vector pointing from the performer to the targeted position. Set to Vector2.zero if aiming at self.

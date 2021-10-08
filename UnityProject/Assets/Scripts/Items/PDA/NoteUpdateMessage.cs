@@ -10,14 +10,13 @@ namespace Items.PDA
 		public struct NetMessage : NetworkMessage
 		{
 			public uint PDAToUpdate;
-			public uint Recipient;
 			public string Message;
 		}
 
 		public override void Process(NetMessage msg)
 		{
-			LoadMultipleObjects(new uint[] {msg.Recipient, msg.PDAToUpdate});
-			var notes = NetworkObjects[1].GetComponent<PDANotesNetworkHandler>();
+			LoadNetworkObject(msg.PDAToUpdate);
+			var notes = NetworkObject.GetComponent<PDANotesNetworkHandler>();
 			notes.NoteString = msg.Message;
 			ControlTabs.RefreshTabs();
 		}
@@ -29,7 +28,6 @@ namespace Items.PDA
 		{
 			NetMessage msg = new NetMessage
 			{
-				Recipient = recipient.GetComponent<NetworkIdentity>().netId,
 				PDAToUpdate = noteToUpdate.GetComponent<NetworkIdentity>().netId,
 				Message = message
 			};

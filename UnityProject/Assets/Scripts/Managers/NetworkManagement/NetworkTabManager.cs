@@ -25,15 +25,15 @@ public class NetworkTabManager : MonoBehaviour {
 
 	private readonly Dictionary<NetTabDescriptor, NetTab> openTabs = new Dictionary<NetTabDescriptor, NetTab>();
 
-	public List<ConnectedPlayer> GetPeepers(GameObject provider, NetTabType type)
+	public List<Mind> GetPeepers(GameObject provider, NetTabType type)
 	{
 		var descriptor = Tab( provider, type );
 		if ( !openTabs.ContainsKey( descriptor ) ) {
-			return new List<ConnectedPlayer>();
+			return new List<Mind>();
 		}
 		var info = openTabs[descriptor];
 		if ( info.IsUnobserved ) {
-			return new List<ConnectedPlayer>();
+			return new List<Mind>();
 		}
 		return info.Peepers.ToList();
 	}
@@ -141,7 +141,7 @@ public class NetworkTabManager : MonoBehaviour {
 		{
 			//remove all peepers
 			//safe copy so we can concurrently modify it
-			var peepers = netTab.Peepers.Select(cp => cp.CurrentMind).ToList();
+			var peepers = netTab.Peepers.Select(cp => cp).ToList();
 			foreach (var peeper in peepers)
 			{
 				Remove(provider, type, peeper);

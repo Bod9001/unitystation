@@ -9,14 +9,13 @@ namespace Messages.Server
 		public struct NetMessage : NetworkMessage
 		{
 			public uint PaperToUpdate;
-			public uint Recipient;
 			public string Message;
 		}
 
 		public override void Process(NetMessage msg)
 		{
-			LoadMultipleObjects(new uint[] {msg.Recipient, msg.PaperToUpdate});
-			var paper = NetworkObjects[1].GetComponent<Paper>();
+			LoadNetworkObject(msg.PaperToUpdate);
+			var paper = NetworkObject.GetComponent<Paper>();
 			paper.PaperString = msg.Message;
 			ControlTabs.RefreshTabs();
 		}
@@ -25,7 +24,6 @@ namespace Messages.Server
 		{
 			NetMessage msg = new NetMessage
 			{
-				Recipient = recipient.GetComponent<NetworkIdentity>().netId,
 				PaperToUpdate = paperToUpdate.GetComponent<NetworkIdentity>().netId,
 				Message = message
 			};

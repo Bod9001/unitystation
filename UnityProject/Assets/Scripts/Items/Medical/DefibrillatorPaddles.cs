@@ -15,21 +15,15 @@ public class DefibrillatorPaddles : MonoBehaviour, ICheckedInteractable<HandAppl
 
 	public bool WillInteract(HandApply interaction, NetworkSide side)
 	{
-		if (DefaultWillInteract.Default(interaction,side) == false)
-			return false;
+		if (DefaultWillInteract.Default(interaction, side) == false) return false;
+		if (interaction.HandObject != this.gameObject) return false;
 		var livingHealthMaster = interaction.TargetObject.GetComponent<LivingHealthMasterBase>();
-		if (livingHealthMaster == null)
-			return false;
-		var equipment = interaction.Performer.GetComponent<Equipment>();
+		if (livingHealthMaster == null) return false;
+		var equipment = interaction.Performer.Equipment;
+		if (equipment == null) return false;
 		var ObjectInSlot = equipment.GetClothingItem(NamedSlot.back).GameObjectReference;
-		if (Validations.HasItemTrait(ObjectInSlot, DefibrillatorTrait) == false)
-		{
-			ObjectInSlot = equipment.GetClothingItem(NamedSlot.belt).GameObjectReference;
-			if (Validations.HasItemTrait(ObjectInSlot, DefibrillatorTrait) == false)
-			{
-				return false;
-			}
-		}
+		if (ObjectInSlot == null) return false;
+		if (Validations.HasItemTrait(ObjectInSlot, DefibrillatorTrait) == false) return false;
 		if (CanDefibrillate(livingHealthMaster, interaction.Performer) == false && side == NetworkSide.Server)
 		{
 			return false;
@@ -37,7 +31,7 @@ public class DefibrillatorPaddles : MonoBehaviour, ICheckedInteractable<HandAppl
 		return true;
 	}
 
-	private bool CanDefibrillate(LivingHealthMasterBase livingHealthMaster, GameObject performer)
+	private bool CanDefibrillate(LivingHealthMasterBase livingHealthMaster, Mind performer)
 	{
 		if (livingHealthMaster.brain == null || livingHealthMaster.brain.RelatedPart.Health < -100)
 		{
@@ -56,11 +50,12 @@ public class DefibrillatorPaddles : MonoBehaviour, ICheckedInteractable<HandAppl
 	{
 		void Perform()
 		{
-			var livingHealthMaster = interaction.TargetObject.GetComponent<LivingHealthMasterBase>();
+			var livingHealthMaster  = interaction.TargetObject.GetComponent<LivingHealthMasterBase>();
 			if (CanDefibrillate(livingHealthMaster, interaction.Performer) == false)
 			{
 				return;
 			}
+
 			foreach (var BodyPart in livingHealthMaster.BodyPartList)
 			{
 				foreach (var organ in BodyPart.OrganList)
@@ -73,17 +68,12 @@ public class DefibrillatorPaddles : MonoBehaviour, ICheckedInteractable<HandAppl
 					}
 				}
 			}
+
 			livingHealthMaster.CalculateOverallHealth();
-			if (livingHealthMaster.IsDead == false)
-			{
-				var ghost = livingHealthMaster.playerScript.mind?.ghost;
-				if (ghost)
-				{
-					ghost.playerNetworkActions.GhostEnterBody();
-				}
-			}
 		}
-		var bar = StandardProgressAction.Create(new StandardProgressActionConfig(StandardProgressActionType.CPR, false, false, true), Perform);
+
+		var bar = StandardProgressAction.Create(
+			new StandardProgressActionConfig(StandardProgressActionType.CPR, false, false, true), Perform);
 		bar.ServerStartProgress(interaction.Performer.RegisterTile(), Time, interaction.Performer);
 	}
 }

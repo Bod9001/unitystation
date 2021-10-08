@@ -101,7 +101,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 4821351870195518641}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &4821351870195518641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,7 +254,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 2291017642642160610}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &2291017642642160610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,7 +374,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 2894397304073737410}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &2894397304073737410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,12 +425,10 @@ GameObject:
   - component: {fileID: 7786899671633797224}
   - component: {fileID: 8566362239651287352}
   - component: {fileID: 114279031792796038}
-  - component: {fileID: 4171332437423579703}
   - component: {fileID: 7831221530082840597}
   - component: {fileID: -5817005449759474551}
   - component: {fileID: -4232167787565634782}
   - component: {fileID: 4174611152458090807}
-  - component: {fileID: -7196392364410790442}
   - component: {fileID: -5061689181288922864}
   - component: {fileID: 7092917086790084979}
   - component: {fileID: 1354417930896543338}
@@ -449,10 +444,9 @@ GameObject:
   - component: {fileID: 8755570904728665727}
   - component: {fileID: -854922976880339718}
   - component: {fileID: 2105882665300898234}
-  - component: {fileID: 1952996692186363365}
   - component: {fileID: 91908198791635565}
   - component: {fileID: 3160124018402396833}
-  - component: {fileID: 5123748548063984441}
+  - component: {fileID: 1990267799293861411}
   m_Layer: 8
   m_Name: Player_V4(uNet)
   m_TagString: Untagged
@@ -519,12 +513,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  mind: {fileID: 0}
   playerName: ' '
-  visibleName: ' '
   RTT: 0
   RcsMode: 0
   playerState: 0
-  actionData: {fileID: 11400000, guid: 288088e3bb7768d41a2fe1b2c170fbce, type: 2}
   playerChatLocation: {fileID: 1133514949248654}
 --- !u!114 &1334142152360663673
 MonoBehaviour:
@@ -616,6 +609,9 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   IsInternalsEnabled: 0
+  StepSound: {fileID: 0}
+  SecondaryStepSound: {fileID: 0}
+  visibleName: ' '
 --- !u!114 &114390575568471296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -630,7 +626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  chatBubbleTarget: {fileID: 8006988482386011679}
+  itemStorage: {fileID: 0}
 --- !u!114 &114792299177679754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -649,6 +645,7 @@ MonoBehaviour:
   allowInput: 1
   IsTrapped: 0
   actionData: {fileID: 11400000, guid: 967a13d2ea206e9448f6c6e2af11a3cf, type: 2}
+  PushPull: {fileID: 0}
   moveList: 05000000060000000700000008000000
   RunSpeed: 6
   WalkSpeed: 3
@@ -670,6 +667,7 @@ MonoBehaviour:
   syncInterval: 0.1
   playerMove: {fileID: 114792299177679754}
   playerScript: {fileID: 0}
+  Equipment: {fileID: 0}
   Step: 0
 --- !u!114 &114644792539986700
 MonoBehaviour:
@@ -729,6 +727,10 @@ MonoBehaviour:
   customNetTransform: {fileID: 0}
   prefabTracker: {fileID: 0}
   CurrentsortingGroup: {fileID: 0}
+  PlayerScript: {fileID: 114617133355526680}
+  PushPull: {fileID: 114803877374308862}
+  LivingHealthMasterBase: {fileID: 1354417930896543338}
+  DynamicItemStorage: {fileID: 91908198791635565}
   networkedLean: {fileID: -8106636780342977062}
 --- !u!114 &114803877374308862
 MonoBehaviour:
@@ -947,18 +949,6 @@ MonoBehaviour:
   visible: 0
   m_AssetId: c4494414d24d2f2468e74daa79468631
   hasSpawned: 0
---- !u!114 &4171332437423579703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1133514949248654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 859b05c4e8c945cf932ff3427e9102df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7831221530082840597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1020,20 +1010,6 @@ MonoBehaviour:
     type: 3}
   startPointColor: {r: 1, g: 1, b: 0.227451, a: 1}
   onHoverPointColor: {r: 1, g: 1, b: 0.227451, a: 1}
---- !u!114 &-7196392364410790442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1133514949248654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 554f98ea43f440f4ea59c03fe31048d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
 --- !u!114 &-5061689181288922864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1083,7 +1059,6 @@ MonoBehaviour:
   BodyPartStorage: {fileID: 0}
   playerSprites: {fileID: 0}
   rootBodyPartController: {fileID: 0}
-  playerScript: {fileID: 0}
   CHem: {fileID: 11400000, guid: 6c3a3878e8878972ea633a27c6d0ba12, type: 2}
   ClientSprites: []
   percentAllergies: 30
@@ -1290,20 +1265,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   passableExclusions: []
---- !u!114 &1952996692186363365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1133514949248654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f2289be7f53edd4a99fd0e94ec456bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 1
-  syncInterval: 0
 --- !u!114 &91908198791635565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1318,7 +1279,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  playerNetworkActions: {fileID: 0}
   registerPlayer: {fileID: 0}
   UIBodyPartsToSerialise: 
   ClientUIBodyPartsToSerialise: 
@@ -1346,9 +1306,10 @@ MonoBehaviour:
   Populater:
     SlotContents: []
     DeprecatedContents: []
+  DynamicItemStorage: {fileID: 0}
   ashPrefab: {fileID: 2957035178188790827, guid: 9ac6968a3f3ed54428662c9aae5a4b32,
     type: 3}
---- !u!114 &5123748548063984441
+--- !u!114 &1990267799293861411
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1357,13 +1318,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1133514949248654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ec8196c49f245629895b62b442ab8e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 20d8db5ad21aba648aea8f17b47abd1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  defaultKnownRecipes: {fileID: 11400000, guid: 0b96641161704304fbde87724ab226b3,
-    type: 2}
+  chatBubbleTarget: {fileID: 8006988482386011679}
+  PushPull: {fileID: 0}
+  LivingHealthMasterBase: {fileID: 0}
 --- !u!1 &1147423205297840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,7 +1427,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 3929256438670644051}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &3929256438670644051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1586,7 +1547,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 8590386929440372666}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &8590386929440372666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1707,7 +1667,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 5679511707142394592}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &5679511707142394592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1828,7 +1787,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 7961637454823593106}
   GameObjectReference: {fileID: 0}
   spriteType: 1
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &7961637454823593106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1949,7 +1907,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 7818250581997486051}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &7818250581997486051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2070,7 +2027,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 4396879776056569945}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &4396879776056569945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2191,7 +2147,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 8103884781919646546}
   GameObjectReference: {fileID: 0}
   spriteType: 2
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &8103884781919646546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2312,7 +2267,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 5309190995282078153}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &5309190995282078153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2433,7 +2387,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 2062846101420785143}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &2062846101420785143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2554,7 +2507,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 194670486440265898}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &194670486440265898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8112,7 +8064,6 @@ MonoBehaviour:
   spriteHandler: {fileID: 2724071657106087493}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
 --- !u!114 &2724071657106087493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8232,13 +8183,13 @@ MonoBehaviour:
   spriteHandler: {fileID: 0}
   GameObjectReference: {fileID: 0}
   spriteType: 0
-  thisPlayerScript: {fileID: 114617133355526680}
   handCuffOverlays:
   - {fileID: 1409451667555503041, guid: d0b2a654fbecfa346af5d50335a739ea, type: 3}
   - {fileID: 5977291650642364607, guid: d0b2a654fbecfa346af5d50335a739ea, type: 3}
   - {fileID: 7057434370678830746, guid: d0b2a654fbecfa346af5d50335a739ea, type: 3}
   - {fileID: 6543762784068199679, guid: d0b2a654fbecfa346af5d50335a739ea, type: 3}
   spriteRend: {fileID: 6479668554434910921}
+  LocalMind: {fileID: 0}
   actionData: {fileID: 11400000, guid: 82e905f8f9e96df499feb90ee421b2ee, type: 2}
 --- !u!1 &9164488584065593561
 GameObject:
@@ -8343,18 +8294,6 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b1333de46384f95876864de1911fff, type: 3}
---- !u!1 &4299649681570296155 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1762630675659964, guid: e2b1333de46384f95876864de1911fff,
-    type: 3}
-  m_PrefabInstance: {fileID: 4300145449095171559}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4304794156734570639 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4676201352523112, guid: e2b1333de46384f95876864de1911fff,
-    type: 3}
-  m_PrefabInstance: {fileID: 4300145449095171559}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4196149980577959187 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114445607401685236, guid: e2b1333de46384f95876864de1911fff,
@@ -8367,3 +8306,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61930e16e81db5c43a4ecc22422a0953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &4304794156734570639 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4676201352523112, guid: e2b1333de46384f95876864de1911fff,
+    type: 3}
+  m_PrefabInstance: {fileID: 4300145449095171559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4299649681570296155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1762630675659964, guid: e2b1333de46384f95876864de1911fff,
+    type: 3}
+  m_PrefabInstance: {fileID: 4300145449095171559}
+  m_PrefabAsset: {fileID: 0}

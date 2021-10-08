@@ -64,7 +64,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// <summary>
 	/// Server-side only. Players server thinks are currently looking at this storage.
 	/// </summary>
-	private readonly HashSet<GameObject> serverObserverPlayers = new HashSet<GameObject>();
+	private readonly HashSet<Mind> serverObserverPlayers = new HashSet<Mind>();
 
 	//This is called when an itemslot in the item storage has its item set.
 	//It can be null, or it can be a pickupable.(Health V2)
@@ -78,10 +78,21 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 
 	private SpawnInfo spawnInfo;
 
-	public RegisterPlayer Player => player;
-	private RegisterPlayer player;
+	public Mind Player => player;
+	private Mind player;
 
-	public void SetRegisterPlayer(RegisterPlayer registerPlayer)
+	/// <summary>
+	/// The dynamic item storage this is contained within
+	/// </summary>
+	public DynamicItemStorage DynamicItemStorage;
+	private DynamicItemStorage dynamicItemStorage;
+
+	public void SetDynamicItemStorage(DynamicItemStorage IndynamicItemStorage)
+	{
+		dynamicItemStorage = IndynamicItemStorage;
+	}
+
+	public void SetPlayerMind(Mind registerPlayer)
 	{
 		player = registerPlayer;
 	}
@@ -106,9 +117,10 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 		}
 
 		//if this is a player's inventory, make them an observer of all slots
-		if (GetComponent<PlayerScript>() != null)
+		var mind = MindManager.Instance.Get(gameObject);
+		if (mind != null)
 		{
-			ServerAddObserverPlayer(gameObject);
+			ServerAddObserverPlayer(mind);
 		}
 	}
 
@@ -129,7 +141,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 		//if this is a player's inventory, make them no longer an observer of all slots
 		if (GetComponent<PlayerScript>() != null)
 		{
-			ServerRemoveObserverPlayer(gameObject);
+			ServerRemoveObserverPlayer(MindManager.StaticGet(gameObject) );
 		}
 
 		if (dropItemsOnDespawn)
@@ -190,6 +202,13 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 		return Inventory.ServerTransfer(inSlot, slot, ReplacementStrategy.Cancel);
 	}
 
+	public void ServerSwap(GameObject ObjectBeingPutIn, GameObject ObjectToReplace, bool Destroy = false,
+		Vector3? DroppedAtWorldPosition = null)
+	{
+		ServerTryRemove(ObjectToReplace, Destroy, DroppedAtWorldPosition);
+		ServerTryAdd(ObjectBeingPutIn);
+	}
+
 	public bool ServerTryRemove(GameObject InGameObject, bool Destroy = false, Vector3? DroppedAtWorldPosition = null )
 	{
 		ItemAttributesV2 item = InGameObject.GetComponent<ItemAttributesV2>();
@@ -242,12 +261,12 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 		//When it leaves ownership of another player, the previous owner no longer observes each slot in the slot tree.
 		if (fromRootPlayer != null)
 		{
-			ServerRemoveObserverPlayer(info.FromRootPlayer.gameObject);
+			ServerRemoveObserverPlayer(info.FromRootPlayer);
 		}
 
 		if (toRootPlayer != null)
 		{
-			ServerAddObserverPlayer(info.ToRootPlayer.gameObject);
+			ServerAddObserverPlayer(info.ToRootPlayer);
 		}
 	}
 
@@ -271,33 +290,59 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// will simply return this
 	/// </summary>
 	/// <returns></returns>
-	public GameObject GetRootStorageOrPlayer()
+	public GameObject GetRootStorage()
 	{
-		try
+		ItemStorage storage = this;
+		var pickupable = storage.GetComponent<Pickupable>();
+		while (pickupable != null && pickupable.ItemSlot != null)
 		{
-			ItemStorage storage = this;
-			var pickupable = storage.GetComponent<Pickupable>();
-			while (pickupable != null && pickupable.ItemSlot != null)
+			storage = pickupable.ItemSlot.ItemStorage;
+			pickupable = storage.GetComponent<Pickupable>();
+			if (pickupable == null)
 			{
-				storage = pickupable.ItemSlot.ItemStorage;
-				pickupable = storage.GetComponent<Pickupable>();
-				if (pickupable == null)
+				if (storage.DynamicItemStorage != null)
 				{
-					if (storage.player != null)
-					{
-						return storage.player.gameObject;
-					}
+					return storage.DynamicItemStorage.gameObject;
 				}
 			}
+		}
 
+		if (storage.DynamicItemStorage != null)
+		{
+			return storage.DynamicItemStorage.gameObject;
+		}
+		else
+		{
 			return storage.gameObject;
 		}
-		catch (NullReferenceException exception)
-		{
-			Logger.LogError("Caught NRE in ItemStorage: " + exception.Message, Category.Inventory);
-			return null;
-		}
 	}
+
+
+	public Mind GetRootPlayer()
+	{
+		ItemStorage storage = this;
+		var pickupable = storage.GetComponent<Pickupable>();
+		while (pickupable != null && pickupable.ItemSlot != null) //ItemSlot Can be null if it's being removed
+		{
+			storage = pickupable.ItemSlot.ItemStorage;
+			pickupable = storage.GetComponent<Pickupable>();
+			if (pickupable == null)
+			{
+				if (storage.player != null)
+				{
+					return storage.player;
+				}
+			}
+		}
+
+		if (storage.player != null)
+		{
+			return storage.player;
+		}
+
+		return null;
+	}
+
 
 	/// <summary>
 	/// Change the number of available slots in the storage.
@@ -515,7 +560,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// of this method.
 	/// </summary>
 	/// <param name="observerPlayer"></param>
-	public void ServerAddObserverPlayer(GameObject observerPlayer)
+	public void ServerAddObserverPlayer(Mind observerPlayer)
 	{
 		if (!CustomNetworkManager.IsServer) return;
 
@@ -534,7 +579,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// This observer will not longer receive updates as they happen to this slot.
 	/// </summary>
 	/// <param name="observerPlayer"></param>
-	public void ServerRemoveObserverPlayer(GameObject observerPlayer)
+	public void ServerRemoveObserverPlayer(Mind observerPlayer)
 	{
 		if (!CustomNetworkManager.IsServer) return;
 		serverObserverPlayers.Remove(observerPlayer);
@@ -553,9 +598,9 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	public void ServerRemoveAllObserversExceptOwner()
 	{
 		if (!CustomNetworkManager.IsServer) return;
-		var rootStorage = GetRootStorageOrPlayer();
+		var rootStorage = GetRootPlayer();
 		//have to do it this way so we don't get a concurrent modification error
-		var observersToRemove = serverObserverPlayers.Where(obs => obs != rootStorage.gameObject).ToArray();
+		var observersToRemove = serverObserverPlayers.Where(obs => obs != rootStorage).ToArray();
 		foreach (var observerPlayer in observersToRemove)
 		{
 			ServerRemoveObserverPlayer(observerPlayer);
@@ -567,7 +612,7 @@ public class ItemStorage : MonoBehaviour, IServerLifecycle, IServerInventoryMove
 	/// </summary>
 	/// <param name="observer"></param>
 	/// <returns></returns>
-	public bool ServerIsObserver(GameObject observer)
+	public bool ServerIsObserver(Mind observer)
 	{
 		return serverObserverPlayers.Contains(observer);
 	}

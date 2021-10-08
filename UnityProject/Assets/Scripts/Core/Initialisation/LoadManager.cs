@@ -29,6 +29,14 @@ namespace Initialisation
 			public Action Action;
 		}
 
+		public override void Awake()
+		{
+			base.Awake();
+			TargetMSprefFramePreStep = TotalTargetMSprefFrame / 2;
+		}
+
+
+
 		//ServerData Awake moved to Start
 		//OptionsMenu Awake moved to Start
 		//ThemeManager Awake moved to Start
@@ -76,6 +84,14 @@ namespace Initialisation
 
 			}
 
+			ProcessDelayedActions();
+			ProcessQueuedActions();
+
+			SpawnSafeThread.Process();
+		}
+
+		public void ProcessDelayedActions()
+		{
 			if (DelayedActions.Count > 0)
 			{
 				//Logger.Log(QueueInitialise.Count.ToString() + " < in queue ");
@@ -114,6 +130,17 @@ namespace Initialisation
 				//Logger.Log(stopwatch.ElapsedMilliseconds.ToString() + " < ElapsedMilliseconds ");
 			}
 
+
+			foreach (var delayedAction in ToClear)
+			{
+				DelayedActions.Remove(delayedAction);
+			}
+			ToClear.Clear();
+		}
+
+		public void ProcessQueuedActions()
+		{
+
 			if (QueueInitialise.Count > 0)
 			{
 				//Logger.Log(QueueInitialise.Count.ToString() + " < in queue ");
@@ -144,13 +171,6 @@ namespace Initialisation
 				//Logger.Log(stopwatch.ElapsedMilliseconds.ToString() + " < ElapsedMilliseconds ");
 			}
 
-			foreach (var delayedAction in ToClear)
-			{
-				DelayedActions.Remove(delayedAction);
-			}
-			ToClear.Clear();
-
-			SpawnSafeThread.Process();
 		}
 	}
 

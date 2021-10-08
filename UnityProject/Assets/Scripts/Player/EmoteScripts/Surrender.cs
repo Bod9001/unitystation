@@ -10,7 +10,7 @@ namespace Player.EmoteScripts
 
 		public override void Do(Mind player)
 		{
-			registerPlayer = player.GetComponent<RegisterPlayer>();
+			registerPlayer = player.RegisterPlayer;
 
 			if (registerPlayer == null)
 			{

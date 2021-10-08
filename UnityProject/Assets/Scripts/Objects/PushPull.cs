@@ -321,7 +321,20 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 	private PushPull pulledObjectServer;
 
 	public bool IsPullingSomethingClient => PulledObjectClient != null;
-	public PushPull PulledObjectClient { get; set; }
+
+	public PushPull PulledObjectClient
+	{
+		get
+		{
+			return pulledObjectClient;
+		}
+		set
+		{
+			pulledObjectClient = value;
+		}
+	}
+
+	private PushPull pulledObjectClient;
 
 	/// Client requests to stop pulling any objects
 	[Command]
@@ -360,6 +373,9 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 		{
 			return;
 		}
+
+		if (PulledObjectServer == pullable) return;
+
 		if (IsPullingSomethingServer)
 		{
 			var alreadyPulling = PulledObjectServer;
@@ -375,8 +391,8 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 				return;
 			}
 		}
-		ConnectedPlayer clientWhoAsked = PlayersManager.Instance.Get(gameObject);
-		if (Validations.CanApply(clientWhoAsked.CurrentMind, gameObject, NetworkSide.Server) == false)
+		var CurrentMind = MindManager.StaticGet(gameObject);
+		if (Validations.CanApply(CurrentMind, gameObject, NetworkSide.Server) == false)
 		{
 			return;
 		}
@@ -483,6 +499,7 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 
 	protected void Awake()
 	{
+		PulledObjectClient = this.GetComponent<PushPull>();
 		registerTile = GetComponent<RegisterTile>();
 		floorDecal = GetComponent<FloorDecal>();
 		var pushable = Pushable; //don't remove this, it initializes Pushable listeners ^
@@ -773,7 +790,7 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 				{
 					if (playerMove.IsBuckled)
 					{
-						playerMove.PlayerScript.PlayerSync.SetPosition(target);
+						playerMove.PlayerSync.SetPosition(target);
 						break;
 					}
 				}

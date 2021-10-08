@@ -203,6 +203,11 @@ namespace HealthV2
 				BodySpriteSet = true;
 			}
 
+			foreach (var BodyPart in OrganList)
+			{
+				BodyPart.HealthMasterSet();
+			}
+
 			UpdateIcons();
 			SetUpSystemsThis();
 
@@ -211,12 +216,13 @@ namespace HealthV2
 			if (dynamicItemStorage != null)
 			{
 				var bodyPartUISlots = GetComponent<BodyPartUISlots>();
+				if (bodyPartUISlots == null) return;
 				dynamicItemStorage.Add(bodyPartUISlots);
 			}
 
 
 			//TODO Make this generic \/ for mobs
-			OrganStorage.SetPlayerMind(MindManager.Instance.Get(gameObject));
+			OrganStorage.SetPlayerMind(MindManager.Instance.Get(HealthMaster.gameObject));
 		}
 
 		/// <summary>
@@ -255,12 +261,19 @@ namespace HealthV2
 				addedOrgan.RelatedPart = this;
 				OrganList.Add(addedOrgan);
 				addedOrgan.Initialisation();
+				var Brain = addedOrgan as Brain;
+				if (Brain != null)
+				{
+					Brain.SetUpBrain(); //TODO this is Dumb
+				}
+
 
 				if (HealthMaster)
 				{
 					//TODO: horrible, remove -- organ prefabs have a bodypart component
 					var bodyPart = addedOrgan.GetComponent<BodyPart>();
 					HealthMaster.ServerCreateSprite(bodyPart);
+					bodyPart.SetHealthMaster(HealthMaster);
 				}
 			}
 			else if(prevImplant && prevImplant.TryGetComponent<Organ>(out var removedOrgan))

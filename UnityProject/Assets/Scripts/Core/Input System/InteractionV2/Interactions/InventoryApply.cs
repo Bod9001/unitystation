@@ -27,14 +27,14 @@ public class InventoryApply : TargetedInteraction
 	/// <summary>
 	/// True iff the FromSlot is one of the performer's hands
 	/// </summary>
-	public bool IsFromHandSlot => fromSlot.ItemStorage.Player.OrNull()?.gameObject == Performer &&
+	public bool IsFromHandSlot => fromSlot.ItemStorage.Player == Performer &&
 	                              (fromSlot.SlotIdentifier.NamedSlot == NamedSlot.leftHand ||
 	                              fromSlot.SlotIdentifier.NamedSlot == NamedSlot.rightHand);
 
 	/// <summary>
 	/// True iff the target slot is one of the performer's hands
 	/// </summary>
-	public bool IsToHandSlot => fromSlot.ItemStorage.Player.OrNull()?.gameObject == Performer &&
+	public bool IsToHandSlot => fromSlot.ItemStorage.Player == Performer &&
 	                              (targetSlot.SlotIdentifier.NamedSlot == NamedSlot.leftHand ||
 	                               targetSlot.SlotIdentifier.NamedSlot == NamedSlot.rightHand);
 
@@ -67,11 +67,11 @@ public class InventoryApply : TargetedInteraction
 	/// <returns></returns>
 	public static InventoryApply ByLocalPlayer(ItemSlot targetObjectSlot, ItemSlot fromSlot)
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			return Invalid;
 		}
-		return new InventoryApply(LocalPlayerManager.LocalPlayer.CurrentMind,
+		return new InventoryApply(LocalPlayerManager.CurrentMind,
 			targetObjectSlot, fromSlot, UIManager.CurrentIntent, KeyboardInputManager.IsAltPressed());
 	}
 

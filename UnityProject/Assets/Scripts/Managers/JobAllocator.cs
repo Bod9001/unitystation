@@ -146,7 +146,7 @@ namespace Managers
 		{
 			// Update determined players and players left
 			determinedPlayers.AddRange(players.Select(player =>
-				PlayerSpawnRequest.RequestOccupation(player.ViewerScript, job, player.PreRoundCharacterSettings, player.UserId)));
+				PlayerSpawnRequest.RequestOccupation(player.ViewerScript, player, job, player.PreRoundCharacterSettings, player.UserId)));
 			playersLeft.RemoveAll(players.Contains);
 			missedOutPlayers.RemoveAll(players.Contains);
 

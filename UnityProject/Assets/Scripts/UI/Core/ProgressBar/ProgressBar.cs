@@ -87,11 +87,11 @@ public class ProgressBar : MonoBehaviour
 		progress = 0f;
 		lastSpriteIndex = 0;
 		timeToFinish = startInfo.TimeForCompletion;
-		registerPlayer = startInfo.Performer.GetComponent<RegisterPlayer>();
+		registerPlayer = startInfo.Performer.RegisterPlayer;
 		this.progressAction = progressAction;
 		id = GetInstanceID();
 
-		if (startInfo.Performer != LocalPlayerManager.LocalPlayer)
+		if (startInfo.Performer != LocalPlayerManager.CurrentMind)
 		{
 			//server should not see clients progress bar
 			spriteRenderer.enabled = false;
@@ -107,7 +107,7 @@ public class ProgressBar : MonoBehaviour
 		//Start the progress for the player:
 		//note: using transform position for the offset, because progress bar has no register tile and
 		//otherwise it would give an incorrect offset if player is on moving matrix
-		ProgressBarMessage.SendCreate(startInfo.Performer, 0, (transform.position - startInfo.Performer.transform.position).To2Int(), id);
+		ProgressBarMessage.SendCreate(startInfo.Performer, 0, (transform.position - startInfo.Performer.BodyWorldPosition).To2Int(), id);
 	}
 
 	private void OnEnable()
@@ -192,7 +192,7 @@ public class ProgressBar : MonoBehaviour
 			return;
 		}
 
-		if (registerPlayer != null && registerPlayer.gameObject != LocalPlayerManager.LocalPlayer)
+		if (registerPlayer != null && registerPlayer != LocalPlayerManager.CurrentMind.OrNull()?.RegisterPlayer)
 		{
 			//this is for server's copy of client's progress bar -
 			//server should not render clients progress bar
@@ -269,7 +269,7 @@ public class ProgressBar : MonoBehaviour
 	{
 		done = true;
 		//Notify player to turn off progress bar:
-		if (LocalPlayerManager.LocalPlayer == registerPlayer.gameObject)
+		if (LocalPlayerManager.CurrentMind.OrNull()?.RegisterPlayer == registerPlayer)
 		{
 			//server player's bar, just destroy it
 			DestroyProgressBar();

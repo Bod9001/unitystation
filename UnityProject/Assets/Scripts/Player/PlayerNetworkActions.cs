@@ -36,16 +36,13 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 
 	private Equipment equipment = null;
 
-	private Mind playerMind;
-	public DynamicItemStorage itemStorage => playerMind.DynamicItemStorage;
-	public Transform chatBubbleTarget;
+	public Mind playerMind;
+
+	public DynamicItemStorage itemStorage =>  playerMind.DynamicItemStorage;
+
 
 	public bool IsRolling { get; private set; } = false;
 
-	private void Awake()
-	{
-		playerMind = GetComponent<Mind>();
-	}
 
 	/// <summary>
 	/// Get the item in the player's active hand
@@ -497,28 +494,10 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 				break;
 		}
 
-		playerMind.PushPull.ServerStopPulling();
+		playerMind.PushPull.OrNull()?.ServerStopPulling();
 	}
 
-	[Server]
-	public void ServerToggleChatIcon(bool turnOn, string message, ChatChannel chatChannel, ChatModifier chatModifier)
-	{
-		if (!playerMind.PushPull.VisibleState || (playerMind.occupation.JobType == JobType.NULL
-		                                          || playerMind.LivingHealthMasterBase.IsDead || playerMind.LivingHealthMasterBase.IsCrit))
-		{
-			//Don't do anything with chat icon if player is invisible or not spawned in
-			//This will also prevent clients from snooping other players local chat messages that aren't visible to them
-			return;
-		}
 
-		// Cancel right away if the player cannot speak.
-		if ((chatModifier & ChatModifier.Mute) == ChatModifier.Mute)
-		{
-			return;
-		}
-
-		ShowChatBubbleMessage.SendToNearby(gameObject, message, true, chatModifier);
-	}
 
 	[Command]
 	public void CmdCommitSuicide()
@@ -668,7 +647,7 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 		}
 
 		playerMind.StopGhosting();
-		PlayerSpawn.ServerGhostReenterBody(connectionToClient, gameObject, playerMind);
+		//PlayerSpawn.ServerGhostReenterBody(connectionToClient, gameObject, playerMind);
 	}
 
 	/// <summary>
@@ -853,7 +832,7 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 
 		if (!playerMind.IsGhosting)//admin turns into ghost
 		{
-			//PlayerSpawn.ServerSpawnGhost(playerScript.mind); //TODO Transfer
+			playerMind.Ghost();
 		}
 		else if (playerMind.IsGhosting) //back to player
 		{

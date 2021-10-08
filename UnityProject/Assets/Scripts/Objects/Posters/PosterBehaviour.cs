@@ -96,7 +96,7 @@ namespace Objects
 
 			if (interaction.TargetObject != gameObject) return false;
 
-			var pna = interaction.Performer.GetComponent<PlayerNetworkActions>();
+			var pna = interaction.Performer.PlayerNetworkActions;
 			var item = pna.GetActiveHandItem();
 			if (Validations.HasItemTrait(item, CommonTraits.Instance.Wirecutter))
 			{
@@ -125,7 +125,7 @@ namespace Objects
 
 					rolledPosterPrefab.GetComponent<RolledPoster>().posterVariant = posterVariant;
 
-					Spawn.ServerPrefab(rolledPosterPrefab, pos, interaction.Performer.transform.parent);
+					Spawn.ServerPrefab(rolledPosterPrefab, pos, interaction.Performer.GameObjectBody.transform.parent);
 				}
 
 				_ = Despawn.ServerSingle(gameObject);

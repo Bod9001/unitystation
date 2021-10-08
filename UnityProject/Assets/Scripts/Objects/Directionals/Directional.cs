@@ -58,7 +58,14 @@ public class Directional : NetworkBehaviour, IMatrixRotation, IServerSpawn
 	/// Whether this component is on the local player object, which has special handling because the local
 	/// player controls their own object.
 	/// </summary>
-	private bool IsLocalPlayer => LocalPlayerManager.LocalPlayer == gameObject;
+	private bool IsLocalPlayer
+	{
+		get
+		{
+			if (LocalPlayerManager.CurrentMind == null) return false;
+			return LocalPlayerManager.HasThisBody(gameObject);
+		}
+	}
 
 	/// <summary>
 	/// NOTE: Has no effect on local player - local player is always predictive.
@@ -256,7 +263,7 @@ void OnDrawGizmosSelected()
 	    serverDirection = new Orientation(dir.Degrees);
 	    //we only change our direction if we're not local player (local player is always predictive)
 	    //and not explicitly ignoring server updates.
-	    if (!IgnoreServerUpdates && !IsLocalPlayer)
+	    if (!IgnoreServerUpdates && IsLocalPlayer)
 	    {
 		    clientDirection = dir;
 		    OnDirectionChange.Invoke(serverDirection);

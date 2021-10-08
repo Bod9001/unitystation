@@ -13,7 +13,7 @@ namespace Spells
 
 		protected override string FormatInvocationMessage(Mind caster, string modPrefix)
 		{
-			return string.Format(SpellData.InvocationMessage, caster.ExpensiveName(), caster.OriginalCharacter.TheirPronoun(caster));
+			return string.Format(SpellData.InvocationMessage, caster.ExpensiveName(), caster.TheirPronoun());
 		}
 
 		public override bool ValidateCast(Mind caster)
@@ -52,7 +52,7 @@ namespace Spells
 				}
 			}
 			// putting box in hand
-			Inventory.ServerAdd(box, caster.DynamicItemStorage.GetActiveHandSlot(), ReplacementStrategy.DropOther);
+			Inventory.ServerAdd(box, caster.GetActiveHandSlot(), ReplacementStrategy.DropOther);
 
 			return true;
 		}

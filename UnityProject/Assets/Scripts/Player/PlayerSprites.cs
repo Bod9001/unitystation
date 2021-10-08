@@ -53,7 +53,7 @@ public class PlayerSprites : MonoBehaviour
 	//For character customization
 	public ClothingItem[] characterSprites;
 
-	public CharacterSettings ThisCharacter;
+	public CharacterSettings OriginalCharacter;
 
 	//clothes for each clothing slot
 	public readonly Dictionary<NamedSlot, ClothingItem> clothes = new Dictionary<NamedSlot, ClothingItem>();
@@ -161,7 +161,7 @@ public class PlayerSprites : MonoBehaviour
 		path = path + "/" + Body_Part.name;
 
 		CustomisationStorage customisationStorage = null;
-		foreach (var Custom in ThisCharacter.SerialisedBodyPartCustom)
+		foreach (var Custom in OriginalCharacter.SerialisedBodyPartCustom)
 		{
 			if (path == Custom.path)
 			{
@@ -197,7 +197,7 @@ public class PlayerSprites : MonoBehaviour
 	{
 
 		CustomisationStorage customisationStorage = null;
-		foreach (var Custom in ThisCharacter.SerialisedBodyPartCustom)
+		foreach (var Custom in OriginalCharacter.SerialisedBodyPartCustom)
 		{
 			if (livingHealthMasterBase.name == Custom.path)
 			{
@@ -227,7 +227,7 @@ public class PlayerSprites : MonoBehaviour
 		PlayerHealthData SetRace = null;
 		foreach (var Race in RaceSOSingleton.Instance.Races)
 		{
-			if (Race.name == ThisCharacter.Species)
+			if (Race.name == OriginalCharacter.Species)
 			{
 				SetRace = Race;
 			}
@@ -237,7 +237,7 @@ public class PlayerSprites : MonoBehaviour
 		foreach (var Customisation in SetRace.Base.CustomisationSettings)
 		{
 			ExternalCustomisation externalCustomisation = null;
-			foreach (var EC in ThisCharacter.SerialisedExternalCustom)
+			foreach (var EC in OriginalCharacter.SerialisedExternalCustom)
 			{
 				if (EC.Key == Customisation.CustomisationGroup.name)
 				{
@@ -298,7 +298,7 @@ public class PlayerSprites : MonoBehaviour
 		Color CurrentSurfaceColour = Color.white;
 		if (RaceBodyparts.Base.SkinColours.Count > 0)
 		{
-			ColorUtility.TryParseHtmlString(ThisCharacter.SkinTone, out CurrentSurfaceColour);
+			ColorUtility.TryParseHtmlString(OriginalCharacter.SkinTone, out CurrentSurfaceColour);
 
 			var hasColour = false;
 
@@ -318,7 +318,7 @@ public class PlayerSprites : MonoBehaviour
 		}
 		else
 		{
-			ColorUtility.TryParseHtmlString(ThisCharacter.SkinTone, out CurrentSurfaceColour);
+			ColorUtility.TryParseHtmlString(OriginalCharacter.SkinTone, out CurrentSurfaceColour);
 		}
 
 		CurrentSurfaceColour.a = 1;
@@ -426,11 +426,11 @@ public class PlayerSprites : MonoBehaviour
 				characterSettings = new CharacterSettings();
 			}
 
-			ThisCharacter = characterSettings;
+			OriginalCharacter = characterSettings;
 
 			foreach (var Race in RaceSOSingleton.Instance.Races)
 			{
-				if (Race.name == ThisCharacter.Species)
+				if (Race.name == OriginalCharacter.Species)
 				{
 					RaceBodyparts = Race;
 					break;

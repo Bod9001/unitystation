@@ -95,7 +95,7 @@ namespace Doors
 
 		public HackingProcessBase HackingProcessBase;
 
-		private Mind byPlayer;
+		private GameObject byPlayer;
 
 		public ConstructibleDoor ConstructibleDoor;
 
@@ -169,7 +169,7 @@ namespace Doors
 			HashSet<DoorProcessingStates> states = new HashSet<DoorProcessingStates>();
 			foreach (var module in modulesList)
 			{
-				ModuleSignal signal = module.BumpingInteraction(byPlayer.GameObjectBody, states);
+				ModuleSignal signal = module.BumpingInteraction(byPlayer, states);
 
 				if (!module.CanDoorStateChange() || signal == ModuleSignal.ContinueWithoutDoorStateChange)
 				{
@@ -194,11 +194,11 @@ namespace Doors
 
 			if (!isPerformingAction && canOpen && CheckStatusAllow(states))
 			{
-				TryOpen(byPlayer);
+				TryOpen(MindManager.StaticGet(byPlayer) );
 			}
 			else if(HasPower == false)
 			{
-				Chat.AddExamineMsgFromServer(byPlayer, $"{gameObject.ExpensiveName()} is unpowered");
+				Chat.AddExamineMsgFromServer(MindManager.StaticGet(byPlayer), $"{gameObject.ExpensiveName()} is unpowered");
 			}
 
 			StartInputCoolDown();
@@ -210,7 +210,7 @@ namespace Doors
 		/// </summary>
 		public void Bump(GameObject inbyPlayer)
 		{
-			byPlayer = MindManager.StaticGet(inbyPlayer) ;
+			byPlayer = inbyPlayer;
 			HackingProcessBase.ImpulsePort(TryBump);
 		}
 

@@ -83,7 +83,7 @@ namespace UI
 		private void DetermineUI()
 		{
 			// TODO: make better system for handling lots of different UIs
-			if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
+			if (LocalPlayerManager.CurrentMind.IsGhosting)
 			{
 				SetUi(hudBottomGhost.gameObject);
 			}

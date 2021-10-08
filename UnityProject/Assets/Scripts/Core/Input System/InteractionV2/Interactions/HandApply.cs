@@ -48,16 +48,16 @@ public class HandApply : BodyPartTargetedInteraction
 	/// <returns></returns>
 	public static HandApply ByLocalPlayer(GameObject targetObject)
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			//hand apply never works when local player
 			return HandApply.Invalid;
 		}
-		return new HandApply(LocalPlayerManager.LocalPlayer.CurrentMind,
-			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot()?.ItemObject,
+		return new HandApply(LocalPlayerManager.CurrentMind,
+			LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot(LocalPlayerManager.CurrentMind)?.ItemObject,
 			targetObject,
 			UIManager.DamageZone,
-			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(),
+			LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot(LocalPlayerManager.CurrentMind),
 			UIManager.CurrentIntent,
 			KeyboardInputManager.IsAltPressed());
 	}

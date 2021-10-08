@@ -716,8 +716,8 @@ public abstract class LivingHealthBehaviour : NetworkBehaviour, IHealth, IFireEx
 		var cs = Ps.OriginalCharacter;
 		if (cs != null)
 		{
-			theyPronoun = cs.TheyPronoun(Ps).Capitalize();
-			theirPronoun = cs.TheirPronoun(Ps);
+			theyPronoun = Ps.TheyPronoun().Capitalize();
+			theirPronoun = Ps.TheirPronoun();
 		}
 
 		var healthString = $"{theyPronoun} is ";

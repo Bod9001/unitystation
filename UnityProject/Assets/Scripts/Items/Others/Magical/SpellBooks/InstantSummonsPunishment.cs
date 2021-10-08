@@ -9,12 +9,13 @@ namespace Items.Magical
 		[SerializeField]
 		private AddressableAudioSource punishSfx = default;
 
-		public override void Punish(ConnectedPlayer player)
+		public override void Punish(Mind player)
 		{
-			SoundManager.PlayNetworkedAtPos(punishSfx, player.Script.WorldPos, sourceObj: player.GameObject);
-			Chat.AddActionMsgToChat(player.GameObject,
-					"<color=red>The book disappears from your hand!</color>",
-					$"<color=red>The book disappears from {player.Script.visibleName}'s hand!</color>");
+			SoundManager.PlayNetworkedAtPos(punishSfx, player.BodyWorldPosition, sourceObj: player.GameObjectBody);
+			Chat.AddActionMsgToChat(player,
+				"<color=red>The book disappears from your hand!</color>",
+				$"<color=red>The book disappears from {player.ExpensiveName()}'s hand!</color>");
+
 
 			_ = Despawn.ServerSingle(gameObject);
 		}

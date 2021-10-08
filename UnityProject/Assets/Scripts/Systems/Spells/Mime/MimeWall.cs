@@ -4,7 +4,7 @@ namespace Systems.Spells
 	{
 		protected override string FormatInvocationMessage(Mind caster, string modPrefix)
 		{
-			return string.Format(SpellData.InvocationMessage, caster.ExpensiveName(), caster.OriginalCharacter.ThemPronoun(caster));
+			return string.Format(SpellData.InvocationMessage, caster.ExpensiveName(), caster.ThemPronoun());
 		}
 		public override bool ValidateCast(Mind caster)
 		{

@@ -715,16 +715,10 @@ namespace Mirror
                 return false;
             }
 
-            if (identity.connectionToClient != null && identity.connectionToClient != conn)
-            {
-                Debug.LogError("Cannot replace player for connection. New player is already owned by a different connection" + player);
-                return false;
-            }
-
             //NOTE: there can be an existing player
             //Debug.Log("NetworkServer ReplacePlayer");
 
-            NetworkIdentity previousPlayer = conn.identity;
+            NetworkIdentity previousPlayerBody = conn.identity;
 
             conn.identity = identity;
 
@@ -750,8 +744,8 @@ namespace Mirror
             Respawn(identity);
 
             //CUSTOM UNITYSTATION CODE//
-            if (!keepAuthority && previousPlayer != null)
-	            previousPlayer.RemoveClientAuthority();
+            if (!keepAuthority && previousPlayerBody != null && identity != previousPlayerBody)
+	            previousPlayerBody.RemoveClientAuthority();
 
 
             return true;

@@ -69,7 +69,7 @@ namespace Objects
 			var registerPlayer = playerMove.GetComponent<RegisterPlayer>();
 			// Determine if a push into the tile would be necessary or insufficient.
 
-			if (allowImpassable == false && IsPushEnough(interaction, side, registerPlayer.PlayerScript, out _, out _) == false) return false;
+			if (allowImpassable == false && IsPushEnough(interaction, side, registerPlayer.MindScript, out _, out _) == false) return false;
 
 			//if there are any restrained players already here, we can't restrain another one here
 			if (MatrixManager.GetAt<PlayerMove>(interaction.TargetObject, side)

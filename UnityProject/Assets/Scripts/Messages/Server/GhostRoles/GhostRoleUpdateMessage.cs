@@ -21,7 +21,7 @@ namespace Messages.Server.GhostRoles
 		// To be run on client
 		public override void Process(NetMessage msg)
 		{
-			if (LocalPlayerManager.LocalPlayer == null) return;
+			if (LocalPlayerManager.LocalConnectedPlayer == null) return;
 
 			if (MatrixManager.IsInitialized == false) return;
 
@@ -39,11 +39,7 @@ namespace Messages.Server.GhostRoles
 
 				foreach (ConnectedPlayer player in PlayersManager.Instance.InGamePlayers)
 				{
-					if (player.OrNull()?.CurrentMind == null)
-					{
-						Logger.LogError("SendToDead, player?.CurrentMind == null", Category.Ghosts);
-						continue;
-					}
+					if (player.OrNull()?.CurrentMind == null) { continue; }
 					if (player.CurrentMind.IsGhosting == false) continue;
 					SendTo(player, key, role);
 				}

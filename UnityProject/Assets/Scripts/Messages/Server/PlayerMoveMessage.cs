@@ -13,48 +13,39 @@ namespace Messages.Server
 		{
 			public PlayerState State;
 			/// Player to be moved
-			public uint SubjectPlayer;
+			public PlayerSync PlayerSync;
 
 			public override string ToString()
 			{
-				return $"[PlayerMoveMessage State={State} Subject={SubjectPlayer}]";
+				return $"[PlayerMoveMessage State={State} Subject={PlayerSync}]";
 			}
 		}
 
 		/// To be run on client
 		public override void Process(NetMessage msg)
 		{
-			LoadNetworkObject(msg.SubjectPlayer);
+			msg.PlayerSync.UpdateClientState(msg.State);
 
-			if ( NetworkObject == null )
-			{
-				return;
-			}
-
-			Logger.LogTraceFormat("Processed {1}'s state: {0}", Category.Movement, this, NetworkObject.name);
-			var playerSync = NetworkObject.GetComponent<PlayerSync>();
-			playerSync.UpdateClientState(msg.State);
-
-			if ( NetworkObject == LocalPlayerManager.LocalPlayer ) {
+			if (  LocalPlayerManager.HasThisBody(NetworkObject) ) {
 				if (msg.State.ResetClientQueue)
 				{
-					playerSync.ClearQueueClient();
-					playerSync.RollbackPrediction();
+					msg.PlayerSync.ClearQueueClient();
+					msg.PlayerSync.RollbackPrediction();
 				}
 				if (msg.State.MoveNumber == 0 ) {
-					playerSync.ClearQueueClient();
-					playerSync.RollbackPrediction();
+					msg.PlayerSync.ClearQueueClient();
+					msg.PlayerSync.RollbackPrediction();
 				}
 
 				ControlTabs.CheckTabClose();
 			}
 		}
 
-		public static NetMessage Send(NetworkConnection recipient, Mind subjectPlayer, PlayerState state)
+		public static NetMessage Send(NetworkConnection recipient, PlayerSync PlayerSync, PlayerState state)
 		{
 			var msg = new NetMessage
 			{
-				SubjectPlayer = subjectPlayer != null ? subjectPlayer.GetComponent<NetworkIdentity>().netId : NetId.Invalid,
+				PlayerSync = PlayerSync,
 				State = state,
 			};
 
@@ -62,16 +53,16 @@ namespace Messages.Server
 			return msg;
 		}
 
-		public static void SendToAll(Mind subjectPlayer, PlayerState state)
+		public static void SendToAll(PlayerSync PlayerSync, PlayerState state)
 		{
-			if (PlayerUtils.IsGhost(subjectPlayer))
+			if (PlayerSync.playerScript.PlayerState == PlayerScript.PlayerStates.Ghost)
 			{
 				// Send ghost positions only to ghosts
 				foreach (var connectedPlayer in PlayersManager.Instance.InGamePlayers)
 				{
 					if (PlayerUtils.IsGhost(connectedPlayer.CurrentMind))
 					{
-						Send(connectedPlayer.Connection, subjectPlayer, state);
+						Send(connectedPlayer.Connection, PlayerSync, state);
 					}
 				}
 			}
@@ -79,12 +70,36 @@ namespace Messages.Server
 			{
 				var msg = new NetMessage
 				{
-					SubjectPlayer = subjectPlayer != null ? subjectPlayer.GetComponent<NetworkIdentity>().netId : NetId.Invalid,
+					PlayerSync = PlayerSync,
 					State = state,
 				};
 
 				SendToAll(msg);
 			}
 		}
+	}
+}
+
+public static partial class CustomReadWriteFunctions
+{
+	public static void WritePlayerSync(this NetworkWriter writer, PlayerSync value)
+	{
+		var Net = value.OrNull()?.gameObject.OrNull()?.GetComponent<NetworkIdentity>();
+		if (Net == null)
+		{
+			writer.WriteNetworkIdentity(null);
+		}
+		else
+		{
+			writer.WriteNetworkIdentity(Net);
+		}
+
+	}
+
+	public static PlayerSync ReadPlayerSync(this NetworkReader reader)
+	{
+		NetworkIdentity networkIdentity = reader.ReadNetworkIdentity();
+		PlayerSync PlayerSync = networkIdentity != null ? networkIdentity.GetComponent<PlayerSync>() : null;
+		return PlayerSync;
 	}
 }

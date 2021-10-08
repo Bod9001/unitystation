@@ -1178,7 +1178,7 @@ namespace Objects.Engineering
 				if (isHugBox && DMMath.Prob(95))
 				{
 					Chat.AddExamineMsg(interaction.Performer, "You're lucky, that could have gone very badly");
-					interaction.Performer.GetComponent<RegisterPlayer>().ServerStun();
+					interaction.Performer.RegisterPlayer.ServerStun();
 					return;
 				}
 
@@ -1186,7 +1186,7 @@ namespace Objects.Engineering
 					$"You reach out and touch {gameObject.ExpensiveName()}. Everything starts burning and all you can hear is ringing. Your last thought is 'That was not a wise decision'",
 					$"{interaction.Performer.ExpensiveName()} reaches out and touches {gameObject.ExpensiveName()}, inducing a resonance... {interaction.Performer.ExpensiveName()} body starts to glow and burst into flames before flashing into dust!");
 
-				interaction.Performer.GetComponent<PlayerHealthV2>().Gib();
+				interaction.Performer.LivingHealthMasterBase.Gib();
 				matterPower += 200;
 				return;
 			}
@@ -1202,7 +1202,7 @@ namespace Objects.Engineering
 					() =>
 					{
 						Spawn.ServerPrefab(superMatterShard, interaction.Performer.BodyWorldPosition,
-							interaction.Performer.transform.parent);
+							interaction.Performer.GameObjectBody.transform.parent);
 						matterPower += 800;
 
 						//Destroy Scalpel

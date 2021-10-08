@@ -24,7 +24,7 @@ public class ConnectionApply : TargetedInteraction
 	/// <summary>
 	/// Targeted world position deduced from target vector and performer position.
 	/// </summary>
-	public Vector2 WorldPositionTarget => (Vector2)Performer.transform.position + targetVector;
+	public Vector2 WorldPositionTarget => (Vector2)Performer.BodyWorldPosition + targetVector;
 
 	/// <summary>
 	/// Vector pointing from the performer to the targeted position. Set to Vector2.zero if aiming at self.
@@ -71,17 +71,17 @@ public class ConnectionApply : TargetedInteraction
 	/// <returns></returns>
 	public static ConnectionApply ByLocalPlayer(GameObject targetObject, Connection wireEndA, Connection wireEndB, Vector2? targetVector)
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting) return Invalid;
+		if (LocalPlayerManager.CurrentMind.IsGhosting) return Invalid;
 
-		var targetVec = targetVector ?? MouseUtils.MouseToWorldPos() - LocalPlayerManager.LocalPlayer.transform.position;
+		var targetVec = targetVector ?? MouseUtils.MouseToWorldPos() - LocalPlayerManager.CurrentMind.BodyWorldPosition;
 
 		return new ConnectionApply(
-			LocalPlayerManager.LocalPlayer.CurrentMind,
-			LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject,
+			LocalPlayerManager.CurrentMind,
+			LocalPlayerManager.GetActiveHandSlot()?.ItemObject,
 			targetObject,
 			wireEndA,
 			wireEndB,
-			targetVec,LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot(),
+			targetVec,LocalPlayerManager.GetActiveHandSlot(),
 
 			UIManager.CurrentIntent
 		);

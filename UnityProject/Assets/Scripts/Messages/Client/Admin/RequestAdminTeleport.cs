@@ -85,7 +85,7 @@ namespace Messages.Client.Admin
 
 			if (playerScript == null) return;
 
-			playerScript.PlayerSync.SetPosition(userToTeleportTo.gameObject.AssumedWorldPosServer(), true);
+			playerScript.PlayerSync.SetPosition(userToTeleportTo.BodyWorldPosition, true);
 
 			string message;
 
@@ -134,7 +134,7 @@ namespace Messages.Client.Admin
 				}
 				else
 				{
-					userToTeleport.PlayerSync.SetPosition(destinationPlayer.gameObject.AssumedWorldPosServer(), true);
+					userToTeleport.PlayerSync.SetPosition(destinationPlayer.BodyWorldPosition, true);
 				}
 			}
 

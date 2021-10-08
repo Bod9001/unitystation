@@ -77,7 +77,7 @@ namespace HealthV2
 			}
 
 			base.Gib();
-			PlayerMove.PlayerScript.pushPull.VisibleState = false;
+			PlayerMove.PushPull.VisibleState = false;
 			playerNetworkActions.ServerSpawnPlayerGhost();
 		}
 
@@ -129,7 +129,7 @@ namespace HealthV2
 					string themself = null;
 					if (player != null)
 					{
-						themself = player.OriginalCharacter?.ThemselfPronoun(player);
+						themself = player.ThemselfPronoun();
 					}
 					if (themself == null)
 					{
@@ -160,7 +160,7 @@ namespace HealthV2
 					string their = null;
 					if (player != null)
 					{
-						their = player.OriginalCharacter?.TheirPronoun(player);
+						their = player.TheirPronoun();
 					}
 
 					if (their == null)

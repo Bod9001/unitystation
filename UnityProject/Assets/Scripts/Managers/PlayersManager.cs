@@ -29,7 +29,7 @@ public partial class PlayersManager : NetworkBehaviour
 	public List<ConnectedPlayer> InGamePlayers => loggedIn.FindAll(player => player.Connection != null);
 
 	public List<ConnectedPlayer> AllPlayers =>
-		loggedIn.FindAll(player => (player.CurrentMind != null || player.ViewerScript != null));
+		loggedIn.FindAll(player => (player.ViewerScript != null));
 
 	/// <summary>
 	/// Players in the pre-round lobby who have clicked the ready button and have up to date CharacterSettings
@@ -360,7 +360,7 @@ public partial class PlayersManager : NetworkBehaviour
 		foreach (var player in loggedIn)
 		{
 			if (LocalPlayerManager.LocalViewerScript && LocalPlayerManager.LocalViewerScript == player.ViewerScript ||
-			    LocalPlayerManager.LocalPlayer == player)
+			    LocalPlayerManager.LocalConnectedPlayer == player)
 			{
 				continue; //server player
 			}

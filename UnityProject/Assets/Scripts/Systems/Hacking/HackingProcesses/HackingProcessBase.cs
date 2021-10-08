@@ -269,7 +269,7 @@ namespace Hacking
 			{
 				case RequestHackingInteraction.InteractionWith.CutWire:
 
-					if (Validations.HasItemTrait(Player.DynamicItemStorage.GetActiveHandSlot().ItemObject,
+					if (Validations.HasItemTrait(Player.GetActiveHandSlot().ItemObject,
 						CommonTraits.Instance.Wirecutter) == false)
 					{
 						return;
@@ -312,7 +312,7 @@ namespace Hacking
 				case RequestHackingInteraction.InteractionWith.Cable:
 					//Please cable do not Spare thing
 
-					if (Validations.HasItemTrait(Player.DynamicItemStorage.GetActiveHandSlot().ItemObject,
+					if (Validations.HasItemTrait(Player.GetActiveHandSlot().ItemObject,
 						CommonTraits.Instance.Cable) == false)
 					{
 						return;
@@ -364,7 +364,7 @@ namespace Hacking
 							}
 						}
 
-						Inventory.ServerTransfer(Player.DynamicItemStorage.GetActiveHandSlot(), SpareSlot);
+						Inventory.ServerTransfer(Player.GetActiveHandSlot(), SpareSlot);
 					}
 					else
 					{

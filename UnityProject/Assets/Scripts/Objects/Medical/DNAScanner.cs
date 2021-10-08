@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using System.Linq;
@@ -28,6 +29,11 @@ namespace Objects.Medical
 			ClosedUnpowered,
 			ClosedPowered,
 			ClosedPoweredWithOccupant
+		}
+
+		public void Awake()
+		{
+			ClosetControl = this.GetComponent<ClosetControl>();
 		}
 
 		public Engineering.APC RelatedAPC;

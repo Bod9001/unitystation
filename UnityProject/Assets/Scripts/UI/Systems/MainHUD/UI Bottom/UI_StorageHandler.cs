@@ -106,16 +106,16 @@ namespace UI
 		/// </summary>
 		public void DropOtherPlayerAll()
 		{
-			LocalPlayerManager.LocalPlayer.CurrentMind.playerNetworkActions.CmdDisrobe(CurrentOpenStorage.gameObject);
+			LocalPlayerManager.CurrentMind.playerNetworkActions.CmdDisrobe(CurrentOpenStorage.gameObject);
 		}
 
 		public void CloseStorageUI()
 		{
-			if (LocalPlayerManager.LocalPlayer != null)
+			if (LocalPlayerManager.CurrentMind != null)
 			{
 				_ = SoundManager.PlayAtPosition(CommonSounds.Instance.Rustle,
-					LocalPlayerManager.LocalPlayer.CurrentMind.BodyWorldPosition,
-					LocalPlayerManager.LocalPlayer.CurrentMind.GameObjectBody );
+					LocalPlayerManager.CurrentMind.BodyWorldPosition,
+					LocalPlayerManager.CurrentMind.GameObjectBody );
 			}
 
 			CurrentOpenStorage = null;

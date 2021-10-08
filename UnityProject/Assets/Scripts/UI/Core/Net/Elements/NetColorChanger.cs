@@ -54,7 +54,7 @@ public class NetColorChanger : NetUIElement<Color>
 		}
 	}
 
-	public override void ExecuteServer(ConnectedPlayer subject) {	}
+	public override void ExecuteServer(Mind subject) {	}
 
 	/// <summary>
 	/// Server-only method for updating element (i.e. changing label text) from server GUI code

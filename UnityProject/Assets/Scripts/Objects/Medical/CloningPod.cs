@@ -42,7 +42,7 @@ namespace Objects.Medical
 
 		private IEnumerator ServerProcessCloning(CloningRecord record)
 		{
-			yield return WaitFor.Seconds(10f);
+			yield return WaitFor.Seconds(300f);
 			statusString = "Cloning process complete.";
 			if (console)
 			{
@@ -50,7 +50,7 @@ namespace Objects.Medical
 			}
 			if (record.mind.IsOnline())
 			{
-				var playerBody = PlayerSpawn.ServerClonePlayer(record.mind, transform.position.CutToInt()).GetComponent<LivingHealthMasterBase>();
+				var playerBody = PlayerSpawn.ServerRespawnPlayer(record.mind, transform.position.CutToInt()).LivingHealthMasterBase;
 				playerBody.ApplyDamageAll(this.gameObject, LimbCloningDamage, AttackType.Internal, DamageType.Clone, false);
 			}
 			statusSync = CloningPodStatus.Empty;

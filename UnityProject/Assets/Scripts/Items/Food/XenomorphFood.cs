@@ -69,7 +69,7 @@ namespace Items.Food
 			}
 
 			_ = Pregnancy(eater);
-			var feederSlot = feeder.DynamicItemStorage.GetActiveHandSlot();
+			var feederSlot = feeder.GetActiveHandSlot();
 			Inventory.ServerDespawn(feederSlot);
 		}
 
@@ -85,7 +85,7 @@ namespace Items.Food
 				AttackType.Internal,
 				DamageType.Brute,
 				BodyPartType.Chest);
-			Spawn.ServerPrefab(larvae, player.gameObject.RegisterTile().WorldPositionServer);
+			Spawn.ServerPrefab(larvae, player.RegisterTile().WorldPositionServer);
 		}
 	}
 }

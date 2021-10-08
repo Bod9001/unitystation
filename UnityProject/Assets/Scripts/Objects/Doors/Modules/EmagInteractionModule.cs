@@ -22,7 +22,7 @@ namespace Doors.Modules
 			{
 				try
 				{
-					var ItemStorage = interaction.Performer.GetComponent<DynamicItemStorage>();
+					var ItemStorage = interaction.Performer.DynamicItemStorage;
 					if (ItemStorage != null)
 					{
 						var Hand = ItemStorage.GetActiveHandSlot().ItemAttributes;

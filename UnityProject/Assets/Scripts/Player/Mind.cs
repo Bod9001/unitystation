@@ -5,44 +5,114 @@ using UnityEngine;
 using Mirror;
 using Antagonists;
 using Systems.Spells;
+using Gateway;
 using HealthV2;
+using Initialisation;
 using Player;
 using Player.Movement;
 using ScriptableObjects.Audio;
 using UI.Action;
 using ScriptableObjects.Systems.Spells;
+using UnityEngine.Serialization;
 
 /// <summary>
 /// IC character information (job role, antag info, real name, etc). A body and their ghost link to the same mind
 /// SERVER SIDE VALID ONLY, is not sync'd
 /// </summary>
-public class Mind : MonoBehaviour, IActionGUI
+public class Mind : NetworkBehaviour, IActionGUI
 {
+
+
+	// public GameObject gameObject
+	// {
+	// 	get
+	// 	{
+	// 		Logger.LogError("Mind gameObject");
+	// 		return null;
+	// 	}
+	// }
+
+
+	// public Transform transform
+	// {
+	// 	get
+	// 	{
+	// 		Logger.LogError("Mind Transform");
+	// 		return null;
+	// 	}
+	// }
+
+	// public T GetComponent<T>()
+	// {
+	// 	Logger.LogError("Mind GetComponent");
+	// 	T bob = new T();
+	// 	return bob;
+	// }
+
+	// public bool TryGetComponent<T>(out T component)
+	// {
+	// 	return false;
+	// }
+
 	public ConnectedPlayer AssignedPlayer;
 
 	public Occupation occupation;
+
+	[SyncVar]
 	public GameObject ghost;
 
-	public Brain PhysicalBrain;
+	[SyncVar(hook = nameof(SynchronisePhysicalBrainuint))] public uint BrainID;
+
+
+	[FormerlySerializedAs("PhysicalBrain")] public PlayerBrain physicalPlayerBrain;
+
+	[SyncVar]
 	public GameObject PossessingObject;
+
 
 	public DynamicItemStorage DynamicItemStorage => GameObjectBody.GetComponent<DynamicItemStorage>();
 
 	public Equipment Equipment => GameObjectBody.GetComponent<Equipment>();
 	public IProvideConsciousness GetConsciousness => GameObjectBody.GetComponent<IProvideConsciousness>();
 
-	public PlayerSync PlayerSync =>  GameObjectBody.GetComponent<PlayerSync>();
+	public PlayerSync PlayerSync => GameObjectBody.GetComponent<PlayerSync>();
 	public Orientation CurrentDirection => GameObjectBody.GetComponent<Directional>().CurrentDirection;
 
+	public WeaponNetworkActions WeaponNetworkActions => GameObjectBody.GetComponent<WeaponNetworkActions>();
+
 	public PlayerNetworkActions playerNetworkActions; //Present on the mind game object
+
+	public PlayerNetworkActions PlayerNetworkActions => playerNetworkActions;
+
+	public PlayerEatDrinkEffects PlayerEatDrinkEffects;
+
+
+	public void SynchronisePhysicalBrainuint(uint old, uint unew)
+	{
+		BrainID = unew;
+
+		if (NetworkIdentity.spawned.ContainsKey(BrainID) == false) return;
+
+		physicalPlayerBrain = NetworkIdentity.spawned[BrainID].GetComponent<PlayerBrain>();
+	}
 
 	public GameObject GameObjectBody
 	{
 		get
 		{
-			if (this.PhysicalBrain != null)
+			if (IsGhosting)
 			{
-				return PhysicalBrain.PhysicalBody;
+				if (ghost != null)
+				{
+					return ghost;
+				}
+				Logger.LogError(OriginalCharacter.Name + " Does not have a ghost body ");
+				return null;
+			}
+
+			if (this.physicalPlayerBrain != null)
+			{
+				return physicalPlayerBrain.PhysicalBody;
 			}
 
 			if (PossessingObject != null)
@@ -50,12 +120,17 @@ public class Mind : MonoBehaviour, IActionGUI
 				return PossessingObject;
 			}
 
+
 			if (ghost != null)
 			{
 				return ghost.gameObject;
 			}
 
-			Logger.LogError(OriginalCharacter.Name + " Does not have a ghost body ");
+			if (OriginalCharacter != null)
+			{
+				Logger.LogError(OriginalCharacter.Name + " Does not have a ghost body ");
+			}
+
 			return null;
 		}
 	}
@@ -87,22 +162,18 @@ public class Mind : MonoBehaviour, IActionGUI
 			{
 				return true;
 			}
-
 		}
 	}
 
 
-	public void SetGhost(GameObject Ghost)
-	{
-		ghost = Ghost;
-	}
 
-	//TODO Need to check for ghost
-	public void SetBody(GameObject gameObject)
+	private void SetBody(GameObject gameObject)
 	{
-		if (gameObject.TryGetComponent<Brain>(out var Brain))
+		if (gameObject.TryGetComponent<PlayerBrain>(out var Brain))
 		{
-			PhysicalBrain = Brain;
+			SynchronisePhysicalBrainuint(0, Brain.netId);
+			physicalPlayerBrain = Brain;
+			Brain.RelatedMind = this;
 			PossessingObject = gameObject;
 		}
 		else
@@ -110,6 +181,7 @@ public class Mind : MonoBehaviour, IActionGUI
 			PossessingObject = gameObject;
 		}
 	}
+
 
 	public HasCooldowns Cooldown;
 
@@ -120,16 +192,35 @@ public class Mind : MonoBehaviour, IActionGUI
 
 	public RegisterPlayer RegisterPlayer => registerTile as RegisterPlayer;
 
-	public RegisterTile RegisterTile() { return registerTile; }
+	public RegisterTile RegisterTile()
+	{
+		return registerTile;
+	}
 
 
 	public PlayerMove PlayerMove => GameObjectBody.GetComponent<PlayerMove>();
 
-	public bool CanSpeak;
+	public bool CanSpeak = true;
+
+
 	public bool IsSilicon; //Speaks in a silicon way
 	public bool IsRestrained; //Basically is not allowed to interact, can apply to anything
 
-	public bool IdentityVisible; //Can we see who they are and what their pronouns are
+	public bool IdentityVisible
+	{
+		get
+		{
+			var TEquipment = Equipment;
+			if (TEquipment != null)
+			{
+				return TEquipment.IsIdentityVisible();
+			}
+			else
+			{
+				return true;
+			}
+		}
+	}
 
 	public Speech Speech;
 	public ChatModifier SpeechModifiers = ChatModifier.None;
@@ -156,18 +247,19 @@ public class Mind : MonoBehaviour, IActionGUI
 
 	public JobType JobType => occupation.JobType;
 
-	public string CharactersName => OriginalCharacter.Name;
+	public string CharactersName => OriginalCharacter?.Name;
 
 	private SpawnedAntag antag;
 	public bool IsAntag => antag != null;
+
+	[SyncVar]
 	public bool IsGhosting;
+
 	public bool DenyCloning;
 	public int bodyID; //ues Server instance ID on Position game object
 
 
-	//TODO Change to the body
-	public FloorSounds StepSound;
-	public FloorSounds SecondaryStepSound;
+
 
 
 	// Current way to check if it's not actually a ghost but a spectator, should set this not have it be the below.
@@ -193,7 +285,7 @@ public class Mind : MonoBehaviour, IActionGUI
 
 	public void Awake()
 	{
-		//TODO If client set Parent to the mind manager
+		transform.SetParent(MindManager.Instance.transform);
 
 		// add spell to the UI bar as soon as they're added to the spell list
 		spells.CollectionChanged += (sender, e) =>
@@ -221,17 +313,22 @@ public class Mind : MonoBehaviour, IActionGUI
 		};
 	}
 
+	public ItemSlot GetActiveHandSlot()
+	{
+		return DynamicItemStorage.OrNull()?.GetActiveHandSlot(this);
+	}
+
 	public bool HasThisBody(GameObject Body)
 	{
 		if (Body == this.gameObject) return true;
 
-		if (PhysicalBrain != null)
+		if (physicalPlayerBrain != null)
 		{
-			if (PhysicalBrain.ConnectedBody == true)
+			if (physicalPlayerBrain.ConnectedBody == Body)
 			{
 				return true;
 			}
-			else if (PossessingObject == Body) //PossessingObject == Brain. Game object
+			else if (PossessingObject == Body)
 			{
 				return true;
 			}
@@ -269,13 +366,75 @@ public class Mind : MonoBehaviour, IActionGUI
 			return GameObjectBody.ExpensiveName(); //Assuming Let the game object name is set up correctly
 		}
 	}
-	public void PossessNewBody(GameObject InPossessingObject, bool addRoleAbilities = false)
+
+	[SyncVar]
+	public Transform CameraFollowOverride = null;
+
+	public Transform CameraFollowTarget()
+	{
+		if (CameraFollowOverride != null)
+		{
+			return CameraFollowOverride;
+		}
+
+		if (IsGhosting)
+		{
+			if (ghost != null)
+			{
+				return ghost.transform;
+			}
+			Logger.LogError(OriginalCharacter.Name + " Does not have a ghost body ");
+			return null;
+		}
+
+		if (this.physicalPlayerBrain != null)
+		{
+			return physicalPlayerBrain.CameraFollowTarget();
+		}
+
+		if (PossessingObject != null)
+		{
+			return PossessingObject.transform;
+		}
+
+
+		if (ghost != null)
+		{
+			return ghost.gameObject.transform;
+		}
+
+		if (OriginalCharacter != null)
+		{
+			Logger.LogError(OriginalCharacter.Name + " Does not have a ghost body ");
+		}
+
+		return null;
+	}
+
+	public void RemoveBody()
 	{
 		ClearOldBody();
-		PossessingObject = InPossessingObject;
-		bodyID = InPossessingObject.GetInstanceID();
+	}
 
-		if (PossessingObject.TryGetComponent<Brain>(out var newBrain))
+
+
+	public void SetGhost(GameObject Ghost)
+	{
+		//LoadManager.RegisterActionDelayed( () => PlayerSpawn.ServerAssignPlayerAuthorityBody(this, Ghost) ,2  ); ;
+		PlayerSpawn.ServerAssignPlayerAuthorityBody(this, Ghost);
+		ghost = Ghost;
+	}
+
+	public void PossessNewObject(GameObject InPossessingObject, bool addRoleAbilities = false)
+	{
+		PlayerSpawn.ServerAssignPlayerAuthorityBody(this, InPossessingObject);
+
+		ClearOldBody();
+		SetBody(InPossessingObject);
+
+		SetPlayerControl(AssignedPlayer.Connection, InPossessingObject);
+
+		if (PossessingObject.TryGetComponent<PlayerBrain>(out var newBrain))
 		{
 			if (occupation != null && addRoleAbilities)
 			{
@@ -295,12 +454,22 @@ public class Mind : MonoBehaviour, IActionGUI
 		StopGhosting();
 	}
 
+
+
+	[TargetRpc]
+	public void SetPlayerControl(NetworkConnection target, GameObject InPossessingObject)
+	{
+		LocalPlayerManager.SetPlayerForControl( InPossessingObject.GetComponent<IPlayerControllable>());
+	}
+
+
+
 	private void ClearOldBody()
 	{
 		PossessingObject = null;
-		if (PhysicalBrain != null)
+		if (physicalPlayerBrain != null)
 		{
-			PhysicalBrain.RelatedMind = null;
+			physicalPlayerBrain.RelatedMind = null;
 		}
 	}
 
@@ -325,12 +494,51 @@ public class Mind : MonoBehaviour, IActionGUI
 
 	public void Ghost()
 	{
+		var GhostCoordinates = BodyWorldPosition;
 		IsGhosting = true;
+		var playerSync = GameObjectBody.GetComponent<PlayerSync>();
+		if (playerSync != null)
+		{
+			playerSync.DisappearFromWorldServer();
+			playerSync.AppearAtPositionServer(GhostCoordinates);
+			playerSync.RollbackPrediction();
+		}
+		RPCGhost(AssignedPlayer.OrNull()?.Connection);
+	}
+
+	[TargetRpc]
+	public void RPCGhost(NetworkConnection target)
+	{
+		EventManager.Broadcast( Event.GhostSpawned);
+		LocalPlayerManager.SetPlayerForControl( ghost.GetComponent<IPlayerControllable>());
+
+		if (PlayersManager.Instance.IsClientAdmin)
+		{
+			UIManager.LinkUISlots(ItemStorageLinkOrigin.adminGhost); //TODO
+		}
+		// stop the crit notification and change overlay to ghost mode
+		SoundManager.Stop("Critstate");
+		UIManager.PlayerHealthUI.heartMonitor.overlayCrits.SetState(OverlayState.death);
+		// show ghosts
+		var mask = Camera2DFollow.followControl.cam.cullingMask;
+		mask |= 1 << LayerMask.NameToLayer("Ghosts");
+		Camera2DFollow.followControl.cam.cullingMask = mask;
 	}
 
 	public void StopGhosting()
 	{
-		IsGhosting = false;
+		if (physicalPlayerBrain == null)
+		{
+			if (PossessingObject != null)
+			{
+				IsGhosting = false;
+			}
+		}
+		else
+		{
+			physicalPlayerBrain.ReEnterBody();
+			IsGhosting = false;
+		}
 	}
 
 	/// <summary>
@@ -455,6 +663,11 @@ public class Mind : MonoBehaviour, IActionGUI
 
 	public ChatChannel GetAvailableChannelsMask(bool transmitOnly = true)
 	{
+		var ChatChannels = GameObjectBody.GetComponent<IProvideChatChannel>();
+		if (ChatChannels == null) return  ChatChannel.Examine | ChatChannel.System | ChatChannel.Combat |
+		                                  ChatChannel.Binary | ChatChannel.Command | ChatChannel.Common | ChatChannel.Engineering |
+		                                  ChatChannel.Medical | ChatChannel.Science | ChatChannel.Security | ChatChannel.Service
+		                                  | ChatChannel.Supply | ChatChannel.Syndicate | ChatChannel.Ghost | ChatChannel.OOC; //TODO Temporary
 		return GameObjectBody.GetComponent<IProvideChatChannel>().GetAvailableChannelsMask(transmitOnly); //TODO
 		/*if (IsDeadOrGhost && !IsPlayerSemiGhost)
 		{
@@ -535,8 +748,7 @@ public class Mind : MonoBehaviour, IActionGUI
 		*/
 	}
 
-	[SerializeField]
-	private ActionData actionData = null;
+	[SerializeField] private ActionData actionData = null;
 	public ActionData ActionData => actionData;
 
 	public void CallActionClient()
@@ -548,23 +760,106 @@ public class Mind : MonoBehaviour, IActionGUI
 	{
 		UIActionManager.ToggleLocal(this, state);
 	}
-}
 
-public static class CustomReadWriteFunctions
-{
-	public static void WriteMyCollision(this NetworkWriter writer, Mind value)
+	#region Pronouns
+
+	private CharacterSettings GetCorrectCharacter()
 	{
-		writer.WriteNetworkIdentity(value.gameObject.GetComponent<NetworkIdentity>());
+		var Sprites = GameObjectBody.GetComponent<PlayerSprites>(); //TODO Probably better class to handle this
+		CharacterSettings ChosenCharacter = null;
+		if (Sprites == null) //if the player Customisable sprites, they could be possessing someone else's body
+		{
+			ChosenCharacter = Sprites.OriginalCharacter;
+		}
+		else
+		{
+			ChosenCharacter = this.OriginalCharacter;
+		}
+
+		return ChosenCharacter;
 	}
 
-	public static Mind ReadMyCollision(this NetworkReader reader)
+	/// <summary>
+	/// Returns a possessive string (i.e. "their", "his", "her") for the provided gender enum.
+	/// </summary>
+	public string TheirPronoun()
 	{
-		Vector3 force = reader.ReadVector3();
+		CharacterSettings ChosenCharacter = GetCorrectCharacter();
+		return ChosenCharacter.TheirPronoun(IdentityVisible);
+	}
 
+
+	/// <summary>
+	/// Returns a personal pronoun string (i.e. "he", "she", "they") for the provided gender enum.
+	/// </summary>
+	public string TheyPronoun()
+	{
+		CharacterSettings ChosenCharacter = GetCorrectCharacter();
+		return ChosenCharacter.TheyPronoun(IdentityVisible);
+	}
+
+	/// <summary>
+	/// Returns an object pronoun string (i.e. "him", "her", "them") for the provided gender enum.
+	/// </summary>
+	public string ThemPronoun()
+	{
+		CharacterSettings ChosenCharacter = GetCorrectCharacter();
+		return ChosenCharacter.ThemPronoun(IdentityVisible);
+	}
+
+	/// <summary>
+	/// Returns an object pronoun string (i.e. "he's", "she's", "they're") for the provided gender enum.
+	/// </summary>
+	public string TheyrePronoun()
+	{
+		CharacterSettings ChosenCharacter = GetCorrectCharacter();
+		return ChosenCharacter.TheyrePronoun(IdentityVisible);
+	}
+
+	/// <summary>
+	/// Returns an object pronoun string (i.e. "himself", "herself", "themself") for the provided gender enum.
+	/// </summary>
+	public string ThemselfPronoun()
+	{
+		CharacterSettings ChosenCharacter = GetCorrectCharacter();
+		return ChosenCharacter.ThemselfPronoun(IdentityVisible);
+	}
+
+	public string IsPronoun()
+	{
+		CharacterSettings ChosenCharacter = GetCorrectCharacter();
+		return ChosenCharacter.IsPronoun(IdentityVisible);
+	}
+
+	public string HasPronoun()
+	{
+		CharacterSettings ChosenCharacter = GetCorrectCharacter();
+		return ChosenCharacter.HasPronoun(IdentityVisible);
+	}
+
+	#endregion
+}
+
+public static partial class CustomReadWriteFunctions
+{
+	public static void WriteMind(this NetworkWriter writer, Mind value)
+	{
+		var Net = value.OrNull()?.gameObject.OrNull()?.GetComponent<NetworkIdentity>();
+		if (Net == null)
+		{
+			writer.WriteNetworkIdentity(null);
+		}
+		else
+		{
+			writer.WriteNetworkIdentity(Net);
+		}
+
+	}
+
+	public static Mind ReadMind(this NetworkReader reader)
+	{
 		NetworkIdentity networkIdentity = reader.ReadNetworkIdentity();
-		Mind mind = networkIdentity != null
-			? networkIdentity.GetComponent<Mind>()
-			: null;
+		Mind mind = networkIdentity != null ? networkIdentity.GetComponent<Mind>() : null;
 		return mind;
 	}
 }

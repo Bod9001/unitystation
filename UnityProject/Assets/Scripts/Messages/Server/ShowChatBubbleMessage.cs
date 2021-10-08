@@ -27,7 +27,7 @@ namespace Messages.Server
 
 			if (msg.IsPlayerChatBubble)
 			{
-				target = target.GetComponent<PlayerNetworkActions>().chatBubbleTarget;
+				target = target.GetComponent<PlayerChatBubble>().chatBubbleTarget;
 			}
 
 			ChatBubbleManager.ShowAChatBubble(target, msg.Message, msg.ChatModifiers);

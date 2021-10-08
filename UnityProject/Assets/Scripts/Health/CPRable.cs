@@ -26,7 +26,7 @@ public class CPRable : MonoBehaviour, ICheckedInteractable<HandApply>
 			if (livingHealth.ConsciousState == ConsciousState.CONSCIOUS) return false;
 		}
 
-		var performerRegisterPlayer = interaction.Performer.GetComponent<RegisterPlayer>();
+		var performerRegisterPlayer = interaction.Performer.RegisterPlayer;
 		if (performerRegisterPlayer.IsLayingDown) return false;
 
 		return true;

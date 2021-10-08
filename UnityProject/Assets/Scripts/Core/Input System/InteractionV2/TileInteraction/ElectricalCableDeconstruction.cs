@@ -60,7 +60,7 @@ namespace Tiles.Electrical
 				ElectricityFunctions.WorkOutActualNumbers(ElectricalData.InData);
 				float voltage = ElectricalData.InData.Data.ActualVoltage;
 				var electrocution = new Electrocution(voltage, interaction.WorldPositionTarget, "cable");
-				var performerLHB = interaction.Performer.GetComponent<LivingHealthMasterBase>();
+				var performerLHB = interaction.Performer.LivingHealthMasterBase;
 				var severity = performerLHB.Electrocute(electrocution);
 				if (severity > LivingShockResponse.Mild) return;
 

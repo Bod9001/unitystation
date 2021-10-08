@@ -46,7 +46,7 @@ public class DoubleHandController : MonoBehaviour
 	}
 
 
-	public void AddHand(IDynamicItemSlotS bodyPartUISlots, BodyPartUISlots.StorageCharacteristics StorageCharacteristics)
+	public void AddHand(UI_SlotManager UI_SlotManager, IDynamicItemSlotS bodyPartUISlots, BodyPartUISlots.StorageCharacteristics StorageCharacteristics)
 	{
 		switch (StorageCharacteristics.namedSlot)
 		{
@@ -54,11 +54,13 @@ public class DoubleHandController : MonoBehaviour
 				LeftHand.SetActive(true);
 				LeftHandActive = true;
 				UI_LeftHand.SetUpHand(bodyPartUISlots, StorageCharacteristics);
+				UI_SlotManager.OpenSlots.Add(UI_LeftHand);
 				break;
 			case NamedSlot.rightHand:
 				RightHand.SetActive(true);
 				RightHandActive = true;
 				UI_RightHand.SetUpHand(bodyPartUISlots, StorageCharacteristics);
+				UI_SlotManager.OpenSlots.Add(UI_RightHand);
 				break;
 		}
 
@@ -75,7 +77,7 @@ public class DoubleHandController : MonoBehaviour
 	/// <param name="bodyPartUISlots"></param>
 	/// <param name="StorageCharacteristics"></param>
 	/// <returns>To mark whether or not to destroy hand controller from no hands being Present in it</returns>
-	public bool RemoveHand(
+	public bool RemoveHand(UI_SlotManager UI_SlotManager,
 		BodyPartUISlots.StorageCharacteristics StorageCharacteristics)
 	{
 		switch (StorageCharacteristics.namedSlot)
@@ -91,6 +93,7 @@ public class DoubleHandController : MonoBehaviour
 				LeftHand.SetActive(false);
 				LeftHandActive = false;
 				UI_LeftHand.ReSetSlot();
+				UI_SlotManager.OpenSlots.Remove(UI_LeftHand);
 				break;
 			case NamedSlot.rightHand:
 
@@ -104,6 +107,7 @@ public class DoubleHandController : MonoBehaviour
 				RightHand.SetActive(false);
 				RightHandActive = false;
 				UI_RightHand.ReSetSlot();
+				UI_SlotManager.OpenSlots.Remove(UI_RightHand);
 				break;
 		}
 

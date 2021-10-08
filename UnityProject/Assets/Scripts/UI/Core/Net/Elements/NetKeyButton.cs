@@ -13,7 +13,7 @@ public class NetKeyButton : NetUIStringElement
 
 	public CharEvent ServerMethod;
 
-	public override void ExecuteServer(ConnectedPlayer subject) {
+	public override void ExecuteServer(Mind subject) {
 		ServerMethod.Invoke(name.ToCharArray()[0]);
 	}
 

@@ -94,7 +94,7 @@ namespace Hacking
 			if (GUI_Hacking.Inputs.SelectedHackingPort != null && GUI_Hacking.Outputs.SelectedHackingPort != null)
 			{
 				RequestHackingInteraction.Send(GUI_Hacking.HackProcess.gameObject,
-					LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().Item.netId,
+					LocalPlayerManager.GetActiveHandSlot().Item.netId,
 					GUI_Hacking.Inputs.SelectedHackingPort.PortData.ID,
 					GUI_Hacking.Outputs.SelectedHackingPort.PortData.ID,
 					RequestHackingInteraction.InteractionWith.Cable);

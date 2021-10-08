@@ -22,7 +22,7 @@ public class TeleportArtifactEffect : ArtifactEffect
 	public override void DoEffectTouch(HandApply touchSource)
 	{
 		base.DoEffectTouch(touchSource);
-		TeleportUtils.ServerTeleportRandom(touchSource.Performer, minTeleportDistance, maxTeleportDistance, avoidSpace, avoidImpassable);
+		TeleportUtils.ServerTeleportRandom(touchSource.Performer.GameObjectBody, minTeleportDistance, maxTeleportDistance, avoidSpace, avoidImpassable);
 	}
 
 	public override void DoEffectAura()
@@ -42,7 +42,7 @@ public class TeleportArtifactEffect : ArtifactEffect
 				if (!player.IsDeadOrGhost)
 				{
 					// teleport player
-					TeleportUtils.ServerTeleportRandom(player.mind, minTeleportDistance, maxTeleportDistance, avoidSpace, avoidImpassable);
+					TeleportUtils.ServerTeleportRandom(player.mind.GameObjectBody, minTeleportDistance, maxTeleportDistance, avoidSpace, avoidImpassable);
 				}
 			}
 		}

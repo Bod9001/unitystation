@@ -505,7 +505,7 @@ public class SoundManager : MonoBehaviour
 	private void PlaySource(SoundSpawn source, bool polyphonic = false, bool global = true, MixerType mixerType = MixerType.Master)
 	{
 		if (global == false
-		    && LocalPlayerManager.LocalPlayer != null
+		    && LocalPlayerManager.CurrentMind != null
 		    && MatrixManager.Linecast(LocalPlayerManager.CurrentMind.BodyWorldPositionInt,
 			    LayerTypeSelection.Walls, layerMask, source.transform.position.To2Int().To3Int())
 			    .ItHit)

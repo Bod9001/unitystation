@@ -270,7 +270,7 @@ namespace Objects.Drawers
 				player.GetComponent<PlayerSync>().SetPosition(position);
 
 				//Stop tracking the drawer
-				FollowCameraMessage.Send(MindManager.StaticGet(player.gameObject), player.gameObject);
+				FollowOverrideCameraMessage.Send(MindManager.StaticGet(player.gameObject), null);
 			}
 
 			serverHeldPlayers = new List<ObjectBehaviour>();
@@ -287,7 +287,7 @@ namespace Objects.Drawers
 
 				// Start tracking the drawer
 				var playerScript = MindManager.StaticGet(player.gameObject);
-				if (!playerScript.IsGhosting) FollowCameraMessage.Send(playerScript, gameObject);
+				if (!playerScript.IsGhosting) FollowOverrideCameraMessage.Send(playerScript, gameObject);
 			}
 		}
 

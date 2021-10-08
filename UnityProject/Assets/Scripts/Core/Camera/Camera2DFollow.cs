@@ -95,13 +95,10 @@ public class Camera2DFollow : MonoBehaviour
 
 	private void Update()
 	{
-		if(!LocalPlayerManager.CurrentMind){
-			return;
-		}
-		//Really should sort out the load order and then we can remove this check:
-		if(!LocalPlayerManager.CurrentMind.IsGhosting){
-			return;
-		}
+
+		if (LocalPlayerManager.CurrentMind.OrNull()?.GameObjectBody == null) return;
+		target = LocalPlayerManager.CurrentMind.CameraFollowTarget();
+
 		if (target != null && !isShaking)
 		{
 			if ( (int)target.position.z == -100 )

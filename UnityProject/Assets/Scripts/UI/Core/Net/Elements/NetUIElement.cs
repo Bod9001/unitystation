@@ -127,7 +127,7 @@ public abstract class NetUIElement<T> : NetUIElementBase
 		TabUpdateMessage.SendToPeepers(masterTab.Provider, masterTab.Type, TabAction.Update, new[] {ElementValue});
 	}
 
-	public override void ExecuteServer(ConnectedPlayer subject){}
+	public override void ExecuteServer(Mind subject){}
 
 	public override string ToString() {
 		return ElementValue.ToString();
@@ -165,7 +165,7 @@ public abstract class NetUIElementBase : MonoBehaviour
 	/// </summary>
 	public abstract void ExecuteClient();
 
-	public abstract void ExecuteServer(ConnectedPlayer subject);
+	public abstract void ExecuteServer(Mind subject);
 
 	/// <summary>
 	/// Special logic to execute after all tab elements are initialized

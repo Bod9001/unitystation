@@ -66,7 +66,7 @@ namespace HealthV2
 			if (interaction.Intent != Intent.Help) return false; //TODO problem with surgery in Progress and Trying to use something on help content on them
 			if (DefaultWillInteract.Default(interaction, side) == false) return false;
 			if (ProcedureInProgress == false) return false;
-			var RegisterPlayer = interaction.TargetObject.GetComponent<RegisterPlayer>();
+			var RegisterPlayer = interaction.Performer.RegisterPlayer;
 
 			if (RegisterPlayer == null) return false; //Player script changes needed
 			if (RegisterPlayer.IsLayingDown == false) return false;

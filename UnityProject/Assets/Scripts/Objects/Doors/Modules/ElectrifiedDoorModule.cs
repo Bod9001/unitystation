@@ -120,7 +120,7 @@ namespace Doors.Modules
 
 		private void ServerElectrocute(Mind obj)
 		{
-			LivingHealthMasterBase healthScript = obj.GetComponent<LivingHealthMasterBase>();
+			LivingHealthMasterBase healthScript = obj.LivingHealthMasterBase;
 			if (healthScript != null)
 			{
 				var electrocution =

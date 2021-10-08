@@ -800,7 +800,7 @@ namespace Objects
 				}
 				player.parentContainer = null;
 				//Stop tracking closet
-				FollowCameraMessage.Send(MindManager.StaticGet(player.gameObject), player.gameObject);
+				FollowOverrideCameraMessage.Send(MindManager.StaticGet(player.gameObject), null);
 				CheckPlayerCrawlState(player);
 			}
 			serverHeldPlayers = new List<ObjectBehaviour>();
@@ -820,7 +820,7 @@ namespace Objects
 			//Start tracking closet
 			if (!playerScript.IsGhost)
 			{
-				FollowCameraMessage.Send(MindManager.StaticGet(player.gameObject) , gameObject);
+				FollowOverrideCameraMessage.Send(MindManager.StaticGet(player.gameObject) , gameObject);
 			}
 		}
 

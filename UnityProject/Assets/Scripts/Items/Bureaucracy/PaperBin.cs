@@ -165,8 +165,6 @@ namespace Items.Bureaucracy
 			var handObj = interaction.HandObject;
 			if (handObj == null)
 			{
-				var pna = interaction.Performer.GetComponent<PlayerNetworkActions>();
-
 				// Pen comes out before the paper
 				if (storedPen)
 				{

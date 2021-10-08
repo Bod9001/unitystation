@@ -10,9 +10,10 @@ public class LocalPlayerManager : MonoBehaviour
 	private static LocalPlayerManager localPlayerManager;
 
 	public static IPlayerControllable MovementControllable { get; private set; }
-	public static ConnectedPlayer LocalPlayer { get; private set; }
 
-	public static Mind CurrentMind => LocalPlayer.OrNull()?.CurrentMind;
+	public static ConnectedPlayer LocalConnectedPlayer { get; set; }
+
+	public static Mind CurrentMind => LocalConnectedPlayer.OrNull()?.CurrentMind;
 	public static JoinedViewer LocalViewerScript { get; private set; }
 	public static bool HasSpawned { get; private set; }
 
@@ -29,6 +30,11 @@ public class LocalPlayerManager : MonoBehaviour
 
 			return localPlayerManager;
 		}
+	}
+
+	public static ItemSlot GetActiveHandSlot()
+	{
+		return CurrentMind.GetActiveHandSlot();
 	}
 
 #if UNITY_EDITOR	//Opening the station scene instead of going through the lobby
@@ -67,7 +73,7 @@ public class LocalPlayerManager : MonoBehaviour
 
 	IEnumerator WaitForCamera()
 	{
-		while (LocalPlayer == null
+		while (LocalConnectedPlayer == null
 		       || Vector2.Distance(Camera2DFollow.followControl.transform.position,
 			       Camera2DFollow.followControl.target.position) > 5f)
 		{
@@ -101,9 +107,14 @@ public class LocalPlayerManager : MonoBehaviour
 		LocalViewerScript = viewer;
 	}
 
-	public static void SetPlayerForControl(GameObject playerObjToControl, IPlayerControllable movementControllable)
+	public static bool HasThisBody(GameObject potentialBody)
 	{
-		Camera2DFollow.followControl.target = LocalPlayer.transform;
+		if (CurrentMind == null) return false;
+		return CurrentMind.HasThisBody(potentialBody);
+	}
+
+	public static void SetPlayerForControl( IPlayerControllable movementControllable)
+	{
 
 		HasSpawned = true;
 
@@ -131,7 +142,7 @@ public class LocalPlayerManager : MonoBehaviour
 		List<int> actionKeys = new List<int>();
 
 		// Only move if player is out of UI
-		if (!(LocalPlayer == gameObject && UIManager.IsInputFocus))
+		if (!(CurrentMind != null && UIManager.IsInputFocus))
 		{
 			bool moveL = KeyboardInputManager.CheckMoveAction(MoveAction.MoveLeft);
 			bool moveR = KeyboardInputManager.CheckMoveAction(MoveAction.MoveRight);

@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: -921045048710611501}
   - component: {fileID: 759269907227586911}
   - component: {fileID: 6712593994754809297}
+  - component: {fileID: 5365092617903086597}
   m_Layer: 11
   m_Name: DNA_Scanner
   m_TagString: Untagged
@@ -205,48 +206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  initialContents: {fileID: 0}
-  alwaysSpawnContents: 0
-  lockLight: {fileID: 0}
-  IsLockable: 0
-  hideLockWhenOpened: 1
-  playerLimit: 1
-  breakoutTime: 120
-  matsOnDestroy: {fileID: 0}
-  matsDroppedOnDestroy: 2
-  soundOnOpen:
-    SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Effects/OpenClose.prefab
-    AssetReference:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-  soundOnClose:
-    SetLoadSetting: 0
-    AssetAddress: 
-    AssetReference:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-  soundOnEmag:
-    SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Effects/SnapCracklePop2.prefab
-    AssetReference:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-  soundOnEscape:
-    SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Effects/Rustle01.prefab
-    AssetReference:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-  doorSpriteHandler: {fileID: 2200355187901365339}
-  lockOverlay: {fileID: 0}
-  isEmagged: 0
-  weldOverlay: {fileID: 0}
-  weldSprite: {fileID: 0}
+  ClosetControl: {fileID: 0}
   occupant: {fileID: 0}
   statusString: 
   RelatedAPC: {fileID: 0}
@@ -312,7 +272,7 @@ MonoBehaviour:
   syncInterval: 0.1
   matrixDebugLogging: 0
   objectType: 1
-  customNetTransform: {fileID: 0}
+  customNetTransform: {fileID: 114657711786529776}
   prefabTracker: {fileID: 0}
   CurrentsortingGroup: {fileID: 0}
   AtmosPassable: 1
@@ -477,3 +437,59 @@ MonoBehaviour:
   canNotBeDeconstructed: 0
   mustBeUnanchored: 0
   secondsToScrewdrive: 2
+--- !u!114 &5365092617903086597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711816394935574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e27ef87b09cc84988939559a2f51ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  initialContents: {fileID: 0}
+  alwaysSpawnContents: 0
+  lockLight: {fileID: 0}
+  IsLockable: 0
+  hideLockWhenOpened: 1
+  playerLimit: 3
+  breakoutTime: 120
+  matsOnDestroy: {fileID: 0}
+  matsDroppedOnDestroy: 2
+  soundOnOpen:
+    SetLoadSetting: 0
+    AssetAddress: null
+    AssetReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+  soundOnClose:
+    SetLoadSetting: 0
+    AssetAddress: null
+    AssetReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+  soundOnEmag:
+    SetLoadSetting: 0
+    AssetAddress: null
+    AssetReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+  soundOnEscape:
+    SetLoadSetting: 0
+    AssetAddress: null
+    AssetReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+  doorSpriteHandler: {fileID: 2200355187901365339}
+  lockOverlay: {fileID: 0}
+  isEmagged: 0
+  weldOverlay: {fileID: 0}
+  weldSprite: {fileID: 0}

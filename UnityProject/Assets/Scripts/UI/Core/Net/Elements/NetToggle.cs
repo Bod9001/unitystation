@@ -24,14 +24,14 @@ public class NetToggle : NetUIStringElement
 			"A workaround is to only invoke the listener if the toggle is on, so the listener is only called once. " +
 			"Check 'Enable Workaround' to enable this behaviour. ", EInfoBoxType.Normal)]
 	// enough hours wasted on falling for the same mistake again and again... my darkest hours with that damned pipe dispenser
-	private bool enableWorkaround = false; 
+	private bool enableWorkaround = false;
 
 	public BoolEvent ServerMethod;
 	public BoolEventWithSubject ServerMethodWithSubject;
 
 	private Toggle element;
 
-	public override void ExecuteServer(ConnectedPlayer subject) {
+	public override void ExecuteServer(Mind subject) {
 		ServerMethod?.Invoke(Element.isOn);
 		ServerMethodWithSubject?.Invoke(Element.isOn, subject);
 	}
@@ -57,4 +57,4 @@ public class NetToggle : NetUIStringElement
 public class BoolEvent : UnityEvent<bool>{}
 
 [Serializable]
-public class BoolEventWithSubject : UnityEvent<bool, ConnectedPlayer>{}
+public class BoolEventWithSubject : UnityEvent<bool, Mind>{}

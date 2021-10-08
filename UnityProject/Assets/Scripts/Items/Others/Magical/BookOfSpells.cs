@@ -106,7 +106,7 @@ namespace Items.Magical
 			if (spawnResult.Successful)
 			{
 				points -= artifactEntry.Cost;
-				SoundManager.PlayNetworkedAtPos(summonItemSound, playerScript.BodyWorldPosition, sourceObj: playerScript.gameObject);
+				SoundManager.PlayNetworkedAtPos(summonItemSound, playerScript.BodyWorldPosition, sourceObj: playerScript.GameObjectBody);
 
 				var closetControl = spawnResult.GameObject.GetComponent<ClosetControl>();
 

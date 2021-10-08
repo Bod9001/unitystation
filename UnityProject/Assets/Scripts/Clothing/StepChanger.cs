@@ -22,7 +22,7 @@ namespace Clothing
 		         "will have priority over other step changers when putting on (Hardsuits for example)")]
 		private bool hasPriority;
 
-		private Mind mind;
+		private Equipment Equipment;
 
 		private bool IsPuttingOn(InventoryMove info)
 		{
@@ -44,22 +44,22 @@ namespace Clothing
 
 			if (IsPuttingOn(info))
 			{
-				mind = info.ToPlayer;
-				if (mind is null) return;
+				Equipment = info.ToSlot.GetRootStorage().GetComponent<Equipment>();
+				if (Equipment is null) return;
 
 				if (hasPriority == false)
 				{
-					mind.SecondaryStepSound = soundChange;
-					if (mind.StepSound) return;
+					Equipment.SecondaryStepSound = soundChange;
+					if (Equipment.StepSound) return;
 				}
 
-				mind.StepSound = soundChange;
+				Equipment.StepSound = soundChange;
 			}
 
 			if (IsTakingOff(info))
 			{
-				mind = info.FromPlayer;
-				if (mind is null) return;
+				Equipment = info.FromSlot.GetRootStorage().GetComponent<Equipment>();
+				if (Equipment is null) return;
 
 				HandleTakingOff();
 			}
@@ -71,19 +71,19 @@ namespace Clothing
 		{
 			switch (hasPriority)
 			{
-				case true when mind.SecondaryStepSound:
-					mind.StepSound = mind.SecondaryStepSound;
+				case true when Equipment.SecondaryStepSound:
+					Equipment.StepSound = Equipment.SecondaryStepSound;
 					return;
 				case true:
-					mind.StepSound = null;
+					Equipment.StepSound = null;
 					return;
-				case false when mind.StepSound == soundChange:
-					mind.StepSound = null;
+				case false when Equipment.StepSound == soundChange:
+					Equipment.StepSound = null;
 					return;
-				case false when mind.StepSound != soundChange:
-					if (mind.SecondaryStepSound == soundChange)
+				case false when Equipment.StepSound != soundChange:
+					if (Equipment.SecondaryStepSound == soundChange)
 					{
-						mind.SecondaryStepSound = null;
+						Equipment.SecondaryStepSound = null;
 					}
 
 					return;

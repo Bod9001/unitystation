@@ -79,7 +79,7 @@ public class NullRod : NetworkBehaviour, IInteractable<HandActivate>, IServerSpa
 	public void SwapItem(GameObject obj)
 	{
 
-		var storage = GetComponent<Pickupable>().ItemSlot.Player.GetComponent<DynamicItemStorage>();
+		var storage = GetComponent<Pickupable>().ItemSlot.Player.DynamicItemStorage;
 		int currentTimes = TransformTimes;
 		string oldItem = gameObject.ExpensiveName();
 		Inventory.ServerDespawn(gameObject);

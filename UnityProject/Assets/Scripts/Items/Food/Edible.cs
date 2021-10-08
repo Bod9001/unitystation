@@ -120,7 +120,7 @@ namespace Items.Food
 		{
 			//TODO: Reimplement metabolism.
 			AudioSourceParameters eatSoundParameters = new AudioSourceParameters(pitch: RandomPitch);
-			SoundManager.PlayNetworkedAtPos(sound, eater.BodyWorldPosition, eatSoundParameters, sourceObj: eater.gameObject);
+			SoundManager.PlayNetworkedAtPos(sound, eater.BodyWorldPosition, eatSoundParameters, sourceObj: eater.GameObjectBody);
 
 			var Stomachs = eater.LivingHealthMasterBase.GetStomachs();
 			if (Stomachs.Count == 0)
@@ -139,7 +139,7 @@ namespace Items.Food
 			}
 
 
-			var feederSlot = feeder.DynamicItemStorage.GetActiveHandSlot();
+			var feederSlot = feeder.GetActiveHandSlot();
 			//If food has a stack component, decrease amount by one instead of deleting the entire stack.
 			if (stackable != null)
 			{

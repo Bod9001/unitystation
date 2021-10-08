@@ -49,9 +49,9 @@ public class MeleeStun : MonoBehaviour, ICheckedInteractable<HandApply>
 		Mind performer = interaction.Performer;
 
 		// Direction for lerp
-		Vector2 dir = (target.transform.position - performer.transform.position).normalized;
+		Vector2 dir = (target.transform.position - performer.BodyWorldPosition).normalized;
 
-		WeaponNetworkActions wna = performer.GameObjectBody.GetComponent<WeaponNetworkActions>();
+		WeaponNetworkActions wna = performer.WeaponNetworkActions;
 
 		// If we're on harm intent we deal damage!
 		// Note: this has to be done before the stun, because otherwise if we hit ourselves with an activated stun baton on harm intent.

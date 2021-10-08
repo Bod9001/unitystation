@@ -40,7 +40,7 @@ public class NetDynamicButton : NetUIStringElement
 		ServerMethod.AddListener (execute);
 	}
 
-	public override void ExecuteServer(ConnectedPlayer subject) {
+	public override void ExecuteServer(Mind subject) {
 		ServerMethod.Invoke(Value);
 	}
 

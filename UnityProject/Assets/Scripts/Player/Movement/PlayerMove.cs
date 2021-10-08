@@ -21,7 +21,12 @@ namespace Player.Movement
 	/// </summary>
 	public class PlayerMove : NetworkBehaviour, IRightClickable, IServerSpawn, IActionGUI, ICheckedInteractable<ContextMenuApply>, RegisterPlayer.IControlPlayerState
 	{
-		public Mind PlayerScript { get; private set; }
+		
+		public PlayerScript ActualPlayerScript;
+
+		public PlayerSync PlayerSync;
+
+		public LivingHealthMasterBase LivingHealthMasterBase;
 
 		public bool diagonalMovement;
 
@@ -86,6 +91,8 @@ namespace Player.Movement
 		private ActionData actionData = null;
 		public ActionData ActionData => actionData;
 
+		public PushPull PushPull;
+
 		/// <summary>
 		/// Whether this player meets all the conditions for being swapped with (being the swapee).
 		/// </summary>
@@ -94,9 +101,9 @@ namespace Player.Movement
 		private bool CanSwap()
 		{
 			bool canSwap;
-			if (isLocalPlayer && !isServer)
+			if (LocalPlayerManager.HasThisBody(gameObject) && !isServer)
 			{
-				if (PlayerScript.PushPull == null)
+				if (PushPull == null)
 				{
 					// Is a ghost
 					canSwap = false;
@@ -105,7 +112,7 @@ namespace Player.Movement
 				{
 					// locally predict
 					canSwap = UIManager.CurrentIntent == Intent.Help
-					          && !PlayerScript.PushPull.IsPullingSomething;
+					          && PushPull.IsPullingSomething  == false;
 				}
 			}
 			else
@@ -116,7 +123,7 @@ namespace Player.Movement
 
 			return canSwap
 			       // don't swap with ghosts
-			       && PlayerScript.IsGhosting == false
+			       && ActualPlayerScript.IsGhost == false
 			       // pass through players if we can
 			       && registerPlayer.IsPassable(isServer) == false
 			       // can't swap with buckled players, they're strapped down
@@ -149,18 +156,15 @@ namespace Player.Movement
 		private void Awake()
 		{
 
-
+			LivingHealthMasterBase = this.GetComponent<LivingHealthMasterBase>();
+			ActualPlayerScript = this.GetComponent<PlayerScript>();
+			PushPull = this.GetComponent<PushPull>();
 			playerDirectional = gameObject.GetComponent<Directional>();
+			PlayerSync = this.GetComponent<PlayerSync>();
 
 			registerPlayer = GetComponent<RegisterPlayer>();
 			pna = gameObject.GetComponent<PlayerNetworkActions>();
-			PlayerScript.RegisterPlayer.AddStatus(this);
-			// Aren't these set up with sync vars? Why are they set like this?
-			// They don't appear to ever get synced either.
-			if (PlayerScript.IsGhosting)
-			{
-				return;
-			}
+			registerPlayer.AddStatus(this);
 
 			RunSpeed = 1;
 			WalkSpeed = 1;
@@ -178,9 +182,9 @@ namespace Player.Movement
 			base.OnStartServer();
 			// when pulling status changes, re-check whether client needs to be told if
 			// this is swappable.
-			if (PlayerScript.PushPull != null)
+			if (PushPull != null)
 			{
-				PlayerScript.PushPull.OnPullingSomethingChangedServer.AddListener(ServerUpdateIsSwappable);
+				PushPull.OnPullingSomethingChangedServer.AddListener(ServerUpdateIsSwappable);
 			}
 
 			ServerUpdateIsSwappable();
@@ -258,7 +262,7 @@ namespace Player.Movement
 
 		private Vector3Int GetMoveDirection(MoveAction action)
 		{
-			if (LocalPlayerManager.LocalPlayer == gameObject && UIManager.IsInputFocus)
+			if (LocalPlayerManager.HasThisBody(gameObject)  && UIManager.IsInputFocus)
 			{
 				return Vector3Int.zero;
 			}
@@ -313,18 +317,19 @@ namespace Player.Movement
 			SyncBuckledObjectNetId(0, netid);
 			// can't push/pull when buckled in, break if we are pulled / pulling
 			// sinform the puller
-			if (PlayerScript.PushPull.PulledBy != null)
+			if (PushPull.PulledBy != null)
 			{
-				PlayerScript.PushPull.PulledBy.ServerStopPulling();
+				PushPull.PulledBy.ServerStopPulling();
 			}
 
-			PlayerScript.PushPull.StopFollowing();
-			PlayerScript.PushPull.ServerStopPulling();
-			PlayerScript.PushPull.ServerSetPushable(false);
+			PushPull.StopFollowing();
+			PushPull.ServerStopPulling();
+			PushPull.ServerSetPushable(false);
 			onUnbuckled = unbuckledAction;
 
 			// sync position to ensure they buckle to the correct spot
-			PlayerScript.PlayerSync.SetPosition(toObject.TileWorldPosition().To3Int());
+
+			PlayerSync.SetPosition(toObject.TileWorldPosition().To3Int());
 
 			// set direction if toObject has a direction
 			var directionalObject = toObject.GetComponent<Directional>();
@@ -338,8 +343,8 @@ namespace Player.Movement
 			}
 
 			// force sync direction to current direction (If it is a real player and not a NPC)
-			if (PlayerScript.AssignedPlayer.Connection != null)
-				playerDirectional.TargetForceSyncDirection(PlayerScript.AssignedPlayer.Connection);
+			if (MindManager.StaticGet(gameObject).AssignedPlayer.Connection != null)
+				playerDirectional.TargetForceSyncDirection(MindManager.StaticGet(gameObject).AssignedPlayer.Connection);
 		}
 
 		/// <summary>
@@ -350,10 +355,11 @@ namespace Player.Movement
 		{
 			if (IsCuffed)
 			{
+				var   Mind = MindManager.StaticGet(this.gameObject);
 				Chat.AddActionMsgToChat(
-					PlayerScript,
+					Mind ,
 					"You're trying to unbuckle yourself from the chair! (this will take some time...)",
-					PlayerScript.name + " is trying to unbuckle themself from the chair!"
+					Mind.ExpensiveName() + " is trying to unbuckle themself from the chair!"
 				);
 				StandardProgressAction.Create(
 					new StandardProgressActionConfig(StandardProgressActionType.Unbuckle),
@@ -361,7 +367,7 @@ namespace Player.Movement
 				).ServerStartProgress(
 					BuckledObject.RegisterTile(),
 					BuckledObject.GetComponent<BuckleInteract>().ResistTime,
-					PlayerScript
+					Mind
 				);
 				return;
 			}
@@ -377,9 +383,9 @@ namespace Player.Movement
 			var previouslyBuckledTo = BuckledObject;
 			SyncBuckledObjectNetId(0, NetId.Empty);
 			// we can be pushed / pulled again
-			PlayerScript.PushPull.ServerSetPushable(true);
+			PushPull.ServerSetPushable(true);
 			// decide if we should fall back down when unbuckled
-			registerPlayer.ServerSetIsStanding(PlayerScript.LivingHealthMasterBase.ConsciousState == ConsciousState.CONSCIOUS);
+			registerPlayer.ServerSetIsStanding(LivingHealthMasterBase.ConsciousState == ConsciousState.CONSCIOUS);
 			onUnbuckled?.Invoke();
 
 			if (previouslyBuckledTo == null) return;
@@ -391,12 +397,12 @@ namespace Player.Movement
 			var buckledCNT = previouslyBuckledTo.GetComponent<CustomNetTransform>();
 			if (buckledCNT.IsFloatingServer)
 			{
-				PlayerScript.PlayerSync.NewtonianMove(buckledCNT.ServerImpulse.NormalizeToInt(), buckledCNT.SpeedServer);
+				PlayerSync.NewtonianMove(buckledCNT.ServerImpulse.NormalizeToInt(), buckledCNT.SpeedServer);
 			}
 			else
 			{
 				// stop in place because our object wasn't moving either.
-				PlayerScript.PlayerSync.Stop();
+				PlayerSync.Stop();
 			}
 		}
 
@@ -423,7 +429,7 @@ namespace Player.Movement
 				}
 			}
 
-			if (LocalPlayerManager.LocalPlayer == gameObject)
+			if (LocalPlayerManager.HasThisBody(gameObject))
 			{
 				UIActionManager.ToggleLocal(this, newBuckledTo != NetId.Empty);
 			}
@@ -442,7 +448,7 @@ namespace Player.Movement
 			}
 
 			// ensure we are in sync with server
-			PlayerScript.OrNull()?.PlayerSync.OrNull()?.RollbackPrediction();
+			PlayerSync.OrNull()?.RollbackPrediction();
 		}
 
 		private readonly HashSet<IMovementEffect> movementAffects = new HashSet<IMovementEffect>();
@@ -503,7 +509,7 @@ namespace Player.Movement
 
 		private bool CanUnBuckleSelf()
 		{
-			var playerHealth = PlayerScript.playerHealth;
+			var playerHealth = LivingHealthMasterBase;
 
 			return !(playerHealth == null ||
 			         playerHealth.ConsciousState == ConsciousState.DEAD ||
@@ -531,9 +537,9 @@ namespace Player.Movement
 		/// </summary>
 		private void ServerUpdateIsSwappable()
 		{
-			isSwappable = isHelpIntentServer && PlayerScript != null &&
-			              PlayerScript.pushPull != null &&
-			              !PlayerScript.pushPull.IsPullingSomethingServer;
+			isSwappable = isHelpIntentServer &&
+			              PushPull != null &&
+			              PushPull.IsPullingSomethingServer == false;
 		}
 
 		public void OnSpawnServer(SpawnInfo info)
@@ -650,7 +656,7 @@ namespace Player.Movement
 		public void Uncuff()
 		{
 			SyncCuffed(IsCuffed, false);
-			foreach (var itemSlot in PlayerScript.DynamicItemStorage.GetNamedItemSlots(NamedSlot.handcuffs))
+			foreach (var itemSlot in this.GetComponent<DynamicItemStorage>().GetNamedItemSlots(NamedSlot.handcuffs))
 			{
 				Inventory.ServerDrop(itemSlot);
 			}

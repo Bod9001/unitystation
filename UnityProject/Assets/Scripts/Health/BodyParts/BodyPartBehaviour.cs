@@ -106,7 +106,9 @@ public class BodyPartBehaviour : MonoBehaviour
 	{
 		//kinda crappy way to determine local player,
 		//but otherwise UpdateIcons would have to be moved to HumanHealthBehaviour
-		return LocalPlayerManager.CurrentMind == MindManager.Instance.Get(gameObject);
+		if (LocalPlayerManager.CurrentMind == null) return false;
+
+		return LocalPlayerManager.HasThisBody(gameObject);
 	}
 
 	private void UpdateSeverity()

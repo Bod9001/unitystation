@@ -61,6 +61,8 @@ namespace Weapons
 		protected StandardProgressActionConfig ProgressConfig
 			= new StandardProgressActionConfig(StandardProgressActionType.ItemTransfer);
 
+		public Pickupable pickupable;
+
 		/// <summary>
 		/// The current magazine for this weapon, null means empty
 		/// </summary>
@@ -213,6 +215,7 @@ namespace Weapons
 
 		private void Awake()
 		{
+			pickupable = this.GetComponent<Pickupable>();
 			//init weapon with missing settings
 			GetComponent<ItemAttributesV2>().AddTrait(CommonTraits.Instance.Gun);
 			ItemStorage itemStorage = GetComponent<ItemStorage>();
@@ -289,7 +292,7 @@ namespace Weapons
 			if (info.ToPlayer != null)
 			{
 				serverHolder = info.ToPlayer;
-				shooterRegisterTile = serverHolder.GetComponent<RegisterTile>();
+				shooterRegisterTile = serverHolder.registerTile;
 			}
 			else
 			{
@@ -402,7 +405,7 @@ namespace Weapons
 
 			if (FiringPin == null)
 			{
-				if (interaction.Performer == LocalPlayerManager.LocalPlayer)
+				if (interaction.Performer == LocalPlayerManager.CurrentMind)
 				{
 					Chat.AddExamineMsgToClient("The " + gameObject.ExpensiveName() + "'s trigger is locked. It doesn't have a firing pin installed!");
 				}
@@ -519,15 +522,14 @@ namespace Weapons
 			if (isServer && serverHolder == null) return;
 
 			//if we are client, make sure we've initialized
-			if (!isServer && !LocalPlayerManager.LocalPlayer) return;
+			if (!isServer && LocalPlayerManager.CurrentMind == null) return;
 
 			//if we are client, only process this if we are holding it
 			if (!isServer)
 			{
-				if (LocalPlayerManager.CurrentMind.DynamicItemStorage.OrNull()?.GetActiveHandSlot() == null) return;
-
-				var heldItem = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject;
-				if (gameObject != heldItem) return;
+				if (pickupable.ItemSlot == null) return;
+				if (pickupable.ItemSlot.Player == null) return;
+				if (pickupable.ItemSlot.Player == LocalPlayerManager.CurrentMind) return;
 			}
 
 			//update the time until the next shot can happen
@@ -796,7 +798,7 @@ namespace Weapons
 			if (!MatrixManager.IsInitialized) return;
 
 			//if this is our gun (or server), last check to ensure we really can shoot
-			if (isServer || LocalPlayerManager.LocalPlayer == shooter)
+			if (isServer || LocalPlayerManager.HasThisBody(shooter))
 			{
 				if (CurrentMagazine.ClientAmmoRemains <= 0)
 				{
@@ -809,7 +811,7 @@ namespace Weapons
 				CurrentMagazine.ExpendAmmo();
 			}
 			//TODO: If this is not our gun, simply display the shot, don't run any other logic
-			if (shooter == LocalPlayerManager.LocalPlayer)
+			if (LocalPlayerManager.HasThisBody(shooter))
 			{
 				//this is our gun so we need to update our predictions
 				FireCountDown += FireDelay;

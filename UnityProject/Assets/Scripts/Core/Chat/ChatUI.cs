@@ -808,13 +808,13 @@ public class ChatUI : MonoBehaviour
 
 	public ChatChannel GetAvailableChannels()
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind == null)
+		if (LocalPlayerManager.CurrentMind == null)
 		{
 			return ChatChannel.OOC;
 		}
 		else
 		{
-			return LocalPlayerManager.LocalPlayer.CurrentMind.GetAvailableChannelsMask();
+			return LocalPlayerManager.CurrentMind.GetAvailableChannelsMask();
 		}
 	}
 

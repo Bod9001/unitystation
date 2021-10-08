@@ -31,7 +31,7 @@ namespace Items.Food
 		/// </summary>
 		private void Heal(Mind player)
 		{
-			var livingHealth = player.GetComponent<LivingHealthMasterBase>();
+			var livingHealth = player.LivingHealthMasterBase;
 			foreach (BodyPart BodyPart in livingHealth.BodyPartList)
 			{
 				if (BodyPart.Brute > 0)

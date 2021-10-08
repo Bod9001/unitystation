@@ -105,14 +105,14 @@ namespace Items.Others
 		{
 			itemAttributesV2.AddTrait(CommonTraits.Instance.NoSlip);
 			playerMove.AddModifier(this);
-			playerMove.PlayerScript.pushPull.ServerSetPushable(false);
+			playerMove.PushPull.ServerSetPushable(false);
 		}
 
 		private void RemoveEffect()
 		{
 			itemAttributesV2.RemoveTrait(CommonTraits.Instance.NoSlip);
 			playerMove.RemoveModifier(this);
-			playerMove.PlayerScript.pushPull.ServerSetPushable(true);
+			playerMove.PushPull.ServerSetPushable(true);
 		}
 	}
 }

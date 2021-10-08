@@ -58,7 +58,7 @@ namespace Systems.Spells.Wizard
 		private void SyncPlayer(Mind oldPlayer, Mind newPlayer)
 		{
 			teleportingPlayer = newPlayer;
-			playerSprite = teleportingPlayer.transform.Find("Sprites");
+			playerSprite = teleportingPlayer.GameObjectBody.transform.Find("Sprites");
 
 			if (playerSprite == null)
 			{

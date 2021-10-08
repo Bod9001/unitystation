@@ -78,7 +78,7 @@ namespace Items.Weapons
 				return;
 
 			// Toggle the throw action after activation
-			if (interaction.Performer == LocalPlayerManager.LocalPlayer)
+			if (LocalPlayerManager.CurrentMind == interaction.Performer)
 			{
 				UIManager.Action.Throw();
 			}

@@ -17,6 +17,7 @@ public static class PlayerUtils
 	/// <returns>true iff playerObject is a ghost</returns>
 	public static bool IsGhost(Mind playerObject)
 	{
+		if (playerObject == null) return false;
 		return playerObject.IsGhosting;
 	}
 

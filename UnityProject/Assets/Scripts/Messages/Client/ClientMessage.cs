@@ -27,7 +27,7 @@ namespace Messages.Client
 
 		private static uint LocalPlayerId()
 		{
-			return LocalPlayerManager.LocalPlayer.GetComponent<NetworkIdentity>().netId;
+			return LocalPlayerManager.LocalConnectedPlayer.GetComponent<NetworkIdentity>().netId;
 		}
 	}
 }

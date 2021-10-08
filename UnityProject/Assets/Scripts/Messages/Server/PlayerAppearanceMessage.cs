@@ -42,7 +42,14 @@ namespace Messages.Server
 			{
 				if (!msg.IsBodySprites)
 				{
-					ClothingItem c = NetworkObjects[0].GetComponent<Equipment>().GetClothingItem((NamedSlot) msg.Index);
+					var Equipment = NetworkObjects[0].GetComponent<Equipment>();
+
+					if (Equipment == null)
+					{
+						return;
+					}
+
+					ClothingItem c = Equipment.GetClothingItem((NamedSlot) msg.Index);
 					if (msg.ItemNetID == NetId.Invalid)
 					{
 						if (!msg.ForceInit) c.SetReference(null);

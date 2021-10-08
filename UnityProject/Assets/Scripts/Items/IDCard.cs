@@ -100,13 +100,11 @@ public class IDCard : NetworkBehaviour, IServerInventoryMove, IServerSpawn, IInt
 			{
 				initialized = true;
 				//these checks protect against NRE when spawning a player who has no mind, like dummy
-				var ps = info.ToPlayer.GetComponent<PlayerScript>();
-				if (ps == null) return;
-				var mind = ps.mind;
+				var mind = info.ToPlayer;
 				if (mind == null) return;
 				var occupation = mind.occupation;
 				if (occupation == null) return;
-				var charSettings = ps.mind.OriginalCharacter;
+				var charSettings = info.ToPlayer.OriginalCharacter;
 				jobType = occupation.JobType;
 				if (jobType == JobType.CAPTAIN)
 				{

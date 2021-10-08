@@ -25,7 +25,7 @@ public class NetTouchScreen : NetUIStringElement
 
 	public StringEvent ServerMethod;
 
-	public override void ExecuteServer(ConnectedPlayer subject) {
+	public override void ExecuteServer(Mind subject) {
 		ServerMethod.Invoke(Value);
 	}
 }

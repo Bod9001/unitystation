@@ -11,7 +11,6 @@ namespace Messages.Server
 	{
 		public struct NetMessage : NetworkMessage
 		{
-			public uint Recipient;
 			public int SpriteIndex;
 			public Vector2Int OffsetFromPlayer;
 			public int ProgressBarID;
@@ -19,8 +18,6 @@ namespace Messages.Server
 
 		public override void Process(NetMessage msg)
 		{
-			LoadNetworkObject(msg.Recipient);
-
 			var bar = UIManager.GetProgressBar(msg.ProgressBarID);
 
 			//bar not found, so create it unless we are the server (in which case it would already be created)
@@ -48,7 +45,6 @@ namespace Messages.Server
 		{
 			NetMessage msg = new NetMessage
 			{
-				Recipient = recipient.GetComponent<NetworkIdentity>().netId,
 				SpriteIndex = spriteIndex,
 				OffsetFromPlayer = offsetFromPlayer,
 				ProgressBarID = progressBarID
@@ -69,7 +65,6 @@ namespace Messages.Server
 		{
 			NetMessage msg = new NetMessage
 			{
-				Recipient = recipient.GetComponent<NetworkIdentity>().netId,
 				SpriteIndex = spriteIndex,
 				ProgressBarID = progressBarID
 			};

@@ -60,27 +60,20 @@ namespace UI
 		public new void OnPointerEnter(PointerEventData eventData)
 		{
 			base.OnPointerEnter(eventData);
-			try
-			{
-				var item = PlayerManager.LocalPlayerScript?.DynamicItemStorage?.GetActiveHandSlot().Item;
-				if (item == null
-				    || itemSlot.Item != null
-				    || itemSlot.NamedSlot == NamedSlot.rightHand
-				    || itemSlot.NamedSlot == NamedSlot.leftHand)
-				{
-					return;
-				}
 
-				itemSlot.UpdateImage(item.gameObject,
-					Validations.CanPutItemToSlot(PlayerManager.LocalPlayerScript, itemSlot.ItemSlot, item,
-						NetworkSide.Client)
-						? successOverlayColor
-						: failOverlayColor);
-			}
-			catch (NullReferenceException exception)
+			var item = LocalPlayerManager.GetActiveHandSlot()?.Item;
+			if (item == null
+				|| itemSlot.Item != null
+				|| itemSlot.NamedSlot == NamedSlot.rightHand
+				|| itemSlot.NamedSlot == NamedSlot.leftHand)
 			{
-				Logger.LogError("Caught an NRE in UI_ItemSLot.OnPointerEnter() " + exception.Message, Category.UI);
+				return;
 			}
+			itemSlot.UpdateImage(item.gameObject,
+				Validations.CanPutItemToSlot(LocalPlayerManager.CurrentMind, itemSlot.ItemSlot, item, NetworkSide.Client)
+				? successOverlayColor : failOverlayColor);
+
+
 		}
 
 		public new void OnPointerExit(PointerEventData eventData)
@@ -102,11 +95,9 @@ namespace UI
 					return;
 
 				// if there's an item in the target slot, try inventory apply interaction
-
 				if (targetItem != null)
 				{
 					var invApply = InventoryApply.ByLocalPlayer(itemSlot.ItemSlot, fromSlot);
-
 					// check interactables in the fromSlot (if it's occupied)
 					var fromInteractables = fromSlot.ItemObject.GetComponents<IBaseInteractable<InventoryApply>>()
 						.Where(mb => mb != null && (mb as MonoBehaviour).enabled);

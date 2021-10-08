@@ -18,7 +18,7 @@ public abstract class Consumable : MonoBehaviour, ICheckedInteractable<HandApply
 			return;
 		}
 
-		var feederSlot = interaction.Performer.DynamicItemStorage.GetActiveHandSlot();
+		var feederSlot = interaction.Performer.GetActiveHandSlot();
 		if (feederSlot.Item == null)
 		{   //Already been eaten or the food is no longer in hand
 			return;

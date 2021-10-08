@@ -29,7 +29,7 @@ namespace Objects
 			}
 			var cnt = GetComponent<CustomNetTransform>();
 			var ps = interaction.Performer.GameObjectBody.GetComponent<PlayerScript>();
-			var pna = interaction.Performer.GetComponent<PlayerNetworkActions>();
+			var pna = interaction.Performer.playerNetworkActions;
 
 			return pna && interaction.Performer == interaction.TargetObject
 					   && interaction.DroppedObject == gameObject
@@ -41,7 +41,7 @@ namespace Objects
 		{
 			var folded = Spawn.ServerPrefab(prefabVariant).GameObject;
 			Inventory.ServerAdd(folded,
-				interaction.Performer.GetComponent<DynamicItemStorage>().GetActiveHandSlot());
+				interaction.Performer.GetActiveHandSlot());
 			// Remove from world
 			_ = Despawn.ServerSingle(gameObject);
 		}

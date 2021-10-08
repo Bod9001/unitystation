@@ -12,6 +12,10 @@ GameObject:
   - component: {fileID: 3436281613072367704}
   - component: {fileID: 676002436332534768}
   - component: {fileID: 8425208357042884}
+  - component: {fileID: 3698131757203936374}
+  - component: {fileID: 3406220307707654804}
+  - component: {fileID: 4378643806436614020}
+  - component: {fileID: 5667750735566661577}
   m_Layer: 0
   m_Name: Mind
   m_TagString: Untagged
@@ -45,17 +49,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38196b7d809184840971e7812a0120af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  AssignedPlayer: {fileID: 0}
   occupation: {fileID: 0}
   ghost: {fileID: 0}
-  body: {fileID: 0}
+  BrainID: 0
+  physicalPlayerBrain: {fileID: 0}
   PossessingObject: {fileID: 0}
+  playerNetworkActions: {fileID: 3698131757203936374}
+  PlayerEatDrinkEffects: {fileID: 0}
+  PlayerCrafting: {fileID: 3406220307707654804}
+  Cooldown: {fileID: 4378643806436614020}
+  CanSpeak: 1
+  IsSilicon: 0
+  IsRestrained: 0
+  Speech: 0
+  SpeechModifiers: 0
+  InternalDefaultChatChannel: 0
   IsGhosting: 0
   DenyCloning: 0
-  bodyMobID: 0
-  StepSound: {fileID: 0}
-  SecondaryStepSound: {fileID: 0}
-  inventorySpeechModifiers: 0
+  bodyID: 0
   ghostLocked: 0
+  PlayerOnlySyncValues: {fileID: 8425208357042884}
+  actionData: {fileID: 11400000, guid: 288088e3bb7768d41a2fe1b2c170fbce, type: 2}
 --- !u!114 &676002436332534768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,6 +100,64 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f2289be7f53edd4a99fd0e94ec456bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 1
+  syncInterval: 0
+--- !u!114 &3698131757203936374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943222481733935811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9451929b6fd9342dab7a272b50ef5aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  playerMind: {fileID: 3436281613072367704}
+--- !u!114 &3406220307707654804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943222481733935811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec8196c49f245629895b62b442ab8e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  defaultKnownRecipes: {fileID: 11400000, guid: 0b96641161704304fbde87724ab226b3,
+    type: 2}
+  RelatedMind: {fileID: 3436281613072367704}
+--- !u!114 &4378643806436614020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943222481733935811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 859b05c4e8c945cf932ff3427e9102df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5667750735566661577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943222481733935811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554f98ea43f440f4ea59c03fe31048d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   syncMode: 0

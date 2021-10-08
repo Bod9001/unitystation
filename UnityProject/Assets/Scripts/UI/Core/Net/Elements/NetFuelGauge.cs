@@ -39,7 +39,7 @@ public class NetFuelGauge : NetUIStringElement
 		}
 	}
 
-	public override void ExecuteServer(ConnectedPlayer subject)
+	public override void ExecuteServer(Mind subject)
 	{
 		ServerMethod.Invoke(Element.PercentageFuel);
 	}

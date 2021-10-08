@@ -98,7 +98,7 @@ namespace Messages.Client.NewPlayer
 		{
 			var characterSettings = JsonConvert.DeserializeObject<CharacterSettings>(msg.JsonCharSettings);
 			var spawnRequest = PlayerSpawnRequest.RequestOccupation(
-					SentByPlayer.ViewerScript, GameManager.Instance.GetRandomFreeOccupation(msg.JobType), characterSettings, SentByPlayer.UserId);
+					SentByPlayer.ViewerScript, SentByPlayer, GameManager.Instance.GetRandomFreeOccupation(msg.JobType), characterSettings, SentByPlayer.UserId);
 
 			GameManager.Instance.SpawnPlayerRequestQueue.Enqueue(spawnRequest);
 			GameManager.Instance.ProcessSpawnPlayerQueue();

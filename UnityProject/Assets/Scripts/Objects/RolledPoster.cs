@@ -85,7 +85,7 @@ namespace Items
 				.From(interaction.Performer.BodyWorldPosition.To2Int() - interaction.WorldPositionTarget).AsEnum();
 
 			Spawn.ServerPrefab(wallPrefab, interaction.WorldPositionTarget.RoundToInt(),
-				interaction.Performer.transform.parent);
+				interaction.Performer.GameObjectBody.transform.parent);
 
 			Inventory.ServerDespawn(interaction.HandSlot);
 		}

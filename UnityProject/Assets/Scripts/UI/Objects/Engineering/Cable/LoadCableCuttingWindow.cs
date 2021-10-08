@@ -50,7 +50,7 @@ public class LoadCableCuttingWindow : MonoBehaviour
 	private void OnEnable()
 	{
 		// store reference to player transform
-		localPlayerTransform = LocalPlayerManager.LocalPlayer.transform;
+		localPlayerTransform = LocalPlayerManager.CurrentMind.GameObjectBody.transform;
 	}
 
 	/// <summary>
@@ -60,8 +60,8 @@ public class LoadCableCuttingWindow : MonoBehaviour
 	{
 		// check only if object in player's hand has changed
 		// disable window if item is not wirecutter
-		if (itemInHand != LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject
-			&& !Validations.HasItemTrait(LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject, CommonTraits.Instance.Wirecutter))
+		if (itemInHand != LocalPlayerManager.GetActiveHandSlot().ItemObject
+			&& !Validations.HasItemTrait(LocalPlayerManager.GetActiveHandSlot().ItemObject, CommonTraits.Instance.Wirecutter))
 		{
 			return false;
 		}
@@ -114,7 +114,7 @@ public class LoadCableCuttingWindow : MonoBehaviour
 		cableCuttingWindow.SetWindowActive(true);
 
 		isWindowActive = true;
-		itemInHand = LocalPlayerManager.CurrentMind.DynamicItemStorage.GetActiveHandSlot().ItemObject;
+		itemInHand = LocalPlayerManager.GetActiveHandSlot().ItemObject;
 	}
 
 	/// <summary>

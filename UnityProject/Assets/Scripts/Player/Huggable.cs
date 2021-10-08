@@ -24,7 +24,7 @@ public class Huggable : MonoBehaviour, ICheckedInteractable<HandApply>
 			if (targetPlayerHealth.ConsciousState != ConsciousState.CONSCIOUS) return false;
 		}
 
-		var performerRegisterPlayer = interaction.Performer.GetComponent<RegisterPlayer>();
+		var performerRegisterPlayer = interaction.Performer.RegisterPlayer;
 		if (performerRegisterPlayer.IsLayingDown) return false;
 
 		return true;
@@ -64,7 +64,7 @@ public class Huggable : MonoBehaviour, ICheckedInteractable<HandApply>
 
 	private bool TryFieryHug()
 	{
-		var performerLHB = interaction.Performer.GetComponent<LivingHealthMasterBase>();
+		var performerLHB = interaction.Performer.LivingHealthMasterBase;
 		var targetLHB = interaction.TargetObject.GetComponent<LivingHealthMasterBase>();
 
 		if (performerLHB != null && targetLHB != null && (performerLHB.FireStacks > 0 || targetLHB.FireStacks > 0))

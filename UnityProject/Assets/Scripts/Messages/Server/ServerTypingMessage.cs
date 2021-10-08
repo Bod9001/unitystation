@@ -53,7 +53,7 @@ namespace Messages.Server
 				targetID = player.GameObjectBody.NetId()
 			};
 
-			var playerPos = player.transform.position;
+			var playerPos = player.BodyWorldPosition;
 			SendToNearbyPlayers(playerPos, msg);
 			return msg;
 		}

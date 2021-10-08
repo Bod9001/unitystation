@@ -21,7 +21,7 @@ namespace Items.Atmospherics
 			var metaDataLayer = MatrixManager.AtPoint(interaction.Performer.registerTile.WorldPositionServer, true).MetaDataLayer;
 			if (metaDataLayer != null)
 			{
-				var node = metaDataLayer.Get(interaction.Performer.transform.localPosition.RoundToInt());
+				var node = metaDataLayer.Get(interaction.Performer.GameObjectBody.transform.localPosition.RoundToInt());
 				if (node != null)
 				{
 					Chat.AddExamineMsgFromServer(interaction.Performer, GetGasMixInfo(node.GasMix));

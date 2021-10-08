@@ -24,12 +24,12 @@ public class ControlAction : MonoBehaviour
 	/// </summary>
 	public void Resist()
 	{
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			return;
 		}
 
-		LocalPlayerManager.LocalPlayer.CurrentMind.playerNetworkActions.CmdResist();
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdResist();
 
 		SoundManager.Play(CommonSounds.Instance.Click01);
 		Logger.Log("Resist Button", Category.UserInput);
@@ -42,9 +42,9 @@ public class ControlAction : MonoBehaviour
 	{
 		// if (!Validations.CanInteract(PlayerManager.LocalPlayerScript, NetworkSide.Client, allowCuffed: true)); Commented out because it does... nothing?
 
-		var currentSlot = LocalPlayerManager.LocalPlayer.CurrentMind.DynamicItemStorage.GetActiveHandSlot();
+		var currentSlot = LocalPlayerManager.GetActiveHandSlot();
 
-		if (LocalPlayerManager.LocalPlayer.CurrentMind.IsGhosting)
+		if (LocalPlayerManager.CurrentMind.IsGhosting)
 		{
 			return;
 		}
@@ -59,7 +59,7 @@ public class ControlAction : MonoBehaviour
 			Throw();
 		}
 
-		LocalPlayerManager.LocalPlayer.CurrentMind.playerNetworkActions.CmdDropItem(currentSlot.ItemStorage.gameObject.NetId(),
+		LocalPlayerManager.CurrentMind.playerNetworkActions.CmdDropItem(currentSlot.ItemStorage.gameObject.NetId(),
 			currentSlot.NamedSlot.GetValueOrDefault( NamedSlot.none ));
 		SoundManager.Play(CommonSounds.Instance.Click01);
 		Logger.Log("Drop Button", Category.UserInput);
@@ -82,7 +82,7 @@ public class ControlAction : MonoBehaviour
 		if (throwImage.sprite == throwSprites[0] && UIManager.IsThrow == false)
 		{
 			// Check if player can throw
-			if (!Validations.CanInteract(LocalPlayerManager.LocalPlayer.CurrentMind, NetworkSide.Client))
+			if (!Validations.CanInteract(LocalPlayerManager.CurrentMind, NetworkSide.Client))
 			{
 				return;
 			}
@@ -109,7 +109,7 @@ public class ControlAction : MonoBehaviour
 	{
 		if (pullImage && pullImage.enabled)
 		{
-			var ps = LocalPlayerManager.LocalPlayer.CurrentMind;
+			var ps = LocalPlayerManager.CurrentMind;
 			if (ps.PushPull != null)
 			{
 				ps.PushPull.CmdStopPulling();

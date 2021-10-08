@@ -198,7 +198,7 @@ public class WeaponNetworkActions : NetworkBehaviour
 
 		if (spriteRendererSource != null)
 		{
-			var projectile = Spawn.ClientPrefab("hitIcon", playerScript.transform.position, playerScript.transform.parent).GameObject;
+			var projectile = Spawn.ClientPrefab("hitIcon", playerScript.BodyWorldPosition, playerScript.GameObjectBody.transform.parent).GameObject;
 			var hitIcon = projectile.GetComponent<HitIcon>();
 			hitIcon.ShowHitIcon(stabDir, spriteRendererSource);
 		}
@@ -241,9 +241,9 @@ public class WeaponNetworkActions : NetworkBehaviour
 				{
 					ResetLerp();
 					spritesObj.transform.localPosition = Vector3.zero;
-					if (LocalPlayerManager.LocalPlayer)
+					if (LocalPlayerManager.CurrentMind != null)
 					{
-						if (LocalPlayerManager.LocalPlayer == gameObject)
+						if (LocalPlayerManager.HasThisBody(gameObject))
 						{
 							CmdRequestInputActivation(); // Ask server if you can move again after melee attack
 						}

@@ -92,7 +92,7 @@ namespace Antagonists
 		public void ServerSpawnAntag(Antagonist chosenAntag, PlayerSpawnRequest spawnRequest)
 		{
 			//spawn the antag using their custom spawn logic
-			var spawnedPlayer = chosenAntag.ServerSpawn(spawnRequest).Player();
+			var spawnedPlayer = chosenAntag.ServerSpawn(spawnRequest);
 
 			ServerFinishAntag(chosenAntag, spawnedPlayer.AssignedPlayer);
 		}

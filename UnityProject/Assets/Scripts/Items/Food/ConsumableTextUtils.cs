@@ -13,7 +13,7 @@ public static class ConsumableTextUtils
 			{
 				case HungerState.Full:
 					Chat.AddActionMsgToChat(eater, $"You cannot force any more of the {consumableName} to go down your throat!",
-					$"{eater.ExpensiveName()} cannot force any more of the {consumableName} to go down {eater.OriginalCharacter.TheirPronoun(eater)} throat!");
+					$"{eater.ExpensiveName()} cannot force any more of the {consumableName} to go down {eater.TheirPronoun()} throat!");
 					return; //Not eating!
 				case HungerState.Normal:
 					Chat.AddActionMsgToChat(eater, $"You unwillingly {eatVerb} the {consumableName}.", //"a bit of"
