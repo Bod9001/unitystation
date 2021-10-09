@@ -21,7 +21,7 @@ namespace Player.Movement
 	/// </summary>
 	public class PlayerMove : NetworkBehaviour, IRightClickable, IServerSpawn, IActionGUI, ICheckedInteractable<ContextMenuApply>, RegisterPlayer.IControlPlayerState
 	{
-		
+
 		public PlayerScript ActualPlayerScript;
 
 		public PlayerSync PlayerSync;
@@ -166,9 +166,6 @@ namespace Player.Movement
 			pna = gameObject.GetComponent<PlayerNetworkActions>();
 			registerPlayer.AddStatus(this);
 
-			RunSpeed = 1;
-			WalkSpeed = 1;
-			CrawlSpeed = 0f;
 		}
 
 		public override void OnStartClient()

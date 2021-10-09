@@ -9,7 +9,7 @@ namespace Objects.Disposals
 	/// A virtual container for disposal instances. Contains the disposed contents,
 	/// and allows the contents to be dealt with when the disposal instance ends.
 	/// </summary>
-	public class DisposalVirtualContainer : MonoBehaviour, IServerDespawn, IExaminable
+	public class DisposalVirtualContainer : MonoBehaviour, IServerDespawn, IExaminable, IContainPlayer
 	{
 		[Tooltip("The sound made when someone is trying to move in pipes.")]
 		[SerializeField]

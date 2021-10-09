@@ -492,17 +492,28 @@ public class Mind : NetworkBehaviour, IActionGUI
 		PlayerOnlySyncValues.ServerSetAntag(true);
 	}
 
-	public void Ghost()
+	public void Ghost(Vector3? NullGhostCoordinates = null)
 	{
-		var GhostCoordinates = BodyWorldPosition;
-		IsGhosting = true;
-		var playerSync = GameObjectBody.GetComponent<PlayerSync>();
-		if (playerSync != null)
+		if (NullGhostCoordinates != null)
 		{
-			playerSync.DisappearFromWorldServer();
-			playerSync.AppearAtPositionServer(GhostCoordinates);
-			playerSync.RollbackPrediction();
+			NullGhostCoordinates = NullGhostCoordinates.Value;
 		}
+		else
+		{
+			NullGhostCoordinates = BodyWorldPosition;
+		}
+		IsGhosting = true;
+		if (NullGhostCoordinates.Value != TransformState.HiddenPos)
+		{
+			var playerSync = GameObjectBody.GetComponent<PlayerSync>();
+			if (playerSync != null)
+			{
+				playerSync.DisappearFromWorldServer();
+				playerSync.AppearAtPositionServer(NullGhostCoordinates.Value);
+				playerSync.RollbackPrediction();
+			}
+		}
+
 		RPCGhost(AssignedPlayer.OrNull()?.Connection);
 	}
 

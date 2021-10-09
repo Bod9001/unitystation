@@ -764,7 +764,7 @@ public class DynamicItemStorage : NetworkBehaviour
 			if (NetworkIdentity.spawned.TryGetValue(addInt, out var spawned) == false)
 			{
 				Logger.LogError(
-					$"Failed to find object in spawned objects, might have not spawned yet? netId: {addInt}");
+					$"Failed to find object in spawned objects, might have not spawned yet? netId: {addInt}"); //sometimes can be called on stuff getting destroyed
 				continue;
 			}
 
@@ -792,6 +792,7 @@ public class DynamicItemStorage : NetworkBehaviour
 		{
 			foreach (var itemStorage in GetCorrectContainedInventorys().ToArray())
 			{
+				if (itemStorage.RelatedStorage == null) continue;
 				Remove(itemStorage);
 			}
 		}

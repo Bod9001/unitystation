@@ -13,10 +13,12 @@ namespace Objects.Drawers
 	/// </summary>
 	[RequireComponent(typeof(ObjectBehaviour))] // For setting held items' containers to the drawer.
 	[ExecuteInEditMode]
-	public class Drawer : NetworkBehaviour, IServerLifecycle, ICheckedInteractable<HandApply>
+	public class Drawer : NetworkBehaviour, IServerLifecycle, ICheckedInteractable<HandApply>, IContainPlayer
 	{
-	[SerializeField] private AddressableAudioSource BinOpenSFX = null;
-	[SerializeField] private AddressableAudioSource BinCloseSFX = null;
+		[SerializeField] private float PlayerEscapeTime = 4;
+
+		[SerializeField] private AddressableAudioSource BinOpenSFX = null;
+		[SerializeField] private AddressableAudioSource BinCloseSFX = null;
 
 		protected enum DrawerState
 		{
@@ -38,21 +40,22 @@ namespace Objects.Drawers
 		protected SpriteHandler drawerSpriteHandler;
 
 		protected Matrix Matrix => registerObject.Matrix;
+
 		protected Vector3Int DrawerWorldPosition => registerObject.WorldPosition;
+
 		// This script uses Matrix.Get(), which requires a local position, but Spawn requires a world position.
 		protected Vector3Int TrayWorldPosition => GetTrayPosition(DrawerWorldPosition); // Spawn requires world position
-		protected Vector3Int TrayLocalPosition => ((Vector3)TrayWorldPosition).ToLocalInt(Matrix);
+		protected Vector3Int TrayLocalPosition => ((Vector3) TrayWorldPosition).ToLocalInt(Matrix);
 
 		protected GameObject tray;
 		protected CustomNetTransform trayTransform;
 		protected ObjectBehaviour trayBehaviour;
 		protected SpriteHandler traySpriteHandler;
 
-		[SerializeField]
-		[Tooltip("The corresponding tray that the drawer will spawn.")]
+		[SerializeField] [Tooltip("The corresponding tray that the drawer will spawn.")]
 		protected GameObject trayPrefab = default;
-		[SerializeField]
-		[Tooltip("Whether the drawer can store players.")]
+
+		[SerializeField] [Tooltip("Whether the drawer can store players.")]
 		protected bool storePlayers = true;
 
 		protected DrawerState drawerState = DrawerState.Shut;
@@ -84,10 +87,12 @@ namespace Objects.Drawers
 			SpawnResult traySpawn = Spawn.ServerPrefab(trayPrefab, DrawerWorldPosition);
 			if (!traySpawn.Successful)
 			{
-				Logger.LogError($"Failed to spawn tray! Is {name} prefab missing reference to {nameof(traySpawn)} prefab?",
+				Logger.LogError(
+					$"Failed to spawn tray! Is {name} prefab missing reference to {nameof(traySpawn)} prefab?",
 					Category.Machines);
 				return;
 			}
+
 			tray = traySpawn.GameObject;
 
 			tray.GetComponent<InteractableDrawerTray>().parentDrawer = this;
@@ -141,12 +146,12 @@ namespace Objects.Drawers
 
 		private void UpdateSpriteState()
 		{
-			drawerSpriteHandler.ChangeSprite((int)drawerState);
+			drawerSpriteHandler.ChangeSprite((int) drawerState);
 		}
 
 		private void UpdateSpriteOrientation()
 		{
-			int spriteVariant = (int)GetSpriteDirection();
+			int spriteVariant = (int) GetSpriteDirection();
 			drawerSpriteHandler.ChangeSpriteVariant(spriteVariant);
 
 			if (traySpriteHandler != null)
@@ -208,7 +213,8 @@ namespace Objects.Drawers
 			EjectPlayers();
 
 			AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: Random.Range(0.8f, 1.2f));
-			SoundManager.PlayNetworkedAtPos(BinOpenSFX, DrawerWorldPosition, audioSourceParameters, sourceObj: gameObject);
+			SoundManager.PlayNetworkedAtPos(BinOpenSFX, DrawerWorldPosition, audioSourceParameters,
+				sourceObj: gameObject);
 			SetDrawerState(DrawerState.Open);
 		}
 
@@ -220,7 +226,8 @@ namespace Objects.Drawers
 			GatherItems();
 			if (storePlayers) GatherPlayers();
 			AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: Random.Range(0.8f, 1.2f));
-			SoundManager.PlayNetworkedAtPos(BinCloseSFX, DrawerWorldPosition, audioSourceParameters, sourceObj: gameObject);
+			SoundManager.PlayNetworkedAtPos(BinCloseSFX, DrawerWorldPosition, audioSourceParameters,
+				sourceObj: gameObject);
 			SetDrawerState(DrawerState.Shut);
 		}
 
@@ -292,5 +299,15 @@ namespace Objects.Drawers
 		}
 
 		#endregion Server Only
+
+		public virtual void PlayerTryEscaping(GameObject player)
+		{
+			if (player.TryGetComponent<ObjectBehaviour>(out var playerBehaviour) == false) return;
+			if (serverHeldPlayers.Contains(playerBehaviour) == false) return;
+
+			_ = StandardProgressAction
+				.Create(new StandardProgressActionConfig(StandardProgressActionType.Escape), OpenDrawer)
+				.ServerStartProgress(this.GetComponent<RegisterTile>(), PlayerEscapeTime, MindManager.StaticGet(player));
+		}
 	}
 }

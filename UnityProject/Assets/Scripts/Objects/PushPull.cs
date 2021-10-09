@@ -86,6 +86,7 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 		}
 	}
 
+	[SyncVar]
 	private PushPull _parentContainer = null;
 
 	/// <summary>

@@ -16,7 +16,7 @@ namespace Objects
 	/// Allows closet to be opened / closed / locked
 	/// </summary>
 	public class ClosetControl : NetworkBehaviour, ICheckedInteractable<HandApply>, IRightClickable,
-		IServerLifecycle
+		IServerLifecycle, IContainPlayer
 	{
 		private static readonly StandardProgressActionConfig ProgressConfig =
 			new StandardProgressActionConfig(StandardProgressActionType.Escape);
@@ -654,7 +654,7 @@ namespace Objects
 			}
 		}
 
-		public void PlayerTryEscaping(Mind player)
+		public void PlayerTryEscaping(GameObject player)
 		{
 			// First, try to just open the closet.
 			if (!isLocked && !isWelded)
@@ -664,7 +664,7 @@ namespace Objects
 			else
 			{
 				GameObject target = this.gameObject;
-				var performer = player;
+				var performer = MindManager.StaticGet(player) ;
 
 				void ProgressFinishAction()
 				{

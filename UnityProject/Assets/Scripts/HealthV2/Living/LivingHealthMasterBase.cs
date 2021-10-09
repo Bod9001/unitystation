@@ -1254,6 +1254,13 @@ namespace HealthV2
 			}
 			InternalNetIDs = NewInternalNetIDs;
 		}
+
+		[RightClickMethod("Destroy")]
+		public void ThisDestroy()
+		{
+			_ = Despawn.ServerSingle(this.gameObject);
+		}
+
 	}
 
 	/// <summary>

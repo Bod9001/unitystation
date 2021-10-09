@@ -4,6 +4,7 @@ using Systems.Clearance;
 using UnityEngine;
 using AddressableReferences;
 using HealthV2;
+using Messages.Server;
 
 namespace Objects.Drawers
 {
@@ -12,7 +13,7 @@ namespace Objects.Drawers
 	/// TODO: Implement activation via button when buttons can be assigned a generic component instead of only a DoorController component
 	/// and remove the activation by right-click option.
 	/// </summary>
-	public class Cremator : Drawer, IRightClickable, ICheckedInteractable<ContextMenuApply>
+	public class Cremator : Drawer, IRightClickable, ICheckedInteractable<ContextMenuApply>, IContainPlayer
 	{
 		[Tooltip("Sound used for cremation.")]
 		[SerializeField] private AddressableAudioSource CremationSound = null;
@@ -155,12 +156,14 @@ namespace Objects.Drawers
 			}
 		}
 
-		private void OnFinishPlayerCremation()
+		[NaughtyAttributes.Button("Destroy")]
+		  void OnFinishPlayerCremation()
 		{
 			foreach (var player in serverHeldPlayers)
 			{
 				// var playerScript = player.GetComponent<PlayerScript>();
 				// PlayerSpawn.ServerSpawnGhost(playerScript.mind);
+				FollowOverrideCameraMessage.Send(MindManager.StaticGet(player.gameObject), null);
 				_ = Despawn.ServerSingle(player.gameObject);
 			}
 
@@ -176,5 +179,8 @@ namespace Objects.Drawers
 		}
 
 		#endregion
+
+
+
 	}
 }

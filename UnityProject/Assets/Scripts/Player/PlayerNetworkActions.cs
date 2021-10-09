@@ -109,8 +109,8 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 		}
 		else if (playerMind.PlayerMove.IsCuffed) // Check if cuffed.
 		{
-			if (this.GetComponent<PlayerScript>().playerSprites != null &&
-			    this.GetComponent<PlayerScript>().playerSprites.clothes.TryGetValue(NamedSlot.handcuffs, out var cuffsClothingItem))
+			if (playerMind.GameObjectBody.GetComponent<PlayerScript>().playerSprites != null &&
+			    playerMind.GameObjectBody.GetComponent<PlayerScript>().playerSprites.clothes.TryGetValue(NamedSlot.handcuffs, out var cuffsClothingItem))
 			{
 				if (cuffsClothingItem != null &&
 				    cuffsClothingItem.TryGetComponent<RestraintOverlay>(out var restraintOverlay))
@@ -131,7 +131,7 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 	IEnumerator Roll()
 	{
 		//Can't roll if you're already rolling or have slipped
-		if (IsRolling || (playerMind.registerTile as RegisterPlayer).IsSlippingServer)
+		if (IsRolling || (playerMind.RegisterPlayer).IsSlippingServer)
 		{
 			yield return null;
 		}
@@ -139,9 +139,9 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 		IsRolling = true;
 
 		// Drop the player if they aren't already, prevent them from moving until the action is complete
-		if ((playerMind.registerTile as RegisterPlayer).IsLayingDown == false)
+		if ((playerMind.RegisterPlayer).IsLayingDown == false)
 		{
-			(playerMind.registerTile as RegisterPlayer).ServerSetIsStanding(false);
+			(playerMind.RegisterPlayer).ServerSetIsStanding(false);
 			SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.Bodyfall, transform.position, sourceObj: gameObject);
 		}
 		playerMind.PlayerMove.allowInput = false;
@@ -164,7 +164,7 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 		{
 			//Can only roll if you're conscious and not stunned
 			if (playerMind.LivingHealthMasterBase.ConsciousState != ConsciousState.CONSCIOUS ||
-			    (playerMind.registerTile as RegisterPlayer).IsSlippingServer)
+			    (playerMind.RegisterPlayer).IsSlippingServer)
 			{
 				break;
 			}
@@ -184,13 +184,13 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 		if (playerMind.LivingHealthMasterBase.FireStacks == 0)
 		{
 			playerMind.LivingHealthMasterBase.Extinguish();
-			(playerMind.registerTile as RegisterPlayer).ServerStandUp(true);
+			(playerMind.RegisterPlayer).ServerStandUp(true);
 			playerMind.PlayerMove.allowInput = true;
 		}
 
 		//Allow barely conscious players to move again if they are not stunned
 		if (playerMind.LivingHealthMasterBase.ConsciousState == ConsciousState.BARELY_CONSCIOUS
-		    && (playerMind.registerTile as RegisterPlayer).IsSlippingServer == false) {
+		    && (playerMind.RegisterPlayer).IsSlippingServer == false) {
 			playerMind.PlayerMove.allowInput = true;
 		}
 

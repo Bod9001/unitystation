@@ -387,10 +387,9 @@ public partial class PlayerSync
 
 	private PlayerState NextStateClient(PlayerState state, PlayerAction action, bool isReplay)
 	{
-		if ( !playerScript.IsGhost )
-		{
+
 			SpeedClient = ActionSpeed(action);
-		}
+
 
 		var nextState = NextState(state, action, isReplay);
 
@@ -686,9 +685,13 @@ public partial class PlayerSync
 			}
 			else
 			{
-				transform.localPosition =
-					Vector3.MoveTowards(transform.localPosition, targetPos,
-										predictedState.Speed * Time.deltaTime * transform.localPosition.SpeedTo(targetPos));
+				var localPosition = transform.localPosition;
+
+				localPosition =
+					Vector3.MoveTowards(localPosition, targetPos,
+										predictedState.Speed * Time.deltaTime * localPosition.SpeedTo(targetPos));
+
+				transform.localPosition = localPosition;
 			}
 
 			if (ClientPositionReady)

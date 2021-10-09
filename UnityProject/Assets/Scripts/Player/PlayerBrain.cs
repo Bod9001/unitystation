@@ -5,7 +5,7 @@ using Initialisation;
 using Mirror;
 using UnityEngine;
 
-public class PlayerBrain : NetworkBehaviour
+public class PlayerBrain : NetworkBehaviour, IServerDespawn
 {
 	[SyncVar]
 	public GameObject ConnectedBody;
@@ -116,5 +116,10 @@ public class PlayerBrain : NetworkBehaviour
 	public virtual void UpdateClientAuthority(ConnectedPlayer ConnectedPlayer,Mind Mind)
 	{
 		Logger.LogError("Assign player control ( connection stuff identity )");
+	}
+
+	public void OnDespawnServer(DespawnInfo info)
+	{
+		RelatedMind.Ghost(info.GameObject.WorldPosServer());
 	}
 }
