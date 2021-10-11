@@ -361,8 +361,7 @@ public class CustomNetworkManager : NetworkManager, IInitialise
 	/// server actions when client disconnects
 	public override void OnServerDisconnect(NetworkConnection conn)
 	{
-		//register them as removed from our own player list
-		PlayersManager.Instance.RemoveByConnection(conn);
+
 
 		//NOTE: We don't call the base.OnServerDisconnect method because it destroys the player object -
 		//we want to keep the object around so player can rejoin and reenter their body.
@@ -371,8 +370,11 @@ public class CustomNetworkManager : NetworkManager, IInitialise
 		//a different temporary object, remove authority from the original, and then run the normal disconnect logic
 
 		//transfer to a temporary object
-		GameObject disconnectedViewer = Instantiate(CustomNetworkManager.Instance.disconnectedViewerPrefab);
-		NetworkServer.ReplacePlayerForConnection(conn, disconnectedViewer, System.Guid.NewGuid());
+		var Player = PlayersManager.Instance.Get(conn);
+		Player.CurrentMind.OrNull()?.OnPlayerDisconnect();
+
+		//register them as removed from our own player list
+		PlayersManager.Instance.RemoveByConnection(conn);
 
 		//now we can call mirror's normal disconnect logic, which will destroy all the player's owned objects
 		//which will preserve their actual body because they no longer own it

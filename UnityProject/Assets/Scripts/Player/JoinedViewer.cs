@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Net.NetworkInformation;
 using Systems;
 using Mirror;
@@ -21,12 +22,26 @@ public class JoinedViewer : NetworkBehaviour
 	public override void OnStartLocalPlayer()
 	{
 		base.OnStartLocalPlayer();
-		RequestObserverRefresh.Send(SceneManager.GetActiveScene().name);
+		CmdRequestSceneList();
+		SubSceneManager.Instance.StartingScene = SceneManager.GetActiveScene().name;
+
 		LocalPlayerManager.SetViewerForControl(this);
 
 		CmdServerSetupPlayer(GetNetworkInfo(),
 			LocalPlayerManager.CurrentCharacterSettings.Username, DatabaseAPI.ServerData.UserID, GameData.BuildNumber,
 			DatabaseAPI.ServerData.IdToken);
+	}
+
+	[Command]
+	private void CmdRequestSceneList(NetworkConnectionToClient conn = null)
+	{
+		var INList = new List<string>();
+		foreach (var Seeninfo in SubSceneManager.Instance.loadedScenesList)
+		{
+			INList.Add(Seeninfo.SceneName);
+		}
+
+		SendSceneList.Send(conn, INList);
 	}
 
 	[Command]
@@ -93,7 +108,7 @@ public class JoinedViewer : NetworkBehaviour
 
 
 		// Check if they have a player to rejoin before creating a new ConnectedPlayer
-		var RelatedConnectedPlayer = PlayersManager.Instance.RemovePlayerbyClientId(unverifiedClientId, unverifiedUserid);
+		var RelatedConnectedPlayer = PlayersManager.Instance.RemovePlayerbyClientId(unverifiedClientId, Userid);
 		if (RelatedConnectedPlayer == null)
 		{
 			// Register player to player list (logging code exists in PlayerList so no need for extra logging here)
@@ -131,6 +146,10 @@ public class JoinedViewer : NetworkBehaviour
 
 		PlayersManager.Instance.CheckAdminState(RelatedConnectedPlayer, Userid);
 		PlayersManager.Instance.CheckMentorState(RelatedConnectedPlayer, Userid);
+
+		this.name = Userid + " Joined Viewer";
+
+		PlayerSpawn.ServerForceAssignPlayerAuthority(connectionToClient, this.gameObject);
 	}
 
 	/// <summary>
@@ -141,7 +160,7 @@ public class JoinedViewer : NetworkBehaviour
 		TargetLocalPlayerRejoinUI(connectionToClient);
 		// TODO: When we have scene network culling we will need to allow observers
 		// for the whole specific scene and the body before doing the logic below:
-		var netIdentity = loggedOffPlayer.ghost.GetComponent<NetworkIdentity>();
+		var netIdentity = loggedOffPlayer.GetComponent<NetworkIdentity>();
 		if (netIdentity == null)
 		{
 			Logger.LogError($"No {nameof(NetworkIdentity)} component on {loggedOffPlayer}! " +

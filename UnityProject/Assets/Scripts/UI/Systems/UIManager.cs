@@ -431,9 +431,9 @@ public class UIManager : MonoBehaviour, IInitialise
 	{
 		//convert to local position so it appears correct on moving matrix
 		//do not use tileworldposition for actual spawn position - bar will appear shifted on moving matrix
-		var targetWorldPosition = LocalPlayerManager.CurrentMind.GameObjectBody.AssumedWorldPosServer() +
+		var targetWorldPosition = LocalPlayerManager.CurrentMind.BodyWorldPosition +
 		                          offsetFromPlayer.To3Int();
-		var targetTilePosition = LocalPlayerManager.CurrentMind.GameObjectBody.AssumedWorldPosServer().To2Int() +
+		var targetTilePosition = LocalPlayerManager.CurrentMind.BodyWorldPosition.To2Int() +
 		                         offsetFromPlayer;
 		var targetMatrixInfo = MatrixManager.AtPoint(targetTilePosition.To3Int(), true);
 		var targetParent = targetMatrixInfo.Objects;

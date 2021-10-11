@@ -40,7 +40,7 @@ public static class PlayerSpawn
 			request.ConnectedPlayer.CurrentMind = request.ExistingMind;
 		}
 
-		NetworkServer.ReplacePlayerForConnection(request.ConnectedPlayer.Connection, request.ExistingMind.gameObject);
+		ServerForceAssignPlayerAuthority(request.ConnectedPlayer.Connection, request.ExistingMind.gameObject);
 
 		request.ConnectedPlayer.TargetUpdateMindClient(request.ConnectedPlayer.Connection, request.ExistingMind);
 
@@ -274,19 +274,21 @@ public static class PlayerSpawn
 	/// <param name="Mind"></param>
 	public static void ServerAssignMind(ConnectedPlayer ConnectedPlayer, Mind Mind)
 	{
-		NetworkServer.ReplacePlayerForConnection(ConnectedPlayer.Connection, Mind.gameObject);
+		ServerForceAssignPlayerAuthority(ConnectedPlayer.Connection, Mind.gameObject);
 
 		ConnectedPlayer.TargetUpdateMindClient(ConnectedPlayer.Connection, Mind);
 
 
-		ServerAssignPlayerAuthorityBody(Mind, Mind.ghost);
-		ServerAssignPlayerAuthorityBody(Mind, Mind.physicalPlayerBrain.gameObject);
+		ServerForceAssignPlayerAuthority(Mind, Mind.ghost);
+		ServerForceAssignPlayerAuthority(Mind, Mind.physicalPlayerBrain.OrNull()?.gameObject);
+
 		if (Mind.physicalPlayerBrain != null)
 		{
 			Mind.physicalPlayerBrain.UpdateClientAuthority(ConnectedPlayer, Mind);
 		}
 
 		Mind.ResendSpellActions();
+		Mind.OnPlayerRegister();
 	}
 
 
@@ -319,7 +321,7 @@ public static class PlayerSpawn
 	/// <param name="newBody">The character gameobject to be transfered into.</param>
 	/// <param name="eventType">Event type for the player sync.</param>
 	/// thus we shouldn't send any network message which reference's the old body's ID since it won't exist.</param>
-	public static void ServerAssignPlayerAuthorityBody(Mind Mind, GameObject newBody)
+	public static void ServerForceAssignPlayerAuthority(Mind Mind, GameObject newBody)
 	{
 		if (newBody == null) return;
 		if (Mind.AssignedPlayer.OrNull()?.Connection == null) return;
@@ -327,28 +329,30 @@ public static class PlayerSpawn
 		var NetworkIdentity = newBody.GetComponent<NetworkIdentity>();
 		if (NetworkIdentity != null)
 		{
+			if (NetworkIdentity.connectionToClient != null)
+			{
+				NetworkIdentity.RemoveClientAuthority();
+			}
+
 			NetworkIdentity.AssignClientAuthority(Mind.AssignedPlayer.Connection);
 		}
 	}
 
-
-	/// <summary>
-	/// Server-side only. Transfers control of a player object to the indicated connection.
-	/// </summary>
-	/// <param name="newBody">The character gameobject to be transfered into.</param>
-	/// <param name="eventType">Event type for the player sync.</param>
-	/// thus we shouldn't send any network message which reference's the old body's ID since it won't exist.</param>
-	public static void ServerUnassignPlayerBody(Mind Mind, GameObject oldBody)
+	public static void ServerForceAssignPlayerAuthority(NetworkConnection Connection, GameObject newBody)
 	{
-		if (Mind.AssignedPlayer.OrNull()?.Connection == null) return;
+		if (newBody == null) return;
+		if (Connection == null) return;
 
-		var NetworkIdentity = oldBody.GetComponent<NetworkIdentity>();
+		var NetworkIdentity = newBody.GetComponent<NetworkIdentity>();
 		if (NetworkIdentity != null)
 		{
-			if (NetworkIdentity.connectionToClient == Mind.AssignedPlayer.Connection)
+			if (NetworkIdentity.connectionToClient != Connection)
 			{
 				NetworkIdentity.RemoveClientAuthority();
 			}
+
+			NetworkIdentity.AssignClientAuthority(Connection);
 		}
 	}
+
 }

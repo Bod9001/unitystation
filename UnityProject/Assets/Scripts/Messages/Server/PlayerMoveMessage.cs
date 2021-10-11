@@ -24,6 +24,7 @@ namespace Messages.Server
 		/// To be run on client
 		public override void Process(NetMessage msg)
 		{
+			if (msg.PlayerSync == null) return; //People moving while map is loading type of thing
 			msg.PlayerSync.UpdateClientState(msg.State);
 
 			if (  LocalPlayerManager.HasThisBody(NetworkObject) ) {

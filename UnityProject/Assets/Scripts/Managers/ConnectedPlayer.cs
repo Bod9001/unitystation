@@ -37,12 +37,6 @@ public class ConnectedPlayer : NetworkBehaviour
 		return $"ConnectedPlayer {nameof(Username)}: {Username}, {nameof(ClientId)}: {ClientId}, {nameof(UserId)}: {UserId}, {nameof(Connection)}: {Connection}";
 	}
 
-	public void Start()
-	{
-		Logger.Log("o3o");
-	}
-
-
 	//used for telling the client what Connected player Set currently
 	[TargetRpc]
 	public void TargetUpdateClient(NetworkConnection ToWho)
@@ -57,5 +51,7 @@ public class ConnectedPlayer : NetworkBehaviour
 	{
 		CurrentMind = mind;
 		mind.AssignedPlayer = this;
+
+
 	}
 }

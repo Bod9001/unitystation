@@ -108,6 +108,18 @@ public static class SweetExtensions
 		}
 	}
 
+	public static uint NetIdOptimal(this GameObject go)
+	{
+		if (go)
+		{
+			return go.GetComponent<NetworkIdentity>().netId;
+		}
+		else
+		{
+			return global::NetId.Invalid; //maxValue is invalid (see NetId.cs)
+		}
+	}
+
 	/// Creates garbage! Use very sparsely!
 	public static Vector3 AssumedWorldPosServer(this GameObject go)
 	{

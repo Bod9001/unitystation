@@ -61,14 +61,30 @@ public class Mind : NetworkBehaviour, IActionGUI
 	[SyncVar]
 	public GameObject ghost;
 
-	[SyncVar(hook = nameof(SynchronisePhysicalBrainuint))] public uint BrainID;
 
 
 	[FormerlySerializedAs("PhysicalBrain")] public PlayerBrain physicalPlayerBrain;
 
-	[SyncVar]
-	public GameObject PossessingObject;
+	[SyncVar(hook = nameof(SynchronisePossessingObject))] //Should update here to
+	public uint PossessingObjectID = global::NetId.Invalid;
 
+
+	private GameObject possessingObject;
+
+
+	public GameObject PossessingObject
+	{
+		get
+		{
+			if (possessingObject == null)
+			{
+
+				if (PossessingObjectID == global::NetId.Invalid) return null;
+				SynchronisePossessingObject(PossessingObjectID, PossessingObjectID);
+			}
+			return possessingObject;
+		}
+	}
 
 	public DynamicItemStorage DynamicItemStorage => GameObjectBody.GetComponent<DynamicItemStorage>();
 
@@ -87,13 +103,16 @@ public class Mind : NetworkBehaviour, IActionGUI
 	public PlayerEatDrinkEffects PlayerEatDrinkEffects;
 
 
-	public void SynchronisePhysicalBrainuint(uint old, uint unew)
+	private void SynchronisePossessingObject(uint old, uint unew)
 	{
-		BrainID = unew;
+		PossessingObjectID = unew;
 
-		if (NetworkIdentity.spawned.ContainsKey(BrainID) == false) return;
-
-		physicalPlayerBrain = NetworkIdentity.spawned[BrainID].GetComponent<PlayerBrain>();
+		if (PossessingObjectID == -1) return;
+		if (NetworkIdentity.spawned.TryGetValue(PossessingObjectID, out var outpossessingObject ))
+		{
+			possessingObject = outpossessingObject.gameObject;
+			physicalPlayerBrain = outpossessingObject.GetComponent<PlayerBrain>();
+		}
 	}
 
 	public GameObject GameObjectBody
@@ -144,7 +163,21 @@ public class Mind : NetworkBehaviour, IActionGUI
 
 	public LivingHealthMasterBase playerHealth => LivingHealthMasterBase;
 
-	public Vector3 BodyWorldPosition => GameObjectBody.AssumedWorldPosServer();
+	public Vector3 BodyWorldPosition
+	{
+		get
+		{
+			if (isServer)
+			{
+				return GameObjectBody.AssumedWorldPosServer();
+			}
+			else
+			{
+				return GameObjectBody.transform.position;
+			}
+		}
+	}
+
 
 	public Vector3Int BodyWorldPositionInt => GameObjectBody.AssumedWorldPosServer().RoundToInt();
 
@@ -171,15 +204,10 @@ public class Mind : NetworkBehaviour, IActionGUI
 	{
 		if (gameObject.TryGetComponent<PlayerBrain>(out var Brain))
 		{
-			SynchronisePhysicalBrainuint(0, Brain.netId);
 			physicalPlayerBrain = Brain;
 			Brain.RelatedMind = this;
-			PossessingObject = gameObject;
 		}
-		else
-		{
-			PossessingObject = gameObject;
-		}
+		SynchronisePossessingObject(PossessingObject.NetIdOptimal(), gameObject.NetIdOptimal());
 	}
 
 
@@ -343,6 +371,13 @@ public class Mind : NetworkBehaviour, IActionGUI
 	}
 
 
+	//make sure to use "override" and use correct name "OnStartClient"
+	public override void OnStartClient()
+	{
+		SynchronisePossessingObject(PossessingObject.NetIdOptimal(), PossessingObject.NetIdOptimal());
+		base.OnStartClient();
+	}
+
 	public PlayerPronoun GetPronouns()
 	{
 		if (IdentityVisible)
@@ -421,13 +456,13 @@ public class Mind : NetworkBehaviour, IActionGUI
 	public void SetGhost(GameObject Ghost)
 	{
 		//LoadManager.RegisterActionDelayed( () => PlayerSpawn.ServerAssignPlayerAuthorityBody(this, Ghost) ,2  ); ;
-		PlayerSpawn.ServerAssignPlayerAuthorityBody(this, Ghost);
+		PlayerSpawn.ServerForceAssignPlayerAuthority(this, Ghost);
 		ghost = Ghost;
 	}
 
 	public void PossessNewObject(GameObject InPossessingObject, bool addRoleAbilities = false)
 	{
-		PlayerSpawn.ServerAssignPlayerAuthorityBody(this, InPossessingObject);
+		PlayerSpawn.ServerForceAssignPlayerAuthority(this, InPossessingObject);
 
 		ClearOldBody();
 		SetBody(InPossessingObject);
@@ -466,7 +501,7 @@ public class Mind : NetworkBehaviour, IActionGUI
 
 	private void ClearOldBody()
 	{
-		PossessingObject = null;
+		SynchronisePossessingObject(PossessingObject.NetIdOptimal(), global::NetId.Invalid);
 		if (physicalPlayerBrain != null)
 		{
 			physicalPlayerBrain.RelatedMind = null;
@@ -788,6 +823,41 @@ public class Mind : NetworkBehaviour, IActionGUI
 		}
 
 		return ChosenCharacter;
+	}
+
+	public void OnPlayerDisconnect()
+	{
+		this.netIdentity.RemoveClientAuthority();
+		ghost.GetComponent<NetworkIdentity>().RemoveClientAuthority();
+		if (PossessingObject != null)
+		{
+			PossessingObject.GetComponent<NetworkIdentity>().RemoveClientAuthority();
+		}
+
+		if (physicalPlayerBrain != null)
+		{
+			physicalPlayerBrain.OnPlayerDisconnect();
+		}
+	}
+
+	public void OnPlayerUnRegister()
+	{
+		Logger.LogError("TODO Implement");
+	}
+
+	public void OnPlayerRegister()
+	{
+		if (IsGhosting)
+		{
+			RPCGhost(AssignedPlayer.OrNull()?.Connection);
+		}
+		else
+		{
+			if (physicalPlayerBrain != null)
+			{
+				physicalPlayerBrain.ReEnterBody();
+			}
+		}
 	}
 
 	/// <summary>

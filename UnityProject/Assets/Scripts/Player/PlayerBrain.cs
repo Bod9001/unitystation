@@ -46,7 +46,7 @@ public class PlayerBrain : NetworkBehaviour, IServerDespawn
 	{
 		if (ConnectedBody != null) //TODO Is a simple Check to more advanced
 		{
-			UIManager.Display.hudBottomHuman.gameObject.SetActive(true);
+			//UIManager.Display.hudBottomHuman.gameObject.SetActive(true);
 			SetPlayerControl(RelatedMind.AssignedPlayer.Connection, ConnectedBody);
 			ServerSetupPlayer();
 		}
@@ -54,7 +54,7 @@ public class PlayerBrain : NetworkBehaviour, IServerDespawn
 
 	public virtual void AssignedToBody(GameObject Body)
 	{
-		PlayerSpawn.ServerAssignPlayerAuthorityBody(RelatedMind, Body);
+		PlayerSpawn.ServerForceAssignPlayerAuthority(RelatedMind, Body);
 		ConnectedBody = Body;
 		RelatedMind.IsGhosting = false;
 		ReEnterBody();
@@ -115,11 +115,25 @@ public class PlayerBrain : NetworkBehaviour, IServerDespawn
 
 	public virtual void UpdateClientAuthority(ConnectedPlayer ConnectedPlayer,Mind Mind)
 	{
-		Logger.LogError("Assign player control ( connection stuff identity )");
+		if (ConnectedBody != null)
+		{
+			PlayerSpawn.ServerForceAssignPlayerAuthority(Mind, ConnectedBody);
+		}
+
+		//Logger.LogError("Assign player control ( connection stuff identity )");
 	}
 
 	public void OnDespawnServer(DespawnInfo info)
 	{
 		RelatedMind.Ghost(info.GameObject.WorldPosServer());
+	}
+
+	public void OnPlayerDisconnect()
+	{
+		netIdentity.RemoveClientAuthority();
+		if (ConnectedBody != null)
+		{
+			ConnectedBody.GetComponent<NetworkIdentity>().RemoveClientAuthority();
+		}
 	}
 }
