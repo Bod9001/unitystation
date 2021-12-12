@@ -41,7 +41,7 @@ public partial class PlayerSync
 	private Queue<PlayerAction> serverPendingActions;
 
 	/// Max size of serverside queue, client will be rolled back if it overflows
-	private readonly int maxServerQueue = 10;
+	private readonly int maxServerQueue = 4;
 
 	private HashSet<PushPull> questionablePushables = new HashSet<PushPull>();
 
@@ -80,6 +80,9 @@ public partial class PlayerSync
 			return MatrixManager.IsFloatingAt(context, Vector3Int.RoundToInt(serverState.WorldPosition), isServer: true, registerPlayer.Matrix.MatrixInfo);
 		}
 	}
+
+	public bool IsNoGravityAt => Matrix.IsNoGravityAt(serverState.LocalPosition.RoundToInt(), true);
+
 
 	/// <summary>
 	/// If the position of this player is "non-sticky", i.e. meaning they would slide / float in a given direction
@@ -143,19 +146,19 @@ public partial class PlayerSync
 			return;
 		}
 
+		//Rollback pos and punish player if server queue size is more than max size
+		if (serverPendingActions.Count > maxServerQueue)
+		{
+			return;
+		}
+
 		//add action to server simulation queue
 		serverPendingActions.Enqueue(action);
 
 		lastAddedAction = action;
 
 
-		//Rollback pos and punish player if server queue size is more than max size
-		if (serverPendingActions.Count > maxServerQueue)
-		{
-			RollbackPosition();
-			Logger.LogWarning($"{gameObject.name}: Server pending actions overflow! (More than {maxServerQueue})." +
-							   "\nEither server lagged or player is attempting speedhack", Category.Movement);
-		}
+
 	}
 
 	public void SetVisibleServer(bool visible)
@@ -455,145 +458,22 @@ public partial class PlayerSync
 		{
 			return;
 		}
-		if (consideredFloatingServer || !serverState.Active || CanNotSpaceMoveServer || (pushPull && pushPull.IsBeingPulled))
-		{
-			Logger.LogWarning("Server ignored queued move while player isn't supposed to move", Category.Movement);
-			ClearQueueServer();
-			RollbackPosition();
-			return;
-		}
 
 		var curState = serverState;
 		PlayerState nextState = NextStateServer(curState, serverPendingActions.Dequeue());
-
-		if (Equals(curState, nextState))
-		{
-			TryUpdateServerTarget();
-			return;
-		}
 
 		var newPos = nextState.WorldPosition;
 		var oldPos = serverState.WorldPosition;
 		lastDirectionServer = Vector2Int.RoundToInt(newPos - oldPos);
 		ServerState = nextState;
 		//In case positions already match
-		if (lastDirectionServer != Vector2.zero)
-		{
-			CheckMovementServer();
-			OnStartMove().Invoke(oldPos.RoundToInt(), newPos.RoundToInt());
-			SyncMatrix();
-		}
-
-		//Logger.Log($"Server Updated target {serverTargetState}. {serverPendingActions.Count} pending");
 	}
 
 	/// Main server movement processing / validation logic.
 	[Server]
 	private PlayerState NextStateServer(PlayerState state, PlayerAction action)
 	{
-		// if player is in RCS mode and MatrixMove is not null
-		if (playerScript.RcsMode && playerScript.RcsMatrixMove)
-		{
-			Vector2Int dir = action.Direction();
-			// try to move shuttle on server side
-			playerScript.RcsMatrixMove.RcsMoveServer(Orientation.From(dir));
-
-			// don't move player while in RCS mode so return state without any changes
-			return state;
-		}
-
-		//movement not allowed when buckled
-		if (playerMove.IsBuckled)
-		{
-			Logger.LogWarning($"Ignored {action}: player is bucked, rolling back!", Category.Movement);
-			RollbackPosition();
-			return state;
-		}
-
-		//Check if there is a bump interaction according to the server
-		BumpType serverBump = CheckSlideAndBump(state, isServer: true, ref action);
-
-		//Client only needs to check whether movement was prevented, specific type of bump doesn't matter
-		bool isClientBump = action.isBump;
-
-		if (!playerScript.playerHealth || !playerScript.registerTile.IsLayingDown)
-		{
-			SpeedServer = ActionSpeed(action);
-		}
-
-		//we only lerp back if the client thinks it's passable  but server does not...if client
-		//thinks it's not passable and server thinks it's passable, then it's okay to let the client continue
-		if (isClientBump == false && serverBump != BumpType.None && serverBump != BumpType.Swappable)
-		{
-			Logger.LogWarningFormat("isBump mismatch, resetting: C={0} S={1}", Category.Movement, isClientBump, serverBump != BumpType.None);
-			RollbackPosition();
-			//laggy client may have predicted a swap with another player,
-			//in which case they must also roll back that player
-			if (serverBump == BumpType.Push || serverBump == BumpType.Blocked)
-			{
-				var worldTarget = state.WorldPosition.RoundToInt() + (Vector3Int)action.Direction();
-				var swapee = MatrixManager.GetAs<RegisterPlayer>(worldTarget, true);
-				if (swapee != null && swapee.Count > 0)
-				{
-					swapee[0].PlayerScript.PlayerSync.RollbackPosition();
-				}
-			}
-		}
-		if (isClientBump || (serverBump != BumpType.None && serverBump != BumpType.Swappable))
-		{
-			// we bumped something, an interaction might occur
-			// try pushing things / opening doors
-			if (Validations.CanInteract(playerScript, NetworkSide.Server, allowCuffed: true) || serverBump == BumpType.ClosedDoor)
-			{
-				BumpInteract(state.WorldPosition, (Vector2)action.Direction());
-			}
-
-			//don't change facing when diagonally opening a door
-			var dir = action.Direction();
-			if (!(dir.x != 0 && dir.y != 0 && serverBump == BumpType.ClosedDoor))
-			{
-				playerDirectional.FaceDirection(Orientation.From(action.Direction()));
-			}
-
-			return state;
-		}
-
-		//check for a swap
-		bool swapped = false;
-		if (serverBump == BumpType.Swappable)
-		{
-			swapped = CheckAndDoSwap(state.WorldPosition.RoundToInt() + action.Direction().To3Int(), action.Direction() * -1
-				, isServer: true);
-		}
-
-		if (IsNonStickyServer && !swapped)
-		{
-			PushPull pushable;
-			if (!swapped && IsAroundPushables(serverState, isServer: true, out pushable))
-			{
-				StartCoroutine(InteractSpacePushable(pushable, action.Direction()));
-			}
-			return state;
-		}
-
-		// Check if the player stepped on a enterable object.
-		EnterInteract(state.WorldPosition, (Vector2)action.Direction());
-
-		if (action.isNonPredictive)
-		{
-			Logger.Log("Ignored action marked as Non-predictive while being indoors", Category.Movement);
-			return state;
-		}
-
-		var nextState = NextState(state, action, true);
-
-		nextState.Speed = SpeedServer;
-		if (playerScript.IsGhost) return nextState;
-
-		playerScript.OnTileReached().Invoke(nextState.WorldPosition.RoundToInt());
-		FootstepSounds.PlayerFootstepAtPosition(nextState.WorldPosition, this);
-
-		return nextState;
+		return state;
 	}
 
 	#region walk interactions
@@ -809,91 +689,8 @@ public partial class PlayerSync
 		{
 			return;
 		}
-		//Space walk checks
-		if (IsNonStickyServer)
-		{
-			if (serverState.WorldImpulse == Vector2.zero && lastDirectionServer != Vector2.zero)
-			{ //fixme: serverLastDirection is unreliable. maybe rethink notion of impulse
-			  //server initiated space dive.
-				serverState.WorldImpulse = lastDirectionServer;
-				serverState.ImportantFlightUpdate = true;
-				serverState.ResetClientQueue = true;
-			}
 
-			//Perpetual floating sim
-			if (ServerPositionsMatch)
-			{
-				if (serverState.ImportantFlightUpdate)
-				{
-					NotifyPlayers();
-				}
-				else if (consideredFloatingServer)
-				{
-					if (floatingSyncHandle == null)
-					{
-						this.StartCoroutine(FloatingAwarenessSync(), ref floatingSyncHandle);
-					}
 
-					var oldPos = serverState.WorldPosition;
-
-					//Extending prediction by one tile if player's transform reaches previously set goal
-					//note: since this is a local position, the impulse needs to be converted to a local rotation,
-					//hence the multiplication
-					Vector3Int newGoal = Vector3Int.RoundToInt(serverState.LocalPosition + (Vector3)serverState.LocalImpulse(this));
-					Vector3Int intOrigin = Vector3Int.RoundToInt(registerPlayer.WorldPosition + (Vector3)serverState.LocalImpulse(this));
-
-					if (intOrigin.x > 18000 || intOrigin.x < -18000 || intOrigin.y > 18000 || intOrigin.y < -18000)
-					{
-						Stop();
-						Logger.Log($"Player {transform.name} was forced to stop at {intOrigin}", Category.Movement);
-						return;
-					}
-					serverState.LocalPosition = newGoal;
-					ClearQueueServer();
-
-					var newPos = serverState.WorldPosition;
-
-					OnStartMove().Invoke(oldPos.RoundToInt(), newPos.RoundToInt());
-				}
-
-				//Explicitly informing about stunned players
-				//because they don't always meet clientside flight prediction expectations
-				if (registerPlayer.IsSlippingServer)
-				{
-					serverState.ImportantFlightUpdate = true;
-					NotifyPlayers();
-				}
-			}
-		}
-
-		if (consideredFloatingServer && !IsWeightlessServer)
-		{
-			var worldOrigin = ServerPosition;
-			var worldTarget = worldOrigin + serverState.WorldImpulse.RoundToInt();
-			if (registerPlayer.IsSlippingServer && MatrixManager.IsPassableAtAllMatrices(worldOrigin, worldTarget, true))
-			{
-				Logger.LogFormat("Letting stunned {0} fly onto {1}", Category.Movement, gameObject.name, worldTarget);
-				return;
-			}
-			if (serverState.Speed >= PushPull.HIGH_SPEED_COLLISION_THRESHOLD && IsTileSnap)
-			{
-				//Stop first (reach tile), then inform about collision
-				var collisionInfo = new CollisionInfo
-				{
-					Speed = serverState.Speed,
-					Size = this.Size,
-					CollisionTile = worldTarget
-				};
-
-				Stop();
-
-				OnHighSpeedCollision().Invoke(collisionInfo);
-			}
-			else
-			{
-				Stop();
-			}
-		}
 	}
 
 	/// <summary>
@@ -965,10 +762,6 @@ public partial class PlayerSync
 			{
 				CheckAndDoSwap(targetPos.RoundToInt(), lastDirectionServer * -1, isServer: true);
 			}
-		}
-		if (TryNotifyPlayers())
-		{
-			TryUpdateServerTarget();
 		}
 	}
 

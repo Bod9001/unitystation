@@ -442,97 +442,35 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 	private void UpdateMe()
 	{
-		if (isLocalPlayer && playerMove != null)
+		if (isServer)
 		{
-			if (PlayerManager.MovementControllable == this)
+			if (CommonInput.GetKeyDown(KeyCode.F7) && gameObject == PlayerManager.LocalPlayer)
 			{
-				didWiggle = false;
-				if (KeyboardInputManager.IsMovementPressed() && Validations.CanInteract(playerScript,
-					    isServer ? NetworkSide.Server : NetworkSide.Client))
-				{
-					//	If being pulled by another player and you try to break free
-					if (pushPull != null && pushPull.IsBeingPulledClient)
-					{
-						pushPull.CmdStopFollowing();
-						didWiggle = true;
-					}
-					// Player inside something
-					else if (Camera2DFollow.followControl.target != PlayerManager.LocalPlayer.transform)
-					{
-						CmdTryEscapeContainer();
-						didWiggle = true;
-					}
-				}
+				PlayerSpawn.ServerSpawnDummy(gameObject.transform);
 			}
+
+			SynchronizeServer();
 		}
 
-		Synchronize();
-
-		//experimental: if buckled, no matter what happens, draw us on top of our buckled object
-		if (playerMove.IsBuckled)
+		if (this.gameObject == PlayerManager.LocalPlayer)
 		{
-			transform.position = playerMove.BuckledObject.transform.position;
+			SynchronizeClient();
 		}
 	}
 
-	private void Synchronize()
+	private void SynchronizeClient()
 	{
-		var server = CustomNetworkManager.IsServer;
+		CheckMovementClient();
+	}
 
-		if (Matrix != null)
+	private void SynchronizeServer()
+	{
+		if (IsNoGravityAt)
 		{
-			if (server)
-			{
-				CheckMovementServer();
-			}
-			if (CustomNetworkManager.IsHeadless == false)
-			{
-				CheckMovementClient(); //needed for the visualization of space floating movement
-			}
-
-			if (!ClientPositionReady)
-			{
-				Lerp();
-			}
-
-			if (server)
-			{
-				if (CommonInput.GetKeyDown(KeyCode.F7) && gameObject == PlayerManager.LocalPlayer)
-				{
-					PlayerSpawn.ServerSpawnDummy(gameObject.transform);
-				}
-
-				if (serverState.LocalPosition != serverLerpState.LocalPosition)
-				{
-					ServerLerp();
-				}
-				else
-				{
-					TryUpdateServerTarget();
-				}
-			}
 		}
-
-		//Registering
-		if (registerPlayer.LocalPositionClient != Vector3Int.RoundToInt(predictedState.LocalPosition))
+		else
 		{
-			if (server)
-			{
-				if (registerPlayer.ServerSetNetworkedMatrixNetID(MatrixManager.Get(predictedState.MatrixId).NetID) ==
-				    false)
-				{
-					registerPlayer.UpdatePositionClient();
-				}
-			}
-			else
-			{
-				registerPlayer.UpdatePositionClient();
-			}
-		}
-
-		if (server && registerPlayer.LocalPositionServer != Vector3Int.RoundToInt(serverState.LocalPosition))
-		{
-			registerPlayer.UpdatePositionServer();
+			TryUpdateServerTarget();
 		}
 	}
 

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Messages.Client;
 using UnityEngine;
 
 public partial class PlayerSync
@@ -597,70 +598,10 @@ public partial class PlayerSync
 		blockClientMovement = false;
 	}
 
-	///Lerping; simulating space walk by server's orders or initiate/stop them on client
-	///Using predictedState for your own player and playerState for others
+
 	private void CheckMovementClient()
 	{
-		playerState.NoLerp = false;
-
-		//Space walk checks
-		if (!IsWeightlessClient)
-		{
-			if (isPseudoFloatingClient)
-			{
-				//Logger.Log( "Stopped clientside floating to avoid going through walls" );
-
-				//NOTE: This is currently being reached when client is slipping indoors because there's no way for client
-				//to know if a tile is slippery, thus they always think they will stop slipping and keep incorrectly
-				//setting their prediced impulse to zero.
-
-				//Zeroing lastDirection after hitting an obstacle
-				LastDirectionClient = Vector2.zero;
-
-				//stop floating on client (if server isn't responding in time) to avoid players going through walls
-				predictedState.WorldImpulse = Vector2.zero;
-				//Stopping spacewalk increases move number
-				predictedState.MoveNumber++;
-
-				if (!isFloatingClient && playerState.MoveNumber < predictedState.MoveNumber)
-				{
-					Logger.Log($"Finished unapproved flight, blocking. predictedState:\n{predictedState}", Category.Movement);
-					//Client figured out that he just finished spacewalking
-					//and server is yet to approve the fact that it even started.
-					StartCoroutine(BlockMovement());
-				}
-			}
-		}
-		else
-		{
-			if (predictedState.WorldImpulse == Vector2.zero && LastDirectionClient != Vector2.zero)
-			{
-				if (pendingActions == null || pendingActions.Count == 0)
-				{
-					//						not initiating predictive spacewalk without queued actions
-					LastDirectionClient = Vector2.zero;
-					return;
-				}
-				//client initiated space dive.
-				predictedState.WorldImpulse = LastDirectionClient;
-				Logger.Log($"Client init floating with impulse {LastDirectionClient}. FC={isFloatingClient},PFC={isPseudoFloatingClient}", Category.Movement);
-			}
-
-			//Perpetual floating sim
-			if (ClientPositionReady && isPseudoFloatingClient)
-			{
-				var oldPos = predictedState.WorldPosition;
-
-				//Extending prediction by one tile if player's transform reaches previously set goal
-				//note: position is local, so we must use local impulse to predict the new position
-				Vector3Int newGoal = Vector3Int.RoundToInt(predictedState.LocalPosition + (Vector3)predictedState.LocalImpulse(this));
-				predictedState.LocalPosition = newGoal;
-
-				var newPos = predictedState.WorldPosition;
-
-				OnClientStartMove().Invoke(oldPos.RoundToInt(), newPos.RoundToInt());
-			}
-		}
+		RequestMoveMessage.Send()
 	}
 
 	private void Lerp()
