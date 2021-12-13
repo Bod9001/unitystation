@@ -107,95 +107,8 @@ public partial class PlayerSync
 		//arguably it shouldn't really be like that in the future
 		if (ShouldPlayerMove())
 		{
-			Logger.LogTraceFormat( "Requesting {0} ({1} in queue)\nclientState = {2}\npredictedState = {3}", Category.Movement,
-				action.Direction(), pendingActions.Count, ClientState, predictedState );
-
-			bool isGrounded = !MatrixManager.IsNonStickyAt(Vector3Int.RoundToInt(predictedState.WorldPosition), isServer: false, registerPlayer.Matrix.MatrixInfo);
-			bool cancelMove = false;
-			//note that this would return true when client is stopped in space (due to !IsMovingClient).
-			//we check isGrounded again depending on bump type to validate if they are still allowed to move
-			if ((isGrounded || playerScript.IsGhost || !IsMovingClient) && playerState.Active)
-			{
-				//RequestMoveMessage.Send(action);
-				BumpType clientBump = CheckSlideAndBump(predictedState, false, ref action);
-
-				action.isRun = UIManager.Intent.Running;
-
-				// handle predictions here
-				if(playerScript.RcsMode)
-				{
-					Vector2Int dir = action.Direction();
-					// try to move shuttle on client side
-					playerScript.RcsMatrixMove.RcsMoveClient(Orientation.From(dir));
-
-				}
-				//can only move freely if we are grounded or adjacent to another player
-				else if (CanMoveFreely(isGrounded, clientBump) && playerScript.playerMove.IsBuckled == false)
-				{
-					//move freely
-					pendingActions.Enqueue(action);
-
-					LastDirectionClient = action.Direction();
-					UpdatePredictedState();
-				}
-				else if (clientBump == BumpType.Swappable)
-				{
-					//note we don't check isgrounded here, client is allowed to swap with another player when
-					//they are both stopped in space
-					if (!isServer)
-					{
-						//only client performs this check, otherwise it would be performed twice by server
-						CheckAndDoSwap(((Vector2)predictedState.WorldPosition + action.Direction()).RoundToInt(),
-							inDirection: action.Direction() * -1,
-							isServer: false);
-					}
-
-					//move freely
-					pendingActions.Enqueue(action);
-					LastDirectionClient = action.Direction();
-					UpdatePredictedState();
-				}
-				else if (clientBump != BumpType.None)
-				{
-					//we are bumping something.
-
-					//cannot move -> tell server we're just bumping in that direction.
-					//this is also allowed even when stopped in space
-					action.isBump = true;
-					if (pendingActions == null || pendingActions.Count == 0)
-					{
-						PredictiveBumpInteract(Vector3Int.RoundToInt((Vector2)predictedState.WorldPosition + action.Direction()), action.Direction());
-					}
-
-					if (PlayerManager.LocalPlayer == gameObject)
-					{
-						//don't change facing when diagonally opening a door
-						var dir = action.Direction();
-						if (!(dir.x != 0 && dir.y != 0 && clientBump == BumpType.ClosedDoor))
-						{
-							UpdateFacingDirection(action);
-						}
-					}
-				}
-				else
-				{
-
-					//cannot move but it's not due to bumping, so don't even send it.
-					cancelMove = true;
-					Logger.LogTraceFormat( "Can't enqueue move: block = {0}, pseudoFloating = {1}, floating = {2}\nclientState = {3}\npredictedState = {4}"
-						, Category.Movement, blockClientMovement, isPseudoFloatingClient, isFloatingClient, ClientState, predictedState );
-				}
-			}
-			else
-			{
-				action.isNonPredictive = true;
-			}
 			//Sending action for server approval
-			if (!cancelMove)
-			{
-				CmdProcessAction(action);
-			}
-
+			CmdProcessAction(action);
 		}
 		else
 		{
@@ -601,7 +514,7 @@ public partial class PlayerSync
 
 	private void CheckMovementClient()
 	{
-		RequestMoveMessage.Send()
+
 	}
 
 	private void Lerp()

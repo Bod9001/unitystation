@@ -9,9 +9,10 @@ using Player.Movement;
 
 public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllable
 {
-	public bool VisibleState {
+	public bool VisibleState
+	{
 		get => ServerPosition != TransformState.HiddenPos;
-		set => SetVisibleServer( value );
+		set => SetVisibleServer(value);
 	}
 
 	/// <summary>
@@ -27,10 +28,11 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 		get => serverState;
 		private set
 		{
-			if ( serverState.LastNonHiddenPosition == Vector3.zero )
+			if (serverState.LastNonHiddenPosition == Vector3.zero)
 			{
 				serverState = value;
-			} else
+			}
+			else
 			{
 				var preservedPos = serverState.LastNonHiddenPosition;
 				serverState = value;
@@ -91,8 +93,6 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 		PlayerNewPlayer.Send(netId);
 		UpdateManager.Add(CallbackType.UPDATE, UpdateMe);
-
-
 	}
 
 	public override void OnStartServer()
@@ -111,6 +111,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 		onTileReached.AddListener(Cross);
 		EventManager.AddHandler(Event.PlayerRejoined, setLocalPlayer);
 	}
+
 	private void OnDisable()
 	{
 		onTileReached.RemoveListener(Cross);
@@ -205,7 +206,6 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 		if (newAction.HasValue)
 		{
-			action.moveActions = new int[] {(int) newAction};
 			return newBump;
 		}
 		else
@@ -436,7 +436,7 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 		foreach (var escapable in parentContainer.GetComponents<IEscapable>())
 		{
-			escapable.EntityTryEscape(gameObject,null);
+			escapable.EntityTryEscape(gameObject, null);
 		}
 	}
 
@@ -499,7 +499,8 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 	{
 		var newState = state;
 		newState.MoveNumber++;
-		newState.LocalPosition = playerMove.GetNextPosition(Vector3Int.RoundToInt(state.LocalPosition), action, isReplay,
+		newState.LocalPosition = playerMove.GetNextPosition(Vector3Int.RoundToInt(state.LocalPosition), action,
+			isReplay,
 			MatrixManager.Get(newState.MatrixId).Matrix);
 
 		var proposedWorldPos = newState.WorldPosition;
@@ -591,11 +592,13 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 
 	public void ReceivePlayerMoveAction(PlayerAction moveActions)
 	{
-		if (moveActions.moveActions.Length != 0 && !MoveCooldown && isLocalPlayer && playerMove != null && !didWiggle && ClientPositionReady)
+		if (moveActions.moveAction != MoveAction.MoveDown && !MoveCooldown && isLocalPlayer && playerMove != null &&
+		    !didWiggle && ClientPositionReady)
 		{
 			bool beingDraggedWithCuffs = playerMove.IsCuffed && playerScript.pushPull.IsBeingPulledClient;
 
-			if (playerMove.allowInput && !beingDraggedWithCuffs && !UIManager.IsInputFocus && ActionSpeed(moveActions) > 0)
+			if (playerMove.allowInput && !beingDraggedWithCuffs && !UIManager.IsInputFocus &&
+			    ActionSpeed(moveActions) > 0)
 			{
 				StartCoroutine(DoProcess(moveActions));
 			}
@@ -614,19 +617,14 @@ public partial class PlayerSync : NetworkBehaviour, IPushable, IPlayerControllab
 		float speed = 0;
 		if (!playerScript.registerTile.IsLayingDown)
 		{
-			if (action.isRun)
-			{
-				speed = playerMove.RunSpeed;
-			}
-			if (speed <= 0 || speed < playerMove.WalkSpeed)
-			{
-				speed = playerMove.WalkSpeed;
-			}
+			speed = playerMove.RunSpeed; //TODO
 		}
+
 		if (speed <= 0 || speed < playerMove.CrawlSpeed)
 		{
 			speed = playerMove.CrawlSpeed;
 		}
+
 		return speed;
 	}
 }

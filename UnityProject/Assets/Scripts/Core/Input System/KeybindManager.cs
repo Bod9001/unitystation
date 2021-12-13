@@ -87,7 +87,12 @@ public enum MoveAction
 	MoveUp = KeyAction.MoveUp,
 	MoveLeft = KeyAction.MoveLeft,
 	MoveDown = KeyAction.MoveDown,
-	MoveRight = KeyAction.MoveRight
+	MoveRight = KeyAction.MoveRight,
+	MoveUpright,
+	MoveUpLeft,
+	MoveDownRight,
+	MoveDownLeft,
+	None
 }
 
 public class KeybindManager : MonoBehaviour {

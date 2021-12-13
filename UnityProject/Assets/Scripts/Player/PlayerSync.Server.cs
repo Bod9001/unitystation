@@ -139,8 +139,7 @@ public partial class PlayerSync
 	[Command]
 	private void CmdProcessAction(PlayerAction action)
 	{
-		if (serverPendingActions.Count > 0 && !lastAddedAction.Equals(PlayerAction.None)
-			 && lastAddedAction.isNonPredictive && action.isNonPredictive)
+		if (serverPendingActions.Count > 0 && !lastAddedAction.Equals(PlayerAction.None))
 		{
 			Logger.Log($"Ignored {action}: two non-predictive actions in a row!", Category.Movement);
 			return;

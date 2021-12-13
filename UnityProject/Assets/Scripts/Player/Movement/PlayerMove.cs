@@ -201,8 +201,6 @@ namespace Player.Movement
 
 		private Vector3Int GetDirection(PlayerAction action, MatrixInfo matrixInfo, bool isReplay)
 		{
-			ProcessAction(action);
-
 			if (diagonalMovement)
 			{
 				return GetMoveDirection(matrixInfo, isReplay);
@@ -218,19 +216,7 @@ namespace Player.Movement
 
 		private void ProcessAction(PlayerAction action)
 		{
-			List<int> actionKeys = new List<int>(action.moveActions);
 
-			for (int i = 0; i < moveList.Length; i++)
-			{
-				if (actionKeys.Contains((int)moveList[i]) && !moveActionList.Contains(moveList[i]))
-				{
-					moveActionList.Add(moveList[i]);
-				}
-				else if (!actionKeys.Contains((int)moveList[i]) && moveActionList.Contains(moveList[i]))
-				{
-					moveActionList.Remove(moveList[i]);
-				}
-			}
 		}
 
 		private Vector3Int GetMoveDirection(MatrixInfo matrixInfo, bool isReplay)

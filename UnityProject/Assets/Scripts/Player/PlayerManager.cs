@@ -142,9 +142,7 @@ public class PlayerManager : MonoBehaviour
 	/// <returns> A PlayerAction containing up to two (non-opposite) movement directions.</returns>
 	public PlayerAction GetMovementActions()
 	{
-		// Stores the directions the player will move in.
-		List<int> actionKeys = new List<int>();
-
+		MoveAction MoveAction = MoveAction.None;
 		// Only move if player is out of UI
 		if (!(LocalPlayer == gameObject && UIManager.IsInputFocus))
 		{
@@ -152,39 +150,41 @@ public class PlayerManager : MonoBehaviour
 			bool moveR = KeyboardInputManager.CheckMoveAction(MoveAction.MoveRight);
 			bool moveU = KeyboardInputManager.CheckMoveAction(MoveAction.MoveDown);
 			bool moveD = KeyboardInputManager.CheckMoveAction(MoveAction.MoveUp);
-			// Determine movement on each axis (cancelling opposite moves)
-			int moveX = (moveR ? 1 : 0) - (moveL ? 1 : 0);
-			int moveY = (moveD ? 1 : 0) - (moveU ? 1 : 0);
 
-			if (moveX != 0 || moveY != 0)
+
+			if (moveU)
 			{
-
-					switch (moveX)
-					{
-						case 1:
-							actionKeys.Add((int)MoveAction.MoveRight);
-							break;
-						case -1:
-							actionKeys.Add((int)MoveAction.MoveLeft);
-							break;
-						default:
-							break; // Left, Right cancelled or not pressed
-					}
-					switch (moveY)
-					{
-						case 1:
-							actionKeys.Add((int)MoveAction.MoveUp);
-							break;
-						case -1:
-							actionKeys.Add((int)MoveAction.MoveDown);
-							break;
-						default:
-							break; // Up, Down cancelled or not pressed
-					}
+				if (moveR)
+				{
+					MoveAction = MoveAction.MoveUpright;
+				}
+				else if (moveL)
+				{
+					MoveAction = MoveAction.MoveUpLeft;
+				}
+				else
+				{
+					MoveAction = MoveAction.MoveUp;
+				}
+			}
+			else if (moveD)
+			{
+				if (moveR)
+				{
+					MoveAction = MoveAction.MoveDownRight;
+				}
+				else if (moveL)
+				{
+					MoveAction = MoveAction.MoveDownLeft;
+				}
+				else
+				{
+					MoveAction = MoveAction.MoveDown;
+				}
 			}
 		}
 
-		return new PlayerAction { moveActions = actionKeys.ToArray() };
+		return new PlayerAction { moveAction = MoveAction };
 	}
 
 	private void OnPlayerDeath()

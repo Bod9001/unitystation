@@ -93,7 +93,7 @@ namespace Systems.Ai
 
 		public void ReceivePlayerMoveAction(PlayerAction moveActions)
 		{
-			if(moveActions.moveActions.Length == 0) return;
+			if(moveActions.moveAction == MoveAction.None) return;
 
 			if(UIManager.IsInputFocus) return;
 

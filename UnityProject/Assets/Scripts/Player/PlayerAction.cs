@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -7,20 +8,14 @@ using UnityEngine;
 public struct PlayerAction
 {
 	/// int values of the moveactions (will have 2 moveActions if it's a diagonal movement)
-	public int[] moveActions;
+	public MoveAction moveAction;
 
 	//clone of PlayerMove GetMoveDirection stuff
 	//but there should be a way to see the direction of these keycodes ffs
 	public Vector2Int Direction()
 	{
 		Vector2Int direction = Vector2Int.zero;
-		for (var i = 0; i < moveActions.Length; i++)
-		{
-			direction += GetMoveDirection((MoveAction)moveActions[i]);
-		}
-		direction.x = Mathf.Clamp(direction.x, -1, 1);
-		direction.y = Mathf.Clamp(direction.y, -1, 1);
-
+		direction = GetMoveDirection(moveAction);
 		return direction;
 	}
 
@@ -69,6 +64,15 @@ public struct PlayerAction
 				return Vector2Int.down;
 			case MoveAction.MoveRight:
 				return Vector2Int.right;
+			case MoveAction.MoveUpright:
+				return new Vector2Int(1,1);
+			case MoveAction.MoveDownLeft:
+				return new Vector2Int(-1,-1);
+			case MoveAction.MoveUpLeft:
+				return new Vector2Int(-1,1);
+			case MoveAction.MoveDownRight:
+				return new Vector2Int(1,-1);
+
 		}
 		return Vector2Int.zero;
 	}
