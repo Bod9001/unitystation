@@ -268,8 +268,8 @@ public static class Validations
 				}
 				else if (target.TryGetComponent(out PlayerSync playerSync))
 				{
-					worldPosition = playerSync.ServerState.WorldPosition;
-					isFloating = playerSync.IsWeightlessServer;
+					// worldPosition = playerSync.ServerState.WorldPosition;
+					// isFloating = playerSync.IsWeightlessServer;
 				}
 			}
 

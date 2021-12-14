@@ -308,7 +308,7 @@ namespace Player.Movement
 			onUnbuckled = unbuckledAction;
 
 			// sync position to ensure they buckle to the correct spot
-			PlayerScript.PlayerSync.SetPosition(buckleInteract.gameObject.TileWorldPosition().To3Int());
+			//PlayerScript.PlayerSync.SetPosition(buckleInteract.gameObject.TileWorldPosition().To3Int());
 
 			// set direction if toObject has a direction
 			var directionalObject = buckleInteract.GetComponent<Directional>();
@@ -375,12 +375,12 @@ namespace Player.Movement
 			var buckledCNT = previouslyBuckledTo.GetComponent<CustomNetTransform>();
 			if (buckledCNT.IsFloatingServer)
 			{
-				PlayerScript.PlayerSync.NewtonianMove(buckledCNT.ServerImpulse.NormalizeToInt(), buckledCNT.SpeedServer);
+				//PlayerScript.PlayerSync.NewtonianMove(buckledCNT.ServerImpulse.NormalizeToInt(), buckledCNT.SpeedServer);
 			}
 			else
 			{
 				// stop in place because our object wasn't moving either.
-				PlayerScript.PlayerSync.Stop();
+				//PlayerScript.PlayerSync.Stop();
 			}
 		}
 
@@ -430,7 +430,7 @@ namespace Player.Movement
 			}
 
 			// ensure we are in sync with server
-			PlayerScript.OrNull()?.PlayerSync.OrNull()?.RollbackPrediction();
+			//PlayerScript.OrNull()?.PlayerSync.OrNull()?.RollbackPrediction();
 		}
 
 		private readonly HashSet<IMovementEffect> movementAffects = new HashSet<IMovementEffect>();

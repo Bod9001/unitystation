@@ -105,13 +105,13 @@ namespace AdminTools
 
 		private void SendTeleportPlayerToAdmin()
 		{
-			RequestAdminTeleport.Send(
-				PlayerEntry.PlayerData.uid,
-				null,
-				RequestAdminTeleport.OpperationList.PlayerToAdmin,
-				false,
-				PlayerManager.LocalPlayerScript.PlayerSync.ClientPosition
-				);
+			// RequestAdminTeleport.Send(
+			// 	PlayerEntry.PlayerData.uid,
+			// 	null,
+			// 	RequestAdminTeleport.OpperationList.PlayerToAdmin,
+			// 	false,
+			// 	PlayerManager.LocalPlayerScript.PlayerSync.ClientPosition
+			// 	);
 		}
 
 		public void OnTeleportAdminToPlayerAghost()
@@ -152,8 +152,8 @@ namespace AdminTools
 
 			if (PlayerManager.LocalPlayerScript.IsGhost && PlayerEntry.PlayerData.uid == ServerData.UserID)
 			{
-				coord = PlayerManager.LocalPlayerScript.PlayerSync.ClientPosition;
-				isAghost = true;
+				// coord = PlayerManager.LocalPlayerScript.PlayerSync.ClientPosition;
+				// isAghost = true;
 			}
 			else
 			{
@@ -161,13 +161,13 @@ namespace AdminTools
 				isAghost = false;
 			}
 
-			RequestAdminTeleport.Send(
-				null,
-				PlayerEntry.PlayerData.uid,
-				RequestAdminTeleport.OpperationList.AllPlayersToPlayer,
-				isAghost,
-				coord
-				);
+			// RequestAdminTeleport.Send(
+			// 	null,
+			// 	PlayerEntry.PlayerData.uid,
+			// 	RequestAdminTeleport.OpperationList.AllPlayersToPlayer,
+			// 	isAghost,
+			// 	coord
+			// 	);
 		}
 	}
 }

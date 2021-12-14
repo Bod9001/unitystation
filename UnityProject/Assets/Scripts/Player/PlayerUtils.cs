@@ -63,12 +63,12 @@ public static class PlayerUtils
 			}
 			else
 			{
-				if (ps.PlayerSync.IsMovingServer)
-				{
-					var plantPos = ps.WorldPos + ps.CurrentDirection.Vector;
-					Spawn.ServerPrefab("Banana peel", plantPos, cancelIfImpassable: true);
-
-				}
+				// if (ps.PlayerSync.IsMovingServer)
+				// {
+				// 	var plantPos = ps.WorldPos + ps.CurrentDirection.Vector;
+				// 	Spawn.ServerPrefab("Banana peel", plantPos, cancelIfImpassable: true);
+				//
+				// }
 				foreach (var pos in ps.WorldPos.BoundsAround().allPositionsWithin)
 				{
 					var matrixInfo = MatrixManager.AtPoint(pos, true);

@@ -24,17 +24,17 @@ namespace ScriptableObjects.Audio
 		public static void PlayerFootstepAtPosition(Vector3 worldPos,
 			PlayerSync playerSync)
 		{
-			if (playerSync.playerScript.registerTile.IsLayingDown == false)
+			//if (playerSync.playerScript.registerTile.IsLayingDown == false)
 			{
 				var stepType = GetFootStepType(playerSync);
-				playerSync.Step = !playerSync.Step;
+				//playerSync.Step = !playerSync.Step;
 
-				if (playerSync.Step)
+				//if (playerSync.Step)
 				{
-					FootstepAtPosition(worldPos, stepType, playerSync.playerScript.mind.StepSound);
+				//	FootstepAtPosition(worldPos, stepType, playerSync.playerScript.mind.StepSound);
 				}
 			}
-			else
+			//else
 			{
 				ShuffleAtPosition(worldPos);
 			}
@@ -43,13 +43,13 @@ namespace ScriptableObjects.Audio
 
 		private static StepType GetFootStepType(PlayerSync playerSync)
 		{
-			foreach (var itemSlot in playerSync.playerScript.Equipment.ItemStorage.GetNamedItemSlots(NamedSlot.feet))
-			{
-				if (itemSlot.Item != null)
-				{
-					return StepType.Shoes;
-				}
-			}
+			// foreach (var itemSlot in playerSync.playerScript.Equipment.ItemStorage.GetNamedItemSlots(NamedSlot.feet))
+			// {
+			// 	if (itemSlot.Item != null)
+			// 	{
+			// 		return StepType.Shoes;
+			// 	}
+			// }
 
 			//TODO find player's specie and return CLAW if needed
 

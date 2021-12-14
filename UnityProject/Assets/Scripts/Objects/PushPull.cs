@@ -772,7 +772,7 @@ public class PushPull : NetworkBehaviour, IRightClickable/*, IServerSpawn*/
 				{
 					if (playerMove.IsBuckled)
 					{
-						playerMove.PlayerScript.PlayerSync.SetPosition(target);
+						//playerMove.PlayerScript.PlayerSync.SetPosition(target);
 						break;
 					}
 				}

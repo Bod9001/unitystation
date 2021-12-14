@@ -148,8 +148,8 @@ public class PlayerManager : MonoBehaviour
 		{
 			bool moveL = KeyboardInputManager.CheckMoveAction(MoveAction.MoveLeft);
 			bool moveR = KeyboardInputManager.CheckMoveAction(MoveAction.MoveRight);
-			bool moveU = KeyboardInputManager.CheckMoveAction(MoveAction.MoveDown);
-			bool moveD = KeyboardInputManager.CheckMoveAction(MoveAction.MoveUp);
+			bool moveU = KeyboardInputManager.CheckMoveAction(MoveAction.MoveUp);
+			bool moveD = KeyboardInputManager.CheckMoveAction(MoveAction.MoveDown);
 
 
 			if (moveU)
@@ -180,6 +180,17 @@ public class PlayerManager : MonoBehaviour
 				else
 				{
 					MoveAction = MoveAction.MoveDown;
+				}
+			}
+			else
+			{
+				if (moveR)
+				{
+					MoveAction = MoveAction.MoveRight;
+				}
+				else if (moveL)
+				{
+					MoveAction = MoveAction.MoveLeft;
 				}
 			}
 		}

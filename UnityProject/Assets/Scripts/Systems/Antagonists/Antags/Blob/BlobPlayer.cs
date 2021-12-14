@@ -272,12 +272,12 @@ namespace Blob
 			rerollTimer += 1f;
 
 			// Force overmind back to blob if camera moves too far
-			if (!teleportCheck && !victory && !ValidateAction(playerSync.ServerPosition, true) && blobCore != null)
-			{
-				teleportCheck = true;
-
-				StartCoroutine(TeleportPlayerBack());
-			}
+			// if (!teleportCheck && !victory && !ValidateAction(playerSync.ServerPosition, true) && blobCore != null)
+			// {
+			// 	teleportCheck = true;
+			//
+			// 	StartCoroutine(TeleportPlayerBack());
+			// }
 
 			nonSpaceBlobTiles.Remove(null);
 
@@ -367,11 +367,11 @@ namespace Blob
 
 			yield return WaitFor.Seconds(1f);
 
-			if (ValidateAction(playerSync.ServerPosition, true))
-			{
-				teleportCheck = false;
-				yield break;
-			}
+			// if (ValidateAction(playerSync.ServerPosition, true))
+			// {
+				// teleportCheck = false;
+				// yield break;
+			// }
 
 			Chat.AddExamineMsgFromServer(gameObject, "Your mind gets sucked back to the blob");
 
@@ -387,7 +387,7 @@ namespace Blob
 		{
 			if(blobCore == null) return;
 
-			playerSync.SetPosition(blobCore.location);
+			// playerSync.SetPosition(blobCore.location);
 		}
 
 		[Command]
@@ -398,34 +398,34 @@ namespace Blob
 
 		private void TeleportToNode()
 		{
-			GameObject node = null;
-
-			var vector = float.PositiveInfinity;
-
-			var pos = playerSync.ServerPosition;
-
-			//Find closet node
-			foreach (var blobStructure in nodeBlobs)
-			{
-				var distance = Vector3.Distance(blobStructure.location, pos);
-
-				if (distance > vector) continue;
-
-				vector = distance;
-				node = blobStructure.gameObject;
-			}
-
-			//If null go to core instead
-			if (node == null)
-			{
-				//Blob is dead :(
-				if(blobCore == null) return;
-
-				playerSync.SetPosition(blobCore.location);
-				return;
-			}
-
-			playerSync.SetPosition(node.WorldPosServer());
+			// GameObject node = null;
+			//
+			// var vector = float.PositiveInfinity;
+			//
+			// var pos = playerSync.ServerPosition;
+			//
+			// //Find closet node
+			// foreach (var blobStructure in nodeBlobs)
+			// {
+			// 	var distance = Vector3.Distance(blobStructure.location, pos);
+			//
+			// 	if (distance > vector) continue;
+			//
+			// 	vector = distance;
+			// 	node = blobStructure.gameObject;
+			// }
+			//
+			// //If null go to core instead
+			// if (node == null)
+			// {
+			// 	//Blob is dead :(
+			// 	if(blobCore == null) return;
+			//
+			// 	playerSync.SetPosition(blobCore.location);
+			// 	return;
+			// }
+			//
+			// playerSync.SetPosition(node.WorldPosServer());
 		}
 
 		#endregion
@@ -568,7 +568,7 @@ namespace Blob
 			//standing on (or around since validation checks adjacent)
 			if (!clickCoords)
 			{
-				worldPos = playerSync.ServerPosition;
+				// worldPos = playerSync.ServerPosition;
 			}
 
 			//Whether player has toggled always remove on in the UI

@@ -219,7 +219,7 @@ namespace Systems.Teleport
 			}
 			else if (objectToTeleport.TryGetComponent(out PlayerSync playerSync))
 			{
-				playerSync.SetPosition(newPosition);
+				//playerSync.SetPosition(newPosition); TODO
 			}
 			else
 			{

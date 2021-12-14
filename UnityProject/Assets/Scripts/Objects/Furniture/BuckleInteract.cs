@@ -82,7 +82,7 @@ namespace Objects
 
 			//can't buckle during movement
 			var playerSync = interaction.DroppedObject.GetComponent<PlayerSync>();
-			if (playerSync.IsMoving) return false;
+			//if (playerSync.IsMoving) return false;
 
 			//if the player to buckle is currently downed, we cannot buckle if there is another player on the tile
 			//(because buckling a player causes the tile to become unpassable, thus a player could end up

@@ -11618,11 +11618,6 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 114729471039765908, guid: 829f4ca992b848d6bb4d007fb9c112e1,
         type: 3}
-      propertyPath: QuickLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114729471039765908, guid: 829f4ca992b848d6bb4d007fb9c112e1,
-        type: 3}
       propertyPath: minDistanceBetweenSpaceBodies
       value: 250
       objectReference: {fileID: 0}
@@ -11919,7 +11914,7 @@ PrefabInstance:
     - target: {fileID: 1017114667693712138, guid: 829f4ca992b848d6bb4d007fb9c112e1,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.8999023
+      value: -2.8999329
       objectReference: {fileID: 0}
     - target: {fileID: 1021124550058913051, guid: 829f4ca992b848d6bb4d007fb9c112e1,
         type: 3}
@@ -12879,7 +12874,7 @@ PrefabInstance:
     - target: {fileID: 6555723394669093311, guid: 829f4ca992b848d6bb4d007fb9c112e1,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.8999023
+      value: -2.8999329
       objectReference: {fileID: 0}
     - target: {fileID: 6666842061318877798, guid: 829f4ca992b848d6bb4d007fb9c112e1,
         type: 3}

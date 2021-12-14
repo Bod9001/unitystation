@@ -99,7 +99,7 @@ namespace Construction.Conveyors
 		private void TransportPlayer(PlayerSync player)
 		{
 			//push player to the next tile
-			player?.Push(position.To2Int());
+			//player?.Push(position.To2Int());
 		}
 
 		[Server]

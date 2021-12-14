@@ -341,7 +341,7 @@ namespace Objects.Disposals
 				{
 					if (playerScript.registerTile.Matrix.IsPassableAtOneMatrixOneTile(targetObjectLocalPosition, true, context: gameObject))
 					{
-						playerScript.PlayerSync.SetPosition(targetObjectWorldPos);
+						//playerScript.PlayerSync.SetPosition(targetObjectWorldPos);
 					}
 				}
 				else
@@ -454,7 +454,7 @@ namespace Objects.Disposals
 		{
 			MetaDataLayer metadata = registerObject.Matrix.MetaDataLayer;
 			GasMix tileMix = metadata.Get(registerObject.LocalPositionServer, false).GasMix;
-			
+
 			// TODO: add voltage multiplier when bins are powered
 			var molesToTransfer = (tileMix.Moles - (tileMix.Moles * (CHARGED_PRESSURE / gasContainer.GasMix.Pressure))) * -1;
 			molesToTransfer *= 0.5f;

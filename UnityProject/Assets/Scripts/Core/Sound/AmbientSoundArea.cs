@@ -39,10 +39,10 @@ public class AmbientSoundArea : MonoBehaviour
 		// TODO entering sound still plays when exiting locker, but this at least stops space sound
 		if (player.TryGetComponent<PlayerSync>(out var playerSync))
 		{
-			if (playerSync.TrustedPosition == TransformState.HiddenPos)
-			{
-				return;
-			}
+			// if (playerSync.TrustedPosition == TransformState.HiddenPos)
+			// {
+			// 	return;
+			// }
 		}
 
 		if (isEntering)

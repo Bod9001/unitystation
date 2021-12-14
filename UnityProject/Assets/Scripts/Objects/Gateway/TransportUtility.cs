@@ -29,9 +29,9 @@ namespace Gateway
 			var playerSync = pushPullObject.GetComponent<PlayerSync>();
 			if (playerSync != null)
 			{
-				playerSync.DisappearFromWorldServer();
-				playerSync.AppearAtPositionServer(transportTo);
-				playerSync.RollbackPrediction();
+				//playerSync.DisappearFromWorldServer();
+				//playerSync.AppearAtPositionServer(transportTo);
+				//playerSync.RollbackPrediction();
 			}
 			//Object and Item objects get CustomNetTransform
 			var customNetTransform = pushPullObject.GetComponent<CustomNetTransform>();

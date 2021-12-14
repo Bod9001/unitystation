@@ -162,7 +162,7 @@ namespace Systems.Spells.Wizard
 			}
 			else if (teleportingObject.TryGetComponent<PlayerSync>(out var playerSync))
 			{
-				playerSync.AppearAtPositionServer(worldPosition);
+				// playerSync.AppearAtPositionServer(worldPosition);
 			}
 			else
 			{

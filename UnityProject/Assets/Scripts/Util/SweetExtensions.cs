@@ -191,7 +191,7 @@ public static class SweetExtensions
 	private const float NO_BOOST_THRESHOLD = 1.5f;
 
 	/// Lerp speed modifier
-	public static float SpeedTo(this Vector3 lerpFrom, Vector3 lerpTo)
+	public static float DistanceSpeedModifier(this Vector3 lerpFrom, Vector3 lerpTo)
 	{
 		float distance = Vector2.Distance(lerpFrom, lerpTo);
 		if (distance <= NO_BOOST_THRESHOLD)

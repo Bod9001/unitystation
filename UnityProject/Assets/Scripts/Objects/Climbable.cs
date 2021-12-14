@@ -14,11 +14,11 @@ namespace Objects
 				interaction.TargetObject.WorldPosServer() : interaction.TargetObject.WorldPosClient();
 			if (interaction.UsedObject.TryGetComponent<PlayerSync>(out var playerSync))
 			{
-				if (playerSync.IsMoving || playerSync.playerMove.IsBuckled) return false;
+				//if (playerSync.IsMoving || playerSync.playerMove.IsBuckled) return false;
 				// Do a sanity check to make sure someone isn't dropping the shadow from like 9000 tiles away.
-				float mag = (targetObjectPos - (side == NetworkSide.Server ?
-					playerSync.ServerPosition : playerSync.ClientPosition)).magnitude;
-				return mag <= PlayerScript.interactionDistance;
+				//float mag = (targetObjectPos - (side == NetworkSide.Server ?
+				//	playerSync.ServerPosition : playerSync.ClientPosition)).magnitude;
+				//return mag <= PlayerScript.interactionDistance;
 			}
 			// Do the same check but for mouse draggable objects this time.
 			if (interaction.UsedObject.TryGetComponent<CustomNetTransform>(out var netTransform))
@@ -39,7 +39,7 @@ namespace Objects
 			{
 				if (interaction.UsedObject.TryGetComponent<PlayerScript>(out var playerScript))
 				{
-					playerScript.PlayerSync.SetPosition(gameObject.WorldPosServer());
+					//playerScript.PlayerSync.SetPosition(gameObject.WorldPosServer());
 				}
 				else
 				{

@@ -23,26 +23,26 @@ public class TableInteractionClimb : TileInteraction
 		CustomNetTransform netTransform;
 		if(interaction.UsedObject.TryGetComponent(out playerSync))
 		{
-			if (playerSync.IsMoving || playerSync.playerMove.IsBuckled)
-			{
-				return false;
-			}
+			// if (playerSync.IsMoving || playerSync.playerMove.IsBuckled)
+			// {
+			// 	return false;
+			// }
 
 			// Do a sanity check to make sure someone isn't dropping the shadow from like 9000 tiles away.
-			var mag = (playerSync.ServerPosition - interaction.PerformerPlayerScript.PlayerSync.ServerPosition).magnitude;
-			if (mag > PlayerScript.interactionDistance)
-			{
-				//interaction.PerformerPlayerScript
-				return false;
-			}
+			// var mag = (playerSync.ServerPosition - interaction.PerformerPlayerScript.PlayerSync.ServerPosition).magnitude;
+			// if (mag > PlayerScript.interactionDistance)
+			// {
+			// 	//interaction.PerformerPlayerScript
+			// 	return false;
+			// }
 		}
 		else if(interaction.UsedObject.TryGetComponent(out netTransform)) // Do the same check but for mouse draggable objects this time.
 		{
-			var mag = (netTransform.ServerPosition - interaction.PerformerPlayerScript.PlayerSync.ServerPosition).magnitude;
-			if (mag > PlayerScript.interactionDistance)
-			{
-				return false;
-			}
+			// var mag = (netTransform.ServerPosition - interaction.PerformerPlayerScript.PlayerSync.ServerPosition).magnitude;
+			// if (mag > PlayerScript.interactionDistance)
+			// {
+				// return false;
+			// }
 		}
 		else // Not sure what this object is so assume that we can't interact with it at all.
 		{
@@ -69,7 +69,7 @@ public class TableInteractionClimb : TileInteraction
 
 				if (playerScript.registerTile.Matrix.IsPassableAtOneMatrixOneTile(interaction.TargetCellPos, true, true, null, excludeTiles))
 				{
-					playerScript.PlayerSync.SetPosition(interaction.WorldPositionTarget);
+					// playerScript.PlayerSync.SetPosition(interaction.WorldPositionTarget);
 				}
 			}
 			else

@@ -127,7 +127,7 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 		}
 		else if (playerScript.playerMove.IsTrapped) // Check if trapped.
 		{
-			playerScript.PlayerSync.ServerTryEscapeContainer();
+			//playerScript.PlayerSync.ServerTryEscapeContainer(); TODO
 		}
 	}
 
@@ -495,7 +495,7 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 		{
 			case ConsciousState.CONSCIOUS:
 				playerMove.allowInput = true;
-				playerScript.PlayerSync.SpeedServer = playerMove.RunSpeed;
+				//playerScript.PlayerSync.SpeedServer = playerMove.RunSpeed; TODO
 				break;
 			case ConsciousState.BARELY_CONSCIOUS:
 				//Drop hand items when unconscious
@@ -504,7 +504,7 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 					Inventory.ServerDrop(itemSlot);
 				}
 				playerMove.allowInput = true;
-				playerScript.PlayerSync.SpeedServer = playerMove.CrawlSpeed;
+				//playerScript.PlayerSync.SpeedServer = playerMove.CrawlSpeed; TODO
 				if (oldState == ConsciousState.CONSCIOUS)
 				{
 					//only play the sound if we are falling
@@ -866,7 +866,7 @@ public partial class PlayerNetworkActions : NetworkBehaviour
 	{
 		if (playerScript.IsGhost && Math.Abs(s3.x) <= 20000 && Math.Abs(s3.y) <= 20000)
 		{
-			playerScript.PlayerSync.SetPosition(s3); //server forces position on player
+			//playerScript.PlayerSync.SetPosition(s3); //server forces position on player TODO
 		}
 	}
 

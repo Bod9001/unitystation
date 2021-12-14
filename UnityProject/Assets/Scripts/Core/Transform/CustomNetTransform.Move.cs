@@ -301,7 +301,7 @@ public partial class CustomNetTransform
 		}
 		transform.localPosition =
 			Vector3.MoveTowards(transform.localPosition, targetPos,
-				predictedState.Speed * Time.deltaTime * transform.localPosition.SpeedTo(targetPos));
+				predictedState.Speed * Time.deltaTime * transform.localPosition.DistanceSpeedModifier(targetPos));
 		if ((Vector2)transform.localPosition == targetPos)
 		{
 			OnClientTileReached().Invoke(predictedState.WorldPosition.RoundToInt());
@@ -320,7 +320,7 @@ public partial class CustomNetTransform
 			return;
 		}
 
-		var deltaMaxDistance = serverState.Speed * Time.deltaTime * serverLerpState.LocalPosition.SpeedTo(targetPos);
+		var deltaMaxDistance = serverState.Speed * Time.deltaTime * serverLerpState.LocalPosition.DistanceSpeedModifier(targetPos);
 		serverLerpState.LocalPosition = Vector3.MoveTowards(serverLerpState.LocalPosition, targetPos, deltaMaxDistance);
 
 		if (serverLerpState.LocalPosition == targetPos)

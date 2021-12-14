@@ -525,12 +525,12 @@ namespace Systems.CraftingV2
 			List<GameObject> spawnedResult = new List<GameObject>();
 			foreach (GameObject resultedGameObject in Result)
 			{
-				spawnedResult.Add(
-					Spawn.ServerPrefab(
-						resultedGameObject,
-						crafterPlayerScript.PlayerSync.ClientPosition
-					).GameObject
-				);
+				// spawnedResult.Add(
+				// 	Spawn.ServerPrefab(
+				// 		resultedGameObject,
+				// 		crafterPlayerScript.PlayerSync.ClientPosition
+				// 	).GameObject
+				// );
 			}
 
 			foreach (IResultHandler resultHandler in ResultHandlers)

@@ -267,7 +267,7 @@ public class StandardProgressAction : IProgressAction
 			   playerScript.playerNetworkActions.IsRolling == false &&
 		       (progressActionConfig.AllowTurning ||
 		        playerScript.playerDirectional.CurrentDirection != initialDirection) &&
-		       playerScript.PlayerSync.IsMoving == false &&
+		       // playerScript.PlayerSync.IsMoving == false &&
 		       //make sure we're still in range
 		       Validations.IsInReachDistanceByPositions(playerScript.registerTile.WorldPositionServer,
 			       startProgressInfo.Target.TargetWorldPosition);

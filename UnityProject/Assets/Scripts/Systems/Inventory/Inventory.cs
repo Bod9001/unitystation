@@ -395,8 +395,8 @@ public static class Inventory
 			{
 				// dropping from player
 				// Inertia drop works only if player has external impulse (space floating etc.)
-				cnt.InertiaDrop(targetWorldPos, holderPlayer.SpeedServer,
-					holderPlayer.ServerImpulse);
+				// cnt.InertiaDrop(targetWorldPos, holderPlayer.SpeedServer,
+					// holderPlayer.ServerImpulse);
 			}
 			else
 			{

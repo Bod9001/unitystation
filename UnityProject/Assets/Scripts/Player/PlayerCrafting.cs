@@ -285,13 +285,14 @@ namespace Player
 		/// <returns>All reachable items.</returns>
 		public List<CraftingIngredient> GetPossibleIngredients(NetworkSide networkSide)
 		{
-			List<CraftingIngredient> possibleIngredients = MatrixManager.GetReachableAdjacent<CraftingIngredient>(
-				playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
-			);
+			List<CraftingIngredient> possibleIngredients  = new List<CraftingIngredient>(); //TODO
+			// List<CraftingIngredient> possibleIngredients = MatrixManager.GetReachableAdjacent<CraftingIngredient>(
+				// playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
+			// );
 
-			possibleIngredients.AddRange(MatrixManager.GetAt<CraftingIngredient>(
-				playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
-			));
+			// possibleIngredients.AddRange(MatrixManager.GetAt<CraftingIngredient>(
+			// 	playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
+			// ));
 
 			foreach (ItemSlot handSlot in playerScript.DynamicItemStorage.GetHandSlots())
 			{
@@ -325,13 +326,15 @@ namespace Player
 		/// <returns>All possible tools that may be used for crafting.</returns>
 		public List<ItemAttributesV2> GetPossibleTools(NetworkSide networkSide)
 		{
-			List<ItemAttributesV2> possibleTools = MatrixManager.GetReachableAdjacent<ItemAttributesV2>(
-				playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
-			);
+			List<ItemAttributesV2> possibleTools = new List<ItemAttributesV2>();
 
-			possibleTools.AddRange(MatrixManager.GetAt<ItemAttributesV2>(
-				playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
-			));
+			// List<ItemAttributesV2> possibleTools = MatrixManager.GetReachableAdjacent<ItemAttributesV2>(
+			// 	playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
+			// );
+			//
+			// possibleTools.AddRange(MatrixManager.GetAt<ItemAttributesV2>(
+			// 	playerScript.PlayerSync.ClientPosition, networkSide == NetworkSide.Server
+			// ));
 
 			foreach (ItemSlot handSlot in playerScript.DynamicItemStorage.GetHandSlots())
 			{
@@ -366,14 +369,16 @@ namespace Player
 		/// <returns></returns>
 		public List<ReagentContainer> GetReagentContainers()
 		{
-			List<ReagentContainer> reagentContainers = MatrixManager.GetReachableAdjacent<ReagentContainer>(
-				playerScript.PlayerSync.ClientPosition, true
-			);
+			List<ReagentContainer> reagentContainers =  new List<ReagentContainer>();
 
-			reagentContainers.AddRange(MatrixManager.GetAt<ReagentContainer>(
-				PlayerScript.PlayerSync.ClientPosition,
-				true
-			));
+			// List<ReagentContainer> reagentContainers = MatrixManager.GetReachableAdjacent<ReagentContainer>(
+			// 	playerScript.PlayerSync.ClientPosition, true
+			// );
+			//
+			// reagentContainers.AddRange(MatrixManager.GetAt<ReagentContainer>(
+			// 	PlayerScript.PlayerSync.ClientPosition,
+			// 	true
+			// ));
 
 			foreach (ItemSlot handSlot in playerScript.DynamicItemStorage.GetHandSlots())
 			{
