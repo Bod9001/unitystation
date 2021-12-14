@@ -6,15 +6,15 @@ using UnityEngine;
 
 public partial class PlayerSync
 {
-
-	public bool ActionQueued = false;
-
-
-
 	public void ReceivePlayerMoveAction(PlayerAction moveActions)
 	{
-		if (moveActions.moveAction == MoveAction.None) return;
-		if (ReadyToMove == false) return;
+		if (ReadyToMove == false)
+		{
+			return;
+		}
+
+		//client validation so they don't think they can walk into walls
+
 		CmdProcessAction(moveActions);
 	}
 
@@ -23,5 +23,4 @@ public partial class PlayerSync
 		//Animate?
 		//CmdProcessAction(new PlayerAction());
 	}
-
 }

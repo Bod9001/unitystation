@@ -33,10 +33,10 @@ public partial class PlayerSync : NetworkBehaviour, IPlayerControllable
 			//server stuff
 		}
 
-		if (this.gameObject == PlayerManager.LocalPlayer)
-		{
-			CheckPossibleMovementClient();
-		}
+		// if (this.gameObject == PlayerManager.LocalPlayer)
+		// {
+		// 	CheckPossibleMovementClient();
+		// }
 
 		Animate();
 	}

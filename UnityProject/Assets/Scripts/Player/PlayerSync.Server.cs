@@ -39,12 +39,18 @@ public partial class PlayerSync
 	{
 		if (ReadyToMove && serverPendingActions.Count > 0)
 		{
-			//if (Gravity)
-			//Else
-			var Action = serverPendingActions.Dequeue();
+			if (true) //Gravity
+			{
+				var Action = serverPendingActions.Dequeue();
 
-			TargetLocalPosition = Action.Direction() + transform.localPosition.To2();
-			ReadyToMove = false;
+				TargetLocalPosition = Action.Direction() + transform.localPosition.To2();
+				ReadyToMove = false;
+			}
+			else
+			{
+				Logger.LogError("Implement");
+			}
+
 		}
 	}
 

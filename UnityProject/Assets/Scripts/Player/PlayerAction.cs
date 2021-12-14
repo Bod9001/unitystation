@@ -77,5 +77,5 @@ public struct PlayerAction
 		return Vector2Int.zero;
 	}
 
-	public static PlayerAction None = new PlayerAction();
+	public static PlayerAction None = new PlayerAction(){moveAction = MoveAction.None};
 }
