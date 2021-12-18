@@ -40,6 +40,50 @@ MonoBehaviour:
       Magic: 0
       Bio: 0
       DismembermentProtectionChance: 0
+--- !u!114 &7910445863465284274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864679013969520924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6adedb9416d7b647b6c3811ff2f0824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxCapacity: 1
+  reactionSet: {fileID: 0}
+  AdditionalReactions: []
+  canPourOut: 0
+  initialReagentMix:
+    temperature: 273.15
+    reagents:
+      m_keys: []
+      m_values: []
+    reagentKeys: []
+  destroyOnEmpty: 0
+  ContentsSet: 0
+  UseStandardExamine: 1
+  ExamineAmount: 0
+  ExamineContent: 0
+  traitWhitelist: []
+  reagentWhitelist: []
+  transferMode: 4
+  possibleTransferAmounts: []
+  transferAmount: 1
+--- !u!114 &8437551199024509085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864679013969520924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837060fa3ebf3e040916b39a97c42ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3463029306022828862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52,6 +96,11 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 502f496beb9034b9b9c97868e845ed7e
       objectReference: {fileID: 0}
+    - target: {fileID: 2917169708539712446, guid: 6b5f74a79e023479cb5b30a2879621da,
+        type: 3}
+      propertyPath: customNetTransform
+      value: 
+      objectReference: {fileID: 1762320256304399564}
     - target: {fileID: 2917169708539712446, guid: 6b5f74a79e023479cb5b30a2879621da,
         type: 3}
       propertyPath: CurrentsortingGroup
@@ -179,6 +228,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3463029306022828862}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1762320256304399564 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2916681237181358066, guid: 6b5f74a79e023479cb5b30a2879621da,
+    type: 3}
+  m_PrefabInstance: {fileID: 3463029306022828862}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864679013969520924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579884b05ae74e8499329b64997147d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!210 &5572318003902738258 stripped
 SortingGroup:
   m_CorrespondingSourceObject: {fileID: 9033094390735762540, guid: 6b5f74a79e023479cb5b30a2879621da,
