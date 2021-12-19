@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6905794213313038048}
   - component: {fileID: 5743653973661802587}
   - component: {fileID: 5430220527865361548}
+  - component: {fileID: -3822775941481173544}
   m_Layer: 0
   m_Name: ChemSplat
   m_TagString: Untagged
@@ -202,6 +203,30 @@ MonoBehaviour:
   transferMode: 1
   possibleTransferAmounts: []
   transferAmount: 2
+--- !u!114 &-3822775941481173544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3880655971207283372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837060fa3ebf3e040916b39a97c42ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackType: 0
+  damageType: 0
+  traumaType: 0
+  damageToGive: 5
+  armorPentration: 0
+  traumaChance: 0
+  onStepSounds: []
+  hurtsOneFootOnly: 0
+  ignoresFootwear: 0
+  canCauseTrauma: 0
+  protectiveItemTraits: []
+  limbsToHurt: 
 --- !u!1 &3880655971395685414
 GameObject:
   m_ObjectHideFlags: 0
