@@ -23,6 +23,8 @@ namespace Objects.Construction
 
 		public bool isBlood = false;
 
+		public bool isFootprint = false;
+
 		[SyncVar(hook = "OnColorChanged")]
 		[HideInInspector]
 		public Color color;
@@ -31,6 +33,8 @@ namespace Objects.Construction
 				 " This can be left empty, in which case the prefab's sprite renderer sprite will " +
 				 "be used.")]
 		public Sprite[] PossibleSprites;
+
+		//public SpriteHandler FootPrints;
 
 		[SyncVar(hook = nameof(SyncChosenSprite))]
 		private int chosenSprite;
@@ -81,6 +85,14 @@ namespace Objects.Construction
 				spriteRenderer.color = newColor;
 			}
 		}
+
+		/*
+		 * what is my vec2(-1 0)
+		 * 
+		 *
+		 *
+		 *
+		 * */
 
 		/// <summary>
 		///attempts to clean this decal, cleaning it if it is cleanable

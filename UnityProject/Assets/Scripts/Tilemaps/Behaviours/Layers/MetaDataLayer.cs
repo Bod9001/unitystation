@@ -108,7 +108,16 @@ public class MetaDataLayer : MonoBehaviour
 	/// <summary>
 	/// Release reagents at provided coordinates, making them react with world + decide what it should look like 
 	/// </summary>
-	public void ReagentReact(ReagentMix reagents, Vector3Int worldPosInt, Vector3Int localPosInt, bool? isFootPrint = false)
+	///
+	/*
+	 * check if decal at pos,
+	 * if decal at pos, get comp <floordecal>
+		inst sprite prefab
+		(make sure sprite handler, networked)
+		inst onself,
+		gets comp<> of how it looks
+		*/
+	public void ReagentReact(ReagentMix reagents, Vector3Int worldPosInt, Vector3Int localPosInt, bool isFootPrint = false,Orientation direction = new Orientation())
 	{
 		if (MatrixManager.IsTotallyImpassable(worldPosInt, true)) return;
 
@@ -194,6 +203,15 @@ public class MetaDataLayer : MonoBehaviour
 				{
 					PaintBlood(worldPosInt, reagents);
 				}
+				else if (isFootPrint)
+				{
+					Color reagentColor = new Color(reagents.MixColor.r, reagents.MixColor.g, reagents.MixColor.b);
+					if (reagents.Total < 1f)
+					{
+						//reagentColor.a = reagents.Total;
+					}
+					EffectsFactory.FootPrint(worldPosInt, reagentColor, reagents, direction);
+				}
 				else
 				{
 					Paintsplat(worldPosInt, localPosInt, reagents);
@@ -214,8 +232,9 @@ public class MetaDataLayer : MonoBehaviour
 		{
 			case "powder":
 			{
-				EffectsFactory.PowderSplat(worldPosInt, reagents.MixColor, reagents);
-				break;
+
+					EffectsFactory.PowderSplat(worldPosInt, reagents.MixColor, reagents);
+					break;
 			}
 			case "liquid":
 			{
