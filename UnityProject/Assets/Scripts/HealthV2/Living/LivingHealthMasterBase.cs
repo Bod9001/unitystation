@@ -1,17 +1,16 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
+using UnityEngine.Events;
+using Mirror;
 using Systems.Atmospherics;
 using Chemistry;
 using Health.Sickness;
 using JetBrains.Annotations;
-using Mirror;
-using UnityEngine;
-using UnityEngine.Events;
+using Player;
 using Newtonsoft.Json;
-using Random = System.Random;
 
 namespace HealthV2
 {
@@ -33,8 +32,6 @@ namespace HealthV2
 		/// Rate at which periodic damage, such as radiation, should be applied
 		/// </summary>
 		private float tickRate = 1f;
-
-		private float tick = 0;
 
 		/// <summary>
 		/// The Register Tile of the living creature
@@ -138,7 +135,6 @@ namespace HealthV2
 		public float FireStacks => fireStacks;
 
 		private float maxFireStacks = 5f;
-		private bool maxFireStacksReached = false;
 
 		/// <summary>
 		/// Client side event which fires when this object's fire status changes
@@ -154,7 +150,6 @@ namespace HealthV2
 		public float BleedStacks => healthStateController.BleedStacks;
 
 		private float maxBleedStacks = 10f;
-		private bool maxBleedStacksReached = false;
 
 		private ObjectBehaviour objectBehaviour;
 		public ObjectBehaviour ObjectBehaviour => objectBehaviour;
@@ -164,6 +159,9 @@ namespace HealthV2
 
 		protected GameObject LastDamagedBy;
 
+		private DateTime timeOfDeath;
+		private DateTime TimeOfDeath => timeOfDeath;
+
 		/// <summary>
 		/// The list of the internal net ids of the body parts contained within this container
 		/// </summary>
@@ -171,7 +169,6 @@ namespace HealthV2
 		public List<IntName> InternalNetIDs = new List<IntName>();
 
 		public RootBodyPartController rootBodyPartController;
-
 
 		/// <summary>
 		/// The current hunger state of the creature, currently always returns normal
@@ -279,17 +276,17 @@ namespace HealthV2
 			}
 		}
 
-		void OnEnable()
+		private void OnEnable()
 		{
-			if (CustomNetworkManager.IsServer == false)
-				return;
+			if (CustomNetworkManager.IsServer == false) return;
+
 			UpdateManager.Add(PeriodicUpdate, 1f);
 		}
 
-		void OnDisable()
+		private void OnDisable()
 		{
-			if (CustomNetworkManager.IsServer == false)
-				return;
+			if (CustomNetworkManager.IsServer == false) return;
+
 			UpdateManager.Remove(CallbackType.PERIODIC_UPDATE, PeriodicUpdate);
 		}
 
@@ -304,7 +301,6 @@ namespace HealthV2
 			//Generate BloodType and DNA
 			healthStateController.SetDNA(new DNAandBloodType());
 		}
-
 
 		public Reagent CHem;
 
@@ -337,7 +333,11 @@ namespace HealthV2
 			CalculateRadiationDamage();
 			BleedStacksDamage();
 
-			if (IsDead) return;
+			if (IsDead)
+			{
+				DeathPeriodicUpdate();
+				return;
+			}
 
 			CalculateOverallHealth();
 		}
@@ -455,7 +455,6 @@ namespace HealthV2
 		{
 			return CirculatorySystem.BloodPool[CirculatorySystem.BloodType];
 		}
-
 
 		/// <summary>
 		/// Returns true if the creature has the given body part of a type targetable by the UI
@@ -720,7 +719,6 @@ namespace HealthV2
 			}
 		}
 
-
 		/// <summary>
 		/// Does the body part we're targeting suffer from traumatic damage?
 		/// </summary>
@@ -832,6 +830,8 @@ namespace HealthV2
 		///</Summary>
 		public void Death()
 		{
+			timeOfDeath = GameManager.Instance.stationTime;
+
 			var HV2 = (this as PlayerHealthV2);
 			if (HV2 != null)
 			{
@@ -846,7 +846,6 @@ namespace HealthV2
 		}
 
 		protected abstract void OnDeathActions();
-
 
 		/// <summary>
 		/// Updates the blood health stats from the server via NetMsg
@@ -890,6 +889,32 @@ namespace HealthV2
 		public void Extinguish()
 		{
 			healthStateController.SetFireStacks(0);
+		}
+
+		private void DeathPeriodicUpdate()
+		{
+			MiasmaCreation();
+		}
+
+		private void MiasmaCreation()
+		{
+			//TODO:Check for non-organic/zombie/husk
+
+			//Don't produce miasma until 2 minutes after death
+			if (GameManager.Instance.stationTime.Subtract(timeOfDeath).TotalMinutes < 2) return;
+
+			MetaDataNode node = RegisterTile.Matrix.MetaDataLayer.Get(RegisterTile.LocalPositionClient);
+
+			//Space or below -10 degrees celsius is safe from miasma creation
+			if (node.IsSpace || node.GasMix.Temperature <= Reactions.KOffsetC - 10) return;
+
+			//If we are in a container then don't produce miasma
+			//TODO: make this only happen with coffins, body bags and other body containers (morgue, etc)
+			if (objectBehaviour.parentContainer != null) return;
+
+			//TODO: check for formaldehyde in body, prevent if more than 15u
+
+			node.GasMix.AddGas(Gas.Miasma, AtmosDefines.MIASMA_CORPSE_MOLES);
 		}
 
 		#region Examine
@@ -1122,7 +1147,6 @@ namespace HealthV2
 
 		#endregion
 
-
 		/// <summary>
 		/// Sets up the sprite of a specified body part and adds its Net ID to InternalNetIDs
 		/// </summary>
@@ -1130,7 +1154,7 @@ namespace HealthV2
 		public void ServerCreateSprite(BodyPart implant)
 		{
 			int i = 0;
-			bool isSurfaceSprite = implant.IsSurface;
+			bool isSurfaceSprite = implant.IsSurface || implant.BodyPartItemInheritsSkinColor;
 			var sprites = implant.GetBodyTypeSprites(playerSprites.ThisCharacter.BodyType);
 			foreach (var Sprite in sprites.Item2)
 			{
@@ -1140,10 +1164,6 @@ namespace HealthV2
 				newSprite.transform.localPosition = Vector3.zero;
 				playerSprites.Addedbodypart.Add(newSprite);
 
-				if (isSurfaceSprite)
-				{
-					playerSprites.SurfaceSprite.Add(newSprite);
-				}
 
 				implant.RelatedPresentSprites.Add(newSprite);
 
@@ -1166,7 +1186,14 @@ namespace HealthV2
 				SpriteHandlerManager.RegisterHandler(playerSprites.GetComponent<NetworkIdentity>(),
 					newSprite.baseSpriteHandler);
 
-				i += 3; // ????????????????????????
+				if (isSurfaceSprite)
+				{
+					playerSprites.SurfaceSprite.Add(newSprite);
+					HandleSurface(newSprite, implant);
+				}
+
+
+				i += 3; // ???????????????????????? for Sprite order clashes, for example hands not rendering over jumpsuit
 			}
 
 			rootBodyPartController.UpdateClients();
@@ -1177,6 +1204,48 @@ namespace HealthV2
 			}
 		}
 
+
+		public void HandleSurface(BodyPartSprites newSprite, BodyPart implant)
+		{
+			Color CurrentSurfaceColour = Color.white;
+			if (implant.Tone == null) //Has no tone set
+			{
+				if (playerSprites.RaceBodyparts.Base.SkinColours.Count > 0)
+				{
+					ColorUtility.TryParseHtmlString(playerSprites.ThisCharacter.SkinTone, out CurrentSurfaceColour);
+
+					var hasColour = false;
+
+					foreach (var color in playerSprites.RaceBodyparts.Base.SkinColours)
+					{
+						if (color.ColorApprox(CurrentSurfaceColour))
+						{
+							hasColour = true;
+							break;
+						}
+					}
+
+					if (hasColour == false)
+					{
+						CurrentSurfaceColour = playerSprites.RaceBodyparts.Base.SkinColours[0];
+					}
+				}
+				else
+				{
+					ColorUtility.TryParseHtmlString(playerSprites.ThisCharacter.SkinTone, out CurrentSurfaceColour);
+				}
+			}
+			else //Already has tone set
+			{
+				CurrentSurfaceColour = implant.Tone.Value;
+			}
+
+
+			CurrentSurfaceColour.a = 1;
+			newSprite.baseSpriteHandler.SetColor(CurrentSurfaceColour);
+			implant.Tone = CurrentSurfaceColour;
+			implant.BodyPartItemSprite.SetColor(CurrentSurfaceColour);
+		}
 
 		public List<BodyPartSprites> ClientSprites = new List<BodyPartSprites>();
 
@@ -1281,14 +1350,10 @@ namespace HealthV2
 	/// <summary>
 	/// Event which fires when fire stack value changes.
 	/// </summary>
-	public class FireStackEvent : UnityEvent<float>
-	{
-	}
+	public class FireStackEvent : UnityEvent<float> { }
 
 	/// <summary>
 	/// Event which fires when conscious state changes, provides the old state and the new state
 	/// </summary>
-	public class ConsciousStateEvent : UnityEvent<ConsciousState, ConsciousState>
-	{
-	}
+	public class ConsciousStateEvent : UnityEvent<ConsciousState, ConsciousState> { }
 }
