@@ -582,6 +582,21 @@ public class Matrix : MonoBehaviour
 		DebugGizmoUtils.DrawRect(bounds.Minimum, bounds.Maximum);
 	}
 #endif
+	public void OnDestroy()
+	{
+		tilemapsDamage?.Clear();
+		metaTileMap = null;
+		serverObjects?.AllObjects?.Clear();
+		clientObjects?.AllObjects?.Clear();
+		ReactionManager = null;
+		MetaDataLayer = null;
+		UnderFloorLayer = null;
+		ElectricalLayer = null;
+		PipeLayer = null;
+		DisposalsLayer = null;
+		checkedMatrixMove = null;
+		tileChangeManager = null;
+	}
 }
 
 public class EarthquakeEvent : UnityEvent<Vector3Int, byte> { }

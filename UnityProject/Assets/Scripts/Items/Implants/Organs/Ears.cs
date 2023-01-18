@@ -1,3 +1,4 @@
+using System;
 using Audio.Containers;
 using HealthV2;
 using Mirror;
@@ -147,6 +148,11 @@ namespace Items.Implants.Organs
 				AudioManager.Instance.MultiInterestFloat.RecordPosition(this , Value);
 			}
 
+		}
+
+		public void OnDestroy()
+		{
+			UpdateManager.Remove(CallbackType.PERIODIC_UPDATE, CheckPressure);
 		}
 	}
 }

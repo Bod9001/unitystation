@@ -167,6 +167,12 @@ public class TileChangeManager : MonoBehaviour
 
 		changeList.List.Add(TileChange);
 	}
+
+	public void OnDestroy()
+	{
+		PresentTiles.Clear();
+		MultilayerPresentTiles.Clear();
+	}
 }
 
 [System.Serializable]

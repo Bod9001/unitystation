@@ -1334,6 +1334,17 @@ public class MatrixMove : ManagedBehaviour
 		}
 	}
 #endif
+
+	public void OnDestroy()
+	{
+		MatrixMoveEvents.OnStartMovementClient.RemoveAllListeners();
+		MatrixMoveEvents.OnStopMovementClient.RemoveAllListeners();
+		MatrixMoveEvents.OnFullStopClient.RemoveAllListeners();
+		MatrixMoveEvents.OnStartMovementServer.RemoveAllListeners();
+		MatrixMoveEvents.OnStopMovementServer.RemoveAllListeners();
+		MatrixMoveEvents.OnRotate.RemoveAllListeners();
+		MatrixMoveEvents.OnSpeedChange.RemoveAllListeners();
+	}
 }
 
 public enum UIType

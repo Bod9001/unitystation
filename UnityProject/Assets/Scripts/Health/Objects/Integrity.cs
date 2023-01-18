@@ -434,6 +434,15 @@ public class Integrity : NetworkBehaviour, IHealth, IFireExposable, IRightClicka
 	{
 		OnServerDespawnEvent?.Invoke();
 	}
+
+	public void OnDestroy()
+	{
+		OnWillDestroyServer.RemoveAllListeners();
+		OnApplyDamage.RemoveAllListeners();
+		OnExposedEvent.RemoveAllListeners();
+		OnBurnUpServer = null;
+		OnServerDespawnEvent = null;
+	}
 }
 
 /// <summary>

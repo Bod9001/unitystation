@@ -564,6 +564,13 @@ namespace Objects.Engineering
 
 			integrity.OnWillDestroyServer.RemoveListener(WhenDestroyed);
 		}
+
+		public void OnDestroy()
+		{
+			OnPowerNetworkUpdate.RemoveAllListeners();
+			departmentBatteries.Clear();
+			connectedDevices.Clear();
+		}
 	}
 
 }

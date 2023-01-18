@@ -77,6 +77,12 @@ namespace Objects.Atmospherics
 			pipeData.OnDisable();
 		}
 
+		public virtual void OnDestroy()
+		{
+			pipeData = null;
+			registerTile = null;
+		}
+
 		#endregion
 
 		public virtual void TickUpdate() { }

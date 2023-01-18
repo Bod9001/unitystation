@@ -66,6 +66,12 @@ public class MetaDataSystem : SubsystemBehaviour
 		}
 	}
 
+	public void OnDestroy()
+	{
+		externalNodes?.Clear();
+		tested?.Clear();
+	}
+
 	[Server]
 	public override void Initialize()
 	{

@@ -351,10 +351,10 @@ public partial class GameManager : MonoBehaviour, IInitialise
 
 		distance = (int)Vector2.Distance(beginning, target);
 
-		ShuttlePaths.Add(beginning); 
+		ShuttlePaths.Add(beginning);
 		for (int i = 0; i < (distance / 50); i++)
 		{
-			beginning = Vector2.MoveTowards(beginning, target, 50); 
+			beginning = Vector2.MoveTowards(beginning, target, 50);
 			ShuttlePaths.Add(beginning);
 		}
 
@@ -602,12 +602,14 @@ public partial class GameManager : MonoBehaviour, IInitialise
 
 		CurrentRoundState = RoundState.Ended;
 		EventManager.Broadcast(Event.RoundEnded, true);
+
 		counting = false;
 
 
 		StartCoroutine(WaitForRoundRestart());
 		GameMode.EndRoundReport();
-
+		//Manually clean
+		ComponentManager.Cleanup();
 		_ = SoundManager.PlayNetworked(endOfRoundSounds.GetRandomClip());
 	}
 

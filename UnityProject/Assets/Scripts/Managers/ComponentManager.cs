@@ -54,4 +54,10 @@ public class ComponentManager : SingletonManager<ComponentManager>
 	{
 		ObjectToPhysics.Clear();
 	}
+
+	public static void Cleanup()
+	{
+		ObjectToPhysics.Clear();
+	}
+
 }

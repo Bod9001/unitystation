@@ -87,6 +87,7 @@ public class MetaDataLayer : MonoBehaviour
 	{
 		//In the case of the matrix remaining in memory after the round ends, this will ensure the MetaDataNodes are GC
 		nodes.Clear();
+		ChangedNodes.Clear();
 	}
 
 	public MetaDataNode Get(Vector3Int localPosition, bool createIfNotExists = true, bool updateTileOnClient = false)

@@ -172,6 +172,11 @@ namespace Systems.Electricity
 			}
 		}
 
+		public void OnDestroy()
+		{
+			OnStateChangeEvent.RemoveAllListeners();
+		}
+
 		#endregion
 
 		#region Multitool Interaction

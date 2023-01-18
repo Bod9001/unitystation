@@ -85,6 +85,14 @@ namespace Objects.Atmospherics
 			base.OnSpawnServer(info);
 		}
 
+		public override void OnDestroy()
+		{
+			base.OnDestroy();
+			metaDataLayer = null;
+			metaNode = null;
+			pipeMix = null;
+		}
+
 		#endregion
 
 		public override void TickUpdate()

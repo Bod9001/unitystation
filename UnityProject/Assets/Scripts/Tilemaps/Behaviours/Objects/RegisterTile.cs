@@ -281,6 +281,16 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 			objectLayer.ServerObjects.Remove(LocalPositionServer, this);
 			objectLayer.ClientObjects.Remove(LocalPositionClient, this);
 		}
+
+		objectLayer = null;
+		fireExposables = null;
+		matrixRotationHooks = null;
+		IPlayerEntersTiles = null;
+		IObjectEntersTiles = null;
+		OnParentChangeComplete.RemoveAllListeners();
+		OnDisappearClient.RemoveAllListeners();
+		OnAppearClient.RemoveAllListeners();
+		OnDespawnedServer.RemoveAllListeners();
 	}
 
 	public virtual void OnDespawnServer(DespawnInfo info)
@@ -840,4 +850,5 @@ public class RegisterTile : NetworkBehaviour, IServerDespawn
 		if(CustomNetworkManager.IsServer == false) return;
 		objectLayer.ServerObjects.ReorderObjects(LocalPositionServer);
 	}
+
 }

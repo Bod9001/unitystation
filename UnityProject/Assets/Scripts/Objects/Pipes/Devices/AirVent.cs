@@ -74,6 +74,14 @@ namespace Objects.Atmospherics
 			base.OnSpawnServer(info);
 		}
 
+		public override void OnDestroy()
+		{
+			base.OnDestroy();
+			metaDataLayer = null;
+			metaNode = null;
+			pipeData = null;
+		}
+
 		public override void TickUpdate()
 		{
 			pipeData.mixAndVolume.EqualiseWithOutputs(pipeData.Outputs);
@@ -370,5 +378,7 @@ namespace Objects.Atmospherics
 		}
 
 		#endregion
+
+
 	}
 }

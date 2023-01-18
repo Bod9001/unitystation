@@ -2507,6 +2507,34 @@ namespace TileManagement
 
 			return HasOverlay(cellPosition, overlayTile.LayerType, overlayTile);
 		}
+
+		public void OnDestroy()
+		{
+			lock (PresentTiles)
+			{
+				PresentTiles?.Clear();
+			}
+
+			lock (MultilayerPresentTiles)
+			{
+				MultilayerPresentTiles.Clear();
+			}
+
+			Layers.Clear();
+			BoundLocations.Clear();
+			LayersValues = null;
+			lock (QueuedChanges)
+			{
+				QueuedChanges.Clear();
+			}
+
+			LayersKeys = null;
+			ObjectLayer = null;
+			ffLayersValues?.Clear();
+			SolidLayersValues = null;
+			DamageableLayers = null;
+			matrix = null;
+		}
 	}
 
 
