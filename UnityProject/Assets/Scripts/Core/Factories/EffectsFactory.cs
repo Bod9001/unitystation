@@ -1,10 +1,12 @@
 ﻿using System.Linq;
 using UnityEngine;
+using System.Collections;
+
 using Objects.Construction;
 using Chemistry;
 using Chemistry.Components;
 
-public static class EffectsFactory
+public class EffectsFactory : MonoBehaviour
 {
 	private static GameObject smallBloodTile;
 	private static GameObject mediumBloodTile;
@@ -12,6 +14,10 @@ public static class EffectsFactory
 	private static GameObject waterTile;
 	private static GameObject chemTile;
 	private static GameObject powderTile;
+
+	private static GameObject footprintTile;
+
+	private static GameObject footprintGraphic;
 
 	private static GameObject smallXenoBloodTile;
 	private static GameObject medXenoBloodTile;
@@ -30,13 +36,17 @@ public static class EffectsFactory
 		if (smallBloodTile == null)
 		{
 			//Do init stuff
-			//TODO: Make only ONE bloodTile prefab that can handel all sizes.
+			//TODO: Make only ONE bloodTile prefab that can handle all sizes.
 			smallBloodTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("SmallBloodSplat");
 			mediumBloodTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("MediumBloodSplat");
 			largeBloodTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("LargeBloodSplat");
 			waterTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("WaterSplat");
 			chemTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("ChemSplat");
 			powderTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("PowderSplat");
+
+			footprintTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("FootPrints");
+			footprintGraphic = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("ShoePrintSprite");
+
 			smallXenoBloodTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("SmallXenoBloodSplat");
 			medXenoBloodTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("MedXenoBloodSplat");
 			largeXenoBloodTile = CustomNetworkManager.Instance.GetSpawnablePrefabFromName("LargeXenoBloodSplat");
@@ -158,4 +168,101 @@ public static class EffectsFactory
 			}
 		}
 	}
+
+	public static void FootPrint(Vector3Int worldPos, Color color, ReagentMix reagents, Orientation direction)
+	{
+		EnsureInit();
+		//do you have a footprint already?
+
+		if (MatrixManager.GetAt<FloorDecal>(worldPos, isServer: true).Any(decal => decal.isFootprint))
+		{
+			var decal = MatrixManager.GetAt<FloorDecal>(worldPos, true);
+			//Update color
+			decal.First<FloorDecal>().color = color;
+			
+			var newOverlay = Instantiate(footprintGraphic, worldPos, Quaternion.identity);
+
+			newOverlay.GetComponent<SpriteHandler>().ChangeSprite(1);
+			newOverlay.GetComponent<SpriteHandler>().SetColor(color);
+
+			if (direction == Orientation.Down)
+			{
+				newOverlay.GetComponentInChildren<SpriteHandler>().ChangeSpriteVariant(0);
+
+			}
+			if (direction == Orientation.Up)
+			{
+				newOverlay.GetComponentInChildren<SpriteHandler>().ChangeSpriteVariant(1);
+			}
+			if (direction == Orientation.Right)
+			{
+				newOverlay.GetComponentInChildren<SpriteHandler>().ChangeSpriteVariant(2);
+
+			}
+			if (direction == Orientation.Left)
+			{
+				newOverlay.GetComponentInChildren<SpriteHandler>().ChangeSpriteVariant(3);
+			}
+
+			newOverlay.transform.parent = decal.First<FloorDecal>().gameObject.transform;
+			//registerItem.TileChangeManager.MetaTileMap.AddOverlay(cellPos, tileToUse, chosenDirection,chosenColour);
+		}
+		else
+		{
+			//No existing decal tile, lets make one 
+			var footTileInst = Spawn.ServerPrefab(footprintTile, worldPos, MatrixManager.AtPoint(worldPos, true).Objects, Quaternion.identity);
+
+			if (footTileInst.Successful)
+			{
+				var footTileGO = footTileInst.GameObject;
+				var tileReagents = footTileGO.GetComponent<ReagentContainer>();
+
+				if (direction == Orientation.Down)
+				{
+					footTileGO.GetComponentInChildren<SpriteHandler>().ChangeSpriteVariant(0);
+
+				}
+				if (direction == Orientation.Up)
+				{
+					footTileGO.GetComponentInChildren<SpriteHandler>().ChangeSpriteVariant(1);
+
+				}
+				if (direction == Orientation.Right)
+				{
+					footTileGO.GetComponentInChildren<SpriteHandler>().ChangeSpriteVariant(2);
+
+				}
+				if (direction == Orientation.Left)
+				{
+					footTileGO.GetComponentInChildren<SpriteHandler>().ChangeSpriteVariant(3);
+
+				}
+
+
+
+				//footTileGO.GetComponentInChildren<SpriteHandler>().SetCatalogue(null, 2);
+
+
+				var colorDesc = TextUtils.ColorToString(reagents.MixColor);
+				var stateDesc = ChemistryUtils.GetMixStateDescription(reagents);
+				footTileInst.GameObject.name = $"{colorDesc} {stateDesc}";
+
+				if (footTileGO)
+				{
+					var decal = footTileGO.GetComponent<FloorDecal>();
+					if (decal)
+					{
+						decal.color = color;
+						//footTileGO.AddComponent<SpriteRenderer>()
+					}
+					if (reagents != null)
+					{
+						tileReagents.Add(reagents);
+					}
+				}
+			}
+		}
+	}
+
+
 }
