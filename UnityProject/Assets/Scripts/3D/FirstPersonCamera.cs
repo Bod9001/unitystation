@@ -54,23 +54,9 @@ namespace _3D
 			}
 
 
-			CursorVis();
 			RandomiseSkyboxOnDemand();
 		}
 
-		private void CursorVis()
-		{
-			if (Input.GetKey(KeyCode.Tab) || UIManager.Instance.isInputFocus == false)
-			{
-				Cursor.lockState = CursorLockMode.Locked;
-				Cursor.visible = false;
-			}
-			else
-			{
-				Cursor.lockState = CursorLockMode.None;
-				Cursor.visible = true;
-			}
-		}
 
 		private void RandomiseSkybox()
 		{
