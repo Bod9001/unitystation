@@ -26,6 +26,8 @@ namespace _3D
 
 			if (Input.GetKey(KeyCode.Tab) == false && Application.isFocused && UIManager.Instance.isInputFocus == false)
 			{
+				Cursor.lockState = CursorLockMode.Locked;
+				Cursor.visible = false;
 				float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
 				float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
