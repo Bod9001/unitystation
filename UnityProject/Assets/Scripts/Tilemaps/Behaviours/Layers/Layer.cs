@@ -36,9 +36,6 @@ public class Layer : MonoBehaviour
 
 	public TilemapDamage TilemapDamage { get; private set; }
 
-	public BoundsInt Bounds => boundsCache;
-	private BoundsInt boundsCache;
-
 	private Coroutine recalculateBoundsHandle;
 
 	/// <summary>
@@ -73,24 +70,6 @@ public class Layer : MonoBehaviour
 		tilemap = GetComponent<Tilemap>();
 		TilemapDamage = GetComponent<TilemapDamage>();
 		SubsystemManager = GetComponentInParent<MatrixSystemManager>();
-		RecalculateBounds();
-	}
-
-	/// <summary>
-	/// In case there are lots of sudden changes, recalculate bounds once a frame
-	/// instead of doing it for every changed tile
-	/// </summary>
-	private IEnumerator RecalculateBoundsNextFrame()
-	{
-		//apparently waiting for next frame doesn't work when looking at Scene view! //TODO use editor routines for this functionality
-		yield return WaitFor.Seconds(0.015f);
-		RecalculateBounds();
-	}
-
-	public virtual void RecalculateBounds()
-	{
-		boundsCache = tilemap.cellBounds;
-		this.TryStopCoroutine(ref recalculateBoundsHandle);
 	}
 
 	private void Start()
@@ -185,10 +164,6 @@ public class Layer : MonoBehaviour
 	{
 		var hasTile = tilemap.HasTile(position);
 		tilemap.SetTile(position, tile);
-		if (recalculateBoundsHandle == null)
-		{
-			this.RestartCoroutine(RecalculateBoundsNextFrame(), ref recalculateBoundsHandle);
-		}
 		return hasTile;
 	}
 

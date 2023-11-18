@@ -26,6 +26,9 @@ namespace TileManagement
 
 		private Stopwatch stopwatch = new Stopwatch();
 
+		private readonly Dictionary<Vector3Int, List<TileLocation>> AnyTilePresent =
+			new Dictionary<Vector3Int, List<TileLocation>>();
+
 		private readonly Dictionary<Layer, Dictionary<Vector3Int, TileLocation>> PresentTiles =
 			new Dictionary<Layer, Dictionary<Vector3Int, TileLocation>>();
 
@@ -108,7 +111,6 @@ namespace TileManagement
 
 		private void OnEnable()
 		{
-
 			Layers = new Dictionary<LayerType, Layer>();
 			var layersKeys = new List<LayerType>();
 			var layersValues = new List<Layer>();
@@ -166,6 +168,19 @@ namespace TileManagement
 								Tile.Colour = layer.Tilemap.GetColor(localPlace);
 								Tile.transformMatrix = layer.Tilemap.GetTransformMatrix(localPlace);
 
+								if (layer.LayerType != LayerType.Effects)
+								{
+									lock (AnyTilePresent)
+									{
+										if (AnyTilePresent.ContainsKey(localPlace) == false)
+										{
+											AnyTilePresent[localPlace] = new List<TileLocation>();
+										}
+
+										AnyTilePresent[localPlace].Add(Tile);
+									}
+								}
+
 
 								ToInsertDictionary[localPlace] = Tile;
 								InBoundLocations.ExpandToPoint2D(localPlace);
@@ -208,6 +223,7 @@ namespace TileManagement
 			{
 				UpdateManager.Add(CallbackType.UPDATE, UpdateMe);
 			}
+
 			var transform1 = ObjectLayer.transform;
 			localToWorldMatrix = transform1.localToWorldMatrix;
 			worldToLocalMatrix = transform1.worldToLocalMatrix;
@@ -267,7 +283,6 @@ namespace TileManagement
 
 		private void ApplyTileChange(TileLocation tileLocation)
 		{
-
 			lock (QueuedChanges)
 			{
 				if (tileLocation.InQueue) return;
@@ -344,6 +359,7 @@ namespace TileManagement
 				RemoveTileMessage.Send(matrix.NetworkedMatrix.MatrixSync.netId, tileLocation.position,
 					tileLocation.layer.LayerType);
 			}
+
 			if (tileLocation.layer.LayerType == LayerType.Floors || tileLocation.layer.LayerType == LayerType.Base)
 			{
 				tileLocation.layer.TilemapDamage.SwitchObjectsMatrixAt(tileLocation.position);
@@ -373,7 +389,7 @@ namespace TileManagement
 						tileLocation.position + new Vector3(0.5f, 0.5f, 0), new Quaternion(),
 						tileLocation.layer.transform).GetComponent<SetCubeSprite>();
 
-					Sprite3D.gameObject.transform.localPosition = tileLocation.position +  new Vector3(0.5f, 0.5f, 0);
+					Sprite3D.gameObject.transform.localPosition = tileLocation.position + new Vector3(0.5f, 0.5f, 0);
 
 					tileLocation.AssociatedSetCubeSprite = Sprite3D;
 					Sprite3D.SetSprite(tileLocation.layerTile.PreviewSprite);
@@ -411,20 +427,18 @@ namespace TileManagement
 
 				if (tileLocation.NewTile)
 				{
-					MatrixManager.Instance.spaceMatrix.TilemapsDamage[0].
-						SwitchObjectsMatrixAt(tileLocation.position
-							.ToWorld(tileLocation.metaTileMap.matrix)
-							.ToLocal(MatrixManager.Instance.spaceMatrix).RoundToInt());
+					MatrixManager.Instance.spaceMatrix.TilemapsDamage[0].SwitchObjectsMatrixAt(tileLocation.position
+						.ToWorld(tileLocation.metaTileMap.matrix)
+						.ToLocal(MatrixManager.Instance.spaceMatrix).RoundToInt());
 					tileLocation.NewTile = false;
 				}
-
-
 
 
 				UpdateTileMessage.Send(matrix.NetworkedMatrix.MatrixSync.netId, tileLocation.position,
 					tileLocation.layerTile.TileType, tileLocation.layerTile.name,
 					tileLocation.transformMatrix, tileLocation.Colour, tileLocation.layerTile.LayerType);
 			}
+
 			tileLocation.layer.SubsystemManager.UpdateAt(tileLocation.position);
 		}
 
@@ -488,7 +502,8 @@ namespace TileManagement
 		}
 
 		public bool IsPassableAtOneObjectsV2(Vector3Int localOrigin, Vector3Int localTo, UniversalObjectPhysics context,
-			List<UniversalObjectPhysics> Pushings, List<IBumpableObject> Bumps, List<UniversalObjectPhysics> Hits = null)
+			List<UniversalObjectPhysics> Pushings, List<IBumpableObject> Bumps,
+			List<UniversalObjectPhysics> Hits = null)
 		{
 			// Simple case: orthogonal travel
 			if (localOrigin.x == localTo.x || localOrigin.y == localTo.y)
@@ -497,11 +512,13 @@ namespace TileManagement
 			}
 			else // diagonal travel
 			{
-				bool isPassableIfHorizontalFirst = IsPassableObjectsHorizontal(localOrigin, localTo, context, Pushings, Bumps, Hits);
+				bool isPassableIfHorizontalFirst =
+					IsPassableObjectsHorizontal(localOrigin, localTo, context, Pushings, Bumps, Hits);
 				if (isPassableIfHorizontalFirst) return true;
 
 
-				bool isPassableIfVerticalFirst = IsPassableObjectsVertical(localOrigin, localTo, context, Pushings, Bumps,Hits);
+				bool isPassableIfVerticalFirst =
+					IsPassableObjectsVertical(localOrigin, localTo, context, Pushings, Bumps, Hits);
 				if (isPassableIfVerticalFirst) return true;
 
 
@@ -510,7 +527,8 @@ namespace TileManagement
 		}
 
 		public bool IsPassableObjectsHorizontal(Vector3Int origin, Vector3Int to, UniversalObjectPhysics context,
-			List<UniversalObjectPhysics> Pushings, List<IBumpableObject> Bumps, List<UniversalObjectPhysics> Hits = null)
+			List<UniversalObjectPhysics> Pushings, List<IBumpableObject> Bumps,
+			List<UniversalObjectPhysics> Hits = null)
 		{
 			Vector3Int toX = new Vector3Int(to.x, origin.y, origin.z);
 			bool isPassableIfHorizontalFirst =
@@ -522,7 +540,8 @@ namespace TileManagement
 
 
 		public bool IsPassableObjectsVertical(Vector3Int origin, Vector3Int to, UniversalObjectPhysics context,
-			List<UniversalObjectPhysics> Pushings, List<IBumpableObject> Bumps, List<UniversalObjectPhysics> Hits = null)
+			List<UniversalObjectPhysics> Pushings, List<IBumpableObject> Bumps,
+			List<UniversalObjectPhysics> Hits = null)
 		{
 			Vector3Int toY = new Vector3Int(origin.x, to.y, origin.z);
 			return IsPassableAtOrthogonalObjectsV2(origin, toY, context, Pushings, Bumps, origin, to, Hits) &&
@@ -584,11 +603,14 @@ namespace TileManagement
 			}
 		}
 
-		private bool IsPassableAtOrthogonalObjectsV2(Vector3Int localOrigin, Vector3Int localTo, UniversalObjectPhysics context,
-			List<UniversalObjectPhysics> Pushings, List<IBumpableObject> Bumps,Vector3Int? originalFrom = null,Vector3Int? originalTo = null, List<UniversalObjectPhysics> Hits = null)
+		private bool IsPassableAtOrthogonalObjectsV2(Vector3Int localOrigin, Vector3Int localTo,
+			UniversalObjectPhysics context,
+			List<UniversalObjectPhysics> Pushings, List<IBumpableObject> Bumps, Vector3Int? originalFrom = null,
+			Vector3Int? originalTo = null, List<UniversalObjectPhysics> Hits = null)
 		{
-			return ObjectLayer.IsPassableAtOnThisLayerV2(localOrigin, localTo, CustomNetworkManager.IsServer, context, Pushings,
-				Bumps, originalFrom , originalTo, Hits);
+			return ObjectLayer.IsPassableAtOnThisLayerV2(localOrigin, localTo, CustomNetworkManager.IsServer, context,
+				Pushings,
+				Bumps, originalFrom, originalTo, Hits);
 		}
 
 
@@ -821,6 +843,7 @@ namespace TileManagement
 			Color? color = null,
 			bool isPlaying = true)
 		{
+			bool NewTile = false;
 			if (Layers.TryGetValue(tile.LayerType, out var layer))
 			{
 				if (isPlaying == false) //is the game playing or is this the levelbrush?
@@ -864,6 +887,7 @@ namespace TileManagement
 				{
 					lock (MultilayerPresentTiles)
 					{
+
 						var tileLocations = GetTileLocationsNeedLockSurrounding(position, layer);
 						tileLocations ??= new List<TileLocation>();
 
@@ -872,11 +896,13 @@ namespace TileManagement
 						position.z = 1 - index;
 						if (tileLocations[index] == null)
 						{
-							tileLocations[index] = GetPooledTile();
-							tileLocations[index].layer = layer;
-							tileLocations[index].metaTileMap = this;
-							tileLocations[index].position = position;
-							tileLocations[index].NewTile = true;
+							NewTile = true;
+							var Tile = GetPooledTile();
+							tileLocations[index] = Tile;
+							Tile.layer = layer;
+							Tile.metaTileMap = this;
+							Tile.position = position;
+							Tile.NewTile = true;
 						}
 
 						tileLocation = tileLocations[index];
@@ -891,6 +917,7 @@ namespace TileManagement
 
 					if (tileLocation == null)
 					{
+						NewTile = true;
 						tileLocation = GetPooledTile();
 						tileLocation.layer = layer;
 						tileLocation.metaTileMap = this;
@@ -904,9 +931,24 @@ namespace TileManagement
 				}
 
 
+
 				tileLocation.layerTile = tile;
 				tileLocation.transformMatrix = matrixTransform.GetValueOrDefault(Matrix4x4.identity);
 				tileLocation.Colour = color.GetValueOrDefault(Color.white);
+
+				if (NewTile && tile.LayerType != LayerType.Effects)
+				{
+					lock (AnyTilePresent)
+					{
+						if (AnyTilePresent.ContainsKey(position) == false)
+						{
+							AnyTilePresent[position] = new List<TileLocation>();
+						}
+
+						AnyTilePresent[position].Add(tileLocation);
+					}
+				}
+
 				ApplyTileChange(tileLocation);
 				return position;
 			}
@@ -929,8 +971,8 @@ namespace TileManagement
 		private void LogMissingLayer(Vector3Int position, LayerType layerType)
 		{
 			Loggy.LogErrorFormat("Modifying tile at cellPos {0} for layer type {1} failed because matrix {2} " +
-			                      "has no layer of that type. Please add this layer to this matrix in" +
-			                      " the scene.", Category.TileMaps, position, layerType, name);
+			                     "has no layer of that type. Please add this layer to this matrix in" +
+			                     " the scene.", Category.TileMaps, position, layerType, name);
 		}
 
 		/// <summary>
@@ -981,7 +1023,8 @@ namespace TileManagement
 		/// <param name="layerType"></param>
 		/// <param name="useExactForMultilayer"></param>
 		/// <returns></returns>
-		public TileLocation GetTileLocation(Vector3Int cellPosition, LayerType layerType, bool useExactForMultilayer = false)
+		public TileLocation GetTileLocation(Vector3Int cellPosition, LayerType layerType,
+			bool useExactForMultilayer = false)
 		{
 			if (layerType == LayerType.Objects) return null;
 			if (Layers.TryGetValue(layerType, out var layer))
@@ -1095,10 +1138,11 @@ namespace TileManagement
 		/// <param name="colour">Colour to set tile</param>
 		/// <param name="useExactForMultilayer"></param>
 		/// <returns></returns>
-		public void SetColour(Vector3Int cellPosition, LayerType layerType, Color? colour, bool useExactForMultilayer = false)
+		public void SetColour(Vector3Int cellPosition, LayerType layerType, Color? colour,
+			bool useExactForMultilayer = false)
 		{
 			var tile = GetTileLocation(cellPosition, layerType, useExactForMultilayer);
-			if(tile == null || tile.layerTile == null) return;
+			if (tile == null || tile.layerTile == null) return;
 
 			SetTile(cellPosition, tile.layerTile, tile.transformMatrix, colour);
 		}
@@ -1150,7 +1194,8 @@ namespace TileManagement
 		public LayerTile GetTile(Vector3Int cellPosition, bool ignoreEffectsLayer = false,
 			bool useExactForMultilayer = false, bool excludeNonIntractable = false)
 		{
-			return GetTileLocation(cellPosition, ignoreEffectsLayer, useExactForMultilayer, excludeNonIntractable)?.layerTile;
+			return GetTileLocation(cellPosition, ignoreEffectsLayer, useExactForMultilayer, excludeNonIntractable)
+				?.layerTile;
 		}
 
 		/// <summary>
@@ -1195,7 +1240,8 @@ namespace TileManagement
 		/// </summary>
 		/// <param name="cellPosition">cell position within the tilemap to get the tile of. NOT the same
 		/// as world position.</param>
-		public List<TileLocation> GetTileLocations(Vector3Int cellPosition, bool ignoreEffectsLayer = false, bool useExactForMultilayer = false)
+		public List<TileLocation> GetTileLocations(Vector3Int cellPosition, bool ignoreEffectsLayer = false,
+			bool useExactForMultilayer = false)
 		{
 			List<TileLocation> tileLocations = new List<TileLocation>();
 			foreach (var layer in LayersValues)
@@ -1248,16 +1294,10 @@ namespace TileManagement
 		/// </summary>
 		public bool IsEmptyAt(Vector3Int position, bool isServer)
 		{
-			for (var index = 0; index < LayersValues.Length; index++)
+			lock (AnyTilePresent)
 			{
-				var layer = LayersValues[index];
-				if (layer.LayerType != LayerType.Objects && HasTile(position, layer))
-				{
-					return false;
-				}
+				return !AnyTilePresent.ContainsKey(position);
 			}
-
-			return true;
 		}
 
 		public bool IsNoGravityAt(Vector3Int position, bool isServer)
@@ -1318,16 +1358,10 @@ namespace TileManagement
 
 		public bool IsEmptyTileMap(Vector3Int position)
 		{
-			for (var i1 = 0; i1 < LayersKeys.Length; i1++)
+			lock (AnyTilePresent)
 			{
-				LayerType layer = LayersKeys[i1];
-				if (layer != LayerType.Objects && HasTile(position, layer))
-				{
-					return false;
-				}
+				return !AnyTilePresent.ContainsKey(position);
 			}
-
-			return true;
 		}
 
 		public bool IsObjectPresent(GameObject[] context, Vector3Int position, bool isServer, out RegisterTile Object)
@@ -1350,40 +1384,32 @@ namespace TileManagement
 
 		public bool IsEmptyAt(GameObject[] context, Vector3Int position, bool isServer)
 		{
-			for (var i1 = 0; i1 < LayersKeys.Length; i1++)
+			if (IsEmptyTileMap(position))
 			{
-				LayerType layer = LayersKeys[i1];
-				if (layer != LayerType.Objects && HasTile(position, layer))
+				foreach (RegisterTile o in isServer
+					         ? (ObjectLayer).ServerObjects.Get(position)
+					         : (ObjectLayer).ClientObjects.Get(position))
 				{
-					return false;
-				}
-
-				if (layer == LayerType.Objects)
-				{
-					foreach (RegisterTile o in isServer
-						         ? ((ObjectLayer) LayersValues[i1]).ServerObjects.Get(position)
-						         : ((ObjectLayer) LayersValues[i1]).ClientObjects.Get(position))
+					if (o.IsPassable(isServer) == false)
 					{
-						if (o.IsPassable(isServer) == false)
+						bool isExcluded = false;
+						for (var index = 0; index < context.Length; index++)
 						{
-							bool isExcluded = false;
-							for (var index = 0; index < context.Length; index++)
+							if (o.gameObject == context[index])
 							{
-								if (o.gameObject == context[index])
-								{
-									isExcluded = true;
-									break;
-								}
+								isExcluded = true;
+								break;
 							}
+						}
 
-							if (isExcluded == false)
-							{
-								return false;
-							}
+						if (isExcluded == false)
+						{
+							return false;
 						}
 					}
 				}
 			}
+
 
 			return true;
 		}
@@ -1393,46 +1419,15 @@ namespace TileManagement
 			return ObjectLayer.HasObject(position, IsServer);
 		}
 
-		/// <summary>
-		/// Cheap method to check if there's a tile, Do not use for objects
-		/// </summary>
-		/// <param name="position"></param>
-		/// <returns></returns>
-		public bool HasTile(Vector3Int position, Layer Layer)
-		{
-			TileLocation tileLocation = null;
-
-			if (Layer.LayerType == LayerType.Objects) return false;
-			if (Layer.LayerType == LayerType.Effects) return false;
-
-			tileLocation = GetCorrectTileLocationForLayer(position, Layer);
-
-			return tileLocation?.layerTile;
-		}
-
 
 		/// <summary>
 		/// Cheap method to check if there's a tile, Do not use for objects
 		/// </summary>
 		/// <param name="position"></param>
 		/// <returns></returns>
-		public bool HasTile(Vector3Int position, bool UseExactForMultilayer = false)
+		public bool HasTile(Vector3Int position)
 		{
-			TileLocation tileLocation = null;
-			foreach (var layer in LayersValues)
-			{
-				if (layer.LayerType == LayerType.Objects) continue;
-				if (layer.LayerType == LayerType.Effects) continue;
-
-				tileLocation = GetCorrectTileLocationForLayer(position, layer, UseExactForMultilayer);
-
-				if (tileLocation != null)
-				{
-					break;
-				}
-			}
-
-			return tileLocation?.layerTile;
+			return !IsEmptyTileMap(position);
 		}
 
 		/// <summary>
@@ -1449,32 +1444,50 @@ namespace TileManagement
 				return false;
 			}
 
-			if (Layers.TryGetValue(layerType, out var layer))
+			lock (AnyTilePresent)
 			{
-				if (Application.isPlaying == false)
+				if (AnyTilePresent.TryGetValue(position,  out var STiles))
 				{
-					return layer.HasTile(position);
+					foreach (var Tile in STiles)
+					{
+						if (Tile.layerTile.LayerType == layerType)
+						{
+							return true;
+						}
+					}
 				}
-
-				if (layer.LayerType.IsUnderFloor())
+				else
 				{
-					return layer.HasTile(position);
+					return false;
 				}
-
-				TileLocation tileLocation = null;
-				tileLocation = GetCorrectTileLocationForLayer(position, layer);
-
-				if (tileLocation != null)
-				{
-					return true;
-				}
-
-				//return layer.HasTile(position, isServer);
 			}
-			else
-			{
-				LogMissingLayer(position, layerType);
-			}
+
+			// if (Layers.TryGetValue(layerType, out var layer))
+			// {
+			// 	if (Application.isPlaying == false)
+			// 	{
+			// 		return layer.HasTile(position);
+			// 	}
+			//
+			// 	if (layer.LayerType.IsUnderFloor())
+			// 	{
+			// 		return layer.HasTile(position);
+			// 	}
+			//
+			// 	TileLocation tileLocation = null;
+			// 	tileLocation = GetCorrectTileLocationForLayer(position, layer);
+			//
+			// 	if (tileLocation != null)
+			// 	{
+			// 		return true;
+			// 	}
+			//
+			// 	//return layer.HasTile(position, isServer);
+			// }
+			// else
+			// {
+			// 	LogMissingLayer(position, layerType);
+			// }
 
 			return false;
 		}
@@ -1874,6 +1887,19 @@ namespace TileManagement
 							if (tileLocation != null)
 							{
 								tileLocation.layerTile = null;
+								//if (tile.LayerType != LayerType.Effects) not needed Because Multilayer
+								lock (AnyTilePresent)
+								{
+									if (AnyTilePresent.TryGetValue(position, out var value))
+									{
+										value.Remove(tileLocation);
+										if (value.Count == 0)
+										{
+											AnyTilePresent.Remove(position);
+										}
+									}
+								}
+
 								ApplyTileChange(tileLocation);
 								if (refLayer != LayerType.Effects)
 								{
@@ -1896,6 +1922,21 @@ namespace TileManagement
 				if (tileLocation != null)
 				{
 					tileLocation.layerTile = null;
+					if (layer.LayerType != LayerType.Effects)
+					{
+						lock (AnyTilePresent)
+						{
+							if (AnyTilePresent.TryGetValue(position, out var value))
+							{
+								value.Remove(tileLocation);
+								if (value.Count == 0)
+								{
+									AnyTilePresent.Remove(position);
+								}
+							}
+						}
+					}
+
 					ApplyTileChange(tileLocation);
 					if (refLayer != LayerType.Effects)
 					{
@@ -1970,13 +2011,13 @@ namespace TileManagement
 			}
 
 			//Vector3[4] {bottomLeft, bottomRight, topLeft, topRight}; //Presuming It's been updated
-			var bottomLeft = localToWorldMatrix.Value.MultiplyPoint(localBound.min );
+			var bottomLeft = localToWorldMatrix.Value.MultiplyPoint(localBound.min);
 			globalPoints[0] = bottomLeft;
 			globalPoints[1] =
 				localToWorldMatrix.Value.MultiplyPoint(new Vector3(localBound.xMax, localBound.yMin, 0));
 			globalPoints[2] =
-				localToWorldMatrix.Value.MultiplyPoint(new Vector3(localBound.xMin, localBound.yMax, 0) );
-			globalPoints[3] = localToWorldMatrix.Value.MultiplyPoint(localBound.max );
+				localToWorldMatrix.Value.MultiplyPoint(new Vector3(localBound.xMin, localBound.yMax, 0));
+			globalPoints[3] = localToWorldMatrix.Value.MultiplyPoint(localBound.max);
 
 			var minPosition = bottomLeft;
 			var maxPosition = bottomLeft;
@@ -2277,6 +2318,16 @@ namespace TileManagement
 							Tile.layerTile = getTile;
 							Tile.Colour = layer.Tilemap.GetColor(localPlace);
 							Tile.transformMatrix = layer.Tilemap.GetTransformMatrix(localPlace);
+							//if (layer.LayerType != LayerType.Effects) // Not needed because underfloor
+							lock (AnyTilePresent)
+							{
+								if (AnyTilePresent.ContainsKey(localPlace) == false)
+								{
+									AnyTilePresent[localPlace] = new List<TileLocation>();
+								}
+
+								AnyTilePresent[localPlace].Add(Tile);
+							}
 
 							if (isServer)
 							{
@@ -2475,7 +2526,8 @@ namespace TileManagement
 		/// <summary>
 		/// Dynamically adds overlays to tile position
 		/// </summary>
-		public Vector3Int AddOverlay(Vector3Int cellPosition, OverlayTile overlayTile, Matrix4x4? transformMatrix = null,
+		public Vector3Int AddOverlay(Vector3Int cellPosition, OverlayTile overlayTile,
+			Matrix4x4? transformMatrix = null,
 			Color? color = null, bool allowMultiple = false)
 		{
 			//use remove methods to remove overlay instead
@@ -2484,7 +2536,8 @@ namespace TileManagement
 			cellPosition.z = 0;
 
 			//Dont add the same overlay twice
-			if (HasOverlay(cellPosition, overlayTile.LayerType, overlayTile) && allowMultiple == false) return cellPosition;
+			if (HasOverlay(cellPosition, overlayTile.LayerType, overlayTile) && allowMultiple == false)
+				return cellPosition;
 
 			var overlayPos = GetFreeOverlayPos(cellPosition, overlayTile.LayerType);
 			if (overlayPos == null) return cellPosition;
