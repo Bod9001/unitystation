@@ -677,7 +677,10 @@ public class SpriteHandler : MonoBehaviour
 	protected virtual void Awake()
 	{
 		variantIndex = initialVariantIndex;
-		PresentSpriteSet = InitialPresentSpriteSet;
+		if (PresentSpriteSet == null)
+		{
+			PresentSpriteSet = InitialPresentSpriteSet;
+		}
 #if UNITY_EDITOR
 		ValidateLate();
 #endif
