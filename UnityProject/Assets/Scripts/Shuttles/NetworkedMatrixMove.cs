@@ -1177,7 +1177,7 @@ public class NetworkedMatrixMove : NetworkBehaviour
 
 			if (thisBigBound.Intersects(OtherBigBound, out var Overlap))
 			{
-				WorldCurrentVelocity = WorldCurrentVelocity.normalized * (SpinneyThreshold - 1);
+				WorldCurrentVelocity = WorldCurrentVelocity.normalized * (SpinneyThreshold - 2);
 			}
 		}
 	}
