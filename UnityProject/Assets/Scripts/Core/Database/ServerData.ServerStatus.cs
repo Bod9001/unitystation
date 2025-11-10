@@ -21,7 +21,7 @@ namespace DatabaseAPI
 	/// </summary>
 	public partial class ServerData
 	{
-		private BuildInfo buildInfo;
+		public BuildInfo buildInfo;
 		private ServerConfig config;
 		private Ignorance ignoranceTransport;
 		private ServerMotdData motdData;

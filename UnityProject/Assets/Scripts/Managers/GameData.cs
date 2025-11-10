@@ -56,8 +56,8 @@ public class GameData : MonoBehaviour, IInitialise
 
 	public static string LoggedInUsername { get; set; }
 
-	public static int BuildNumber { get; private set; }
-	public static string ForkName { get; private set; }
+	public static int BuildNumber => ServerData.Instance.buildInfo.BuildNumber;
+	public static string ForkName  => ServerData.Instance.buildInfo.ForkName;
 
 	public static GameData Instance => FindUtils.LazyFindObject(ref gameData);
 
@@ -112,9 +112,16 @@ public class GameData : MonoBehaviour, IInitialise
 #if UNITY_EDITOR
 		DevBuild = true;
 #endif
-		var buildInfo = JsonConvert.DeserializeObject<BuildInfo>(AccessFile.Load("buildinfo.json"));
-		BuildNumber = buildInfo.BuildNumber;
-		ForkName = buildInfo.ForkName;
+		if (ServerData.Instance == null)
+		{
+			Loggy.Error("hummm not good");
+		}
+
+		if (ServerData.Instance.buildInfo == null)
+		{
+			ServerData.Instance.buildInfo = JsonConvert.DeserializeObject<BuildInfo>(AccessFile.Load("buildinfo.json"));
+		}
+
 		forceOfflineMode = !string.IsNullOrEmpty(GetArgument("-offlinemode"));
 		Loggy.Info($"Build Version is: {BuildNumber}. " + (OfflineMode ? "Offline mode" : string.Empty));
 		CheckHeadlessState();

@@ -13,6 +13,88 @@ using WebSocketSharp;
 using WebSocketSharp.Net;
 using WebSocketSharp.Server;
 
+/*/
+
+Write
+mhelp/ahelp/prayer/achat ( send)
+chat  ( send)
+Kick   ( send)
+Ban?  ( send)
+ooc_mute/Global/player  ( send)
+
+
+server Config (  set
+	ServerName,
+	WinDownload,
+	OSXDownload,
+	LinuxDownload,
+	ConnectionPassword
+	FPS
+	BuildNumber ,
+	GoodFileVersion)
+
+Looking at Logs ( search )
+
+Managing permissions (  remove add people to roles )
+
+Read
+
+playlist
+chat/all the Ahelps
+Read current ooc_mute/Global/player
+playlist  (
+	Character name
+	job
+	admin tag
+	account ID
+	IP,
+	UUID,
+	Is antagonist)
+
+server Config ( Read
+	ServerName,
+	WinDownload,
+	OSXDownload,
+	LinuxDownload,
+	ConnectionPassword
+	FPS
+	BuildNumber ,
+	GoodFileVersion)
+Looking at Logs
+Managing permissions ( Read who has)
+
+===================================================================
+
+mhelp/ahelp/prayer/achat (Receive and send)
+chat  (Receive and send)
+Kick   ( send)
+Ban?  ( send)
+ooc_mute/Global/player  ( send)
+
+playlist  (
+	Character name
+	job
+	admin tag
+	account ID
+	IP,
+	UUID,
+	Is antagonist)
+
+server Config ( Read? (for some) and set
+	ServerName,
+	WinDownload,
+	OSXDownload,
+	LinuxDownload,
+	ConnectionPassword
+	FPS
+	BuildNumber ,
+	GoodFileVersion)
+
+Looking at Logs ( Receive and search )
+
+Managing permissions ( Read who has, remove add people to roles )
+/*/
+
 public class RconManager : SingletonManager<RconManager>
 {
 	private HttpServer httpServer;
@@ -173,20 +255,24 @@ public class RconManager : SingletonManager<RconManager>
 	public static void AddChatLog(string msg)
 	{
 		if(Instance.chatHost == null) return;
+		string json = $"{{\"DateTime\":\"{DateTime.UtcNow}\",\"msg\":\"{EscapeJson(msg)}\"}}";
 
-		msg = $"{DateTime.UtcNow}:    {msg}<br>";
-		AmendChatLog(msg);
-		Instance.chatHost.Sessions.Broadcast(msg);
-		BroadcastToSessions(msg, Instance.chatHost.Sessions.Sessions);
+		AmendChatLog(json);
+		Instance.chatHost.Sessions.Broadcast(json);
+		BroadcastToSessions(json, Instance.chatHost.Sessions.Sessions);
 	}
 
+	private static string EscapeJson(string value)
+	{
+		return value.Replace("\\", "\\\\").Replace("\"", "\\\"").Replace("\n", "\\n").Replace("\r", "\\r");
+	}
 	public static void AddLog(string msg)
 	{
-		msg = $"{DateTime.UtcNow}:    {msg}<br>";
-		AmendLog(msg);
+		string json = $"{{\"DateTime\":\"{DateTime.UtcNow}\",\"msg\":\"{EscapeJson(msg)}\"}}";
+		AmendLog(json);
 		if (Instance.consoleHost != null)
 		{
-			BroadcastToSessions(msg, Instance.consoleHost.Sessions.Sessions);
+			BroadcastToSessions(json, Instance.consoleHost.Sessions.Sessions);
 		}
 	}
 
@@ -228,6 +314,14 @@ public class RconManager : SingletonManager<RconManager>
 		}
 	}
 
+	public class MonitorReadOut
+	{
+		public float FPS;
+		public float FPSAverage;
+		public int RCONAdmins;
+		public double MBsUse;
+	}
+
 	//Monitoring:
 	public static string GetMonitorReadOut()
 	{
@@ -240,12 +334,17 @@ public class RconManager : SingletonManager<RconManager>
 			}
 		}
 
-		//Removed GC Check for time being
-		return $"FPS Stats: Current: {FPSMonitor.Instance.Current} Average: {FPSMonitor.Instance.Average}" +
-			$" Admins Online: " + connectedAdmins;
+		long bytesUsed = GC.GetTotalMemory(false);
+		double mbUsed = bytesUsed / (1024.0 * 1024.0);
 
-		// return $"FPS Stats: Current: {Instance.fpsMonitor.Current} Average: {Instance.fpsMonitor.Average}" +
-		// $" GC MEM: {GC.GetTotalMemory( false ) / 1024 / 1024} MB  Admins Online: " + Instance.monitorHost.Sessions.Count;
+		//Removed GC Check for time being
+		return JsonConvert.SerializeObject(new MonitorReadOut()
+		{
+			FPS = FPSMonitor.Instance.Current,
+			FPSAverage = FPSMonitor.Instance.Average,
+			RCONAdmins = connectedAdmins,
+			MBsUse = mbUsed
+		});
 	}
 
 	public static string GetLastLog()
@@ -256,31 +355,31 @@ public class RconManager : SingletonManager<RconManager>
 	public static string GetFullLog()
 	{
 		var stringBuilder = new StringBuilder();
-		stringBuilder.Append(ServerLog);
+		stringBuilder.AppendJoin(',',ServerLog);
 		var log = stringBuilder.ToString();
 		if (log.Length > 5000)
 		{
 			log = log.Substring(4000);
 		}
-		return log;
+		return $"[{log}]";
 	}
 
 	public static string GetFullChatLog()
 	{
 		var stringBuilder = new StringBuilder();
-		stringBuilder.Append(ChatLog);
+		stringBuilder.AppendJoin(',',ChatLog);
 		var log = stringBuilder.ToString();
 
 		if (string.IsNullOrEmpty(log))
 		{
-			return "No one has said anything yet..";
+			return "[\"No one has said anything yet..\"]";
 		}
 
 		if (log.Length > 10000)
 		{
 			log = log.Substring(9000);
 		}
-		return log;
+		return $"[{log}]";
 	}
 
 	#region RconConsole
@@ -317,21 +416,37 @@ public class RconManager : SingletonManager<RconManager>
 
 public class RconSocket : WebSocketBehavior
 {
+	public class RequestData
+	{
+
+		public CommandType CommandType;
+		public string Data;
+	}
+
+	public enum CommandType
+	{
+		lastlog,
+		logfull,
+		Command
+	}
+
 	protected override void OnMessage(MessageEventArgs e)
 	{
-		if (e.Data == "lastlog")
+		var Request = JsonConvert.DeserializeObject<RequestData>(e.Data);
+
+		if (Request.CommandType == CommandType.lastlog)
 		{
 			Send(RconManager.GetLastLog());
 		}
 
-		if (e.Data == "logfull")
+		if (Request.CommandType == CommandType.logfull)
 		{
 			Send(RconManager.GetFullLog());
 		}
 
-		if (e.Data[0].Equals('1'))
+		if (Request.CommandType == CommandType.Command)
 		{
-			RconManager.Instance.ReceiveRconCommand(e.Data);
+			RconManager.Instance.ReceiveRconCommand(Request.Data);
 		}
 	}
 }
@@ -361,16 +476,33 @@ public class RconMonitor : WebSocketBehavior
 
 public class RconChat : WebSocketBehavior
 {
+
+
+	public class RequestData
+	{
+
+		public CommandType CommandType;
+		public string Data;
+	}
+
+	public enum CommandType
+	{
+		chatfull,
+		Chat
+	}
+
 	protected override void OnMessage(MessageEventArgs e)
 	{
-		if (e.Data == "chatfull")
+		var Request = JsonConvert.DeserializeObject<RequestData>(e.Data);
+
+		if (Request.CommandType == CommandType.chatfull)
 		{
 			Send(RconManager.GetFullChatLog());
 		}
 
-		if (e.Data[0].Equals('1'))
+		if (Request.CommandType == CommandType.Chat)
 		{
-			RconManager.Instance.ReceiveRconChat(e.Data);
+			RconManager.Instance.ReceiveRconChat(Request.Data);
 		}
 	}
 }
