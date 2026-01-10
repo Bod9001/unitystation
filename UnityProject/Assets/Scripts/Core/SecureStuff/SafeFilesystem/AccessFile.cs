@@ -20,6 +20,7 @@ namespace SecureStuff
 		Templates
 	}
 
+	
 	public static class AccessFile
 	{
 		private static string cashedForkName;
