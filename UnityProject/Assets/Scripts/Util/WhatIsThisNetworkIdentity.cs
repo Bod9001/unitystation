@@ -13,7 +13,7 @@ namespace Util
 		public void WhatIsThis()
 		{
 			var spawned =
-				CustomNetworkManager.IsServer ? NetworkServer.spawned : NetworkClient.spawned;
+CustomNetworkManager.IsServer ? NetworkServer.spawned : NetworkClient.spawned;
 
 			Loggy.Error(spawned[ID].gameObject.name);
 		}

@@ -109,7 +109,7 @@ namespace US13.Core.Input_System
 			if (useMappedItems || DevCameraControls.Instance.MappingItemState)
 			{
 				resultRegisterTile.AddRange(matrix.MetaDataLayer.EtherealThings
-					.Where( x => x != null && (x.transform.localPosition -  tilePosition).magnitude < 2)
+					.Where( x => x != null && (x.transform.localPosition -  tilePosition).magnitude < 2 && x?.Pickupable?.UniversalObjectPhysics?.registerTile != null)
 					.Select(x => x.Pickupable.UniversalObjectPhysics.registerTile));
 			}
 

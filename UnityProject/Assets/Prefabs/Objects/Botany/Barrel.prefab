@@ -22,7 +22,7 @@ PrefabInstance:
     - target: {fileID: 4197940402254186057, guid: ebb08cf966efc084aa918bd8d9429604,
         type: 3}
       propertyPath: m_Name
-      value: New Barrel
+      value: Barrel
       objectReference: {fileID: 0}
     - target: {fileID: 4204006106222477459, guid: ebb08cf966efc084aa918bd8d9429604,
         type: 3}
@@ -92,6 +92,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
         type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 6604949802057068349}
+    - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
+        type: 3}
       propertyPath: PresentSpriteSet
       value: 
       objectReference: {fileID: 11400000, guid: 88e21d4b13ee37b48978ebc4f7bb8a9d,
@@ -111,13 +116,13 @@ PrefabInstance:
         type: 3}
       propertyPath: 'SubCatalogue.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 88e21d4b13ee37b48978ebc4f7bb8a9d,
+      objectReference: {fileID: 11400000, guid: 77c97e7668c8d2a4b97af8a8136a456c,
         type: 2}
     - target: {fileID: 8652228875761003667, guid: ebb08cf966efc084aa918bd8d9429604,
         type: 3}
       propertyPath: 'SubCatalogue.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: 77c97e7668c8d2a4b97af8a8136a456c,
+      objectReference: {fileID: 11400000, guid: 88e21d4b13ee37b48978ebc4f7bb8a9d,
         type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -130,19 +135,19 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4197940402254186057, guid: ebb08cf966efc084aa918bd8d9429604,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3132230754767840952}
-    - targetCorrespondingSourceObject: {fileID: 4197940402254186057, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4140194575161663140}
-    - targetCorrespondingSourceObject: {fileID: 4197940402254186057, guid: ebb08cf966efc084aa918bd8d9429604,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1342417162974140097}
     - targetCorrespondingSourceObject: {fileID: 4197940402254186057, guid: ebb08cf966efc084aa918bd8d9429604,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: -4026986227481247173}
+    - targetCorrespondingSourceObject: {fileID: 4197940402254186057, guid: ebb08cf966efc084aa918bd8d9429604,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3132230754767840952}
+    - targetCorrespondingSourceObject: {fileID: 4197940402254186057, guid: ebb08cf966efc084aa918bd8d9429604,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4140194575161663140}
   m_SourcePrefab: {fileID: 100100000, guid: ebb08cf966efc084aa918bd8d9429604, type: 3}
 --- !u!114 &1916759854718804464 stripped
 MonoBehaviour:
@@ -189,56 +194,6 @@ MonoBehaviour:
   SetSlotItemNotRemovableOnStartUp: 0
   initialignoreRoundstartGrabObjects: 0
   ashPrefab: {fileID: 0}
---- !u!114 &3132230754767840952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6397717525953366826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47222e0949b25eb4d922fc0e53622de4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  container: {fileID: 1342417162974140097}
-  closeSound:
-    SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Machines/Crate/crate_close.prefab
-    AssetReference:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-  openSound:
-    SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Machines/Crate/crate_open.prefab
-    AssetReference:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-  fermentedBubble:
-    SetLoadSetting: 0
-    AssetAddress: Assets/Prefabs/Effects/SnapCracklePop2.prefab
-    AssetReference:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-  barrelSpriteHandler: {fileID: 1916759854718804464}
---- !u!114 &4140194575161663140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6397717525953366826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47c3d7b4b91ddcf4383fe99ec5d89a79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1342417162974140097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,10 +206,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6adedb9416d7b647b6c3811ff2f0824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
   ReactionSounds: 1
   maxCapacity: 300
   DEBUGReagent: {fileID: 0}
   DEBUGAmount: 0
+  StopReactions: 0
   reactionSet: {fileID: 0}
   AdditionalReactions: []
   initialReagentMix:
@@ -266,6 +225,12 @@ MonoBehaviour:
   destroyOnEmpty: 0
   ContentsSet: 0
   menuOptions: -1
+  currentReagentMix:
+    temperature: 0
+    reagents:
+      m_keys: []
+      m_values: []
+    reagentKeys: []
   spriteHandler: {fileID: 0}
   UseStandardExamine: 1
   ExamineAmount: 0
@@ -273,6 +238,7 @@ MonoBehaviour:
   traitWhitelist: []
   reagentWhitelist: []
   transferMode: 2
+  onlyAllowSyringeFilling: 0
   SyringePulling: 0
   possibleTransferAmounts: []
   transferAmount: 20
@@ -300,3 +266,59 @@ MonoBehaviour:
   lockSpriteDirection: 0
   blockAnchorChange: 0
   blockMessage: 
+--- !u!114 &3132230754767840952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397717525953366826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47222e0949b25eb4d922fc0e53622de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  container: {fileID: 1342417162974140097}
+  closeSound:
+    AssetAddress: Assets/Prefabs/Machines/Crate/crate_close.prefab
+    AssetReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  openSound:
+    AssetAddress: Assets/Prefabs/Machines/Crate/crate_open.prefab
+    AssetReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  fermentedBubble:
+    AssetAddress: Assets/Prefabs/Effects/SnapCracklePop2.prefab
+    AssetReference:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  barrelSpriteHandler: {fileID: 1916759854718804464}
+--- !u!114 &4140194575161663140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397717525953366826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c3d7b4b91ddcf4383fe99ec5d89a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &6604949802057068349 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4116897424394887774, guid: ebb08cf966efc084aa918bd8d9429604,
+    type: 3}
+  m_PrefabInstance: {fileID: 7100864605536308579}
+  m_PrefabAsset: {fileID: 0}

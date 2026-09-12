@@ -15,6 +15,7 @@ namespace US13.Systems.Spells.Wizard
 			var Slot = caster.Script.GetComponent<DynamicItemStorage>().GetActiveHandSlot();
 
 			if (Slot == null) return false;
+			if (Slot.Item == null) return false;
 
 			if (Slot.Item.TryGetComponent<GunPKA>(out var GunPKA))
 			{

@@ -120,22 +120,22 @@ namespace US13.Systems.Antagonists.Antags
 
 		private IEnumerable<SpellData> GetRandomWizardSpells()
 		{
-			return SpellList.Instance.Spells.Where(s => s is WizardSpellData).PickRandom(StartingSpellCount);
+			return SpellList.Instance.Spells.Where(s => s is WizardSpellData  { CanBeRandomlyChosenForWizard: true }).PickRandom(StartingSpellCount);
 		}
 
 		public static IEnumerable<SpellData> GetRandomWizardSpells(int numberOfSpells)
 		{
-			return SpellList.Instance.Spells.Where(s => s is WizardSpellData).PickRandom(numberOfSpells);
+			return SpellList.Instance.Spells.Where(s => s is WizardSpellData  { CanBeRandomlyChosenForWizard: true }).PickRandom(numberOfSpells);
 		}
 
 		public static SpellData GetRandomWizardSpell()
 		{
-			return SpellList.Instance.Spells.Where(s => s is WizardSpellData).PickRandom();
+			return SpellList.Instance.Spells.Where(s => s is WizardSpellData { CanBeRandomlyChosenForWizard: true }).PickRandom();
 		}
 
 		public static SpellData GetRandomNonRobeSpecificWizardSpell()
 		{
-			return SpellList.Instance.Spells.Where(s => s is WizardSpellData { RequiresWizardGarb: false }).PickRandom();
+			return SpellList.Instance.Spells.Where(s => s is WizardSpellData { RequiresWizardGarb: false, CanBeRandomlyChosenForWizard: true }).PickRandom();
 		}
 	}
 }

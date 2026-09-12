@@ -60,10 +60,13 @@ namespace US13.UI.Systems.AdminTools
 				index = 0;
 			}
 
+			List<EventScriptBase> listEvents = InGameEventsManager.Instance.GetListFromEnum(eventType);
+			var Name = listEvents[index - 1].EventName;
+
 			if (index != 0) // Index 0 (Random Event) will never have a parameter page
 			{
+
 				// Instead of triggering the event right away, if we have an extra parameter page, we show it
-				List<EventScriptBase> listEvents = InGameEventsManager.Instance.GetListFromEnum(eventType);
 				if (listEvents[index - 1].parametersPageType != ParametersPageType.None)
 				{
 					GameObject parameterPage = eventsParametersPages.eventParameterPages
@@ -72,14 +75,14 @@ namespace US13.UI.Systems.AdminTools
 					if (parameterPage)
 					{
 						parameterPage.SetActive(true);
-						parameterPage.GetComponent<SicknessParametersPage>().SetBasicEventParameters(index,
+						parameterPage.GetComponent<SicknessParametersPage>().SetBasicEventParameters(Name,
 							isFakeToggle.isOn, announceToggle.isOn, InGameEventType.Fun);
 						return;
 					}
 				}
 			}
 
-			AdminCommandsManager.Instance.CmdTriggerGameEvent(index, isFakeToggle.isOn, announceToggle.isOn, eventType, null);
+			AdminCommandsManager.Instance.CmdTriggerGameEvent(Name, isFakeToggle.isOn, announceToggle.isOn, eventType, null);
 		}
 
 		public void ToggleRandomEvents()
