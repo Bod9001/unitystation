@@ -215,8 +215,14 @@ namespace US13.ChemistryComponents
 				return false;
 			}
 
+
+
 			if (side == NetworkSide.Server)
 			{
+				var transferFrom = target == transferTo ? objectInHands : target;
+
+				if (transferFrom.IsEmpty) return false; //Is empty and only is known on the server
+
 				if (objectInHands.TraitWhitelistOn && !Validations.HasAnyTrait(dstObject, objectInHands.traitWhitelist))
 				{
 					return false;

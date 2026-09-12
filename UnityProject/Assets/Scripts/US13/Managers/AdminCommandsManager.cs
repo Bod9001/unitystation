@@ -242,13 +242,13 @@ namespace US13.Managers
 		#region EventsPage
 
 		[Command(requiresAuthority = false)]
-		public void CmdTriggerGameEvent(int eventIndex, bool isFake, bool announceEvent,
+		public void CmdTriggerGameEvent(string eventName, bool isFake, bool announceEvent,
 			InGameEventType eventType, string serializedEventParameters, NetworkConnectionToClient sender = null)
 		{
 			if (HasPermission(sender, out var player,  TAG.MANAGE_ROUND_GAME_EVENT) == false) return;
 
 			InGameEventsManager.Instance.TriggerSpecificEvent(
-				eventIndex, eventType, isFake, player.Username, announceEvent, serializedEventParameters);
+				eventName, eventType, isFake, player.Username, announceEvent, serializedEventParameters);
 		}
 
 		#endregion

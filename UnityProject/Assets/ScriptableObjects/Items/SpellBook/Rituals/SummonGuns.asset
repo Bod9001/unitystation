@@ -20,13 +20,13 @@ MonoBehaviour:
   conflictsWith: []
   name: Summon Guns
   eventType: 3
-  eventIndex: 2
+  eventObjectNameIndex: Wizard - Summon Guns
   invocationMessage: 
   castSound:
-    SetLoadSetting: 0
     AssetAddress: 
     AssetReference:
       m_AssetGUID: 
       m_SubObjectName: 
+      m_SubObjectGUID: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0

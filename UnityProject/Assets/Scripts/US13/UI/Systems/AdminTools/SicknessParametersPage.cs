@@ -20,7 +20,7 @@ namespace US13.UI.Systems.AdminTools
 		[SerializeField]
 		private InputField DiseaseStrengthInput = null;
 
-		private int index;
+		private string EventName;
 		private bool fakeEvent;
 		private bool announceEvent;
 		private InGameEventType eventType;
@@ -38,9 +38,9 @@ namespace US13.UI.Systems.AdminTools
 			sicknessDropdown.AddOptions(optionDatas);
 		}
 
-		public void SetBasicEventParameters(int index, bool isFake, bool announce, InGameEventType eventType)
+		public void SetBasicEventParameters(string EventName, bool isFake, bool announce, InGameEventType eventType)
 		{
-			this.index = index;
+			this.EventName = EventName;
 			fakeEvent = isFake;
 			announceEvent = announce;
 			this.eventType = eventType;
@@ -59,7 +59,7 @@ namespace US13.UI.Systems.AdminTools
 			eventParameters.SicknessIndex = sicknessDropdown.value;
 
 			AdminCommandsManager.Instance.CmdTriggerGameEvent(
-					index, fakeEvent, announceEvent, eventType, JsonConvert.SerializeObject(eventParameters));
+				EventName, fakeEvent, announceEvent, eventType, JsonConvert.SerializeObject(eventParameters));
 
 			// We hide the panel
 			gameObject.SetActive(false);

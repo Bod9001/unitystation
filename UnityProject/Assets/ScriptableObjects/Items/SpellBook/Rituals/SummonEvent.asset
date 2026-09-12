@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e89e90114aa83449cdaee7c0a5d3b2, type: 3}
-  m_Name: SummonMagic
+  m_Name: SummonEvent
   m_EditorClassIdentifier: 
-  description: Share the wonders of magic with the crew and show them why they aren't
-    to be trusted with it at the same time.
+  description: increase the general weirdness of the station increasing the likelihood
+    of events
   note: 
   cost: 2
   conflictsWith: []
-  name: Summon Magic
-  eventType: 3
-  eventObjectNameIndex: Wizard - Summon Magic
+  name: Summon Events
+  eventType: 1
+  eventObjectNameIndex: increase frequency events
   invocationMessage: 
   castSound:
     AssetAddress: null

@@ -18,7 +18,7 @@ namespace US13.Objects.Engineering
 		Empty,
 	}
 
-	public class DepartmentBattery : NetworkBehaviour, ICheckedInteractable<HandApply>, INodeControl, ICheckedInteractable<AiActivate>
+	public class DepartmentBattery : NetworkBehaviour, ICheckedInteractable<HandApply>, INodeControl, ICheckedInteractable<AiActivate>, IExaminable
 	{
 		public DepartmentBatterySprite CurrentSprite = DepartmentBatterySprite.Default;
 		public SpriteRenderer Renderer;
@@ -46,7 +46,10 @@ namespace US13.Objects.Engineering
 
 		public ElectricalNodeControl ElectricalNodeControl;
 		public BatterySupplyingModule BatterySupplyingModule;
-
+		private float MaxCharge => BatterySupplyingModule.CapacityMax;
+		private float CurrentCharge => BatterySupplyingModule.GetSetCurrentCapacity;
+		private int ChargePercent => Mathf.RoundToInt(CurrentCharge * 100 / MaxCharge);
+		private bool IsCharging => BatterySupplyingModule.ChargingWatts > 10f;
 		public event Action<PowerState, PowerState> OnStateChangeEvent;
 		private PowerState currentState = PowerState.Off;
 
@@ -131,6 +134,16 @@ namespace US13.Objects.Engineering
 			}
 			SetPowerStateFromVoltage();
 		}
+
+		public string Examine(Vector3 worldPos = default)
+		{
+			return $"The charge indicator shows a {ChargePercent} percent charge. " +
+			       $"The input level is: {BatterySupplyingModule.InputLevel} % The output level is: {BatterySupplyingModule.OutputLevel} %. " +
+			       $"The power input/output is " +
+			       $"enabled, and it seems to {(IsCharging ? "be" : "not be")} charging. " +
+			       "Use a crowbar to adjust the output level and a wrench to adjust the input level.";
+		}
+
 
 		public PowerState SetPowerStateFromVoltage()
 		{

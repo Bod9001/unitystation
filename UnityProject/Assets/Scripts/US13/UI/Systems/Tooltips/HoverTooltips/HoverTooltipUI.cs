@@ -231,6 +231,8 @@ namespace US13.UI.Systems.Tooltips.HoverTooltips
 				List<TextColor> e = new List<TextColor> {new TextColor() { Text = "Shift+Click to examine closely", Color = Color.green }, };
 				UpdateInteractionsView(e);
 			}
+
+			descText.text = advancedText.ToString();
 		}
 
 		private bool IsDescOrTitleEmpty()
@@ -280,6 +282,9 @@ namespace US13.UI.Systems.Tooltips.HoverTooltips
 			{
 				return;
 			}
+
+			nameText.text = "";
+			descText.text = "";
 
 			UpdateMainInfo(target);
 			CaptureIconFromSpriteHandler(target);

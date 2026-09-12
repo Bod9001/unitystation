@@ -4,12 +4,14 @@ using System.Linq;
 using Logs;
 using Shared.Managers;
 using UnityEngine;
+using UnityEngine.Serialization;
 using US13.Managers;
 using US13.Managers.NetworkManagement;
 using US13.Managers.UpdateManager;
 using US13.Systems.Score;
 using Util;
 using Random = UnityEngine.Random;
+using Event = US13.Managers.Event;
 
 namespace US13.Systems.InGameEvents
 {
@@ -23,8 +25,10 @@ namespace US13.Systems.InGameEvents
 		/// <summary>
 		/// How long between each event check
 		/// </summary>
-		[SerializeField]
-		private float triggerEventInterval = 600f;
+		[FormerlySerializedAs("triggerEventInterval")] [SerializeField]
+		private float initialTriggerEventInterval = 600f;
+
+		public float TriggerEventInterval;
 
 		/// <summary>
 		/// Chance the random event is fake as a %
@@ -44,6 +48,7 @@ namespace US13.Systems.InGameEvents
 
 		public override void Awake()
 		{
+			TriggerEventInterval = initialTriggerEventInterval;
 			base.Awake();
 			EnumListCache = Enum.GetNames(typeof(InGameEventType)).ToList();
 		}
@@ -57,11 +62,18 @@ namespace US13.Systems.InGameEvents
 		private void OnEnable()
 		{
 			UpdateManager.Add(CallbackType.UPDATE, UpdateMe);
+			EventManager.AddHandler(Event.RoundEnded, OnRoundEnd);
 		}
 
 		private void OnDisable()
 		{
 			UpdateManager.Remove(CallbackType.UPDATE, UpdateMe);
+			EventManager.RemoveHandler(Event.RoundEnded, OnRoundEnd);
+		}
+
+		public void OnRoundEnd()
+		{
+			TriggerEventInterval = initialTriggerEventInterval;
 		}
 
 		private void UpdateMe()
@@ -75,13 +87,13 @@ namespace US13.Systems.InGameEvents
 			if(PlayerList.Instance.InGamePlayers.Count < minPlayersForRandomEventsToHappen) return;
 
 			timer += Time.deltaTime;
-			if (timer > triggerEventInterval)
+			if (timer > TriggerEventInterval)
 			{
 				var isFake = Random.Range(0,100) < chanceItIsFake;
 
-				StartRandomEvent(GetRandomEventList(), isFake: isFake, serverTriggered: true, UsedTime: triggerEventInterval);
+				StartRandomEvent(GetRandomEventList(), isFake: isFake, serverTriggered: true, UsedTime: TriggerEventInterval);
 
-				timer -= triggerEventInterval;
+				timer -= TriggerEventInterval;
 			}
 		}
 
@@ -115,7 +127,7 @@ namespace US13.Systems.InGameEvents
 			list.Add(eventToAdd);
 		}
 
-		public void TriggerSpecificEvent(int eventIndex, InGameEventType eventType, bool isFake = false, string adminName = null, bool announceEvent = true, string serializedEventParameters = null)
+		public void TriggerSpecificEvent(string eventName, InGameEventType eventType, bool isFake = false, string adminName = null, bool announceEvent = true, string serializedEventParameters = null)
 		{
 			List<EventScriptBase> list;
 
@@ -134,13 +146,13 @@ namespace US13.Systems.InGameEvents
 				return;
 			}
 
-			if (eventIndex == 0)
+			if (string.IsNullOrEmpty(eventName))
 			{
 				StartRandomEvent(list, true, isFake, false, adminName, announceEvent);
 			}
 			else
 			{
-				var eventChosen = list[eventIndex - 1];
+				var eventChosen = list.FirstOrDefault(x=> x.EventName == eventName);
 				eventChosen.FakeEvent = isFake;
 				eventChosen.AnnounceEvent = announceEvent;
 				eventChosen.TriggerEvent(serializedEventParameters);

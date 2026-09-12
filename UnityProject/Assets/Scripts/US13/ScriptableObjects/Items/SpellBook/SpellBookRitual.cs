@@ -18,7 +18,7 @@ namespace US13.ScriptableObjects.Items.SpellBook
 		private InGameEventType eventType = default;
 		[Tooltip("The index of the event to trigger (in the event type), as found in InGameEventsManager.")]
 		[SerializeField]
-		private int eventIndex = default;
+		private string eventObjectNameIndex = default;
 		[SerializeField]
 		private string invocationMessage = default;
 		[SerializeField]
@@ -26,7 +26,7 @@ namespace US13.ScriptableObjects.Items.SpellBook
 
 		public string Name => name;
 		public InGameEventType EventType => eventType;
-		public int EventIndex => eventIndex;
+		public string EventObjectNameIndex => eventObjectNameIndex;
 		public string InvocationMessage => invocationMessage;
 		public AddressableAudioSource CastSound => castSound;
 

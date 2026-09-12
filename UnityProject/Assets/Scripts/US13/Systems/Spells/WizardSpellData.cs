@@ -22,5 +22,7 @@ namespace US13.Systems.Spells
 		public int TierCount => tierCount;
 		public bool IsUpgradeable => tierCount > 1;
 		public float CooldownModifier => cooldownModifierPC / 100;
+
+		public bool CanBeRandomlyChosenForWizard = true;
 	}
 }
