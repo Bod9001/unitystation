@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Chemistry;
 using UnityEngine;
+using US13.Core.Modular;
 using US13.Managers;
 using US13.Objects.Chemistry;
 using US13.Objects.Engineering;
@@ -12,7 +13,7 @@ using US13.UI.Core.Net.Elements;
 
 namespace US13.UI.Objects.Medical
 {
-	public class GUI_BoozeDispenser : NetTab
+	public class GUI_BoozeDispenser : NetTab, IReagentDispenser
 	{
 		[NonSerialized]
 		public int DispensedNumber = 20;
@@ -133,7 +134,7 @@ namespace US13.UI.Objects.Medical
 				var reagentList = BoozeDispenser.Container;
 				foreach (var reagent in reagentList)
 				{
-					newListOfReagents.AppendLine($"{char.ToUpper(reagent.Key.Name[0])}{reagent.Key.Name.Substring(1)}");
+					newListOfReagents.AppendLine($"{char.ToUpper(reagent.Key.ReagentName[0])}{reagent.Key.ReagentName.Substring(1)}");
 					newQuantityList.AppendLine($"{Math.Round(reagent.Value,1)}u");
 				}
 				Total.MasterSetValue($"{BoozeDispenser.Container.Total}/{BoozeDispenser.Container.MaxCapacity} Units");

@@ -3,6 +3,8 @@ using System.Linq;
 using Chemistry;
 using Logs;
 using UnityEngine;
+using US13.Core.Chat;
+using US13.Core.Modular;
 using US13.Managers;
 using US13.Objects.Chemistry;
 using US13.Objects.Engineering;
@@ -11,7 +13,7 @@ using US13.UI.Core.Net.Elements;
 
 namespace US13.UI.Objects.Medical
 {
-	public class GUI_ChemistryDispenser : NetTab
+	public class GUI_ChemistryDispenser : NetTab, IReagentDispenser
 	{
 		public int DispensedNumber = 20;
 
@@ -82,34 +84,42 @@ namespace US13.UI.Objects.Medical
 		{
 			if (ChemistryDispenser.Container != null)
 			{
-				if (ChemistryDispenser.ThisState == PowerState.On
-					|| ChemistryDispenser.ThisState == PowerState.LowVoltage
-					|| ChemistryDispenser.ThisState == PowerState.OverVoltage)
+				if (ChemistryDispenser.ThisState is PowerState.On or PowerState.LowVoltage or PowerState.OverVoltage)
 				{
-					if (dispensableReagents.Contains(reagent)) // Checks if the the dispenser can dispense this chemical
+					// prevents cheating by only allowing certain reagents to be dispensed
+					if (dispensableReagents.Contains(reagent))
 					{
-						float OutDispensedNumber = 0; // TODO: is always 0? Hmm?
-						switch (ChemistryDispenser.ThisState)
-						{
-							case PowerState.OverVoltage:
-								OutDispensedNumber = DispensedNumber * 2;
-								break;
-							case PowerState.LowVoltage:
-								OutDispensedNumber = DispensedNumber * 0.5f;
-								break;
-
-							default:
-								OutDispensedNumber = DispensedNumber;
-								break;
-						}
-
-						ChemistryDispenser.Container.Add(new ReagentMix(reagent, OutDispensedNumber,
-							ChemistryDispenser.DispensedTemperatureCelsius));
+						PutChemicalInContainer(reagent);
 					}
 				}
 			}
-
+			else
+			{
+				foreach (PlayerInfo playerInfo in Peepers)
+				{
+					Chat.AddExamineMsg(playerInfo.Mind.gameObject, $"No container inserted to dispense '{reagent.ReagentName}' into.");
+				}
+			}
 			UpdateAll();
+		}
+
+		private void PutChemicalInContainer(Reagent reagent)
+		{
+			float OutDispensedNumber = 0; // TODO: is always 0? Hmm?
+			switch (ChemistryDispenser.ThisState)
+			{
+				case PowerState.OverVoltage:
+					OutDispensedNumber = DispensedNumber * 2;
+					break;
+				case PowerState.LowVoltage:
+					OutDispensedNumber = DispensedNumber * 0.5f;
+					break;
+
+				default:
+					OutDispensedNumber = DispensedNumber;
+					break;
+			}
+			ChemistryDispenser.Container.Add(new ReagentMix(reagent, OutDispensedNumber, ChemistryDispenser.DispensedTemperatureCelsius));
 		}
 
 		// Turns off and on the heater
@@ -162,7 +172,7 @@ namespace US13.UI.Objects.Medical
 				foreach (var reagent in roundedReagents)
 				{
 					newListOfReagents +=
-						$"{char.ToUpper(reagent.Key.Name[0])}{reagent.Key.Name.Substring(1)} - {reagent.Value} U \n";
+						$"{char.ToUpper(reagent.Key.ReagentName[0])}{reagent.Key.ReagentName.Substring(1)} - {reagent.Value} U \n";
 				}
 
 				TotalAndTemperature.MasterSetValue($"{ChemistryDispenser.Container.Total}U @ {(ChemistryDispenser.Container.Temperature)}°K");

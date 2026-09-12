@@ -47,7 +47,7 @@ namespace Chemistry
 
 				foreach (KeyValuePair<Reagent, int> product in results.m_dict)
 				{
-					sb.Append($"{product.Key.Name},");
+					sb.Append($"{product.Key.ReagentName},");
 				}
 
 				sb.Remove(sb.Length - 1, 1); //remove last comma
@@ -263,6 +263,16 @@ namespace Chemistry
 			return true;
 		}
 
+		public Color GetReactionColor()
+		{
+			Color color = Color.antiqueWhite;
+			foreach (var result in results.m_dict)
+			{
+				color += result.Key.color * result.Value;
+			}
+			color /= results.m_dict.Count;
+			return color;
+		}
 	}
 
 	public struct CachedEffect
