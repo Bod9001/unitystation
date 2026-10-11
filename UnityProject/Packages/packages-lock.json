@@ -14,13 +14,6 @@
       "dependencies": {},
       "hash": "8a8fa5a9659a6d63f196391c71e06c4286c8acd7"
     },
-    "com.kyrylokuzyk.primetween": {
-      "version": "1.4.8",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://registry.npmjs.org"
-    },
     "com.psydack.uimgui": {
       "version": "https://github.com/psydack/uimgui.git",
       "depth": 0,
@@ -58,10 +51,11 @@
       }
     },
     "com.unity.2d.tilemap.extras": {
-      "version": "4.1.0",
+      "version": "4.0.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
+        "com.unity.ugui": "1.0.0",
         "com.unity.2d.tilemap": "1.0.0",
         "com.unity.modules.tilemap": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
@@ -93,11 +87,12 @@
     "com.unity.ext.nunit": {
       "version": "2.0.5",
       "depth": 1,
-      "source": "builtin",
-      "dependencies": {}
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.40",
+      "version": "3.0.34",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -106,7 +101,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.23",
+      "version": "2.0.22",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -124,19 +119,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer.playmode": {
-      "version": "1.3.3",
+      "version": "1.3.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.2"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.nuget.mono-cecil": {
-      "version": "1.11.5",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
@@ -169,24 +157,11 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.project-auditor": {
-      "version": "1.0.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.nuget.mono-cecil": "1.10.1",
-        "com.unity.nuget.newtonsoft-json": "3.2.1"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.scriptablebuildpipeline": {
-      "version": "2.4.3",
+      "version": "2.1.4",
       "depth": 1,
       "source": "registry",
-      "dependencies": {
-        "com.unity.test-framework": "1.4.5",
-        "com.unity.modules.assetbundle": "1.0.0"
-      },
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot": {
@@ -206,14 +181,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.6.0",
+      "version": "1.1.33",
       "depth": 0,
-      "source": "builtin",
+      "source": "registry",
       "dependencies": {
-        "com.unity.ext.nunit": "2.0.3",
+        "com.unity.ext.nunit": "1.0.6",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
-      }
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.toolchain.win-x86_64-linux-x86_64": {
       "version": "2.0.10",
@@ -261,11 +237,11 @@
       "hash": "275406258aca21fe7753cf0724a65f06fd464eea"
     },
     "org.unitystation.spacemirror": {
-      "version": "https://github.com/unitystation/Mirror.git?path=/Assets/Mirror#CleanBranch",
+      "version": "https://github.com/unitystation/Mirror.git?path=/Assets/Mirror#update-2-6.5",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "de0de60348eb69acac596226e1878118f57116b7"
+      "hash": ""
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
@@ -387,8 +363,7 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.hierarchycore": "1.0.0",
-        "com.unity.modules.physics": "1.0.0"
+        "com.unity.modules.hierarchycore": "1.0.0"
       }
     },
     "com.unity.modules.umbra": {
